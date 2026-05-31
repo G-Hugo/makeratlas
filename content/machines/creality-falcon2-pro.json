@@ -1,0 +1,105 @@
+{
+  "id": "creality-falcon2-pro",
+  "slug": "creality-falcon2-pro",
+  "name": "Creality Falcon2 Pro",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "High-power diode with built-in air assist and color engraving gimmick",
+  "tldr": "Creality's top open-frame diode at 60W combined (22W optical class). Built-in air pump and optional color engraving on stainless via heat oxidation. Interesting middle ground, but verify real-world cut depth on your materials.",
+  "bestFor": [
+    "Color metal effects",
+    "Integrated air assist",
+    "Creality ecosystem fans",
+    "Strong diode cutting"
+  ],
+  "priceRange": {
+    "min": 799,
+    "max": 1099,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "60W combined / ~22W optical diode",
+    "workArea": "400 × 415 mm",
+    "software": [
+      "Creality Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "technical": {
+        "spotSize": "~0.06 mm compressed spot",
+        "maxSpeed": "417 mm/s",
+        "avgEngraveSpeed": "90–180 mm/s fill",
+        "avgCutSpeed": "6–15 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Stainless steel (color and dark mark)",
+      "Anodized aluminum",
+      "Slate"
+    ],
+    "cut": [
+      "Basswood up to ~10 mm (claimed, multi-pass)",
+      "Black acrylic (thin)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "CO₂-level acrylic production",
+      "Deep metal engraving",
+      "Large business throughput without upgrades"
+    ]
+  },
+  "pros": [
+    "Built-in air assist — one less accessory to buy",
+    "Color engraving on stainless is a unique selling point",
+    "Strong performance in the high-power diode segment",
+    "LightBurn support",
+    "Creality brand familiarity for 3D printer owners"
+  ],
+  "cons": [
+    "60W marketing number confuses beginners — optical power is lower",
+    "Open frame with high power — treat safety seriously",
+    "Creality laser software less mature than xTool",
+    "Color metal effect is niche, not a business foundation alone",
+    "Heavier unit — less portable than it looks"
+  ],
+  "beginnerNotes": "Do not buy it because of '60W' alone — compare optical power and cut tests. Good pick if you want air assist included and might use color stainless effects for jewelry or knives.",
+  "proTips": "Color marking requires precise speed/power control — practice on scrap stainless. Use LightBurn for serious work. Pair with proper extraction — built-in air assist helps cuts but does not replace ventilation.",
+  "primaryUse": "High-power hobby diode for engraving and moderate cutting, with optional color effects on stainless steel.",
+  "rating": {
+    "overall": 8.3,
+    "value": 8.2,
+    "easeOfUse": 8,
+    "capability": 8.4,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra",
+    "xtool-d1-pro",
+    "ortur-laser-master-3"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/creality-falcon2-pro.png",
+  "mainObjective": "High-power diode with built-in air assist & color metal effects"
+}

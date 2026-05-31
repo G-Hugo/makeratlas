@@ -1,0 +1,747 @@
+[
+  {
+    "post_type": "machine",
+    "post_title": "Atomstack A5 Pro",
+    "post_name": "atomstack-a5-pro",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nOne of the cheapest ways to try laser engraving. Available up to 40W (combined diode modules). Fine for learning and small gifts, but expect compromises in build quality, safety features, and consistency.\n\n## Primary use\n\nLowest-cost experimentation with diode laser engraving on small wood and leather projects.\n\n## Beginner notes\n\nHonest advice: if you can afford $500–700, skip this and get an Ortur LM3 or Sculpfun S30. Buy Atomstack only when budget is truly fixed and you accept that you may outgrow it in months.\n\n## Pro tips\n\nSquare the frame before first use. Replace the stock board if you hit firmware limits. Do not trust '40W' for business planning — test cut depth yourself on your unit.\n\n## Pros\n\n- Lowest cost entry to laser engraving\n- Large work area for the price\n- Upgrade path via module swaps\n- Huge amount of community content\n- Good 'try before you invest' machine\n\n## Cons\n\n- Build quality and alignment vary unit to unit\n- 40W label is marketing — real output is much lower\n- No enclosure, limited safety features\n- May need significant tinkering out of the box\n- Resale value low if you upgrade quickly",
+    "acf": {
+      "brand": "Atomstack",
+      "laser_type": "diode",
+      "tagline": "Ultra-budget diode laser — minimum viable entry point",
+      "tldr": "One of the cheapest ways to try laser engraving. Available up to 40W (combined diode modules). Fine for learning and small gifts, but expect compromises in build quality, safety features, and consistency.",
+      "best_for": [
+        "Tight budget",
+        "Testing the hobby",
+        "Small gifts",
+        "Students"
+      ],
+      "price_min": 199,
+      "price_max": 499,
+      "price_currency": "USD",
+      "price_note": "40W versions ~$350–500",
+      "specs": {
+        "power": "5W / 10W / 20W / 40W diode options",
+        "workArea": "410 × 400 mm",
+        "precision": "0.01 mm",
+        "software": [
+          "LightBurn",
+          "LaserGRBL"
+        ],
+        "connectivity": [
+          "USB"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Wood",
+          "Leather",
+          "Slate",
+          "Anodized aluminum (light)"
+        ],
+        "cut": [
+          "Thin basswood 2–4 mm",
+          "Paper",
+          "Thin fabric"
+        ],
+        "cannot": [
+          "Reliable thick cuts",
+          "Metal without spray",
+          "Clear acrylic",
+          "Production work"
+        ]
+      },
+      "rating": {
+        "overall": 7.4,
+        "value": 8.5,
+        "easeOfUse": 7,
+        "capability": 6.8,
+        "buildQuality": 6.5
+      },
+      "primary_use": "Lowest-cost experimentation with diode laser engraving on small wood and leather projects.",
+      "beginner_notes": "Honest advice: if you can afford $500–700, skip this and get an Ortur LM3 or Sculpfun S30. Buy Atomstack only when budget is truly fixed and you accept that you may outgrow it in months.",
+      "pro_tips": "Square the frame before first use. Replace the stock board if you hit firmware limits. Do not trust '40W' for business planning — test cut depth yourself on your unit.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "diode",
+      "brand": "Atomstack",
+      "category": "laser-engraver"
+    }
+  },
+  {
+    "post_type": "machine",
+    "post_title": "Creality Falcon2 Pro",
+    "post_name": "creality-falcon2-pro",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nCreality's top open-frame diode at 60W combined (22W optical class). Built-in air pump and optional color engraving on stainless via heat oxidation. Interesting middle ground, but verify real-world cut depth on your materials.\n\n## Primary use\n\nHigh-power hobby diode for engraving and moderate cutting, with optional color effects on stainless steel.\n\n## Beginner notes\n\nDo not buy it because of '60W' alone — compare optical power and cut tests. Good pick if you want air assist included and might use color stainless effects for jewelry or knives.\n\n## Pro tips\n\nColor marking requires precise speed/power control — practice on scrap stainless. Use LightBurn for serious work. Pair with proper extraction — built-in air assist helps cuts but does not replace ventilation.\n\n## Pros\n\n- Built-in air assist — one less accessory to buy\n- Color engraving on stainless is a unique selling point\n- Strong performance in the high-power diode segment\n- LightBurn support\n- Creality brand familiarity for 3D printer owners\n\n## Cons\n\n- 60W marketing number confuses beginners — optical power is lower\n- Open frame with high power — treat safety seriously\n- Creality laser software less mature than xTool\n- Color metal effect is niche, not a business foundation alone\n- Heavier unit — less portable than it looks",
+    "acf": {
+      "brand": "Creality",
+      "laser_type": "diode",
+      "tagline": "High-power diode with built-in air assist and color engraving gimmick",
+      "tldr": "Creality's top open-frame diode at 60W combined (22W optical class). Built-in air pump and optional color engraving on stainless via heat oxidation. Interesting middle ground, but verify real-world cut depth on your materials.",
+      "best_for": [
+        "Color metal effects",
+        "Integrated air assist",
+        "Creality ecosystem fans",
+        "Strong diode cutting"
+      ],
+      "price_min": 799,
+      "price_max": 1099,
+      "price_currency": "USD",
+      "price_note": "",
+      "specs": {
+        "power": "60W combined / ~22W optical diode",
+        "workArea": "400 × 415 mm",
+        "precision": "0.01 mm",
+        "speed": "Up to 25,000 mm/min",
+        "software": [
+          "Creality Laser",
+          "LightBurn"
+        ],
+        "connectivity": [
+          "USB"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Wood",
+          "Leather",
+          "Stainless steel (color and dark mark)",
+          "Anodized aluminum",
+          "Slate"
+        ],
+        "cut": [
+          "Basswood up to ~10 mm (claimed, multi-pass)",
+          "Black acrylic (thin)",
+          "Paper",
+          "Fabric"
+        ],
+        "cannot": [
+          "Clear acrylic",
+          "CO₂-level acrylic production",
+          "Deep metal engraving",
+          "Large business throughput without upgrades"
+        ]
+      },
+      "rating": {
+        "overall": 8.3,
+        "value": 8.2,
+        "easeOfUse": 8,
+        "capability": 8.4,
+        "buildQuality": 8
+      },
+      "primary_use": "High-power hobby diode for engraving and moderate cutting, with optional color effects on stainless steel.",
+      "beginner_notes": "Do not buy it because of '60W' alone — compare optical power and cut tests. Good pick if you want air assist included and might use color stainless effects for jewelry or knives.",
+      "pro_tips": "Color marking requires precise speed/power control — practice on scrap stainless. Use LightBurn for serious work. Pair with proper extraction — built-in air assist helps cuts but does not replace ventilation.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "diode",
+      "brand": "Creality",
+      "category": "laser-engraver"
+    }
+  },
+  {
+    "post_type": "machine",
+    "post_title": "Glowforge Aura",
+    "post_name": "glowforge-aura",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nGlowforge's compact CO₂ laser designed for crafters. Easy software, quick setup, and decent cutting for thin materials. The catch: premium hardware price plus required subscription for full features, and a smaller work area than xTool P2.\n\n## Primary use\n\nSimple CO₂ cutting and engraving for crafters who prioritize ease of use over power and cost efficiency.\n\n## Beginner notes\n\nGreat if you hate tinkering and want to cut thin craft materials today. Bad value if you are technical and willing to learn LightBurn — an xTool D1 Pro or used K40 gives more capability per dollar.\n\n## Pro tips\n\nFactor subscription cost over 2–3 years into your budget. Proofgrade materials are convenient but expensive — third-party plywood works with testing. Aura is craft-scale, not sign-shop scale.\n\n## Pros\n\n- Easiest software experience in the category\n- Compact footprint for a CO₂ machine\n- Material presets reduce trial-and-error\n- Brand recognition helps when selling craft products\n- Decent support for non-technical users\n\n## Cons\n\n- Subscription required for full features — ongoing cost\n- Small work area vs. price\n- Less power than desktop CO₂ machines like xTool P2\n- Cloud-dependent — needs internet for most jobs\n- Closed ecosystem — limited LightBurn/advanced control",
+    "acf": {
+      "brand": "Glowforge",
+      "laser_type": "co2",
+      "tagline": "Consumer-friendly CO₂ laser with the simplest setup — at a subscription cost",
+      "tldr": "Glowforge's compact CO₂ laser designed for crafters. Easy software, quick setup, and decent cutting for thin materials. The catch: premium hardware price plus required subscription for full features, and a smaller work area than xTool P2.",
+      "best_for": [
+        "Crafters",
+        "Non-technical users",
+        "Schools & libraries",
+        "Simple cutting"
+      ],
+      "price_min": 999,
+      "price_max": 1199,
+      "price_currency": "USD",
+      "price_note": "Plus mandatory Premium subscription (~$50/mo) for full functionality",
+      "specs": {
+        "power": "6.8W CO₂ laser (consumer-rated)",
+        "workArea": "279 × 241 mm (11 × 9.5 in)",
+        "precision": "0.025 mm",
+        "software": [
+          "Glowforge web app"
+        ],
+        "connectivity": [
+          "Wi-Fi"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Wood",
+          "Leather",
+          "Acrylic",
+          "Paper",
+          "Fabric",
+          "Anodized aluminum"
+        ],
+        "cut": [
+          "Thin wood (~6 mm max)",
+          "Thin acrylic",
+          "Leather",
+          "Paper"
+        ],
+        "cannot": [
+          "Thick acrylic/wood like 55W CO₂",
+          "Bare metal marking",
+          "Large format work",
+          "Offline / advanced workflows without subscription"
+        ]
+      },
+      "rating": {
+        "overall": 7.8,
+        "value": 6.5,
+        "easeOfUse": 9.5,
+        "capability": 7,
+        "buildQuality": 8.5
+      },
+      "primary_use": "Simple CO₂ cutting and engraving for crafters who prioritize ease of use over power and cost efficiency.",
+      "beginner_notes": "Great if you hate tinkering and want to cut thin craft materials today. Bad value if you are technical and willing to learn LightBurn — an xTool D1 Pro or used K40 gives more capability per dollar.",
+      "pro_tips": "Factor subscription cost over 2–3 years into your budget. Proofgrade materials are convenient but expensive — third-party plywood works with testing. Aura is craft-scale, not sign-shop scale.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "co2",
+      "brand": "Glowforge",
+      "category": "laser-engraver"
+    }
+  },
+  {
+    "post_type": "machine",
+    "post_title": "Longer Ray5",
+    "post_name": "longer-ray5",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nA smaller, simpler diode laser focused on engraving rather than cutting. Fixed focus and touchscreen make it approachable. Best for small wood/leather items, not for sign makers or anyone needing large cuts.\n\n## Primary use\n\nCompact desktop engraving of small wood, leather, and slate items with minimal setup complexity.\n\n## Beginner notes\n\nConsider Ray5 if space is tight and you only engrave small items like coasters and keychains. For a primary first laser, Ortur LM3 or Sculpfun S30 Ultra usually offer better long-term value.\n\n## Pro tips\n\nUse a riser or rotary for tumblers if your model supports it. LightBurn improves workflow vs. stock app. Keep expectations on cutting — this is an engraver first.\n\n## Pros\n\n- Touchscreen and fixed focus simplify first jobs\n- Compact footprint for a desk\n- SD card offline operation\n- Affordable 20W option for light work\n- Good as a second machine for small engravings\n\n## Cons\n\n- Less rigid frame than Sculpfun/Ortur at similar prices\n- Not competitive for cutting-focused buyers\n- Smaller community than Ortur/xTool\n- Fixed focus limits flexibility on uneven items\n- Limited upgrade path vs. modular competitors",
+    "acf": {
+      "brand": "Longer",
+      "laser_type": "diode",
+      "tagline": "Compact fixed-focus diode — simple desk engraver for small projects",
+      "tldr": "A smaller, simpler diode laser focused on engraving rather than cutting. Fixed focus and touchscreen make it approachable. Best for small wood/leather items, not for sign makers or anyone needing large cuts.",
+      "best_for": [
+        "Desk engraving",
+        "Small items",
+        "Simple setup",
+        "Secondary machine"
+      ],
+      "price_min": 299,
+      "price_max": 449,
+      "price_currency": "USD",
+      "price_note": "10W and 20W variants",
+      "specs": {
+        "power": "5W / 10W / 20W diode",
+        "workArea": "375 × 375 mm",
+        "precision": "0.01 mm",
+        "software": [
+          "Longer Laser Tool",
+          "LightBurn"
+        ],
+        "connectivity": [
+          "USB",
+          "SD card"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Wood",
+          "Leather",
+          "Slate",
+          "Anodized aluminum"
+        ],
+        "cut": [
+          "Thin basswood 2–5 mm",
+          "Paper",
+          "Thin fabric"
+        ],
+        "cannot": [
+          "Thick cuts",
+          "Large production",
+          "Metal without spray",
+          "Clear acrylic"
+        ]
+      },
+      "rating": {
+        "overall": 7.6,
+        "value": 7.8,
+        "easeOfUse": 8.5,
+        "capability": 7,
+        "buildQuality": 7.2
+      },
+      "primary_use": "Compact desktop engraving of small wood, leather, and slate items with minimal setup complexity.",
+      "beginner_notes": "Consider Ray5 if space is tight and you only engrave small items like coasters and keychains. For a primary first laser, Ortur LM3 or Sculpfun S30 Ultra usually offer better long-term value.",
+      "pro_tips": "Use a riser or rotary for tumblers if your model supports it. LightBurn improves workflow vs. stock app. Keep expectations on cutting — this is an engraver first.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "diode",
+      "brand": "Longer",
+      "category": "laser-engraver"
+    }
+  },
+  {
+    "post_type": "machine",
+    "post_title": "OMTech 40W CO₂ (K40 class)",
+    "post_name": "omtech-40w-co2",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nThe modern evolution of the famous K40. Real CO₂ cutting power at the lowest CO₂ price point. Excellent value if you enjoy upgrading and fixing things. Wrong choice if you want plug-and-play out of the box.\n\n## Primary use\n\nBudget CO₂ laser cutting and engraving for makers willing to modify and maintain their machine.\n\n## Beginner notes\n\nDo not buy a K40-class machine if you want to unbox and go. Budget an extra $100–200 for exhaust hose, air assist, and possibly a controller upgrade. Watch a full setup video before ordering.\n\n## Pro tips\n\nInstall LightBurn and a Mini Gerbil or similar board if you outgrow stock software. Replace the stock exhaust fan immediately. Keep a fire extinguisher nearby — CO₂ cuts combustible materials.\n\n## Pros\n\n- Lowest-cost entry to real CO₂ cutting\n- Cuts acrylic and wood diode lasers struggle with\n- Huge mod community (LightBurn, air assist, better exhaust)\n- Parts and tubes are cheap to replace\n- Can produce sellable products once dialed in\n\n## Cons\n\n- Stock exhaust, bed, and controller often need upgrades\n- Small work area\n- Safety and ventilation are your responsibility\n- Quality control varies — some units need alignment work\n- Not enclosed on most models — louder and smokier",
+    "acf": {
+      "brand": "OMTech",
+      "laser_type": "co2",
+      "tagline": "The classic budget CO₂ — powerful but expects you to tinker",
+      "tldr": "The modern evolution of the famous K40. Real CO₂ cutting power at the lowest CO₂ price point. Excellent value if you enjoy upgrading and fixing things. Wrong choice if you want plug-and-play out of the box.",
+      "best_for": [
+        "Tinkerers",
+        "Budget CO₂",
+        "Learning CO₂",
+        "Sign makers on a budget"
+      ],
+      "price_min": 500,
+      "price_max": 900,
+      "price_currency": "USD",
+      "price_note": "40W desktop models; 50–60W cost more",
+      "specs": {
+        "power": "40W CO₂ glass tube (actual ~30–35W typical)",
+        "workArea": "300 × 200 mm (12 × 8 in) typical",
+        "precision": "0.01 mm",
+        "software": [
+          "LightBurn",
+          "LaserDRW / RDWorks"
+        ],
+        "connectivity": [
+          "USB"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Wood",
+          "Acrylic",
+          "Leather",
+          "Glass",
+          "Rubber",
+          "Anodized aluminum"
+        ],
+        "cut": [
+          "Acrylic up to ~8 mm",
+          "Wood up to ~8 mm",
+          "Leather",
+          "Fabric"
+        ],
+        "cannot": [
+          "Bare metal",
+          "Very thick materials in one pass",
+          "Large format (small bed)",
+          "Safe operation without ventilation upgrades"
+        ]
+      },
+      "rating": {
+        "overall": 8,
+        "value": 9,
+        "easeOfUse": 6.5,
+        "capability": 8.5,
+        "buildQuality": 7
+      },
+      "primary_use": "Budget CO₂ laser cutting and engraving for makers willing to modify and maintain their machine.",
+      "beginner_notes": "Do not buy a K40-class machine if you want to unbox and go. Budget an extra $100–200 for exhaust hose, air assist, and possibly a controller upgrade. Watch a full setup video before ordering.",
+      "pro_tips": "Install LightBurn and a Mini Gerbil or similar board if you outgrow stock software. Replace the stock exhaust fan immediately. Keep a fire extinguisher nearby — CO₂ cuts combustible materials.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "co2",
+      "brand": "OMTech",
+      "category": "laser-engraver"
+    }
+  },
+  {
+    "post_type": "machine",
+    "post_title": "Ortur Laser Master 3",
+    "post_name": "ortur-laser-master-3",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nOne of the most popular entry-level diode lasers. Available up to 20W, large work area, and huge community support. Build quality is fine for the price — not xTool-level, but you get a lot of machine for under $600.\n\n## Primary use\n\nAffordable introduction to diode laser engraving and light cutting for hobbyists.\n\n## Beginner notes\n\nA solid first laser if you are unsure about the hobby. Start with LightBurn (paid but worth it). Do not expect it to run a business alone — duty cycle and consistency may frustrate high-volume sellers.\n\n## Pro tips\n\nJoin the Ortur Facebook/Reddit groups before buying — firmware tips save hours. Add air assist early. If you plan to sell products within 6 months, consider jumping to xTool D1 Pro or CO₂ instead.\n\n## Pros\n\n- Excellent price-to-work-area ratio\n- Massive community — fixes and tutorials everywhere\n- LightBurn support for serious workflows\n- Wi-Fi and fixed-focus options simplify setup\n- Good enough to learn whether you need a bigger machine later\n\n## Cons\n\n- Open frame — safety glasses mandatory, not kid/pet friendly\n- Build and QA less consistent than premium brands\n- Customer support can be slow\n- 20W marketing is optical/combined power — real cutting still limited\n- No enclosure included — smoke and noise in your workspace",
+    "acf": {
+      "brand": "Ortur",
+      "laser_type": "diode",
+      "tagline": "Best-value open-frame diode for beginners on a budget",
+      "tldr": "One of the most popular entry-level diode lasers. Available up to 20W, large work area, and huge community support. Build quality is fine for the price — not xTool-level, but you get a lot of machine for under $600.",
+      "best_for": [
+        "Beginners",
+        "Budget buyers",
+        "Wood engraving",
+        "First laser"
+      ],
+      "price_min": 399,
+      "price_max": 699,
+      "price_currency": "USD",
+      "price_note": "20W kit typically $500–700",
+      "specs": {
+        "power": "5.5W / 10W / 20W diode options",
+        "workArea": "400 × 400 mm (15.75 × 15.75 in)",
+        "precision": "0.01 mm",
+        "speed": "Up to 20,000 mm/min (~333 mm/s) claimed",
+        "software": [
+          "LightBurn",
+          "LaserGRBL"
+        ],
+        "connectivity": [
+          "Wi-Fi",
+          "USB"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Wood",
+          "Leather",
+          "Slate",
+          "Anodized aluminum",
+          "Stainless (with spray)"
+        ],
+        "cut": [
+          "Basswood 3–6 mm",
+          "Black acrylic (thin)",
+          "Paper",
+          "Fabric"
+        ],
+        "cannot": [
+          "Clear acrylic",
+          "Thick hardwood reliably",
+          "Bare metal without spray",
+          "Large-scale production runs (duty cycle limits)"
+        ]
+      },
+      "rating": {
+        "overall": 8.2,
+        "value": 9.2,
+        "easeOfUse": 8,
+        "capability": 7.5,
+        "buildQuality": 7.5
+      },
+      "primary_use": "Affordable introduction to diode laser engraving and light cutting for hobbyists.",
+      "beginner_notes": "A solid first laser if you are unsure about the hobby. Start with LightBurn (paid but worth it). Do not expect it to run a business alone — duty cycle and consistency may frustrate high-volume sellers.",
+      "pro_tips": "Join the Ortur Facebook/Reddit groups before buying — firmware tips save hours. Add air assist early. If you plan to sell products within 6 months, consider jumping to xTool D1 Pro or CO₂ instead.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "diode",
+      "brand": "Ortur",
+      "category": "laser-engraver"
+    }
+  },
+  {
+    "post_type": "machine",
+    "post_title": "Sculpfun S30 Ultra",
+    "post_name": "sculpfun-s30-ultra",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nSculpfun's flagship open-frame diode with up to 20W and a robust frame. Known for better-than-average cutting on thin wood thanks to beam compression. A common pick for makers who want more power without CO₂ prices.\n\n## Primary use\n\nMid-range hobby diode laser focused on engraving and moderate cutting of organic materials.\n\n## Beginner notes\n\nChoose the S30 Ultra over basic Ortur if cutting thin wood matters to you. For engraving-only projects, save money with a 10W model. Budget for air assist, honeycomb bed, and safety glasses.\n\n## Pro tips\n\nSculpfun publishes material test cards — use them. Multiple slow passes beat one fast pass for cut quality. Extension kits are useful but check frame rigidity before going oversized.\n\n## Pros\n\n- Strong cut performance in the diode class\n- Sturdy frame reduces flex at higher speeds\n- Good value between Ortur and xTool\n- Wide accessory ecosystem (rotary, extension kits)\n- Active user base with tested settings\n\n## Cons\n\n- Open frame — full safety responsibility on you\n- USB-only on many configs (no Wi-Fi)\n- Support and documentation less polished than xTool\n- Still a diode — manage expectations vs. CO₂\n- Assembly and squaring require patience",
+    "acf": {
+      "brand": "Sculpfun",
+      "laser_type": "diode",
+      "tagline": "Strong cutting performance for a diode — popular upgrade from entry-level machines",
+      "tldr": "Sculpfun's flagship open-frame diode with up to 20W and a robust frame. Known for better-than-average cutting on thin wood thanks to beam compression. A common pick for makers who want more power without CO₂ prices.",
+      "best_for": [
+        "Cutting thin wood",
+        "Hobby upgrades",
+        "Budget production",
+        "Wood & leather"
+      ],
+      "price_min": 450,
+      "price_max": 750,
+      "price_currency": "USD",
+      "price_note": "",
+      "specs": {
+        "power": "10W / 20W diode",
+        "workArea": "410 × 400 mm",
+        "precision": "0.01 mm",
+        "speed": "Up to 10,000 mm/min",
+        "software": [
+          "LightBurn",
+          "LaserGRBL"
+        ],
+        "connectivity": [
+          "USB"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Wood",
+          "Leather",
+          "Slate",
+          "Anodized aluminum",
+          "Stainless (with spray)"
+        ],
+        "cut": [
+          "Basswood up to ~8 mm (20W, multiple passes)",
+          "Black acrylic (thin)",
+          "Paper",
+          "Fabric"
+        ],
+        "cannot": [
+          "Clear acrylic",
+          "Thick acrylic sheets",
+          "Bare metal",
+          "Glass engraving (reliably)"
+        ]
+      },
+      "rating": {
+        "overall": 8.4,
+        "value": 8.8,
+        "easeOfUse": 7.8,
+        "capability": 8.2,
+        "buildQuality": 8
+      },
+      "primary_use": "Mid-range hobby diode laser focused on engraving and moderate cutting of organic materials.",
+      "beginner_notes": "Choose the S30 Ultra over basic Ortur if cutting thin wood matters to you. For engraving-only projects, save money with a 10W model. Budget for air assist, honeycomb bed, and safety glasses.",
+      "pro_tips": "Sculpfun publishes material test cards — use them. Multiple slow passes beat one fast pass for cut quality. Extension kits are useful but check frame rigidity before going oversized.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "diode",
+      "brand": "Sculpfun",
+      "category": "laser-engraver"
+    }
+  },
+  {
+    "post_type": "machine",
+    "post_title": "xTool D1 Pro",
+    "post_name": "xtool-d1-pro",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nA well-built open-frame diode laser available up to 20W. Excellent for engraving wood, leather, and slate. Can cut thin materials but do not expect CO₂-level cutting. The sweet spot for hobbyists who want reliability without CO₂ cost.\n\n## Primary use\n\nGeneral-purpose hobby engraving on wood, leather, and coated metals, with light cutting of thin wood and dark acrylic.\n\n## Beginner notes\n\nThe 10W version is enough for most beginners doing engraving and light cutting. Choose 20W if you plan to cut basswood regularly. Always buy proper laser safety glasses rated for your wavelength (~455 nm).\n\n## Pro tips\n\nUse air assist and a honeycomb bed for cleaner cuts. For metal marking, use LaserBond or Brilliance spray — results vary by coating. Upgrade to steel wheel risers if you engrave tumblers or cylindrical objects.\n\n## Pros\n\n- Large work area for the price\n- Modular power upgrades (start 10W, move to 20W)\n- Strong software support and community tutorials\n- Good build quality vs. cheaper Chinese diodes\n- LightBurn compatible for advanced users\n\n## Cons\n\n- Open frame — you must wear laser safety glasses and supervise operation\n- 20W still cannot match CO₂ for acrylic and thick cuts\n- Slower on large fill engravings compared to CO₂\n- Air assist and enclosure sold separately\n- Diode spot size limits ultra-fine detail vs. fiber/UV",
+    "acf": {
+      "brand": "xTool",
+      "laser_type": "diode",
+      "tagline": "The most popular open-frame diode laser for makers who outgrow entry-level machines",
+      "tldr": "A well-built open-frame diode laser available up to 20W. Excellent for engraving wood, leather, and slate. Can cut thin materials but do not expect CO₂-level cutting. The sweet spot for hobbyists who want reliability without CO₂ cost.",
+      "best_for": [
+        "Hobbyists",
+        "Wood & leather engraving",
+        "Learning lasers",
+        "Gift personalization"
+      ],
+      "price_min": 699,
+      "price_max": 999,
+      "price_currency": "USD",
+      "price_note": "Price depends on power module (5W, 10W, 20W)",
+      "specs": {
+        "power": "5W / 10W / 20W diode options",
+        "workArea": "430 × 390 mm (16.9 × 15.4 in)",
+        "precision": "0.01 mm",
+        "speed": "Up to 400 mm/s",
+        "software": [
+          "xTool Creative Space",
+          "LightBurn"
+        ],
+        "connectivity": [
+          "Wi-Fi",
+          "USB"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Wood",
+          "Leather",
+          "Slate",
+          "Anodized aluminum",
+          "Stainless steel (with coating spray)",
+          "Ceramic"
+        ],
+        "cut": [
+          "Basswood (3–8 mm depending on power)",
+          "Black acrylic (thin)",
+          "Paper",
+          "Fabric",
+          "Felt"
+        ],
+        "cannot": [
+          "Clear acrylic cutting (diode light passes through)",
+          "Thick hardwood in one pass",
+          "Bare metal without marking spray",
+          "Glass (engraving only with specialized methods)"
+        ]
+      },
+      "rating": {
+        "overall": 8.7,
+        "value": 8.5,
+        "easeOfUse": 8.8,
+        "capability": 8,
+        "buildQuality": 8.8
+      },
+      "primary_use": "General-purpose hobby engraving on wood, leather, and coated metals, with light cutting of thin wood and dark acrylic.",
+      "beginner_notes": "The 10W version is enough for most beginners doing engraving and light cutting. Choose 20W if you plan to cut basswood regularly. Always buy proper laser safety glasses rated for your wavelength (~455 nm).",
+      "pro_tips": "Use air assist and a honeycomb bed for cleaner cuts. For metal marking, use LaserBond or Brilliance spray — results vary by coating. Upgrade to steel wheel risers if you engrave tumblers or cylindrical objects.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "diode",
+      "brand": "xTool",
+      "category": "laser-engraver"
+    }
+  },
+  {
+    "post_type": "machine",
+    "post_title": "xTool F1 Ultra",
+    "post_name": "xtool-f1-ultra",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nA compact desktop machine combining a 20W fiber laser and 20W diode. The fiber module marks bare metal — stainless steel, aluminum, brass — without spray. Ideal for jewelry, knives, and metal gifts. Premium price for a small work area.\n\n## Primary use\n\nProfessional metal marking and small-item engraving for jewelry, personalization businesses, and tool marking.\n\n## Beginner notes\n\nBuy this if metal is your main material — rings, dog tags, tools, tumblers with stainless sleeves. Do not buy it as your first general-purpose laser; the work area is too small for typical hobby projects like large wood signs.\n\n## Pro tips\n\nUse the fiber module for all metal work. The diode is a bonus for wood/leather on the same desk. Rotary attachment is essential for rings and cylindrical metal. Dial in power/speed on scrap — fiber is unforgiving on thin metal.\n\n## Pros\n\n- Marks bare metal directly — no chemical spray needed on fiber\n- Extremely fast fiber engraving for production\n- Compact and portable compared to open-frame diodes\n- Dual laser covers both metal and organic materials\n- Optional conveyor for batch metal marking\n\n## Cons\n\n- Small default work area — not for large signs or panels\n- Very expensive for the cutting/engraving area you get\n- Not a replacement for a CO₂ if you cut acrylic or large wood\n- Fiber and diode require switching modules (not simultaneous)\n- Enclosed but still requires proper ventilation for some materials",
+    "acf": {
+      "brand": "xTool",
+      "laser_type": "hybrid",
+      "tagline": "Portable dual-laser (fiber + diode) for metal marking and fast engraving",
+      "tldr": "A compact desktop machine combining a 20W fiber laser and 20W diode. The fiber module marks bare metal — stainless steel, aluminum, brass — without spray. Ideal for jewelry, knives, and metal gifts. Premium price for a small work area.",
+      "best_for": [
+        "Metal marking",
+        "Jewelry",
+        "Knives & tools",
+        "Portable setup",
+        "Small business"
+      ],
+      "price_min": 3499,
+      "price_max": 3999,
+      "price_currency": "USD",
+      "price_note": "",
+      "specs": {
+        "power": "20W fiber + 20W diode",
+        "workArea": "100 × 100 mm (3.9 × 3.9 in) standard; larger with conveyor",
+        "precision": "0.00199 mm (fiber); 0.01 mm (diode)",
+        "speed": "Up to 15,000 mm/s (fiber engraving)",
+        "software": [
+          "xTool Creative Space",
+          "LightBurn"
+        ],
+        "connectivity": [
+          "Wi-Fi",
+          "USB"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Stainless steel",
+          "Aluminum",
+          "Brass",
+          "Gold-plated items",
+          "Wood",
+          "Leather",
+          "Plastic (select types)"
+        ],
+        "cut": [
+          "Thin wood/leather (diode only, limited)"
+        ],
+        "cannot": [
+          "Thick material cutting",
+          "Large signage (work area too small)",
+          "Clear acrylic (diode)",
+          "Deep CO₂-style cuts"
+        ]
+      },
+      "rating": {
+        "overall": 8.9,
+        "value": 7.8,
+        "easeOfUse": 9,
+        "capability": 9.2,
+        "buildQuality": 9
+      },
+      "primary_use": "Professional metal marking and small-item engraving for jewelry, personalization businesses, and tool marking.",
+      "beginner_notes": "Buy this if metal is your main material — rings, dog tags, tools, tumblers with stainless sleeves. Do not buy it as your first general-purpose laser; the work area is too small for typical hobby projects like large wood signs.",
+      "pro_tips": "Use the fiber module for all metal work. The diode is a bonus for wood/leather on the same desk. Rotary attachment is essential for rings and cylindrical metal. Dial in power/speed on scrap — fiber is unforgiving on thin metal.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "hybrid",
+      "brand": "xTool",
+      "category": "laser-engraver"
+    }
+  },
+  {
+    "post_type": "machine",
+    "post_title": "xTool P2",
+    "post_name": "xtool-p2",
+    "post_status": "publish",
+    "post_content": "## TL;DR\n\nThe xTool P2 is a 55W enclosed CO₂ laser with a large work area and camera alignment. It cuts acrylic and wood far better than any diode laser. Expensive, but the closest thing to a 'set up and run a small shop' desktop machine.\n\n## Primary use\n\nProduction-grade cutting and engraving of organic materials (wood, acrylic, leather) in a home or small business workshop.\n\n## Beginner notes\n\nIf your budget allows and you want to cut acrylic signs, wood products, or run an Etsy shop, the P2 is one of the most capable desktop options. If you mainly want to engrave metal jewelry or tumbler cups, look at fiber or diode machines instead — CO₂ cannot mark bare metal.\n\n## Pro tips\n\nPair with a compressor and good air assist for cleaner cuts on acrylic. LightBurn unlocks advanced workflows if you outgrow xTool Creative Space. Plan exhaust routing before unboxing — ventilation is not optional with CO₂.\n\n## Pros\n\n- True CO₂ cutting power — not comparable to diode lasers for acrylic and thick wood\n- Fully enclosed with safety interlocks — safer for home and workshop use\n- Built-in camera for visual alignment and batch positioning\n- Large work area for a desktop CO₂ machine\n- Active community and solid xTool software ecosystem\n\n## Cons\n\n- High price — often 4–5× the cost of a good diode laser\n- Bulky and heavy; not portable\n- CO₂ tube has limited lifespan (~1,000–2,000 hours) and replacement cost\n- Requires ventilation or an exhaust hose to the outside\n- Overkill if you only want to engrave metal or small items",
+    "acf": {
+      "brand": "xTool",
+      "laser_type": "co2",
+      "tagline": "Enclosed CO₂ laser built for small businesses and serious hobbyists",
+      "tldr": "The xTool P2 is a 55W enclosed CO₂ laser with a large work area and camera alignment. It cuts acrylic and wood far better than any diode laser. Expensive, but the closest thing to a 'set up and run a small shop' desktop machine.",
+      "best_for": [
+        "Small business",
+        "Acrylic & wood cutting",
+        "Batch production",
+        "Etsy sellers"
+      ],
+      "price_min": 4499,
+      "price_max": 5199,
+      "price_currency": "USD",
+      "price_note": "Price varies with air assist and riser base options",
+      "specs": {
+        "power": "55W CO₂ glass tube",
+        "workArea": "600 × 308 mm (23.6 × 12.1 in)",
+        "precision": "0.01 mm repositioning accuracy",
+        "speed": "Up to 600 mm/s",
+        "dimensions": "970 × 510 × 320 mm",
+        "weight": "~45 kg (99 lbs)",
+        "software": [
+          "xTool Creative Space",
+          "LightBurn (compatible)"
+        ],
+        "connectivity": [
+          "Wi-Fi",
+          "USB",
+          "Ethernet"
+        ]
+      },
+      "materials": {
+        "engrave": [
+          "Wood",
+          "Acrylic",
+          "Leather",
+          "Glass",
+          "Stone",
+          "Anodized aluminum",
+          "Rubber"
+        ],
+        "cut": [
+          "Acrylic (up to ~15 mm)",
+          "Wood (up to ~18 mm)",
+          "Leather",
+          "Fabric",
+          "Paper"
+        ],
+        "cannot": [
+          "Bare metal (marking only on coated/anodized)",
+          "Thick steel",
+          "Clear glass engraving (limited without additives)"
+        ]
+      },
+      "rating": {
+        "overall": 9.1,
+        "value": 7.5,
+        "easeOfUse": 9,
+        "capability": 9.5,
+        "buildQuality": 9
+      },
+      "primary_use": "Production-grade cutting and engraving of organic materials (wood, acrylic, leather) in a home or small business workshop.",
+      "beginner_notes": "If your budget allows and you want to cut acrylic signs, wood products, or run an Etsy shop, the P2 is one of the most capable desktop options. If you mainly want to engrave metal jewelry or tumbler cups, look at fiber or diode machines instead — CO₂ cannot mark bare metal.",
+      "pro_tips": "Pair with a compressor and good air assist for cleaner cuts on acrylic. LightBurn unlocks advanced workflows if you outgrow xTool Creative Space. Plan exhaust routing before unboxing — ventilation is not optional with CO₂.",
+      "affiliate_url": "",
+      "last_updated": "2026-05-31"
+    },
+    "taxonomies": {
+      "laser_type": "co2",
+      "brand": "xTool",
+      "category": "laser-engraver"
+    }
+  }
+]

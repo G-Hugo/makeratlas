@@ -1,0 +1,103 @@
+{
+  "id": "sculpfun-icube-pro",
+  "slug": "sculpfun-icube-pro",
+  "name": "Sculpfun iCube Pro",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/sculpfun-icube-pro.jpg",
+  "tagline": "Compact enclosed Sculpfun — small footprint, full safety cabinet",
+  "tldr": "Sculpfun's enclosed desktop laser for makers who want the brand's cutting performance in a safer cabinet. Smaller bed than S30 Ultra but fits tight desks. Good middle ground between open Sculpfun and premium xTool S1.",
+  "mainObjective": "Compact enclosed Sculpfun for desk engraving with less smoke escape",
+  "bestFor": [
+    "Small desks",
+    "Enclosed safety",
+    "Sculpfun ecosystem",
+    "Home office"
+  ],
+  "priceRange": {
+    "min": 699,
+    "max": 899,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W / 20W diode (enclosed)",
+    "workArea": "300 × 300 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–13 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "75–160 mm/s fill",
+        "avgCutSpeed": "4–12 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood 3–5 mm",
+      "Black acrylic (thin)",
+      "Paper"
+    ],
+    "cannot": [
+      "Large signs (small bed)",
+      "Clear acrylic",
+      "Bare metal",
+      "Thick production cuts"
+    ]
+  },
+  "pros": [
+    "Enclosed Sculpfun performance in compact box",
+    "Less smoke in room vs open S30",
+    "Sculpfun community settings transfer well",
+    "LightBurn support",
+    "Fits desks that cannot fit open-frame 400 mm machines"
+  ],
+  "cons": [
+    "Small work area vs open Sculpfun models",
+    "USB-only on many configs",
+    "Enclosure limits material height",
+    "Not cheaper enough vs open S30 to ignore bed size loss",
+    "Ventilation still recommended for cutting"
+  ],
+  "beginnerNotes": "Buy iCube Pro when desk space and enclosure matter. Buy S30 Ultra when work area and cutting thickness matter more.",
+  "proTips": "Use Sculpfun community presets as starting points — dial back 10–15% speed inside enclosure if char increases due to heat buildup.",
+  "primaryUse": "Compact enclosed diode for small-space home offices doing engraving and light cuts on wood and leather.",
+  "rating": {
+    "overall": 8.2,
+    "value": 8.3,
+    "easeOfUse": 8.6,
+    "capability": 7.9,
+    "buildQuality": 8.1
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra",
+    "acmer-p3",
+    "xtool-s1"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

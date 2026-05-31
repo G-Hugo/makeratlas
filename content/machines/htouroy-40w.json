@@ -1,0 +1,97 @@
+{
+  "id": "htouroy-40w",
+  "slug": "htouroy-40w",
+  "name": "Htouroy 40W",
+  "brand": "Htouroy",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/htouroy-40w.svg",
+  "tagline": "Budget 40W-class diode — aggressive pricing, verify before buying",
+  "tldr": "Htouroy sells high-wattage diode kits at very low prices. Optical output is far below the 40W label. Acceptable for experiments if return policy is solid — not recommended as primary business tool without testing your exact unit.",
+  "mainObjective": "Ultra-cheap high-label-watt diode for casual experiments",
+  "bestFor": [
+    "Experiments",
+    "Ultra-budget",
+    "Light engraving",
+    "Risk-tolerant buyers"
+  ],
+  "priceRange": {
+    "min": 250,
+    "max": 450,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "40W combined / ~10W optical class",
+    "workArea": "410 × 400 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~14–20 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.1 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "50–115 mm/s fill",
+        "avgCutSpeed": "3–7 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate"
+    ],
+    "cut": [
+      "Thin basswood 2–4 mm",
+      "Paper"
+    ],
+    "cannot": [
+      "True 40W performance",
+      "Reliable business use",
+      "Bare metal"
+    ]
+  },
+  "pros": [
+    "Very low price",
+    "Large advertised bed",
+    "LightBurn works",
+    "Modular community exists"
+  ],
+  "cons": [
+    "Misleading watt marketing",
+    "Build quality varies",
+    "Thin support",
+    "Open frame safety"
+  ],
+  "beginnerNotes": "Do not trust '40W' for business planning. Buy Ortur or Sculpfun if you can add $100–200.",
+  "proTips": "Measure optical power or run our 10×10 cm benchmark on delivery to decide keep vs return.",
+  "primaryUse": "Lowest-cost diode experiment platform — verify performance on arrival.",
+  "rating": {
+    "overall": 7.1,
+    "value": 8,
+    "easeOfUse": 7,
+    "capability": 6.7,
+    "buildQuality": 6.5
+  },
+  "similarModels": [
+    "atomstack-a5-pro",
+    "twotrees-tts-55"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

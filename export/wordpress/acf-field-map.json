@@ -1,0 +1,44 @@
+{
+  "description": "ACF field group mapping for WordPress import",
+  "post_types": {
+    "machine": {
+      "fields": [
+        "brand",
+        "laser_type",
+        "tagline",
+        "tldr",
+        "best_for",
+        "price_min",
+        "price_max",
+        "price_currency",
+        "price_note",
+        "specs",
+        "materials",
+        "rating",
+        "primary_use",
+        "beginner_notes",
+        "pro_tips",
+        "affiliate_url",
+        "last_updated"
+      ]
+    },
+    "guide": {
+      "fields": [
+        "description",
+        "category",
+        "read_time",
+        "last_updated"
+      ]
+    }
+  },
+  "taxonomies": [
+    "laser_type",
+    "brand",
+    "category"
+  ],
+  "import_plugins": [
+    "WP All Import (recommended for JSON)",
+    "Custom REST API script",
+    "Advanced Custom Fields (ACF) Pro for field groups"
+  ]
+}

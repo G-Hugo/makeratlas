@@ -1,0 +1,108 @@
+{
+  "id": "omtech-80w-co2",
+  "slug": "omtech-80w-co2",
+  "name": "OMTech 80W CO₂",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "image": "/machines/omtech-80w-co2.jpg",
+  "tagline": "Workhorse CO₂ for shops that outgrew 40W — large bed, real production speed",
+  "tldr": "OMTech's 80W desktop/floor CO₂ machines target sign shops and serious makers who need faster cuts on thick acrylic and wood. More power, larger beds, and higher price than K40 class. Expect setup, ventilation, and maintenance — not plug-and-play.",
+  "mainObjective": "High-power CO₂ production for sign shops cutting thick acrylic & wood daily",
+  "bestFor": [
+    "Sign shops",
+    "Thick acrylic",
+    "Production cutting",
+    "K40/55W graduates"
+  ],
+  "priceRange": {
+    "min": 2500,
+    "max": 4500,
+    "currency": "USD",
+    "note": "Varies by bed size (500×700 mm common)"
+  },
+  "specs": {
+    "power": "80W CO₂ glass tube",
+    "workArea": "500 × 700 mm (typical config)",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–6 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–3 min"
+      },
+      "technical": {
+        "spotSize": "~0.15 mm CO₂ spot",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "180–350 mm/s fill",
+        "avgCutSpeed": "20–55 mm/s on 6 mm acrylic"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "RDWorks"
+    ],
+    "connectivity": [
+      "USB",
+      "Ethernet"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Rubber",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Acrylic up to ~20 mm",
+      "Wood up to ~20 mm",
+      "Leather",
+      "Fabric"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Zero-maintenance operation",
+      "Small desk placement",
+      "Silent home use"
+    ]
+  },
+  "pros": [
+    "Real 80W cutting throughput for production",
+    "Large bed for signs and panels",
+    "LightBurn standard",
+    "Parts and tubes widely available",
+    "Strong value vs premium enclosed CO₂"
+  ],
+  "cons": [
+    "Large footprint and weight",
+    "Requires dedicated ventilation and space",
+    "Setup and alignment learning curve",
+    "Water chiller maintenance mandatory",
+    "Not suitable for apartments"
+  ],
+  "beginnerNotes": "Do not buy 80W as a first laser. You should already know you need this power and have ventilation planned.",
+  "proTips": "Install ammeter and water flow sensor early. Keep spare mirrors and lens — production downtime costs more than parts.",
+  "primaryUse": "Production CO₂ laser for sign making and thick material cutting in dedicated workshop spaces.",
+  "rating": {
+    "overall": 8.6,
+    "value": 8.7,
+    "easeOfUse": 7,
+    "capability": 9.3,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "monport-55w-co2",
+    "omtech-40w-co2",
+    "xtool-p2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

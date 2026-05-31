@@ -1,0 +1,104 @@
+{
+  "id": "longer-ray5",
+  "slug": "longer-ray5",
+  "name": "Longer Ray5",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Compact fixed-focus diode — simple desk engraver for small projects",
+  "tldr": "A smaller, simpler diode laser focused on engraving rather than cutting. Fixed focus and touchscreen make it approachable. Best for small wood/leather items, not for sign makers or anyone needing large cuts.",
+  "bestFor": [
+    "Desk engraving",
+    "Small items",
+    "Simple setup",
+    "Secondary machine"
+  ],
+  "priceRange": {
+    "min": 299,
+    "max": 449,
+    "currency": "USD",
+    "note": "10W and 20W variants"
+  },
+  "specs": {
+    "power": "5W / 10W / 20W diode",
+    "workArea": "375 × 375 mm",
+    "software": [
+      "Longer Laser Tool",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "SD card"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.1 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "60–130 mm/s fill",
+        "avgCutSpeed": "3–8 mm/s on 2–4 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Thin basswood 2–5 mm",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Thick cuts",
+      "Large production",
+      "Metal without spray",
+      "Clear acrylic"
+    ]
+  },
+  "pros": [
+    "Touchscreen and fixed focus simplify first jobs",
+    "Compact footprint for a desk",
+    "SD card offline operation",
+    "Affordable 20W option for light work",
+    "Good as a second machine for small engravings"
+  ],
+  "cons": [
+    "Less rigid frame than Sculpfun/Ortur at similar prices",
+    "Not competitive for cutting-focused buyers",
+    "Smaller community than Ortur/xTool",
+    "Fixed focus limits flexibility on uneven items",
+    "Limited upgrade path vs. modular competitors"
+  ],
+  "beginnerNotes": "Consider Ray5 if space is tight and you only engrave small items like coasters and keychains. For a primary first laser, Ortur LM3 or Sculpfun S30 Ultra usually offer better long-term value.",
+  "proTips": "Use a riser or rotary for tumblers if your model supports it. LightBurn improves workflow vs. stock app. Keep expectations on cutting — this is an engraver first.",
+  "primaryUse": "Compact desktop engraving of small wood, leather, and slate items with minimal setup complexity.",
+  "rating": {
+    "overall": 7.6,
+    "value": 7.8,
+    "easeOfUse": 8.5,
+    "capability": 7,
+    "buildQuality": 7.2
+  },
+  "similarModels": [
+    "atomstack-a5-pro",
+    "ortur-laser-master-3"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/longer-ray5.jpg",
+  "mainObjective": "Compact desk engraver for small wood & leather gifts"
+}

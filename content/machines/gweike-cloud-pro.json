@@ -1,0 +1,101 @@
+{
+  "id": "gweike-cloud-pro",
+  "slug": "gweike-cloud-pro",
+  "name": "Gweike Cloud Pro",
+  "brand": "Gweike",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "image": "/machines/gweike-cloud-pro.png",
+  "tagline": "Cloud-connected desktop CO₂ — popular in maker communities",
+  "tldr": "Gweike Cloud Pro offers enclosed CO₂ cutting with cloud features and competitive pricing vs xTool P2. Good mid-premium CO₂ if you want LightBurn and community support. Verify local warranty before buying.",
+  "mainObjective": "Connected enclosed CO₂ for acrylic and wood small business work",
+  "bestFor": [
+    "Sign makers",
+    "Cloud workflow fans",
+    "Mid-premium CO₂",
+    "Etsy production"
+  ],
+  "priceRange": {
+    "min": 3500,
+    "max": 4500,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "50W CO₂",
+    "workArea": "500 × 300 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "technical": {
+        "spotSize": "~0.15 mm CO₂ spot",
+        "maxSpeed": "500 mm/s",
+        "avgEngraveSpeed": "140–280 mm/s fill",
+        "avgCutSpeed": "12–35 mm/s on 3 mm acrylic"
+      }
+    },
+    "software": [
+      "Gweike Cloud",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Rubber"
+    ],
+    "cut": [
+      "Acrylic up to ~12 mm",
+      "Wood up to ~15 mm",
+      "Leather"
+    ],
+    "cannot": [
+      "Bare metal",
+      "No ventilation setup",
+      "Silent apartment use"
+    ]
+  },
+  "pros": [
+    "Strong CO₂ value in enclosed segment",
+    "LightBurn compatible",
+    "Active user community",
+    "Decent bed size"
+  ],
+  "cons": [
+    "Cloud features may not appeal to everyone",
+    "Less polished than xTool P2",
+    "Ventilation still required",
+    "Support varies by region"
+  ],
+  "beginnerNotes": "Compare directly with Monport 55W and xTool P2 on price, bed size, and warranty in your country.",
+  "proTips": "Run LightBurn for production jobs even if cloud UI is convenient for tests.",
+  "primaryUse": "Mid-premium enclosed CO₂ for acrylic and wood product businesses.",
+  "rating": {
+    "overall": 8.4,
+    "value": 8.5,
+    "easeOfUse": 8.2,
+    "capability": 9,
+    "buildQuality": 8.3
+  },
+  "similarModels": [
+    "xtool-p2",
+    "monport-55w-co2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

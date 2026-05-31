@@ -1,0 +1,106 @@
+{
+  "id": "glowforge-pro",
+  "slug": "glowforge-pro",
+  "name": "Glowforge Pro",
+  "brand": "Glowforge",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "image": "/machines/glowforge-pro.png",
+  "tagline": "Pass-through CO₂ for crafters — premium simplicity with subscription cost",
+  "tldr": "The Glowforge Pro adds passthrough slot for long materials and stronger CO₂ performance vs Aura. Still cloud-dependent with subscription pressure. Best for design-focused crafters who refuse to touch LightBurn — not for cost-sensitive makers.",
+  "mainObjective": "Pass-through CO₂ crafting for long materials with zero-config software",
+  "bestFor": [
+    "Long materials",
+    "Crafters",
+    "Schools",
+    "Design-focused users"
+  ],
+  "priceRange": {
+    "min": 3995,
+    "max": 6995,
+    "currency": "USD",
+    "note": "Pro vs Pro+ passthrough depth; subscription extra"
+  },
+  "specs": {
+    "power": "45W CO₂ (Pro class)",
+    "workArea": "279 × 483 mm with passthrough",
+    "performance": {
+      "precision": "0.025 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "technical": {
+        "spotSize": "~0.18 mm CO₂ spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "120–250 mm/s fill",
+        "avgCutSpeed": "12–35 mm/s on 3 mm acrylic"
+      }
+    },
+    "software": [
+      "Glowforge web app"
+    ],
+    "connectivity": [
+      "Wi-Fi"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic",
+      "Paper",
+      "Fabric",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Wood up to ~12 mm",
+      "Acrylic up to ~12 mm",
+      "Leather",
+      "Paper"
+    ],
+    "cannot": [
+      "Bare metal marking",
+      "Offline advanced workflows without subscription",
+      "Best value per watt vs xTool P2",
+      "Large-format sign shop throughput"
+    ]
+  },
+  "pros": [
+    "Passthrough for long boards and signs",
+    "Extremely easy software",
+    "Strong brand for craft marketplaces",
+    "Decent support for non-technical users",
+    "Enclosed CO₂ safety"
+  ],
+  "cons": [
+    "Very expensive hardware + subscription",
+    "Cloud required for most jobs",
+    "Closed ecosystem — no LightBurn",
+    "Less power than xTool P2 for similar money",
+    "Proofgrade upsell pressure"
+  ],
+  "beginnerNotes": "Compare xTool P2 and Monport 55W before buying Glowforge Pro — you may get more capability for less if you will learn LightBurn.",
+  "proTips": "Factor 3-year subscription into total cost. Passthrough shines for long thin signs — not for thick industrial cutting.",
+  "primaryUse": "Premium enclosed CO₂ for crafters engraving and cutting long thin materials with minimal technical setup.",
+  "rating": {
+    "overall": 8,
+    "value": 6.8,
+    "easeOfUse": 9.5,
+    "capability": 8.2,
+    "buildQuality": 9
+  },
+  "similarModels": [
+    "glowforge-aura",
+    "xtool-p2",
+    "monport-55w-co2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

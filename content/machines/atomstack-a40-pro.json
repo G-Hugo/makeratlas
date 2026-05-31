@@ -1,0 +1,104 @@
+{
+  "id": "atomstack-a40-pro",
+  "slug": "atomstack-a40-pro",
+  "name": "Atomstack A40 Pro",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/atomstack-a40-pro.png",
+  "tagline": "Mid-tier Atomstack with better frame and 40W-class cutting claims",
+  "tldr": "Step up from A5 Pro with a stiffer frame and stronger cutting marketing (40W combined). Real-world performance beats A5 but still sits below Sculpfun/xTool for consistency. Common pick for makers who started on A5 and want more power without jumping brands.",
+  "mainObjective": "Upgraded Atomstack for stronger cuts and more reliable engraving than A5",
+  "bestFor": [
+    "Atomstack upgrades",
+    "Budget cutting",
+    "Wood engraving",
+    "Hobby side projects"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 599,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W / 40W diode options",
+    "workArea": "410 × 400 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~10–14 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "250 mm/s",
+        "avgEngraveSpeed": "60–140 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3–5 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood up to ~6 mm",
+      "Black acrylic (thin)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "Production-grade consistency",
+      "Thick hardwood reliably"
+    ]
+  },
+  "pros": [
+    "Better frame than A5 Pro",
+    "Large work area for price",
+    "Huge Atomstack user base",
+    "LightBurn support",
+    "Affordable upgrade path from A5"
+  ],
+  "cons": [
+    "40W label exceeds optical output",
+    "QA still below premium brands",
+    "Open frame safety burden",
+    "Customer support can be slow",
+    "May outgrow quickly if business grows"
+  ],
+  "beginnerNotes": "If buying fresh at $500+, compare Sculpfun S30 Ultra or Ortur LM3 before defaulting to Atomstack loyalty.",
+  "proTips": "Verify optical power with a meter if cutting depth matters for your products. Stiffen frame corners if you add extension kits.",
+  "primaryUse": "Mid-budget open-frame diode bridging Atomstack entry models and premium Sculpfun/xTool tier.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8.4,
+    "easeOfUse": 7.5,
+    "capability": 7.6,
+    "buildQuality": 7.2
+  },
+  "similarModels": [
+    "atomstack-a5-pro",
+    "ortur-laser-master-3",
+    "sculpfun-s30-ultra"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

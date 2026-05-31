@@ -1,0 +1,104 @@
+{
+  "id": "ortur-aufero-al1",
+  "slug": "ortur-aufero-al1",
+  "name": "Ortur Aufero AL1",
+  "brand": "Ortur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/ortur-aufero-al1.webp",
+  "tagline": "Compact portable Ortur — desk-friendly engraver for small gifts",
+  "tldr": "The Aufero AL1 is Ortur's compact diode line for small work areas and portable setups. Lower power than LM3 or H10, but easier to fit on a crowded desk. Best for light engraving — not a cutting workhorse.",
+  "mainObjective": "Small-footprint Ortur for gift engraving & learning on a budget",
+  "bestFor": [
+    "Small gifts",
+    "Desk space limits",
+    "First laser experiments",
+    "Portable setups"
+  ],
+  "priceRange": {
+    "min": 199,
+    "max": 349,
+    "currency": "USD",
+    "note": "5W typical; check current module options"
+  },
+  "specs": {
+    "power": "5W diode",
+    "workArea": "180 × 180 mm (approx.)",
+    "software": [
+      "LaserGRBL",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–28 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "technical": {
+        "spotSize": "~0.12 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "50–120 mm/s fill",
+        "avgCutSpeed": "2–6 mm/s on 2–3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Paper",
+      "Anodized aluminum (light)"
+    ],
+    "cut": [
+      "Paper",
+      "Thin basswood 2–3 mm",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Thick wood cuts",
+      "Large signs",
+      "Bare metal",
+      "Production runs"
+    ]
+  },
+  "pros": [
+    "Very compact footprint",
+    "Low entry price",
+    "Ortur brand support",
+    "Simple first-laser learning curve",
+    "LightBurn compatible"
+  ],
+  "cons": [
+    "Small work area limits project size",
+    "5W is slow on 10×10 cm fills",
+    "Not competitive vs LM3 for value long-term",
+    "Limited cutting capability",
+    "Open frame safety requirements"
+  ],
+  "beginnerNotes": "Good if you only engrave small items like keychains and tags. If you might outgrow it within months, save for Ortur LM3 instead.",
+  "proTips": "Use smaller benchmark jobs (5×5 cm) for photos on AL1 — 10×10 cm fills take noticeably longer at 5W.",
+  "primaryUse": "Compact entry Ortur for small gift engraving and learning laser basics.",
+  "rating": {
+    "overall": 7.4,
+    "value": 7.8,
+    "easeOfUse": 8.5,
+    "capability": 6.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "longer-ray5",
+    "laserpecker-4",
+    "atomstack-a5-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

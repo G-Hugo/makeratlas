@@ -1,0 +1,105 @@
+{
+  "id": "glowforge-aura",
+  "slug": "glowforge-aura",
+  "name": "Glowforge Aura",
+  "brand": "Glowforge",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Consumer-friendly CO₂ laser with the simplest setup — at a subscription cost",
+  "tldr": "Glowforge's compact CO₂ laser designed for crafters. Easy software, quick setup, and decent cutting for thin materials. The catch: premium hardware price plus required subscription for full features, and a smaller work area than xTool P2.",
+  "bestFor": [
+    "Crafters",
+    "Non-technical users",
+    "Schools & libraries",
+    "Simple cutting"
+  ],
+  "priceRange": {
+    "min": 999,
+    "max": 1199,
+    "currency": "USD",
+    "note": "Plus mandatory Premium subscription (~$50/mo) for full functionality"
+  },
+  "specs": {
+    "power": "6.8W CO₂ laser (consumer-rated)",
+    "workArea": "279 × 241 mm (11 × 9.5 in)",
+    "software": [
+      "Glowforge web app"
+    ],
+    "connectivity": [
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.025 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–9 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "technical": {
+        "spotSize": "~0.2 mm CO₂ spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "100–200 mm/s fill",
+        "avgCutSpeed": "8–20 mm/s on 3 mm plywood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic",
+      "Paper",
+      "Fabric",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Thin wood (~6 mm max)",
+      "Thin acrylic",
+      "Leather",
+      "Paper"
+    ],
+    "cannot": [
+      "Thick acrylic/wood like 55W CO₂",
+      "Bare metal marking",
+      "Large format work",
+      "Offline / advanced workflows without subscription"
+    ]
+  },
+  "pros": [
+    "Easiest software experience in the category",
+    "Compact footprint for a CO₂ machine",
+    "Material presets reduce trial-and-error",
+    "Brand recognition helps when selling craft products",
+    "Decent support for non-technical users"
+  ],
+  "cons": [
+    "Subscription required for full features — ongoing cost",
+    "Small work area vs. price",
+    "Less power than desktop CO₂ machines like xTool P2",
+    "Cloud-dependent — needs internet for most jobs",
+    "Closed ecosystem — limited LightBurn/advanced control"
+  ],
+  "beginnerNotes": "Great if you hate tinkering and want to cut thin craft materials today. Bad value if you are technical and willing to learn LightBurn — an xTool D1 Pro or used K40 gives more capability per dollar.",
+  "proTips": "Factor subscription cost over 2–3 years into your budget. Proofgrade materials are convenient but expensive — third-party plywood works with testing. Aura is craft-scale, not sign-shop scale.",
+  "primaryUse": "Simple CO₂ cutting and engraving for crafters who prioritize ease of use over power and cost efficiency.",
+  "rating": {
+    "overall": 7.8,
+    "value": 6.5,
+    "easeOfUse": 9.5,
+    "capability": 7,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "xtool-p2",
+    "omtech-40w-co2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/glowforge-aura.png",
+  "mainObjective": "Easiest CO₂ setup for crafters who want zero tinkering"
+}

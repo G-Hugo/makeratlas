@@ -1,0 +1,100 @@
+{
+  "id": "atezr-p2",
+  "slug": "atezr-p2",
+  "name": "Atezr P2",
+  "brand": "Atezr",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/atezr-p2.svg",
+  "tagline": "Enclosed Atezr diode with air assist — mid-budget safety focus",
+  "tldr": "Atezr P2 competes with Acmer P3 and xTool S1 in the enclosed diode space. Decent engraving, moderate cutting. Less community documentation than xTool — verify support in your region.",
+  "mainObjective": "Enclosed mid-budget diode for safer home engraving",
+  "bestFor": [
+    "Enclosed budget",
+    "Home office",
+    "Air assist included",
+    "Gift engraving"
+  ],
+  "priceRange": {
+    "min": 549,
+    "max": 749,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode (enclosed)",
+    "workArea": "400 × 400 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "320 mm/s",
+        "avgEngraveSpeed": "70–145 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "Atezr Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood 3–5 mm",
+      "Black acrylic (thin)",
+      "Paper"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "CO₂ production",
+      "Bare metal"
+    ]
+  },
+  "pros": [
+    "Enclosed at mid price",
+    "Built-in air assist on many bundles",
+    "Large work area for class",
+    "LightBurn support"
+  ],
+  "cons": [
+    "Smaller brand community",
+    "Software less mature than xTool",
+    "Filter maintenance",
+    "Diode cutting limits remain"
+  ],
+  "beginnerNotes": "Compare warranty and return policy with Acmer P3 at similar price.",
+  "proTips": "Vent to window when cutting frequently — filters alone may not suffice.",
+  "primaryUse": "Enclosed 20W diode for apartment-friendly engraving and light cutting.",
+  "rating": {
+    "overall": 7.9,
+    "value": 8.3,
+    "easeOfUse": 8.3,
+    "capability": 7.7,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "acmer-p3",
+    "xtool-s1"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

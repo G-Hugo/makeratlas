@@ -1,0 +1,100 @@
+{
+  "id": "foxaliens-reisler-2",
+  "slug": "foxaliens-reisler-2",
+  "name": "FoxAlien Reisler 2",
+  "brand": "FoxAlien",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/foxaliens-reisler-2.jpg",
+  "tagline": "FoxAlien's 20W open-frame — CNC brand crossing into lasers",
+  "tldr": "FoxAlien brings CNC-adjacent build quality to a 20W diode platform. Solid alternative to Ortur/Sculpfun for makers who already trust the FoxAlien ecosystem from CNC routers.",
+  "mainObjective": "20W diode engraving and light cutting for FoxAlien ecosystem users",
+  "bestFor": [
+    "FoxAlien CNC owners",
+    "20W hobby",
+    "Wood engraving",
+    "Budget cutting"
+  ],
+  "priceRange": {
+    "min": 499,
+    "max": 699,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 400 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–13 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.09 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "75–150 mm/s fill",
+        "avgCutSpeed": "4–11 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood 3–6 mm",
+      "Black acrylic (thin)",
+      "Paper"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "CO₂-level acrylic production"
+    ]
+  },
+  "pros": [
+    "Known brand from CNC space",
+    "Full-size bed",
+    "LightBurn support",
+    "Competitive 20W pricing"
+  ],
+  "cons": [
+    "Smaller laser community than Ortur",
+    "Open frame safety",
+    "Still diode-limited",
+    "Newer laser line track record"
+  ],
+  "beginnerNotes": "Compare with Ortur LM3 and Sculpfun S30 Ultra at similar price before choosing brand loyalty.",
+  "proTips": "If you own a FoxAlien CNC, shared vendor support can simplify your workshop.",
+  "primaryUse": "20W open-frame diode for hobby engraving and moderate thin-wood cutting.",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.4,
+    "easeOfUse": 8,
+    "capability": 7.9,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "ortur-laser-master-3",
+    "sculpfun-s30-ultra"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

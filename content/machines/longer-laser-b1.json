@@ -1,0 +1,106 @@
+{
+  "id": "longer-laser-b1",
+  "slug": "longer-laser-b1",
+  "name": "Longer Laser B1",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/longer-laser-b1.jpg",
+  "tagline": "Longer's large-format diode — bigger bed than Ray5 for sign-sized projects",
+  "tldr": "The Laser B1 is Longer's answer to large-format diode cutters like Sculpfun S30 and Atomstack A40. Available up to 40W with a wide work area. Strong value if you need size over brand prestige — verify air assist and enclosure options for your use case.",
+  "mainObjective": "Large-format diode for bigger wood signs & light production cutting",
+  "bestFor": [
+    "Large signs",
+    "Wide work area",
+    "Budget large-format",
+    "Wood cutting hobbyists"
+  ],
+  "priceRange": {
+    "min": 599,
+    "max": 999,
+    "currency": "USD",
+    "note": "20W and 40W configs; extension kits extra"
+  },
+  "specs": {
+    "power": "20W / 40W diode options",
+    "workArea": "450 × 440 mm (base; extensions available)",
+    "software": [
+      "Longer Laser Tool",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–14 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm compressed spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "80–180 mm/s fill",
+        "avgCutSpeed": "5–14 mm/s on 3–8 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood up to ~10 mm (40W)",
+      "Black acrylic (thin)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "CO₂ acrylic production",
+      "Enclosed safety without add-on cover"
+    ]
+  },
+  "pros": [
+    "Large work area for the price",
+    "40W option competitive with Atomstack A40",
+    "LightBurn support",
+    "Wi-Fi included on many configs",
+    "Extension kits for even larger jobs"
+  ],
+  "cons": [
+    "Open frame — not family-safe without enclosure",
+    "Longer support community smaller than Ortur",
+    "Build quality varies vs premium brands",
+    "Air assist often sold separately",
+    "40W claims need real-world verification"
+  ],
+  "beginnerNotes": "Choose B1 over Ray5 when work area matters — signs, trays, and multi-item jigs. Skip if you only make small gifts.",
+  "proTips": "The B1's value is bed size — design templates to use the full width for batch engraving. Add honeycomb and air assist before pushing 8 mm+ cuts.",
+  "primaryUse": "Large-format diode engraving and thin-to-medium wood cutting for hobbyists and light sellers.",
+  "rating": {
+    "overall": 8.2,
+    "value": 8.6,
+    "easeOfUse": 8,
+    "capability": 8.3,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "atomstack-a40-pro",
+    "sculpfun-s30-ultra",
+    "creality-falcon2-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

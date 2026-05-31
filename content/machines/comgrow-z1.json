@@ -1,0 +1,97 @@
+{
+  "id": "comgrow-z1",
+  "slug": "comgrow-z1",
+  "name": "Comgrow Z1",
+  "brand": "Comgrow",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/comgrow-z1.svg",
+  "tagline": "Budget Comgrow diode — often bundled with 3D printer deals",
+  "tldr": "Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Adequate for learning. Performance similar to Atomstack A5 tier — not a long-term production machine.",
+  "mainObjective": "Cheapest Comgrow entry for light engraving experiments",
+  "bestFor": [
+    "Comgrow bundles",
+    "First experiments",
+    "Light engraving",
+    "Tight budget"
+  ],
+  "priceRange": {
+    "min": 199,
+    "max": 449,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "5W / 10W / 20W diode",
+    "workArea": "300 × 300 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~11–16 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–9 min"
+      },
+      "technical": {
+        "spotSize": "~0.1 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "50–120 mm/s fill",
+        "avgCutSpeed": "3–8 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate"
+    ],
+    "cut": [
+      "Thin basswood 2–4 mm",
+      "Paper"
+    ],
+    "cannot": [
+      "Thick cuts",
+      "Bare metal",
+      "Business production"
+    ]
+  },
+  "pros": [
+    "Very low price",
+    "Often discounted in bundles",
+    "LightBurn capable",
+    "Enough to learn basics"
+  ],
+  "cons": [
+    "Basic frame",
+    "Small community vs Ortur",
+    "QA variance",
+    "Outgrow quickly if hobby sticks"
+  ],
+  "beginnerNotes": "Fine as a throw-in with a 3D printer purchase. As standalone laser, save for Ortur LM3 if possible.",
+  "proTips": "Treat as training wheels — budget for upgrade within a year if you sell products.",
+  "primaryUse": "Ultra-budget diode for testing whether laser work interests you.",
+  "rating": {
+    "overall": 7.3,
+    "value": 8.6,
+    "easeOfUse": 7.5,
+    "capability": 6.8,
+    "buildQuality": 6.8
+  },
+  "similarModels": [
+    "twotrees-tts-55",
+    "atomstack-a5-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

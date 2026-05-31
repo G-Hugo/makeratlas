@@ -1,65 +1,130 @@
-import Image from "next/image";
+import Link from "next/link";
+import { MachineCard } from "@/components/machines/MachineCard";
+import { getAllGuidesMeta, getAllMachines } from "@/lib/content";
 
-export default function Home() {
+export default function HomePage() {
+  const machines = getAllMachines();
+  const featured = machines.slice(0, 6);
+  const guides = getAllGuidesMeta();
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div>
+      <section className="border-b border-stone-200 bg-gradient-to-b from-amber-50 to-stone-50">
+        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-amber-700">
+            makeratlas.com
           </p>
+          <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-stone-900 sm:text-5xl">
+            The complete reference for maker machines
+          </h1>
+          <p className="mt-5 max-w-2xl text-lg text-stone-600">
+            Choosing a laser engraver is confusing. Spec sheets lie, reviews
+            oversell, and nobody puts everything in one place. Maker Atlas does —
+            honest specs, clear explanations, and buying guides written for real
+            people.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link
+              href="/guides/laser-buying-guide-2026"
+              className="rounded-lg bg-amber-500 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-amber-600"
+            >
+              Laser buying guide 2026
+            </Link>
+            <Link
+              href="/guides/understanding-laser-types"
+              className="rounded-lg border border-stone-300 bg-white px-5 py-3 text-sm font-semibold text-stone-800 transition hover:border-stone-400"
+            >
+              Understand laser types
+            </Link>
+            <Link
+              href="/guides/laser-safety-basics"
+              className="rounded-lg border border-red-200 bg-red-50 px-5 py-3 text-sm font-semibold text-red-800 transition hover:border-red-300"
+            >
+              Safety basics
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+        <div className="mb-8 flex items-end justify-between gap-4">
+          <div>
+            <h2 className="text-2xl font-bold text-stone-900">
+              Top laser engravers
+            </h2>
+            <p className="mt-2 text-stone-600">
+              {machines.length} machines profiled — honest specs, not marketing copy.
+            </p>
+          </div>
+          <Link
+            href="/lasers"
+            className="shrink-0 text-sm font-medium text-amber-700 hover:text-amber-800"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            View all →
+          </Link>
         </div>
-      </main>
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {featured.map((machine) => (
+            <MachineCard key={machine.id} machine={machine} />
+          ))}
+        </div>
+      </section>
+
+      <section className="border-t border-stone-200 bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <h2 className="text-2xl font-bold text-stone-900">Start here</h2>
+          <p className="mt-2 max-w-2xl text-stone-600">
+            New to lasers? Read these first. They explain what actually matters
+            when you buy.
+          </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            {guides.map((guide) => (
+              <Link
+                key={guide.slug}
+                href={`/guides/${guide.slug}`}
+                className="rounded-xl border border-stone-200 p-6 transition hover:border-amber-300 hover:shadow-sm"
+              >
+                <p className="text-xs font-medium uppercase tracking-wide text-amber-700">
+                  {guide.category.replace("-", " ")} · {guide.readTime}
+                </p>
+                <h3 className="mt-2 text-lg font-semibold text-stone-900">
+                  {guide.title}
+                </h3>
+                <p className="mt-2 text-sm text-stone-600">{guide.description}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-stone-200 bg-stone-900 text-white">
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <h2 className="text-2xl font-bold">Our promise</h2>
+          <div className="mt-8 grid gap-6 sm:grid-cols-3">
+            <div>
+              <h3 className="font-semibold text-amber-400">Honest limits</h3>
+              <p className="mt-2 text-sm text-stone-300">
+                We tell you what machines cannot do. A 10W diode will not cut
+                thick hardwood like a CO₂ laser — and we say so clearly.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-amber-400">Plain language</h3>
+              <p className="mt-2 text-sm text-stone-300">
+                Every page starts simple. Dig deeper when you need pro-level
+                detail — specs, materials, and real-world tips.
+              </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-amber-400">Everything in one place</h3>
+              <p className="mt-2 text-sm text-stone-300">
+                Types, buying guides, full machine profiles, and side-by-side
+                comparisons. The reference we wished existed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -1,0 +1,106 @@
+{
+  "id": "omtech-k40",
+  "slug": "omtech-40w-co2",
+  "name": "OMTech 40W CO₂ (K40 class)",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "The classic budget CO₂ — powerful but expects you to tinker",
+  "tldr": "The modern evolution of the famous K40. Real CO₂ cutting power at the lowest CO₂ price point. Excellent value if you enjoy upgrading and fixing things. Wrong choice if you want plug-and-play out of the box.",
+  "bestFor": [
+    "Tinkerers",
+    "Budget CO₂",
+    "Learning CO₂",
+    "Sign makers on a budget"
+  ],
+  "priceRange": {
+    "min": 500,
+    "max": 900,
+    "currency": "USD",
+    "note": "40W desktop models; 50–60W cost more"
+  },
+  "specs": {
+    "power": "40W CO₂ glass tube (actual ~30–35W typical)",
+    "workArea": "300 × 200 mm (12 × 8 in) typical",
+    "software": [
+      "LightBurn",
+      "LaserDRW / RDWorks"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "technical": {
+        "spotSize": "~0.2 mm CO₂ spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "120–250 mm/s fill",
+        "avgCutSpeed": "10–30 mm/s on 3 mm acrylic"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Rubber",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Acrylic up to ~8 mm",
+      "Wood up to ~8 mm",
+      "Leather",
+      "Fabric"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Very thick materials in one pass",
+      "Large format (small bed)",
+      "Safe operation without ventilation upgrades"
+    ]
+  },
+  "pros": [
+    "Lowest-cost entry to real CO₂ cutting",
+    "Cuts acrylic and wood diode lasers struggle with",
+    "Huge mod community (LightBurn, air assist, better exhaust)",
+    "Parts and tubes are cheap to replace",
+    "Can produce sellable products once dialed in"
+  ],
+  "cons": [
+    "Stock exhaust, bed, and controller often need upgrades",
+    "Small work area",
+    "Safety and ventilation are your responsibility",
+    "Quality control varies — some units need alignment work",
+    "Not enclosed on most models — louder and smokier"
+  ],
+  "beginnerNotes": "Do not buy a K40-class machine if you want to unbox and go. Budget an extra $100–200 for exhaust hose, air assist, and possibly a controller upgrade. Watch a full setup video before ordering.",
+  "proTips": "Install LightBurn and a Mini Gerbil or similar board if you outgrow stock software. Replace the stock exhaust fan immediately. Keep a fire extinguisher nearby — CO₂ cuts combustible materials.",
+  "primaryUse": "Budget CO₂ laser cutting and engraving for makers willing to modify and maintain their machine.",
+  "rating": {
+    "overall": 8,
+    "value": 9,
+    "easeOfUse": 6.5,
+    "capability": 8.5,
+    "buildQuality": 7
+  },
+  "similarModels": [
+    "xtool-p2",
+    "glowforge-aura"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/omtech-40w-co2.jpg",
+  "mainObjective": "Budget CO₂ cutting for makers willing to upgrade and maintain"
+}

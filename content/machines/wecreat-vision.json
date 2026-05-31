@@ -1,0 +1,115 @@
+{
+  "id": "wecreat-vision",
+  "slug": "wecreat-vision",
+  "name": "WeCreat Vision",
+  "brand": "WeCreat",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "AI-assisted enclosed diode with live preview — beginner-friendly smart laser",
+  "tldr": "WeCreat's enclosed diode laser adds a camera and AI features for material detection and visual preview. Appealing for beginners who want guidance. Core laser performance is comparable to other enclosed diodes — you pay for the smart features.",
+  "bestFor": [
+    "Tech-curious beginners",
+    "Visual learners",
+    "Enclosed safety",
+    "Gift personalization"
+  ],
+  "priceRange": {
+    "min": 999,
+    "max": 1299,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 370 mm",
+    "software": [
+      "WeCreat Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–14 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "350 mm/s",
+        "avgEngraveSpeed": "75–160 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood 3–6 mm",
+      "Black acrylic (thin)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Thick production cuts",
+      "Bare metal",
+      "CO₂-level acrylic work"
+    ]
+  },
+  "pros": [
+    "Live camera preview reduces alignment guesswork",
+    "Enclosed design with filtration",
+    "AI material suggestions help true beginners",
+    "Competitive work area for enclosed class",
+    "Active newer brand with growing community"
+  ],
+  "cons": [
+    "AI features may feel gimmicky to experienced users",
+    "Smaller community than xTool for troubleshooting",
+    "Long-term software support unproven vs established brands",
+    "Still diode-limited on materials",
+    "Premium over open-frame for same raw power"
+  ],
+  "beginnerNotes": "Good if you want hand-holding and visual feedback. Experienced makers may prefer xTool S1 for ecosystem maturity at a similar price.",
+  "proTips": "Use camera preview for batch placement but still run test cards for new materials — AI presets are starting points, not gospel. LightBurn unlocks more control when you outgrow the stock app.",
+  "primaryUse": "Smart enclosed diode laser for beginners who want visual guidance and filtered home operation.",
+  "rating": {
+    "overall": 8.1,
+    "value": 7.8,
+    "easeOfUse": 9.1,
+    "capability": 7.8,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "xtool-s1",
+    "xtool-d1-pro"
+  ],
+  "faq": [
+    {
+      "question": "Is the AI feature actually useful?",
+      "answer": "For beginners, yes — it speeds up first projects and reduces alignment errors. Pros will likely ignore it and use LightBurn with manual settings."
+    },
+    {
+      "question": "WeCreat vs xTool S1?",
+      "answer": "Similar enclosed diode category. xTool has a larger community and longer track record. WeCreat competes on AI/camera UX. Choose xTool for ecosystem; WeCreat if the smart preview appeals to you."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/wecreat-vision.jpg",
+  "mainObjective": "AI-guided enclosed engraving for visual, beginner-friendly workflow"
+}

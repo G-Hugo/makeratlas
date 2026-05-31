@@ -1,0 +1,116 @@
+{
+  "id": "monport-55w-co2",
+  "slug": "monport-55w-co2",
+  "name": "Monport 55W CO₂",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Mid-range CO₂ with better finish than K40 — less tinkering required",
+  "tldr": "Monport sits between budget K40 machines and premium enclosed CO₂ like xTool P2. The 55W desktop models offer real cutting power with improved build quality and optional autofocus. Still needs ventilation, but closer to 'business ready' than a stock K40.",
+  "bestFor": [
+    "Small business upgrade",
+    "Mid-budget CO₂",
+    "Acrylic & wood cutting",
+    "K40 graduates"
+  ],
+  "priceRange": {
+    "min": 1800,
+    "max": 2800,
+    "currency": "USD",
+    "note": "Varies by bed size and autofocus options"
+  },
+  "specs": {
+    "power": "55W CO₂ glass tube",
+    "workArea": "400 × 600 mm (common config)",
+    "software": [
+      "LightBurn",
+      "RDWorks"
+    ],
+    "connectivity": [
+      "USB",
+      "Ethernet (some models)"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–3 min"
+      },
+      "technical": {
+        "spotSize": "~0.15 mm CO₂ spot",
+        "maxSpeed": "500 mm/s",
+        "avgEngraveSpeed": "150–300 mm/s fill",
+        "avgCutSpeed": "15–45 mm/s on 3 mm acrylic"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Rubber",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Acrylic up to ~12 mm",
+      "Wood up to ~15 mm",
+      "Leather",
+      "Fabric"
+    ],
+    "cannot": [
+      "Bare metal marking",
+      "Zero ventilation setups",
+      "Plug-and-play without any learning curve"
+    ]
+  },
+  "pros": [
+    "More power and bed size than K40 class for growing businesses",
+    "Better fit and finish than bare-bones K40 units",
+    "LightBurn compatible out of the box on most models",
+    "Autofocus option saves time on varied material thickness",
+    "Strong value in the mid CO₂ segment"
+  ],
+  "cons": [
+    "Still requires external ventilation planning",
+    "Not fully enclosed on most desktop models",
+    "Support experience varies by region",
+    "Heavier and louder than diode machines",
+    "Not as polished as xTool P2 enclosed experience"
+  ],
+  "beginnerNotes": "Step up from K40 when you need more bed, more power, and fewer mandatory mods. Step up to xTool P2 when enclosure, camera, and minimal setup matter more than price.",
+  "proTips": "Budget for exhaust fan upgrade if stock ventilation feels weak. Run a ramp test after delivery to verify focus across the bed. Keep tube cooling water clean — CO₂ tubes fail early with poor maintenance.",
+  "primaryUse": "Mid-range CO₂ production for sign makers and Etsy sellers outgrowing K40-class machines.",
+  "rating": {
+    "overall": 8.5,
+    "value": 8.8,
+    "easeOfUse": 7.8,
+    "capability": 9,
+    "buildQuality": 8.2
+  },
+  "similarModels": [
+    "omtech-40w-co2",
+    "xtool-p2"
+  ],
+  "faq": [
+    {
+      "question": "Monport 55W vs OMTech 40W K40 class?",
+      "answer": "Monport typically offers more power, larger bed, and better out-of-box experience. OMTech K40 is cheaper if you enjoy modding. Monport is the 'grow up from K40' pick."
+    },
+    {
+      "question": "Do I need water cooling?",
+      "answer": "Yes. CO₂ glass tubes require a water chiller or continuous cooling loop. Never run the tube without proper cooling — minutes of dry operation can destroy it."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/monport-55w-co2.jpg",
+  "mainObjective": "Mid-range CO₂ production for signs, acrylic & wood shops"
+}

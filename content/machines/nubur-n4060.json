@@ -1,0 +1,99 @@
+{
+  "id": "nubur-n4060",
+  "slug": "nubur-n4060",
+  "name": "NuBur N4060",
+  "brand": "NuBur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/nubur-n4060.svg",
+  "tagline": "Large-format open-frame diode — big bed on a budget",
+  "tldr": "NuBur N4060 emphasizes work area size at competitive pricing. Good for large wood engraves and sign panels within diode limits. Frame rigidity at max size may need attention for precision work.",
+  "mainObjective": "Large work area diode for big engravings on a budget",
+  "bestFor": [
+    "Large engravings",
+    "Sign panels",
+    "Budget big bed",
+    "Wood art"
+  ],
+  "priceRange": {
+    "min": 599,
+    "max": 899,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W / 40W diode options",
+    "workArea": "400 × 600 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~13–19 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–11 min"
+      },
+      "technical": {
+        "spotSize": "~0.09 mm spot",
+        "maxSpeed": "280 mm/s",
+        "avgEngraveSpeed": "65–140 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood 3–6 mm",
+      "Black acrylic (thin)",
+      "Paper"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Full-bed precision without tuning",
+      "CO₂ cutting depth"
+    ]
+  },
+  "pros": [
+    "Very large bed for price",
+    "Good for oversized engraves",
+    "LightBurn support",
+    "Strong value for sign hobbyists"
+  ],
+  "cons": [
+    "Large frames need careful squaring",
+    "Open frame safety",
+    "Smaller community",
+    "40W label may exceed optical output"
+  ],
+  "beginnerNotes": "Buy if you need large engraves. Buy Ortur/Sculpfun standard size if you do not need 600 mm depth.",
+  "proTips": "Square and stiffen frame before large jobs. Use cross-hatch test on full bed.",
+  "primaryUse": "Large-format open-frame diode for oversized wood engraving and light cutting.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8.5,
+    "easeOfUse": 7.5,
+    "capability": 7.8,
+    "buildQuality": 7.2
+  },
+  "similarModels": [
+    "ortur-laser-master-3",
+    "algolaser-alpha-mk2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

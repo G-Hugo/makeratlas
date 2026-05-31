@@ -1,0 +1,104 @@
+{
+  "id": "xtool-f1-ultra",
+  "slug": "xtool-f1-ultra",
+  "name": "xTool F1 Ultra",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "Portable dual-laser (fiber + diode) for metal marking and fast engraving",
+  "tldr": "A compact desktop machine combining a 20W fiber laser and 20W diode. The fiber module marks bare metal — stainless steel, aluminum, brass — without spray. Ideal for jewelry, knives, and metal gifts. Premium price for a small work area.",
+  "bestFor": [
+    "Metal marking",
+    "Jewelry",
+    "Knives & tools",
+    "Portable setup",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 3499,
+    "max": 3999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W fiber + 20W diode",
+    "workArea": "100 × 100 mm (3.9 × 3.9 in) standard; larger with conveyor",
+    "software": [
+      "xTool Creative Space",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.00199 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–6 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm fiber spot",
+        "maxSpeed": "15,000 mm/s",
+        "avgEngraveSpeed": "500–2,000 mm/s marking",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum",
+      "Brass",
+      "Gold-plated items",
+      "Wood",
+      "Leather",
+      "Plastic (select types)"
+    ],
+    "cut": [
+      "Thin wood/leather (diode only, limited)"
+    ],
+    "cannot": [
+      "Thick material cutting",
+      "Large signage (work area too small)",
+      "Clear acrylic (diode)",
+      "Deep CO₂-style cuts"
+    ]
+  },
+  "pros": [
+    "Marks bare metal directly — no chemical spray needed on fiber",
+    "Extremely fast fiber engraving for production",
+    "Compact and portable compared to open-frame diodes",
+    "Dual laser covers both metal and organic materials",
+    "Optional conveyor for batch metal marking"
+  ],
+  "cons": [
+    "Small default work area — not for large signs or panels",
+    "Very expensive for the cutting/engraving area you get",
+    "Not a replacement for a CO₂ if you cut acrylic or large wood",
+    "Fiber and diode require switching modules (not simultaneous)",
+    "Enclosed but still requires proper ventilation for some materials"
+  ],
+  "beginnerNotes": "Buy this if metal is your main material — rings, dog tags, tools, tumblers with stainless sleeves. Do not buy it as your first general-purpose laser; the work area is too small for typical hobby projects like large wood signs.",
+  "proTips": "Use the fiber module for all metal work. The diode is a bonus for wood/leather on the same desk. Rotary attachment is essential for rings and cylindrical metal. Dial in power/speed on scrap — fiber is unforgiving on thin metal.",
+  "primaryUse": "Professional metal marking and small-item engraving for jewelry, personalization businesses, and tool marking.",
+  "rating": {
+    "overall": 8.9,
+    "value": 7.8,
+    "easeOfUse": 9,
+    "capability": 9.2,
+    "buildQuality": 9
+  },
+  "similarModels": [
+    "xtool-d1-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/xtool-f1-ultra.jpg",
+  "mainObjective": "Direct bare-metal marking for jewelry, tools & personalization"
+}

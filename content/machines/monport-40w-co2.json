@@ -1,0 +1,100 @@
+{
+  "id": "monport-40w-co2",
+  "slug": "monport-40w-co2",
+  "name": "Monport 40W CO₂",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "image": "/machines/monport-40w-co2.jpg",
+  "tagline": "K40-class alternative with Monport build quality and support",
+  "tldr": "Monport's 40W desktop CO₂ sits alongside OMTech K40 class with often better out-of-box experience. Entry CO₂ for acrylic and wood. Ventilation and learning still required.",
+  "mainObjective": "Entry CO₂ cutting with fewer mandatory mods than classic K40",
+  "bestFor": [
+    "First CO₂",
+    "K40 alternative",
+    "Acrylic hobby",
+    "Budget CO₂"
+  ],
+  "priceRange": {
+    "min": 600,
+    "max": 1200,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "40W CO₂ glass tube",
+    "workArea": "300 × 200 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–9 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "technical": {
+        "spotSize": "~0.2 mm CO₂ spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "120–240 mm/s fill",
+        "avgCutSpeed": "10–28 mm/s on 3 mm acrylic"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "RDWorks"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Rubber"
+    ],
+    "cut": [
+      "Acrylic up to ~8 mm",
+      "Wood up to ~8 mm",
+      "Leather"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Large panels (small bed)",
+      "Plug-and-play without learning"
+    ]
+  },
+  "pros": [
+    "Better QA than cheapest K40 clones",
+    "LightBurn ready",
+    "Upgrade path to 55W Monport",
+    "Good value entry CO₂"
+  ],
+  "cons": [
+    "Small work area",
+    "Ventilation mandatory",
+    "Water cooling maintenance",
+    "Not enclosed"
+  ],
+  "beginnerNotes": "Compare with OMTech 40W on price and bed size. Both need exhaust planning.",
+  "proTips": "Upgrade exhaust fan early. Keep spare mirrors clean.",
+  "primaryUse": "Budget desktop CO₂ for learning acrylic and wood cutting.",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.7,
+    "easeOfUse": 7.2,
+    "capability": 8.4,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "omtech-40w-co2",
+    "monport-55w-co2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

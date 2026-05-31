@@ -1,0 +1,100 @@
+{
+  "id": "omtech-polar",
+  "slug": "omtech-polar",
+  "name": "OMTech Polar",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "image": "/machines/omtech-polar.webp",
+  "tagline": "Desktop polar CO₂ — compact CO₂ for makers upgrading from diode",
+  "tldr": "OMTech Polar packs CO₂ cutting into a smaller desktop footprint than traditional K40 boxes. Good bridge between diode frustration and full workshop CO₂. Still needs ventilation and learning curve.",
+  "mainObjective": "Compact desktop CO₂ for acrylic and wood without full K40 bulk",
+  "bestFor": [
+    "Compact CO₂",
+    "Diode graduates",
+    "Acrylic cutting",
+    "Desk-sized CO₂"
+  ],
+  "priceRange": {
+    "min": 2200,
+    "max": 3200,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "50W CO₂",
+    "workArea": "400 × 300 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "technical": {
+        "spotSize": "~0.18 mm CO₂ spot",
+        "maxSpeed": "450 mm/s",
+        "avgEngraveSpeed": "130–260 mm/s fill",
+        "avgCutSpeed": "10–30 mm/s on 3 mm acrylic"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "RDWorks"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Rubber"
+    ],
+    "cut": [
+      "Acrylic up to ~10 mm",
+      "Wood up to ~12 mm",
+      "Leather"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Apartment without ventilation",
+      "Zero maintenance"
+    ]
+  },
+  "pros": [
+    "Smaller CO₂ footprint",
+    "Real acrylic cutting",
+    "LightBurn standard",
+    "OMTech parts availability"
+  ],
+  "cons": [
+    "Still loud and needs exhaust",
+    "Less bed than 80W models",
+    "Setup learning curve",
+    "Not enclosed like xTool P2"
+  ],
+  "beginnerNotes": "Plan exhaust before ordering. Polar is for makers who outgrew diode but lack space for large CO₂.",
+  "proTips": "Run ramp test after delivery. Keep water cooling clean.",
+  "primaryUse": "Compact CO₂ laser for makers transitioning from diode to real acrylic cutting.",
+  "rating": {
+    "overall": 8.3,
+    "value": 8.4,
+    "easeOfUse": 7.5,
+    "capability": 8.8,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "omtech-40w-co2",
+    "monport-55w-co2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

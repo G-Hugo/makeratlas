@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maker Atlas
 
-## Getting Started
+**The complete reference for maker machines** — starting with laser engravers.
 
-First, run the development server:
+Live site (coming soon): [makeratlas.com](https://makeratlas.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Architecture (Option C)
+
+```
+content/          ← Source of truth (JSON + Markdown)
+  machines/       ← Structured machine profiles
+  guides/         ← Long-form guides
+  schemas/        ← JSON schema for validation
+
+src/              ← Next.js preview site (Vercel)
+export/wordpress/ ← Generated import files for WordPress
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Content is written once in structured files. The Next.js site previews it now. WordPress import comes later via `npm run export:wordpress`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Quick start
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev        # http://localhost:3000
+npm run build      # Production build
+npm run export:wordpress  # Generate WP import JSON
+```
 
-## Learn More
+## Deploy to Vercel
 
-To learn more about Next.js, take a look at the following resources:
+1. Push this repo to GitHub
+2. Import project at [vercel.com](https://vercel.com)
+3. Point `makeratlas.com` DNS to Vercel
+4. Every push to `main` auto-deploys
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Content structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Each machine is a JSON file matching `content/schemas/machine.schema.json`. Fields map 1:1 to WordPress ACF fields on import.
 
-## Deploy on Vercel
+### Adding a new machine
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Copy an existing file in `content/machines/`
+2. Fill all required fields including `mainObjective`, `image`, and `specs.performance`
+3. Run `npm run generate:images` for a placeholder SVG (or add a real photo — see below)
+4. Set `"status": "published"` when ready
+5. Run `npm run dev` to preview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Machine photos
+
+Each machine has an `image` field (e.g. `/machines/xtool-d1-pro.svg`).
+
+- **Placeholder (default):** `npm run generate:images` creates branded SVG cards in `public/machines/`
+- **Real product photo:** Add `public/machines/{slug}.webp` (or `.jpg`), then set `"image": "/machines/{slug}.webp"` in the JSON
+- **Remote URL:** Add the domain to `next.config.ts` `images.remotePatterns` and use the full URL in `image`
+
+### Adding a guide
+
+1. Create `content/guides/your-slug.md` with frontmatter (see existing guides)
+2. Set `status: published` in frontmatter
+
+## WordPress migration (later)
+
+1. Run `npm run export:wordpress`
+2. Import `export/wordpress/machines.json` via WP All Import
+3. Create ACF field groups using `export/wordpress/acf-field-map.json` as reference
+4. Install affiliate plugin (ThirstyAffiliates, Pretty Links)
+5. Map `affiliate_url` field when ready
+
+## Current content
+
+- **25 laser engravers** with performance specs (precision, speeds, main objective)
+- **3 guides**: laser types, buying guide 2026, safety basics
+- Comparison page with precision & speed columns
+- Auto-generated machine images (replace with real photos anytime)
+
+## Tech stack
+
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS v4
+- gray-matter + react-markdown for guides
+
+## License
+
+Private project — all content © Maker Atlas.

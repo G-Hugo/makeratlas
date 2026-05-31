@@ -1,0 +1,111 @@
+{
+  "id": "xtool-p2",
+  "slug": "xtool-p2",
+  "name": "xTool P2",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Enclosed CO₂ laser built for small businesses and serious hobbyists",
+  "tldr": "The xTool P2 is a 55W enclosed CO₂ laser with a large work area and camera alignment. It cuts acrylic and wood far better than any diode laser. Expensive, but the closest thing to a 'set up and run a small shop' desktop machine.",
+  "bestFor": [
+    "Small business",
+    "Acrylic & wood cutting",
+    "Batch production",
+    "Etsy sellers"
+  ],
+  "priceRange": {
+    "min": 4499,
+    "max": 5199,
+    "currency": "USD",
+    "note": "Price varies with air assist and riser base options"
+  },
+  "specs": {
+    "power": "55W CO₂ glass tube",
+    "workArea": "600 × 308 mm (23.6 × 12.1 in)",
+    "dimensions": "970 × 510 × 320 mm",
+    "weight": "~45 kg (99 lbs)",
+    "software": [
+      "xTool Creative Space",
+      "LightBurn (compatible)"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–6 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–2 min"
+      },
+      "technical": {
+        "spotSize": "~0.15 mm CO₂ spot",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "150–300 mm/s fill",
+        "avgCutSpeed": "15–40 mm/s on 3 mm acrylic"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Stone",
+      "Anodized aluminum",
+      "Rubber"
+    ],
+    "cut": [
+      "Acrylic (up to ~15 mm)",
+      "Wood (up to ~18 mm)",
+      "Leather",
+      "Fabric",
+      "Paper"
+    ],
+    "cannot": [
+      "Bare metal (marking only on coated/anodized)",
+      "Thick steel",
+      "Clear glass engraving (limited without additives)"
+    ]
+  },
+  "pros": [
+    "True CO₂ cutting power — not comparable to diode lasers for acrylic and thick wood",
+    "Fully enclosed with safety interlocks — safer for home and workshop use",
+    "Built-in camera for visual alignment and batch positioning",
+    "Large work area for a desktop CO₂ machine",
+    "Active community and solid xTool software ecosystem"
+  ],
+  "cons": [
+    "High price — often 4–5× the cost of a good diode laser",
+    "Bulky and heavy; not portable",
+    "CO₂ tube has limited lifespan (~1,000–2,000 hours) and replacement cost",
+    "Requires ventilation or an exhaust hose to the outside",
+    "Overkill if you only want to engrave metal or small items"
+  ],
+  "beginnerNotes": "If your budget allows and you want to cut acrylic signs, wood products, or run an Etsy shop, the P2 is one of the most capable desktop options. If you mainly want to engrave metal jewelry or tumbler cups, look at fiber or diode machines instead — CO₂ cannot mark bare metal.",
+  "proTips": "Pair with a compressor and good air assist for cleaner cuts on acrylic. LightBurn unlocks advanced workflows if you outgrow xTool Creative Space. Plan exhaust routing before unboxing — ventilation is not optional with CO₂.",
+  "primaryUse": "Production-grade cutting and engraving of organic materials (wood, acrylic, leather) in a home or small business workshop.",
+  "rating": {
+    "overall": 9.1,
+    "value": 7.5,
+    "easeOfUse": 9,
+    "capability": 9.5,
+    "buildQuality": 9
+  },
+  "similarModels": [
+    "glowforge-aura",
+    "omtech-40w-co2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/xtool-p2.webp",
+  "mainObjective": "Professional cutting of acrylic, wood & leather for small businesses"
+}

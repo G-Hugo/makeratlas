@@ -1,0 +1,114 @@
+{
+  "id": "laserpecker-4",
+  "slug": "laserpecker-4",
+  "name": "LaserPecker 4",
+  "brand": "LaserPecker",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Ultra-portable laser for on-the-go engraving and small gifts",
+  "tldr": "A compact, foldable diode laser designed for portability — markets, events, and desk gifts. Dual laser sources in the Pro model. Not a workshop production machine, but unmatched for throwing in a bag and engraving on-site.",
+  "bestFor": [
+    "Portable engraving",
+    "Events & markets",
+    "Small gifts",
+    "Travel"
+  ],
+  "priceRange": {
+    "min": 899,
+    "max": 1399,
+    "currency": "USD",
+    "note": "LP4 and LP4 Pro variants"
+  },
+  "specs": {
+    "power": "2W infrared + 10W visible (Pro model)",
+    "workArea": "120 × 120 mm (extendable with slide)",
+    "software": [
+      "LaserPecker Design Space",
+      "LightBurn (Pro)"
+    ],
+    "connectivity": [
+      "Bluetooth",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.05 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–25 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.12 mm portable spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "30–80 mm/s",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Anodized aluminum",
+      "Some plastics",
+      "Stainless (Pro, with limitations)"
+    ],
+    "cut": [
+      "Thin paper",
+      "Thin fabric (limited)"
+    ],
+    "cannot": [
+      "Thick cutting",
+      "Large signs",
+      "Production batches",
+      "Clear acrylic reliably"
+    ]
+  },
+  "pros": [
+    "Extremely portable — genuinely fits in a backpack",
+    "Quick setup for on-site personalization",
+    "Dual-source Pro model expands material range",
+    "App-driven workflow is beginner-friendly",
+    "Unique niche no bench laser fills"
+  ],
+  "cons": [
+    "Tiny work area without slide extension",
+    "Premium price per square inch of capability",
+    "Not suitable as your only workshop laser",
+    "Slower and less powerful than bench diodes",
+    "Bluetooth-only workflow frustrates some pro users"
+  ],
+  "beginnerNotes": "Buy LaserPecker as a second machine for portability, not your first and only laser. If you need a home workshop workhorse, get Ortur or xTool D1 Pro instead.",
+  "proTips": "Use the slide extension for longer items. Battery pack (if available for your model) is essential for markets. Pre-test designs on sample materials — on-site failures are embarrassing.",
+  "primaryUse": "Portable on-site engraving of small items at events, gifts, and personal travel projects.",
+  "rating": {
+    "overall": 7.9,
+    "value": 7.2,
+    "easeOfUse": 9,
+    "capability": 6.8,
+    "buildQuality": 8.2
+  },
+  "similarModels": [
+    "longer-ray5",
+    "xtool-d1-pro"
+  ],
+  "faq": [
+    {
+      "question": "Can LaserPecker 4 be my first laser?",
+      "answer": "Only if portability is your primary need. For learning laser craft at home, a larger bench machine like Ortur LM3 or xTool D1 Pro offers far more capability for similar or lower cost."
+    },
+    {
+      "question": "Does it work on metal?",
+      "answer": "The Pro model can mark some metals with limitations. It is not a fiber laser — expect lighter marks than dedicated metal machines like xTool F1 Ultra."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/laserpecker-4.png",
+  "mainObjective": "Portable on-site engraving for events and small items"
+}

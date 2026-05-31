@@ -1,0 +1,116 @@
+{
+  "id": "xtool-s1",
+  "slug": "xtool-s1",
+  "name": "xTool S1",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Enclosed diode laser — safer and cleaner than open-frame alternatives",
+  "tldr": "The xTool S1 puts a 20W or 40W diode inside an enclosed cabinet with exhaust filtering. Much safer for home use than open-frame machines. Cutting performance is still diode-class — not CO₂ — but the enclosed design is a major upgrade for families and apartments.",
+  "bestFor": [
+    "Home workshops",
+    "Families with kids nearby",
+    "Apartment use",
+    "Cleaner engraving"
+  ],
+  "priceRange": {
+    "min": 1199,
+    "max": 1699,
+    "currency": "USD",
+    "note": "20W and 40W enclosed variants"
+  },
+  "specs": {
+    "power": "20W / 40W diode (enclosed)",
+    "workArea": "430 × 390 mm",
+    "software": [
+      "xTool Creative Space",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–6 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "80–180 mm/s fill",
+        "avgCutSpeed": "4–12 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood up to ~8 mm (40W)",
+      "Black acrylic (thin)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "CO₂-level acrylic production",
+      "Bare metal without spray",
+      "Thick hardwood in one pass"
+    ]
+  },
+  "pros": [
+    "Fully enclosed — major safety and smoke improvement vs open-frame",
+    "Built-in exhaust filter option for apartment use",
+    "Same large work area as D1 Pro in a safer package",
+    "LightBurn compatible",
+    "Camera alignment available on some configs"
+  ],
+  "cons": [
+    "Premium price over open-frame D1 Pro for similar diode performance",
+    "Still a diode — same material limits as D1 Pro",
+    "Enclosure adds bulk",
+    "Filter cartridges need replacement over time",
+    "40W diode marketing — verify optical power for your variant"
+  ],
+  "beginnerNotes": "Choose S1 over D1 Pro if safety and smoke control matter more than saving money — especially with kids, pets, or neighbors. Skip if you need CO₂ cutting; this will not replace a P2.",
+  "proTips": "Vent to window when cutting heavily even with filters — filters reduce smell but are not magic. Use the camera for batch alignment on repeat products. Pair with xTool riser for tumblers.",
+  "primaryUse": "Enclosed hobby and light business diode laser for safer home engraving and moderate cutting.",
+  "rating": {
+    "overall": 8.8,
+    "value": 8,
+    "easeOfUse": 9.2,
+    "capability": 8.2,
+    "buildQuality": 9
+  },
+  "similarModels": [
+    "xtool-d1-pro",
+    "xtool-p2"
+  ],
+  "faq": [
+    {
+      "question": "Is the xTool S1 safer than an open-frame laser?",
+      "answer": "Yes. The enclosure blocks direct beam exposure and contains smoke. You still follow safety rules, but accidental exposure risk is much lower than open-frame diodes."
+    },
+    {
+      "question": "Can the S1 replace a CO₂ laser?",
+      "answer": "No. It is still a diode laser with the same acrylic and cutting limits. Buy CO₂ (like xTool P2) if clear acrylic and thick wood cutting are your main work."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/xtool-s1.jpg",
+  "mainObjective": "Safer enclosed home engraving with cleaner smoke control"
+}

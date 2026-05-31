@@ -1,0 +1,104 @@
+{
+  "id": "atomstack-a20-pro",
+  "slug": "atomstack-a20-pro",
+  "name": "Atomstack A20 Pro",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/atomstack-a20-pro.jpg",
+  "tagline": "Mid-tier Atomstack with compressed beam — sweet spot between A5 and A40",
+  "tldr": "The A20 Pro sits in Atomstack's lineup between budget A5 and flagship A40. Strong engraving detail with a more rigid frame than entry models. A sensible upgrade path if A5 feels slow but A40 is over budget.",
+  "mainObjective": "Mid-range Atomstack for detailed engraving & reliable thin-wood cutting",
+  "bestFor": [
+    "Atomstack upgrades",
+    "Fine engraving",
+    "Mid-budget 20W",
+    "Light cutting"
+  ],
+  "priceRange": {
+    "min": 549,
+    "max": 799,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~10–14 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm compressed spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "75–160 mm/s fill",
+        "avgCutSpeed": "4–11 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood 3–6 mm",
+      "Black acrylic (thin)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Thick hardwood reliably",
+      "Bare metal",
+      "CO₂ sign production"
+    ]
+  },
+  "pros": [
+    "Better frame than A5 series",
+    "Compressed spot for finer detail",
+    "LightBurn-first workflow",
+    "Full-size 400 mm bed",
+    "Stepping stone to A40 class"
+  ],
+  "cons": [
+    "Open frame safety requirements",
+    "Less community content than Ortur",
+    "20W still diode-limited on thick cuts",
+    "Air assist often extra",
+    "A40 only modestly more for power users"
+  ],
+  "beginnerNotes": "Compare A20 Pro vs Sculpfun S30 Ultra at similar price — S30 often wins on cutting community tips; A20 wins on engraving detail for some users.",
+  "proTips": "Atomstack's F60 air assist kit is worth adding before pushing cut depth — charring drops significantly on 5–6 mm basswood.",
+  "primaryUse": "Mid-tier open-frame Atomstack for detailed engraving and moderate thin-wood cutting.",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.3,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 8.2
+  },
+  "similarModels": [
+    "atomstack-a5-pro",
+    "atomstack-a40-pro",
+    "sculpfun-s30-ultra"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

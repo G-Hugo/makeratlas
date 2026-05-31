@@ -1,0 +1,100 @@
+{
+  "id": "laserpecker-5",
+  "slug": "laserpecker-5",
+  "name": "LaserPecker 5",
+  "brand": "LaserPecker",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/laserpecker-5.png",
+  "tagline": "Latest portable LaserPecker with improved power and app workflow",
+  "tldr": "LaserPecker 5 continues the portable niche with better specs than LP4. Still a specialty tool for on-site small engraving — not your primary workshop machine.",
+  "mainObjective": "Portable engraving for events, travel, and small personalized gifts",
+  "bestFor": [
+    "Portable",
+    "Events",
+    "Travel",
+    "Small metal/wood gifts"
+  ],
+  "priceRange": {
+    "min": 1199,
+    "max": 1599,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W+ diode (portable class)",
+    "workArea": "120 × 120 mm (extendable)",
+    "performance": {
+      "precision": "0.05 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~15–22 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.1 mm portable spot",
+        "maxSpeed": "250 mm/s",
+        "avgEngraveSpeed": "40–90 mm/s",
+        "avgCutSpeed": "N/A"
+      }
+    },
+    "software": [
+      "LaserPecker Design Space",
+      "LightBurn (select models)"
+    ],
+    "connectivity": [
+      "Bluetooth",
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Anodized aluminum",
+      "Some metals",
+      "Plastic"
+    ],
+    "cut": [
+      "Paper",
+      "Thin fabric (limited)"
+    ],
+    "cannot": [
+      "Workshop production",
+      "Large signs",
+      "Thick cutting"
+    ]
+  },
+  "pros": [
+    "Most capable LaserPecker generation",
+    "Truly portable",
+    "App workflow polished",
+    "Unique market position"
+  ],
+  "cons": [
+    "Tiny work area",
+    "Premium $ per capability",
+    "Not a bench workhorse",
+    "Bluetooth workflow not for everyone"
+  ],
+  "beginnerNotes": "Second machine for portability, not replacement for Ortur/xTool bench laser.",
+  "proTips": "Use slide extension and pre-test materials before client events.",
+  "primaryUse": "Premium portable engraver for on-site personalization of small items.",
+  "rating": {
+    "overall": 8,
+    "value": 7,
+    "easeOfUse": 9,
+    "capability": 7,
+    "buildQuality": 8.3
+  },
+  "similarModels": [
+    "laserpecker-4",
+    "longer-ray5"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

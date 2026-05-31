@@ -1,0 +1,102 @@
+{
+  "id": "atomstack-a5-pro",
+  "slug": "atomstack-a5-pro",
+  "name": "Atomstack A5 Pro",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Ultra-budget diode laser — minimum viable entry point",
+  "tldr": "One of the cheapest ways to try laser engraving. Available up to 40W (combined diode modules). Fine for learning and small gifts, but expect compromises in build quality, safety features, and consistency.",
+  "bestFor": [
+    "Tight budget",
+    "Testing the hobby",
+    "Small gifts",
+    "Students"
+  ],
+  "priceRange": {
+    "min": 199,
+    "max": 499,
+    "currency": "USD",
+    "note": "40W versions ~$350–500"
+  },
+  "specs": {
+    "power": "5W / 10W / 20W / 40W diode options",
+    "workArea": "410 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~14–20 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–11 min"
+      },
+      "technical": {
+        "spotSize": "~0.1 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "50–120 mm/s fill",
+        "avgCutSpeed": "2–6 mm/s on 2–3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum (light)"
+    ],
+    "cut": [
+      "Thin basswood 2–4 mm",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Reliable thick cuts",
+      "Metal without spray",
+      "Clear acrylic",
+      "Production work"
+    ]
+  },
+  "pros": [
+    "Lowest cost entry to laser engraving",
+    "Large work area for the price",
+    "Upgrade path via module swaps",
+    "Huge amount of community content",
+    "Good 'try before you invest' machine"
+  ],
+  "cons": [
+    "Build quality and alignment vary unit to unit",
+    "40W label is marketing — real output is much lower",
+    "No enclosure, limited safety features",
+    "May need significant tinkering out of the box",
+    "Resale value low if you upgrade quickly"
+  ],
+  "beginnerNotes": "Honest advice: if you can afford $500–700, skip this and get an Ortur LM3 or Sculpfun S30. Buy Atomstack only when budget is truly fixed and you accept that you may outgrow it in months.",
+  "proTips": "Square the frame before first use. Replace the stock board if you hit firmware limits. Do not trust '40W' for business planning — test cut depth yourself on your unit.",
+  "primaryUse": "Lowest-cost experimentation with diode laser engraving on small wood and leather projects.",
+  "rating": {
+    "overall": 7.4,
+    "value": 8.5,
+    "easeOfUse": 7,
+    "capability": 6.8,
+    "buildQuality": 6.5
+  },
+  "similarModels": [
+    "ortur-laser-master-3"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/atomstack-a5-pro.jpg",
+  "mainObjective": "Cheapest entry point to try laser engraving at home"
+}

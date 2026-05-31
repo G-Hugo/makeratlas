@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://makeratlas.com/schemas/machine.json",
+  "title": "Machine",
+  "description": "Structured machine data for Maker Atlas. Maps 1:1 to WordPress ACF fields on import.",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "brand",
+    "category",
+    "laserType",
+    "tagline",
+    "tldr",
+    "bestFor",
+    "priceRange",
+    "specs",
+    "materials",
+    "pros",
+    "cons",
+    "beginnerNotes",
+    "proTips",
+    "primaryUse",
+    "rating",
+    "status",
+    "lastUpdated"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "name": { "type": "string" },
+    "brand": { "type": "string" },
+    "category": { "enum": ["laser-engraver"] },
+    "laserType": { "enum": ["diode", "co2", "fiber", "uv", "hybrid"] },
+    "tagline": { "type": "string" },
+    "tldr": { "type": "string" },
+    "bestFor": { "type": "array", "items": { "type": "string" } },
+    "priceRange": {
+      "type": "object",
+      "required": ["min", "max", "currency"],
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" },
+        "currency": { "enum": ["USD"] },
+        "note": { "type": "string" }
+      }
+    },
+    "specs": {
+      "type": "object",
+      "required": ["power", "workArea", "precision"],
+      "properties": {
+        "power": { "type": "string" },
+        "workArea": { "type": "string" },
+        "precision": { "type": "string" },
+        "speed": { "type": "string" },
+        "dimensions": { "type": "string" },
+        "weight": { "type": "string" },
+        "software": { "type": "array", "items": { "type": "string" } },
+        "connectivity": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "materials": {
+      "type": "object",
+      "required": ["engrave", "cut", "cannot"],
+      "properties": {
+        "engrave": { "type": "array", "items": { "type": "string" } },
+        "cut": { "type": "array", "items": { "type": "string" } },
+        "cannot": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "pros": { "type": "array", "items": { "type": "string" } },
+    "cons": { "type": "array", "items": { "type": "string" } },
+    "beginnerNotes": { "type": "string" },
+    "proTips": { "type": "string" },
+    "primaryUse": { "type": "string" },
+    "rating": {
+      "type": "object",
+      "required": ["overall", "value", "easeOfUse", "capability", "buildQuality"],
+      "properties": {
+        "overall": { "type": "number", "minimum": 0, "maximum": 10 },
+        "value": { "type": "number", "minimum": 0, "maximum": 10 },
+        "easeOfUse": { "type": "number", "minimum": 0, "maximum": 10 },
+        "capability": { "type": "number", "minimum": 0, "maximum": 10 },
+        "buildQuality": { "type": "number", "minimum": 0, "maximum": 10 }
+      }
+    },
+    "similarModels": { "type": "array", "items": { "type": "string" } },
+    "affiliateUrl": { "type": "string" },
+    "status": { "enum": ["draft", "published"] },
+    "lastUpdated": { "type": "string", "format": "date" }
+  }
+}

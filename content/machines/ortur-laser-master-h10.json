@@ -1,0 +1,107 @@
+{
+  "id": "ortur-laser-master-h10",
+  "slug": "ortur-laser-master-h10",
+  "name": "Ortur Laser Master H10",
+  "brand": "Ortur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/ortur-laser-master-h10.webp",
+  "tagline": "Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
+  "tldr": "The H10 is Ortur's step up from the open-frame LM3 line: a more integrated chassis with up to 20W diode power and higher advertised traverse speeds. Still diode-class cutting limits, but a solid pick if you want Ortur ecosystem with a more polished frame.",
+  "mainObjective": "Integrated Ortur diode for faster engraving and cleaner setup than LM3",
+  "bestFor": [
+    "Ortur upgrades",
+    "Speed-focused hobbyists",
+    "Wood & leather engraving",
+    "Integrated frame fans"
+  ],
+  "priceRange": {
+    "min": 549,
+    "max": 899,
+    "currency": "USD",
+    "note": "10W, 20W, and 40W optical configs available"
+  },
+  "specs": {
+    "power": "10W / 20W / 40W diode options",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "333 mm/s",
+        "avgEngraveSpeed": "80–180 mm/s fill",
+        "avgCutSpeed": "4–12 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood 3–8 mm",
+      "Black acrylic (thin)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "CO₂-level acrylic production",
+      "Bare metal without spray",
+      "Full enclosure safety (open frame)"
+    ]
+  },
+  "pros": [
+    "More integrated frame than LM3",
+    "Higher speed potential on optimized jobs",
+    "Large Ortur community and firmware support",
+    "LightBurn-ready workflow",
+    "Competitive price vs xTool D1 Pro"
+  ],
+  "cons": [
+    "Still open frame — eye protection required",
+    "40W marketing is optical/combined power",
+    "Less proven long-term than LM3 community volume",
+    "Air assist often extra",
+    "Not a CO₂ replacement for acrylic shops"
+  ],
+  "beginnerNotes": "Choose H10 over LM3 if you want a slightly more modern Ortur platform and can spend a bit more. For maximum community tutorials, LM3 still wins.",
+  "proTips": "Start with 20W unless you have a clear cutting use case — 40W adds cost with diminishing returns on thick cuts. Pair with Ortur air assist early for cleaner edges.",
+  "primaryUse": "Integrated open-frame Ortur diode for faster engraving and moderate thin-wood cutting.",
+  "rating": {
+    "overall": 8.3,
+    "value": 8.5,
+    "easeOfUse": 8.2,
+    "capability": 8.2,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "ortur-laser-master-3",
+    "sculpfun-s30-ultra",
+    "algolaser-alpha-mk2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

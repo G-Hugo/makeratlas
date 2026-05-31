@@ -1,0 +1,99 @@
+{
+  "id": "xtool-f1",
+  "slug": "xtool-f1",
+  "name": "xTool F1",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "image": "/machines/xtool-f1.jpg",
+  "tagline": "Original compact fiber + diode — metal marking in a portable box",
+  "tldr": "The F1 started the compact dual-laser category. Slower than F1 Ultra but often cheaper on sale. Still a metal-marking specialist with small bed — not a general workshop laser.",
+  "mainObjective": "Compact metal marking plus light diode engraving for small items",
+  "bestFor": [
+    "Metal tags",
+    "Jewelry",
+    "Portable marking",
+    "Budget vs F1 Ultra"
+  ],
+  "priceRange": {
+    "min": 2499,
+    "max": 2999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W fiber + 10W diode",
+    "workArea": "100 × 100 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–8 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.03 mm fiber spot",
+        "maxSpeed": "10,000 mm/s",
+        "avgEngraveSpeed": "300–1,500 mm/s marking",
+        "avgCutSpeed": "N/A"
+      }
+    },
+    "software": [
+      "xTool Creative Space",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum",
+      "Brass",
+      "Wood",
+      "Leather"
+    ],
+    "cut": [
+      "Thin wood/leather (diode, limited)"
+    ],
+    "cannot": [
+      "Large signs",
+      "CO₂ acrylic cutting",
+      "Thick material production"
+    ]
+  },
+  "pros": [
+    "Marks bare metal without spray",
+    "Portable desktop footprint",
+    "Cheaper than F1 Ultra when discounted",
+    "xTool software support"
+  ],
+  "cons": [
+    "Small work area",
+    "Slower than F1/F2 Ultra",
+    "Not a first laser for most people",
+    "Module switching required"
+  ],
+  "beginnerNotes": "Buy only if metal marking is your main job. Wood-primary makers should get D1 Pro or S1.",
+  "proTips": "Use rotary for rings. F1 Ultra is worth the upgrade if you run production metal batches.",
+  "primaryUse": "Entry compact dual-laser for metal personalization and small organic-material engraving.",
+  "rating": {
+    "overall": 8.5,
+    "value": 8,
+    "easeOfUse": 8.8,
+    "capability": 8.5,
+    "buildQuality": 8.8
+  },
+  "similarModels": [
+    "xtool-f1-ultra",
+    "xtool-f2-ultra"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

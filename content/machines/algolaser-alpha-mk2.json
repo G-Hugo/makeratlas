@@ -1,0 +1,106 @@
+{
+  "id": "algolaser-alpha-mk2",
+  "slug": "algolaser-alpha-mk2",
+  "name": "Algolaser Alpha MK2",
+  "brand": "Algolaser",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/algolaser-alpha-mk2.jpg",
+  "tagline": "Premium open-frame diode focused on speed and fine engraving detail",
+  "tldr": "Algolaser targets makers who want faster engraving and tighter spot control than typical budget diodes. The Alpha MK2 competes with Sculpfun and xTool D1 Pro on performance. Price sits above Ortur but below xTool on many configs.",
+  "mainObjective": "Fast, detailed open-frame engraving for makers who outgrow entry-level diodes",
+  "bestFor": [
+    "Fine engraving",
+    "Speed-focused hobbyists",
+    "Wood & leather detail",
+    "Light production"
+  ],
+  "priceRange": {
+    "min": 699,
+    "max": 999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W / 20W / 40W diode options",
+    "workArea": "440 × 410 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–11 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.06 mm compressed spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "90–200 mm/s fill",
+        "avgCutSpeed": "5–13 mm/s on 3–6 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "Algolaser app"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood up to ~8 mm (40W)",
+      "Black acrylic (thin)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "CO₂ sign production",
+      "Thick acrylic sheets"
+    ]
+  },
+  "pros": [
+    "Tight spot for finer detail in diode class",
+    "Fast fill engraving on optimized settings",
+    "Large work area",
+    "LightBurn-first workflow",
+    "Solid frame rigidity"
+  ],
+  "cons": [
+    "Open frame — safety glasses mandatory",
+    "40W optical claims need verification on your unit",
+    "Smaller community than Ortur/xTool",
+    "Premium price vs Ortur for similar watt class",
+    "Air assist often sold separately"
+  ],
+  "beginnerNotes": "Choose Alpha MK2 over Ortur if engraving speed and fine detail matter more than saving $150. Skip if you need enclosure — look at Acmer P3 or xTool S1.",
+  "proTips": "Algolaser shines on line art and shallow fills — push speed on vectors after test burns. Use compressed spot advantage for photo engraving on coated wood.",
+  "primaryUse": "Performance-oriented open-frame diode for detailed wood and leather engraving with above-average speed.",
+  "rating": {
+    "overall": 8.4,
+    "value": 8.2,
+    "easeOfUse": 8.2,
+    "capability": 8.5,
+    "buildQuality": 8.3
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra",
+    "creality-falcon2-pro",
+    "xtool-d1-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

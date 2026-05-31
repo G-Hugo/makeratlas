@@ -1,0 +1,103 @@
+{
+  "id": "creality-falcon2-12w",
+  "slug": "creality-falcon2-12w",
+  "name": "Creality Falcon2 12W",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/creality-falcon2-12w.webp",
+  "tagline": "Entry Creality diode — simple upgrade path for 3D printer owners",
+  "tldr": "The base Falcon2 12W is Creality's affordable open-frame diode. Less power than Falcon2 Pro but easier on budget. Good for engraving-first users who already trust Creality from 3D printing. Not a cutting powerhouse.",
+  "mainObjective": "Affordable Creality diode for engraving-first hobby projects",
+  "bestFor": [
+    "Creality fans",
+    "Engraving-first",
+    "3D printer owners",
+    "Budget hobby"
+  ],
+  "priceRange": {
+    "min": 349,
+    "max": 499,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "12W optical diode",
+    "workArea": "400 × 415 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "technical": {
+        "spotSize": "~0.1 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "65–140 mm/s fill",
+        "avgCutSpeed": "3–8 mm/s on 2–4 mm wood"
+      }
+    },
+    "software": [
+      "Creality Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Thin basswood 2–4 mm",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Thick cuts",
+      "Clear acrylic",
+      "Bare metal",
+      "Production work"
+    ]
+  },
+  "pros": [
+    "Low entry price from known brand",
+    "Large work area",
+    "LightBurn support",
+    "Easy cross-sell for Creality ecosystem",
+    "Decent engraving quality for 12W"
+  ],
+  "cons": [
+    "Weak vs 20W competitors at similar total cost",
+    "Air assist often extra",
+    "Open frame safety",
+    "Creality laser software less mature than xTool",
+    "Cutting depth disappoints vs marketing"
+  ],
+  "beginnerNotes": "If cutting matters, skip 12W and save for Falcon2 Pro or Ortur 20W. Buy Falcon2 12W for engraving coasters, signs, and leather gifts.",
+  "proTips": "Run slower on fills for cleaner results — 12W needs patience. Upgrade to 22W module later if Creality offers it for your frame.",
+  "primaryUse": "Budget engraving-focused diode for Creality ecosystem users and light hobby personalization.",
+  "rating": {
+    "overall": 7.7,
+    "value": 8,
+    "easeOfUse": 8.2,
+    "capability": 7,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "creality-falcon2-pro",
+    "ortur-laser-master-3",
+    "longer-ray5"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "xtool-m1-ultra",
+  "slug": "xtool-m1-ultra",
+  "name": "xTool M1 Ultra",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "Laser + blade cutter in one — unique hybrid for crafters and sticker makers",
+  "tldr": "The M1 Ultra combines a diode laser with a digital blade cutter (like a Cricut on steroids). Cut vinyl, paper, and fabric with the blade; engrave wood and leather with the laser. Niche but powerful if your workflow mixes both — wrong pick if you only want laser cutting.",
+  "bestFor": [
+    "Sticker makers",
+    "Crafters",
+    "Vinyl & paper",
+    "Mixed media"
+  ],
+  "priceRange": {
+    "min": 1299,
+    "max": 1799,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W diode laser + 400g blade cutting force",
+    "workArea": "385 × 300 mm",
+    "software": [
+      "xTool Creative Space",
+      "LightBurn (laser)"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~10–14 min"
+      },
+      "cutExample": {
+        "description": "Vinyl cut (blade, not laser)",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "Blade only (~2 min vinyl)"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm laser spot",
+        "maxSpeed": "400 mm/s laser",
+        "avgEngraveSpeed": "60–120 mm/s fill",
+        "avgCutSpeed": "Blade 30–80 mm/s · Laser 3–8 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Anodized aluminum",
+      "Slate"
+    ],
+    "cut": [
+      "Vinyl",
+      "Paper",
+      "Cardstock",
+      "Fabric (blade)",
+      "Thin basswood (laser)"
+    ],
+    "cannot": [
+      "Thick acrylic laser cutting",
+      "Bare metal",
+      "CO₂-level production",
+      "Deep laser cuts"
+    ]
+  },
+  "pros": [
+    "Only mainstream hybrid combining blade + laser in one desktop unit",
+    "Blade cutting handles vinyl and paper lasers cannot do cleanly",
+    "Enclosed, relatively compact footprint",
+    "Strong for sticker, invitation, and craft businesses",
+    "One software ecosystem for both tools"
+  ],
+  "cons": [
+    "10W laser is weak for serious laser-only users",
+    "Not a replacement for dedicated CO₂ or high-power diode",
+    "Blade and laser share one bed — not simultaneous operation",
+    "Consumable blades add ongoing cost",
+    "Confusing marketing if you expect a full laser cutter"
+  ],
+  "beginnerNotes": "Buy M1 Ultra if you already know you need vinyl/paper blade cutting plus light laser engraving. Buy D1 Pro or P2 if laser is 90%+ of your work.",
+  "proTips": "Use blade for all vinyl and paper — laser charred edges on paper look amateur. Use laser for wood/leather personalization. Rotary add-on expands tumbler work on the laser module.",
+  "primaryUse": "Hybrid craft machine for vinyl stickers, paper goods, and light laser personalization in one workflow.",
+  "rating": {
+    "overall": 8.3,
+    "value": 8,
+    "easeOfUse": 8.8,
+    "capability": 8,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "xtool-d1-pro",
+    "xtool-s1"
+  ],
+  "faq": [
+    {
+      "question": "Is M1 Ultra a laser cutter?",
+      "answer": "Partially. The laser module is 10W diode — fine for engraving and thin cuts, not for acrylic sign production. The blade cutter is the differentiator for vinyl and paper."
+    },
+    {
+      "question": "M1 Ultra vs Cricut + separate laser?",
+      "answer": "M1 Ultra saves space and one software stack. Separate machines give you a stronger laser (D1 Pro) plus a dedicated Cricut. Choose integrated convenience vs best-in-class laser."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-05-31",
+  "image": "/machines/xtool-m1-ultra.png",
+  "mainObjective": "Vinyl & paper cutting plus light laser engraving in one machine"
+}
