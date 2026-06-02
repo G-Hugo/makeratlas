@@ -4,6 +4,7 @@ import { LocaleLink } from "@/components/layout/LocaleLink";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import { laserTypeLabelLocalized } from "@/lib/i18n-helpers";
+import { ComparePriceCell } from "@/components/pricing/MachinePrice";
 import type { Machine, LaserType } from "@/types/machine";
 import { useMemo, useState } from "react";
 
@@ -29,6 +30,8 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
     });
   }, [machines, typeFilter]);
 
+  const showPrice = locale === "en";
+
   return (
     <div>
       <div className="mb-8 flex flex-wrap gap-4 rounded-xl border border-stone-200 bg-white p-4 dark:border-stone-700 dark:bg-stone-900">
@@ -53,6 +56,9 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
           <thead className="border-b border-stone-200 bg-stone-50 dark:border-stone-700 dark:bg-stone-950">
             <tr>
               <th className="px-4 py-3 font-semibold text-stone-700 dark:text-stone-300">{c.machine}</th>
+              {showPrice && (
+                <th className="px-4 py-3 font-semibold text-stone-700 dark:text-stone-300">{c.price}</th>
+              )}
               <th className="px-4 py-3 font-semibold text-stone-700 dark:text-stone-300">{c.mainObjective}</th>
               <th className="px-4 py-3 font-semibold text-stone-700 dark:text-stone-300">{c.precision}</th>
               <th className="px-4 py-3 font-semibold text-stone-700 dark:text-stone-300">{c.sampleEngrave}</th>
@@ -78,6 +84,11 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
                     {machine.brand} · {laserTypeLabelLocalized(machine.laserType, dict)}
                   </p>
                 </td>
+                {showPrice && (
+                  <td className="whitespace-nowrap px-4 py-3">
+                    <ComparePriceCell machine={machine} locale={locale} />
+                  </td>
+                )}
                 <td className="max-w-[160px] px-4 py-3 text-xs text-stone-700 dark:text-stone-300">
                   {machine.mainObjective}
                 </td>

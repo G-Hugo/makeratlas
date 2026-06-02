@@ -10,6 +10,7 @@ import { formatMachineLaserLabel } from "@/lib/laser-capabilities";
 import { getCatalogCardHero } from "@/lib/machine-images";
 import { getMachineWorkFocus } from "@/lib/machine-work-focus";
 import { ratingColor } from "@/lib/utils";
+import { CatalogCardPrice } from "@/components/pricing/MachinePrice";
 
 interface MachineCardProps {
   entry: CatalogEntry;
@@ -132,6 +133,11 @@ export function MachineCard({ entry, locale, dict, onBeforeNavigate }: MachineCa
           <span className="rounded-md bg-stone-100 px-2 py-1 dark:bg-stone-800">
             {releaseLabel}
           </span>
+          {multiTier && (
+            <span className="rounded-md bg-stone-100 px-2 py-1 dark:bg-stone-800">
+              {powerTiers.length} {powerOptionsLabel}
+            </span>
+          )}
           {primary.moduleSystem?.style === "interchangeable" && (
             <span className="rounded-md bg-sky-100 px-2 py-1 font-medium text-sky-900 dark:bg-sky-950 dark:text-sky-200">
               {interchangeableLabel}
@@ -155,14 +161,8 @@ export function MachineCard({ entry, locale, dict, onBeforeNavigate }: MachineCa
         </div>
 
         <div className="mt-auto flex items-end justify-between gap-3 border-t border-stone-100 pt-3 dark:border-stone-800">
-          <div>
-            {multiTier && (
-              <p className="text-xs text-stone-500 dark:text-stone-400">
-                {powerTiers.length} {powerOptionsLabel}
-              </p>
-            )}
-          </div>
-          <span className="rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-900 opacity-0 transition group-hover:opacity-100 dark:bg-amber-950 dark:text-amber-200">
+          <CatalogCardPrice entry={entry} locale={locale} />
+          <span className="shrink-0 rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-900 opacity-0 transition group-hover:opacity-100 dark:bg-amber-950 dark:text-amber-200">
             {profileLabel} →
           </span>
         </div>

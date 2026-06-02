@@ -20,6 +20,7 @@ import { ModuleSystemNotice } from "@/components/machines/ModuleSystemNotice";
 import { PowerTierNav } from "@/components/machines/PowerTierNav";
 import { ContentFreshness } from "@/components/content/ContentFreshness";
 import { formatReleaseDate, ratingColor } from "@/lib/utils";
+import { MachineDetailPrice } from "@/components/pricing/MachinePrice";
 import type { Machine } from "@/types/machine";
 
 interface MachineDetailViewProps {
@@ -289,6 +290,8 @@ export function MachineDetailView({
               <RatingDisplay rating={machine.rating} labels={dict.ratings} />
             </div>
           </div>
+
+          <MachineDetailPrice machine={machine} locale={locale} labels={m} />
 
           <div className="rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 p-6">
             <h2 className="font-semibold text-stone-900 dark:text-stone-100">{m.specs}</h2>
