@@ -24,15 +24,15 @@ export default async function HomePage({ params }: PageProps) {
 
   return (
     <div>
-      <section className="border-b border-stone-200 bg-gradient-to-b from-amber-50 to-stone-50">
+      <section className="border-b border-stone-200 bg-gradient-to-b from-amber-50 to-stone-50 dark:border-stone-800 dark:from-stone-900 dark:to-stone-950">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-amber-700">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400">
             makeratlas.com
           </p>
-          <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-stone-900 sm:text-5xl">
+          <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-stone-900 dark:text-stone-100 sm:text-5xl">
             {h.heroTitle}
           </h1>
-          <p className="mt-5 max-w-2xl text-lg text-stone-600">{h.heroBody}</p>
+          <p className="mt-5 max-w-2xl text-lg text-stone-600 dark:text-stone-300">{h.heroBody}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <LocaleLink
               href="/guides/laser-buying-guide-2026"
@@ -44,14 +44,14 @@ export default async function HomePage({ params }: PageProps) {
             <LocaleLink
               href="/guides/understanding-laser-types"
               locale={locale}
-              className="rounded-lg border border-stone-300 bg-white px-5 py-3 text-sm font-semibold text-stone-800 transition hover:border-stone-400"
+              className="rounded-lg border border-stone-300 bg-white px-5 py-3 text-sm font-semibold text-stone-800 transition hover:border-stone-400 dark:border-stone-600 dark:bg-stone-900 dark:text-stone-100 dark:hover:border-stone-500"
             >
               {h.ctaLaserTypes}
             </LocaleLink>
             <LocaleLink
               href="/guides/laser-safety-basics"
               locale={locale}
-              className="rounded-lg border border-red-200 bg-red-50 px-5 py-3 text-sm font-semibold text-red-800 transition hover:border-red-300"
+              className="rounded-lg border border-red-200 bg-red-50 px-5 py-3 text-sm font-semibold text-red-800 transition hover:border-red-300 dark:border-red-900 dark:bg-red-950 dark:text-red-200 dark:hover:border-red-800"
             >
               {h.ctaSafety}
             </LocaleLink>
@@ -62,15 +62,15 @@ export default async function HomePage({ params }: PageProps) {
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
         <div className="mb-8 flex items-end justify-between gap-4">
           <div>
-            <h2 className="text-2xl font-bold text-stone-900">{h.featuredTitle}</h2>
-            <p className="mt-2 text-stone-600">
+            <h2 className="text-2xl font-bold text-stone-900 dark:text-stone-100">{h.featuredTitle}</h2>
+            <p className="mt-2 text-stone-600 dark:text-stone-300">
               {interpolate(h.featuredSubtitle, { count: entries.length })}
             </p>
           </div>
           <LocaleLink
             href="/lasers"
             locale={locale}
-            className="shrink-0 text-sm font-medium text-amber-700 hover:text-amber-800"
+            className="shrink-0 text-sm font-medium text-amber-700 hover:text-amber-800 dark:text-amber-400 dark:hover:text-amber-300"
           >
             {h.viewAll}
           </LocaleLink>
@@ -82,30 +82,30 @@ export default async function HomePage({ params }: PageProps) {
         </div>
       </section>
 
-      <section className="border-t border-stone-200 bg-white">
+      <section className="border-t border-stone-200 bg-white dark:border-stone-800 dark:bg-stone-950">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-          <h2 className="text-2xl font-bold text-stone-900">{h.startHereTitle}</h2>
-          <p className="mt-2 max-w-2xl text-stone-600">{h.startHereBody}</p>
+          <h2 className="text-2xl font-bold text-stone-900 dark:text-stone-100">{h.startHereTitle}</h2>
+          <p className="mt-2 max-w-2xl text-stone-600 dark:text-stone-300">{h.startHereBody}</p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {guides.map((guide) => (
               <LocaleLink
                 key={guide.slug}
                 href={`/guides/${guide.slug}`}
                 locale={locale}
-                className="rounded-xl border border-stone-200 p-6 transition hover:border-amber-300 hover:shadow-sm"
+                className="rounded-xl border border-stone-200 p-6 transition hover:border-amber-300 hover:shadow-sm dark:border-stone-700 dark:bg-stone-900 dark:hover:border-amber-500/50"
               >
-                <p className="text-xs font-medium uppercase tracking-wide text-amber-700">
+                <p className="text-xs font-medium uppercase tracking-wide text-amber-700 dark:text-amber-400">
                   {guide.category.replace("-", " ")} · {guide.readTime}
                 </p>
-                <h3 className="mt-2 text-lg font-semibold text-stone-900">{guide.title}</h3>
-                <p className="mt-2 text-sm text-stone-600">{guide.description}</p>
+                <h3 className="mt-2 text-lg font-semibold text-stone-900 dark:text-stone-100">{guide.title}</h3>
+                <p className="mt-2 text-sm text-stone-600 dark:text-stone-300">{guide.description}</p>
               </LocaleLink>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="border-t border-stone-200 bg-stone-900 text-white">
+      <section className="border-t border-stone-200 bg-stone-900 text-white dark:border-stone-800 dark:bg-stone-950">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
           <h2 className="text-2xl font-bold">{h.promiseTitle}</h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-3">

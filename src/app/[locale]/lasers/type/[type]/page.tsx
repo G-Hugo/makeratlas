@@ -55,38 +55,38 @@ export default async function LaserTypePage({ params }: PageProps) {
   if (typeCount === 0) {
     return (
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-        <nav className="mb-6 text-sm text-stone-500">
-          <LocaleLink href="/lasers" locale={locale} className="hover:text-amber-700">
+        <nav className="mb-6 text-sm text-stone-500 dark:text-stone-400">
+          <LocaleLink href="/lasers" locale={locale} className="hover:text-amber-700 dark:hover:text-amber-400">
             {dict.machine.breadcrumbLasers}
           </LocaleLink>
           <span className="mx-2">/</span>
-          <span>{label}</span>
+          <span className="text-stone-800 dark:text-stone-200">{label}</span>
         </nav>
-        <h1 className="text-3xl font-bold text-stone-900">
+        <h1 className="text-3xl font-bold text-stone-900 dark:text-stone-100">
           {label} · {dict.lasers.title.toLowerCase()}
         </h1>
-        <p className="mt-4 text-stone-600">{description}</p>
+        <p className="mt-4 text-stone-600 dark:text-stone-400">{description}</p>
       </div>
     );
   }
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-      <nav className="mb-6 text-sm text-stone-500">
-        <LocaleLink href="/lasers" locale={locale} className="hover:text-amber-700">
+      <nav className="mb-6 text-sm text-stone-500 dark:text-stone-400">
+        <LocaleLink href="/lasers" locale={locale} className="hover:text-amber-700 dark:hover:text-amber-400">
           {dict.machine.breadcrumbLasers}
         </LocaleLink>
         <span className="mx-2">/</span>
-        <span>{label}</span>
+        <span className="text-stone-800 dark:text-stone-200">{label}</span>
       </nav>
 
-      <div className="mb-8 rounded-xl border border-amber-200 bg-amber-50 p-5">
-        <p className="text-sm font-medium text-amber-800">{label}</p>
-        <p className="mt-2 text-stone-700">{description}</p>
+      <div className="mb-8 rounded-xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-900 dark:bg-amber-950/40">
+        <p className="text-sm font-medium text-amber-800 dark:text-amber-300">{label}</p>
+        <p className="mt-2 text-stone-700 dark:text-stone-300">{description}</p>
         <LocaleLink
           href="/guides/understanding-laser-types"
           locale={locale}
-          className="mt-3 inline-block text-sm font-medium text-amber-700 hover:underline"
+          className="mt-3 inline-block text-sm font-medium text-amber-700 hover:underline dark:text-amber-400"
         >
           {dict.lasers.laserTypesGuide} →
         </LocaleLink>
@@ -102,7 +102,7 @@ export default async function LaserTypePage({ params }: PageProps) {
           type: label.toLowerCase(),
         })}
       />
-      <p className="mt-4 text-sm text-stone-500">
+      <p className="mt-4 text-sm text-stone-500 dark:text-stone-400">
         {typeCount} / {allCount} {dict.lasers.lines}
       </p>
     </div>

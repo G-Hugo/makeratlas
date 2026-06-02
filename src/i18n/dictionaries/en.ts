@@ -246,5 +246,9 @@ export const en: Dictionary = {
     en: "English",
     fr: "Français",
   },
+  theme: {
+    light: "Light mode",
+    dark: "Dark mode",
+  },
   ...pagesContentEn,
 };

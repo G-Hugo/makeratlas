@@ -105,18 +105,6 @@
   "images": [
     {
       "src": "/machines/acmer-p3/01.webp",
-      "alt": "Acmer P3 laser engraver by Acmer"
-    },
-    {
-      "src": "/machines/acmer-p3/02.webp",
-      "alt": "Acmer P3 laser engraver — Acmer"
-    },
-    {
-      "src": "/machines/acmer-p3/03.webp",
-      "alt": "Acmer P3 laser engraver — Acmer"
-    },
-    {
-      "src": "/machines/acmer-p3/04.jpg",
       "alt": "Acmer P3 laser engraver — Acmer"
     }
   ],

@@ -35,7 +35,7 @@ export function PowerTierChips({
         const className = `${pad} rounded-full font-semibold transition ${
           isActive
             ? "bg-amber-500 text-white"
-            : "bg-stone-100 text-stone-700 hover:bg-amber-100 hover:text-amber-900"
+            : "bg-stone-100 text-stone-700 hover:bg-amber-100 hover:text-amber-900 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-amber-950 dark:hover:text-amber-300"
         }`;
 
         if (onSelectTier) {

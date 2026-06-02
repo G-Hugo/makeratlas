@@ -18,16 +18,16 @@ export function ContentFreshness({
 }: ContentFreshnessProps) {
   return (
     <p
-      className={`flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-stone-500 ${className}`}
+      className={`flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-stone-500 dark:text-stone-400 ${className}`}
     >
       <span>
         {dict.lastUpdated}{" "}
         <time dateTime={lastUpdated}>{formatLastUpdated(lastUpdated, locale)}</time>
       </span>
-      <span className="text-stone-300" aria-hidden>
+      <span className="text-stone-300 dark:text-stone-600" aria-hidden>
         ·
       </span>
-      <LocaleLink href="/methodology" locale={locale} className="font-medium text-amber-700 hover:underline">
+      <LocaleLink href="/methodology" locale={locale} className="font-medium text-amber-700 hover:underline dark:text-amber-400">
         {dict.howWeEvaluate}
       </LocaleLink>
     </p>

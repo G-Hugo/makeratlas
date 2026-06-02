@@ -11,7 +11,9 @@ import https from "https";
 import http from "http";
 import {
   COLLECTION_MATCH,
+  CURATED_RAW_HERO,
   DIRECT_GALLERY,
+  DIRECT_GALLERY_ONLY,
   PRODUCT_HANDLES,
   SKIP_ACCESSORY,
   STORES,
@@ -24,8 +26,10 @@ import {
 } from "./gallery-filter.mjs";
 import {
   DIRECT_HERO_SLUGS,
+  compressGallerySlot,
   processCardHero,
   processHeroBytes,
+  processManualCardHero,
   shopifyMaxUrl,
 } from "./hero-image.mjs";
 import { applyHeroSync } from "./lib/machine-hero-sync.mjs";
@@ -120,6 +124,16 @@ async function resolveRemoteImages(slug, name, brand, machine = {}) {
     GALLERY_RULES[slug]?.maxImages || TARGET_GALLERY,
     MAX_IMAGES,
   );
+
+  if (DIRECT_GALLERY_ONLY.has(slug) && DIRECT_GALLERY[slug]?.length) {
+    return DIRECT_GALLERY[slug].slice(0, limit).map((src, index) => ({
+      src: shopifyMaxUrl(src),
+      alt: `${name} laser engraver — ${brand}`,
+      index,
+      score: 100 - index,
+    }));
+  }
+
   const ctx = { name, brand };
 
   const handleEntry = resolveProductHandleEntry(slug, machine);
@@ -189,50 +203,128 @@ function cleanGalleryDir(slug) {
   }
 }
 
+function manualHeroUrl(slug) {
+  return CARD_HERO_MANUAL[slug]?.[0]?.split("?")[0] || "";
+}
+
+async function processHeroSlot(body, slug, { isHero, manualHero }) {
+  if (isHero && manualHero) return processManualCardHero(body, slug);
+  if (isHero && CURATED_RAW_HERO.has(slug)) return body;
+  if (isHero) return processCardHero(body, slug, { manualHero });
+  return processHeroBytes(body, slug);
+}
+
+async function writeGallerySlot(slug, body, fetchSrc, slotIndex, machineName, brand, remoteAlt, options = {}) {
+  const { manualHero = false, forceHero = false } = options;
+  const dir = path.join(imagesRoot, slug);
+  const isHero = slotIndex === 0;
+  let processed = body;
+
+  try {
+    processed = await processHeroSlot(body, slug, { isHero, manualHero });
+  } catch {
+    processed = body;
+  }
+
+  let ext = isHero ? "webp" : extFromUrl(fetchSrc);
+  if (!isHero && processed.length > 380_000) {
+    try {
+      processed = await compressGallerySlot(processed);
+      ext = "webp";
+    } catch {
+      /* keep original */
+    }
+  }
+  const allowWideHero =
+    forceHero ||
+    manualHero ||
+    Boolean(DIRECT_GALLERY[slug]) ||
+    DIRECT_HERO_SLUGS.has(slug) ||
+    slotIndex > 0;
+
+  const valid = validateImageBytes(processed, ext, slotIndex, remoteAlt || "", { allowWideHero });
+  if (!valid && !(isHero && manualHero && processed.length >= 3000)) {
+    return null;
+  }
+
+  const num = String(slotIndex + 1).padStart(2, "0");
+  const filename = `${num}.${ext}`;
+  fs.writeFileSync(path.join(dir, filename), processed);
+
+  return {
+    src: `/machines/${slug}/${filename}`,
+    alt: remoteAlt?.trim() || `${machineName} laser engraver — ${brand}`,
+  };
+}
+
+/** Card hero (01.webp) from CARD_HERO_MANUAL — never skipped silently. */
+async function downloadManualCardHero(slug, machineName, brand) {
+  const manual = manualHeroUrl(slug);
+  if (!manual) return null;
+
+  const dir = path.join(imagesRoot, slug);
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+
+  try {
+    const fetchSrc = shopifyMaxUrl(manual);
+    const { status, body } = await fetchUrl(fetchSrc);
+    if (status !== 200 || body.length < MIN_BYTES) {
+      console.warn(`  ! ${slug}: manual card hero fetch failed (${status}, ${body.length}b)`);
+      return null;
+    }
+
+    const saved = await writeGallerySlot(slug, body, fetchSrc, 0, machineName, brand, "", {
+      manualHero: true,
+      forceHero: true,
+    });
+    if (!saved) {
+      console.warn(`  ! ${slug}: manual card hero rejected after processing`);
+    }
+    return saved;
+  } catch (err) {
+    console.warn(`  ! ${slug}: manual card hero error — ${err.message}`);
+    return null;
+  }
+}
+
 async function downloadGallery(slug, remoteImages, machineName, brand) {
   const dir = path.join(imagesRoot, slug);
   cleanGalleryDir(slug);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
   const saved = [];
-  let index = 0;
+  const manual = manualHeroUrl(slug);
+  const manualBase = manual.split("?")[0];
+
+  const cardHero = await downloadManualCardHero(slug, machineName, brand);
+  if (cardHero) saved.push(cardHero);
+
+  let slotIndex = saved.length;
 
   for (const remote of remoteImages) {
     if (saved.length >= MAX_IMAGES) break;
+    const remoteBase = remote.src.split("?")[0];
+    if (manualBase && remoteBase === manualBase) continue;
+
     try {
       const fetchSrc = shopifyMaxUrl(remote.src);
       const { status, body } = await fetchUrl(fetchSrc);
       if (status !== 200 || body.length < MIN_BYTES) continue;
 
-      let processed = body;
-      const isHero = saved.length === 0;
-      try {
-        processed = isHero
-          ? await processCardHero(body, slug)
-          : await processHeroBytes(body, slug);
-      } catch {
-        processed = body;
-      }
+      const entry = await writeGallerySlot(
+        slug,
+        body,
+        fetchSrc,
+        slotIndex,
+        machineName,
+        brand,
+        remote.alt || "",
+        { manualHero: false },
+      );
+      if (!entry) continue;
 
-      const ext = isHero ? "webp" : extFromUrl(fetchSrc);
-      const allowWideHero =
-        Boolean(DIRECT_GALLERY[slug]) ||
-        DIRECT_HERO_SLUGS.has(slug) ||
-        index > 0;
-      if (!validateImageBytes(processed, ext, index, remote.alt || "", { allowWideHero })) continue;
-
-      index += 1;
-      const num = String(index).padStart(2, "0");
-      const filename = `${num}.${ext}`;
-      fs.writeFileSync(path.join(dir, filename), processed);
-
-      const alt =
-        remote.alt?.trim() ||
-        `${machineName} laser engraver — ${brand}`;
-      saved.push({
-        src: `/machines/${slug}/${filename}`,
-        alt,
-      });
+      slotIndex += 1;
+      saved.push(entry);
     } catch {
       /* try next */
     }

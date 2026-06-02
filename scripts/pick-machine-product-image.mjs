@@ -3,13 +3,7 @@
  */
 
 const BAD =
-  /gift|promo|sale|vs\.|comparison|selling_points|national|christmas|valentine|infographic|lifestyle|accessory|motherboard|tube|lens|belt|filter|paper|mat|course|warranty|replacement|spare|honeycomb|chiller|extension|rotary|air.?assist|purifier|packing|collage|specification|dimension|chart|feature|what.?s in the box|engraving on|cutting on|cuttingcreality|colorfulengrave|sample|project|logo|icon|banner|productivity|jewelry|all-series|collection-1600|-lwh\.|free.?gift|nationalpet|\.gif|hub\.jpg|_hub\.|basic.?pack|refurbish|GT_Fiber|6w_|with_Air_Assist|official-refurbished|listing|Frame\d|controlboard|NationalPetDay|gift.?box|All_In|Conveyor|streamline|Pack\.jpg|mode.?switch|packing|zhutuduibi|gcode|detail\d|after-sales|power.?supply|fume|extractor|laser.?tube|detail-|_AC_SL|wechat|qr.?code|ribbon|months.?warranty|3000bundle|Bundle-rotary|Bundle-honeycomb|Bundle-6W|AllBundle|gcode/i;
-
-/** Bundle filenames that still show the machine (allowed only for these slugs) */
-const ALLOW_BUNDLE_FILE = {
-  "monport-reno45-pro-45w": /reno-vision-bundle/i,
-  "monport-gt-30w-fiber": /GT30Bundle/i,
-};
+  /gift|promo|sale|vs\.|comparison|selling_points|national|christmas|valentine|infographic|lifestyle|accessory|motherboard|tube|lens|belt|filter|paper|mat|course|warranty|replacement|spare|honeycomb|chiller|extension|rotary|air.?assist|purifier|packing|collage|specification|dimension|chart|feature|what.?s in the box|engraving on|cutting on|cuttingcreality|colorfulengrave|sample|project|logo|icon|banner|productivity|jewelry|all-series|collection-1600|-lwh\.|free.?gift|nationalpet|\.gif|hub\.jpg|_hub\.|basic.?pack|refurbish|GT_Fiber|with_Air_Assist|official-refurbished|listing|Frame\d|controlboard|NationalPetDay|gift.?box|All_In|Conveyor|streamline|Pack\.jpg|mode.?switch|packing|zhutuduibi|gcode|detail\d|after-sales|power.?supply|fume|extractor|laser.?tube|detail-|_AC_SL|wechat|qr.?code|ribbon|months.?warranty|3000bundle|Bundle-rotary|Bundle-honeycomb|Bundle-6W|AllBundle|gcode|peijian|shuangshe|songliao|dafumian|yijimanzu|jingxiqiege|shuangshexiugai|deluxebundle|slideextension|yijiduoan/i;
 
 const STRONG_GOOD =
   /engraver|engraving.?machine|laser.?cutter|laser.?machine|co2.?laser|diode.?laser|desktop.?laser|open-frame|sideview|topview|standalone|unibody|no-module|main_pic|main-pic|_basic|basic\.png|white\.webp|1200x1200|1600x1600|product.*shot|machine/i;
@@ -64,11 +58,8 @@ export function scoreMachineImage(url, slug, alt = "", ctx = {}) {
   let score = 0;
 
   if (!lower) return -999;
-  if (BAD.test(lower) || BAD.test(altL)) {
-    const allow = ALLOW_BUNDLE_FILE[slug];
-    if (!allow?.test(lower)) return -999;
-  }
-  if (/bundle/i.test(lower) && !ALLOW_BUNDLE_FILE[slug]?.test(lower)) return -999;
+  if (BAD.test(lower) || BAD.test(altL)) return -999;
+  if (/bundle/i.test(lower)) return -999;
 
   const wrong = WRONG_FOR_SLUG[slug];
   if (wrong?.test(lower) || wrong?.test(altL)) return -999;

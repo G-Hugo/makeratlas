@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Footer, Header } from "@/components/layout/SiteChrome";
+import { ThemeProvider } from "@/components/layout/ThemeProvider";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import "../globals.css";
@@ -37,10 +38,12 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col" suppressHydrationWarning>
-        <Header locale={locale} dict={dict} />
-        <main className="flex-1">{children}</main>
-        <Footer locale={locale} dict={dict} />
+      <body className="flex min-h-full flex-col bg-background text-foreground" suppressHydrationWarning>
+        <ThemeProvider>
+          <Header locale={locale} dict={dict} />
+          <main className="flex-1">{children}</main>
+          <Footer locale={locale} dict={dict} />
+        </ThemeProvider>
       </body>
     </html>
   );

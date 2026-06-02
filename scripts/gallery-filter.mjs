@@ -60,6 +60,8 @@ export const GALLERY_RULES = {
   "longer-nano-pro-12w": { maxImages: 2 },
   "xtool-p2": { maxImages: 2 },
   "xtool-p2s": { maxImages: 2 },
+  "xtool-m2": { maxImages: 1 },
+  "xtool-f2": { maxImages: 2 },
 };
 
 /** Wrong model names appearing in alt text */

@@ -1,6 +1,6 @@
 import type { Dictionary } from "@/i18n/get-dictionary";
 import type { MachineRating } from "@/types/machine";
-import { ratingColor } from "@/lib/utils";
+import { ratingBarColor, ratingColor } from "@/lib/utils";
 
 interface RatingDisplayProps {
   rating: MachineRating;
@@ -21,14 +21,14 @@ export function RatingDisplay({ rating, labels }: RatingDisplayProps) {
       {CRITERIA_KEYS.map((key) => (
         <div key={key}>
           <div className="mb-1 flex justify-between text-sm">
-            <span className="text-stone-600">{labels[key]}</span>
+            <span className="text-stone-600 dark:text-stone-300">{labels[key]}</span>
             <span className={`font-semibold ${ratingColor(rating[key])}`}>
               {rating[key].toFixed(1)}
             </span>
           </div>
-          <div className="h-2 overflow-hidden rounded-full bg-stone-100">
+          <div className="h-2 overflow-hidden rounded-full bg-stone-100 dark:bg-stone-800">
             <div
-              className="h-full rounded-full bg-amber-500"
+              className={`h-full rounded-full ${ratingBarColor(rating[key])}`}
               style={{ width: `${rating[key] * 10}%` }}
             />
           </div>

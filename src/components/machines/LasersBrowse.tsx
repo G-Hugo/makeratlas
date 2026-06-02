@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import { MachineCard } from "@/components/machines/MachineCard";
 import type { Locale } from "@/i18n/config";
@@ -14,6 +14,11 @@ import {
 } from "@/lib/laser-capabilities";
 import { interpolate, laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import { getMachineWorkFocus, type MachineWorkFocus } from "@/lib/machine-work-focus";
+import {
+  clearLasersListScroll,
+  readLasersListScroll,
+  saveLasersListScroll,
+} from "@/lib/lasers-list-scroll";
 import type { LaserType } from "@/types/machine";
 
 interface LasersBrowseProps {
@@ -50,8 +55,40 @@ export function LasersBrowse({
   const [workFocus, setWorkFocus] = useState<MachineWorkFocus | "all">("all");
   const [powerBand, setPowerBand] = useState<"all" | "low" | "mid" | "high">("all");
   const [sort, setSort] = useState<"rating" | "power" | "newest" | "name">("rating");
+  const [scrollTargetSlug, setScrollTargetSlug] = useState<string | null>(null);
+  const prevActiveTypeRef = useRef<LaserType | "all" | null>(null);
 
   useEffect(() => {
+    if (!pathname) return;
+    const saved = readLasersListScroll(pathname);
+    if (!saved) return;
+
+    if (saved.search !== undefined) setSearch(saved.search);
+    if (saved.workFocus) setWorkFocus(saved.workFocus as MachineWorkFocus | "all");
+    if (saved.powerBand) setPowerBand(saved.powerBand as "all" | "low" | "mid" | "high");
+    if (saved.sort) setSort(saved.sort as "rating" | "power" | "newest" | "name");
+    setScrollTargetSlug(saved.slug);
+  }, [pathname]);
+
+  const handleBeforeNavigate = (slug: string) => {
+    if (!pathname) return;
+    saveLasersListScroll({
+      slug,
+      listPath: pathname,
+      search,
+      workFocus,
+      powerBand,
+      sort,
+    });
+  };
+
+  useEffect(() => {
+    if (prevActiveTypeRef.current === null) {
+      prevActiveTypeRef.current = activeType;
+      return;
+    }
+    if (prevActiveTypeRef.current === activeType) return;
+    prevActiveTypeRef.current = activeType;
     setSearch("");
     setWorkFocus("all");
     setPowerBand("all");
@@ -112,13 +149,22 @@ export function LasersBrowse({
     return result;
   }, [entries, activeType, search, workFocus, powerBand, sort]);
 
+  useEffect(() => {
+    if (!scrollTargetSlug) return;
+    const el = document.getElementById(`catalog-card-${scrollTargetSlug}`);
+    if (!el) return;
+    el.scrollIntoView({ block: "center", behavior: "auto" });
+    setScrollTargetSlug(null);
+    clearLasersListScroll();
+  }, [scrollTargetSlug, filtered]);
+
   const inTypePool =
     activeType === "all" ? entries.length : countForType(entries, activeType);
 
   return (
     <div>
-      <h1 className="text-3xl font-bold text-stone-900">{title ?? l.browseTitle}</h1>
-      {description && <p className="mt-3 max-w-2xl text-stone-600">{description}</p>}
+      <h1 className="text-3xl font-bold text-stone-900 dark:text-stone-100">{title ?? l.browseTitle}</h1>
+      {description && <p className="mt-3 max-w-2xl text-stone-600 dark:text-stone-300">{description}</p>}
 
       <nav className="mt-6 flex flex-wrap gap-2" aria-label={l.filterByType}>
         <LocaleLink
@@ -127,7 +173,7 @@ export function LasersBrowse({
           className={`rounded-full px-3 py-1.5 text-sm font-medium transition ${
             activeType === "all"
               ? "bg-amber-500 text-white shadow-sm"
-              : "bg-stone-100 text-stone-700 hover:bg-stone-200"
+              : "bg-stone-100 text-stone-700 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-700"
           }`}
         >
           {l.allCount} ({entries.length})
@@ -144,8 +190,8 @@ export function LasersBrowse({
                 isActive
                   ? "bg-amber-500 text-white shadow-sm"
                   : count === 0
-                    ? "pointer-events-none bg-stone-50 text-stone-400"
-                    : "bg-stone-100 text-stone-700 hover:bg-stone-200"
+                    ? "pointer-events-none bg-stone-50 text-stone-400 dark:bg-stone-900 dark:text-stone-600"
+                    : "bg-stone-100 text-stone-700 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-700"
               }`}
               aria-current={isActive ? "page" : undefined}
             >
@@ -156,28 +202,28 @@ export function LasersBrowse({
       </nav>
 
       {activeType === "hybrid" && (
-        <p className="mt-3 text-sm text-stone-600">{l.hybridNote}</p>
+        <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">{l.hybridNote}</p>
       )}
 
-      <div className="mt-6 flex flex-wrap gap-4 rounded-xl border border-stone-200 bg-white p-4">
+      <div className="mt-6 flex flex-wrap gap-4 rounded-xl border border-stone-200 bg-white p-4 dark:border-stone-700 dark:bg-stone-900">
         <label className="flex min-w-[200px] flex-1 flex-col gap-1 text-sm">
-          <span className="font-medium text-stone-700">{l.searchLabel}</span>
+          <span className="font-medium text-stone-700 dark:text-stone-300">{l.searchLabel}</span>
           <input
             type="search"
             placeholder={l.searchPlaceholder}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="rounded-md border border-stone-300 px-3 py-2"
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
           />
         </label>
         <label className="flex flex-col gap-1 text-sm">
-          <span className="font-medium text-stone-700">{l.sortLabel}</span>
+          <span className="font-medium text-stone-700 dark:text-stone-300">{l.sortLabel}</span>
           <select
             value={sort}
             onChange={(e) =>
               setSort(e.target.value as "rating" | "power" | "newest" | "name")
             }
-            className="rounded-md border border-stone-300 px-3 py-2"
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
           >
             <option value="rating">{l.sortHighestRated}</option>
             <option value="power">{l.sortPower}</option>
@@ -190,7 +236,7 @@ export function LasersBrowse({
           <select
             value={workFocus}
             onChange={(e) => setWorkFocus(e.target.value as MachineWorkFocus | "all")}
-            className="rounded-md border border-stone-300 px-3 py-2"
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
           >
             <option value="all">{l.allTypes}</option>
             <option value="engrave">{dict.workFocus.engrave}</option>
@@ -205,7 +251,7 @@ export function LasersBrowse({
             onChange={(e) =>
               setPowerBand(e.target.value as "all" | "low" | "mid" | "high")
             }
-            className="rounded-md border border-stone-300 px-3 py-2"
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
           >
             <option value="all">{l.powerBandAll}</option>
             <option value="low">{l.powerBandLow}</option>
@@ -215,7 +261,7 @@ export function LasersBrowse({
         </label>
       </div>
 
-      <p className="mt-4 text-sm text-stone-500">
+      <p className="mt-4 text-sm text-stone-500 dark:text-stone-400">
         {l.showing} {filtered.length} / {inTypePool}{" "}
         {activeType === "all"
           ? l.lines
@@ -229,12 +275,18 @@ export function LasersBrowse({
 
       <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {filtered.map((entry) => (
-          <MachineCard key={entry.primary.id} entry={entry} locale={locale} dict={dict} />
+          <MachineCard
+            key={entry.primary.id}
+            entry={entry}
+            locale={locale}
+            dict={dict}
+            onBeforeNavigate={handleBeforeNavigate}
+          />
         ))}
       </div>
 
       {filtered.length === 0 && (
-        <p className="mt-8 text-center text-stone-500">{l.noResults}</p>
+        <p className="mt-8 text-center text-stone-500 dark:text-stone-400">{l.noResults}</p>
       )}
     </div>
   );

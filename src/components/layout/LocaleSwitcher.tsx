@@ -19,7 +19,7 @@ export function LocaleSwitcher({ locale, labels }: LocaleSwitcherProps) {
 
   return (
     <div
-      className="flex items-center rounded-md border border-stone-200 bg-stone-50 p-0.5 text-xs font-medium"
+      className="flex items-center rounded-md border border-stone-200 bg-stone-50 p-0.5 text-xs font-medium dark:border-stone-700 dark:bg-stone-900"
       role="group"
       aria-label="Language"
     >
@@ -31,8 +31,8 @@ export function LocaleSwitcher({ locale, labels }: LocaleSwitcherProps) {
             href={localizedPath(loc, pathWithoutLocale)}
             className={`rounded px-2.5 py-1.5 transition ${
               active
-                ? "bg-white text-stone-900 shadow-sm"
-                : "text-stone-600 hover:text-stone-900"
+                ? "bg-white text-stone-900 shadow-sm dark:bg-stone-800 dark:text-stone-100"
+                : "text-stone-600 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100"
             }`}
             aria-current={active ? "true" : undefined}
           >

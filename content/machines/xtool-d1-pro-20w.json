@@ -110,18 +110,6 @@
     {
       "src": "/machines/xtool-d1-pro-20w/01.webp",
       "alt": "xTool D1 Pro 20W laser engraver — xTool"
-    },
-    {
-      "src": "/machines/xtool-d1-pro-20w/02.webp",
-      "alt": "xTool D1 Pro 20W laser engraver — xTool"
-    },
-    {
-      "src": "/machines/xtool-d1-pro-20w/03.webp",
-      "alt": "xTool D1 Pro 20W laser engraver — xTool"
-    },
-    {
-      "src": "/machines/xtool-d1-pro-20w/04.webp",
-      "alt": "xTool D1 Pro 20W laser engraver — xTool"
     }
   ],
   "modelLine": "xtool-d1-pro",
@@ -157,5 +145,6 @@
       }
     ]
   },
-  "releaseDate": "2022-06"
+  "releaseDate": "2022-06",
+  "catalogPrimary": true
 }

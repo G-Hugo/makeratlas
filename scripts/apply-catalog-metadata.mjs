@@ -12,6 +12,7 @@ const CATALOG_PRIMARY = new Set([
   "sculpfun-s30-ultra-22w",
   "ortur-laser-master-3-20w",
   "xtool-s1-20w",
+  "xtool-d1-pro-20w",
   "longer-ray5-40w",
   "longer-laser-b1-40w",
   "algolaser-alpha-mk2-40w",

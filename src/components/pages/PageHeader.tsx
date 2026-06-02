@@ -11,14 +11,14 @@ export function PageHeader({ title, description, eyebrow, children }: PageHeader
   return (
     <header className="max-w-3xl">
       {eyebrow && (
-        <p className="text-sm font-semibold uppercase tracking-wide text-amber-700">{eyebrow}</p>
+        <p className="text-sm font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-400">{eyebrow}</p>
       )}
       <h1
-        className={`font-bold tracking-tight text-stone-900 ${eyebrow ? "mt-2" : ""} text-3xl sm:text-4xl`}
+        className={`font-bold tracking-tight text-stone-900 dark:text-stone-100 ${eyebrow ? "mt-2" : ""} text-3xl sm:text-4xl`}
       >
         {title}
       </h1>
-      <p className="mt-4 text-lg leading-relaxed text-stone-600">{description}</p>
+          <p className="mt-4 text-lg leading-relaxed text-stone-600 dark:text-stone-300">{description}</p>
       {children}
     </header>
   );

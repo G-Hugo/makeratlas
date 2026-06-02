@@ -142,7 +142,7 @@ export const PRODUCT_HANDLES = {
   "gweike-g6-split-30w": { store: "gweike", handle: "g6-split-30w-60w-100w-fiber-laser-marking-engraving-machine-1" },
   "monport-gt-30w-fiber": {
     store: "monport",
-    handle: "bundle-sale-monport-gt-30w-split-fiber-laser-engraver-marking-machine-with-autofocus",
+    handle: "gt-30w-autofocus-fiber-laser-engraver",
   },
   "omtech-fc105-fiber": { store: "omtech", handle: "fc-105-fiber-laser-cutting-machine" },
   "longer-ray5-5w": { store: "longer", handle: "longer-ray5-5w-laser-engraver" },
@@ -171,7 +171,7 @@ export const PRODUCT_HANDLES = {
   "gweike-g6-split-100w": { store: "gweike", handle: "g6-split-mopa-30w-60w-100w-fiber-laser-marking-engraving-machine" },
   "monport-gt-50w-fiber": {
     store: "monport",
-    handle: "bundle-sale-monport-gt-30w-split-fiber-laser-engraver-marking-machine-with-autofocus",
+    handle: "gt-50w-autofocus-fiber-laser-engraver",
   },
   "monport-gt-60w-fiber": {
     store: "monport",
@@ -251,8 +251,7 @@ export const PRODUCT_HANDLES = {
   "omtech-fc-44-intelli": { store: "omtech", handle: "fc-44-intelli-fiber-laser-cutting-machine" },
   "monport-reno45-pro-45w": {
     store: "monport",
-    handle:
-      "bundle-sale-monport-reno45-pro-vision-45w-desktop-co2-laser-engraver-cutter-16-x-12-with-8mp-hd-camera-and-magnetic-assisted-autofocus",
+    handle: "monport-reno-45w-pro-vision",
   },
   "monport-ga-100w-fiber": {
     store: "monport",
@@ -318,19 +317,19 @@ export const SKIP_ACCESSORY =
 export const DIRECT_GALLERY = {
   "acmer-p1": [
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/ACMER_P1_10W_Laser_Engraver_and_Cutter_Machine.webp",
-    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/ACMER_P1_20W_Laser_Engraver_Cutter_Machine.webp",
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/acmer-p1-laser-engraver-cutting-machine-179136.jpg",
+    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/ACMER_P1_20W_Laser_Engraver_Cutter_Machine.webp",
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/acmer-p1-laser-engraver-cutting-machine-635649.jpg",
   ],
   "acmer-p1-10w": [
-    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/acmer-p1-laser-engraver-cutting-machine-179136.jpg",
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/ACMER_P1_10W_Laser_Engraver_and_Cutter_Machine.webp",
+    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/acmer-p1-laser-engraver-cutting-machine-179136.jpg",
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/ACMER_P1_20W_Laser_Engraver_Cutter_Machine.webp",
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/acmer-p1-laser-engraver-cutting-machine-635649.jpg",
   ],
   "acmer-p1-20w": [
-    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/acmer-p1-laser-engraver-cutting-machine-179136.jpg",
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/ACMER_P1_20W_Laser_Engraver_Cutter_Machine.webp",
+    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/acmer-p1-laser-engraver-cutting-machine-179136.jpg",
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/ACMER_P1_10W_Laser_Engraver_and_Cutter_Machine.webp",
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/acmer-p1-laser-engraver-cutting-machine-635649.jpg",
   ],
@@ -353,10 +352,9 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/acmer-p2-laser-engraver-cutting-machine-215432.jpg",
   ],
   "acmer-p3": [
-    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/P3_48W_6d395fb1-9246-4844-b667-a292db06cd7a.png",
-    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/48W-01.webp",
-    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/48W-02.webp",
-    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/48W-03.webp",
+    "https://m.media-amazon.com/images/I/6136Aeu1D2L._AC_UF1000,1000_QL80_.jpg",
+    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/48W-06.webp",
+    "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/48W-07.webp",
   ],
   "acmer-s1-6w": [
     "https://cdn.shopify.com/s/files/1/0662/7960/4450/files/ACMERS1PortableLaserEngraverMiniMachine-2.5Wblack.webp",
@@ -446,22 +444,16 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/8-A_1600X1600-2.jpg",
   ],
   "atomstack-a40-pro": [
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/A40Pro_969322b1-0e1b-43b5-8f8b-a24bbb2868df.png",
     "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/1_f8d24d8f-b569-4751-b3b8-f7d4e3ee31d6.jpg",
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/4_4e416190-c196-41e5-b41f-5e81f4fc58e9.jpg",
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/9_107dd33b-0d01-4ec4-825d-5bdceb0cf620.jpg",
+    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/A40Pro_969322b1-0e1b-43b5-8f8b-a24bbb2868df.png",
   ],
   "atomstack-a40-pro-20w": [
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/A40Pro_969322b1-0e1b-43b5-8f8b-a24bbb2868df.png",
     "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/1_f8d24d8f-b569-4751-b3b8-f7d4e3ee31d6.jpg",
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/4_4e416190-c196-41e5-b41f-5e81f4fc58e9.jpg",
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/9_107dd33b-0d01-4ec4-825d-5bdceb0cf620.jpg",
+    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/A40Pro_969322b1-0e1b-43b5-8f8b-a24bbb2868df.png",
   ],
   "atomstack-a40-pro-40w": [
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/A40Pro_969322b1-0e1b-43b5-8f8b-a24bbb2868df.png",
     "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/1_f8d24d8f-b569-4751-b3b8-f7d4e3ee31d6.jpg",
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/4_4e416190-c196-41e5-b41f-5e81f4fc58e9.jpg",
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/9_107dd33b-0d01-4ec4-825d-5bdceb0cf620.jpg",
+    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/A40Pro_969322b1-0e1b-43b5-8f8b-a24bbb2868df.png",
   ],
   "atomstack-a5-pro": [
     "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/3.jpg",
@@ -488,7 +480,8 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0790/2586/4977/products/5.jpg",
   ],
   "atomstack-hurricane": [
-    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/6_f6482af0-6f4f-4c85-8791-9901e2645b04.jpg",
+    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/K60_1.jpg",
+    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/2-1_6e194f13-a8aa-4764-908a-95d3cf84a490.jpg",
   ],
   "atomstack-p1": [
     "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/5W_fadefb5e-27e7-49f0-b283-84faba9d3b3f.jpg",
@@ -549,16 +542,15 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/5w-laser-engraving-with-high-precision.jpg",
   ],
   "creality-falcon-a1-10w": [
-    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/Better-user-experience_1.png",
+    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/Falcon_A1_png__3.png",
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/no-installation_1.png",
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/falcon-a1-3-steps_1.png",
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/Product-usage-area_1.png",
   ],
   "creality-falcon-a1-pro-20w": [
-    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/1_1.png",
+    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/2_2.jpg",
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/2_5.jpg",
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/2_6.jpg",
-    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/2_8.jpg",
   ],
   "creality-falcon2-12w": [
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/Falcon2_22W_6.png",
@@ -591,16 +583,15 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/laserengravercutter40wdrawercrealityfalcon2pro13.jpg",
   ],
   "foxaliens-le-4040-pro-20w": [
-    "https://cdn.shopify.com/s/files/1/0366/4147/2649/products/e655e1ee5863adf255c25787bbee0d1e_74adbcee-7f04-4a34-b13b-477abedc361c.jpg",
     "https://cdn.shopify.com/s/files/1/0366/4147/2649/products/1_267fb215-dab8-44ad-a8ee-177bd957c210.jpg",
-    "https://cdn.shopify.com/s/files/1/0366/4147/2649/products/01_59a0c8b9-199a-49bf-8505-6f7a2eab1a1d.jpg",
-    "https://cdn.shopify.com/s/files/1/0366/4147/2649/products/8.jpg",
+    "https://cdn.shopify.com/s/files/1/0366/4147/2649/products/000_257e617d-d383-4e19-b07e-06760cbc9f11.jpg",
   ],
   "foxaliens-reisler-2": [
     "https://cdn.shopify.com/s/files/1/0366/4147/2649/products/ReizerNew_edd8b243-b263-46ab-b098-a9b00c9893fe.jpg",
   ],
   "foxaliens-reizer-40w": [
-    "https://cdn.shopify.com/s/files/1/0366/4147/2649/products/1_1.jpg",
+    "https://cdn.shopify.com/s/files/1/0366/4147/2649/products/ReizerNew_edd8b243-b263-46ab-b098-a9b00c9893fe.jpg",
+    "https://cdn.shopify.com/s/files/1/0366/4147/2649/products/10_ab283974-3bf0-4c34-9bae-6a3e9a777d01.jpg",
   ],
   "glowforge-aura": [
     "https://cdn.shopify.com/s/files/1/0017/2231/8946/files/aura_home.webp",
@@ -615,7 +606,6 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/co2_3f2c14ef-d3cd-4748-905b-b4776820142d.png",
   ],
   "gweike-cloud-55w": [
-    "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/55W_2_04c58ef0-9213-4c02-890e-cdd15ba207b2.jpg",
     "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/PRO_png1200X1200_294d114b-216a-461d-a0b8-b706604830dd.png",
     "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/1600x1600_e213b815-0fc0-4681-9dd1-1c616652f99e.jpg",
     "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/1600x1600.jpg",
@@ -639,7 +629,8 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/G6_982d9d9a-b0a8-4e23-8721-563ad8255b4f.png",
   ],
   "gweike-g6-split-30w": [
-    "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/G6_..png",
+    "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/G6-_1_30d05272-ce36-4862-804a-045ba1d55e2f.jpg",
+    "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/G6-_2_e42b867a-8b04-419f-80cd-df206b4e83af.jpg",
   ],
   "gweike-g6-split-50w": [
     "https://cdn.shopify.com/s/files/1/0660/8342/2425/files/G6_..png",
@@ -654,16 +645,13 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/Laserpecker_LP4_Laser_Engraving_And_Cutting_in_One_Step.jpg",
   ],
   "laserpecker-5": [
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/laserpecker-lp5-engraving-machine_3.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S26e0a64063a042aa9a00eddad4e4cf65y.png_960x960.png_.avif",
+    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/laserpecker-lp5-engraving-machine_2.png",
     "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPeckerLP5LightweightLaserCutter.png",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPeckerLP5HomeLaserCutter.png",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker_LP5_Laser_Cutter_for_Crafts_2.png",
+    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPeckerLP5LaserPrinter.png",
   ],
   "laserpecker-lp1-plus": [
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker-LP1_Plus_product_Stable_Setup.webp",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker-LP1_Plus_product_fruits_and_treats.webp",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker-LP1_Plus_product_smart_control.webp",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker-LP1_Plus_Create_in_Every_Way.webp",
+    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker_LP1_Pro_Basic.png",
   ],
   "laserpecker-lp1-pro": [
     "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker_LP1_Pro_Basic.png",
@@ -673,27 +661,18 @@ export const DIRECT_GALLERY = {
   ],
   "laserpecker-lp2-classic": [
     "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker_LP2_Basic.png",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/laserpecker-lp2-engraving-reference.jpg",
     "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/laserpecker-lp2-portable-handheld-laser-engraver.jpg",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker_LP2_engraver_for_glass_engraving.png",
   ],
   "laserpecker-lp2-plus-10w": [
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPacker_LP2_PLUS_cut_6mm_artlic_and_basswood_in_one_pass.webp",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPacker_LP2_plus_4000mms_speed.webp",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker_LP2_PLUS_Spintrack_module.webp",
+    "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker_LP2_Basic.png",
     "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker-LP2PLus.png",
   ],
   "laserpecker-lp3": [
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/products/Laserpecker_LP3_Ultra_Fast_Infrared_Laser_Engraver.png",
     "https://cdn.shopify.com/s/files/1/0572/9465/1439/files/LaserPecker_LP3_Basic.png",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/products/Laserpecker_LP3_With_4K_Ultra_Fine_Engraving.jpg",
-    "https://cdn.shopify.com/s/files/1/0572/9465/1439/products/Laserpecker_LP3_Create_With_No_Hassle.jpg",
   ],
   "longer-laser-b1": [
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-20w-engraving-machine22-24w-output-power-526370.jpg",
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-20w-engraving-machine22-24w-output-power-584503.jpg",
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-20w-engraving-machine22-24w-output-power-995457.jpg",
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-20w-engraving-machine22-24w-output-power-976798.jpg",
+    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/B1_40W_16c92ceb-608c-46f6-af44-8deebedec7ee.jpg",
+    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-40w-engraving-machine44-48w-output-power-206757.jpg",
   ],
   "longer-laser-b1-20w": [
     "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-20w-engraving-machine22-24w-output-power-526370.jpg",
@@ -708,28 +687,24 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-30w-engraving-machine33-36w-output-power-925381.jpg",
   ],
   "longer-laser-b1-40w": [
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-40w-engraving-machine44-48w-output-power-693948.jpg",
+    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/B1_40W_16c92ceb-608c-46f6-af44-8deebedec7ee.jpg",
     "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-40w-engraving-machine44-48w-output-power-206757.jpg",
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-40w-engraving-machine44-48w-output-power-234951.jpg",
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-laser-b1-40w-engraving-machine44-48w-output-power-194477.jpg",
   ],
   "longer-nano-6w": [
     "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/Nano_6W_fe4b5cb4-f665-4535-b3a5-3c17ce4f6ba2.jpg",
   ],
   "longer-nano-duo-ai": [
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/6_e754695b-97ca-4453-a730-6d6800f00064.jpg",
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/Nano_Duo_09fcd034-1881-4159-8ea9-3ef550d5be7e.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S4c17dfcec6bf46cfa61d81c7482bec48n.jpg_960x960q75.jpg_.avif",
     "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/Nano_Duo_96f13e53-9606-4dfc-b778-fd2173328e82.jpg",
     "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/Nano_Duo_535bbf2b-d5a0-45c9-a354-fb549a4c9118.jpg",
   ],
   "longer-nano-pro-12w": [
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/17272456752434.png",
+    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/1_08fa9b53-26f4-4846-8fa5-018bc3cee5c7.jpg",
+    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/2_c5e9c2ad-4b27-47a3-94da-a0228a2eef54.jpg",
   ],
   "longer-ray5": [
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-ray5-20w-laser-engraver22-24w-output-power-571618.jpg",
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-ray5-20w-laser-engraver22-24w-output-power-986400.jpg",
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-ray5-20w-laser-engraver22-24w-output-power-827186.jpg",
-    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/longer-ray5-20w-laser-engraver22-24w-output-power-854536.jpg",
+    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/RAY5_40W_Pro_Max.jpg",
+    "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/RAY5_40W_Pro_440.jpg",
   ],
   "longer-ray5-10w": [
     "https://cdn.shopify.com/s/files/1/0517/8812/0247/files/RAY5_10W_a9867fb4-9ee7-46ed-aaea-e672454c699e.jpg",
@@ -761,6 +736,7 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/2_09cb4ec3-a44a-4b5d-9157-fe32d8ac5fa6.jpg",
   ],
   "monport-ga-100w-fiber": [
+    "https://monportlaser.fr/cdn/shop/files/ga-1.webp",
     "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/GA100_5aec062f-e893-415a-b0d5-03d5463ea638.jpg",
   ],
   "monport-gt-100w-fiber": [
@@ -768,17 +744,19 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/6w_2c353289-dfaa-4475-8eeb-3e27ac9d922d.webp",
   ],
   "monport-gt-30w-fiber": [
-    "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/GT30Bundle.png",
+    "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/GT_30W.jpg",
+    "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/GT30-JK-US.jpg",
   ],
   "monport-gt-50w-fiber": [
-    "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/GT30Bundle.png",
+    "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/GT_50W.jpg",
+    "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/GT100w.webp",
   ],
   "monport-gt-60w-fiber": [
     "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/GT100w.webp",
     "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/6w_2c353289-dfaa-4475-8eeb-3e27ac9d922d.webp",
   ],
   "monport-reno45-pro-45w": [
-    "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/reno-vision-bundle.jpg",
+    "https://cdn.shopify.com/s/files/1/0591/5128/6471/files/RENO45_Pro_Vision.jpg",
   ],
   "omtech-40w-co2": [
     "https://cdn.shopify.com/s/files/1/0280/0012/4993/files/2_b6292a64-1f8e-4296-ad18-1e93793f2c00.jpg",
@@ -831,28 +809,20 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/aufero-laser-1-main-pic-product-size.webp",
   ],
   "ortur-h20": [
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-4.webp",
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-no-module.webp",
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-6.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-7.webp",
   ],
   "ortur-h20-10w": [
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-4.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-10W-2.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-10w-1.webp",
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-no-module.webp",
+    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-10W-2.webp",
   ],
   "ortur-h20-20w": [
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-4.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-20W-2.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-20w-1.webp",
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-no-module.webp",
+    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-20W-2.webp",
   ],
   "ortur-h20-40w": [
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-4.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-40W-2.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-40w-1.webp",
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-no-module.webp",
+    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-h20-laser-engraving-machine-40W-2.webp",
   ],
   "ortur-laser-master-2-pro": [
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-2-pro-s2-10w-main-pic.webp",
@@ -885,28 +855,20 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-3-20w-speed.webp",
   ],
   "ortur-laser-master-h10": [
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-6.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-orp-1-0.jpg",
+    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/Ortur_Laser_Master_H10-1.webp",
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-2.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-3.webp",
   ],
   "ortur-laser-master-h10-10w": [
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-10w-main-pic.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-10w-main-pic-orp-1-0.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-10w-main-pic-lep.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-6.webp",
+    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/Ortur_Laser_Master_H10-1.webp",
   ],
   "ortur-laser-master-h10-20w": [
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-6.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-orp-1-0.jpg",
+    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/Ortur_Laser_Master_H10-1.webp",
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-2.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-3.webp",
   ],
   "ortur-laser-master-h10-40w": [
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-6.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-orp-1-0.jpg",
+    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/Ortur_Laser_Master_H10-1.webp",
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-2.webp",
-    "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-h10-main-pic-3.webp",
   ],
   "ortur-lm2-s2-10w": [
     "https://cdn.shopify.com/s/files/1/0503/4734/4056/files/ortur-laser-master-2-s2-main-pic-1.webp",
@@ -930,10 +892,8 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/icube_5.jpg",
   ],
   "sculpfun-icube-pro-5w": [
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A01_7367719e-3217-4bab-88c1-d8621f5e1418.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A05_adbfec7a-9e0b-4cd0-91a9-8c36ab863ef0.jpg",
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A03_b030c1c6-f857-4dd6-8b7a-54dd1e4f5184.jpg",
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A04_4f952ff0-08a0-45a0-ad77-14e260b50f71.jpg",
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/A06_6dbc3ee2-1794-48a2-aca0-3c02517f68f6.jpg",
   ],
   "sculpfun-s10-10w": [
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S10_main.jpg",
@@ -941,13 +901,13 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/08_cc68b87b-baab-4552-8041-844697637de8.jpg",
   ],
   "sculpfun-s30-pro": [
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/08_bec466d5-6c8f-43a5-9b29-75bfd84c5757.jpg",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/SCULPFUNS30Pro.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/07_17cbcec4-bb84-4a4c-8763-c6d6b71d8a50.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/06_7b47a592-3c28-489c-84e6-6b08d249d9c2.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/05_5a3ba5ff-21d5-4a38-bb97-2d342ab1c420.jpg",
   ],
   "sculpfun-s30-pro-10w": [
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/08_bec466d5-6c8f-43a5-9b29-75bfd84c5757.jpg",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/SCULPFUNS30Pro.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/07_17cbcec4-bb84-4a4c-8763-c6d6b71d8a50.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/06_7b47a592-3c28-489c-84e6-6b08d249d9c2.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/05_5a3ba5ff-21d5-4a38-bb97-2d342ab1c420.jpg",
@@ -956,15 +916,13 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S30-Pro-Max.jpg",
   ],
   "sculpfun-s30-pro-max-20w": [
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/07_d1a59918-4cac-4dc1-be30-e8cb6714a9cb.jpg",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S30-Pro-Max.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/08_b5a54aa4-7828-4285-a149-5662163d685d.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/06_affd90ea-3455-47fa-99fd-92325faced9f.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S30-Pro-Max.jpg",
   ],
   "sculpfun-s30-ultra": [
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/01-2_cca2c928-b8f0-418f-86f3-6a949d0d4bf1.jpg",
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/02-1_78bfc554-2958-490a-b092-0fb6d9510881.jpg",
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/00_0ceb23be-ad52-4fd5-9a4c-7ddd3f2ac753.jpg",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S30U-22W_6d10fe98-1596-4d13-a44c-e61f68abd984.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/01_11b74472-5e35-4d0f-83bf-66e11766b277.jpg",
   ],
   "sculpfun-s30-ultra-10w": [
@@ -974,10 +932,8 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/00_0ceb23be-ad52-4fd5-9a4c-7ddd3f2ac753.jpg",
   ],
   "sculpfun-s30-ultra-22w": [
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/01-2_cca2c928-b8f0-418f-86f3-6a949d0d4bf1.jpg",
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/02-1_78bfc554-2958-490a-b092-0fb6d9510881.jpg",
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S30U-22W_6d10fe98-1596-4d13-a44c-e61f68abd984.jpg",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/00_0ceb23be-ad52-4fd5-9a4c-7ddd3f2ac753.jpg",
-    "https://cdn.shopify.com/s/files/1/0628/0695/0066/products/01_11b74472-5e35-4d0f-83bf-66e11766b277.jpg",
   ],
   "sculpfun-s9": [
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S9-Pro_main.jpg",
@@ -1058,10 +1014,10 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/D1-Pro_1200x1200.webp",
   ],
   "xtool-d1-pro-40w": [
+    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/D1-Pro_1200x1200.webp",
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/products/xtool-40wlasermodule-v2.webp",
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/products/xtool-40wlasermodule-v5.webp",
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/products/xtool-40wlasermodule1.webp",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/products/xtool-40wlasermodule3.webp",
   ],
   "xtool-d1-pro-5w": [
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/D1-Pro_1200x1200.webp",
@@ -1082,9 +1038,7 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-a-f2ultrauv_us_pc_image1868_6883-2_e1306421-e39b-4e1f-a0b1-11ec896dc90e.webp",
   ],
   "xtool-m1-ultra": [
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/xTool-M1Ultra-EasySeting.jpg",
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_m1ultra-whitebackground_5122-70511.webp",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-m1ultra_us_pc_m1ultrafunction_8606-20177_f5fdc234-64d7-4cb0-bdfa-1e5538f19626.webp",
   ],
   "xtool-p2": [
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_p-black-standalone_5130-129_2291d7b0-a962-466d-89c6-8166e1c383a0.webp",
@@ -1093,40 +1047,25 @@ export const DIRECT_GALLERY = {
   "xtool-p2s": [
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_p2s-black-standalone_5088-27425_ccb158e6-0ec0-44c0-9a30-3254d39b2100.webp",
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_p-black-standalone_5130-129_2291d7b0-a962-466d-89c6-8166e1c383a0.webp",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-p2-p2s-v30_us_pc_shuangshexiugai-_10181-1806.webp",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-p2-p2s-v30_us_pc_peijian_10762-687.webp",
   ],
   "xtool-s1": [
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/ef065431cbd94f938c26c7356654b2c8.jpg",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_s1-10w-black-standalone_5088-28649.webp",
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-s1zhonggou_us_pc_s1-black_4556-13766.webp",
   ],
   "xtool-s1-10w": [
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/ef065431cbd94f938c26c7356654b2c8.jpg",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_s1-10w-black-standalone_5088-28649.webp",
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-s1zhonggou_us_pc_s1-black_4556-13766.webp",
   ],
   "xtool-s1-20w": [
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/ef065431cbd94f938c26c7356654b2c8.jpg",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_s1-10w-black-standalone_5088-28649.webp",
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-s1zhonggou_us_pc_s1-black_4556-13766.webp",
   ],
   "xtool-s1-40w": [
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/ef065431cbd94f938c26c7356654b2c8.jpg",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_s1-10w-black-standalone_5088-28649.webp",
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-s1zhonggou_us_pc_s1-black_4556-13766.webp",
   ],
   "xtool-m2": [
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-m2_us_pc_10w-20wdanji_4582-263_9b492bef-5903-4722-b2d8-a36c8c99b45e.webp?v=1779863675",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-m2_us_pc_shuangshe_5489-19068.webp?v=1779679061",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-m2_us_pc_jingxiqiege_5489-19092.webp?v=1779679061",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-m2_us_pc_yijimanzupendiaoqie_5489-19028.webp?v=1779679061",
+    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-m2_us_pc_10w-20wdanji_4582-263_9b492bef-5903-4722-b2d8-a36c8c99b45e.webp",
   ],
   "xtool-f2": [
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-f2chanpinye_us_pc_f2_2488-2704.webp?v=1762229455",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-f2chanpinye_us_pc_image-1_3883-29204_1afc9411-c274-4a57-8016-e77209145b8f.webp?v=1766373029",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-f2chanpinye_us_pc_image-2_2488-2338_092c523f-c983-4eb7-8bfd-fd14d0dc00ed.webp?v=1769139180",
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-f2chanpinye_us_pc_image-3_2488-2404.webp?v=1769139180",
+    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-f2chanpinye_us_pc_us-f2standalone_257-503_b19ab6e2-6ab1-4729-bf9c-51bf1e83f39b.webp",
+    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-f2chanpinye_us_pc_image-1_3883-29204_1afc9411-c274-4a57-8016-e77209145b8f.webp",
   ],
   "xtool-p3": [
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-p3_ca_pc_us-p3mainimage01_2330-8226.webp?v=1763462606",
@@ -1135,10 +1074,9 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-p3_us_pc_p3mainimageen18_3821-2770.webp?v=1770032287",
   ],
   "creality-falcon-t1": [
-    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/1600-1.png?v=1779263490",
-    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/1_4bf8e712-9913-4634-8943-9bf3a10d7dc8.jpg?v=1779852059",
-    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/10_0b9e7637-b450-45ad-89b7-8a11920c690c.jpg?v=1779852059",
-    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/11_1ac0305b-78a7-4342-be40-e326cdd7d795.jpg?v=1779852059",
+    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/1600_6148baba-1e01-4d7d-8113-fc9e07cfa387.png",
+    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/10_0b9e7637-b450-45ad-89b7-8a11920c690c.jpg",
+    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/2_14aa1a9b-b56c-49c0-a7c5-56c0f305f60d.jpg",
   ],
   "sculpfun-s70-max-70w": [
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S70-max.jpg?v=1757410060",
@@ -1146,7 +1084,77 @@ export const DIRECT_GALLERY = {
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S70MAXAir_4.jpg?v=1757410060",
     "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S70MAXAir_5.jpg?v=1757410060",
   ],
+  "sculpfun-s40-max-48w": [
+    "https://cdn.shopify.com/s/files/1/0628/0695/0066/files/S40_max_new_front_view.jpg",
+  ],
+  "atomstack-a70-max": [
+    "https://cdn.shopify.com/s/files/1/0790/2586/4977/files/A70_Max_7e8c0a97-f45f-4bfa-bdd6-eb737a1590f4.jpg",
+  ],
 };
+
+/** Use only curated DIRECT_GALLERY URLs — skip Shopify product image merge. */
+export const DIRECT_GALLERY_ONLY = new Set([
+  "xtool-p2",
+  "xtool-p2s",
+  "xtool-m2",
+  "xtool-f2",
+  "xtool-s1",
+  "xtool-s1-10w",
+  "xtool-s1-20w",
+  "xtool-s1-40w",
+  "xtool-d1-pro",
+  "xtool-d1-pro-5w",
+  "xtool-d1-pro-10w",
+  "xtool-d1-pro-20w",
+  "xtool-m1-ultra",
+  "ortur-laser-master-h10",
+  "ortur-laser-master-h10-10w",
+  "ortur-laser-master-h10-20w",
+  "ortur-laser-master-h10-40w",
+  "longer-laser-b1",
+  "longer-laser-b1-20w",
+  "longer-laser-b1-30w",
+  "longer-laser-b1-40w",
+  "acmer-p3",
+  "atomstack-hurricane",
+  "atomstack-a40-pro",
+  "atomstack-a40-pro-20w",
+  "atomstack-a40-pro-40w",
+  "foxaliens-le-4040-pro-20w",
+  "gweike-cloud-55w",
+  "laserpecker-5",
+  "laserpecker-4",
+  "laserpecker-lp1-plus",
+  "laserpecker-lp2-classic",
+  "laserpecker-lp2-plus-10w",
+  "laserpecker-lp3",
+  "longer-nano-6w",
+  "longer-nano-duo-ai",
+  "monport-ga-100w-fiber",
+  "monport-reno45-pro-45w",
+  "acmer-p1",
+  "acmer-p1-10w",
+  "acmer-p1-20w",
+  "ortur-h20",
+  "ortur-h20-10w",
+  "ortur-h20-20w",
+  "ortur-h20-40w",
+  "longer-ray5",
+  "longer-ray5-40w",
+]);
+
+/** xTool heroes: keep OEM webp bytes (card pipeline over-compresses). */
+export const CURATED_RAW_HERO = new Set([
+  "xtool-p2",
+  "xtool-p2s",
+  "xtool-m2",
+  "xtool-f2",
+  "xtool-d1-pro",
+  "xtool-d1-pro-5w",
+  "xtool-d1-pro-10w",
+  "xtool-d1-pro-20w",
+  "xtool-d1-pro-40w",
+]);
 
 
 

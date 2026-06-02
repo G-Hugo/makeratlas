@@ -52,12 +52,12 @@ export default async function GuidePage({ params }: PageProps) {
     <>
       <JsonLd data={guideJsonLd(guide)} />
       <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
-        <nav className="mb-6 text-sm text-stone-500">
-          <LocaleLink href="/guides" locale={locale} className="hover:text-amber-700">
+        <nav className="mb-6 text-sm text-stone-500 dark:text-stone-400">
+          <LocaleLink href="/guides" locale={locale} className="hover:text-amber-700 dark:hover:text-amber-400">
             {dict.guides.title}
           </LocaleLink>
           <span className="mx-2">/</span>
-          <span className="text-stone-800">{guide.title}</span>
+          <span className="text-stone-800 dark:text-stone-200">{guide.title}</span>
         </nav>
 
         <ContentFreshness
@@ -66,9 +66,9 @@ export default async function GuidePage({ params }: PageProps) {
           dict={dict.freshness}
           className="mt-1"
         />
-        <p className="mt-2 text-sm text-stone-500">{guide.readTime}</p>
-        <h1 className="mt-2 text-3xl font-bold text-stone-900 sm:text-4xl">{guide.title}</h1>
-        <p className="mt-4 text-lg text-stone-600">{guide.description}</p>
+        <p className="mt-2 text-sm text-stone-500 dark:text-stone-400">{guide.readTime}</p>
+        <h1 className="mt-2 text-3xl font-bold text-stone-900 dark:text-stone-100 sm:text-4xl">{guide.title}</h1>
+        <p className="mt-4 text-lg text-stone-600 dark:text-stone-400">{guide.description}</p>
 
         <div className="mt-10">
           <MarkdownContent content={content} />

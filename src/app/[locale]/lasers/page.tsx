@@ -38,12 +38,12 @@ export default async function LasersPage({ params }: PageProps) {
         dict={dict}
         description={interpolate(dict.lasers.description, { count: entries.length })}
       />
-      <p className="mt-8 text-sm text-stone-500">
+      <p className="mt-8 text-sm text-stone-500 dark:text-stone-300">
         {dict.lasers.helpChoosing}{" "}
         <LocaleLink
           href="/guides/understanding-laser-types"
           locale={locale}
-          className="text-amber-700 hover:underline"
+          className="text-amber-700 hover:underline dark:text-amber-400"
         >
           {dict.lasers.laserTypesGuide}
         </LocaleLink>{" "}
@@ -51,7 +51,7 @@ export default async function LasersPage({ params }: PageProps) {
         <LocaleLink
           href="/guides/laser-buying-guide-2026"
           locale={locale}
-          className="text-amber-700 hover:underline"
+          className="text-amber-700 hover:underline dark:text-amber-400"
         >
           {dict.lasers.buyingGuide}
         </LocaleLink>

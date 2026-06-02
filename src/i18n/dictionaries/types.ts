@@ -296,4 +296,8 @@ export type Dictionary = {
     en: string;
     fr: string;
   };
+  theme: {
+    light: string;
+    dark: string;
+  };
 };

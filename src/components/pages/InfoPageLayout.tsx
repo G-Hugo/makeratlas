@@ -32,45 +32,49 @@ export function InfoPageLayout({
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-      <nav className="mb-8 text-sm text-stone-500">
-        <LocaleLink href="/" locale={locale} className="hover:text-amber-700">
+      <nav className="mb-8 text-sm text-stone-500 dark:text-stone-400">
+        <LocaleLink href="/" locale={locale} className="hover:text-amber-700 dark:hover:text-amber-400">
           {p.breadcrumbHome}
         </LocaleLink>
         <span className="mx-2">/</span>
-        <span className="text-stone-800">{title}</span>
+        <span className="text-stone-800 dark:text-stone-200">{title}</span>
       </nav>
 
       <div className="grid gap-12 lg:grid-cols-[1fr_280px]">
         <article>
           {eyebrow && (
-            <p className="text-sm font-semibold uppercase tracking-wide text-amber-700">
+            <p className="text-sm font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-400">
               {eyebrow}
             </p>
           )}
           <h1
-            className={`font-bold tracking-tight text-stone-900 ${eyebrow ? "mt-2" : ""} text-3xl sm:text-4xl`}
+            className={`font-bold tracking-tight text-stone-900 dark:text-stone-100 ${eyebrow ? "mt-2" : ""} text-3xl sm:text-4xl`}
           >
             {title}
           </h1>
-          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-stone-600">{subtitle}</p>
+          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-stone-600 dark:text-stone-300">
+            {subtitle}
+          </p>
           {children}
         </article>
 
         {related && related.length > 0 && (
           <aside className="lg:sticky lg:top-24 lg:self-start">
-            <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm">
-              <h2 className="text-sm font-semibold text-stone-900">{p.relatedTitle}</h2>
+            <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm dark:border-stone-700 dark:bg-stone-900">
+              <h2 className="text-sm font-semibold text-stone-900 dark:text-stone-100">{p.relatedTitle}</h2>
               <ul className="mt-4 space-y-3">
                 {related.map((link) => (
                   <li key={link.href}>
                     <LocaleLink
                       href={link.href}
                       locale={locale}
-                      className="block rounded-lg border border-transparent px-2 py-1.5 transition hover:border-amber-200 hover:bg-amber-50"
+                      className="block rounded-lg border border-transparent px-2 py-1.5 transition hover:border-amber-200 hover:bg-amber-50 dark:hover:border-amber-900 dark:hover:bg-amber-950/40"
                     >
-                      <span className="text-sm font-medium text-amber-800">{link.label}</span>
+                      <span className="text-sm font-medium text-amber-800 dark:text-amber-300">
+                        {link.label}
+                      </span>
                       {link.description && (
-                        <span className="mt-0.5 block text-xs text-stone-500">
+                        <span className="mt-0.5 block text-xs text-stone-500 dark:text-stone-400">
                           {link.description}
                         </span>
                       )}
@@ -88,7 +92,7 @@ export function InfoPageLayout({
 
 export function InfoProse({ children }: { children: ReactNode }) {
   return (
-    <div className="prose prose-stone mt-10 max-w-none prose-headings:scroll-mt-24 prose-a:text-amber-700 prose-a:no-underline hover:prose-a:underline">
+    <div className="prose prose-stone mt-10 max-w-none prose-headings:scroll-mt-24 prose-a:text-amber-700 prose-a:no-underline hover:prose-a:underline dark:prose-invert">
       {children}
     </div>
   );
@@ -102,9 +106,9 @@ export function InfoCallout({
   children: ReactNode;
 }) {
   const styles = {
-    neutral: "border-stone-200 bg-stone-50 text-stone-800",
-    amber: "border-amber-200 bg-amber-50 text-amber-950",
-    sky: "border-sky-200 bg-sky-50 text-sky-950",
+    neutral: "border-stone-200 bg-stone-50 text-stone-800 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-200",
+    amber: "border-amber-200 bg-amber-50 text-amber-950 dark:border-amber-900 dark:bg-amber-950/50 dark:text-amber-100",
+    sky: "border-sky-200 bg-sky-50 text-sky-950 dark:border-sky-900 dark:bg-sky-950/50 dark:text-sky-100",
   };
   return (
     <div className={`mt-8 rounded-xl border p-5 text-sm leading-relaxed ${styles[variant]}`}>

@@ -28,19 +28,19 @@ export function PowerTierNav({
 
   return (
     <section
-      className="rounded-xl border border-slate-200 bg-slate-50/80 p-4 sm:p-5"
+      className="rounded-xl border border-slate-200 bg-slate-50/80 p-4 sm:p-5 dark:border-slate-700 dark:bg-slate-900/50"
       aria-label={labels.powerTierChoosePower}
     >
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
             {isModuleLine ? labels.powerTierChooseModule : labels.powerTierChoosePower}
           </p>
-          <p className="mt-1 text-sm text-slate-600">{hint}</p>
+          <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">{hint}</p>
         </div>
-        <p className="text-sm text-slate-700 sm:text-right">
-          <span className="font-medium text-slate-900">{labels.powerTierActive}:</span>{" "}
-          <span className="font-semibold text-slate-900">{activeLabel}</span>
+        <p className="text-sm text-slate-700 sm:text-right dark:text-slate-300">
+          <span className="font-medium text-slate-900 dark:text-slate-100">{labels.powerTierActive}:</span>{" "}
+          <span className="font-semibold text-slate-900 dark:text-slate-100">{activeLabel}</span>
         </p>
       </div>
       <div className="mt-4">
