@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  /** Smaller deploy bundle for Node hosts (Hostinger, VPS). */
+  output: "standalone",
   images: {
     qualities: [75, 90, 95],
   },
