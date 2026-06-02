@@ -19,7 +19,7 @@ export function LocaleSwitcher({ locale, labels }: LocaleSwitcherProps) {
 
   return (
     <div
-      className="flex items-center rounded-md border border-stone-200 bg-stone-50 p-0.5 text-xs font-medium dark:border-stone-700 dark:bg-stone-900"
+      className="flex shrink-0 items-center rounded-md border border-stone-200 bg-stone-50 p-0.5 text-xs font-medium dark:border-stone-700 dark:bg-stone-900"
       role="group"
       aria-label="Language"
     >
@@ -34,9 +34,12 @@ export function LocaleSwitcher({ locale, labels }: LocaleSwitcherProps) {
                 ? "bg-white text-stone-900 shadow-sm dark:bg-stone-800 dark:text-stone-100"
                 : "text-stone-600 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100"
             }`}
+            aria-label={labels[loc]}
             aria-current={active ? "true" : undefined}
+            title={labels[loc]}
           >
-            {labels[loc]}
+            <span className="sm:hidden">{loc.toUpperCase()}</span>
+            <span className="hidden sm:inline">{labels[loc]}</span>
           </Link>
         );
       })}
