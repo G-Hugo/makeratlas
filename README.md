@@ -2,7 +2,7 @@
 
 **The complete reference for maker machines** — starting with laser engravers.
 
-Live site (coming soon): [makeratlas.com](https://makeratlas.com)
+Live site: [maker-atlas.com](https://maker-atlas.com)
 
 ## Architecture (Option C)
 

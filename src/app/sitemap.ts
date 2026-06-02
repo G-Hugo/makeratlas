@@ -2,8 +2,9 @@ import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/config";
 import { localizedPath } from "@/i18n/navigation";
 import { getAllGuidesMeta, getIndexableMachines } from "@/lib/content";
+import { SITE_URL } from "@/lib/site-url";
 
-const BASE_URL = "https://makeratlas.com";
+const BASE_URL = SITE_URL;
 const laserTypes = ["diode", "co2", "fiber", "uv", "hybrid"];
 
 export default function sitemap(): MetadataRoute.Sitemap {

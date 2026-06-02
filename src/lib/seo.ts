@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import type { Machine } from "@/types/machine";
 import { getCatalogRedirectSlug } from "@/lib/catalog";
-
-const SITE = "https://makeratlas.com";
+import { absoluteUrl, SITE_URL } from "@/lib/site-url";
 
 export { getCatalogRedirectSlug };
 
@@ -11,7 +10,7 @@ export function machineCanonicalPath(slug: string): string {
 }
 
 export function machineCanonicalUrl(slug: string): string {
-  return `${SITE}${machineCanonicalPath(slug)}`;
+  return absoluteUrl(machineCanonicalPath(slug));
 }
 
 /** Pages that should be indexed (excludes catalog-hidden duplicates) */

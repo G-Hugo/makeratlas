@@ -102,7 +102,7 @@ export const pagesContentFr: Pick<
     lastUpdatedLabel: "Dernière mise à jour : {date}",
     notice: {
       title: "Mentions légales",
-      subtitle: "Informations légales relatives au site makeratlas.com (LCEN).",
+      subtitle: "Informations légales relatives au site maker-atlas.com (LCEN).",
       sections: [
         {
           title: "Éditeur du site",

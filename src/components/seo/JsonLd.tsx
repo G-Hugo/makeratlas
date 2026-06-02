@@ -1,4 +1,5 @@
 import type { Machine } from "@/types/machine";
+import { absoluteUrl, SITE_URL } from "@/lib/site-url";
 
 interface JsonLdProps {
   data: Record<string, unknown>;
@@ -21,10 +22,10 @@ function toIsoReleaseDate(iso: string): string {
 }
 
 export function machineJsonLd(machine: Machine) {
-  const url = `https://makeratlas.com/lasers/${machine.slug}`;
+  const url = absoluteUrl(`/lasers/${machine.slug}`);
   const image = machine.image.startsWith("http")
     ? machine.image
-    : `https://makeratlas.com${machine.image}`;
+    : absoluteUrl(machine.image);
 
   return {
     "@context": "https://schema.org",
@@ -64,7 +65,7 @@ export function breadcrumbJsonLd(
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: `https://makeratlas.com${item.path}`,
+      item: absoluteUrl(item.path),
     })),
   };
 }
@@ -80,12 +81,12 @@ export function guideJsonLd(guide: {
     "@type": "Article",
     headline: guide.title,
     description: guide.description,
-    url: `https://makeratlas.com/guides/${guide.slug}`,
+    url: absoluteUrl(`/guides/${guide.slug}`),
     dateModified: guide.lastUpdated,
     publisher: {
       "@type": "Organization",
       name: "Maker Atlas",
-      url: "https://makeratlas.com",
+      url: SITE_URL,
     },
   };
 }

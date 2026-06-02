@@ -2,13 +2,16 @@
  * Legal / publisher identifiers — override via env in production.
  * NEXT_PUBLIC_LEGAL_* vars are exposed to the client for display on legal pages.
  */
+import { SITE_URL } from "@/lib/site-url";
+
 export const siteLegal = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://makeratlas.com",
+  siteUrl: SITE_URL,
   publisherName: process.env.NEXT_PUBLIC_LEGAL_PUBLISHER ?? "Maker Atlas",
   /** Natural person or company name shown on legal notice */
   publisherLegalName:
     process.env.NEXT_PUBLIC_LEGAL_NAME ?? "Maker Atlas (éditeur du site)",
-  contactEmail: process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "contact@makeratlas.com",
+  contactEmail:
+    process.env.NEXT_PUBLIC_LEGAL_EMAIL ?? "contact@maker-atlas.com",
   country: process.env.NEXT_PUBLIC_LEGAL_COUNTRY ?? "France",
   /** Optional — leave empty until you have a registered address */
   postalAddress:

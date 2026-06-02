@@ -27,7 +27,7 @@ export default async function HomePage({ params }: PageProps) {
       <section className="border-b border-stone-200 bg-gradient-to-b from-amber-50 to-stone-50 dark:border-stone-800 dark:from-stone-900 dark:to-stone-950">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400">
-            makeratlas.com
+            maker-atlas.com
           </p>
           <h1 className="max-w-3xl text-4xl font-bold tracking-tight text-stone-900 dark:text-stone-100 sm:text-5xl">
             {h.heroTitle}

@@ -102,7 +102,7 @@ export const pagesContentEn: Pick<
     lastUpdatedLabel: "Last updated: {date}",
     notice: {
       title: "Legal notice",
-      subtitle: "Publisher, hosting, and liability for makeratlas.com.",
+      subtitle: "Publisher, hosting, and liability for maker-atlas.com.",
       sections: [
         {
           title: "Site publisher",
