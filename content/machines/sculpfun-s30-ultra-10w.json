@@ -1,0 +1,128 @@
+{
+  "id": "sculpfun-s30-ultra-10w",
+  "slug": "sculpfun-s30-ultra-10w",
+  "name": "Sculpfun S30 Ultra 10W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Entry S30 Ultra frame — engraving-first, light cutting",
+  "tldr": "The 10W S30 Ultra uses the same rigid frame as higher-power models but targets makers who mainly engrave wood, leather, and slate. Expect slower cuts and thinner material limits than the 20W or 22W versions.",
+  "bestFor": [
+    "Cutting thin wood",
+    "Hobby upgrades",
+    "Budget production",
+    "Wood & leather"
+  ],
+  "priceRange": {
+    "min": 380,
+    "max": 520,
+    "currency": "USD",
+    "note": "10W module — still sold as a distinct SKU"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "410 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~11–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–11 min"
+      },
+      "technical": {
+        "spotSize": "~0.07 mm spot",
+        "maxSpeed": "167 mm/s",
+        "avgEngraveSpeed": "18–37 mm/s fill",
+        "avgCutSpeed": "2–4 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood (up to 5 mm)",
+      "Paper",
+      "Fabric",
+      "Thin leather"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Thick acrylic sheets",
+      "Bare metal",
+      "Glass engraving (reliably)"
+    ]
+  },
+  "pros": [
+    "Strong cut performance in the diode class",
+    "Sturdy frame reduces flex at higher speeds",
+    "Good value between Ortur and xTool",
+    "Wide accessory ecosystem (rotary, extension kits)",
+    "Active user base with tested settings"
+  ],
+  "cons": [
+    "Open frame — full safety responsibility on you",
+    "USB-only on many configs (no Wi-Fi)",
+    "Support and documentation less polished than xTool",
+    "Still a diode — manage expectations vs. CO₂",
+    "Assembly and squaring require patience",
+    "10W limits cutting vs 20W/22W siblings — verify SKU before buying"
+  ],
+  "beginnerNotes": "Pick the 10W only if engraving is 90% of your work. If you might cut 6–8 mm wood later, buy the 20W or 22W variant instead.",
+  "proTips": "Sculpfun publishes material test cards — use them. Multiple slow passes beat one fast pass for cut quality. Extension kits are useful but check frame rigidity before going oversized.",
+  "primaryUse": "Mid-range hobby diode laser focused on engraving and moderate cutting of organic materials.",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.8,
+    "easeOfUse": 7.8,
+    "capability": 7,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-20w",
+    "ortur-laser-master-3-20w",
+    "creality-falcon2-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/sculpfun-s30-ultra-10w/01.webp",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s30-ultra-10w/01.webp",
+      "alt": "Sculpfun S30 Ultra 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-10w/02.jpg",
+      "alt": "Sculpfun S30 Ultra 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-10w/03.jpg",
+      "alt": "Sculpfun S30 Ultra 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-10w/04.jpg",
+      "alt": "Sculpfun S30 Ultra 10W laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-s30-ultra",
+  "powerRating": "10W",
+  "releaseDate": "2023-03"
+}

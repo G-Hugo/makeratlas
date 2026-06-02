@@ -1,0 +1,121 @@
+{
+  "id": "ortur-h20-40w",
+  "slug": "ortur-h20-40w",
+  "name": "Ortur H20 40W",
+  "brand": "Ortur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Top Ortur H20 — 40W compressed diode for serious cutting",
+  "tldr": "Ortur H20 40W is Ortur's strongest H-series diode — multi-diode compression for deeper cuts in wood and faster fills. Premium price; compare to Longer B1 40W and Atomstack A40 before buying.",
+  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "bestFor": [
+    "Deep wood cuts",
+    "Fast engraving",
+    "Ortur power users",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 2099,
+    "max": 2399,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "40W diode (compressed)",
+    "workArea": "410 × 275 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.10 × 0.11 mm",
+        "maxSpeed": "20,000 mm/s traverse",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood (up to 10 mm)",
+      "5 mm acrylic",
+      "Leather"
+    ],
+    "cannot": [
+      "CO₂-level acrylic clarity",
+      "Industrial metal cutting",
+      "Huge panels"
+    ]
+  },
+  "pros": [
+    "Strongest Ortur diode SKU",
+    "Same H20 frame as lower tiers",
+    "Air pump often included",
+    "Good upgrade path from LM3"
+  ],
+  "cons": [
+    "Highest H20 price",
+    "Compressed watt claims need verification",
+    "Ventilation and fire safety critical"
+  ],
+  "beginnerNotes": "Buy when you've outgrown 20W cutting — not necessary for first laser.",
+  "proTips": "Run cut tests on scrap at rated speeds. Keep lens clean — high power burns debris fast.",
+  "primaryUse": "High-power Ortur platform for cutting-focused hobby or side-business work.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 9.4,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "ortur-laser-master-h10-40w",
+    "longer-laser-b1-40w",
+    "atomstack-a40-pro-40w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/ortur-h20-40w/01.webp",
+  "modelLine": "ortur-h20",
+  "powerRating": "40W",
+  "releaseDate": "2024-11",
+  "images": [
+    {
+      "src": "/machines/ortur-h20-40w/01.webp",
+      "alt": "Ortur H20 40W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-h20-40w/02.webp",
+      "alt": "Ortur H20 40W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-h20-40w/03.webp",
+      "alt": "Ortur H20 40W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-h20-40w/04.webp",
+      "alt": "Ortur H20 40W laser engraver — Ortur"
+    }
+  ]
+}

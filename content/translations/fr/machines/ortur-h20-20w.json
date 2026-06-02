@@ -1,0 +1,69 @@
+{
+  "tagline": "Le juste milieu H20 — diode 20 W sur le châssis intégré série H d’Ortur",
+  "tldr": "L’Ortur H20 20 W équilibre capacité de découpe et prix sur la plateforme H20. Graveuse loisir solide avec un châssis plus rapide que le LM3 — vérifiez la puissance optique, pas les étiquettes marketing « classe 40 W » des accessoires.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Ortur H20 polyvalent pour gravure et découpe légère à moyenne.",
+  "beginnerNotes": "Recommandation H20 par défaut pour la plupart des acheteurs entre 10 W et 40 W.",
+  "proTips": "Utilisez l’assistance air fournie pour les découpes. LightBurn vaut la licence pour les jobs répétés.",
+  "bestFor": [
+    "Loisirs orientés vitesse",
+    "Cadeaux bois",
+    "Cuir",
+    "Écosystème Ortur"
+  ],
+  "pros": [
+    "Meilleur rapport qualité-prix H20 pour la plupart des makers",
+    "Gestion des câbles intégrée vs LM3",
+    "Offres combo IR disponibles",
+    "Communauté firmware Ortur active"
+  ],
+  "cons": [
+    "Toujours à l’air libre — ventilation requise",
+    "Le palier 40 W existe si vous avez besoin de plus de profondeur"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique (foncé)",
+      "Inox (avec offre IR)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)",
+      "3 mm acrylic (dark)",
+      "Leather"
+    ],
+    "cannot": [
+      "Enseignes de production",
+      "Bois dur épais en une passe",
+      "Cuivre nu"
+    ]
+  },
+  "priceRange": {
+    "note": "Souvent vendu avec pompe à air"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Ortur H20 20W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur H20 20W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur H20 20W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur H20 20W — Ortur"
+    }
+  ]
+}

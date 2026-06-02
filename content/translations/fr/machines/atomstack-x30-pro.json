@@ -1,0 +1,56 @@
+{
+  "tagline": "Classe diode extrême Atomstack — faisceau comprimé multi-cœur",
+  "tldr": "L’AtomStack X30 Pro vise les acheteurs qui veulent le maximum de découpe classe diode en structure ouverte. Le marketing affiche des watts très élevés — vérifiez la puissance optique réelle et comparez à la Longer B1 40 W et similaires avant d’investir.",
+  "mainObjective": "Atomstack structure ouverte haute puissance pour ateliers orientés découpe",
+  "primaryUse": "Atomstack haute puissance pour découpe exigeante et gravure rapide.",
+  "beginnerNotes": "Réservée aux makers expérimentés qui ont dépassé les machines classe 40 W.",
+  "proTips": "Des vidéos de vérification de puissance indépendantes sont indispensables avant l’achat.",
+  "bestFor": [
+    "Chercheurs de puissance",
+    "Découpe bois épais",
+    "Hobbyistes en production"
+  ],
+  "pros": [
+    "Offre diode Atomstack la plus haute",
+    "Marketing orienté découpe",
+    "Fort intérêt communautaire"
+  ],
+  "cons": [
+    "Prix très élevé",
+    "Confusion marketing watts",
+    "Ventilation et sécurité critiques"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul épais (à vérifier)",
+      "Acrylique"
+    ],
+    "cannot": [
+      "Transparence CO₂",
+      "Profondeur métal fibre",
+      "Acheteurs petit budget"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser AtomStack X30 Pro — Atomstack" },
+    { "alt": "Graveuse laser AtomStack X30 Pro — Atomstack" },
+    { "alt": "Graveuse laser AtomStack X30 Pro — Atomstack" },
+    { "alt": "Graveuse laser AtomStack X30 Pro — Atomstack" }
+  ]
+}

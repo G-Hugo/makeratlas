@@ -1,0 +1,64 @@
+{
+  "tagline": "Sommet de la gamme Acmer S2 Pro — diode compressée 48 W avec packs optionnels",
+  "tldr": "L'Acmer S2 Pro 48 W est l'option Acmer structure ouverte la plus puissante avant le P3 fermé. Promesses de découpe solides — vérifiez la puissance optique réelle et comparez au P3 48 W fermé si vous avez besoin de maîtriser les fumées.",
+  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "primaryUse": "Acmer structure ouverte haute puissance pour loisir orienté découpe ou activité secondaire.",
+  "beginnerNotes": "Préférez le P3 si vous voulez boîtier intégré et caméra.",
+  "proTips": "Les packs tout-en-un incluent souvent des extras inutiles — chiffrez le pack Basic.",
+  "bestFor": [
+    "Haute puissance Acmer",
+    "Découpe",
+    "Gravure rotative",
+    "Acheteurs de packs"
+  ],
+  "pros": [
+    "Puissance Acmer structure ouverte la plus élevée",
+    "Packs rotatif et IR",
+    "Compétitif face au P3 si vous avez une bonne ventilation"
+  ],
+  "cons": [
+    "Le P3 fermé est plus récent",
+    "Puissance compressée souvent surévaluée en marketing",
+    "Communauté plus réduite"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique",
+      "Aluminium anodisé (avec pack IR)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 10 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)"
+    ],
+    "cannot": [
+      "Vrai boîtier fermé sans accessoires",
+      "Métal niveau fibre"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Acmer S2 Pro 48 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer S2 Pro 48 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer S2 Pro 48 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer S2 Pro 48 W — Acmer"
+    }
+  ]
+}

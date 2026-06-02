@@ -13,14 +13,33 @@ export function JsonLd({ data }: JsonLdProps) {
   );
 }
 
+function toIsoReleaseDate(iso: string): string {
+  const parts = iso.split("-");
+  if (parts.length === 1) return `${iso}-01-01`;
+  if (parts.length === 2) return `${iso}-01`;
+  return iso;
+}
+
 export function machineJsonLd(machine: Machine) {
+  const url = `https://makeratlas.com/lasers/${machine.slug}`;
+  const image = machine.image.startsWith("http")
+    ? machine.image
+    : `https://makeratlas.com${machine.image}`;
+
   return {
     "@context": "https://schema.org",
     "@type": "Product",
+    "@id": `${url}#product`,
     name: machine.name,
+    sku: machine.slug,
+    url,
+    image,
     brand: { "@type": "Brand", name: machine.brand },
     description: machine.tldr,
     category: "Laser Engraver",
+    ...(machine.releaseDate
+      ? { releaseDate: toIsoReleaseDate(machine.releaseDate) }
+      : {}),
     review: {
       "@type": "Review",
       reviewRating: {
@@ -32,6 +51,21 @@ export function machineJsonLd(machine: Machine) {
       author: { "@type": "Organization", name: "Maker Atlas" },
       reviewBody: machine.primaryUse,
     },
+  };
+}
+
+export function breadcrumbJsonLd(
+  items: { name: string; path: string }[],
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: `https://makeratlas.com${item.path}`,
+    })),
   };
 }
 

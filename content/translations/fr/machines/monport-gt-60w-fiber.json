@@ -1,0 +1,64 @@
+{
+  "tagline": "Graveuse laser fibre split 60 W MOPA avec autofocus de Monport",
+  "tldr": "Le Monport GT 60 W MOPA Fiber est le SKU 60 W de la gamme GT. La gamme GT apporte le marquage fibre en armoire split avec autofocus — utile pour hauteurs de pièces variables. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing watts combinés.",
+  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "primaryUse": "Marquage fibre de production avec gestion de mise au point simplifiée sur tailles de pièces variées.",
+  "beginnerNotes": "Choisissez le 60 W s’il correspond à vos jobs typiques. Comparez profondeur et prix avec les autres paliers de cette gamme avant de commander.",
+  "proTips": "Calibrez l’autofocus sur l’épaisseur de pièce la plus courante.",
+  "bestFor": [
+    "Hauteurs de pièces mixtes",
+    "Production",
+    "Marquage métal",
+    "Écosystème Monport"
+  ],
+  "pros": [
+    "Autofocus pour hauteurs variables",
+    "Écosystème support Monport",
+    "Disposition split pour la production",
+    "Paliers MOPA disponibles"
+  ],
+  "cons": [
+    "Grand encombrement",
+    "Premium vs boîtiers galvo d’entrée",
+    "Toujours pas une découpeuse laser généraliste"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium",
+      "Laiton",
+      "Plastiques"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 10 mm)"
+    ],
+    "cannot": [
+      "Travail atelier bois",
+      "Découpe acrylique"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 60 W — vérifiez le SKU avant d’acheter"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Monport GT 60W MOPA Fiber — Monport"
+    },
+    {
+      "alt": "Graveuse laser Monport GT 60W MOPA Fiber — Monport"
+    },
+    {
+      "alt": "Graveuse laser Monport GT 60W MOPA Fiber — Monport"
+    }
+  ]
+}

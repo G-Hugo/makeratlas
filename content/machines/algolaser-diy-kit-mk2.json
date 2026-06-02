@@ -1,0 +1,115 @@
+{
+  "id": "algolaser-diy-kit-mk2",
+  "slug": "algolaser-diy-kit-mk2",
+  "name": "AlgoLaser DIY Kit MK2",
+  "brand": "AlgoLaser",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "AlgoLaser DIY Kit MK2 — modular enclosed diode platform",
+  "tldr": "AlgoLaser DIY Kit MK2 is the second-gen modular kit line — pick power at purchase, enclosed-ish design, popular with makers who like building/upgrading vs a fixed frame.",
+  "mainObjective": "Modular AlgoLaser for makers who want kit flexibility",
+  "bestFor": [
+    "DIY builders",
+    "Upgrade paths",
+    "Enclosed diode on budget"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 899,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W–40W depending on module",
+    "workArea": "~400 × 400 mm (verify module)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic (dark)"
+    ],
+    "cut": [
+      "3–6 mm wood (power dependent)"
+    ],
+    "cannot": [
+      "Metal cutting",
+      "CO₂ clear acrylic"
+    ]
+  },
+  "pros": [
+    "Modular AlgoLaser ecosystem",
+    "Enclosed options",
+    "Active community"
+  ],
+  "cons": [
+    "Assembly time",
+    "SKU/module confusion",
+    "Alpha MK2 competes in same brand"
+  ],
+  "beginnerNotes": "Match module wattage to your job list before buying the kit.",
+  "proTips": "MK2 10W enclosed SKU is the common starter — see power variant pages.",
+  "primaryUse": "Modular diode engraving and cutting.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "algolaser-alpha-mk2-20w",
+    "algolaser-diy-kit-mini",
+    "sculpfun-s10-10w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/algolaser-diy-kit-mk2/01.webp",
+  "modelLine": "algolaser-diy-kit-mk2",
+  "catalogHidden": true,
+  "releaseDate": "2023-11",
+  "images": [
+    {
+      "src": "/machines/algolaser-diy-kit-mk2/01.webp",
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk2/02.jpg",
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk2/03.jpg",
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk2/04.jpg",
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+    }
+  ]
+}

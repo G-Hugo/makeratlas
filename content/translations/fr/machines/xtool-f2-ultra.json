@@ -1,0 +1,77 @@
+{
+  "tagline": "Fibre + diode compact nouvelle génération — marquage métal plus rapide, plus grand que F1",
+  "tldr": "Le bureau double laser xTool actualisé s’appuie sur la F1 Ultra avec vitesse et flux améliorés. Toujours spécialiste marquage métal avec petit plateau par défaut. Prix premium pour bijoux, outils et personnalisation métal en série — pas un remplacement d’atelier polyvalent.",
+  "mainObjective": "Marquage métal compact haute vitesse plus diode bonus pour bois et cuir",
+  "primaryUse": "Double laser compact pro pour marquage métal haute vitesse et gravure légère sur matières organiques.",
+  "beginnerNotes": "N’achetez qu’après avoir confirmé que le métal représente 70 %+ de votre activité. Les makers orientés bois devraient acheter D1 Pro ou P2.",
+  "proTips": "Utilisez le convoyeur pour plaques identité et blanks plats. Gardez les bibliothèques réglages fibre et diode séparées — les courbes de puissance ne sont pas interchangeables.",
+  "bestFor": [
+    "Marquage métal en série",
+    "Production bijouterie",
+    "Fabricants de couteaux",
+    "Setup pro compact"
+  ],
+  "pros": [
+    "Marquage fibre plus rapide que génération F1",
+    "Marque le métal nu sans spray",
+    "Surface légèrement plus grande que F1 Ultra",
+    "Option convoyeur pour métal en série",
+    "Écosystème logiciel xTool premium"
+  ],
+  "cons": [
+    "Très cher pour la taille du plateau",
+    "Toujours pas un premier laser polyvalent",
+    "Changement de module entre fibre et diode",
+    "Excessif pour makers bois-only",
+    "Classe compacte limite les dimensions produit"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium",
+      "Laiton",
+      "Titane",
+      "Bois",
+      "Cuir"
+    ],
+    "cut": [
+      "Bois/cuir fin (diode, limité)"
+    ],
+    "cannot": [
+      "Grande signalétique",
+      "Découpe acrylique CO₂",
+      "Production matériaux épais",
+      "Fonctionnement double laser simultané"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "F2 Ultra vs F1 Ultra — l’upgrade vaut-il le coup ?",
+      "answer": "Si vous exploitez déjà la F1 Ultra à pleine capacité production, les gains de vitesse F2 peuvent le justifier. Nouveaux acheteurs : comparez les prix pack — les promos F1 Ultra peuvent mieux valoir le coup si la différence de vitesse n’est pas critique."
+    }
+  ],
+  "images": [
+    { "alt": "Graveuse laser xTool F2 Ultra — xTool" },
+    { "alt": "Graveuse laser xTool F2 Ultra — xTool" },
+    { "alt": "Graveuse laser xTool F2 Ultra — xTool" },
+    { "alt": "Graveuse laser xTool F2 Ultra — xTool" }
+  ],
+  "moduleSystem": {
+    "headline": "Double laser haute puissance (fibre MOPA + diode)",
+    "description": "La F2 Ultra associe fibre MOPA pour marquage métal/couleur et diode classe 40 W pour organiques. Hybride double source, pas gammes de watts interchangeables.",
+    "options": [
+      { "label": "Fibre 60 W" },
+      { "label": "Diode 40 W" }
+    ]
+  }
+}

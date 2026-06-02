@@ -1,0 +1,65 @@
+{
+  "tagline": "Découpeuse CO₂ de bureau Atomstack — tube 55 W dans un châssis fermé moderne",
+  "tldr": "L’AtomStack Hurricane apporte la découpe CO₂ aux acheteurs Atomstack qui ont dépassé les diodes. Découpe acrylique et bois plus épais que toute diode de cette gamme de prix. Nécessite de la place, de la ventilation et une discipline de refroidissement eau — pas adaptée à un appartement.",
+  "mainObjective": "CO₂ de bureau pour découpe acrylique et production bois au-delà des limites diode",
+  "primaryUse": "Production CO₂ de bureau pour cadeaux acrylique, signalétique et découpe bois.",
+  "beginnerNotes": "N’achetez qu’avec un plan de ventilation. Propriétaires de diode : workflow et modèle de sécurité différents.",
+  "proTips": "Prévoyez un budget pour tuyau d’extraction et contrôles du refroidisseur eau. LightBurn est le choix professionnel.",
+  "bestFor": [
+    "Découpe acrylique",
+    "Enseignes bois",
+    "Fans de la marque Atomstack",
+    "Premiers CO₂ avec de la place"
+  ],
+  "pros": [
+    "Vraie découpe acrylique CO₂",
+    "Accessoires écosystème Atomstack",
+    "Options fermées dans les packs",
+    "Extensions rehausseur et convoyeur"
+  ],
+  "cons": [
+    "Grand encombrement et poids",
+    "Entretien refroidissement eau",
+    "Premium face à l’entrée K40 CO₂",
+    "Pas portable"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre (surface)",
+      "Caoutchouc"
+    ],
+    "cut": [
+      "Acrylique",
+      "Bois",
+      "Cuir",
+      "Papier"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Grands panneaux industriels",
+      "Appartement sans ventilation"
+    ]
+  },
+  "priceRange": {
+    "note": "Niveaux de pack ajoutent convoyeur, purificateur, rehausseur"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser AtomStack Hurricane 55 W — Atomstack" },
+    { "alt": "Graveuse laser AtomStack Hurricane 55 W — Atomstack" },
+    { "alt": "Graveuse laser AtomStack Hurricane 55 W — Atomstack" },
+    { "alt": "Graveuse laser AtomStack Hurricane 55 W — Atomstack" }
+  ]
+}

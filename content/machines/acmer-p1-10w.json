@@ -1,0 +1,118 @@
+{
+  "id": "acmer-p1-10w",
+  "slug": "acmer-p1-10w",
+  "name": "Acmer P1 10W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Budget Acmer open-frame — large bed for the price",
+  "tldr": "Acmer P1 10W is an affordable 400 mm-class open-frame engraver for learning and light gifts. Build and support are budget-tier — great value if you accept DIY tuning.",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "bestFor": [
+    "Tight budget",
+    "Large bed",
+    "First laser",
+    "Light engraving"
+  ],
+  "priceRange": {
+    "min": 259,
+    "max": 329,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–28 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–15 min"
+      },
+      "technical": {
+        "spotSize": "~0.07 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "10–27 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Paper"
+    ],
+    "cut": [
+      "Basswood (up to 5 mm)"
+    ],
+    "cannot": [
+      "Production shop reliability",
+      "Thick cuts",
+      "Metal"
+    ]
+  },
+  "pros": [
+    "Large work area for price",
+    "Simple open-frame maintenance",
+    "Upgrade path to P2/P3"
+  ],
+  "cons": [
+    "Budget build quality",
+    "Limited brand support vs Ortur/xTool",
+    "Open-frame safety"
+  ],
+  "beginnerNotes": "Pair with air assist and fire safety basics before first cut.",
+  "proTips": "Compare total cost to Ray5 10W — similar segment.",
+  "primaryUse": "Budget hobby engraving on a large bed.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "longer-ray5-10w",
+    "comgrow-z1-10w",
+    "sculpfun-s9-10w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/acmer-p1-10w/01.webp",
+  "modelLine": "acmer-p1",
+  "powerRating": "10W",
+  "catalogPrimary": true,
+  "releaseDate": "2023-05",
+  "images": [
+    {
+      "src": "/machines/acmer-p1-10w/01.webp",
+      "alt": "Acmer P1 10W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p1-10w/02.webp",
+      "alt": "Acmer P1 10W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p1-10w/03.webp",
+      "alt": "Acmer P1 10W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p1-10w/04.jpg",
+      "alt": "Acmer P1 10W laser engraver — Acmer"
+    }
+  ]
+}

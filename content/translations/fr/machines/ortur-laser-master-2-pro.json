@@ -1,0 +1,53 @@
+﻿{
+  "tagline": "Classique Ortur LM2 Pro — structure ouverte historique (marché d’occasion)",
+  "tldr": "L’Ortur Laser Master 2 Pro est un classique Ortur discontinu, encore trouvable d’occasion. Correct pour apprendre si le prix est bas ; les nouveaux acheteurs devraient choisir le LM3, le H10 ou le H20.",
+  "mainObjective": "Ortur d’occasion petit budget pour gravure basique",
+  "primaryUse": "Ortur structure ouverte historique pour gravure loisir à petit budget.",
+  "beginnerNotes": "N’achetez d’occasion qu’avec une forte remise vs un LM3 10 W neuf.",
+  "proTips": "Flashez le firmware avec précaution — de nombreux guides LM2 restent en ligne.",
+  "bestFor": [
+    "Bonnes affaires d’occasion",
+    "Apprentissage",
+    "Passionnés histoire Ortur"
+  ],
+  "pros": [
+    "Très bon marché d’occasion",
+    "Immense base de tutoriels legacy",
+    "Grand plateau"
+  ],
+  "cons": [
+    "Discontinué",
+    "Dépassé vs LM3/H20",
+    "Structure ouverte"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Papier"
+    ],
+    "cut": [
+      "Tilleul 3 mm"
+    ],
+    "cannot": [
+      "Support constructeur neuf",
+      "Vitesse moderne vs H20"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Ortur Laser Master 2 Pro — Ortur" },
+    { "alt": "Graveuse laser Ortur Laser Master 2 Pro — Ortur" },
+    { "alt": "Graveuse laser Ortur Laser Master 2 Pro — Ortur" },
+    { "alt": "Graveuse laser Ortur Laser Master 2 Pro — Ortur" }
+  ]
+}

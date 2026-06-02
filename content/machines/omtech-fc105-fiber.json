@@ -1,0 +1,110 @@
+{
+  "id": "omtech-fc105-fiber",
+  "slug": "omtech-fc105-fiber",
+  "name": "OMTech FC-105 Fiber",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "tagline": "Industrial fiber laser cutter for sheet metal (not a desktop marker)",
+  "tldr": "OMTech FC-105 is a fiber laser cutting platform for metal sheet — a different class from desktop galvo markers. Listed for buyers who search 'fiber laser' and need to understand cutters vs markers.",
+  "mainObjective": "Sheet metal fiber cutting for fabrication shops",
+  "bestFor": [
+    "Sheet metal cutting",
+    "Fabrication",
+    "Industrial",
+    "Not hobby desks"
+  ],
+  "priceRange": {
+    "min": 12000,
+    "max": 25000,
+    "currency": "USD",
+    "note": "Industrial pricing; verify configuration"
+  },
+  "specs": {
+    "power": "1000W–3000W fibre",
+    "workArea": "Large format sheet (model dependent)",
+    "software": [
+      "CypCut",
+      "LightBurn (some configs)"
+    ],
+    "connectivity": [
+      "Ethernet",
+      "Industrial control"
+    ],
+    "performance": {
+      "precision": "0.05 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "N/A"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Production sheet cut"
+      },
+      "technical": {
+        "spotSize": "Cutting head focal spot",
+        "maxSpeed": "N/A production cut speed",
+        "avgEngraveSpeed": "N/A marking",
+        "avgCutSpeed": "Production cut rates"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [],
+    "cut": [
+      "Carbon steel",
+      "Stainless sheet",
+      "Aluminum sheet (machine dependent)"
+    ],
+    "cannot": [
+      "Hobby desk work",
+      "Wood",
+      "Acrylic (use CO₂)",
+      "Jewelry marking"
+    ]
+  },
+  "pros": [
+    "Real metal cutting capability",
+    "Production throughput",
+    "OMTech industrial support path"
+  ],
+  "cons": [
+    "Not a desktop engraver",
+    "High cost and space",
+    "Requires industrial install",
+    "Wrong buy for jewelry marking"
+  ],
+  "beginnerNotes": "Do not confuse with 20W–50W fiber markers. This is for metal fabrication shops.",
+  "proTips": "Budget for chiller, assist gas, and training.",
+  "primaryUse": "Industrial sheet metal fiber laser cutting.",
+  "rating": {
+    "overall": 8.2,
+    "value": 7.5,
+    "easeOfUse": 7,
+    "capability": 9.5,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "gweike-g6-split-30w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/omtech-fc105-fiber/01.webp",
+  "images": [
+    {
+      "src": "/machines/omtech-fc105-fiber/01.webp",
+      "alt": "OMTech FC-105 Fiber laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc105-fiber/02.jpg",
+      "alt": "OMTech FC-105 Fiber laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc105-fiber/03.jpg",
+      "alt": "OMTech FC-105 Fiber laser engraver — OMTech"
+    }
+  ],
+  "powerRating": "1050W"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "acmer-s2-pro-48w",
+  "slug": "acmer-s2-pro-48w",
+  "name": "Acmer S2 Pro 48W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Top Acmer S2 Pro — 48W compressed diode with bundle options",
+  "tldr": "Acmer S2 Pro 48W is Acmer's high-power open-frame option before the enclosed P3. Strong cutting claims — verify optical power and compare to P3 48W enclosed if you need smoke control.",
+  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "bestFor": [
+    "High power Acmer",
+    "Cutting",
+    "Rotary engraving",
+    "Bundle buyers"
+  ],
+  "priceRange": {
+    "min": 799,
+    "max": 1400,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "48W diode (compressed)",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic",
+      "Anodized aluminum (with IR pack)"
+    ],
+    "cut": [
+      "Basswood (up to 10 mm)",
+      "Dark acrylic (up to 5 mm)"
+    ],
+    "cannot": [
+      "True enclosure without add-ons",
+      "Fiber-level metal"
+    ]
+  },
+  "pros": [
+    "Highest Acmer open-frame power",
+    "Rotary and IR packs",
+    "Competitive vs P3 if you have ventilation"
+  ],
+  "cons": [
+    "P3 enclosed is newer",
+    "Compressed watt claims",
+    "Smaller community"
+  ],
+  "beginnerNotes": "Choose P3 instead if you need integrated enclosure and camera.",
+  "proTips": "All-in-one packs often include extras you won't use — price the Basic pack.",
+  "primaryUse": "High-power Acmer open-frame for cutting-heavy hobby or side business.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 9.5,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "acmer-p3",
+    "acmer-p2-33w",
+    "longer-laser-b1-40w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/acmer-s2-pro-48w/01.webp",
+  "modelLine": "acmer-s2-pro",
+  "powerRating": "48W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-08",
+  "images": [
+    {
+      "src": "/machines/acmer-s2-pro-48w/01.webp",
+      "alt": "Acmer S2 Pro 48W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-s2-pro-48w/02.webp",
+      "alt": "Acmer S2 Pro 48W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-s2-pro-48w/03.webp",
+      "alt": "Acmer S2 Pro 48W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-s2-pro-48w/04.webp",
+      "alt": "Acmer S2 Pro 48W laser engraver — Acmer"
+    }
+  ]
+}

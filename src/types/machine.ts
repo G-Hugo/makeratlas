@@ -1,8 +1,28 @@
 export type LaserType = "diode" | "co2" | "fiber" | "uv" | "hybrid";
 
+/** How laser power / source is configured on the machine */
+export type ModuleSystemStyle = "fixed" | "interchangeable" | "dual-laser";
+
+export interface ModuleSystemOption {
+  power: string;
+  /** Primary laser type for this head (infrared = 1064 nm accessory, not fiber galvo) */
+  laserKind: LaserType | "infrared";
+  label: string;
+  /** Link to a power-tier profile when we list it */
+  tierSlug?: string;
+}
+
+/** Explains swappable heads vs hybrid dual-source — shown on detail pages */
+export interface ModuleSystem {
+  style: ModuleSystemStyle;
+  headline: string;
+  description: string;
+  options: ModuleSystemOption[];
+}
+
 export type MachineCategory = "laser-engraver";
 
-export type ContentStatus = "draft" | "published";
+export type ContentStatus = "draft" | "published" | "archived";
 
 export interface PriceRange {
   min: number;
@@ -66,14 +86,38 @@ export interface MachineFaq {
   answer: string;
 }
 
+/** One photo in a machine gallery (manufacturer product shots). */
+export interface MachinePhoto {
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
 export interface Machine {
   id: string;
   slug: string;
   name: string;
+  /** Product family for grouping variants (e.g. sculpfun-s30-ultra) */
+  modelLine?: string;
+  /** Single optical power tier when this profile is one SKU */
+  powerRating?: string;
+  /** Shown in /lasers grid as the family card (flagship SKU) */
+  catalogPrimary?: boolean;
+  /** Detail page only — omit from browse grid (e.g. generic family slug) */
+  catalogHidden?: boolean;
+  /** Swappable laser heads or dual-source layout (see ModuleSystemNotice on detail page) */
+  moduleSystem?: ModuleSystem;
+  /** Laser types this machine can use — for hybrid / multi-source browse filters */
+  laserCapabilities?: LaserType[];
+  /** Short tags for card labels, e.g. diode + fiber or diode + blade */
+  capabilityTags?: Array<LaserType | "blade" | "infrared">;
   brand: string;
   category: MachineCategory;
   laserType: LaserType;
+  /** Primary thumbnail — first gallery image */
   image: string;
+  /** Multiple product photos for detail page */
+  images?: MachinePhoto[];
   tagline: string;
   tldr: string;
   mainObjective: string;
@@ -92,6 +136,8 @@ export interface Machine {
   affiliateUrl?: string;
   status: ContentStatus;
   lastUpdated: string;
+  /** First retail availability — YYYY-MM or YYYY-MM-DD */
+  releaseDate?: string;
 }
 
 export interface GuideMeta {

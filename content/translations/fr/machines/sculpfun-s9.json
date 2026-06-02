@@ -1,0 +1,66 @@
+﻿{
+  "tagline": "La ligne petit budget éprouvée de Sculpfun — toujours populaire chez les makers sensibles au rapport qualité-prix",
+  "tldr": "Avant la S30 Ultra, la S9 était le cheval de bataille de Sculpfun. Encore vendue et bien documentée dans la communauté. Moins puissante que les modèles actuels, mais excellent rapport qualité-prix pour la gravure si vous n’avez pas besoin de découpe 20 W.",
+  "mainObjective": "Sculpfun petit budget pour une gravure bois fiable avant de passer à la gamme S30",
+  "primaryUse": "Sculpfun structure ouverte petit budget pour gravure bois/cuir et découpe légère de bois fin.",
+  "beginnerNotes": "N’achetez la S9 que si elle est nettement moins chère que la S30 Ultra. Les ~100–150 $ d’écart achètent en général des jobs plus rapides et une meilleure découpe.",
+  "proTips": "Les mods communautaires S9 (assistance air, pieds rallongés) sont bien documentés — cherchez les groupes Facebook Sculpfun avant votre premier gros projet.",
+  "bestFor": [
+    "Budget serré",
+    "Loisir orienté gravure",
+    "Entrée dans l’écosystème Sculpfun",
+    "Apprendre LightBurn"
+  ],
+  "pros": [
+    "Base de connaissances communautaire immense",
+    "Grand plateau à prix abordable",
+    "Compatible LightBurn",
+    "Montée en gamme vers les modules S30",
+    "Fiabilité Sculpfun éprouvée"
+  ],
+  "cons": [
+    "Plus lente que la S30 Ultra sur les mêmes jobs",
+    "10 W limite la profondeur de découpe",
+    "Sécurité structure ouverte",
+    "Les nouveaux acheteurs sont souvent mieux servis par les promos S30 Ultra",
+    "Assistance air recommandée pour des découpes propres"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul fin 2–5 mm",
+      "Papier",
+      "Tissu fin"
+    ],
+    "cannot": [
+      "Bois dur épais",
+      "Acrylique transparent",
+      "Métal nu",
+      "Production en volume"
+    ]
+  },
+  "priceRange": {
+    "note": "Config courante S9 Pro 10 W"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Sculpfun S9 — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S9 — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S9 — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S9 — Sculpfun" }
+  ]
+}

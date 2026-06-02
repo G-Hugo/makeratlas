@@ -1,0 +1,67 @@
+{
+  "tagline": "Haut de gamme Ortur H20 — diode compressée 40 W pour découpe sérieuse",
+  "tldr": "L’Ortur H20 40 W est le diode le plus puissant de la série H d’Ortur — compression multi-diodes pour des découpes plus profondes dans le bois et des remplissages plus rapides. Prix premium ; comparez au Longer B1 40 W et Atomstack A40 avant d’acheter.",
+  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "primaryUse": "Plateforme Ortur haute puissance pour travail loisir ou side-business orienté découpe.",
+  "beginnerNotes": "Achetez quand vous avez dépassé la découpe 20 W — pas nécessaire pour un premier laser.",
+  "proTips": "Testez les découpes sur chutes aux vitesses annoncées. Gardez l’objectif propre — la haute puissance carbonise vite les résidus.",
+  "bestFor": [
+    "Découpes bois profondes",
+    "Gravure rapide",
+    "Power users Ortur",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "SKU diode Ortur le plus puissant",
+    "Même châssis H20 que les paliers inférieurs",
+    "Pompe à air souvent incluse",
+    "Bonne voie de montée en gamme depuis le LM3"
+  ],
+  "cons": [
+    "Prix H20 le plus élevé",
+    "Les annonces de watts compressés méritent vérification",
+    "Ventilation et sécurité incendie critiques"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 10 mm)",
+      "5 mm acrylic",
+      "Leather"
+    ],
+    "cannot": [
+      "Transparence acrylique niveau CO₂",
+      "Découpe métal industrielle",
+      "Grands panneaux"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Ortur H20 40W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur H20 40W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur H20 40W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur H20 40W — Ortur"
+    }
+  ]
+}

@@ -12,104 +12,21 @@ import fs from "fs";
 import path from "path";
 import https from "https";
 import http from "http";
+import {
+  COLLECTION_MATCH,
+  DIRECT_GALLERY,
+  PRODUCT_HANDLES,
+  SKIP_ACCESSORY,
+  STORES,
+} from "./manufacturer-sources.mjs";
 
 const machinesDir = path.join(process.cwd(), "content", "machines");
 const imagesDir = path.join(process.cwd(), "public", "machines");
 
-const SKIP_ACCESSORY =
-  /module|kit|refurb|accessory|feeder|bundle|board|fan|cable|plate|mat|paper|spray|filter|lens|motor|riser|extension|acrylic|wood pack|course|class|gift|tumbler|puzzle|ring|stamp|foil|pen|software|license|subscription|refill|replacement|part|spare|upgrade|head only|assembly|control board|aftersales|after-sales|warranty|tube|nozzle|belt|switch|sensor|pump|extractor|mirror|lens|motherboard|honeycomb|chiller|power supply|fume|glasses|spray|file|word|graduation|valentine|christmas|pre-owned|pre owned/i;
-
-/** slug → direct image URL (manufacturer CDN) */
-const DIRECT_IMAGES = {
-  "creality-falcon2-12w":
-    "https://cdn.creality.com/ow/product-info/cae43a34-0179-418c-b6f9-e6fa82e0bff8.webp",
-  "xtool-p2s": "https://www.xtool.com/cdn/shop/files/20250416-174018_1200x1200.jpg",
-  "xtool-f1": "https://www.xtool.com/cdn/shop/files/F1_1200x1200.jpg",
-  "glowforge-pro":
-    "https://shop.glowforge.com/cdn/shop/files/GF_PDPphotoswvalueprops_Pro2_grande.png",
-};
-
-/** slug → { storeKey, handle } for Shopify products.json */
-const PRODUCT_HANDLES = {
-  "longer-ray5": { store: "longer", handle: "ray5-20w-laser-engraver" },
-  "sculpfun-s30-ultra": {
-    store: "sculpfun",
-    handle: "sculpfun-s30-ultra-22w-laser-engraving-and-cutting-machine-lightburn-core-license-key",
-  },
-  "sculpfun-icube-pro": {
-    store: "sculpfun",
-    handle: "sculpfun-icube-pro-5w-portable-laser-engraving-machine",
-  },
-  "sculpfun-s9": { store: "sculpfun", handle: "sculpfun-s9-pro-10w-laser-engraving-machine" },
-  "ortur-laser-master-3": { store: "ortur", handle: "ortur-laser-master-3-engraver-cutter-machine" },
-  "ortur-laser-master-h10": { store: "ortur", handle: "ortur-h10-engraver-cutter-machine" },
-  "ortur-aufero-al1": { store: "ortur", handle: "aufero-laser1-best-portable-laser-engraver" },
-  "atomstack-a5-pro": { store: "atomstack", handle: "atomstack-a5-pro" },
-  "atomstack-a40-pro": { store: "atomstack", handle: "atomstack-a40-pro" },
-  "atomstack-a20-pro": { store: "atomstack", handle: "atomstack-ace-pro-v2" },
-  "longer-laser-b1": { store: "longer", handle: "longer-laser-b1-20w-laser-engraver" },
-  "laserpecker-4": { store: "laserpecker", handle: "laserpecker-lp4-portable-ir-diode-dual-laser" },
-  "laserpecker-5": { store: "laserpecker", handle: "laserpecker-lp5-smart-20w-fiber-diode-laser-engraver" },
-  "algolaser-alpha-mk2": {
-    store: "algolaser",
-    handle: "algolaser-alpha-mk2-40w-diode-laser-cutter-and-engraver",
-  },
-  "acmer-p3": { store: "acmer", handle: "acmer-p3-48w-diode-enclosed-laser-engraver" },
-  "gweike-cloud-pro": { store: "gweike", handle: "gweike-cloud-pro-bundle" },
-  "two-trees-tts-55-pro": {
-    store: "twotrees",
-    handle: "tts-55-pro-tts-10-pro-diode-laser-engraver-twotrees",
-  },
-  "twotrees-tts-55": { store: "twotrees", handle: "twotrees-ts2-20w-laser-engraver" },
-  "two-trees-ts2-20w": { store: "twotrees", handle: "twotrees-ts2-20w-laser-engraver" },
-  "foxaliens-reisler-2": { store: "foxalien", handle: "foxalien-reizer-20w-laser-engraver-1" },
-  "glowforge-aura": { store: "glowforge", handle: "glowforge-aura" },
-  "glowforge-pro": { store: "glowforge", handle: "glowforge-pro" },
-  "omtech-40w-co2": { store: "omtech", handle: "40w-co2-laser-engraver-cutter-usb-032b-us" },
-  "omtech-80w-co2": { store: "omtech", handle: "co2-laser-engraver-cutter-usb-8r57-ul" },
-  "omtech-polar": { store: "omtech", handle: "omtech-polar-lite-55w-desktop-co2-laser-engraver-and-cutter" },
-  "monport-40w-co2": { store: "monport", handle: "monport-40w-lightburn-laser-engraver" },
-  "monport-55w-co2": {
-    store: "monport",
-    handle: "monport-reno65-pro-vision-65w-desktop-co2-laser-engraver-cutter-24-x-16-with-8mp-hd-camera-and-magnetic-assisted-autofocus",
-  },
-  "creality-falcon2-pro": {
-    store: "crealityfalcon",
-    handle: "falcon-2-pro-40w-enclosed-laser-engraver-and-cutter",
-  },
-};
-
-const STORES = {
-  xtool: "https://www.xtool.com",
-  sculpfun: "https://www.sculpfun.com",
-  ortur: "https://ortur.net",
-  atomstack: "https://atomstack.com",
-  longer: "https://longer3d.com",
-  laserpecker: "https://laserpecker.net",
-  algolaser: "https://algolaser.com",
-  acmer: "https://acmerlaser.com",
-  gweike: "https://gweikecloud.com",
-  twotrees: "https://twotrees3dofficial.com",
-  foxalien: "https://www.foxalien.com",
-  glowforge: "https://shop.glowforge.com",
-  omtech: "https://omtech.com",
-  monport: "https://monportlaser.com",
-  crealityfalcon: "https://www.crealityfalcon.com",
-  wecreat: "https://wecreat.com",
-};
-
-/** slug → title regex for collection scan */
-const COLLECTION_MATCH = {
-  "xtool-d1-pro": /D1 Pro(?!.*module)/i,
-  "xtool-s1": /\bS1\b(?!.*module)/i,
-  "xtool-f2-ultra": /F2 Ultra/i,
-  "xtool-m1-ultra": /M1 Ultra(?!.*module)/i,
-  "xtool-f1": /\bF1\b(?! Ultra)/i,
-  "xtool-p2s": /P2S/i,
-  "xtool-f1-ultra": /F1 Ultra/i,
-  "xtool-p2": /\bP2\b(?!S)/i,
-  "wecreat-vision": /Vision/i,
-};
+/** slug → direct image URL (manufacturer CDN) — first image only for cover */
+const DIRECT_IMAGES = Object.fromEntries(
+  Object.entries(DIRECT_GALLERY).map(([slug, urls]) => [slug, urls[0]]),
+);
 
 /** slug → product page URLs (og:image / json fallback) */
 const PRODUCT_PAGES = {

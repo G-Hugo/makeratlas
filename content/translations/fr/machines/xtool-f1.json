@@ -1,0 +1,67 @@
+{
+  "tagline": "Fibre + diode compact d’origine — marquage métal dans une boîte portable",
+  "tldr": "La F1 a lancé la catégorie laser double compact. Plus lente que la F1 Ultra mais souvent moins chère en promo. Toujours spécialiste du marquage métal avec petit plateau — pas un laser d’atelier polyvalent.",
+  "mainObjective": "Marquage métal compact plus gravure diode légère pour petits objets",
+  "primaryUse": "Double laser compact entrée de gamme pour personnalisation métal et gravure légère sur matières organiques.",
+  "beginnerNotes": "Achetez uniquement si le marquage métal est votre activité principale. Les makers orientés bois devraient plutôt viser D1 Pro ou S1.",
+  "proTips": "Utilisez le rotatif pour les bagues. La F1 Ultra vaut l’upgrade si vous enchaînez des lots métal en production.",
+  "bestFor": [
+    "Plaques métal",
+    "Bijouterie",
+    "Marquage portable",
+    "Budget vs F1 Ultra"
+  ],
+  "pros": [
+    "Marque le métal nu sans spray",
+    "Encombrement bureau portable",
+    "Moins chère que F1 Ultra en promo",
+    "Support logiciel xTool"
+  ],
+  "cons": [
+    "Petite surface de travail",
+    "Plus lente que F1/F2 Ultra",
+    "Pas un premier laser pour la plupart des gens",
+    "Changement de module requis"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium",
+      "Laiton",
+      "Bois",
+      "Cuir"
+    ],
+    "cut": [
+      "Bois/cuir fin (diode, limité)"
+    ],
+    "cannot": [
+      "Grandes enseignes",
+      "Découpe acrylique CO₂",
+      "Production matériaux épais"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser xTool F1 — xTool" },
+    { "alt": "Graveuse laser xTool F1 — xTool" },
+    { "alt": "Graveuse laser xTool F1 — xTool" },
+    { "alt": "Graveuse laser xTool F1 — xTool" }
+  ],
+  "moduleSystem": {
+    "headline": "Graveuse compacte double source",
+    "description": "La F1 combine marquage fibre 10 W et gravure diode 10 W. Catégorie différente des têtes modulaires S1.",
+    "options": [
+      { "label": "Fibre 10 W" },
+      { "label": "Diode 10 W" }
+    ]
+  }
+}

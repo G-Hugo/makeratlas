@@ -1,0 +1,122 @@
+{
+  "id": "longer-ray5-40w",
+  "slug": "longer-ray5-40w",
+  "name": "Longer Ray5 40W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "40W Compact fixed-focus diode — simple desk engraver for small projects",
+  "tldr": "Longer Ray5 40W is the 40W SKU on the Longer longer ray5 line. Longer's compact Ray5 20W diode engraver — verify you are buying the 20W SKU, not the 5W, 10W, or 40W Ray5 listings. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "bestFor": [
+    "Desk engraving",
+    "Small items",
+    "Simple setup",
+    "Secondary machine"
+  ],
+  "priceRange": {
+    "min": 449,
+    "max": 649,
+    "currency": "USD",
+    "note": "40W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "40W diode",
+    "workArea": "375 × 375 mm",
+    "software": [
+      "Longer Laser Tool",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "SD card"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.10 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "60–130 mm/s fill",
+        "avgCutSpeed": "3–8 mm/s on 2–4 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood (up to 10 mm)",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Thick cuts",
+      "Large production",
+      "Metal without spray",
+      "Clear acrylic"
+    ]
+  },
+  "pros": [
+    "Touchscreen and fixed focus simplify first jobs",
+    "Compact footprint for a desk",
+    "SD card offline operation",
+    "Affordable 20W option for light work",
+    "Good as a second machine for small engravings"
+  ],
+  "cons": [
+    "Less rigid frame than Sculpfun/Ortur at similar prices",
+    "Not competitive for cutting-focused buyers",
+    "Smaller community than Ortur/xTool",
+    "Fixed focus limits flexibility on uneven items",
+    "Limited upgrade path vs. modular competitors"
+  ],
+  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Use a riser or rotary for tumblers if your model supports it. LightBurn improves workflow vs. stock app. Keep expectations on cutting — this is an engraver first.",
+  "primaryUse": "Compact desktop engraving of small wood, leather, and slate items with minimal setup complexity.",
+  "rating": {
+    "overall": 7.6,
+    "value": 7.8,
+    "easeOfUse": 8.5,
+    "capability": 9.5,
+    "buildQuality": 7.2
+  },
+  "similarModels": [
+    "atomstack-a40-pro",
+    "ortur-laser-master-3-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/longer-ray5-40w/01.webp",
+  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "images": [
+    {
+      "src": "/machines/longer-ray5-40w/01.webp",
+      "alt": "Longer Ray5 40W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-ray5-40w/02.jpg",
+      "alt": "Longer Ray5 40W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-ray5-40w/03.jpg",
+      "alt": "Longer Ray5 40W laser engraver — Longer"
+    }
+  ],
+  "powerRating": "40W",
+  "modelLine": "longer-ray5",
+  "releaseDate": "2024-05",
+  "catalogPrimary": true
+}

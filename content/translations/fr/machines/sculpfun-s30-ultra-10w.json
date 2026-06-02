@@ -1,0 +1,77 @@
+{
+  "tagline": "Châssis S30 Ultra d’entrée — orienté gravure, découpe légère",
+  "tldr": "Le S30 Ultra 10 W utilise le même châssis rigide que les modèles plus puissants, mais vise les makers qui gravent surtout bois, cuir et ardoise. Découpes plus lentes et limites d’épaisseur plus basses que les versions 20 W ou 22 W.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "primaryUse": "Diode loisir milieu de gamme orientée gravure et découpe modérée de matériaux organiques.",
+  "beginnerNotes": "Prenez le 10 W seulement si la gravure représente 90 % de votre usage. Si vous risquez de couper du bois 6–8 mm plus tard, achetez plutôt le 20 W ou 22 W.",
+  "proTips": "Sculpfun publie des cartes de test matériaux — servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
+  "bestFor": [
+    "Découpe bois fin",
+    "Montées en gamme loisir",
+    "Production budget",
+    "Bois et cuir"
+  ],
+  "pros": [
+    "Forte découpe dans la classe diode",
+    "Châssis rigide réduit la flexion à haute vitesse",
+    "Bon rapport qualité-prix entre Ortur et xTool",
+    "Large écosystème accessoires (rotatif, extensions)",
+    "Base utilisateurs active avec réglages testés"
+  ],
+  "cons": [
+    "Structure ouverte — sécurité entièrement à votre charge",
+    "USB seul sur beaucoup de configs (pas de Wi-Fi)",
+    "Support et doc moins soignés que xTool",
+    "Toujours un diode — calibrez vos attentes vs CO₂",
+    "Montage et équerrage demandent de la patience",
+    "10 W limite la découpe vs les frères 20 W/22 W — vérifiez le SKU"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé",
+      "Inox (avec spray)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 5 mm)",
+      "Paper",
+      "Fabric",
+      "Thin leather"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Plaques acrylique épaisses",
+      "Métal nu",
+      "Gravure verre (de façon fiable)"
+    ]
+  },
+  "priceRange": {
+    "note": "Module 10 W — vendu encore comme SKU distinct"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Sculpfun S30 Ultra 10W — Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Ultra 10W — Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Ultra 10W — Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Ultra 10W — Sculpfun"
+    }
+  ]
+}

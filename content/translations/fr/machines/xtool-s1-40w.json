@@ -1,0 +1,100 @@
+{
+  "tagline": "Diode 40 W fermée — meilleure découpe domicile de la gamme enceinte xTool",
+  "tldr": "La S1 40 W est la diode fermée haute puissance xTool. Toujours pas du CO₂, mais la puissance optique supplémentaire aide sur tilleul plus épais vs l’enceinte 20 W.",
+  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "primaryUse": "Diode fermée loisir et petite activité pour gravure plus sûre à domicile et découpe modérée.",
+  "beginnerNotes": "Choisissez S1 plutôt que D1 Pro si sécurité et contrôle fumées comptent plus que l’économie — surtout avec enfants, animaux ou voisins. Passez votre chemin si vous avez besoin de découpe CO₂ ; ça ne remplacera pas une P2.",
+  "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres — ils réduisent les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
+  "bestFor": [
+    "Ateliers à domicile",
+    "Familles avec enfants à proximité",
+    "Usage en appartement",
+    "Gravure plus propre"
+  ],
+  "pros": [
+    "Entièrement fermée — gros progrès sécurité et fumées vs structure ouverte",
+    "Option filtre échappement intégré pour appartement",
+    "Même grande surface que D1 Pro dans un pack plus sûr",
+    "Compatible LightBurn",
+    "Alignement caméra disponible sur certaines configs"
+  ],
+  "cons": [
+    "L’enceinte ajoute du volume",
+    "Cartouches filtre à remplacer avec le temps",
+    "Marketing 40 W diode — vérifiez puissance optique de votre variante",
+    "Marketing 40 W diode — confirmez la puissance optique du SKU exact commandé"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé",
+      "Inox (avec spray)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 10 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Production acrylique niveau CO₂",
+      "Métal nu sans spray",
+      "Bois dur épais en une passe"
+    ]
+  },
+  "priceRange": {
+    "note": "SKU fermée 40 W"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "La xTool S1 est-elle plus sûre qu’un laser structure ouverte ?",
+      "answer": "Oui. L’enceinte bloque l’exposition directe au faisceau et contient les fumées. Vous suivez toujours les règles de sécurité, mais le risque d’exposition accidentelle est bien plus faible qu’avec une diode ouverte."
+    },
+    {
+      "question": "La S1 peut-elle remplacer un laser CO₂ ?",
+      "answer": "Non. C’est toujours une diode avec les mêmes limites acrylique et découpe. Achetez du CO₂ (comme xTool P2) si acrylique transparent et découpe bois épais sont votre cœur de métier."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser xTool S1 40 W — xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool S1 40 W — xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool S1 40 W — xTool"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Têtes laser interchangeables sur le boîtier S1",
+    "description": "La xTool S1 se vend avec différents modules diode (10 W, 20 W ou 40 W) ou en châssis nu — les têtes s’échangent avec deux vis et une prise. Un module infrarouge 1064 nm 2 W optionnel ajoute le marquage métal sans galvo fibre complet. Ce n’est pas une machine « hybride » : vous remplacez une tête à la fois.",
+    "options": [
+      {
+        "label": "Diode 10 W"
+      },
+      {
+        "label": "Diode 20 W"
+      },
+      {
+        "label": "Diode 40 W"
+      },
+      {
+        "label": "Module IR 2 W (accessoire)"
+      }
+    ]
+  }
+}

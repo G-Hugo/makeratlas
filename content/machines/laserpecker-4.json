@@ -14,8 +14,8 @@
     "Travel"
   ],
   "priceRange": {
-    "min": 899,
-    "max": 1399,
+    "min": 1599,
+    "max": 2399,
     "currency": "USD",
     "note": "LP4 and LP4 Pro variants"
   },
@@ -95,7 +95,7 @@
   },
   "similarModels": [
     "longer-ray5",
-    "xtool-d1-pro"
+    "xtool-s1-20w"
   ],
   "faq": [
     {
@@ -108,7 +108,27 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/laserpecker-4.png",
-  "mainObjective": "Portable on-site engraving for events and small items"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/laserpecker-4/01.webp",
+  "mainObjective": "Portable on-site engraving for events and small items",
+  "images": [
+    {
+      "src": "/machines/laserpecker-4/01.webp",
+      "alt": "LaserPecker 4 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-4/02.jpg",
+      "alt": "LaserPecker 4 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-4/03.jpg",
+      "alt": "LaserPecker 4 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-4/04.jpg",
+      "alt": "LaserPecker 4 laser engraver — LaserPecker"
+    }
+  ],
+  "powerRating": "2W",
+  "releaseDate": "2023-06"
 }

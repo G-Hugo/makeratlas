@@ -1,0 +1,116 @@
+{
+  "id": "laserpecker-lp1-pro",
+  "slug": "laserpecker-lp1-pro",
+  "name": "LaserPecker LP1 Pro",
+  "brand": "LaserPecker",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Pocket LaserPecker — ultra-portable 5W for stamps and tiny gifts",
+  "tldr": "LaserPecker LP1 Pro is a pocket-sized 5W engraver for maximum portability. Legacy line compared to LP4/LP5 — still relevant on used market for micro projects only.",
+  "mainObjective": "Pocket engraving for stamps, tags, and travel demos",
+  "bestFor": [
+    "Maximum portability",
+    "Micro gifts",
+    "Stamps",
+    "Travel demos"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 549,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "5W diode",
+    "workArea": "100 × 100 mm (approx.)",
+    "software": [
+      "LaserPecker Design Space"
+    ],
+    "connectivity": [
+      "Bluetooth"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Paper",
+      "Plastic"
+    ],
+    "cut": [
+      "Paper"
+    ],
+    "cannot": [
+      "Any production work",
+      "Thick cuts",
+      "Metal without newer LP models"
+    ]
+  },
+  "pros": [
+    "Truly pocketable",
+    "Simple app workflow",
+    "Fun demos"
+  ],
+  "cons": [
+    "Very low power",
+    "Old generation",
+    "Tiny bed"
+  ],
+  "beginnerNotes": "Not a workshop laser — treat as a gadget or second machine.",
+  "proTips": "LP4 is the better modern portable if buying new from LaserPecker.",
+  "primaryUse": "Pocket micro-engraving for personalization on the go.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "laserpecker-lp2-plus-10w",
+    "acmer-s1-6w",
+    "ortur-aufero-al1"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/laserpecker-lp1-pro/01.webp",
+  "modelLine": "laserpecker-lp1",
+  "powerRating": "5W",
+  "releaseDate": "2021-06",
+  "images": [
+    {
+      "src": "/machines/laserpecker-lp1-pro/01.webp",
+      "alt": "LaserPecker LP1 Pro laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp1-pro/02.jpg",
+      "alt": "LaserPecker LP1 Pro laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp1-pro/03.jpg",
+      "alt": "LaserPecker LP1 Pro laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp1-pro/04.jpg",
+      "alt": "LaserPecker LP1 Pro laser engraver — LaserPecker"
+    }
+  ]
+}

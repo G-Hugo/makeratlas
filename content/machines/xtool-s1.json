@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Enclosed diode laser — safer and cleaner than open-frame alternatives",
-  "tldr": "The xTool S1 puts a 20W or 40W diode inside an enclosed cabinet with exhaust filtering. Much safer for home use than open-frame machines. Cutting performance is still diode-class — not CO₂ — but the enclosed design is a major upgrade for families and apartments.",
+  "tldr": "The xTool S1 is an enclosed Class-1 diode platform with interchangeable 10W, 20W, and 40W heads (plus optional 2W IR for metal). This overview page is deprecated — open a specific power tier for accurate specs.",
   "bestFor": [
     "Home workshops",
     "Families with kids nearby",
@@ -14,10 +14,10 @@
     "Cleaner engraving"
   ],
   "priceRange": {
-    "min": 1199,
-    "max": 1699,
+    "min": 999,
+    "max": 3049,
     "currency": "USD",
-    "note": "20W and 40W enclosed variants"
+    "note": "20W and 40W enclosed variants — check xTool for current bundles and purifier add-ons"
   },
   "specs": {
     "power": "20W / 40W diode (enclosed)",
@@ -35,12 +35,12 @@
       "engraveExample": {
         "description": "Filled photo or logo on birch plywood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~8–12 min"
+        "time": "~12–18 min"
       },
       "cutExample": {
         "description": "Simple square cut-out from 3 mm basswood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~4–6 min"
+        "time": "~6–10 min"
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
@@ -110,7 +110,54 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/xtool-s1.jpg",
-  "mainObjective": "Safer enclosed home engraving with cleaner smoke control"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/xtool-s1/01.webp",
+  "mainObjective": "Safer enclosed home engraving with cleaner smoke control",
+  "images": [
+    {
+      "src": "/machines/xtool-s1/01.webp",
+      "alt": "xTool S1 20W laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-s1/02.webp",
+      "alt": "xTool S1 20W laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-s1/03.webp",
+      "alt": "xTool S1 20W laser engraver — xTool"
+    }
+  ],
+  "modelLine": "xtool-s1",
+  "catalogHidden": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Interchangeable laser heads on the same S1 cabinet",
+    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet — heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
+    "options": [
+      {
+        "power": "10W",
+        "laserKind": "diode",
+        "label": "10W diode",
+        "tierSlug": "xtool-s1-10w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "xtool-s1-20w"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode",
+        "tierSlug": "xtool-s1-40w"
+      },
+      {
+        "power": "2W",
+        "laserKind": "infrared",
+        "label": "2W IR module (accessory)"
+      }
+    ]
+  },
+  "releaseDate": "2023-10"
 }

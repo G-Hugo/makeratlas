@@ -1,0 +1,63 @@
+{
+  "tagline": "Acmer structure ouverte petit budget — grand plateau pour le prix",
+  "tldr": "L'Acmer P1 10 W est une graveuse structure ouverte abordable de classe 400 mm, idéale pour apprendre et réaliser de petits cadeaux. Fabrication et support de niveau entrée de gamme — excellent rapport qualité-prix si vous acceptez un peu de réglage.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "primaryUse": "Gravure amateur petit budget sur grand plateau.",
+  "beginnerNotes": "Prévoyez une assistance air et les bases de sécurité incendie avant la première découpe.",
+  "proTips": "Comparez le coût total à la Ray5 10 W — segment similaire.",
+  "bestFor": [
+    "Budget serré",
+    "Grand plateau",
+    "Premier laser",
+    "Gravure légère"
+  ],
+  "pros": [
+    "Grande zone de travail pour le prix",
+    "Entretien simple grâce à la structure ouverte",
+    "Montée en gamme possible vers P2/P3"
+  ],
+  "cons": [
+    "Qualité de fabrication entrée de gamme",
+    "Support de marque limité face à Ortur/xTool",
+    "Sécurité structure ouverte"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Papier"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 5 mm)"
+    ],
+    "cannot": [
+      "Fiabilité atelier de production",
+      "Découpes épaisses",
+      "Métal"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Acmer P1 10 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer P1 10 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer P1 10 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer P1 10 W — Acmer"
+    }
+  ]
+}

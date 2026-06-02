@@ -1,0 +1,66 @@
+{
+  "tagline": "Diode mise au point fixe compacte — graveuse bureau simple pour petits projets",
+  "tldr": "Graveuse diode Longer Ray5 20 W compacte — vérifiez que vous achetez bien le SKU 20 W, pas les fiches Ray5 5 W, 10 W ou 40 W.",
+  "mainObjective": "Graveuse bureau compacte pour petits cadeaux bois et cuir",
+  "primaryUse": "Gravure bureau compacte de petits objets bois, cuir et ardoise avec une mise en route minimale.",
+  "beginnerNotes": "Considérez le Ray5 si l’espace est serré et que vous ne gravez que de petits objets comme sous-verres et porte-clés. Pour un premier laser, Ortur LM3 ou Sculpfun S30 Ultra offrent en général un meilleur rapport qualité-prix long terme.",
+  "proTips": "Utilisez un rehausseur ou rotary pour les gobelets si votre modèle le supporte. LightBurn améliore le workflow vs l’app d’origine. Gardez des attentes modestes sur la découpe — c’est d’abord une graveuse.",
+  "bestFor": [
+    "Gravure bureau",
+    "Petits objets",
+    "Mise en route simple",
+    "Deuxième machine"
+  ],
+  "pros": [
+    "Écran tactile et mise au point fixe simplifient les premiers jobs",
+    "Encombrement compact pour un bureau",
+    "Fonctionnement hors ligne par carte SD",
+    "Option 20 W abordable pour travail léger",
+    "Bon comme deuxième machine pour petites gravures"
+  ],
+  "cons": [
+    "Châssis moins rigide que Sculpfun/Ortur à prix similaire",
+    "Peu compétitif pour les acheteurs orientés découpe",
+    "Communauté plus petite qu’Ortur/xTool",
+    "Mise au point fixe limite la flexibilité sur pièces irrégulières",
+    "Chemin de montée en gamme limité vs concurrents modulaires"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul fin 2–5 mm",
+      "Papier",
+      "Tissu fin"
+    ],
+    "cannot": [
+      "Découpes épaisses",
+      "Grande production",
+      "Métal sans spray",
+      "Acrylique transparent"
+    ]
+  },
+  "priceRange": {
+    "note": "SKU 20 W — autres puissances sont des fiches Longer séparées"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Longer Ray5 20W — Longer" },
+    { "alt": "Graveuse laser Longer Ray5 20W — Longer" },
+    { "alt": "Graveuse laser Longer Ray5 20W — Longer" },
+    { "alt": "Graveuse laser Longer Ray5 20W — Longer" }
+  ]
+}

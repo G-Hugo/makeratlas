@@ -1,0 +1,115 @@
+{
+  "id": "atomstack-a20-pro-1064nm",
+  "slug": "atomstack-a20-pro-1064nm",
+  "name": "AtomStack A20 Pro 1064nm Fiber",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "tagline": "Desktop fiber marking module — 1064nm IR on Atomstack platform",
+  "tldr": "AtomStack A20 Pro 1064nm is a fiber marking variant for metal engraving without a separate galvo bench. Different machine class than diode A20 Pro V2 — buy for metal marking, not wood cutting.",
+  "mainObjective": "Desktop fiber marking for metal gifts and tools",
+  "bestFor": [
+    "Metal marking",
+    "Jewelry desk",
+    "Atomstack metal focus"
+  ],
+  "priceRange": {
+    "min": 1299,
+    "max": 1799,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W fiber (1064nm)",
+    "workArea": "110 × 110 mm typical",
+    "software": [
+      "LightBurn",
+      "EZCAD"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "Fiber marking",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless",
+      "Aluminum",
+      "Brass",
+      "Some plastics"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood cutting",
+      "Large acrylic",
+      "Diode organic work (different SKU)"
+    ]
+  },
+  "pros": [
+    "Fiber metal marking in Atomstack ecosystem",
+    "No spray on many metals",
+    "Compact vs industrial fiber"
+  ],
+  "cons": [
+    "Not the diode A20",
+    "Small field",
+    "Confusing naming with A20 Pro V2"
+  ],
+  "beginnerNotes": "Do not confuse with A20 Pro V2 diode — completely different machine.",
+  "proTips": "Search '1064nm' in listing title to confirm fiber SKU.",
+  "primaryUse": "Fiber marking for metal personalization on a desktop footprint.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "commarker-b4-20w",
+    "atomstack-a24-pro",
+    "gweike-g2-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/atomstack-a20-pro-1064nm/01.webp",
+  "powerRating": "20W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-06",
+  "images": [
+    {
+      "src": "/machines/atomstack-a20-pro-1064nm/01.webp",
+      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a20-pro-1064nm/02.jpg",
+      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a20-pro-1064nm/03.jpg",
+      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a20-pro-1064nm/04.jpg",
+      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver — Atomstack"
+    }
+  ]
+}

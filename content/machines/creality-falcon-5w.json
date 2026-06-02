@@ -1,0 +1,116 @@
+{
+  "id": "creality-falcon-5w",
+  "slug": "creality-falcon-5w",
+  "name": "Creality Falcon 5W",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Creality’s compact Falcon 5W — small-bed entry engraver",
+  "tldr": "Creality Falcon 5W is the small CR-Laser Falcon for desktop engraving and light crafts — lower power than Falcon 10W/A1 but simpler footprint and price.",
+  "mainObjective": "Creality-branded entry engraver for small projects",
+  "bestFor": [
+    "Creality fans",
+    "Small gifts",
+    "Desk engraving"
+  ],
+  "priceRange": {
+    "min": 149,
+    "max": 249,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "5W diode",
+    "workArea": "100 × 100 mm (verify kit)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Paper"
+    ],
+    "cut": [
+      "Thin wood",
+      "Cardboard"
+    ],
+    "cannot": [
+      "Large panels",
+      "Deep cutting",
+      "Metal"
+    ]
+  },
+  "pros": [
+    "Creality ecosystem",
+    "Compact",
+    "Simple setup"
+  ],
+  "cons": [
+    "Small work area",
+    "5W limits",
+    "10W/A1 better value for many"
+  ],
+  "beginnerNotes": "Check work area on your exact kit — basic vs all-in-one bundles differ.",
+  "proTips": "Pair with Falcon risers/accessories only if you upgrade to 10W class later.",
+  "primaryUse": "Small-format Creality engraving.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "creality-falcon-10w",
+    "creality-falcon-a1-10w",
+    "laserpecker-lp1-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/creality-falcon-5w/01.webp",
+  "catalogPrimary": true,
+  "releaseDate": "2023-06",
+  "images": [
+    {
+      "src": "/machines/creality-falcon-5w/01.webp",
+      "alt": "Creality Falcon 5W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-5w/02.jpg",
+      "alt": "Creality Falcon 5W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-5w/03.jpg",
+      "alt": "Creality Falcon 5W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-5w/04.jpg",
+      "alt": "Creality Falcon 5W laser engraver — Creality"
+    }
+  ]
+}

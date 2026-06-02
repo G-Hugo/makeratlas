@@ -1,0 +1,125 @@
+{
+  "id": "longer-nano-duo-ai",
+  "slug": "longer-nano-duo-ai",
+  "name": "Longer Nano Duo AI",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "AI-assisted portable Longer with dual laser sources",
+  "tldr": "Longer Nano Duo AI adds dual-source portability with app AI features for layout and material presets. Niche portable for makers who want Longer branding plus more flexibility than single-beam Nano models.",
+  "mainObjective": "Smart portable dual-source engraving for travel and small items",
+  "bestFor": [
+    "Portable",
+    "AI presets",
+    "Dual materials",
+    "Longer ecosystem"
+  ],
+  "priceRange": {
+    "min": 1499,
+    "max": 1899,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "12W diode + IR auxiliary",
+    "workArea": "130 × 130 mm (approx.)",
+    "software": [
+      "Longer Laser"
+    ],
+    "connectivity": [
+      "Bluetooth",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "5,000 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Some metals",
+      "Plastic"
+    ],
+    "cut": [
+      "Thin wood",
+      "Paper"
+    ],
+    "cannot": [
+      "Large signs",
+      "Workshop production"
+    ]
+  },
+  "pros": [
+    "Dual source portable",
+    "AI workflow hooks",
+    "Longer accessory line"
+  ],
+  "cons": [
+    "Premium portable pricing",
+    "Small bed",
+    "App-dependent workflow"
+  ],
+  "beginnerNotes": "Compare Nano Pro 12W single-beam if you don't need dual sources.",
+  "proTips": "Conveyor accessory sold separately for batch cylindrical work.",
+  "primaryUse": "Portable dual-source personalization with AI-assisted setup.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "longer-nano-pro-12w",
+    "longer-nano-6w",
+    "laserpecker-5"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/longer-nano-duo-ai/01.webp",
+  "powerRating": "12W",
+  "catalogPrimary": true,
+  "laserCapabilities": [
+    "diode",
+    "infrared"
+  ],
+  "capabilityTags": [
+    "diode",
+    "infrared"
+  ],
+  "releaseDate": "2025-02",
+  "images": [
+    {
+      "src": "/machines/longer-nano-duo-ai/01.webp",
+      "alt": "Longer Nano Duo AI laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-nano-duo-ai/02.jpg",
+      "alt": "Longer Nano Duo AI laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-nano-duo-ai/03.jpg",
+      "alt": "Longer Nano Duo AI laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-nano-duo-ai/04.jpg",
+      "alt": "Longer Nano Duo AI laser engraver — Longer"
+    }
+  ]
+}

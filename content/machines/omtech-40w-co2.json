@@ -14,13 +14,13 @@
     "Sign makers on a budget"
   ],
   "priceRange": {
-    "min": 500,
-    "max": 900,
+    "min": 600,
+    "max": 1000,
     "currency": "USD",
     "note": "40W desktop models; 50–60W cost more"
   },
   "specs": {
-    "power": "40W CO₂ glass tube (actual ~30–35W typical)",
+    "power": "40W CO₂ glass tube",
     "workArea": "300 × 200 mm (12 × 8 in) typical",
     "software": [
       "LightBurn",
@@ -96,11 +96,31 @@
     "buildQuality": 7
   },
   "similarModels": [
-    "xtool-p2",
+    "xtool-p2s",
     "glowforge-aura"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/omtech-40w-co2.jpg",
-  "mainObjective": "Budget CO₂ cutting for makers willing to upgrade and maintain"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/omtech-40w-co2/01.webp",
+  "mainObjective": "Budget CO₂ cutting for makers willing to upgrade and maintain",
+  "images": [
+    {
+      "src": "/machines/omtech-40w-co2/01.webp",
+      "alt": "OMTech 40W CO₂ (K40 class) laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-40w-co2/02.jpg",
+      "alt": "OMTech 40W CO₂ (K40 class) laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-40w-co2/03.jpg",
+      "alt": "OMTech 40W CO₂ (K40 class) laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-40w-co2/04.jpg",
+      "alt": "OMTech 40W CO₂ (K40 class) laser engraver — OMTech"
+    }
+  ],
+  "powerRating": "40W",
+  "releaseDate": "2019-01"
 }

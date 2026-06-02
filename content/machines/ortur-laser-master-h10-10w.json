@@ -1,0 +1,128 @@
+{
+  "id": "ortur-laser-master-h10-10w",
+  "slug": "ortur-laser-master-h10-10w",
+  "name": "Ortur Laser Master H10 10W",
+  "brand": "Ortur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/ortur-laser-master-h10-10w/01.webp",
+  "tagline": "10W Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
+  "tldr": "Ortur Laser Master H10 10W is the 10W SKU on the Ortur ortur laser master h10 line. The H10 is Ortur's step up from the open-frame LM3 line: a more integrated chassis with up to 20W diode power and higher advertised traverse speeds. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "bestFor": [
+    "Ortur upgrades",
+    "Speed-focused hobbyists",
+    "Wood & leather engraving",
+    "Integrated frame fans"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 549,
+    "currency": "USD",
+    "note": "10W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~28–43 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~14–24 min"
+      },
+      "technical": {
+        "spotSize": "~0.07 mm spot",
+        "maxSpeed": "333 mm/s",
+        "avgEngraveSpeed": "6–14 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood (up to 5 mm)",
+      "Black acrylic (thin)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "CO₂-level acrylic production",
+      "Bare metal without spray",
+      "Full enclosure safety (open frame)"
+    ]
+  },
+  "pros": [
+    "More integrated frame than LM3",
+    "Higher speed potential on optimized jobs",
+    "Large Ortur community and firmware support",
+    "LightBurn-ready workflow",
+    "Competitive price vs xTool D1 Pro"
+  ],
+  "cons": [
+    "Still open frame — eye protection required",
+    "40W marketing is optical/combined power",
+    "Less proven long-term than LM3 community volume",
+    "Air assist often extra",
+    "Not a CO₂ replacement for acrylic shops"
+  ],
+  "beginnerNotes": "Choose 10W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Start with 20W unless you have a clear cutting use case — 40W adds cost with diminishing returns on thick cuts. Pair with Ortur air assist early for cleaner edges.",
+  "primaryUse": "Integrated open-frame Ortur diode for faster engraving and moderate thin-wood cutting.",
+  "rating": {
+    "overall": 8.3,
+    "value": 8.5,
+    "easeOfUse": 8.2,
+    "capability": 7,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "ortur-laser-master-3-20w",
+    "sculpfun-s30-ultra-22w",
+    "algolaser-alpha-mk2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/ortur-laser-master-h10-10w/01.webp",
+      "alt": "Ortur Laser Master H10 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-h10-10w/02.webp",
+      "alt": "Ortur Laser Master H10 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-h10-10w/03.webp",
+      "alt": "Ortur Laser Master H10 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-h10-10w/04.webp",
+      "alt": "Ortur Laser Master H10 10W laser engraver — Ortur"
+    }
+  ],
+  "modelLine": "ortur-laser-master-h10",
+  "powerRating": "10W",
+  "releaseDate": "2024-06"
+}

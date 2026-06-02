@@ -1,0 +1,66 @@
+{
+  "tagline": "Marqueur fibre de bureau pour métal et certains plastiques",
+  "tldr": "Le Gweike G2 intègre un galvo fibre 20W dans un format de bureau. Bonne option si vous voulez du marquage métal avec la familiarité de l'écosystème Gweike de leurs lignes CO₂.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Gravure fibre de bureau pour activités secondaires orientées métal.",
+  "beginnerNotes": "Comparez avec la ComMarker B4 sur prix, bundle logiciel et support local.",
+  "proTips": "Utilisez un hachurage croisé sur les pièces courbes avec rotary à faible vitesse.",
+  "bestFor": [
+    "Cadeaux métal",
+    "Marquage plastiques",
+    "Fibre budget",
+    "Petit atelier"
+  ],
+  "pros": [
+    "Prix fibre compétitif",
+    "Marque connue dans l'univers CO₂ maker",
+    "Compatible LightBurn",
+    "Compact"
+  ],
+  "cons": [
+    "Communauté plus petite que ComMarker pour la fibre",
+    "Vérifiez la garantie régionale",
+    "Accessoires variables selon le bundle"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium",
+      "Laiton",
+      "ABS",
+      "Certains métaux revêtus"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)"
+    ],
+    "cannot": [
+      "Bois",
+      "Acrylique",
+      "Grands panneaux"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser — machine de marquage uniquement"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Gweike G2 20W Fiber — Gweike"
+    },
+    {
+      "alt": "Graveuse laser Gweike G2 20W Fiber — Gweike"
+    },
+    {
+      "alt": "Graveuse laser Gweike G2 20W Fiber — Gweike"
+    },
+    {
+      "alt": "Graveuse laser Gweike G2 20W Fiber — Gweike"
+    }
+  ]
+}

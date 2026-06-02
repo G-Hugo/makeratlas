@@ -1,0 +1,109 @@
+{
+  "id": "omtech-fc-44-intelli",
+  "slug": "omtech-fc-44-intelli",
+  "name": "OMTech FC-44 Intelli",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "tagline": "Compact OMTech Intelli fiber — mid-size cutting/marking platform",
+  "tldr": "OMTech FC-44 Intelli is a smaller fiber system than FC-105 for shops that need metal capability without full industrial footprint. Still a business machine — not a replacement for desktop diode or galvo fiber markers.",
+  "mainObjective": "Mid-format fiber for metal-focused small businesses",
+  "bestFor": [
+    "Small metal shop",
+    "Fiber cutting entry",
+    "OMTech ecosystem"
+  ],
+  "priceRange": {
+    "min": 4999,
+    "max": 7999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "44W fiber",
+    "workArea": "Verify listing",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "Fiber"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Metal"
+    ],
+    "cut": [
+      "Sheet metal (thin)"
+    ],
+    "cannot": [
+      "Wood shop",
+      "Hobby gifts only"
+    ]
+  },
+  "pros": [
+    "Smaller than FC-105",
+    "Intelli software features",
+    "OMTech dealer network"
+  ],
+  "cons": [
+    "Still costly",
+    "Not portable",
+    "Learning curve"
+  ],
+  "beginnerNotes": "Compare desktop galvo fiber if you only need marking, not cutting.",
+  "proTips": "Plan install space, exhaust, and chiller maintenance up front.",
+  "primaryUse": "Mid-size fiber system for metal cutting and production marking.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "omtech-fc-105sa",
+    "omtech-fc105-fiber",
+    "monport-gt-60w-fiber"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/omtech-fc-44-intelli/01.webp",
+  "powerRating": "44W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-04",
+  "images": [
+    {
+      "src": "/machines/omtech-fc-44-intelli/01.webp",
+      "alt": "OMTech FC-44 Intelli laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc-44-intelli/02.jpg",
+      "alt": "OMTech FC-44 Intelli laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc-44-intelli/03.jpg",
+      "alt": "OMTech FC-44 Intelli laser engraver — OMTech"
+    }
+  ]
+}

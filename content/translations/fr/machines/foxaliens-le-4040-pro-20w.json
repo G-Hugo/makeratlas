@@ -1,0 +1,52 @@
+{
+  "tagline": "FoxAlien LE-4040 Pro — laser 20W sur châssis format 4040",
+  "tldr": "La FoxAlien LE-4040 Pro 20W associe un châssis type 4040 à une diode 20W — format familier pour les utilisateurs CNC qui ajoutent la capacité laser. Alternative à la gamme Reizer avec une conception de châssis différente.",
+  "mainObjective": "Laser 20W format 4040 pour utilisateurs écosystème FoxAlien",
+  "primaryUse": "FoxAlien 20W format 4040 pour gravure et découpe modérée.",
+  "beginnerNotes": "Choisissez la Reizer 40W pour la puissance max ou celle-ci pour un format 4040 équilibré en 20W.",
+  "proTips": "Vérifiez la rigidité du châssis à haute vitesse sur les jobs pleine largeur.",
+  "bestFor": [
+    "Fans châssis 4040",
+    "Gravure 20W",
+    "Packs FoxAlien"
+  ],
+  "pros": [
+    "Disposition 4040 familière",
+    "Niveau 20W solide",
+    "Canaux support FoxAlien"
+  ],
+  "cons": [
+    "Moins de contenu forum que la Reizer 40W",
+    "Structure ouverte"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique (foncé)"
+    ],
+    "cut": [
+      "Tilleul 5 mm"
+    ],
+    "cannot": [
+      "Profondeur de découpe 40W",
+      "Finition premium xTool"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W — FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W — FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W — FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W — FoxAlien" }
+  ]
+}

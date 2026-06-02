@@ -1,0 +1,79 @@
+{
+  "tagline": "Flagship CO₂ 80 W 2025 — automatisation ACS, immense plateau, IR optionnel pour métal",
+  "tldr": "La xTool P3 (août 2025) remplace P2/P2S comme flagship CO₂ xTool : tube 80 W, plateau 915×458 mm, refroidisseur intégré, extinction incendie et automatisation ACS™ (caméras, autofocus LiDAR, imbrication IA). Module IR 5 W optionnel pour marquage métal nu. Dès ~5 999 $ — conçue pour ateliers qui dépassent les diodes.",
+  "mainObjective": "Production CO₂ 80 W automatisée pour enseignistes et petites entreprises sérieuses",
+  "primaryUse": "Flagship CO₂ 2025 xTool pour découpe et gravure haut volume avec automatisation type usine.",
+  "beginnerNotes": "Achetez la P3 si vous gérez une boutique découpant enseignes acrylique ou bois épais quotidiennement. Vous venez de P2S ? Vous gagnez puissance, taille plateau et automatisation — pas un simple tweak. Toujours serré ? Regardez CO₂ Monport/OMTech ou restez sur diode Falcon 2 Pro.",
+  "proTips": "Planifiez l’évacuation avant livraison. Testez matériaux sur tout le plateau — grands plateaux demandent calibration focus aux coins. Chiffrez le module IR seulement si le métal est une ligne de revenu régulière.",
+  "bestFor": [
+    "Enseignistes",
+    "Production Etsy",
+    "Upgrade P2/P2S",
+    "Acrylique et bois épais"
+  ],
+  "pros": [
+    "80 W et plateau ~2,3× P2S — vraie marge production",
+    "Automatisation ACS : caméras, focus LiDAR, imbrication IA, remplissage série",
+    "Enceinte classe 1, détection/extinction incendie, refroidisseur intégré",
+    "Module IR optionnel pour métal vs acheter une fibre séparée",
+    "Option convoyeur pour matériaux longs"
+  ],
+  "cons": [
+    "Prix premium — plusieurs fois une bonne diode",
+    "Lourde ; espace dédié et évacuation puissante requis",
+    "Entretien et remplacement tube CO₂",
+    "Accessoires (convoyeur, AutoLift, IR) augmentent le coût total",
+    "Excessif si vous gravez seulement petits cadeaux"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Pierre",
+      "Caoutchouc",
+      "Aluminium anodisé",
+      "Inox (avec module IR optionnel)"
+    ],
+    "cut": [
+      "Acrylique jusqu’à ~25 mm (annoncé)",
+      "Tilleul jusqu’à ~20 mm (annoncé)",
+      "Cuir",
+      "Tissu",
+      "Papier"
+    ],
+    "cannot": [
+      "Métal nu sans accessoire IR",
+      "Appartement sans évacuation",
+      "Usage loisir petit budget uniquement"
+    ]
+  },
+  "priceRange": {
+    "note": "Seule dès ~5 999 $ ; packs convoyeur, AutoLift, module IR en supplément"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser xTool P3 — xTool" },
+    { "alt": "Graveuse laser xTool P3 — xTool" },
+    { "alt": "Graveuse laser xTool P3 — xTool" },
+    { "alt": "Graveuse laser xTool P3 — xTool" }
+  ],
+  "moduleSystem": {
+    "headline": "Module infrarouge 5 W (1064 nm) optionnel",
+    "description": "Machine de base en CO₂ 80 W. Ajoutez le module IR pour marquage métal nu et plastique sans graveuse fibre séparée.",
+    "options": [
+      { "label": "CO₂ 80 W (inclus)" },
+      { "label": "Module IR 5 W (optionnel)" }
+    ]
+  }
+}

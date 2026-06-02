@@ -5,7 +5,7 @@
   "brand": "TwoTrees",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/two-trees-tts-55-pro.jpg",
+  "image": "/machines/two-trees-tts-55-pro/01.webp",
   "tagline": "Upgraded TTS frame with better rigidity and fixed focus",
   "tldr": "The TTS-55 Pro improves on the base TTS-55 with stiffer frame and easier focus workflow. Still budget-tier but more usable for daily hobby work. Not a Sculpfun/xTool competitor on consistency.",
   "mainObjective": "Upgraded budget diode with easier setup than base TTS-55",
@@ -16,8 +16,8 @@
     "TwoTrees owners"
   ],
   "priceRange": {
-    "min": 299,
-    "max": 499,
+    "min": 159,
+    "max": 433,
     "currency": "USD"
   },
   "specs": {
@@ -90,8 +90,29 @@
   },
   "similarModels": [
     "twotrees-tts-55",
-    "atomstack-a5-pro"
+    "atomstack-a40-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/two-trees-tts-55-pro/01.webp",
+      "alt": "TwoTrees TTS-55 Pro laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/two-trees-tts-55-pro/02.jpg",
+      "alt": "TwoTrees TTS-55 Pro laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/two-trees-tts-55-pro/03.jpg",
+      "alt": "TwoTrees TTS-55 Pro laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/two-trees-tts-55-pro/04.jpg",
+      "alt": "TwoTrees TTS-55 Pro laser engraver — TwoTrees"
+    }
+  ],
+  "powerRating": "10W",
+  "modelLine": "two-trees-tts-55-pro",
+  "catalogHidden": true
 }

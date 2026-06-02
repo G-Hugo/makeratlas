@@ -1,0 +1,59 @@
+{
+  "tagline": "Acmer S2 Pro puissance intermédiaire — niveau 36 W avec boîtier optionnel",
+  "tldr": "L'Acmer S2 Pro 36 W est la référence moins puissante de la gamme S2 Pro d'Acmer, avec options de packs rotatif et IR. Comparez au S2 Pro 48 W avant l'achat — le surclassement vaut souvent le coup.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Plateforme Acmer puissance intermédiaire avec packs accessoires.",
+  "beginnerNotes": "Comparez le prix de la référence 48 W avant de valider votre panier.",
+  "proTips": "Le pack IR seulement si vous marquez régulièrement des métaux.",
+  "bestFor": [
+    "Acheteurs Acmer",
+    "Packs rotatif",
+    "Niveau 36 W rapport qualité-prix"
+  ],
+  "pros": [
+    "Options de packs rotatif et IR",
+    "Entrée de gamme plus basse que le 48 W",
+    "Grand plateau"
+  ],
+  "cons": [
+    "Le niveau 48 W offre souvent un meilleur rapport qualité-prix",
+    "Moins connu que les gammes P2/P3"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)"
+    ],
+    "cannot": [
+      "Le niveau 48 W existe pour plus de profondeur de découpe"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Acmer S2 Pro 36 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer S2 Pro 36 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer S2 Pro 36 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer S2 Pro 36 W — Acmer"
+    }
+  ]
+}

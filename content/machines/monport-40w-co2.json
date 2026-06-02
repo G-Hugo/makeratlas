@@ -5,7 +5,7 @@
   "brand": "Monport",
   "category": "laser-engraver",
   "laserType": "co2",
-  "image": "/machines/monport-40w-co2.jpg",
+  "image": "/machines/monport-40w-co2/01.webp",
   "tagline": "K40-class alternative with Monport build quality and support",
   "tldr": "Monport's 40W desktop CO₂ sits alongside OMTech K40 class with often better out-of-box experience. Entry CO₂ for acrylic and wood. Ventilation and learning still required.",
   "mainObjective": "Entry CO₂ cutting with fewer mandatory mods than classic K40",
@@ -17,7 +17,7 @@
   ],
   "priceRange": {
     "min": 600,
-    "max": 1200,
+    "max": 1230,
     "currency": "USD"
   },
   "specs": {
@@ -96,5 +96,21 @@
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/monport-40w-co2/01.webp",
+      "alt": "Monport 40W CO₂ laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-40w-co2/02.webp",
+      "alt": "Monport 40W CO₂ laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-40w-co2/03.webp",
+      "alt": "Monport 40W CO₂ laser engraver — Monport"
+    }
+  ],
+  "powerRating": "40W",
+  "releaseDate": "2022-01"
 }

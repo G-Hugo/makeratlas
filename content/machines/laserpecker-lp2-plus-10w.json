@@ -1,0 +1,117 @@
+{
+  "id": "laserpecker-lp2-plus-10w",
+  "slug": "laserpecker-lp2-plus-10w",
+  "name": "LaserPecker LP2 Plus 10W",
+  "brand": "LaserPecker",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Desktop LaserPecker LP2 Plus — 10W before LP4/LP5 era",
+  "tldr": "LaserPecker LP2 Plus is a 10W desktop unit in the LP lineage — more capable than LP1 pocket models but less advanced than LP4/LP5. Good used-market portable desk engraver.",
+  "mainObjective": "Desktop LaserPecker 10W for small shop personalization",
+  "bestFor": [
+    "LaserPecker fans",
+    "Small desk",
+    "10W gifts",
+    "Used market"
+  ],
+  "priceRange": {
+    "min": 699,
+    "max": 899,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "120 × 120 mm (approx.)",
+    "software": [
+      "LaserPecker Design Space"
+    ],
+    "connectivity": [
+      "Bluetooth",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Plastic"
+    ],
+    "cut": [
+      "Paper",
+      "Thin wood"
+    ],
+    "cannot": [
+      "Large panels",
+      "LP5 hybrid metal depth"
+    ]
+  },
+  "pros": [
+    "LaserPecker ecosystem",
+    "Compact desktop",
+    "10W usable power"
+  ],
+  "cons": [
+    "Superseded by LP4/LP5",
+    "Small area",
+    "Bluetooth-only workflow for some users"
+  ],
+  "beginnerNotes": "Buy used only if priced well below LP4 entry.",
+  "proTips": "Check firmware and app support before buying second-hand.",
+  "primaryUse": "Small-format LaserPecker engraving for gifts and labels.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "laserpecker-lp1-pro",
+    "laserpecker-4",
+    "longer-nano-6w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/laserpecker-lp2-plus-10w/01.webp",
+  "modelLine": "laserpecker-lp2",
+  "powerRating": "10W",
+  "catalogPrimary": true,
+  "releaseDate": "2022-10",
+  "images": [
+    {
+      "src": "/machines/laserpecker-lp2-plus-10w/01.webp",
+      "alt": "LaserPecker LP2 Plus 10W laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp2-plus-10w/02.png",
+      "alt": "LaserPecker LP2 Plus 10W laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp2-plus-10w/03.jpg",
+      "alt": "LaserPecker LP2 Plus 10W laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp2-plus-10w/04.jpg",
+      "alt": "LaserPecker LP2 Plus 10W laser engraver — LaserPecker"
+    }
+  ]
+}

@@ -95,8 +95,7 @@
     "buildQuality": 8
   },
   "similarModels": [
-    "xtool-s1",
-    "xtool-d1-pro"
+    "xtool-s1-20w"
   ],
   "faq": [
     {
@@ -109,7 +108,23 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/wecreat-vision.jpg",
-  "mainObjective": "AI-guided enclosed engraving for visual, beginner-friendly workflow"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/wecreat-vision/01.webp",
+  "mainObjective": "AI-guided enclosed engraving for visual, beginner-friendly workflow",
+  "images": [
+    {
+      "src": "/machines/wecreat-vision/01.webp",
+      "alt": "WeCreat Vision laser engraver — WeCreat"
+    },
+    {
+      "src": "/machines/wecreat-vision/02.jpg",
+      "alt": "WeCreat Vision laser engraver — WeCreat"
+    },
+    {
+      "src": "/machines/wecreat-vision/03.jpg",
+      "alt": "WeCreat Vision laser engraver — WeCreat"
+    }
+  ],
+  "powerRating": "20W",
+  "releaseDate": "2024-07"
 }

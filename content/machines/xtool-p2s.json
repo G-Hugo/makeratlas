@@ -5,9 +5,9 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "co2",
-  "image": "/machines/xtool-p2s.jpg",
+  "image": "/machines/xtool-p2s/01.webp",
   "tagline": "Updated P2 with faster processing and improved autofocus",
-  "tldr": "The P2S refines the xTool P2 formula with better software integration and hardware tweaks. Same 55W CO₂ class for acrylic and wood production. Choose P2S over P2 when buying new; choose P2 only on discount.",
+  "tldr": "The P2S refines the original P2 with better software and autofocus. Same 55W CO₂ class for acrylic and wood production. Still xTool's main enclosed CO₂ below the P3 flagship — choose P3 if you need 80W and automation; P2S if 55W and budget fit.",
   "mainObjective": "Next-gen enclosed CO₂ for small businesses cutting acrylic and wood",
   "bestFor": [
     "Small business",
@@ -96,9 +96,31 @@
     "buildQuality": 9.2
   },
   "similarModels": [
+    "xtool-p3",
     "xtool-p2",
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/xtool-p2s/01.webp",
+      "alt": "xTool P2S laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-p2s/02.webp",
+      "alt": "xTool P2S laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-p2s/03.webp",
+      "alt": "xTool P2S laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-p2s/04.webp",
+      "alt": "xTool P2S laser engraver — xTool"
+    }
+  ],
+  "powerRating": "55W",
+  "releaseDate": "2024-06",
+  "catalogPrimary": true
 }

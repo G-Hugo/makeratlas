@@ -1,0 +1,63 @@
+{
+  "tagline": "Dernier LaserPecker portable avec puissance et app améliorées",
+  "tldr": "Le LaserPecker LP5 combine sources fibre et diode pour marquage métal plus gravure organique dans un châssis portable. Machine spécialisée voyage/événement — pas un remplacement d’atelier complet.",
+  "mainObjective": "Fibre + diode portable pour gravure métal et bois sur place",
+  "primaryUse": "Graveuse portable premium pour personnalisation sur site de petits objets.",
+  "beginnerNotes": "Deuxième machine pour la portabilité, pas un remplacement d’un laser de bureau Ortur/xTool.",
+  "proTips": "Utilisez l’extension coulissante et testez les matériaux avant les événements clients.",
+  "bestFor": [
+    "Portabilité",
+    "Événements",
+    "Voyage",
+    "Petits cadeaux métal/bois"
+  ],
+  "pros": [
+    "Génération LaserPecker la plus capable",
+    "Vraiment portable",
+    "Workflow app peaufiné",
+    "Position unique sur le marché"
+  ],
+  "cons": [
+    "Zone de travail minuscule",
+    "Prix premium au dollar de capacité",
+    "Pas un cheval de bataille de bureau",
+    "Workflow Bluetooth pas pour tout le monde"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Aluminium anodisé",
+      "Certains métaux",
+      "Plastique"
+    ],
+    "cut": [
+      "Papier",
+      "Tissu fin (limité)"
+    ],
+    "cannot": [
+      "Production d’atelier",
+      "Grandes enseignes",
+      "Découpe épaisse"
+    ]
+  },
+  "priceRange": {
+    "note": "Variantes LP5 selon configuration"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser LaserPecker 5 — LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker 5 — LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker 5 — LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker 5 — LaserPecker" }
+  ]
+}

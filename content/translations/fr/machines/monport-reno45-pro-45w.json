@@ -1,0 +1,59 @@
+{
+  "tagline": "CO₂ bureau Monport avec caméra autofocus — classe 45 W",
+  "tldr": "Le Monport Reno45 Pro Vision ajoute autofocus assisté par caméra et tube CO₂ 45 W en format bureau. Solide découpeuse acrylique/bois pour makers passant de la diode — prévoyez ventilation et espace.",
+  "mainObjective": "CO₂ bureau assisté par caméra pour signalétique et travail acrylique",
+  "primaryUse": "Production CO₂ bureau avec alignement assisté par vision.",
+  "beginnerNotes": "Comparez Polar et OMTech 40–55 W si vous shoppez le CO₂ au sens large.",
+  "proTips": "Achetez le bundle machine seule si vous possédez déjà refroidisseur et évacuation.",
+  "bestFor": [
+    "Montée CO₂",
+    "Enseignes acrylique",
+    "Découpe bois",
+    "Alignement caméra"
+  ],
+  "pros": [
+    "Autofocus caméra",
+    "Plus grand qu’un K40",
+    "Écosystème bundles Monport"
+  ],
+  "cons": [
+    "Marketing bundles bruyant",
+    "Entretien refroidissement eau",
+    "Grand encombrement"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Surface verre"
+    ],
+    "cut": [
+      "Acrylique",
+      "Bois",
+      "Cuir"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Appartement sans évacuation"
+    ]
+  },
+  "priceRange": {
+    "note": "Annonces bundle variables"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Monport Reno45 Pro Vision 45W — Monport" },
+    { "alt": "Graveuse laser Monport Reno45 Pro Vision 45W — Monport" },
+    { "alt": "Graveuse laser Monport Reno45 Pro Vision 45W — Monport" }
+  ]
+}

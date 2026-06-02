@@ -1,0 +1,62 @@
+{
+  "tagline": "Acmer P1 montée en puissance — module 20 W pour des découpes plus rapides",
+  "tldr": "L'Acmer P1 20 W offre plus de marge en découpe que le P1 10 W sur la même classe de châssis. Marque toujours entrée de gamme — vérifiez la puissance optique réelle et attendez-vous à moins de finition qu'avec Sculpfun ou Ortur.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Gravure et découpe légère en 20 W petit budget.",
+  "beginnerNotes": "Envisagez le P2 si vous voulez une option fermée chez la même marque.",
+  "proTips": "Faites des tests de découpe — les modules 20 W entrée de gamme varient en puissance optique réelle.",
+  "bestFor": [
+    "20 W petit budget",
+    "Découpe bois",
+    "Grand plateau"
+  ],
+  "pros": [
+    "20 W à prix entrée de gamme",
+    "Même grand plateau que le P1 10 W",
+    "Compatible LightBurn"
+  ],
+  "cons": [
+    "Communauté plus réduite qu'Ortur/Sculpfun",
+    "Structure ouverte",
+    "Acmer met davantage en avant les gammes P2/P3 aujourd'hui"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique (foncé)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)"
+    ],
+    "cannot": [
+      "Production métal",
+      "Attentes de fiabilité haut de gamme"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Acmer P1 20 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer P1 20 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer P1 20 W — Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer P1 20 W — Acmer"
+    }
+  ]
+}

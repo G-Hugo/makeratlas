@@ -1,0 +1,125 @@
+{
+  "id": "atomstack-hurricane",
+  "slug": "atomstack-hurricane",
+  "name": "AtomStack Hurricane 55W",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Desktop CO₂ cutter from Atomstack — 55W tube in a modern enclosed chassis",
+  "tldr": "AtomStack Hurricane brings CO₂ cutting to Atomstack buyers who outgrew diodes. Cuts acrylic and wood thicker than any diode in this price class. Requires space, ventilation, and water cooling discipline — not apartment-friendly.",
+  "mainObjective": "Desktop CO₂ for acrylic cutting and wood production beyond diode limits",
+  "bestFor": [
+    "Acrylic cutting",
+    "Wood signs",
+    "Atomstack brand fans",
+    "CO₂ first-timers with space"
+  ],
+  "priceRange": {
+    "min": 2929,
+    "max": 3699,
+    "currency": "USD",
+    "note": "Bundle tiers add conveyor, purifier, riser"
+  },
+  "specs": {
+    "power": "55W CO₂",
+    "workArea": "500 × 300 mm (approx.)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "technical": {
+        "spotSize": "~0.1 mm CO₂ spot",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "100–300 mm/s",
+        "avgCutSpeed": "CO₂ cut speeds on acrylic/wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass (surface)",
+      "Rubber"
+    ],
+    "cut": [
+      "Acrylic",
+      "Wood",
+      "Leather",
+      "Paper"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Large industrial panels",
+      "Apartment without ventilation"
+    ]
+  },
+  "pros": [
+    "True CO₂ acrylic cutting",
+    "Atomstack ecosystem accessories",
+    "Enclosed options in bundles",
+    "Riser and conveyor expansions"
+  ],
+  "cons": [
+    "Large footprint and weight",
+    "Water cooling maintenance",
+    "Premium vs K40 entry CO₂",
+    "Not portable"
+  ],
+  "beginnerNotes": "Only buy with a ventilation plan. Diode owners: this is a different workflow and safety model.",
+  "proTips": "Budget for exhaust hose and water chiller checks. LightBurn is the professional choice.",
+  "primaryUse": "Desktop CO₂ production for acrylic gifts, signage, and wood cutting.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "omtech-polar",
+    "monport-55w-co2",
+    "gweike-cloud-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/atomstack-hurricane/01.webp",
+  "powerRating": "55W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-05",
+  "images": [
+    {
+      "src": "/machines/atomstack-hurricane/01.webp",
+      "alt": "AtomStack Hurricane 55W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-hurricane/02.jpg",
+      "alt": "AtomStack Hurricane 55W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-hurricane/03.jpg",
+      "alt": "AtomStack Hurricane 55W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-hurricane/04.jpg",
+      "alt": "AtomStack Hurricane 55W laser engraver — Atomstack"
+    }
+  ]
+}

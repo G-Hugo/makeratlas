@@ -5,7 +5,7 @@
   "brand": "OMTech",
   "category": "laser-engraver",
   "laserType": "co2",
-  "image": "/machines/omtech-polar.webp",
+  "image": "/machines/omtech-polar/01.webp",
   "tagline": "Desktop polar CO₂ — compact CO₂ for makers upgrading from diode",
   "tldr": "OMTech Polar packs CO₂ cutting into a smaller desktop footprint than traditional K40 boxes. Good bridge between diode frustration and full workshop CO₂. Still needs ventilation and learning curve.",
   "mainObjective": "Compact desktop CO₂ for acrylic and wood without full K40 bulk",
@@ -16,8 +16,8 @@
     "Desk-sized CO₂"
   ],
   "priceRange": {
-    "min": 2200,
-    "max": 3200,
+    "min": 2000,
+    "max": 2300,
     "currency": "USD"
   },
   "specs": {
@@ -96,5 +96,25 @@
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/omtech-polar/01.webp",
+      "alt": "OMTech Polar laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar/02.webp",
+      "alt": "OMTech Polar laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar/03.webp",
+      "alt": "OMTech Polar laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar/04.webp",
+      "alt": "OMTech Polar laser engraver — OMTech"
+    }
+  ],
+  "powerRating": "50W",
+  "releaseDate": "2024-03"
 }

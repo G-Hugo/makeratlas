@@ -97,7 +97,7 @@
   },
   "similarModels": [
     "omtech-40w-co2",
-    "xtool-p2"
+    "xtool-p2s"
   ],
   "faq": [
     {
@@ -110,7 +110,23 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/monport-55w-co2.jpg",
-  "mainObjective": "Mid-range CO₂ production for signs, acrylic & wood shops"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/monport-55w-co2/01.jpg",
+  "mainObjective": "Mid-range CO₂ production for signs, acrylic & wood shops",
+  "images": [
+    {
+      "src": "/machines/monport-55w-co2/01.jpg",
+      "alt": "Monport 55W CO₂ laser engraver by Monport"
+    },
+    {
+      "src": "/machines/monport-55w-co2/02.webp",
+      "alt": "Monport 55W CO₂ laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-55w-co2/03.webp",
+      "alt": "Monport 55W CO₂ laser engraver — Monport"
+    }
+  ],
+  "powerRating": "55W",
+  "releaseDate": "2023-04"
 }

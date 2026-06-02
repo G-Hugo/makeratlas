@@ -1,0 +1,66 @@
+{
+  "tagline": "A1 compacte fermée de Creality — diode accessible aux débutants dans un petit encombrement",
+  "tldr": "La Creality Falcon A1 10W intègre une graveuse diode dans un châssis fermé de bureau avec l'écosystème logiciel Creality. Moins puissante que la Falcon 2 Pro, mais plus facile à vivre dans les petits espaces.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "primaryUse": "Diode Creality fermée pour la personnalisation à domicile et l'apprentissage.",
+  "beginnerNotes": "Choisissez l'A1 pour l'espace et la sécurité ; choisissez la Falcon 2 Pro si vous avez besoin de 22–40W en découpe.",
+  "proTips": "Utilisez d'abord les presets matériaux Creality, puis affinez dans LightBurn pour la production.",
+  "bestFor": [
+    "Propriétaires d'imprimantes 3D Creality",
+    "Petits espaces",
+    "Débutants",
+    "Gravure légère"
+  ],
+  "pros": [
+    "Contrôle des fumées en châssis fermé",
+    "Support Creality familier",
+    "Compacte vs Falcon 2 à structure ouverte",
+    "Options caméra sur certaines références"
+  ],
+  "cons": [
+    "Plafond de puissance 10W",
+    "Plus petite que la zone de travail Falcon 2",
+    "L'A1 Pro existe pour plus de puissance"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Papier",
+      "Acrylique foncé"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 5 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Découpe production épaisse",
+      "Séries acrylique type CO₂ grand format",
+      "Métal sans additifs"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Creality Falcon A1 10W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon A1 10W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon A1 10W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon A1 10W — Creality"
+    }
+  ]
+}

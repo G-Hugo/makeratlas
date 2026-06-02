@@ -10,6 +10,16 @@
     "export:wordpress": "node scripts/export-wordpress.mjs",
     "generate:images": "node scripts/generate-machine-images.mjs",
     "fetch:images": "node scripts/fetch-manufacturer-images.mjs",
+    "fetch:gallery": "node scripts/fetch-machine-gallery.mjs",
+    "expand:galleries": "node scripts/expand-all-published-galleries.mjs",
+    "ensure:galleries": "node scripts/ensure-min-gallery-photos.mjs",
+    "refresh:card-images": "node scripts/refresh-card-heroes.mjs",
+    "fix:card-photos": "node scripts/fix-reported-card-photos.mjs",
+    "verify:oem": "node scripts/verify-oem-availability.mjs",
+    "bootstrap:cards": "node scripts/bootstrap-primary-card-heroes.mjs --fetch",
+    "sync:hero-images": "node scripts/sync-machine-hero-image.mjs && node scripts/sync-umbrella-card-images.mjs && node scripts/sync-machine-hero-image.mjs",
+    "refresh:all-images": "node scripts/refresh-all-published-images.mjs",
+    "fix:wrong-heroes": "node scripts/sync-manual-to-direct-gallery.mjs && node scripts/fix-wrong-heroes.mjs",
     "apply:benchmarks": "node scripts/apply-benchmarks.mjs"
   },
   "dependencies": {
@@ -28,6 +38,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

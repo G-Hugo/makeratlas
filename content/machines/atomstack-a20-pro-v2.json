@@ -1,0 +1,116 @@
+{
+  "id": "atomstack-a20-pro-v2",
+  "slug": "atomstack-a20-pro-v2",
+  "name": "AtomStack A20 Pro V2",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Current Atomstack A20 Pro generation — 20W with F60 air assist ecosystem",
+  "tldr": "AtomStack A20 Pro V2 replaces the older A20 Pro with updated optics and bundle options. Mid-tier Atomstack between P1 and A40 — strong detail, not the highest watt class.",
+  "mainObjective": "Current-gen Atomstack 20W for fine engraving and moderate cutting",
+  "bestFor": [
+    "Atomstack upgrades",
+    "20W detail work",
+    "F60 air assist users"
+  ],
+  "priceRange": {
+    "min": 699,
+    "max": 999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic (dark)"
+    ],
+    "cut": [
+      "5 mm basswood"
+    ],
+    "cannot": [
+      "40W production cutting",
+      "CO₂ acrylic clarity"
+    ]
+  },
+  "pros": [
+    "Current SKU from Atomstack",
+    "Rigid frame vs A5",
+    "Accessory ecosystem"
+  ],
+  "cons": [
+    "Original A20 Pro discontinued",
+    "A40 exists for more power",
+    "Open frame"
+  ],
+  "beginnerNotes": "Buy V2 new — avoid confusing with used original A20 Pro listings.",
+  "proTips": "F60 air assist kit is the common upgrade path in reviews.",
+  "primaryUse": "Mid-range Atomstack diode for detailed work.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "atomstack-a40-pro-20w",
+    "atomstack-a5-pro-10w",
+    "atomstack-a20-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/atomstack-a20-pro-v2/01.webp",
+  "modelLine": "atomstack-a20-pro",
+  "powerRating": "20W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-04",
+  "images": [
+    {
+      "src": "/machines/atomstack-a20-pro-v2/01.webp",
+      "alt": "AtomStack A20 Pro V2 laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a20-pro-v2/02.jpg",
+      "alt": "AtomStack A20 Pro V2 laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a20-pro-v2/03.jpg",
+      "alt": "AtomStack A20 Pro V2 laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a20-pro-v2/04.jpg",
+      "alt": "AtomStack A20 Pro V2 laser engraver — Atomstack"
+    }
+  ]
+}

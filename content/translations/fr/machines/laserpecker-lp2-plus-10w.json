@@ -1,0 +1,55 @@
+{
+  "tagline": "LaserPecker LP2 Plus bureau — 10 W avant l’ère LP4/LP5",
+  "tldr": "Le LaserPecker LP2 Plus est une unité bureau 10 W de la lignée LP — plus capable que les modèles poche LP1 mais moins avancé que LP4/LP5. Bonne graveuse portable de bureau sur le marché d’occasion.",
+  "mainObjective": "LaserPecker bureau 10 W pour personnalisation de petite boutique",
+  "primaryUse": "Gravure LaserPecker petit format pour cadeaux et étiquettes.",
+  "beginnerNotes": "Achetez d’occasion seulement si le prix est nettement inférieur à l’entrée LP4.",
+  "proTips": "Vérifiez firmware et support app avant un achat d’occasion.",
+  "bestFor": [
+    "Fans LaserPecker",
+    "Petit bureau",
+    "Cadeaux 10 W",
+    "Marché d’occasion"
+  ],
+  "pros": [
+    "Écosystème LaserPecker",
+    "Bureau compact",
+    "10 W de puissance utilisable"
+  ],
+  "cons": [
+    "Remplacé par LP4/LP5",
+    "Petite surface",
+    "Workflow Bluetooth-only pour certains utilisateurs"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Plastique"
+    ],
+    "cut": [
+      "Papier",
+      "Bois fin"
+    ],
+    "cannot": [
+      "Grands panneaux",
+      "Profondeur métal hybride LP5"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser LaserPecker LP2 Plus 10W — LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker LP2 Plus 10W — LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker LP2 Plus 10W — LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker LP2 Plus 10W — LaserPecker" }
+  ]
+}

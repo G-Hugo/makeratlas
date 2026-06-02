@@ -1,0 +1,123 @@
+{
+  "id": "twotrees-tts-55-40w",
+  "slug": "twotrees-tts-55-40w",
+  "name": "TwoTrees TTS-55 40W",
+  "brand": "TwoTrees",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/twotrees-tts-55-40w/01.webp",
+  "tagline": "40W Ultra-budget diode with surprising build quality for the price",
+  "tldr": "TwoTrees TTS-55 40W is the 40W SKU on the TwoTrees twotrees tts 55 line. TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "bestFor": [
+    "Ultra-tight budget",
+    "First experiments",
+    "Light engraving",
+    "3D printer owners"
+  ],
+  "priceRange": {
+    "min": 349,
+    "max": 499,
+    "currency": "USD",
+    "note": "40W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "40W diode",
+    "workArea": "300 × 300 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.10 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "45–110 mm/s fill",
+        "avgCutSpeed": "2–5 mm/s on 2–3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum (light)"
+    ],
+    "cut": [
+      "Basswood (up to 10 mm)",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Thick cuts",
+      "Bare metal",
+      "Clear acrylic",
+      "Reliable business production"
+    ]
+  },
+  "pros": [
+    "Among the lowest prices available",
+    "Decent frame for the cost",
+    "LightBurn support",
+    "Modular power upgrades",
+    "Good companion if you already own TwoTrees 3D printers"
+  ],
+  "cons": [
+    "Inconsistent QA between batches",
+    "Small English support community",
+    "40W label is marketing-heavy",
+    "Open frame — full safety on you",
+    "May need alignment tweaks out of box"
+  ],
+  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Square the frame before first burn. Treat published max speed as aspirational — start at 50% for engraves until you dial settings in.",
+  "primaryUse": "Bare-minimum budget diode for light engraving experiments and learning whether you enjoy the hobby.",
+  "rating": {
+    "overall": 7.2,
+    "value": 8.8,
+    "easeOfUse": 6.8,
+    "capability": 9.4,
+    "buildQuality": 6.5
+  },
+  "similarModels": [
+    "atomstack-a40-pro",
+    "longer-ray5"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/twotrees-tts-55-40w/01.webp",
+      "alt": "TwoTrees TTS-55 40W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/twotrees-tts-55-40w/02.jpg",
+      "alt": "TwoTrees TTS-55 40W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/twotrees-tts-55-40w/03.jpg",
+      "alt": "TwoTrees TTS-55 40W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/twotrees-tts-55-40w/04.jpg",
+      "alt": "TwoTrees TTS-55 40W laser engraver — TwoTrees"
+    }
+  ],
+  "modelLine": "twotrees-tts-55",
+  "powerRating": "40W"
+}

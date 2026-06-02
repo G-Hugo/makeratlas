@@ -1,0 +1,170 @@
+{
+  "id": "xtool-s1-10w",
+  "slug": "xtool-s1-10w",
+  "name": "xTool S1 10W",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Entry enclosed S1 — engraving-first with swappable head ecosystem",
+  "tldr": "The 10W S1 is xTool's entry enclosed bundle: same Class-1 cabinet as 20W/40W, but the installed diode module limits cutting depth. You can upgrade later by swapping the laser head — verify you are buying the 10W SKU, not a bare machine without a module.",
+  "bestFor": [
+    "Home workshops",
+    "Families with kids nearby",
+    "Apartment use",
+    "Cleaner engraving"
+  ],
+  "priceRange": {
+    "min": 999,
+    "max": 3049,
+    "currency": "USD",
+    "note": "10W module pre-installed"
+  },
+  "specs": {
+    "power": "10W diode (enclosed)",
+    "workArea": "430 × 390 mm",
+    "software": [
+      "xTool Creative Space",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~14–21 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–12 min"
+      },
+      "technical": {
+        "spotSize": "~0.07 mm spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "6–14 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood (up to 5 mm)",
+      "Paper",
+      "Fabric",
+      "Thin leather"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "CO₂-level acrylic production",
+      "Bare metal without spray",
+      "Thick hardwood in one pass"
+    ]
+  },
+  "pros": [
+    "Fully enclosed — major safety and smoke improvement vs open-frame",
+    "Built-in exhaust filter option for apartment use",
+    "Same large work area as D1 Pro in a safer package",
+    "LightBurn compatible",
+    "Camera alignment available on some configs"
+  ],
+  "cons": [
+    "Enclosure adds bulk",
+    "Filter cartridges need replacement over time",
+    "40W diode marketing — verify optical power for your variant"
+  ],
+  "beginnerNotes": "Pick 10W if you mainly engrave and might upgrade the head later. Choose 20W or 40W factory configs if cutting thicker softwood is day-one priority.",
+  "proTips": "Vent to window when cutting heavily even with filters — filters reduce smell but are not magic. Use the camera for batch alignment on repeat products. Pair with xTool riser for tumblers.",
+  "primaryUse": "Enclosed hobby and light business diode laser for safer home engraving and moderate cutting.",
+  "rating": {
+    "overall": 8.3,
+    "value": 8,
+    "easeOfUse": 9.2,
+    "capability": 7,
+    "buildQuality": 9
+  },
+  "similarModels": [
+    "xtool-s1-20w",
+    "xtool-s1-40w",
+    "wecreat-vision"
+  ],
+  "faq": [
+    {
+      "question": "Is the xTool S1 safer than an open-frame laser?",
+      "answer": "Yes. The enclosure blocks direct beam exposure and contains smoke. You still follow safety rules, but accidental exposure risk is much lower than open-frame diodes."
+    },
+    {
+      "question": "Can the S1 replace a CO₂ laser?",
+      "answer": "No. It is still a diode laser with the same acrylic and cutting limits. Buy CO₂ (like xTool P2) if clear acrylic and thick wood cutting are your main work."
+    },
+    {
+      "question": "Can I upgrade from 20W to 40W later?",
+      "answer": "Yes. S1 laser heads are interchangeable — buy a 40W module and swap it on the same enclosure (two screws + connectors). You can also add the optional 2W 1064 nm IR module for more metal work."
+    },
+    {
+      "question": "Is the S1 a hybrid laser like the F1 Ultra?",
+      "answer": "No. S1 is a diode platform with swappable diode (or IR) heads. Hybrid machines combine fiber and diode sources inside one dual-source product — different category."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/xtool-s1-10w/01.webp",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "images": [
+    {
+      "src": "/machines/xtool-s1-10w/01.webp",
+      "alt": "xTool S1 10W laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-s1-10w/02.webp",
+      "alt": "xTool S1 10W laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-s1-10w/03.webp",
+      "alt": "xTool S1 10W laser engraver — xTool"
+    }
+  ],
+  "modelLine": "xtool-s1",
+  "powerRating": "10W",
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Interchangeable laser heads on the same S1 cabinet",
+    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet — heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
+    "options": [
+      {
+        "power": "10W",
+        "laserKind": "diode",
+        "label": "10W diode",
+        "tierSlug": "xtool-s1-10w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "xtool-s1-20w"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode",
+        "tierSlug": "xtool-s1-40w"
+      },
+      {
+        "power": "2W",
+        "laserKind": "infrared",
+        "label": "2W IR module (accessory)"
+      }
+    ]
+  },
+  "releaseDate": "2023-10"
+}

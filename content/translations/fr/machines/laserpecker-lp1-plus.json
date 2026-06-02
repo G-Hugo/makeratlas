@@ -1,0 +1,52 @@
+{
+  "tagline": "LaserPecker LP1 Plus — graveuse de poche un cran au-dessus du LP1 Pro",
+  "tldr": "Le LaserPecker LP1 Plus se situe entre LP1 Pro et LP2 dans la gamme poche — toujours ultra-compact, orienté app, pour gravure à l’échelle bijou et en voyage plutôt que pour des panneaux.",
+  "mainObjective": "LaserPecker compact pour une portabilité maximale",
+  "primaryUse": "Gravure de poche et apprentissage sur LaserPecker.",
+  "beginnerNotes": "Préférez LP3 ou LP4 si vous voulez optique et vitesse de génération actuelle.",
+  "proTips": "Les supports tiers améliorent la stabilité par rapport au mode purement manuel.",
+  "bestFor": [
+    "Voyage",
+    "Échelle bijou",
+    "Cadeaux débutants"
+  ],
+  "pros": [
+    "Plus petit palier LaserPecker",
+    "App simple",
+    "Idéal en cadeau"
+  ],
+  "cons": [
+    "Faible puissance vs LP3/4/5",
+    "Champ minuscule",
+    "SKU plus ancien"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Plastique",
+      "Certains métaux (revêtus)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Grands travaux",
+      "Découpe de production"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser LaserPecker LP1 Plus — LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker LP1 Plus — LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker LP1 Plus — LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker LP1 Plus — LaserPecker" }
+  ]
+}

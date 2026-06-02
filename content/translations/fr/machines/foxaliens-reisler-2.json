@@ -1,0 +1,60 @@
+{
+  "tagline": "FoxAlien 20W à structure ouverte — une marque CNC qui entre dans le laser",
+  "tldr": "FoxAlien apporte une qualité de construction proche du CNC à une plateforme diode 20W. Solide alternative à Ortur/Sculpfun pour les makers qui font déjà confiance à l'écosystème FoxAlien via leurs CNC.",
+  "mainObjective": "Gravure et découpe légère en diode 20W pour utilisateurs écosystème FoxAlien",
+  "primaryUse": "Diode 20W à structure ouverte pour gravure loisir et découpe bois fin modérée.",
+  "beginnerNotes": "Comparez avec l'Ortur LM3 et la Sculpfun S30 Ultra à prix similaire avant de choisir par fidélité à la marque.",
+  "proTips": "Si vous possédez une CNC FoxAlien, le support vendeur commun peut simplifier votre atelier.",
+  "bestFor": [
+    "Propriétaires CNC FoxAlien",
+    "Loisir 20W",
+    "Gravure bois",
+    "Découpe budget"
+  ],
+  "pros": [
+    "Marque connue de l'univers CNC",
+    "Plateau pleine taille",
+    "Prise en charge LightBurn",
+    "Prix 20W compétitif"
+  ],
+  "cons": [
+    "Communauté laser plus petite qu'Ortur",
+    "Sécurité structure ouverte",
+    "Toujours limitée par la diode",
+    "Gamme laser plus récente, historique limité"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul 3–6 mm",
+      "Acrylique noir (fin)",
+      "Papier"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Production acrylique niveau CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser FoxAlien Reisler 2 — FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien Reisler 2 — FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien Reisler 2 — FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien Reisler 2 — FoxAlien" }
+  ]
+}

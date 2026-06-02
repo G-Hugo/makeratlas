@@ -1,0 +1,63 @@
+{
+  "tagline": "Diode ultra petit budget avec une qualité de châssis surprenante pour le prix",
+  "tldr": "TwoTrees sous-cote Atomstack et Ortur tout en proposant une plateforme diode 5,5–40 W utilisable. Bon pour tester le loisir. Attendez-vous à moins de finition, une communauté plus petite et plus de variabilité d’une unité à l’autre que les marques établies.",
+  "mainObjective": "Laser de bureau le moins cher pour expérimenter gravure bois et cuir",
+  "primaryUse": "Diode petit budget minimum pour expériences de gravure légère et découvrir le loisir.",
+  "beginnerNotes": "Ne choisissez la TTS-55 que si chaque euro compte. Si vous pouvez viser 400–500 $, l’Ortur LM3 est un pari plus sûr à long terme.",
+  "proTips": "Équerez le châssis avant la première gravure. Considérez la vitesse max annoncée comme théorique — commencez à 50 % pour les remplissages jusqu’à caler vos réglages.",
+  "bestFor": [
+    "Budget ultra serré",
+    "Premières expériences",
+    "Gravure légère",
+    "Propriétaires d’imprimantes 3D"
+  ],
+  "pros": [
+    "Parmi les prix les plus bas du marché",
+    "Châssis correct pour le coût",
+    "Compatible LightBurn",
+    "Upgrades de puissance modulaires",
+    "Bon complément si vous avez déjà une imprimante 3D TwoTrees"
+  ],
+  "cons": [
+    "Contrôle qualité inconstant entre lots",
+    "Communauté anglophone réduite",
+    "Label 40 W très marketing",
+    "Structure ouverte — sécurité entièrement à votre charge",
+    "Alignement parfois à ajuster à la sortie de boîte"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé (léger)"
+    ],
+    "cut": [
+      "Tilleul fin 2–3 mm",
+      "Papier",
+      "Tissu fin"
+    ],
+    "cannot": [
+      "Découpes épaisses",
+      "Métal nu",
+      "Acrylique transparent",
+      "Production pro fiable"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser TwoTrees TTS-55 — TwoTrees" },
+    { "alt": "Graveuse laser TwoTrees TTS-55 — TwoTrees" },
+    { "alt": "Graveuse laser TwoTrees TTS-55 — TwoTrees" },
+    { "alt": "Graveuse laser TwoTrees TTS-55 — TwoTrees" }
+  ]
+}

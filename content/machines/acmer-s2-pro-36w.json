@@ -1,0 +1,113 @@
+{
+  "id": "acmer-s2-pro-36w",
+  "slug": "acmer-s2-pro-36w",
+  "name": "Acmer S2 Pro 36W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Acmer S2 Pro mid-power — enclosed-optional 36W tier",
+  "tldr": "Acmer S2 Pro 36W is the lower-power SKU on Acmer's S2 Pro line with rotary and IR bundle options. Compare to S2 Pro 48W before buying — often worth the step up.",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "bestFor": [
+    "Acmer buyers",
+    "Rotary bundles",
+    "36W value tier"
+  ],
+  "priceRange": {
+    "min": 599,
+    "max": 1244,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "36W diode (compressed)",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~14–22 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–12 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "29–74 mm/s fill",
+        "avgCutSpeed": "3–5 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)"
+    ],
+    "cannot": [
+      "48W tier exists for more cut depth"
+    ]
+  },
+  "pros": [
+    "IR and rotary bundle options",
+    "Lower entry than 48W",
+    "Large bed"
+  ],
+  "cons": [
+    "48W tier often better value",
+    "Less known than P2/P3 lines"
+  ],
+  "beginnerNotes": "Price-compare 48W SKU before checkout.",
+  "proTips": "IR pack only if you mark metals regularly.",
+  "primaryUse": "Mid-power Acmer platform with accessory bundles.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "acmer-s2-pro-48w",
+    "acmer-p2-33w",
+    "sculpfun-s30-ultra-22w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/acmer-s2-pro-36w/01.webp",
+  "modelLine": "acmer-s2-pro",
+  "powerRating": "36W",
+  "releaseDate": "2024-06",
+  "images": [
+    {
+      "src": "/machines/acmer-s2-pro-36w/01.webp",
+      "alt": "Acmer S2 Pro 36W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-s2-pro-36w/02.webp",
+      "alt": "Acmer S2 Pro 36W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-s2-pro-36w/03.webp",
+      "alt": "Acmer S2 Pro 36W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-s2-pro-36w/04.webp",
+      "alt": "Acmer S2 Pro 36W laser engraver — Acmer"
+    }
+  ]
+}

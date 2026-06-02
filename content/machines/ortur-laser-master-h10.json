@@ -5,7 +5,7 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/ortur-laser-master-h10.webp",
+  "image": "/machines/ortur-laser-master-h10/01.webp",
   "tagline": "Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
   "tldr": "The H10 is Ortur's step up from the open-frame LM3 line: a more integrated chassis with up to 20W diode power and higher advertised traverse speeds. Still diode-class cutting limits, but a solid pick if you want Ortur ecosystem with a more polished frame.",
   "mainObjective": "Integrated Ortur diode for faster engraving and cleaner setup than LM3",
@@ -16,8 +16,8 @@
     "Integrated frame fans"
   ],
   "priceRange": {
-    "min": 549,
-    "max": 899,
+    "min": 380,
+    "max": 730,
     "currency": "USD",
     "note": "10W, 20W, and 40W optical configs available"
   },
@@ -98,10 +98,31 @@
     "buildQuality": 8
   },
   "similarModels": [
-    "ortur-laser-master-3",
-    "sculpfun-s30-ultra",
+    "ortur-laser-master-3-20w",
+    "sculpfun-s30-ultra-22w",
     "algolaser-alpha-mk2"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-05-31",
+  "images": [
+    {
+      "src": "/machines/ortur-laser-master-h10/01.webp",
+      "alt": "Ortur Laser Master H10 laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-h10/02.jpg",
+      "alt": "Ortur Laser Master H10 laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-h10/03.webp",
+      "alt": "Ortur Laser Master H10 laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-h10/04.webp",
+      "alt": "Ortur Laser Master H10 laser engraver — Ortur"
+    }
+  ],
+  "modelLine": "ortur-laser-master-h10",
+  "catalogHidden": true,
+  "releaseDate": "2024-06"
 }

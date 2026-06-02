@@ -1,0 +1,66 @@
+{
+  "tagline": "Ortur compact et portable — graveuse de bureau pour petits cadeaux",
+  "tldr": "L’Aufero AL1 est la ligne diode compacte d’Ortur pour petites surfaces de travail et configurations portables. Moins puissant que le LM3 ou le H10, mais plus facile à caser sur un bureau encombré. Idéal pour la gravure légère — pas un cheval de bataille pour la découpe.",
+  "mainObjective": "Ortur petit format pour gravure cadeaux et apprentissage à petit budget",
+  "primaryUse": "Ortur compact d’entrée de gamme pour gravure de petits cadeaux et bases du laser.",
+  "beginnerNotes": "Intéressant si vous ne gravez que de petits objets comme porte-clés et étiquettes. Si vous risquez de le dépasser en quelques mois, épargnez pour un Ortur LM3.",
+  "proTips": "Utilisez des jobs de référence plus petits (5×5 cm) pour les photos sur l’AL1 — les remplissages 10×10 cm prennent nettement plus de temps en 5 W.",
+  "bestFor": [
+    "Petits cadeaux",
+    "Espace bureau limité",
+    "Premiers essais laser",
+    "Configurations portables"
+  ],
+  "pros": [
+    "Encombrement très compact",
+    "Prix d’entrée bas",
+    "Support marque Ortur",
+    "Courbe d’apprentissage simple pour un premier laser",
+    "Compatible LightBurn"
+  ],
+  "cons": [
+    "Petite zone de travail limite la taille des projets",
+    "5 W lent sur les remplissages 10×10 cm",
+    "Peu compétitif vs LM3 sur le long terme",
+    "Capacité de découpe limitée",
+    "Sécurité structure ouverte requise"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Papier",
+      "Aluminium anodisé (léger)"
+    ],
+    "cut": [
+      "Papier",
+      "Tilleul fin 2–3 mm",
+      "Tissu fin"
+    ],
+    "cannot": [
+      "Découpes bois épais",
+      "Grandes enseignes",
+      "Métal nu",
+      "Séries de production"
+    ]
+  },
+  "priceRange": {
+    "note": "5 W typique ; vérifiez les options de module actuelles"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Ortur Aufero AL1 — Ortur" },
+    { "alt": "Graveuse laser Ortur Aufero AL1 — Ortur" },
+    { "alt": "Graveuse laser Ortur Aufero AL1 — Ortur" },
+    { "alt": "Graveuse laser Ortur Aufero AL1 — Ortur" }
+  ]
+}

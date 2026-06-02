@@ -14,8 +14,8 @@
     "Students"
   ],
   "priceRange": {
-    "min": 199,
-    "max": 499,
+    "min": 279,
+    "max": 279,
     "currency": "USD",
     "note": "40W versions ~$350–500"
   },
@@ -96,7 +96,28 @@
     "ortur-laser-master-3"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/atomstack-a5-pro.jpg",
-  "mainObjective": "Cheapest entry point to try laser engraving at home"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/atomstack-a5-pro/01.webp",
+  "mainObjective": "Cheapest entry point to try laser engraving at home",
+  "images": [
+    {
+      "src": "/machines/atomstack-a5-pro/01.webp",
+      "alt": "Atomstack A5 Pro laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a5-pro/02.jpg",
+      "alt": "Atomstack A5 Pro laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a5-pro/03.jpg",
+      "alt": "Atomstack A5 Pro laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a5-pro/04.jpg",
+      "alt": "Atomstack A5 Pro laser engraver — Atomstack"
+    }
+  ],
+  "modelLine": "atomstack-a5-pro",
+  "catalogHidden": true,
+  "releaseDate": "2021-03"
 }

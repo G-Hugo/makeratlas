@@ -1,0 +1,66 @@
+{
+  "tagline": "Laser diode ultra petit budget — point d’entrée minimum viable",
+  "tldr": "L’un des moyens les moins chers d’essayer la gravure laser. Disponible jusqu’à 40 W (modules diode cumulés). Convient pour apprendre et petits cadeaux, mais attendez-vous à des compromis sur la qualité de fabrication, la sécurité et la régularité.",
+  "mainObjective": "Point d’entrée le moins cher pour essayer la gravure laser à la maison",
+  "primaryUse": "Expérimentation au coût le plus bas avec gravure laser diode sur petits projets bois et cuir.",
+  "beginnerNotes": "Conseil honnête : si vous pouvez mettre 500–700 $, passez cette étape et prenez une Ortur LM3 ou Sculpfun S30. N’achetez Atomstack que si le budget est vraiment figé et que vous acceptez de la dépasser en quelques mois.",
+  "proTips": "Équarez le châssis avant la première utilisation. Remplacez la carte d’origine si vous touchez les limites du firmware. Ne comptez pas sur le « 40 W » pour planifier une activité — testez vous-même la profondeur de découpe sur votre unité.",
+  "bestFor": [
+    "Budget serré",
+    "Tester le loisir",
+    "Petits cadeaux",
+    "Étudiants"
+  ],
+  "pros": [
+    "Coût d’entrée le plus bas en gravure laser",
+    "Grande surface de travail pour le prix",
+    "Montée en gamme par échange de modules",
+    "Énorme contenu communautaire",
+    "Bonne machine « essayer avant d’investir »"
+  ],
+  "cons": [
+    "Qualité de fabrication et alignement variables d’une unité à l’autre",
+    "L’étiquette 40 W relève du marketing — puissance réelle bien inférieure",
+    "Pas de boîtier, sécurité limitée",
+    "Peut demander beaucoup de bricolage à la sortie de la boîte",
+    "Faible valeur de revente si montée en gamme rapide"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé (léger)"
+    ],
+    "cut": [
+      "Tilleul fin 2–4 mm",
+      "Papier",
+      "Tissu fin"
+    ],
+    "cannot": [
+      "Découpes épaisses fiables",
+      "Métal sans spray",
+      "Acrylique transparent",
+      "Travail en production"
+    ]
+  },
+  "priceRange": {
+    "note": "Versions 40 W ~350–500 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Atomstack A5 Pro — Atomstack" },
+    { "alt": "Graveuse laser Atomstack A5 Pro — Atomstack" },
+    { "alt": "Graveuse laser Atomstack A5 Pro — Atomstack" },
+    { "alt": "Graveuse laser Atomstack A5 Pro — Atomstack" }
+  ]
+}

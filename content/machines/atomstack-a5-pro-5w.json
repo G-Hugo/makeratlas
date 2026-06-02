@@ -1,0 +1,122 @@
+{
+  "id": "atomstack-a5-pro-5w",
+  "slug": "atomstack-a5-pro-5w",
+  "name": "Atomstack A5 Pro 5W",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "5W Ultra-budget diode laser — minimum viable entry point",
+  "tldr": "Atomstack A5 Pro 5W is the 5W SKU on the Atomstack atomstack a5 pro line. One of the cheapest ways to try laser engraving. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "bestFor": [
+    "Tight budget",
+    "Testing the hobby",
+    "Small gifts",
+    "Students"
+  ],
+  "priceRange": {
+    "min": 199,
+    "max": 299,
+    "currency": "USD",
+    "note": "5W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "5W diode",
+    "workArea": "410 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~28–43 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~14–24 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "2–4 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 2–3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum (light)"
+    ],
+    "cut": [
+      "Basswood (up to 3 mm)",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Reliable thick cuts",
+      "Metal without spray",
+      "Clear acrylic",
+      "Production work"
+    ]
+  },
+  "pros": [
+    "Lowest cost entry to laser engraving",
+    "Large work area for the price",
+    "Upgrade path via module swaps",
+    "Huge amount of community content",
+    "Good 'try before you invest' machine"
+  ],
+  "cons": [
+    "Build quality and alignment vary unit to unit",
+    "40W label is marketing — real output is much lower",
+    "No enclosure, limited safety features",
+    "May need significant tinkering out of the box",
+    "Resale value low if you upgrade quickly"
+  ],
+  "beginnerNotes": "Choose 5W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Square the frame before first use. Replace the stock board if you hit firmware limits. Do not trust '40W' for business planning — test cut depth yourself on your unit.",
+  "primaryUse": "Lowest-cost experimentation with diode laser engraving on small wood and leather projects.",
+  "rating": {
+    "overall": 7.4,
+    "value": 8.5,
+    "easeOfUse": 7,
+    "capability": 7,
+    "buildQuality": 6.5
+  },
+  "similarModels": [
+    "ortur-laser-master-3"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/atomstack-a5-pro-5w/01.webp",
+  "mainObjective": "Entry-level hobby engraving on wood, leather, and coated metal with light cutting",
+  "images": [
+    {
+      "src": "/machines/atomstack-a5-pro-5w/01.webp",
+      "alt": "Atomstack A5 Pro 5W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a5-pro-5w/02.jpg",
+      "alt": "Atomstack A5 Pro 5W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a5-pro-5w/03.jpg",
+      "alt": "Atomstack A5 Pro 5W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a5-pro-5w/04.jpg",
+      "alt": "Atomstack A5 Pro 5W laser engraver — Atomstack"
+    }
+  ],
+  "modelLine": "atomstack-a5-pro",
+  "powerRating": "5W"
+}

@@ -14,12 +14,12 @@
     "Strong diode cutting"
   ],
   "priceRange": {
-    "min": 799,
-    "max": 1099,
+    "min": 899,
+    "max": 1899,
     "currency": "USD"
   },
   "specs": {
-    "power": "60W combined / ~22W optical diode",
+    "power": "22W diode",
     "workArea": "400 × 415 mm",
     "software": [
       "Creality Laser",
@@ -94,12 +94,34 @@
     "buildQuality": 8
   },
   "similarModels": [
-    "sculpfun-s30-ultra",
-    "xtool-d1-pro",
-    "ortur-laser-master-3"
+    "sculpfun-s30-ultra-22w",
+    "xtool-s1-20w",
+    "ortur-laser-master-3-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/creality-falcon2-pro.png",
-  "mainObjective": "High-power diode with built-in air assist & color metal effects"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/creality-falcon2-pro/01.webp",
+  "mainObjective": "High-power diode with built-in air assist & color metal effects",
+  "images": [
+    {
+      "src": "/machines/creality-falcon2-pro/01.webp",
+      "alt": "Creality Falcon2 Pro laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon2-pro/02.png",
+      "alt": "Creality Falcon2 Pro laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon2-pro/03.jpg",
+      "alt": "Creality Falcon2 Pro laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon2-pro/04.jpg",
+      "alt": "Creality Falcon2 Pro laser engraver — Creality"
+    }
+  ],
+  "powerRating": "60W",
+  "modelLine": "creality-falcon2-pro",
+  "catalogHidden": true,
+  "releaseDate": "2024-06"
 }

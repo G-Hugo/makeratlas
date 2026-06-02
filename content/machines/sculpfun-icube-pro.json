@@ -5,7 +5,7 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/sculpfun-icube-pro.jpg",
+  "image": "/machines/sculpfun-icube-pro/01.webp",
   "tagline": "Compact enclosed Sculpfun — small footprint, full safety cabinet",
   "tldr": "Sculpfun's enclosed desktop laser for makers who want the brand's cutting performance in a safer cabinet. Smaller bed than S30 Ultra but fits tight desks. Good middle ground between open Sculpfun and premium xTool S1.",
   "mainObjective": "Compact enclosed Sculpfun for desk engraving with less smoke escape",
@@ -16,8 +16,8 @@
     "Home office"
   ],
   "priceRange": {
-    "min": 699,
-    "max": 899,
+    "min": 190,
+    "max": 190,
     "currency": "USD"
   },
   "specs": {
@@ -94,10 +94,31 @@
     "buildQuality": 8.1
   },
   "similarModels": [
-    "sculpfun-s30-ultra",
+    "sculpfun-s30-ultra-22w",
     "acmer-p3",
-    "xtool-s1"
+    "xtool-s1-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-05-31",
+  "images": [
+    {
+      "src": "/machines/sculpfun-icube-pro/01.webp",
+      "alt": "Sculpfun iCube Pro laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-pro/02.jpg",
+      "alt": "Sculpfun iCube Pro laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-pro/03.jpg",
+      "alt": "Sculpfun iCube Pro laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-pro/04.jpg",
+      "alt": "Sculpfun iCube Pro laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-icube-pro",
+  "catalogHidden": true,
+  "releaseDate": "2023-08"
 }

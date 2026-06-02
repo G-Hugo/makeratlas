@@ -1,0 +1,116 @@
+{
+  "id": "creality-falcon-10w",
+  "slug": "creality-falcon-10w",
+  "name": "Creality Falcon 10W",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Entry Creality CR-Falcon — open-frame 10W for first laser",
+  "tldr": "Creality Falcon 10W (CR-Laser) is the budget open-frame entry in Creality's laser line — below Falcon 2 and A1 enclosed models. Fine for learning; upgrade path leads to Falcon 2 22W or A1.",
+  "mainObjective": "Cheapest Creality laser for basic engraving experiments",
+  "bestFor": [
+    "Creality 3D printer owners",
+    "Tight budget",
+    "Learning"
+  ],
+  "priceRange": {
+    "min": 299,
+    "max": 399,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "Creality Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Paper"
+    ],
+    "cut": [
+      "3 mm basswood"
+    ],
+    "cannot": [
+      "Thick production",
+      "Enclosed safety without DIY"
+    ]
+  },
+  "pros": [
+    "Lowest Creality laser entry",
+    "Large bed",
+    "Creality slicer familiarity"
+  ],
+  "cons": [
+    "Open frame",
+    "10W limited",
+    "Superseded by Falcon 2/A1 for new buyers"
+  ],
+  "beginnerNotes": "Consider Falcon A1 10W enclosed if you can stretch budget.",
+  "proTips": "Often on sale bundled with Creality printers — check total value.",
+  "primaryUse": "Entry Creality diode for hobby engraving.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "creality-falcon2-12w",
+    "creality-falcon-a1-10w",
+    "longer-ray5-10w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/creality-falcon-10w/01.webp",
+  "modelLine": "creality-falcon-cr",
+  "powerRating": "10W",
+  "catalogPrimary": true,
+  "releaseDate": "2022-08",
+  "images": [
+    {
+      "src": "/machines/creality-falcon-10w/01.webp",
+      "alt": "Creality Falcon 10W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-10w/02.jpg",
+      "alt": "Creality Falcon 10W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-10w/03.jpg",
+      "alt": "Creality Falcon 10W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-10w/04.jpg",
+      "alt": "Creality Falcon 10W laser engraver — Creality"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "monport-reno45-pro-45w",
+  "slug": "monport-reno45-pro-45w",
+  "name": "Monport Reno45 Pro Vision 45W",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Monport desktop CO₂ with camera autofocus — 45W class",
+  "tldr": "Monport Reno45 Pro Vision adds camera-assisted autofocus and a 45W CO₂ tube in a desktop format. Strong acrylic/wood cutter for makers stepping up from diode — plan ventilation and space.",
+  "mainObjective": "Camera-assisted desktop CO₂ for signage and acrylic work",
+  "bestFor": [
+    "CO₂ upgrade",
+    "Acrylic signs",
+    "Wood cutting",
+    "Camera alignment"
+  ],
+  "priceRange": {
+    "min": 2499,
+    "max": 3499,
+    "currency": "USD",
+    "note": "Bundle listings vary"
+  },
+  "specs": {
+    "power": "45W CO₂",
+    "workArea": "16 × 12 in (approx.)",
+    "software": [
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "CO₂"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass surface"
+    ],
+    "cut": [
+      "Acrylic",
+      "Wood",
+      "Leather"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Apartment without exhaust"
+    ]
+  },
+  "pros": [
+    "Camera autofocus",
+    "Larger than K40",
+    "Monport bundle ecosystem"
+  ],
+  "cons": [
+    "Bundle marketing noise",
+    "Water cooling maintenance",
+    "Large footprint"
+  ],
+  "beginnerNotes": "Compare Polar and OMTech 40–55W if shopping CO₂ broadly.",
+  "proTips": "Buy machine-only bundle if you already own chiller and exhaust.",
+  "primaryUse": "Desktop CO₂ production with vision-assisted alignment.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "monport-55w-co2",
+    "omtech-polar",
+    "atomstack-hurricane"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/monport-reno45-pro-45w/01.webp",
+  "powerRating": "45W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-07",
+  "images": [
+    {
+      "src": "/machines/monport-reno45-pro-45w/01.webp",
+      "alt": "Monport Reno45 Pro Vision 45W laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-reno45-pro-45w/02.webp",
+      "alt": "Monport Reno45 Pro Vision 45W laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-reno45-pro-45w/03.webp",
+      "alt": "Monport Reno45 Pro Vision 45W laser engraver — Monport"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "creality-falcon2-pro-40w",
+  "slug": "creality-falcon2-pro-40w",
+  "name": "Creality Falcon2 Pro 40W",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "40W High-power diode with built-in air assist and color engraving gimmick",
+  "tldr": "Creality Falcon2 Pro 40W is the 40W SKU on the Creality creality falcon2 pro line. Creality's top open-frame diode at 60W combined (22W optical class). Verify optical power on the listing — do not assume combined-watt marketing.",
+  "bestFor": [
+    "Color metal effects",
+    "Integrated air assist",
+    "Creality ecosystem fans",
+    "Strong diode cutting"
+  ],
+  "priceRange": {
+    "min": 799,
+    "max": 1099,
+    "currency": "USD",
+    "note": "40W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "40W diode",
+    "workArea": "400 × 415 mm",
+    "software": [
+      "Creality Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.06 mm spot",
+        "maxSpeed": "417 mm/s",
+        "avgEngraveSpeed": "90–180 mm/s fill",
+        "avgCutSpeed": "6–15 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Stainless steel (color and dark mark)",
+      "Anodized aluminum",
+      "Slate"
+    ],
+    "cut": [
+      "Basswood (up to 10 mm)",
+      "Dark acrylic (up to 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "CO₂-level acrylic production",
+      "Deep metal engraving",
+      "Large business throughput without upgrades"
+    ]
+  },
+  "pros": [
+    "Built-in air assist — one less accessory to buy",
+    "Color engraving on stainless is a unique selling point",
+    "Strong performance in the high-power diode segment",
+    "LightBurn support",
+    "Creality brand familiarity for 3D printer owners"
+  ],
+  "cons": [
+    "60W marketing number confuses beginners — optical power is lower",
+    "Open frame with high power — treat safety seriously",
+    "Creality laser software less mature than xTool",
+    "Color metal effect is niche, not a business foundation alone",
+    "Heavier unit — less portable than it looks"
+  ],
+  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Color marking requires precise speed/power control — practice on scrap stainless. Use LightBurn for serious work. Pair with proper extraction — built-in air assist helps cuts but does not replace ventilation.",
+  "primaryUse": "High-power hobby diode for engraving and moderate cutting, with optional color effects on stainless steel.",
+  "rating": {
+    "overall": 8.3,
+    "value": 8.2,
+    "easeOfUse": 8,
+    "capability": 9.5,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-22w",
+    "xtool-s1-20w",
+    "ortur-laser-master-3-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/creality-falcon2-pro-40w/01.webp",
+  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "images": [
+    {
+      "src": "/machines/creality-falcon2-pro-40w/01.webp",
+      "alt": "Creality Falcon2 Pro 40W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon2-pro-40w/02.png",
+      "alt": "Creality Falcon2 Pro 40W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon2-pro-40w/03.jpg",
+      "alt": "Creality Falcon2 Pro 40W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon2-pro-40w/04.jpg",
+      "alt": "Creality Falcon2 Pro 40W laser engraver — Creality"
+    }
+  ],
+  "powerRating": "40W",
+  "modelLine": "creality-falcon2-pro",
+  "catalogPrimary": true,
+  "releaseDate": "2024-09"
+}

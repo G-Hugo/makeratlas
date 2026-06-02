@@ -1,0 +1,164 @@
+{
+  "id": "creality-falcon-t1",
+  "slug": "creality-falcon-t1",
+  "name": "Creality Falcon T1",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "2026 modular galvo workstation — swap diode, fiber, MOPA, or UV heads",
+  "tldr": "Creality's Falcon T1 (global launch May 2026) is a Class 1 enclosed galvo platform with swappable WaveSync modules: 20W/40W diode, 20W fiber, 60W MOPA, and 5W UV. Buy the base once, add laser types as your shop grows — competes with xTool F1/F2 Ultra on flexibility rather than fixed dual-laser boxes.",
+  "mainObjective": "Modular enclosed galvo for makers who want one chassis and multiple laser types",
+  "bestFor": [
+    "Growing small business",
+    "Metal then UV later",
+    "Class 1 enclosed shop",
+    "Module upgrades"
+  ],
+  "priceRange": {
+    "min": 2249,
+    "max": 4499,
+    "currency": "USD",
+    "note": "Base from ~$2249; modules sold separately"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "220 × 220 mm (galvo field, module-dependent)",
+    "software": [
+      "Creality Laser",
+      "LightBurn (module-dependent)"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–6 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "Module-dependent",
+        "maxSpeed": "10,000 mm/s (marketing, galvo)",
+        "avgEngraveSpeed": "Varies by module",
+        "avgCutSpeed": "Diode modules only"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood (diode)",
+      "Stainless steel (fiber/MOPA)",
+      "Plastics (UV)",
+      "Leather",
+      "Glass (UV module)"
+    ],
+    "cut": [
+      "Thin wood (diode modules)",
+      "Paper"
+    ],
+    "cannot": [
+      "All modules at once — one head installed",
+      "Large-format CO₂ signage",
+      "Budget open-frame pricing"
+    ]
+  },
+  "pros": [
+    "True modular upgrade path",
+    "Fully enclosed Class 1 design",
+    "Covers metal, organics, and UV in one ecosystem",
+    "Creality Falcon brand support"
+  ],
+  "cons": [
+    "Total cost rises quickly with modules",
+    "New 2026 platform — limited long-term community data",
+    "Galvo bed smaller than Falcon 2 Pro open frame",
+    "Module swap downtime between job types"
+  ],
+  "beginnerNotes": "Start with the diode module if wood/leather is 80% of work; add fiber when metal sales justify it. Compare fixed xTool F1 Ultra if you know you need metal + wood day one.",
+  "proTips": "Price the full module roadmap before buying — T1 plus fiber and MOPA can exceed a single F2 Ultra bundle.",
+  "primaryUse": "2026 modular galvo production platform for shops that want to expand laser types without replacing the entire machine.",
+  "rating": {
+    "overall": 8.6,
+    "value": 8.2,
+    "easeOfUse": 8.5,
+    "capability": 9,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "xtool-f1-ultra",
+    "xtool-f2-ultra",
+    "creality-falcon2-pro-40w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/creality-falcon-t1/01.webp",
+  "images": [
+    {
+      "src": "/machines/creality-falcon-t1/01.webp",
+      "alt": "Creality Falcon T1 laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-t1/02.jpg",
+      "alt": "Creality Falcon T1 laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-t1/03.jpg",
+      "alt": "Creality Falcon T1 laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-t1/04.jpg",
+      "alt": "Creality Falcon T1 laser engraver — Creality"
+    }
+  ],
+  "catalogPrimary": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "WaveSync swappable galvo modules",
+    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules — install one head at a time.",
+    "options": [
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode module"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode module"
+      },
+      {
+        "power": "20W",
+        "laserKind": "fiber",
+        "label": "20W fiber module"
+      },
+      {
+        "power": "60W",
+        "laserKind": "fiber",
+        "label": "60W MOPA module"
+      },
+      {
+        "power": "5W",
+        "laserKind": "uv",
+        "label": "5W UV module"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "diode",
+    "fiber",
+    "uv"
+  ],
+  "capabilityTags": [
+    "diode",
+    "fiber",
+    "uv"
+  ],
+  "releaseDate": "2026-05"
+}

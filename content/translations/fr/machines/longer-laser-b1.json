@@ -1,0 +1,67 @@
+{
+  "tagline": "Diode grand format Longer — plateau plus large que Ray5 pour enseignes",
+  "tldr": "Diode Longer B1 20 W grand format — ce profil couvre uniquement le SKU 20 W ; Longer vend aussi des B1 30 W et 40 W séparément.",
+  "mainObjective": "Diode grand format pour enseignes bois et découpe légère de production",
+  "primaryUse": "Gravure et découpe bois fin à moyen en diode grand format pour loisirs et petits vendeurs.",
+  "beginnerNotes": "Choisissez le B1 plutôt que Ray5 quand la surface compte — enseignes, plateaux et gabarits multi-pièces. Passez votre chemin si vous ne faites que de petits cadeaux.",
+  "proTips": "La valeur du B1, c’est la taille du plateau — concevez vos gabarits pour utiliser toute la largeur en gravure par lots. Ajoutez nido d’abeille et assistance air avant de pousser au-delà de 8 mm de découpe.",
+  "bestFor": [
+    "Grandes enseignes",
+    "Grande zone de travail",
+    "Grand format petit budget",
+    "Loisirs découpe bois"
+  ],
+  "pros": [
+    "Grande surface de travail pour le prix",
+    "Option 40 W compétitive avec Atomstack A40",
+    "Prise en charge LightBurn",
+    "Wi-Fi inclus sur de nombreuses configs",
+    "Kits d’extension pour des jobs encore plus grands"
+  ],
+  "cons": [
+    "Structure ouverte — pas sûr en famille sans enceinte",
+    "Communauté support Longer plus petite qu’Ortur",
+    "Qualité de fabrication variable vs marques premium",
+    "Assistance air souvent vendue séparément",
+    "Les promesses 40 W demandent vérification en conditions réelles"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul jusqu’à ~10 mm (40 W)",
+      "Acrylique noir (fin)",
+      "Papier",
+      "Tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Production acrylique CO₂",
+      "Sécurité enceinte sans couvercle en option"
+    ]
+  },
+  "priceRange": {
+    "note": "SKU 20 W — autres puissances sont des fiches Longer séparées"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Longer Laser B1 20W — Longer" },
+    { "alt": "Graveuse laser Longer Laser B1 20W — Longer" },
+    { "alt": "Graveuse laser Longer Laser B1 20W — Longer" },
+    { "alt": "Graveuse laser Longer Laser B1 20W — Longer" }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "comgrow-z1-10w",
+  "slug": "comgrow-z1-10w",
+  "name": "Comgrow Z1 10W",
+  "brand": "Comgrow",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/comgrow-z1-10w/01.webp",
+  "tagline": "10W Budget Comgrow diode — often bundled with 3D printer deals",
+  "tldr": "Comgrow Z1 10W is the 10W SKU on the Comgrow comgrow z1 line. Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "bestFor": [
+    "Comgrow bundles",
+    "First experiments",
+    "Light engraving",
+    "Tight budget"
+  ],
+  "priceRange": {
+    "min": 219,
+    "max": 299,
+    "currency": "USD",
+    "note": "10W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "300 × 300 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–28 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–15 min"
+      },
+      "technical": {
+        "spotSize": "~0.09 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "9–21 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate"
+    ],
+    "cut": [
+      "Basswood (up to 5 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Thick cuts",
+      "Bare metal",
+      "Business production"
+    ]
+  },
+  "pros": [
+    "Very low price",
+    "Often discounted in bundles",
+    "LightBurn capable",
+    "Enough to learn basics"
+  ],
+  "cons": [
+    "Basic frame",
+    "Small community vs Ortur",
+    "QA variance",
+    "Outgrow quickly if hobby sticks"
+  ],
+  "beginnerNotes": "Choose 10W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Treat as training wheels — budget for upgrade within a year if you sell products.",
+  "primaryUse": "Ultra-budget diode for testing whether laser work interests you.",
+  "rating": {
+    "overall": 7.3,
+    "value": 8.6,
+    "easeOfUse": 7.5,
+    "capability": 7.8,
+    "buildQuality": 6.8
+  },
+  "similarModels": [
+    "twotrees-tts-55",
+    "atomstack-a5-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/comgrow-z1-10w/01.webp",
+      "alt": "Comgrow Z1 10W laser engraver — Comgrow"
+    },
+    {
+      "src": "/machines/comgrow-z1-10w/02.webp",
+      "alt": "Comgrow Z1 10W laser engraver — Comgrow"
+    },
+    {
+      "src": "/machines/comgrow-z1-10w/03.webp",
+      "alt": "Comgrow Z1 10W laser engraver — Comgrow"
+    }
+  ],
+  "modelLine": "comgrow-z1",
+  "powerRating": "10W"
+}

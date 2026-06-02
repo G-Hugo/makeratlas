@@ -1,0 +1,510 @@
+/**
+ * Add fiber & UV desktop machines to the catalog.
+ * Run: node scripts/seed-fiber-uv-machines.mjs
+ * Then: npm run fetch:gallery (or SLUGS=... for new only)
+ */
+
+import fs from "fs";
+import path from "path";
+
+const machinesDir = path.join(process.cwd(), "content", "machines");
+
+function perf({ precision, spot, max, engrave, cut, engraveSp, cutSp }) {
+  return {
+    precision,
+    engraveExample: {
+      description: engraveSp || "Filled logo on stainless steel plate",
+      size: "10 × 10 cm (4 × 4 in)",
+      time: engrave,
+    },
+    cutExample: {
+      description: cut || "Laser cutting",
+      size: cut === "Not a cutter" ? "—" : "10 × 10 cm (4 × 4 in)",
+      time: cut || "Not a cutter",
+    },
+    technical: {
+      spotSize: spot,
+      maxSpeed: max,
+      avgEngraveSpeed: engraveSp || "500–2,000 mm/s marking",
+      avgCutSpeed: cutSp || "N/A",
+    },
+  };
+}
+
+/** @type {import('../src/types/machine.js').Machine[]} */
+const NEW_MACHINES = [
+  {
+    id: "commarker-b4-20w",
+    slug: "commarker-b4-20w",
+    name: "ComMarker B4 20W",
+    brand: "ComMarker",
+    category: "laser-engraver",
+    laserType: "fiber",
+    powerRating: "20W",
+    modelLine: "commarker-b4",
+    catalogPrimary: true,
+    tagline: "Compact desktop fiber galvo for bare-metal marking",
+    tldr: "The ComMarker B4 is a popular entry-level fiber galvo engraver for jewelry, tools, and metal gifts. Marks stainless, aluminum, and brass without spray. Small marking field — not a cutter for wood or acrylic.",
+    mainObjective: "Affordable fiber marking for metal personalization and small business",
+    bestFor: ["Metal marking", "Jewelry", "Dog tags", "Small business"],
+    priceRange: { min: 1299, max: 1899, currency: "USD" },
+    specs: {
+      power: "20W fiber",
+      workArea: "110 × 110 mm typical marking area",
+      software: ["ComMarker", "LightBurn", "EZCAD"],
+      connectivity: ["USB", "Ethernet"],
+      performance: perf({
+        precision: "0.01 mm",
+        spot: "~0.02 mm fiber spot",
+        max: "7,000 mm/s",
+        engrave: "~2–5 min",
+        cut: "Not a cutter",
+      }),
+    },
+    materials: {
+      engrave: ["Stainless steel", "Aluminum", "Brass", "Gold-plated items", "Some plastics"],
+      cut: [],
+      cannot: ["Wood production", "Clear acrylic", "Large signage panels", "Thick organic cutting"],
+    },
+    pros: [
+      "Strong value in desktop fiber segment",
+      "Direct metal marking without chemicals",
+      "LightBurn compatible on many units",
+      "Compact footprint for desk jewelry work",
+    ],
+    cons: [
+      "Small marking area vs open-frame diodes",
+      "Not for wood/acrylic shop work",
+      "Requires safety glasses and ventilation discipline",
+      "Rotary and fixtures often cost extra",
+    ],
+    beginnerNotes:
+      "Buy if metal is your main income stream. Skip as a first laser if you want large wood signs or acrylic cutting.",
+    proTips:
+      "Use rotary for rings. Dial in hatch and speed on scrap — fiber power is unforgiving on thin metal.",
+    primaryUse: "Desktop fiber marking for jewelry, tags, tools, and metal personalization.",
+    rating: { overall: 8.5, value: 8.8, easeOfUse: 8.4, capability: 8.6, buildQuality: 8.3 },
+    similarModels: ["gweike-g2-20w", "monport-gt-30w-fiber", "xtool-f1-ultra"],
+    status: "published",
+    lastUpdated: "2026-06-01",
+    image: "/machines/commarker-b4-20w.svg",
+  },
+  {
+    id: "commarker-b6-mopa-30w",
+    slug: "commarker-b6-mopa-30w",
+    name: "ComMarker B6 MOPA 30W",
+    brand: "ComMarker",
+    category: "laser-engraver",
+    laserType: "fiber",
+    powerRating: "30W",
+    modelLine: "commarker-b6",
+    catalogPrimary: true,
+    tagline: "MOPA fiber for color marking and deeper metal engraving",
+    tldr: "ComMarker B6 adds MOPA fiber for color effects on stainless and finer control on deep metal engraving. Step up from B4 for shops that need color marking or faster production.",
+    mainObjective: "MOPA fiber marking with color on stainless and production metal work",
+    bestFor: ["Color metal marking", "Production marking", "Deep engraving", "Knives & tools"],
+    priceRange: { min: 2499, max: 3499, currency: "USD" },
+    specs: {
+      power: "30W MOPA fiber",
+      workArea: "150 × 150 mm typical",
+      software: ["ComMarker", "LightBurn", "EZCAD"],
+      connectivity: ["USB", "Ethernet"],
+      performance: perf({
+        precision: "0.01 mm",
+        spot: "~0.02 mm MOPA spot",
+        max: "7,000 mm/s",
+        engrave: "~2–4 min",
+        cut: "Not a cutter",
+      }),
+    },
+    materials: {
+      engrave: ["Stainless steel (incl. color)", "Aluminum", "Brass", "Titanium", "Plastics (select)"],
+      cut: [],
+      cannot: ["Wood", "Acrylic cutting", "Large-format organic work"],
+    },
+    pros: [
+      "MOPA color on stainless for premium products",
+      "More power than 20W entry fiber",
+      "Good for production batches with fixtures",
+      "JPT source options on some SKUs",
+    ],
+    cons: [
+      "Significantly more expensive than B4",
+      "Still a marking machine — not a workshop cutter",
+      "Software learning curve (EZCAD/LightBurn)",
+      "Color results depend on material batch",
+    ],
+    beginnerNotes: "Choose B6 over B4 when you sell color metal products or need faster cycle times on steel.",
+    proTips: "Build fixture jigs for repeat jobs. Keep lens clean — contamination shows on high-contrast marks.",
+    primaryUse: "Professional metal marking with optional color effects for premium personalization.",
+    rating: { overall: 8.7, value: 8.3, easeOfUse: 8.3, capability: 9, buildQuality: 8.5 },
+    similarModels: ["commarker-b4-20w", "gweike-g6-split-30w", "xtool-f2-ultra"],
+    status: "published",
+    lastUpdated: "2026-06-01",
+    image: "/machines/commarker-b6-mopa-30w.svg",
+  },
+  {
+    id: "gweike-g2-20w",
+    slug: "gweike-g2-20w",
+    name: "Gweike G2 20W Fiber",
+    brand: "Gweike",
+    category: "laser-engraver",
+    laserType: "fiber",
+    powerRating: "20W",
+    tagline: "Desktop fiber marker for metal and select plastics",
+    tldr: "Gweike G2 packages a 20W fiber galvo in a desktop form factor. Solid option if you want metal marking with Gweike ecosystem familiarity from their CO₂ lines.",
+    mainObjective: "Entry fiber marking for metal and plastic ID tags",
+    bestFor: ["Metal gifts", "Plastics marking", "Budget fiber", "Small shop"],
+    priceRange: { min: 1499, max: 2199, currency: "USD" },
+    specs: {
+      power: "20W fiber",
+      workArea: "110 × 110 mm",
+      software: ["EZCAD", "LightBurn"],
+      connectivity: ["USB"],
+      performance: perf({
+        precision: "0.01 mm",
+        spot: "~0.02 mm",
+        max: "7,000 mm/s",
+        engrave: "~2–5 min",
+        cut: "Not a cutter",
+      }),
+    },
+    materials: {
+      engrave: ["Stainless steel", "Aluminum", "Brass", "ABS", "Some coated metals"],
+      cut: [],
+      cannot: ["Wood", "Acrylic", "Large panels"],
+    },
+    pros: ["Competitive fiber pricing", "Known brand in maker CO₂ space", "LightBurn path", "Compact"],
+    cons: ["Smaller community than ComMarker for fiber", "Verify warranty region", "Accessories vary by bundle"],
+    beginnerNotes: "Compare with ComMarker B4 on price, software bundle, and local support.",
+    proTips: "Use cross-hatch on curved items with rotary at low speed.",
+    primaryUse: "Desktop fiber engraving for metal-focused side businesses.",
+    rating: { overall: 8.3, value: 8.6, easeOfUse: 8.2, capability: 8.5, buildQuality: 8.2 },
+    similarModels: ["commarker-b4-20w", "monport-gt-30w-fiber"],
+    status: "published",
+    lastUpdated: "2026-06-01",
+    image: "/machines/gweike-g2-20w.svg",
+  },
+  {
+    id: "gweike-g6-split-30w",
+    slug: "gweike-g6-split-30w",
+    name: "Gweike G6 Split 30W",
+    brand: "Gweike",
+    category: "laser-engraver",
+    laserType: "fiber",
+    powerRating: "30W",
+    modelLine: "gweike-g6-split",
+    catalogPrimary: true,
+    tagline: "Split cabinet fiber marker with room for rotary and fixtures",
+    tldr: "Gweike G6 Split is a larger fiber marking platform with separate laser source cabinet — common format for small production. Available up to 100W; this profile covers the popular 30W tier.",
+    mainObjective: "Production-oriented fiber marking with split cabinet layout",
+    bestFor: ["Production batches", "Deep metal engraving", "Shop floor marking", "Rotary work"],
+    priceRange: { min: 2799, max: 3999, currency: "USD" },
+    specs: {
+      power: "30W fiber (50W / 70W / 100W SKUs exist)",
+      workArea: "150 × 150 mm typical (varies by lens)",
+      software: ["EZCAD", "LightBurn"],
+      connectivity: ["USB", "Ethernet"],
+      performance: perf({
+        precision: "0.01 mm",
+        spot: "~0.02 mm",
+        max: "7,000 mm/s",
+        engrave: "~2–4 min",
+        cut: "Not a cutter",
+      }),
+    },
+    materials: {
+      engrave: ["Stainless steel", "Aluminum", "Brass", "Plastics", "Deep metal engraving"],
+      cut: [],
+      cannot: ["Organic cutting", "CO₂-style acrylic work"],
+    },
+    pros: ["Scalable power tiers", "Split design fits shop floors", "Deep engraving capability", "Production friendly"],
+    cons: ["Larger footprint", "Not portable", "Higher price than desktop galvo boxes", "Installation and alignment matter"],
+    beginnerNotes: "Pick 30W for most jewelry/tag shops; 50W+ for deeper engraving or faster cycle times.",
+    proTips: "Plan fume extraction for marking coated metals. Fixture repeatability drives profit.",
+    primaryUse: "Small production fiber marking for metal parts and personalization batches.",
+    rating: { overall: 8.6, value: 8.4, easeOfUse: 8, capability: 9, buildQuality: 8.5 },
+    similarModels: ["commarker-b6-mopa-30w", "monport-gt-30w-fiber"],
+    status: "published",
+    lastUpdated: "2026-06-01",
+    image: "/machines/gweike-g6-split-30w.svg",
+  },
+  {
+    id: "monport-gt-30w-fiber",
+    slug: "monport-gt-30w-fiber",
+    name: "Monport GT 30W Fiber",
+    brand: "Monport",
+    category: "laser-engraver",
+    laserType: "fiber",
+    powerRating: "30W",
+    tagline: "Split fiber laser engraver with autofocus from Monport",
+    tldr: "Monport GT 30W brings split-cabinet fiber marking with autofocus — useful for varying part heights. Strong alternative to Gweike G6 in the same class.",
+    mainObjective: "Autofocus fiber marking for mixed-height metal parts",
+    bestFor: ["Mixed part heights", "Production", "Metal marking", "Monport ecosystem"],
+    priceRange: { min: 2599, max: 3799, currency: "USD" },
+    specs: {
+      power: "30W fiber (higher tiers available)",
+      workArea: "150 × 150 mm typical",
+      software: ["EZCAD", "LightBurn"],
+      connectivity: ["USB", "Ethernet"],
+      performance: perf({
+        precision: "0.01 mm",
+        spot: "~0.02 mm",
+        max: "7,000 mm/s",
+        engrave: "~2–4 min",
+        cut: "Not a cutter",
+      }),
+    },
+    materials: {
+      engrave: ["Stainless steel", "Aluminum", "Brass", "Plastics"],
+      cut: [],
+      cannot: ["Wood shop work", "Acrylic cutting"],
+    },
+    pros: ["Autofocus for varying heights", "Monport support ecosystem", "Split layout for production", "MOPA tiers available"],
+    cons: ["Large footprint", "Premium over entry galvo boxes", "Still not a general laser cutter"],
+    beginnerNotes: "Compare bundles with rotary and safety gear included.",
+    proTips: "Calibrate autofocus on your most common part thickness.",
+    primaryUse: "Production fiber marking with easier focus management across part sizes.",
+    rating: { overall: 8.5, value: 8.3, easeOfUse: 8.4, capability: 8.8, buildQuality: 8.4 },
+    similarModels: ["gweike-g6-split-30w", "commarker-b6-mopa-30w"],
+    status: "published",
+    lastUpdated: "2026-06-01",
+    image: "/machines/monport-gt-30w-fiber.svg",
+  },
+  {
+    id: "omtech-fc105-fiber",
+    slug: "omtech-fc105-fiber",
+    name: "OMTech FC-105 Fiber",
+    brand: "OMTech",
+    category: "laser-engraver",
+    laserType: "fiber",
+    tagline: "Industrial fiber laser cutter for sheet metal (not a desktop marker)",
+    tldr: "OMTech FC-105 is a fiber laser cutting platform for metal sheet — a different class from desktop galvo markers. Listed for buyers who search 'fiber laser' and need to understand cutters vs markers.",
+    mainObjective: "Sheet metal fiber cutting for fabrication shops",
+    bestFor: ["Sheet metal cutting", "Fabrication", "Industrial", "Not hobby desks"],
+    priceRange: { min: 12000, max: 25000, currency: "USD", note: "Industrial pricing; verify configuration" },
+    specs: {
+      power: "1000W–3000W class fiber cutting (model dependent)",
+      workArea: "Large format sheet (model dependent)",
+      software: ["CypCut", "LightBurn (some configs)"],
+      connectivity: ["Ethernet", "Industrial control"],
+      performance: perf({
+        precision: "0.05 mm",
+        spot: "Cutting head focal spot",
+        max: "N/A production cut speed",
+        engrave: "N/A",
+        cut: "Varies by material/thickness",
+        engraveSp: "N/A marking",
+        cutSp: "Production cut rates",
+      }),
+    },
+    materials: {
+      engrave: [],
+      cut: ["Carbon steel", "Stainless sheet", "Aluminum sheet (machine dependent)"],
+      cannot: ["Hobby desk work", "Wood", "Acrylic (use CO₂)", "Jewelry marking"],
+    },
+    pros: ["Real metal cutting capability", "Production throughput", "OMTech industrial support path"],
+    cons: ["Not a desktop engraver", "High cost and space", "Requires industrial install", "Wrong buy for jewelry marking"],
+    beginnerNotes: "Do not confuse with 20W–50W fiber markers. This is for metal fabrication shops.",
+    proTips: "Budget for chiller, assist gas, and training.",
+    primaryUse: "Industrial sheet metal fiber laser cutting.",
+    rating: { overall: 8.2, value: 7.5, easeOfUse: 7, capability: 9.5, buildQuality: 8.5 },
+    similarModels: ["gweike-g6-split-30w"],
+    status: "published",
+    lastUpdated: "2026-06-01",
+    image: "/machines/omtech-fc105-fiber.svg",
+  },
+  {
+    id: "commarker-omni-x-uv",
+    slug: "commarker-omni-x-uv",
+    name: "ComMarker Omni X UV",
+    brand: "ComMarker",
+    category: "laser-engraver",
+    laserType: "uv",
+    modelLine: "commarker-omni-x",
+    catalogPrimary: true,
+    tagline: "Desktop UV laser for glass, plastic, and fine detail",
+    tldr: "ComMarker Omni X uses UV wavelength for cold marking on glass, some plastics, and delicate materials without as much heat damage as fiber or CO₂. Slower than fiber on metal — different tool for different materials.",
+    mainObjective: "UV marking on glass, plastics, and fine-detail gifts",
+    bestFor: ["Glass", "Plastics", "Fine detail", "Gifts", "Electronics marking"],
+    priceRange: { min: 1999, max: 2999, currency: "USD" },
+    specs: {
+      power: "3W–5W UV class (verify SKU)",
+      workArea: "100 × 100 mm typical",
+      software: ["ComMarker", "LightBurn"],
+      connectivity: ["USB"],
+      performance: {
+        precision: "0.01 mm",
+        engraveExample: {
+          description: "Fine logo on acrylic gift blank",
+          size: "10 × 10 cm (4 × 4 in)",
+          time: "~6–12 min",
+        },
+        cutExample: { description: "Laser cutting", size: "—", time: "Not a thick cutter" },
+        technical: {
+          spotSize: "~0.02 mm UV spot",
+          maxSpeed: "3,000 mm/s",
+          avgEngraveSpeed: "100–400 mm/s",
+          avgCutSpeed: "N/A",
+        },
+      },
+    },
+    materials: {
+      engrave: ["Glass", "Acrylic (some colors)", "Plastics", "Leather (light)", "Paper"],
+      cut: ["Thin films (limited)"],
+      cannot: ["Bare metal (use fiber)", "Thick wood cutting", "CO₂-speed acrylic production"],
+    },
+    pros: [
+      "Marks glass without fiber/failure modes",
+      "Cold marking reduces melting on plastics",
+      "Fine detail for small gifts",
+      "Desktop footprint",
+    ],
+    cons: [
+      "Slow on large fill areas",
+      "Not for metal production",
+      "UV safety glasses mandatory",
+      "Material testing required per plastic type",
+    ],
+    beginnerNotes: "Buy for glass/plastic gift niche — not as your only laser if you also need metal or thick cutting.",
+    proTips: "Test each plastic color — UV absorption varies wildly. Use low power first on glass.",
+    primaryUse: "UV engraving for glass awards, plastic parts, and fine gift personalization.",
+    rating: { overall: 8.4, value: 8.2, easeOfUse: 8.5, capability: 8.3, buildQuality: 8.3 },
+    similarModels: ["commarker-omni-1-uv", "commarker-omni-xe-uv"],
+    status: "published",
+    lastUpdated: "2026-06-01",
+    image: "/machines/commarker-omni-x-uv.svg",
+  },
+  {
+    id: "commarker-omni-1-uv",
+    slug: "commarker-omni-1-uv",
+    name: "ComMarker Omni 1 UV",
+    brand: "ComMarker",
+    category: "laser-engraver",
+    laserType: "uv",
+    powerRating: "3W",
+    modelLine: "commarker-omni",
+    catalogPrimary: true,
+    tagline: "Entry UV desktop engraver for glass and plastics",
+    tldr: "ComMarker Omni 1 is the more compact UV line for makers entering glass and plastic marking. Same caveats as all UV: material testing, eye protection, and realistic speed expectations.",
+    mainObjective: "Entry UV engraving for glass and plastic gifts",
+    bestFor: ["Glass gifts", "Plastics", "Hobby UV", "Fine detail"],
+    priceRange: { min: 1499, max: 2199, currency: "USD" },
+    specs: {
+      power: "3W UV class",
+      workArea: "80 × 80 mm typical",
+      software: ["ComMarker", "LightBurn"],
+      connectivity: ["USB"],
+      performance: {
+        precision: "0.01 mm",
+        engraveExample: {
+          description: "Fine logo on glass coaster",
+          size: "10 × 10 cm (4 × 4 in)",
+          time: "~8–14 min",
+        },
+        cutExample: { description: "Laser cutting", size: "—", time: "Not a cutter" },
+        technical: {
+          spotSize: "~0.03 mm UV spot",
+          maxSpeed: "2,500 mm/s",
+          avgEngraveSpeed: "80–300 mm/s",
+          avgCutSpeed: "N/A",
+        },
+      },
+    },
+    materials: {
+      engrave: ["Glass", "Plastics", "Leather (light)", "Paper"],
+      cut: [],
+      cannot: ["Metal", "Thick wood", "Large CO₂-style cutting"],
+    },
+    pros: ["Lower entry price than Omni X", "Compact", "Good for glass gift niche"],
+    cons: ["Smaller work area", "Slower production", "Not for metal at all"],
+    beginnerNotes: "Pair with a diode or CO₂ if you need wood/acrylic cutting — UV is specialized.",
+    proTips: "Mask glass for crisp white marks. Ventilate — some plastics off-gas.",
+    primaryUse: "Hobby and small-business UV marking on glass and plastics.",
+    rating: { overall: 8.1, value: 8.3, easeOfUse: 8.6, capability: 7.9, buildQuality: 8 },
+    similarModels: ["commarker-omni-x-uv"],
+    status: "published",
+    lastUpdated: "2026-06-01",
+    image: "/machines/commarker-omni-1-uv.svg",
+  },
+  {
+    id: "commarker-omni-xe-uv",
+    slug: "commarker-omni-xe-uv",
+    name: "ComMarker Omni XE UV",
+    brand: "ComMarker",
+    category: "laser-engraver",
+    laserType: "uv",
+    powerRating: "5W",
+    modelLine: "commarker-omni-x",
+    tagline: "Expanded UV platform for larger glass and plastic work",
+    tldr: "Omni XE sits between Omni 1 and Omni X in ComMarker's UV lineup — check current specs for bed size and power. UV remains specialized: glass, plastics, fine detail.",
+    mainObjective: "Mid-size UV engraving for glass and plastic products",
+    bestFor: ["Glass", "Plastics", "Mid-size gifts", "UV production"],
+    priceRange: { min: 2299, max: 3199, currency: "USD" },
+    specs: {
+      power: "5W UV class (verify SKU)",
+      workArea: "120 × 120 mm typical",
+      software: ["ComMarker", "LightBurn"],
+      connectivity: ["USB"],
+      performance: {
+        precision: "0.01 mm",
+        engraveExample: {
+          description: "Fine logo on acrylic gift blank",
+          size: "10 × 10 cm (4 × 4 in)",
+          time: "~5–10 min",
+        },
+        cutExample: { description: "Laser cutting", size: "—", time: "Not a cutter" },
+        technical: {
+          spotSize: "~0.02 mm UV spot",
+          maxSpeed: "3,000 mm/s",
+          avgEngraveSpeed: "100–350 mm/s",
+          avgCutSpeed: "N/A",
+        },
+      },
+    },
+    materials: {
+      engrave: ["Glass", "Plastics", "Leather (light)", "Paper"],
+      cut: [],
+      cannot: ["Bare metal", "Thick organic cutting"],
+    },
+    pros: ["More room than Omni 1", "UV cold marking advantages", "Desktop class"],
+    cons: ["Overlaps with Omni X — compare bundles", "UV material testing required"],
+    beginnerNotes: "Compare Omni X vs XE vs 1 on bed size, included rotary, and software license.",
+    proTips: "Use fixtures for repeatable glass positioning.",
+    primaryUse: "UV personalization for glass and plastic with slightly larger work area.",
+    rating: { overall: 8.3, value: 8.1, easeOfUse: 8.4, capability: 8.2, buildQuality: 8.2 },
+    similarModels: ["commarker-omni-x-uv", "commarker-omni-1-uv"],
+    status: "published",
+    lastUpdated: "2026-06-01",
+    image: "/machines/commarker-omni-xe-uv.svg",
+  },
+];
+
+// Fix laserpecker-5 classification
+const lp5Path = path.join(machinesDir, "laserpecker-5.json");
+if (fs.existsSync(lp5Path)) {
+  const lp5 = JSON.parse(fs.readFileSync(lp5Path, "utf-8"));
+  lp5.laserType = "hybrid";
+  lp5.powerRating = "20W";
+  lp5.modelLine = "laserpecker-lp5";
+  lp5.catalogPrimary = true;
+  lp5.specs.power = "20W fiber + diode (dual source)";
+  lp5.tldr =
+    "LaserPecker LP5 combines fiber and diode sources for metal marking plus organic engraving in one portable chassis. Specialty travel/event machine — not a full workshop replacement.";
+  lp5.mainObjective = "Portable fiber + diode for on-site metal and wood engraving";
+  lp5.lastUpdated = "2026-06-01";
+  fs.writeFileSync(lp5Path, `${JSON.stringify(lp5, null, 2)}\n`);
+  console.log("updated laserpecker-5 → hybrid");
+}
+
+for (const machine of NEW_MACHINES) {
+  const filePath = path.join(machinesDir, `${machine.slug}.json`);
+  if (fs.existsSync(filePath)) {
+    console.log(`skip exists: ${machine.slug}`);
+    continue;
+  }
+  fs.writeFileSync(filePath, `${JSON.stringify(machine, null, 2)}\n`);
+  console.log(`+ ${machine.slug} (${machine.laserType})`);
+}
+
+console.log(`Done. ${NEW_MACHINES.length} machines defined.`);

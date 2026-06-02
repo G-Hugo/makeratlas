@@ -1,0 +1,115 @@
+{
+  "id": "sculpfun-s30-pro-10w",
+  "slug": "sculpfun-s30-pro-10w",
+  "name": "Sculpfun S30 Pro 10W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Mid Sculpfun S30 Pro — 10W on the S30 frame family",
+  "tldr": "Sculpfun S30 Pro 10W is the lower-power S30 Pro SKU — same frame class as Pro Max but less cutting depth. Good budget Sculpfun if you don't need 20W.",
+  "mainObjective": "Affordable S30-frame Sculpfun for engraving-first work",
+  "bestFor": [
+    "Budget Sculpfun",
+    "Engraving focus",
+    "S30 accessories"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 549,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Paper"
+    ],
+    "cut": [
+      "3 mm basswood"
+    ],
+    "cannot": [
+      "Thick cutting",
+      "Ultra-tier speeds"
+    ]
+  },
+  "pros": [
+    "S30 frame ecosystem",
+    "Large bed",
+    "Upgrade path within Sculpfun"
+  ],
+  "cons": [
+    "10W limits",
+    "Pro Max/Ultra more common in forums now"
+  ],
+  "beginnerNotes": "Skip if you already know you'll want 20W within months.",
+  "proTips": "Shares many S30 community tips — search S30 Pro for mods.",
+  "primaryUse": "Mid-budget Sculpfun engraving on 400 mm bed.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "sculpfun-s9-10w",
+    "sculpfun-s10-10w",
+    "sculpfun-s30-pro-max-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/sculpfun-s30-pro-10w/01.webp",
+  "modelLine": "sculpfun-s30-pro",
+  "powerRating": "10W",
+  "catalogPrimary": true,
+  "releaseDate": "2022-06",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s30-pro-10w/01.webp",
+      "alt": "Sculpfun S30 Pro 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-pro-10w/02.jpg",
+      "alt": "Sculpfun S30 Pro 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-pro-10w/03.jpg",
+      "alt": "Sculpfun S30 Pro 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-pro-10w/04.jpg",
+      "alt": "Sculpfun S30 Pro 10W laser engraver — Sculpfun"
+    }
+  ]
+}

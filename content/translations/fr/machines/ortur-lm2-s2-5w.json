@@ -1,0 +1,62 @@
+{
+  "tagline": "Ortur LM2 S2 5 W — l’Ortur le moins cher qui vaut encore le coup",
+  "tldr": "L’Ortur LM2 S2 5 W est le SKU d’entrée — d’abord la gravure, découpe minimale. Correct pour apprendre si le prix est bon ; la plupart des utilisateurs le dépassent vite.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
+  "primaryUse": "Apprentissage de la gravure à budget minimal.",
+  "beginnerNotes": "Passez le 5 W si vous pouvez viser le 10 W ou l’Ortur H20 10 W.",
+  "proTips": "Utilisez des vitesses basses et plusieurs passes — n’attendez pas des découpes niveau Pro Max.",
+  "bestFor": [
+    "Débutants absolus",
+    "Gravure uniquement",
+    "Budget serré"
+  ],
+  "pros": [
+    "Gamme Ortur la moins chère",
+    "Même parcours logiciel que les Ortur plus grands"
+  ],
+  "cons": [
+    "Découpe faible",
+    "Plafond 5 W",
+    "Plateforme plus ancienne"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Papier"
+    ],
+    "cut": [
+      "Thin cardstock",
+      "Tilleul (jusqu'à 3 mm)"
+    ],
+    "cannot": [
+      "Découpes 3 mm fiables",
+      "Métal",
+      "Vitesse"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Ortur LM2 S2 5W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur LM2 S2 5W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur LM2 S2 5W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur LM2 S2 5W — Ortur"
+    }
+  ]
+}

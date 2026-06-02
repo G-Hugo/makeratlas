@@ -1,13 +1,10 @@
-export function formatPrice(min: number, max: number, currency = "USD"): string {
-  const formatter = new Intl.NumberFormat("en-US", {
-    style: "currency",
-    currency,
-    maximumFractionDigits: 0,
-  });
+import { formatPriceRange } from "./pricing";
 
-  if (min === max) return formatter.format(min);
-  return `${formatter.format(min)} – ${formatter.format(max)}`;
+export function formatPrice(min: number, max: number, currency: "USD" | "EUR" = "USD"): string {
+  return formatPriceRange(min, max, currency);
 }
+
+export { formatReleaseDate } from "./machine-dates";
 
 export function laserTypeLabel(type: string): string {
   const labels: Record<string, string> = {

@@ -63,6 +63,7 @@ function exportMachines() {
         brand: machine.brand,
         laser_type: machine.laserType,
         image: machine.image,
+        images: machine.images ?? [{ src: machine.image, alt: `${machine.name} by ${machine.brand}` }],
         main_objective: machine.mainObjective,
         tagline: machine.tagline,
         tldr: machine.tldr,

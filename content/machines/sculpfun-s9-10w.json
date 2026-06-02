@@ -1,0 +1,126 @@
+{
+  "id": "sculpfun-s9-10w",
+  "slug": "sculpfun-s9-10w",
+  "name": "Sculpfun S9 10W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/sculpfun-s9-10w/01.webp",
+  "tagline": "10W Sculpfun's proven budget line — still popular for value-focused makers",
+  "tldr": "Sculpfun S9 10W is the 10W SKU on the Sculpfun sculpfun s9 line. Before S30 Ultra, the S9 was Sculpfun's workhorse. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "bestFor": [
+    "Tight budget",
+    "Engraving-first hobby",
+    "Sculpfun ecosystem entry",
+    "Learning LightBurn"
+  ],
+  "priceRange": {
+    "min": 299,
+    "max": 449,
+    "currency": "USD",
+    "note": "10W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "410 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.10 mm spot",
+        "maxSpeed": "167 mm/s",
+        "avgEngraveSpeed": "60–140 mm/s fill",
+        "avgCutSpeed": "3–8 mm/s on 2–4 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood (up to 5 mm)",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Thick hardwood",
+      "Clear acrylic",
+      "Bare metal",
+      "High-volume production"
+    ]
+  },
+  "pros": [
+    "Huge community knowledge base",
+    "Full-size bed at budget price",
+    "LightBurn support",
+    "Upgrade path to S30 modules",
+    "Proven Sculpfun reliability"
+  ],
+  "cons": [
+    "Slower than S30 Ultra on same jobs",
+    "10W limits cutting depth",
+    "Open frame safety",
+    "New buyers often better served by S30 Ultra sales",
+    "Air assist recommended for clean cuts"
+  ],
+  "beginnerNotes": "Choose 10W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "S9 community mods (air assist, extended feet) are well documented — search Sculpfun Facebook groups before your first big project.",
+  "primaryUse": "Budget Sculpfun open-frame for wood/leather engraving and light thin-wood cutting.",
+  "rating": {
+    "overall": 7.9,
+    "value": 8.5,
+    "easeOfUse": 8,
+    "capability": 9.4,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "ortur-laser-master-3-20w",
+    "atomstack-a40-pro",
+    "sculpfun-s30-ultra-22w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s9-10w/01.webp",
+      "alt": "Sculpfun S9 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s9-10w/02.jpg",
+      "alt": "Sculpfun S9 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s9-10w/03.jpg",
+      "alt": "Sculpfun S9 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s9-10w/04.jpg",
+      "alt": "Sculpfun S9 10W laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-s9",
+  "powerRating": "10W",
+  "catalogPrimary": true,
+  "releaseDate": "2022-01"
+}

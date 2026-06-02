@@ -30,6 +30,22 @@
     "id": { "type": "string" },
     "slug": { "type": "string" },
     "name": { "type": "string" },
+    "modelLine": {
+      "type": "string",
+      "description": "Product family slug for grouping power variants"
+    },
+    "powerRating": {
+      "type": "string",
+      "description": "Single optical power tier for this SKU"
+    },
+    "catalogPrimary": {
+      "type": "boolean",
+      "description": "Flagship SKU shown on the /lasers grid for this model line"
+    },
+    "catalogHidden": {
+      "type": "boolean",
+      "description": "Omit from browse grid; detail page still available"
+    },
     "brand": { "type": "string" },
     "category": { "enum": ["laser-engraver"] },
     "laserType": { "enum": ["diode", "co2", "fiber", "uv", "hybrid"] },
@@ -86,8 +102,22 @@
       }
     },
     "similarModels": { "type": "array", "items": { "type": "string" } },
-    "affiliateUrl": { "type": "string" },
-    "status": { "enum": ["draft", "published"] },
+    "image": { "type": "string", "description": "Primary thumbnail URL path" },
+    "images": {
+      "type": "array",
+      "description": "Product photo gallery (manufacturer shots)",
+      "items": {
+        "type": "object",
+        "required": ["src", "alt"],
+        "properties": {
+          "src": { "type": "string" },
+          "alt": { "type": "string" },
+          "caption": { "type": "string" }
+        }
+      }
+    },
+    "mainObjective": { "type": "string" },
+    "status": { "enum": ["draft", "published", "archived"] },
     "lastUpdated": { "type": "string", "format": "date" }
   }
 }

@@ -5,7 +5,7 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/atomstack-a40-pro.png",
+  "image": "/machines/atomstack-a40-pro/01.webp",
   "tagline": "Mid-tier Atomstack with better frame and 40W-class cutting claims",
   "tldr": "Step up from A5 Pro with a stiffer frame and stronger cutting marketing (40W combined). Real-world performance beats A5 but still sits below Sculpfun/xTool for consistency. Common pick for makers who started on A5 and want more power without jumping brands.",
   "mainObjective": "Upgraded Atomstack for stronger cuts and more reliable engraving than A5",
@@ -16,8 +16,8 @@
     "Hobby side projects"
   ],
   "priceRange": {
-    "min": 399,
-    "max": 599,
+    "min": 699,
+    "max": 1349,
     "currency": "USD"
   },
   "specs": {
@@ -95,10 +95,30 @@
     "buildQuality": 7.2
   },
   "similarModels": [
-    "atomstack-a5-pro",
-    "ortur-laser-master-3",
-    "sculpfun-s30-ultra"
+    "ortur-laser-master-3-20w",
+    "sculpfun-s30-ultra-22w"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-05-31",
+  "images": [
+    {
+      "src": "/machines/atomstack-a40-pro/01.webp",
+      "alt": "Atomstack A40 Pro 40W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a40-pro/02.jpg",
+      "alt": "Atomstack A40 Pro 40W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a40-pro/03.jpg",
+      "alt": "Atomstack A40 Pro 40W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a40-pro/04.jpg",
+      "alt": "Atomstack A40 Pro 40W laser engraver — Atomstack"
+    }
+  ],
+  "modelLine": "atomstack-a40-pro",
+  "catalogHidden": true,
+  "releaseDate": "2022-06"
 }

@@ -1,0 +1,121 @@
+{
+  "id": "commarker-b4-20w",
+  "slug": "commarker-b4-20w",
+  "name": "ComMarker B4 20W",
+  "brand": "ComMarker",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "20W",
+  "catalogPrimary": true,
+  "tagline": "Compact desktop fiber galvo for bare-metal marking",
+  "tldr": "The ComMarker B4 is a popular entry-level fiber galvo engraver for jewelry, tools, and metal gifts. Marks stainless, aluminum, and brass without spray. Small marking field — not a cutter for wood or acrylic.",
+  "mainObjective": "Affordable fiber marking for metal personalization and small business",
+  "bestFor": [
+    "Metal marking",
+    "Jewelry",
+    "Dog tags",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 1299,
+    "max": 1899,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W fiber",
+    "workArea": "110 × 110 mm typical marking area",
+    "software": [
+      "ComMarker",
+      "LightBurn",
+      "EZCAD"
+    ],
+    "connectivity": [
+      "USB",
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm fiber spot",
+        "maxSpeed": "7,000 mm/s",
+        "avgEngraveSpeed": "500–2,000 mm/s marking",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum",
+      "Brass",
+      "Gold-plated items",
+      "Some plastics"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood production",
+      "Clear acrylic",
+      "Large signage panels",
+      "Thick organic cutting"
+    ]
+  },
+  "pros": [
+    "Strong value in desktop fiber segment",
+    "Direct metal marking without chemicals",
+    "LightBurn compatible on many units",
+    "Compact footprint for desk jewelry work"
+  ],
+  "cons": [
+    "Small marking area vs open-frame diodes",
+    "Not for wood/acrylic shop work",
+    "Requires safety glasses and ventilation discipline",
+    "Rotary and fixtures often cost extra"
+  ],
+  "beginnerNotes": "Buy if metal is your main income stream. Skip as a first laser if you want large wood signs or acrylic cutting.",
+  "proTips": "Use rotary for rings. Dial in hatch and speed on scrap — fiber power is unforgiving on thin metal.",
+  "primaryUse": "Desktop fiber marking for jewelry, tags, tools, and metal personalization.",
+  "rating": {
+    "overall": 8.5,
+    "value": 8.8,
+    "easeOfUse": 8.4,
+    "capability": 8.6,
+    "buildQuality": 8.3
+  },
+  "similarModels": [
+    "gweike-g2-20w",
+    "monport-gt-30w-fiber",
+    "xtool-f1-ultra"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/commarker-b4-20w/01.webp",
+  "images": [
+    {
+      "src": "/machines/commarker-b4-20w/01.webp",
+      "alt": "ComMarker B4 20W laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-b4-20w/02.jpg",
+      "alt": "ComMarker B4 20W laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-b4-20w/03.jpg",
+      "alt": "ComMarker B4 20W laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-b4-20w/04.jpg",
+      "alt": "ComMarker B4 20W laser engraver — ComMarker"
+    }
+  ],
+  "releaseDate": "2024-05"
+}

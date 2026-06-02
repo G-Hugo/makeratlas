@@ -1,0 +1,117 @@
+{
+  "id": "acmer-p2-20w",
+  "slug": "acmer-p2-20w",
+  "name": "Acmer P2 20W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Mid-tier Acmer P2 — 20W open-frame with accessory packs",
+  "tldr": "Acmer P2 20W sits between P1 and P3 in Acmer's lineup — 20W open frame with optional enclosure and camera bundles. Good value if you don't need P3's full enclosure.",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "bestFor": [
+    "Acmer brand buyers",
+    "20W cutting",
+    "Accessory bundles"
+  ],
+  "priceRange": {
+    "min": 484,
+    "max": 900,
+    "currency": "USD",
+    "note": "Basic pack vs enclosure/camera packs"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~16–25 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–14 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "17–43 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic (dark)"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "Dark acrylic (up to 5 mm)"
+    ],
+    "cannot": [
+      "Class-1 enclosure without bundle",
+      "Fiber metal marking"
+    ]
+  },
+  "pros": [
+    "Flexible bundle options",
+    "Step up from P1",
+    "Large bed"
+  ],
+  "cons": [
+    "33W tier often better value per watt",
+    "P3 is flagship enclosed line",
+    "Open-frame base SKU"
+  ],
+  "beginnerNotes": "Compare P2 33W price delta before settling on 20W.",
+  "proTips": "Buy Basic pack for machine only — add your own air assist if needed.",
+  "primaryUse": "Mid-tier Acmer open-frame for engraving and cutting.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "acmer-p1-20w",
+    "acmer-p2-33w",
+    "sculpfun-s30-ultra-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/acmer-p2-20w/01.webp",
+  "modelLine": "acmer-p2",
+  "powerRating": "20W",
+  "releaseDate": "2024-01",
+  "images": [
+    {
+      "src": "/machines/acmer-p2-20w/01.webp",
+      "alt": "Acmer P2 20W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p2-20w/02.jpg",
+      "alt": "Acmer P2 20W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p2-20w/03.jpg",
+      "alt": "Acmer P2 20W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p2-20w/04.jpg",
+      "alt": "Acmer P2 20W laser engraver — Acmer"
+    }
+  ]
+}

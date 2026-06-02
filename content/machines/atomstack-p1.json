@@ -1,0 +1,126 @@
+{
+  "id": "atomstack-p1",
+  "slug": "atomstack-p1",
+  "name": "AtomStack P1 5W",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Class 1 enclosed Atomstack — safe desktop engraving for home and schools",
+  "tldr": "AtomStack P1 is a fully enclosed Class 1 diode engraver (5W) with optional dual-laser (diode + infrared) bundles. Ideal when safety and quiet operation matter more than raw cutting power.",
+  "mainObjective": "Safe enclosed engraving for beginners, families, and classrooms",
+  "bestFor": [
+    "Beginners",
+    "Families",
+    "Schools",
+    "Quiet home offices",
+    "Small metal/plastic marks (dual SKU)"
+  ],
+  "priceRange": {
+    "min": 179,
+    "max": 479,
+    "currency": "USD",
+    "note": "Dual-laser bundles cost more"
+  },
+  "specs": {
+    "power": "5W diode",
+    "workArea": "200 × 200 mm (approx.)",
+    "software": [
+      "AtomStack Studio",
+      "LightBurn (select)"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "10,000 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "2–5 mm/s thin wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Plastic",
+      "Anodized aluminum (dual SKU)",
+      "Paper"
+    ],
+    "cut": [
+      "Thin wood",
+      "Paper",
+      "Thin leather"
+    ],
+    "cannot": [
+      "Thick cutting",
+      "Large panels",
+      "High-volume production"
+    ]
+  },
+  "pros": [
+    "Class 1 enclosure — no goggles for normal use",
+    "Very compact footprint",
+    "Quiet operation",
+    "Dual-laser option for metal"
+  ],
+  "cons": [
+    "Small work area",
+    "5W limits cutting",
+    "Premium per watt vs open frame",
+    "Not for signage business"
+  ],
+  "beginnerNotes": "Excellent 'first laser' when safety trumps maximum power.",
+  "proTips": "Choose dual bundle only if you need metal marking — otherwise 5W diode is enough to learn.",
+  "primaryUse": "Safe enclosed intro laser for home crafters and education.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "sculpfun-icube-pro-5w",
+    "glowforge-aura",
+    "laserpecker-4"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/atomstack-p1/01.webp",
+  "modelLine": "atomstack-p1",
+  "powerRating": "5W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-08",
+  "images": [
+    {
+      "src": "/machines/atomstack-p1/01.webp",
+      "alt": "AtomStack P1 5W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-p1/02.jpg",
+      "alt": "AtomStack P1 5W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-p1/03.jpg",
+      "alt": "AtomStack P1 5W laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-p1/04.jpg",
+      "alt": "AtomStack P1 5W laser engraver — Atomstack"
+    }
+  ]
+}

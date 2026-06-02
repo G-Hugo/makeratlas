@@ -1,0 +1,74 @@
+{
+  "tagline": "Poste galvo modulaire 2026 — échangez têtes diode, fibre, MOPA ou UV",
+  "tldr": "La Falcon T1 de Creality (lancement mondial mai 2026) est une plateforme galvo fermée Classe 1 avec modules WaveSync interchangeables : diode 20W/40W, fibre 20W, MOPA 60W et UV 5W. Achetez la base une fois, ajoutez les types de laser au fil de la croissance de l'atelier — rivalise avec xTool F1/F2 Ultra sur la flexibilité plutôt que sur les boîtiers double laser fixes.",
+  "mainObjective": "Galvo fermé modulaire pour les makers qui veulent un châssis et plusieurs types de laser",
+  "primaryUse": "Plateforme galvo modulaire 2026 pour les ateliers qui veulent élargir les types de laser sans remplacer toute la machine.",
+  "beginnerNotes": "Commencez avec le module diode si le bois/cuir représente 80 % du travail ; ajoutez la fibre quand les ventes métal le justifient. Comparez au xTool F1 Ultra fixe si vous savez que vous aurez besoin métal + bois dès le premier jour.",
+  "proTips": "Chiffrez la feuille de route complète des modules avant achat — T1 plus fibre et MOPA peut dépasser un bundle F2 Ultra unique.",
+  "bestFor": [
+    "Petite entreprise en croissance",
+    "Métal puis UV plus tard",
+    "Atelier fermé Classe 1",
+    "Montées en gamme par modules"
+  ],
+  "pros": [
+    "Véritable chemin de montée en gamme modulaire",
+    "Conception fermée Classe 1 intégrale",
+    "Couvre métal, organiques et UV dans un même écosystème",
+    "Support marque Creality Falcon"
+  ],
+  "cons": [
+    "Coût total qui monte vite avec les modules",
+    "Plateforme 2026 récente — peu de retours communautaires long terme",
+    "Plateau galvo plus petit que la Falcon 2 Pro ouverte",
+    "Temps d'arrêt au changement de module entre types de jobs"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois (diode)",
+      "Acier inoxydable (fibre/MOPA)",
+      "Plastiques (UV)",
+      "Cuir",
+      "Verre (module UV)"
+    ],
+    "cut": [
+      "Bois fin (modules diode)",
+      "Papier"
+    ],
+    "cannot": [
+      "Tous les modules à la fois — une tête installée",
+      "Signalétique CO₂ grand format",
+      "Prix structure ouverte budget"
+    ]
+  },
+  "priceRange": {
+    "note": "Base à partir de ~$2249 ; modules vendus séparément"
+  },
+  "moduleSystem": {
+    "headline": "Modules galvo WaveSync interchangeables",
+    "description": "Un châssis T1 fermé accepte les modules Creality diode (20W/40W), fibre (20W), MOPA (60W) et UV (5W) — une tête installée à la fois.",
+    "options": [
+      { "label": "Module diode 20W" },
+      { "label": "Module diode 40W" },
+      { "label": "Module fibre 20W" },
+      { "label": "Module MOPA 60W" },
+      { "label": "Module UV 5W" }
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Creality Falcon T1 — Creality" },
+    { "alt": "Graveuse laser Creality Falcon T1 — Creality" },
+    { "alt": "Graveuse laser Creality Falcon T1 — Creality" },
+    { "alt": "Graveuse laser Creality Falcon T1 — Creality" }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "commarker-omni-1-uv",
+  "slug": "commarker-omni-1-uv",
+  "name": "ComMarker Omni 1 UV",
+  "brand": "ComMarker",
+  "category": "laser-engraver",
+  "laserType": "uv",
+  "powerRating": "3W",
+  "modelLine": "commarker-omni-1",
+  "catalogPrimary": true,
+  "tagline": "Entry UV desktop engraver for glass and plastics",
+  "tldr": "ComMarker Omni 1 is the more compact UV line for makers entering glass and plastic marking. Same caveats as all UV: material testing, eye protection, and realistic speed expectations.",
+  "mainObjective": "Entry UV engraving for glass and plastic gifts",
+  "bestFor": [
+    "Glass gifts",
+    "Plastics",
+    "Hobby UV",
+    "Fine detail"
+  ],
+  "priceRange": {
+    "min": 1499,
+    "max": 2199,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "3W UV",
+    "workArea": "80 × 80 mm typical",
+    "software": [
+      "ComMarker",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–14 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.03 mm UV spot",
+        "maxSpeed": "2,500 mm/s",
+        "avgEngraveSpeed": "80–300 mm/s",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Glass",
+      "Plastics",
+      "Leather (light)",
+      "Paper"
+    ],
+    "cut": [],
+    "cannot": [
+      "Metal",
+      "Thick wood",
+      "Large CO₂-style cutting"
+    ]
+  },
+  "pros": [
+    "Lower entry price than Omni X",
+    "Compact",
+    "Good for glass gift niche"
+  ],
+  "cons": [
+    "Smaller work area",
+    "Slower production",
+    "Not for metal at all"
+  ],
+  "beginnerNotes": "Pair with a diode or CO₂ if you need wood/acrylic cutting — UV is specialized.",
+  "proTips": "Mask glass for crisp white marks. Ventilate — some plastics off-gas.",
+  "primaryUse": "Hobby and small-business UV marking on glass and plastics.",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.3,
+    "easeOfUse": 8.6,
+    "capability": 7.9,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "commarker-omni-x-uv"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/commarker-omni-1-uv/01.webp",
+  "images": [
+    {
+      "src": "/machines/commarker-omni-1-uv/01.webp",
+      "alt": "ComMarker Omni 1 UV laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-omni-1-uv/02.jpg",
+      "alt": "ComMarker Omni 1 UV laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-omni-1-uv/03.jpg",
+      "alt": "ComMarker Omni 1 UV laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-omni-1-uv/04.webp",
+      "alt": "ComMarker Omni 1 UV laser engraver — ComMarker"
+    }
+  ],
+  "releaseDate": "2024-06"
+}

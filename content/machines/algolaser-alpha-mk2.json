@@ -5,7 +5,7 @@
   "brand": "Algolaser",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/algolaser-alpha-mk2.jpg",
+  "image": "/machines/algolaser-alpha-mk2/01.webp",
   "tagline": "Premium open-frame diode focused on speed and fine engraving detail",
   "tldr": "Algolaser targets makers who want faster engraving and tighter spot control than typical budget diodes. The Alpha MK2 competes with Sculpfun and xTool D1 Pro on performance. Price sits above Ortur but below xTool on many configs.",
   "mainObjective": "Fast, detailed open-frame engraving for makers who outgrow entry-level diodes",
@@ -16,8 +16,8 @@
     "Light production"
   ],
   "priceRange": {
-    "min": 699,
-    "max": 999,
+    "min": 1029,
+    "max": 1329,
     "currency": "USD"
   },
   "specs": {
@@ -97,10 +97,31 @@
     "buildQuality": 8.3
   },
   "similarModels": [
-    "sculpfun-s30-ultra",
+    "sculpfun-s30-ultra-22w",
     "creality-falcon2-pro",
-    "xtool-d1-pro"
+    "xtool-s1-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-05-31",
+  "images": [
+    {
+      "src": "/machines/algolaser-alpha-mk2/01.webp",
+      "alt": "Algolaser Alpha MK2 laser engraver — Algolaser"
+    },
+    {
+      "src": "/machines/algolaser-alpha-mk2/02.jpg",
+      "alt": "Algolaser Alpha MK2 laser engraver — Algolaser"
+    },
+    {
+      "src": "/machines/algolaser-alpha-mk2/03.jpg",
+      "alt": "Algolaser Alpha MK2 laser engraver — Algolaser"
+    },
+    {
+      "src": "/machines/algolaser-alpha-mk2/04.jpg",
+      "alt": "Algolaser Alpha MK2 laser engraver — Algolaser"
+    }
+  ],
+  "modelLine": "algolaser-alpha-mk2",
+  "catalogHidden": true,
+  "releaseDate": "2024-03"
 }

@@ -14,8 +14,8 @@
     "Wood & leather"
   ],
   "priceRange": {
-    "min": 450,
-    "max": 750,
+    "min": 690,
+    "max": 690,
     "currency": "USD"
   },
   "specs": {
@@ -33,12 +33,12 @@
       "engraveExample": {
         "description": "Filled photo or logo on birch plywood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~8–12 min"
+        "time": "~12–18 min"
       },
       "cutExample": {
         "description": "Simple square cut-out from 3 mm basswood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~5–8 min"
+        "time": "~6–10 min"
       },
       "technical": {
         "spotSize": "~0.08 mm compressed beam",
@@ -99,7 +99,28 @@
     "xtool-d1-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/sculpfun-s30-ultra.jpg",
-  "mainObjective": "Strong diode cutting & engraving without CO₂ pricing"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/sculpfun-s30-ultra/01.webp",
+  "mainObjective": "Strong diode cutting & engraving without CO₂ pricing",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s30-ultra/01.webp",
+      "alt": "Sculpfun S30 Ultra laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra/02.jpg",
+      "alt": "Sculpfun S30 Ultra laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra/03.jpg",
+      "alt": "Sculpfun S30 Ultra laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra/04.jpg",
+      "alt": "Sculpfun S30 Ultra laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-s30-ultra",
+  "catalogHidden": true,
+  "releaseDate": "2023-03"
 }

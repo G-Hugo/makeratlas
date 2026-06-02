@@ -1,0 +1,53 @@
+{
+  "tagline": "Génération actuelle Atomstack A20 Pro — 20 W avec écosystème assistance air F60",
+  "tldr": "L’AtomStack A20 Pro V2 remplace l’ancienne A20 Pro avec des optiques mises à jour et des options de pack. Atomstack milieu de gamme entre P1 et A40 — bons détails, pas la classe de puissance la plus élevée.",
+  "mainObjective": "Atomstack 20 W dernière génération pour gravure fine et découpe modérée",
+  "primaryUse": "Diode Atomstack milieu de gamme pour travail détaillé.",
+  "beginnerNotes": "Achetez la V2 neuve — évitez de confondre avec des annonces d’occasion de l’A20 Pro originale.",
+  "proTips": "Le kit d’assistance air F60 est la montée en gamme la plus courante dans les avis.",
+  "bestFor": [
+    "Montées en gamme Atomstack",
+    "Travail détaillé 20 W",
+    "Utilisateurs assistance air F60"
+  ],
+  "pros": [
+    "Référence actuelle chez Atomstack",
+    "Châssis plus rigide que l’A5",
+    "Écosystème d’accessoires"
+  ],
+  "cons": [
+    "A20 Pro originale discontinuée",
+    "L’A40 existe pour plus de puissance",
+    "Structure ouverte"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique (foncé)"
+    ],
+    "cut": [
+      "Tilleul 5 mm"
+    ],
+    "cannot": [
+      "Découpe production 40 W",
+      "Transparence acrylique CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser AtomStack A20 Pro V2 — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A20 Pro V2 — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A20 Pro V2 — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A20 Pro V2 — Atomstack" }
+  ]
+}

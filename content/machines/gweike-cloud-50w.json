@@ -1,0 +1,117 @@
+{
+  "id": "gweike-cloud-50w",
+  "slug": "gweike-cloud-50w",
+  "name": "Gweike Cloud 50W",
+  "brand": "Gweike",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Gweike Cloud 50W CO₂ — compact desktop CO₂ with rotary option",
+  "tldr": "Gweike Cloud 50W is the lower-power Cloud CO₂ desktop cutter — acrylic, wood, and leather at a smaller price than Cloud 55W/Pro, still enclosed-class workflow with rotary bundles common.",
+  "mainObjective": "Entry Gweike Cloud CO₂ without 55W pricing",
+  "bestFor": [
+    "CO₂ beginners",
+    "Acrylic gifts",
+    "Small business crafts"
+  ],
+  "priceRange": {
+    "min": 1999,
+    "max": 2799,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "50W CO₂",
+    "workArea": "Verify Cloud 50W spec (~500 mm class)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "Acrylic and wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Acrylic",
+      "Wood",
+      "Leather",
+      "Glass (coated)"
+    ],
+    "cut": [
+      "Acrylic",
+      "Plywood",
+      "MDF"
+    ],
+    "cannot": [
+      "Metal cutting",
+      "Large-format production"
+    ]
+  },
+  "pros": [
+    "Enclosed CO₂ desk form",
+    "Rotary bundles",
+    "Gweike Cloud ecosystem"
+  ],
+  "cons": [
+    "50W slower than 55W/Pro",
+    "Ventilation still required",
+    "Premium vs diode"
+  ],
+  "beginnerNotes": "Plan exhaust — CO₂ always needs ventilation even on “desktop” units.",
+  "proTips": "Rotary Pro bundles are popular for tumblers — confirm included accessories.",
+  "primaryUse": "Desktop CO₂ cutting and engraving for crafts.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "gweike-cloud-55w",
+    "gweike-cloud-pro",
+    "monport-40w-co2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/gweike-cloud-50w/01.webp",
+  "catalogPrimary": true,
+  "releaseDate": "2023-08",
+  "images": [
+    {
+      "src": "/machines/gweike-cloud-50w/01.webp",
+      "alt": "Gweike Cloud 50W laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-cloud-50w/02.png",
+      "alt": "Gweike Cloud 50W laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-cloud-50w/03.jpg",
+      "alt": "Gweike Cloud 50W laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-cloud-50w/04.jpg",
+      "alt": "Gweike Cloud 50W laser engraver — Gweike"
+    }
+  ]
+}

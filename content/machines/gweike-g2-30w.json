@@ -1,0 +1,119 @@
+{
+  "id": "gweike-g2-30w",
+  "slug": "gweike-g2-30w",
+  "name": "Gweike G2 Pro 30W Fiber",
+  "brand": "Gweike",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "30W",
+  "tagline": "30W Desktop fiber marker for metal and select plastics",
+  "tldr": "Gweike G2 Pro 30W Fiber is the 30W SKU on the Gweike gweike g2 line. Gweike G2 packages a 20W fiber galvo in a desktop form factor. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Shop marking on metals, plastics, and coated parts with production-friendly speeds",
+  "bestFor": [
+    "Metal gifts",
+    "Plastics marking",
+    "Budget fiber",
+    "Small shop"
+  ],
+  "priceRange": {
+    "min": 1999,
+    "max": 2799,
+    "currency": "USD",
+    "note": "30W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "30W fiber",
+    "workArea": "110 × 110 mm",
+    "software": [
+      "EZCAD",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–7 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm spot",
+        "maxSpeed": "7,000 mm/s",
+        "avgEngraveSpeed": "500–2,000 mm/s marking",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum",
+      "Brass",
+      "ABS",
+      "Some coated metals"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)"
+    ],
+    "cannot": [
+      "Wood",
+      "Acrylic",
+      "Large panels"
+    ]
+  },
+  "pros": [
+    "Competitive fiber pricing",
+    "Known brand in maker CO₂ space",
+    "LightBurn path",
+    "Compact"
+  ],
+  "cons": [
+    "Smaller community than ComMarker for fiber",
+    "Verify warranty region",
+    "Accessories vary by bundle"
+  ],
+  "beginnerNotes": "Choose 30W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Use cross-hatch on curved items with rotary at low speed.",
+  "primaryUse": "Desktop fiber engraving for metal-focused side businesses.",
+  "rating": {
+    "overall": 8.3,
+    "value": 8.6,
+    "easeOfUse": 8.2,
+    "capability": 8.1,
+    "buildQuality": 8.2
+  },
+  "similarModels": [
+    "commarker-b4-20w",
+    "monport-gt-30w-fiber"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/gweike-g2-30w/01.webp",
+  "images": [
+    {
+      "src": "/machines/gweike-g2-30w/01.webp",
+      "alt": "Gweike G2 Pro 30W Fiber laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-g2-30w/02.png",
+      "alt": "Gweike G2 Pro 30W Fiber laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-g2-30w/03.jpg",
+      "alt": "Gweike G2 Pro 30W Fiber laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-g2-30w/04.jpg",
+      "alt": "Gweike G2 Pro 30W Fiber laser engraver — Gweike"
+    }
+  ],
+  "modelLine": "gweike-g2",
+  "releaseDate": "2024-01"
+}

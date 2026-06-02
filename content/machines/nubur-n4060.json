@@ -8,7 +8,7 @@
   "image": "/machines/nubur-n4060.svg",
   "tagline": "Large-format open-frame diode — big bed on a budget",
   "tldr": "NuBur N4060 emphasizes work area size at competitive pricing. Good for large wood engraves and sign panels within diode limits. Frame rigidity at max size may need attention for precision work.",
-  "mainObjective": "Large work area diode for big engravings on a budget",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
   "bestFor": [
     "Large engravings",
     "Sign panels",
@@ -28,18 +28,18 @@
       "engraveExample": {
         "description": "Filled photo or logo on birch plywood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~13–19 min"
+        "time": "~18–28 min"
       },
       "cutExample": {
         "description": "Simple square cut-out from 3 mm basswood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~7–11 min"
+        "time": "~9–15 min"
       },
       "technical": {
-        "spotSize": "~0.09 mm spot",
+        "spotSize": "~0.08 mm spot",
         "maxSpeed": "280 mm/s",
-        "avgEngraveSpeed": "65–140 mm/s fill",
-        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+        "avgEngraveSpeed": "18–38 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3 mm wood"
       }
     },
     "software": [
@@ -58,8 +58,8 @@
       "Anodized aluminum"
     ],
     "cut": [
-      "Basswood 3–6 mm",
-      "Black acrylic (thin)",
+      "Basswood (up to 8 mm)",
+      "Dark acrylic (up to 5 mm)",
       "Paper"
     ],
     "cannot": [
@@ -87,13 +87,21 @@
     "overall": 7.8,
     "value": 8.5,
     "easeOfUse": 7.5,
-    "capability": 7.8,
+    "capability": 7,
     "buildQuality": 7.2
   },
   "similarModels": [
     "ortur-laser-master-3",
     "algolaser-alpha-mk2"
   ],
-  "status": "published",
-  "lastUpdated": "2026-05-31"
+  "status": "archived",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/nubur-n4060.svg",
+      "alt": "NuBur N4060 laser engraver by NuBur"
+    }
+  ],
+  "modelLine": "nubur-n4060",
+  "releaseDate": "2023-07"
 }

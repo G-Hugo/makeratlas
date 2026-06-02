@@ -1,0 +1,53 @@
+{
+  "tagline": "Module de marquage fibre de bureau — IR 1064 nm sur plateforme Atomstack",
+  "tldr": "L’AtomStack A20 Pro 1064 nm est une variante fibre pour graver le métal sans banc galvo séparé. Catégorie de machine différente de la diode A20 Pro V2 — achetez-la pour le marquage métal, pas pour découper le bois.",
+  "mainObjective": "Marquage fibre de bureau pour cadeaux et outils en métal",
+  "primaryUse": "Marquage fibre pour personnalisation métal sur un empreinte bureau.",
+  "beginnerNotes": "Ne la confondez pas avec la diode A20 Pro V2 — machine totalement différente.",
+  "proTips": "Cherchez « 1064 nm » dans le titre de l’annonce pour confirmer la référence fibre.",
+  "bestFor": [
+    "Marquage métal",
+    "Bureau bijouterie",
+    "Focus métal Atomstack"
+  ],
+  "pros": [
+    "Marquage métal fibre dans l’écosystème Atomstack",
+    "Pas de spray sur de nombreux métaux",
+    "Compacte face aux fibres industrielles"
+  ],
+  "cons": [
+    "Ce n’est pas la diode A20",
+    "Petit champ de marquage",
+    "Dénomination confuse avec l’A20 Pro V2"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium",
+      "Laiton",
+      "Certains plastiques"
+    ],
+    "cut": [],
+    "cannot": [
+      "Découpe bois",
+      "Grand acrylique",
+      "Travail organique diode (autre référence)"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre — Atomstack" }
+  ]
+}

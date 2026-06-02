@@ -1,0 +1,62 @@
+﻿{
+  "tagline": "Flagship diode Sculpfun 2025 — classe 70 W sur le grand châssis S40/S70",
+  "tldr": "Le S70 MAX pousse le châssis série S de Sculpfun vers ~70 W optiques pour ateliers qui veulent une profondeur de découpe diode maximale sans CO₂. Même philosophie plateau surdimensionné que le S40 MAX — prix premium et espace atelier requis.",
+  "mainObjective": "Découpe grand format Sculpfun haut de gamme avec puissance diode maximale",
+  "primaryUse": "Sculpfun 2025 haute puissance pour découpe grand format et gravure à fort débit.",
+  "beginnerNotes": "Comparez l’Atomstack A70 Max et l’Acmer P3 avant achat — classe de puissance similaire, logiciels et communautés différents.",
+  "proTips": "Si vous n’avez pas besoin de 70 W au quotidien, le S40 MAX à 48 W offre souvent un meilleur rapport qualité-prix par watt.",
+  "bestFor": [
+    "Découpe lourde",
+    "Grands panneaux",
+    "Fidèles Sculpfun",
+    "Alternatives au CO₂"
+  ],
+  "pros": [
+    "Palier diode Sculpfun le plus élevé",
+    "Grand plateau pour enseignes et panneaux mobilier",
+    "Autofocus et contrôle TS1",
+    "Concurrent de l’Atomstack A70 sur le papier"
+  ],
+  "cons": [
+    "Marketing 70 W diode — vérifiez la sortie optique",
+    "Encombrement et poids très importants",
+    "Premium vs S40 MAX pour usage modéré",
+    "Ventilation structure ouverte requise"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Pierre",
+      "Céramique",
+      "Inox (avec spray)"
+    ],
+    "cut": [
+      "Tilleul épais",
+      "Acrylique foncé",
+      "Contreplaqué (multi-passes)",
+      "Tissu"
+    ],
+    "cannot": [
+      "Vrai acrylique transparent CO₂",
+      "Découpe métal industrielle",
+      "Bureaux compacts"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Sculpfun S70 MAX 70W — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S70 MAX 70W — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S70 MAX 70W — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S70 MAX 70W — Sculpfun" }
+  ]
+}

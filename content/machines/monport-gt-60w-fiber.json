@@ -1,0 +1,113 @@
+{
+  "id": "monport-gt-60w-fiber",
+  "slug": "monport-gt-60w-fiber",
+  "name": "Monport GT 60W MOPA Fiber",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "60W",
+  "tagline": "60W Split fiber laser engraver with autofocus from Monport",
+  "tldr": "Monport GT 60W MOPA Fiber is the 60W SKU on the Monport monport gt line. Monport GT 30W brings split-cabinet fiber marking with autofocus — useful for varying part heights. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Industrial marking and deep engraving on metals and engineered plastics",
+  "bestFor": [
+    "Mixed part heights",
+    "Production",
+    "Metal marking",
+    "Monport ecosystem"
+  ],
+  "priceRange": {
+    "min": 3799,
+    "max": 5199,
+    "currency": "USD",
+    "note": "60W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "60W fiber",
+    "workArea": "150 × 150 mm typical",
+    "software": [
+      "EZCAD",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–7 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm spot",
+        "maxSpeed": "7,000 mm/s",
+        "avgEngraveSpeed": "500–2,000 mm/s marking",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum",
+      "Brass",
+      "Plastics"
+    ],
+    "cut": [
+      "Basswood (up to 10 mm)"
+    ],
+    "cannot": [
+      "Wood shop work",
+      "Acrylic cutting"
+    ]
+  },
+  "pros": [
+    "Autofocus for varying heights",
+    "Monport support ecosystem",
+    "Split layout for production",
+    "MOPA tiers available"
+  ],
+  "cons": [
+    "Large footprint",
+    "Premium over entry galvo boxes",
+    "Still not a general laser cutter"
+  ],
+  "beginnerNotes": "Choose 60W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Calibrate autofocus on your most common part thickness.",
+  "primaryUse": "Production fiber marking with easier focus management across part sizes.",
+  "rating": {
+    "overall": 8.5,
+    "value": 8.3,
+    "easeOfUse": 8.4,
+    "capability": 8.3,
+    "buildQuality": 8.4
+  },
+  "similarModels": [
+    "gweike-g6-split-30w",
+    "commarker-b6-mopa-30w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/monport-gt-60w-fiber/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-gt-60w-fiber/01.webp",
+      "alt": "Monport GT 60W MOPA Fiber laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-gt-60w-fiber/02.webp",
+      "alt": "Monport GT 60W MOPA Fiber laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-gt-60w-fiber/03.webp",
+      "alt": "Monport GT 60W MOPA Fiber laser engraver — Monport"
+    }
+  ],
+  "modelLine": "monport-gt"
+}

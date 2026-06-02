@@ -1,0 +1,74 @@
+{
+  "tagline": "Diode ultra petit budget 10 W — qualité de châssis surprenante pour le prix",
+  "tldr": "La TwoTrees TTS-55 10 W est la version 10 W de la gamme TTS-55. TwoTrees sous-cote Atomstack et Ortur avec une plateforme diode utilisable. Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing « watts combinés ».",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "primaryUse": "Diode petit budget minimum pour expériences de gravure légère et découvrir le loisir.",
+  "beginnerNotes": "Choisissez le 10 W si ça correspond à vos usages habituels. Comparez profondeur de découpe et prix avec les autres gammes de la ligne avant de commander.",
+  "proTips": "Équerez le châssis avant la première gravure. Considérez la vitesse max annoncée comme théorique — commencez à 50 % pour les remplissages jusqu’à caler vos réglages.",
+  "bestFor": [
+    "Budget ultra serré",
+    "Premières expériences",
+    "Gravure légère",
+    "Propriétaires d’imprimantes 3D"
+  ],
+  "pros": [
+    "Parmi les prix les plus bas du marché",
+    "Châssis correct pour le coût",
+    "Compatible LightBurn",
+    "Upgrades de puissance modulaires",
+    "Bon complément si vous avez déjà une imprimante 3D TwoTrees"
+  ],
+  "cons": [
+    "Contrôle qualité inconstant entre lots",
+    "Communauté anglophone réduite",
+    "Label 40 W très marketing",
+    "Structure ouverte — sécurité entièrement à votre charge",
+    "Alignement parfois à ajuster à la sortie de boîte"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé (léger)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 5 mm)",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Découpes épaisses",
+      "Métal nu",
+      "Acrylique transparent",
+      "Production pro fiable"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 10 W — vérifiez le SKU avant d’acheter"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser TwoTrees TTS-55 10 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TTS-55 10 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TTS-55 10 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TTS-55 10 W — TwoTrees"
+    }
+  ]
+}

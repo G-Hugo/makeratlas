@@ -1,0 +1,65 @@
+{
+  "tagline": "Diode 20 W fermée avec caméra intégrée — réponse petit budget à la xTool S1",
+  "tldr": "Acmer regroupe diode 20 W fermée, aperçu caméra et assistance air dans un pack à moins de 800 USD. Les performances se situent entre les machines structure ouverte entrée de gamme et la xTool S1. À envisager si le prix xTool freine mais que vous voulez boîtier et caméra.",
+  "mainObjective": "Gravure fermée abordable avec alignement caméra pour makers à domicile",
+  "primaryUse": "Laser diode fermé petit budget pour gravure à domicile avec alignement assisté par caméra et découpe modérée de matériaux fins.",
+  "beginnerNotes": "Bonne alternative à la xTool S1 si le budget est le critère décisif. Comparez garantie et politique de retour avant l'achat — les marques récentes varient beaucoup.",
+  "proTips": "Utilisez la caméra pour le placement mais faites toujours des cartes test matériau. Améliorez l'évacuation si vous découpez souvent — les filtres intégrés s'encrassent plus vite qu'une évacuation vers l'extérieur.",
+  "bestFor": [
+    "Boîtier petit budget",
+    "Alignement par caméra",
+    "Utilisation en appartement",
+    "Gravure de cadeaux"
+  ],
+  "pros": [
+    "Boîtier + caméra à un prix inférieur à la xTool S1",
+    "Assistance air intégrée sur de nombreux packs",
+    "Grande zone de travail pour la classe fermée",
+    "Compatible LightBurn",
+    "Bon rapport qualité-prix pour makers en appartement"
+  ],
+  "cons": [
+    "Support de marque moins éprouvé que xTool",
+    "Logiciel moins mature",
+    "Toujours limité par la diode sur les matériaux",
+    "Qualité filtre/échappement variable selon le pack",
+    "Ressources communautaires de dépannage plus limitées"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé",
+      "Inox (avec spray)"
+    ],
+    "cut": [
+      "Tilleul 3–6 mm",
+      "Acrylique noir (fin)",
+      "Papier",
+      "Tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Production de niveau CO₂",
+      "Métal nu sans spray",
+      "Bois dur épais en une passe"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Acmer P3 — Acmer" },
+    { "alt": "Graveuse laser Acmer P3 — Acmer" },
+    { "alt": "Graveuse laser Acmer P3 — Acmer" },
+    { "alt": "Graveuse laser Acmer P3 — Acmer" }
+  ]
+}

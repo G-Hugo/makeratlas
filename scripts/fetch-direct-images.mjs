@@ -5,7 +5,7 @@ import path from "path";
 /** Direct product image URLs from manufacturer CDNs */
 const DIRECT_IMAGES = {
   "xtool-d1-pro":
-    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_d1pro20w_6738-20923.webp",
+    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/D1-Pro_1200x1200.webp",
   "xtool-s1":
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-baidituyingyong_us_pc_s1_20w_6738-20950.webp",
   "sculpfun-icube-pro":

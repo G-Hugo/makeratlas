@@ -1,0 +1,119 @@
+{
+  "id": "omtech-fc-105sat",
+  "slug": "omtech-fc-105sat",
+  "name": "OMTech FC-105SAT",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "tagline": "OMTech FC-105SAT — SAT variant of the FC-105 fiber cutter line",
+  "tldr": "OMTech FC-105SAT is a variant in the FC-105 fiber family with SAT configuration — same class as FC-105SA for sheet fiber cutting; compare specs on OMTech before choosing SA vs SAT vs T.",
+  "mainObjective": "FC-105 fiber cutting with SAT configuration",
+  "bestFor": [
+    "Metal cutting shops",
+    "OMTech fiber buyers comparing SKUs"
+  ],
+  "priceRange": {
+    "min": 5999,
+    "max": 9500,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "105W fiber",
+    "workArea": "Verify OMTech listing",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "Fiber cutting speeds per material"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Metal (marking modes)"
+    ],
+    "cut": [
+      "Stainless",
+      "Mild steel",
+      "Aluminum (limits)"
+    ],
+    "cannot": [
+      "Organic materials",
+      "CO₂ acrylic work"
+    ]
+  },
+  "pros": [
+    "FC-105 platform",
+    "OMTech documentation",
+    "Cutting-focused"
+  ],
+  "cons": [
+    "SKU confusion vs SA/T",
+    "Shop footprint",
+    "Professional setup"
+  ],
+  "beginnerNotes": "Compare FC-105SA, SAT, and T on OMTech — differences are configuration-specific.",
+  "proTips": "Get official spec PDF for assist gas and bed size before quoting jobs.",
+  "primaryUse": "Fiber sheet cutting in the FC-105 family.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "omtech-fc-105sa",
+    "omtech-fc105-fiber",
+    "omtech-fc-510-intelli"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/omtech-fc-105sat/01.webp",
+  "catalogPrimary": true,
+  "laserCapabilities": [
+    "fiber"
+  ],
+  "capabilityTags": [
+    "fiber"
+  ],
+  "releaseDate": "2024-07",
+  "images": [
+    {
+      "src": "/machines/omtech-fc-105sat/01.webp",
+      "alt": "OMTech FC-105SAT laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc-105sat/02.jpg",
+      "alt": "OMTech FC-105SAT laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc-105sat/03.jpg",
+      "alt": "OMTech FC-105SAT laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc-105sat/04.jpg",
+      "alt": "OMTech FC-105SAT laser engraver — OMTech"
+    }
+  ]
+}

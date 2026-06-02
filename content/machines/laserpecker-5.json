@@ -4,11 +4,11 @@
   "name": "LaserPecker 5",
   "brand": "LaserPecker",
   "category": "laser-engraver",
-  "laserType": "diode",
-  "image": "/machines/laserpecker-5.png",
+  "laserType": "hybrid",
+  "image": "/machines/laserpecker-5/01.webp",
   "tagline": "Latest portable LaserPecker with improved power and app workflow",
-  "tldr": "LaserPecker 5 continues the portable niche with better specs than LP4. Still a specialty tool for on-site small engraving — not your primary workshop machine.",
-  "mainObjective": "Portable engraving for events, travel, and small personalized gifts",
+  "tldr": "LaserPecker LP5 combines fiber and diode sources for metal marking plus organic engraving in one portable chassis. Specialty travel/event machine — not a full workshop replacement.",
+  "mainObjective": "Portable fiber + diode for on-site metal and wood engraving",
   "bestFor": [
     "Portable",
     "Events",
@@ -16,24 +16,24 @@
     "Small metal/wood gifts"
   ],
   "priceRange": {
-    "min": 1199,
-    "max": 1599,
+    "min": 2999,
+    "max": 3799,
     "currency": "USD"
   },
   "specs": {
-    "power": "10W+ diode (portable class)",
+    "power": "20W fiber + diode (dual source)",
     "workArea": "120 × 120 mm (extendable)",
     "performance": {
       "precision": "0.05 mm",
       "engraveExample": {
-        "description": "Filled photo or logo on birch plywood",
+        "description": "Filled logo on stainless steel plate",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~15–22 min"
+        "time": "~3–6 min"
       },
       "cutExample": {
-        "description": "Laser cutting",
-        "size": "—",
-        "time": "Not a cutter"
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~15–22 min"
       },
       "technical": {
         "spotSize": "~0.1 mm portable spot",
@@ -96,5 +96,51 @@
     "longer-ray5"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/laserpecker-5/01.webp",
+      "alt": "LaserPecker 5 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-5/02.jpg",
+      "alt": "LaserPecker 5 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-5/03.jpg",
+      "alt": "LaserPecker 5 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-5/04.jpg",
+      "alt": "LaserPecker 5 laser engraver — LaserPecker"
+    }
+  ],
+  "powerRating": "20W",
+  "catalogPrimary": true,
+  "moduleSystem": {
+    "style": "dual-laser",
+    "headline": "Portable fiber + diode",
+    "description": "LP5 packs fiber and diode for travel engraving. Hybrid dual-source — not the same as S1 head swapping.",
+    "options": [
+      {
+        "power": "20W",
+        "laserKind": "fiber",
+        "label": "20W fiber"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "fiber",
+    "diode"
+  ],
+  "capabilityTags": [
+    "fiber",
+    "diode"
+  ],
+  "releaseDate": "2024-10"
 }

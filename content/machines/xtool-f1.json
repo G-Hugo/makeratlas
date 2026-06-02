@@ -5,7 +5,7 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "hybrid",
-  "image": "/machines/xtool-f1.jpg",
+  "image": "/machines/xtool-f1/01.webp",
   "tagline": "Original compact fiber + diode — metal marking in a portable box",
   "tldr": "The F1 started the compact dual-laser category. Slower than F1 Ultra but often cheaper on sale. Still a metal-marking specialist with small bed — not a general workshop laser.",
   "mainObjective": "Compact metal marking plus light diode engraving for small items",
@@ -95,5 +95,50 @@
     "xtool-f2-ultra"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/xtool-f1/01.webp",
+      "alt": "xTool F1 laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-f1/02.webp",
+      "alt": "xTool F1 laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-f1/03.jpg",
+      "alt": "xTool F1 laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-f1/04.webp",
+      "alt": "xTool F1 laser engraver — xTool"
+    }
+  ],
+  "powerRating": "10W",
+  "moduleSystem": {
+    "style": "dual-laser",
+    "headline": "Compact dual-source engraver",
+    "description": "F1 combines 10W fiber marking with 10W diode engraving. Different product class from modular S1 heads.",
+    "options": [
+      {
+        "power": "10W",
+        "laserKind": "fiber",
+        "label": "10W fiber"
+      },
+      {
+        "power": "10W",
+        "laserKind": "diode",
+        "label": "10W diode"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "fiber",
+    "diode"
+  ],
+  "capabilityTags": [
+    "fiber",
+    "diode"
+  ],
+  "releaseDate": "2023-04"
 }

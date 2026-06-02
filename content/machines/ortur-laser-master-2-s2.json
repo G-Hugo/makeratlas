@@ -1,0 +1,117 @@
+{
+  "id": "ortur-laser-master-2-s2",
+  "slug": "ortur-laser-master-2-s2",
+  "name": "Ortur Laser Master 2 S2",
+  "brand": "Ortur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Budget Ortur LM2 S2 line — 5W and 10W open-frame engravers",
+  "tldr": "Ortur LM2 S2 is the successor to the classic LM2 Pro — faster motion and updated electronics on the same budget open-frame idea. Superseded by LM3/H20 for most buyers but still common second-hand.",
+  "mainObjective": "Entry Ortur engraving on a tight budget",
+  "bestFor": [
+    "First laser",
+    "Learning LightBurn",
+    "Small gifts"
+  ],
+  "priceRange": {
+    "min": 199,
+    "max": 399,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "5W or 10W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Paper",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "2–3 mm basswood (10W)"
+    ],
+    "cannot": [
+      "Metal cutting",
+      "Fast production",
+      "Enclosed safety"
+    ]
+  },
+  "pros": [
+    "Low cost",
+    "Large community",
+    "LightBurn compatible"
+  ],
+  "cons": [
+    "Open frame",
+    "Older than LM3/H20",
+    "Limited vendor stock new"
+  ],
+  "beginnerNotes": "Compare used price vs a new Ortur H20 or LM3 before buying.",
+  "proTips": "Firmware and frame stiffening mods are well documented on forums.",
+  "primaryUse": "Budget hobby engraving and light cutting.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "ortur-laser-master-2-pro",
+    "ortur-laser-master-3-10w",
+    "ortur-h20-10w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/ortur-laser-master-2-s2/01.webp",
+  "modelLine": "ortur-lm2-s2",
+  "catalogHidden": true,
+  "releaseDate": "2022-01",
+  "images": [
+    {
+      "src": "/machines/ortur-laser-master-2-s2/01.webp",
+      "alt": "Ortur LM2 S2 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-2-s2/02.webp",
+      "alt": "Ortur LM2 S2 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-2-s2/03.webp",
+      "alt": "Ortur LM2 S2 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-2-s2/04.webp",
+      "alt": "Ortur LM2 S2 10W laser engraver — Ortur"
+    }
+  ]
+}

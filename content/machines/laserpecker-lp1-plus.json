@@ -1,0 +1,112 @@
+{
+  "id": "laserpecker-lp1-plus",
+  "slug": "laserpecker-lp1-plus",
+  "name": "LaserPecker LP1 Plus",
+  "brand": "LaserPecker",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "LaserPecker LP1 Plus — pocket engraver step above LP1 Pro",
+  "tldr": "LaserPecker LP1 Plus sits between LP1 Pro and LP2 in the pocket line — still ultra-compact, app-first, for jewelry-scale and travel engraving rather than sheet goods.",
+  "mainObjective": "Compact LaserPecker for maximum portability",
+  "bestFor": [
+    "Travel",
+    "Jewelry-scale",
+    "Beginner gifts"
+  ],
+  "priceRange": {
+    "min": 299,
+    "max": 449,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "5W diode",
+    "workArea": "~100 × 100 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Plastic",
+      "Some metals (coated)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Large work",
+      "Production cutting"
+    ]
+  },
+  "pros": [
+    "Smallest LaserPecker tier",
+    "Simple app",
+    "Gift-friendly"
+  ],
+  "cons": [
+    "Low power vs LP3/4/5",
+    "Tiny field",
+    "Older SKU"
+  ],
+  "beginnerNotes": "Buy LP3 or LP4 if you want current-generation optics and speed.",
+  "proTips": "Third-party stands help stability vs pure handheld mode.",
+  "primaryUse": "Pocket engraving and learning on LaserPecker.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "laserpecker-lp1-pro",
+    "laserpecker-lp2-classic",
+    "laserpecker-lp3"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/laserpecker-lp1-plus/01.webp",
+  "releaseDate": "2022-03",
+  "images": [
+    {
+      "src": "/machines/laserpecker-lp1-plus/01.webp",
+      "alt": "LaserPecker LP1 Plus laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp1-plus/02.webp",
+      "alt": "LaserPecker LP1 Plus laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp1-plus/03.webp",
+      "alt": "LaserPecker LP1 Plus laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp1-plus/04.webp",
+      "alt": "LaserPecker LP1 Plus laser engraver — LaserPecker"
+    }
+  ]
+}

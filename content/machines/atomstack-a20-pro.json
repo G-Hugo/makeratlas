@@ -5,7 +5,7 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/atomstack-a20-pro.jpg",
+  "image": "/machines/atomstack-a20-pro/01.webp",
   "tagline": "Mid-tier Atomstack with compressed beam — sweet spot between A5 and A40",
   "tldr": "The A20 Pro sits in Atomstack's lineup between budget A5 and flagship A40. Strong engraving detail with a more rigid frame than entry models. A sensible upgrade path if A5 feels slow but A40 is over budget.",
   "mainObjective": "Mid-range Atomstack for detailed engraving & reliable thin-wood cutting",
@@ -16,7 +16,7 @@
     "Light cutting"
   ],
   "priceRange": {
-    "min": 549,
+    "min": 329,
     "max": 799,
     "currency": "USD"
   },
@@ -100,5 +100,24 @@
     "sculpfun-s30-ultra"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/atomstack-a20-pro/01.webp",
+      "alt": "Atomstack A20 Pro laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a20-pro/02.jpg",
+      "alt": "Atomstack A20 Pro laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a20-pro/03.jpg",
+      "alt": "Atomstack A20 Pro laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a20-pro/04.jpg",
+      "alt": "Atomstack A20 Pro laser engraver — Atomstack"
+    }
+  ],
+  "powerRating": "20W"
 }

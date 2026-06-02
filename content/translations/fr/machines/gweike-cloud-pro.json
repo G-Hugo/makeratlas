@@ -1,0 +1,61 @@
+{
+  "tagline": "CO₂ de bureau connecté au cloud — populaire dans les communautés makers",
+  "tldr": "Le Gweike Cloud Pro offre une découpe CO₂ enceinte fermée avec fonctions cloud et un prix compétitif vs le xTool P2. Bon CO₂ milieu-premium si vous voulez LightBurn et le support communautaire. Vérifiez la garantie locale avant achat.",
+  "mainObjective": "CO₂ enceinte connecté pour travail acrylique et bois petite entreprise",
+  "primaryUse": "CO₂ enceinte milieu-premium pour entreprises produits acrylique et bois.",
+  "beginnerNotes": "Comparez directement avec le Monport 55W et le xTool P2 sur prix, taille de plateau et garantie dans votre pays.",
+  "proTips": "Utilisez LightBurn pour les jobs de production même si l'interface cloud est pratique pour les tests.",
+  "bestFor": [
+    "Fabricants d'enseignes",
+    "Utilisateurs du flux cloud",
+    "CO₂ milieu-premium",
+    "Production Etsy"
+  ],
+  "pros": [
+    "Solide rapport qualité-prix CO₂ enceinte",
+    "Compatible LightBurn",
+    "Communauté utilisateurs active",
+    "Plateau de taille correcte"
+  ],
+  "cons": [
+    "Fonctions cloud pas pour tout le monde",
+    "Moins abouti que le xTool P2",
+    "Ventilation toujours requise",
+    "Support variable selon la région"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Caoutchouc"
+    ],
+    "cut": [
+      "Acrylique jusqu'à ~12 mm",
+      "Bois jusqu'à ~15 mm",
+      "Cuir"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Sans installation ventilation",
+      "Usage silencieux en appartement"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l'acrylique 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Gweike Cloud Pro — Gweike" },
+    { "alt": "Graveuse laser Gweike Cloud Pro — Gweike" },
+    { "alt": "Graveuse laser Gweike Cloud Pro — Gweike" },
+    { "alt": "Graveuse laser Gweike Cloud Pro — Gweike" }
+  ]
+}

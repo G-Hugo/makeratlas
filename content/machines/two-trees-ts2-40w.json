@@ -1,0 +1,125 @@
+{
+  "id": "two-trees-ts2-40w",
+  "slug": "two-trees-ts2-40w",
+  "name": "TwoTrees TS2 40W",
+  "brand": "TwoTrees",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/two-trees-ts2-40w/01.webp",
+  "tagline": "40W TwoTrees' popular TS2 platform — 20W open-frame with active community",
+  "tldr": "TwoTrees TS2 40W is the 40W SKU on the TwoTrees two trees ts2 line. The TS2 20W is one of TwoTrees' best-known laser lines — often compared to Ortur and Sculpfun at aggressive sale prices. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "bestFor": [
+    "Budget 20W",
+    "TwoTrees ecosystem",
+    "Wood engraving",
+    "Sale hunters"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 549,
+    "currency": "USD",
+    "note": "40W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "40W diode",
+    "workArea": "410 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Offline SD (model dependent)"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.09 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "70–150 mm/s fill",
+        "avgCutSpeed": "4–11 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood (up to 10 mm)",
+      "Dark acrylic (up to 5 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "CO₂ production work",
+      "Guaranteed premium support"
+    ]
+  },
+  "pros": [
+    "Aggressive sale pricing",
+    "Full-size work area",
+    "LightBurn compatible",
+    "Upgrade kits (rotary, extension) available",
+    "Active TwoTrees owner groups"
+  ],
+  "cons": [
+    "Support less consistent than Ortur/xTool",
+    "Open frame safety",
+    "Unit-to-unit variance reported",
+    "Documentation can lag firmware updates",
+    "TS2 40W Max may be better value when on sale"
+  ],
+  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "TwoTrees bundles (honeycomb + air assist) often beat buying parts separately — check official store bundles before checkout.",
+  "primaryUse": "Budget 20W TwoTrees platform for hobby engraving and moderate thin-wood cutting.",
+  "rating": {
+    "overall": 8,
+    "value": 8.6,
+    "easeOfUse": 7.8,
+    "capability": 9.4,
+    "buildQuality": 7.7
+  },
+  "similarModels": [
+    "twotrees-tts-55",
+    "two-trees-tts-55-pro",
+    "ortur-laser-master-3-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/two-trees-ts2-40w/01.webp",
+      "alt": "TwoTrees TS2 40W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/two-trees-ts2-40w/02.jpg",
+      "alt": "TwoTrees TS2 40W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/two-trees-ts2-40w/03.jpg",
+      "alt": "TwoTrees TS2 40W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/two-trees-ts2-40w/04.jpg",
+      "alt": "TwoTrees TS2 40W laser engraver — TwoTrees"
+    }
+  ],
+  "modelLine": "two-trees-ts2",
+  "powerRating": "40W"
+}

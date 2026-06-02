@@ -1,0 +1,108 @@
+{
+  "id": "laserpecker-lp2-classic",
+  "slug": "laserpecker-lp2-classic",
+  "name": "LaserPecker LP2",
+  "brand": "LaserPecker",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Classic handheld LaserPecker LP2 — portable diode engraver",
+  "tldr": "LaserPecker LP2 Classic is the earlier portable LP line before LP2 Plus — app-driven, small work area, ideal for tags and phone-case scale jobs, not workshop production.",
+  "mainObjective": "Portable LaserPecker engraving away from a full frame",
+  "bestFor": [
+    "Portability",
+    "Small items",
+    "Gift personalization"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 599,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "5W diode",
+    "workArea": "~100 × 100 mm (verify)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Anodized aluminum (light)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Large signs",
+      "Deep cutting",
+      "High throughput"
+    ]
+  },
+  "pros": [
+    "Truly portable",
+    "LaserPecker app workflow",
+    "Low footprint"
+  ],
+  "cons": [
+    "Small bed",
+    "Superseded by LP2 Plus/3/4",
+    "Premium $/capability"
+  ],
+  "beginnerNotes": "Compare LP2 Plus if buying new — more power and desktop use.",
+  "proTips": "Use the preview camera workflow — alignment is everything on handheld units.",
+  "primaryUse": "Portable personalization and small engraves.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "laserpecker-lp2-plus-10w",
+    "laserpecker-lp1-pro",
+    "laserpecker-lp3"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/laserpecker-lp2-classic/01.webp",
+  "releaseDate": "2021-09",
+  "images": [
+    {
+      "src": "/machines/laserpecker-lp2-classic/01.webp",
+      "alt": "LaserPecker LP2 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp2-classic/02.jpg",
+      "alt": "LaserPecker LP2 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp2-classic/03.jpg",
+      "alt": "LaserPecker LP2 laser engraver — LaserPecker"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "xtool-d1-pro-20w",
+  "slug": "xtool-d1-pro-20w",
+  "name": "xTool D1 Pro 20W",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "20W The most popular open-frame diode laser for makers who outgrow entry-level machines",
+  "tldr": "xTool D1 Pro 20W is the 20W SKU on the xTool xtool d1 pro line. A well-built open-frame diode laser available up to 20W. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "bestFor": [
+    "Hobbyists",
+    "Wood & leather engraving",
+    "Learning lasers",
+    "Gift personalization"
+  ],
+  "priceRange": {
+    "min": 699,
+    "max": 899,
+    "currency": "USD",
+    "note": "20W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "430 × 390 mm (16.9 × 15.4 in)",
+    "software": [
+      "xTool Creative Space",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~11–15 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–9 min"
+      },
+      "technical": {
+        "spotSize": "~0.07 mm spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "22–49 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless steel (with coating spray)",
+      "Ceramic"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "Dark acrylic (up to 5 mm)",
+      "Paper",
+      "Fabric",
+      "Felt"
+    ],
+    "cannot": [
+      "Clear acrylic cutting (diode light passes through)",
+      "Thick hardwood in one pass",
+      "Bare metal without marking spray",
+      "Glass (engraving only with specialized methods)"
+    ]
+  },
+  "pros": [
+    "Large work area for the price",
+    "Modular power upgrades (start 10W, move to 20W)",
+    "Strong software support and community tutorials",
+    "Good build quality vs. cheaper Chinese diodes",
+    "LightBurn compatible for advanced users"
+  ],
+  "cons": [
+    "Open frame — you must wear laser safety glasses and supervise operation",
+    "20W still cannot match CO₂ for acrylic and thick cuts",
+    "Slower on large fill engravings compared to CO₂",
+    "Air assist and enclosure sold separately",
+    "Diode spot size limits ultra-fine detail vs. fiber/UV"
+  ],
+  "beginnerNotes": "Choose 20W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Use air assist and a honeycomb bed for cleaner cuts. For metal marking, use LaserBond or Brilliance spray — results vary by coating. Upgrade to steel wheel risers if you engrave tumblers or cylindrical objects.",
+  "primaryUse": "General-purpose hobby engraving on wood, leather, and coated metals, with light cutting of thin wood and dark acrylic.",
+  "rating": {
+    "overall": 8.7,
+    "value": 8.5,
+    "easeOfUse": 8.8,
+    "capability": 8,
+    "buildQuality": 8.8
+  },
+  "similarModels": [
+    "ortur-laser-master-3",
+    "sculpfun-s30-ultra",
+    "creality-falcon2-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/xtool-d1-pro-20w/01.webp",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "images": [
+    {
+      "src": "/machines/xtool-d1-pro-20w/01.webp",
+      "alt": "xTool D1 Pro 20W laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-d1-pro-20w/02.webp",
+      "alt": "xTool D1 Pro 20W laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-d1-pro-20w/03.webp",
+      "alt": "xTool D1 Pro 20W laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-d1-pro-20w/04.webp",
+      "alt": "xTool D1 Pro 20W laser engraver — xTool"
+    }
+  ],
+  "modelLine": "xtool-d1-pro",
+  "powerRating": "20W",
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Swappable diode modules on D1 Pro frame",
+    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need — same rail and software as other D1 Pro heads.",
+    "options": [
+      {
+        "power": "5W",
+        "laserKind": "diode",
+        "label": "5W diode",
+        "tierSlug": "xtool-d1-pro-5w"
+      },
+      {
+        "power": "10W",
+        "laserKind": "diode",
+        "label": "10W diode",
+        "tierSlug": "xtool-d1-pro-10w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "xtool-d1-pro-20w"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W module",
+        "tierSlug": "xtool-d1-pro-40w"
+      }
+    ]
+  },
+  "releaseDate": "2022-06"
+}

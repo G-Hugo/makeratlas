@@ -1,0 +1,44 @@
+{
+  "tagline": "Gamme Acmer P1 structure ouverte — références 10 W et 20 W",
+  "tldr": "Page regroupant les graveuses laser Acmer P1. Choisissez la puissance 10 W ou 20 W pour comparer prix et performances.",
+  "mainObjective": "Comparer les puissances disponibles sur la gamme Acmer P1",
+  "primaryUse": "Index de la gamme Acmer P1.",
+  "beginnerNotes": "Consultez les fiches 10 W ou 20 W ci-dessous.",
+  "proTips": "Vérifiez la puissance optique réelle sur l'annonce produit.",
+  "bestFor": [
+    "Acheteurs Acmer à petit budget"
+  ],
+  "pros": [
+    "Gamme entrée de gamme Acmer"
+  ],
+  "cons": [
+    "Choisir un niveau de puissance"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois"
+    ],
+    "cut": [
+      "Bois"
+    ],
+    "cannot": [
+      "—"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Acmer P1 10 W — Acmer" },
+    { "alt": "Graveuse laser Acmer P1 10 W — Acmer" },
+    { "alt": "Graveuse laser Acmer P1 10 W — Acmer" },
+    { "alt": "Graveuse laser Acmer P1 10 W — Acmer" }
+  ]
+}

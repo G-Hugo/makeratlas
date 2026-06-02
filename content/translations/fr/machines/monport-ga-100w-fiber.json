@@ -1,0 +1,53 @@
+{
+  "tagline": "Monport GA 100 W MOPA — gravure métal profonde et effets couleur",
+  "tldr": "Le Monport GA 100 W MOPA cible les ateliers de gravure métal sérieux nécessitant marques profondes et couleur sur inox. Prix et encombrement industriels — pas un galvo bureau classe B4.",
+  "mainObjective": "Fibre MOPA haute puissance pour gravure profonde et travail couleur sur métal",
+  "primaryUse": "Fibre MOPA de production pour gravure métal profonde et couleur.",
+  "beginnerNotes": "Comparez la gamme GT 30–60 W split fibre si vous avez besoin d’un encombrement plus petit.",
+  "proTips": "Confirmez la source MOPA et la taille de lentille de champ pour vos pièces.",
+  "bestFor": [
+    "Gravure métal profonde",
+    "Couleur MOPA",
+    "Marquage production",
+    "Loisirs industriels"
+  ],
+  "pros": [
+    "Classe MOPA 100 W",
+    "Effets métal 3D profonds",
+    "Support Monport"
+  ],
+  "cons": [
+    "Très cher",
+    "Système volumineux",
+    "Surdimensionné pour médailles seules"
+  ],
+  "materials": {
+    "engrave": [
+      "Inox (couleur)",
+      "Acier",
+      "Aluminium",
+      "Métaux en relief profond"
+    ],
+    "cut": [],
+    "cannot": [
+      "Bois",
+      "Découpe acrylique",
+      "Budget bijoux bureau uniquement"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Monport GA 100W MOPA Fiber — Monport" },
+    { "alt": "Graveuse laser Monport GA 100W MOPA Fiber — Monport" },
+    { "alt": "Graveuse laser Monport GA 100W MOPA Fiber — Monport" }
+  ]
+}

@@ -1,0 +1,55 @@
+﻿{
+  "tagline": "Pro Max 20 W Sculpfun — structure ouverte éprouvé avant le refresh Ultra",
+  "tldr": "Le S30 Pro Max 20 W est l’structure ouverte haute puissance antérieur de Sculpfun. Toujours capable pour bois et cuir ; l’Ultra 22 W/33 W l’a remplacé pour les nouveaux acheteurs, mais les unités d’occasion restent populaires.",
+  "mainObjective": "Sculpfun 20 W structure ouverte pour gravure et découpe",
+  "primaryUse": "Cheval de bataille Sculpfun 20 W pour gravure et découpe loisir.",
+  "beginnerNotes": "Comparez un S30 Pro Max d’occasion vs un S30 Ultra 22 W neuf avant d’acheter.",
+  "proTips": "Assistance air et plateau alvéolé valent le coup dès le premier jour.",
+  "bestFor": [
+    "Communauté Sculpfun",
+    "Découpe 20 W",
+    "Marché d’occasion"
+  ],
+  "pros": [
+    "Immense communauté Sculpfun",
+    "Grand plateau",
+    "LightBurn",
+    "Souvent remisé d’occasion"
+  ],
+  "cons": [
+    "Dépassé par le S30 Ultra",
+    "Structure ouverte",
+    "20 W n’est plus la puissance Sculpfun la plus récente"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique (foncé)"
+    ],
+    "cut": [
+      "Tilleul 5 mm",
+      "Acrylique fin"
+    ],
+    "cannot": [
+      "Fonctions Ultra les plus récentes",
+      "Contrôle fumée fermé"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Sculpfun S30 Pro Max 20W — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S30 Pro Max 20W — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S30 Pro Max 20W — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S30 Pro Max 20W — Sculpfun" }
+  ]
+}

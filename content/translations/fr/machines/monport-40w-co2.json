@@ -1,0 +1,60 @@
+{
+  "tagline": "Alternative classe K40 avec qualité de fabrication et support Monport",
+  "tldr": "Le CO₂ bureau 40 W de Monport se situe aux côtés de la classe OMTech K40 avec souvent une meilleure expérience sortie de boîte. CO₂ d’entrée pour acrylique et bois. Ventilation et apprentissage restent nécessaires.",
+  "mainObjective": "Découpe CO₂ d’entrée avec moins de mods obligatoires qu’un K40 classique",
+  "primaryUse": "CO₂ bureau petit budget pour apprendre la découpe acrylique et bois.",
+  "beginnerNotes": "Comparez avec OMTech 40 W sur le prix et la taille du plateau. Les deux exigent une planification d’évacuation.",
+  "proTips": "Améliorez le ventilateur d’évacuation tôt. Gardez les miroirs propres en réserve.",
+  "bestFor": [
+    "Premier CO₂",
+    "Alternative K40",
+    "Loisir acrylique",
+    "CO₂ petit budget"
+  ],
+  "pros": [
+    "Meilleur contrôle qualité que les clones K40 les moins chers",
+    "Prêt pour LightBurn",
+    "Chemin de montée vers Monport 55 W",
+    "Bon rapport qualité-prix CO₂ d’entrée"
+  ],
+  "cons": [
+    "Petite zone de travail",
+    "Ventilation obligatoire",
+    "Entretien refroidissement eau",
+    "Non enceint"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Caoutchouc"
+    ],
+    "cut": [
+      "Acrylique jusqu’à ~8 mm",
+      "Bois jusqu’à ~8 mm",
+      "Cuir"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Grands panneaux (petit plateau)",
+      "Plug-and-play sans apprentissage"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Monport 40W CO₂ — Monport" },
+    { "alt": "Graveuse laser Monport 40W CO₂ — Monport" },
+    { "alt": "Graveuse laser Monport 40W CO₂ — Monport" }
+  ]
+}

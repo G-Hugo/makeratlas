@@ -1,0 +1,129 @@
+{
+  "id": "atomstack-a70-max",
+  "slug": "atomstack-a70-max",
+  "name": "AtomStack A70 Max",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "70–77W CoS-packaged diode — 850×800 mm flagship Atomstack cutter",
+  "tldr": "AtomStack A70 Max brings 70–77W compressed diode power to an 850×800 mm frame with auto-focus, touchscreen, and claims of 25 mm wood in one pass. Popular 2024–2025 upgrade path for makers outgrowing A40 Pro — still open-frame, not enclosed.",
+  "mainObjective": "Maximum Atomstack diode power for large panels and deep wood cuts",
+  "bestFor": [
+    "Large signs",
+    "Deep wood cuts",
+    "Atomstack ecosystem",
+    "CO₂ alternative"
+  ],
+  "priceRange": {
+    "min": 1999,
+    "max": 2499,
+    "currency": "USD",
+    "note": "35W module option on some SKUs"
+  },
+  "specs": {
+    "power": "70–77W diode (35–39W module optional)",
+    "workArea": "850 × 800 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL",
+      "AtomStack Studio"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi",
+      "Touch screen"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "technical": {
+        "spotSize": "0.12 × 0.18 mm (70W) / 0.08 × 0.12 mm (35W)",
+        "maxSpeed": "400 mm/s (24,000 mm/min)",
+        "avgEngraveSpeed": "100–200 mm/s fill",
+        "avgCutSpeed": "10–20 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "304 stainless (mirror, settings-dependent)",
+      "Glass",
+      "Ceramics",
+      "Acrylic (dark)"
+    ],
+    "cut": [
+      "25–28 mm wood (claimed)",
+      "26 mm acrylic (claimed)",
+      "Thin steel plate",
+      "Basswood"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Compact apartments without ventilation",
+      "True fiber metal depth"
+    ]
+  },
+  "pros": [
+    "Among the strongest desktop diode packages",
+    "Huge work area with 0.01 mm engraving spec",
+    "Auto-focus + manual focus",
+    "Interchangeable 35W / 70W modules"
+  ],
+  "cons": [
+    "Heavy (~19 kg) — needs sturdy table",
+    "Premium price vs S40 MAX",
+    "Open frame and flame monitoring still your responsibility",
+    "Marketing pass claims need your own material tests"
+  ],
+  "beginnerNotes": "Not a first laser — buy after you've outgrown 20–40W. Compare Sculpfun S70 MAX and enclosed Acmer P3 if smoke control matters.",
+  "proTips": "Plan enclosure and exhaust before ordering — community designs exist for A70 footprint.",
+  "primaryUse": "Large-format high-power diode for production-style wood and acrylic cutting plus detailed engraving.",
+  "rating": {
+    "overall": 8.8,
+    "value": 8.4,
+    "easeOfUse": 8.3,
+    "capability": 9.2,
+    "buildQuality": 8.7
+  },
+  "similarModels": [
+    "sculpfun-s70-max-70w",
+    "sculpfun-s40-max-48w",
+    "atomstack-x30-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/atomstack-a70-max/01.webp",
+  "images": [
+    {
+      "src": "/machines/atomstack-a70-max/01.webp",
+      "alt": "AtomStack A70 Max laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a70-max/02.jpg",
+      "alt": "AtomStack A70 Max laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a70-max/03.jpg",
+      "alt": "AtomStack A70 Max laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a70-max/04.jpg",
+      "alt": "AtomStack A70 Max laser engraver — Atomstack"
+    }
+  ],
+  "modelLine": "atomstack-a70-max",
+  "powerRating": "70W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-11"
+}

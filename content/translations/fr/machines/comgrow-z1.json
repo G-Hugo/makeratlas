@@ -1,0 +1,57 @@
+{
+  "tagline": "Diode Comgrow petit budget — souvent proposée en pack avec les imprimantes 3D",
+  "tldr": "La Z1 de Comgrow vise les débutants, souvent vendue aux côtés des imprimantes Ender 3D. Suffisante pour apprendre. Performances proches du segment Atomstack A5 — pas une machine de production durable.",
+  "mainObjective": "Entrée Comgrow la moins chère pour des essais de gravure légère",
+  "primaryUse": "Diode ultra-budget pour tester si le travail au laser vous intéresse.",
+  "beginnerNotes": "Correcte en bonus avec un achat d'imprimante 3D. En laser seul, mieux vaut économiser pour une Ortur LM3 si possible.",
+  "proTips": "Considérez-la comme des roues stabilisatrices — prévoyez une montée en gamme sous un an si vous vendez vos créations.",
+  "bestFor": [
+    "Packs Comgrow",
+    "Premiers essais",
+    "Gravure légère",
+    "Budget serré"
+  ],
+  "pros": [
+    "Prix très bas",
+    "Souvent en promo dans les bundles",
+    "Compatible LightBurn",
+    "Suffisante pour apprendre les bases"
+  ],
+  "cons": [
+    "Structure basique",
+    "Communauté plus petite qu'Ortur",
+    "Qualité variable selon les lots",
+    "Rapidement dépassée si le loisir devient sérieux"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise"
+    ],
+    "cut": [
+      "Tilleul fin 2–4 mm",
+      "Papier"
+    ],
+    "cannot": [
+      "Découpes épaisses",
+      "Métal nu",
+      "Production commerciale"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Comgrow Z1 — Comgrow" },
+    { "alt": "Graveuse laser Comgrow Z1 — Comgrow" },
+    { "alt": "Graveuse laser Comgrow Z1 — Comgrow" }
+  ]
+}

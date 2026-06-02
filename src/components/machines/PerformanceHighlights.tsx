@@ -1,50 +1,37 @@
+import type { Dictionary } from "@/i18n/dictionaries/types";
 import type { JobExample, MachinePerformance } from "@/types/machine";
+
+type MachineLabels = Dictionary["machine"];
 
 interface PerformanceHighlightsProps {
   performance: MachinePerformance;
   mainObjective: string;
-  variant?: "card" | "hero" | "compact";
+  labels: MachineLabels;
+  variant?: "hero" | "compact";
 }
 
 export function PerformanceHighlights({
   performance,
   mainObjective,
+  labels,
   variant = "hero",
 }: PerformanceHighlightsProps) {
+  const spotLabel = performance.technical.spotSize || performance.precision;
+
   if (variant === "compact") {
     return (
       <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-stone-600">
         <span>
-          <strong className="text-stone-800">Precision:</strong>{" "}
+          <strong className="text-stone-800">{labels.spotSize}:</strong> {spotLabel}
+        </span>
+        <span>
+          <strong className="text-stone-800">{labels.motionPrecision}:</strong>{" "}
           {performance.precision}
         </span>
         <span>
-          <strong className="text-stone-800">Engrave:</strong>{" "}
+          <strong className="text-stone-800">{labels.sampleEngrave}:</strong>{" "}
           {performance.engraveExample.time}
         </span>
-      </div>
-    );
-  }
-
-  if (variant === "card") {
-    return (
-      <div className="space-y-3">
-        <div className="rounded-lg border border-amber-200 bg-amber-50/80 px-3 py-2">
-          <p className="text-[10px] font-semibold uppercase tracking-wider text-amber-800">
-            Main objective
-          </p>
-          <p className="mt-0.5 text-sm font-medium leading-snug text-stone-900">
-            {mainObjective}
-          </p>
-        </div>
-        <div className="rounded-md border border-stone-200 bg-stone-50 px-2.5 py-2">
-          <p className="text-[10px] font-medium uppercase text-stone-500">
-            Engraving precision
-          </p>
-          <p className="text-sm font-bold text-stone-900">{performance.precision}</p>
-        </div>
-        <JobExampleBlock example={performance.engraveExample} kind="engrave" compact />
-        <JobExampleBlock example={performance.cutExample} kind="cut" compact />
       </div>
     );
   }
@@ -52,35 +39,39 @@ export function PerformanceHighlights({
   return (
     <section className="rounded-xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 shadow-sm">
       <p className="text-xs font-bold uppercase tracking-wider text-amber-800">
-        What this machine is for
+        {labels.performanceWhatFor}
       </p>
       <p className="mt-3 text-lg font-semibold leading-snug text-stone-900">
         {mainObjective}
       </p>
 
       <p className="mt-5 rounded-lg bg-white/80 px-3 py-2 text-xs text-stone-600">
-        <strong className="text-stone-800">Reference benchmark</strong> — same
-        job size on every machine so you can compare times fairly.
+        <strong className="text-stone-800">{labels.performanceBenchmark}</strong>{" "}
+        {labels.performanceBenchmarkBody}
       </p>
 
       <div className="mt-4 grid gap-4 sm:grid-cols-3">
         <div className="rounded-lg border border-amber-400 bg-amber-100/60 p-4 sm:col-span-1">
-          <p className="text-xs font-medium text-amber-900">Engraving precision</p>
-          <p className="mt-2 text-2xl font-bold text-stone-900">
-            {performance.precision}
-          </p>
-          <p className="mt-1 text-xs text-stone-600">
-            Lower = finer detail in your designs
+          <p className="text-xs font-medium text-amber-900">{labels.spotSize}</p>
+          <p className="mt-2 text-2xl font-bold text-stone-900">{spotLabel}</p>
+          <p className="mt-1 text-xs text-stone-600">{labels.precisionHint}</p>
+          <p className="mt-2 text-xs text-stone-500">
+            {labels.motionPrecision}: {performance.precision}
           </p>
         </div>
-        <JobExampleBlock example={performance.engraveExample} kind="engrave" />
-        <JobExampleBlock example={performance.cutExample} kind="cut" />
+        <JobExampleBlock
+          example={performance.engraveExample}
+          kind="engrave"
+          labels={labels}
+        />
+        <JobExampleBlock
+          example={performance.cutExample}
+          kind="cut"
+          labels={labels}
+        />
       </div>
 
-      <p className="mt-4 text-xs text-stone-500">
-        Times are estimates for the reference job above — your design complexity
-        and settings will change them.
-      </p>
+      <p className="mt-4 text-xs text-stone-500">{labels.performanceDisclaimer}</p>
     </section>
   );
 }
@@ -88,10 +79,12 @@ export function PerformanceHighlights({
 function JobExampleBlock({
   example,
   kind,
+  labels,
   compact = false,
 }: {
   example: JobExample;
   kind: "engrave" | "cut";
+  labels: MachineLabels;
   compact?: boolean;
 }) {
   const isNA =
@@ -99,9 +92,11 @@ function JobExampleBlock({
     example.time.toLowerCase().includes("not") ||
     example.time.toLowerCase().includes("use ") ||
     example.time.toLowerCase().includes("engraving-only") ||
-    example.time.toLowerCase().includes("n/a");
+    example.time.toLowerCase().includes("n/a") ||
+    example.time.toLowerCase().includes("pas de découpe") ||
+    example.time.toLowerCase().includes("gravure uniquement");
 
-  const label = kind === "engrave" ? "Sample engrave job" : "Sample cut job";
+  const label = kind === "engrave" ? labels.jobEngrave : labels.jobCut;
 
   if (compact) {
     return (
@@ -137,20 +132,24 @@ function JobExampleBlock({
   );
 }
 
-export function TechnicalSpecs({ performance }: { performance: MachinePerformance }) {
+export function TechnicalSpecs({
+  performance,
+  labels,
+}: {
+  performance: MachinePerformance;
+  labels: MachineLabels;
+}) {
   const { technical } = performance;
   return (
     <section className="mt-6 rounded-xl border border-stone-200 bg-stone-50 p-6">
-      <h2 className="text-lg font-bold text-stone-900">Pro / technical specs</h2>
-      <p className="mt-1 text-sm text-stone-500">
-        Raw numbers for experienced users comparing machines.
-      </p>
+      <h2 className="text-lg font-bold text-stone-900">{labels.technicalSpecs}</h2>
+      <p className="mt-1 text-sm text-stone-500">{labels.technicalSpecsBody}</p>
       <dl className="mt-4 grid gap-3 sm:grid-cols-2">
-        <TechRow label="Laser spot size" value={technical.spotSize} />
-        <TechRow label="Max speed (spec)" value={technical.maxSpeed} />
-        <TechRow label="Avg engrave speed" value={technical.avgEngraveSpeed} />
-        <TechRow label="Avg cut speed" value={technical.avgCutSpeed} />
-        <TechRow label="Motion precision" value={performance.precision} />
+        <TechRow label={labels.spotSize} value={technical.spotSize} />
+        <TechRow label={labels.maxSpeed} value={technical.maxSpeed} />
+        <TechRow label={labels.avgEngraveSpeed} value={technical.avgEngraveSpeed} />
+        <TechRow label={labels.avgCutSpeed} value={technical.avgCutSpeed} />
+        <TechRow label={labels.motionPrecision} value={performance.precision} />
       </dl>
     </section>
   );

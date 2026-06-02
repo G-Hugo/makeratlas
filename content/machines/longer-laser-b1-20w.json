@@ -1,0 +1,127 @@
+{
+  "id": "longer-laser-b1-20w",
+  "slug": "longer-laser-b1-20w",
+  "name": "Longer Laser B1 20W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/longer-laser-b1-20w/01.webp",
+  "tagline": "20W Longer's large-format diode — bigger bed than Ray5 for sign-sized projects",
+  "tldr": "Longer Laser B1 20W is the 20W SKU on the Longer longer laser b1 line. Longer's large-format B1 20W diode — this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "bestFor": [
+    "Large signs",
+    "Wide work area",
+    "Budget large-format",
+    "Wood cutting hobbyists"
+  ],
+  "priceRange": {
+    "min": 499,
+    "max": 699,
+    "currency": "USD",
+    "note": "20W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "450 × 440 mm (base; extensions available)",
+    "software": [
+      "Longer Laser Tool",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–28 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–15 min"
+      },
+      "technical": {
+        "spotSize": "~0.07 mm spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "14–32 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3–8 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "Dark acrylic (up to 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "CO₂ acrylic production",
+      "Enclosed safety without add-on cover"
+    ]
+  },
+  "pros": [
+    "Large work area for the price",
+    "40W option competitive with Atomstack A40",
+    "LightBurn support",
+    "Wi-Fi included on many configs",
+    "Extension kits for even larger jobs"
+  ],
+  "cons": [
+    "Open frame — not family-safe without enclosure",
+    "Longer support community smaller than Ortur",
+    "Build quality varies vs premium brands",
+    "Air assist often sold separately",
+    "40W claims need real-world verification"
+  ],
+  "beginnerNotes": "Choose 20W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "The B1's value is bed size — design templates to use the full width for batch engraving. Add honeycomb and air assist before pushing 8 mm+ cuts.",
+  "primaryUse": "Large-format diode engraving and thin-to-medium wood cutting for hobbyists and light sellers.",
+  "rating": {
+    "overall": 8.2,
+    "value": 8.6,
+    "easeOfUse": 8,
+    "capability": 7,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "atomstack-a40-pro",
+    "sculpfun-s30-ultra-22w",
+    "creality-falcon2-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/longer-laser-b1-20w/01.webp",
+      "alt": "Longer Laser B1 20W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-laser-b1-20w/02.jpg",
+      "alt": "Longer Laser B1 20W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-laser-b1-20w/03.jpg",
+      "alt": "Longer Laser B1 20W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-laser-b1-20w/04.jpg",
+      "alt": "Longer Laser B1 20W laser engraver — Longer"
+    }
+  ],
+  "powerRating": "20W",
+  "modelLine": "longer-laser-b1",
+  "releaseDate": "2023-02"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "longer-nano-pro-12w",
+  "slug": "longer-nano-pro-12w",
+  "name": "Longer Nano Pro 12W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Fast portable Longer — 12W with high traverse and rotary options",
+  "tldr": "Longer Nano Pro 12W is a premium portable diode with very high advertised speeds and rotary/slide accessories. Niche machine for makers who need portability with more punch than 6W minis.",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "bestFor": [
+    "Portable power",
+    "Rotary engraving",
+    "Travel business",
+    "Longer fans"
+  ],
+  "priceRange": {
+    "min": 1999,
+    "max": 2349,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "12W diode",
+    "workArea": "130 × 130 mm (extendable with slide)",
+    "software": [
+      "Longer Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Bluetooth"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "5,000 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Plastic",
+      "Anodized aluminum (light)"
+    ],
+    "cut": [
+      "Basswood (up to 5 mm)",
+      "Paper",
+      "Thin leather"
+    ],
+    "cannot": [
+      "Large signage",
+      "Workshop production",
+      "CO₂ materials"
+    ]
+  },
+  "pros": [
+    "High speed claims",
+    "Rotary and slide ecosystem",
+    "Longer support",
+    "More power than Nano 6W"
+  ],
+  "cons": [
+    "Expensive for portable class",
+    "Small native bed",
+    "Not a bench replacement"
+  ],
+  "beginnerNotes": "Buy for portability + speed — not instead of a 400 mm open frame.",
+  "proTips": "Budget for slide extension if you do tumblers regularly.",
+  "primaryUse": "Premium portable Longer for on-the-go engraving and rotary work.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 9.5,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "longer-nano-6w",
+    "laserpecker-5",
+    "wecreat-vision"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/longer-nano-pro-12w/01.webp",
+  "modelLine": "longer-nano",
+  "powerRating": "12W",
+  "releaseDate": "2024-06",
+  "catalogPrimary": true,
+  "images": [
+    {
+      "src": "/machines/longer-nano-pro-12w/01.webp",
+      "alt": "Longer Nano Pro 12W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-nano-pro-12w/02.jpg",
+      "alt": "Longer Nano Pro 12W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-nano-pro-12w/03.jpg",
+      "alt": "Longer Nano Pro 12W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-nano-pro-12w/04.jpg",
+      "alt": "Longer Nano Pro 12W laser engraver — Longer"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "monport-ga-100w-fiber",
+  "slug": "monport-ga-100w-fiber",
+  "name": "Monport GA 100W MOPA Fiber",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "tagline": "Monport GA 100W MOPA — deep metal engraving and color effects",
+  "tldr": "Monport GA 100W MOPA targets serious metal engraving shops needing deep marks and color on stainless. Industrial pricing and footprint — not a desktop B4-class galvo.",
+  "mainObjective": "High-power MOPA fiber for deep engraving and color metal work",
+  "bestFor": [
+    "Deep metal engraving",
+    "MOPA color",
+    "Production marking",
+    "Industrial hobbyists"
+  ],
+  "priceRange": {
+    "min": 5999,
+    "max": 8999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "100W MOPA fiber",
+    "workArea": "Large marking field (verify SKU)",
+    "software": [
+      "LightBurn",
+      "EZCAD"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "MOPA marking",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless (color)",
+      "Steel",
+      "Aluminum",
+      "Deep relief metals"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood",
+      "Acrylic cutting",
+      "Desk jewelry-only budget"
+    ]
+  },
+  "pros": [
+    "100W MOPA class",
+    "Deep 3D metal effects",
+    "Monport support"
+  ],
+  "cons": [
+    "Very expensive",
+    "Large system",
+    "Overkill for dog tags only"
+  ],
+  "beginnerNotes": "Compare GT 30–60W split fiber if you need smaller footprint.",
+  "proTips": "Confirm MOPA source and field lens size for your parts.",
+  "primaryUse": "Production MOPA fiber for deep and color metal engraving.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "monport-gt-100w-fiber",
+    "commarker-b6-mopa-30w",
+    "gweike-g6-split-100w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/monport-ga-100w-fiber/01.webp",
+  "powerRating": "100W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-09",
+  "images": [
+    {
+      "src": "/machines/monport-ga-100w-fiber/01.webp",
+      "alt": "Monport GA 100W MOPA Fiber laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-ga-100w-fiber/02.webp",
+      "alt": "Monport GA 100W MOPA Fiber laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-ga-100w-fiber/03.webp",
+      "alt": "Monport GA 100W MOPA Fiber laser engraver — Monport"
+    }
+  ]
+}

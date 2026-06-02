@@ -1,0 +1,69 @@
+{
+  "tagline": "Châssis TTS amélioré 10 W — meilleure rigidité et mise au point fixe",
+  "tldr": "La TwoTrees TTS-55 Pro 10 W est la version 10 W de la gamme TTS-55 Pro. Améliore la TTS-55 de base avec un châssis plus rigide et une mise au point simplifiée. Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing « watts combinés ».",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "primaryUse": "Diode loisir petit budget avec meilleure ergonomie que la TwoTrees TTS-55 de base.",
+  "beginnerNotes": "Choisissez le 10 W si ça correspond à vos usages habituels. Comparez profondeur de découpe et prix avec les autres gammes de la ligne avant de commander.",
+  "proTips": "Lancez un job de référence 10×10 cm avant de faire confiance aux vitesses annoncées.",
+  "bestFor": [
+    "Upgrade petit budget",
+    "Mise au point fixe",
+    "Gravure loisir",
+    "Propriétaires TwoTrees"
+  ],
+  "pros": [
+    "Mieux que la TTS-55 de base",
+    "Mise au point fixe simplifie le démarrage",
+    "Prix bas",
+    "Compatible LightBurn"
+  ],
+  "cons": [
+    "Toujours qualité entrée de gamme",
+    "Communauté réduite",
+    "Structure ouverte",
+    "Peut devenir limitante rapidement"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 5 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Découpes épaisses",
+      "Métal nu",
+      "Travail de production"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 10 W — vérifiez le SKU avant d’acheter"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser TwoTrees TTS-55 Pro 10 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TTS-55 Pro 10 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TTS-55 Pro 10 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TTS-55 Pro 10 W — TwoTrees"
+    }
+  ]
+}

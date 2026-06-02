@@ -1,0 +1,69 @@
+{
+  "tagline": "Entrée portable Longer — diode compacte pour petits projets",
+  "tldr": "Le Longer Nano 6 W est une graveuse portable compacte pour petits cadeaux et apprentissage. S’intègre à l’écosystème accessoires Longer. Passez au Nano Pro 12 W si vous avez besoin d’une vraie vitesse de découpe.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
+  "primaryUse": "Portable Longer compact pour petits projets de gravure.",
+  "beginnerNotes": "Passez votre chemin si vous prévoyez déjà un laser de bureau 10 W+.",
+  "proTips": "Le Nano Pro 12 W est le meilleur portable Longer si le budget le permet.",
+  "bestFor": [
+    "Portabilité",
+    "Petits cadeaux",
+    "Écosystème Longer",
+    "Débutants"
+  ],
+  "pros": [
+    "Support marque Longer",
+    "Compact",
+    "Packs accessoires disponibles",
+    "Rangement facile"
+  ],
+  "cons": [
+    "Faible puissance vs Nano Pro",
+    "Petite zone de travail",
+    "Premium vs mini lasers génériques"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Papier",
+      "Plastique"
+    ],
+    "cut": [
+      "Paper",
+      "Tilleul (jusqu'à 3 mm)"
+    ],
+    "cannot": [
+      "Grands panneaux",
+      "Découpe de production",
+      "Métal"
+    ]
+  },
+  "priceRange": {
+    "note": "Les kits Pro ajoutent rotary/coulisse"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Longer Nano 6W — Longer"
+    },
+    {
+      "alt": "Graveuse laser Longer Nano 6W — Longer"
+    },
+    {
+      "alt": "Graveuse laser Longer Nano 6W — Longer"
+    },
+    {
+      "alt": "Graveuse laser Longer Nano 6W — Longer"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "algolaser-alpha-mk2-40w",
+  "slug": "algolaser-alpha-mk2-40w",
+  "name": "Algolaser Alpha MK2 40W",
+  "brand": "Algolaser",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/algolaser-alpha-mk2-40w/01.webp",
+  "tagline": "40W Premium open-frame diode focused on speed and fine engraving detail",
+  "tldr": "Algolaser Alpha MK2 40W is the 40W SKU on the Algolaser algolaser alpha mk2 line. Algolaser targets makers who want faster engraving and tighter spot control than typical budget diodes. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "bestFor": [
+    "Fine engraving",
+    "Speed-focused hobbyists",
+    "Wood & leather detail",
+    "Light production"
+  ],
+  "priceRange": {
+    "min": 799,
+    "max": 1099,
+    "currency": "USD",
+    "note": "40W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "40W diode",
+    "workArea": "440 × 410 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–9 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–6 min"
+      },
+      "technical": {
+        "spotSize": "~0.06 mm spot",
+        "maxSpeed": "400 mm/s",
+        "avgEngraveSpeed": "90–200 mm/s fill",
+        "avgCutSpeed": "5–13 mm/s on 3–6 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "Algolaser app"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood (up to 10 mm)",
+      "Dark acrylic (up to 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "CO₂ sign production",
+      "Thick acrylic sheets"
+    ]
+  },
+  "pros": [
+    "Tight spot for finer detail in diode class",
+    "Fast fill engraving on optimized settings",
+    "Large work area",
+    "LightBurn-first workflow",
+    "Solid frame rigidity"
+  ],
+  "cons": [
+    "Open frame — safety glasses mandatory",
+    "40W optical claims need verification on your unit",
+    "Smaller community than Ortur/xTool",
+    "Premium price vs Ortur for similar watt class",
+    "Air assist often sold separately"
+  ],
+  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Algolaser shines on line art and shallow fills — push speed on vectors after test burns. Use compressed spot advantage for photo engraving on coated wood.",
+  "primaryUse": "Performance-oriented open-frame diode for detailed wood and leather engraving with above-average speed.",
+  "rating": {
+    "overall": 8.4,
+    "value": 8.2,
+    "easeOfUse": 8.2,
+    "capability": 9.5,
+    "buildQuality": 8.3
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-22w",
+    "creality-falcon2-pro",
+    "xtool-s1-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/algolaser-alpha-mk2-40w/01.webp",
+      "alt": "Algolaser Alpha MK2 40W laser engraver — Algolaser"
+    },
+    {
+      "src": "/machines/algolaser-alpha-mk2-40w/02.jpg",
+      "alt": "Algolaser Alpha MK2 40W laser engraver — Algolaser"
+    },
+    {
+      "src": "/machines/algolaser-alpha-mk2-40w/03.jpg",
+      "alt": "Algolaser Alpha MK2 40W laser engraver — Algolaser"
+    },
+    {
+      "src": "/machines/algolaser-alpha-mk2-40w/04.jpg",
+      "alt": "Algolaser Alpha MK2 40W laser engraver — Algolaser"
+    }
+  ],
+  "modelLine": "algolaser-alpha-mk2",
+  "powerRating": "40W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-06"
+}

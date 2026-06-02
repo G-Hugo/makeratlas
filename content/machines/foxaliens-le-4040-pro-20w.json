@@ -1,0 +1,114 @@
+{
+  "id": "foxaliens-le-4040-pro-20w",
+  "slug": "foxaliens-le-4040-pro-20w",
+  "name": "FoxAlien LE-4040 Pro 20W",
+  "brand": "FoxAlien",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "FoxAlien LE-4040 Pro — 20W laser on 4040-class frame",
+  "tldr": "FoxAlien LE-4040 Pro 20W pairs a 4040-style frame with 20W diode — familiar form factor for CNC users adding laser capability. Alternative to Reizer line with different chassis design.",
+  "mainObjective": "4040-format 20W laser for FoxAlien ecosystem users",
+  "bestFor": [
+    "4040 frame fans",
+    "20W engraving",
+    "FoxAlien bundles"
+  ],
+  "priceRange": {
+    "min": 599,
+    "max": 899,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic (dark)"
+    ],
+    "cut": [
+      "5 mm basswood"
+    ],
+    "cannot": [
+      "40W cutting depth",
+      "Premium xTool polish"
+    ]
+  },
+  "pros": [
+    "4040 familiar layout",
+    "20W solid tier",
+    "FoxAlien support channels"
+  ],
+  "cons": [
+    "Less forum content than Reizer 40W",
+    "Open frame"
+  ],
+  "beginnerNotes": "Pick Reizer 40W for max power or this for balanced 20W 4040 layout.",
+  "proTips": "Check frame rigidity at high speeds on full-width jobs.",
+  "primaryUse": "4040-class FoxAlien 20W for engraving and moderate cutting.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "foxaliens-reizer-40w",
+    "foxaliens-reisler-2",
+    "ortur-laser-master-3-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/foxaliens-le-4040-pro-20w/01.webp",
+  "powerRating": "20W",
+  "releaseDate": "2024-03",
+  "catalogPrimary": true,
+  "images": [
+    {
+      "src": "/machines/foxaliens-le-4040-pro-20w/01.webp",
+      "alt": "FoxAlien LE-4040 Pro 20W laser engraver — FoxAlien"
+    },
+    {
+      "src": "/machines/foxaliens-le-4040-pro-20w/02.jpg",
+      "alt": "FoxAlien LE-4040 Pro 20W laser engraver — FoxAlien"
+    },
+    {
+      "src": "/machines/foxaliens-le-4040-pro-20w/03.jpg",
+      "alt": "FoxAlien LE-4040 Pro 20W laser engraver — FoxAlien"
+    },
+    {
+      "src": "/machines/foxaliens-le-4040-pro-20w/04.jpg",
+      "alt": "FoxAlien LE-4040 Pro 20W laser engraver — FoxAlien"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+﻿{
+  "tagline": "Gamme Sculpfun S10 2025 — châssis type industriel, plateau 385 mm",
+  "tldr": "Le Sculpfun S10 10 W, lancé en 2025, est une graveuse structure ouverte format intermédiaire avec un châssis plus rigide que la S9, zone ~385 mm et capot laser amovible. Positionné entre les familles budget S9 et S30 pour makers qui veulent plus de rigidité sans le tarif Ultra.",
+  "mainObjective": "Gravure Sculpfun milieu de gamme avec châssis plus rigide que la S9",
+  "primaryUse": "Graveuse Sculpfun format intermédiaire 2025 pour travail détaillé et découpe légère sur châssis renforcé.",
+  "beginnerNotes": "Choisissez le S30 Ultra 10 W si la découpe compte ; choisissez le S10 si vous voulez un châssis 2025 et gravez surtout en 10 W.",
+  "proTips": "Associez une assistance air 30 L/min selon la spec Sculpfun pour des découpes plus propres.",
+  "bestFor": [
+    "Gravure bureau",
+    "Personnalisation cadeaux",
+    "Montée depuis la S9",
+    "Découpe légère"
+  ],
+  "pros": [
+    "Châssis plus rigide que la S9 d’entrée",
+    "Capot de sécurité laser amovible",
+    "Kits d’extension supportés",
+    "Palier 10 W sensé rapport qualité-prix"
+  ],
+  "cons": [
+    "Plafond 10 W vs 20–22 W mainstream",
+    "Structure ouverte",
+    "Chevauche les prix S9 et S30 Pro",
+    "Gamme récente — moins de presets communautaires que la S9"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "MDF",
+      "Aluminium anodisé",
+      "Céramique",
+      "PCB"
+    ],
+    "cut": [
+      "Tilleul 3 mm",
+      "Papier",
+      "Tissu fin"
+    ],
+    "cannot": [
+      "Découpe production épaisse",
+      "Métal nu",
+      "Grands panneaux enseignes"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Sculpfun S10 10W — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S10 10W — Sculpfun" }
+  ]
+}

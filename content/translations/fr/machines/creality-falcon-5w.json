@@ -1,0 +1,55 @@
+{
+  "tagline": "Falcon 5W compacte de Creality — graveuse d'entrée à petit plateau",
+  "tldr": "La Creality Falcon 5W est la petite CR-Laser Falcon pour la gravure de bureau et l'artisanat léger — moins puissante que la Falcon 10W/A1 mais avec un encombrement et un prix plus simples.",
+  "mainObjective": "Graveuse d'entrée Creality pour petits projets",
+  "primaryUse": "Gravure Creality petit format.",
+  "beginnerNotes": "Vérifiez la zone de travail de votre kit exact — les bundles basiques et tout-en-un diffèrent.",
+  "proTips": "N'ajoutez des rehausseurs/accessoires Falcon que si vous passez plus tard à une classe 10W.",
+  "bestFor": [
+    "Fans Creality",
+    "Petits cadeaux",
+    "Gravure de bureau"
+  ],
+  "pros": [
+    "Écosystème Creality",
+    "Compacte",
+    "Installation simple"
+  ],
+  "cons": [
+    "Zone de travail réduite",
+    "Limites du 5W",
+    "10W/A1 meilleur rapport qualité-prix pour beaucoup"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Papier"
+    ],
+    "cut": [
+      "Bois fin",
+      "Carton"
+    ],
+    "cannot": [
+      "Grands panneaux",
+      "Découpe profonde",
+      "Métal"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Creality Falcon 5W — Creality" },
+    { "alt": "Graveuse laser Creality Falcon 5W — Creality" },
+    { "alt": "Graveuse laser Creality Falcon 5W — Creality" },
+    { "alt": "Graveuse laser Creality Falcon 5W — Creality" }
+  ]
+}

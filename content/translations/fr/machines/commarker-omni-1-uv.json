@@ -1,0 +1,54 @@
+{
+  "tagline": "Graveuse UV de bureau d'entrée pour le verre et les plastiques",
+  "tldr": "La ComMarker Omni 1 est la gamme UV la plus compacte pour les makers qui débutent le marquage verre et plastique. Mêmes réserves que pour tout UV : tests matériaux, protection oculaire et attentes réalistes sur la vitesse.",
+  "mainObjective": "Gravure UV d'entrée pour cadeaux verre et plastique",
+  "primaryUse": "Marquage UV loisir et petite entreprise sur verre et plastiques.",
+  "beginnerNotes": "Associez-la à une diode ou un CO₂ si vous avez aussi besoin de découper bois/acrylique — l'UV est spécialisé.",
+  "proTips": "Masquez le verre pour des marquages blancs nets. Ventilez — certains plastiques dégagent des fumées.",
+  "bestFor": [
+    "Cadeaux en verre",
+    "Plastiques",
+    "UV loisir",
+    "Fins détails"
+  ],
+  "pros": [
+    "Prix d'entrée inférieur à l'Omni X",
+    "Compacte",
+    "Adaptée à la niche cadeaux verre"
+  ],
+  "cons": [
+    "Zone de travail plus petite",
+    "Production plus lente",
+    "Pas du tout adaptée au métal"
+  ],
+  "materials": {
+    "engrave": [
+      "Verre",
+      "Plastiques",
+      "Cuir (léger)",
+      "Papier"
+    ],
+    "cut": [],
+    "cannot": [
+      "Métal",
+      "Bois épais",
+      "Découpe type CO₂ grand format"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe laser — machine de marquage uniquement"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser ComMarker Omni 1 UV — ComMarker" },
+    { "alt": "Graveuse laser ComMarker Omni 1 UV — ComMarker" },
+    { "alt": "Graveuse laser ComMarker Omni 1 UV — ComMarker" },
+    { "alt": "Graveuse laser ComMarker Omni 1 UV — ComMarker" }
+  ]
+}

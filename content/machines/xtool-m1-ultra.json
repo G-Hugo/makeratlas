@@ -19,7 +19,7 @@
     "currency": "USD"
   },
   "specs": {
-    "power": "10W diode laser + 400g blade cutting force",
+    "power": "10W diode + lame 400 g",
     "workArea": "385 × 300 mm",
     "software": [
       "xTool Creative Space",
@@ -95,8 +95,7 @@
     "buildQuality": 8.5
   },
   "similarModels": [
-    "xtool-d1-pro",
-    "xtool-s1"
+    "xtool-s1-20w"
   ],
   "faq": [
     {
@@ -109,7 +108,30 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/xtool-m1-ultra.png",
-  "mainObjective": "Vinyl & paper cutting plus light laser engraving in one machine"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/xtool-m1-ultra/01.webp",
+  "mainObjective": "Vinyl & paper cutting plus light laser engraving in one machine",
+  "images": [
+    {
+      "src": "/machines/xtool-m1-ultra/01.webp",
+      "alt": "xTool M1 Ultra laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-m1-ultra/02.webp",
+      "alt": "xTool M1 Ultra laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-m1-ultra/03.webp",
+      "alt": "xTool M1 Ultra laser engraver — xTool"
+    }
+  ],
+  "powerRating": "10W",
+  "laserCapabilities": [
+    "diode"
+  ],
+  "capabilityTags": [
+    "diode",
+    "blade"
+  ],
+  "releaseDate": "2024-09"
 }

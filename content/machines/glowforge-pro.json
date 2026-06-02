@@ -5,7 +5,7 @@
   "brand": "Glowforge",
   "category": "laser-engraver",
   "laserType": "co2",
-  "image": "/machines/glowforge-pro.png",
+  "image": "/machines/glowforge-pro/01.webp",
   "tagline": "Pass-through CO₂ for crafters — premium simplicity with subscription cost",
   "tldr": "The Glowforge Pro adds passthrough slot for long materials and stronger CO₂ performance vs Aura. Still cloud-dependent with subscription pressure. Best for design-focused crafters who refuse to touch LightBurn — not for cost-sensitive makers.",
   "mainObjective": "Pass-through CO₂ crafting for long materials with zero-config software",
@@ -16,13 +16,13 @@
     "Design-focused users"
   ],
   "priceRange": {
-    "min": 3995,
-    "max": 6995,
+    "min": 2999,
+    "max": 2999,
     "currency": "USD",
     "note": "Pro vs Pro+ passthrough depth; subscription extra"
   },
   "specs": {
-    "power": "45W CO₂ (Pro class)",
+    "power": "45W CO₂",
     "workArea": "279 × 483 mm with passthrough",
     "performance": {
       "precision": "0.025 mm",
@@ -102,5 +102,25 @@
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/glowforge-pro/01.webp",
+      "alt": "Glowforge Pro laser engraver — Glowforge"
+    },
+    {
+      "src": "/machines/glowforge-pro/02.jpg",
+      "alt": "Glowforge Pro laser engraver — Glowforge"
+    },
+    {
+      "src": "/machines/glowforge-pro/03.jpg",
+      "alt": "Glowforge Pro laser engraver — Glowforge"
+    },
+    {
+      "src": "/machines/glowforge-pro/04.jpg",
+      "alt": "Glowforge Pro laser engraver — Glowforge"
+    }
+  ],
+  "powerRating": "45W",
+  "releaseDate": "2018-04"
 }

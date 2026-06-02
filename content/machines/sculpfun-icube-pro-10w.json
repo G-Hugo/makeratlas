@@ -1,0 +1,125 @@
+{
+  "id": "sculpfun-icube-pro-10w",
+  "slug": "sculpfun-icube-pro-10w",
+  "name": "Sculpfun iCube Pro Max 10W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/sculpfun-icube-pro-10w/01.webp",
+  "tagline": "10W Compact enclosed Sculpfun — small footprint, full safety cabinet",
+  "tldr": "Sculpfun iCube Pro Max 10W is the 10W SKU on the Sculpfun sculpfun icube pro line. Sculpfun's enclosed desktop laser for makers who want the brand's cutting performance in a safer cabinet. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "bestFor": [
+    "Small desks",
+    "Enclosed safety",
+    "Sculpfun ecosystem",
+    "Home office"
+  ],
+  "priceRange": {
+    "min": 449,
+    "max": 649,
+    "currency": "USD",
+    "note": "10W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "300 × 300 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "75–160 mm/s fill",
+        "avgCutSpeed": "4–12 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood (up to 5 mm)",
+      "Black acrylic (thin)",
+      "Paper"
+    ],
+    "cannot": [
+      "Large signs (small bed)",
+      "Clear acrylic",
+      "Bare metal",
+      "Thick production cuts"
+    ]
+  },
+  "pros": [
+    "Enclosed Sculpfun performance in compact box",
+    "Less smoke in room vs open S30",
+    "Sculpfun community settings transfer well",
+    "LightBurn support",
+    "Fits desks that cannot fit open-frame 400 mm machines"
+  ],
+  "cons": [
+    "Small work area vs open Sculpfun models",
+    "USB-only on many configs",
+    "Enclosure limits material height",
+    "Not cheaper enough vs open S30 to ignore bed size loss",
+    "Ventilation still recommended for cutting"
+  ],
+  "beginnerNotes": "Choose 10W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Use Sculpfun community presets as starting points — dial back 10–15% speed inside enclosure if char increases due to heat buildup.",
+  "primaryUse": "Compact enclosed diode for small-space home offices doing engraving and light cuts on wood and leather.",
+  "rating": {
+    "overall": 8.2,
+    "value": 8.3,
+    "easeOfUse": 8.6,
+    "capability": 9.4,
+    "buildQuality": 8.1
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-22w",
+    "acmer-p3",
+    "xtool-s1-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/sculpfun-icube-pro-10w/01.webp",
+      "alt": "Sculpfun iCube Pro Max 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-pro-10w/02.jpg",
+      "alt": "Sculpfun iCube Pro Max 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-pro-10w/03.jpg",
+      "alt": "Sculpfun iCube Pro Max 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-pro-10w/04.jpg",
+      "alt": "Sculpfun iCube Pro Max 10W laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-icube-pro",
+  "powerRating": "10W",
+  "releaseDate": "2024-04"
+}

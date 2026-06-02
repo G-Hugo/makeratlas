@@ -1,0 +1,69 @@
+{
+  "tagline": "CO₂ pass-through pour créateurs — simplicité premium avec coût d'abonnement",
+  "tldr": "Le Glowforge Pro ajoute un slot pass-through pour matériaux longs et de meilleures performances CO₂ vs l'Aura. Toujours dépendant du cloud avec pression abonnement. Idéal pour créateurs orientés design qui refusent LightBurn — pas pour makers sensibles au coût.",
+  "mainObjective": "CO₂ pass-through pour créateurs — matériaux longs avec logiciel prêt à l'emploi",
+  "primaryUse": "CO₂ fermé premium pour créateurs qui gravent et découpent des matériaux longs et fins avec une configuration technique minimale.",
+  "beginnerNotes": "Comparez le xTool P2 et le Monport 55W avant d'acheter le Glowforge Pro — vous pouvez obtenir plus de capacités pour moins si vous apprenez LightBurn.",
+  "proTips": "Intégrez l'abonnement sur 3 ans dans le coût total. Le pass-through brille pour les enseignes longues et fines — pas pour la découpe industrielle épaisse.",
+  "bestFor": [
+    "Matériaux longs",
+    "Créateurs",
+    "Écoles",
+    "Utilisateurs orientés design"
+  ],
+  "pros": [
+    "Pass-through pour planches et enseignes longues",
+    "Logiciel extrêmement simple",
+    "Marque forte pour les marketplaces craft",
+    "Support correct pour utilisateurs non techniques",
+    "Sécurité CO₂ enceinte fermée"
+  ],
+  "cons": [
+    "Matériel très cher + abonnement",
+    "Cloud requis pour la plupart des jobs",
+    "Écosystème fermé — pas de LightBurn",
+    "Moins de puissance que le xTool P2 pour un budget similaire",
+    "Pression à la vente Proofgrade"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique",
+      "Papier",
+      "Tissu",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Bois jusqu'à ~12 mm",
+      "Acrylique jusqu'à ~12 mm",
+      "Cuir",
+      "Papier"
+    ],
+    "cannot": [
+      "Marquage métal nu",
+      "Workflows avancés hors ligne sans abonnement",
+      "Meilleur rapport watt/prix vs xTool P2",
+      "Débit atelier enseignes grand format"
+    ]
+  },
+  "priceRange": {
+    "note": "Pro vs Pro+ profondeur pass-through ; abonnement en sus"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l'acrylique 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Glowforge Pro — Glowforge" },
+    { "alt": "Graveuse laser Glowforge Pro — Glowforge" },
+    { "alt": "Graveuse laser Glowforge Pro — Glowforge" },
+    { "alt": "Graveuse laser Glowforge Pro — Glowforge" }
+  ]
+}

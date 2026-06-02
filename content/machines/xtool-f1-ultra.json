@@ -95,10 +95,55 @@
     "buildQuality": 9
   },
   "similarModels": [
-    "xtool-d1-pro"
+    "xtool-s1-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/xtool-f1-ultra.jpg",
-  "mainObjective": "Direct bare-metal marking for jewelry, tools & personalization"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/xtool-f1-ultra/01.webp",
+  "mainObjective": "Direct bare-metal marking for jewelry, tools & personalization",
+  "images": [
+    {
+      "src": "/machines/xtool-f1-ultra/01.webp",
+      "alt": "xTool F1 Ultra laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-f1-ultra/02.webp",
+      "alt": "xTool F1 Ultra laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-f1-ultra/03.jpg",
+      "alt": "xTool F1 Ultra laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-f1-ultra/04.webp",
+      "alt": "xTool F1 Ultra laser engraver — xTool"
+    }
+  ],
+  "powerRating": "20W",
+  "moduleSystem": {
+    "style": "dual-laser",
+    "headline": "Fiber + diode in one desktop unit",
+    "description": "The F1 Ultra switches between a fiber source (metal) and a diode source (wood/acrylic) inside one chassis. You do not swap a 10W diode for a 40W diode — that is the xTool S1 model.",
+    "options": [
+      {
+        "power": "20W",
+        "laserKind": "fiber",
+        "label": "20W fiber"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "fiber",
+    "diode"
+  ],
+  "capabilityTags": [
+    "fiber",
+    "diode"
+  ],
+  "releaseDate": "2024-05"
 }

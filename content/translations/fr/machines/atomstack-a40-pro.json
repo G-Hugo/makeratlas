@@ -1,0 +1,64 @@
+{
+  "tagline": "Atomstack milieu de gamme avec meilleur châssis et promesses de découpe classe 40 W",
+  "tldr": "Montée par rapport à l’A5 Pro avec un châssis plus rigide et un marketing découpe plus agressif (40 W cumulés). Performances réelles supérieures à l’A5 mais encore en dessous de Sculpfun/xTool en régularité. Choix courant pour ceux qui ont commencé sur A5 et veulent plus de puissance sans changer de marque.",
+  "mainObjective": "Atomstack améliorée pour des découpes plus fortes et une gravure plus fiable que l’A5",
+  "primaryUse": "Diode structure ouverte budget moyen, entre les modèles d’entrée Atomstack et la gamme premium Sculpfun/xTool.",
+  "beginnerNotes": "Si vous achetez neuf à 500 $+, comparez la Sculpfun S30 Ultra ou l’Ortur LM3 avant de rester fidèle à Atomstack par habitude.",
+  "proTips": "Vérifiez la puissance optique avec un wattmètre si la profondeur de découpe compte pour vos produits. Renforcez les coins du châssis si vous ajoutez des kits d’extension.",
+  "bestFor": [
+    "Montées en gamme Atomstack",
+    "Découpe petit budget",
+    "Gravure bois",
+    "Projets loisir annexes"
+  ],
+  "pros": [
+    "Meilleur châssis que l’A5 Pro",
+    "Grande surface de travail pour le prix",
+    "Immense base d’utilisateurs Atomstack",
+    "Compatible LightBurn",
+    "Montée en gamme abordable depuis l’A5"
+  ],
+  "cons": [
+    "L’étiquette 40 W dépasse la puissance optique réelle",
+    "Contrôle qualité encore en dessous des marques premium",
+    "Charge sécurité structure ouverte",
+    "Support client parfois lent",
+    "Peut devenir vite insuffisante si l’activité progresse"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul jusqu’à ~6 mm",
+      "Acrylique noir (fin)",
+      "Papier",
+      "Tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Régularité niveau production",
+      "Bois dur épais de façon fiable"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Atomstack A40 Pro 40 W — Atomstack" },
+    { "alt": "Graveuse laser Atomstack A40 Pro 40 W — Atomstack" },
+    { "alt": "Graveuse laser Atomstack A40 Pro 40 W — Atomstack" },
+    { "alt": "Graveuse laser Atomstack A40 Pro 40 W — Atomstack" }
+  ]
+}

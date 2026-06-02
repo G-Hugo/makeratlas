@@ -1,0 +1,105 @@
+{
+  "id": "acmer-p1",
+  "slug": "acmer-p1",
+  "name": "Acmer P1",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Acmer open-frame P1 line — 10W and 20W SKUs",
+  "tldr": "Umbrella for Acmer P1 laser engravers. Select 10W or 20W tier for pricing and performance.",
+  "mainObjective": "Navigate Acmer P1 power options",
+  "bestFor": [
+    "Budget Acmer buyers"
+  ],
+  "priceRange": {
+    "min": 259,
+    "max": 329,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W / 20W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood"
+    ],
+    "cut": [
+      "Wood"
+    ],
+    "cannot": [
+      "—"
+    ]
+  },
+  "pros": [
+    "Acmer value line"
+  ],
+  "cons": [
+    "Pick a wattage tier"
+  ],
+  "beginnerNotes": "See 10W or 20W pages below.",
+  "proTips": "Verify optical output on listing.",
+  "primaryUse": "Index for Acmer P1.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "acmer-p2-33w",
+    "longer-ray5-10w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/acmer-p1/01.webp",
+  "modelLine": "acmer-p1",
+  "catalogHidden": true,
+  "releaseDate": "2023-05",
+  "images": [
+    {
+      "src": "/machines/acmer-p1/01.webp",
+      "alt": "Acmer P1 10W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p1/02.webp",
+      "alt": "Acmer P1 10W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p1/03.webp",
+      "alt": "Acmer P1 10W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p1/04.jpg",
+      "alt": "Acmer P1 10W laser engraver — Acmer"
+    }
+  ]
+}

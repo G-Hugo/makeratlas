@@ -1,0 +1,104 @@
+{
+  "id": "sculpfun-s30-pro-max",
+  "slug": "sculpfun-s30-pro-max",
+  "name": "Sculpfun S30 Pro Max",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Sculpfun S30 Pro Max line — 20W flagship before Ultra",
+  "tldr": "Umbrella for Sculpfun S30 Pro Max. See the 20W SKU for catalog specs.",
+  "mainObjective": "Index S30 Pro Max SKUs",
+  "bestFor": [
+    "Sculpfun buyers"
+  ],
+  "priceRange": {
+    "min": 599,
+    "max": 899,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood"
+    ],
+    "cut": [
+      "Wood"
+    ],
+    "cannot": [
+      "—"
+    ]
+  },
+  "pros": [
+    "Proven Sculpfun line"
+  ],
+  "cons": [
+    "Select wattage page"
+  ],
+  "beginnerNotes": "Open the 20W profile below.",
+  "proTips": "Ultra 22W/33W is the newer generation if still in stock.",
+  "primaryUse": "S30 Pro Max family index.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-22w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/sculpfun-s30-pro-max/01.webp",
+  "modelLine": "sculpfun-s30-pro-max",
+  "catalogHidden": true,
+  "releaseDate": "2022-11",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s30-pro-max/01.webp",
+      "alt": "Sculpfun S30 Pro Max laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-pro-max/02.jpg",
+      "alt": "Sculpfun S30 Pro Max laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-pro-max/03.jpg",
+      "alt": "Sculpfun S30 Pro Max laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-pro-max/04.jpg",
+      "alt": "Sculpfun S30 Pro Max laser engraver — Sculpfun"
+    }
+  ]
+}

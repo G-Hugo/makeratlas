@@ -1,0 +1,60 @@
+﻿{
+  "tagline": "Marque récente structure ouverte 20 W — specs compétitives, support long terme encore à prouver",
+  "tldr": "Hawk entre sur le marché encombré des structure ouverte 20 W avec un prix agressif et un design moderne. Les specs sont compétitives sur le papier. Fiabilité long terme et soutien communautaire restent des inconnues — pari calculé face à Ortur/Sculpfun établis.",
+  "mainObjective": "structure ouverte 20 W petit budget pour makers prêts à parier sur une marque récente",
+  "primaryUse": "Alternative structure ouverte 20 W petit budget pour gravure et découpe légère quand les marques établies dépassent le budget.",
+  "beginnerNotes": "Choix plus sûrs pour un premier laser : Ortur LM3 ou Sculpfun S30 Ultra. Optez pour Hawk seulement si l’écart de prix est significatif et que vous acceptez le risque support.",
+  "proTips": "Documentez vos réglages et mods matériel — la base de connaissances communautaire grandit encore. Achetez chez un vendeur avec une fenêtre de retour claire.",
+  "bestFor": [
+    "20 W petit budget",
+    "Premiers adoptants",
+    "Gravure bois",
+    "Acheteurs tolérants au risque"
+  ],
+  "pros": [
+    "Prix 20 W agressif",
+    "Design de châssis moderne",
+    "Wi-Fi inclus",
+    "Compatible LightBurn",
+    "Grande zone de travail"
+  ],
+  "cons": [
+    "Communauté mince vs Ortur/Sculpfun",
+    "Fiabilité long terme non prouvée",
+    "Réactivité du support variable",
+    "Peu d’avis indépendants vs modèles établis",
+    "Sécurité structure ouverte"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul 3–6 mm",
+      "Acrylique noir (fin)",
+      "Papier"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Pièces détachées prouvées long terme",
+      "Promesses de profondeur de découpe garanties"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Hawk 20W — Hawk" }
+  ]
+}

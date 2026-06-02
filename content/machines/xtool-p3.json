@@ -1,0 +1,154 @@
+{
+  "id": "xtool-p3",
+  "slug": "xtool-p3",
+  "name": "xTool P3",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "2025 flagship 80W CO₂ — ACS automation, huge bed, optional IR for metal",
+  "tldr": "xTool P3 (August 2025) replaces the P2/P2S as the company's CO₂ flagship: 80W tube, 915×458 mm bed, integrated chiller, fire suppression, and ACS™ automation (cameras, LiDAR autofocus, AI nesting). Optional 5W IR module adds bare-metal marking. From ~$5,999 — built for shops outgrowing diode lasers.",
+  "mainObjective": "Automated 80W CO₂ production for sign shops and serious small businesses",
+  "bestFor": [
+    "Sign shops",
+    "Etsy production",
+    "P2/P2S upgrade",
+    "Thick acrylic & wood"
+  ],
+  "priceRange": {
+    "min": 6999,
+    "max": 10459,
+    "currency": "USD",
+    "note": "Standalone from ~$5,999; bundles with feeder, AutoLift, IR module extra"
+  },
+  "specs": {
+    "power": "80W CO₂ glass tube",
+    "workArea": "915 × 458 mm (36 × 18 in)",
+    "dimensions": "Large desktop footprint — plan dedicated space",
+    "weight": "~80 kg class (verify SKU)",
+    "software": [
+      "xTool Creative Space",
+      "LightBurn (compatible)"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–2 min"
+      },
+      "technical": {
+        "spotSize": "~0.15 mm CO₂ spot",
+        "maxSpeed": "1,200 mm/s",
+        "avgEngraveSpeed": "200–400 mm/s fill",
+        "avgCutSpeed": "20–50 mm/s on 3 mm acrylic"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Stone",
+      "Rubber",
+      "Anodized aluminum",
+      "Stainless (with optional IR module)"
+    ],
+    "cut": [
+      "Acrylic up to ~25 mm (claimed)",
+      "Basswood up to ~20 mm (claimed)",
+      "Leather",
+      "Fabric",
+      "Paper"
+    ],
+    "cannot": [
+      "Bare metal without IR accessory",
+      "Apartment without exhaust routing",
+      "Budget hobby-only use"
+    ]
+  },
+  "pros": [
+    "80W and ~2.3× P2S work area — real production headroom",
+    "ACS automation: cameras, LiDAR focus, AI nesting, batch fill",
+    "Class 1 enclosure, fire detection/suppression, integrated chiller",
+    "Optional IR module for metal vs buying a separate fiber box",
+    "Conveyor feeder option for long materials"
+  ],
+  "cons": [
+    "Premium price — several times a good diode laser",
+    "Heavy; dedicated space and strong exhaust required",
+    "CO₂ tube maintenance and replacement cost",
+    "Accessories (feeder, AutoLift, IR) push total cost higher",
+    "Overkill if you only engrave small gifts"
+  ],
+  "beginnerNotes": "Buy P3 if you run a shop cutting acrylic signs or thick wood daily. Coming from P2S? You gain power, bed size, and automation — not a minor tweak. Still on a budget? Consider Monport/OMTech CO₂ or stay on Falcon 2 Pro diode.",
+  "proTips": "Plan exhaust before delivery. Run material tests on the full bed — large beds need focus calibration at corners. Price the IR module only if metal is a regular revenue line.",
+  "primaryUse": "2025 xTool flagship CO₂ for high-volume cutting and engraving with factory-style automation.",
+  "rating": {
+    "overall": 9.4,
+    "value": 8,
+    "easeOfUse": 9.2,
+    "capability": 9.7,
+    "buildQuality": 9.3
+  },
+  "similarModels": [
+    "xtool-p2s",
+    "omtech-80w-co2",
+    "monport-55w-co2"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/xtool-p3/01.webp",
+  "images": [
+    {
+      "src": "/machines/xtool-p3/01.webp",
+      "alt": "xTool P3 laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-p3/02.webp",
+      "alt": "xTool P3 laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-p3/03.webp",
+      "alt": "xTool P3 laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-p3/04.jpg",
+      "alt": "xTool P3 laser engraver — xTool"
+    }
+  ],
+  "catalogPrimary": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Optional 5W infrared (1064 nm) module",
+    "description": "Base machine is 80W CO₂. Add the IR module for bare-metal and plastic marking without a separate fiber engraver.",
+    "options": [
+      {
+        "power": "80W",
+        "laserKind": "co2",
+        "label": "80W CO₂ (included)"
+      },
+      {
+        "power": "5W",
+        "laserKind": "infrared",
+        "label": "5W IR module (optional)"
+      }
+    ]
+  },
+  "capabilityTags": [
+    "co2",
+    "infrared"
+  ],
+  "releaseDate": "2025-08"
+}

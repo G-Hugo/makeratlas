@@ -1,0 +1,74 @@
+{
+  "tagline": "Plateforme TS2 populaire de TwoTrees en 40 W — structure ouverte avec communauté active",
+  "tldr": "La TwoTrees TS2 40 W est la version 40 W de la gamme TS2. L’une des lignes laser les plus connues de TwoTrees — souvent comparée à Ortur et Sculpfun à prix agressifs. Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing « watts combinés ».",
+  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "primaryUse": "Plateforme TwoTrees petit budget pour gravure loisir et découpe modérée de bois fin.",
+  "beginnerNotes": "Choisissez le 40 W si ça correspond à vos usages habituels. Comparez profondeur de découpe et prix avec les autres gammes de la ligne avant de commander.",
+  "proTips": "Les packs TwoTrees (nids d’abeille + assistance air) valent souvent mieux que les pièces à l’unité — vérifiez les bundles officiels avant de payer.",
+  "bestFor": [
+    "20 W petit budget",
+    "Écosystème TwoTrees",
+    "Gravure bois",
+    "Chasseurs de promos"
+  ],
+  "pros": [
+    "Prix promo agressifs",
+    "Grande surface de travail",
+    "Compatible LightBurn",
+    "Kits d’upgrade (rotatif, extension) disponibles",
+    "Groupes propriétaires TwoTrees actifs"
+  ],
+  "cons": [
+    "Support moins constant qu’Ortur/xTool",
+    "Sécurité structure ouverte",
+    "Variabilité d’une unité à l’autre signalée",
+    "Documentation parfois en retard sur le firmware",
+    "La TS2 40 W Max peut mieux valoir le coup en promo"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 10 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Travail de production CO₂",
+      "Support premium garanti"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 40 W — vérifiez le SKU avant d’acheter"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser TwoTrees TS2 40 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TS2 40 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TS2 40 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TS2 40 W — TwoTrees"
+    }
+  ]
+}

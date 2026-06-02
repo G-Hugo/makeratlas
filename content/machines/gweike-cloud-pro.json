@@ -5,7 +5,7 @@
   "brand": "Gweike",
   "category": "laser-engraver",
   "laserType": "co2",
-  "image": "/machines/gweike-cloud-pro.png",
+  "image": "/machines/gweike-cloud-pro/01.webp",
   "tagline": "Cloud-connected desktop CO₂ — popular in maker communities",
   "tldr": "Gweike Cloud Pro offers enclosed CO₂ cutting with cloud features and competitive pricing vs xTool P2. Good mid-premium CO₂ if you want LightBurn and community support. Verify local warranty before buying.",
   "mainObjective": "Connected enclosed CO₂ for acrylic and wood small business work",
@@ -16,8 +16,8 @@
     "Etsy production"
   ],
   "priceRange": {
-    "min": 3500,
-    "max": 4500,
+    "min": 1659,
+    "max": 2539,
     "currency": "USD"
   },
   "specs": {
@@ -93,9 +93,29 @@
     "buildQuality": 8.3
   },
   "similarModels": [
-    "xtool-p2",
+    "xtool-p2s",
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/gweike-cloud-pro/01.webp",
+      "alt": "Gweike Cloud Pro laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-cloud-pro/02.jpg",
+      "alt": "Gweike Cloud Pro laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-cloud-pro/03.jpg",
+      "alt": "Gweike Cloud Pro laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-cloud-pro/04.jpg",
+      "alt": "Gweike Cloud Pro laser engraver — Gweike"
+    }
+  ],
+  "powerRating": "50W",
+  "releaseDate": "2023-01"
 }

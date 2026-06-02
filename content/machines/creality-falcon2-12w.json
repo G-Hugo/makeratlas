@@ -5,10 +5,10 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/creality-falcon2-12w.webp",
+  "image": "/machines/creality-falcon2-12w/01.webp",
   "tagline": "Entry Creality diode — simple upgrade path for 3D printer owners",
   "tldr": "The base Falcon2 12W is Creality's affordable open-frame diode. Less power than Falcon2 Pro but easier on budget. Good for engraving-first users who already trust Creality from 3D printing. Not a cutting powerhouse.",
-  "mainObjective": "Affordable Creality diode for engraving-first hobby projects",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
   "bestFor": [
     "Creality fans",
     "Engraving-first",
@@ -16,30 +16,30 @@
     "Budget hobby"
   ],
   "priceRange": {
-    "min": 349,
-    "max": 499,
+    "min": 549,
+    "max": 549,
     "currency": "USD"
   },
   "specs": {
-    "power": "12W optical diode",
+    "power": "12W diode",
     "workArea": "400 × 415 mm",
     "performance": {
       "precision": "0.01 mm",
       "engraveExample": {
         "description": "Filled photo or logo on birch plywood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~12–18 min"
+        "time": "~17–26 min"
       },
       "cutExample": {
         "description": "Simple square cut-out from 3 mm basswood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~8–12 min"
+        "time": "~9–15 min"
       },
       "technical": {
-        "spotSize": "~0.1 mm spot",
+        "spotSize": "~0.09 mm spot",
         "maxSpeed": "300 mm/s",
-        "avgEngraveSpeed": "65–140 mm/s fill",
-        "avgCutSpeed": "3–8 mm/s on 2–4 mm wood"
+        "avgEngraveSpeed": "14–31 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 2–4 mm wood"
       }
     },
     "software": [
@@ -58,7 +58,7 @@
       "Anodized aluminum"
     ],
     "cut": [
-      "Thin basswood 2–4 mm",
+      "Basswood (up to 5 mm)",
       "Paper",
       "Thin fabric"
     ],
@@ -95,9 +95,26 @@
   },
   "similarModels": [
     "creality-falcon2-pro",
-    "ortur-laser-master-3",
+    "ortur-laser-master-3-20w",
     "longer-ray5"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-05-31",
+  "images": [
+    {
+      "src": "/machines/creality-falcon2-12w/01.webp",
+      "alt": "Creality Falcon2 12W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon2-12w/02.png",
+      "alt": "Creality Falcon2 12W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon2-12w/03.jpg",
+      "alt": "Creality Falcon2 12W laser engraver — Creality"
+    }
+  ],
+  "modelLine": "creality-falcon2",
+  "powerRating": "12W",
+  "releaseDate": "2023-06"
 }

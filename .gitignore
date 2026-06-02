@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local scratch / logs
+tmp-*.txt
+scripts/broken-slugs.txt
+scripts/translate-fr-log.txt
+public/machines/_test-*

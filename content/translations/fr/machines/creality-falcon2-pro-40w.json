@@ -1,0 +1,76 @@
+{
+  "tagline": "Diode 40W haute puissance avec assistance air intégrée et effet gravure couleur",
+  "tldr": "La Creality Falcon2 Pro 40W est la référence 40W de la gamme Falcon2 Pro. La diode ouverte haut de gamme de Creality à 60W combinés (classe 22W optique). Vérifiez la puissance optique sur l'annonce — ne vous fiez pas au marketing en watts combinés.",
+  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "primaryUse": "Diode loisir haute puissance pour gravure et découpe modérée, avec effets couleur optionnels sur acier inoxydable.",
+  "beginnerNotes": "Choisissez le 40W s'il correspond à vos jobs habituels. Comparez profondeur de découpe et prix avec les autres niveaux de la gamme avant de commander.",
+  "proTips": "Le marquage couleur exige un contrôle précis vitesse/puissance — entraînez-vous sur de l'inox de récupération. Utilisez LightBurn pour le travail sérieux. Prévoyez une extraction correcte — l'assistance air intégrée aide les découpes mais ne remplace pas la ventilation.",
+  "bestFor": [
+    "Effets métal couleur",
+    "Assistance air intégrée",
+    "Fans écosystème Creality",
+    "Découpe diode puissante"
+  ],
+  "pros": [
+    "Assistance air intégrée — un accessoire de moins à acheter",
+    "Gravure couleur sur inox — argument de vente unique",
+    "Solides performances dans le segment diode haute puissance",
+    "Prise en charge LightBurn",
+    "Marque Creality familière pour les propriétaires d'imprimantes 3D"
+  ],
+  "cons": [
+    "Le chiffre marketing 60W embrouille les débutants — la puissance optique est inférieure",
+    "Structure ouverte haute puissance — prenez la sécurité au sérieux",
+    "Logiciel laser Creality moins mature que xTool",
+    "Effet métal couleur de niche, pas une base commerciale à lui seul",
+    "Unité lourde — moins portable qu'il n'y paraît"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acier inoxydable (couleur et marque foncée)",
+      "Aluminium anodisé",
+      "Ardoise"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 10 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Production acrylique niveau CO₂",
+      "Gravure métal profonde",
+      "Débit commercial sans montées en gamme"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 40W — vérifiez la référence avant achat"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Creality Falcon2 Pro 40W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon2 Pro 40W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon2 Pro 40W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon2 Pro 40W — Creality"
+    }
+  ]
+}

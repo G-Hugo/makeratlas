@@ -15,12 +15,12 @@
   ],
   "priceRange": {
     "min": 999,
-    "max": 1199,
+    "max": 999,
     "currency": "USD",
     "note": "Plus mandatory Premium subscription (~$50/mo) for full functionality"
   },
   "specs": {
-    "power": "6.8W CO₂ laser (consumer-rated)",
+    "power": "6.8W CO₂",
     "workArea": "279 × 241 mm (11 × 9.5 in)",
     "software": [
       "Glowforge web app"
@@ -95,11 +95,31 @@
     "buildQuality": 8.5
   },
   "similarModels": [
-    "xtool-p2",
+    "xtool-p2s",
     "omtech-40w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/glowforge-aura.png",
-  "mainObjective": "Easiest CO₂ setup for crafters who want zero tinkering"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/glowforge-aura/01.webp",
+  "mainObjective": "Easiest CO₂ setup for crafters who want zero tinkering",
+  "images": [
+    {
+      "src": "/machines/glowforge-aura/01.webp",
+      "alt": "Glowforge Aura laser engraver — Glowforge"
+    },
+    {
+      "src": "/machines/glowforge-aura/02.jpg",
+      "alt": "Glowforge Aura laser engraver — Glowforge"
+    },
+    {
+      "src": "/machines/glowforge-aura/03.jpg",
+      "alt": "Glowforge Aura laser engraver — Glowforge"
+    },
+    {
+      "src": "/machines/glowforge-aura/04.jpg",
+      "alt": "Glowforge Aura laser engraver — Glowforge"
+    }
+  ],
+  "powerRating": "6.8W",
+  "releaseDate": "2023-10"
 }

@@ -5,7 +5,7 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/acmer-p3.webp",
+  "image": "/machines/acmer-p3/01.webp",
   "tagline": "Enclosed 20W diode with built-in camera — budget answer to xTool S1",
   "tldr": "Acmer packs an enclosed 20W diode, camera preview, and air assist into a sub-$800 package. Performance sits between open-frame budget machines and xTool S1. Worth considering if xTool pricing hurts but you still want enclosure and camera.",
   "mainObjective": "Affordable enclosed engraving with camera alignment for home makers",
@@ -16,8 +16,8 @@
     "Gift engraving"
   ],
   "priceRange": {
-    "min": 599,
-    "max": 799,
+    "min": 799,
+    "max": 1969,
     "currency": "USD"
   },
   "specs": {
@@ -97,9 +97,29 @@
     "buildQuality": 7.8
   },
   "similarModels": [
-    "xtool-s1",
+    "xtool-s1-20w",
     "wecreat-vision"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/acmer-p3/01.webp",
+      "alt": "Acmer P3 laser engraver by Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3/02.webp",
+      "alt": "Acmer P3 laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3/03.webp",
+      "alt": "Acmer P3 laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3/04.jpg",
+      "alt": "Acmer P3 laser engraver — Acmer"
+    }
+  ],
+  "powerRating": "20W",
+  "releaseDate": "2024-08"
 }

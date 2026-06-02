@@ -1,0 +1,120 @@
+{
+  "id": "gweike-g6-split-30w",
+  "slug": "gweike-g6-split-30w",
+  "name": "Gweike G6 Split 30W",
+  "brand": "Gweike",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "30W",
+  "modelLine": "gweike-g6-split",
+  "catalogPrimary": true,
+  "tagline": "Split cabinet fiber marker with room for rotary and fixtures",
+  "tldr": "Gweike G6 Split is a larger fiber marking platform with separate laser source cabinet — common format for small production. Available up to 100W; this profile covers the popular 30W tier.",
+  "mainObjective": "Shop marking on metals, plastics, and coated parts with production-friendly speeds",
+  "bestFor": [
+    "Production batches",
+    "Deep metal engraving",
+    "Shop floor marking",
+    "Rotary work"
+  ],
+  "priceRange": {
+    "min": 2799,
+    "max": 3999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "30W fiber",
+    "workArea": "150 × 150 mm typical (varies by lens)",
+    "software": [
+      "EZCAD",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–11 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm spot",
+        "maxSpeed": "7,000 mm/s",
+        "avgEngraveSpeed": "500–2,000 mm/s marking",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum",
+      "Brass",
+      "Plastics",
+      "Deep metal engraving"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)"
+    ],
+    "cannot": [
+      "Organic cutting",
+      "CO₂-style acrylic work"
+    ]
+  },
+  "pros": [
+    "Scalable power tiers",
+    "Split design fits shop floors",
+    "Deep engraving capability",
+    "Production friendly"
+  ],
+  "cons": [
+    "Larger footprint",
+    "Not portable",
+    "Higher price than desktop galvo boxes",
+    "Installation and alignment matter"
+  ],
+  "beginnerNotes": "Pick 30W for most jewelry/tag shops; 50W+ for deeper engraving or faster cycle times.",
+  "proTips": "Plan fume extraction for marking coated metals. Fixture repeatability drives profit.",
+  "primaryUse": "Small production fiber marking for metal parts and personalization batches.",
+  "rating": {
+    "overall": 8.6,
+    "value": 8.4,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "commarker-b6-mopa-30w",
+    "monport-gt-30w-fiber"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/gweike-g6-split-30w/01.webp",
+  "images": [
+    {
+      "src": "/machines/gweike-g6-split-30w/01.webp",
+      "alt": "Gweike G6 Split 30W laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-g6-split-30w/02.png",
+      "alt": "Gweike G6 Split 30W laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-g6-split-30w/03.jpg",
+      "alt": "Gweike G6 Split 30W laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-g6-split-30w/04.jpg",
+      "alt": "Gweike G6 Split 30W laser engraver — Gweike"
+    }
+  ],
+  "releaseDate": "2023-09"
+}

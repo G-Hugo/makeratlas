@@ -1,0 +1,67 @@
+{
+  "tagline": "Châssis H20 d’entrée de gamme avec design intégré et workflow app Ortur",
+  "tldr": "L’Ortur H20 10 W est le palier diode de base sur le châssis H20 — déplacements plus rapides que le LM3 avec une intégration plus fermée. Bon pour la gravure et la découpe légère ; passez au 20 W ou 40 W pour le bois épais.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "primaryUse": "Graveuse Ortur intégrée milieu de gamme pour bois et cuir cadeaux.",
+  "beginnerNotes": "Bon choix Ortur si vous voulez le châssis H20 sans le tarif 40 W.",
+  "proTips": "Ajoutez une assistance air pour la découpe. Comparez le prix total au LM3 20 W avant d’acheter.",
+  "bestFor": [
+    "Fans Ortur",
+    "Gravure bois",
+    "Ateliers bureau",
+    "Découpe légère"
+  ],
+  "pros": [
+    "Nouveau châssis intégré Ortur",
+    "Vitesse de déplacement annoncée élevée",
+    "Offres IR optionnelles pour le métal",
+    "Support LightBurn"
+  ],
+  "cons": [
+    "10 W limite la profondeur de découpe",
+    "Premium vs LM3 structure ouverte",
+    "Offres IR en supplément"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique foncé",
+      "Aluminium anodisé (léger)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 5 mm)",
+      "Paper",
+      "Thin leather"
+    ],
+    "cannot": [
+      "Production bois dur épais",
+      "Acrylique transparent",
+      "Atelier métal complet"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Ortur H20 10W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur H20 10W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur H20 10W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur H20 10W — Ortur"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "tagline": "CO₂ Polar de bureau — CO₂ compact pour makers qui passent du diode",
+  "tldr": "L’OMTech Polar intègre la découpe CO₂ dans un encombrement de bureau plus réduit que les caisses K40 traditionnelles. Bon pont entre la frustration du diode et un CO₂ d’atelier complet. Ventilation et courbe d’apprentissage restent nécessaires.",
+  "mainObjective": "CO₂ de bureau compact pour acrylique et bois sans l’encombrement d’un K40",
+  "primaryUse": "Laser CO₂ compact pour makers qui passent du diode à la vraie découpe acrylique.",
+  "beginnerNotes": "Prévoyez l’évacuation avant la commande. Le Polar s’adresse aux makers qui ont dépassé le diode mais manquent d’espace pour un gros CO₂.",
+  "proTips": "Faites un test de rampe après la livraison. Maintenez propre le circuit de refroidissement à eau.",
+  "bestFor": [
+    "CO₂ compact",
+    "Passage depuis le diode",
+    "Découpe acrylique",
+    "CO₂ format bureau"
+  ],
+  "pros": [
+    "Encombrement CO₂ réduit",
+    "Vraie découpe acrylique",
+    "LightBurn en standard",
+    "Pièces OMTech disponibles"
+  ],
+  "cons": [
+    "Toujours bruyant et nécessite une extraction",
+    "Plateau plus petit que les modèles 80 W",
+    "Courbe d’apprentissage à l’installation",
+    "Pas fermé comme le xTool P2"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Caoutchouc"
+    ],
+    "cut": [
+      "Acrylique jusqu’à ~10 mm",
+      "Bois jusqu’à ~12 mm",
+      "Cuir"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Appartement sans ventilation",
+      "Zéro entretien"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser OMTech Polar — OMTech" },
+    { "alt": "Graveuse laser OMTech Polar — OMTech" },
+    { "alt": "Graveuse laser OMTech Polar — OMTech" },
+    { "alt": "Graveuse laser OMTech Polar — OMTech" }
+  ]
+}

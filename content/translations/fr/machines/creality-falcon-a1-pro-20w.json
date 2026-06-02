@@ -1,0 +1,79 @@
+{
+  "tagline": "A1 Pro fermée double source — diode plus infrarouge pour plus de matériaux",
+  "tldr": "La Creality Falcon A1 Pro 20W ajoute une configuration double laser dans un châssis fermé pour une gravure plus rapide et du marquage métal/plastique. Juste milieu entre l'A1 10W et la gamme ouverte Falcon 2 Pro 40W.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Creality double source fermée pour le travail mixte petite entreprise.",
+  "beginnerNotes": "Choisissez-la quand vous voulez enceinte + marquage métal dans une seule machine Creality.",
+  "proTips": "Testez chaque source laser sur des chutes — IR et diode demandent des réglages différents.",
+  "bestFor": [
+    "Écosystème Creality",
+    "Marquage métal",
+    "Gravure plus rapide",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Double laser en châssis fermé",
+    "Plus de puissance que l'A1 10W",
+    "Suite logicielle Creality",
+    "Marquage métal sans fibre séparée"
+  ],
+  "cons": [
+    "Plateau plus petit que la Falcon 2",
+    "Complexité hybride vs diode unique",
+    "Premium par rapport au 20W à structure ouverte"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Plastique",
+      "Certains métaux",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)"
+    ],
+    "cannot": [
+      "Production grand format",
+      "Séries acrylique épais type CO₂",
+      "Profondeur métal niveau fibre"
+    ]
+  },
+  "moduleSystem": {
+    "headline": "Diode + infrarouge dans une seule enceinte",
+    "description": "L'A1 Pro combine une diode haute puissance avec une source infrarouge pour élargir le support matériaux à l'intérieur du châssis fermé.",
+    "options": [
+      {
+        "label": "Diode 20W"
+      },
+      {
+        "label": "Marquage infrarouge"
+      }
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Creality Falcon A1 Pro 20W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon A1 Pro 20W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon A1 Pro 20W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon A1 Pro 20W — Creality"
+    }
+  ]
+}

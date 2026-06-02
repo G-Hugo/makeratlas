@@ -1,0 +1,44 @@
+{
+  "tagline": "Plateforme modulaire H20 d’Ortur — choisissez votre palier de puissance optique",
+  "tldr": "Fiche regroupée pour la gamme Ortur H20. Choisissez un SKU 10 W, 20 W ou 40 W — module IR 2 W optionnel pour le marquage métal sur certaines offres groupées.",
+  "mainObjective": "Naviguer entre les paliers de puissance Ortur H20",
+  "primaryUse": "Index des SKU Ortur H20.",
+  "beginnerNotes": "Ouvrez le profil H20 avec la puissance souhaitée ci-dessous.",
+  "proTips": "Adaptez le module aux matériaux avant d’acheter une offre groupée.",
+  "bestFor": [
+    "Montées en gamme Ortur"
+  ],
+  "pros": [
+    "Plateforme modulaire Ortur"
+  ],
+  "cons": [
+    "Sélectionnez une fiche de puissance"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois"
+    ],
+    "cut": [
+      "Bois"
+    ],
+    "cannot": [
+      "—"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Ortur H20 10W — Ortur" },
+    { "alt": "Graveuse laser Ortur H20 10W — Ortur" },
+    { "alt": "Graveuse laser Ortur H20 10W — Ortur" },
+    { "alt": "Graveuse laser Ortur H20 10W — Ortur" }
+  ]
+}

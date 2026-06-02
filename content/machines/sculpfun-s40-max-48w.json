@@ -1,0 +1,127 @@
+{
+  "id": "sculpfun-s40-max-48w",
+  "slug": "sculpfun-s40-max-48w",
+  "name": "Sculpfun S40 MAX 48W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "2025 large-format Sculpfun — 830×800 mm bed and 48W compressed diode",
+  "tldr": "The S40 MAX (2025) targets makers who outgrew 400 mm frames: 830×800 mm work area, 48W optical power, auto-focus, and Wi-Fi via TS1 screen. Built for sign panels and batch cutting — verify shipping weight and workshop space before ordering.",
+  "mainObjective": "Extra-large Sculpfun diode for big panels and production-style cutting",
+  "bestFor": [
+    "Large signs",
+    "Batch cutting",
+    "Studio production",
+    "Sculpfun power users"
+  ],
+  "priceRange": {
+    "min": 999,
+    "max": 1299,
+    "currency": "USD",
+    "note": "LightBurn bundle common"
+  },
+  "specs": {
+    "power": "48W diode (compressed)",
+    "workArea": "830 × 800 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "Wi-Fi (TS1)",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.1 mm repositioning",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–9 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "technical": {
+        "spotSize": "0.154 × 0.121 mm",
+        "maxSpeed": "600 mm/s (36,000 mm/min marketing)",
+        "avgEngraveSpeed": "100–200 mm/s fill",
+        "avgCutSpeed": "8–18 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Stone",
+      "Ceramics",
+      "Glass (surface)",
+      "Paper"
+    ],
+    "cut": [
+      "20 mm plywood (claimed, verify)",
+      "6 mm dark acrylic (claimed)",
+      "Basswood",
+      "Fabric"
+    ],
+    "cannot": [
+      "Bare metal without additives",
+      "Clear acrylic (diode limitation)",
+      "Small desk footprint"
+    ]
+  },
+  "pros": [
+    "Massive work area for diode class",
+    "48W with Z-offset cutting in LightBurn",
+    "Auto-focus and TS1 offline control",
+    "Strong value vs CO₂ for large wood"
+  ],
+  "cons": [
+    "Huge frame — needs dedicated table",
+    "15.2 kg machine weight",
+    "48W claims need real-world verification",
+    "Open frame — full safety responsibility"
+  ],
+  "beginnerNotes": "Only buy if you regularly hit size limits on S30 Ultra or 400 mm machines. First laser buyers should start smaller.",
+  "proTips": "Use Z-axis offset per pass in LightBurn for flatter thick cuts. Budget 50L+ air assist for claimed one-pass thick cuts.",
+  "primaryUse": "2025 large-area Sculpfun for engraving and cutting oversized wood, leather, and acrylic panels.",
+  "rating": {
+    "overall": 8.7,
+    "value": 8.8,
+    "easeOfUse": 8.2,
+    "capability": 9,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-22w",
+    "atomstack-a70-max",
+    "acmer-s2-pro-48w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/sculpfun-s40-max-48w/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s40-max-48w/01.webp",
+      "alt": "Sculpfun S40 MAX 48W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s40-max-48w/02.jpg",
+      "alt": "Sculpfun S40 MAX 48W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s40-max-48w/03.jpg",
+      "alt": "Sculpfun S40 MAX 48W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s40-max-48w/04.jpg",
+      "alt": "Sculpfun S40 MAX 48W laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-s40-max",
+  "powerRating": "48W",
+  "catalogPrimary": true,
+  "releaseDate": "2025-08"
+}

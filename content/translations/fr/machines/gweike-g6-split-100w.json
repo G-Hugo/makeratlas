@@ -1,0 +1,69 @@
+{
+  "tagline": "Marqueur fibre 100W en armoire split avec place pour rotary et fixations",
+  "tldr": "Le Gweike G6 Split 100W est la référence 100W de la gamme G6 Split. Le Gweike G6 Split est une plateforme de marquage fibre plus grande avec source laser en armoire séparée — format courant pour la petite production. Vérifiez la puissance optique sur l'annonce — ne vous fiez pas au marketing en watts combinés.",
+  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "primaryUse": "Marquage fibre petite production pour lots de pièces métal et personnalisation.",
+  "beginnerNotes": "Choisissez le 100W s'il correspond à vos jobs habituels. Comparez profondeur de gravure et prix avec les autres niveaux de la gamme avant de commander.",
+  "proTips": "Prévoyez l'extraction des fumées pour le marquage de métaux revêtus. La reproductibilité des fixations conditionne la rentabilité.",
+  "bestFor": [
+    "Lots de production",
+    "Gravure métal profonde",
+    "Marquage atelier",
+    "Travail rotary"
+  ],
+  "pros": [
+    "Niveaux de puissance évolutifs",
+    "Design split adapté aux ateliers",
+    "Capacité gravure profonde",
+    "Adapté à la production"
+  ],
+  "cons": [
+    "Encombrement plus grand",
+    "Pas portable",
+    "Prix supérieur aux boîtiers galvo de bureau",
+    "Installation et alignement critiques"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium",
+      "Laiton",
+      "Plastiques",
+      "Gravure métal profonde"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 10 mm)"
+    ],
+    "cannot": [
+      "Découpe organique",
+      "Travail acrylique type CO₂"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 100W — vérifiez la référence avant achat"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser — machine de marquage uniquement"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Gweike G6 Split 100W — Gweike"
+    },
+    {
+      "alt": "Graveuse laser Gweike G6 Split 100W — Gweike"
+    },
+    {
+      "alt": "Graveuse laser Gweike G6 Split 100W — Gweike"
+    },
+    {
+      "alt": "Graveuse laser Gweike G6 Split 100W — Gweike"
+    }
+  ]
+}

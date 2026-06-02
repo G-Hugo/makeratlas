@@ -1,0 +1,105 @@
+{
+  "id": "ortur-h20",
+  "slug": "ortur-h20",
+  "name": "Ortur H20",
+  "brand": "Ortur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Ortur's modular H20 platform — pick your optical power tier",
+  "tldr": "Umbrella listing for the Ortur H20 line. Choose a specific 10W, 20W, or 40W SKU — optional 2W IR module for metal marking on some bundles.",
+  "mainObjective": "Navigate Ortur H20 power tiers",
+  "bestFor": [
+    "Ortur upgrades"
+  ],
+  "priceRange": {
+    "min": 1179,
+    "max": 2199,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W / 20W / 40W diode (+ optional 2W IR)",
+    "workArea": "410 × 275 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood"
+    ],
+    "cut": [
+      "Wood"
+    ],
+    "cannot": [
+      "—"
+    ]
+  },
+  "pros": [
+    "Modular Ortur platform"
+  ],
+  "cons": [
+    "Select a power tier page"
+  ],
+  "beginnerNotes": "Open a specific H20 wattage profile below.",
+  "proTips": "Match module to materials before buying bundles.",
+  "primaryUse": "Index for Ortur H20 SKUs.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "ortur-laser-master-h10-20w",
+    "ortur-laser-master-3-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/ortur-h20/01.webp",
+  "modelLine": "ortur-h20",
+  "catalogHidden": true,
+  "releaseDate": "2024-09",
+  "images": [
+    {
+      "src": "/machines/ortur-h20/01.webp",
+      "alt": "Ortur H20 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-h20/02.webp",
+      "alt": "Ortur H20 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-h20/03.webp",
+      "alt": "Ortur H20 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-h20/04.webp",
+      "alt": "Ortur H20 10W laser engraver — Ortur"
+    }
+  ]
+}

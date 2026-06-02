@@ -1,0 +1,69 @@
+{
+  "tagline": "CO₂ cheval de bataille pour ateliers ayant dépassé le 40 W — grand plateau, vraie vitesse production",
+  "tldr": "Les machines CO₂ bureau/sol 80 W d’OMTech ciblent enseignistes et makers sérieux ayant besoin de découpes plus rapides sur acrylique et bois épais. Plus de puissance, plateaux plus grands et prix plus élevé que la classe K40. Attendez-vous à setup, ventilation et entretien — pas du plug-and-play.",
+  "mainObjective": "Production CO₂ haute puissance pour ateliers d’enseignes découpant acrylique et bois épais quotidiennement",
+  "primaryUse": "Laser CO₂ de production pour enseignes et découpe de matériaux épais dans des espaces atelier dédiés.",
+  "beginnerNotes": "N’achetez pas le 80 W comme premier laser. Vous devez déjà savoir que vous avez besoin de cette puissance et avoir planifié la ventilation.",
+  "proTips": "Installez ampèremètre et capteur de débit d’eau tôt. Gardez miroirs et lentille de rechange — l’arrêt production coûte plus que les pièces.",
+  "bestFor": [
+    "Ateliers d’enseignes",
+    "Acrylique épais",
+    "Découpe production",
+    "Anciens utilisateurs K40/55 W"
+  ],
+  "pros": [
+    "Vrai débit de découpe 80 W pour la production",
+    "Grand plateau pour enseignes et panneaux",
+    "LightBurn standard",
+    "Pièces et tubes largement disponibles",
+    "Fort rapport qualité-prix vs CO₂ enceint premium"
+  ],
+  "cons": [
+    "Grand encombrement et poids",
+    "Exige ventilation et espace dédiés",
+    "Courbe d’apprentissage setup et alignement",
+    "Entretien refroidisseur eau obligatoire",
+    "Inadapté aux appartements"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Caoutchouc",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Acrylique jusqu’à ~20 mm",
+      "Bois jusqu’à ~20 mm",
+      "Cuir",
+      "Tissu"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Fonctionnement zéro entretien",
+      "Placement petit bureau",
+      "Usage domestique silencieux"
+    ]
+  },
+  "priceRange": {
+    "note": "Varie selon taille de plateau (500×700 mm courant)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser OMTech 80W CO₂ — OMTech" },
+    { "alt": "Graveuse laser OMTech 80W CO₂ — OMTech" },
+    { "alt": "Graveuse laser OMTech 80W CO₂ — OMTech" },
+    { "alt": "Graveuse laser OMTech 80W CO₂ — OMTech" }
+  ]
+}

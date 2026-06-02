@@ -1,0 +1,64 @@
+{
+  "tagline": "Atomstack milieu de gamme avec faisceau comprimé — bon compromis entre A5 et A40",
+  "tldr": "L’A20 Pro se situe dans la gamme Atomstack entre l’A5 petit budget et le modèle phare A40. Excellents détails de gravure avec un châssis plus rigide que les modèles d’entrée. Montée en gamme pertinente si l’A5 vous semble lent mais que l’A40 dépasse votre budget.",
+  "mainObjective": "Atomstack milieu de gamme pour gravure détaillée et découpe fiable de bois fin",
+  "primaryUse": "Atomstack structure ouverte milieu de gamme pour gravure détaillée et découpe modérée de bois fin.",
+  "beginnerNotes": "Comparez l’A20 Pro et la Sculpfun S30 Ultra à prix similaire — la S30 gagne souvent côté astuces communauté pour la découpe ; l’A20 l’emporte parfois sur le détail de gravure.",
+  "proTips": "Le kit d’assistance air F60 d’Atomstack vaut le coup avant de pousser la profondeur de découpe — le noircissement baisse nettement sur du tilleul 5–6 mm.",
+  "bestFor": [
+    "Montées en gamme Atomstack",
+    "Gravure fine",
+    "20 W budget moyen",
+    "Découpe légère"
+  ],
+  "pros": [
+    "Meilleur châssis que la série A5",
+    "Faisceau comprimé pour des détails plus fins",
+    "Flux de travail orienté LightBurn",
+    "Grand plateau 400 mm",
+    "Tremplin vers la gamme A40"
+  ],
+  "cons": [
+    "Exigences de sécurité liées à la structure ouverte",
+    "Moins de contenu communautaire qu’Ortur",
+    "20 W reste limité par la diode sur les découpes épaisses",
+    "Assistance air souvent en option",
+    "L’A40 n’est que modérément plus chère pour les utilisateurs exigeants"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul 3–6 mm",
+      "Acrylique noir (fin)",
+      "Papier",
+      "Tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Bois dur épais de façon fiable",
+      "Métal nu",
+      "Production de panneaux CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Atomstack A20 Pro — Atomstack" },
+    { "alt": "Graveuse laser Atomstack A20 Pro — Atomstack" },
+    { "alt": "Graveuse laser Atomstack A20 Pro — Atomstack" },
+    { "alt": "Graveuse laser Atomstack A20 Pro — Atomstack" }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "tagline": "Châssis TTS amélioré avec meilleure rigidité et mise au point fixe",
+  "tldr": "La TTS-55 Pro améliore la TTS-55 de base avec un châssis plus rigide et une mise au point simplifiée. Toujours entrée de gamme, mais plus utilisable au quotidien. Pas concurrente de Sculpfun/xTool en cohérence.",
+  "mainObjective": "Diode petit budget améliorée, plus simple à configurer que la TTS-55 de base",
+  "primaryUse": "Diode loisir petit budget avec meilleure ergonomie que la TwoTrees TTS-55 de base.",
+  "beginnerNotes": "Passez à l’Ortur LM3 si le budget le permet (+150 $ environ) — meilleur support à long terme.",
+  "proTips": "Lancez un job de référence 10×10 cm avant de faire confiance aux vitesses annoncées.",
+  "bestFor": [
+    "Upgrade petit budget",
+    "Mise au point fixe",
+    "Gravure loisir",
+    "Propriétaires TwoTrees"
+  ],
+  "pros": [
+    "Mieux que la TTS-55 de base",
+    "Mise au point fixe simplifie le démarrage",
+    "Prix bas",
+    "Compatible LightBurn"
+  ],
+  "cons": [
+    "Toujours qualité entrée de gamme",
+    "Communauté réduite",
+    "Structure ouverte",
+    "Peut devenir limitante rapidement"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise"
+    ],
+    "cut": [
+      "Tilleul fin 2–4 mm",
+      "Papier"
+    ],
+    "cannot": [
+      "Découpes épaisses",
+      "Métal nu",
+      "Travail de production"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser TwoTrees TTS-55 Pro — TwoTrees" },
+    { "alt": "Graveuse laser TwoTrees TTS-55 Pro — TwoTrees" },
+    { "alt": "Graveuse laser TwoTrees TTS-55 Pro — TwoTrees" },
+    { "alt": "Graveuse laser TwoTrees TTS-55 Pro — TwoTrees" }
+  ]
+}

@@ -1,72 +1,119 @@
-import Link from "next/link";
+import type { Locale } from "@/i18n/config";
+import type { Dictionary } from "@/i18n/get-dictionary";
+import { LocaleLink } from "./LocaleLink";
+import { LocaleSwitcher } from "./LocaleSwitcher";
 
-const navLinks = [
-  { href: "/lasers", label: "Lasers" },
-  { href: "/guides", label: "Guides" },
-  { href: "/compare", label: "Compare" },
-  { href: "/about", label: "About" },
-];
+interface ChromeProps {
+  locale: Locale;
+  dict: Dictionary;
+}
 
-export function Header() {
+export function Header({ locale, dict }: ChromeProps) {
+  const navLinks = [
+    { href: "/lasers", label: dict.nav.lasers },
+    { href: "/guides", label: dict.nav.guides },
+    { href: "/compare", label: dict.nav.compare },
+    { href: "/about", label: dict.nav.about },
+  ];
+
   return (
-    <header className="border-b border-stone-200 bg-white/95 backdrop-blur-sm sticky top-0 z-50">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
-        <Link href="/" className="group flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-500 text-sm font-bold text-white">
+    <header className="sticky top-0 z-50 border-b border-stone-200 bg-white/95 backdrop-blur-sm">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
+        <LocaleLink href="/" locale={locale} className="group flex min-w-0 items-center gap-2">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-amber-500 text-sm font-bold text-white">
             MA
           </span>
-          <div>
-            <span className="block text-lg font-semibold tracking-tight text-stone-900 group-hover:text-amber-700">
-              Maker Atlas
+          <div className="min-w-0">
+            <span className="block truncate text-lg font-semibold tracking-tight text-stone-900 group-hover:text-amber-700">
+              {dict.meta.siteName}
             </span>
-            <span className="hidden text-xs text-stone-500 sm:block">
-              The complete reference for maker machines
+            <span className="hidden truncate text-xs text-stone-500 sm:block">
+              {dict.meta.siteTagline}
             </span>
           </div>
-        </Link>
+        </LocaleLink>
         <nav className="flex items-center gap-1 sm:gap-2">
           {navLinks.map((link) => (
-            <Link
+            <LocaleLink
               key={link.href}
               href={link.href}
-              className="rounded-md px-3 py-2 text-sm font-medium text-stone-600 transition hover:bg-stone-100 hover:text-stone-900"
+              locale={locale}
+              className="rounded-md px-2 py-2 text-sm font-medium text-stone-600 transition hover:bg-stone-100 hover:text-stone-900 sm:px-3"
             >
               {link.label}
-            </Link>
+            </LocaleLink>
           ))}
+          <LocaleSwitcher locale={locale} labels={dict.localeSwitcher} />
         </nav>
       </div>
     </header>
   );
 }
 
-export function Footer() {
+function FooterLinkGroup({
+  title,
+  links,
+  locale,
+}: {
+  title: string;
+  links: { href: string; label: string }[];
+  locale: Locale;
+}) {
+  return (
+    <div>
+      <p className="text-xs font-semibold uppercase tracking-wide text-stone-500">{title}</p>
+      <ul className="mt-3 space-y-2">
+        {links.map((link) => (
+          <li key={link.href}>
+            <LocaleLink
+              href={link.href}
+              locale={locale}
+              className="text-sm text-stone-700 hover:text-amber-700 hover:underline"
+            >
+              {link.label}
+            </LocaleLink>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export function Footer({ locale, dict }: ChromeProps) {
+  const siteLinks = [
+    { href: "/lasers", label: dict.nav.lasers },
+    { href: "/guides", label: dict.nav.guides },
+    { href: "/compare", label: dict.nav.compare },
+  ];
+  const trustLinks = [
+    { href: "/about", label: dict.footer.about },
+    { href: "/methodology", label: dict.footer.methodology },
+    { href: "/transparency", label: dict.footer.transparency },
+    { href: "/guides/laser-safety-basics", label: dict.footer.safety },
+  ];
+  const legalLinks = [
+    { href: "/legal", label: dict.footer.legalNotice },
+    { href: "/privacy", label: dict.footer.privacy },
+    { href: "/cookies", label: dict.footer.cookies },
+  ];
+
   return (
     <footer className="mt-auto border-t border-stone-200 bg-stone-50">
-      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="font-semibold text-stone-900">Maker Atlas</p>
-            <p className="mt-1 max-w-md text-sm text-stone-600">
-              Honest, clear reference guides for makers and small artisans.
-              We explain what machines actually do — no hype.
+      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="sm:col-span-2 lg:col-span-1">
+            <p className="font-semibold text-stone-900">{dict.meta.siteName}</p>
+            <p className="mt-2 max-w-sm text-sm leading-relaxed text-stone-600">
+              {dict.footer.blurb}
             </p>
-            <div className="mt-3 flex flex-wrap gap-3 text-sm">
-              <Link href="/about" className="text-amber-700 hover:underline">
-                About
-              </Link>
-              <Link href="/guides/laser-safety-basics" className="text-amber-700 hover:underline">
-                Safety
-              </Link>
-              <Link href="/guides" className="text-amber-700 hover:underline">
-                Guides
-              </Link>
-            </div>
           </div>
-          <p className="text-sm text-stone-500">
-            © {new Date().getFullYear()} Maker Atlas · makeratlas.com
-          </p>
+          <FooterLinkGroup title={dict.footer.siteLinks} links={siteLinks} locale={locale} />
+          <FooterLinkGroup title={dict.footer.trustLinks} links={trustLinks} locale={locale} />
+          <FooterLinkGroup title={dict.footer.legalLinks} links={legalLinks} locale={locale} />
         </div>
+        <p className="mt-10 border-t border-stone-200 pt-6 text-sm text-stone-500">
+          © {new Date().getFullYear()} {dict.meta.siteName} · {dict.footer.copyright}
+        </p>
       </div>
     </footer>
   );

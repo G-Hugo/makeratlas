@@ -1,0 +1,123 @@
+{
+  "id": "acmer-s1-6w",
+  "slug": "acmer-s1-6w",
+  "name": "Acmer S1 6W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Pocket Acmer S1 — ultra-portable diode for tiny projects",
+  "tldr": "Acmer S1 is a mini portable engraver (2.5–6W tiers) for stamps, small gifts, and travel. Not a workshop machine — complements a larger laser rather than replacing one.",
+  "mainObjective": "Portable micro-engraving for small items and learning",
+  "bestFor": [
+    "Portable",
+    "Small gifts",
+    "Stamps",
+    "Travel",
+    "Kids projects (supervised)"
+  ],
+  "priceRange": {
+    "min": 109,
+    "max": 169,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "6W diode (max tier)",
+    "workArea": "100 × 100 mm (approx.)",
+    "software": [
+      "Acmer mobile app",
+      "LightBurn (select)"
+    ],
+    "connectivity": [
+      "USB",
+      "Bluetooth"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "Paper/thin wood only"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Paper",
+      "Plastic"
+    ],
+    "cut": [
+      "Paper",
+      "Thin wood"
+    ],
+    "cannot": [
+      "Large signs",
+      "Thick cuts",
+      "Production work"
+    ]
+  },
+  "pros": [
+    "Very low price",
+    "Tiny footprint",
+    "Easy to store",
+    "Good learning tool"
+  ],
+  "cons": [
+    "Tiny work area",
+    "Low power",
+    "Not for serious shop work",
+    "Bluetooth workflow quirks"
+  ],
+  "beginnerNotes": "Buy as a toy/second machine, not your only laser.",
+  "proTips": "Get the 6W tier if buying S1 — small price jump for usable power.",
+  "primaryUse": "Portable micro-engraver for small personalization.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "laserpecker-4",
+    "longer-nano-6w",
+    "ortur-aufero-al1"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/acmer-s1-6w/01.webp",
+  "modelLine": "acmer-s1",
+  "powerRating": "6W",
+  "catalogPrimary": true,
+  "releaseDate": "2023-11",
+  "images": [
+    {
+      "src": "/machines/acmer-s1-6w/01.webp",
+      "alt": "Acmer S1 6W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-s1-6w/02.jpg",
+      "alt": "Acmer S1 6W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-s1-6w/03.jpg",
+      "alt": "Acmer S1 6W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-s1-6w/04.jpg",
+      "alt": "Acmer S1 6W laser engraver — Acmer"
+    }
+  ]
+}

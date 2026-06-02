@@ -1,0 +1,117 @@
+{
+  "id": "twotrees-tts-20-pro-20w",
+  "slug": "twotrees-tts-20-pro-20w",
+  "name": "TwoTrees TTS-20 Pro 20W",
+  "brand": "TwoTrees",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "TwoTrees TTS-20 Pro — 20W with rotary-ready frame",
+  "tldr": "TwoTrees TTS-20 Pro 20W is a 20W open-frame in the TTS line with rotary and riser bundle options. Budget alternative to TTS-55 Pro — good for 20W without paying for 40W class.",
+  "mainObjective": "Budget TwoTrees 20W for engraving and light cutting",
+  "bestFor": [
+    "TwoTrees buyers",
+    "20W tier",
+    "Rotary bundles",
+    "Budget open frame"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 699,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "300 × 300 mm (approx.)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic (dark)"
+    ],
+    "cut": [
+      "5 mm basswood"
+    ],
+    "cannot": [
+      "TTS-55 40W power",
+      "Premium build"
+    ]
+  },
+  "pros": [
+    "Lower cost than TTS-55 Pro",
+    "Rotary options",
+    "Active TwoTrees sales"
+  ],
+  "cons": [
+    "Smaller bed than TTS-55",
+    "Less community than Sculpfun",
+    "Open frame"
+  ],
+  "beginnerNotes": "Step up to TTS-55 40W tier if cutting thick wood often.",
+  "proTips": "TR2 rotary bundle is the common tumbler upgrade path.",
+  "primaryUse": "Entry-mid TwoTrees 20W for hobby engraving and cutting.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "twotrees-tts-55-20w",
+    "two-trees-ts2-20w",
+    "comgrow-z1-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/twotrees-tts-20-pro-20w/01.webp",
+  "modelLine": "twotrees-tts-20-pro",
+  "powerRating": "20W",
+  "catalogPrimary": true,
+  "releaseDate": "2023-12",
+  "images": [
+    {
+      "src": "/machines/twotrees-tts-20-pro-20w/01.webp",
+      "alt": "TwoTrees TTS-20 Pro 20W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/twotrees-tts-20-pro-20w/02.jpg",
+      "alt": "TwoTrees TTS-20 Pro 20W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/twotrees-tts-20-pro-20w/03.jpg",
+      "alt": "TwoTrees TTS-20 Pro 20W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/twotrees-tts-20-pro-20w/04.jpg",
+      "alt": "TwoTrees TTS-20 Pro 20W laser engraver — TwoTrees"
+    }
+  ]
+}

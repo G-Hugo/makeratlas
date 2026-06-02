@@ -1,0 +1,63 @@
+﻿{
+  "tagline": "Sculpfun compact fermé — petit encombrement, capot de sécurité complet",
+  "tldr": "Le laser de bureau fermé de Sculpfun pour makers qui veulent les performances de découpe de la marque dans un capot plus sûr. Plateau plus petit que le S30 Ultra mais tient sur un bureau serré. Bon compromis entre Sculpfun structure ouverte et xTool S1 premium.",
+  "mainObjective": "Sculpfun fermé compact pour gravure bureau avec moins de fumée",
+  "primaryUse": "Diode fermée compacte pour bureaux à petit espace : gravure et découpes légères bois/cuir.",
+  "beginnerNotes": "Achetez l’iCube Pro quand l’espace bureau et le capot comptent. Achetez le S30 Ultra quand la zone de travail et l’épaisseur de découpe priment.",
+  "proTips": "Utilisez les réglages communautaires Sculpfun comme point de départ — réduisez la vitesse de 10–15 % dans le capot si la carbonisation augmente à cause de la chaleur.",
+  "bestFor": [
+    "Petits bureaux",
+    "Sécurité fermée",
+    "Écosystème Sculpfun",
+    "Bureau à domicile"
+  ],
+  "pros": [
+    "Performances Sculpfun fermées dans un boîtier compact",
+    "Moins de fumée dans la pièce vs S30 structure ouverte",
+    "Réglages communautaires Sculpfun transférables",
+    "Support LightBurn",
+    "Tient sur bureaux qui n’accueillent pas 400 mm structure ouverte"
+  ],
+  "cons": [
+    "Petite zone vs modèles Sculpfun structure ouverte",
+    "USB seul sur beaucoup de configs",
+    "Capot limite la hauteur des matériaux",
+    "Pas assez moins cher vs S30 open pour ignorer la perte de plateau",
+    "Ventilation toujours recommandée pour la découpe"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul 3–5 mm",
+      "Acrylique noir (fin)",
+      "Papier"
+    ],
+    "cannot": [
+      "Grandes enseignes (petit plateau)",
+      "Acrylique transparent",
+      "Métal nu",
+      "Découpes production épaisses"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Sculpfun iCube Pro — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun iCube Pro — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun iCube Pro — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun iCube Pro — Sculpfun" }
+  ]
+}

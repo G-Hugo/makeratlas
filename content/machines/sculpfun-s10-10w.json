@@ -1,0 +1,116 @@
+{
+  "id": "sculpfun-s10-10w",
+  "slug": "sculpfun-s10-10w",
+  "name": "Sculpfun S10 10W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "2025 Sculpfun S10 line — industrial-style frame, 385 mm bed",
+  "tldr": "Sculpfun S10 10W launched in 2025 as a mid-size open-frame engraver with a sturdier industrial frame than S9, ~385 mm work area, and detachable laser cover. Positioned between budget S9 and S30 families for makers who want better rigidity without Ultra pricing.",
+  "mainObjective": "Mid-tier Sculpfun engraving with a stiffer frame than S9",
+  "bestFor": [
+    "Desk engraving",
+    "Gift personalization",
+    "S9 upgrade path",
+    "Light cutting"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 549,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "385 × 385 mm (approx.)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–11 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "60–140 mm/s fill",
+        "avgCutSpeed": "4–9 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "MDF",
+      "Anodized aluminum",
+      "Ceramic",
+      "PCB"
+    ],
+    "cut": [
+      "3 mm basswood",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Thick production cutting",
+      "Bare metal",
+      "Large signage panels"
+    ]
+  },
+  "pros": [
+    "Stiffer frame than entry S9",
+    "Detachable laser safety cover",
+    "Expansion kits supported",
+    "Sensible 10W value tier"
+  ],
+  "cons": [
+    "10W ceiling vs 20–22W mainstream",
+    "Open frame",
+    "Overlaps with S9 and S30 Pro pricing",
+    "Newer line — fewer community presets than S9"
+  ],
+  "beginnerNotes": "Choose S30 Ultra 10W if cutting matters; choose S10 if you want a 2025 frame and mainly engrave at 10W.",
+  "proTips": "Pair with 30L/min air assist per Sculpfun spec for cleaner cuts.",
+  "primaryUse": "2025 Sculpfun mid-size engraver for detailed work and light cutting on a reinforced frame.",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.3,
+    "easeOfUse": 8,
+    "capability": 7.8,
+    "buildQuality": 8.2
+  },
+  "similarModels": [
+    "sculpfun-s9-10w",
+    "sculpfun-s30-pro-10w",
+    "atomstack-a5-pro-10w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/sculpfun-s10-10w/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s10-10w/01.webp",
+      "alt": "Sculpfun S10 10W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s10-10w/02.jpg",
+      "alt": "Sculpfun S10 10W laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-s10",
+  "powerRating": "10W",
+  "catalogPrimary": true,
+  "releaseDate": "2025-04"
+}

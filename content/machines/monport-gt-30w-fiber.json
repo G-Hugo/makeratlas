@@ -1,0 +1,114 @@
+{
+  "id": "monport-gt-30w-fiber",
+  "slug": "monport-gt-30w-fiber",
+  "name": "Monport GT 30W Fiber",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "30W",
+  "tagline": "Split fiber laser engraver with autofocus from Monport",
+  "tldr": "Monport GT 30W brings split-cabinet fiber marking with autofocus — useful for varying part heights. Strong alternative to Gweike G6 in the same class.",
+  "mainObjective": "Shop marking on metals, plastics, and coated parts with production-friendly speeds",
+  "bestFor": [
+    "Mixed part heights",
+    "Production",
+    "Metal marking",
+    "Monport ecosystem"
+  ],
+  "priceRange": {
+    "min": 2599,
+    "max": 3799,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "30W fiber",
+    "workArea": "150 × 150 mm typical",
+    "software": [
+      "EZCAD",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–11 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm spot",
+        "maxSpeed": "7,000 mm/s",
+        "avgEngraveSpeed": "500–2,000 mm/s marking",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum",
+      "Brass",
+      "Plastics"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)"
+    ],
+    "cannot": [
+      "Wood shop work",
+      "Acrylic cutting"
+    ]
+  },
+  "pros": [
+    "Autofocus for varying heights",
+    "Monport support ecosystem",
+    "Split layout for production",
+    "MOPA tiers available"
+  ],
+  "cons": [
+    "Large footprint",
+    "Premium over entry galvo boxes",
+    "Still not a general laser cutter"
+  ],
+  "beginnerNotes": "Compare bundles with rotary and safety gear included.",
+  "proTips": "Calibrate autofocus on your most common part thickness.",
+  "primaryUse": "Production fiber marking with easier focus management across part sizes.",
+  "rating": {
+    "overall": 8.5,
+    "value": 8.3,
+    "easeOfUse": 8.4,
+    "capability": 7.6,
+    "buildQuality": 8.4
+  },
+  "similarModels": [
+    "gweike-g6-split-30w",
+    "commarker-b6-mopa-30w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/monport-gt-30w-fiber/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-gt-30w-fiber/01.webp",
+      "alt": "Monport GT 30W Fiber laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-gt-30w-fiber/02.webp",
+      "alt": "Monport GT 30W Fiber laser engraver — Monport"
+    },
+    {
+      "src": "/machines/monport-gt-30w-fiber/03.webp",
+      "alt": "Monport GT 30W Fiber laser engraver — Monport"
+    }
+  ],
+  "modelLine": "monport-gt",
+  "catalogPrimary": true,
+  "releaseDate": "2024-06"
+}

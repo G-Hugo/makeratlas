@@ -1,0 +1,66 @@
+{
+  "tagline": "Diode Comgrow 20W petit budget — souvent proposée en pack avec les imprimantes 3D",
+  "tldr": "La Comgrow Z1 20W est la référence 20W de la gamme Z1. Comgrow cible les débutants, souvent vendue aux côtés des imprimantes Ender 3D. Vérifiez la puissance optique sur l'annonce — ne vous fiez pas au marketing en watts combinés.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Diode ultra-budget pour tester si le travail au laser vous intéresse.",
+  "beginnerNotes": "Choisissez le 20W s'il correspond à vos jobs habituels. Comparez profondeur de découpe et prix avec les autres niveaux de la gamme avant de commander.",
+  "proTips": "Considérez-la comme des roues stabilisatrices — prévoyez une montée en gamme sous un an si vous vendez vos créations.",
+  "bestFor": [
+    "Packs Comgrow",
+    "Premiers essais",
+    "Gravure légère",
+    "Budget serré"
+  ],
+  "pros": [
+    "Prix très bas",
+    "Souvent en promo dans les bundles",
+    "Compatible LightBurn",
+    "Suffisante pour apprendre les bases"
+  ],
+  "cons": [
+    "Structure basique",
+    "Communauté plus petite qu'Ortur",
+    "Qualité variable selon les lots",
+    "Rapidement dépassée si le loisir devient sérieux"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Découpes épaisses",
+      "Métal nu",
+      "Production commerciale"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 20W — vérifiez la référence avant achat"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Comgrow Z1 20W — Comgrow"
+    },
+    {
+      "alt": "Graveuse laser Comgrow Z1 20W — Comgrow"
+    },
+    {
+      "alt": "Graveuse laser Comgrow Z1 20W — Comgrow"
+    }
+  ]
+}

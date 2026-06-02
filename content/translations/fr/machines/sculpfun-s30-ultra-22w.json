@@ -1,0 +1,76 @@
+{
+  "tagline": "Flagship S30 Ultra actuel — puissance diode Sculpfun maximale",
+  "tldr": "Le S30 Ultra 22 W est ce que Sculpfun vend aujourd’hui comme config Ultra structure ouverte haut de gamme (souvent avec LightBurn). Meilleure marge de découpe de la famille ; ne le confondez pas avec les anciennes annonces 10 W ou 20 W.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Diode loisir milieu de gamme orientée gravure et découpe modérée de matériaux organiques.",
+  "beginnerNotes": "Choisissez le S30 Ultra plutôt qu’un Ortur basique si la découpe de bois fin compte. Pour la gravure seule, économisez avec un 10 W. Prévoyez assistance air, plateau alvéolé et lunettes.",
+  "proTips": "Sculpfun publie des cartes de test matériaux — servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
+  "bestFor": [
+    "Découpe bois fin",
+    "Montées en gamme loisir",
+    "Production budget",
+    "Bois et cuir"
+  ],
+  "pros": [
+    "Forte découpe dans la classe diode",
+    "Châssis rigide réduit la flexion à haute vitesse",
+    "Bon rapport qualité-prix entre Ortur et xTool",
+    "Large écosystème accessoires (rotatif, extensions)",
+    "Base utilisateurs active avec réglages testés"
+  ],
+  "cons": [
+    "Structure ouverte — sécurité entièrement à votre charge",
+    "USB seul sur beaucoup de configs (pas de Wi-Fi)",
+    "Support et doc moins soignés que xTool",
+    "Toujours un diode — calibrez vos attentes vs CO₂",
+    "Montage et équerrage demandent de la patience"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé",
+      "Inox (avec spray)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Plaques acrylique épaisses",
+      "Métal nu",
+      "Gravure verre (de façon fiable)"
+    ]
+  },
+  "priceRange": {
+    "note": "Module 22 W — offre LightBurn courante"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Sculpfun S30 Ultra 22W — Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Ultra 22W — Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Ultra 22W — Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Ultra 22W — Sculpfun"
+    }
+  ]
+}

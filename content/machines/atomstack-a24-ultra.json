@@ -1,0 +1,124 @@
+{
+  "id": "atomstack-a24-ultra",
+  "slug": "atomstack-a24-ultra",
+  "name": "AtomStack A24 Ultra",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "Step-up A24 with more diode power and refined hybrid workflow",
+  "tldr": "AtomStack A24 Ultra is the higher-tier A24 with more diode power and updated hybrid layout. Same use case as A24 Pro — metal marking plus organic work in a compact box — with more headroom for cutting.",
+  "mainObjective": "Premium compact hybrid Atomstack for metal + wood shops",
+  "bestFor": [
+    "Hybrid power users",
+    "Jewelry",
+    "Small business mixed materials"
+  ],
+  "priceRange": {
+    "min": 1599,
+    "max": 2199,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "24W diode + fiber",
+    "workArea": "Verify listing — compact hybrid format",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Stainless",
+      "Plastics"
+    ],
+    "cut": [
+      "5 mm basswood",
+      "Thin acrylic"
+    ],
+    "cannot": [
+      "Large CO₂ panels",
+      "Full-size open-frame throughput"
+    ]
+  },
+  "pros": [
+    "More diode power than A24 Pro",
+    "Still desk-compact",
+    "Dual material flexibility"
+  ],
+  "cons": [
+    "Expensive for size",
+    "A40 open frame may beat value for wood-only"
+  ],
+  "beginnerNotes": "Compare A24 Ultra vs F1 Ultra portable hybrid before buying.",
+  "proTips": "Dedicated fixtures matter for repeat metal jobs.",
+  "primaryUse": "Compact hybrid production for mixed material personalization.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "atomstack-a24-pro",
+    "xtool-f2-ultra",
+    "acmer-p3"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/atomstack-a24-ultra/01.webp",
+  "powerRating": "24W",
+  "laserCapabilities": [
+    "diode",
+    "fiber"
+  ],
+  "capabilityTags": [
+    "diode",
+    "fiber"
+  ],
+  "releaseDate": "2025-01",
+  "catalogPrimary": true,
+  "images": [
+    {
+      "src": "/machines/atomstack-a24-ultra/01.webp",
+      "alt": "AtomStack A24 Ultra laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a24-ultra/02.jpg",
+      "alt": "AtomStack A24 Ultra laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a24-ultra/03.jpg",
+      "alt": "AtomStack A24 Ultra laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a24-ultra/04.jpg",
+      "alt": "AtomStack A24 Ultra laser engraver — Atomstack"
+    }
+  ]
+}

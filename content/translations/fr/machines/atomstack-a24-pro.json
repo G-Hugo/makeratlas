@@ -1,0 +1,65 @@
+{
+  "tagline": "Atomstack compacte avec diode et marquage fibre dans une seule unité de bureau",
+  "tldr": "L’AtomStack A24 Pro réunit une graveuse diode et un marquage fibre dans un encombrement plus petit que deux machines séparées. Niche pour marquage métal à l’échelle bijouterie plus bois — ni fibre d’atelier complet ni diode haute puissance.",
+  "mainObjective": "Atomstack double source pour marquage métal et gravure organique",
+  "primaryUse": "Hybride de bureau pour marquage métal mixte et petites gravures organiques.",
+  "beginnerNotes": "Choisissez-la si le marquage métal est régulier — passez votre chemin si vous ne gravez que le bois.",
+  "proTips": "Traitez fibre et diode comme des travaux séparés — fixations et réglages différents.",
+  "bestFor": [
+    "Bureau bijouterie",
+    "Plaques métalliques",
+    "Petits cadeaux",
+    "Hybride gain de place"
+  ],
+  "pros": [
+    "Deux lasers, un châssis",
+    "Compacte face à fibre + diode séparées",
+    "Support Atomstack"
+  ],
+  "cons": [
+    "Petit champ de marquage pour la fibre",
+    "Premium face aux machines mono-usage",
+    "Deux flux de travail à apprendre"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acier inoxydable (fibre)",
+      "Plastiques"
+    ],
+    "cut": [
+      "Bois fin",
+      "Papier"
+    ],
+    "cannot": [
+      "Grande signalétique",
+      "Profondeur fibre industrielle",
+      "Travail CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser AtomStack A24 Pro — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Pro — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Pro — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Pro — Atomstack" }
+  ],
+  "moduleSystem": {
+    "headline": "Gravure diode + marquage fibre",
+    "description": "L’A24 Pro combine découpe/gravure diode et source fibre pour marquage métal dans un seul pack.",
+    "options": [
+      { "label": "Diode 20 W" },
+      { "label": "Marquage fibre" }
+    ]
+  }
+}

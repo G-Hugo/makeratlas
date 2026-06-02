@@ -1,0 +1,119 @@
+{
+  "id": "acmer-p2-33w",
+  "slug": "acmer-p2-33w",
+  "name": "Acmer P2 33W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Strong Acmer P2 tier — 33W compressed diode for faster work",
+  "tldr": "Acmer P2 33W is the high-power open-frame Acmer before the enclosed P3. Verify real optical output vs marketing — capable cutter for the price when tuned properly.",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "bestFor": [
+    "Power on a budget",
+    "Wood cutting",
+    "Acmer ecosystem",
+    "Upgrade from P1"
+  ],
+  "priceRange": {
+    "min": 609,
+    "max": 1320,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "33W diode (compressed)",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic",
+      "Anodized aluminum (light)"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "Dark acrylic (up to 5 mm)"
+    ],
+    "cannot": [
+      "Enclosed safety without bundle",
+      "Production metal"
+    ]
+  },
+  "pros": [
+    "High watt class for price",
+    "Same frame family as P2 20W",
+    "Optional enclosure packs"
+  ],
+  "cons": [
+    "Compressed watt marketing",
+    "P3 enclosed is newer flagship",
+    "Community smaller than Sculpfun"
+  ],
+  "beginnerNotes": "Strong pick if P3 is too expensive but you want Acmer.",
+  "proTips": "Measure optical power if possible. Enclosure pack worth it for apartment use.",
+  "primaryUse": "High-power Acmer open-frame for cutting and fast engraving.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 9.5,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "acmer-p3",
+    "sculpfun-s30-ultra-22w",
+    "longer-laser-b1-30w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/acmer-p2-33w/01.webp",
+  "modelLine": "acmer-p2",
+  "powerRating": "33W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-04",
+  "images": [
+    {
+      "src": "/machines/acmer-p2-33w/01.webp",
+      "alt": "Acmer P2 33W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p2-33w/02.jpg",
+      "alt": "Acmer P2 33W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p2-33w/03.jpg",
+      "alt": "Acmer P2 33W laser engraver — Acmer"
+    },
+    {
+      "src": "/machines/acmer-p2-33w/04.jpg",
+      "alt": "Acmer P2 33W laser engraver — Acmer"
+    }
+  ]
+}

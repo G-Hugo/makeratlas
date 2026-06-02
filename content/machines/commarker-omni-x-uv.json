@@ -1,0 +1,121 @@
+{
+  "id": "commarker-omni-x-uv",
+  "slug": "commarker-omni-x-uv",
+  "name": "ComMarker Omni X UV",
+  "brand": "ComMarker",
+  "category": "laser-engraver",
+  "laserType": "uv",
+  "modelLine": "commarker-omni-x",
+  "catalogPrimary": true,
+  "tagline": "Desktop UV laser for glass, plastic, and fine detail",
+  "tldr": "ComMarker Omni X uses UV wavelength for cold marking on glass, some plastics, and delicate materials without as much heat damage as fiber or CO₂. Slower than fiber on metal — different tool for different materials.",
+  "mainObjective": "Benchtop marking on metals, plastics, and coated parts",
+  "bestFor": [
+    "Glass",
+    "Plastics",
+    "Fine detail",
+    "Gifts",
+    "Electronics marking"
+  ],
+  "priceRange": {
+    "min": 1999,
+    "max": 2999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "3W–5W UV",
+    "workArea": "100 × 100 mm typical",
+    "software": [
+      "ComMarker",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–12 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm spot",
+        "maxSpeed": "3,000 mm/s",
+        "avgEngraveSpeed": "100–400 mm/s",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Glass",
+      "Acrylic (some colors)",
+      "Plastics",
+      "Leather (light)",
+      "Paper"
+    ],
+    "cut": [
+      "Thin films (limited)"
+    ],
+    "cannot": [
+      "Bare metal (use fiber)",
+      "Thick wood cutting",
+      "CO₂-speed acrylic production"
+    ]
+  },
+  "pros": [
+    "Marks glass without fiber/failure modes",
+    "Cold marking reduces melting on plastics",
+    "Fine detail for small gifts",
+    "Desktop footprint"
+  ],
+  "cons": [
+    "Slow on large fill areas",
+    "Not for metal production",
+    "UV safety glasses mandatory",
+    "Material testing required per plastic type"
+  ],
+  "beginnerNotes": "Buy for glass/plastic gift niche — not as your only laser if you also need metal or thick cutting.",
+  "proTips": "Test each plastic color — UV absorption varies wildly. Use low power first on glass.",
+  "primaryUse": "UV engraving for glass awards, plastic parts, and fine gift personalization.",
+  "rating": {
+    "overall": 8.4,
+    "value": 8.2,
+    "easeOfUse": 8.5,
+    "capability": 7.5,
+    "buildQuality": 8.3
+  },
+  "similarModels": [
+    "commarker-omni-1-uv",
+    "commarker-omni-xe-uv"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/commarker-omni-x-uv/01.webp",
+  "images": [
+    {
+      "src": "/machines/commarker-omni-x-uv/01.webp",
+      "alt": "ComMarker Omni X UV laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-omni-x-uv/02.webp",
+      "alt": "ComMarker Omni X UV laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-omni-x-uv/03.webp",
+      "alt": "ComMarker Omni X UV laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-omni-x-uv/04.webp",
+      "alt": "ComMarker Omni X UV laser engraver — ComMarker"
+    }
+  ],
+  "powerRating": "5W",
+  "releaseDate": "2024-08"
+}

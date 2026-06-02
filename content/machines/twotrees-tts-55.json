@@ -5,7 +5,7 @@
   "brand": "TwoTrees",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/twotrees-tts-55.jpg",
+  "image": "/machines/twotrees-tts-55/01.webp",
   "tagline": "Ultra-budget diode with surprising build quality for the price",
   "tldr": "TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5.5W–40W diode platform. Good for testing the hobby. Expect less polish, smaller community, and more variance unit-to-unit than established brands.",
   "mainObjective": "Lowest-cost bench laser for basic wood & leather engraving experiments",
@@ -94,9 +94,30 @@
     "buildQuality": 6.5
   },
   "similarModels": [
-    "atomstack-a5-pro",
+    "atomstack-a40-pro",
     "longer-ray5"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-05-31",
+  "images": [
+    {
+      "src": "/machines/twotrees-tts-55/01.webp",
+      "alt": "TwoTrees TTS-55 laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/twotrees-tts-55/02.jpg",
+      "alt": "TwoTrees TTS-55 laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/twotrees-tts-55/03.jpg",
+      "alt": "TwoTrees TTS-55 laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/twotrees-tts-55/04.jpg",
+      "alt": "TwoTrees TTS-55 laser engraver — TwoTrees"
+    }
+  ],
+  "modelLine": "twotrees-tts-55",
+  "catalogHidden": true,
+  "releaseDate": "2022-01"
 }

@@ -1,0 +1,118 @@
+{
+  "id": "laserpecker-lp3",
+  "slug": "laserpecker-lp3",
+  "name": "LaserPecker LP3",
+  "brand": "LaserPecker",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Infrared portable LaserPecker for metal and plastic marking",
+  "tldr": "LaserPecker LP3 focuses on infrared marking for metal and engineered plastics in a portable form factor. Different from LP4/LP5 — prioritize if your work is metal tags and plastic, not large wood cutting.",
+  "mainObjective": "Portable IR marking for metal and plastic personalization",
+  "bestFor": [
+    "Metal marking",
+    "Plastic",
+    "Portable",
+    "Jewelry-scale work"
+  ],
+  "priceRange": {
+    "min": 1199,
+    "max": 1359,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "LP3 infrarouge",
+    "workArea": "120 × 120 mm (approx.)",
+    "software": [
+      "LaserPecker Design Space"
+    ],
+    "connectivity": [
+      "Bluetooth",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.03 mm IR spot",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "IR marking speeds",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Plastics",
+      "Some metals",
+      "Painted metals"
+    ],
+    "cut": [],
+    "cannot": [
+      "Large wood cutting",
+      "Workshop production",
+      "CO₂ acrylic work"
+    ]
+  },
+  "pros": [
+    "Specialized IR portability",
+    "Metal-focused",
+    "LaserPecker app ecosystem",
+    "Compact"
+  ],
+  "cons": [
+    "Not a wood cutter",
+    "Small area",
+    "Premium per capability",
+    "Superseded by LP5 for hybrid users"
+  ],
+  "beginnerNotes": "Buy for metal/plastic marking on the go — not as your only wood laser.",
+  "proTips": "Compare LP5 if you need diode + fiber in one newer chassis.",
+  "primaryUse": "Portable infrared marking for metal and plastic items.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "laserpecker-4",
+    "laserpecker-5",
+    "xtool-f1"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/laserpecker-lp3/01.webp",
+  "modelLine": "laserpecker-lp3",
+  "powerRating": "IR",
+  "catalogPrimary": true,
+  "releaseDate": "2023-12",
+  "images": [
+    {
+      "src": "/machines/laserpecker-lp3/01.webp",
+      "alt": "LaserPecker LP3 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp3/02.png",
+      "alt": "LaserPecker LP3 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp3/03.jpg",
+      "alt": "LaserPecker LP3 laser engraver — LaserPecker"
+    },
+    {
+      "src": "/machines/laserpecker-lp3/04.jpg",
+      "alt": "LaserPecker LP3 laser engraver — LaserPecker"
+    }
+  ]
+}

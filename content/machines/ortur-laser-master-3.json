@@ -14,8 +14,8 @@
     "First laser"
   ],
   "priceRange": {
-    "min": 399,
-    "max": 699,
+    "min": 140,
+    "max": 1740,
     "currency": "USD",
     "note": "20W kit typically $500–700"
   },
@@ -35,12 +35,12 @@
       "engraveExample": {
         "description": "Filled photo or logo on birch plywood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~10–15 min"
+        "time": "~12–18 min"
       },
       "cutExample": {
         "description": "Simple square cut-out from 3 mm basswood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~5–8 min"
+        "time": "~6–10 min"
       },
       "technical": {
         "spotSize": "~0.1 mm spot",
@@ -101,7 +101,24 @@
     "xtool-d1-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/ortur-laser-master-3.webp",
-  "mainObjective": "Best-value first laser for wood engraving & learning the craft"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/ortur-laser-master-3/01.webp",
+  "mainObjective": "Best-value first laser for wood engraving & learning the craft",
+  "images": [
+    {
+      "src": "/machines/ortur-laser-master-3/01.webp",
+      "alt": "Ortur Laser Master 3 laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-3/02.webp",
+      "alt": "Ortur Laser Master 3 laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-3/03.webp",
+      "alt": "Ortur Laser Master 3 laser engraver — Ortur"
+    }
+  ],
+  "modelLine": "ortur-laser-master-3",
+  "catalogHidden": true,
+  "releaseDate": "2022-08"
 }

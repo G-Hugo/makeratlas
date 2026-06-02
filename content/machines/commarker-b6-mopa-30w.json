@@ -1,0 +1,120 @@
+{
+  "id": "commarker-b6-mopa-30w",
+  "slug": "commarker-b6-mopa-30w",
+  "name": "ComMarker B6 MOPA 30W",
+  "brand": "ComMarker",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "30W",
+  "catalogPrimary": true,
+  "tagline": "MOPA fiber for color marking and deeper metal engraving",
+  "tldr": "ComMarker B6 adds MOPA fiber for color effects on stainless and finer control on deep metal engraving. Step up from B4 for shops that need color marking or faster production.",
+  "mainObjective": "MOPA fiber marking with color on stainless and production metal work",
+  "bestFor": [
+    "Color metal marking",
+    "Production marking",
+    "Deep engraving",
+    "Knives & tools"
+  ],
+  "priceRange": {
+    "min": 2499,
+    "max": 3499,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "30W MOPA fiber",
+    "workArea": "150 × 150 mm typical",
+    "software": [
+      "ComMarker",
+      "LightBurn",
+      "EZCAD"
+    ],
+    "connectivity": [
+      "USB",
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm MOPA spot",
+        "maxSpeed": "7,000 mm/s",
+        "avgEngraveSpeed": "500–2,000 mm/s marking",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel (incl. color)",
+      "Aluminum",
+      "Brass",
+      "Titanium",
+      "Plastics (select)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood",
+      "Acrylic cutting",
+      "Large-format organic work"
+    ]
+  },
+  "pros": [
+    "MOPA color on stainless for premium products",
+    "More power than 20W entry fiber",
+    "Good for production batches with fixtures",
+    "JPT source options on some SKUs"
+  ],
+  "cons": [
+    "Significantly more expensive than B4",
+    "Still a marking machine — not a workshop cutter",
+    "Software learning curve (EZCAD/LightBurn)",
+    "Color results depend on material batch"
+  ],
+  "beginnerNotes": "Choose B6 over B4 when you sell color metal products or need faster cycle times on steel.",
+  "proTips": "Build fixture jigs for repeat jobs. Keep lens clean — contamination shows on high-contrast marks.",
+  "primaryUse": "Professional metal marking with optional color effects for premium personalization.",
+  "rating": {
+    "overall": 8.7,
+    "value": 8.3,
+    "easeOfUse": 8.3,
+    "capability": 9,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "commarker-b4-20w",
+    "gweike-g6-split-30w",
+    "xtool-f2-ultra"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/commarker-b6-mopa-30w/01.webp",
+  "images": [
+    {
+      "src": "/machines/commarker-b6-mopa-30w/01.webp",
+      "alt": "ComMarker B6 MOPA 30W laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-b6-mopa-30w/02.jpg",
+      "alt": "ComMarker B6 MOPA 30W laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-b6-mopa-30w/03.jpg",
+      "alt": "ComMarker B6 MOPA 30W laser engraver — ComMarker"
+    },
+    {
+      "src": "/machines/commarker-b6-mopa-30w/04.jpg",
+      "alt": "ComMarker B6 MOPA 30W laser engraver — ComMarker"
+    }
+  ],
+  "releaseDate": "2024-09"
+}

@@ -5,7 +5,7 @@
   "brand": "Comgrow",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/comgrow-z1.svg",
+  "image": "/machines/comgrow-z1/01.webp",
   "tagline": "Budget Comgrow diode — often bundled with 3D printer deals",
   "tldr": "Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Adequate for learning. Performance similar to Atomstack A5 tier — not a long-term production machine.",
   "mainObjective": "Cheapest Comgrow entry for light engraving experiments",
@@ -93,5 +93,22 @@
     "atomstack-a5-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/comgrow-z1/01.webp",
+      "alt": "Comgrow Z1 laser engraver — Comgrow"
+    },
+    {
+      "src": "/machines/comgrow-z1/02.webp",
+      "alt": "Comgrow Z1 laser engraver — Comgrow"
+    },
+    {
+      "src": "/machines/comgrow-z1/03.webp",
+      "alt": "Comgrow Z1 laser engraver — Comgrow"
+    }
+  ],
+  "modelLine": "comgrow-z1",
+  "catalogHidden": true,
+  "releaseDate": "2022-04"
 }

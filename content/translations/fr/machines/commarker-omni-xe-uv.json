@@ -1,0 +1,60 @@
+{
+  "tagline": "Plateforme UV élargie pour travaux verre et plastique plus grands",
+  "tldr": "L'Omni XE se situe entre l'Omni 1 et l'Omni X dans la gamme UV ComMarker — vérifiez les specs actuelles pour la taille du plateau et la puissance. L'UV reste spécialisé : verre, plastiques, fines détails.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
+  "primaryUse": "Personnalisation UV sur verre et plastique avec une zone de travail légèrement plus grande.",
+  "beginnerNotes": "Comparez Omni X vs XE vs 1 sur la taille du plateau, le rotary inclus et la licence logicielle.",
+  "proTips": "Utilisez des fixations pour un positionnement verre reproductible.",
+  "bestFor": [
+    "Verre",
+    "Plastiques",
+    "Cadeaux taille moyenne",
+    "Production UV"
+  ],
+  "pros": [
+    "Plus d'espace que l'Omni 1",
+    "Avantages du marquage UV à froid",
+    "Format bureau"
+  ],
+  "cons": [
+    "Chevauche l'Omni X — comparez les bundles",
+    "Tests matériaux UV requis"
+  ],
+  "materials": {
+    "engrave": [
+      "Verre",
+      "Plastiques",
+      "Cuir (léger)",
+      "Papier"
+    ],
+    "cut": [],
+    "cannot": [
+      "Métal nu",
+      "Découpe organique épaisse"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe laser — machine de marquage uniquement"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser ComMarker Omni XE UV — ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker Omni XE UV — ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker Omni XE UV — ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker Omni XE UV — ComMarker"
+    }
+  ]
+}

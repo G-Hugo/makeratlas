@@ -1,0 +1,129 @@
+{
+  "id": "ortur-laser-master-3-20w",
+  "slug": "ortur-laser-master-3-20w",
+  "name": "Ortur Laser Master 3 20W",
+  "brand": "Ortur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Community-favorite open-frame diode — best LM3 value",
+  "tldr": "The 20W LM3 is the configuration most buyers mean when they say 'Laser Master 3'. Strong engraving, light cutting, huge community — verify you are not accidentally ordering the 10W SKU.",
+  "bestFor": [
+    "Beginners",
+    "Budget buyers",
+    "Wood engraving",
+    "First laser"
+  ],
+  "priceRange": {
+    "min": 140,
+    "max": 1740,
+    "currency": "USD",
+    "note": "20W module — most common SKU"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 400 mm (15.75 × 15.75 in)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~10–15 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "technical": {
+        "spotSize": "~0.10 mm spot",
+        "maxSpeed": "333 mm/s",
+        "avgEngraveSpeed": "70–150 mm/s fill",
+        "avgCutSpeed": "3–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "Dark acrylic (up to 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Thick hardwood reliably",
+      "Bare metal without spray",
+      "Large-scale production runs (duty cycle limits)"
+    ]
+  },
+  "pros": [
+    "Excellent price-to-work-area ratio",
+    "Massive community — fixes and tutorials everywhere",
+    "LightBurn support for serious workflows",
+    "Wi-Fi and fixed-focus options simplify setup",
+    "Good enough to learn whether you need a bigger machine later"
+  ],
+  "cons": [
+    "Open frame — safety glasses mandatory, not kid/pet friendly",
+    "Build and QA less consistent than premium brands",
+    "Customer support can be slow",
+    "20W marketing is optical/combined power — real cutting still limited",
+    "No enclosure included — smoke and noise in your workspace"
+  ],
+  "beginnerNotes": "A solid first laser if you are unsure about the hobby. Start with LightBurn (paid but worth it). Do not expect it to run a business alone — duty cycle and consistency may frustrate high-volume sellers.",
+  "proTips": "Join the Ortur Facebook/Reddit groups before buying — firmware tips save hours. Add air assist early. If you plan to sell products within 6 months, consider jumping to xTool D1 Pro or CO₂ instead.",
+  "primaryUse": "Affordable introduction to diode laser engraving and light cutting for hobbyists.",
+  "rating": {
+    "overall": 8.3,
+    "value": 9.2,
+    "easeOfUse": 8,
+    "capability": 9.4,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-22w",
+    "creality-falcon2-pro",
+    "xtool-s1-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/ortur-laser-master-3-20w/01.webp",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "images": [
+    {
+      "src": "/machines/ortur-laser-master-3-20w/01.webp",
+      "alt": "Ortur Laser Master 3 20W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-3-20w/02.webp",
+      "alt": "Ortur Laser Master 3 20W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-3-20w/03.webp",
+      "alt": "Ortur Laser Master 3 20W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-laser-master-3-20w/04.webp",
+      "alt": "Ortur Laser Master 3 20W laser engraver — Ortur"
+    }
+  ],
+  "modelLine": "ortur-laser-master-3",
+  "powerRating": "20W",
+  "catalogPrimary": true,
+  "releaseDate": "2022-08"
+}

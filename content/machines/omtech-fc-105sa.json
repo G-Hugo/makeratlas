@@ -1,0 +1,117 @@
+{
+  "id": "omtech-fc-105sa",
+  "slug": "omtech-fc-105sa",
+  "name": "OMTech FC-105SA Fiber",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "tagline": "OMTech FC-105SA — industrial fiber cutting platform",
+  "tldr": "OMTech FC-105SA is a fiber laser cutting system for metal sheet work — beyond desktop marking galvos. Serious investment for shops doing steel/aluminum cutting, not hobby wood engraving.",
+  "mainObjective": "Fiber laser cutting for metal fabrication shops",
+  "bestFor": [
+    "Metal cutting",
+    "Fabrication",
+    "Industrial hobbyists",
+    "Business"
+  ],
+  "priceRange": {
+    "min": 8999,
+    "max": 14999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "105W fiber",
+    "workArea": "Large format (verify SKU)",
+    "software": [
+      "LightBurn",
+      "CypCut",
+      "Manufacturer software"
+    ],
+    "connectivity": [
+      "Ethernet",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "Fiber cutting spot",
+        "maxSpeed": "Production speeds",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "Fiber cut speeds"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Metal (production)"
+    ],
+    "cut": [
+      "Stainless",
+      "Carbon steel",
+      "Aluminum (verify)"
+    ],
+    "cannot": [
+      "Wood",
+      "Acrylic hobby",
+      "Desktop jewelry only"
+    ]
+  },
+  "pros": [
+    "True fiber cutting class",
+    "OMTech support network",
+    "Business-capable"
+  ],
+  "cons": [
+    "Very expensive",
+    "Not a desktop engraver",
+    "Install and training required"
+  ],
+  "beginnerNotes": "Not comparable to FC-105 marking or diode hobby lasers.",
+  "proTips": "Confirm SA vs SAT vs base FC-105 SKU differences before purchase.",
+  "primaryUse": "Metal sheet cutting for small fabrication businesses.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "omtech-fc105-fiber",
+    "gweike-g6-split-100w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/omtech-fc-105sa/01.webp",
+  "powerRating": "105W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-06",
+  "images": [
+    {
+      "src": "/machines/omtech-fc-105sa/01.webp",
+      "alt": "OMTech FC-105SA Fiber laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc-105sa/02.jpg",
+      "alt": "OMTech FC-105SA Fiber laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc-105sa/03.jpg",
+      "alt": "OMTech FC-105SA Fiber laser engraver — OMTech"
+    },
+    {
+      "src": "/machines/omtech-fc-105sa/04.jpg",
+      "alt": "OMTech FC-105SA Fiber laser engraver — OMTech"
+    }
+  ]
+}

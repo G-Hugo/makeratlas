@@ -1,0 +1,54 @@
+{
+  "tagline": "Montée en gamme A24 avec plus de puissance diode et flux hybride affiné",
+  "tldr": "L’AtomStack A24 Ultra est l’A24 haut de gamme avec plus de puissance diode et une disposition hybride mise à jour. Même usage que l’A24 Pro — marquage métal plus travail organique dans un boîtier compact — avec plus de marge pour la découpe.",
+  "mainObjective": "Hybride compact premium Atomstack pour ateliers métal + bois",
+  "primaryUse": "Production hybride compacte pour personnalisation multi-matériaux.",
+  "beginnerNotes": "Comparez l’A24 Ultra et la F1 Ultra portable hybride avant d’acheter.",
+  "proTips": "Des fixations dédiées comptent pour les jobs métal répétitifs.",
+  "bestFor": [
+    "Utilisateurs exigeants hybride",
+    "Bijouterie",
+    "Petite entreprise multi-matériaux"
+  ],
+  "pros": [
+    "Plus de puissance diode que l’A24 Pro",
+    "Toujours compacte de bureau",
+    "Flexibilité double matière"
+  ],
+  "cons": [
+    "Chère pour la taille",
+    "Une A40 structure ouverte peut mieux valoir le coup pour bois seul"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acier inoxydable",
+      "Plastiques"
+    ],
+    "cut": [
+      "Tilleul 5 mm",
+      "Acrylique fin"
+    ],
+    "cannot": [
+      "Grands panneaux CO₂",
+      "Débit structure ouverte pleine taille"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser AtomStack A24 Ultra — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Ultra — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Ultra — Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Ultra — Atomstack" }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "tagline": "Diode structure ouverte grand format 20 W — grand plateau à petit prix",
+  "tldr": "La Nubur N4060 20 W est le SKU 20 W de la gamme NuBur N4060. Elle mise sur la taille de zone de travail à prix compétitif. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing en watts combinés.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Diode structure ouverte grand format pour gravure bois surdimensionnée et découpe légère.",
+  "beginnerNotes": "Choisissez le 20 W s’il correspond à vos jobs typiques. Comparez profondeur de découpe et prix avec les autres gammes de cette ligne avant de commander.",
+  "proTips": "Équerez et rigidifiez le châssis avant les gros jobs. Faites un test cross-hatch sur toute la surface.",
+  "bestFor": [
+    "Grandes gravures",
+    "Panneaux signalétiques",
+    "Grand plateau petit budget",
+    "Art sur bois"
+  ],
+  "pros": [
+    "Très grand plateau pour le prix",
+    "Adaptée aux gravures surdimensionnées",
+    "Compatible LightBurn",
+    "Bon rapport qualité-prix pour hobby signalétique"
+  ],
+  "cons": [
+    "Grands châssis demandent un équerrage soigné",
+    "Sécurité structure ouverte",
+    "Communauté plus petite",
+    "L’étiquette 40 W peut dépasser la sortie optique réelle"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Précision pleine surface sans réglage",
+      "Profondeur de découpe CO₂"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 20 W — vérifiez le SKU avant d’acheter"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser NuBur N4060 — NuBur"
+    }
+  ]
+}

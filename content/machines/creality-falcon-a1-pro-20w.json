@@ -1,0 +1,147 @@
+{
+  "id": "creality-falcon-a1-pro-20w",
+  "slug": "creality-falcon-a1-pro-20w",
+  "name": "Creality Falcon A1 Pro 20W",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "Enclosed dual-source A1 Pro — diode plus infrared for more materials",
+  "tldr": "Creality Falcon A1 Pro 20W adds a dual-laser setup in an enclosed chassis for faster engraving and some metal/plastic marking. Middle ground between A1 10W and the open Falcon 2 Pro 40W line.",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "bestFor": [
+    "Creality ecosystem",
+    "Metal marking",
+    "Faster engraving",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 1099,
+    "max": 1299,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode + infrared auxiliary",
+    "workArea": "250 × 250 mm (approx.)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Plastic",
+      "Some metals",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "Dark acrylic (up to 5 mm)"
+    ],
+    "cannot": [
+      "Large-format production",
+      "Thick CO₂ acrylic runs",
+      "Fiber-level metal depth"
+    ]
+  },
+  "pros": [
+    "Enclosed dual laser",
+    "More power than A1 10W",
+    "Creality software stack",
+    "Metal marking without separate fiber"
+  ],
+  "cons": [
+    "Smaller bed than Falcon 2",
+    "Hybrid complexity vs single diode",
+    "Premium over open-frame 20W"
+  ],
+  "beginnerNotes": "Choose when you want enclosure + metal marking in one Creality box.",
+  "proTips": "Test each laser source on scrap — IR and diode need different settings.",
+  "primaryUse": "Enclosed dual-source Creality for mixed material small business work.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 9.5,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "creality-falcon2-pro-22w",
+    "xtool-f1-ultra",
+    "acmer-p3"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/creality-falcon-a1-pro-20w/01.webp",
+  "modelLine": "creality-falcon-a1",
+  "powerRating": "20W",
+  "moduleSystem": {
+    "style": "dual-laser",
+    "headline": "Diode + infrared in one enclosure",
+    "description": "A1 Pro combines a high-power diode with an infrared source for expanded material support inside the enclosed chassis.",
+    "options": [
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode"
+      },
+      {
+        "power": "IR",
+        "laserKind": "infrared",
+        "label": "Infrared marking"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "diode",
+    "infrared"
+  ],
+  "capabilityTags": [
+    "diode",
+    "infrared"
+  ],
+  "releaseDate": "2024-08",
+  "catalogPrimary": true,
+  "images": [
+    {
+      "src": "/machines/creality-falcon-a1-pro-20w/01.webp",
+      "alt": "Creality Falcon A1 Pro 20W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-a1-pro-20w/02.jpg",
+      "alt": "Creality Falcon A1 Pro 20W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-a1-pro-20w/03.jpg",
+      "alt": "Creality Falcon A1 Pro 20W laser engraver — Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-a1-pro-20w/04.jpg",
+      "alt": "Creality Falcon A1 Pro 20W laser engraver — Creality"
+    }
+  ]
+}

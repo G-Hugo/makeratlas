@@ -1,0 +1,67 @@
+{
+  "tagline": "Longer portable rapide — 12 W avec déplacement élevé et options rotary",
+  "tldr": "Le Longer Nano Pro 12 W est une diode portable premium avec vitesses annoncées très élevées et accessoires rotary/coulisse. Machine de niche pour makers voulant la portabilité avec plus de punch que les mini 6 W.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "primaryUse": "Longer portable premium pour gravure nomade et travail rotary.",
+  "beginnerNotes": "Achetez-le pour portabilité + vitesse — pas à la place d’un structure ouverte 400 mm.",
+  "proTips": "Prévoyez le budget pour l’extension coulissante si vous gravez des gobelets régulièrement.",
+  "bestFor": [
+    "Puissance portable",
+    "Gravure rotary",
+    "Activité nomade",
+    "Fans Longer"
+  ],
+  "pros": [
+    "Vitesses annoncées élevées",
+    "Écosystème rotary et coulisse",
+    "Support Longer",
+    "Plus de puissance que Nano 6 W"
+  ],
+  "cons": [
+    "Cher pour la classe portable",
+    "Petit plateau natif",
+    "Pas un remplacement de bureau"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Plastique",
+      "Aluminium anodisé (léger)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 5 mm)",
+      "Paper",
+      "Thin leather"
+    ],
+    "cannot": [
+      "Grande signalétique",
+      "Production d’atelier",
+      "Matériaux CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Longer Nano Pro 12W — Longer"
+    },
+    {
+      "alt": "Graveuse laser Longer Nano Pro 12W — Longer"
+    },
+    {
+      "alt": "Graveuse laser Longer Nano Pro 12W — Longer"
+    },
+    {
+      "alt": "Graveuse laser Longer Nano Pro 12W — Longer"
+    }
+  ]
+}

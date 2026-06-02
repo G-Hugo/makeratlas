@@ -1,0 +1,62 @@
+{
+  "tagline": "Ortur LM2 S2 10 W — gravures plus rapides que le 5 W sur le même châssis",
+  "tldr": "L’Ortur LM2 S2 10 W est le SKU haute puissance de la famille LM2 S2 — meilleure découpe sur bois fin et remplissages plus rapides que le 5 W, toujours structure ouverte et orienté budget.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "primaryUse": "Gravure 10 W budget et découpe occasionnelle.",
+  "beginnerNotes": "Préférez un H20/LM3 neuf si le budget le permet — meilleure optique et support.",
+  "proTips": "L’assistance air améliore nettement la qualité de découpe sur les machines LM2.",
+  "bestFor": [
+    "10 W budget",
+    "Découpe loisir",
+    "Écosystème Ortur"
+  ],
+  "pros": [
+    "10 W à prix d’entrée",
+    "Plateau 400 mm",
+    "Documentation support Ortur"
+  ],
+  "cons": [
+    "Structure ouverte",
+    "Dépassé par LM3/H20",
+    "Assistance air en option"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise (foncée)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 5 mm)"
+    ],
+    "cannot": [
+      "Matériaux épais",
+      "Métal",
+      "Débit production"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Ortur LM2 S2 10W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur LM2 S2 10W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur LM2 S2 10W — Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur LM2 S2 10W — Ortur"
+    }
+  ]
+}

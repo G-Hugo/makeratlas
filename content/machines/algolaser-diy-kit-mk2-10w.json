@@ -1,0 +1,117 @@
+{
+  "id": "algolaser-diy-kit-mk2-10w",
+  "slug": "algolaser-diy-kit-mk2-10w",
+  "name": "AlgoLaser DIY Kit MK2 10W",
+  "brand": "AlgoLaser",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "10W enclosed DIY Kit MK2 — common AlgoLaser starter SKU",
+  "tldr": "AlgoLaser DIY Kit MK2 10W is the popular enclosed 10W configuration — assembly required but more contained than open-frame competitors at similar price.",
+  "mainObjective": "Enclosed 10W AlgoLaser for hobby engraving",
+  "bestFor": [
+    "First enclosed diode",
+    "AlgoLaser ecosystem",
+    "Moderate cutting"
+  ],
+  "priceRange": {
+    "min": 449,
+    "max": 649,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "~400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "3 mm basswood"
+    ],
+    "cannot": [
+      "Thick cutting",
+      "Metal",
+      "CO₂ materials"
+    ]
+  },
+  "pros": [
+    "Enclosed at entry price",
+    "MK2 upgrade path",
+    "LightBurn friendly"
+  ],
+  "cons": [
+    "Build time",
+    "10W ceiling",
+    "Alpha MK2 20W+ more headroom"
+  ],
+  "beginnerNotes": "Budget extra time for assembly and squaring the frame.",
+  "proTips": "Extended bed kits exist — confirm compatibility with your exact MK2 revision.",
+  "primaryUse": "Enclosed hobby engraving with light cutting.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "algolaser-diy-kit-mini",
+    "algolaser-alpha-mk2-10w",
+    "creality-falcon-a1-10w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/algolaser-diy-kit-mk2-10w/01.webp",
+  "modelLine": "algolaser-diy-kit-mk2",
+  "powerRating": "10W",
+  "catalogPrimary": true,
+  "releaseDate": "2023-11",
+  "images": [
+    {
+      "src": "/machines/algolaser-diy-kit-mk2-10w/01.webp",
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk2-10w/02.jpg",
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk2-10w/03.jpg",
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk2-10w/04.jpg",
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+    }
+  ]
+}

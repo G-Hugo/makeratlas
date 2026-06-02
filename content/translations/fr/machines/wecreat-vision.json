@@ -1,0 +1,74 @@
+{
+  "tagline": "Diode fermée assistée par IA avec aperçu en direct — laser intelligent pour débutants",
+  "tldr": "Le laser diode fermé WeCreat ajoute caméra et fonctions IA pour la détection des matériaux et l’aperçu visuel. Attractif pour les débutants qui veulent être guidés. Les perfs laser restent comparables aux autres diodes fermées — vous payez les fonctions intelligentes.",
+  "mainObjective": "Gravure fermée guidée par IA pour un flux visuel et accessible aux débutants",
+  "primaryUse": "Diode fermée intelligente pour débutants souhaitant guidage visuel et filtration à domicile.",
+  "beginnerNotes": "Bon choix si vous voulez être accompagné et avoir un retour visuel. Les makers expérimentés préféreront peut-être la xTool S1 pour la maturité de l’écosystème à prix similaire.",
+  "proTips": "Utilisez l’aperçu caméra pour le placement en série, mais faites quand même des cartes test sur nouveaux matériaux — les presets IA sont des points de départ, pas des vérités absolues. LightBurn débloque plus de contrôle quand vous dépasserez l’app d’origine.",
+  "bestFor": [
+    "Débutants curieux de tech",
+    "Apprenants visuels",
+    "Sécurité fermée",
+    "Personnalisation cadeaux"
+  ],
+  "pros": [
+    "Aperçu caméra en direct réduit les erreurs d’alignement",
+    "Design fermé avec filtration",
+    "Suggestions matériaux IA utiles aux vrais débutants",
+    "Surface de travail compétitive pour la catégorie fermée",
+    "Marque récente active avec communauté en croissance"
+  ],
+  "cons": [
+    "Fonctions IA peu utiles pour les utilisateurs expérimentés",
+    "Communauté plus petite que xTool pour le dépannage",
+    "Support logiciel long terme moins prouvé que les marques établies",
+    "Toujours limité par la diode côté matériaux",
+    "Premium vs structure ouverte pour la même puissance brute"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé",
+      "Inox (avec spray)"
+    ],
+    "cut": [
+      "Tilleul 3–6 mm",
+      "Acrylique noir (fin)",
+      "Papier",
+      "Tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Découpes production épaisses",
+      "Métal nu",
+      "Travail acrylique niveau CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "La fonction IA est-elle vraiment utile ?",
+      "answer": "Pour les débutants, oui — elle accélère les premiers projets et réduit les erreurs d’alignement. Les pros l’ignoreront probablement et utiliseront LightBurn avec réglages manuels."
+    },
+    {
+      "question": "WeCreat vs xTool S1 ?",
+      "answer": "Catégorie diode fermée similaire. xTool a une communauté plus large et un historique plus long. WeCreat mise sur l’UX caméra/IA. Choisissez xTool pour l’écosystème ; WeCreat si l’aperçu intelligent vous séduit."
+    }
+  ],
+  "images": [
+    { "alt": "Graveuse laser WeCreat Vision — WeCreat" },
+    { "alt": "Graveuse laser WeCreat Vision — WeCreat" },
+    { "alt": "Graveuse laser WeCreat Vision — WeCreat" }
+  ]
+}

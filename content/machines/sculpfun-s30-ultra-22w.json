@@ -1,0 +1,128 @@
+{
+  "id": "sculpfun-s30-ultra-22w",
+  "slug": "sculpfun-s30-ultra-22w",
+  "name": "Sculpfun S30 Ultra 22W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Current S30 Ultra flagship — maximum Sculpfun diode power",
+  "tldr": "The 22W S30 Ultra is what Sculpfun sells today as the top open-frame Ultra config (often bundled with LightBurn). Best cut headroom in the family; do not confuse with older 10W or 20W listings.",
+  "bestFor": [
+    "Cutting thin wood",
+    "Hobby upgrades",
+    "Budget production",
+    "Wood & leather"
+  ],
+  "priceRange": {
+    "min": 690,
+    "max": 690,
+    "currency": "USD",
+    "note": "22W module — common LightBurn bundle"
+  },
+  "specs": {
+    "power": "22W diode",
+    "workArea": "410 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–11 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "167 mm/s",
+        "avgEngraveSpeed": "80–160 mm/s fill",
+        "avgCutSpeed": "5–14 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "Dark acrylic (up to 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Thick acrylic sheets",
+      "Bare metal",
+      "Glass engraving (reliably)"
+    ]
+  },
+  "pros": [
+    "Strong cut performance in the diode class",
+    "Sturdy frame reduces flex at higher speeds",
+    "Good value between Ortur and xTool",
+    "Wide accessory ecosystem (rotary, extension kits)",
+    "Active user base with tested settings"
+  ],
+  "cons": [
+    "Open frame — full safety responsibility on you",
+    "USB-only on many configs (no Wi-Fi)",
+    "Support and documentation less polished than xTool",
+    "Still a diode — manage expectations vs. CO₂",
+    "Assembly and squaring require patience"
+  ],
+  "beginnerNotes": "Choose the S30 Ultra over basic Ortur if cutting thin wood matters to you. For engraving-only projects, save money with a 10W model. Budget for air assist, honeycomb bed, and safety glasses.",
+  "proTips": "Sculpfun publishes material test cards — use them. Multiple slow passes beat one fast pass for cut quality. Extension kits are useful but check frame rigidity before going oversized.",
+  "primaryUse": "Mid-range hobby diode laser focused on engraving and moderate cutting of organic materials.",
+  "rating": {
+    "overall": 8.5,
+    "value": 8.8,
+    "easeOfUse": 7.8,
+    "capability": 9.5,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-20w",
+    "ortur-laser-master-3-20w",
+    "creality-falcon2-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/sculpfun-s30-ultra-22w/01.webp",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s30-ultra-22w/01.webp",
+      "alt": "Sculpfun S30 Ultra 22W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-22w/02.jpg",
+      "alt": "Sculpfun S30 Ultra 22W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-22w/03.jpg",
+      "alt": "Sculpfun S30 Ultra 22W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-22w/04.jpg",
+      "alt": "Sculpfun S30 Ultra 22W laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-s30-ultra",
+  "powerRating": "22W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-01"
+}

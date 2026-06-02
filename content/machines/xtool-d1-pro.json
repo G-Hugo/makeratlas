@@ -35,12 +35,12 @@
       "engraveExample": {
         "description": "Filled photo or logo on birch plywood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~8–12 min"
+        "time": "~12–18 min"
       },
       "cutExample": {
         "description": "Simple square cut-out from 3 mm basswood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~4–6 min"
+        "time": "~6–10 min"
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
@@ -103,7 +103,59 @@
     "creality-falcon2-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/xtool-d1-pro.webp",
-  "mainObjective": "Hobby engraving on wood, leather & coated metal with light cutting"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/xtool-d1-pro/01.webp",
+  "mainObjective": "Hobby engraving on wood, leather & coated metal with light cutting",
+  "images": [
+    {
+      "src": "/machines/xtool-d1-pro/01.webp",
+      "alt": "xTool D1 Pro laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-d1-pro/02.webp",
+      "alt": "xTool D1 Pro laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-d1-pro/03.webp",
+      "alt": "xTool D1 Pro laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-d1-pro/04.webp",
+      "alt": "xTool D1 Pro laser engraver — xTool"
+    }
+  ],
+  "modelLine": "xtool-d1-pro",
+  "catalogHidden": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Swappable diode modules on D1 Pro frame",
+    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need — same rail and software as other D1 Pro heads.",
+    "options": [
+      {
+        "power": "5W",
+        "laserKind": "diode",
+        "label": "5W diode",
+        "tierSlug": "xtool-d1-pro-5w"
+      },
+      {
+        "power": "10W",
+        "laserKind": "diode",
+        "label": "10W diode",
+        "tierSlug": "xtool-d1-pro-10w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "xtool-d1-pro-20w"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W module",
+        "tierSlug": "xtool-d1-pro-40w"
+      }
+    ]
+  },
+  "releaseDate": "2022-06"
 }

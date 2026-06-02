@@ -1,0 +1,52 @@
+{
+  "tagline": "OMTech FC-105SAT — variante SAT de la gamme découpeuse fibre FC-105",
+  "tldr": "L’OMTech FC-105SAT est une variante de la famille FC-105 avec configuration SAT — même classe que FC-105SA pour découpe fibre tôle ; comparez les specs chez OMTech avant de choisir SA vs SAT vs T.",
+  "mainObjective": "Découpe fibre FC-105 avec configuration SAT",
+  "primaryUse": "Découpe tôle fibre dans la famille FC-105.",
+  "beginnerNotes": "Comparez FC-105SA, SAT et T chez OMTech — les différences sont propres à chaque configuration.",
+  "proTips": "Obtenez le PDF specs officiel pour gaz assist et taille de plateau avant de chiffrer des jobs.",
+  "bestFor": [
+    "Ateliers découpe métal",
+    "Acheteurs fibre OMTech comparant les SKU"
+  ],
+  "pros": [
+    "Plateforme FC-105",
+    "Documentation OMTech",
+    "Orienté découpe"
+  ],
+  "cons": [
+    "Confusion SKU vs SA/T",
+    "Encombrement atelier",
+    "Setup professionnel"
+  ],
+  "materials": {
+    "engrave": [
+      "Métal (modes marquage)"
+    ],
+    "cut": [
+      "Inox",
+      "Acier doux",
+      "Aluminium (limites)"
+    ],
+    "cannot": [
+      "Matériaux organiques",
+      "Travail acrylique CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser OMTech FC-105SAT — OMTech" },
+    { "alt": "Graveuse laser OMTech FC-105SAT — OMTech" },
+    { "alt": "Graveuse laser OMTech FC-105SAT — OMTech" },
+    { "alt": "Graveuse laser OMTech FC-105SAT — OMTech" }
+  ]
+}

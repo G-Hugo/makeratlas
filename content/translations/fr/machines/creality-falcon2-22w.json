@@ -1,0 +1,52 @@
+{
+  "tagline": "Diode Creality 22W d'entrée — chemin de montée simple pour les propriétaires d'imprimantes 3D",
+  "tldr": "La Creality Falcon2 22W est la référence 22W de la gamme Falcon2. La Falcon2 12W de base est la diode à structure ouverte abordable de Creality. Vérifiez la puissance optique sur l'annonce — ne vous fiez pas au marketing en watts combinés.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Diode budget orientée gravure pour utilisateurs écosystème Creality et personnalisation loisir légère.",
+  "beginnerNotes": "Choisissez le 22W s'il correspond à vos jobs habituels. Comparez profondeur de découpe et prix avec les autres niveaux de la gamme avant de commander.",
+  "proTips": "Ralentissez les remplissages pour des résultats plus propres — le 12W demande de la patience. Passez au module 22W plus tard si Creality le propose pour votre châssis.",
+  "bestFor": [
+    "Fans Creality",
+    "Gravure d'abord",
+    "Propriétaires d'imprimantes 3D",
+    "Loisir budget"
+  ],
+  "pros": [
+    "Prix d'entrée bas d'une marque connue",
+    "Grande zone de travail",
+    "Prise en charge LightBurn",
+    "Complément naturel pour l'écosystème Creality",
+    "Qualité de gravure correcte pour du 12W"
+  ],
+  "cons": [
+    "Faible vs concurrents 20W à coût total similaire",
+    "Assistance air souvent en option",
+    "Sécurité structure ouverte",
+    "Logiciel laser Creality moins mature que xTool",
+    "Profondeur de découpe décevante vs le marketing"
+  ],
+  "priceRange": {
+    "note": "Module optique 22W — vérifiez la référence avant achat"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Creality Falcon2 22W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon2 22W — Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon2 22W — Creality"
+    }
+  ]
+}

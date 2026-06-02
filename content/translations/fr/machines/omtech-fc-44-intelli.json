@@ -1,0 +1,50 @@
+﻿{
+  "tagline": "Fibre OMTech Intelli compacte — plateforme format intermédiaire pour découpe et marquage",
+  "tldr": "L’OMTech FC-44 Intelli est un système fibre plus compact que le FC-105, pensé pour les ateliers qui ont besoin de travailler le métal sans l’encombrement d’une machine industrielle. C’est toujours une machine pro — pas un substitut aux graveurs diode de bureau ni aux marqueurs fibre galvo.",
+  "mainObjective": "Fibre mid-format pour petites entreprises orientées métal",
+  "primaryUse": "Système fibre format intermédiaire pour découpe métal et marquage de production.",
+  "beginnerNotes": "Comparez un marqueur fibre galvo de bureau si vous n’avez besoin que du marquage, pas de la découpe.",
+  "proTips": "Anticipez dès le départ l’espace d’installation, l’évacuation des fumées et l’entretien du refroidisseur.",
+  "bestFor": [
+    "Petit atelier métal",
+    "Entrée en découpe fibre",
+    "Écosystème OMTech"
+  ],
+  "pros": [
+    "Plus compact que le FC-105",
+    "Fonctions logicielles Intelli",
+    "Réseau de revendeurs OMTech"
+  ],
+  "cons": [
+    "Toujours coûteux",
+    "Non portable",
+    "Courbe d’apprentissage"
+  ],
+  "materials": {
+    "engrave": [
+      "Métal"
+    ],
+    "cut": [
+      "Tôle fine"
+    ],
+    "cannot": [
+      "Atelier bois",
+      "Cadeaux loisir uniquement"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser OMTech FC-44 Intelli — OMTech" },
+    { "alt": "Graveuse laser OMTech FC-44 Intelli — OMTech" },
+    { "alt": "Graveuse laser OMTech FC-44 Intelli — OMTech" }
+  ]
+}

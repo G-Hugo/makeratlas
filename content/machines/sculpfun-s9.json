@@ -5,7 +5,7 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/sculpfun-s9.jpg",
+  "image": "/machines/sculpfun-s9/01.webp",
   "tagline": "Sculpfun's proven budget line — still popular for value-focused makers",
   "tldr": "Before S30 Ultra, the S9 was Sculpfun's workhorse. Still sold and widely documented in community guides. Lower power than current flagships but excellent value for engraving-focused hobbyists who do not need 20W cutting.",
   "mainObjective": "Budget Sculpfun for reliable wood engraving before upgrading to S30 class",
@@ -16,8 +16,8 @@
     "Learning LightBurn"
   ],
   "priceRange": {
-    "min": 299,
-    "max": 499,
+    "min": 270,
+    "max": 369,
     "currency": "USD",
     "note": "S9 Pro 10W common config"
   },
@@ -95,10 +95,31 @@
     "buildQuality": 7.8
   },
   "similarModels": [
-    "ortur-laser-master-3",
-    "atomstack-a5-pro",
-    "sculpfun-s30-ultra"
+    "ortur-laser-master-3-20w",
+    "atomstack-a40-pro",
+    "sculpfun-s30-ultra-22w"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-05-31",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s9/01.webp",
+      "alt": "Sculpfun S9 laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s9/02.jpg",
+      "alt": "Sculpfun S9 laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s9/03.jpg",
+      "alt": "Sculpfun S9 laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s9/04.jpg",
+      "alt": "Sculpfun S9 laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-s9",
+  "catalogHidden": true,
+  "releaseDate": "2021-06"
 }

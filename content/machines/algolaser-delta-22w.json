@@ -1,0 +1,117 @@
+{
+  "id": "algolaser-delta-22w",
+  "slug": "algolaser-delta-22w",
+  "name": "AlgoLaser Delta 22W",
+  "brand": "AlgoLaser",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "AlgoLaser Delta — enclosed-optional 22W with delta kinematics",
+  "tldr": "AlgoLaser Delta 22W uses a delta-style motion system in a compact footprint with optional enclosure. Alternative to Cartesian Alpha MK2 — check community for reliability and spare parts before buying.",
+  "mainObjective": "Enclosed-capable 22W AlgoLaser for makers who want delta kinematics",
+  "bestFor": [
+    "AlgoLaser fans",
+    "22W cutting",
+    "Compact delta design",
+    "Enclosure option"
+  ],
+  "priceRange": {
+    "min": 799,
+    "max": 1099,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "22W diode",
+    "workArea": "250 × 250 mm (approx.)",
+    "software": [
+      "AlgoLaser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic (dark)"
+    ],
+    "cut": [
+      "5 mm basswood",
+      "Thin acrylic"
+    ],
+    "cannot": [
+      "Alpha MK2 40W class power",
+      "Huge beds"
+    ]
+  },
+  "pros": [
+    "Different kinematics vs cartesian",
+    "22W tier",
+    "AlgoLaser software"
+  ],
+  "cons": [
+    "Smaller community than Sculpfun/Ortur",
+    "Delta maintenance learning curve"
+  ],
+  "beginnerNotes": "Compare Alpha MK2 40W if you need maximum AlgoLaser power.",
+  "proTips": "Enclosure strongly recommended for apartment use.",
+  "primaryUse": "Compact AlgoLaser 22W for engraving and light-medium cutting.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "algolaser-alpha-mk2-22w",
+    "creality-falcon2-22w",
+    "sculpfun-s30-ultra-22w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/algolaser-delta-22w/01.webp",
+  "modelLine": "algolaser-delta",
+  "powerRating": "22W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-05",
+  "images": [
+    {
+      "src": "/machines/algolaser-delta-22w/01.webp",
+      "alt": "AlgoLaser Delta 22W laser engraver — AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-delta-22w/02.jpg",
+      "alt": "AlgoLaser Delta 22W laser engraver — AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-delta-22w/03.jpg",
+      "alt": "AlgoLaser Delta 22W laser engraver — AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-delta-22w/04.jpg",
+      "alt": "AlgoLaser Delta 22W laser engraver — AlgoLaser"
+    }
+  ]
+}

@@ -21,7 +21,7 @@
     "currency": "USD"
   },
   "specs": {
-    "power": "40W combined / ~10W optical class",
+    "power": "40W diode (compressed)",
     "workArea": "410 × 400 mm",
     "performance": {
       "precision": "0.01 mm",
@@ -92,6 +92,14 @@
     "atomstack-a5-pro",
     "twotrees-tts-55"
   ],
-  "status": "published",
-  "lastUpdated": "2026-05-31"
+  "status": "archived",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/htouroy-40w.svg",
+      "alt": "Htouroy 40W laser engraver by Htouroy"
+    }
+  ],
+  "powerRating": "40W",
+  "releaseDate": "2024-02"
 }

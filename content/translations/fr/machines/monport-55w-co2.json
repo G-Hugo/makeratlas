@@ -1,0 +1,77 @@
+{
+  "tagline": "CO₂ milieu de gamme avec finition supérieure au K40 — moins de bricolage",
+  "tldr": "Monport se situe entre les K40 petit budget et les CO₂ enceints premium comme xTool P2. Les modèles bureau 55 W offrent une vraie puissance de découpe avec une meilleure finition et autofocus en option. Ventilation toujours requise, mais plus proche du « prêt pour l’activité » qu’un K40 stock.",
+  "mainObjective": "Production CO₂ milieu de gamme pour enseignes, acrylique et ateliers bois",
+  "primaryUse": "CO₂ milieu de gamme pour enseignistes et vendeurs Etsy dépassant la classe K40.",
+  "beginnerNotes": "Passez du K40 quand vous avez besoin de plus de plateau, plus de puissance et moins de mods obligatoires. Passez au xTool P2 quand enceinte, caméra et setup minimal comptent plus que le prix.",
+  "proTips": "Prévoyez un budget pour améliorer le ventilateur d’évacuation si la ventilation d’origine semble faible. Faites un test de rampe après livraison pour vérifier la mise au point sur tout le plateau. Gardez l’eau de refroidissement du tube propre — les tubes CO₂ lâchent prématurément sans entretien.",
+  "bestFor": [
+    "Montée en gamme petite activité",
+    "CO₂ milieu de budget",
+    "Découpe acrylique et bois",
+    "Anciens utilisateurs K40"
+  ],
+  "pros": [
+    "Plus de puissance et de plateau que la classe K40 pour activités en croissance",
+    "Meilleure finition que les K40 basiques",
+    "Compatible LightBurn d’emblée sur la plupart des modèles",
+    "Option autofocus qui fait gagner du temps sur épaisseurs variables",
+    "Fort rapport qualité-prix dans le segment CO₂ milieu"
+  ],
+  "cons": [
+    "Planification de ventilation externe toujours requise",
+    "Pas enceint sur la plupart des modèles bureau",
+    "Expérience support variable selon la région",
+    "Plus lourd et bruyant que les diodes",
+    "Moins abouti que l’expérience enceinte xTool P2"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Caoutchouc",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Acrylique jusqu’à ~12 mm",
+      "Bois jusqu’à ~15 mm",
+      "Cuir",
+      "Tissu"
+    ],
+    "cannot": [
+      "Marquage métal nu",
+      "Installation sans aucune ventilation",
+      "Plug-and-play sans courbe d’apprentissage"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Monport 55 W vs OMTech 40 W classe K40 ?",
+      "answer": "Monport offre en général plus de puissance, un plateau plus grand et une meilleure expérience sortie de boîte. Le K40 OMTech est moins cher si vous aimez bricoler. Monport est le choix « après le K40 »."
+    },
+    {
+      "question": "Ai-je besoin d’un refroidissement eau ?",
+      "answer": "Oui. Les tubes verre CO₂ exigent un refroidisseur eau ou une boucle continue. Ne faites jamais tourner le tube sans refroidissement adéquat — quelques minutes à sec peuvent le détruire."
+    }
+  ],
+  "priceRange": {
+    "note": "Varie selon taille de plateau et options autofocus"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Monport 55W CO₂ — Monport" },
+    { "alt": "Graveuse laser Monport 55W CO₂ — Monport" },
+    { "alt": "Graveuse laser Monport 55W CO₂ — Monport" }
+  ]
+}

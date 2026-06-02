@@ -1,13 +1,13 @@
 {
   "id": "longer-laser-b1",
   "slug": "longer-laser-b1",
-  "name": "Longer Laser B1",
+  "name": "Longer Laser B1 20W",
   "brand": "Longer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/longer-laser-b1.jpg",
+  "image": "/machines/longer-laser-b1/01.webp",
   "tagline": "Longer's large-format diode — bigger bed than Ray5 for sign-sized projects",
-  "tldr": "The Laser B1 is Longer's answer to large-format diode cutters like Sculpfun S30 and Atomstack A40. Available up to 40W with a wide work area. Strong value if you need size over brand prestige — verify air assist and enclosure options for your use case.",
+  "tldr": "Longer's large-format B1 20W diode — this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately.",
   "mainObjective": "Large-format diode for bigger wood signs & light production cutting",
   "bestFor": [
     "Large signs",
@@ -16,13 +16,13 @@
     "Wood cutting hobbyists"
   ],
   "priceRange": {
-    "min": 599,
-    "max": 999,
+    "min": 510,
+    "max": 870,
     "currency": "USD",
-    "note": "20W and 40W configs; extension kits extra"
+    "note": "20W SKU — other wattages are separate Longer listings"
   },
   "specs": {
-    "power": "20W / 40W diode options",
+    "power": "20W diode",
     "workArea": "450 × 440 mm (base; extensions available)",
     "software": [
       "Longer Laser Tool",
@@ -98,9 +98,31 @@
   },
   "similarModels": [
     "atomstack-a40-pro",
-    "sculpfun-s30-ultra",
+    "sculpfun-s30-ultra-22w",
     "creality-falcon2-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/longer-laser-b1/01.webp",
+      "alt": "Longer Laser B1 20W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-laser-b1/02.jpg",
+      "alt": "Longer Laser B1 20W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-laser-b1/03.jpg",
+      "alt": "Longer Laser B1 20W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-laser-b1/04.jpg",
+      "alt": "Longer Laser B1 20W laser engraver — Longer"
+    }
+  ],
+  "powerRating": "20W",
+  "modelLine": "longer-laser-b1",
+  "catalogHidden": true,
+  "releaseDate": "2023-02"
 }

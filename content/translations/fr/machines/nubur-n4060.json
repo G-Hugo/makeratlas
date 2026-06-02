@@ -1,0 +1,59 @@
+{
+  "tagline": "Diode structure ouverte grand format — grand plateau à petit prix",
+  "tldr": "La NuBur N4060 mise sur la taille de zone de travail à prix compétitif. Bonne pour grandes gravures bois et panneaux signalétiques dans les limites diode. La rigidité du châssis en pleine surface peut demander attention pour le travail de précision.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Diode structure ouverte grand format pour gravure bois surdimensionnée et découpe légère.",
+  "beginnerNotes": "Achetez si vous avez besoin de grandes gravures. Prenez Ortur/Sculpfun en taille standard si vous n’avez pas besoin de 600 mm de profondeur.",
+  "proTips": "Équerez et rigidifiez le châssis avant les gros jobs. Faites un test cross-hatch sur toute la surface.",
+  "bestFor": [
+    "Grandes gravures",
+    "Panneaux signalétiques",
+    "Grand plateau petit budget",
+    "Art sur bois"
+  ],
+  "pros": [
+    "Très grand plateau pour le prix",
+    "Adaptée aux gravures surdimensionnées",
+    "Compatible LightBurn",
+    "Bon rapport qualité-prix pour hobby signalétique"
+  ],
+  "cons": [
+    "Grands châssis demandent un équerrage soigné",
+    "Sécurité structure ouverte",
+    "Communauté plus petite",
+    "L’étiquette 40 W peut dépasser la sortie optique réelle"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Précision pleine surface sans réglage",
+      "Profondeur de découpe CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser NuBur N4060 — NuBur"
+    }
+  ]
+}

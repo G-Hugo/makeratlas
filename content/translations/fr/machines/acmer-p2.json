@@ -1,0 +1,44 @@
+{
+  "tagline": "Acmer P2 structure ouverte — niveaux 20 W et 33 W",
+  "tldr": "Page regroupant la gamme Acmer P2. Choisissez la référence 20 W ou 33 W pour les specs et les prix.",
+  "mainObjective": "Comparer les configurations Acmer P2",
+  "primaryUse": "Index de la gamme Acmer P2.",
+  "beginnerNotes": "Ouvrez la fiche 20 W ou 33 W ci-dessous.",
+  "proTips": "Ignorez les packs « All In One » si vous n'avez besoin que de la machine.",
+  "bestFor": [
+    "Montée en gamme Acmer"
+  ],
+  "pros": [
+    "Gamme intermédiaire Acmer"
+  ],
+  "cons": [
+    "Choisir un niveau de puissance"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois"
+    ],
+    "cut": [
+      "Bois"
+    ],
+    "cannot": [
+      "—"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Acmer P2 33 W — Acmer" },
+    { "alt": "Graveuse laser Acmer P2 33 W — Acmer" },
+    { "alt": "Graveuse laser Acmer P2 33 W — Acmer" },
+    { "alt": "Graveuse laser Acmer P2 33 W — Acmer" }
+  ]
+}

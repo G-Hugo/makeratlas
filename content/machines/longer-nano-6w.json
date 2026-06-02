@@ -1,0 +1,122 @@
+{
+  "id": "longer-nano-6w",
+  "slug": "longer-nano-6w",
+  "name": "Longer Nano 6W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Longer's entry portable — compact diode for small projects",
+  "tldr": "Longer Nano 6W is a compact portable engraver for small gifts and learning. Pairs with Longer's accessory ecosystem. Upgrade to Nano Pro 12W if you need real cutting speed.",
+  "mainObjective": "Entry-level hobby engraving on wood, leather, and coated metal with light cutting",
+  "bestFor": [
+    "Portable",
+    "Small gifts",
+    "Longer ecosystem",
+    "Beginners"
+  ],
+  "priceRange": {
+    "min": 499,
+    "max": 1059,
+    "currency": "USD",
+    "note": "Pro sets add rotary/slide"
+  },
+  "specs": {
+    "power": "6W diode",
+    "workArea": "130 × 130 mm (approx.)",
+    "software": [
+      "Longer Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Bluetooth"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–28 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–15 min"
+      },
+      "technical": {
+        "spotSize": "~0.07 mm spot",
+        "maxSpeed": "5,000 mm/s",
+        "avgEngraveSpeed": "10–27 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Paper",
+      "Plastic"
+    ],
+    "cut": [
+      "Paper",
+      "Basswood (up to 3 mm)"
+    ],
+    "cannot": [
+      "Large panels",
+      "Production cutting",
+      "Metal"
+    ]
+  },
+  "pros": [
+    "Longer brand support",
+    "Compact",
+    "Accessory packs available",
+    "Easy storage"
+  ],
+  "cons": [
+    "Low power vs Nano Pro",
+    "Small work area",
+    "Premium vs generic mini lasers"
+  ],
+  "beginnerNotes": "Skip if you already plan on a 10W+ bench laser.",
+  "proTips": "Nano Pro 12W is the better Longer portable if budget allows.",
+  "primaryUse": "Compact Longer portable for small engraving projects.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "acmer-s1-6w",
+    "laserpecker-4",
+    "sculpfun-icube-pro-5w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/longer-nano-6w/01.webp",
+  "modelLine": "longer-nano",
+  "powerRating": "6W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-02",
+  "images": [
+    {
+      "src": "/machines/longer-nano-6w/01.webp",
+      "alt": "Longer Nano 6W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-nano-6w/02.jpg",
+      "alt": "Longer Nano 6W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-nano-6w/03.jpg",
+      "alt": "Longer Nano 6W laser engraver — Longer"
+    },
+    {
+      "src": "/machines/longer-nano-6w/04.jpg",
+      "alt": "Longer Nano 6W laser engraver — Longer"
+    }
+  ]
+}

@@ -14,8 +14,8 @@
     "Etsy sellers"
   ],
   "priceRange": {
-    "min": 4499,
-    "max": 5199,
+    "min": 3399,
+    "max": 6609,
     "currency": "USD",
     "note": "Price varies with air assist and riser base options"
   },
@@ -101,11 +101,33 @@
     "buildQuality": 9
   },
   "similarModels": [
+    "xtool-p2s",
+    "xtool-p3",
     "glowforge-aura",
     "omtech-40w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
-  "image": "/machines/xtool-p2.webp",
-  "mainObjective": "Professional cutting of acrylic, wood & leather for small businesses"
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/xtool-p2/01.webp",
+  "mainObjective": "Professional cutting of acrylic, wood & leather for small businesses",
+  "images": [
+    {
+      "src": "/machines/xtool-p2/01.webp",
+      "alt": "xTool P2 laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-p2/02.webp",
+      "alt": "xTool P2 laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-p2/03.webp",
+      "alt": "xTool P2 laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-p2/04.webp",
+      "alt": "xTool P2 laser engraver — xTool"
+    }
+  ],
+  "powerRating": "55W",
+  "releaseDate": "2022-01"
 }

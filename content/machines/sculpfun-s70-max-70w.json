@@ -1,0 +1,125 @@
+{
+  "id": "sculpfun-s70-max-70w",
+  "slug": "sculpfun-s70-max-70w",
+  "name": "Sculpfun S70 MAX 70W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "2025 flagship Sculpfun diode — 70W class on the S40/S70 large frame",
+  "tldr": "Sculpfun's S70 MAX pushes the S-series frame to ~70W optical class for shops that want maximum diode cutting depth without CO₂. Same oversized bed philosophy as S40 MAX — premium pricing and workshop space requirements apply.",
+  "mainObjective": "Top-tier Sculpfun large-format cutting with maximum diode power",
+  "bestFor": [
+    "Heavy cutting",
+    "Large panels",
+    "Sculpfun loyalists",
+    "CO₂ alternative seekers"
+  ],
+  "priceRange": {
+    "min": 1399,
+    "max": 1899,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "70W diode (compressed)",
+    "workArea": "830 × 800 mm (S-series frame)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "Wi-Fi (TS1)",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.1 mm repositioning",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "technical": {
+        "spotSize": "Compressed beam (fine spot)",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "120–220 mm/s fill",
+        "avgCutSpeed": "10–22 mm/s on 3–6 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Stone",
+      "Ceramics",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Thick basswood",
+      "Dark acrylic",
+      "Plywood (multi-pass)",
+      "Fabric"
+    ],
+    "cannot": [
+      "True CO₂ clear acrylic",
+      "Industrial metal cutting",
+      "Compact home desks"
+    ]
+  },
+  "pros": [
+    "Highest Sculpfun diode tier",
+    "Large bed for signs and furniture panels",
+    "Auto-focus and TS1 control",
+    "Competes with Atomstack A70 on paper specs"
+  ],
+  "cons": [
+    "70W diode marketing — verify optical output",
+    "Very large footprint and weight",
+    "Premium over S40 MAX for moderate users",
+    "Open-frame ventilation required"
+  ],
+  "beginnerNotes": "Compare Atomstack A70 Max and Acmer P3 before buying — similar power class, different software and community.",
+  "proTips": "If you don't need 70W daily, S40 MAX at 48W often offers better value per watt.",
+  "primaryUse": "2025 maximum-power Sculpfun for large-format cutting and high-throughput engraving.",
+  "rating": {
+    "overall": 8.6,
+    "value": 8.3,
+    "easeOfUse": 8.2,
+    "capability": 9.1,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "sculpfun-s40-max-48w",
+    "atomstack-a70-max",
+    "acmer-s2-pro-48w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/sculpfun-s70-max-70w/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s70-max-70w/01.webp",
+      "alt": "Sculpfun S70 MAX 70W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s70-max-70w/02.jpg",
+      "alt": "Sculpfun S70 MAX 70W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s70-max-70w/03.jpg",
+      "alt": "Sculpfun S70 MAX 70W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s70-max-70w/04.jpg",
+      "alt": "Sculpfun S70 MAX 70W laser engraver — Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-s70-max",
+  "powerRating": "70W",
+  "catalogPrimary": true,
+  "releaseDate": "2025-10"
+}

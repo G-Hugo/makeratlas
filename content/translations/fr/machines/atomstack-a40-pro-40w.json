@@ -1,0 +1,75 @@
+{
+  "tagline": "Atomstack 40 W milieu de gamme avec meilleur châssis et promesses de découpe classe 40 W",
+  "tldr": "L’Atomstack A40 Pro 40 W est la référence 40 W de la gamme A40 Pro. Montée par rapport à l’A5 Pro avec un châssis plus rigide et un marketing découpe plus agressif (40 W cumulés). Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing en watts cumulés.",
+  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "primaryUse": "Diode structure ouverte budget moyen, entre les modèles d’entrée Atomstack et la gamme premium Sculpfun/xTool.",
+  "beginnerNotes": "Choisissez 40 W si cela correspond à vos travaux habituels. Comparez profondeur de découpe et prix avec les autres niveaux de cette gamme avant de commander.",
+  "proTips": "Vérifiez la puissance optique avec un wattmètre si la profondeur de découpe compte pour vos produits. Renforcez les coins du châssis si vous ajoutez des kits d’extension.",
+  "bestFor": [
+    "Montées en gamme Atomstack",
+    "Découpe petit budget",
+    "Gravure bois",
+    "Projets loisir annexes"
+  ],
+  "pros": [
+    "Meilleur châssis que l’A5 Pro",
+    "Grande surface de travail pour le prix",
+    "Immense base d’utilisateurs Atomstack",
+    "Compatible LightBurn",
+    "Montée en gamme abordable depuis l’A5"
+  ],
+  "cons": [
+    "L’étiquette 40 W dépasse la puissance optique réelle",
+    "Contrôle qualité encore en dessous des marques premium",
+    "Charge sécurité structure ouverte",
+    "Support client parfois lent",
+    "Peut devenir vite insuffisante si l’activité progresse"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 10 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Régularité niveau production",
+      "Bois dur épais de façon fiable"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 40 W — vérifiez la référence avant achat"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Atomstack A40 Pro 40 W — Atomstack"
+    },
+    {
+      "alt": "Graveuse laser Atomstack A40 Pro 40 W — Atomstack"
+    },
+    {
+      "alt": "Graveuse laser Atomstack A40 Pro 40 W — Atomstack"
+    },
+    {
+      "alt": "Graveuse laser Atomstack A40 Pro 40 W — Atomstack"
+    }
+  ]
+}

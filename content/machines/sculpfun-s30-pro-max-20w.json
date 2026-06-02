@@ -1,0 +1,118 @@
+{
+  "id": "sculpfun-s30-pro-max-20w",
+  "slug": "sculpfun-s30-pro-max-20w",
+  "name": "Sculpfun S30 Pro Max 20W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Sculpfun's Pro Max 20W — proven open-frame before the Ultra refresh",
+  "tldr": "S30 Pro Max 20W is Sculpfun's earlier high-power open-frame. Still capable for wood and leather; Ultra 22W/33W superseded it for new buyers but used units remain popular.",
+  "mainObjective": "20W Sculpfun open-frame for engraving and cutting",
+  "bestFor": [
+    "Sculpfun community",
+    "20W cutting",
+    "Value used market"
+  ],
+  "priceRange": {
+    "min": 599,
+    "max": 799,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic (dark)"
+    ],
+    "cut": [
+      "5 mm basswood",
+      "Thin acrylic"
+    ],
+    "cannot": [
+      "Latest Ultra features",
+      "Enclosed smoke control"
+    ]
+  },
+  "pros": [
+    "Huge Sculpfun community",
+    "Large bed",
+    "LightBurn",
+    "Often discounted used"
+  ],
+  "cons": [
+    "Superseded by S30 Ultra",
+    "Open frame",
+    "20W not latest Sculpfun power"
+  ],
+  "beginnerNotes": "Compare used S30 Pro Max vs new S30 Ultra 22W before buying.",
+  "proTips": "Air assist and honeycomb are worth adding day one.",
+  "primaryUse": "Sculpfun 20W workhorse for hobby engraving and cutting.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-20w",
+    "sculpfun-s10-10w",
+    "ortur-laser-master-3-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/sculpfun-s30-pro-max-20w/01.webp",
+  "modelLine": "sculpfun-s30-pro-max",
+  "powerRating": "20W",
+  "catalogPrimary": true,
+  "releaseDate": "2022-11",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s30-pro-max-20w/01.webp",
+      "alt": "Sculpfun S30 Pro Max 20W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-pro-max-20w/02.jpg",
+      "alt": "Sculpfun S30 Pro Max 20W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-pro-max-20w/03.jpg",
+      "alt": "Sculpfun S30 Pro Max 20W laser engraver — Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-pro-max-20w/04.jpg",
+      "alt": "Sculpfun S30 Pro Max 20W laser engraver — Sculpfun"
+    }
+  ]
+}

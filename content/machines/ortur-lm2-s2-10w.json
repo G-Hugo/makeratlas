@@ -1,0 +1,116 @@
+{
+  "id": "ortur-lm2-s2-10w",
+  "slug": "ortur-lm2-s2-10w",
+  "name": "Ortur LM2 S2 10W",
+  "brand": "Ortur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "10W Ortur LM2 S2 — faster engraves than 5W on the same frame",
+  "tldr": "Ortur LM2 S2 10W is the higher-power SKU in the LM2 S2 family — better cutting on thin wood and quicker fills than 5W, still open-frame and budget-oriented.",
+  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "bestFor": [
+    "Budget 10W",
+    "Hobby cutting",
+    "Ortur ecosystem"
+  ],
+  "priceRange": {
+    "min": 249,
+    "max": 349,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "10W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "10,000 mm/min (marketing)",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate (dark)"
+    ],
+    "cut": [
+      "Basswood (up to 5 mm)"
+    ],
+    "cannot": [
+      "Thick stock",
+      "Metal",
+      "Production throughput"
+    ]
+  },
+  "pros": [
+    "10W at entry price",
+    "400 mm bed",
+    "Ortur support docs"
+  ],
+  "cons": [
+    "Open frame",
+    "Outclassed by LM3/H20",
+    "Air assist extra"
+  ],
+  "beginnerNotes": "Prefer new H20/LM3 if budget allows — better optics and support.",
+  "proTips": "Air assist dramatically improves cut quality on LM2-class machines.",
+  "primaryUse": "Budget 10W engraving and occasional cutting.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 9.4,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "ortur-lm2-s2-5w",
+    "ortur-laser-master-3-10w",
+    "sculpfun-s9-10w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/ortur-lm2-s2-10w/01.webp",
+  "modelLine": "ortur-lm2-s2",
+  "powerRating": "10W",
+  "releaseDate": "2022-01",
+  "images": [
+    {
+      "src": "/machines/ortur-lm2-s2-10w/01.webp",
+      "alt": "Ortur LM2 S2 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-lm2-s2-10w/02.webp",
+      "alt": "Ortur LM2 S2 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-lm2-s2-10w/03.webp",
+      "alt": "Ortur LM2 S2 10W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-lm2-s2-10w/04.webp",
+      "alt": "Ortur LM2 S2 10W laser engraver — Ortur"
+    }
+  ]
+}

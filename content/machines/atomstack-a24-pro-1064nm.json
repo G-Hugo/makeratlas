@@ -1,0 +1,121 @@
+{
+  "id": "atomstack-a24-pro-1064nm",
+  "slug": "atomstack-a24-pro-1064nm",
+  "name": "AtomStack A24 Pro 1064nm",
+  "brand": "Atomstack",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "tagline": "Fiber-only A24 Pro — metal and plastic marking in a compact Atomstack",
+  "tldr": "AtomStack A24 Pro 1064nm is the fiber-marking variant without the diode side — for users who only need metal/plastic marking in a small footprint, not wood cutting.",
+  "mainObjective": "Desktop fiber marking without a separate diode engraver",
+  "bestFor": [
+    "Metal tags",
+    "Tools",
+    "Jewelry marking",
+    "Small batches"
+  ],
+  "priceRange": {
+    "min": 999,
+    "max": 1499,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "20W fiber",
+    "workArea": "~110 × 110 mm marking field",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "Marking only"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless",
+      "Aluminum",
+      "Brass",
+      "Plastics"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood cutting",
+      "Large CO₂ work",
+      "Deep 3D metal"
+    ]
+  },
+  "pros": [
+    "Dedicated fiber in compact chassis",
+    "Atomstack support",
+    "Quieter than shop fiber"
+  ],
+  "cons": [
+    "No wood diode",
+    "Small field",
+    "Hybrid A24 Pro better if you need both"
+  ],
+  "beginnerNotes": "Pick the hybrid A24 Pro if you also engrave wood regularly.",
+  "proTips": "Rotary and fixture quality matter more than raw wattage for rings and pens.",
+  "primaryUse": "Compact fiber marking for metal and engineered plastics.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.5,
+    "buildQuality": 7.5
+  },
+  "similarModels": [
+    "atomstack-a24-pro",
+    "atomstack-a20-pro-1064nm",
+    "gweike-g2-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/atomstack-a24-pro-1064nm/01.webp",
+  "catalogPrimary": true,
+  "laserCapabilities": [
+    "fiber"
+  ],
+  "capabilityTags": [
+    "fiber"
+  ],
+  "releaseDate": "2024-08",
+  "images": [
+    {
+      "src": "/machines/atomstack-a24-pro-1064nm/01.webp",
+      "alt": "AtomStack A24 Pro 1064nm laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a24-pro-1064nm/02.jpg",
+      "alt": "AtomStack A24 Pro 1064nm laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a24-pro-1064nm/03.jpg",
+      "alt": "AtomStack A24 Pro 1064nm laser engraver — Atomstack"
+    },
+    {
+      "src": "/machines/atomstack-a24-pro-1064nm/04.jpg",
+      "alt": "AtomStack A24 Pro 1064nm laser engraver — Atomstack"
+    }
+  ]
+}

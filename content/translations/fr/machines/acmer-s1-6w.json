@@ -1,0 +1,60 @@
+{
+  "tagline": "Acmer S1 de poche — diode ultra-portable pour petits projets",
+  "tldr": "L'Acmer S1 est une mini graveuse portable (niveaux 2,5–6 W) pour tampons, petits cadeaux et déplacements. Ce n'est pas une machine d'atelier — elle complète un laser plus grand plutôt qu'elle ne le remplace.",
+  "mainObjective": "Micro-gravure portable pour petits objets et apprentissage",
+  "primaryUse": "Micro-graveuse portable pour petite personnalisation.",
+  "beginnerNotes": "Achetez-la comme jouet ou deuxième machine, pas comme votre seul laser.",
+  "proTips": "Prenez le niveau 6 W si vous choisissez le S1 — faible surcoût pour une puissance réellement utilisable.",
+  "bestFor": [
+    "Portable",
+    "Petits cadeaux",
+    "Tampons",
+    "Voyage",
+    "Projets avec les enfants (sous surveillance)"
+  ],
+  "pros": [
+    "Prix très bas",
+    "Encombrement minimal",
+    "Facile à ranger",
+    "Bon outil d'apprentissage"
+  ],
+  "cons": [
+    "Zone de travail minuscule",
+    "Faible puissance",
+    "Pas adaptée à un vrai atelier",
+    "Particularités du flux Bluetooth"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Papier",
+      "Plastique"
+    ],
+    "cut": [
+      "Papier",
+      "Bois fin"
+    ],
+    "cannot": [
+      "Grandes enseignes",
+      "Découpes épaisses",
+      "Travail de production"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Acmer S1 6 W — Acmer" },
+    { "alt": "Graveuse laser Acmer S1 6 W — Acmer" },
+    { "alt": "Graveuse laser Acmer S1 6 W — Acmer" },
+    { "alt": "Graveuse laser Acmer S1 6 W — Acmer" }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "tagline": "Laser UV de bureau pour verre, plastique et fines détails",
+  "tldr": "La ComMarker Omni X utilise la longueur d'onde UV pour un marquage à froid sur le verre, certains plastiques et matériaux délicats, avec moins de dégâts thermiques qu'une fibre ou un CO₂. Plus lente que la fibre sur le métal — un outil différent pour des matériaux différents.",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
+  "primaryUse": "Gravure UV pour trophées verre, pièces plastique et personnalisation cadeaux fines.",
+  "beginnerNotes": "Achetez-la pour la niche cadeaux verre/plastique — pas comme unique laser si vous avez aussi besoin de métal ou de découpe épaisse.",
+  "proTips": "Testez chaque couleur de plastique — l'absorption UV varie énormément. Commencez à faible puissance sur le verre.",
+  "bestFor": [
+    "Verre",
+    "Plastiques",
+    "Fins détails",
+    "Cadeaux",
+    "Marquage électronique"
+  ],
+  "pros": [
+    "Marque le verre sans les modes de défaillance fibre/CO₂",
+    "Marquage à froid réduit la fonte sur les plastiques",
+    "Fins détails pour petits cadeaux",
+    "Encombrement bureau"
+  ],
+  "cons": [
+    "Lente sur les grandes zones remplies",
+    "Pas adaptée à la production métal",
+    "Lunettes de sécurité UV obligatoires",
+    "Tests matériaux requis pour chaque type de plastique"
+  ],
+  "materials": {
+    "engrave": [
+      "Verre",
+      "Acrylique (certaines couleurs)",
+      "Plastiques",
+      "Cuir (léger)",
+      "Papier"
+    ],
+    "cut": [
+      "Thin films (limited)"
+    ],
+    "cannot": [
+      "Métal nu (utilisez une fibre)",
+      "Découpe bois épais",
+      "Production acrylique à vitesse CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe laser — machine de marquage uniquement"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser ComMarker Omni X UV — ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker Omni X UV — ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker Omni X UV — ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker Omni X UV — ComMarker"
+    }
+  ]
+}

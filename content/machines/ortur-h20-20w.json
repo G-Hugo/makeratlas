@@ -1,0 +1,122 @@
+{
+  "id": "ortur-h20-20w",
+  "slug": "ortur-h20-20w",
+  "name": "Ortur H20 20W",
+  "brand": "Ortur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Sweet-spot H20 — 20W diode on Ortur's integrated H-series frame",
+  "tldr": "Ortur H20 20W balances cutting ability and price on the H20 platform. Strong hobby engraver with faster frame than LM3 — verify optical power, not marketing '40W class' labels on accessories.",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "bestFor": [
+    "Speed-focused hobbyists",
+    "Wood gifts",
+    "Leather",
+    "Ortur ecosystem"
+  ],
+  "priceRange": {
+    "min": 1439,
+    "max": 1699,
+    "currency": "USD",
+    "note": "Often bundled with air pump"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "410 × 275 mm",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–28 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–15 min"
+      },
+      "technical": {
+        "spotSize": "~0.09 × 0.10 mm",
+        "maxSpeed": "20,000 mm/s traverse",
+        "avgEngraveSpeed": "16–42 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Acrylic (dark)",
+      "Stainless (with IR bundle)"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "3 mm acrylic (dark)",
+      "Leather"
+    ],
+    "cannot": [
+      "Production signage",
+      "Thick hardwood in one pass",
+      "Bare copper"
+    ]
+  },
+  "pros": [
+    "Best value tier on H20 for most makers",
+    "Integrated cable management vs LM3",
+    "IR combo bundles available",
+    "Active Ortur firmware community"
+  ],
+  "cons": [
+    "Still open-air — ventilation required",
+    "40W tier exists if you need more cut depth"
+  ],
+  "beginnerNotes": "Default H20 recommendation for most buyers between 10W and 40W.",
+  "proTips": "Use bundled air assist for cuts. LightBurn worth the license for repeat jobs.",
+  "primaryUse": "General-purpose Ortur H20 for engraving and light-medium cutting.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 7.9,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "ortur-laser-master-h10-20w",
+    "ortur-laser-master-3-20w",
+    "atomstack-a40-pro-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/ortur-h20-20w/01.webp",
+  "modelLine": "ortur-h20",
+  "powerRating": "20W",
+  "catalogPrimary": true,
+  "releaseDate": "2024-09",
+  "images": [
+    {
+      "src": "/machines/ortur-h20-20w/01.webp",
+      "alt": "Ortur H20 20W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-h20-20w/02.webp",
+      "alt": "Ortur H20 20W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-h20-20w/03.webp",
+      "alt": "Ortur H20 20W laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-h20-20w/04.webp",
+      "alt": "Ortur H20 20W laser engraver — Ortur"
+    }
+  ]
+}

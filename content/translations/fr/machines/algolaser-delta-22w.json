@@ -1,0 +1,54 @@
+{
+  "tagline": "AlgoLaser Delta — 22 W à cinématique delta, boîtier en option",
+  "tldr": "Le Delta 22 W emploie une cinématique delta dans un format compact, avec boîtier optionnel. Alternative cartésienne à l'Alpha MK2 — renseignez-vous en communauté sur la fiabilité et les pièces détachées avant d'acheter.",
+  "mainObjective": "AlgoLaser 22 W compatible boîtier pour makers attirés par la cinématique delta",
+  "primaryUse": "AlgoLaser 22 W compact pour gravure et découpe légère à moyenne.",
+  "beginnerNotes": "Comparez l'Alpha MK2 40 W si vous voulez la puissance maximale Algolaser.",
+  "proTips": "Boîtier fortement recommandé pour un usage en appartement.",
+  "bestFor": [
+    "Écosystème Algolaser",
+    "Découpe 22 W",
+    "Format delta compact",
+    "Option boîtier"
+  ],
+  "pros": [
+    "Cinématique différente du cartésien",
+    "Palier 22 W",
+    "Logiciel Algolaser"
+  ],
+  "cons": [
+    "Communauté plus petite que Sculpfun/Ortur",
+    "Courbe d'apprentissage pour l'entretien delta"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique (foncé)"
+    ],
+    "cut": [
+      "Tilleul 5 mm",
+      "Acrylique fin"
+    ],
+    "cannot": [
+      "Puissance de classe Alpha MK2 40 W",
+      "Grands plateaux"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser AlgoLaser Delta 22 W — AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser Delta 22 W — AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser Delta 22 W — AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser Delta 22 W — AlgoLaser" }
+  ]
+}

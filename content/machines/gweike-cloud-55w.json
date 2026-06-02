@@ -1,0 +1,118 @@
+{
+  "id": "gweike-cloud-55w",
+  "slug": "gweike-cloud-55w",
+  "name": "Gweike Cloud 55W CO₂",
+  "brand": "Gweike",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Gweike Cloud 55W — cloud-connected desktop CO₂ cutter",
+  "tldr": "Gweike Cloud 55W is a CO₂ desktop in the Gweike Cloud line with app/cloud features and rotary options. Alternative to Cloud Pro II listings — verify exact tube wattage and bed size on your SKU.",
+  "mainObjective": "Connected desktop CO₂ for acrylic and wood production",
+  "bestFor": [
+    "CO₂ cutting",
+    "Gweike ecosystem",
+    "Acrylic gifts",
+    "Rotary add-ons"
+  ],
+  "priceRange": {
+    "min": 2499,
+    "max": 3999,
+    "currency": "USD"
+  },
+  "specs": {
+    "power": "55W CO₂",
+    "workArea": "Verify SKU — Cloud series beds vary",
+    "software": [
+      "Gweike software",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "300 mm/s",
+        "avgEngraveSpeed": "60–150 mm/s fill",
+        "avgCutSpeed": "CO₂"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass"
+    ],
+    "cut": [
+      "Acrylic",
+      "Wood"
+    ],
+    "cannot": [
+      "Metal",
+      "Portable use"
+    ]
+  },
+  "pros": [
+    "Gweike Cloud ecosystem",
+    "55W acrylic capability",
+    "Rotary bundles"
+  ],
+  "cons": [
+    "Large machine",
+    "Cloud features not for everyone",
+    "Similar to Cloud Pro confusion"
+  ],
+  "beginnerNotes": "Compare gweike-cloud-pro if shopping used — names overlap.",
+  "proTips": "Confirm whether listing is 50W vs 55W tube before buying.",
+  "primaryUse": "Desktop CO₂ cutting for signs and acrylic products.",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8,
+    "capability": 8,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "gweike-cloud-pro",
+    "monport-55w-co2",
+    "omtech-polar"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "image": "/machines/gweike-cloud-55w/01.webp",
+  "powerRating": "55W",
+  "catalogPrimary": true,
+  "releaseDate": "2023-10",
+  "images": [
+    {
+      "src": "/machines/gweike-cloud-55w/01.webp",
+      "alt": "Gweike Cloud 55W CO₂ laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-cloud-55w/02.png",
+      "alt": "Gweike Cloud 55W CO₂ laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-cloud-55w/03.jpg",
+      "alt": "Gweike Cloud 55W CO₂ laser engraver — Gweike"
+    },
+    {
+      "src": "/machines/gweike-cloud-55w/04.jpg",
+      "alt": "Gweike Cloud 55W CO₂ laser engraver — Gweike"
+    }
+  ]
+}

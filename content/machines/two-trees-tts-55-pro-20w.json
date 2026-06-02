@@ -1,0 +1,119 @@
+{
+  "id": "two-trees-tts-55-pro-20w",
+  "slug": "two-trees-tts-55-pro-20w",
+  "name": "TwoTrees TTS-55 Pro 20W",
+  "brand": "TwoTrees",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/two-trees-tts-55-pro-20w/01.webp",
+  "tagline": "20W Upgraded TTS frame with better rigidity and fixed focus",
+  "tldr": "TwoTrees TTS-55 Pro 20W is the 20W SKU on the TwoTrees two trees tts 55 pro line. The TTS-55 Pro improves on the base TTS-55 with stiffer frame and easier focus workflow. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "bestFor": [
+    "Budget upgrade",
+    "Fixed focus",
+    "Hobby engraving",
+    "TwoTrees owners"
+  ],
+  "priceRange": {
+    "min": 159,
+    "max": 433,
+    "currency": "USD",
+    "note": "20W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "300 × 300 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.10 mm spot",
+        "maxSpeed": "220 mm/s",
+        "avgEngraveSpeed": "55–125 mm/s fill",
+        "avgCutSpeed": "3–7 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Thick cuts",
+      "Bare metal",
+      "Production work"
+    ]
+  },
+  "pros": [
+    "Better than base TTS-55",
+    "Fixed focus simplifies start",
+    "Low price",
+    "LightBurn capable"
+  ],
+  "cons": [
+    "Still entry-tier quality",
+    "Small community",
+    "Open frame",
+    "May outgrow quickly"
+  ],
+  "beginnerNotes": "Choose 20W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Run benchmark job at 10×10 cm before trusting marketing speed claims.",
+  "primaryUse": "Budget hobby diode with improved usability over TwoTrees TTS-55 base.",
+  "rating": {
+    "overall": 7.5,
+    "value": 8.4,
+    "easeOfUse": 7.8,
+    "capability": 9.4,
+    "buildQuality": 7
+  },
+  "similarModels": [
+    "twotrees-tts-55",
+    "atomstack-a40-pro"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/two-trees-tts-55-pro-20w/01.webp",
+      "alt": "TwoTrees TTS-55 Pro 20W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/two-trees-tts-55-pro-20w/02.jpg",
+      "alt": "TwoTrees TTS-55 Pro 20W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/two-trees-tts-55-pro-20w/03.jpg",
+      "alt": "TwoTrees TTS-55 Pro 20W laser engraver — TwoTrees"
+    },
+    {
+      "src": "/machines/two-trees-tts-55-pro-20w/04.jpg",
+      "alt": "TwoTrees TTS-55 Pro 20W laser engraver — TwoTrees"
+    }
+  ],
+  "powerRating": "20W",
+  "modelLine": "two-trees-tts-55-pro",
+  "catalogPrimary": true
+}

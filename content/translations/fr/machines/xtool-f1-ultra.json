@@ -1,0 +1,73 @@
+{
+  "tagline": "Double laser portable (fibre + diode) pour marquage métal et gravure rapide",
+  "tldr": "Machine bureau compacte combinant laser fibre 20 W et diode 20 W. Le module fibre marque le métal nu — acier inox, aluminium, laiton — sans spray. Idéale pour bijoux, couteaux et cadeaux métal. Prix premium pour une petite surface de travail.",
+  "mainObjective": "Marquage métal nu direct pour bijoux, outils et personnalisation",
+  "primaryUse": "Marquage métal pro et gravure petits objets pour bijouterie, personnalisation et outillage.",
+  "beginnerNotes": "Achetez si le métal est votre matière principale — bagues, plaques identité, outils, gobelets avec manchon inox. Ne l’achetez pas comme premier laser polyvalent ; la surface est trop petite pour les projets loisir classiques comme grandes enseignes bois.",
+  "proTips": "Utilisez le module fibre pour tout le métal. La diode est un bonus bois/cuir sur le même bureau. Le rotatif est indispensable pour bagues et métal cylindrique. Calibrez puissance/vitesse sur chutes — la fibre est peu indulgente sur métal fin.",
+  "bestFor": [
+    "Marquage métal",
+    "Bijouterie",
+    "Couteaux et outils",
+    "Installation portable",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Marque le métal nu directement — pas de spray chimique en fibre",
+    "Gravure fibre extrêmement rapide en production",
+    "Compact et portable vs diodes structure ouverte",
+    "Double laser couvre métal et matières organiques",
+    "Convoyeur optionnel pour marquage métal en série"
+  ],
+  "cons": [
+    "Petite surface par défaut — pas pour grandes enseignes ou panneaux",
+    "Très cher pour la surface gravure/découpe obtenue",
+    "Ne remplace pas un CO₂ si vous découpez acrylique ou grand bois",
+    "Fibre et diode nécessitent un changement de module (pas simultané)",
+    "Fermée mais ventilation correcte toujours requise sur certains matériaux"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium",
+      "Laiton",
+      "Objets dorés",
+      "Bois",
+      "Cuir",
+      "Plastique (types sélectionnés)"
+    ],
+    "cut": [
+      "Bois/cuir fin (diode uniquement, limité)"
+    ],
+    "cannot": [
+      "Découpe matériaux épais",
+      "Grande signalétique (surface trop petite)",
+      "Acrylique transparent (diode)",
+      "Découpes profondes style CO₂"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser xTool F1 Ultra — xTool" },
+    { "alt": "Graveuse laser xTool F1 Ultra — xTool" },
+    { "alt": "Graveuse laser xTool F1 Ultra — xTool" },
+    { "alt": "Graveuse laser xTool F1 Ultra — xTool" }
+  ],
+  "moduleSystem": {
+    "headline": "Fibre + diode dans une unité bureau",
+    "description": "La F1 Ultra bascule entre source fibre (métal) et source diode (bois/acrylique) dans un même châssis. Ce n’est pas un échange 10 W diode contre 40 W diode — c’est le modèle xTool S1.",
+    "options": [
+      { "label": "Fibre 20 W" },
+      { "label": "Diode 20 W" }
+    ]
+  }
+}

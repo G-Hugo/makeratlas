@@ -5,7 +5,7 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/ortur-aufero-al1.webp",
+  "image": "/machines/ortur-aufero-al1/01.webp",
   "tagline": "Compact portable Ortur — desk-friendly engraver for small gifts",
   "tldr": "The Aufero AL1 is Ortur's compact diode line for small work areas and portable setups. Lower power than LM3 or H10, but easier to fit on a crowded desk. Best for light engraving — not a cutting workhorse.",
   "mainObjective": "Small-footprint Ortur for gift engraving & learning on a budget",
@@ -16,8 +16,8 @@
     "Portable setups"
   ],
   "priceRange": {
-    "min": 199,
-    "max": 349,
+    "min": 110,
+    "max": 210,
     "currency": "USD",
     "note": "5W typical; check current module options"
   },
@@ -97,8 +97,27 @@
   "similarModels": [
     "longer-ray5",
     "laserpecker-4",
-    "atomstack-a5-pro"
+    "atomstack-a40-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/ortur-aufero-al1/01.webp",
+      "alt": "Ortur Aufero AL1 laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-aufero-al1/02.webp",
+      "alt": "Ortur Aufero AL1 laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-aufero-al1/03.webp",
+      "alt": "Ortur Aufero AL1 laser engraver — Ortur"
+    },
+    {
+      "src": "/machines/ortur-aufero-al1/04.webp",
+      "alt": "Ortur Aufero AL1 laser engraver — Ortur"
+    }
+  ],
+  "powerRating": "5W"
 }

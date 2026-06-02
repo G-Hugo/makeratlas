@@ -1,6 +1,6 @@
 ---
 slug: understanding-laser-types
-title: Understanding Laser Types — CO₂, Diode, Fiber & UV Explained
+title: "Understanding Laser Types: CO₂, Diode, Fiber & UV Explained"
 description: A clear, honest guide to every major laser type used in desktop engravers. Learn what each one actually does, who it's for, and what marketing gets wrong.
 category: laser-types
 readTime: 12 min
@@ -10,7 +10,7 @@ status: published
 
 Choosing a laser engraver starts with one decision most buyers get wrong: **which type of laser you actually need**.
 
-Manufacturers love big watt numbers and vague claims. This guide cuts through that. No affiliate links here — just how the technology works.
+Manufacturers love big watt numbers and vague claims. This guide cuts through that. No affiliate links here: just how the technology works.
 
 ## The four laser types you'll encounter
 
@@ -23,7 +23,7 @@ Manufacturers love big watt numbers and vague claims. This guide cuts through th
 
 ---
 
-## Diode lasers — the popular entry point
+## Diode lasers: the popular entry point
 
 **How it works:** A semiconductor laser diode (similar to a high-power laser pointer) fires a focused blue beam. Open-frame machines dominate this category.
 
@@ -36,7 +36,7 @@ Manufacturers love big watt numbers and vague claims. This guide cuts through th
 
 ### What they cannot do honestly
 
-- **Cut clear acrylic** — the beam passes through instead of absorbing
+- **Cut clear acrylic**: the beam passes through instead of absorbing
 - **Mark bare metal reliably** without chemical spray or special coatings
 - **Match CO₂ cutting speed/depth** on thick materials
 - **Run enclosed production** without adding safety gear yourself (most are open-frame)
@@ -61,9 +61,9 @@ A "40W" diode module might be ~10–15W optical. Always look for **optical power
 
 ---
 
-## CO₂ lasers — the cutting workhorse
+## CO₂ lasers: the cutting workhorse
 
-**How it works:** A glass tube filled with CO₂ gas produces an invisible infrared beam. This is the technology used in professional sign shops — scaled down for desktop.
+**How it works:** A glass tube filled with CO₂ gas produces an invisible infrared beam. This is the technology used in professional sign shops: scaled down for desktop.
 
 ### What CO₂ lasers do well
 
@@ -77,15 +77,15 @@ A "40W" diode module might be ~10–15W optical. Always look for **optical power
 - **Mark bare metal** directly (only removes coating or marks treated surfaces)
 - **Fit on a small desk** without ventilation (most need exhaust to outside)
 - **Run silently or safely** without enclosure and proper extraction
-- **Last forever** — tubes degrade (~1,000–2,000 hours) and cost $100–300 to replace
+- **Last forever**: tubes degrade (~1,000–2,000 hours) and cost $100–300 to replace
 
 ### Safety is non-negotiable
 
 CO₂ lasers cut combustible materials. You need:
 
-1. **Ventilation** — exhaust hose to a window or filter (prefer outside venting)
-2. **Fire safety** — never leave jobs unattended; keep a fire extinguisher nearby
-3. **Enclosure** — strongly recommended; many modern machines include one
+1. **Ventilation**: exhaust hose to a window or filter (prefer outside venting)
+2. **Fire safety**: never leave jobs unattended; keep a fire extinguisher nearby
+3. **Enclosure**: strongly recommended; many modern machines include one
 
 ### Who should buy a CO₂ laser?
 
@@ -98,7 +98,7 @@ CO₂ lasers cut combustible materials. You need:
 
 ---
 
-## Fiber lasers — the metal specialist
+## Fiber lasers: the metal specialist
 
 **How it works:** An optical fiber doped with rare-earth elements generates a beam optimized for metal absorption. Desktop fiber machines exploded in popularity for jewelry and tool marking.
 
@@ -111,10 +111,10 @@ CO₂ lasers cut combustible materials. You need:
 
 ### What they cannot do honestly
 
-- Cut wood or acrylic (wrong wavelength — poor absorption)
+- Cut wood or acrylic (wrong wavelength: poor absorption)
 - Replace a CO₂ for sign cutting
 - Cover large work areas cheaply (metal-focused machines are often compact)
-- "Deep cut" metal like CNC machining — engraving depth is limited
+- "Deep cut" metal like CNC machining: engraving depth is limited
 
 ### Who should buy a fiber laser?
 
@@ -127,9 +127,9 @@ CO₂ lasers cut combustible materials. You need:
 
 ---
 
-## UV lasers — precision on delicate materials
+## UV lasers: precision on delicate materials
 
-**How it works:** A ultraviolet laser causes cold ablation — it breaks molecular bonds without much heat. Common in electronics and medical device marking.
+**How it works:** A ultraviolet laser causes cold ablation: it breaks molecular bonds without much heat. Common in electronics and medical device marking.
 
 ### What UV lasers do well
 
@@ -152,15 +152,23 @@ CO₂ lasers cut combustible materials. You need:
 
 ---
 
-## Hybrid machines — fiber + diode in one box
+## Hybrid machines: fiber + diode in one box
 
-Some machines (like the xTool F1 Ultra) combine fiber and diode modules. You switch between them — they don't run simultaneously.
+Some machines (like the xTool F1 Ultra) combine **two laser technologies** in one chassis: typically fiber for metal and diode for wood/acrylic. You switch modes; they don't engrave with both beams at once.
+
+**Not the same as interchangeable heads:** The xTool S1 is **not** hybrid. It is a **diode** enclosure where you swap **one** laser head (10W, 20W, or 40W diode, or an optional 2W infrared module). Same cabinet, different plug-in module: still one laser type active at a time.
+
+| | Hybrid (F1 Ultra, LP5) | Interchangeable module (S1, D1 Pro) |
+|---|------------------------|-------------------------------------|
+| **Laser types** | Fiber + diode | Usually diode only (+ optional IR on S1) |
+| **What you change** | Software mode / internal source | Physical laser head |
+| **Catalog type** | `hybrid` | `diode` |
 
 **Honest take:** Hybrids make sense if you need metal **and** wood on the same desk and accept a small work area. They are expensive. Most beginners should buy one laser type that matches 80% of their work.
 
 ---
 
-## Engraving vs cutting — know the difference
+## Engraving vs cutting: know the difference
 
 | | Engraving | Cutting |
 |---|-----------|---------|
@@ -202,12 +210,12 @@ What is your main material?
 
 | Term | Meaning |
 |------|---------|
-| **Optical power** | Actual laser output at the lens — the number that matters |
+| **Optical power** | Actual laser output at the lens: the number that matters |
 | **Work area** | Maximum size of material you can process in one job |
-| **Air assist** | Compressed air at the nozzle — cleaner cuts, less char |
+| **Air assist** | Compressed air at the nozzle: cleaner cuts, less char |
 | **LightBurn** | Industry-standard control software (paid, worth it for most users) |
 | **Pass** | One complete run of the laser over the same path |
-| **Focus** | Distance where the beam is smallest — critical for clean results |
+| **Focus** | Distance where the beam is smallest: critical for clean results |
 
 ---
 
@@ -215,4 +223,4 @@ What is your main material?
 
 Read our [Laser Buying Guide 2026](/guides/laser-buying-guide-2026) for specific recommendations by budget and use case, or browse [all laser profiles](/lasers) for side-by-side specs.
 
-**Remember:** the best laser is the one that matches your **actual materials and projects** — not the highest watt number on a product page.
+**Remember:** the best laser is the one that matches your **actual materials and projects**: not the highest watt number on a product page.

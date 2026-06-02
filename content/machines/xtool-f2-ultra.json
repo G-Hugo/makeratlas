@@ -5,7 +5,7 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "hybrid",
-  "image": "/machines/xtool-f2-ultra.jpg",
+  "image": "/machines/xtool-f2-ultra/01.webp",
   "tagline": "Next-gen compact fiber + diode — faster metal marking, larger than F1",
   "tldr": "xTool's updated dual-laser desktop builds on F1 Ultra with improved speed and workflow. Still a metal-marking specialist with small default bed. Premium price for jewelry, tools, and batch metal personalization — not a general workshop replacement.",
   "mainObjective": "High-speed compact metal marking plus bonus diode for wood & leather",
@@ -96,7 +96,7 @@
   },
   "similarModels": [
     "xtool-f1-ultra",
-    "xtool-d1-pro"
+    "xtool-s1-20w"
   ],
   "faq": [
     {
@@ -105,5 +105,50 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/xtool-f2-ultra/01.webp",
+      "alt": "xTool F2 Ultra laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-f2-ultra/02.webp",
+      "alt": "xTool F2 Ultra laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-f2-ultra/03.webp",
+      "alt": "xTool F2 Ultra laser engraver — xTool"
+    },
+    {
+      "src": "/machines/xtool-f2-ultra/04.webp",
+      "alt": "xTool F2 Ultra laser engraver — xTool"
+    }
+  ],
+  "powerRating": "20W",
+  "moduleSystem": {
+    "style": "dual-laser",
+    "headline": "High-power dual laser (MOPA fiber + diode)",
+    "description": "F2 Ultra pairs MOPA fiber for metal/color marking with a 40W-class diode for organics. Dual-source hybrid, not interchangeable wattage tiers.",
+    "options": [
+      {
+        "power": "60W",
+        "laserKind": "fiber",
+        "label": "60W fiber"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "fiber",
+    "diode"
+  ],
+  "capabilityTags": [
+    "fiber",
+    "diode"
+  ],
+  "releaseDate": "2025-01"
 }

@@ -5,7 +5,7 @@
   "brand": "Atezr",
   "category": "laser-engraver",
   "laserType": "diode",
-  "image": "/machines/atezr-p2.svg",
+  "image": "/machines/atezr-p2/01.webp",
   "tagline": "Enclosed Atezr diode with air assist — mid-budget safety focus",
   "tldr": "Atezr P2 competes with Acmer P3 and xTool S1 in the enclosed diode space. Decent engraving, moderate cutting. Less community documentation than xTool — verify support in your region.",
   "mainObjective": "Enclosed mid-budget diode for safer home engraving",
@@ -96,5 +96,21 @@
     "xtool-s1"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31"
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/atezr-p2/01.webp",
+      "alt": "Atezr P2 laser engraver — Atezr"
+    },
+    {
+      "src": "/machines/atezr-p2/02.webp",
+      "alt": "Atezr P2 laser engraver — Atezr"
+    },
+    {
+      "src": "/machines/atezr-p2/03.webp",
+      "alt": "Atezr P2 laser engraver — Atezr"
+    }
+  ],
+  "powerRating": "20W",
+  "releaseDate": "2023-09"
 }

@@ -1,0 +1,108 @@
+{
+  "id": "nubur-n4060-20w",
+  "slug": "nubur-n4060-20w",
+  "name": "Nubur N4060 20W",
+  "brand": "NuBur",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/nubur-n4060.svg",
+  "tagline": "20W Large-format open-frame diode — big bed on a budget",
+  "tldr": "Nubur N4060 20W is the 20W SKU on the NuBur nubur n4060 line. NuBur N4060 emphasizes work area size at competitive pricing. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "bestFor": [
+    "Large engravings",
+    "Sign panels",
+    "Budget big bed",
+    "Wood art"
+  ],
+  "priceRange": {
+    "min": 399,
+    "max": 549,
+    "currency": "USD",
+    "note": "20W optical module — verify SKU before buying"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "400 × 600 mm",
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–28 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–15 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 mm spot",
+        "maxSpeed": "280 mm/s",
+        "avgEngraveSpeed": "18–38 mm/s fill",
+        "avgCutSpeed": "2–3 mm/s on 3 mm wood"
+      }
+    },
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ]
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Basswood (up to 8 mm)",
+      "Dark acrylic (up to 5 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Full-bed precision without tuning",
+      "CO₂ cutting depth"
+    ]
+  },
+  "pros": [
+    "Very large bed for price",
+    "Good for oversized engraves",
+    "LightBurn support",
+    "Strong value for sign hobbyists"
+  ],
+  "cons": [
+    "Large frames need careful squaring",
+    "Open frame safety",
+    "Smaller community",
+    "40W label may exceed optical output"
+  ],
+  "beginnerNotes": "Choose 20W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
+  "proTips": "Square and stiffen frame before large jobs. Use cross-hatch test on full bed.",
+  "primaryUse": "Large-format open-frame diode for oversized wood engraving and light cutting.",
+  "rating": {
+    "overall": 7.8,
+    "value": 8.5,
+    "easeOfUse": 7.5,
+    "capability": 7,
+    "buildQuality": 7.2
+  },
+  "similarModels": [
+    "ortur-laser-master-3",
+    "algolaser-alpha-mk2"
+  ],
+  "status": "archived",
+  "lastUpdated": "2026-06-01",
+  "images": [
+    {
+      "src": "/machines/nubur-n4060.svg",
+      "alt": "NuBur N4060 laser engraver by NuBur"
+    }
+  ],
+  "modelLine": "nubur-n4060",
+  "powerRating": "20W"
+}

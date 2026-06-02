@@ -1,0 +1,71 @@
+{
+  "tagline": "La plateforme TS2 populaire de TwoTrees — 20 W structure ouverte avec communauté active",
+  "tldr": "La TS2 20 W est l’une des lignes laser les plus connues de TwoTrees — souvent comparée à Ortur et Sculpfun à des prix promo agressifs. Bon choix pour les hobbyistes qui privilégient le prix et tolèrent un support moins soigné que xTool.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Plateforme TwoTrees 20 W petit budget pour gravure loisir et découpe modérée de bois fin.",
+  "beginnerNotes": "Comparez le prix promo de la TS2 20 W avec l’Ortur LM3 20 W — souvent à moins de 50 $. Choisissez Ortur pour la communauté ; la TS2 quand l’offre est nettement moins chère.",
+  "proTips": "Les packs TwoTrees (nids d’abeille + assistance air) valent souvent mieux que les pièces à l’unité — vérifiez les bundles officiels avant de payer.",
+  "bestFor": [
+    "20 W petit budget",
+    "Écosystème TwoTrees",
+    "Gravure bois",
+    "Chasseurs de promos"
+  ],
+  "pros": [
+    "Prix promo agressifs",
+    "Grande surface de travail",
+    "Compatible LightBurn",
+    "Kits d’upgrade (rotatif, extension) disponibles",
+    "Groupes propriétaires TwoTrees actifs"
+  ],
+  "cons": [
+    "Support moins constant qu’Ortur/xTool",
+    "Sécurité structure ouverte",
+    "Variabilité d’une unité à l’autre signalée",
+    "Documentation parfois en retard sur le firmware",
+    "La TS2 40 W Max peut mieux valoir le coup en promo"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)",
+      "Paper"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Travail de production CO₂",
+      "Support premium garanti"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser TwoTrees TS2 20 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TS2 20 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TS2 20 W — TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TS2 20 W — TwoTrees"
+    }
+  ]
+}

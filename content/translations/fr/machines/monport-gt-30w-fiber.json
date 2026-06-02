@@ -1,0 +1,61 @@
+{
+  "tagline": "Graveuse laser fibre split avec autofocus de Monport",
+  "tldr": "Le Monport GT 30 W apporte le marquage fibre en armoire split avec autofocus — utile pour hauteurs de pièces variables. Forte alternative au Gweike G6 dans la même classe.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Marquage fibre de production avec gestion de mise au point simplifiée sur tailles de pièces variées.",
+  "beginnerNotes": "Comparez les bundles incluant rotary et équipement de sécurité.",
+  "proTips": "Calibrez l’autofocus sur l’épaisseur de pièce la plus courante.",
+  "bestFor": [
+    "Hauteurs de pièces mixtes",
+    "Production",
+    "Marquage métal",
+    "Écosystème Monport"
+  ],
+  "pros": [
+    "Autofocus pour hauteurs variables",
+    "Écosystème support Monport",
+    "Disposition split pour la production",
+    "Paliers MOPA disponibles"
+  ],
+  "cons": [
+    "Grand encombrement",
+    "Premium vs boîtiers galvo d’entrée",
+    "Toujours pas une découpeuse laser généraliste"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium",
+      "Laiton",
+      "Plastiques"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)"
+    ],
+    "cannot": [
+      "Travail atelier bois",
+      "Découpe acrylique"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Monport GT 30W Fiber — Monport"
+    },
+    {
+      "alt": "Graveuse laser Monport GT 30W Fiber — Monport"
+    },
+    {
+      "alt": "Graveuse laser Monport GT 30W Fiber — Monport"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "tagline": "La ligne petit budget éprouvée de Sculpfun en 5 W — toujours populaire chez les makers sensibles au rapport qualité-prix",
+  "tldr": "La Sculpfun S9 5 W est la version 5 W de la gamme S9. Avant la S30 Ultra, la S9 était le cheval de bataille de Sculpfun. Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing « watts combinés ».",
+  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
+  "primaryUse": "Sculpfun structure ouverte petit budget pour gravure bois/cuir et découpe légère de bois fin.",
+  "beginnerNotes": "Choisissez le 5 W si ça correspond à vos usages habituels. Comparez profondeur de découpe et prix avec les autres gammes de la ligne avant de commander.",
+  "proTips": "Les mods communautaires S9 (assistance air, pieds rallongés) sont bien documentés — cherchez les groupes Facebook Sculpfun avant votre premier gros projet.",
+  "bestFor": [
+    "Budget serré",
+    "Loisir orienté gravure",
+    "Entrée dans l’écosystème Sculpfun",
+    "Apprendre LightBurn"
+  ],
+  "pros": [
+    "Base de connaissances communautaire immense",
+    "Grand plateau à prix abordable",
+    "Compatible LightBurn",
+    "Montée en gamme vers les modules S30",
+    "Fiabilité Sculpfun éprouvée"
+  ],
+  "cons": [
+    "Plus lente que la S30 Ultra sur les mêmes jobs",
+    "5 W limite fortement la profondeur de découpe",
+    "Sécurité structure ouverte",
+    "Les nouveaux acheteurs sont souvent mieux servis par les promos S30 Ultra",
+    "Assistance air recommandée pour des découpes propres"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 3 mm)",
+      "Paper",
+      "Thin fabric"
+    ],
+    "cannot": [
+      "Bois dur épais",
+      "Acrylique transparent",
+      "Métal nu",
+      "Production en volume"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 5 W — vérifiez le SKU avant d’acheter"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Sculpfun S9 5 W — Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S9 5 W — Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S9 5 W — Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S9 5 W — Sculpfun"
+    }
+  ]
+}

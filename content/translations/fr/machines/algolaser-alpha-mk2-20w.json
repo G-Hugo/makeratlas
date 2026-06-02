@@ -1,0 +1,76 @@
+{
+  "tagline": "Alpha MK2 20 W — diode haut de gamme à structure ouverte, vitesse et finesse",
+  "tldr": "L'Alpha MK2 20 W est la référence 20 W de la gamme Alpha MK2. Algolaser vise les makers exigeant vitesse de gravure et contrôle fin du faisceau. Vérifiez la puissance optique sur la fiche produit — ne vous fiez pas au marketing de watts cumulés.",
+  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "primaryUse": "Diode à structure ouverte orientée performance pour gravure détaillée sur bois et cuir, avec vitesse au-dessus de la moyenne.",
+  "beginnerNotes": "Choisissez le 20 W si vos travaux typiques le justifient. Comparez profondeur de découpe et prix avec les autres paliers de la gamme avant de commander.",
+  "proTips": "Algolaser brille sur le tracé et les remplissages légers — poussez la vitesse sur les vecteurs après des essais. Exploitez le faisceau compressé pour la gravure photo sur bois enduit.",
+  "bestFor": [
+    "Gravure fine",
+    "Loisir orienté vitesse",
+    "Détails bois et cuir",
+    "Petite production"
+  ],
+  "pros": [
+    "Faisceau serré pour plus de finesse dans la classe diode",
+    "Gravure en remplissage rapide avec réglages optimisés",
+    "Grande zone de travail",
+    "Compatible LightBurn",
+    "Châssis rigide et solide"
+  ],
+  "cons": [
+    "Structure ouverte — lunettes de protection obligatoires",
+    "Puissance optique 40 W à vérifier sur votre unité",
+    "Communauté plus petite qu'Ortur/xTool",
+    "Prix élevé face à Ortur pour une puissance similaire",
+    "Assistance air souvent vendue séparément"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé",
+      "Inox (avec spray)"
+    ],
+    "cut": [
+      "Tilleul (jusqu'à 8 mm)",
+      "Acrylique foncé (jusqu'à 5 mm)",
+      "Paper",
+      "Fabric"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Production d'enseignes CO₂",
+      "Plaques acrylique épaisses"
+    ]
+  },
+  "priceRange": {
+    "note": "Module optique 20 W — vérifiez la référence avant achat"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Algolaser Alpha MK2 20 W — Algolaser"
+    },
+    {
+      "alt": "Graveuse laser Algolaser Alpha MK2 20 W — Algolaser"
+    },
+    {
+      "alt": "Graveuse laser Algolaser Alpha MK2 20 W — Algolaser"
+    },
+    {
+      "alt": "Graveuse laser Algolaser Alpha MK2 20 W — Algolaser"
+    }
+  ]
+}

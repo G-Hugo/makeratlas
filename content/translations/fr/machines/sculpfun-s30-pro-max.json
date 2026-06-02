@@ -1,0 +1,44 @@
+{
+  "tagline": "Gamme Sculpfun S30 Pro Max — flagship 20 W avant l’Ultra",
+  "tldr": "Fiche regroupée pour le Sculpfun S30 Pro Max. Consultez le SKU 20 W pour les specs catalogue.",
+  "mainObjective": "Index des SKU S30 Pro Max",
+  "primaryUse": "Index de la famille S30 Pro Max.",
+  "beginnerNotes": "Ouvrez le profil 20 W ci-dessous.",
+  "proTips": "L’Ultra 22 W/33 W est la génération plus récente si encore en stock.",
+  "bestFor": [
+    "Acheteurs Sculpfun"
+  ],
+  "pros": [
+    "Gamme Sculpfun éprouvée"
+  ],
+  "cons": [
+    "Sélectionnez une fiche de puissance"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois"
+    ],
+    "cut": [
+      "Bois"
+    ],
+    "cannot": [
+      "—"
+    ]
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    { "alt": "Graveuse laser Sculpfun S30 Pro Max — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S30 Pro Max — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S30 Pro Max — Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S30 Pro Max — Sculpfun" }
+  ]
+}
