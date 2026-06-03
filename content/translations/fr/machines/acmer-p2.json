@@ -2,27 +2,35 @@
   "tagline": "Acmer P2 structure ouverte : niveaux 20 W et 33 W",
   "tldr": "Page regroupant la gamme Acmer P2. Choisissez la référence 20 W ou 33 W pour les specs et les prix.",
   "mainObjective": "Comparer les configurations Acmer P2",
-  "primaryUse": "Index de la gamme Acmer P2.",
-  "beginnerNotes": "Ouvrez la fiche 20 W ou 33 W ci-dessous.",
-  "proTips": "Ignorez les packs « All In One » si vous n'avez besoin que de la machine.",
+  "primaryUse": "Index de la gamme Acmer P2 (20 W et 33 W).",
+  "beginnerNotes": "Comparez les fiches 20 W et 33 W avant achat. Les benchmarks de découpe détaillés sont sur les profils de puissance, pas ici.",
+  "proTips": "Évitez les packs groupés si vous avez déjà air assist et extraction. Pour enceinte et caméra, comparez plutôt l'Acmer P3.",
   "bestFor": [
     "Montée en gamme Acmer"
   ],
   "pros": [
-    "Gamme intermédiaire Acmer"
+    "La gamme P2 vise une découpe plus musclée que la P1",
+    "Les paliers 20 W et 33 W partagent le même châssis et plateau",
+    "Bon rapport qualité-prix après un 10 W si l'enceinte n'est pas prioritaire"
   ],
   "cons": [
-    "Choisir un niveau de puissance"
+    "Page index : ouvrez 20 W ou 33 W pour l'avis acheteur complet",
+    "Toujours limité diode sur acrylique transparent et bois épais",
+    "Extraction et lunettes obligatoires sur structure ouverte"
   ],
   "materials": {
     "engrave": [
-      "Bois"
+      "Bois",
+      "Cuir",
+      "Ardoise (selon palier)"
     ],
     "cut": [
-      "Bois"
+      "Tilleul fin (selon palier)"
     ],
     "cannot": [
-      "—"
+      "Limites selon SKU 20 W ou 33 W : voir fiches ci-dessous",
+      "Acrylique transparent en production",
+      "Découpe acrylique épaisse niveau CO₂"
     ]
   },
   "specs": {

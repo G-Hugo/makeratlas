@@ -1,5 +1,6 @@
 import type { Locale } from "@/i18n/config";
-import { parsePowerWatts } from "@/lib/catalog-display";
+import { getCatalogDisplayName, parsePowerWatts } from "@/lib/catalog-display";
+import { formatPowerTierChipLabel } from "@/lib/tier-chip";
 import { noEmDash } from "@/lib/copy-style";
 import type { Machine } from "@/types/machine";
 
@@ -90,14 +91,6 @@ function roleDefaultCutDepth(role: PowerTierRole): string {
   return "8";
 }
 
-function benchTime(machine: Machine, kind: "engrave" | "cut"): string | undefined {
-  const ex =
-    kind === "engrave"
-      ? machine.specs?.performance?.engraveExample
-      : machine.specs?.performance?.cutExample;
-  return ex?.time;
-}
-
 function formatWattList(watts: number[], locale: Locale): string {
   if (watts.length === 0) return "";
   const suffix = locale === "fr" ? "W" : "W";
@@ -131,10 +124,6 @@ const COPY = {
     enclosed: "Fully enclosed cabinet : beam containment and smoke control vs open-frame diodes",
     openFrame: "Open-frame layout : laser glasses and ventilation are your responsibility",
     swappable: "Swappable laser head on the same chassis : upgrade wattage without a new machine",
-    workArea: (area: string) => `Work area ${area} on this chassis`,
-    benchEngrave: (t: string) => `Reference engrave job on this module: ${t}`,
-    benchCut: (t: string) => `Reference cut job on this module: ${t}`,
-    software: (apps: string) => `Software: ${apps}`,
     upgrade: (hint: string) =>
       hint ? `Higher modules in this line (${hint}) add cut speed and depth` : "",
     skipHigher: (hint: string) =>
@@ -161,10 +150,6 @@ const COPY = {
     enclosed: "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
     openFrame: "Open-frame : lunettes laser et ventilation à votre charge",
     swappable: "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    workArea: (area: string) => `Surface utile ${area} sur ce châssis`,
-    benchEngrave: (t: string) => `Exemple gravure de référence sur ce module : ${t}`,
-    benchCut: (t: string) => `Exemple découpe de référence sur ce module : ${t}`,
-    software: (apps: string) => `Logiciels : ${apps}`,
     upgrade: (hint: string) =>
       hint ? `Modules plus puissants dans la gamme (${hint}) : découpe plus rapide et plus profonde` : "",
     skipHigher: (hint: string) =>
@@ -204,10 +189,6 @@ export function buildMachineTierEditorial(
   const swappable = hasInterchangeableModule(machine);
   const higher = higherWattHint(machine, tiers, locale);
   const cutMm = cutThicknessHint(machine);
-  const engraveT = benchTime(machine, "engrave");
-  const cutT = benchTime(machine, "cut");
-  const apps = (machine.specs.software ?? []).slice(0, 2).join(locale === "fr" ? " · " : " · ");
-  const area = machine.specs.workArea;
 
   const pros: string[] = [];
   const cons: string[] = [];
@@ -218,8 +199,6 @@ export function buildMachineTierEditorial(
 
   if (machine.laserType === "fiber") {
     pros.push(L.fiberNoCut);
-    if (area) pros.push(L.workArea(area));
-    if (engraveT) pros.push(L.benchEngrave(engraveT));
     cons.push(
       locale === "fr"
         ? `Fibre ${wattLabel} : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox`
@@ -232,12 +211,31 @@ export function buildMachineTierEditorial(
           : `Upgrade path to ${higher} if metal throughput becomes the bottleneck`,
       );
     }
+  } else if (machine.laserType === "uv") {
+    pros.push(
+      locale === "fr"
+        ? `${wattLabel} UV : marquage froid sur verre et plastiques sensibles à la chaleur`
+        : `${wattLabel} UV: cold marking on glass and heat-sensitive plastics`,
+    );
+    cons.push(
+      locale === "fr"
+        ? "Pas de découpe bois/métal : installez un autre module sur le châssis pour ces matériaux"
+        : "No wood/metal cutting : install another head on the chassis for those materials",
+    );
+  } else if (machine.laserType === "hybrid" && /ir|1064|infrared/i.test(machine.specs.power)) {
+    pros.push(
+      locale === "fr"
+        ? `${wattLabel} IR : marquage métal sur le même châssis que les autres modules`
+        : `${wattLabel} IR: metal marking on the same chassis as other modules`,
+    );
+    cons.push(
+      locale === "fr"
+        ? "Nécessite le châssis complet : ce module seul ne remplace pas une machine dédiée"
+        : "Requires the full chassis : this module alone does not replace a dedicated machine",
+    );
   } else if (machine.laserType === "co2") {
     pros.push(L.co2Acrylic);
-    if (area) pros.push(L.workArea(area));
     if (enclosed) pros.push(L.enclosed);
-    if (engraveT) pros.push(L.benchEngrave(engraveT));
-    if (cutT) pros.push(L.benchCut(cutT));
     cons.push(L.co2Vent);
     if (higher) cons.push(L.skipHigher(higher));
   } else {
@@ -248,8 +246,6 @@ export function buildMachineTierEditorial(
       pros.push(L.openFrame);
     }
     if (swappable) pros.push(L.swappable);
-    if (area) pros.push(L.workArea(area));
-    if (apps) pros.push(L.software(apps));
 
     if (role === "engrave-only" || role === "engrave-first") {
       pros.push(
@@ -300,9 +296,6 @@ export function buildMachineTierEditorial(
           : "Open frame: kids, pets, and smoke are not contained",
       );
     }
-
-    if (engraveT) pros.push(L.benchEngrave(engraveT));
-    if (cutT) pros.push(L.benchCut(cutT));
   }
 
   // Trim duplicates and cap length (role lines before benchmarks)
@@ -342,10 +335,51 @@ export function buildMachineTierEditorial(
   };
 }
 
-function normalizeEditorial<T extends Pick<
-  Machine,
-  "bestFor" | "pros" | "cons" | "beginnerNotes" | "proTips" | "mainObjective" | "primaryUse"
->>(slice: T): T {
+function isInterchangeableModuleLine(tiers: Machine[]): boolean {
+  return tiers.some((t) => t.moduleSystem?.style === "interchangeable");
+}
+
+function augmentModuleEditorial(
+  copy: TierEditorialCopy,
+  machine: Machine,
+  tiers: Machine[],
+  locale: Locale,
+): TierEditorialCopy {
+  const moduleLabel = formatPowerTierChipLabel(machine, locale, tiers);
+  const lineName = getCatalogDisplayName(machine, tiers.length);
+
+  const beginnerNotes =
+    locale === "fr"
+      ? `Cette fiche décrit le module ${moduleLabel} sur ${lineName}. Même châssis pour les autres têtes : comparez via les pastilles avant d’acheter un module.`
+      : `This profile is the ${moduleLabel} module on ${lineName}. Same chassis for other heads : compare via the chips before buying a module.`;
+
+  const primaryUse =
+    copy.primaryUse?.includes("module") || copy.primaryUse?.includes("Module")
+      ? copy.primaryUse
+      : locale === "fr"
+        ? `Module ${moduleLabel} · ${lineName}`
+        : `${moduleLabel} module · ${lineName}`;
+
+  return {
+    ...copy,
+    beginnerNotes: machine.beginnerNotes?.trim() ? copy.beginnerNotes : beginnerNotes,
+    primaryUse,
+    mainObjective: machine.mainObjective || copy.mainObjective,
+  };
+}
+
+function machineEditorialSlice(machine: Machine): TierEditorialCopy {
+  return {
+    bestFor: machine.bestFor,
+    pros: machine.pros,
+    cons: machine.cons,
+    beginnerNotes: machine.beginnerNotes,
+    proTips: machine.proTips,
+    mainObjective: machine.mainObjective,
+    primaryUse: machine.primaryUse,
+  };
+}
+function normalizeEditorial<T extends TierEditorialCopy>(slice: T): T {
   return {
     ...slice,
     pros: slice.pros.map(noEmDash),
@@ -357,7 +391,10 @@ function normalizeEditorial<T extends Pick<
   };
 }
 
-/** Use derived tier copy on multi-power detail pages unless JSON sets tierEditorialOverride. */
+/**
+ * Multi-power SKU lines without swappable heads: derived watt-role copy when JSON allows.
+ * Interchangeable module lines: always use each tier's JSON (specs, materials, benchmarks).
+ */
 export function resolveMachineEditorial(
   machine: Machine,
   tiers: Machine[],
@@ -366,17 +403,21 @@ export function resolveMachineEditorial(
   Machine,
   "bestFor" | "pros" | "cons" | "beginnerNotes" | "proTips" | "mainObjective" | "primaryUse"
 > {
+  const useTierJson =
+    machine.tierEditorialOverride ||
+    (tiers.length > 1 && isInterchangeableModuleLine(tiers));
+
+  if (useTierJson) {
+    const base = normalizeEditorial(machineEditorialSlice(machine));
+    if (isInterchangeableModuleLine(tiers)) {
+      return normalizeEditorial(augmentModuleEditorial(base, machine, tiers, locale));
+    }
+    return base;
+  }
+
   const derived = buildMachineTierEditorial(machine, tiers, locale);
-  if (!derived || machine.tierEditorialOverride) {
-    return normalizeEditorial({
-      bestFor: machine.bestFor,
-      pros: machine.pros,
-      cons: machine.cons,
-      beginnerNotes: machine.beginnerNotes,
-      proTips: machine.proTips,
-      mainObjective: machine.mainObjective,
-      primaryUse: machine.primaryUse,
-    });
+  if (!derived) {
+    return normalizeEditorial(machineEditorialSlice(machine));
   }
   return normalizeEditorial(derived);
 }

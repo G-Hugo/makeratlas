@@ -64,17 +64,14 @@
     ]
   },
   "pros": [
-    "Acmer S2 Pro mid-power : enclosed-optional 36W tier",
-    "Fully enclosed cabinet : beam containment and smoke control vs open-frame diodes",
-    "Work area 400 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line : benchmarked around 8 mm basswood-class stock",
-    "36W: the most cut-focused head in the Acmer S2 Pro line",
-    "Reference engrave job on this module: ~14–22 min"
+    "Mid-high Acmer open frame between P2 and flagship watts",
+    "Compressed diode class for faster panel work",
+    "Large bed for sign layouts on a budget"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂"
+    "48W tier adds more headroom for cut-heavy weeks",
+    "Open-frame rules apply",
+    "Diode acrylic limits unchanged"
   ],
   "beginnerNotes": "This profile is the 36W module on Acmer S2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -115,5 +112,9 @@
       "alt": "Acmer S2 Pro 36W laser engraver : Acmer"
     }
   ],
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "S2 Pro 36W suits makers who want Acmer speed without the top SKU price.",
+    "limitations": "Compare S30 Ultra 22W and LM3 20W on bundle quality before checkout."
+  }
 }

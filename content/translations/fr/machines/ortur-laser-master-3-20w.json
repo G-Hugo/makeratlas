@@ -12,18 +12,21 @@
     "Petites séries"
   ],
   "pros": [
-    "Diode structure ouverte favori de la communauté : meilleur rapport qualité-prix LM3",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm (15.75 × 15.75 in) sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~10–15 min",
-    "Exemple découpe de référence sur ce module : ~5–8 min"
+    "Souvent la meilleure open-frame pour petites activités mixtes gravure-découpe",
+    "Grand plateau et communauté Ortur mature à prix milieu de gamme",
+    "20 W : bon équilibre entre lenteur S9 et coût d’une 40 W",
+    "Parcours LightBurn bien documenté pour les premiers Ortur",
+    "Fort choix si vous découpez sans budget enceinte ou CO₂"
   ],
   "cons": [
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Vérifiez le SKU 20 W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées",
+    "L’acrylique coulé et la découpe production épaisse restent du CO₂"
   ],
+  "editorialDepth": {
+    "advantages": "Le LM3 20 W est recommandé dans le guide d’achat car il offre une vraie marge de découpe bois sans installation CO₂. Lunettes, air assist et évacuation fenêtre suffisent pour des commandes mixtes crédibles.",
+    "limitations": "Rien ici ne confine faisceau ou fumées. Acrylique coulé et contreplaqué production poussent vers CO₂. Vérifiez le module optique 20 W livré, pas une tête plus lente dans un bundle trompeur."
+  },
   "materials": {
     "engrave": [
       "Bois",

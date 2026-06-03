@@ -74,20 +74,18 @@
     ]
   },
   "pros": [
-    "40W Top D1 Pro module : strongest open-frame xTool diode",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Swappable laser head on the same chassis : upgrade wattage without a new machine",
-    "Work area 430 × 390 mm (16.9 × 15.4 in) on this chassis",
-    "Software: xTool Creative Space · LightBurn",
+    "Strongest cutting head in the D1 Pro family without jumping to CO₂",
+    "Large 430 × 390 mm bed with the fastest cut benchmarks in the line",
+    "Swappable head : same rail as 5W–20W modules you may already own",
     "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
-    "40W: the most cut-focused head in the xTool D1 Pro line"
+    "Still runs xTool Creative Space for beginners and LightBurn for pros"
   ],
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
     "Still a diode : clear acrylic production wants CO₂",
     "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "This profile is the 40W module on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 40W module on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "primaryUse": "40W module · xTool D1 Pro",
   "rating": {
@@ -158,5 +156,9 @@
     ]
   },
   "releaseDate": "2023-03",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Choose 40W when your week mixes engraving with real wood cutting on the D1 Pro rail. You keep xTool's large bed and Creative Space workflow while avoiding the space and cost of a CO₂ box until clear acrylic pays the bills.",
+    "limitations": "Open-frame means glasses and ventilation are non-negotiable. Ultra-fine photo fills can look better on the 5W or 10W module if you tune for quality over speed. Still a diode : cast acrylic and bare metal without spray stay frustrating."
+  }
 }

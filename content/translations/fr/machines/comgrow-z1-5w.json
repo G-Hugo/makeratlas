@@ -12,13 +12,9 @@
     "Première machine"
   ],
   "pros": [
-    "Diode Comgrow 5W petit budget : souvent proposée en pack avec les imprimantes 3D",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "5W sur Comgrow Z1 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~28–43 min",
-    "Exemple découpe de référence sur ce module : ~14–24 min"
+    "Prix d’entrée très bas pour tester la gravure",
+    "Packs Comgrow souvent pour premiers acheteurs",
+    "Plateforme compacte avant Z1 10 W"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -65,5 +61,9 @@
     {
       "alt": "Graveuse laser Comgrow Z1 5W : Comgrow"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Z1 5 W est une machine d’essai avant hardware 20 W.",
+    "limitations": "À éviter si vous savez déjà que vous devez découper. Confusion SKU fréquente. Lunettes et extraction dès le jour 1."
+  }
 }

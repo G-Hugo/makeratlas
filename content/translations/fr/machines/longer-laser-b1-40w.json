@@ -12,13 +12,10 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Diode Longer 40 W grand format : plateau plus grand que Ray5 pour enseignes",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 450 × 440 mm (base; extensions available) sur ce châssis",
-    "Logiciels : Longer Laser Tool · LightBurn",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de Longer Laser B1",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Palier B1 le plus rapide pour bois tendre épais",
+    "Grand plateau pour séries cadeaux en multi-pièces",
+    "Bon rapport si vous voulez vitesse sans projet ventilation CO₂",
+    "À coupler avec air assist et évacuation extérieure sérieux"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -71,5 +68,9 @@
     {
       "alt": "Graveuse laser Longer Laser B1 40W : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le B1 40 W s’adresse aux acheteurs déjà engagés sur le grand open-frame Longer qui veulent le maximum diode sur bois.",
+    "limitations": "Ne remplace pas une boutique enseignes acrylique. Les photos fines peuvent être meilleures en B1 20 W réglé lentement. Prévoyez budget extraction si vous venez du Ray5."
+  }
 }

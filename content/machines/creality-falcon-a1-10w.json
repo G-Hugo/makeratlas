@@ -69,18 +69,14 @@
     ]
   },
   "pros": [
-    "Creality's compact enclosed A1 : beginner-friendly diode in a small footprint",
-    "Fully enclosed cabinet : beam containment and smoke control vs open-frame diodes",
-    "Work area 250 × 250 mm (approx.) on this chassis",
-    "Software: Creality Laser · LightBurn",
-    "10W on Creality Falcon A1: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~12–18 min",
-    "Reference cut job on this module: ~6–11 min"
+    "Entry enclosed Falcon A1 for safer home engraving",
+    "Lower price than A1 Pro dual-source",
+    "Creality laser app for beginners"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W) add cut speed and depth",
-    "Not the SKU for a shop cutting 4 mm+ stock all day"
+    "Smaller bed than open Falcon2 lines",
+    "10W limits cutting depth",
+    "A1 Pro adds IR for more materials"
   ],
   "beginnerNotes": "This profile is the 10W module on Creality Falcon A1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -114,5 +110,9 @@
       "alt": "Creality Falcon A1 10W laser engraver : Creality"
     }
   ],
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Falcon A1 10W when enclosure safety beats raw watts.",
+    "limitations": "Mixed cut businesses should compare A1 Pro 20W."
+  }
 }

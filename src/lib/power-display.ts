@@ -1,6 +1,13 @@
 import type { Locale } from "@/i18n/config";
 import type { Machine } from "@/types/machine";
-import { parsePowerWatts } from "@/lib/catalog-display";
+import { parsePowerWattsFromText } from "@/lib/tier-chip";
+
+function parsePowerWatts(machine: { powerRating?: string; specs: { power: string } }): number | null {
+  return (
+    parsePowerWattsFromText(machine.powerRating ?? "") ??
+    parsePowerWattsFromText(machine.specs.power ?? "")
+  );
+}
 
 /** Parenthetical content that is internal/editorial, not for catalog chips. */
 const INTERNAL_PAREN_CONTENT =
@@ -161,8 +168,11 @@ function formatWattsOnly(machine: Machine): string {
   return match ? `${match[1]}W` : "—";
 }
 
-/** Compact chip for multi-power models: watts only (e.g. 10W, 40W). */
+/** Compact chip for multi-tier models (re-exported via catalog-display). */
 export function formatPowerTierChip(machine: Machine, locale: Locale): string {
+  const watts = parsePowerWatts(machine);
+  const suffix = inferLaserSuffix(machine, locale);
+  if (watts && suffix) return stripInternalPowerNotes(`${watts}W ${suffix}`);
   return formatWattsOnly(machine);
 }
 

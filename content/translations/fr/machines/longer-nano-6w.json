@@ -12,13 +12,9 @@
     "Première machine"
   ],
   "pros": [
-    "Entrée portable Longer : diode compacte pour petits projets",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 130 × 130 mm (approx.) sur ce châssis",
-    "Logiciels : Longer Laser · LightBurn",
-    "6W sur Longer Nano : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Graveuse Longer ultra-compacte pour voyage et petits cadeaux",
+    "Faible consommation et très petit bureau",
+    "Cuir, mini tests bois et apprentissage logiciel"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -69,5 +65,9 @@
     {
       "alt": "Graveuse laser Longer Nano 6W : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Nano 6 W vend la portabilité et l’entrée à faible risque avant un grand châssis.",
+    "limitations": "Toute activité de découpe payante : minimum Ray5 20 W. Les temps photo dépendent du format. Méfiance des watts combinés en annonce."
+  }
 }

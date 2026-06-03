@@ -70,19 +70,14 @@
     ]
   },
   "pros": [
-    "Entry Creality diode : simple upgrade path for 3D printer owners",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 400 × 415 mm on this chassis",
-    "Software: Creality Laser · LightBurn",
-    "12W on Creality Falcon2: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~17–26 min",
-    "Reference cut job on this module: ~9–15 min"
+    "Entry Falcon2 tier with Creality software hand-holding",
+    "Built-in air assist on many bundles helps first cuts",
+    "Engraving-first pricing under the 22W and 40W SKUs"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (22W) add cut speed and depth",
-    "Not the SKU for a shop cutting 5 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Limited cut depth versus 22W Falcon2 siblings",
+    "Open-frame safety and ventilation on you",
+    "Color-engrave marketing does not replace material limits"
   ],
   "beginnerNotes": "This profile is the 12W module on Creality Falcon2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -118,5 +113,9 @@
   "modelLine": "creality-falcon2",
   "powerRating": "12W",
   "releaseDate": "2023-06",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Falcon2 12W suits Creality 3D printer owners who want one-brand laser learning. Air assist and structured chassis beat bare-bones 5W frames for first cuts.",
+    "limitations": "Side businesses cutting daily should compare 22W or open LM3 class value. Clear acrylic still needs CO₂."
+  }
 }

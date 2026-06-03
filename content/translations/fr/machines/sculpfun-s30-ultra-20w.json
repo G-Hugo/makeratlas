@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "S30 Ultra milieu de gamme : forte découpe diode sans tarif CO₂",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~7–12 min",
-    "Exemple découpe de référence sur ce module : ~4–7 min"
+    "Ultra 20 W entre gravure 10 W et flagship 22 W",
+    "Cadre actuel avec communauté solide",
+    "Utile si le 22 W est en rupture"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (22W) : découpe plus rapide et plus profonde",
@@ -72,5 +68,9 @@
     {
       "alt": "Graveuse laser Sculpfun S30 Ultra 20W : Sculpfun"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Ultra 20 W : comparez le prix au 22 W avant achat.",
+    "limitations": "La plupart des acheteurs production visent le 22 W."
+  }
 }

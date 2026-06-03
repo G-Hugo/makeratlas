@@ -12,13 +12,9 @@
     "Première machine"
   ],
   "pros": [
-    "Ortur LM2 S2 5 W : l’Ortur le moins cher qui vaut encore le coup",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "5W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Prix Ortur le plus bas du catalogue",
+    "Communauté LM2 historique pour premiers tests",
+    "Plateau suffisant pour ardoises et petits cadeaux"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -65,5 +61,9 @@
     {
       "alt": "Graveuse laser Ortur LM2 S2 5W : Ortur"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "LM2 5 W seulement en forte promo pour apprendre.",
+    "limitations": "Le guide oriente les acheteurs payants vers des gammes plus récentes."
+  }
 }

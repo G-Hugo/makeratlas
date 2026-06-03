@@ -12,14 +12,16 @@
     "Petites séries"
   ],
   "pros": [
-    "Le juste milieu H20 : diode 20 W sur le châssis intégré série H d’Ortur",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 275 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Choix H20 par défaut pour gravure mixte et découpe bois sur châssis série H",
+    "Châssis intégré plus abouti que les anciennes structures LM",
+    "Ligne modulaire : montées 40 W ou IR sur la même plateforme",
+    "Bon milieu de gamme Ortur entre LM2 budget et LM3 flagship",
+    "Prêt LightBurn sans budget CO₂"
   ],
+  "editorialDepth": {
+    "advantages": "Le H20 20 W vise les fans d’Ortur qui veulent un châssis plus intégré que les open designs d’antan. Il équilibre cadeaux gravés et découpe légère si lunettes et extraction sont prises au sérieux.",
+    "limitations": "Confusion fréquente sur les bundles : vérifiez le module optique. Règles open-frame. Pour recettes communautaires et rapport découpe/prix max, comparez quand même le LM3 20 W."
+  },
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
     "Vérifiez le SKU 20W : même châssis, modules différents",

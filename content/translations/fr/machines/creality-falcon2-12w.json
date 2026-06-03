@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Diode Creality d'entrée : chemin de montée simple pour les propriétaires d'imprimantes 3D",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 415 mm sur ce châssis",
-    "Logiciels : Creality Laser · LightBurn",
-    "12W sur Creality Falcon2 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~17–26 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Entrée Falcon2 avec logiciel Creality guidé",
+    "Air assist intégré sur beaucoup de packs pour premières découpes",
+    "Prix gravure sous les paliers 22 W et 40 W"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -65,5 +61,9 @@
     {
       "alt": "Graveuse laser Creality Falcon2 12W : Creality"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Falcon2 12 W convient aux utilisateurs Creality 3D qui veulent rester dans la marque. L’air assist bat les open-frame 5 W nus pour débuter la découpe.",
+    "limitations": "Activité découpe quotidienne : comparez 22 W ou LM3. Acrylique transparent : CO₂."
+  }
 }

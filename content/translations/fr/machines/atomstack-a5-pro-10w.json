@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Laser diode 10 W ultra petit budget : point d’entrée minimum viable",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Atomstack A5 Pro : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Palier A5 Pro le plus populaire pour gravure hobby",
+    "Plateau complet abordable pour ardoise, bois, cuir",
+    "Énorme base de mods et réglages en ligne"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -71,5 +67,9 @@
     {
       "alt": "Graveuse laser Atomstack A5 Pro 10 W : Atomstack"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le 10 W est le sweet spot gravure de la ligne budget Atomstack.",
+    "limitations": "Les activités mixtes découpe/gravure le dépassent vite. Comparez Ortur LM3 10 W pour un châssis plus rigide."
+  }
 }

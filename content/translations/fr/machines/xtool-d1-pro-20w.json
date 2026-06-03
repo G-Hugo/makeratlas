@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "20 W : le laser diode structure ouverte le plus populaire pour les maker qui dépassent l’entrée de gamme",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Surface utile 430 × 390 mm (16.9 × 15.4 in) sur ce châssis",
-    "Logiciels : xTool Creative Space · LightBurn",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~11–15 min"
+    "Meilleure diode xTool open-frame avant S1",
+    "Logiciel et accessoires xTool intégrés",
+    "Découpe 20 W crédible pour side business"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
@@ -92,5 +88,9 @@
         "label": "Module 40 W"
       }
     ]
+  },
+  "editorialDepth": {
+    "advantages": "D1 Pro 20 W pour écosystème xTool sans prix S1.",
+    "limitations": "Familles : chiffrez S1 20 W avant achat."
   }
 }

@@ -54,6 +54,10 @@
       }
     }
   },
+  "editorialDepth": {
+    "advantages": "La P2S améliore l’expérience P2 avec un traitement plus rapide et un meilleur autofocus tout en gardant la classe CO₂ 55 W attendue par les enseignistes. Vous conservez sécurité enceinte, caméra et écosystème xTool mature, souvent avec un meilleur rapport offre groupée que le saut direct vers P3.",
+    "limitations": "Toutes les contraintes CO₂ demeurent : ventilation, tube, poids et prix. Si vous voulez 80 W, un plus grand plateau ou l’automatisation ACS, c’est P3 qui compte, pas P2S. Les acheteurs gravure seule ne doivent pas payer un CO₂ pour du travail niveau diode."
+  },
   "images": [
     { "alt": "Graveuse laser xTool P2S : xTool" },
     { "alt": "Graveuse laser xTool P2S : xTool" },

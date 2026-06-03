@@ -70,17 +70,14 @@
     ]
   },
   "pros": [
-    "40W Compact fixed-focus diode : simple desk engraver for small projects",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 375 × 375 mm on this chassis",
-    "Software: Longer Laser Tool · LightBurn",
-    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
-    "40W: the most cut-focused head in the Longer Ray5 line",
-    "Reference engrave job on this module: ~12–18 min"
+    "Top Ray5 head for faster cuts on wood and dark acrylic",
+    "Best choice in the line if Ray5 format already fits your desk",
+    "Useful when 20W job times block evening production batches",
+    "Still far cheaper than enclosed or CO₂ routes"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂",
+    "Ultra-fine photo engraving may need slower settings than 10W",
+    "Still a diode: clear cast acrylic wants CO₂",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 40W module on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -119,5 +116,9 @@
   "modelLine": "longer-ray5",
   "releaseDate": "2024-05",
   "catalogPrimary": true,
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Pick 40W when Ray5's compact chassis works for you but 20W throughput is the bottleneck. You stay on Longer's entry hardware with the highest cut bias in the family.",
+    "limitations": "Frame flex and duty cycle matter more at 40W class power. Compare Longer Laser B1 or Sculpfun S30 Ultra if you need a larger bed. Enclosed buyers should look at xTool S1 instead of chasing watts on Ray5."
+  }
 }

@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "La plateforme TS2 populaire de TwoTrees : 20 W structure ouverte avec communauté active",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "TwoTrees 20 W souvent agressif en specs par euro",
+    "Pour hobbyistes chassant les promos bundle",
+    "LightBurn pour gravure et découpe modérée"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
@@ -67,5 +63,9 @@
     {
       "alt": "Graveuse laser TwoTrees TS2 20 W : TwoTrees"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "TS2 20 W si le prix bat les marques établies et vous acceptez moins de support.",
+    "limitations": "Production : LM3 ou S30 pour le dépannage."
+  }
 }

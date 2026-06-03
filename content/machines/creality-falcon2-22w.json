@@ -71,18 +71,15 @@
     ]
   },
   "pros": [
-    "22W Entry Creality diode : simple upgrade path for 3D printer owners",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 400 × 415 mm on this chassis",
-    "Software: Creality Laser · LightBurn",
-    "Best cut headroom in the line : benchmarked around 8 mm basswood-class stock",
-    "22W: the most cut-focused head in the Creality Falcon2 line",
-    "Reference engrave job on this module: ~12–18 min"
+    "Balanced Falcon2 tier before paying for Pro branding",
+    "Built-in air assist and stiff frame for hobby cutting",
+    "Color metal marking gimmick can help gift personalization",
+    "Large bed versus Ray5 class machines"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Pro line adds features you may not need: compare pricing",
+    "Still open-frame with diode acrylic limits",
+    "Verify optical 22W, not headline combined watts"
   ],
   "beginnerNotes": "This profile is the 22W module on Creality Falcon2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
@@ -119,5 +116,9 @@
   "powerRating": "22W",
   "catalogPrimary": true,
   "releaseDate": "2024-02",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Falcon2 22W is the value pick in Creality's open-frame line when you want air assist without Pro upsell. Good for mixed wood and dark acrylic experiments.",
+    "limitations": "Production shops may still prefer Sculpfun Ultra or LM3 community depth. Photo finesse can trail slower engraving-first modules."
+  }
 }

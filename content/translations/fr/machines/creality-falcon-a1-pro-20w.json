@@ -12,13 +12,10 @@
     "Petites séries"
   ],
   "pros": [
-    "A1 Pro fermée double source : diode plus infrarouge pour plus de matériaux",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 250 × 250 mm (approx.) sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~8–12 min",
-    "Exemple découpe de référence sur ce module : ~4–7 min"
+    "Creality fermé diode + IR pour plus de matériaux",
+    "Plus sûr en famille que les Falcon2 ouverts",
+    "Petit plateau adapté appartement et cadeaux",
+    "Double source pour certains métaux/plastiques sans fibre complète"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",
@@ -77,5 +74,9 @@
     {
       "alt": "Graveuse laser Creality Falcon A1 Pro 20W : Creality"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "L’A1 Pro 20 W convient si vous voulez enceinte et essais matériaux sans tarif xTool. L’IR ajoute du marquage impossible en diode seule.",
+    "limitations": "Le petit plateau bloque les grandes enseignes. Logiciel et support en retrait de xTool. Découpe intense : ventilation malgré l’enceinte."
+  }
 }

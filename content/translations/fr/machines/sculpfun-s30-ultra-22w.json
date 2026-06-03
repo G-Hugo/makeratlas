@@ -12,14 +12,16 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "haut de gamme S30 Ultra actuel : puissance diode Sculpfun maximale",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
-    "22W : tête la plus orientée découpe de Sculpfun S30 Ultra",
-    "Exemple gravure de référence sur ce module : ~7–11 min"
+    "Palier diode Sculpfun le plus musclé pour ceux qui découpent le bois chaque semaine",
+    "Bon rapport face à l’ancienne S30 Pro Max quand les promos sont actives",
+    "Grand plateau et recettes communautaires pour cette génération de châssis",
+    "Bon pont avant le CO₂ si la signalétique acrylique n’est pas votre cœur de métier",
+    "Compatible LightBurn pour sortir des apps débutant"
   ],
+  "editorialDepth": {
+    "advantages": "Choisissez le 22 W quand le temps de job sur tilleul 6–8 mm compte plus que le module gravure le plus lent. Vous restez sur le matériel Ultra actuel avec des mods documentés pour air assist et extraction. Pour un mix Etsy, c’est le SKU à comparer en premier.",
+    "limitations": "Sécurité open-frame et ventilation non négociables. L’acrylique transparent veut du CO₂. Les photos ultra fines peuvent être plus belles sur un 10 W réglé lentement. Comparez Ortur LM3 20 W et xTool S1 fermée si enfants ou animaux imposent une enceinte."
+  },
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",

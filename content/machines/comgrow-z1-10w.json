@@ -69,19 +69,14 @@
     ]
   },
   "pros": [
-    "10W Budget Comgrow diode : often bundled with 3D printer deals",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 300 × 300 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "10W on Comgrow Z1: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~18–28 min",
-    "Reference cut job on this module: ~9–15 min"
+    "Affordable 10W engraver for gifts and learning",
+    "Step up from 5W without full 20W pricing",
+    "Works for leather, wood marks, and thin cuts"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W) add cut speed and depth",
-    "Not the SKU for a shop cutting 4 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Cutting depth limited versus Z1 20W",
+    "Brand community thinner than major lines",
+    "Open-frame rules apply"
   ],
   "beginnerNotes": "This profile is the 10W module on Comgrow Z1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -115,5 +110,9 @@
   ],
   "modelLine": "comgrow-z1",
   "powerRating": "10W",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Z1 10W fits casual engravers who want faster fills than 5W on a tight Comgrow deal.",
+    "limitations": "Businesses quoting cut-outs should buy 20W tier. Compare Sculpfun S9 on sale before committing."
+  }
 }

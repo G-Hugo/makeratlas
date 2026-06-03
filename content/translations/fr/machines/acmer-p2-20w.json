@@ -12,14 +12,16 @@
     "Petites séries"
   ],
   "pros": [
-    "Acmer P2 milieu de gamme : 20 W structure ouverte avec packs accessoires",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~16–25 min",
-    "Exemple découpe de référence sur ce module : ~8–14 min"
+    "Palier P2 équilibré pour monter depuis les 10 W entrée de gamme",
+    "Souvent moins cher que des bundles Ortur ou Sculpfun 20 W comparables",
+    "Plateau 400 mm adapté aux enseignes et panneaux",
+    "Packs accessoires peuvent inclure air assist : vérifiez les photos annonce",
+    "Chemin logique vers le 33 W sur la même gamme si la découpe grossit"
   ],
+  "editorialDepth": {
+    "advantages": "Le P2 20 W convient si vous voulez des capacités type Ortur avec tarifs et packs Acmer. Traitez-le comme cheval de travail gravure + tilleul modéré une fois extraction et air assist en place.",
+    "limitations": "Support marque et communauté en retrait de Sculpfun et Ortur. Règles open-frame. Pour enceinte et caméra, comparez Acmer P3 plutôt que de viser 33 W. Acrylique transparent = CO₂."
+  },
   "cons": [
     "Modules plus puissants dans la gamme (33W) : découpe plus rapide et plus profonde",
     "Vérifiez le SKU 20W : même châssis, modules différents",

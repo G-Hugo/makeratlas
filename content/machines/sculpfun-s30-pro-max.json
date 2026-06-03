@@ -49,24 +49,32 @@
   },
   "materials": {
     "engrave": [
-      "Wood"
+      "Wood",
+      "Leather",
+      "Slate"
     ],
     "cut": [
-      "Wood"
+      "Basswood and thin stock (20W tier)"
     ],
     "cannot": [
-      "—"
+      "See 20W tier page for full limits",
+      "Clear acrylic production",
+      "Superseded for new buyers by S30 Ultra in many regions"
     ]
   },
   "pros": [
-    "Proven Sculpfun line"
+    "S30 Pro Max was Sculpfun's cut-focused line before the Ultra generation",
+    "20W tier remains a reference point for used-market buyers",
+    "Large community recipes still apply to many open-frame setups"
   ],
   "cons": [
-    "Select wattage page"
+    "Index page: open the 20W SKU for current pros, cons, and benchmarks",
+    "New shoppers should compare S30 Ultra 22W/33W availability first",
+    "Open-frame safety and exhaust are still on you"
   ],
-  "beginnerNotes": "Open the 20W profile below.",
-  "proTips": "Ultra 22W/33W is the newer generation if still in stock.",
-  "primaryUse": "S30 Pro Max family index.",
+  "beginnerNotes": "Treat this as a legacy family hub. If you are buying new, start with S30 Ultra profiles unless you found a strong deal on Pro Max stock.",
+  "proTips": "Used Pro Max units can be excellent value: inspect belt tension, lens cleanliness, and actual optical power on arrival.",
+  "primaryUse": "Family index for Sculpfun S30 Pro Max (20W catalog tier).",
   "rating": {
     "overall": 8,
     "value": 8,

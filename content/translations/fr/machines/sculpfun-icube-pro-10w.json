@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "iCube Pro Max 10 W : Sculpfun compact fermé, petit encombrement et capot complet",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Sculpfun iCube Pro Max : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~12–18 min",
-    "Exemple découpe de référence sur ce module : ~6–10 min"
+    "iCube 10 W plus capable pour gravure maison",
+    "Empreinte plus petite que S30 open",
+    "Mods Sculpfun en croissance"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -70,5 +66,9 @@
     {
       "alt": "Graveuse laser Sculpfun iCube Pro Max 10W : Sculpfun"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "iCube Pro 10 W quand la taille bureau prime sur le plateau max.",
+    "limitations": "Enseignistes : formats plus grands ou CO₂."
+  }
 }

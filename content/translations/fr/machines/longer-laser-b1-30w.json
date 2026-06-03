@@ -12,13 +12,10 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Diode Longer 30 W grand format : plateau plus grand que Ray5 pour enseignes",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 450 × 440 mm (base; extensions available) sur ce châssis",
-    "Logiciels : Longer Laser Tool · LightBurn",
-    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
-    "30W : tête la plus orientée découpe de Longer Laser B1",
-    "Exemple gravure de référence sur ce module : ~14–22 min"
+    "Diode compressée entre 20 W et 40 W sur châssis B1",
+    "Découpes soir plus rapides sur tilleul 6–8 mm que le B1 20 W",
+    "Grand plateau sans passer au CO₂",
+    "Bon milieu si vous avez dépassé Ray5 sans budget enceinte"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -71,5 +68,9 @@
     {
       "alt": "Graveuse laser Longer Laser B1 30W : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le B1 30 W vise des semaines découpe sur grand châssis Longer sans payer le pic marketing 40 W.",
+    "limitations": "Limites diode inchangées. Appartement : comparez machines fermées. Vérifiez le module optique livré."
+  }
 }

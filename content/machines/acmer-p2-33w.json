@@ -67,14 +67,17 @@
     ]
   },
   "pros": [
-    "Strong Acmer P2 tier : 33W compressed diode for faster work",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 400 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line : benchmarked around 8 mm basswood-class stock",
-    "33W: the most cut-focused head in the Acmer P2 line",
-    "Reference engrave job on this module: ~12–18 min"
+    "Fastest Acmer P2 head for cut-heavy weeks on wood and dark acrylic",
+    "Compressed diode class competes with 22–40W marketing from other brands",
+    "Same frame ecosystem as P2 20W if you started smaller and outgrew it",
+    "Strong value when you want speed without CO₂ ventilation projects",
+    "Worth comparing to Sculpfun S30 Ultra 22W before you checkout"
   ],
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Choose 33W when customer quotes include thicker basswood or more panels per evening than a 20W module can finish. You stay on Acmer's P2 hardware with the highest cut bias in the family.",
+    "limitations": "Still open-frame with diode material limits. Photo engraving purists may prefer slower passes on a 20W SKU. Enclosed apartment makers should weigh Acmer P3 or xTool S1 before chasing watts alone."
+  },
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
     "Still a diode : clear acrylic production wants CO₂",
@@ -119,6 +122,5 @@
       "src": "/machines/acmer-p2-33w/04.jpg",
       "alt": "Acmer P2 33W laser engraver : Acmer"
     }
-  ],
-  "tierEditorialOverride": false
+  ]
 }

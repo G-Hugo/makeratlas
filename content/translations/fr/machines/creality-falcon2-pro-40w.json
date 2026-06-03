@@ -12,13 +12,10 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Diode 40W haute puissance avec assistance air intégrée et effet gravure couleur",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 415 mm sur ce châssis",
-    "Logiciels : Creality Laser · LightBurn",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de Creality Falcon2 Pro",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Diode Creality open-frame la plus musclée pour découpe hobby",
+    "Meilleur débit de la ligne Falcon2 Pro sur bois",
+    "Air assist et châssis rigide sur la plupart des packs",
+    "Sous le prix CO₂ si la ventilation bloquait"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -72,5 +69,9 @@
     {
       "alt": "Graveuse laser Creality Falcon2 Pro 40W : Creality"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le 40 W quand le format Falcon2 Pro convient et que le 22 W freine vos devis. Argument Creality : vitesse sur organiques avec air assist usine.",
+    "limitations": "Enseignes acrylique transparent quotidien : CO₂. Comparez OMTech ou xTool P2 avant de croire qu’une diode 40 W les remplace."
+  }
 }

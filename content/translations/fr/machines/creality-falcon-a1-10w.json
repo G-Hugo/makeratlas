@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "A1 compacte fermée de Creality : diode accessible aux débutants dans un petit encombrement",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 250 × 250 mm (approx.) sur ce châssis",
-    "Logiciels : Creality Laser · LightBurn",
-    "10W sur Creality Falcon A1 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~12–18 min",
-    "Exemple découpe de référence sur ce module : ~6–11 min"
+    "Entrée Falcon A1 fermée pour gravure plus sûre",
+    "Moins cher que A1 Pro double source",
+    "App Creality pour débutants"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -66,5 +62,9 @@
     {
       "alt": "Graveuse laser Creality Falcon A1 10W : Creality"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Falcon A1 10 W quand la sécurité enceinte prime sur les watts.",
+    "limitations": "Mixte découpe : A1 Pro 20 W."
+  }
 }

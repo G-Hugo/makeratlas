@@ -191,12 +191,14 @@ export type Dictionary = {
     jobTime: string;
     jobSize: string;
     moduleInterchangeableFootnote: string;
+    powerTierSwappableFootnote: string;
     moduleHybridFootnote: string;
     powerTierChooseModule: string;
     powerTierChoosePower: string;
     powerTierSpecsModule: string;
     powerTierSpecsSku: string;
     powerTierActive: string;
+    powerTierActiveModule: string;
     infraredKind: string;
   };
   ratings: {

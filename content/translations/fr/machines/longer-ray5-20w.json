@@ -12,13 +12,11 @@
     "Petites séries"
   ],
   "pros": [
-    "Diode 20 W mise au point fixe compacte : graveuse bureau simple pour petits projets",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 375 × 375 mm sur ce châssis",
-    "Logiciels : Longer Laser Tool · LightBurn",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Choix Ray5 par défaut pour gravure mixte et découpe bois légère",
+    "Souvent en promo sous l’Ortur LM3 20 W",
+    "Plateau 375 mm pour enseignes et petites séries cadeaux",
+    "Compatible LightBurn après Longer Laser Tool",
+    "Alternative budget du guide d’achat milieu de gamme"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
@@ -70,5 +68,9 @@
     {
       "alt": "Graveuse laser Longer Ray5 20W : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Ray5 20 W est la puissance que la plupart des acheteurs cherchent chez Longer. Il équilibre gravure style Etsy et tilleul modéré avec air assist et extraction.",
+    "limitations": "Signalétique acrylique ou bois épais en production : CO₂ ou Ray5 40 W. Communauté plus petite qu’Ortur ou Sculpfun. Les photos ultra fines peuvent préférer un 10 W réglé lentement."
+  }
 }

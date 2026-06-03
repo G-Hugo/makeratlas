@@ -12,14 +12,15 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "S1 fermée entrée de gamme : orientée gravure avec écosystème têtes interchangeables",
-    "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Surface utile 430 × 390 mm sur ce châssis",
-    "Logiciels : xTool Creative Space · LightBurn",
-    "10W sur xTool S1 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~14–21 min"
+    "Prix d’entrée S1 le plus bas tout en gardant l’enceinte fermée",
+    "Meilleur module de la gamme pour photos remplies, cuir et cadeaux détaillés",
+    "Même boîtier interchangeable que 20 W et 40 W pour monter plus tard",
+    "Idéal si la découpe épaisse est rare et la qualité de gravure prime"
   ],
+  "editorialDepth": {
+    "advantages": "La S1 10 W convient quand vos revenus viennent surtout de marquages bois, cuir et ardoise, pas de production contreplaqué. Vous gardez le flux xTool fermé et la montée en puissance sans payer des watts de découpe inutilisés chaque semaine.",
+    "limitations": "Les ateliers qui chiffrent des boîtes ou du tilleul épais quotidiennement doivent ouvrir les fiches 20 W ou 40 W avant achat. Acrylique coulé et métal sans spray restent hors scope. Filtres ou gaine restent nécessaires les jours de découpe fumante."
+  },
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",

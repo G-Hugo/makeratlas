@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "Laser diode 20 W ultra petit budget : point d’entrée minimum viable",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~12–18 min",
-    "Exemple découpe de référence sur ce module : ~6–10 min"
+    "Module A5 Pro le plus fort pour découpe modérée sur cadre classique",
+    "Parmi les 20 W plein format les moins chers",
+    "Profils LightBurn et firmware largement partagés"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",
@@ -69,5 +65,9 @@
     {
       "alt": "Graveuse laser Atomstack A5 Pro 20 W : Atomstack"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le 20 W pour ceux qui connaissent déjà l’A5 et veulent couper sans changer de châssis.",
+    "limitations": "Le A40 Pro est plus rigide à puissance égale. Prévoyez une montée si les devis incluent des panneaux tilleul quotidiens."
+  }
 }

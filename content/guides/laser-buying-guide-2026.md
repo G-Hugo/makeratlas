@@ -22,7 +22,7 @@ You do **not** need a $3,000 laser. Most people start between **$200 and $600** 
 | **Cut shapes** | Keychains, boxes, acrylic letters | Thin wood: strong diode. **Clear acrylic: CO₂ ~$500+** |
 | **Bare metal** | Tags, tools, jewelry | Fiber/hybrid **~$1,500+**, or diode + spray **~$400+** |
 
-Marketing always shows thick cuts. Most beginners: and many **small businesses**: only need engraving.
+Marketing always shows thick cuts. Most beginners and many **small businesses** only need engraving.
 
 ---
 
@@ -46,13 +46,13 @@ You do **not** need 20W or CO₂ to charge for work when the product is the **ma
 
 | | Day 1 | Add in month 1 |
 |---|--------|----------------|
-| Machine | $200–600 |: |
-| Safety glasses + scrap material | ~$25–40 |: |
-| Fire extinguisher | ~$25 |: |
-| LaserGRBL | Free |: |
-| Air assist |: | ~$30–60 |
-| LightBurn |: | ~$60–120 (optional) |
-| CO₂ ventilation |: | **+$50–150** if you buy CO₂ |
+| Machine | $200–600 | – |
+| Safety glasses + scrap material | ~$25–40 | – |
+| Fire extinguisher | ~$25 | – |
+| LaserGRBL | Free | – |
+| Air assist | – | ~$30–60 |
+| LightBurn | – | ~$60–120 (optional) |
+| CO₂ ventilation | – | **+$50–150** if you buy CO₂ |
 
 **Floor to first good job:** ~**$250–350**. Comfortable hobby: machine **+ $80–150**, not + $300 on day one.
 

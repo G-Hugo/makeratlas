@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Diode Comgrow 10 W petit budget : souvent proposée en pack avec les imprimantes 3D",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Comgrow Z1 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "10 W abordable pour cadeaux et apprentissage",
+    "Montée depuis 5 W sans prix 20 W complet",
+    "Bois, cuir et découpes fines"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -65,5 +61,9 @@
     {
       "alt": "Graveuse laser Comgrow Z1 10W : Comgrow"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Z1 10 W pour graveurs occasionnels sur promo Comgrow.",
+    "limitations": "Devis avec découpes : palier 20 W. Comparez Sculpfun S9 en promo avant achat."
+  }
 }

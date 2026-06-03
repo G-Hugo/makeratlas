@@ -12,13 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "H10 40 W : série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de Ortur Laser Master H10",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Tête H10 la plus rapide pour semaines découpe",
+    "Vitesse type LM3 sur plateforme H",
+    "Montée Ortur sans CO₂"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -72,5 +68,9 @@
     {
       "alt": "Graveuse laser Ortur Laser Master H10 40W : Ortur"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "H10 40 W pour la découpe sur plateforme H10.",
+    "limitations": "Comparez H20 40 W modulaire et Falcon2 Pro 40 W."
+  }
 }

@@ -96,6 +96,17 @@
     "capability": 7.8,
     "buildQuality": 7.8
   },
+  "accessories": [
+    { "id": "enclosure", "availability": "included" },
+    { "id": "camera", "availability": "included" },
+    { "id": "air-assist", "availability": "included", "note": "Often bundled; verify listing" },
+    { "id": "smoke-filter", "availability": "optional" },
+    { "id": "rotary-roller", "availability": "optional" }
+  ],
+  "editorialDepth": {
+    "advantages": "P3 is the clearest xTool S1 alternative on budget: enclosed 20W diode, camera preview, and air assist in one box. You get a large bed for the class and LightBurn compatibility without xTool pricing. For apartment engraving with occasional thin cuts, it hits the feature checklist buyers actually shop for.",
+    "limitations": "Acmer support and software polish trail xTool. Filter quality and exhaust paths vary by bundle, so heavy cutting still wants real ducting. Diode limits on clear acrylic and thick production wood remain. Treat warranty and return policy as part of the purchase decision."
+  },
   "similarModels": [
     "xtool-s1-20w",
     "wecreat-vision"

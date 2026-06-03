@@ -11,7 +11,8 @@ import type { Dictionary } from "@/i18n/dictionaries/types";
 import type { Locale } from "@/i18n/config";
 import { localizedPath } from "@/i18n/navigation";
 import { laserTypeLabelLocalized } from "@/lib/i18n-helpers";
-import { getCatalogDisplayName, formatMachinePowerBubble } from "@/lib/catalog-display";
+import { getDetailDisplayTitle, powerTierLabel } from "@/lib/catalog-display";
+import { formatMachinePowerBubble } from "@/lib/power-display";
 import { formatMachineLaserLabel } from "@/lib/laser-capabilities";
 import { getMachinePhotos } from "@/lib/machine-images";
 import { MachineAccessoriesPanel } from "@/components/machines/MachineAccessoriesPanel";
@@ -24,6 +25,7 @@ import { ModuleSystemNotice } from "@/components/machines/ModuleSystemNotice";
 import { PowerTierNav } from "@/components/machines/PowerTierNav";
 import { ContentFreshness } from "@/components/content/ContentFreshness";
 import { resolveMachineEditorial } from "@/lib/power-tier-editorial";
+import { getTierChipVariant } from "@/lib/catalog-display";
 import { formatReleaseDate, ratingColor } from "@/lib/utils";
 import { MachineDetailPrice } from "@/components/pricing/MachinePrice";
 import type { Machine } from "@/types/machine";
@@ -33,7 +35,6 @@ interface MachineDetailViewProps {
   dict: Dictionary;
   initialSlug: string;
   tiers: Machine[];
-  cardHeroSrc: string;
   similarBySlug: Record<string, Machine[]>;
   hasTranslationBySlug: Record<string, boolean>;
 }
@@ -43,7 +44,6 @@ export function MachineDetailView({
   dict,
   initialSlug,
   tiers,
-  cardHeroSrc,
   similarBySlug,
   hasTranslationBySlug,
 }: MachineDetailViewProps) {
@@ -65,17 +65,13 @@ export function MachineDetailView({
     tiersBySlug[activeSlug] ?? tiersBySlug[initialSlug] ?? tiers[0];
   if (!machine) return null;
   const multiTier = tiers.length > 1;
-  const powerLabel = formatMachinePowerBubble(machine, locale);
+  const tierChipVariant = getTierChipVariant(tiers);
+  const tierLabel = powerTierLabel(machine, locale, tiers);
+  const specsPowerLabel = multiTier ? tierLabel : formatMachinePowerBubble(machine, locale);
   const editorial = resolveMachineEditorial(machine, tiers, locale);
-  const lineTitle = multiTier
-    ? getCatalogDisplayName(machine, tiers.length)
-    : machine.name;
-  const displayTitle = multiTier ? `${lineTitle} · ${powerLabel}` : machine.name;
+  const displayTitle = getDetailDisplayTitle(machine, tiers, locale);
   const similar = similarBySlug[machine.slug] ?? [];
-  const photos = useMemo(
-    () => getMachinePhotos(machine, { cardHeroSrc }),
-    [machine, cardHeroSrc],
-  );
+  const photos = useMemo(() => getMachinePhotos(machine), [machine]);
 
   const handleSelectTier = useCallback(
     (slug: string) => {
@@ -120,7 +116,7 @@ export function MachineDetailView({
       </nav>
 
       <div className="grid gap-10 lg:grid-cols-3 lg:items-start">
-        <div className="min-w-0 space-y-8 lg:col-span-2">
+        <div key={activeSlug} className="min-w-0 space-y-8 lg:col-span-2">
           <MachineGallery
             key={machine.slug}
             machineKey={machine.slug}
@@ -168,8 +164,9 @@ export function MachineDetailView({
           <ModuleSystemNotice
             machine={machine}
             powerTierCount={tiers.length}
+            tierChipVariant={tierChipVariant}
+            tiers={tiers}
             locale={locale}
-            dict={dict}
             labels={m}
           />
 
@@ -291,7 +288,7 @@ export function MachineDetailView({
           )}
         </div>
 
-        <aside className="min-w-0 space-y-6 lg:sticky lg:top-6 lg:self-start">
+        <aside key={`aside-${activeSlug}`} className="min-w-0 space-y-6 lg:sticky lg:top-6 lg:self-start">
           <div className="rounded-xl border border-stone-200 bg-white p-6 shadow-sm dark:border-stone-700 dark:bg-stone-900">
             <p className={`text-3xl font-bold ${ratingColor(machine.rating.overall)}`}>
               {machine.rating.overall.toFixed(1)}
@@ -315,7 +312,7 @@ export function MachineDetailView({
               <MachineQuickSpecs
                 specs={machine.specs}
                 labels={m}
-                powerLabel={powerLabel}
+                powerLabel={specsPowerLabel}
               />
             </div>
           </div>

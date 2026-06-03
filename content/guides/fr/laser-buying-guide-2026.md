@@ -44,12 +44,12 @@ Pas besoin de 20 W ou CO₂ pour facturer quand le produit est la **marque en su
 
 | | Jour 1 | Mois 1 |
 |---|--------|--------|
-| Machine | 200–600 € |: |
-| Lunettes + chutes | ~25–40 € |: |
-| Extincteur | ~25 € |: |
-| LaserGRBL | Gratuit |: |
-| Air assist |: | ~30–60 € |
-| LightBurn |: | ~60–120 € (optionnel) |
+| Machine | 200–600 € | – |
+| Lunettes + chutes | ~25–40 € | – |
+| Extincteur | ~25 € | – |
+| LaserGRBL | Gratuit | – |
+| Air assist | – | ~30–60 € |
+| LightBurn | – | ~60–120 € (optionnel) |
 
 **Premier bon travail :** ~**250–350 €** tout compris.
 

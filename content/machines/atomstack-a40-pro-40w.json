@@ -72,18 +72,15 @@
     ]
   },
   "pros": [
-    "40W Mid-tier Atomstack with better frame and 40W-class cutting claims",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 410 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
-    "40W: the most cut-focused head in the Atomstack A40 Pro line",
-    "Reference engrave job on this module: ~12–18 min"
+    "Fastest A40 Pro head for cut-focused makers",
+    "Rigid frame handles higher speeds better than A5 line",
+    "Strong value for wood-heavy Etsy batches",
+    "LightBurn-ready for production-minded hobbyists"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Photo engraving may need slower passes than 20W",
+    "Diode acrylic limits unchanged",
+    "Open-frame smoke containment not included"
   ],
   "beginnerNotes": "This profile is the 40W module on Atomstack A40 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -115,5 +112,9 @@
   "powerRating": "40W",
   "catalogPrimary": true,
   "releaseDate": "2023-05",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "A40 Pro 40W is for buyers committed to Atomstack's larger frame who need maximum diode cutting without CO₂ setup.",
+    "limitations": "Still not sign-shop acrylic equipment. Compare Falcon2 Pro 40W and S30 Ultra 22W on bundle price and air assist quality."
+  }
 }

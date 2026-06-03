@@ -1,0 +1,160 @@
+{
+  "id": "creality-falcon-t1-40w",
+  "slug": "creality-falcon-t1-40w",
+  "name": "Creality Falcon T1 40W Diode",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "40W WaveSync diode module : faster galvo cuts on the T1 chassis",
+  "tldr": "The 40W diode head is the cutting-focused module on Creality's Falcon T1 galvo platform. Same Class 1 enclosure as the entry diode module but more depth on wood and faster fills for shops that outgrow entry wattage.",
+  "mainObjective": "Faster organic engraving and light cutting on the modular T1 galvo",
+  "bestFor": [
+    "Wood & leather production",
+    "Gift batch runs",
+    "T1 upgrade path",
+    "Galvo speed on organics"
+  ],
+  "priceRange": {
+    "min": 2999,
+    "max": 3999,
+    "currency": "USD",
+    "note": "40W module or bundle; base chassis sold separately"
+  },
+  "specs": {
+    "power": "40W diode (galvo)",
+    "workArea": "220 × 220 mm (galvo field)",
+    "software": [
+      "Creality Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "~0.06 mm galvo spot",
+        "maxSpeed": "10,000 mm/s (marketing, galvo)",
+        "avgEngraveSpeed": "Faster than the entry diode module on fills",
+        "avgCutSpeed": "Moderate on 3–5 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Dark acrylic",
+      "Stone (light)",
+      "Coated metals (with spray)"
+    ],
+    "cut": [
+      "Basswood (up to ~8 mm claimed)",
+      "Paper",
+      "Thin leather"
+    ],
+    "cannot": [
+      "Bare stainless production",
+      "Large-format CO₂ signage",
+      "All modules installed at once"
+    ]
+  },
+  "pros": [
+    "Strongest organic module in the T1 ecosystem",
+    "Keeps Class 1 enclosure and Creality support",
+    "Galvo speed advantage vs open-frame 40W diodes",
+    "Upgrade without replacing the chassis"
+  ],
+  "cons": [
+    "Module + chassis cost approaches fixed galvo competitors",
+    "Still not CO₂ for thick acrylic",
+    "Swap downtime when switching to fiber or UV",
+    "2026 platform : fewer long-term owner reports"
+  ],
+  "beginnerNotes": "Pick 40W if wood cutting time matters more than entry price. Compare the base diode profile if you mainly engrave and are unsure about galvo workflows.",
+  "proTips": "Price the full module roadmap before committing : 40W plus later fiber can exceed a single F2 Ultra bundle.",
+  "primaryUse": "High-power diode module for enclosed galvo cutting and engraving on the Falcon T1 chassis.",
+  "rating": {
+    "overall": 8.7,
+    "value": 8.1,
+    "easeOfUse": 8.5,
+    "capability": 9.1,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "creality-falcon-t1",
+    "xtool-f2-ultra",
+    "creality-falcon2-pro-40w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-02",
+  "image": "/machines/creality-falcon-t1/01.webp",
+  "images": [
+    {
+      "src": "/machines/creality-falcon-t1/01.webp",
+      "alt": "Creality Falcon T1 40W diode module"
+    }
+  ],
+  "modelLine": "creality-falcon-t1",
+  "powerRating": "40W",
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "WaveSync swappable galvo modules",
+    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules : install one head at a time.",
+    "options": [
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "creality-falcon-t1"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode",
+        "tierSlug": "creality-falcon-t1-40w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "fiber",
+        "label": "20W fiber",
+        "tierSlug": "creality-falcon-t1-20w-fiber"
+      },
+      {
+        "power": "60W",
+        "laserKind": "fiber",
+        "label": "60W MOPA",
+        "tierSlug": "creality-falcon-t1-60w-mopa"
+      },
+      {
+        "power": "5W",
+        "laserKind": "uv",
+        "label": "5W UV",
+        "tierSlug": "creality-falcon-t1-5w-uv"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "diode"
+  ],
+  "capabilityTags": [
+    "diode"
+  ],
+  "releaseDate": "2026-05",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 40W diode module adds cut-focused galvo speed on the same T1 chassis : thicker basswood and faster fills than the entry diode head while keeping the enclosed Class 1 workflow.",
+    "limitations": "Still not CO₂ for cast acrylic production. Module cost stacks on the chassis. Compare fixed galvo bundles if you know you only need 40W diode day one."
+  }
+}

@@ -12,13 +12,10 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Atomstack 40 W milieu de gamme avec meilleur châssis et promesses de découpe classe 40 W",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de Atomstack A40 Pro",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Tête A40 Pro la plus rapide pour découpe",
+    "Cadre rigide pour vitesses plus élevées que la ligne A5",
+    "Bon rapport pour lots Etsy bois",
+    "Prêt LightBurn pour hobby production"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -71,5 +68,9 @@
     {
       "alt": "Graveuse laser Atomstack A40 Pro 40 W : Atomstack"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le 40 W pour ceux engagés sur le grand cadre Atomstack qui veulent le maximum diode sans CO₂.",
+    "limitations": "Pas d’équipement enseigne acrylique. Comparez Falcon2 Pro 40 W et S30 Ultra 22 W sur prix pack et air assist."
+  }
 }

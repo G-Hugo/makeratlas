@@ -69,21 +69,19 @@
     ]
   },
   "pros": [
-    "Top Ortur H20 : 40W compressed diode for serious cutting",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 410 × 275 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
+    "Strongest cutting head in the H20 family without jumping to CO₂",
+    "Class-1-style enclosure : safer around family and pets than open-frame 40W diodes",
     "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
-    "40W: the most cut-focused head in the Ortur H20 line",
-    "Reference engrave job on this module: ~12–18 min"
+    "Same chassis as 10W/20W : swap modules instead of replacing the whole laser",
+    "410 × 275 mm work area with LightBurn and LaserGRBL support"
   ],
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
     "Still a diode : clear acrylic production wants CO₂",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Premium price vs the 20W module if you mostly engrave"
   ],
-  "beginnerNotes": "This profile is the 40W module on Ortur H20. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
-  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "beginnerNotes": "This profile is the 40W module on Ortur H20. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles on the H20. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "primaryUse": "40W module · Ortur H20",
   "rating": {
     "overall": 8,
@@ -102,6 +100,36 @@
   "image": "/machines/ortur-h20-40w/01.webp",
   "modelLine": "ortur-h20",
   "powerRating": "40W",
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Swappable diode & IR modules",
+    "description": "H20 ships as a chassis with swappable 10W, 20W, or 40W diode modules and optional 2W IR heads for metal marking : verify which module is in the box.",
+    "options": [
+      {
+        "power": "10W",
+        "laserKind": "diode",
+        "label": "10W diode",
+        "tierSlug": "ortur-h20-10w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "ortur-h20-20w"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode",
+        "tierSlug": "ortur-h20-40w"
+      },
+      {
+        "power": "2W",
+        "laserKind": "infrared",
+        "label": "2W IR (optional)"
+      }
+    ]
+  },
   "releaseDate": "2024-11",
   "images": [
     {
@@ -121,5 +149,9 @@
       "alt": "Ortur H20 40W laser engraver : Ortur"
     }
   ],
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The H20 40W module is the cut-focused head in Ortur's swappable line : faster passes on basswood and dark acrylic than 10W/20W modules on the same chassis. Keep the H-frame integration and upgrade path without buying a second machine.",
+    "limitations": "Diode limits remain : clear cast acrylic and deep hardwood still favor CO₂. Ultra-fine photo engraving may look better on the 10W module at slower speeds. Filter or duct planning still applies on smoky cut days."
+  }
 }

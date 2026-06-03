@@ -12,13 +12,10 @@
     "Petites séries"
   ],
   "pros": [
-    "Atomstack 20 W milieu de gamme avec meilleur châssis et promesses de découpe classe 40 W",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Châssis Atomstack plus rigide que A5 Pro en 20 W",
+    "Grand plateau pour enseignes et séries",
+    "Souvent compétitif avec Ortur LM3 20 W",
+    "Bon open-frame avant machines fermées"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
@@ -71,5 +68,9 @@
     {
       "alt": "Graveuse laser Atomstack A40 Pro 20 W : Atomstack"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le A40 Pro 20 W est la recommandation équilibrée Atomstack : meilleure mécanique que A5 avec 20 W optique.",
+    "limitations": "Communauté plus petite qu’Ortur. Acheteurs enceinte : xTool S1 20 W. Confirmez watts optiques, pas seulement « 40 W combinés »."
+  }
 }

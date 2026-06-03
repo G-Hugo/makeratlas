@@ -95,6 +95,10 @@
     "capability": 9.6,
     "buildQuality": 9.2
   },
+  "editorialDepth": {
+    "advantages": "P2S refines the P2 experience with faster processing and improved autofocus while keeping the same 55W CO₂ class that sign makers expect. You still get enclosure safety, camera alignment, and a mature xTool ecosystem, often at a better bundle value than jumping straight to P3.",
+    "limitations": "All CO₂ caveats remain: ventilation, tube life, weight, and price. If you need 80W, a larger bed, or ACS automation, P3 is the meaningful upgrade, not P2S. Engraving-only buyers should not pay CO₂ money for diode-class work."
+  },
   "similarModels": [
     "xtool-p3",
     "xtool-p2",

@@ -12,13 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Sommet de la gamme Acmer S2 Pro : diode compressée 48 W avec packs optionnels",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "48W : tête la plus orientée découpe de Acmer S2 Pro",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Puissance open-frame Acmer maximale pour lots bois",
+    "Option la plus rapide de la ligne S2 Pro",
+    "Sous le CO₂ si la ventilation bloquait"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -64,5 +60,9 @@
     {
       "alt": "Graveuse laser Acmer S2 Pro 48 W : Acmer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "S2 Pro 48 W pour le débit sur grand châssis Acmer.",
+    "limitations": "Enceinte ou CO₂ restent meilleurs pour signalétique appartement."
+  }
 }

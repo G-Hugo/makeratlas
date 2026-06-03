@@ -49,24 +49,32 @@
   },
   "materials": {
     "engrave": [
-      "Wood"
+      "Wood",
+      "Leather",
+      "Slate (tier-dependent)"
     ],
     "cut": [
-      "Wood"
+      "Thin basswood (tier-dependent)"
     ],
     "cannot": [
-      "—"
+      "Specs vary by 10W vs 20W SKU: open a tier page below",
+      "Clear acrylic production",
+      "Bare metal without spray or IR accessory"
     ]
   },
   "pros": [
-    "Acmer value line"
+    "Acmer P1 line covers budget 10W and 20W open-frame options",
+    "LightBurn-friendly workflow at a lower price than premium brands",
+    "Good stepping stone before enclosed or CO₂ machines"
   ],
   "cons": [
-    "Pick a wattage tier"
+    "This page is an index: pick 10W or 20W for real pros, cons, and pricing",
+    "Open-frame safety and ventilation are your responsibility",
+    "Not comparable to enclosed or CO₂ machines for apartment sign work"
   ],
-  "beginnerNotes": "See 10W or 20W pages below.",
-  "proTips": "Verify optical output on listing.",
-  "primaryUse": "Index for Acmer P1.",
+  "beginnerNotes": "Use this page only to choose between 10W and 20W. Each tier profile has full materials, benchmarks, and buyer notes.",
+  "proTips": "Verify optical wattage on the seller listing before checkout. Compare return policy if you are between P1 and Acmer P3 enclosed.",
+  "primaryUse": "Family index for Acmer P1 10W and 20W diode engravers.",
   "rating": {
     "overall": 8,
     "value": 8,

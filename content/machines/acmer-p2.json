@@ -49,24 +49,32 @@
   },
   "materials": {
     "engrave": [
-      "Wood"
+      "Wood",
+      "Leather",
+      "Slate (tier-dependent)"
     ],
     "cut": [
-      "Wood"
+      "Thin basswood (tier-dependent)"
     ],
     "cannot": [
-      "—"
+      "Specs vary by 20W vs 33W SKU: open a tier page below",
+      "Clear acrylic production",
+      "CO₂-level thick acrylic cutting"
     ]
   },
   "pros": [
-    "Mid Acmer line"
+    "Acmer P2 line targets stronger open-frame cutting than P1",
+    "20W and 33W tiers share one model line with comparable beds",
+    "Solid value if you outgrew 10W but do not need enclosure yet"
   ],
   "cons": [
-    "Select wattage tier"
+    "This page is an index: open 20W or 33W for full buyer guidance",
+    "Still diode-limited on clear acrylic and thick hardwood",
+    "Open-frame exhaust and eye protection are not optional"
   ],
-  "beginnerNotes": "Open 20W or 33W profile below.",
-  "proTips": "Skip 'All In One' packs if you only need the machine.",
-  "primaryUse": "Index for Acmer P2.",
+  "beginnerNotes": "Compare 20W vs 33W tier pages before buying. Flagship cutting benchmarks live on the wattage profiles, not here.",
+  "proTips": "Skip bundled kits if you already own air assist and exhaust. If you need enclosure and camera, compare Acmer P3 instead.",
+  "primaryUse": "Family index for Acmer P2 20W and 33W diode engravers.",
   "rating": {
     "overall": 8,
     "value": 8,

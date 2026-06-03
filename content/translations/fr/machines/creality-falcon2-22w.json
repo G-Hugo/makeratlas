@@ -12,13 +12,10 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Diode Creality 22W d'entrée : chemin de montée simple pour les propriétaires d'imprimantes 3D",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 415 mm sur ce châssis",
-    "Logiciels : Creality Laser · LightBurn",
-    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
-    "22W : tête la plus orientée découpe de Creality Falcon2",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Palier Falcon2 équilibré avant la gamme Pro",
+    "Air assist et châssis rigide pour découpe hobby",
+    "Marquage couleur utile pour cadeaux métal",
+    "Grand plateau face au Ray5"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -48,5 +45,9 @@
     {
       "alt": "Graveuse laser Creality Falcon2 22W : Creality"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Falcon2 22 W est le rapport qualité-prix open-frame Creality avec air assist sans surcoût Pro.",
+    "limitations": "Les boutiques production peuvent préférer Sculpfun Ultra ou LM3. La finesse photo peut demander un module gravure plus lent."
+  }
 }

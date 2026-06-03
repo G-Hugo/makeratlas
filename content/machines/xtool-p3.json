@@ -1,7 +1,7 @@
 {
   "id": "xtool-p3",
   "slug": "xtool-p3",
-  "name": "xTool P3",
+  "name": "xTool P3 80W",
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "co2",
@@ -92,9 +92,13 @@
     "Accessories (feeder, AutoLift, IR) push total cost higher",
     "Overkill if you only engrave small gifts"
   ],
-  "beginnerNotes": "Buy P3 if you run a shop cutting acrylic signs or thick wood daily. Coming from P2S? You gain power, bed size, and automation : not a minor tweak. Still on a budget? Consider Monport/OMTech CO₂ or stay on Falcon 2 Pro diode.",
+  "beginnerNotes": "This profile is the 80W CO₂ module on the P3 chassis. Add the 5W IR head later if metal becomes regular revenue : open that module profile to compare. Plan exhaust before the machine arrives.",
   "proTips": "Plan exhaust before delivery. Run material tests on the full bed : large beds need focus calibration at corners. Price the IR module only if metal is a regular revenue line.",
-  "primaryUse": "2025 xTool flagship CO₂ for high-volume cutting and engraving with factory-style automation.",
+  "primaryUse": "80W CO₂ module · xTool P3",
+  "editorialDepth": {
+    "advantages": "P3 targets shops that already know CO₂ pays the bills and need more bed, more wattage, and less manual babysitting. ACS adds camera vision, autofocus, and nesting that shrink setup time on repeat acrylic and plywood jobs. Fire monitoring, chilling, and Class 1 enclosure move safety closer to light industrial expectations while staying desktop-sized.",
+    "limitations": "Budget, floor space, and exhaust planning exclude casual buyers. Accessories such as feeders, AutoLift, and the IR module inflate total cost quickly. It does not replace a fiber galvo for deep stainless production. Hobbyists exploring lasers should start smaller and treat P3 as a business machine."
+  },
   "rating": {
     "overall": 9.4,
     "value": 8,
@@ -128,6 +132,8 @@
       "alt": "xTool P3 laser engraver : xTool"
     }
   ],
+  "modelLine": "xtool-p3",
+  "powerRating": "80W",
   "catalogPrimary": true,
   "moduleSystem": {
     "style": "interchangeable",
@@ -137,12 +143,14 @@
       {
         "power": "80W",
         "laserKind": "co2",
-        "label": "80W CO₂ (included)"
+        "label": "80W CO₂",
+        "tierSlug": "xtool-p3"
       },
       {
         "power": "5W",
         "laserKind": "infrared",
-        "label": "5W IR module (optional)"
+        "label": "5W IR",
+        "tierSlug": "xtool-p3-5w-ir"
       }
     ]
   },
@@ -150,5 +158,6 @@
     "co2",
     "infrared"
   ],
+  "tierEditorialOverride": true,
   "releaseDate": "2025-08"
 }

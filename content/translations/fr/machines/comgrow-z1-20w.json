@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "Diode Comgrow 20W petit budget : souvent proposée en pack avec les imprimantes 3D",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~12–18 min",
-    "Exemple découpe de référence sur ce module : ~6–10 min"
+    "Palier Z1 le plus haut pour gravure et découpe légère budget",
+    "Souvent parmi les 20 W les moins chers en ligne",
+    "Bon spare ou démarrage micro-boutique"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",
@@ -63,5 +59,9 @@
     {
       "alt": "Graveuse laser Comgrow Z1 20W : Comgrow"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Z1 20 W si le prix est le seul critère et que vous acceptez un écosystème plus fin.",
+    "limitations": "Les gros utilisateurs dépassent le cadre et le support. Comparez LM3 20 W. Pas pour exigence enceinte appartement."
+  }
 }

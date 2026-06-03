@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "Châssis TTS amélioré 20 W : meilleure rigidité et mise au point fixe",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~12–18 min",
-    "Exemple découpe de référence sur ce module : ~6–10 min"
+    "Palier Pro 55 20 W pour travail large",
+    "Souvent vendu avec air assist",
+    "Panneaux enseignes hobby à budget"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",
@@ -66,5 +62,9 @@
     {
       "alt": "Graveuse laser TwoTrees TTS-55 Pro 20 W : TwoTrees"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "TTS-55 Pro 20 W si les extras Pro justifient le prix.",
+    "limitations": "Confirmez watts optiques et rails dans les avis."
+  }
 }

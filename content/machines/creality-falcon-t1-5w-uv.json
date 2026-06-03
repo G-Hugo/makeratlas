@@ -1,0 +1,155 @@
+{
+  "id": "creality-falcon-t1-5w-uv",
+  "slug": "creality-falcon-t1-5w-uv",
+  "name": "Creality Falcon T1 5W UV",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "uv",
+  "tagline": "5W UV galvo module : glass, film, and sensitive plastics on the T1 chassis",
+  "tldr": "The 5W UV WaveSync module targets materials diode and fiber struggle with : glass, some films, and heat-sensitive plastics. Install on the same Falcon T1 enclosure when your shop adds UV jobs after wood or metal modules.",
+  "mainObjective": "UV galvo marking for glass and specialty plastics on the T1 platform",
+  "bestFor": [
+    "Glass gifts",
+    "Film & label marking",
+    "UV plastics",
+    "T1 multi-process shops"
+  ],
+  "priceRange": {
+    "min": 3999,
+    "max": 5499,
+    "currency": "USD",
+    "note": "UV module; chassis required"
+  },
+  "specs": {
+    "power": "5W UV",
+    "workArea": "220 × 220 mm (galvo field)",
+    "software": [
+      "Creality Laser",
+      "LightBurn (verify SKU)"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Fine mark on glass panel",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–10 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm UV spot",
+        "maxSpeed": "5,000 mm/s (marketing)",
+        "avgEngraveSpeed": "UV marking speeds",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Glass",
+      "Some plastics",
+      "Ceramic (light)",
+      "Film materials"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood cutting",
+      "Metal production (use fiber module)",
+      "Thick acrylic CO₂ jobs"
+    ]
+  },
+  "pros": [
+    "UV wavelength without a separate UV bench",
+    "Shares T1 Class 1 enclosure and workflow",
+    "Expands T1 beyond organics and metal",
+    "Galvo precision on small parts"
+  ],
+  "cons": [
+    "Niche module : verify material list before buying",
+    "Requires chassis and module swap discipline",
+    "Premium pricing for specialized work",
+    "Not a first module for most buyers"
+  ],
+  "beginnerNotes": "Add UV after diode or fiber modules are paid off and you have confirmed UV material demand. Most shops compare the base diode profile on T1 first.",
+  "proTips": "Run glass test tiles at low power : UV on glass is unforgiving. Keep dedicated ventilation practices for UV fumes per Creality guidance.",
+  "primaryUse": "5W UV galvo module for glass and specialty marking on the Creality Falcon T1 chassis.",
+  "rating": {
+    "overall": 8.4,
+    "value": 7.8,
+    "easeOfUse": 8.3,
+    "capability": 8.7,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "commarker-omni-x-uv",
+    "creality-falcon-t1",
+    "xtool-f1-ultra"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-02",
+  "image": "/machines/creality-falcon-t1/01.webp",
+  "images": [
+    {
+      "src": "/machines/creality-falcon-t1/01.webp",
+      "alt": "Creality Falcon T1 5W UV module"
+    }
+  ],
+  "modelLine": "creality-falcon-t1",
+  "powerRating": "5W",
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "WaveSync swappable galvo modules",
+    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules : install one head at a time.",
+    "options": [
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "creality-falcon-t1"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode",
+        "tierSlug": "creality-falcon-t1-40w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "fiber",
+        "label": "20W fiber",
+        "tierSlug": "creality-falcon-t1-20w-fiber"
+      },
+      {
+        "power": "60W",
+        "laserKind": "fiber",
+        "label": "60W MOPA",
+        "tierSlug": "creality-falcon-t1-60w-mopa"
+      },
+      {
+        "power": "5W",
+        "laserKind": "uv",
+        "label": "5W UV",
+        "tierSlug": "creality-falcon-t1-5w-uv"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "uv"
+  ],
+  "capabilityTags": [
+    "uv"
+  ],
+  "releaseDate": "2026-05",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 5W UV module covers glass and heat-sensitive plastics on the T1 chassis : niche work that diode and fiber modules cannot do on the same platform.",
+    "limitations": "Specialty module with narrow material list. Requires chassis and swap discipline. Not a first purchase for most shops : compare the base diode profile unless UV jobs are already sold."
+  }
+}

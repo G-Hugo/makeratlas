@@ -56,6 +56,10 @@
       }
     }
   },
+  "editorialDepth": {
+    "advantages": "La P3 est l’alternative budget la plus claire à la xTool S1 : diode 20 W fermée, aperçu caméra et air assist dans un seul carton. Grand plateau pour la classe et LightBurn sans tarif xTool. Pour gravure en appartement avec découpes fines occasionnelles, elle coche les critères que les acheteurs comparent vraiment.",
+    "limitations": "Support Acmer et logiciel restent en retrait de xTool. Filtres et évacuation varient selon le pack : la découpe fréquente veut une vraie gaine. Limites diode sur acrylique transparent et bois épais en production. Intégrez garantie et retour dans la décision d’achat."
+  },
   "images": [
     { "alt": "Graveuse laser Acmer P3 : Acmer" },
     { "alt": "Graveuse laser Acmer P3 : Acmer" },

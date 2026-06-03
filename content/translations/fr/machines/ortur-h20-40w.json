@@ -12,13 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Haut de gamme Ortur H20 : diode compressée 40 W pour découpe sérieuse",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 275 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de Ortur H20",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Tête H20 la plus musclée pour bois",
+    "Montées modulaires sans racheter la machine",
+    "Écosystème Ortur pour paliers de watts"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -66,5 +62,9 @@
     {
       "alt": "Graveuse laser Ortur H20 40W : Ortur"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "H20 40 W si vous êtes engagés sur H20 et voulez le maximum diode.",
+    "limitations": "Vérifiez le module optique dans le bundle."
+  }
 }

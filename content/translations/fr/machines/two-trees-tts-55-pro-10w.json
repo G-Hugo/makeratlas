@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Châssis TTS amélioré 10 W : meilleure rigidité et mise au point fixe",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur TwoTrees TTS-55 Pro : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "TTS-55 Pro avec composants au-dessus du 55 base",
+    "10 W gravure sur châssis large",
+    "Vérifiez air assist et taille dans le pack Pro"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -68,5 +64,9 @@
     {
       "alt": "Graveuse laser TwoTrees TTS-55 Pro 10 W : TwoTrees"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "TTS-55 Pro 10 W pour gravure sur grand format.",
+    "limitations": "Mixte : comparez Pro 20 W."
+  }
 }

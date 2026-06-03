@@ -69,18 +69,14 @@
     ]
   },
   "pros": [
-    "Desktop UV laser for glass, plastic, and fine detail",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 100 × 100 mm typical on this chassis",
-    "Software: ComMarker · LightBurn",
-    "5W on ComMarker Omni X UV: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~6–12 min",
-    "Reference cut job on this module: Not a cutter"
+    "Desktop UV laser for plastics and marked substrates UV can treat",
+    "Compact bench unit versus fiber galvo footprint",
+    "Different workflow from diode or CO₂ gift machines"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
-    "Not the SKU for a shop cutting 4 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Not a wood/acrylic cutter for Etsy signs",
+    "Material compatibility is narrow: test before quoting",
+    "Consumables and maintenance unlike diode hobby lasers"
   ],
   "beginnerNotes": "This profile is the 5W module on ComMarker Omni X UV. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
@@ -119,5 +115,9 @@
   ],
   "powerRating": "5W",
   "releaseDate": "2024-08",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Omni X UV fits buyers who already know they need UV marking, not general hobby cutting.",
+    "limitations": "Do not buy as your first 'laser engraver' for wood signs. Verify substrate list with vendor."
+  }
 }

@@ -128,5 +128,9 @@
     }
   ],
   "powerRating": "55W",
-  "releaseDate": "2022-01"
+  "releaseDate": "2022-01",
+  "editorialDepth": {
+    "advantages": "The P2 is the reference desktop CO₂ for makers who sell acrylic signs, wood products, or batch gifts. True 55W cutting, a large bed for this class, camera alignment, and an enclosure with interlocks make it feel like shop equipment without industrial floorspace. LightBurn support means you are not locked into beginner software forever.",
+    "limitations": "Price, weight, and mandatory ventilation put it out of reach for engraving-only hobbyists. The glass tube is a consumable with real replacement cost. Bare metal work still needs a different laser category. If you only mark tumblers or small gifts, a enclosed diode costs far less."
+  }
 }

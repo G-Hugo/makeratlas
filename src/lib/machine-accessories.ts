@@ -1,3 +1,4 @@
+import { copyMentions } from "@/lib/machine-copy-detect";
 import type { AccessoryAvailability, Machine, MachineAccessory } from "@/types/machine";
 
 export const ACCESSORY_ORDER = [
@@ -46,62 +47,53 @@ const CATEGORY_ORDER: AccessoryCategory[] = [
   "software",
 ];
 
-function machineText(machine: Machine): string {
-  return [
-    machine.tagline,
-    machine.tldr,
-    machine.primaryUse,
-    machine.beginnerNotes,
-    machine.proTips,
-    ...machine.pros,
-    ...machine.cons,
-  ]
-    .join(" ")
-    .toLowerCase();
-}
-
-function mentions(machine: Machine, ...patterns: RegExp[]): boolean {
-  const text = machineText(machine);
-  return patterns.some((p) => p.test(text));
-}
-
 export function machineIsEnclosed(machine: Machine): boolean {
   if (machine.laserType === "co2") {
-    return !mentions(machine, /\bk40\b/, /\bopen[- ]?frame\b/);
+    return !copyMentions(machine, /\bk40\b/, /\bopen[- ]?frame\b/, /\bstructure\s+ouverte\b/);
   }
   if (
-    mentions(
+    copyMentions(
       machine,
       /\bopen[- ]?frame\b/,
+      /\bstructure\s+ouverte\b/,
       /\bwithout enclosure\b/,
       /\bno enclosure\b/,
+      /\bsans\s+enceinte\b/,
       /\bk40\b/,
     )
   ) {
     return false;
   }
-  return mentions(
+  return copyMentions(
     machine,
     /\benclosed\b/,
     /\benceinte\b/,
+    /\bcabine\s+fermée\b/,
+    /\bentièrement\s+fermé/i,
     /\bclass\s*1\b/,
+    /\bclasse\s*1\b/,
     /\binterlock/,
+    /\bverrouillage/i,
     /\bfull(?:y)?\s+enclosed/,
   );
 }
 
 function cameraMentionedInCopy(machine: Machine): boolean {
-  return mentions(
+  return copyMentions(
     machine,
     /\bcamera\b/,
+    /\bcaméra\b/,
     /\bvision\b/,
     /\blive\s+preview\b/,
+    /\baperçu\s+(?:en\s+)?direct\b/,
     /\bvisual\s+align/,
     /\bpreview\s+align/,
+    /\balignement\s+visuel\b/,
     /\balign(?:ment)?\s+camera\b/,
-    /\b(built[- ]?in|integrated)\s+camera\b/,
-    /\bcamera[- ](assist|alignment|preview)\b/,
-    /\b\d+\s*mp\s+camera\b/,
+    /\balignement\s+caméra\b/,
+    /\b(built[- ]?in|integrated|intégrée?)\s+(camera|caméra)\b/i,
+    /\b(camera|caméra)[- ](assist|alignment|preview|alignement|aperçu)\b/i,
+    /\b\d+\s*mp\s+(camera|caméra)\b/i,
   );
 }
 
@@ -115,7 +107,7 @@ export function machineHasCamera(machine: Machine): boolean {
   if (
     jsonCam &&
     jsonCam.availability !== "not_applicable" &&
-    /\bcamera\b/i.test(
+    /(camera|caméra)/i.test(
       [jsonCam.note ?? "", ...(machine.pros ?? []), machine.tagline, machine.tldr].join(" "),
     )
   ) {
@@ -126,21 +118,27 @@ export function machineHasCamera(machine: Machine): boolean {
 }
 
 function hasFilterCartridge(machine: Machine): boolean {
-  return mentions(
+  return copyMentions(
     machine,
     /\bfilter\b/,
+    /\bfiltre\b/,
     /\bcartridge\b/,
+    /\bcartouche\b/,
     /\bair\s*purif/,
     /\bfume\s*extract/,
+    /\bextract(?:ion|eur)\s+(?:de\s+)?fumées/i,
   );
 }
 
 function hasAirAssistIncluded(machine: Machine): boolean {
-  return mentions(
+  return copyMentions(
     machine,
-    /\bair\s*assist\s*(included|built-?in|standard)/,
+    /\bair\s*assist\s*(included|built-?in|standard|inclus|intégré)/i,
+    /\bassistance\s+air\s*(inclus|intégrée?)/i,
     /\bcompressor\s*(included|kit)/,
-    /\bwith\s+air\s*assist/,
+    /\bcompresseur\s*(inclus|fourni)/i,
+    /\bwith\s+air\s*assist\b/i,
+    /\bavec\s+assistance\s+air\b/i,
   );
 }
 
@@ -157,7 +155,13 @@ function marksBareMetal(machine: Machine): boolean {
   return (
     machine.laserType === "fiber" ||
     machine.laserCapabilities?.includes("fiber") ||
-    mentions(machine, /\bbare\s+metal\b/, /\bmark(?:s|ing)?\s+(?:stainless|steel|metal)\b/)
+    copyMentions(
+      machine,
+      /\bbare\s+metal\b/,
+      /\bmetal\s+nu\b/,
+      /\bmark(?:s|ing)?\s+(?:stainless|steel|metal)\b/,
+      /\bmarquage\s+(?:inox|métal|acier)/i,
+    )
   );
 }
 
@@ -167,7 +171,16 @@ function supportsLightBurn(machine: Machine): boolean {
 
 function hasRotaryOption(machine: Machine): boolean {
   return (
-    mentions(machine, /\brotary\b/, /\btumbler\b/, /\bmug\b/, /\bcylindrical\b/) ||
+    copyMentions(
+      machine,
+      /\brotary\b/,
+      /\brotatif\b/,
+      /\btumbler\b/,
+      /\bgobelet\b/,
+      /\bmug\b/,
+      /\bcylindrical\b/,
+      /\bcylindrique\b/,
+    ) ||
     machine.laserType === "fiber" ||
     machine.laserType === "uv"
   );
@@ -177,7 +190,14 @@ function hasExtensionRail(machine: Machine): boolean {
   return (
     machine.laserType === "diode" &&
     !machineIsEnclosed(machine) &&
-    mentions(machine, /\bextension\b/, /\brail\b/, /\bpass-?through\b/)
+    copyMentions(
+      machine,
+      /\bextension\b/,
+      /\bextension\s+rail\b/i,
+      /\brail\b/,
+      /\bpass-?through\b/,
+      /\bpassage\s+traversant\b/i,
+    )
   );
 }
 
@@ -195,7 +215,9 @@ function inferAccessories(machine: Machine): MachineAccessory[] {
     push(
       "enclosure",
       "included",
-      mentions(machine, /\benclosed\b/) ? undefined : "Cabinet reduces beam exposure vs open-frame",
+      copyMentions(machine, /\benclosed\b/, /\benceinte\b/, /\bfermé/i)
+        ? undefined
+        : "Cabinet reduces beam exposure vs open-frame",
     );
     push("safety-glasses", "optional", "Still useful when servicing or with lid open");
   } else if (type === "co2") {
@@ -286,7 +308,7 @@ function inferAccessories(machine: Machine): MachineAccessory[] {
   if (supportsLightBurn(machine)) {
     push(
       "lightburn",
-      mentions(machine, /\blasergrbl\b/i) ? "recommended" : "optional",
+      copyMentions(machine, /\blasergrbl\b/i) ? "recommended" : "optional",
       "~$60–120 license: worth it for most open-frame and CO₂ workflows",
     );
   } else {

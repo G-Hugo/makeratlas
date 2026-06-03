@@ -70,12 +70,12 @@
   },
   "pros": [
     "50W Desktop fiber marker for metal and select plastics",
-    "Fiber marks metal : does not cut wood or acrylic",
-    "Work area 110 × 110 mm on this chassis",
-    "Reference engrave job on this module: ~2–5 min"
+    "Fiber marks metal : does not cut wood or acrylic"
   ],
   "cons": [
-    "50W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs"
+    "50W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Does not cut wood, leather, or acrylic: metal and industrial marking workflows only",
+    "Fume extraction still matters for coated metals, plastics, and marking sprays"
   ],
   "beginnerNotes": "This profile is the 50W module on Gweike G2 Max Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work : it slows flat-stock days.",

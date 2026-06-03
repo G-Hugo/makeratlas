@@ -71,18 +71,14 @@
     ]
   },
   "pros": [
-    "40W Ultra-budget diode with surprising build quality for the price",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 300 × 300 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
-    "40W: the most cut-focused head in the TwoTrees TTS-55 line",
-    "Reference engrave job on this module: ~12–18 min"
+    "Highest TTS-55 throughput for wood panels",
+    "Large bed plus high optical class on sale weekends",
+    "Alternative to CO₂ when only organics pay bills"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Frame maintenance critical at 40W",
+    "Not for cast acrylic shops",
+    "Community recipes still growing"
   ],
   "beginnerNotes": "This profile is the 40W module on TwoTrees TTS-55. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -120,5 +116,9 @@
   ],
   "modelLine": "twotrees-tts-55",
   "powerRating": "40W",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "TTS-55 40W when wide format and cut speed beat brand loyalty.",
+    "limitations": "Enclosed apartment makers should not chase 40W open frames alone."
+  }
 }

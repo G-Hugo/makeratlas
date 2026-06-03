@@ -12,13 +12,10 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Diode 10 W mise au point fixe compacte : graveuse bureau simple pour petits projets",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 375 × 375 mm sur ce châssis",
-    "Logiciels : Longer Laser Tool · LightBurn",
-    "10W sur Longer Ray5 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~28–43 min",
-    "Exemple découpe de référence sur ce module : ~14–24 min"
+    "Palier Ray5 orienté gravure avec de meilleurs remplissages photo que le 5 W",
+    "Reste compact et abordable face à l’Ortur LM3",
+    "Bon second laser de secours pour gravure cadeaux",
+    "Montée possible vers 20 W ou 40 W sur la même gamme"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -71,5 +68,9 @@
     {
       "alt": "Graveuse laser Longer Ray5 10W : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le 10 W convient aux jobs surtout marqués, pas aux panneaux épais. Vous gardez le format bureau Ray5 avec des remplissages plus propres que le 5 W.",
+    "limitations": "Les ateliers qui découpent du tilleul 6 mm+ chaque jour doivent ouvrir la fiche 20 W. L’acrylique transparent veut du CO₂. Confusion fréquente entre SKU Ray5 sur les marketplaces."
+  }
 }

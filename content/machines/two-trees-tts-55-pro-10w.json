@@ -69,19 +69,14 @@
     ]
   },
   "pros": [
-    "10W Upgraded TTS frame with better rigidity and fixed focus",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 300 × 300 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "10W on TwoTrees TTS-55 Pro: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~18–28 min",
-    "Reference cut job on this module: ~9–15 min"
+    "Pro-line TTS-55 with upgraded components versus base 55",
+    "10W engraving tier on wide chassis",
+    "Check Pro bundle for air assist and bed size"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W) add cut speed and depth",
-    "Not the SKU for a shop cutting 4 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "20W Pro usually better value for mixed work",
+    "Open-frame safety on you",
+    "Verify Pro versus non-Pro listing"
   ],
   "beginnerNotes": "This profile is the 10W module on TwoTrees TTS-55 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -119,5 +114,9 @@
   ],
   "powerRating": "10W",
   "modelLine": "two-trees-tts-55-pro",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "TTS-55 Pro 10W for wide layouts with engraving-heavy jobs.",
+    "limitations": "Mixed businesses should compare Pro 20W pricing."
+  }
 }

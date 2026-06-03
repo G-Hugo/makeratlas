@@ -12,13 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Diode ultra petit budget 40 W : qualité de châssis surprenante pour le prix",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de TwoTrees TTS-55",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Meilleur débit TTS-55 pour panneaux bois",
+    "Grand lit + haute classe optique en promo",
+    "Alternative CO₂ si seuls les organiques paient"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -70,5 +66,9 @@
     {
       "alt": "Graveuse laser TwoTrees TTS-55 40 W : TwoTrees"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "TTS-55 40 W quand format large et vitesse battent la marque.",
+    "limitations": "Pas pour appartement sans vraie extraction."
+  }
 }

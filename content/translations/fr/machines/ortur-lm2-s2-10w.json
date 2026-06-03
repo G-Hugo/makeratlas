@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Ortur LM2 S2 10 W : gravures plus rapides que le 5 W sur le même châssis",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~12–18 min",
-    "Exemple découpe de référence sur ce module : ~6–10 min"
+    "Ortur 10 W budget orienté gravure",
+    "Énorme historique forum pour dépannage",
+    "Palier avant LM3 20 W"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -63,5 +59,9 @@
     {
       "alt": "Graveuse laser Ortur LM2 S2 10W : Ortur"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "LM2 10 W viable si bien moins cher que l’équivalent LM3.",
+    "limitations": "En 2026, comparez d’abord LM3 ou H20."
+  }
 }

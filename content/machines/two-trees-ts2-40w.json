@@ -72,18 +72,14 @@
     ]
   },
   "pros": [
-    "40W TwoTrees' popular TS2 platform : 20W open-frame with active community",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 410 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
-    "40W: the most cut-focused head in the TwoTrees TS2 line",
-    "Reference engrave job on this module: ~12–18 min"
+    "Top TS2 wattage for faster wood cutting",
+    "Specs-heavy marketing: validate real-world tests",
+    "Budget alternative to Falcon2 Pro 40W"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Build quality varies by batch",
+    "Open-frame safety not optional",
+    "Diode acrylic limits unchanged"
   ],
   "beginnerNotes": "This profile is the 40W module on TwoTrees TS2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -122,5 +118,9 @@
   ],
   "modelLine": "two-trees-ts2",
   "powerRating": "40W",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "TS2 40W for cut-focused buyers who prioritize price over brand community.",
+    "limitations": "Read owner reviews on belt tension and focus repeatability before buying."
+  }
 }

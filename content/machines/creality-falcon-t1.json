@@ -1,10 +1,10 @@
 {
   "id": "creality-falcon-t1",
   "slug": "creality-falcon-t1",
-  "name": "Creality Falcon T1",
+  "name": "Creality Falcon T1 20W Diode",
   "brand": "Creality",
   "category": "laser-engraver",
-  "laserType": "hybrid",
+  "laserType": "diode",
   "tagline": "2026 modular galvo workstation : swap diode, fiber, MOPA, or UV heads",
   "tldr": "Creality's Falcon T1 (global launch May 2026) is a Class 1 enclosed galvo platform with swappable WaveSync modules: 20W/40W diode, 20W fiber, 60W MOPA, and 5W UV. Buy the base once, add laser types as your shop grows : competes with xTool F1/F2 Ultra on flexibility rather than fixed dual-laser boxes.",
   "mainObjective": "Modular enclosed galvo for makers who want one chassis and multiple laser types",
@@ -113,6 +113,8 @@
       "alt": "Creality Falcon T1 laser engraver : Creality"
     }
   ],
+  "modelLine": "creality-falcon-t1",
+  "powerRating": "20W",
   "catalogPrimary": true,
   "moduleSystem": {
     "style": "interchangeable",
@@ -122,27 +124,32 @@
       {
         "power": "20W",
         "laserKind": "diode",
-        "label": "20W diode module"
+        "label": "20W diode",
+        "tierSlug": "creality-falcon-t1"
       },
       {
         "power": "40W",
         "laserKind": "diode",
-        "label": "40W diode module"
+        "label": "40W diode",
+        "tierSlug": "creality-falcon-t1-40w"
       },
       {
         "power": "20W",
         "laserKind": "fiber",
-        "label": "20W fiber module"
+        "label": "20W fiber",
+        "tierSlug": "creality-falcon-t1-20w-fiber"
       },
       {
         "power": "60W",
         "laserKind": "fiber",
-        "label": "60W MOPA module"
+        "label": "60W MOPA",
+        "tierSlug": "creality-falcon-t1-60w-mopa"
       },
       {
         "power": "5W",
         "laserKind": "uv",
-        "label": "5W UV module"
+        "label": "5W UV",
+        "tierSlug": "creality-falcon-t1-5w-uv"
       }
     ]
   },
@@ -156,5 +163,10 @@
     "fiber",
     "uv"
   ],
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 20W diode module is the sensible entry to Creality's WaveSync platform : Class 1 galvo enclosure, wood and leather revenue, and a chassis that later accepts fiber, MOPA, or UV heads without replacing the whole machine.",
+    "limitations": "Galvo field is smaller than open-frame diode beds. Module swaps mean downtime between material types. Price the full module roadmap before buying : fiber and MOPA add up quickly."
+  },
   "releaseDate": "2026-05"
 }

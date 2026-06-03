@@ -67,14 +67,17 @@
     ]
   },
   "pros": [
-    "Mid-tier Acmer P2 : 20W open-frame with accessory packs",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 400 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "Balanced engrave and cut : typical 8 mm basswood in multiple passes",
-    "Reference engrave job on this module: ~16–25 min",
-    "Reference cut job on this module: ~8–14 min"
+    "Balanced Acmer P2 tier for makers stepping up from 10W budget frames",
+    "Often priced under comparable Ortur and Sculpfun 20W bundles",
+    "400 mm class bed suits signs and panel layouts",
+    "Accessory packs can include air assist : confirm listing photos",
+    "Logical path to 33W on the same line if cutting grows"
   ],
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "P2 20W fits buyers who want Ortur-class capability with Acmer pricing and bundle flexibility. Treat it as a workhorse for engraving plus moderate basswood cutting once exhaust and air assist are sorted.",
+    "limitations": "Brand support and community depth trail Sculpfun and Ortur. Open-frame rules apply. If you need enclosure and camera, compare Acmer P3 instead of jumping to 33W. Clear acrylic remains a CO₂ conversation."
+  },
   "cons": [
     "Higher modules in this line (33W) add cut speed and depth",
     "Verify the 20W SKU : same chassis, different modules",
@@ -118,6 +121,5 @@
       "src": "/machines/acmer-p2-20w/04.jpg",
       "alt": "Acmer P2 20W laser engraver : Acmer"
     }
-  ],
-  "tierEditorialOverride": false
+  ]
 }

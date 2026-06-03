@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Diode ultra petit budget 10 W : qualité de châssis surprenante pour le prix",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur TwoTrees TTS-55 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~28–43 min",
-    "Exemple découpe de référence sur ce module : ~14–24 min"
+    "Entrée TTS-55 sur grand châssis TwoTrees",
+    "Gravure sur lit large",
+    "Chemin budget vers cadre 55"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -71,5 +67,9 @@
     {
       "alt": "Graveuse laser TwoTrees TTS-55 10 W : TwoTrees"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "TTS-55 10 W pour grandes mises en page sans découpe épaisse.",
+    "limitations": "Comparez Ortur si le support communautaire compte."
+  }
 }

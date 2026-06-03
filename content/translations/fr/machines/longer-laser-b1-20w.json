@@ -12,13 +12,10 @@
     "Petites séries"
   ],
   "pros": [
-    "Diode Longer 20 W grand format : plateau plus grand que Ray5 pour enseignes",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 450 × 440 mm (base; extensions available) sur ce châssis",
-    "Logiciels : Longer Laser Tool · LightBurn",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Grand format Longer open-frame pour panneaux plus larges que Ray5",
+    "20 W : bon palier pour petite activité à budget serré",
+    "Montée logique depuis Ray5 quand le plateau bloque",
+    "Parcours LightBurn avec groupes Longer documentés"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (30W ou 40W) : découpe plus rapide et plus profonde",
@@ -71,5 +68,9 @@
     {
       "alt": "Graveuse laser Longer Laser B1 20W : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le B1 20 W convient quand vous avez besoin de place physique pour gabarits plus que d’une enceinte. C’est le Longer suivant si le Ray5 375 mm limite vos mises en page.",
+    "limitations": "Moins rigide et moins documenté que l’Ortur LM3 à watts comparables. Acrylique coulé : CO₂. Vérifiez le pack : air assist parfois absent."
+  }
 }

@@ -12,13 +12,10 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Diode 40 W mise au point fixe compacte : graveuse bureau simple pour petits projets",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 375 × 375 mm sur ce châssis",
-    "Logiciels : Longer Laser Tool · LightBurn",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de Longer Ray5",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Tête Ray5 la plus rapide pour bois et acrylique foncé",
+    "Meilleur choix si le format Ray5 convient déjà à votre bureau",
+    "Utile quand le 20 W bloque vos soirées de production",
+    "Toujours bien moins cher qu’une enceinte ou un CO₂"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -67,5 +64,9 @@
     {
       "alt": "Graveuse laser Longer Ray5 40W : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Prenez le 40 W si le châssis Ray5 vous va mais que le débit 20 W freine vos devis. Vous restez sur l’entrée Longer avec le biais découpe maximal.",
+    "limitations": "Flexion châssis et cycle de travail comptent plus à cette puissance. Comparez Longer B1 ou S30 Ultra si vous voulez un plus grand plateau. Pour une enceinte : xTool S1 plutôt que watts sur Ray5."
+  }
 }

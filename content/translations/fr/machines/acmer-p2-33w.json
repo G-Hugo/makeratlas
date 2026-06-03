@@ -12,14 +12,16 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Niveau Acmer P2 puissant : diode compressée 33 W pour un travail plus rapide",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
-    "33W : tête la plus orientée découpe de Acmer P2",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "Tête P2 la plus rapide pour semaines de découpe bois et acrylique foncé",
+    "Diode compressée face au marketing 22–40 W des concurrents",
+    "Même écosystème châssis que le P2 20 W si vous avez déjà démarré petit",
+    "Bon rapport si vous voulez de la vitesse sans projet ventilation CO₂",
+    "À comparer à Sculpfun S30 Ultra 22 W avant paiement"
   ],
+  "editorialDepth": {
+    "advantages": "Prenez le 33 W quand vos devis incluent du tilleul plus épais ou plus de panneaux par soir qu’un 20 W ne termine pas. Vous restez sur le matériel P2 avec le biais découpe le plus fort de la famille.",
+    "limitations": "Toujours open-frame avec limites diode. Les puristes photo peuvent préférer un 20 W plus lent. Les makers en appartement doivent peser Acmer P3 ou xTool S1 avant de courir après les watts seuls."
+  },
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",

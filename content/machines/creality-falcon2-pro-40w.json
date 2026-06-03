@@ -71,18 +71,15 @@
     ]
   },
   "pros": [
-    "40W High-power diode with built-in air assist and color engraving gimmick",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 400 × 415 mm on this chassis",
-    "Software: Creality Laser · LightBurn",
-    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
-    "40W: the most cut-focused head in the Creality Falcon2 Pro line",
-    "Reference engrave job on this module: ~12–18 min"
+    "Top open-frame Creality diode for cut-heavy hobby businesses",
+    "Highest throughput in the Falcon2 Pro line on wood",
+    "Air assist and rigid frame included on most bundles",
+    "Still below CO₂ pricing if ventilation is the blocker"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Fine photo work may need slower settings than 12W tier",
+    "Diode limits on clear acrylic unchanged",
+    "Open-frame smoke and beam safety not contained"
   ],
   "beginnerNotes": "This profile is the 40W module on Creality Falcon2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -125,5 +122,9 @@
   "modelLine": "creality-falcon2-pro",
   "catalogPrimary": true,
   "releaseDate": "2024-09",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Choose 40W when Falcon2 Pro's format fits your shop and 22W job times hurt quotes. Creality's strongest diode argument is speed on organics with factory air assist.",
+    "limitations": "Sign shops cutting clear acrylic daily still need CO₂. Compare OMTech or xTool P2 lease costs before assuming 40W diode replaces them."
+  }
 }

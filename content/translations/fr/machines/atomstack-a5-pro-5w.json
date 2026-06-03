@@ -12,13 +12,9 @@
     "Première machine"
   ],
   "pros": [
-    "Laser diode 5 W ultra petit budget : point d’entrée minimum viable",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "5W sur Atomstack A5 Pro : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~28–43 min",
-    "Exemple découpe de référence sur ce module : ~14–24 min"
+    "Entrée Atomstack historique avec grande communauté",
+    "Grand plateau à petit prix pour LightBurn",
+    "Cadre éprouvé pour ardoises et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -71,5 +67,9 @@
     {
       "alt": "Graveuse laser Atomstack A5 Pro 5 W : Atomstack"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le A5 Pro 5 W reste pertinent en forte promo : écosystème et mods documentés au prix d’entrée.",
+    "limitations": "Si le budget permet 10 W, sautez souvent le 5 W. Pas de découpe production. Vérifiez le module livré."
+  }
 }

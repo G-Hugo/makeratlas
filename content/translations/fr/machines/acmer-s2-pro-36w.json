@@ -12,13 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Acmer S2 Pro puissance intermédiaire : niveau 36 W avec boîtier optionnel",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
-    "36W : tête la plus orientée découpe de Acmer S2 Pro",
-    "Exemple gravure de référence sur ce module : ~14–22 min"
+    "Acmer open-frame milieu-haut entre P2 et le flagship",
+    "Diode compressée pour panneaux plus rapides",
+    "Grand plateau pour mise en page enseignes"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -61,5 +57,9 @@
     {
       "alt": "Graveuse laser Acmer S2 Pro 36 W : Acmer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "S2 Pro 36 W pour la vitesse Acmer sans le prix du SKU le plus haut.",
+    "limitations": "Comparez S30 Ultra 22 W et LM3 20 W avant achat."
+  }
 }

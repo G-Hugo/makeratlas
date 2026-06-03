@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Alpha MK2 10 W : diode à structure ouverte orientée vitesse",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 440 × 410 mm sur ce châssis",
-    "Logiciels : LightBurn · Algolaser app",
-    "10W sur Algolaser Alpha MK2 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~14–21 min",
-    "Exemple découpe de référence sur ce module : ~7–14 min"
+    "Plateforme Algolaser compacte 10 W orientée gravure",
+    "Option pour découvrir une marque plus récente",
+    "Cadeaux détaillés et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -73,5 +69,9 @@
     {
       "alt": "Graveuse laser Algolaser Alpha MK2 10 W : Algolaser"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le MK2 10 W pour curieux du style industriel Algolaser à watts hobby.",
+    "limitations": "Communauté plus petite qu’Ortur ou Sculpfun. Production découpe : paliers supérieurs ou marques établies."
+  }
 }

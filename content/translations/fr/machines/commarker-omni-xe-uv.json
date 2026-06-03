@@ -12,13 +12,9 @@
     "Première machine"
   ],
   "pros": [
-    "Plateforme UV élargie pour travaux verre et plastique plus grands",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 120 × 120 mm typical sur ce châssis",
-    "Logiciels : ComMarker · LightBurn",
-    "5W sur ComMarker Omni XE UV : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~6–12 min",
-    "Exemple découpe de référence sur ce module : Not a cutter"
+    "Plateforme UV élargie dans la ligne Omni",
+    "Pour ateliers ajoutant l’UV à d’autres outils",
+    "Format bureau vs lignes UV industrielles"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
@@ -61,5 +57,9 @@
     {
       "alt": "Graveuse laser ComMarker Omni XE UV : ComMarker"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Omni XE UV comme deuxième machine dédiée UV.",
+    "limitations": "Makers bois/acrylique : rester sur profils diode ou CO₂."
+  }
 }

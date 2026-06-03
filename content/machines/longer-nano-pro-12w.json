@@ -69,18 +69,14 @@
     ]
   },
   "pros": [
-    "Fast portable Longer : 12W with high traverse and rotary options",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 130 × 130 mm (extendable with slide) on this chassis",
-    "Software: Longer Laser · LightBurn",
-    "12W on Longer Nano Pro: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~12–18 min",
-    "Reference cut job on this module: ~6–10 min"
+    "Step up from Nano with more engraving speed in the same compact class",
+    "Still portable compared with Ray5 or B1 frames",
+    "Useful for craft fairs and small personalized goods"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Not the SKU for a shop cutting 5 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Cutting depth remains hobby-level only",
+    "Bed size limits sign and panel work",
+    "Open-frame exhaust needed even for small jobs"
   ],
   "beginnerNotes": "This profile is the 12W module on Longer Nano Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -114,5 +110,9 @@
       "alt": "Longer Nano Pro 12W laser engraver : Longer"
     }
   ],
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Nano Pro 12W bridges toy-class engravers and full-size diodes. You gain workable speeds on wood and leather gifts without dedicating half a desk.",
+    "limitations": "When you quote cut-out shapes to customers, move to Ray5 20W. Not comparable to enclosed apartment machines for smoke control."
+  }
 }

@@ -1,7 +1,12 @@
 import type { Locale } from "@/i18n/config";
 import type { Machine } from "@/types/machine";
 import { LocaleLink } from "@/components/layout/LocaleLink";
-import { powerTierLabel } from "@/lib/catalog-display";
+import {
+  getTierChipVariant,
+  powerTierLabel,
+  TIER_CHIP_STYLES,
+  type TierChipVariant,
+} from "@/lib/catalog-display";
 
 interface PowerTierChipsProps {
   tiers: Machine[];
@@ -11,6 +16,10 @@ interface PowerTierChipsProps {
   linkable?: boolean;
   /** Detail page: switch variant in-page + update URL */
   onSelectTier?: (slug: string) => void;
+  /** Catalog: e.g. save list scroll before navigating to a tier */
+  onTierNavigate?: (slug: string) => void;
+  /** Amber = watt SKUs; sky = interchangeable modules (auto-detected if omitted) */
+  variant?: TierChipVariant;
   size?: "sm" | "md";
   locale?: Locale;
 }
@@ -20,22 +29,24 @@ export function PowerTierChips({
   activeSlug,
   linkable = true,
   onSelectTier,
+  onTierNavigate,
+  variant: variantProp,
   size = "sm",
   locale = "en",
 }: PowerTierChipsProps) {
   if (tiers.length <= 1) return null;
 
+  const variant = variantProp ?? getTierChipVariant(tiers);
+  const styles = TIER_CHIP_STYLES[variant];
   const pad = size === "md" ? "px-3 py-1.5 text-sm" : "px-2.5 py-0.5 text-xs";
 
   return (
     <div className="flex flex-wrap gap-1.5" role="list">
       {tiers.map((tier) => {
-        const label = powerTierLabel(tier, locale);
+        const label = powerTierLabel(tier, locale, tiers);
         const isActive = tier.slug === activeSlug;
-        const className = `${pad} rounded-full font-semibold transition ${
-          isActive
-            ? "bg-amber-500 text-white"
-            : "bg-stone-100 text-stone-700 hover:bg-amber-100 hover:text-amber-900 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-amber-950 dark:hover:text-amber-300"
+        const className = `${pad} rounded-full font-semibold no-underline transition ${
+          isActive ? styles.active : styles.idle
         }`;
 
         if (onSelectTier) {
@@ -72,6 +83,7 @@ export function PowerTierChips({
               locale={locale}
               className={className}
               role="listitem"
+              onClick={() => onTierNavigate?.(tier.slug)}
             >
               {label}
             </LocaleLink>

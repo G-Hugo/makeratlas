@@ -71,18 +71,14 @@
     ]
   },
   "pros": [
-    "10W Sculpfun's proven budget line : still popular for value-focused makers",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 410 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "10W on Sculpfun S9: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~12–18 min",
-    "Reference cut job on this module: ~6–10 min"
+    "Canonical S9 configuration in buying guide",
+    "Best engraving-per-dollar in Sculpfun open line",
+    "LightBurn recipes widely shared"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Not the SKU for a shop cutting 5 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Slow cuts versus 20W class",
+    "S30 Ultra often worth the small price jump",
+    "Open-frame ventilation required"
   ],
   "beginnerNotes": "This profile is the 10W module on Sculpfun S9. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -123,5 +119,9 @@
   "powerRating": "10W",
   "catalogPrimary": true,
   "releaseDate": "2022-01",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "S9 10W is the engraving-business budget pick when S30 pricing is high.",
+    "limitations": "Cut-heavy quotes need LM3 or S30 class machines."
+  }
 }

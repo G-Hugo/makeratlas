@@ -12,13 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Alpha MK2 40 W : diode haut de gamme à structure ouverte, vitesse et finesse",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 440 × 410 mm sur ce châssis",
-    "Logiciels : LightBurn · Algolaser app",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de Algolaser Alpha MK2",
-    "Exemple gravure de référence sur ce module : ~6–9 min"
+    "Meilleur débit MK2 pour semaines bois",
+    "Marketing Algolaser centré vitesse découpe",
+    "Alternative aux 40 W Creality ou S30 si bien prixé"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -72,5 +68,9 @@
     {
       "alt": "Graveuse laser Algolaser Alpha MK2 40 W : Algolaser"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le MK2 40 W pour acheteurs déjà convaincus par le design Algolaser qui veulent le maximum diode sur ce châssis.",
+    "limitations": "Pas éprouvé pour enseignes production. Comparez packs 40 W établis avec air assist et retours."
+  }
 }

@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Châssis S30 Ultra d’entrée : orienté gravure, découpe légère",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Sculpfun S30 Ultra : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~11–18 min",
-    "Exemple découpe de référence sur ce module : ~7–11 min"
+    "Ultra 10 W gravure sur châssis Sculpfun actuel",
+    "Entrée moins chère dans la génération Ultra",
+    "Montée vers 22 W sur la même ligne"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -73,5 +69,9 @@
     {
       "alt": "Graveuse laser Sculpfun S30 Ultra 10W : Sculpfun"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Ultra 10 W pour cadeaux sur le nouveau cadre Sculpfun.",
+    "limitations": "Boutiques découpe : profil Ultra 22 W."
+  }
 }

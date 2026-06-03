@@ -94,6 +94,10 @@
     "capability": 7.5,
     "buildQuality": 7.8
   },
+  "editorialDepth": {
+    "advantages": "S9 remains one of the best engraving-per-dollar machines in the open-frame class. The community has years of LightBurn recipes, mod guides, and troubleshooting threads, which matters more than raw wattage when you are learning. Full-size bed, honest 5W/10W options, and a clear upgrade path to S30 hardware keep long-term costs predictable.",
+    "limitations": "Cutting is slow and shallow versus 20W or CO₂ competitors. Open-frame safety and ventilation are entirely on you. New buyers often find S30 Ultra bundles only slightly more expensive with much better throughput. Buy S9 when price drops or when you truly only need engraving, not production cutting."
+  },
   "similarModels": [
     "ortur-laser-master-3-20w",
     "atomstack-a40-pro",

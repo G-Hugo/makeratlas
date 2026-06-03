@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "Alpha MK2 20 W : diode haut de gamme à structure ouverte, vitesse et finesse",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 440 × 410 mm sur ce châssis",
-    "Logiciels : LightBurn · Algolaser app",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~9–14 min",
-    "Exemple découpe de référence sur ce module : ~5–9 min"
+    "Palier MK2 équilibré gravure et découpe hobby",
+    "Châssis Algolaser moderne face aux open designs anciens",
+    "À comparer en prix avec LM3 et Ray5 20 W"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
@@ -72,5 +68,9 @@
     {
       "alt": "Graveuse laser Algolaser Alpha MK2 20 W : Algolaser"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le MK2 20 W est le choix Algolaser raisonnable sans watts flagship.",
+    "limitations": "Vérifiez garantie et support région. Acrylique coulé et profondeur métal : autres catégories laser."
+  }
 }

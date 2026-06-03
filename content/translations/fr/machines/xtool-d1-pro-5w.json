@@ -12,13 +12,9 @@
     "Première machine"
   ],
   "pros": [
-    "5 W : le laser diode structure ouverte le plus populaire pour les maker qui dépassent l’entrée de gamme",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Surface utile 430 × 390 mm (16.9 × 15.4 in) sur ce châssis",
-    "Logiciels : xTool Creative Space · LightBurn",
-    "5W sur xTool D1 Pro : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~25–36 min"
+    "Entrée D1 Pro pour écosystème xTool pas cher",
+    "Cadre compatible rehausseur sur certains setups",
+    "Prise en main xTool Creative Space"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -93,5 +89,9 @@
         "label": "Module 40 W"
       }
     ]
+  },
+  "editorialDepth": {
+    "advantages": "D1 Pro 5 W pour habitudes logiciel xTool à bas coût.",
+    "limitations": "La plupart des acheteurs : D1 Pro 10 W ou S1."
   }
 }

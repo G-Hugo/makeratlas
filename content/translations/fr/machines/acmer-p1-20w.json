@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "Acmer P1 montée en puissance : module 20 W pour des découpes plus rapides",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~12–18 min",
-    "Exemple découpe de référence sur ce module : ~6–10 min"
+    "P1 20 W équilibré gravure et tilleul fin",
+    "Fort rapport qualité-prix dans le guide d’achat",
+    "Montée vers P2 ou P3 dans la marque"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",
@@ -62,5 +58,9 @@
     {
       "alt": "Graveuse laser Acmer P1 20 W : Acmer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le P1 20 W est le SKU Acmer à comparer au Ray5 et A5 Pro 20 W.",
+    "limitations": "Cadre et communauté en retrait d’Ortur. Appartement : Acmer P3."
+  }
 }

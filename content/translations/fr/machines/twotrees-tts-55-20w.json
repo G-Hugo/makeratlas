@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "Diode ultra petit budget 20 W : qualité de châssis surprenante pour le prix",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "TTS-55 20 W équilibré sur lit large",
+    "Intéressant pour panneaux larges à budget",
+    "Souvent vendu avec kits extension"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
@@ -70,5 +66,9 @@
     {
       "alt": "Graveuse laser TwoTrees TTS-55 20 W : TwoTrees"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "TTS-55 20 W quand la largeur physique prime.",
+    "limitations": "Qualité montage = coût caché."
+  }
 }

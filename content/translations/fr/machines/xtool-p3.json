@@ -68,6 +68,10 @@
     { "alt": "Graveuse laser xTool P3 : xTool" },
     { "alt": "Graveuse laser xTool P3 : xTool" }
   ],
+  "editorialDepth": {
+    "advantages": "La P3 vise les ateliers qui savent déjà que le CO₂ paie et ont besoin de plus de plateau, de wattage et de moins de réglages manuels. ACS ajoute vision, autofocus et imbrication qui réduisent le temps de préparation sur acrylique et contreplaqué répétitifs. Détection incendie, refroidissement et enceinte classe 1 rapprochent la sécurité de l’industriel léger tout en restant sur un bureau.",
+    "limitations": "Budget, place au sol et évacuation excluent l’acheteur occasionnel. Convoyeur, AutoLift et module IR gonflent vite la facture totale. Elle ne remplace pas une fibre galvo pour l’inox profond en production. Les débutants doivent commencer plus petit et voir la P3 comme une machine business."
+  },
   "moduleSystem": {
     "headline": "Module infrarouge 5 W (1064 nm) optionnel",
     "description": "Machine de base en CO₂ 80 W. Ajoutez le module IR pour marquage métal nu et plastique sans graveuse fibre séparée.",

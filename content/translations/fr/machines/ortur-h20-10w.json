@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Châssis H20 d’entrée de gamme avec design intégré et flux de travail app Ortur",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Surface utile 410 × 275 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Ortur H20 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~28–43 min"
+    "Module H10 W d’entrée sur plateforme modulaire",
+    "Gravure avec montée vers 20 W ou 40 W",
+    "Châssis intégré versus esthétique LM classique"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -67,5 +63,9 @@
     {
       "alt": "Graveuse laser Ortur H20 10W : Ortur"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "H20 10 W si vous voulez la plateforme modulaire sans découpe épaisse.",
+    "limitations": "La plupart des acheteurs doivent lire H20 20 W d’abord."
+  }
 }

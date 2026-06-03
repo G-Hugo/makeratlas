@@ -12,13 +12,11 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Diode 22W haute puissance avec assistance air intégrée et effet gravure couleur",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 415 mm sur ce châssis",
-    "Logiciels : Creality Laser · LightBurn",
-    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
-    "22W : tête la plus orientée découpe de Creality Falcon2 Pro",
-    "Exemple gravure de référence sur ce module : ~17–26 min"
+    "Palier 22 W populaire Creality avec air assist d’usine",
+    "Gravure couleur utile pour inox cadeau",
+    "Plateau ~400 mm pour enseignes",
+    "Châssis structuré face aux vieux open-frame",
+    "Concurrent crédible de la S30 Ultra 22 W en promo"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -72,5 +70,9 @@
     {
       "alt": "Graveuse laser Creality Falcon2 Pro 22W : Creality"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Falcon2 Pro 22 W cible l’écosystème Creality avec air assist prêt à l’emploi. Diode orientée découpe avant investissement CO₂.",
+    "limitations": "Le marquage couleur n’est pas une gravure fibre profonde. Moins de recettes communautaires que Sculpfun ou Ortur. Appartement : comparez Falcon A1 Pro fermé."
+  }
 }

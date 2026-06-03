@@ -63,6 +63,18 @@ export const CARD_HERO_MANUAL = {
   "creality-falcon-t1": [
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/1600_6148baba-1e01-4d7d-8113-fc9e07cfa387.png",
   ],
+  "creality-falcon-t1-40w": [
+    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/1600_6148baba-1e01-4d7d-8113-fc9e07cfa387.png",
+  ],
+  "creality-falcon-t1-20w-fiber": [
+    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/1600_6148baba-1e01-4d7d-8113-fc9e07cfa387.png",
+  ],
+  "creality-falcon-t1-60w-mopa": [
+    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/1600_6148baba-1e01-4d7d-8113-fc9e07cfa387.png",
+  ],
+  "creality-falcon-t1-5w-uv": [
+    "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/1600_6148baba-1e01-4d7d-8113-fc9e07cfa387.png",
+  ],
   "creality-falcon-5w": [
     "https://cdn.shopify.com/s/files/1/0799/8714/7049/files/5W_png.png",
   ],
@@ -220,6 +232,9 @@ export const CARD_HERO_MANUAL = {
     "https://cdn.shopify.com/s/files/1/0800/8938/7050/files/wecreat-vision-1.jpg",
   ],
   "xtool-p3": [
+    "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-p3_ca_pc_us-p3mainimage01_2330-8226.webp",
+  ],
+  "xtool-p3-5w-ir": [
     "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-p3_ca_pc_us-p3mainimage01_2330-8226.webp",
   ],
   "xtool-p2s": [

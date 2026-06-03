@@ -71,14 +71,17 @@
     ]
   },
   "pros": [
-    "Current S30 Ultra flagship : maximum Sculpfun diode power",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 410 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line : benchmarked around 8 mm basswood-class stock",
-    "22W: the most cut-focused head in the Sculpfun S30 Ultra line",
-    "Reference engrave job on this module: ~7–11 min"
+    "Top Sculpfun diode tier for hobbyists who cut wood weekly, not just engrave",
+    "Strong value versus older S30 Pro Max when bundles are on sale",
+    "Large bed and active community recipes for this frame generation",
+    "Good bridge before CO₂ if acrylic signs are not your main product yet",
+    "LightBurn-friendly for makers outgrowing beginner apps"
   ],
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Pick 22W when job time on 6–8 mm basswood matters more than owning the quietest engraving module. You stay on Sculpfun's current Ultra hardware with documented mods for air assist and exhaust. For Etsy-style mixed work, this is the SKU most buyers should compare first.",
+    "limitations": "Open-frame safety and ventilation are non-negotiable. Clear acrylic production still wants CO₂. Ultra-fine photo work may look better on a slower 10W head with tuned speeds. Compare Ortur LM3 20W and enclosed xTool S1 if safety around kids or pets is a hard requirement."
+  },
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
     "Still a diode : clear acrylic production wants CO₂",
@@ -124,6 +127,5 @@
   "modelLine": "sculpfun-s30-ultra",
   "powerRating": "22W",
   "catalogPrimary": true,
-  "releaseDate": "2024-01",
-  "tierEditorialOverride": false
+  "releaseDate": "2024-01"
 }

@@ -1,5 +1,6 @@
 import type { Locale } from "@/i18n/config";
 import { noEmDash } from "@/lib/copy-style";
+import { copyMentions } from "@/lib/machine-copy-detect";
 import {
   getMachineAccessories,
   machineHasCamera,
@@ -23,32 +24,8 @@ export type StandoutFeatureId =
   | "lightburn-ready"
   | "galvo-speed";
 
-function machineText(machine: Machine): string {
-  return [
-    machine.name,
-    machine.tagline,
-    machine.tldr,
-    machine.primaryUse,
-    machine.mainObjective,
-    machine.beginnerNotes,
-    machine.proTips,
-    ...(machine.pros ?? []),
-    ...(machine.cons ?? []),
-    ...(machine.specs.software ?? []),
-    machine.moduleSystem?.headline ?? "",
-    machine.moduleSystem?.description ?? "",
-  ]
-    .join(" ")
-    .toLowerCase();
-}
-
-function mentions(machine: Machine, ...patterns: RegExp[]): boolean {
-  const text = machineText(machine);
-  return patterns.some((p) => p.test(text));
-}
-
 function hasHeightSensing(machine: Machine): boolean {
-  return mentions(
+  return copyMentions(
     machine,
     /\bz[- ]?probe\b/,
     /\bautofocus\b/,
@@ -59,20 +36,30 @@ function hasHeightSensing(machine: Machine): boolean {
     /\bfocus\s*assist\b/,
     /\bauto[- ]?height\b/,
     /\bthickness\s*detect/,
+    /\bmesure\s+de\s+hauteur\b/,
+    /\bsonde\b/,
+    /\bcapteur\s+de\s+distance\b/,
+    /\bdétection\s+d['']épaisseur\b/,
   );
 }
 
 function hasFireSafety(machine: Machine): boolean {
-  return mentions(
+  return copyMentions(
     machine,
     /\bfire\s*(detect|alarm|suppression|sensor)/,
     /\bflame\s*detect/,
     /\bsprinkler\b/,
+    /\bdétection\s+(?:d[''])?incendie\b/,
+    /\bextinction\s+(?:d[''])?incendie\b/,
+    /\bsurveillance\s+flamme\b/,
   );
 }
 
 function isGalvo(machine: Machine): boolean {
-  return mentions(machine, /\bgalvo\b/, /\bgalvanometer\b/) || machine.laserType === "uv";
+  return (
+    copyMentions(machine, /\bgalvo\b/, /\bgalvanometer\b/, /\bgalvanomètre\b/) ||
+    machine.laserType === "uv"
+  );
 }
 
 const FEATURE_COPY: Record<
@@ -294,10 +281,12 @@ function detectFeatureIds(machine: Machine): StandoutFeatureId[] {
   if (hasFireSafety(machine)) ids.push("fire-safety");
 
   if (
-    mentions(
+    copyMentions(
       machine,
-      /\bair\s*assist\s*(included|built-?in|standard)/,
-      /\bwith\s+air\s*assist/,
+      /\bair\s*assist\s*(included|built-?in|standard|inclus|intégré)/i,
+      /\bwith\s+air\s*assist\b/i,
+      /\bassistance\s+air\s*(inclus|intégr)/i,
+      /\bair\s*assist\s*inclus/i,
     )
   ) {
     ids.push("air-assist-included");

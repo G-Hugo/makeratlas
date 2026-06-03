@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "La ligne petit budget éprouvée de Sculpfun en 10 W : toujours populaire chez les maker sensibles au rapport qualité-prix",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Sculpfun S9 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~12–18 min",
-    "Exemple découpe de référence sur ce module : ~6–10 min"
+    "Configuration S9 du guide d’achat",
+    "Meilleure gravure par euro chez Sculpfun open",
+    "Recettes LightBurn très partagées"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -70,5 +66,9 @@
     {
       "alt": "Graveuse laser Sculpfun S9 10 W : Sculpfun"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "S9 10 W pick budget gravure quand la S30 est chère.",
+    "limitations": "Devis découpe : machines 20 W ou plus."
+  }
 }

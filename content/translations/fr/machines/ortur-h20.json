@@ -1,28 +1,36 @@
 {
-  "tagline": "Plateforme modulaire H20 d’Ortur : choisissez votre palier de puissance optique",
+  "tagline": "Plateforme modulaire H20 d'Ortur : choisissez votre palier de puissance optique",
   "tldr": "Fiche regroupée pour la gamme Ortur H20. Choisissez un SKU 10 W, 20 W ou 40 W : module IR 2 W optionnel pour le marquage métal sur certaines offres groupées.",
   "mainObjective": "Naviguer entre les paliers de puissance Ortur H20",
-  "primaryUse": "Index des SKU Ortur H20.",
-  "beginnerNotes": "Ouvrez le profil H20 avec la puissance souhaitée ci-dessous.",
-  "proTips": "Adaptez le module aux matériaux avant d’acheter une offre groupée.",
+  "primaryUse": "Index des configurations Ortur H20 (10 W, 20 W, 40 W).",
+  "beginnerNotes": "Choisissez d'abord le palier de puissance, puis lisez la fiche complète. Les bundles IR ne valent le coup que si le marquage métal fait partie réelle de vos jobs.",
+  "proTips": "Adaptez le module aux matériaux avant d'acheter un kit accessoires. Comparez Ortur Laser Master H10 si vous préférez un châssis flagship fixe.",
   "bestFor": [
     "Montées en gamme Ortur"
   ],
   "pros": [
-    "Plateforme modulaire Ortur"
+    "Plateforme modulaire avec chemins 10 W, 20 W et 40 W",
+    "Module IR optionnel sur certaines offres pour élargir le marquage",
+    "Logique d'upgrade intéressante si vous connaissez déjà l'écosystème Ortur"
   ],
   "cons": [
-    "Sélectionnez une fiche de puissance"
+    "Page index : benchmarks et prix sur chaque profil de puissance",
+    "Confusion fréquente sur les bundles : vérifiez le module optique livré",
+    "Pas une machine boutique clé en main type xTool S1"
   ],
   "materials": {
     "engrave": [
-      "Bois"
+      "Bois",
+      "Cuir",
+      "Aluminium anodisé (selon offre)"
     ],
     "cut": [
-      "Bois"
+      "Tilleul (selon palier)"
     ],
     "cannot": [
-      "—"
+      "Limites selon module 10 W, 20 W ou 40 W : voir fiches",
+      "Acrylique transparent en cadence production",
+      "Métal nu sans module IR ou spray"
     ]
   },
   "specs": {

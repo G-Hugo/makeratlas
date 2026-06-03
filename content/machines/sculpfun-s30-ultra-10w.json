@@ -71,19 +71,14 @@
     ]
   },
   "pros": [
-    "Entry S30 Ultra frame : engraving-first, light cutting",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 410 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "10W on Sculpfun S30 Ultra: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~11–18 min",
-    "Reference cut job on this module: ~7–11 min"
+    "Engraving-first Ultra tier on current Sculpfun frame",
+    "Cheaper entry into S30 Ultra hardware generation",
+    "Upgrade story to 22W within same line"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W or 22W) add cut speed and depth",
-    "Not the SKU for a shop cutting 5 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "22W is the flagship cut tier most buyers want",
+    "Open-frame safety rules",
+    "Not for thick production cutting"
   ],
   "beginnerNotes": "This profile is the 10W module on Sculpfun S30 Ultra. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -113,5 +108,9 @@
   "modelLine": "sculpfun-s30-ultra",
   "powerRating": "10W",
   "releaseDate": "2023-03",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Ultra 10W when you want Sculpfun's newest frame for gifts, not panels.",
+    "limitations": "Cutting businesses should open Ultra 22W profile."
+  }
 }

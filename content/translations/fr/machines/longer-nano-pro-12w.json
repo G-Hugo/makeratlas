@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Longer portable rapide : 12 W avec déplacement élevé et options rotary",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 130 × 130 mm (extendable with slide) sur ce châssis",
-    "Logiciels : Longer Laser · LightBurn",
-    "12W sur Longer Nano Pro : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~12–18 min",
-    "Exemple découpe de référence sur ce module : ~6–10 min"
+    "Au-dessus du Nano avec plus de vitesse gravure, format toujours compact",
+    "Portable face aux Ray5 ou B1",
+    "Utile pour marchés artisanaux et petits objets personnalisés"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -66,5 +62,9 @@
     {
       "alt": "Graveuse laser Longer Nano Pro 12W : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Nano Pro 12 W fait le pont entre graveuses jouet et diodes pleine taille.",
+    "limitations": "Dès que vous chiffrez des découpes, passez au Ray5 20 W. Pas comparable à une enceinte pour la fumée."
+  }
 }

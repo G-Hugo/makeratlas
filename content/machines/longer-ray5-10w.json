@@ -70,19 +70,15 @@
     ]
   },
   "pros": [
-    "10W Compact fixed-focus diode : simple desk engraver for small projects",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 375 × 375 mm on this chassis",
-    "Software: Longer Laser Tool · LightBurn",
-    "10W on Longer Ray5: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~28–43 min",
-    "Reference cut job on this module: ~14–24 min"
+    "Engraving-first Ray5 tier with better photo fills than 5W",
+    "Still compact and affordable versus Ortur LM3 class machines",
+    "Good second machine for makers who want a backup engraver",
+    "Upgrade path to 20W or 40W on the same Ray5 family page"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W or 40W) add cut speed and depth",
-    "Not the SKU for a shop cutting 5 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Cutting stays limited to thin basswood and paper-class stock",
+    "Open frame: plan glasses, exhaust, and supervision rules",
+    "Not the SKU if paid cutting work is already on your calendar"
   ],
   "beginnerNotes": "This profile is the 10W module on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -123,5 +119,9 @@
   "powerRating": "10W",
   "modelLine": "longer-ray5",
   "releaseDate": "2022-08",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Choose 10W when your jobs are mostly marks and gifts, not panel cutting. You keep Ray5's simple desk format while gaining noticeably cleaner fills than the 5W module.",
+    "limitations": "Shops cutting 6 mm+ basswood daily should open the 20W profile. Clear acrylic production still requires CO₂. SKU confusion between Ray5 wattages is common on reseller sites."
+  }
 }

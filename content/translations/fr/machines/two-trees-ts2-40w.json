@@ -12,13 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Plateforme TS2 populaire de TwoTrees en 40 W : structure ouverte avec communauté active",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 410 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de TwoTrees TS2",
-    "Exemple gravure de référence sur ce module : ~12–18 min"
+    "TS2 40 W pour découpe bois plus rapide",
+    "Marketing chargé : validez en vrai",
+    "Alternative budget au Falcon2 Pro 40 W"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -70,5 +66,9 @@
     {
       "alt": "Graveuse laser TwoTrees TS2 40 W : TwoTrees"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "TS2 40 W si le prix prime sur la communauté.",
+    "limitations": "Lisez les avis sur courroies et focus."
+  }
 }

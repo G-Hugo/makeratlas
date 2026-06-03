@@ -1,0 +1,145 @@
+{
+  "id": "xtool-p3-5w-ir",
+  "slug": "xtool-p3-5w-ir",
+  "name": "xTool P3 5W IR",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "5W 1064 nm IR head on the P3 chassis : metal marking without a separate fiber box",
+  "tldr": "The optional P3 IR module adds 5W 1064 nm marking on stainless, aluminum, and many plastics while keeping the same 80W CO₂ cabinet, automation, and software stack. Buy it when metal jobs are recurring revenue : not a replacement for the CO₂ tube.",
+  "mainObjective": "Bare-metal and plastic marking on the P3 platform without a second machine",
+  "bestFor": [
+    "Metal gift lines",
+    "P3 shops adding steel",
+    "Tool & knife marking",
+    "Plastics that diode/CO₂ struggle with"
+  ],
+  "priceRange": {
+    "min": 1299,
+    "max": 1899,
+    "currency": "USD",
+    "note": "IR module sold separately; requires P3 CO₂ base"
+  },
+  "specs": {
+    "power": "5W IR (1064 nm)",
+    "workArea": "915 × 458 mm (same P3 bed)",
+    "dimensions": "Uses P3 enclosure",
+    "weight": "Module add-on on P3 chassis",
+    "software": [
+      "xTool Creative Space",
+      "LightBurn (compatible)"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Logo on stainless steel card",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–8 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.03 mm IR spot",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "IR marking speeds",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum",
+      "Brass",
+      "Titanium (light)",
+      "Black plastics",
+      "Some coated metals"
+    ],
+    "cut": [],
+    "cannot": [
+      "Thick acrylic production (use CO₂ module)",
+      "Wood cutting",
+      "Deep fiber-grade stainless at galvo speeds",
+      "Use without P3 base machine"
+    ]
+  },
+  "pros": [
+    "Metal marking on the same P3 bed and ACS workflow",
+    "No second enclosure or exhaust run for a fiber bench",
+    "Pairs with P3 cameras and autofocus for repeat jobs",
+    "Cheaper entry to metal than buying a separate fiber galvo"
+  ],
+  "cons": [
+    "Requires full P3 purchase first",
+    "Not as fast or deep as industrial fiber on thick stainless",
+    "Still need CO₂ module for acrylic and wood revenue",
+    "Accessory pricing pushes total shop cost higher"
+  ],
+  "beginnerNotes": "Choose this profile if you already own or plan a P3 and metal is more than occasional spray-mark tests. If metal is your only job, compare dedicated fiber engravers before buying CO₂ plus IR.",
+  "proTips": "Run stainless parameter libraries on scrap first. Keep CO₂ and IR jobs as separate material presets : swapping heads takes downtime.",
+  "primaryUse": "Optional 1064 nm marking module for P3 owners who need repeatable metal work on the flagship CO₂ chassis.",
+  "editorialDepth": {
+    "advantages": "The IR module lets sign shops that already standardized on P3 add jewelry, tools, and stainless gifts without learning a second vendor stack. You keep ACS vision, nesting, and safety features instead of bolting on an open fiber bench.",
+    "limitations": "It is an accessory, not a standalone laser. Throughput and depth on tough metals will trail dedicated MOPA fiber boxes. Budget-only buyers should not buy P3 plus IR if they never needed CO₂ cutting in the first place."
+  },
+  "rating": {
+    "overall": 8.8,
+    "value": 8,
+    "easeOfUse": 9,
+    "capability": 8.5,
+    "buildQuality": 9.2
+  },
+  "similarModels": [
+    "xtool-p3",
+    "xtool-f2-ultra",
+    "commarker-b4-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-02",
+  "image": "/machines/xtool-p3/01.webp",
+  "images": [
+    {
+      "src": "/machines/xtool-p3/01.webp",
+      "alt": "xTool P3 with IR module : xTool"
+    },
+    {
+      "src": "/machines/xtool-p3/02.webp",
+      "alt": "xTool P3 with IR module : xTool"
+    }
+  ],
+  "modelLine": "xtool-p3",
+  "powerRating": "5W",
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Optional 5W infrared (1064 nm) module",
+    "description": "Base machine is 80W CO₂. Add the IR module for bare-metal and plastic marking without a separate fiber engraver.",
+    "options": [
+      {
+        "power": "80W",
+        "laserKind": "co2",
+        "label": "80W CO₂",
+        "tierSlug": "xtool-p3"
+      },
+      {
+        "power": "5W",
+        "laserKind": "infrared",
+        "label": "5W IR",
+        "tierSlug": "xtool-p3-5w-ir"
+      }
+    ]
+  },
+  "capabilityTags": [
+    "co2",
+    "infrared"
+  ],
+  "tierEditorialOverride": true,
+  "releaseDate": "2025-08"
+}

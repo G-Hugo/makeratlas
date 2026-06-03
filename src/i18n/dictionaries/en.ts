@@ -189,7 +189,9 @@ export const en: Dictionary = {
     jobTime: "Time",
     jobSize: "Size",
     moduleInterchangeableFootnote:
-      "Pages below are per factory-installed module. Other wattages are sold as separate heads you can swap on the same cabinet.",
+      "Each chip opens that head’s profile. Other modules bolt onto the same chassis — upgrade without buying a new machine.",
+    powerTierSwappableFootnote:
+      "Each chip is a separate factory wattage SKU (complete laser configuration at purchase).",
     moduleHybridFootnote:
       "Listed as hybrid because two laser technologies share one machine, not because you pick 10W vs 40W on the same diode head.",
     powerTierChooseModule: "Choose installed module",
@@ -197,6 +199,7 @@ export const en: Dictionary = {
     powerTierSpecsModule: "Details below match the selected module.",
     powerTierSpecsSku: "Details below update for the selected power option.",
     powerTierActive: "Showing specs for",
+    powerTierActiveModule: "Showing module",
     infraredKind: "Infrared (1064 nm)",
   },
   ratings: {

@@ -1,28 +1,36 @@
 {
-  "tagline": "Gamme Sculpfun S30 Pro Max : flagship 20 W avant l’Ultra",
+  "tagline": "Gamme Sculpfun S30 Pro Max : flagship 20 W avant l'Ultra",
   "tldr": "Fiche regroupée pour le Sculpfun S30 Pro Max. Consultez le SKU 20 W pour les specs catalogue.",
   "mainObjective": "Index des SKU S30 Pro Max",
-  "primaryUse": "Index de la famille S30 Pro Max.",
-  "beginnerNotes": "Ouvrez le profil 20 W ci-dessous.",
-  "proTips": "L’Ultra 22 W/33 W est la génération plus récente si encore en stock.",
+  "primaryUse": "Index de la famille S30 Pro Max (palier 20 W).",
+  "beginnerNotes": "Hub pour l'ancienne gamme. Pour un achat neuf, commencez par les fiches S30 Ultra sauf bonne affaire sur stock Pro Max.",
+  "proTips": "Les Pro Max d'occasion peuvent être excellents : contrôlez courroies, lentille et puissance optique réelle à réception.",
   "bestFor": [
     "Acheteurs Sculpfun"
   ],
   "pros": [
-    "Gamme Sculpfun éprouvée"
+    "S30 Pro Max était la ligne découpe de Sculpfun avant la génération Ultra",
+    "Le palier 20 W reste une référence pour l'occasion",
+    "Beaucoup de réglages communautaires restent applicables"
   ],
   "cons": [
-    "Sélectionnez une fiche de puissance"
+    "Page index : ouvrez le SKU 20 W pour avantages, limites et benchmarks",
+    "Les nouveaux acheteurs doivent comparer S30 Ultra 22 W/33 W en priorité",
+    "Sécurité et extraction toujours à votre charge sur structure ouverte"
   ],
   "materials": {
     "engrave": [
-      "Bois"
+      "Bois",
+      "Cuir",
+      "Ardoise"
     ],
     "cut": [
-      "Bois"
+      "Tilleul et matériaux fins (palier 20 W)"
     ],
     "cannot": [
-      "—"
+      "Voir fiche 20 W pour limites complètes",
+      "Acrylique transparent en production",
+      "Souvent dépassé par S30 Ultra pour les achats neufs"
     ]
   },
   "specs": {

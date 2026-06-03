@@ -73,18 +73,15 @@
     ]
   },
   "pros": [
-    "40W Longer's large-format diode : bigger bed than Ray5 for sign-sized projects",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 450 × 440 mm (base; extensions available) on this chassis",
-    "Software: Longer Laser Tool · LightBurn",
-    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
-    "40W: the most cut-focused head in the Longer Laser B1 line",
-    "Reference engrave job on this module: ~12–18 min"
+    "Fastest B1 tier for thick soft-wood cutting in the Longer lineup",
+    "Large work area suits multi-up gift production",
+    "Strong value when you want speed without CO₂ ventilation projects",
+    "Worth pairing with quality air assist and exterior exhaust"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Frame and motion system work harder: maintain belts and focus",
+    "Clear acrylic and production signage still want CO₂",
+    "Open-frame safety rules apply at full power"
   ],
   "beginnerNotes": "This profile is the 40W module on Longer Laser B1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -117,5 +114,9 @@
   "modelLine": "longer-laser-b1",
   "catalogPrimary": true,
   "releaseDate": "2024-04",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "B1 40W is for buyers already committed to Longer's large open frame who need maximum diode cutting on wood. Batch makers will feel the difference versus 20W on repeated 8 mm passes.",
+    "limitations": "Not a substitute for CO₂ acrylic shops. Fine photo work may look better on B1 20W with tuned speeds. Budget for exhaust upgrades when moving from Ray5."
+  }
 }

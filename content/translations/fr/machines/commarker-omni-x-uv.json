@@ -12,13 +12,9 @@
     "Première machine"
   ],
   "pros": [
-    "Laser UV de bureau pour verre, plastique et fines détails",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 100 × 100 mm typical sur ce châssis",
-    "Logiciels : ComMarker · LightBurn",
-    "5W sur ComMarker Omni X UV : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~6–12 min",
-    "Exemple découpe de référence sur ce module : Not a cutter"
+    "UV bureau pour plastiques et substrats compatibles UV",
+    "Unité compacte face à une fibre galvo",
+    "Workflow différent des lasers cadeaux diode/CO₂"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
@@ -65,5 +61,9 @@
     {
       "alt": "Graveuse laser ComMarker Omni X UV : ComMarker"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Omni X UV si vous savez déjà qu’il vous faut du marquage UV.",
+    "limitations": "Pas comme premier laser bois/enseignes. Testez les substrats."
+  }
 }

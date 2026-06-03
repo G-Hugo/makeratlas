@@ -4,6 +4,7 @@ import type { Locale } from "@/i18n/config";
 import { sanitizePowerLabel } from "@/lib/power-display";
 import type {
   Machine,
+  MachineEditorialDepth,
   MachineFaq,
   MachineMaterials,
   ModuleSystem,
@@ -35,6 +36,7 @@ export interface MachineTranslation {
   };
   priceRange?: { note?: string };
   images?: Array<{ alt?: string }>;
+  editorialDepth?: MachineEditorialDepth;
 }
 
 const translationCache = new Map<string, MachineTranslation | null>();
@@ -378,6 +380,20 @@ export function localizeMachine(machine: Machine, locale: Locale): Machine {
     materials: pickMaterials(machine.materials, tr.materials),
     faq: machine.faq ? pickFaq(machine.faq, tr.faq) : machine.faq,
     images: mergeImages(machine.images, tr.images),
+    ...(machine.editorialDepth || tr.editorialDepth
+      ? {
+          editorialDepth: {
+            advantages: pickTranslated(
+              machine.editorialDepth?.advantages ?? "",
+              tr.editorialDepth?.advantages,
+            ),
+            limitations: pickTranslated(
+              machine.editorialDepth?.limitations ?? "",
+              tr.editorialDepth?.limitations,
+            ),
+          },
+        }
+      : {}),
     priceRange: {
       ...machine.priceRange,
       ...(machine.priceRange.note || tr.priceRange?.note

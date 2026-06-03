@@ -57,6 +57,10 @@
       }
     }
   },
+  "editorialDepth": {
+    "advantages": "La S9 reste l’une des meilleures gravures par euro en open-frame. Des années de recettes LightBurn, mods et fils de dépannage comptent plus que le wattage brut quand on apprend. Grand plateau, options 5 W/10 W honnêtes et montée vers le matériel S30 gardent les coûts long terme lisibles.",
+    "limitations": "La découpe est lente et peu profonde face à du 20 W ou du CO₂. Sécurité et ventilation sont entièrement à votre charge. Les nouveaux acheteurs trouvent souvent des packs S30 Ultra à peine plus chers avec bien plus de débit. Achetez la S9 en promo ou si vous n’avez vraiment besoin que de gravure."
+  },
   "images": [
     { "alt": "Graveuse laser Sculpfun S9 : Sculpfun" },
     { "alt": "Graveuse laser Sculpfun S9 : Sculpfun" },

@@ -2,27 +2,35 @@
   "tagline": "Gamme Acmer P1 structure ouverte : références 10 W et 20 W",
   "tldr": "Page regroupant les graveuses laser Acmer P1. Choisissez la puissance 10 W ou 20 W pour comparer prix et performances.",
   "mainObjective": "Comparer les puissances disponibles sur la gamme Acmer P1",
-  "primaryUse": "Index de la gamme Acmer P1.",
-  "beginnerNotes": "Consultez les fiches 10 W ou 20 W ci-dessous.",
-  "proTips": "Vérifiez la puissance optique réelle sur l'annonce produit.",
+  "primaryUse": "Index de la gamme Acmer P1 (10 W et 20 W).",
+  "beginnerNotes": "Cette page sert uniquement à choisir entre 10 W et 20 W. Chaque fiche de puissance contient matériaux, benchmarks et conseils acheteur complets.",
+  "proTips": "Vérifiez la puissance optique réelle sur l'annonce avant achat. Comparez la politique de retour si vous hésitez entre P1 et P3 enceinte.",
   "bestFor": [
     "Acheteurs Acmer à petit budget"
   ],
   "pros": [
-    "Gamme entrée de gamme Acmer"
+    "La gamme P1 couvre des options 10 W et 20 W à structure ouverte",
+    "Workflow compatible LightBurn à un prix inférieur aux marques premium",
+    "Bon palier avant une machine enceinte ou CO₂"
   ],
   "cons": [
-    "Choisir un niveau de puissance"
+    "Page index : ouvrez 10 W ou 20 W pour les vrais avantages, limites et prix",
+    "Sécurité et ventilation à votre charge sur structure ouverte",
+    "Pas comparable à une enceinte ou un CO₂ pour signalétique en appartement"
   ],
   "materials": {
     "engrave": [
-      "Bois"
+      "Bois",
+      "Cuir",
+      "Ardoise (selon palier)"
     ],
     "cut": [
-      "Bois"
+      "Tilleul fin (selon palier)"
     ],
     "cannot": [
-      "—"
+      "Limites selon SKU 10 W ou 20 W : voir fiches ci-dessous",
+      "Acrylique transparent en production",
+      "Métal nu sans spray ou module IR"
     ]
   },
   "specs": {

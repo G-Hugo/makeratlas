@@ -74,19 +74,14 @@
     ]
   },
   "pros": [
-    "10W Entry Alpha MK2 : speed-focused open-frame diode",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 440 × 410 mm on this chassis",
-    "Software: LightBurn · Algolaser app",
-    "10W on Algolaser Alpha MK2: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~14–21 min",
-    "Reference cut job on this module: ~7–14 min"
+    "Algolaser compact platform with engraving-first 10W module",
+    "Interesting option for makers exploring newer brands",
+    "Suitable for detail gifts and leather work"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W or 40W) add cut speed and depth",
-    "Not the SKU for a shop cutting 5 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Less community depth than Ortur or Sculpfun",
+    "Cutting limited: compare 20W or 40W tiers",
+    "Open-frame ventilation required"
   ],
   "beginnerNotes": "This profile is the 10W module on Algolaser Alpha MK2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -126,5 +121,9 @@
   "modelLine": "algolaser-alpha-mk2",
   "powerRating": "10W",
   "releaseDate": "2024-03",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Alpha MK2 10W targets buyers curious about Algolaser industrial styling at hobby watts.",
+    "limitations": "Treat community size as a risk factor for troubleshooting. Production cutting wants higher tiers or established brands."
+  }
 }

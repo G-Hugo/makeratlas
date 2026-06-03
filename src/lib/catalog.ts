@@ -23,11 +23,20 @@ function pickCatalogPrimary(pool: Machine[]): Machine {
   })[0];
 }
 
+/** Catalog card badge when the primary tier omits moduleSystem but siblings define it. */
+function withLineModuleSystem(primary: Machine, powerTiers: Machine[]): Machine {
+  if (primary.moduleSystem) return primary;
+  const donor = powerTiers.find((m) => m.moduleSystem?.style === "interchangeable");
+  if (!donor?.moduleSystem) return primary;
+  return { ...primary, moduleSystem: donor.moduleSystem };
+}
+
 function buildEntry(primary: Machine, powerTiers: Machine[]): CatalogEntry {
+  const cardPrimary = withLineModuleSystem(primary, powerTiers);
   const priceMin = Math.min(...powerTiers.map((m) => m.priceRange.min));
   const priceMax = Math.max(...powerTiers.map((m) => m.priceRange.max));
   return {
-    primary,
+    primary: cardPrimary,
     powerTiers,
     displayName: getCatalogDisplayName(primary, powerTiers.length),
     priceMin,

@@ -12,13 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "40 W : module D1 Pro haut de gamme, diode xTool structure ouverte la plus puissante",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Surface utile 430 × 390 mm (16.9 × 15.4 in) sur ce châssis",
-    "Logiciels : xTool Creative Space · LightBurn",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de xTool D1 Pro"
+    "Tête D1 Pro la plus rapide pour découpe",
+    "Même parcours accessoires que les paliers inférieurs",
+    "Maximum débit xTool open-frame"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -92,5 +88,9 @@
         "label": "Module 40 W"
       }
     ]
+  },
+  "editorialDepth": {
+    "advantages": "D1 Pro 40 W pour fidèles xTool qui veulent vitesse sans S1.",
+    "limitations": "Comparez S1 40 W si la fumée doit être confinée."
   }
 }

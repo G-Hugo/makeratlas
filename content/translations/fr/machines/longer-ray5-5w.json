@@ -12,13 +12,10 @@
     "Première machine"
   ],
   "pros": [
-    "Diode 5 W mise au point fixe compacte : graveuse bureau simple pour petits projets",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 375 × 375 mm sur ce châssis",
-    "Logiciels : Longer Laser Tool · LightBurn",
-    "5W sur Longer Ray5 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~44–65 min",
-    "Exemple découpe de référence sur ce module : ~22–36 min"
+    "Prix Ray5 le plus bas pour apprendre LightBurn sur un petit bureau",
+    "Focus fixe simple : ardoises, étiquettes et premiers tests",
+    "Encombrement minimal pour studio ou appartement avec évacuation fenêtre",
+    "Première étape avant Ray5 10 W ou 20 W si la découpe arrive plus tard"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -71,5 +68,9 @@
     {
       "alt": "Graveuse laser Longer Ray5 5W : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le Ray5 5 W sert à tester si le laser vous convient avant d’investir dans la vitesse. Il grave bois, cuir et ardoise correctement si vous acceptez des temps longs.",
+    "limitations": "Les activités qui chiffrent des découpes épaisses doivent viser le Ray5 20 W. Acrylique coulé et métal nu : hors scope. Méfiance des annonces « watts combinés » : vérifiez la puissance optique."
+  }
 }

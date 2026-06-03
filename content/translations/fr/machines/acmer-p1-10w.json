@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Acmer structure ouverte petit budget : grand plateau pour le prix",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Acmer P1 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Palier P1 Acmer le moins cher, orienté gravure",
+    "Open-frame plein format compatible LightBurn",
+    "Bon départ avant P2 ou P3 enceinte"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -64,5 +60,9 @@
     {
       "alt": "Graveuse laser Acmer P1 10 W : Acmer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Le P1 10 W est l’entrée Acmer quand la marque compte plus que l’épaisseur de découpe.",
+    "limitations": "Boutiques qui découpent : voir P1 20 W ou P3."
+  }
 }

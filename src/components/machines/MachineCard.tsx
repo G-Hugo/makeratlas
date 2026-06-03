@@ -1,3 +1,5 @@
+"use client";
+
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import { LocaleLink } from "@/components/layout/LocaleLink";
@@ -5,6 +7,7 @@ import type { CatalogEntry } from "@/lib/catalog-types";
 import { MachineImage } from "@/components/machines/MachineImage";
 import { MachineWorkFocusBadge } from "@/components/machines/MachineWorkFocusBadge";
 import { PowerTierChips } from "@/components/machines/PowerTierChips";
+import { getTierChipVariant } from "@/lib/catalog-display";
 import { formatMachinePowerBubble } from "@/lib/power-display";
 import { formatMachineLaserLabel } from "@/lib/laser-capabilities";
 import { getCatalogCardHero } from "@/lib/machine-images";
@@ -48,12 +51,20 @@ function cleanFrenchBubbleText(value: string): string {
     .trim();
 }
 
+const cardShellClassName =
+  "group relative flex scroll-mt-24 flex-col overflow-hidden rounded-2xl border border-stone-200/90 bg-white shadow-sm ring-1 ring-stone-900/5 transition duration-200 hover:-translate-y-1 hover:border-amber-300/80 hover:shadow-xl hover:ring-amber-200/60 dark:border-stone-700 dark:bg-stone-900 dark:ring-stone-950/50 dark:hover:border-amber-500/40 dark:hover:ring-amber-500/20";
+
+const profileLinkClassName =
+  "block transition duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500";
+
 export function MachineCard({ entry, locale, dict, onBeforeNavigate }: MachineCardProps) {
   const { primary, powerTiers, displayName } = entry;
   const multiTier = powerTiers.length > 1;
   const workFocus = getMachineWorkFocus(primary);
   const profileLabel = locale === "fr" ? "Voir la fiche" : "View profile";
-  const powerOptionsLabel = locale === "fr" ? "options de puissance" : "power options";
+  const tierChipVariant = multiTier ? getTierChipVariant(powerTiers) : "power";
+  const moduleBadgeLabel =
+    locale === "fr" ? "Modules interchangeables" : "Interchangeable modules";
   const releaseLabel = primary.releaseDate
     ? primary.releaseDate.slice(0, 4)
     : dict.lasers.releaseUnknown;
@@ -64,21 +75,23 @@ export function MachineCard({ entry, locale, dict, onBeforeNavigate }: MachineCa
     primary.slug === "acmer-p3"
       ? "object-contain p-1 transition duration-300 group-hover:scale-[1.01]"
       : undefined;
-  const interchangeableLabel =
-    locale === "fr" ? "Modules interchangeables" : "Interchangeable modules";
+  const detailHref = `/lasers/${primary.slug}`;
+  const saveScroll = onBeforeNavigate
+    ? () => onBeforeNavigate(primary.slug)
+    : undefined;
 
   return (
-    <LocaleLink
+    <article
       id={`catalog-card-${primary.slug}`}
-      href={`/lasers/${primary.slug}`}
-      locale={locale}
-      {...(onBeforeNavigate
-        ? { onClick: () => onBeforeNavigate(primary.slug) }
-        : {})}
-      className="group relative flex scroll-mt-24 flex-col overflow-hidden rounded-2xl border border-stone-200/90 bg-white shadow-sm ring-1 ring-stone-900/5 transition duration-200 hover:-translate-y-1 hover:border-amber-300/80 hover:shadow-xl hover:ring-amber-200/60 dark:border-stone-700 dark:bg-stone-900 dark:ring-stone-950/50 dark:hover:border-amber-500/40 dark:hover:ring-amber-500/20"
+      className={cardShellClassName}
     >
       <div className="h-1 w-full bg-gradient-to-r from-amber-300 via-orange-300 to-rose-300" />
-      <div className="relative overflow-hidden">
+      <LocaleLink
+        href={detailHref}
+        locale={locale}
+        onClick={saveScroll}
+        className={`${profileLinkClassName} relative overflow-hidden`}
+      >
         <MachineImage
           machine={primary}
           heroSrc={`${cardHeroSrc}?card=9`}
@@ -108,18 +121,30 @@ export function MachineCard({ entry, locale, dict, onBeforeNavigate }: MachineCa
             <span>{formatMachineLaserLabel(primary, locale)}</span>
           </span>
         </div>
-      </div>
+      </LocaleLink>
 
       <div className="flex flex-1 flex-col gap-3 p-4 sm:p-5">
         <div>
-          <div className="flex flex-wrap items-center gap-2">
+          <LocaleLink
+            href={detailHref}
+            locale={locale}
+            onClick={saveScroll}
+            className={profileLinkClassName}
+          >
             <h3 className="text-lg font-semibold leading-tight text-stone-900 group-hover:text-amber-900 dark:text-stone-100 dark:group-hover:text-amber-400">
               {displayName}
             </h3>
-          </div>
+          </LocaleLink>
           <div className="mt-2">
             {multiTier ? (
-              <PowerTierChips tiers={powerTiers} linkable={false} size="sm" locale={locale} />
+              <PowerTierChips
+                tiers={powerTiers}
+                linkable
+                variant={tierChipVariant}
+                size="sm"
+                locale={locale}
+                onTierNavigate={onBeforeNavigate}
+              />
             ) : (
               <span className="inline-flex rounded-full bg-stone-100 px-2.5 py-0.5 text-xs font-semibold text-stone-700 dark:bg-stone-800 dark:text-stone-300">
                 {powerBubbleLabel}
@@ -128,51 +153,53 @@ export function MachineCard({ entry, locale, dict, onBeforeNavigate }: MachineCa
           </div>
         </div>
 
-        <p className="text-sm font-medium leading-snug text-stone-800 dark:text-stone-200">
-          {primary.mainObjective}
-        </p>
+        <LocaleLink
+          href={detailHref}
+          locale={locale}
+          onClick={saveScroll}
+          className={`${profileLinkClassName} flex flex-1 flex-col gap-3`}
+        >
+          <p className="text-sm font-medium leading-snug text-stone-800 dark:text-stone-200">
+            {primary.mainObjective}
+          </p>
 
-        <div className="flex flex-wrap gap-2 text-xs text-stone-600 dark:text-stone-300">
-          <span className="rounded-md bg-stone-100 px-2 py-1 dark:bg-stone-800">
-            {workAreaLabel}
-          </span>
-          <span className="rounded-md bg-stone-100 px-2 py-1 dark:bg-stone-800">
-            {releaseLabel}
-          </span>
-          {multiTier && (
+          <div className="flex flex-wrap gap-2 text-xs text-stone-600 dark:text-stone-300">
             <span className="rounded-md bg-stone-100 px-2 py-1 dark:bg-stone-800">
-              {powerTiers.length} {powerOptionsLabel}
+              {workAreaLabel}
             </span>
-          )}
-          {primary.moduleSystem?.style === "interchangeable" && (
-            <span className="rounded-md bg-sky-100 px-2 py-1 font-medium text-sky-900 dark:bg-sky-950 dark:text-sky-200">
-              {interchangeableLabel}
+            <span className="rounded-md bg-stone-100 px-2 py-1 dark:bg-stone-800">
+              {releaseLabel}
             </span>
-          )}
-        </div>
+            {multiTier && tierChipVariant === "module" && (
+              <span className="rounded-md bg-sky-100 px-2 py-1 font-medium text-sky-900 dark:bg-sky-950 dark:text-sky-200">
+                {moduleBadgeLabel}
+              </span>
+            )}
+          </div>
 
-        <p className="line-clamp-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
-          {primary.tldr}
-        </p>
+          <p className="line-clamp-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
+            {primary.tldr}
+          </p>
 
-        <div className="flex flex-wrap gap-1.5">
-          {primary.bestFor.slice(0, 3).map((tag) => (
-            <span
-              key={tag}
-              className="rounded-full border border-stone-200 bg-stone-50 px-2.5 py-0.5 text-xs text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-300"
-            >
-              {locale === "fr" ? cleanFrenchBubbleText(tag) : tag}
+          <div className="flex flex-wrap gap-1.5">
+            {primary.bestFor.slice(0, 3).map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full border border-stone-200 bg-stone-50 px-2.5 py-0.5 text-xs text-stone-700 dark:border-stone-700 dark:bg-stone-800 dark:text-stone-300"
+              >
+                {locale === "fr" ? cleanFrenchBubbleText(tag) : tag}
+              </span>
+            ))}
+          </div>
+
+          <div className="mt-auto flex items-end justify-between gap-3 border-t border-stone-100 pt-3 dark:border-stone-800">
+            <CatalogCardPrice entry={entry} locale={locale} />
+            <span className="shrink-0 rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-900 opacity-0 transition group-hover:opacity-100 dark:bg-amber-950 dark:text-amber-200">
+              {profileLabel} →
             </span>
-          ))}
-        </div>
-
-        <div className="mt-auto flex items-end justify-between gap-3 border-t border-stone-100 pt-3 dark:border-stone-800">
-          <CatalogCardPrice entry={entry} locale={locale} />
-          <span className="shrink-0 rounded-full bg-amber-100 px-2.5 py-1 text-xs font-medium text-amber-900 opacity-0 transition group-hover:opacity-100 dark:bg-amber-950 dark:text-amber-200">
-            {profileLabel} →
-          </span>
-        </div>
+          </div>
+        </LocaleLink>
       </div>
-    </LocaleLink>
+    </article>
   );
 }

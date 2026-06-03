@@ -12,13 +12,9 @@
     "Première machine"
   ],
   "pros": [
-    "iCube Pro 5 W : Sculpfun compact fermé, petit encombrement et capot complet",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 300 × 300 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "5W sur Sculpfun iCube Pro : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "Format Sculpfun compact pour petit bureau",
+    "Intéressant pour appartement et mini cadeaux",
+    "Entrée écosystème Sculpfun"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -71,5 +67,9 @@
     {
       "alt": "Graveuse laser Sculpfun iCube Pro 5W : Sculpfun"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "iCube Pro 5 W pour espaces réduits.",
+    "limitations": "Comparez S9 10 W sauf contrainte taille."
+  }
 }

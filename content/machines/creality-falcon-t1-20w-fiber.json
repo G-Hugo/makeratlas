@@ -1,0 +1,157 @@
+{
+  "id": "creality-falcon-t1-20w-fiber",
+  "slug": "creality-falcon-t1-20w-fiber",
+  "name": "Creality Falcon T1 20W Fiber",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "tagline": "20W fiber galvo module for stainless and aluminum on the T1 chassis",
+  "tldr": "Creality's 20W fiber WaveSync module turns the Falcon T1 into a metal-marking galvo without buying a separate fiber bench. Ideal when steel and aluminum orders justify the module cost after you already own the T1 cabinet.",
+  "mainObjective": "Desktop fiber marking on the modular T1 platform",
+  "bestFor": [
+    "Stainless gifts",
+    "Metal tags & tools",
+    "T1 metal upgrade",
+    "Jewelry-scale marking"
+  ],
+  "priceRange": {
+    "min": 3499,
+    "max": 4499,
+    "currency": "USD",
+    "note": "Fiber module or bundle; chassis required"
+  },
+  "specs": {
+    "power": "20W fiber (galvo)",
+    "workArea": "220 × 220 mm (typical galvo field)",
+    "software": [
+      "Creality Laser",
+      "LightBurn",
+      "EZCAD (verify SKU)"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.02 mm fiber spot",
+        "maxSpeed": "7,000 mm/s (marketing)",
+        "avgEngraveSpeed": "Fiber marking speeds",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum",
+      "Brass",
+      "Some plastics",
+      "Coated metals"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood cutting",
+      "Thick acrylic signage",
+      "Use alongside diode module without swapping"
+    ]
+  },
+  "pros": [
+    "Metal marking inside the same T1 enclosure",
+    "No spray on many stainless jobs",
+    "Modular path vs buying a second fiber machine",
+    "Galvo speed for small metal parts"
+  ],
+  "cons": [
+    "Requires T1 chassis purchase first",
+    "Not MOPA color effects (see 60W module)",
+    "Small field vs open-frame fiber",
+    "Module swap time between wood and metal days"
+  ],
+  "beginnerNotes": "Add fiber when metal is a regular revenue line, not for one-off tests. Compare xTool F1 Ultra if you need metal and wood day one in a fixed bundle.",
+  "proTips": "Keep separate material libraries for fiber vs diode heads. Confirm EZCAD/LightBurn support on your exact module SKU before buying.",
+  "primaryUse": "20W fiber galvo module for metal marking on the Creality Falcon T1 modular workstation.",
+  "rating": {
+    "overall": 8.5,
+    "value": 8,
+    "easeOfUse": 8.4,
+    "capability": 8.8,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "creality-falcon-t1",
+    "xtool-f1-ultra",
+    "commarker-b4-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-06-02",
+  "image": "/machines/creality-falcon-t1/01.webp",
+  "images": [
+    {
+      "src": "/machines/creality-falcon-t1/01.webp",
+      "alt": "Creality Falcon T1 20W fiber module"
+    }
+  ],
+  "modelLine": "creality-falcon-t1",
+  "powerRating": "20W",
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "WaveSync swappable galvo modules",
+    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules : install one head at a time.",
+    "options": [
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "creality-falcon-t1"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode",
+        "tierSlug": "creality-falcon-t1-40w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "fiber",
+        "label": "20W fiber",
+        "tierSlug": "creality-falcon-t1-20w-fiber"
+      },
+      {
+        "power": "60W",
+        "laserKind": "fiber",
+        "label": "60W MOPA",
+        "tierSlug": "creality-falcon-t1-60w-mopa"
+      },
+      {
+        "power": "5W",
+        "laserKind": "uv",
+        "label": "5W UV",
+        "tierSlug": "creality-falcon-t1-5w-uv"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "fiber"
+  ],
+  "capabilityTags": [
+    "fiber"
+  ],
+  "releaseDate": "2026-05",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 20W fiber module turns the T1 into a metal-marking galvo without a second bench : stainless gifts and tool labels inside the same enclosure you already own for organics.",
+    "limitations": "Requires the T1 chassis first. No wood cutting. Throughput trails dedicated MOPA if color stainless is core revenue : compare the 60W MOPA profile."
+  }
+}

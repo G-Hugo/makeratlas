@@ -69,19 +69,14 @@
     ]
   },
   "pros": [
-    "10W Ultra-budget diode laser : minimum viable entry point",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 410 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "10W on Atomstack A5 Pro: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~18–28 min",
-    "Reference cut job on this module: ~9–15 min"
+    "Most popular A5 Pro tier for engraving-first hobby sales",
+    "Affordable full bed for Slate, wood, and leather gifts",
+    "Massive third-party mod knowledge base online"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W) add cut speed and depth",
-    "Not the SKU for a shop cutting 5 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Cutting limited to thin stock",
+    "Frame flex shows if you push aggressive cut speeds",
+    "Upgrade to A40 Pro or 20W A5 when cutting dominates"
   ],
   "beginnerNotes": "This profile is the 10W module on Atomstack A5 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -120,5 +115,9 @@
   ],
   "modelLine": "atomstack-a5-pro",
   "powerRating": "10W",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "A5 Pro 10W is the engraving sweet spot in Atomstack's budget line. Ideal when you charge for marks, not thick cut-outs.",
+    "limitations": "Mixed cut/engrave businesses outgrow this tier quickly. Compare Ortur LM3 10W for stiffer frame at similar money."
+  }
 }

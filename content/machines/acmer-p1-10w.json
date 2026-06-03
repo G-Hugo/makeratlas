@@ -68,19 +68,14 @@
     ]
   },
   "pros": [
-    "Budget Acmer open-frame : large bed for the price",
-    "Open-frame layout : laser glasses and ventilation are your responsibility",
-    "Work area 400 × 400 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "10W on Acmer P1: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~18–28 min",
-    "Reference cut job on this module: ~9–15 min"
+    "Cheapest Acmer P1 tier for engraving-first hobby work",
+    "Full-size open frame with LightBurn path",
+    "Good starter before P2 or enclosed P3"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W) add cut speed and depth",
-    "Not the SKU for a shop cutting 4 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Limited cut depth versus P1 20W",
+    "Open-frame safety and exhaust on you",
+    "Verify optical 10W on marketplace listings"
   ],
   "beginnerNotes": "This profile is the 10W module on Acmer P1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -122,5 +117,9 @@
       "alt": "Acmer P1 10W laser engraver : Acmer"
     }
   ],
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "P1 10W is Acmer's entry point when marks matter more than thick cutting.",
+    "limitations": "Paid cutting shops should open P1 20W or compare P3 enclosed."
+  }
 }

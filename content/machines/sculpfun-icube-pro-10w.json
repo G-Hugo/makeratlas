@@ -71,17 +71,14 @@
     ]
   },
   "pros": [
-    "10W Compact enclosed Sculpfun : small footprint, full safety cabinet",
-    "Fully enclosed cabinet : beam containment and smoke control vs open-frame diodes",
-    "Work area 300 × 300 mm on this chassis",
-    "Software: LightBurn · LaserGRBL",
-    "10W on Sculpfun iCube Pro Max: engraving-first : photo fills and leather at moderate speeds",
-    "Reference engrave job on this module: ~12–18 min",
-    "Reference cut job on this module: ~6–10 min"
+    "More capable iCube tier for home gift engraving",
+    "Smaller footprint than S30 open frames",
+    "Sculpfun support and mods growing"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Not the SKU for a shop cutting 5 mm+ stock all day"
+    "Bed size limits sign work",
+    "Open or partial enclosure varies by SKU",
+    "S30 Ultra often better $/watt"
   ],
   "beginnerNotes": "This profile is the 10W module on Sculpfun iCube Pro Max. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -121,5 +118,9 @@
   "modelLine": "sculpfun-icube-pro",
   "powerRating": "10W",
   "releaseDate": "2024-04",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "iCube Pro 10W when desk size matters more than maximum bed.",
+    "limitations": "Sign makers need larger open-frame or CO₂ paths."
+  }
 }

@@ -12,18 +12,21 @@
     "Petites séries"
   ],
   "pros": [
-    "Diode 20 W fermée : gravure domicile plus sûre avec découpe modérée",
-    "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Surface utile 430 × 390 mm sur ce châssis",
-    "Logiciels : xTool Creative Space · LightBurn",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~9–14 min"
+    "Meilleur rapport qualité-prix de la gamme S1 si vous gravez surtout et ne découpez que fin",
+    "Même enceinte, logiciels et chemin de filtration que le module 40 W",
+    "Tête interchangeable : passez au 40 W plus tard sans racheter la machine",
+    "Plus sûr pour famille et animaux qu’une open-frame à puissance comparable",
+    "xTool Creative Space simplifie la prise en main avant LightBurn"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents"
+    "Les modules plus puissants (40 W) ajoutent vitesse et profondeur de découpe",
+    "Vérifiez le SKU 20 W : même châssis, modules différents",
+    "L’acrylique coulé transparent et la découpe production épaisse restent du CO₂"
   ],
+  "editorialDepth": {
+    "advantages": "La S1 20 W convient aux makers en appartement qui veulent une enceinte sans payer la marge de découpe du 40 W. Vous gardez le logiciel guidé xTool, les packs filtre optionnels et le même chemin de montée que les SKU plus lourds. Pour ardoises, cuir et photos remplies, la qualité suit le module 40 W à vitesses raisonnables.",
+    "limitations": "Le bois épais, la signalétique rapide et l’acrylique transparent poussent vers la tête 40 W ou un CO₂. Les remplissages photo très denses peuvent être plus lents qu’avec un module 10 W dédié gravure. Prévoyez filtres ou évacuation fenêtre si vous découpez souvent."
+  },
   "materials": {
     "engrave": [
       "Bois",

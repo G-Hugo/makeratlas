@@ -12,18 +12,21 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Diode 40 W fermée : meilleure découpe domicile de la gamme enceinte xTool",
-    "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Surface utile 430 × 390 mm sur ce châssis",
-    "Logiciels : xTool Creative Space · LightBurn",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de xTool S1"
+    "Tête la plus musclée de la famille S1 sans passer au CO₂",
+    "Faisceau confiné et gestion des fumées intégrée pour l’atelier maison",
+    "Même enceinte que le 20 W : changez de module au lieu de racheter la machine",
+    "Tilleul plus épais et acrylique foncé en moins de passes que les SKU 10 W/20 W",
+    "xTool Creative Space pour débuter, LightBurn pour les pros"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂"
+    "Gravure photo très fine : ralentir vs un module 10 W dédié gravure",
+    "Toujours une diode : production acrylique transparent = CO₂",
+    "L’acrylique coulé et la découpe production épaisse restent du CO₂"
   ],
+  "editorialDepth": {
+    "advantages": "Choisissez le 40 W quand votre semaine mélange gravure et vraie découpe bois, pas seulement des cadeaux marqués. Vous restez dans l’écosystème fermé xTool, gardez la caméra pour les séries répétées et évitez le projet ventilation d’une caisse CO₂ tant que l’acrylique transparent ne paie pas les factures.",
+    "limitations": "C’est toujours une diode : acrylique coulé, bois dur profond et métal sans spray restent frustrants face au CO₂ ou à la fibre. Les remplissages photo ultra fins peuvent être plus beaux sur un module 10 W lent. Filtres et gaine comptent si vous découpez souvent."
+  },
   "materials": {
     "engrave": [
       "Bois",

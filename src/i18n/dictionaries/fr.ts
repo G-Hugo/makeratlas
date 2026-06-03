@@ -190,7 +190,9 @@ export const fr: Dictionary = {
     jobTime: "Durée",
     jobSize: "Format",
     moduleInterchangeableFootnote:
-      "Chaque page correspond à un module d’usine. D’autres puissances se vendent en têtes interchangeables sur le même châssis.",
+      "Chaque pastille ouvre la fiche de cette tête. Les autres modules se montent sur le même châssis : monter en gamme sans racheter la machine.",
+    powerTierSwappableFootnote:
+      "Chaque pastille correspond à une puissance vendue en SKU usine (configuration complète à l’achat).",
     moduleHybridFootnote:
       "Classé hybride car deux technologies laser partagent la machine. Ce n’est pas un simple choix 10W vs 40W sur la même tête diode.",
     powerTierChooseModule: "Choisissez le module installé",
@@ -198,6 +200,7 @@ export const fr: Dictionary = {
     powerTierSpecsModule: "Les informations ci-dessous correspondent au module sélectionné.",
     powerTierSpecsSku: "Les informations ci-dessous se mettent à jour selon la puissance choisie.",
     powerTierActive: "Puissance affichée",
+    powerTierActiveModule: "Module affiché",
     infraredKind: "Infrarouge (1064 nm)",
   },
   ratings: {

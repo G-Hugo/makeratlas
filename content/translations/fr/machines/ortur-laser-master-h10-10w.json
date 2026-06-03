@@ -12,13 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "H10 10 W : série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Ortur Laser Master H10 : priorité gravure : remplissages photo et cuir",
-    "Exemple gravure de référence sur ce module : ~28–43 min",
-    "Exemple découpe de référence sur ce module : ~14–24 min"
+    "Entrée H10 sur châssis intégré Ortur plus récent",
+    "Orienté gravure, style plus industriel que LM2",
+    "Ligne modulaire pour monter en puissance"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -73,5 +69,9 @@
     {
       "alt": "Graveuse laser Ortur Laser Master H10 10W : Ortur"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "H10 10 W pour gravure cadeaux sur châssis série H.",
+    "limitations": "Comparez la valeur LM3 10 W avant de choisir H10."
+  }
 }

@@ -12,7 +12,6 @@ import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { localizedPath } from "@/i18n/navigation";
 import { laserTypeLabelLocalized } from "@/lib/i18n-helpers";
-import { getPrimaryImage } from "@/lib/machine-images";
 import { buildMachineMetadata } from "@/lib/seo";
 import { hasMachineTranslation } from "@/lib/machine-locale";
 import { getAllMachines, getMachineBySlug, getSimilarMachines } from "@/lib/content";
@@ -61,8 +60,6 @@ export default async function MachinePage({ params }: PageProps) {
 
   const powerTiers = getPowerTiersForMachine(machine, locale);
   const tiers = powerTiers.length > 0 ? powerTiers : [machine];
-  const catalogPrimaryMachine = tiers.find((t) => t.catalogPrimary) ?? tiers[0];
-  const cardHeroSrc = getPrimaryImage(catalogPrimaryMachine);
   const similarBySlug = Object.fromEntries(
     tiers.map((tier) => [tier.slug, getSimilarMachines(tier, locale)]),
   );
@@ -91,7 +88,6 @@ export default async function MachinePage({ params }: PageProps) {
         dict={dict}
         initialSlug={slug}
         tiers={tiers}
-        cardHeroSrc={cardHeroSrc}
         similarBySlug={similarBySlug}
         hasTranslationBySlug={hasTranslationBySlug}
       />

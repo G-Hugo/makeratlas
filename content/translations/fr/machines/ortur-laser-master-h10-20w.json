@@ -12,13 +12,9 @@
     "Petites séries"
   ],
   "pros": [
-    "H10 20 W : série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Surface utile 400 × 400 mm sur ce châssis",
-    "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
-    "Exemple gravure de référence sur ce module : ~18–28 min",
-    "Exemple découpe de référence sur ce module : ~9–15 min"
+    "H10 20 W équilibré pour hobby mixte",
+    "Cadre intégré Ortur avec histoire modulaire",
+    "Alternative esthétique au LM3 classique"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
@@ -72,5 +68,9 @@
     {
       "alt": "Graveuse laser Ortur Laser Master H10 20W : Ortur"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "H10 20 W pour fans Ortur du châssis H sans complexité H20.",
+    "limitations": "Comparez prix et support LM3 20 W côte à côte."
+  }
 }
