@@ -1,10 +1,10 @@
 {
-  "tagline": "Kit DIY MK2 10 W boîtier — référence d'entrée Algolaser la plus courante",
-  "tldr": "Le Kit DIY MK2 10 W est la configuration 10 W boîtier la plus populaire — montage requis, mais plus contenu que les concurrents à structure ouverte à prix similaire.",
+  "tagline": "Kit DIY MK2 10 W boîtier : référence d'entrée Algolaser la plus courante",
+  "tldr": "Le Kit DIY MK2 10 W est la configuration 10 W boîtier la plus populaire : montage requis, mais plus contenu que les concurrents à structure ouverte à prix similaire.",
   "mainObjective": "Algolaser 10 W boîtier pour gravure loisir",
   "primaryUse": "Gravure loisir en boîtier avec découpe légère.",
   "beginnerNotes": "Prévoyez du temps pour le montage et le parallélisme du châssis.",
-  "proTips": "Des kits plateau étendu existent — confirmez la compatibilité avec votre révision MK2 exacte.",
+  "proTips": "Des kits plateau étendu existent : confirmez la compatibilité avec votre révision MK2 exacte.",
   "bestFor": [
     "Première diode en boîtier",
     "Écosystème Algolaser",
@@ -46,9 +46,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W — AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W — AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W — AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W — AlgoLaser" }
+    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser" }
   ]
 }

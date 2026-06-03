@@ -5,8 +5,8 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Creality’s compact Falcon 5W — small-bed entry engraver",
-  "tldr": "Creality Falcon 5W is the small CR-Laser Falcon for desktop engraving and light crafts — lower power than Falcon 10W/A1 but simpler footprint and price.",
+  "tagline": "Creality’s compact Falcon 5W : small-bed entry engraver",
+  "tldr": "Creality Falcon 5W is the small CR-Laser Falcon for desktop engraving and light crafts : lower power than Falcon 10W/A1 but simpler footprint and price.",
   "mainObjective": "Creality-branded entry engraver for small projects",
   "bestFor": [
     "Creality fans",
@@ -75,7 +75,7 @@
     "5W limits",
     "10W/A1 better value for many"
   ],
-  "beginnerNotes": "Check work area on your exact kit — basic vs all-in-one bundles differ.",
+  "beginnerNotes": "Check work area on your exact kit : basic vs all-in-one bundles differ.",
   "proTips": "Pair with Falcon risers/accessories only if you upgrade to 10W class later.",
   "primaryUse": "Small-format Creality engraving.",
   "rating": {
@@ -98,19 +98,19 @@
   "images": [
     {
       "src": "/machines/creality-falcon-5w/01.webp",
-      "alt": "Creality Falcon 5W laser engraver — Creality"
+      "alt": "Creality Falcon 5W laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon-5w/02.jpg",
-      "alt": "Creality Falcon 5W laser engraver — Creality"
+      "alt": "Creality Falcon 5W laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon-5w/03.jpg",
-      "alt": "Creality Falcon 5W laser engraver — Creality"
+      "alt": "Creality Falcon 5W laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon-5w/04.jpg",
-      "alt": "Creality Falcon 5W laser engraver — Creality"
+      "alt": "Creality Falcon 5W laser engraver : Creality"
     }
   ]
 }

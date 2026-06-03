@@ -5,8 +5,8 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Sweet-spot H20 — 20W diode on Ortur's integrated H-series frame",
-  "tldr": "Ortur H20 20W balances cutting ability and price on the H20 platform. Strong hobby engraver with faster frame than LM3 — verify optical power, not marketing '40W class' labels on accessories.",
+  "tagline": "Sweet-spot H20 : 20W diode on Ortur's integrated H-series frame",
+  "tldr": "Ortur H20 20W balances cutting ability and price on the H20 platform. Strong hobby engraver with faster frame than LM3 : verify optical power, not marketing '40W class' labels on accessories.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -70,17 +70,17 @@
     ]
   },
   "pros": [
-    "Sweet-spot H20 — 20W diode on Ortur's integrated H-series frame",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Sweet-spot H20 : 20W diode on Ortur's integrated H-series frame",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 410 × 275 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "Balanced engrave and cut — typical 8 mm basswood in multiple passes",
+    "Balanced engrave and cut : typical 8 mm basswood in multiple passes",
     "Reference engrave job on this module: ~18–28 min",
     "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
     "Higher modules in this line (40W) add cut speed and depth",
-    "Verify the 20W SKU — same chassis, different modules",
+    "Verify the 20W SKU : same chassis, different modules",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 20W module on Ortur H20. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -108,11 +108,11 @@
   "images": [
     {
       "src": "/machines/ortur-h20-20w/01.webp",
-      "alt": "Ortur H20 20W laser engraver — Ortur"
+      "alt": "Ortur H20 20W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-h20-20w/02.webp",
-      "alt": "Ortur H20 20W laser engraver — Ortur"
+      "alt": "Ortur H20 20W laser engraver : Ortur"
     }
   ],
   "tierEditorialOverride": false

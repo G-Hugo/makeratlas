@@ -5,8 +5,8 @@
   "brand": "LaserPecker",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Pocket LaserPecker — ultra-portable 5W for stamps and tiny gifts",
-  "tldr": "LaserPecker LP1 Pro is a pocket-sized 5W engraver for maximum portability. Legacy line compared to LP4/LP5 — still relevant on used market for micro projects only.",
+  "tagline": "Pocket LaserPecker : ultra-portable 5W for stamps and tiny gifts",
+  "tldr": "LaserPecker LP1 Pro is a pocket-sized 5W engraver for maximum portability. Legacy line compared to LP4/LP5 : still relevant on used market for micro projects only.",
   "mainObjective": "Pocket engraving for stamps, tags, and travel demos",
   "bestFor": [
     "Maximum portability",
@@ -74,7 +74,7 @@
     "Old generation",
     "Tiny bed"
   ],
-  "beginnerNotes": "Not a workshop laser — treat as a gadget or second machine.",
+  "beginnerNotes": "Not a workshop laser : treat as a gadget or second machine.",
   "proTips": "LP4 is the better modern portable if buying new from LaserPecker.",
   "primaryUse": "Pocket micro-engraving for personalization on the go.",
   "rating": {
@@ -98,19 +98,19 @@
   "images": [
     {
       "src": "/machines/laserpecker-lp1-pro/01.webp",
-      "alt": "LaserPecker LP1 Pro laser engraver — LaserPecker"
+      "alt": "LaserPecker LP1 Pro laser engraver : LaserPecker"
     },
     {
       "src": "/machines/laserpecker-lp1-pro/02.jpg",
-      "alt": "LaserPecker LP1 Pro laser engraver — LaserPecker"
+      "alt": "LaserPecker LP1 Pro laser engraver : LaserPecker"
     },
     {
       "src": "/machines/laserpecker-lp1-pro/03.jpg",
-      "alt": "LaserPecker LP1 Pro laser engraver — LaserPecker"
+      "alt": "LaserPecker LP1 Pro laser engraver : LaserPecker"
     },
     {
       "src": "/machines/laserpecker-lp1-pro/04.jpg",
-      "alt": "LaserPecker LP1 Pro laser engraver — LaserPecker"
+      "alt": "LaserPecker LP1 Pro laser engraver : LaserPecker"
     }
   ]
 }

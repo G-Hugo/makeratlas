@@ -5,8 +5,8 @@
   "brand": "Gweike",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "Gweike Cloud 50W CO₂ — compact desktop CO₂ with rotary option",
-  "tldr": "Gweike Cloud 50W is the lower-power Cloud CO₂ desktop cutter — acrylic, wood, and leather at a smaller price than Cloud 55W/Pro, still enclosed-class workflow with rotary bundles common.",
+  "tagline": "Gweike Cloud 50W CO₂ : compact desktop CO₂ with rotary option",
+  "tldr": "Gweike Cloud 50W is the lower-power Cloud CO₂ desktop cutter : acrylic, wood, and leather at a smaller price than Cloud 55W/Pro, still enclosed-class workflow with rotary bundles common.",
   "mainObjective": "Entry Gweike Cloud CO₂ without 55W pricing",
   "bestFor": [
     "CO₂ beginners",
@@ -76,8 +76,8 @@
     "Ventilation still required",
     "Premium vs diode"
   ],
-  "beginnerNotes": "Plan exhaust — CO₂ always needs ventilation even on “desktop” units.",
-  "proTips": "Rotary Pro bundles are popular for tumblers — confirm included accessories.",
+  "beginnerNotes": "Plan exhaust : CO₂ always needs ventilation even on “desktop” units.",
+  "proTips": "Rotary Pro bundles are popular for tumblers : confirm included accessories.",
   "primaryUse": "Desktop CO₂ cutting and engraving for crafts.",
   "rating": {
     "overall": 7.8,
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/gweike-cloud-50w/01.webp",
-      "alt": "Gweike Cloud 50W laser engraver — Gweike"
+      "alt": "Gweike Cloud 50W laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-cloud-50w/02.png",
-      "alt": "Gweike Cloud 50W laser engraver — Gweike"
+      "alt": "Gweike Cloud 50W laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-cloud-50w/03.jpg",
-      "alt": "Gweike Cloud 50W laser engraver — Gweike"
+      "alt": "Gweike Cloud 50W laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-cloud-50w/04.jpg",
-      "alt": "Gweike Cloud 50W laser engraver — Gweike"
+      "alt": "Gweike Cloud 50W laser engraver : Gweike"
     }
   ]
 }

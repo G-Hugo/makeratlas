@@ -1,8 +1,8 @@
 {
-  "tagline": "Diode classe 40 W petit budget — prix agressif, à vérifier avant d’acheter",
-  "tldr": "Htouroy vend des kits diode haute puissance à très bas prix. La sortie optique est loin en dessous de l’étiquette 40 W. Acceptable pour des expériences si la politique de retour est solide — déconseillé comme outil principal pro sans tester votre unité exacte.",
+  "tagline": "Diode classe 40 W petit budget : prix agressif, à vérifier avant d’acheter",
+  "tldr": "Htouroy vend des kits diode haute puissance à très bas prix. La sortie optique est loin en dessous de l’étiquette 40 W. Acceptable pour des expériences si la politique de retour est solide : déconseillé comme outil principal pro sans tester votre unité exacte.",
   "mainObjective": "Diode à forte puissance annoncée ultra-budget pour expériences occasionnelles",
-  "primaryUse": "Plateforme d’expérimentation diode au coût le plus bas — vérifiez les performances à la réception.",
+  "primaryUse": "Plateforme d’expérimentation diode au coût le plus bas : vérifiez les performances à la réception.",
   "beginnerNotes": "Ne planifiez pas votre activité sur un « 40 W » réel. Achetez Ortur ou Sculpfun si vous pouvez ajouter 100–200 $.",
   "proTips": "Mesurez la puissance optique ou lancez notre benchmark 10 × 10 cm à la livraison pour décider garder ou retourner.",
   "bestFor": [
@@ -50,6 +50,6 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Htouroy 40W — Htouroy" }
+    { "alt": "Graveuse laser Htouroy 40W : Htouroy" }
   ]
 }

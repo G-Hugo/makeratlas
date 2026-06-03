@@ -1,10 +1,10 @@
 {
   "tagline": "Galvo fibre compact de bureau pour le marquage de métal nu",
-  "tldr": "La ComMarker B4 est une graveuse galvo fibre d'entrée de gamme très populaire pour la bijouterie, les outils et les cadeaux métalliques. Marque l'inox, l'aluminium et le laiton sans spray. Zone de marquage réduite — pas une découpeuse pour le bois ou l'acrylique.",
+  "tldr": "La ComMarker B4 est une graveuse galvo fibre d'entrée de gamme très populaire pour la bijouterie, les outils et les cadeaux métalliques. Marque l'inox, l'aluminium et le laiton sans spray. Zone de marquage réduite : pas une découpeuse pour le bois ou l'acrylique.",
   "mainObjective": "Marquage fibre abordable pour la personnalisation métal et les petites entreprises",
   "primaryUse": "Marquage fibre de bureau pour bijoux, plaques, outils et personnalisation métal.",
   "beginnerNotes": "Achetez-la si le métal est votre source de revenus principale. Passez votre chemin comme premier laser si vous voulez de grandes enseignes en bois ou de la découpe acrylique.",
-  "proTips": "Utilisez un rotary pour les bagues. Réglez hachurage et vitesse sur des chutes — la puissance fibre ne pardonne pas sur le métal fin.",
+  "proTips": "Utilisez un rotary pour les bagues. Réglez hachurage et vitesse sur des chutes : la puissance fibre ne pardonne pas sur le métal fin.",
   "bestFor": [
     "Marquage métal",
     "Bijouterie",
@@ -45,14 +45,14 @@
         "description": "Logo rempli sur plaque en acier inoxydable"
       },
       "cutExample": {
-        "description": "Découpe laser — machine de marquage uniquement"
+        "description": "Découpe laser : machine de marquage uniquement"
       }
     }
   },
   "images": [
-    { "alt": "Graveuse laser ComMarker B4 20W — ComMarker" },
-    { "alt": "Graveuse laser ComMarker B4 20W — ComMarker" },
-    { "alt": "Graveuse laser ComMarker B4 20W — ComMarker" },
-    { "alt": "Graveuse laser ComMarker B4 20W — ComMarker" }
+    { "alt": "Graveuse laser ComMarker B4 20W : ComMarker" },
+    { "alt": "Graveuse laser ComMarker B4 20W : ComMarker" },
+    { "alt": "Graveuse laser ComMarker B4 20W : ComMarker" },
+    { "alt": "Graveuse laser ComMarker B4 20W : ComMarker" }
   ]
 }

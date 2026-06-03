@@ -1,10 +1,10 @@
 {
-  "tagline": "Alpha MK2 10 W — diode à structure ouverte orientée vitesse",
+  "tagline": "Alpha MK2 10 W : diode à structure ouverte orientée vitesse",
   "tldr": "L'Alpha MK2 10 W (souvent vendu en kit DIY ou en version 10 W boîtier) est le palier orienté gravure. Passez au 20 W ou 40 W pour des remplissages plus rapides et des découpes plus profondes.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Diode à structure ouverte orientée performance pour gravure détaillée sur bois et cuir, avec vitesse au-dessus de la moyenne.",
   "beginnerNotes": "Ce profil décrit le module 10W de Algolaser Alpha MK2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Algolaser brille sur le tracé et les remplissages légers — poussez la vitesse sur les vecteurs après des essais. Exploitez le faisceau compressé pour la gravure photo sur bois enduit.",
+  "proTips": "Algolaser brille sur le tracé et les remplissages légers : poussez la vitesse sur les vecteurs après des essais. Exploitez le faisceau compressé pour la gravure photo sur bois enduit.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,16 +12,16 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Alpha MK2 10 W — diode à structure ouverte orientée vitesse",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Alpha MK2 10 W : diode à structure ouverte orientée vitesse",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 440 × 410 mm sur ce châssis",
     "Logiciels : LightBurn · Algolaser app",
-    "10W sur Algolaser Alpha MK2 : priorité gravure — remplissages photo et cuir",
+    "10W sur Algolaser Alpha MK2 : priorité gravure : remplissages photo et cuir",
     "Exemple gravure de référence sur ce module : ~14–21 min",
     "Exemple découpe de référence sur ce module : ~7–14 min"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
@@ -62,16 +62,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Algolaser Alpha MK2 10 W — Algolaser"
+      "alt": "Graveuse laser Algolaser Alpha MK2 10 W : Algolaser"
     },
     {
-      "alt": "Graveuse laser Algolaser Alpha MK2 10 W — Algolaser"
+      "alt": "Graveuse laser Algolaser Alpha MK2 10 W : Algolaser"
     },
     {
-      "alt": "Graveuse laser Algolaser Alpha MK2 10 W — Algolaser"
+      "alt": "Graveuse laser Algolaser Alpha MK2 10 W : Algolaser"
     },
     {
-      "alt": "Graveuse laser Algolaser Alpha MK2 10 W — Algolaser"
+      "alt": "Graveuse laser Algolaser Alpha MK2 10 W : Algolaser"
     }
   ]
 }

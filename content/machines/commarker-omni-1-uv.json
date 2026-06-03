@@ -76,8 +76,8 @@
     "Slower production",
     "Not for metal at all"
   ],
-  "beginnerNotes": "Pair with a diode or CO₂ if you need wood/acrylic cutting — UV is specialized.",
-  "proTips": "Mask glass for crisp white marks. Ventilate — some plastics off-gas.",
+  "beginnerNotes": "Pair with a diode or CO₂ if you need wood/acrylic cutting : UV is specialized.",
+  "proTips": "Mask glass for crisp white marks. Ventilate : some plastics off-gas.",
   "primaryUse": "Hobby and small-business UV marking on glass and plastics.",
   "rating": {
     "overall": 8.1,
@@ -95,19 +95,19 @@
   "images": [
     {
       "src": "/machines/commarker-omni-1-uv/01.webp",
-      "alt": "ComMarker Omni 1 UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni 1 UV laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-omni-1-uv/02.jpg",
-      "alt": "ComMarker Omni 1 UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni 1 UV laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-omni-1-uv/03.jpg",
-      "alt": "ComMarker Omni 1 UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni 1 UV laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-omni-1-uv/04.webp",
-      "alt": "ComMarker Omni 1 UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni 1 UV laser engraver : ComMarker"
     }
   ],
   "releaseDate": "2024-06"

@@ -5,9 +5,9 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Top Acmer S2 Pro — 48W compressed diode with bundle options",
-  "tldr": "Acmer S2 Pro 48W is Acmer's high-power open-frame option before the enclosed P3. Strong cutting claims — verify optical power and compare to P3 48W enclosed if you need smoke control.",
-  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
+  "tagline": "Top Acmer S2 Pro : 48W compressed diode with bundle options",
+  "tldr": "Acmer S2 Pro 48W is Acmer's high-power open-frame option before the enclosed P3. Strong cutting claims : verify optical power and compare to P3 48W enclosed if you need smoke control.",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -67,17 +67,17 @@
     ]
   },
   "pros": [
-    "Top Acmer S2 Pro — 48W compressed diode with bundle options",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Top Acmer S2 Pro : 48W compressed diode with bundle options",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 400 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
     "48W: the most cut-focused head in the Acmer S2 Pro line",
     "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode — clear acrylic production wants CO₂",
+    "Still a diode : clear acrylic production wants CO₂",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 48W module on Acmer S2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -105,19 +105,19 @@
   "images": [
     {
       "src": "/machines/acmer-s2-pro-48w/01.webp",
-      "alt": "Acmer S2 Pro 48W laser engraver — Acmer"
+      "alt": "Acmer S2 Pro 48W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-s2-pro-48w/02.webp",
-      "alt": "Acmer S2 Pro 48W laser engraver — Acmer"
+      "alt": "Acmer S2 Pro 48W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-s2-pro-48w/03.webp",
-      "alt": "Acmer S2 Pro 48W laser engraver — Acmer"
+      "alt": "Acmer S2 Pro 48W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-s2-pro-48w/04.webp",
-      "alt": "Acmer S2 Pro 48W laser engraver — Acmer"
+      "alt": "Acmer S2 Pro 48W laser engraver : Acmer"
     }
   ],
   "tierEditorialOverride": false

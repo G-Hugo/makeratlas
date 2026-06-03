@@ -8,7 +8,7 @@
   "powerRating": "70W",
   "modelLine": "gweike-g6-split",
   "tagline": "70W Split cabinet fiber marker with room for rotary and fixtures",
-  "tldr": "Gweike G6 Split 70W is the 70W SKU on the Gweike gweike g6 split line. Gweike G6 Split is a larger fiber marking platform with separate laser source cabinet — common format for small production. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tldr": "Gweike G6 Split 70W is the 70W SKU on the Gweike gweike g6 split line. Gweike G6 Split is a larger fiber marking platform with separate laser source cabinet : common format for small production. Verify optical power on the listing : do not assume combined-watt marketing.",
   "mainObjective": "Maximum fiber marking speed and depth in the line",
   "bestFor": [
     "Deep metal engraving",
@@ -20,7 +20,7 @@
     "min": 3999,
     "max": 5499,
     "currency": "USD",
-    "note": "70W optical module — verify SKU before buying"
+    "note": "70W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "70W fiber",
@@ -71,7 +71,7 @@
   },
   "pros": [
     "70W Split cabinet fiber marker with room for rotary and fixtures",
-    "Fiber marks metal — does not cut wood or acrylic",
+    "Fiber marks metal : does not cut wood or acrylic",
     "Work area 150 × 150 mm typical (varies by lens) on this chassis",
     "Reference engrave job on this module: ~2–6 min"
   ],
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/gweike-g6-split-70w/01.webp",
-      "alt": "Gweike G6 Split 70W laser engraver — Gweike"
+      "alt": "Gweike G6 Split 70W laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-g6-split-70w/02.png",
-      "alt": "Gweike G6 Split 70W laser engraver — Gweike"
+      "alt": "Gweike G6 Split 70W laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-g6-split-70w/03.jpg",
-      "alt": "Gweike G6 Split 70W laser engraver — Gweike"
+      "alt": "Gweike G6 Split 70W laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-g6-split-70w/04.jpg",
-      "alt": "Gweike G6 Split 70W laser engraver — Gweike"
+      "alt": "Gweike G6 Split 70W laser engraver : Gweike"
     }
   ],
   "tierEditorialOverride": false

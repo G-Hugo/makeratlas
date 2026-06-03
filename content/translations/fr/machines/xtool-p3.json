@@ -1,10 +1,10 @@
 {
-  "tagline": "Flagship CO₂ 80 W 2025 — automatisation ACS, immense plateau, IR optionnel pour métal",
-  "tldr": "La xTool P3 (août 2025) remplace P2/P2S comme flagship CO₂ xTool : tube 80 W, plateau 915×458 mm, refroidisseur intégré, extinction incendie et automatisation ACS™ (caméras, autofocus LiDAR, imbrication IA). Module IR 5 W optionnel pour marquage métal nu. Dès ~5 999 $ — conçue pour ateliers qui dépassent les diodes.",
+  "tagline": "Flagship CO₂ 80 W 2025 : automatisation ACS, immense plateau, IR optionnel pour métal",
+  "tldr": "La xTool P3 (août 2025) remplace P2/P2S comme flagship CO₂ xTool : tube 80 W, plateau 915×458 mm, refroidisseur intégré, extinction incendie et automatisation ACS™ (caméras, autofocus LiDAR, imbrication IA). Module IR 5 W optionnel pour marquage métal nu. Dès ~5 999 $ : conçue pour ateliers qui dépassent les diodes.",
   "mainObjective": "Production CO₂ 80 W automatisée pour enseignistes et petites entreprises sérieuses",
   "primaryUse": "Flagship CO₂ 2025 xTool pour découpe et gravure haut volume avec automatisation type usine.",
-  "beginnerNotes": "Achetez la P3 si vous gérez une boutique découpant enseignes acrylique ou bois épais quotidiennement. Vous venez de P2S ? Vous gagnez puissance, taille plateau et automatisation — pas un simple tweak. Toujours serré ? Regardez CO₂ Monport/OMTech ou restez sur diode Falcon 2 Pro.",
-  "proTips": "Planifiez l’évacuation avant livraison. Testez matériaux sur tout le plateau — grands plateaux demandent calibration focus aux coins. Chiffrez le module IR seulement si le métal est une ligne de revenu régulière.",
+  "beginnerNotes": "Achetez la P3 si vous gérez une boutique découpant enseignes acrylique ou bois épais quotidiennement. Vous venez de P2S ? Vous gagnez puissance, taille plateau et automatisation : pas un simple tweak. Toujours serré ? Regardez CO₂ Monport/OMTech ou restez sur diode Falcon 2 Pro.",
+  "proTips": "Planifiez l’évacuation avant livraison. Testez matériaux sur tout le plateau : grands plateaux demandent calibration focus aux coins. Chiffrez le module IR seulement si le métal est une ligne de revenu régulière.",
   "bestFor": [
     "Enseignistes",
     "Production Etsy",
@@ -12,14 +12,14 @@
     "Acrylique et bois épais"
   ],
   "pros": [
-    "80 W et plateau ~2,3× P2S — vraie marge production",
+    "80 W et plateau ~2,3× P2S : vraie marge production",
     "Automatisation ACS : caméras, focus LiDAR, imbrication IA, remplissage série",
     "Enceinte classe 1, détection/extinction incendie, refroidisseur intégré",
     "Module IR optionnel pour métal vs acheter une fibre séparée",
     "Option convoyeur pour matériaux longs"
   ],
   "cons": [
-    "Prix premium — plusieurs fois une bonne diode",
+    "Prix premium : plusieurs fois une bonne diode",
     "Lourde ; espace dédié et évacuation puissante requis",
     "Entretien et remplacement tube CO₂",
     "Accessoires (convoyeur, AutoLift, IR) augmentent le coût total",
@@ -63,10 +63,10 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser xTool P3 — xTool" },
-    { "alt": "Graveuse laser xTool P3 — xTool" },
-    { "alt": "Graveuse laser xTool P3 — xTool" },
-    { "alt": "Graveuse laser xTool P3 — xTool" }
+    { "alt": "Graveuse laser xTool P3 : xTool" },
+    { "alt": "Graveuse laser xTool P3 : xTool" },
+    { "alt": "Graveuse laser xTool P3 : xTool" },
+    { "alt": "Graveuse laser xTool P3 : xTool" }
   ],
   "moduleSystem": {
     "headline": "Module infrarouge 5 W (1064 nm) optionnel",

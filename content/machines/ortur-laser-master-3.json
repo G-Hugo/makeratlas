@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Best-value open-frame diode for beginners on a budget",
-  "tldr": "One of the most popular entry-level diode lasers. Available up to 20W, large work area, and huge community support. Build quality is fine for the price — not xTool-level, but you get a lot of machine for under $600.",
+  "tldr": "One of the most popular entry-level diode lasers. Available up to 20W, large work area, and huge community support. Build quality is fine for the price : not xTool-level, but you get a lot of machine for under $600.",
   "bestFor": [
     "Beginners",
     "Budget buyers",
@@ -73,20 +73,20 @@
   },
   "pros": [
     "Excellent price-to-work-area ratio",
-    "Massive community — fixes and tutorials everywhere",
+    "Massive community : fixes and tutorials everywhere",
     "LightBurn support for serious workflows",
     "Wi-Fi and fixed-focus options simplify setup",
     "Good enough to learn whether you need a bigger machine later"
   ],
   "cons": [
-    "Open frame — safety glasses mandatory, not kid/pet friendly",
+    "Open frame : safety glasses mandatory, not kid/pet friendly",
     "Build and QA less consistent than premium brands",
     "Customer support can be slow",
-    "20W marketing is optical/combined power — real cutting still limited",
-    "No enclosure included — smoke and noise in your workspace"
+    "20W marketing is optical/combined power : real cutting still limited",
+    "No enclosure included : smoke and noise in your workspace"
   ],
-  "beginnerNotes": "A solid first laser if you are unsure about the hobby. Start with LightBurn (paid but worth it). Do not expect it to run a business alone — duty cycle and consistency may frustrate high-volume sellers.",
-  "proTips": "Join the Ortur Facebook/Reddit groups before buying — firmware tips save hours. Add air assist early. If you plan to sell products within 6 months, consider jumping to xTool D1 Pro or CO₂ instead.",
+  "beginnerNotes": "A solid first laser if you are unsure about the hobby. Start with LightBurn (paid but worth it). Do not expect it to run a business alone : duty cycle and consistency may frustrate high-volume sellers.",
+  "proTips": "Join the Ortur Facebook/Reddit groups before buying : firmware tips save hours. Add air assist early. If you plan to sell products within 6 months, consider jumping to xTool D1 Pro or CO₂ instead.",
   "primaryUse": "Affordable introduction to diode laser engraving and light cutting for hobbyists.",
   "rating": {
     "overall": 8.2,
@@ -107,15 +107,15 @@
   "images": [
     {
       "src": "/machines/ortur-laser-master-3/01.webp",
-      "alt": "Ortur Laser Master 3 laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3/02.webp",
-      "alt": "Ortur Laser Master 3 laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3/03.webp",
-      "alt": "Ortur Laser Master 3 laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 laser engraver : Ortur"
     }
   ],
   "modelLine": "ortur-laser-master-3",

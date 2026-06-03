@@ -1,10 +1,10 @@
 {
-  "tagline": "Atomstack fermée Classe 1 — gravure bureau sûre pour la maison et les écoles",
+  "tagline": "Atomstack fermée Classe 1 : gravure bureau sûre pour la maison et les écoles",
   "tldr": "L’AtomStack P1 est une graveuse diode 5 W entièrement fermée Classe 1, avec packs double laser (diode + infrarouge) en option. Idéale quand la sécurité et le fonctionnement silencieux comptent plus que la puissance de découpe brute.",
   "mainObjective": "Gravure fermée sûre pour débutants, familles et salles de classe",
   "primaryUse": "Laser d’introduction fermé et sûr pour loisirs créatifs à la maison et enseignement.",
   "beginnerNotes": "Excellent « premier laser » quand la sécurité prime sur la puissance maximale.",
-  "proTips": "Choisissez le pack double seulement si vous avez besoin du marquage métal — sinon la diode 5 W suffit pour apprendre.",
+  "proTips": "Choisissez le pack double seulement si vous avez besoin du marquage métal : sinon la diode 5 W suffit pour apprendre.",
   "bestFor": [
     "Débutants",
     "Familles",
@@ -13,7 +13,7 @@
     "Petits marquages métal/plastique (référence double)"
   ],
   "pros": [
-    "Boîtier Classe 1 — pas de lunettes en usage normal",
+    "Boîtier Classe 1 : pas de lunettes en usage normal",
     "Empreinte très compacte",
     "Fonctionnement silencieux",
     "Option double laser pour le métal"
@@ -57,9 +57,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack P1 5 W — Atomstack" },
-    { "alt": "Graveuse laser AtomStack P1 5 W — Atomstack" },
-    { "alt": "Graveuse laser AtomStack P1 5 W — Atomstack" },
-    { "alt": "Graveuse laser AtomStack P1 5 W — Atomstack" }
+    { "alt": "Graveuse laser AtomStack P1 5 W : Atomstack" },
+    { "alt": "Graveuse laser AtomStack P1 5 W : Atomstack" },
+    { "alt": "Graveuse laser AtomStack P1 5 W : Atomstack" },
+    { "alt": "Graveuse laser AtomStack P1 5 W : Atomstack" }
   ]
 }

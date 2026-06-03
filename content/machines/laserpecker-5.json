@@ -7,7 +7,7 @@
   "laserType": "hybrid",
   "image": "/machines/laserpecker-5/01.webp",
   "tagline": "Latest portable LaserPecker with improved power and app workflow",
-  "tldr": "LaserPecker LP5 combines fiber and diode sources for metal marking plus organic engraving in one portable chassis. Specialty travel/event machine — not a full workshop replacement.",
+  "tldr": "LaserPecker LP5 combines fiber and diode sources for metal marking plus organic engraving in one portable chassis. Specialty travel/event machine : not a full workshop replacement.",
   "mainObjective": "Portable fiber + diode for on-site metal and wood engraving",
   "bestFor": [
     "Portable",
@@ -100,19 +100,19 @@
   "images": [
     {
       "src": "/machines/laserpecker-5/01.webp",
-      "alt": "LaserPecker 5 laser engraver — LaserPecker"
+      "alt": "LaserPecker 5 laser engraver : LaserPecker"
     },
     {
       "src": "/machines/laserpecker-5/02.webp",
-      "alt": "LaserPecker 5 laser engraver — LaserPecker"
+      "alt": "LaserPecker 5 laser engraver : LaserPecker"
     },
     {
       "src": "/machines/laserpecker-5/03.webp",
-      "alt": "LaserPecker 5 laser engraver — LaserPecker"
+      "alt": "LaserPecker 5 laser engraver : LaserPecker"
     },
     {
       "src": "/machines/laserpecker-5/04.webp",
-      "alt": "LaserPecker 5 laser engraver — LaserPecker"
+      "alt": "LaserPecker 5 laser engraver : LaserPecker"
     }
   ],
   "powerRating": "20W",
@@ -120,7 +120,7 @@
   "moduleSystem": {
     "style": "dual-laser",
     "headline": "Portable fiber + diode",
-    "description": "LP5 packs fiber and diode for travel engraving. Hybrid dual-source — not the same as S1 head swapping.",
+    "description": "LP5 packs fiber and diode for travel engraving. Hybrid dual-source : not the same as S1 head swapping.",
     "options": [
       {
         "power": "20W",

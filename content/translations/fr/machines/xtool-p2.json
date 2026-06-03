@@ -3,8 +3,8 @@
   "tldr": "La xTool P2 est un laser CO₂ 55 W fermé avec grande surface de travail et alignement caméra. Elle découpe acrylique et bois bien mieux que tout laser diode. Cher, mais la machine bureau la plus proche d’un « montez une petite boutique ».",
   "mainObjective": "Découpe pro acrylique, bois et cuir pour petites entreprises",
   "primaryUse": "Découpe et gravure niveau production sur matières organiques (bois, acrylique, cuir) à domicile ou en petite entreprise.",
-  "beginnerNotes": "Si le budget le permet et que vous voulez découper enseignes acrylique, produits bois ou lancer une boutique Etsy, la P2 est l’une des options bureau les plus capables. Si vous voulez surtout graver bijoux métal ou gobelets, regardez plutôt fibre ou diode — le CO₂ ne marque pas le métal nu.",
-  "proTips": "Associez compresseur et bonne assistance air pour des découpes acrylique plus propres. LightBurn débloque des flux avancés si vous dépassez xTool Creative Space. Planifiez l’évacuation avant déballage — la ventilation n’est pas optionnelle avec le CO₂.",
+  "beginnerNotes": "Si le budget le permet et que vous voulez découper enseignes acrylique, produits bois ou lancer une boutique Etsy, la P2 est l’une des options bureau les plus capables. Si vous voulez surtout graver bijoux métal ou gobelets, regardez plutôt fibre ou diode : le CO₂ ne marque pas le métal nu.",
+  "proTips": "Associez compresseur et bonne assistance air pour des découpes acrylique plus propres. LightBurn débloque des flux avancés si vous dépassez xTool Creative Space. Planifiez l’évacuation avant déballage : la ventilation n’est pas optionnelle avec le CO₂.",
   "bestFor": [
     "Petite entreprise",
     "Découpe acrylique et bois",
@@ -12,14 +12,14 @@
     "Vendeurs Etsy"
   ],
   "pros": [
-    "Vraie puissance découpe CO₂ — incomparable aux diodes pour acrylique et bois épais",
-    "Entièrement fermée avec verrouillages sécurité — plus sûre à domicile et en atelier",
+    "Vraie puissance découpe CO₂ : incomparable aux diodes pour acrylique et bois épais",
+    "Entièrement fermée avec verrouillages sécurité : plus sûre à domicile et en atelier",
     "Caméra intégrée pour alignement visuel et placement en série",
     "Grande surface pour un CO₂ bureau",
     "Communauté active et écosystème logiciel xTool solide"
   ],
   "cons": [
-    "Prix élevé — souvent 4–5× le coût d’une bonne diode",
+    "Prix élevé : souvent 4–5× le coût d’une bonne diode",
     "Encombrante et lourde ; pas portable",
     "Tube CO₂ durée limitée (~1 000–2 000 h) et coût de remplacement",
     "Ventilation ou évacuation extérieure requise",
@@ -62,9 +62,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser xTool P2 — xTool" },
-    { "alt": "Graveuse laser xTool P2 — xTool" },
-    { "alt": "Graveuse laser xTool P2 — xTool" },
-    { "alt": "Graveuse laser xTool P2 — xTool" }
+    { "alt": "Graveuse laser xTool P2 : xTool" },
+    { "alt": "Graveuse laser xTool P2 : xTool" },
+    { "alt": "Graveuse laser xTool P2 : xTool" },
+    { "alt": "Graveuse laser xTool P2 : xTool" }
   ]
 }

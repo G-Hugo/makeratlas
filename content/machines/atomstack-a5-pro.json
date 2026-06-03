@@ -5,7 +5,7 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Ultra-budget diode laser — minimum viable entry point",
+  "tagline": "Ultra-budget diode laser : minimum viable entry point",
   "tldr": "One of the cheapest ways to try laser engraving. Available up to 40W (combined diode modules). Fine for learning and small gifts, but expect compromises in build quality, safety features, and consistency.",
   "bestFor": [
     "Tight budget",
@@ -77,13 +77,13 @@
   ],
   "cons": [
     "Build quality and alignment vary unit to unit",
-    "40W label is marketing — real output is much lower",
+    "40W label is marketing : real output is much lower",
     "No enclosure, limited safety features",
     "May need significant tinkering out of the box",
     "Resale value low if you upgrade quickly"
   ],
   "beginnerNotes": "Honest advice: if you can afford $500–700, skip this and get an Ortur LM3 or Sculpfun S30. Buy Atomstack only when budget is truly fixed and you accept that you may outgrow it in months.",
-  "proTips": "Square the frame before first use. Replace the stock board if you hit firmware limits. Do not trust '40W' for business planning — test cut depth yourself on your unit.",
+  "proTips": "Square the frame before first use. Replace the stock board if you hit firmware limits. Do not trust '40W' for business planning : test cut depth yourself on your unit.",
   "primaryUse": "Lowest-cost experimentation with diode laser engraving on small wood and leather projects.",
   "rating": {
     "overall": 7.4,
@@ -102,19 +102,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a5-pro/01.webp",
-      "alt": "Atomstack A5 Pro laser engraver — Atomstack"
+      "alt": "Atomstack A5 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro/02.jpg",
-      "alt": "Atomstack A5 Pro laser engraver — Atomstack"
+      "alt": "Atomstack A5 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro/03.jpg",
-      "alt": "Atomstack A5 Pro laser engraver — Atomstack"
+      "alt": "Atomstack A5 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro/04.jpg",
-      "alt": "Atomstack A5 Pro laser engraver — Atomstack"
+      "alt": "Atomstack A5 Pro laser engraver : Atomstack"
     }
   ],
   "modelLine": "atomstack-a5-pro",

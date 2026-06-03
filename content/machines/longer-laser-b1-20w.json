@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/longer-laser-b1-20w/01.webp",
-  "tagline": "20W Longer's large-format diode — bigger bed than Ray5 for sign-sized projects",
-  "tldr": "Longer Laser B1 20W is the 20W SKU on the Longer longer laser b1 line. Longer's large-format B1 20W diode — this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tagline": "20W Longer's large-format diode : bigger bed than Ray5 for sign-sized projects",
+  "tldr": "Longer Laser B1 20W is the 20W SKU on the Longer longer laser b1 line. Longer's large-format B1 20W diode : this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately. Verify optical power on the listing : do not assume combined-watt marketing.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -19,7 +19,7 @@
     "min": 499,
     "max": 699,
     "currency": "USD",
-    "note": "20W optical module — verify SKU before buying"
+    "note": "20W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "20W diode",
@@ -73,17 +73,17 @@
     ]
   },
   "pros": [
-    "20W Longer's large-format diode — bigger bed than Ray5 for sign-sized projects",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "20W Longer's large-format diode : bigger bed than Ray5 for sign-sized projects",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 450 × 440 mm (base; extensions available) on this chassis",
     "Software: Longer Laser Tool · LightBurn",
-    "Balanced engrave and cut — typical 8 mm basswood in multiple passes",
+    "Balanced engrave and cut : typical 8 mm basswood in multiple passes",
     "Reference engrave job on this module: ~18–28 min",
     "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
     "Higher modules in this line (30W or 40W) add cut speed and depth",
-    "Verify the 20W SKU — same chassis, different modules",
+    "Verify the 20W SKU : same chassis, different modules",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 20W module on Longer Laser B1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -106,19 +106,19 @@
   "images": [
     {
       "src": "/machines/longer-laser-b1-20w/01.webp",
-      "alt": "Longer Laser B1 20W laser engraver — Longer"
+      "alt": "Longer Laser B1 20W laser engraver : Longer"
     },
     {
       "src": "/machines/longer-laser-b1-20w/02.jpg",
-      "alt": "Longer Laser B1 20W laser engraver — Longer"
+      "alt": "Longer Laser B1 20W laser engraver : Longer"
     },
     {
       "src": "/machines/longer-laser-b1-20w/03.jpg",
-      "alt": "Longer Laser B1 20W laser engraver — Longer"
+      "alt": "Longer Laser B1 20W laser engraver : Longer"
     },
     {
       "src": "/machines/longer-laser-b1-20w/04.jpg",
-      "alt": "Longer Laser B1 20W laser engraver — Longer"
+      "alt": "Longer Laser B1 20W laser engraver : Longer"
     }
   ],
   "powerRating": "20W",

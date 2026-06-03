@@ -5,7 +5,7 @@
   "brand": "Longer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Fast portable Longer — 12W with high traverse and rotary options",
+  "tagline": "Fast portable Longer : 12W with high traverse and rotary options",
   "tldr": "Longer Nano Pro 12W is a premium portable diode with very high advertised speeds and rotary/slide accessories. Niche machine for makers who need portability with more punch than 6W minis.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
@@ -69,16 +69,16 @@
     ]
   },
   "pros": [
-    "Fast portable Longer — 12W with high traverse and rotary options",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Fast portable Longer : 12W with high traverse and rotary options",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 130 × 130 mm (extendable with slide) on this chassis",
     "Software: Longer Laser · LightBurn",
-    "12W on Longer Nano Pro: engraving-first — photo fills and leather at moderate speeds",
+    "12W on Longer Nano Pro: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~12–18 min",
     "Reference cut job on this module: ~6–10 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
     "Not the SKU for a shop cutting 5 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
   ],
@@ -107,11 +107,11 @@
   "images": [
     {
       "src": "/machines/longer-nano-pro-12w/01.webp",
-      "alt": "Longer Nano Pro 12W laser engraver — Longer"
+      "alt": "Longer Nano Pro 12W laser engraver : Longer"
     },
     {
       "src": "/machines/longer-nano-pro-12w/02.jpg",
-      "alt": "Longer Nano Pro 12W laser engraver — Longer"
+      "alt": "Longer Nano Pro 12W laser engraver : Longer"
     }
   ],
   "tierEditorialOverride": false

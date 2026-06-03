@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/foxaliens-reisler-2/01.webp",
-  "tagline": "FoxAlien's 20W open-frame — CNC brand crossing into lasers",
+  "tagline": "FoxAlien's 20W open-frame : CNC brand crossing into lasers",
   "tldr": "FoxAlien brings CNC-adjacent build quality to a 20W diode platform. Solid alternative to Ortur/Sculpfun for makers who already trust the FoxAlien ecosystem from CNC routers.",
   "mainObjective": "20W diode engraving and light cutting for FoxAlien ecosystem users",
   "bestFor": [
@@ -100,19 +100,19 @@
   "images": [
     {
       "src": "/machines/foxaliens-reisler-2/01.webp",
-      "alt": "FoxAlien Reisler 2 laser engraver — FoxAlien"
+      "alt": "FoxAlien Reisler 2 laser engraver : FoxAlien"
     },
     {
       "src": "/machines/foxaliens-reisler-2/02.jpg",
-      "alt": "FoxAlien Reisler 2 laser engraver — FoxAlien"
+      "alt": "FoxAlien Reisler 2 laser engraver : FoxAlien"
     },
     {
       "src": "/machines/foxaliens-reisler-2/03.jpg",
-      "alt": "FoxAlien Reisler 2 laser engraver — FoxAlien"
+      "alt": "FoxAlien Reisler 2 laser engraver : FoxAlien"
     },
     {
       "src": "/machines/foxaliens-reisler-2/04.jpg",
-      "alt": "FoxAlien Reisler 2 laser engraver — FoxAlien"
+      "alt": "FoxAlien Reisler 2 laser engraver : FoxAlien"
     }
   ],
   "powerRating": "20W",

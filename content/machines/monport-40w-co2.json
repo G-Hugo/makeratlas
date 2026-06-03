@@ -100,15 +100,15 @@
   "images": [
     {
       "src": "/machines/monport-40w-co2/01.webp",
-      "alt": "Monport 40W CO₂ laser engraver — Monport"
+      "alt": "Monport 40W CO₂ laser engraver : Monport"
     },
     {
       "src": "/machines/monport-40w-co2/02.webp",
-      "alt": "Monport 40W CO₂ laser engraver — Monport"
+      "alt": "Monport 40W CO₂ laser engraver : Monport"
     },
     {
       "src": "/machines/monport-40w-co2/03.webp",
-      "alt": "Monport 40W CO₂ laser engraver — Monport"
+      "alt": "Monport 40W CO₂ laser engraver : Monport"
     }
   ],
   "powerRating": "40W",

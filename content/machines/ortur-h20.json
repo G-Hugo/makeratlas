@@ -5,8 +5,8 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Ortur's modular H20 platform — pick your optical power tier",
-  "tldr": "Umbrella listing for the Ortur H20 line. Choose a specific 10W, 20W, or 40W SKU — optional 2W IR module for metal marking on some bundles.",
+  "tagline": "Ortur's modular H20 platform : pick your optical power tier",
+  "tldr": "Umbrella listing for the Ortur H20 line. Choose a specific 10W, 20W, or 40W SKU : optional 2W IR module for metal marking on some bundles.",
   "mainObjective": "Navigate Ortur H20 power tiers",
   "bestFor": [
     "Ortur upgrades"
@@ -87,19 +87,19 @@
   "images": [
     {
       "src": "/machines/ortur-h20/01.webp",
-      "alt": "Ortur H20 10W laser engraver — Ortur"
+      "alt": "Ortur H20 10W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-h20/02.webp",
-      "alt": "Ortur H20 10W laser engraver — Ortur"
+      "alt": "Ortur H20 10W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-h20/03.webp",
-      "alt": "Ortur H20 10W laser engraver — Ortur"
+      "alt": "Ortur H20 10W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-h20/04.webp",
-      "alt": "Ortur H20 10W laser engraver — Ortur"
+      "alt": "Ortur H20 10W laser engraver : Ortur"
     }
   ]
 }

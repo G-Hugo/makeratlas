@@ -1,10 +1,10 @@
 {
-  "tagline": "A1 Pro fermée double source — diode plus infrarouge pour plus de matériaux",
+  "tagline": "A1 Pro fermée double source : diode plus infrarouge pour plus de matériaux",
   "tldr": "La Creality Falcon A1 Pro 20W ajoute une configuration double laser dans un châssis fermé pour une gravure plus rapide et du marquage métal/plastique. Juste milieu entre l'A1 10W et la gamme ouverte Falcon 2 Pro 40W.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Creality double source fermée pour le travail mixte petite entreprise.",
   "beginnerNotes": "Ce profil décrit le module 20W de Creality Falcon A1 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Testez chaque source laser sur des chutes — IR et diode demandent des réglages différents.",
+  "proTips": "Testez chaque source laser sur des chutes : IR et diode demandent des réglages différents.",
   "bestFor": [
     "Gravure + découpe",
     "Side business",
@@ -12,16 +12,16 @@
     "Petites séries"
   ],
   "pros": [
-    "A1 Pro fermée double source — diode plus infrarouge pour plus de matériaux",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "A1 Pro fermée double source : diode plus infrarouge pour plus de matériaux",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 250 × 250 mm (approx.) sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
     "Exemple gravure de référence sur ce module : ~8–12 min",
     "Exemple découpe de référence sur ce module : ~4–7 min"
   ],
   "cons": [
-    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Vérifiez le SKU 20W : même châssis, modules différents",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -66,16 +66,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Creality Falcon A1 Pro 20W — Creality"
+      "alt": "Graveuse laser Creality Falcon A1 Pro 20W : Creality"
     },
     {
-      "alt": "Graveuse laser Creality Falcon A1 Pro 20W — Creality"
+      "alt": "Graveuse laser Creality Falcon A1 Pro 20W : Creality"
     },
     {
-      "alt": "Graveuse laser Creality Falcon A1 Pro 20W — Creality"
+      "alt": "Graveuse laser Creality Falcon A1 Pro 20W : Creality"
     },
     {
-      "alt": "Graveuse laser Creality Falcon A1 Pro 20W — Creality"
+      "alt": "Graveuse laser Creality Falcon A1 Pro 20W : Creality"
     }
   ]
 }

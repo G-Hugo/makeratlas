@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "image": "/machines/xtool-f2-ultra/01.webp",
-  "tagline": "Next-gen compact fiber + diode — faster metal marking, larger than F1",
-  "tldr": "xTool's updated dual-laser desktop builds on F1 Ultra with improved speed and workflow. Still a metal-marking specialist with small default bed. Premium price for jewelry, tools, and batch metal personalization — not a general workshop replacement.",
+  "tagline": "Next-gen compact fiber + diode : faster metal marking, larger than F1",
+  "tldr": "xTool's updated dual-laser desktop builds on F1 Ultra with improved speed and workflow. Still a metal-marking specialist with small default bed. Premium price for jewelry, tools, and batch metal personalization : not a general workshop replacement.",
   "mainObjective": "High-speed compact metal marking plus bonus diode for wood & leather",
   "bestFor": [
     "Metal batch marking",
@@ -85,7 +85,7 @@
     "Compact class limits product dimensions"
   ],
   "beginnerNotes": "Only buy after you have confirmed metal is 70%+ of your work. Wood-primary makers should buy D1 Pro or P2 instead.",
-  "proTips": "Use conveyor for dog tags and flat blanks. Keep fiber and diode settings libraries separate — power curves are not interchangeable.",
+  "proTips": "Use conveyor for dog tags and flat blanks. Keep fiber and diode settings libraries separate : power curves are not interchangeable.",
   "primaryUse": "Professional compact dual-laser for high-speed metal marking and small organic-material engraving.",
   "rating": {
     "overall": 9,
@@ -100,8 +100,8 @@
   ],
   "faq": [
     {
-      "question": "F2 Ultra vs F1 Ultra — worth upgrading?",
-      "answer": "If you already run F1 Ultra at production capacity, F2's speed gains may justify it. New buyers should compare bundle pricing — F1 Ultra discounts may offer better value if speed difference is not critical."
+      "question": "F2 Ultra vs F1 Ultra : worth upgrading?",
+      "answer": "If you already run F1 Ultra at production capacity, F2's speed gains may justify it. New buyers should compare bundle pricing : F1 Ultra discounts may offer better value if speed difference is not critical."
     }
   ],
   "status": "published",
@@ -109,19 +109,19 @@
   "images": [
     {
       "src": "/machines/xtool-f2-ultra/01.webp",
-      "alt": "xTool F2 Ultra laser engraver — xTool"
+      "alt": "xTool F2 Ultra laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-f2-ultra/02.webp",
-      "alt": "xTool F2 Ultra laser engraver — xTool"
+      "alt": "xTool F2 Ultra laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-f2-ultra/03.webp",
-      "alt": "xTool F2 Ultra laser engraver — xTool"
+      "alt": "xTool F2 Ultra laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-f2-ultra/04.webp",
-      "alt": "xTool F2 Ultra laser engraver — xTool"
+      "alt": "xTool F2 Ultra laser engraver : xTool"
     }
   ],
   "powerRating": "20W",

@@ -3,8 +3,8 @@
   "tldr": "La diode ouverte haut de gamme de Creality à 60W combinés (classe 22W optique). Pompe à air intégrée et gravure couleur optionnelle sur inox par oxydation thermique. Position intermédiaire intéressante, mais vérifiez la profondeur de découpe réelle sur vos matériaux.",
   "mainObjective": "Diode haute puissance avec assistance air intégrée et effets métal couleur",
   "primaryUse": "Diode loisir haute puissance pour gravure et découpe modérée, avec effets couleur optionnels sur acier inoxydable.",
-  "beginnerNotes": "Ne l'achetez pas pour le « 60W » seul — comparez puissance optique et tests de découpe. Bon choix si vous voulez l'assistance air incluse et des effets inox couleur pour bijoux ou couteaux.",
-  "proTips": "Le marquage couleur exige un contrôle précis vitesse/puissance — entraînez-vous sur de l'inox de récupération. Utilisez LightBurn pour le travail sérieux. Prévoyez une extraction correcte — l'assistance air intégrée aide les découpes mais ne remplace pas la ventilation.",
+  "beginnerNotes": "Ne l'achetez pas pour le « 60W » seul : comparez puissance optique et tests de découpe. Bon choix si vous voulez l'assistance air incluse et des effets inox couleur pour bijoux ou couteaux.",
+  "proTips": "Le marquage couleur exige un contrôle précis vitesse/puissance : entraînez-vous sur de l'inox de récupération. Utilisez LightBurn pour le travail sérieux. Prévoyez une extraction correcte : l'assistance air intégrée aide les découpes mais ne remplace pas la ventilation.",
   "bestFor": [
     "Effets métal couleur",
     "Assistance air intégrée",
@@ -12,18 +12,18 @@
     "Découpe diode puissante"
   ],
   "pros": [
-    "Assistance air intégrée — un accessoire de moins à acheter",
-    "Gravure couleur sur inox — argument de vente unique",
+    "Assistance air intégrée : un accessoire de moins à acheter",
+    "Gravure couleur sur inox : argument de vente unique",
     "Solides performances dans le segment diode haute puissance",
     "Prise en charge LightBurn",
     "Marque Creality familière pour les propriétaires d'imprimantes 3D"
   ],
   "cons": [
-    "Le chiffre marketing 60W embrouille les débutants — la puissance optique est inférieure",
-    "Structure ouverte haute puissance — prenez la sécurité au sérieux",
+    "Le chiffre marketing 60W embrouille les débutants : la puissance optique est inférieure",
+    "Structure ouverte haute puissance : prenez la sécurité au sérieux",
     "Logiciel laser Creality moins mature que xTool",
     "Effet métal couleur de niche, pas une base commerciale à lui seul",
-    "Unité lourde — moins portable qu'il n'y paraît"
+    "Unité lourde : moins portable qu'il n'y paraît"
   ],
   "materials": {
     "engrave": [
@@ -57,9 +57,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Creality Falcon2 Pro — Creality" },
-    { "alt": "Graveuse laser Creality Falcon2 Pro — Creality" },
-    { "alt": "Graveuse laser Creality Falcon2 Pro — Creality" },
-    { "alt": "Graveuse laser Creality Falcon2 Pro — Creality" }
+    { "alt": "Graveuse laser Creality Falcon2 Pro : Creality" },
+    { "alt": "Graveuse laser Creality Falcon2 Pro : Creality" },
+    { "alt": "Graveuse laser Creality Falcon2 Pro : Creality" },
+    { "alt": "Graveuse laser Creality Falcon2 Pro : Creality" }
   ]
 }

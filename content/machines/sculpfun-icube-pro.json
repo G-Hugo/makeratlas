@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/sculpfun-icube-pro/01.webp",
-  "tagline": "Compact enclosed Sculpfun — small footprint, full safety cabinet",
+  "tagline": "Compact enclosed Sculpfun : small footprint, full safety cabinet",
   "tldr": "Sculpfun's enclosed desktop laser for makers who want the brand's cutting performance in a safer cabinet. Smaller bed than S30 Ultra but fits tight desks. Good middle ground between open Sculpfun and premium xTool S1.",
   "mainObjective": "Compact enclosed Sculpfun for desk engraving with less smoke escape",
   "bestFor": [
@@ -84,7 +84,7 @@
     "Ventilation still recommended for cutting"
   ],
   "beginnerNotes": "Buy iCube Pro when desk space and enclosure matter. Buy S30 Ultra when work area and cutting thickness matter more.",
-  "proTips": "Use Sculpfun community presets as starting points — dial back 10–15% speed inside enclosure if char increases due to heat buildup.",
+  "proTips": "Use Sculpfun community presets as starting points : dial back 10–15% speed inside enclosure if char increases due to heat buildup.",
   "primaryUse": "Compact enclosed diode for small-space home offices doing engraving and light cuts on wood and leather.",
   "rating": {
     "overall": 8.2,
@@ -103,19 +103,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-icube-pro/01.webp",
-      "alt": "Sculpfun iCube Pro laser engraver — Sculpfun"
+      "alt": "Sculpfun iCube Pro laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-icube-pro/02.jpg",
-      "alt": "Sculpfun iCube Pro laser engraver — Sculpfun"
+      "alt": "Sculpfun iCube Pro laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-icube-pro/03.jpg",
-      "alt": "Sculpfun iCube Pro laser engraver — Sculpfun"
+      "alt": "Sculpfun iCube Pro laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-icube-pro/04.jpg",
-      "alt": "Sculpfun iCube Pro laser engraver — Sculpfun"
+      "alt": "Sculpfun iCube Pro laser engraver : Sculpfun"
     }
   ],
   "modelLine": "sculpfun-icube-pro",

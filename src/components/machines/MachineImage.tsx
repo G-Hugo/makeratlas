@@ -4,7 +4,7 @@ import type { Machine } from "@/types/machine";
 
 interface MachineImageProps {
   machine: Pick<Machine, "name" | "brand" | "slug" | "image" | "images" | "laserType">;
-  /** Explicit hero URL — must match catalog card and detail page slide 1. */
+  /** Explicit hero URL : must match catalog card and detail page slide 1. */
   heroSrc?: string;
   priority?: boolean;
   className?: string;

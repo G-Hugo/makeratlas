@@ -5,8 +5,8 @@
   "brand": "AlgoLaser",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "AlgoLaser DIY Kit Mini — smallest modular AlgoLaser line",
-  "tldr": "AlgoLaser DIY Kit Mini is the compact kit engraver — minimal footprint, 5W/10W class modules, for desk gifts and learning without full MK2 size.",
+  "tagline": "AlgoLaser DIY Kit Mini : smallest modular AlgoLaser line",
+  "tldr": "AlgoLaser DIY Kit Mini is the compact kit engraver : minimal footprint, 5W/10W class modules, for desk gifts and learning without full MK2 size.",
   "mainObjective": "Ultra-compact AlgoLaser kit for small engraves",
   "bestFor": [
     "Desk space",
@@ -74,7 +74,7 @@
     "Assembly required"
   ],
   "beginnerNotes": "Choose 10W Mini if cutting thin wood matters; 5W is engraving-first.",
-  "proTips": "Mini is great for kids’ projects with supervision — still real laser safety.",
+  "proTips": "Mini is great for kids’ projects with supervision : still real laser safety.",
   "primaryUse": "Compact kit engraving.",
   "rating": {
     "overall": 7.8,
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/algolaser-diy-kit-mini/01.webp",
-      "alt": "AlgoLaser DIY Kit Mini laser engraver — AlgoLaser"
+      "alt": "AlgoLaser DIY Kit Mini laser engraver : AlgoLaser"
     },
     {
       "src": "/machines/algolaser-diy-kit-mini/02.jpg",
-      "alt": "AlgoLaser DIY Kit Mini laser engraver — AlgoLaser"
+      "alt": "AlgoLaser DIY Kit Mini laser engraver : AlgoLaser"
     },
     {
       "src": "/machines/algolaser-diy-kit-mini/03.jpg",
-      "alt": "AlgoLaser DIY Kit Mini laser engraver — AlgoLaser"
+      "alt": "AlgoLaser DIY Kit Mini laser engraver : AlgoLaser"
     },
     {
       "src": "/machines/algolaser-diy-kit-mini/04.jpg",
-      "alt": "AlgoLaser DIY Kit Mini laser engraver — AlgoLaser"
+      "alt": "AlgoLaser DIY Kit Mini laser engraver : AlgoLaser"
     }
   ]
 }

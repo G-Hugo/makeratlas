@@ -1,6 +1,6 @@
 {
   "tagline": "Découpeuse laser fibre industrielle pour tôle métal (pas un marqueur bureau)",
-  "tldr": "L’OMTech FC-105 est une plateforme de découpe laser fibre pour tôle — une classe différente des marqueurs galvo bureau. Répertoriée pour les acheteurs cherchant « laser fibre » et devant distinguer découpeuses et marqueurs.",
+  "tldr": "L’OMTech FC-105 est une plateforme de découpe laser fibre pour tôle : une classe différente des marqueurs galvo bureau. Répertoriée pour les acheteurs cherchant « laser fibre » et devant distinguer découpeuses et marqueurs.",
   "mainObjective": "Découpe fibre tôle pour ateliers de fabrication",
   "primaryUse": "Découpe laser fibre industrielle tôle métal.",
   "beginnerNotes": "Ne confondez pas avec les marqueurs fibre 20–50 W. C’est pour les ateliers de fabrication métal.",
@@ -50,8 +50,8 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser OMTech FC-105 Fibre — OMTech" },
-    { "alt": "Graveuse laser OMTech FC-105 Fibre — OMTech" },
-    { "alt": "Graveuse laser OMTech FC-105 Fibre — OMTech" }
+    { "alt": "Graveuse laser OMTech FC-105 Fibre : OMTech" },
+    { "alt": "Graveuse laser OMTech FC-105 Fibre : OMTech" },
+    { "alt": "Graveuse laser OMTech FC-105 Fibre : OMTech" }
   ]
 }

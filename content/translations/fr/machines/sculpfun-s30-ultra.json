@@ -1,10 +1,10 @@
 ﻿{
-  "tagline": "Forte découpe pour un diode — montée en gamme populaire depuis l’entrée de gamme",
+  "tagline": "Forte découpe pour un diode : montée en gamme populaire depuis l’entrée de gamme",
   "tldr": "Le diode structure ouverte flagship de Sculpfun, jusqu’à 20 W et châssis robuste. Réputé pour une découpe au-dessus de la moyenne sur bois fin grâce à la compression du faisceau. Choix fréquent pour makers qui veulent plus de puissance sans les prix CO₂.",
   "mainObjective": "Forte découpe et gravure diode sans tarif CO₂",
   "primaryUse": "Diode loisir milieu de gamme orientée gravure et découpe modérée de matériaux organiques.",
   "beginnerNotes": "Choisissez le S30 Ultra plutôt qu’un Ortur basique si la découpe de bois fin compte. Pour la gravure seule, économisez avec un 10 W. Prévoyez assistance air, plateau alvéolé et lunettes.",
-  "proTips": "Sculpfun publie des cartes de test matériaux — servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
+  "proTips": "Sculpfun publie des cartes de test matériaux : servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
   "bestFor": [
     "Découpe bois fin",
     "Montées en gamme loisir",
@@ -19,10 +19,10 @@
     "Base utilisateurs active avec réglages testés"
   ],
   "cons": [
-    "Structure ouverte — sécurité entièrement à votre charge",
+    "Structure ouverte : sécurité entièrement à votre charge",
     "USB seul sur beaucoup de configs (pas de Wi-Fi)",
     "Support et doc moins soignés que xTool",
-    "Toujours un diode — calibrez vos attentes vs CO₂",
+    "Toujours un diode : calibrez vos attentes vs CO₂",
     "Montage et équerrage demandent de la patience"
   ],
   "materials": {
@@ -57,9 +57,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Sculpfun S30 Ultra — Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S30 Ultra — Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S30 Ultra — Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S30 Ultra — Sculpfun" }
+    { "alt": "Graveuse laser Sculpfun S30 Ultra : Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S30 Ultra : Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S30 Ultra : Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S30 Ultra : Sculpfun" }
   ]
 }

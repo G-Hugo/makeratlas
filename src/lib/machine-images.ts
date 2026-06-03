@@ -4,7 +4,7 @@ function heroAlt(machine: Pick<Machine, "name" | "brand">, fallback?: string): s
   return fallback?.trim() || `${machine.name} laser engraver by ${machine.brand}`;
 }
 
-/** Card + detail page hero — same path as `machine.image`. */
+/** Card + detail page hero : same path as `machine.image`. */
 export function getPrimaryImage(machine: Pick<Machine, "image" | "images">): string {
   return machine.image || machine.images?.[0]?.src || "";
 }

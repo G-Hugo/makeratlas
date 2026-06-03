@@ -5,8 +5,8 @@
   "brand": "Monport",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "Monport desktop CO₂ with camera autofocus — 45W class",
-  "tldr": "Monport Reno45 Pro Vision adds camera-assisted autofocus and a 45W CO₂ tube in a desktop format. Strong acrylic/wood cutter for makers stepping up from diode — plan ventilation and space.",
+  "tagline": "Monport desktop CO₂ with camera autofocus : 45W class",
+  "tldr": "Monport Reno45 Pro Vision adds camera-assisted autofocus and a 45W CO₂ tube in a desktop format. Strong acrylic/wood cutter for makers stepping up from diode : plan ventilation and space.",
   "mainObjective": "Camera-assisted desktop CO₂ for signage and acrylic work",
   "bestFor": [
     "CO₂ upgrade",
@@ -101,7 +101,7 @@
   "images": [
     {
       "src": "/machines/monport-reno45-pro-45w/01.webp",
-      "alt": "Monport Reno45 Pro Vision 45W laser engraver — Monport"
+      "alt": "Monport Reno45 Pro Vision 45W laser engraver : Monport"
     }
   ]
 }

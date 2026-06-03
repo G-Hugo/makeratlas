@@ -5,8 +5,8 @@
   "brand": "Monport",
   "category": "laser-engraver",
   "laserType": "fiber",
-  "tagline": "Monport GA 100W MOPA — deep metal engraving and color effects",
-  "tldr": "Monport GA 100W MOPA targets serious metal engraving shops needing deep marks and color on stainless. Industrial pricing and footprint — not a desktop B4-class galvo.",
+  "tagline": "Monport GA 100W MOPA : deep metal engraving and color effects",
+  "tldr": "Monport GA 100W MOPA targets serious metal engraving shops needing deep marks and color on stainless. Industrial pricing and footprint : not a desktop B4-class galvo.",
   "mainObjective": "High-power MOPA fiber for deep engraving and color metal work",
   "bestFor": [
     "Deep metal engraving",
@@ -98,11 +98,11 @@
   "images": [
     {
       "src": "/machines/monport-ga-100w-fiber/01.webp",
-      "alt": "Monport GA 100W MOPA Fiber laser engraver — Monport"
+      "alt": "Monport GA 100W MOPA Fiber laser engraver : Monport"
     },
     {
       "src": "/machines/monport-ga-100w-fiber/02.jpg",
-      "alt": "Monport GA 100W MOPA Fiber laser engraver — Monport"
+      "alt": "Monport GA 100W MOPA Fiber laser engraver : Monport"
     }
   ]
 }

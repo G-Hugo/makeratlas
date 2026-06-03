@@ -5,8 +5,8 @@
   "brand": "LaserPecker",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "LaserPecker LP1 Plus — pocket engraver step above LP1 Pro",
-  "tldr": "LaserPecker LP1 Plus sits between LP1 Pro and LP2 in the pocket line — still ultra-compact, app-first, for jewelry-scale and travel engraving rather than sheet goods.",
+  "tagline": "LaserPecker LP1 Plus : pocket engraver step above LP1 Pro",
+  "tldr": "LaserPecker LP1 Plus sits between LP1 Pro and LP2 in the pocket line : still ultra-compact, app-first, for jewelry-scale and travel engraving rather than sheet goods.",
   "mainObjective": "Compact LaserPecker for maximum portability",
   "bestFor": [
     "Travel",
@@ -94,7 +94,7 @@
   "images": [
     {
       "src": "/machines/laserpecker-lp1-plus/01.webp",
-      "alt": "LaserPecker LP1 Plus laser engraver — LaserPecker"
+      "alt": "LaserPecker LP1 Plus laser engraver : LaserPecker"
     }
   ]
 }

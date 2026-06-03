@@ -5,7 +5,7 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Acmer open-frame P1 line — 10W and 20W SKUs",
+  "tagline": "Acmer open-frame P1 line : 10W and 20W SKUs",
   "tldr": "Umbrella for Acmer P1 laser engravers. Select 10W or 20W tier for pricing and performance.",
   "mainObjective": "Navigate Acmer P1 power options",
   "bestFor": [
@@ -87,19 +87,19 @@
   "images": [
     {
       "src": "/machines/acmer-p1/01.webp",
-      "alt": "Acmer P1 10W laser engraver — Acmer"
+      "alt": "Acmer P1 10W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-p1/02.jpg",
-      "alt": "Acmer P1 10W laser engraver — Acmer"
+      "alt": "Acmer P1 10W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-p1/03.webp",
-      "alt": "Acmer P1 10W laser engraver — Acmer"
+      "alt": "Acmer P1 10W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-p1/04.jpg",
-      "alt": "Acmer P1 10W laser engraver — Acmer"
+      "alt": "Acmer P1 10W laser engraver : Acmer"
     }
   ]
 }

@@ -122,7 +122,7 @@ export function machineCanCut(machine: Machine): boolean {
   return !cutExampleUnavailable(machine);
 }
 
-/** Primary job the machine is built for — shown on catalog cards. */
+/** Primary job the machine is built for : shown on catalog cards. */
 export function getMachineWorkFocus(machine: Machine): MachineWorkFocus {
   const canCut = machineCanCut(machine);
   const canEngrave = machine.materials.engrave.length > 0;

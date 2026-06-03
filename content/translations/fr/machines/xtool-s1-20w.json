@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode 20 W fermée — gravure domicile plus sûre avec découpe modérée",
+  "tagline": "Diode 20 W fermée : gravure domicile plus sûre avec découpe modérée",
   "tldr": "La S1 20 W est le bon rapport qualité-prix dans la ligne diode fermée xTool : même enceinte et filtres que la 40 W, mais moins de profondeur de découpe sur bois épais. Achetez-la si la sécurité compte et que vous gravez surtout.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Diode fermée loisir et petite activité pour gravure plus sûre à domicile et découpe modérée.",
   "beginnerNotes": "Ce profil décrit le module 20W de xTool S1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres — ils réduisent les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
+  "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres : ils réduisent les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
   "bestFor": [
     "Gravure + découpe",
     "Side business",
@@ -12,17 +12,17 @@
     "Petites séries"
   ],
   "pros": [
-    "Diode 20 W fermée — gravure domicile plus sûre avec découpe modérée",
-    "Cabine fermée — meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Tête laser interchangeable sur le même châssis — monter en puissance sans racheter la machine",
+    "Diode 20 W fermée : gravure domicile plus sûre avec découpe modérée",
+    "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
     "Surface utile 430 × 390 mm sur ce châssis",
     "Logiciels : xTool Creative Space · LightBurn",
-    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
     "Exemple gravure de référence sur ce module : ~9–14 min"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W — même châssis, modules différents"
+    "Vérifiez le SKU 20W : même châssis, modules différents"
   ],
   "materials": {
     "engrave": [
@@ -69,27 +69,27 @@
     },
     {
       "question": "Puis-je upgrader de 20 W à 40 W plus tard ?",
-      "answer": "Oui. Les têtes S1 sont interchangeables — achetez un module 40 W et montez-le sur la même enceinte (deux vis + connecteurs). Vous pouvez aussi ajouter le module IR 1064 nm 2 W optionnel pour plus de travail métal."
+      "answer": "Oui. Les têtes S1 sont interchangeables : achetez un module 40 W et montez-le sur la même enceinte (deux vis + connecteurs). Vous pouvez aussi ajouter le module IR 1064 nm 2 W optionnel pour plus de travail métal."
     },
     {
       "question": "La S1 est-elle un laser hybride comme la F1 Ultra ?",
-      "answer": "Non. La S1 est une plateforme diode avec têtes diode (ou IR) interchangeables. Les machines hybrides combinent fibre et diode dans un produit double source — catégorie différente."
+      "answer": "Non. La S1 est une plateforme diode avec têtes diode (ou IR) interchangeables. Les machines hybrides combinent fibre et diode dans un produit double source : catégorie différente."
     }
   ],
   "images": [
     {
-      "alt": "Graveuse laser xTool S1 20 W — xTool"
+      "alt": "Graveuse laser xTool S1 20 W : xTool"
     },
     {
-      "alt": "Graveuse laser xTool S1 20 W — xTool"
+      "alt": "Graveuse laser xTool S1 20 W : xTool"
     },
     {
-      "alt": "Graveuse laser xTool S1 20 W — xTool"
+      "alt": "Graveuse laser xTool S1 20 W : xTool"
     }
   ],
   "moduleSystem": {
     "headline": "Têtes laser interchangeables sur le boîtier S1",
-    "description": "La xTool S1 se vend avec différents modules diode (10 W, 20 W ou 40 W) ou en châssis nu — les têtes s’échangent avec deux vis et une prise. Un module infrarouge 1064 nm 2 W optionnel ajoute le marquage métal sans galvo fibre complet. Ce n’est pas une machine « hybride » : vous remplacez une tête à la fois.",
+    "description": "La xTool S1 se vend avec différents modules diode (10 W, 20 W ou 40 W) ou en châssis nu : les têtes s’échangent avec deux vis et une prise. Un module infrarouge 1064 nm 2 W optionnel ajoute le marquage métal sans galvo fibre complet. Ce n’est pas une machine « hybride » : vous remplacez une tête à la fois.",
     "options": [
       {
         "label": "Diode 10 W"

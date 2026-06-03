@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode Comgrow 10 W petit budget — souvent proposée en pack avec les imprimantes 3D",
-  "tldr": "La Comgrow Z1 10 W est le SKU 10 W de la gamme Comgrow Z1. La Z1 vise les débutants, souvent vendue aux côtés des imprimantes Ender 3D. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing en watts combinés.",
+  "tagline": "Diode Comgrow 10 W petit budget : souvent proposée en pack avec les imprimantes 3D",
+  "tldr": "La Comgrow Z1 10 W est le SKU 10 W de la gamme Comgrow Z1. La Z1 vise les débutants, souvent vendue aux côtés des imprimantes Ender 3D. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing en watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Diode ultra-budget pour tester si le travail au laser vous intéresse.",
   "beginnerNotes": "Ce profil décrit le module 10W de Comgrow Z1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Considérez-la comme des roues stabilisatrices — prévoyez une montée en gamme sous un an si vous vendez vos créations.",
+  "proTips": "Considérez-la comme des roues stabilisatrices : prévoyez une montée en gamme sous un an si vous vendez vos créations.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,16 +12,16 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Diode Comgrow 10 W petit budget — souvent proposée en pack avec les imprimantes 3D",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Diode Comgrow 10 W petit budget : souvent proposée en pack avec les imprimantes 3D",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 300 × 300 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Comgrow Z1 : priorité gravure — remplissages photo et cuir",
+    "10W sur Comgrow Z1 : priorité gravure : remplissages photo et cuir",
     "Exemple gravure de référence sur ce module : ~18–28 min",
     "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
@@ -43,7 +43,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 10 W — vérifiez le SKU avant d’acheter"
+    "note": "Module optique 10 W : vérifiez le SKU avant d’acheter"
   },
   "specs": {
     "performance": {
@@ -57,13 +57,13 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Comgrow Z1 10W — Comgrow"
+      "alt": "Graveuse laser Comgrow Z1 10W : Comgrow"
     },
     {
-      "alt": "Graveuse laser Comgrow Z1 10W — Comgrow"
+      "alt": "Graveuse laser Comgrow Z1 10W : Comgrow"
     },
     {
-      "alt": "Graveuse laser Comgrow Z1 10W — Comgrow"
+      "alt": "Graveuse laser Comgrow Z1 10W : Comgrow"
     }
   ]
 }

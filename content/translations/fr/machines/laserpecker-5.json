@@ -1,6 +1,6 @@
 {
   "tagline": "Dernier LaserPecker portable avec puissance et app améliorées",
-  "tldr": "Le LaserPecker LP5 combine sources fibre et diode pour marquage métal plus gravure organique dans un châssis portable. Machine spécialisée voyage/événement — pas un remplacement d’atelier complet.",
+  "tldr": "Le LaserPecker LP5 combine sources fibre et diode pour marquage métal plus gravure organique dans un châssis portable. Machine spécialisée voyage/événement : pas un remplacement d’atelier complet.",
   "mainObjective": "Fibre + diode portable pour gravure métal et bois sur place",
   "primaryUse": "Graveuse portable premium pour personnalisation sur site de petits objets.",
   "beginnerNotes": "Deuxième machine pour la portabilité, pas un remplacement d’un laser de bureau Ortur/xTool.",
@@ -55,9 +55,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser LaserPecker 5 — LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 5 — LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 5 — LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 5 — LaserPecker" }
+    { "alt": "Graveuse laser LaserPecker 5 : LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker 5 : LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker 5 : LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker 5 : LaserPecker" }
   ]
 }

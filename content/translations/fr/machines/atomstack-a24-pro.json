@@ -1,10 +1,10 @@
 {
   "tagline": "Atomstack compacte avec diode et marquage fibre dans une seule unité de bureau",
-  "tldr": "L’AtomStack A24 Pro réunit une graveuse diode et un marquage fibre dans un encombrement plus petit que deux machines séparées. Niche pour marquage métal à l’échelle bijouterie plus bois — ni fibre d’atelier complet ni diode haute puissance.",
+  "tldr": "L’AtomStack A24 Pro réunit une graveuse diode et un marquage fibre dans un encombrement plus petit que deux machines séparées. Niche pour marquage métal à l’échelle bijouterie plus bois : ni fibre d’atelier complet ni diode haute puissance.",
   "mainObjective": "Atomstack double source pour marquage métal et gravure organique",
   "primaryUse": "Hybride de bureau pour marquage métal mixte et petites gravures organiques.",
-  "beginnerNotes": "Choisissez-la si le marquage métal est régulier — passez votre chemin si vous ne gravez que le bois.",
-  "proTips": "Traitez fibre et diode comme des travaux séparés — fixations et réglages différents.",
+  "beginnerNotes": "Choisissez-la si le marquage métal est régulier : passez votre chemin si vous ne gravez que le bois.",
+  "proTips": "Traitez fibre et diode comme des travaux séparés : fixations et réglages différents.",
   "bestFor": [
     "Bureau bijouterie",
     "Plaques métalliques",
@@ -49,10 +49,10 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack A24 Pro — Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro — Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro — Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro — Atomstack" }
+    { "alt": "Graveuse laser AtomStack A24 Pro : Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Pro : Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Pro : Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Pro : Atomstack" }
   ],
   "moduleSystem": {
     "headline": "Gravure diode + marquage fibre",

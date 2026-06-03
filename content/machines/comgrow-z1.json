@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/comgrow-z1/01.webp",
-  "tagline": "Budget Comgrow diode — often bundled with 3D printer deals",
-  "tldr": "Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Adequate for learning. Performance similar to Atomstack A5 tier — not a long-term production machine.",
+  "tagline": "Budget Comgrow diode : often bundled with 3D printer deals",
+  "tldr": "Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Adequate for learning. Performance similar to Atomstack A5 tier : not a long-term production machine.",
   "mainObjective": "Cheapest Comgrow entry for light engraving experiments",
   "bestFor": [
     "Comgrow bundles",
@@ -79,7 +79,7 @@
     "Outgrow quickly if hobby sticks"
   ],
   "beginnerNotes": "Fine as a throw-in with a 3D printer purchase. As standalone laser, save for Ortur LM3 if possible.",
-  "proTips": "Treat as training wheels — budget for upgrade within a year if you sell products.",
+  "proTips": "Treat as training wheels : budget for upgrade within a year if you sell products.",
   "primaryUse": "Ultra-budget diode for testing whether laser work interests you.",
   "rating": {
     "overall": 7.3,
@@ -97,15 +97,15 @@
   "images": [
     {
       "src": "/machines/comgrow-z1/01.webp",
-      "alt": "Comgrow Z1 laser engraver — Comgrow"
+      "alt": "Comgrow Z1 laser engraver : Comgrow"
     },
     {
       "src": "/machines/comgrow-z1/02.webp",
-      "alt": "Comgrow Z1 laser engraver — Comgrow"
+      "alt": "Comgrow Z1 laser engraver : Comgrow"
     },
     {
       "src": "/machines/comgrow-z1/03.webp",
-      "alt": "Comgrow Z1 laser engraver — Comgrow"
+      "alt": "Comgrow Z1 laser engraver : Comgrow"
     }
   ],
   "modelLine": "comgrow-z1",

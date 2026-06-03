@@ -5,7 +5,7 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Class 1 enclosed Atomstack — safe desktop engraving for home and schools",
+  "tagline": "Class 1 enclosed Atomstack : safe desktop engraving for home and schools",
   "tldr": "AtomStack P1 is a fully enclosed Class 1 diode engraver (5W) with optional dual-laser (diode + infrared) bundles. Ideal when safety and quiet operation matter more than raw cutting power.",
   "mainObjective": "Safe enclosed engraving for beginners, families, and classrooms",
   "bestFor": [
@@ -72,7 +72,7 @@
     ]
   },
   "pros": [
-    "Class 1 enclosure — no goggles for normal use",
+    "Class 1 enclosure : no goggles for normal use",
     "Very compact footprint",
     "Quiet operation",
     "Dual-laser option for metal"
@@ -84,7 +84,7 @@
     "Not for signage business"
   ],
   "beginnerNotes": "Excellent 'first laser' when safety trumps maximum power.",
-  "proTips": "Choose dual bundle only if you need metal marking — otherwise 5W diode is enough to learn.",
+  "proTips": "Choose dual bundle only if you need metal marking : otherwise 5W diode is enough to learn.",
   "primaryUse": "Safe enclosed intro laser for home crafters and education.",
   "rating": {
     "overall": 8,
@@ -108,19 +108,19 @@
   "images": [
     {
       "src": "/machines/atomstack-p1/01.webp",
-      "alt": "AtomStack P1 5W laser engraver — Atomstack"
+      "alt": "AtomStack P1 5W laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-p1/02.jpg",
-      "alt": "AtomStack P1 5W laser engraver — Atomstack"
+      "alt": "AtomStack P1 5W laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-p1/03.jpg",
-      "alt": "AtomStack P1 5W laser engraver — Atomstack"
+      "alt": "AtomStack P1 5W laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-p1/04.jpg",
-      "alt": "AtomStack P1 5W laser engraver — Atomstack"
+      "alt": "AtomStack P1 5W laser engraver : Atomstack"
     }
   ]
 }

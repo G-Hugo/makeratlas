@@ -6,9 +6,9 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/ortur-laser-master-h10-40w/01.webp",
-  "tagline": "40W Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
-  "tldr": "Ortur Laser Master H10 40W is the 40W SKU on the Ortur ortur laser master h10 line. The H10 is Ortur's step up from the open-frame LM3 line: a more integrated chassis with up to 20W diode power and higher advertised traverse speeds. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
+  "tagline": "40W Ortur's enclosed-style H-series : faster frame, tighter integration than LM3",
+  "tldr": "Ortur Laser Master H10 40W is the 40W SKU on the Ortur ortur laser master h10 line. The H10 is Ortur's step up from the open-frame LM3 line: a more integrated chassis with up to 20W diode power and higher advertised traverse speeds. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -19,7 +19,7 @@
     "min": 649,
     "max": 899,
     "currency": "USD",
-    "note": "40W optical module — verify SKU before buying"
+    "note": "40W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "40W diode",
@@ -74,17 +74,17 @@
     ]
   },
   "pros": [
-    "40W Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "40W Ortur's enclosed-style H-series : faster frame, tighter integration than LM3",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 400 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
     "40W: the most cut-focused head in the Ortur Laser Master H10 line",
     "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode — clear acrylic production wants CO₂",
+    "Still a diode : clear acrylic production wants CO₂",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 40W module on Ortur Laser Master H10. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -107,19 +107,19 @@
   "images": [
     {
       "src": "/machines/ortur-laser-master-h10-40w/01.webp",
-      "alt": "Ortur Laser Master H10 40W laser engraver — Ortur"
+      "alt": "Ortur Laser Master H10 40W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-h10-40w/02.jpg",
-      "alt": "Ortur Laser Master H10 40W laser engraver — Ortur"
+      "alt": "Ortur Laser Master H10 40W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-h10-40w/03.webp",
-      "alt": "Ortur Laser Master H10 40W laser engraver — Ortur"
+      "alt": "Ortur Laser Master H10 40W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-h10-40w/04.webp",
-      "alt": "Ortur Laser Master H10 40W laser engraver — Ortur"
+      "alt": "Ortur Laser Master H10 40W laser engraver : Ortur"
     }
   ],
   "modelLine": "ortur-laser-master-h10",

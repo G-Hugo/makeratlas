@@ -23,9 +23,9 @@ const item = (name: string, description: string) => ({ name, description });
 
 export const accessoriesEn: AccessoriesCopy = {
   title: "Accessories & add-ons",
-  subtitle: "Typical inclusions and add-ons for this profile — confirm your SKU.",
+  subtitle: "Typical inclusions and add-ons for this profile : confirm your SKU.",
   tabsAriaLabel: "Accessory categories",
-  footnote: "Editorial guidance — not a live parts list. See also:",
+  footnote: "Editorial guidance : not a live parts list. See also:",
   ventilationGuide: "Ventilation setup",
   safetyGuide: "Safety basics",
   availability: {
@@ -56,7 +56,7 @@ export const accessoriesEn: AccessoriesCopy = {
     ),
     "exhaust-vent": item(
       "Outdoor exhaust / ducting",
-      "Inline fan + hose to window or wall cap — see ventilation guide.",
+      "Inline fan + hose to window or wall cap : see ventilation guide.",
     ),
     "smoke-filter": item(
       "Smoke filter / cartridge packs",
@@ -68,7 +68,7 @@ export const accessoriesEn: AccessoriesCopy = {
     ),
     "air-assist": item(
       "Air assist",
-      "Compressed air at the nozzle — cleaner cuts, less char.",
+      "Compressed air at the nozzle : cleaner cuts, less char.",
     ),
     "honeycomb-bed": item(
       "Honeycomb cutting bed",
@@ -84,7 +84,7 @@ export const accessoriesEn: AccessoriesCopy = {
     ),
     "rotary-chuck": item(
       "Rotary chuck",
-      "Rings and small cylinders — verify mount compatibility.",
+      "Rings and small cylinders : verify mount compatibility.",
     ),
     "extension-rail": item(
       "Extension rails / pass-through",
@@ -96,16 +96,16 @@ export const accessoriesEn: AccessoriesCopy = {
     ),
     lightburn: item(
       "LightBurn license",
-      "Advanced control software — check controller compatibility.",
+      "Advanced control software : check controller compatibility.",
     ),
   },
 };
 
 export const accessoriesFr: AccessoriesCopy = {
   title: "Accessoires et options",
-  subtitle: "Inclus / options courantes pour ce profil — vérifiez votre référence.",
+  subtitle: "Inclus / options courantes pour ce profil : vérifiez votre référence.",
   tabsAriaLabel: "Catégories d’accessoires",
-  footnote: "Repères éditoriaux — pas une liste stock en temps réel. Voir aussi :",
+  footnote: "Repères éditoriaux : pas une liste stock en temps réel. Voir aussi :",
   ventilationGuide: "Guide ventilation",
   safetyGuide: "Bases sécurité",
   availability: {
@@ -148,7 +148,7 @@ export const accessoriesFr: AccessoriesCopy = {
     ),
     "air-assist": item(
       "Assist air",
-      "Air comprimé à la buse — coupes plus propres, moins de charbon.",
+      "Air comprimé à la buse : coupes plus propres, moins de charbon.",
     ),
     "honeycomb-bed": item(
       "Plateau nid d’abeille",
@@ -164,7 +164,7 @@ export const accessoriesFr: AccessoriesCopy = {
     ),
     "rotary-chuck": item(
       "Mandrin rotatif",
-      "Bagues et petits cylindres — vérifier la compatibilité du montage.",
+      "Bagues et petits cylindres : vérifier la compatibilité du montage.",
     ),
     "extension-rail": item(
       "Rails d’extension / pass-through",
@@ -176,7 +176,7 @@ export const accessoriesFr: AccessoriesCopy = {
     ),
     lightburn: item(
       "Licence LightBurn",
-      "Logiciel avancé — vérifier la compatibilité de la carte.",
+      "Logiciel avancé : vérifier la compatibilité de la carte.",
     ),
   },
 };

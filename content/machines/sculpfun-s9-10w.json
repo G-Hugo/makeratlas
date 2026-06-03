@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/sculpfun-s9-10w/01.webp",
-  "tagline": "10W Sculpfun's proven budget line — still popular for value-focused makers",
-  "tldr": "Sculpfun S9 10W is the 10W SKU on the Sculpfun sculpfun s9 line. Before S30 Ultra, the S9 was Sculpfun's workhorse. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tagline": "10W Sculpfun's proven budget line : still popular for value-focused makers",
+  "tldr": "Sculpfun S9 10W is the 10W SKU on the Sculpfun sculpfun s9 line. Before S30 Ultra, the S9 was Sculpfun's workhorse. Verify optical power on the listing : do not assume combined-watt marketing.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
     "Engraving-focused shops",
@@ -19,7 +19,7 @@
     "min": 299,
     "max": 449,
     "currency": "USD",
-    "note": "10W optical module — verify SKU before buying"
+    "note": "10W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "10W diode",
@@ -71,16 +71,16 @@
     ]
   },
   "pros": [
-    "10W Sculpfun's proven budget line — still popular for value-focused makers",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "10W Sculpfun's proven budget line : still popular for value-focused makers",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 410 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "10W on Sculpfun S9: engraving-first — photo fills and leather at moderate speeds",
+    "10W on Sculpfun S9: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~12–18 min",
     "Reference cut job on this module: ~6–10 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
     "Not the SKU for a shop cutting 5 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
   ],
@@ -104,19 +104,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s9-10w/01.webp",
-      "alt": "Sculpfun S9 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S9 10W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9-10w/02.jpg",
-      "alt": "Sculpfun S9 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S9 10W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9-10w/03.jpg",
-      "alt": "Sculpfun S9 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S9 10W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9-10w/04.jpg",
-      "alt": "Sculpfun S9 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S9 10W laser engraver : Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s9",

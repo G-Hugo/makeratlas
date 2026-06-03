@@ -1,10 +1,10 @@
 {
-  "tagline": "Galvo portable 2025 — diode 15 W + IR 5 W avec caméra 50 MP",
-  "tldr": "La xTool F2 (2025) améliore la formule F1 avec plus de puissance, une caméra d’alignement 50 MP et jusqu’à 6 000 mm/s en galvo. Double source (diode + infrarouge) pour marquage métal et organiques dans une boîte compacte — xTool Studio uniquement, pas LightBurn.",
+  "tagline": "Galvo portable 2025 : diode 15 W + IR 5 W avec caméra 50 MP",
+  "tldr": "La xTool F2 (2025) améliore la formule F1 avec plus de puissance, une caméra d’alignement 50 MP et jusqu’à 6 000 mm/s en galvo. Double source (diode + infrarouge) pour marquage métal et organiques dans une boîte compacte : xTool Studio uniquement, pas LightBurn.",
   "mainObjective": "Double laser portable rapide pour personnalisation sur site et petits lots métal + bois",
   "primaryUse": "Galvo compact 2025 pour marquage métal haute vitesse plus gravure et découpe légère sur organiques.",
   "beginnerNotes": "Choisissez F2 plutôt que F1 si vous vendez des objets métal personnalisés ou avez besoin d’alignement caméra en série. Les hobbyistes bois-only préféreront peut-être D1 Pro ou S1 pour le rapport surface/prix.",
-  "proTips": "Utilisez le convoyeur pour plaques et blanks plats. Gardez les bibliothèques matériaux IR et diode séparées — les courbes de puissance ne sont pas interchangeables.",
+  "proTips": "Utilisez le convoyeur pour plaques et blanks plats. Gardez les bibliothèques matériaux IR et diode séparées : les courbes de puissance ne sont pas interchangeables.",
   "bestFor": [
     "Vendeurs marchés",
     "Bijoux et outils",
@@ -12,7 +12,7 @@
     "Setup pro portable"
   ],
   "pros": [
-    "Grosse upgrade F1 — plus de puissance et caméra",
+    "Grosse upgrade F1 : plus de puissance et caméra",
     "Alignement autofocus 50 MP pour séries",
     "Galvo plus rapide que la génération F1",
     "Fort pour foires et gravure sur site"
@@ -55,14 +55,14 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser xTool F2 — xTool" },
-    { "alt": "Graveuse laser xTool F2 — xTool" },
-    { "alt": "Graveuse laser xTool F2 — xTool" },
-    { "alt": "Graveuse laser xTool F2 — xTool" }
+    { "alt": "Graveuse laser xTool F2 : xTool" },
+    { "alt": "Graveuse laser xTool F2 : xTool" },
+    { "alt": "Graveuse laser xTool F2 : xTool" },
+    { "alt": "Graveuse laser xTool F2 : xTool" }
   ],
   "moduleSystem": {
     "headline": "Diode 15 W + infrarouge 5 W (1064 nm)",
-    "description": "Galvo double source fixe — basculez entre diode pour organiques et IR pour marquage métal nu dans xTool Studio.",
+    "description": "Galvo double source fixe : basculez entre diode pour organiques et IR pour marquage métal nu dans xTool Studio.",
     "options": [
       { "label": "Diode 15 W" },
       { "label": "IR 5 W" }

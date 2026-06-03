@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode fermée — plus sûre et plus propre que les alternatives structure ouverte",
-  "tldr": "La xTool S1 est une plateforme diode fermée classe 1 avec têtes interchangeables 10 W, 20 W et 40 W (plus IR 2 W optionnel pour métal). Cette page vue d’ensemble est obsolète — ouvrez une gamme de puissance précise pour les specs exactes.",
+  "tagline": "Diode fermée : plus sûre et plus propre que les alternatives structure ouverte",
+  "tldr": "La xTool S1 est une plateforme diode fermée classe 1 avec têtes interchangeables 10 W, 20 W et 40 W (plus IR 2 W optionnel pour métal). Cette page vue d’ensemble est obsolète : ouvrez une gamme de puissance précise pour les specs exactes.",
   "mainObjective": "Gravure domicile plus sûre avec meilleur contrôle des fumées",
   "primaryUse": "Diode fermée loisir et petite activité pour gravure plus sûre à domicile et découpe modérée.",
-  "beginnerNotes": "Choisissez S1 plutôt que D1 Pro si sécurité et contrôle fumées comptent plus que l’économie — surtout avec enfants, animaux ou voisins. Passez votre chemin si vous avez besoin de découpe CO₂ ; ça ne remplacera pas une P2.",
-  "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres — ils réduient les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
+  "beginnerNotes": "Choisissez S1 plutôt que D1 Pro si sécurité et contrôle fumées comptent plus que l’économie : surtout avec enfants, animaux ou voisins. Passez votre chemin si vous avez besoin de découpe CO₂ ; ça ne remplacera pas une P2.",
+  "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres : ils réduient les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
   "bestFor": [
     "Ateliers à domicile",
     "Familles avec enfants à proximité",
@@ -12,7 +12,7 @@
     "Gravure plus propre"
   ],
   "pros": [
-    "Entièrement fermée — gros progrès sécurité et fumées vs structure ouverte",
+    "Entièrement fermée : gros progrès sécurité et fumées vs structure ouverte",
     "Option filtre échappement intégré pour appartement",
     "Même grande surface que D1 Pro dans un pack plus sûr",
     "Compatible LightBurn",
@@ -20,10 +20,10 @@
   ],
   "cons": [
     "Prix premium vs D1 Pro structure ouverte pour perfs diode similaires",
-    "Toujours une diode — mêmes limites matériaux que D1 Pro",
+    "Toujours une diode : mêmes limites matériaux que D1 Pro",
     "L’enceinte ajoute du volume",
     "Cartouches filtre à remplacer avec le temps",
-    "Marketing 40 W diode — vérifiez puissance optique de votre variante"
+    "Marketing 40 W diode : vérifiez puissance optique de votre variante"
   ],
   "materials": {
     "engrave": [
@@ -47,7 +47,7 @@
     ]
   },
   "priceRange": {
-    "note": "Variantes fermées 20 W et 40 W — vérifiez packs xTool et add-ons purificateur"
+    "note": "Variantes fermées 20 W et 40 W : vérifiez packs xTool et add-ons purificateur"
   },
   "specs": {
     "performance": {
@@ -70,13 +70,13 @@
     }
   ],
   "images": [
-    { "alt": "Graveuse laser xTool S1 20 W — xTool" },
-    { "alt": "Graveuse laser xTool S1 20 W — xTool" },
-    { "alt": "Graveuse laser xTool S1 20 W — xTool" }
+    { "alt": "Graveuse laser xTool S1 20 W : xTool" },
+    { "alt": "Graveuse laser xTool S1 20 W : xTool" },
+    { "alt": "Graveuse laser xTool S1 20 W : xTool" }
   ],
   "moduleSystem": {
     "headline": "Têtes laser interchangeables sur le même boîtier S1",
-    "description": "La xTool S1 se vend avec différents modules diode (10 W, 20 W ou 40 W) ou en châssis nu — les têtes s’échangent avec deux vis et une prise. Un module infrarouge 1064 nm 2 W optionnel ajoute le marquage métal sans galvo fibre complet. Ce n’est pas une machine « hybride » : vous remplacez une tête à la fois.",
+    "description": "La xTool S1 se vend avec différents modules diode (10 W, 20 W ou 40 W) ou en châssis nu : les têtes s’échangent avec deux vis et une prise. Un module infrarouge 1064 nm 2 W optionnel ajoute le marquage métal sans galvo fibre complet. Ce n’est pas une machine « hybride » : vous remplacez une tête à la fois.",
     "options": [
       { "label": "Diode 10 W" },
       { "label": "Diode 20 W" },

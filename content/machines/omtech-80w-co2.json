@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "co2",
   "image": "/machines/omtech-80w-co2/01.webp",
-  "tagline": "Workhorse CO₂ for shops that outgrew 40W — large bed, real production speed",
-  "tldr": "OMTech's 80W desktop/floor CO₂ machines target sign shops and serious makers who need faster cuts on thick acrylic and wood. More power, larger beds, and higher price than K40 class. Expect setup, ventilation, and maintenance — not plug-and-play.",
+  "tagline": "Workhorse CO₂ for shops that outgrew 40W : large bed, real production speed",
+  "tldr": "OMTech's 80W desktop/floor CO₂ machines target sign shops and serious makers who need faster cuts on thick acrylic and wood. More power, larger beds, and higher price than K40 class. Expect setup, ventilation, and maintenance : not plug-and-play.",
   "mainObjective": "High-power CO₂ production for sign shops cutting thick acrylic & wood daily",
   "bestFor": [
     "Sign shops",
@@ -89,7 +89,7 @@
     "Not suitable for apartments"
   ],
   "beginnerNotes": "Do not buy 80W as a first laser. You should already know you need this power and have ventilation planned.",
-  "proTips": "Install ammeter and water flow sensor early. Keep spare mirrors and lens — production downtime costs more than parts.",
+  "proTips": "Install ammeter and water flow sensor early. Keep spare mirrors and lens : production downtime costs more than parts.",
   "primaryUse": "Production CO₂ laser for sign making and thick material cutting in dedicated workshop spaces.",
   "rating": {
     "overall": 8.6,
@@ -108,19 +108,19 @@
   "images": [
     {
       "src": "/machines/omtech-80w-co2/01.webp",
-      "alt": "OMTech 80W CO₂ laser engraver — OMTech"
+      "alt": "OMTech 80W CO₂ laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-80w-co2/02.jpg",
-      "alt": "OMTech 80W CO₂ laser engraver — OMTech"
+      "alt": "OMTech 80W CO₂ laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-80w-co2/03.jpg",
-      "alt": "OMTech 80W CO₂ laser engraver — OMTech"
+      "alt": "OMTech 80W CO₂ laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-80w-co2/04.jpg",
-      "alt": "OMTech 80W CO₂ laser engraver — OMTech"
+      "alt": "OMTech 80W CO₂ laser engraver : OMTech"
     }
   ],
   "powerRating": "80W",

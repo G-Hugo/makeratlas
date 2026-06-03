@@ -4,7 +4,7 @@
   "mainObjective": "Laser de bureau le moins cher pour expérimenter gravure bois et cuir",
   "primaryUse": "Diode petit budget minimum pour expériences de gravure légère et découvrir le loisir.",
   "beginnerNotes": "Ne choisissez la TTS-55 que si chaque euro compte. Si vous pouvez viser 400–500 $, l’Ortur LM3 est un pari plus sûr à long terme.",
-  "proTips": "Équerez le châssis avant la première gravure. Considérez la vitesse max annoncée comme théorique — commencez à 50 % pour les remplissages jusqu’à caler vos réglages.",
+  "proTips": "Équerez le châssis avant la première gravure. Considérez la vitesse max annoncée comme théorique : commencez à 50 % pour les remplissages jusqu’à caler vos réglages.",
   "bestFor": [
     "Budget ultra serré",
     "Premières expériences",
@@ -22,7 +22,7 @@
     "Contrôle qualité inconstant entre lots",
     "Communauté anglophone réduite",
     "Label 40 W très marketing",
-    "Structure ouverte — sécurité entièrement à votre charge",
+    "Structure ouverte : sécurité entièrement à votre charge",
     "Alignement parfois à ajuster à la sortie de boîte"
   ],
   "materials": {
@@ -55,9 +55,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser TwoTrees TTS-55 — TwoTrees" },
-    { "alt": "Graveuse laser TwoTrees TTS-55 — TwoTrees" },
-    { "alt": "Graveuse laser TwoTrees TTS-55 — TwoTrees" },
-    { "alt": "Graveuse laser TwoTrees TTS-55 — TwoTrees" }
+    { "alt": "Graveuse laser TwoTrees TTS-55 : TwoTrees" },
+    { "alt": "Graveuse laser TwoTrees TTS-55 : TwoTrees" },
+    { "alt": "Graveuse laser TwoTrees TTS-55 : TwoTrees" },
+    { "alt": "Graveuse laser TwoTrees TTS-55 : TwoTrees" }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode 20 W fermée avec caméra intégrée — réponse petit budget à la xTool S1",
+  "tagline": "Diode 20 W fermée avec caméra intégrée : réponse petit budget à la xTool S1",
   "tldr": "Acmer regroupe diode 20 W fermée, aperçu caméra et assistance air dans un pack à moins de 800 USD. Les performances se situent entre les machines structure ouverte entrée de gamme et la xTool S1. À envisager si le prix xTool freine mais que vous voulez boîtier et caméra.",
   "mainObjective": "Gravure fermée abordable avec alignement caméra pour makers à domicile",
   "primaryUse": "Laser diode fermé petit budget pour gravure à domicile avec alignement assisté par caméra et découpe modérée de matériaux fins.",
-  "beginnerNotes": "Bonne alternative à la xTool S1 si le budget est le critère décisif. Comparez garantie et politique de retour avant l'achat — les marques récentes varient beaucoup.",
-  "proTips": "Utilisez la caméra pour le placement mais faites toujours des cartes test matériau. Améliorez l'évacuation si vous découpez souvent — les filtres intégrés s'encrassent plus vite qu'une évacuation vers l'extérieur.",
+  "beginnerNotes": "Bonne alternative à la xTool S1 si le budget est le critère décisif. Comparez garantie et politique de retour avant l'achat : les marques récentes varient beaucoup.",
+  "proTips": "Utilisez la caméra pour le placement mais faites toujours des cartes test matériau. Améliorez l'évacuation si vous découpez souvent : les filtres intégrés s'encrassent plus vite qu'une évacuation vers l'extérieur.",
   "bestFor": [
     "Boîtier petit budget",
     "Alignement par caméra",
@@ -57,9 +57,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Acmer P3 — Acmer" },
-    { "alt": "Graveuse laser Acmer P3 — Acmer" },
-    { "alt": "Graveuse laser Acmer P3 — Acmer" },
-    { "alt": "Graveuse laser Acmer P3 — Acmer" }
+    { "alt": "Graveuse laser Acmer P3 : Acmer" },
+    { "alt": "Graveuse laser Acmer P3 : Acmer" },
+    { "alt": "Graveuse laser Acmer P3 : Acmer" },
+    { "alt": "Graveuse laser Acmer P3 : Acmer" }
   ]
 }

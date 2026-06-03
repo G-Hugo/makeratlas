@@ -1,6 +1,6 @@
 {
-  "tagline": "Acmer S2 Pro puissance intermédiaire — niveau 36 W avec boîtier optionnel",
-  "tldr": "L'Acmer S2 Pro 36 W est la référence moins puissante de la gamme S2 Pro d'Acmer, avec options de packs rotatif et IR. Comparez au S2 Pro 48 W avant l'achat — le surclassement vaut souvent le coup.",
+  "tagline": "Acmer S2 Pro puissance intermédiaire : niveau 36 W avec boîtier optionnel",
+  "tldr": "L'Acmer S2 Pro 36 W est la référence moins puissante de la gamme S2 Pro d'Acmer, avec options de packs rotatif et IR. Comparez au S2 Pro 48 W avant l'achat : le surclassement vaut souvent le coup.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Plateforme Acmer puissance intermédiaire avec packs accessoires.",
   "beginnerNotes": "Ce profil décrit le module 36W de Acmer S2 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -12,17 +12,17 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Acmer S2 Pro puissance intermédiaire — niveau 36 W avec boîtier optionnel",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Acmer S2 Pro puissance intermédiaire : niveau 36 W avec boîtier optionnel",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 400 × 400 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme — benchmark ~8 mm tilleul",
+    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
     "36W : tête la plus orientée découpe de Acmer S2 Pro",
     "Exemple gravure de référence sur ce module : ~14–22 min"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -50,16 +50,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Acmer S2 Pro 36 W — Acmer"
+      "alt": "Graveuse laser Acmer S2 Pro 36 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer S2 Pro 36 W — Acmer"
+      "alt": "Graveuse laser Acmer S2 Pro 36 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer S2 Pro 36 W — Acmer"
+      "alt": "Graveuse laser Acmer S2 Pro 36 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer S2 Pro 36 W — Acmer"
+      "alt": "Graveuse laser Acmer S2 Pro 36 W : Acmer"
     }
   ]
 }

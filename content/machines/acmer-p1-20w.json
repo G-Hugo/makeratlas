@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Step-up Acmer P1 with 20W module for faster cuts",
-  "tldr": "Acmer P1 20W adds cutting headroom over the 10W P1 on the same frame class. Still a budget brand — verify optical power and expect less polish than Sculpfun or Ortur.",
+  "tldr": "Acmer P1 20W adds cutting headroom over the 10W P1 on the same frame class. Still a budget brand : verify optical power and expect less polish than Sculpfun or Ortur.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -67,15 +67,15 @@
   },
   "pros": [
     "Step-up Acmer P1 with 20W module for faster cuts",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 400 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "Balanced engrave and cut — typical 8 mm basswood in multiple passes",
+    "Balanced engrave and cut : typical 8 mm basswood in multiple passes",
     "Reference engrave job on this module: ~12–18 min",
     "Reference cut job on this module: ~6–10 min"
   ],
   "cons": [
-    "Verify the 20W SKU — same chassis, different modules",
+    "Verify the 20W SKU : same chassis, different modules",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 20W module on Acmer P1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -102,19 +102,19 @@
   "images": [
     {
       "src": "/machines/acmer-p1-20w/01.webp",
-      "alt": "Acmer P1 20W laser engraver — Acmer"
+      "alt": "Acmer P1 20W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-p1-20w/02.jpg",
-      "alt": "Acmer P1 20W laser engraver — Acmer"
+      "alt": "Acmer P1 20W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-p1-20w/03.webp",
-      "alt": "Acmer P1 20W laser engraver — Acmer"
+      "alt": "Acmer P1 20W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-p1-20w/04.jpg",
-      "alt": "Acmer P1 20W laser engraver — Acmer"
+      "alt": "Acmer P1 20W laser engraver : Acmer"
     }
   ],
   "tierEditorialOverride": false

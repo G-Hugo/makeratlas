@@ -1,10 +1,10 @@
 {
-  "tagline": "Ortur LM2 S2 5 W — l’Ortur le moins cher qui vaut encore le coup",
-  "tldr": "L’Ortur LM2 S2 5 W est le SKU d’entrée — d’abord la gravure, découpe minimale. Correct pour apprendre si le prix est bon ; la plupart des utilisateurs le dépassent vite.",
+  "tagline": "Ortur LM2 S2 5 W : l’Ortur le moins cher qui vaut encore le coup",
+  "tldr": "L’Ortur LM2 S2 5 W est le SKU d’entrée : d’abord la gravure, découpe minimale. Correct pour apprendre si le prix est bon ; la plupart des utilisateurs le dépassent vite.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
   "primaryUse": "Apprentissage de la gravure à budget minimal.",
   "beginnerNotes": "Ce profil décrit le module 5W de Ortur LM2 S2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez des vitesses basses et plusieurs passes — n’attendez pas des découpes niveau Pro Max.",
+  "proTips": "Utilisez des vitesses basses et plusieurs passes : n’attendez pas des découpes niveau Pro Max.",
   "bestFor": [
     "Gravure fine",
     "Photo & logo",
@@ -12,16 +12,16 @@
     "Première machine"
   ],
   "pros": [
-    "Ortur LM2 S2 5 W — l’Ortur le moins cher qui vaut encore le coup",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Ortur LM2 S2 5 W : l’Ortur le moins cher qui vaut encore le coup",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 400 × 400 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "5W sur Ortur LM2 S2 : priorité gravure — remplissages photo et cuir",
+    "5W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir",
     "Exemple gravure de référence sur ce module : ~18–28 min",
     "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 3 mm de tilleul) — pas la production épaisse",
+    "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (10W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
@@ -54,16 +54,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Ortur LM2 S2 5W — Ortur"
+      "alt": "Graveuse laser Ortur LM2 S2 5W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur LM2 S2 5W — Ortur"
+      "alt": "Graveuse laser Ortur LM2 S2 5W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur LM2 S2 5W — Ortur"
+      "alt": "Graveuse laser Ortur LM2 S2 5W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur LM2 S2 5W — Ortur"
+      "alt": "Graveuse laser Ortur LM2 S2 5W : Ortur"
     }
   ]
 }

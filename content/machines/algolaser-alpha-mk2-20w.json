@@ -7,7 +7,7 @@
   "laserType": "diode",
   "image": "/machines/algolaser-alpha-mk2-20w/01.webp",
   "tagline": "20W Premium open-frame diode focused on speed and fine engraving detail",
-  "tldr": "Algolaser Alpha MK2 20W is the 20W SKU on the Algolaser algolaser alpha mk2 line. Algolaser targets makers who want faster engraving and tighter spot control than typical budget diodes. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tldr": "Algolaser Alpha MK2 20W is the 20W SKU on the Algolaser algolaser alpha mk2 line. Algolaser targets makers who want faster engraving and tighter spot control than typical budget diodes. Verify optical power on the listing : do not assume combined-watt marketing.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -19,7 +19,7 @@
     "min": 599,
     "max": 849,
     "currency": "USD",
-    "note": "20W optical module — verify SKU before buying"
+    "note": "20W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "20W diode",
@@ -75,16 +75,16 @@
   },
   "pros": [
     "20W Premium open-frame diode focused on speed and fine engraving detail",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 440 × 410 mm on this chassis",
     "Software: LightBurn · Algolaser app",
-    "Balanced engrave and cut — typical 8 mm basswood in multiple passes",
+    "Balanced engrave and cut : typical 8 mm basswood in multiple passes",
     "Reference engrave job on this module: ~9–14 min",
     "Reference cut job on this module: ~5–9 min"
   ],
   "cons": [
     "Higher modules in this line (40W) add cut speed and depth",
-    "Verify the 20W SKU — same chassis, different modules",
+    "Verify the 20W SKU : same chassis, different modules",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 20W module on Algolaser Alpha MK2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -107,19 +107,19 @@
   "images": [
     {
       "src": "/machines/algolaser-alpha-mk2-20w/01.webp",
-      "alt": "Algolaser Alpha MK2 20W laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 20W laser engraver : Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-20w/02.jpg",
-      "alt": "Algolaser Alpha MK2 20W laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 20W laser engraver : Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-20w/03.jpg",
-      "alt": "Algolaser Alpha MK2 20W laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 20W laser engraver : Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-20w/04.jpg",
-      "alt": "Algolaser Alpha MK2 20W laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 20W laser engraver : Algolaser"
     }
   ],
   "modelLine": "algolaser-alpha-mk2",

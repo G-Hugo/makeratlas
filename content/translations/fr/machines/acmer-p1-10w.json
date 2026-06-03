@@ -1,6 +1,6 @@
 {
-  "tagline": "Acmer structure ouverte petit budget — grand plateau pour le prix",
-  "tldr": "L'Acmer P1 10 W est une graveuse structure ouverte abordable de classe 400 mm, idéale pour apprendre et réaliser de petits cadeaux. Fabrication et support de niveau entrée de gamme — excellent rapport qualité-prix si vous acceptez un peu de réglage.",
+  "tagline": "Acmer structure ouverte petit budget : grand plateau pour le prix",
+  "tldr": "L'Acmer P1 10 W est une graveuse structure ouverte abordable de classe 400 mm, idéale pour apprendre et réaliser de petits cadeaux. Fabrication et support de niveau entrée de gamme : excellent rapport qualité-prix si vous acceptez un peu de réglage.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Gravure amateur petit budget sur grand plateau.",
   "beginnerNotes": "Ce profil décrit le module 10W de Acmer P1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -12,16 +12,16 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Acmer structure ouverte petit budget — grand plateau pour le prix",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Acmer structure ouverte petit budget : grand plateau pour le prix",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 400 × 400 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Acmer P1 : priorité gravure — remplissages photo et cuir",
+    "10W sur Acmer P1 : priorité gravure : remplissages photo et cuir",
     "Exemple gravure de référence sur ce module : ~18–28 min",
     "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
@@ -53,16 +53,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Acmer P1 10 W — Acmer"
+      "alt": "Graveuse laser Acmer P1 10 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer P1 10 W — Acmer"
+      "alt": "Graveuse laser Acmer P1 10 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer P1 10 W — Acmer"
+      "alt": "Graveuse laser Acmer P1 10 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer P1 10 W — Acmer"
+      "alt": "Graveuse laser Acmer P1 10 W : Acmer"
     }
   ]
 }

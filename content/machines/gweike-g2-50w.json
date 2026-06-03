@@ -7,7 +7,7 @@
   "laserType": "fiber",
   "powerRating": "50W",
   "tagline": "50W Desktop fiber marker for metal and select plastics",
-  "tldr": "Gweike G2 Max 50W Fiber is the 50W SKU on the Gweike gweike g2 line. Gweike G2 packages a 20W fiber galvo in a desktop form factor. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tldr": "Gweike G2 Max 50W Fiber is the 50W SKU on the Gweike gweike g2 line. Gweike G2 packages a 20W fiber galvo in a desktop form factor. Verify optical power on the listing : do not assume combined-watt marketing.",
   "mainObjective": "Production-leaning fiber marking for small businesses",
   "bestFor": [
     "Daily metal marking",
@@ -19,7 +19,7 @@
     "min": 2499,
     "max": 3499,
     "currency": "USD",
-    "note": "50W optical module — verify SKU before buying"
+    "note": "50W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "50W fiber",
@@ -70,7 +70,7 @@
   },
   "pros": [
     "50W Desktop fiber marker for metal and select plastics",
-    "Fiber marks metal — does not cut wood or acrylic",
+    "Fiber marks metal : does not cut wood or acrylic",
     "Work area 110 × 110 mm on this chassis",
     "Reference engrave job on this module: ~2–5 min"
   ],
@@ -78,7 +78,7 @@
     "50W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs"
   ],
   "beginnerNotes": "This profile is the 50W module on Gweike G2 Max Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
-  "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work — it slows flat-stock days.",
+  "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work : it slows flat-stock days.",
   "primaryUse": "Mid-power fiber for shops marking metal daily",
   "rating": {
     "overall": 8.3,
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/gweike-g2-50w/01.webp",
-      "alt": "Gweike G2 Max 50W Fiber laser engraver — Gweike"
+      "alt": "Gweike G2 Max 50W Fiber laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-g2-50w/02.png",
-      "alt": "Gweike G2 Max 50W Fiber laser engraver — Gweike"
+      "alt": "Gweike G2 Max 50W Fiber laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-g2-50w/03.jpg",
-      "alt": "Gweike G2 Max 50W Fiber laser engraver — Gweike"
+      "alt": "Gweike G2 Max 50W Fiber laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-g2-50w/04.jpg",
-      "alt": "Gweike G2 Max 50W Fiber laser engraver — Gweike"
+      "alt": "Gweike G2 Max 50W Fiber laser engraver : Gweike"
     }
   ],
   "modelLine": "gweike-g2",

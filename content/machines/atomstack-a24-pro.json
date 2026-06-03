@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "tagline": "Compact Atomstack with diode + fiber marking in one desktop unit",
-  "tldr": "AtomStack A24 Pro packs a diode engraver plus fiber marking into a smaller footprint than separate machines. Niche for jewelry-scale metal marking plus wood — not a full workshop fiber or high-power diode.",
+  "tldr": "AtomStack A24 Pro packs a diode engraver plus fiber marking into a smaller footprint than separate machines. Niche for jewelry-scale metal marking plus wood : not a full workshop fiber or high-power diode.",
   "mainObjective": "Dual-source Atomstack for metal marking and organic engraving",
   "bestFor": [
     "Jewelry desk",
@@ -77,8 +77,8 @@
     "Premium vs single-purpose machines",
     "Learning two workflows"
   ],
-  "beginnerNotes": "Choose if metal marking is regular — skip if you only engrave wood.",
-  "proTips": "Treat fiber and diode as separate jobs — different fixtures and settings.",
+  "beginnerNotes": "Choose if metal marking is regular : skip if you only engrave wood.",
+  "proTips": "Treat fiber and diode as separate jobs : different fixtures and settings.",
   "primaryUse": "Desk hybrid for mixed metal marking and small organic engraves.",
   "rating": {
     "overall": 8,
@@ -126,19 +126,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a24-pro/01.webp",
-      "alt": "AtomStack A24 Pro laser engraver — Atomstack"
+      "alt": "AtomStack A24 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-pro/02.jpg",
-      "alt": "AtomStack A24 Pro laser engraver — Atomstack"
+      "alt": "AtomStack A24 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-pro/03.jpg",
-      "alt": "AtomStack A24 Pro laser engraver — Atomstack"
+      "alt": "AtomStack A24 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-pro/04.jpg",
-      "alt": "AtomStack A24 Pro laser engraver — Atomstack"
+      "alt": "AtomStack A24 Pro laser engraver : Atomstack"
     }
   ]
 }

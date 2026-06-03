@@ -1,6 +1,6 @@
 {
-  "tagline": "FoxAlien LE-4040 Pro — laser 20W sur châssis format 4040",
-  "tldr": "La FoxAlien LE-4040 Pro 20W associe un châssis type 4040 à une diode 20W — format familier pour les utilisateurs CNC qui ajoutent la capacité laser. Alternative à la gamme Reizer avec une conception de châssis différente.",
+  "tagline": "FoxAlien LE-4040 Pro : laser 20W sur châssis format 4040",
+  "tldr": "La FoxAlien LE-4040 Pro 20W associe un châssis type 4040 à une diode 20W : format familier pour les utilisateurs CNC qui ajoutent la capacité laser. Alternative à la gamme Reizer avec une conception de châssis différente.",
   "mainObjective": "Laser 20W format 4040 pour utilisateurs écosystème FoxAlien",
   "primaryUse": "FoxAlien 20W format 4040 pour gravure et découpe modérée.",
   "beginnerNotes": "Choisissez la Reizer 40W pour la puissance max ou celle-ci pour un format 4040 équilibré en 20W.",
@@ -44,9 +44,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W — FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W — FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W — FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W — FoxAlien" }
+    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien" }
   ]
 }

@@ -70,21 +70,21 @@
     ]
   },
   "pros": [
-    "Built-in air assist — one less accessory to buy",
+    "Built-in air assist : one less accessory to buy",
     "Color engraving on stainless is a unique selling point",
     "Strong performance in the high-power diode segment",
     "LightBurn support",
     "Creality brand familiarity for 3D printer owners"
   ],
   "cons": [
-    "60W marketing number confuses beginners — optical power is lower",
-    "Open frame with high power — treat safety seriously",
+    "60W marketing number confuses beginners : optical power is lower",
+    "Open frame with high power : treat safety seriously",
     "Creality laser software less mature than xTool",
     "Color metal effect is niche, not a business foundation alone",
-    "Heavier unit — less portable than it looks"
+    "Heavier unit : less portable than it looks"
   ],
-  "beginnerNotes": "Do not buy it because of '60W' alone — compare optical power and cut tests. Good pick if you want air assist included and might use color stainless effects for jewelry or knives.",
-  "proTips": "Color marking requires precise speed/power control — practice on scrap stainless. Use LightBurn for serious work. Pair with proper extraction — built-in air assist helps cuts but does not replace ventilation.",
+  "beginnerNotes": "Do not buy it because of '60W' alone : compare optical power and cut tests. Good pick if you want air assist included and might use color stainless effects for jewelry or knives.",
+  "proTips": "Color marking requires precise speed/power control : practice on scrap stainless. Use LightBurn for serious work. Pair with proper extraction : built-in air assist helps cuts but does not replace ventilation.",
   "primaryUse": "High-power hobby diode for engraving and moderate cutting, with optional color effects on stainless steel.",
   "rating": {
     "overall": 8.3,
@@ -105,19 +105,19 @@
   "images": [
     {
       "src": "/machines/creality-falcon2-pro/01.webp",
-      "alt": "Creality Falcon2 Pro laser engraver — Creality"
+      "alt": "Creality Falcon2 Pro laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon2-pro/02.png",
-      "alt": "Creality Falcon2 Pro laser engraver — Creality"
+      "alt": "Creality Falcon2 Pro laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon2-pro/03.jpg",
-      "alt": "Creality Falcon2 Pro laser engraver — Creality"
+      "alt": "Creality Falcon2 Pro laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon2-pro/04.jpg",
-      "alt": "Creality Falcon2 Pro laser engraver — Creality"
+      "alt": "Creality Falcon2 Pro laser engraver : Creality"
     }
   ],
   "powerRating": "60W",

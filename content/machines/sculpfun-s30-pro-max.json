@@ -5,7 +5,7 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Sculpfun S30 Pro Max line — 20W flagship before Ultra",
+  "tagline": "Sculpfun S30 Pro Max line : 20W flagship before Ultra",
   "tldr": "Umbrella for Sculpfun S30 Pro Max. See the 20W SKU for catalog specs.",
   "mainObjective": "Index S30 Pro Max SKUs",
   "bestFor": [
@@ -86,7 +86,7 @@
   "images": [
     {
       "src": "/machines/sculpfun-s30-pro-max/01.webp",
-      "alt": "Sculpfun S30 Pro Max laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Pro Max laser engraver : Sculpfun"
     }
   ]
 }

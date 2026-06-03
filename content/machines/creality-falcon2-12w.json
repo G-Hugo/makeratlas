@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/creality-falcon2-12w/01.webp",
-  "tagline": "Entry Creality diode — simple upgrade path for 3D printer owners",
+  "tagline": "Entry Creality diode : simple upgrade path for 3D printer owners",
   "tldr": "The base Falcon2 12W is Creality's affordable open-frame diode. Less power than Falcon2 Pro but easier on budget. Good for engraving-first users who already trust Creality from 3D printing. Not a cutting powerhouse.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
@@ -70,16 +70,16 @@
     ]
   },
   "pros": [
-    "Entry Creality diode — simple upgrade path for 3D printer owners",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Entry Creality diode : simple upgrade path for 3D printer owners",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 400 × 415 mm on this chassis",
     "Software: Creality Laser · LightBurn",
-    "12W on Creality Falcon2: engraving-first — photo fills and leather at moderate speeds",
+    "12W on Creality Falcon2: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~17–26 min",
     "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
     "Higher modules in this line (22W) add cut speed and depth",
     "Not the SKU for a shop cutting 5 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -104,15 +104,15 @@
   "images": [
     {
       "src": "/machines/creality-falcon2-12w/01.webp",
-      "alt": "Creality Falcon2 12W laser engraver — Creality"
+      "alt": "Creality Falcon2 12W laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon2-12w/02.png",
-      "alt": "Creality Falcon2 12W laser engraver — Creality"
+      "alt": "Creality Falcon2 12W laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon2-12w/03.jpg",
-      "alt": "Creality Falcon2 12W laser engraver — Creality"
+      "alt": "Creality Falcon2 12W laser engraver : Creality"
     }
   ],
   "modelLine": "creality-falcon2",

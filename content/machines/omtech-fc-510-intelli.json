@@ -5,8 +5,8 @@
   "brand": "OMTech",
   "category": "laser-engraver",
   "laserType": "fiber",
-  "tagline": "OMTech FC-510 Intelli-Cut — mid-size fiber cutting platform",
-  "tldr": "OMTech FC-510 Intelli is a larger fiber cutting machine than the FC-44/105 desk units — aimed at sheet metal and industrial-style cuts with Intelli-Cut features, not hobby diode work.",
+  "tagline": "OMTech FC-510 Intelli-Cut : mid-size fiber cutting platform",
+  "tldr": "OMTech FC-510 Intelli is a larger fiber cutting machine than the FC-44/105 desk units : aimed at sheet metal and industrial-style cuts with Intelli-Cut features, not hobby diode work.",
   "mainObjective": "Shop fiber cutting beyond desktop marking machines",
   "bestFor": [
     "Small business metal",
@@ -74,7 +74,7 @@
     "Space and ventilation",
     "Not for beginners"
   ],
-  "beginnerNotes": "Requires installation planning — not a plug-and-play diode replacement.",
+  "beginnerNotes": "Requires installation planning : not a plug-and-play diode replacement.",
   "proTips": "Confirm assist gas, chiller, and electrical requirements before purchase.",
   "primaryUse": "Small-business fiber sheet cutting.",
   "rating": {
@@ -103,19 +103,19 @@
   "images": [
     {
       "src": "/machines/omtech-fc-510-intelli/01.webp",
-      "alt": "OMTech FC-510 Intelli laser engraver — OMTech"
+      "alt": "OMTech FC-510 Intelli laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-fc-510-intelli/02.jpg",
-      "alt": "OMTech FC-510 Intelli laser engraver — OMTech"
+      "alt": "OMTech FC-510 Intelli laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-fc-510-intelli/03.jpg",
-      "alt": "OMTech FC-510 Intelli laser engraver — OMTech"
+      "alt": "OMTech FC-510 Intelli laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-fc-510-intelli/04.jpg",
-      "alt": "OMTech FC-510 Intelli laser engraver — OMTech"
+      "alt": "OMTech FC-510 Intelli laser engraver : OMTech"
     }
   ]
 }

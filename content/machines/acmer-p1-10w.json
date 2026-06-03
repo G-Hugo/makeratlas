@@ -5,8 +5,8 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Budget Acmer open-frame — large bed for the price",
-  "tldr": "Acmer P1 10W is an affordable 400 mm-class open-frame engraver for learning and light gifts. Build and support are budget-tier — great value if you accept DIY tuning.",
+  "tagline": "Budget Acmer open-frame : large bed for the price",
+  "tldr": "Acmer P1 10W is an affordable 400 mm-class open-frame engraver for learning and light gifts. Build and support are budget-tier : great value if you accept DIY tuning.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
     "Engraving-focused shops",
@@ -68,16 +68,16 @@
     ]
   },
   "pros": [
-    "Budget Acmer open-frame — large bed for the price",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Budget Acmer open-frame : large bed for the price",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 400 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "10W on Acmer P1: engraving-first — photo fills and leather at moderate speeds",
+    "10W on Acmer P1: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~18–28 min",
     "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
     "Higher modules in this line (20W) add cut speed and depth",
     "Not the SKU for a shop cutting 4 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -107,19 +107,19 @@
   "images": [
     {
       "src": "/machines/acmer-p1-10w/01.webp",
-      "alt": "Acmer P1 10W laser engraver — Acmer"
+      "alt": "Acmer P1 10W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-p1-10w/02.jpg",
-      "alt": "Acmer P1 10W laser engraver — Acmer"
+      "alt": "Acmer P1 10W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-p1-10w/03.webp",
-      "alt": "Acmer P1 10W laser engraver — Acmer"
+      "alt": "Acmer P1 10W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-p1-10w/04.jpg",
-      "alt": "Acmer P1 10W laser engraver — Acmer"
+      "alt": "Acmer P1 10W laser engraver : Acmer"
     }
   ],
   "tierEditorialOverride": false

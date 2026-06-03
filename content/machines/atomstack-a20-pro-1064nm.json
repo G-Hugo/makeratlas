@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "fiber",
-  "tagline": "Desktop fiber marking module — 1064nm IR on Atomstack platform",
-  "tldr": "AtomStack A20 Pro 1064nm is a fiber marking variant for metal engraving without a separate galvo bench. Different machine class than diode A20 Pro V2 — buy for metal marking, not wood cutting.",
+  "tagline": "Desktop fiber marking module : 1064nm IR on Atomstack platform",
+  "tldr": "AtomStack A20 Pro 1064nm is a fiber marking variant for metal engraving without a separate galvo bench. Different machine class than diode A20 Pro V2 : buy for metal marking, not wood cutting.",
   "mainObjective": "Desktop fiber marking for metal gifts and tools",
   "bestFor": [
     "Metal marking",
@@ -73,7 +73,7 @@
     "Small field",
     "Confusing naming with A20 Pro V2"
   ],
-  "beginnerNotes": "Do not confuse with A20 Pro V2 diode — completely different machine.",
+  "beginnerNotes": "Do not confuse with A20 Pro V2 diode : completely different machine.",
   "proTips": "Search '1064nm' in listing title to confirm fiber SKU.",
   "primaryUse": "Fiber marking for metal personalization on a desktop footprint.",
   "rating": {
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a20-pro-1064nm/01.webp",
-      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver — Atomstack"
+      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro-1064nm/02.jpg",
-      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver — Atomstack"
+      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro-1064nm/03.jpg",
-      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver — Atomstack"
+      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro-1064nm/04.jpg",
-      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver — Atomstack"
+      "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver : Atomstack"
     }
   ]
 }

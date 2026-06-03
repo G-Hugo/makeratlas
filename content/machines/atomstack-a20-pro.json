@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/atomstack-a20-pro/01.webp",
-  "tagline": "Mid-tier Atomstack with compressed beam — sweet spot between A5 and A40",
+  "tagline": "Mid-tier Atomstack with compressed beam : sweet spot between A5 and A40",
   "tldr": "The A20 Pro sits in Atomstack's lineup between budget A5 and flagship A40. Strong engraving detail with a more rigid frame than entry models. A sensible upgrade path if A5 feels slow but A40 is over budget.",
   "mainObjective": "Mid-range Atomstack for detailed engraving & reliable thin-wood cutting",
   "bestFor": [
@@ -84,8 +84,8 @@
     "Air assist often extra",
     "A40 only modestly more for power users"
   ],
-  "beginnerNotes": "Compare A20 Pro vs Sculpfun S30 Ultra at similar price — S30 often wins on cutting community tips; A20 wins on engraving detail for some users.",
-  "proTips": "Atomstack's F60 air assist kit is worth adding before pushing cut depth — charring drops significantly on 5–6 mm basswood.",
+  "beginnerNotes": "Compare A20 Pro vs Sculpfun S30 Ultra at similar price : S30 often wins on cutting community tips; A20 wins on engraving detail for some users.",
+  "proTips": "Atomstack's F60 air assist kit is worth adding before pushing cut depth : charring drops significantly on 5–6 mm basswood.",
   "primaryUse": "Mid-tier open-frame Atomstack for detailed engraving and moderate thin-wood cutting.",
   "rating": {
     "overall": 8.1,
@@ -104,19 +104,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a20-pro/01.webp",
-      "alt": "Atomstack A20 Pro laser engraver — Atomstack"
+      "alt": "Atomstack A20 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro/02.jpg",
-      "alt": "Atomstack A20 Pro laser engraver — Atomstack"
+      "alt": "Atomstack A20 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro/03.jpg",
-      "alt": "Atomstack A20 Pro laser engraver — Atomstack"
+      "alt": "Atomstack A20 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro/04.jpg",
-      "alt": "Atomstack A20 Pro laser engraver — Atomstack"
+      "alt": "Atomstack A20 Pro laser engraver : Atomstack"
     }
   ],
   "powerRating": "20W"

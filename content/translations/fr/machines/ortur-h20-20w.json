@@ -1,6 +1,6 @@
 {
-  "tagline": "Le juste milieu H20 — diode 20 W sur le châssis intégré série H d’Ortur",
-  "tldr": "L’Ortur H20 20 W équilibre capacité de découpe et prix sur la plateforme H20. Graveuse loisir solide avec un châssis plus rapide que le LM3 — vérifiez la puissance optique, pas les étiquettes marketing « classe 40 W » des accessoires.",
+  "tagline": "Le juste milieu H20 : diode 20 W sur le châssis intégré série H d’Ortur",
+  "tldr": "L’Ortur H20 20 W équilibre capacité de découpe et prix sur la plateforme H20. Graveuse loisir solide avec un châssis plus rapide que le LM3 : vérifiez la puissance optique, pas les étiquettes marketing « classe 40 W » des accessoires.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Ortur H20 polyvalent pour gravure et découpe légère à moyenne.",
   "beginnerNotes": "Ce profil décrit le module 20W de Ortur H20. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -12,17 +12,17 @@
     "Petites séries"
   ],
   "pros": [
-    "Le juste milieu H20 — diode 20 W sur le châssis intégré série H d’Ortur",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Le juste milieu H20 : diode 20 W sur le châssis intégré série H d’Ortur",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 410 × 275 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
     "Exemple gravure de référence sur ce module : ~18–28 min",
     "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Vérifiez le SKU 20W : même châssis, modules différents",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -58,16 +58,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Ortur H20 20W — Ortur"
+      "alt": "Graveuse laser Ortur H20 20W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur H20 20W — Ortur"
+      "alt": "Graveuse laser Ortur H20 20W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur H20 20W — Ortur"
+      "alt": "Graveuse laser Ortur H20 20W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur H20 20W — Ortur"
+      "alt": "Graveuse laser Ortur H20 20W : Ortur"
     }
   ]
 }

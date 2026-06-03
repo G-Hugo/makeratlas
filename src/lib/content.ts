@@ -25,7 +25,7 @@ export function getMachineBySlug(slug: string, locale: Locale = "en"): Machine |
   return localizeMachine(machine, locale);
 }
 
-/** Resolve similar-model links — drops archived or missing slugs */
+/** Resolve similar-model links : drops archived or missing slugs */
 export function getSimilarMachines(machine: Machine, locale: Locale = "en"): Machine[] {
   return (machine.similarModels ?? [])
     .map((slug) => getMachineBySlug(slug, locale))

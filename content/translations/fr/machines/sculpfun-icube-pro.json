@@ -1,10 +1,10 @@
 ﻿{
-  "tagline": "Sculpfun compact fermé — petit encombrement, capot de sécurité complet",
+  "tagline": "Sculpfun compact fermé : petit encombrement, capot de sécurité complet",
   "tldr": "Le laser de bureau fermé de Sculpfun pour makers qui veulent les performances de découpe de la marque dans un capot plus sûr. Plateau plus petit que le S30 Ultra mais tient sur un bureau serré. Bon compromis entre Sculpfun structure ouverte et xTool S1 premium.",
   "mainObjective": "Sculpfun fermé compact pour gravure bureau avec moins de fumée",
   "primaryUse": "Diode fermée compacte pour bureaux à petit espace : gravure et découpes légères bois/cuir.",
   "beginnerNotes": "Achetez l’iCube Pro quand l’espace bureau et le capot comptent. Achetez le S30 Ultra quand la zone de travail et l’épaisseur de découpe priment.",
-  "proTips": "Utilisez les réglages communautaires Sculpfun comme point de départ — réduisez la vitesse de 10–15 % dans le capot si la carbonisation augmente à cause de la chaleur.",
+  "proTips": "Utilisez les réglages communautaires Sculpfun comme point de départ : réduisez la vitesse de 10–15 % dans le capot si la carbonisation augmente à cause de la chaleur.",
   "bestFor": [
     "Petits bureaux",
     "Sécurité fermée",
@@ -55,9 +55,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Sculpfun iCube Pro — Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun iCube Pro — Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun iCube Pro — Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun iCube Pro — Sculpfun" }
+    { "alt": "Graveuse laser Sculpfun iCube Pro : Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun iCube Pro : Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun iCube Pro : Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun iCube Pro : Sculpfun" }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "tagline": "Kit DIY MK2 Algolaser — plateforme diode modulaire semi-fermée",
-  "tldr": "Le Kit DIY MK2 est la deuxième génération modulaire — choisissez la puissance à l'achat, design quasi fermé, populaire chez les makers qui préfèrent assembler et faire évoluer leur machine plutôt qu'un châssis fixe.",
+  "tagline": "Kit DIY MK2 Algolaser : plateforme diode modulaire semi-fermée",
+  "tldr": "Le Kit DIY MK2 est la deuxième génération modulaire : choisissez la puissance à l'achat, design quasi fermé, populaire chez les makers qui préfèrent assembler et faire évoluer leur machine plutôt qu'un châssis fixe.",
   "mainObjective": "Algolaser modulaire pour makers voulant la flexibilité d'un kit",
   "primaryUse": "Gravure et découpe diode modulaires.",
   "beginnerNotes": "Adaptez la puissance du module à votre liste de travaux avant d'acheter le kit.",
-  "proTips": "La référence MK2 10 W boîtier est la configuration d'entrée la plus courante — consultez les pages des variantes de puissance.",
+  "proTips": "La référence MK2 10 W boîtier est la configuration d'entrée la plus courante : consultez les pages des variantes de puissance.",
   "bestFor": [
     "Monteurs DIY",
     "Pistes de montée en gamme",
@@ -45,9 +45,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 — AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 — AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 — AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 — AlgoLaser" }
+    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 : AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 : AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 : AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 : AlgoLaser" }
   ]
 }

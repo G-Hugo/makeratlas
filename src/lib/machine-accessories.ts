@@ -66,6 +66,9 @@ function mentions(machine: Machine, ...patterns: RegExp[]): boolean {
 }
 
 export function machineIsEnclosed(machine: Machine): boolean {
+  if (machine.laserType === "co2") {
+    return !mentions(machine, /\bk40\b/, /\bopen[- ]?frame\b/);
+  }
   if (
     mentions(
       machine,
@@ -87,8 +90,39 @@ export function machineIsEnclosed(machine: Machine): boolean {
   );
 }
 
+function cameraMentionedInCopy(machine: Machine): boolean {
+  return mentions(
+    machine,
+    /\bcamera\b/,
+    /\bvision\b/,
+    /\blive\s+preview\b/,
+    /\bvisual\s+align/,
+    /\bpreview\s+align/,
+    /\balign(?:ment)?\s+camera\b/,
+    /\b(built[- ]?in|integrated)\s+camera\b/,
+    /\bcamera[- ](assist|alignment|preview)\b/,
+    /\b\d+\s*mp\s+camera\b/,
+  );
+}
+
+/** True when the profile documents a camera (included, or clearly part of the product). */
 export function machineHasCamera(machine: Machine): boolean {
-  return mentions(machine, /\bcamera\b/, /\bvision\b/, /\bpreview\b/);
+  if (cameraMentionedInCopy(machine)) return true;
+
+  const jsonCam = machine.accessories?.find((a) => a.id === "camera");
+  if (jsonCam?.availability === "included") return true;
+
+  if (
+    jsonCam &&
+    jsonCam.availability !== "not_applicable" &&
+    /\bcamera\b/i.test(
+      [jsonCam.note ?? "", ...(machine.pros ?? []), machine.tagline, machine.tldr].join(" "),
+    )
+  ) {
+    return true;
+  }
+
+  return false;
 }
 
 function hasFilterCartridge(machine: Machine): boolean {
@@ -166,17 +200,17 @@ function inferAccessories(machine: Machine): MachineAccessory[] {
     push("safety-glasses", "optional", "Still useful when servicing or with lid open");
   } else if (type === "co2") {
     push("enclosure", "included");
-    push("safety-glasses", "optional", "CO₂ wavelength — match OD rating for 10.6 µm if required by manual");
+    push("safety-glasses", "optional", "CO₂ wavelength: match OD rating for 10.6 µm if required by manual");
   } else {
     push("enclosure", "optional", "Third-party enclosure improves smoke control and safety");
-    push("safety-glasses", "recommended", "~450 nm diode — OD rated for your wavelength");
+    push("safety-glasses", "recommended", "~450 nm diode: OD rated for your wavelength");
   }
 
   push("fire-extinguisher", "recommended");
 
   // Exhaust
   if (type === "co2") {
-    push("exhaust-vent", "recommended", "Route hose outdoors for cutting — especially acrylic");
+    push("exhaust-vent", "recommended", "Route hose outdoors for cutting, especially acrylic");
     push(
       "smoke-filter",
       hasFilterCartridge(machine) ? "included" : "optional",
@@ -201,7 +235,7 @@ function inferAccessories(machine: Machine): MachineAccessory[] {
   if (hasAirAssistIncluded(machine)) {
     push("air-assist", "included");
   } else if (type === "co2") {
-    push("air-assist", "recommended", "Compressor + nozzle — cleaner acrylic edges");
+    push("air-assist", "recommended", "Compressor + nozzle: cleaner acrylic edges");
   } else if (cutsMaterials(machine)) {
     push("air-assist", "recommended");
   } else {
@@ -233,7 +267,7 @@ function inferAccessories(machine: Machine): MachineAccessory[] {
   // Expansion
   if (hasRotaryOption(machine)) {
     push("rotary-roller", "optional", "Tumblers, mugs, cylindrical blanks");
-    push("rotary-chuck", "optional", "Rings and small cylinders — check thread mount");
+    push("rotary-chuck", "optional", "Rings and small cylinders: check thread mount");
   } else if (cutsMaterials(machine) || type === "diode") {
     push("rotary-roller", "optional");
     push("rotary-chuck", "optional");
@@ -253,20 +287,20 @@ function inferAccessories(machine: Machine): MachineAccessory[] {
     push(
       "lightburn",
       mentions(machine, /\blasergrbl\b/i) ? "recommended" : "optional",
-      "~$60–120 license — worth it for most open-frame and CO₂ workflows",
+      "~$60–120 license: worth it for most open-frame and CO₂ workflows",
     );
   } else {
     push("lightburn", "not_applicable", "Uses manufacturer app as primary control");
   }
 
-  // Swappable laser heads (not accessories list item — covered by ModuleSystemNotice)
+  // Swappable laser heads (not accessories list item : covered by ModuleSystemNotice)
   if (machine.moduleSystem?.style === "interchangeable") {
     const ir = machine.moduleSystem.options.some((o) => o.laserKind === "infrared");
     if (ir) {
       const existing = list.find((a) => a.id === "marking-spray");
       if (existing && existing.availability === "not_applicable") {
         existing.availability = "optional";
-        existing.note = "IR module option for some metals — check bundle";
+        existing.note = "IR module option for some metals: check bundle";
       }
     }
   }

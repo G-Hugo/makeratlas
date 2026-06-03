@@ -5,8 +5,8 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "2025 flagship 80W CO₂ — ACS automation, huge bed, optional IR for metal",
-  "tldr": "xTool P3 (August 2025) replaces the P2/P2S as the company's CO₂ flagship: 80W tube, 915×458 mm bed, integrated chiller, fire suppression, and ACS™ automation (cameras, LiDAR autofocus, AI nesting). Optional 5W IR module adds bare-metal marking. From ~$5,999 — built for shops outgrowing diode lasers.",
+  "tagline": "2025 flagship 80W CO₂ : ACS automation, huge bed, optional IR for metal",
+  "tldr": "xTool P3 (August 2025) replaces the P2/P2S as the company's CO₂ flagship: 80W tube, 915×458 mm bed, integrated chiller, fire suppression, and ACS™ automation (cameras, LiDAR autofocus, AI nesting). Optional 5W IR module adds bare-metal marking. From ~$5,999 : built for shops outgrowing diode lasers.",
   "mainObjective": "Automated 80W CO₂ production for sign shops and serious small businesses",
   "bestFor": [
     "Sign shops",
@@ -23,7 +23,7 @@
   "specs": {
     "power": "80W CO₂ glass tube",
     "workArea": "915 × 458 mm (36 × 18 in)",
-    "dimensions": "Large desktop footprint — plan dedicated space",
+    "dimensions": "Large desktop footprint : plan dedicated space",
     "weight": "~80 kg class (verify SKU)",
     "software": [
       "xTool Creative Space",
@@ -79,21 +79,21 @@
     ]
   },
   "pros": [
-    "80W and ~2.3× P2S work area — real production headroom",
+    "80W and ~2.3× P2S work area : real production headroom",
     "ACS automation: cameras, LiDAR focus, AI nesting, batch fill",
     "Class 1 enclosure, fire detection/suppression, integrated chiller",
     "Optional IR module for metal vs buying a separate fiber box",
     "Conveyor feeder option for long materials"
   ],
   "cons": [
-    "Premium price — several times a good diode laser",
+    "Premium price : several times a good diode laser",
     "Heavy; dedicated space and strong exhaust required",
     "CO₂ tube maintenance and replacement cost",
     "Accessories (feeder, AutoLift, IR) push total cost higher",
     "Overkill if you only engrave small gifts"
   ],
-  "beginnerNotes": "Buy P3 if you run a shop cutting acrylic signs or thick wood daily. Coming from P2S? You gain power, bed size, and automation — not a minor tweak. Still on a budget? Consider Monport/OMTech CO₂ or stay on Falcon 2 Pro diode.",
-  "proTips": "Plan exhaust before delivery. Run material tests on the full bed — large beds need focus calibration at corners. Price the IR module only if metal is a regular revenue line.",
+  "beginnerNotes": "Buy P3 if you run a shop cutting acrylic signs or thick wood daily. Coming from P2S? You gain power, bed size, and automation : not a minor tweak. Still on a budget? Consider Monport/OMTech CO₂ or stay on Falcon 2 Pro diode.",
+  "proTips": "Plan exhaust before delivery. Run material tests on the full bed : large beds need focus calibration at corners. Price the IR module only if metal is a regular revenue line.",
   "primaryUse": "2025 xTool flagship CO₂ for high-volume cutting and engraving with factory-style automation.",
   "rating": {
     "overall": 9.4,
@@ -113,19 +113,19 @@
   "images": [
     {
       "src": "/machines/xtool-p3/01.webp",
-      "alt": "xTool P3 laser engraver — xTool"
+      "alt": "xTool P3 laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-p3/02.webp",
-      "alt": "xTool P3 laser engraver — xTool"
+      "alt": "xTool P3 laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-p3/03.webp",
-      "alt": "xTool P3 laser engraver — xTool"
+      "alt": "xTool P3 laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-p3/04.jpg",
-      "alt": "xTool P3 laser engraver — xTool"
+      "alt": "xTool P3 laser engraver : xTool"
     }
   ],
   "catalogPrimary": true,

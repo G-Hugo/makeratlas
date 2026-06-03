@@ -5,8 +5,8 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Pocket Acmer S1 — ultra-portable diode for tiny projects",
-  "tldr": "Acmer S1 is a mini portable engraver (2.5–6W tiers) for stamps, small gifts, and travel. Not a workshop machine — complements a larger laser rather than replacing one.",
+  "tagline": "Pocket Acmer S1 : ultra-portable diode for tiny projects",
+  "tldr": "Acmer S1 is a mini portable engraver (2.5–6W tiers) for stamps, small gifts, and travel. Not a workshop machine : complements a larger laser rather than replacing one.",
   "mainObjective": "Portable micro-engraving for small items and learning",
   "bestFor": [
     "Portable",
@@ -81,7 +81,7 @@
     "Bluetooth workflow quirks"
   ],
   "beginnerNotes": "Buy as a toy/second machine, not your only laser.",
-  "proTips": "Get the 6W tier if buying S1 — small price jump for usable power.",
+  "proTips": "Get the 6W tier if buying S1 : small price jump for usable power.",
   "primaryUse": "Portable micro-engraver for small personalization.",
   "rating": {
     "overall": 8,
@@ -105,19 +105,19 @@
   "images": [
     {
       "src": "/machines/acmer-s1-6w/01.webp",
-      "alt": "Acmer S1 6W laser engraver — Acmer"
+      "alt": "Acmer S1 6W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-s1-6w/02.jpg",
-      "alt": "Acmer S1 6W laser engraver — Acmer"
+      "alt": "Acmer S1 6W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-s1-6w/03.jpg",
-      "alt": "Acmer S1 6W laser engraver — Acmer"
+      "alt": "Acmer S1 6W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-s1-6w/04.jpg",
-      "alt": "Acmer S1 6W laser engraver — Acmer"
+      "alt": "Acmer S1 6W laser engraver : Acmer"
     }
   ]
 }

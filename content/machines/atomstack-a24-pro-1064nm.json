@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "fiber",
-  "tagline": "Fiber-only A24 Pro — metal and plastic marking in a compact Atomstack",
-  "tldr": "AtomStack A24 Pro 1064nm is the fiber-marking variant without the diode side — for users who only need metal/plastic marking in a small footprint, not wood cutting.",
+  "tagline": "Fiber-only A24 Pro : metal and plastic marking in a compact Atomstack",
+  "tldr": "AtomStack A24 Pro 1064nm is the fiber-marking variant without the diode side : for users who only need metal/plastic marking in a small footprint, not wood cutting.",
   "mainObjective": "Desktop fiber marking without a separate diode engraver",
   "bestFor": [
     "Metal tags",
@@ -103,19 +103,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a24-pro-1064nm/01.webp",
-      "alt": "AtomStack A24 Pro 1064nm laser engraver — Atomstack"
+      "alt": "AtomStack A24 Pro 1064nm laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-pro-1064nm/02.jpg",
-      "alt": "AtomStack A24 Pro 1064nm laser engraver — Atomstack"
+      "alt": "AtomStack A24 Pro 1064nm laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-pro-1064nm/03.jpg",
-      "alt": "AtomStack A24 Pro 1064nm laser engraver — Atomstack"
+      "alt": "AtomStack A24 Pro 1064nm laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-pro-1064nm/04.jpg",
-      "alt": "AtomStack A24 Pro 1064nm laser engraver — Atomstack"
+      "alt": "AtomStack A24 Pro 1064nm laser engraver : Atomstack"
     }
   ]
 }

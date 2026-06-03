@@ -1,6 +1,6 @@
 {
   "tagline": "Marqueur fibre en armoire split avec place pour rotary et fixations",
-  "tldr": "Le Gweike G6 Split est une plateforme de marquage fibre plus grande avec source laser en armoire séparée — format courant pour la petite production. Disponible jusqu'à 100W ; ce profil couvre le niveau 30W populaire.",
+  "tldr": "Le Gweike G6 Split est une plateforme de marquage fibre plus grande avec source laser en armoire séparée : format courant pour la petite production. Disponible jusqu'à 100W ; ce profil couvre le niveau 30W populaire.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Marquage fibre petite production pour lots de pièces métal et personnalisation.",
   "beginnerNotes": "Ce profil décrit le module 30W de Gweike G6 Split. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -13,7 +13,7 @@
   ],
   "pros": [
     "Marqueur fibre en armoire split avec place pour rotary et fixations",
-    "Fibre = marquage métal — ne découpe pas bois ni acrylique",
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
     "Surface utile 150 × 150 mm typical (varies by lens) sur ce châssis",
     "Exemple gravure de référence sur ce module : ~4–11 min"
   ],
@@ -43,22 +43,22 @@
         "description": "Logo rempli sur plaque en acier inoxydable"
       },
       "cutExample": {
-        "description": "Découpe laser — machine de marquage uniquement"
+        "description": "Découpe laser : machine de marquage uniquement"
       }
     }
   },
   "images": [
     {
-      "alt": "Graveuse laser Gweike G6 Split 30W — Gweike"
+      "alt": "Graveuse laser Gweike G6 Split 30W : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G6 Split 30W — Gweike"
+      "alt": "Graveuse laser Gweike G6 Split 30W : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G6 Split 30W — Gweike"
+      "alt": "Graveuse laser Gweike G6 Split 30W : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G6 Split 30W — Gweike"
+      "alt": "Graveuse laser Gweike G6 Split 30W : Gweike"
     }
   ]
 }

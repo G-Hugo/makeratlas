@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/two-trees-ts2-20w/01.webp",
-  "tagline": "TwoTrees' popular TS2 platform — 20W open-frame with active community",
-  "tldr": "The TS2 20W is one of TwoTrees' best-known laser lines — often compared to Ortur and Sculpfun at aggressive sale prices. Good for hobbyists who prioritize price and can tolerate less polished support than xTool.",
+  "tagline": "TwoTrees' popular TS2 platform : 20W open-frame with active community",
+  "tldr": "The TS2 20W is one of TwoTrees' best-known laser lines : often compared to Ortur and Sculpfun at aggressive sale prices. Good for hobbyists who prioritize price and can tolerate less polished support than xTool.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -71,17 +71,17 @@
     ]
   },
   "pros": [
-    "TwoTrees' popular TS2 platform — 20W open-frame with active community",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "TwoTrees' popular TS2 platform : 20W open-frame with active community",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 410 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "Balanced engrave and cut — typical 8 mm basswood in multiple passes",
+    "Balanced engrave and cut : typical 8 mm basswood in multiple passes",
     "Reference engrave job on this module: ~18–28 min",
     "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
     "Higher modules in this line (40W) add cut speed and depth",
-    "Verify the 20W SKU — same chassis, different modules",
+    "Verify the 20W SKU : same chassis, different modules",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 20W module on TwoTrees TS2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -104,19 +104,19 @@
   "images": [
     {
       "src": "/machines/two-trees-ts2-20w/01.webp",
-      "alt": "TwoTrees TS2 20W laser engraver — TwoTrees"
+      "alt": "TwoTrees TS2 20W laser engraver : TwoTrees"
     },
     {
       "src": "/machines/two-trees-ts2-20w/02.jpg",
-      "alt": "TwoTrees TS2 20W laser engraver — TwoTrees"
+      "alt": "TwoTrees TS2 20W laser engraver : TwoTrees"
     },
     {
       "src": "/machines/two-trees-ts2-20w/03.jpg",
-      "alt": "TwoTrees TS2 20W laser engraver — TwoTrees"
+      "alt": "TwoTrees TS2 20W laser engraver : TwoTrees"
     },
     {
       "src": "/machines/two-trees-ts2-20w/04.jpg",
-      "alt": "TwoTrees TS2 20W laser engraver — TwoTrees"
+      "alt": "TwoTrees TS2 20W laser engraver : TwoTrees"
     }
   ],
   "modelLine": "two-trees-ts2",

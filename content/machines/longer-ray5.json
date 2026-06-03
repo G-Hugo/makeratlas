@@ -5,8 +5,8 @@
   "brand": "Longer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Compact fixed-focus diode — simple desk engraver for small projects",
-  "tldr": "Longer's compact Ray5 20W diode engraver — verify you are buying the 20W SKU, not the 5W, 10W, or 40W Ray5 listings.",
+  "tagline": "Compact fixed-focus diode : simple desk engraver for small projects",
+  "tldr": "Longer's compact Ray5 20W diode engraver : verify you are buying the 20W SKU, not the 5W, 10W, or 40W Ray5 listings.",
   "bestFor": [
     "Desk engraving",
     "Small items",
@@ -17,7 +17,7 @@
     "min": 420,
     "max": 970,
     "currency": "USD",
-    "note": "20W SKU — other wattages are separate Longer listings"
+    "note": "20W SKU : other wattages are separate Longer listings"
   },
   "specs": {
     "power": "20W diode",
@@ -84,7 +84,7 @@
     "Limited upgrade path vs. modular competitors"
   ],
   "beginnerNotes": "Consider Ray5 if space is tight and you only engrave small items like coasters and keychains. For a primary first laser, Ortur LM3 or Sculpfun S30 Ultra usually offer better long-term value.",
-  "proTips": "Use a riser or rotary for tumblers if your model supports it. LightBurn improves workflow vs. stock app. Keep expectations on cutting — this is an engraver first.",
+  "proTips": "Use a riser or rotary for tumblers if your model supports it. LightBurn improves workflow vs. stock app. Keep expectations on cutting : this is an engraver first.",
   "primaryUse": "Compact desktop engraving of small wood, leather, and slate items with minimal setup complexity.",
   "rating": {
     "overall": 7.6,
@@ -104,11 +104,11 @@
   "images": [
     {
       "src": "/machines/longer-ray5/01.webp",
-      "alt": "Longer Ray5 20W laser engraver — Longer"
+      "alt": "Longer Ray5 20W laser engraver : Longer"
     },
     {
       "src": "/machines/longer-ray5/02.jpg",
-      "alt": "Longer Ray5 20W laser engraver — Longer"
+      "alt": "Longer Ray5 20W laser engraver : Longer"
     }
   ],
   "powerRating": "20W",

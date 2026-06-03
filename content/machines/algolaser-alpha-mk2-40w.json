@@ -7,8 +7,8 @@
   "laserType": "diode",
   "image": "/machines/algolaser-alpha-mk2-40w/01.webp",
   "tagline": "40W Premium open-frame diode focused on speed and fine engraving detail",
-  "tldr": "Algolaser Alpha MK2 40W is the 40W SKU on the Algolaser algolaser alpha mk2 line. Algolaser targets makers who want faster engraving and tighter spot control than typical budget diodes. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
+  "tldr": "Algolaser Alpha MK2 40W is the 40W SKU on the Algolaser algolaser alpha mk2 line. Algolaser targets makers who want faster engraving and tighter spot control than typical budget diodes. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -19,7 +19,7 @@
     "min": 799,
     "max": 1099,
     "currency": "USD",
-    "note": "40W optical module — verify SKU before buying"
+    "note": "40W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "40W diode",
@@ -75,16 +75,16 @@
   },
   "pros": [
     "40W Premium open-frame diode focused on speed and fine engraving detail",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 440 × 410 mm on this chassis",
     "Software: LightBurn · Algolaser app",
-    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
     "40W: the most cut-focused head in the Algolaser Alpha MK2 line",
     "Reference engrave job on this module: ~6–9 min"
   ],
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode — clear acrylic production wants CO₂",
+    "Still a diode : clear acrylic production wants CO₂",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 40W module on Algolaser Alpha MK2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -107,19 +107,19 @@
   "images": [
     {
       "src": "/machines/algolaser-alpha-mk2-40w/01.webp",
-      "alt": "Algolaser Alpha MK2 40W laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 40W laser engraver : Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-40w/02.jpg",
-      "alt": "Algolaser Alpha MK2 40W laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 40W laser engraver : Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-40w/03.jpg",
-      "alt": "Algolaser Alpha MK2 40W laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 40W laser engraver : Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-40w/04.jpg",
-      "alt": "Algolaser Alpha MK2 40W laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 40W laser engraver : Algolaser"
     }
   ],
   "modelLine": "algolaser-alpha-mk2",

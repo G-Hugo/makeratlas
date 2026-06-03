@@ -5,7 +5,7 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Entry S30 Ultra frame — engraving-first, light cutting",
+  "tagline": "Entry S30 Ultra frame : engraving-first, light cutting",
   "tldr": "The 10W S30 Ultra uses the same rigid frame as higher-power models but targets makers who mainly engrave wood, leather, and slate. Expect slower cuts and thinner material limits than the 20W or 22W versions.",
   "bestFor": [
     "Engraving-focused shops",
@@ -17,7 +17,7 @@
     "min": 380,
     "max": 520,
     "currency": "USD",
-    "note": "10W module — still sold as a distinct SKU"
+    "note": "10W module : still sold as a distinct SKU"
   },
   "specs": {
     "power": "10W diode",
@@ -71,16 +71,16 @@
     ]
   },
   "pros": [
-    "Entry S30 Ultra frame — engraving-first, light cutting",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Entry S30 Ultra frame : engraving-first, light cutting",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 410 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "10W on Sculpfun S30 Ultra: engraving-first — photo fills and leather at moderate speeds",
+    "10W on Sculpfun S30 Ultra: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~11–18 min",
     "Reference cut job on this module: ~7–11 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
     "Higher modules in this line (20W or 22W) add cut speed and depth",
     "Not the SKU for a shop cutting 5 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -107,7 +107,7 @@
   "images": [
     {
       "src": "/machines/sculpfun-s30-ultra-10w/01.webp",
-      "alt": "Sculpfun S30 Ultra 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Ultra 10W laser engraver : Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s30-ultra",

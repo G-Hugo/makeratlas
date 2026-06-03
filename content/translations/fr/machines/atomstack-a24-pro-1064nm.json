@@ -1,6 +1,6 @@
 {
-  "tagline": "A24 Pro fibre uniquement — marquage métal et plastique dans une Atomstack compacte",
-  "tldr": "L’AtomStack A24 Pro 1064 nm est la variante marquage fibre sans côté diode — pour ceux qui n’ont besoin que du marquage métal/plastique sur petit encombrement, pas de découpe bois.",
+  "tagline": "A24 Pro fibre uniquement : marquage métal et plastique dans une Atomstack compacte",
+  "tldr": "L’AtomStack A24 Pro 1064 nm est la variante marquage fibre sans côté diode : pour ceux qui n’ont besoin que du marquage métal/plastique sur petit encombrement, pas de découpe bois.",
   "mainObjective": "Marquage fibre de bureau sans graveuse diode séparée",
   "primaryUse": "Marquage fibre compact pour métal et plastiques techniques.",
   "beginnerNotes": "Prenez l’A24 Pro hybride si vous gravez aussi le bois régulièrement.",
@@ -46,9 +46,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm — Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm — Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm — Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm — Atomstack" }
+    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack" },
+    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack" }
   ]
 }

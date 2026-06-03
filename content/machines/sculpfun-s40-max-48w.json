@@ -5,8 +5,8 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "2025 large-format Sculpfun — 830×800 mm bed and 48W compressed diode",
-  "tldr": "The S40 MAX (2025) targets makers who outgrew 400 mm frames: 830×800 mm work area, 48W optical power, auto-focus, and Wi-Fi via TS1 screen. Built for sign panels and batch cutting — verify shipping weight and workshop space before ordering.",
+  "tagline": "2025 large-format Sculpfun : 830×800 mm bed and 48W compressed diode",
+  "tldr": "The S40 MAX (2025) targets makers who outgrew 400 mm frames: 830×800 mm work area, 48W optical power, auto-focus, and Wi-Fi via TS1 screen. Built for sign panels and batch cutting : verify shipping weight and workshop space before ordering.",
   "mainObjective": "Extra-large Sculpfun diode for big panels and production-style cutting",
   "bestFor": [
     "Large signs",
@@ -79,10 +79,10 @@
     "Strong value vs CO₂ for large wood"
   ],
   "cons": [
-    "Huge frame — needs dedicated table",
+    "Huge frame : needs dedicated table",
     "15.2 kg machine weight",
     "48W claims need real-world verification",
-    "Open frame — full safety responsibility"
+    "Open frame : full safety responsibility"
   ],
   "beginnerNotes": "Only buy if you regularly hit size limits on S30 Ultra or 400 mm machines. First laser buyers should start smaller.",
   "proTips": "Use Z-axis offset per pass in LightBurn for flatter thick cuts. Budget 50L+ air assist for claimed one-pass thick cuts.",
@@ -105,19 +105,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s40-max-48w/01.webp",
-      "alt": "Sculpfun S40 MAX 48W laser engraver — Sculpfun"
+      "alt": "Sculpfun S40 MAX 48W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s40-max-48w/02.jpg",
-      "alt": "Sculpfun S40 MAX 48W laser engraver — Sculpfun"
+      "alt": "Sculpfun S40 MAX 48W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s40-max-48w/03.jpg",
-      "alt": "Sculpfun S40 MAX 48W laser engraver — Sculpfun"
+      "alt": "Sculpfun S40 MAX 48W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s40-max-48w/04.jpg",
-      "alt": "Sculpfun S40 MAX 48W laser engraver — Sculpfun"
+      "alt": "Sculpfun S40 MAX 48W laser engraver : Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s40-max",

@@ -5,7 +5,7 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "2025 Sculpfun S10 line — industrial-style frame, 385 mm bed",
+  "tagline": "2025 Sculpfun S10 line : industrial-style frame, 385 mm bed",
   "tldr": "Sculpfun S10 10W launched in 2025 as a mid-size open-frame engraver with a sturdier industrial frame than S9, ~385 mm work area, and detachable laser cover. Positioned between budget S9 and S30 families for makers who want better rigidity without Ultra pricing.",
   "mainObjective": "Mid-tier Sculpfun engraving with a stiffer frame than S9",
   "bestFor": [
@@ -79,7 +79,7 @@
     "10W ceiling vs 20–22W mainstream",
     "Open frame",
     "Overlaps with S9 and S30 Pro pricing",
-    "Newer line — fewer community presets than S9"
+    "Newer line : fewer community presets than S9"
   ],
   "beginnerNotes": "Choose S30 Ultra 10W if cutting matters; choose S10 if you want a 2025 frame and mainly engrave at 10W.",
   "proTips": "Pair with 30L/min air assist per Sculpfun spec for cleaner cuts.",
@@ -102,11 +102,11 @@
   "images": [
     {
       "src": "/machines/sculpfun-s10-10w/01.webp",
-      "alt": "Sculpfun S10 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S10 10W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s10-10w/02.jpg",
-      "alt": "Sculpfun S10 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S10 10W laser engraver : Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s10",

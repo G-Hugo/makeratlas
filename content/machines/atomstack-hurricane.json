@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "Desktop CO₂ cutter from Atomstack — 55W tube in a modern enclosed chassis",
-  "tldr": "AtomStack Hurricane brings CO₂ cutting to Atomstack buyers who outgrew diodes. Cuts acrylic and wood thicker than any diode in this price class. Requires space, ventilation, and water cooling discipline — not apartment-friendly.",
+  "tagline": "Desktop CO₂ cutter from Atomstack : 55W tube in a modern enclosed chassis",
+  "tldr": "AtomStack Hurricane brings CO₂ cutting to Atomstack buyers who outgrew diodes. Cuts acrylic and wood thicker than any diode in this price class. Requires space, ventilation, and water cooling discipline : not apartment-friendly.",
   "mainObjective": "Desktop CO₂ for acrylic cutting and wood production beyond diode limits",
   "bestFor": [
     "Acrylic cutting",
@@ -107,11 +107,11 @@
   "images": [
     {
       "src": "/machines/atomstack-hurricane/01.webp",
-      "alt": "AtomStack Hurricane 55W laser engraver — Atomstack"
+      "alt": "AtomStack Hurricane 55W laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-hurricane/02.jpg",
-      "alt": "AtomStack Hurricane 55W laser engraver — Atomstack"
+      "alt": "AtomStack Hurricane 55W laser engraver : Atomstack"
     }
   ]
 }

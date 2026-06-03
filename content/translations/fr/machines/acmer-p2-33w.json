@@ -1,6 +1,6 @@
 {
-  "tagline": "Niveau Acmer P2 puissant — diode compressée 33 W pour un travail plus rapide",
-  "tldr": "L'Acmer P2 33 W est l'Acmer structure ouverte haute puissance avant le P3 fermé. Vérifiez la puissance optique réelle face au marketing — bonne machine de découpe pour le prix une fois bien réglée.",
+  "tagline": "Niveau Acmer P2 puissant : diode compressée 33 W pour un travail plus rapide",
+  "tldr": "L'Acmer P2 33 W est l'Acmer structure ouverte haute puissance avant le P3 fermé. Vérifiez la puissance optique réelle face au marketing : bonne machine de découpe pour le prix une fois bien réglée.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Acmer structure ouverte haute puissance pour découpe et gravure rapide.",
   "beginnerNotes": "Ce profil décrit le module 33W de Acmer P2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -12,17 +12,17 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Niveau Acmer P2 puissant — diode compressée 33 W pour un travail plus rapide",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Niveau Acmer P2 puissant : diode compressée 33 W pour un travail plus rapide",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 400 × 400 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme — benchmark ~8 mm tilleul",
+    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
     "33W : tête la plus orientée découpe de Acmer P2",
     "Exemple gravure de référence sur ce module : ~12–18 min"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -53,16 +53,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Acmer P2 33 W — Acmer"
+      "alt": "Graveuse laser Acmer P2 33 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer P2 33 W — Acmer"
+      "alt": "Graveuse laser Acmer P2 33 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer P2 33 W — Acmer"
+      "alt": "Graveuse laser Acmer P2 33 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer P2 33 W — Acmer"
+      "alt": "Graveuse laser Acmer P2 33 W : Acmer"
     }
   ]
 }

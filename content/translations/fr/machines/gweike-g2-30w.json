@@ -1,6 +1,6 @@
 {
   "tagline": "Marqueur fibre 30W de bureau pour métal et certains plastiques",
-  "tldr": "Le Gweike G2 Pro 30W Fiber est la référence 30W de la gamme G2. Le Gweike G2 intègre un galvo fibre 20W dans un format de bureau. Vérifiez la puissance optique sur l'annonce — ne vous fiez pas au marketing en watts combinés.",
+  "tldr": "Le Gweike G2 Pro 30W Fiber est la référence 30W de la gamme G2. Le Gweike G2 intègre un galvo fibre 20W dans un format de bureau. Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Gravure fibre de bureau pour activités secondaires orientées métal.",
   "beginnerNotes": "Ce profil décrit le module 30W de Gweike G2 Pro Fibre. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -13,7 +13,7 @@
   ],
   "pros": [
     "Marqueur fibre 30W de bureau pour métal et certains plastiques",
-    "Fibre = marquage métal — ne découpe pas bois ni acrylique",
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
     "Surface utile 110 × 110 mm sur ce châssis",
     "Exemple gravure de référence sur ce module : ~3–7 min"
   ],
@@ -39,7 +39,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 30W — vérifiez la référence avant achat"
+    "note": "Module optique 30W : vérifiez la référence avant achat"
   },
   "specs": {
     "performance": {
@@ -47,22 +47,22 @@
         "description": "Logo rempli sur plaque en acier inoxydable"
       },
       "cutExample": {
-        "description": "Découpe laser — machine de marquage uniquement"
+        "description": "Découpe laser : machine de marquage uniquement"
       }
     }
   },
   "images": [
     {
-      "alt": "Graveuse laser Gweike G2 Pro 30W Fiber — Gweike"
+      "alt": "Graveuse laser Gweike G2 Pro 30W Fiber : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G2 Pro 30W Fiber — Gweike"
+      "alt": "Graveuse laser Gweike G2 Pro 30W Fiber : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G2 Pro 30W Fiber — Gweike"
+      "alt": "Graveuse laser Gweike G2 Pro 30W Fiber : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G2 Pro 30W Fiber — Gweike"
+      "alt": "Graveuse laser Gweike G2 Pro 30W Fiber : Gweike"
     }
   ]
 }

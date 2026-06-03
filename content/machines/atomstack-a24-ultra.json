@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "tagline": "Step-up A24 with more diode power and refined hybrid workflow",
-  "tldr": "AtomStack A24 Ultra is the higher-tier A24 with more diode power and updated hybrid layout. Same use case as A24 Pro — metal marking plus organic work in a compact box — with more headroom for cutting.",
+  "tldr": "AtomStack A24 Ultra is the higher-tier A24 with more diode power and updated hybrid layout. Same use case as A24 Pro : metal marking plus organic work in a compact box : with more headroom for cutting.",
   "mainObjective": "Premium compact hybrid Atomstack for metal + wood shops",
   "bestFor": [
     "Hybrid power users",
@@ -20,7 +20,7 @@
   },
   "specs": {
     "power": "24W diode + fiber",
-    "workArea": "Verify listing — compact hybrid format",
+    "workArea": "Verify listing : compact hybrid format",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -106,19 +106,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a24-ultra/01.webp",
-      "alt": "AtomStack A24 Ultra laser engraver — Atomstack"
+      "alt": "AtomStack A24 Ultra laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-ultra/02.jpg",
-      "alt": "AtomStack A24 Ultra laser engraver — Atomstack"
+      "alt": "AtomStack A24 Ultra laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-ultra/03.jpg",
-      "alt": "AtomStack A24 Ultra laser engraver — Atomstack"
+      "alt": "AtomStack A24 Ultra laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-ultra/04.jpg",
-      "alt": "AtomStack A24 Ultra laser engraver — Atomstack"
+      "alt": "AtomStack A24 Ultra laser engraver : Atomstack"
     }
   ]
 }

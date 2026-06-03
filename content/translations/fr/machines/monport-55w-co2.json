@@ -1,10 +1,10 @@
 {
-  "tagline": "CO₂ milieu de gamme avec finition supérieure au K40 — moins de bricolage",
+  "tagline": "CO₂ milieu de gamme avec finition supérieure au K40 : moins de bricolage",
   "tldr": "Monport se situe entre les K40 petit budget et les CO₂ enceints premium comme xTool P2. Les modèles bureau 55 W offrent une vraie puissance de découpe avec une meilleure finition et autofocus en option. Ventilation toujours requise, mais plus proche du « prêt pour l’activité » qu’un K40 stock.",
   "mainObjective": "Production CO₂ milieu de gamme pour enseignes, acrylique et ateliers bois",
   "primaryUse": "CO₂ milieu de gamme pour enseignistes et vendeurs Etsy dépassant la classe K40.",
   "beginnerNotes": "Passez du K40 quand vous avez besoin de plus de plateau, plus de puissance et moins de mods obligatoires. Passez au xTool P2 quand enceinte, caméra et setup minimal comptent plus que le prix.",
-  "proTips": "Prévoyez un budget pour améliorer le ventilateur d’évacuation si la ventilation d’origine semble faible. Faites un test de rampe après livraison pour vérifier la mise au point sur tout le plateau. Gardez l’eau de refroidissement du tube propre — les tubes CO₂ lâchent prématurément sans entretien.",
+  "proTips": "Prévoyez un budget pour améliorer le ventilateur d’évacuation si la ventilation d’origine semble faible. Faites un test de rampe après livraison pour vérifier la mise au point sur tout le plateau. Gardez l’eau de refroidissement du tube propre : les tubes CO₂ lâchent prématurément sans entretien.",
   "bestFor": [
     "Montée en gamme petite activité",
     "CO₂ milieu de budget",
@@ -53,7 +53,7 @@
     },
     {
       "question": "Ai-je besoin d’un refroidissement eau ?",
-      "answer": "Oui. Les tubes verre CO₂ exigent un refroidisseur eau ou une boucle continue. Ne faites jamais tourner le tube sans refroidissement adéquat — quelques minutes à sec peuvent le détruire."
+      "answer": "Oui. Les tubes verre CO₂ exigent un refroidisseur eau ou une boucle continue. Ne faites jamais tourner le tube sans refroidissement adéquat : quelques minutes à sec peuvent le détruire."
     }
   ],
   "priceRange": {
@@ -70,8 +70,8 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Monport 55W CO₂ — Monport" },
-    { "alt": "Graveuse laser Monport 55W CO₂ — Monport" },
-    { "alt": "Graveuse laser Monport 55W CO₂ — Monport" }
+    { "alt": "Graveuse laser Monport 55W CO₂ : Monport" },
+    { "alt": "Graveuse laser Monport 55W CO₂ : Monport" },
+    { "alt": "Graveuse laser Monport 55W CO₂ : Monport" }
   ]
 }

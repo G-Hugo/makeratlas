@@ -1,10 +1,10 @@
 {
-  "tagline": "FoxAlien Reizer 40W — haute puissance à structure ouverte de la marque CNC",
-  "tldr": "La FoxAlien Reizer 40W est la diode phare de la gamme laser FoxAlien — découpe classe 40W pour les makers déjà dans l'écosystème CNC FoxAlien. Vérifiez la puissance optique ; comparez à l'Atomstack A40 et l'Ortur H20 40W.",
+  "tagline": "FoxAlien Reizer 40W : haute puissance à structure ouverte de la marque CNC",
+  "tldr": "La FoxAlien Reizer 40W est la diode phare de la gamme laser FoxAlien : découpe classe 40W pour les makers déjà dans l'écosystème CNC FoxAlien. Vérifiez la puissance optique ; comparez à l'Atomstack A40 et l'Ortur H20 40W.",
   "mainObjective": "FoxAlien 40W à structure ouverte pour loisir orienté découpe ou activité secondaire",
   "primaryUse": "Laser FoxAlien haute puissance pour découpe et gravure rapide.",
   "beginnerNotes": "Solide si vous possédez déjà une CNC FoxAlien et faites confiance à la marque.",
-  "proTips": "Comparez la LE-4040 Pro 20W si le 40W est excessif — même marque, coût inférieur.",
+  "proTips": "Comparez la LE-4040 Pro 20W si le 40W est excessif : même marque, coût inférieur.",
   "bestFor": [
     "Propriétaires CNC FoxAlien",
     "Découpe 40W",
@@ -17,7 +17,7 @@
   ],
   "cons": [
     "Communauté laser plus petite qu'Ortur/Sculpfun",
-    "Marketing watts — vérifiez",
+    "Marketing watts : vérifiez",
     "Structure ouverte"
   ],
   "materials": {
@@ -46,9 +46,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser FoxAlien Reizer 40W — FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien Reizer 40W — FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien Reizer 40W — FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien Reizer 40W — FoxAlien" }
+    { "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien" },
+    { "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien" }
   ]
 }

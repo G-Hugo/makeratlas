@@ -6,9 +6,9 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/two-trees-ts2-40w/01.webp",
-  "tagline": "40W TwoTrees' popular TS2 platform — 20W open-frame with active community",
-  "tldr": "TwoTrees TS2 40W is the 40W SKU on the TwoTrees two trees ts2 line. The TS2 20W is one of TwoTrees' best-known laser lines — often compared to Ortur and Sculpfun at aggressive sale prices. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
+  "tagline": "40W TwoTrees' popular TS2 platform : 20W open-frame with active community",
+  "tldr": "TwoTrees TS2 40W is the 40W SKU on the TwoTrees two trees ts2 line. The TS2 20W is one of TwoTrees' best-known laser lines : often compared to Ortur and Sculpfun at aggressive sale prices. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -19,7 +19,7 @@
     "min": 399,
     "max": 549,
     "currency": "USD",
-    "note": "40W optical module — verify SKU before buying"
+    "note": "40W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "40W diode",
@@ -72,17 +72,17 @@
     ]
   },
   "pros": [
-    "40W TwoTrees' popular TS2 platform — 20W open-frame with active community",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "40W TwoTrees' popular TS2 platform : 20W open-frame with active community",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 410 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
     "40W: the most cut-focused head in the TwoTrees TS2 line",
     "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode — clear acrylic production wants CO₂",
+    "Still a diode : clear acrylic production wants CO₂",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 40W module on TwoTrees TS2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -105,19 +105,19 @@
   "images": [
     {
       "src": "/machines/two-trees-ts2-40w/01.webp",
-      "alt": "TwoTrees TS2 40W laser engraver — TwoTrees"
+      "alt": "TwoTrees TS2 40W laser engraver : TwoTrees"
     },
     {
       "src": "/machines/two-trees-ts2-40w/02.jpg",
-      "alt": "TwoTrees TS2 40W laser engraver — TwoTrees"
+      "alt": "TwoTrees TS2 40W laser engraver : TwoTrees"
     },
     {
       "src": "/machines/two-trees-ts2-40w/03.jpg",
-      "alt": "TwoTrees TS2 40W laser engraver — TwoTrees"
+      "alt": "TwoTrees TS2 40W laser engraver : TwoTrees"
     },
     {
       "src": "/machines/two-trees-ts2-40w/04.jpg",
-      "alt": "TwoTrees TS2 40W laser engraver — TwoTrees"
+      "alt": "TwoTrees TS2 40W laser engraver : TwoTrees"
     }
   ],
   "modelLine": "two-trees-ts2",

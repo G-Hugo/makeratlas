@@ -1,10 +1,10 @@
 {
-  "tagline": "iCube Pro Max 10 W — Sculpfun compact fermé, petit encombrement et capot complet",
-  "tldr": "Le Sculpfun iCube Pro Max 10 W est le SKU 10 W de la gamme iCube Pro. Laser de bureau fermé Sculpfun pour makers qui veulent les performances de découpe de la marque dans un capot plus sûr. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing watts combinés.",
+  "tagline": "iCube Pro Max 10 W : Sculpfun compact fermé, petit encombrement et capot complet",
+  "tldr": "Le Sculpfun iCube Pro Max 10 W est le SKU 10 W de la gamme iCube Pro. Laser de bureau fermé Sculpfun pour makers qui veulent les performances de découpe de la marque dans un capot plus sûr. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Diode fermée compacte pour bureaux à petit espace : gravure et découpes légères bois/cuir.",
   "beginnerNotes": "Ce profil décrit le module 10W de Sculpfun iCube Pro Max. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez les réglages communautaires Sculpfun comme point de départ — réduisez la vitesse de 10–15 % dans le capot si la carbonisation augmente à cause de la chaleur.",
+  "proTips": "Utilisez les réglages communautaires Sculpfun comme point de départ : réduisez la vitesse de 10–15 % dans le capot si la carbonisation augmente à cause de la chaleur.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,16 +12,16 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "iCube Pro Max 10 W — Sculpfun compact fermé, petit encombrement et capot complet",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "iCube Pro Max 10 W : Sculpfun compact fermé, petit encombrement et capot complet",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 300 × 300 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Sculpfun iCube Pro Max : priorité gravure — remplissages photo et cuir",
+    "10W sur Sculpfun iCube Pro Max : priorité gravure : remplissages photo et cuir",
     "Exemple gravure de référence sur ce module : ~12–18 min",
     "Exemple découpe de référence sur ce module : ~6–10 min"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
@@ -45,7 +45,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 10 W — vérifiez le SKU avant achat"
+    "note": "Module optique 10 W : vérifiez le SKU avant achat"
   },
   "specs": {
     "performance": {
@@ -59,16 +59,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Sculpfun iCube Pro Max 10W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun iCube Pro Max 10W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun iCube Pro Max 10W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun iCube Pro Max 10W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun iCube Pro Max 10W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun iCube Pro Max 10W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun iCube Pro Max 10W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun iCube Pro Max 10W : Sculpfun"
     }
   ]
 }

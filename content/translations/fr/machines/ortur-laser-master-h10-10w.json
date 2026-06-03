@@ -1,10 +1,10 @@
 {
-  "tagline": "H10 10 W — série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
-  "tldr": "L’Ortur Laser Master H10 10 W est le SKU 10 W de la gamme H10. Montée en gamme Ortur par rapport au LM3 structure ouverte : châssis plus intégré et vitesses de déplacement annoncées plus élevées. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing watts combinés.",
+  "tagline": "H10 10 W : série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
+  "tldr": "L’Ortur Laser Master H10 10 W est le SKU 10 W de la gamme H10. Montée en gamme Ortur par rapport au LM3 structure ouverte : châssis plus intégré et vitesses de déplacement annoncées plus élevées. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Diode Ortur structure ouverte intégrée pour gravure plus rapide et découpe modérée de bois fin.",
   "beginnerNotes": "Ce profil décrit le module 10W de Ortur Laser Master H10. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Commencez en 20 W sauf cas de découpe clair — le 40 W ajoute du coût avec des gains limités sur l’épaisseur. Associez l’assistance air Ortur tôt pour des bords plus propres.",
+  "proTips": "Commencez en 20 W sauf cas de découpe clair : le 40 W ajoute du coût avec des gains limités sur l’épaisseur. Associez l’assistance air Ortur tôt pour des bords plus propres.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,16 +12,16 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "H10 10 W — série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "H10 10 W : série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 400 × 400 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "10W sur Ortur Laser Master H10 : priorité gravure — remplissages photo et cuir",
+    "10W sur Ortur Laser Master H10 : priorité gravure : remplissages photo et cuir",
     "Exemple gravure de référence sur ce module : ~28–43 min",
     "Exemple découpe de référence sur ce module : ~14–24 min"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
@@ -48,7 +48,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 10 W — vérifiez le SKU avant achat"
+    "note": "Module optique 10 W : vérifiez le SKU avant achat"
   },
   "specs": {
     "performance": {
@@ -62,16 +62,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Ortur Laser Master H10 10W — Ortur"
+      "alt": "Graveuse laser Ortur Laser Master H10 10W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur Laser Master H10 10W — Ortur"
+      "alt": "Graveuse laser Ortur Laser Master H10 10W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur Laser Master H10 10W — Ortur"
+      "alt": "Graveuse laser Ortur Laser Master H10 10W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur Laser Master H10 10W — Ortur"
+      "alt": "Graveuse laser Ortur Laser Master H10 10W : Ortur"
     }
   ]
 }

@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Entry H20 chassis with integrated design and Ortur app workflow",
-  "tldr": "Ortur H20 10W is the base diode tier on the H20 frame — faster traverse than LM3 with a more enclosed integration. Good for engraving and light cuts; step up to 20W or 40W for thicker wood.",
+  "tldr": "Ortur H20 10W is the base diode tier on the H20 frame : faster traverse than LM3 with a more enclosed integration. Good for engraving and light cuts; step up to 20W or 40W for thicker wood.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
     "Engraving-focused shops",
@@ -70,15 +70,15 @@
   },
   "pros": [
     "Entry H20 chassis with integrated design and Ortur app workflow",
-    "Fully enclosed cabinet — beam containment and smoke control vs open-frame diodes",
-    "Swappable laser head on the same chassis — upgrade wattage without a new machine",
+    "Fully enclosed cabinet : beam containment and smoke control vs open-frame diodes",
+    "Swappable laser head on the same chassis : upgrade wattage without a new machine",
     "Work area 410 × 275 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "10W on Ortur H20: engraving-first — photo fills and leather at moderate speeds",
+    "10W on Ortur H20: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~28–43 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
     "Higher modules in this line (20W or 40W) add cut speed and depth",
     "Not the SKU for a shop cutting 5 mm+ stock all day"
   ],
@@ -105,7 +105,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Swappable diode & IR modules",
-    "description": "H20 ships as a chassis with swappable 10W, 20W, or 40W diode modules and optional 2W IR heads for metal marking — verify which module is in the box.",
+    "description": "H20 ships as a chassis with swappable 10W, 20W, or 40W diode modules and optional 2W IR heads for metal marking : verify which module is in the box.",
     "options": [
       {
         "power": "10W",
@@ -136,19 +136,19 @@
   "images": [
     {
       "src": "/machines/ortur-h20-10w/01.webp",
-      "alt": "Ortur H20 10W laser engraver — Ortur"
+      "alt": "Ortur H20 10W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-h20-10w/02.webp",
-      "alt": "Ortur H20 10W laser engraver — Ortur"
+      "alt": "Ortur H20 10W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-h20-10w/03.webp",
-      "alt": "Ortur H20 10W laser engraver — Ortur"
+      "alt": "Ortur H20 10W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-h20-10w/04.webp",
-      "alt": "Ortur H20 10W laser engraver — Ortur"
+      "alt": "Ortur H20 10W laser engraver : Ortur"
     }
   ],
   "tierEditorialOverride": false

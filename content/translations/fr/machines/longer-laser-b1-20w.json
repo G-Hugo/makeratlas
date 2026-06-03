@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode Longer 20 W grand format — plateau plus large que Ray5 pour enseignes",
-  "tldr": "Le Longer Laser B1 20 W est le SKU 20 W de la gamme B1. Diode grand format — ce profil couvre uniquement le 20 W ; Longer vend aussi 30 W et 40 W séparément. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing watts combinés.",
+  "tagline": "Diode Longer 20 W grand format : plateau plus large que Ray5 pour enseignes",
+  "tldr": "Le Longer Laser B1 20 W est le SKU 20 W de la gamme B1. Diode grand format : ce profil couvre uniquement le 20 W ; Longer vend aussi 30 W et 40 W séparément. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Gravure et découpe bois fin à moyen en diode grand format pour loisirs et petits vendeurs.",
   "beginnerNotes": "Ce profil décrit le module 20W de Longer Laser B1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "La valeur du B1, c’est la taille du plateau — concevez vos gabarits pour utiliser toute la largeur en gravure par lots. Ajoutez nido d’abeille et assistance air avant de pousser au-delà de 8 mm de découpe.",
+  "proTips": "La valeur du B1, c’est la taille du plateau : concevez vos gabarits pour utiliser toute la largeur en gravure par lots. Ajoutez nido d’abeille et assistance air avant de pousser au-delà de 8 mm de découpe.",
   "bestFor": [
     "Gravure + découpe",
     "Side business",
@@ -12,17 +12,17 @@
     "Petites séries"
   ],
   "pros": [
-    "Diode Longer 20 W grand format — plateau plus grand que Ray5 pour enseignes",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Diode Longer 20 W grand format : plateau plus grand que Ray5 pour enseignes",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 450 × 440 mm (base; extensions available) sur ce châssis",
     "Logiciels : Longer Laser Tool · LightBurn",
-    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
     "Exemple gravure de référence sur ce module : ~18–28 min",
     "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (30W ou 40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Vérifiez le SKU 20W : même châssis, modules différents",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -46,7 +46,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 20 W — vérifiez le SKU avant d’acheter"
+    "note": "Module optique 20 W : vérifiez le SKU avant d’acheter"
   },
   "specs": {
     "performance": {
@@ -60,16 +60,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Longer Laser B1 20W — Longer"
+      "alt": "Graveuse laser Longer Laser B1 20W : Longer"
     },
     {
-      "alt": "Graveuse laser Longer Laser B1 20W — Longer"
+      "alt": "Graveuse laser Longer Laser B1 20W : Longer"
     },
     {
-      "alt": "Graveuse laser Longer Laser B1 20W — Longer"
+      "alt": "Graveuse laser Longer Laser B1 20W : Longer"
     },
     {
-      "alt": "Graveuse laser Longer Laser B1 20W — Longer"
+      "alt": "Graveuse laser Longer Laser B1 20W : Longer"
     }
   ]
 }

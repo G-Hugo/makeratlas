@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "10W Ultra-budget diode laser — minimum viable entry point",
-  "tldr": "Atomstack A5 Pro 10W is the 10W SKU on the Atomstack atomstack a5 pro line. One of the cheapest ways to try laser engraving. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tagline": "10W Ultra-budget diode laser : minimum viable entry point",
+  "tldr": "Atomstack A5 Pro 10W is the 10W SKU on the Atomstack atomstack a5 pro line. One of the cheapest ways to try laser engraving. Verify optical power on the listing : do not assume combined-watt marketing.",
   "bestFor": [
     "Engraving-focused shops",
     "Leather & wood gifts",
@@ -17,7 +17,7 @@
     "min": 249,
     "max": 349,
     "currency": "USD",
-    "note": "10W optical module — verify SKU before buying"
+    "note": "10W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "10W diode",
@@ -69,16 +69,16 @@
     ]
   },
   "pros": [
-    "10W Ultra-budget diode laser — minimum viable entry point",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "10W Ultra-budget diode laser : minimum viable entry point",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 410 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "10W on Atomstack A5 Pro: engraving-first — photo fills and leather at moderate speeds",
+    "10W on Atomstack A5 Pro: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~18–28 min",
     "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
     "Higher modules in this line (20W) add cut speed and depth",
     "Not the SKU for a shop cutting 5 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -103,19 +103,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a5-pro-10w/01.webp",
-      "alt": "Atomstack A5 Pro 10W laser engraver — Atomstack"
+      "alt": "Atomstack A5 Pro 10W laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro-10w/02.jpg",
-      "alt": "Atomstack A5 Pro 10W laser engraver — Atomstack"
+      "alt": "Atomstack A5 Pro 10W laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro-10w/03.jpg",
-      "alt": "Atomstack A5 Pro 10W laser engraver — Atomstack"
+      "alt": "Atomstack A5 Pro 10W laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro-10w/04.jpg",
-      "alt": "Atomstack A5 Pro 10W laser engraver — Atomstack"
+      "alt": "Atomstack A5 Pro 10W laser engraver : Atomstack"
     }
   ],
   "modelLine": "atomstack-a5-pro",

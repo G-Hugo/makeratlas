@@ -5,9 +5,9 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Acmer S2 Pro mid-power — enclosed-optional 36W tier",
-  "tldr": "Acmer S2 Pro 36W is the lower-power SKU on Acmer's S2 Pro line with rotary and IR bundle options. Compare to S2 Pro 48W before buying — often worth the step up.",
-  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
+  "tagline": "Acmer S2 Pro mid-power : enclosed-optional 36W tier",
+  "tldr": "Acmer S2 Pro 36W is the lower-power SKU on Acmer's S2 Pro line with rotary and IR bundle options. Compare to S2 Pro 48W before buying : often worth the step up.",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -64,17 +64,17 @@
     ]
   },
   "pros": [
-    "Acmer S2 Pro mid-power — enclosed-optional 36W tier",
-    "Fully enclosed cabinet — beam containment and smoke control vs open-frame diodes",
+    "Acmer S2 Pro mid-power : enclosed-optional 36W tier",
+    "Fully enclosed cabinet : beam containment and smoke control vs open-frame diodes",
     "Work area 400 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "Best cut headroom in the line — benchmarked around 8 mm basswood-class stock",
+    "Best cut headroom in the line : benchmarked around 8 mm basswood-class stock",
     "36W: the most cut-focused head in the Acmer S2 Pro line",
     "Reference engrave job on this module: ~14–22 min"
   ],
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode — clear acrylic production wants CO₂"
+    "Still a diode : clear acrylic production wants CO₂"
   ],
   "beginnerNotes": "This profile is the 36W module on Acmer S2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -100,19 +100,19 @@
   "images": [
     {
       "src": "/machines/acmer-s2-pro-36w/01.webp",
-      "alt": "Acmer S2 Pro 36W laser engraver — Acmer"
+      "alt": "Acmer S2 Pro 36W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-s2-pro-36w/02.webp",
-      "alt": "Acmer S2 Pro 36W laser engraver — Acmer"
+      "alt": "Acmer S2 Pro 36W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-s2-pro-36w/03.webp",
-      "alt": "Acmer S2 Pro 36W laser engraver — Acmer"
+      "alt": "Acmer S2 Pro 36W laser engraver : Acmer"
     },
     {
       "src": "/machines/acmer-s2-pro-36w/04.webp",
-      "alt": "Acmer S2 Pro 36W laser engraver — Acmer"
+      "alt": "Acmer S2 Pro 36W laser engraver : Acmer"
     }
   ],
   "tierEditorialOverride": false

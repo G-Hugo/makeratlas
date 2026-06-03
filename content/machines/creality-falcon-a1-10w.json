@@ -5,7 +5,7 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Creality's compact enclosed A1 — beginner-friendly diode in a small footprint",
+  "tagline": "Creality's compact enclosed A1 : beginner-friendly diode in a small footprint",
   "tldr": "Creality Falcon A1 10W packs a diode engraver into an enclosed desktop body with Creality's software ecosystem. Less power than Falcon 2 Pro, but easier to live with in small spaces.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
@@ -69,16 +69,16 @@
     ]
   },
   "pros": [
-    "Creality's compact enclosed A1 — beginner-friendly diode in a small footprint",
-    "Fully enclosed cabinet — beam containment and smoke control vs open-frame diodes",
+    "Creality's compact enclosed A1 : beginner-friendly diode in a small footprint",
+    "Fully enclosed cabinet : beam containment and smoke control vs open-frame diodes",
     "Work area 250 × 250 mm (approx.) on this chassis",
     "Software: Creality Laser · LightBurn",
-    "10W on Creality Falcon A1: engraving-first — photo fills and leather at moderate speeds",
+    "10W on Creality Falcon A1: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~12–18 min",
     "Reference cut job on this module: ~6–11 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
     "Higher modules in this line (20W) add cut speed and depth",
     "Not the SKU for a shop cutting 4 mm+ stock all day"
   ],
@@ -107,11 +107,11 @@
   "images": [
     {
       "src": "/machines/creality-falcon-a1-10w/01.webp",
-      "alt": "Creality Falcon A1 10W laser engraver — Creality"
+      "alt": "Creality Falcon A1 10W laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon-a1-10w/02.png",
-      "alt": "Creality Falcon A1 10W laser engraver — Creality"
+      "alt": "Creality Falcon A1 10W laser engraver : Creality"
     }
   ],
   "tierEditorialOverride": false

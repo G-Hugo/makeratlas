@@ -1,10 +1,10 @@
 {
-  "tagline": "Le CO₂ petit budget classique — puissant mais attend du bricolage",
+  "tagline": "Le CO₂ petit budget classique : puissant mais attend du bricolage",
   "tldr": "L’évolution moderne du célèbre K40. Vraie puissance de découpe CO₂ au prix CO₂ le plus bas. Excellent rapport qualité-prix si vous aimez upgrader et réparer. Mauvais choix si vous voulez du plug-and-play sortie de boîte.",
   "mainObjective": "Découpe CO₂ petit budget pour makers prêts à upgrader et entretenir",
   "primaryUse": "Découpe et gravure laser CO₂ petit budget pour makers prêts à modifier et entretenir leur machine.",
   "beginnerNotes": "N’achetez pas une machine classe K40 si vous voulez déballer et graver. Prévoyez 100–200 $ supplémentaires pour tuyau d’évacuation, assistance air et éventuellement une carte contrôleur. Regardez une vidéo de setup complète avant de commander.",
-  "proTips": "Installez LightBurn et une carte Mini Gerbil ou similaire si vous dépassez le logiciel d’origine. Remplacez le ventilateur d’évacuation d’origine immédiatement. Gardez un extincteur à portée — le CO₂ découpe des matériaux combustibles.",
+  "proTips": "Installez LightBurn et une carte Mini Gerbil ou similaire si vous dépassez le logiciel d’origine. Remplacez le ventilateur d’évacuation d’origine immédiatement. Gardez un extincteur à portée : le CO₂ découpe des matériaux combustibles.",
   "bestFor": [
     "Bricoleurs",
     "CO₂ petit budget",
@@ -22,8 +22,8 @@
     "Évacuation, plateau et contrôleur d’origine demandent souvent des upgrades",
     "Petite zone de travail",
     "Sécurité et ventilation sont votre responsabilité",
-    "Contrôle qualité variable — certaines unités demandent un alignement",
-    "Non enceint sur la plupart des modèles — plus bruyant et fumant"
+    "Contrôle qualité variable : certaines unités demandent un alignement",
+    "Non enceint sur la plupart des modèles : plus bruyant et fumant"
   ],
   "materials": {
     "engrave": [
@@ -61,9 +61,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) — OMTech" },
-    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) — OMTech" },
-    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) — OMTech" },
-    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) — OMTech" }
+    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech" },
+    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech" },
+    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech" },
+    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech" }
   ]
 }

@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "5W The most popular open-frame diode laser for makers who outgrow entry-level machines",
-  "tldr": "xTool D1 Pro 5W is the 5W SKU on the xTool xtool d1 pro line. A well-built open-frame diode laser available up to 20W. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tldr": "xTool D1 Pro 5W is the 5W SKU on the xTool xtool d1 pro line. A well-built open-frame diode laser available up to 20W. Verify optical power on the listing : do not assume combined-watt marketing.",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -17,7 +17,7 @@
     "min": 499,
     "max": 699,
     "currency": "USD",
-    "note": "5W optical module — verify SKU before buying"
+    "note": "5W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "5W diode",
@@ -75,15 +75,15 @@
   },
   "pros": [
     "5W The most popular open-frame diode laser for makers who outgrow entry-level machines",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
-    "Swappable laser head on the same chassis — upgrade wattage without a new machine",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
+    "Swappable laser head on the same chassis : upgrade wattage without a new machine",
     "Work area 430 × 390 mm (16.9 × 15.4 in) on this chassis",
     "Software: xTool Creative Space · LightBurn",
-    "5W on xTool D1 Pro: engraving-first — photo fills and leather at moderate speeds",
+    "5W on xTool D1 Pro: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~25–36 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 3 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 3 mm basswood class) : not thick production plywood",
     "Higher modules in this line (10W, 20W or 40W) add cut speed and depth",
     "Not the SKU for a shop cutting 3 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -106,11 +106,11 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/xtool-d1-pro-5w/01.webp",
-  "mainObjective": "Detailed engraving on organics and coated metal — occasional thin cuts only",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "images": [
     {
       "src": "/machines/xtool-d1-pro-5w/01.webp",
-      "alt": "xTool D1 Pro 5W laser engraver — xTool"
+      "alt": "xTool D1 Pro 5W laser engraver : xTool"
     }
   ],
   "modelLine": "xtool-d1-pro",
@@ -118,7 +118,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Swappable diode modules on D1 Pro frame",
-    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need — same rail and software as other D1 Pro heads.",
+    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need : same rail and software as other D1 Pro heads.",
     "options": [
       {
         "power": "5W",

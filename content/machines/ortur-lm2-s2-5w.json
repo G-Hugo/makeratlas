@@ -5,9 +5,9 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "5W Ortur LM2 S2 — lowest-cost Ortur still worth knowing",
-  "tldr": "Ortur LM2 S2 5W is the entry SKU — engraving-first, minimal cutting. Fine for learning if price is right; most users outgrow it quickly.",
-  "mainObjective": "Detailed engraving on organics and coated metal — occasional thin cuts only",
+  "tagline": "5W Ortur LM2 S2 : lowest-cost Ortur still worth knowing",
+  "tldr": "Ortur LM2 S2 5W is the entry SKU : engraving-first, minimal cutting. Fine for learning if price is right; most users outgrow it quickly.",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -67,16 +67,16 @@
     ]
   },
   "pros": [
-    "5W Ortur LM2 S2 — lowest-cost Ortur still worth knowing",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "5W Ortur LM2 S2 : lowest-cost Ortur still worth knowing",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 400 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "5W on Ortur LM2 S2: engraving-first — photo fills and leather at moderate speeds",
+    "5W on Ortur LM2 S2: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~18–28 min",
     "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 3 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 3 mm basswood class) : not thick production plywood",
     "Higher modules in this line (10W) add cut speed and depth",
     "Not the SKU for a shop cutting 3 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -105,19 +105,19 @@
   "images": [
     {
       "src": "/machines/ortur-lm2-s2-5w/01.webp",
-      "alt": "Ortur LM2 S2 5W laser engraver — Ortur"
+      "alt": "Ortur LM2 S2 5W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-lm2-s2-5w/02.webp",
-      "alt": "Ortur LM2 S2 5W laser engraver — Ortur"
+      "alt": "Ortur LM2 S2 5W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-lm2-s2-5w/03.webp",
-      "alt": "Ortur LM2 S2 5W laser engraver — Ortur"
+      "alt": "Ortur LM2 S2 5W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-lm2-s2-5w/04.webp",
-      "alt": "Ortur LM2 S2 5W laser engraver — Ortur"
+      "alt": "Ortur LM2 S2 5W laser engraver : Ortur"
     }
   ],
   "tierEditorialOverride": false

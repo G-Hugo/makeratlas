@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "fiber",
   "tagline": "Industrial fiber laser cutter for sheet metal (not a desktop marker)",
-  "tldr": "OMTech FC-105 is a fiber laser cutting platform for metal sheet — a different class from desktop galvo markers. Listed for buyers who search 'fiber laser' and need to understand cutters vs markers.",
+  "tldr": "OMTech FC-105 is a fiber laser cutting platform for metal sheet : a different class from desktop galvo markers. Listed for buyers who search 'fiber laser' and need to understand cutters vs markers.",
   "mainObjective": "Sheet metal fiber cutting for fabrication shops",
   "bestFor": [
     "Sheet metal cutting",
@@ -95,15 +95,15 @@
   "images": [
     {
       "src": "/machines/omtech-fc105-fiber/01.webp",
-      "alt": "OMTech FC-105 Fiber laser engraver — OMTech"
+      "alt": "OMTech FC-105 Fiber laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-fc105-fiber/02.jpg",
-      "alt": "OMTech FC-105 Fiber laser engraver — OMTech"
+      "alt": "OMTech FC-105 Fiber laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-fc105-fiber/03.jpg",
-      "alt": "OMTech FC-105 Fiber laser engraver — OMTech"
+      "alt": "OMTech FC-105 Fiber laser engraver : OMTech"
     }
   ],
   "powerRating": "1050W"

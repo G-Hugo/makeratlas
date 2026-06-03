@@ -5,7 +5,7 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Budget LM3 — engraving-focused open-frame diode",
+  "tagline": "Budget LM3 : engraving-focused open-frame diode",
   "tldr": "The 10W Laser Master 3 is Ortur's lower-power SKU on the same frame. Ideal for learning and engraving; cutters should choose the 20W version.",
   "bestFor": [
     "Engraving-focused shops",
@@ -72,16 +72,16 @@
     ]
   },
   "pros": [
-    "Budget LM3 — engraving-focused open-frame diode",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Budget LM3 : engraving-focused open-frame diode",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 400 × 400 mm (15.75 × 15.75 in) on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "10W on Ortur Laser Master 3: engraving-first — photo fills and leather at moderate speeds",
+    "10W on Ortur Laser Master 3: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~15–23 min",
     "Reference cut job on this module: ~8–12 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
     "Higher modules in this line (20W) add cut speed and depth",
     "Not the SKU for a shop cutting 5 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -108,19 +108,19 @@
   "images": [
     {
       "src": "/machines/ortur-laser-master-3-10w/01.webp",
-      "alt": "Ortur Laser Master 3 10W laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 10W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3-10w/02.webp",
-      "alt": "Ortur Laser Master 3 10W laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 10W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3-10w/03.webp",
-      "alt": "Ortur Laser Master 3 10W laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 10W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3-10w/04.webp",
-      "alt": "Ortur Laser Master 3 10W laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 10W laser engraver : Ortur"
     }
   ],
   "modelLine": "ortur-laser-master-3",

@@ -1,10 +1,10 @@
 {
-  "tagline": "LaserPecker LP2 classique — graveuse diode portable",
-  "tldr": "Le LaserPecker LP2 Classic est la ligne portable LP antérieure au LP2 Plus — pilotée par app, petite zone de travail, idéale pour étiquettes et coques de téléphone, pas pour la production d’atelier.",
+  "tagline": "LaserPecker LP2 classique : graveuse diode portable",
+  "tldr": "Le LaserPecker LP2 Classic est la ligne portable LP antérieure au LP2 Plus : pilotée par app, petite zone de travail, idéale pour étiquettes et coques de téléphone, pas pour la production d’atelier.",
   "mainObjective": "Gravure LaserPecker portable sans cadre complet",
   "primaryUse": "Personnalisation portable et petites gravures.",
-  "beginnerNotes": "Comparez le LP2 Plus si vous achetez neuf — plus de puissance et usage bureau.",
-  "proTips": "Utilisez le workflow caméra de prévisualisation — l’alignement est tout sur les unités manuelles.",
+  "beginnerNotes": "Comparez le LP2 Plus si vous achetez neuf : plus de puissance et usage bureau.",
+  "proTips": "Utilisez le workflow caméra de prévisualisation : l’alignement est tout sur les unités manuelles.",
   "bestFor": [
     "Portabilité",
     "Petits objets",
@@ -44,8 +44,8 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser LaserPecker LP2 — LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP2 — LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP2 — LaserPecker" }
+    { "alt": "Graveuse laser LaserPecker LP2 : LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker LP2 : LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker LP2 : LaserPecker" }
   ]
 }

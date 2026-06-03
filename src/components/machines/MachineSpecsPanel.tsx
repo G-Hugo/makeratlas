@@ -87,7 +87,7 @@ interface MachineQuickSpecsProps {
   powerLabel: string;
 }
 
-/** Hero strip — four key numbers without scrolling the sidebar */
+/** Hero strip : four key numbers without scrolling the sidebar */
 export function MachineAtAGlance({ specs, labels, powerLabel }: MachineQuickSpecsProps) {
   const { performance } = specs;
   const engrave = jobRowValues(performance.engraveExample);
@@ -124,7 +124,7 @@ export function MachineAtAGlance({ specs, labels, powerLabel }: MachineQuickSpec
   );
 }
 
-/** Sidebar spec sheet — grouped, aligned label / value rows */
+/** Sidebar spec sheet : grouped, aligned label / value rows */
 export function MachineQuickSpecs({ specs, labels, powerLabel }: MachineQuickSpecsProps) {
   const { performance } = specs;
   const engrave = jobRowValues(performance.engraveExample);
@@ -174,11 +174,11 @@ function TechCard({ label, value }: { label: string; value: string }) {
 interface MachineTechnicalSpecsProps {
   performance: MachinePerformance;
   labels: MachineLabels;
-  /** Inside a parent <details> — only the metric grid */
+  /** Inside a parent <details> : only the metric grid */
   bare?: boolean;
 }
 
-/** Main column — pro speed numbers (no duplicate of sidebar quick specs) */
+/** Main column : pro speed numbers (no duplicate of sidebar quick specs) */
 export function MachineTechnicalSpecs({
   performance,
   labels,

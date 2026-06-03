@@ -73,7 +73,7 @@ export function buildMachineMetadata(machine: Machine, locale: Locale): Metadata
   const indexable = isMachineIndexable(machine);
   const title =
     locale === "fr"
-      ? `${machine.name} — avis et fiches techniques`
+      ? `${machine.name} : avis et fiches techniques`
       : `${machine.name} Review & Specs`;
 
   return buildPageMetadata({

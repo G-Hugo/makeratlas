@@ -5,8 +5,8 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Sculpfun S30 Pro line — 10W frame before Pro Max",
-  "tldr": "Sculpfun S30 Pro is the mid-generation S30 frame — 10W SKU remains common; 20W buyers usually step to S30 Pro Max or S30 Ultra today.",
+  "tagline": "Sculpfun S30 Pro line : 10W frame before Pro Max",
+  "tldr": "Sculpfun S30 Pro is the mid-generation S30 frame : 10W SKU remains common; 20W buyers usually step to S30 Pro Max or S30 Ultra today.",
   "mainObjective": "Sculpfun S30-frame engraving between S9 and Pro Max",
   "bestFor": [
     "S30 accessories",
@@ -72,8 +72,8 @@
     "Superseded by Ultra/Max for many",
     "10W only on current store"
   ],
-  "beginnerNotes": "Compare S30 Pro Max 20W if buying new — often better value.",
-  "proTips": "Many S30 mods apply across Pro, Pro Max, and Ultra — search by frame.",
+  "beginnerNotes": "Compare S30 Pro Max 20W if buying new : often better value.",
+  "proTips": "Many S30 mods apply across Pro, Pro Max, and Ultra : search by frame.",
   "primaryUse": "Large-bed Sculpfun engraving at 10W.",
   "rating": {
     "overall": 7.8,
@@ -96,19 +96,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s30-pro/01.webp",
-      "alt": "Sculpfun S30 Pro 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Pro 10W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-pro/02.jpg",
-      "alt": "Sculpfun S30 Pro 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Pro 10W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-pro/03.jpg",
-      "alt": "Sculpfun S30 Pro 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Pro 10W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-pro/04.jpg",
-      "alt": "Sculpfun S30 Pro 10W laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Pro 10W laser engraver : Sculpfun"
     }
   ]
 }

@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Atomstack's extreme diode class — multi-core compressed beam",
-  "tldr": "AtomStack X30 Pro targets buyers who want maximum diode-class cutting in an open frame. Marketing uses very high watt labels — verify real optical output and compare to Longer B1 40W and similar before spending.",
+  "tagline": "Atomstack's extreme diode class : multi-core compressed beam",
+  "tldr": "AtomStack X30 Pro targets buyers who want maximum diode-class cutting in an open frame. Marketing uses very high watt labels : verify real optical output and compare to Longer B1 40W and similar before spending.",
   "mainObjective": "Maximum-power Atomstack open-frame for cutting-heavy shops",
   "bestFor": [
     "Power seekers",
@@ -100,19 +100,19 @@
   "images": [
     {
       "src": "/machines/atomstack-x30-pro/01.webp",
-      "alt": "AtomStack X30 Pro laser engraver — Atomstack"
+      "alt": "AtomStack X30 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-x30-pro/02.jpg",
-      "alt": "AtomStack X30 Pro laser engraver — Atomstack"
+      "alt": "AtomStack X30 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-x30-pro/03.jpg",
-      "alt": "AtomStack X30 Pro laser engraver — Atomstack"
+      "alt": "AtomStack X30 Pro laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-x30-pro/04.jpg",
-      "alt": "AtomStack X30 Pro laser engraver — Atomstack"
+      "alt": "AtomStack X30 Pro laser engraver : Atomstack"
     }
   ]
 }

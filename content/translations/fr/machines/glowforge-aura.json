@@ -1,10 +1,10 @@
 {
-  "tagline": "Laser CO₂ grand public avec la configuration la plus simple — au prix d'un abonnement",
+  "tagline": "Laser CO₂ grand public avec la configuration la plus simple : au prix d'un abonnement",
   "tldr": "Le laser CO₂ compact de Glowforge conçu pour les créateurs. Logiciel facile, mise en route rapide et découpe correcte pour matériaux fins. Le piège : prix matériel premium plus abonnement obligatoire pour les fonctions complètes, et une zone de travail plus petite que le xTool P2.",
   "mainObjective": "Configuration CO₂ la plus simple pour les créateurs qui ne veulent aucun bricolage",
   "primaryUse": "Découpe et gravure CO₂ simples pour les créateurs qui privilégient la facilité d'usage plutôt que la puissance et le rapport qualité-prix.",
-  "beginnerNotes": "Excellent si vous détestez bricoler et voulez découper des matériaux craft fins dès aujourd'hui. Mauvais rapport qualité-prix si vous êtes technique et prêt à apprendre LightBurn — un xTool D1 Pro ou un K40 d'occasion offre plus de capacités par dollar.",
-  "proTips": "Intégrez le coût de l'abonnement sur 2–3 ans dans votre budget. Les matériaux Proofgrade sont pratiques mais chers — le contreplaqué tiers fonctionne avec des tests. L'Aura est à l'échelle craft, pas atelier enseignes.",
+  "beginnerNotes": "Excellent si vous détestez bricoler et voulez découper des matériaux craft fins dès aujourd'hui. Mauvais rapport qualité-prix si vous êtes technique et prêt à apprendre LightBurn : un xTool D1 Pro ou un K40 d'occasion offre plus de capacités par dollar.",
+  "proTips": "Intégrez le coût de l'abonnement sur 2–3 ans dans votre budget. Les matériaux Proofgrade sont pratiques mais chers : le contreplaqué tiers fonctionne avec des tests. L'Aura est à l'échelle craft, pas atelier enseignes.",
   "bestFor": [
     "Créateurs",
     "Utilisateurs non techniques",
@@ -19,11 +19,11 @@
     "Support correct pour utilisateurs non techniques"
   ],
   "cons": [
-    "Abonnement requis pour les fonctions complètes — coût récurrent",
+    "Abonnement requis pour les fonctions complètes : coût récurrent",
     "Petite zone de travail vs le prix",
     "Moins puissant que les CO₂ de bureau comme le xTool P2",
-    "Dépendant du cloud — internet requis pour la plupart des jobs",
-    "Écosystème fermé — contrôle avancé LightBurn limité"
+    "Dépendant du cloud : internet requis pour la plupart des jobs",
+    "Écosystème fermé : contrôle avancé LightBurn limité"
   ],
   "materials": {
     "engrave": [
@@ -61,9 +61,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Glowforge Aura — Glowforge" },
-    { "alt": "Graveuse laser Glowforge Aura — Glowforge" },
-    { "alt": "Graveuse laser Glowforge Aura — Glowforge" },
-    { "alt": "Graveuse laser Glowforge Aura — Glowforge" }
+    { "alt": "Graveuse laser Glowforge Aura : Glowforge" },
+    { "alt": "Graveuse laser Glowforge Aura : Glowforge" },
+    { "alt": "Graveuse laser Glowforge Aura : Glowforge" },
+    { "alt": "Graveuse laser Glowforge Aura : Glowforge" }
   ]
 }

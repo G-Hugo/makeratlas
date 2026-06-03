@@ -1,7 +1,7 @@
 {
   "tagline": "Marqueur fibre 50W en armoire split avec place pour rotary et fixations",
-  "tldr": "Le Gweike G6 Split 50W est la référence 50W de la gamme G6 Split. Le Gweike G6 Split est une plateforme de marquage fibre plus grande avec source laser en armoire séparée — format courant pour la petite production. Vérifiez la puissance optique sur l'annonce — ne vous fiez pas au marketing en watts combinés.",
-  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "tldr": "Le Gweike G6 Split 50W est la référence 50W de la gamme G6 Split. Le Gweike G6 Split est une plateforme de marquage fibre plus grande avec source laser en armoire séparée : format courant pour la petite production. Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
+  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
   "primaryUse": "Marquage fibre petite production pour lots de pièces métal et personnalisation.",
   "beginnerNotes": "Ce profil décrit le module 50W de Gweike G6 Split. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Prévoyez l'extraction des fumées pour le marquage de métaux revêtus. La reproductibilité des fixations conditionne la rentabilité.",
@@ -13,7 +13,7 @@
   ],
   "pros": [
     "Marqueur fibre 50W en armoire split avec place pour rotary et fixations",
-    "Fibre = marquage métal — ne découpe pas bois ni acrylique",
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
     "Surface utile 150 × 150 mm typical (varies by lens) sur ce châssis",
     "Exemple gravure de référence sur ce module : ~3–8 min"
   ],
@@ -38,7 +38,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 50W — vérifiez la référence avant achat"
+    "note": "Module optique 50W : vérifiez la référence avant achat"
   },
   "specs": {
     "performance": {
@@ -46,22 +46,22 @@
         "description": "Logo rempli sur plaque en acier inoxydable"
       },
       "cutExample": {
-        "description": "Découpe laser — machine de marquage uniquement"
+        "description": "Découpe laser : machine de marquage uniquement"
       }
     }
   },
   "images": [
     {
-      "alt": "Graveuse laser Gweike G6 Split 50W — Gweike"
+      "alt": "Graveuse laser Gweike G6 Split 50W : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G6 Split 50W — Gweike"
+      "alt": "Graveuse laser Gweike G6 Split 50W : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G6 Split 50W — Gweike"
+      "alt": "Graveuse laser Gweike G6 Split 50W : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G6 Split 50W — Gweike"
+      "alt": "Graveuse laser Gweike G6 Split 50W : Gweike"
     }
   ]
 }

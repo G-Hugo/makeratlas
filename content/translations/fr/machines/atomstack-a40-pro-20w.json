@@ -1,6 +1,6 @@
 {
   "tagline": "Atomstack 20 W milieu de gamme avec meilleur châssis et promesses de découpe classe 40 W",
-  "tldr": "L’Atomstack A40 Pro 20 W est la référence 20 W de la gamme A40 Pro. Montée par rapport à l’A5 Pro avec un châssis plus rigide et un marketing découpe plus agressif (40 W cumulés). Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing en watts cumulés.",
+  "tldr": "L’Atomstack A40 Pro 20 W est la référence 20 W de la gamme A40 Pro. Montée par rapport à l’A5 Pro avec un châssis plus rigide et un marketing découpe plus agressif (40 W cumulés). Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing en watts cumulés.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Diode structure ouverte budget moyen, entre les modèles d’entrée Atomstack et la gamme premium Sculpfun/xTool.",
   "beginnerNotes": "Ce profil décrit le module 20W de Atomstack A40 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -13,16 +13,16 @@
   ],
   "pros": [
     "Atomstack 20 W milieu de gamme avec meilleur châssis et promesses de découpe classe 40 W",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 410 × 400 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
     "Exemple gravure de référence sur ce module : ~18–28 min",
     "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Vérifiez le SKU 20W : même châssis, modules différents",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -46,7 +46,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 20 W — vérifiez la référence avant achat"
+    "note": "Module optique 20 W : vérifiez la référence avant achat"
   },
   "specs": {
     "performance": {
@@ -60,16 +60,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Atomstack A40 Pro 20 W — Atomstack"
+      "alt": "Graveuse laser Atomstack A40 Pro 20 W : Atomstack"
     },
     {
-      "alt": "Graveuse laser Atomstack A40 Pro 20 W — Atomstack"
+      "alt": "Graveuse laser Atomstack A40 Pro 20 W : Atomstack"
     },
     {
-      "alt": "Graveuse laser Atomstack A40 Pro 20 W — Atomstack"
+      "alt": "Graveuse laser Atomstack A40 Pro 20 W : Atomstack"
     },
     {
-      "alt": "Graveuse laser Atomstack A40 Pro 20 W — Atomstack"
+      "alt": "Graveuse laser Atomstack A40 Pro 20 W : Atomstack"
     }
   ]
 }

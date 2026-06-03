@@ -81,14 +81,14 @@
     "LightBurn compatible for advanced users"
   ],
   "cons": [
-    "Open frame — you must wear laser safety glasses and supervise operation",
+    "Open frame : you must wear laser safety glasses and supervise operation",
     "20W still cannot match CO₂ for acrylic and thick cuts",
     "Slower on large fill engravings compared to CO₂",
     "Air assist and enclosure sold separately",
     "Diode spot size limits ultra-fine detail vs. fiber/UV"
   ],
   "beginnerNotes": "The 10W version is enough for most beginners doing engraving and light cutting. Choose 20W if you plan to cut basswood regularly. Always buy proper laser safety glasses rated for your wavelength (~455 nm).",
-  "proTips": "Use air assist and a honeycomb bed for cleaner cuts. For metal marking, use LaserBond or Brilliance spray — results vary by coating. Upgrade to steel wheel risers if you engrave tumblers or cylindrical objects.",
+  "proTips": "Use air assist and a honeycomb bed for cleaner cuts. For metal marking, use LaserBond or Brilliance spray : results vary by coating. Upgrade to steel wheel risers if you engrave tumblers or cylindrical objects.",
   "primaryUse": "General-purpose hobby engraving on wood, leather, and coated metals, with light cutting of thin wood and dark acrylic.",
   "rating": {
     "overall": 8.7,
@@ -109,7 +109,7 @@
   "images": [
     {
       "src": "/machines/xtool-d1-pro/01.webp",
-      "alt": "xTool D1 Pro laser engraver — xTool"
+      "alt": "xTool D1 Pro laser engraver : xTool"
     }
   ],
   "modelLine": "xtool-d1-pro",
@@ -117,7 +117,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Swappable diode modules on D1 Pro frame",
-    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need — same rail and software as other D1 Pro heads.",
+    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need : same rail and software as other D1 Pro heads.",
     "options": [
       {
         "power": "5W",

@@ -1,7 +1,7 @@
 {
-  "tagline": "Diode structure ouverte grand format 40 W — grand plateau à petit prix",
-  "tldr": "La Nubur N4060 40 W est le SKU 40 W de la gamme NuBur N4060. Elle mise sur la taille de zone de travail à prix compétitif. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing en watts combinés.",
-  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "tagline": "Diode structure ouverte grand format 40 W : grand plateau à petit prix",
+  "tldr": "La Nubur N4060 40 W est le SKU 40 W de la gamme NuBur N4060. Elle mise sur la taille de zone de travail à prix compétitif. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing en watts combinés.",
+  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
   "primaryUse": "Diode structure ouverte grand format pour gravure bois surdimensionnée et découpe légère.",
   "beginnerNotes": "Choisissez le 40 W s’il correspond à vos jobs typiques. Comparez profondeur de découpe et prix avec les autres gammes de cette ligne avant de commander.",
   "proTips": "Équerez et rigidifiez le châssis avant les gros jobs. Faites un test cross-hatch sur toute la surface.",
@@ -42,7 +42,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 40 W — vérifiez le SKU avant d’acheter"
+    "note": "Module optique 40 W : vérifiez le SKU avant d’acheter"
   },
   "specs": {
     "performance": {
@@ -56,7 +56,7 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser NuBur N4060 — NuBur"
+      "alt": "Graveuse laser NuBur N4060 : NuBur"
     }
   ]
 }

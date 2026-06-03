@@ -80,14 +80,14 @@
     "Solid frame rigidity"
   ],
   "cons": [
-    "Open frame — safety glasses mandatory",
+    "Open frame : safety glasses mandatory",
     "40W optical claims need verification on your unit",
     "Smaller community than Ortur/xTool",
     "Premium price vs Ortur for similar watt class",
     "Air assist often sold separately"
   ],
-  "beginnerNotes": "Choose Alpha MK2 over Ortur if engraving speed and fine detail matter more than saving $150. Skip if you need enclosure — look at Acmer P3 or xTool S1.",
-  "proTips": "Algolaser shines on line art and shallow fills — push speed on vectors after test burns. Use compressed spot advantage for photo engraving on coated wood.",
+  "beginnerNotes": "Choose Alpha MK2 over Ortur if engraving speed and fine detail matter more than saving $150. Skip if you need enclosure : look at Acmer P3 or xTool S1.",
+  "proTips": "Algolaser shines on line art and shallow fills : push speed on vectors after test burns. Use compressed spot advantage for photo engraving on coated wood.",
   "primaryUse": "Performance-oriented open-frame diode for detailed wood and leather engraving with above-average speed.",
   "rating": {
     "overall": 8.4,
@@ -106,19 +106,19 @@
   "images": [
     {
       "src": "/machines/algolaser-alpha-mk2/01.webp",
-      "alt": "Algolaser Alpha MK2 laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 laser engraver : Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2/02.jpg",
-      "alt": "Algolaser Alpha MK2 laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 laser engraver : Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2/03.jpg",
-      "alt": "Algolaser Alpha MK2 laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 laser engraver : Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2/04.jpg",
-      "alt": "Algolaser Alpha MK2 laser engraver — Algolaser"
+      "alt": "Algolaser Alpha MK2 laser engraver : Algolaser"
     }
   ],
   "modelLine": "algolaser-alpha-mk2",

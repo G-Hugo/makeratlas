@@ -7,7 +7,7 @@
   "laserType": "diode",
   "image": "/machines/twotrees-tts-55-10w/01.webp",
   "tagline": "10W Ultra-budget diode with surprising build quality for the price",
-  "tldr": "TwoTrees TTS-55 10W is the 10W SKU on the TwoTrees twotrees tts 55 line. TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tldr": "TwoTrees TTS-55 10W is the 10W SKU on the TwoTrees twotrees tts 55 line. TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5. Verify optical power on the listing : do not assume combined-watt marketing.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
     "Engraving-focused shops",
@@ -19,7 +19,7 @@
     "min": 179,
     "max": 279,
     "currency": "USD",
-    "note": "10W optical module — verify SKU before buying"
+    "note": "10W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "10W diode",
@@ -72,15 +72,15 @@
   },
   "pros": [
     "10W Ultra-budget diode with surprising build quality for the price",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 300 × 300 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "10W on TwoTrees TTS-55: engraving-first — photo fills and leather at moderate speeds",
+    "10W on TwoTrees TTS-55: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~28–43 min",
     "Reference cut job on this module: ~14–24 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
     "Higher modules in this line (20W or 40W) add cut speed and depth",
     "Not the SKU for a shop cutting 5 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -104,19 +104,19 @@
   "images": [
     {
       "src": "/machines/twotrees-tts-55-10w/01.webp",
-      "alt": "TwoTrees TTS-55 10W laser engraver — TwoTrees"
+      "alt": "TwoTrees TTS-55 10W laser engraver : TwoTrees"
     },
     {
       "src": "/machines/twotrees-tts-55-10w/02.jpg",
-      "alt": "TwoTrees TTS-55 10W laser engraver — TwoTrees"
+      "alt": "TwoTrees TTS-55 10W laser engraver : TwoTrees"
     },
     {
       "src": "/machines/twotrees-tts-55-10w/03.jpg",
-      "alt": "TwoTrees TTS-55 10W laser engraver — TwoTrees"
+      "alt": "TwoTrees TTS-55 10W laser engraver : TwoTrees"
     },
     {
       "src": "/machines/twotrees-tts-55-10w/04.jpg",
-      "alt": "TwoTrees TTS-55 10W laser engraver — TwoTrees"
+      "alt": "TwoTrees TTS-55 10W laser engraver : TwoTrees"
     }
   ],
   "modelLine": "twotrees-tts-55",

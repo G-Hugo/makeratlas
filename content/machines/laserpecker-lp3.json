@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Infrared portable LaserPecker for metal and plastic marking",
-  "tldr": "LaserPecker LP3 focuses on infrared marking for metal and engineered plastics in a portable form factor. Different from LP4/LP5 — prioritize if your work is metal tags and plastic, not large wood cutting.",
+  "tldr": "LaserPecker LP3 focuses on infrared marking for metal and engineered plastics in a portable form factor. Different from LP4/LP5 : prioritize if your work is metal tags and plastic, not large wood cutting.",
   "mainObjective": "Portable IR marking for metal and plastic personalization",
   "bestFor": [
     "Metal marking",
@@ -75,7 +75,7 @@
     "Premium per capability",
     "Superseded by LP5 for hybrid users"
   ],
-  "beginnerNotes": "Buy for metal/plastic marking on the go — not as your only wood laser.",
+  "beginnerNotes": "Buy for metal/plastic marking on the go : not as your only wood laser.",
   "proTips": "Compare LP5 if you need diode + fiber in one newer chassis.",
   "primaryUse": "Portable infrared marking for metal and plastic items.",
   "rating": {
@@ -100,7 +100,7 @@
   "images": [
     {
       "src": "/machines/laserpecker-lp3/01.webp",
-      "alt": "LaserPecker LP3 laser engraver — LaserPecker"
+      "alt": "LaserPecker LP3 laser engraver : LaserPecker"
     }
   ]
 }

@@ -5,8 +5,8 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Community-favorite open-frame diode — best LM3 value",
-  "tldr": "The 20W LM3 is the configuration most buyers mean when they say 'Laser Master 3'. Strong engraving, light cutting, huge community — verify you are not accidentally ordering the 10W SKU.",
+  "tagline": "Community-favorite open-frame diode : best LM3 value",
+  "tldr": "The 20W LM3 is the configuration most buyers mean when they say 'Laser Master 3'. Strong engraving, light cutting, huge community : verify you are not accidentally ordering the 10W SKU.",
   "bestFor": [
     "Mixed engrave & cut",
     "Hobby side business",
@@ -17,7 +17,7 @@
     "min": 140,
     "max": 1740,
     "currency": "USD",
-    "note": "20W module — most common SKU"
+    "note": "20W module : most common SKU"
   },
   "specs": {
     "power": "20W diode",
@@ -72,16 +72,16 @@
     ]
   },
   "pros": [
-    "Community-favorite open-frame diode — best LM3 value",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Community-favorite open-frame diode : best LM3 value",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 400 × 400 mm (15.75 × 15.75 in) on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "Balanced engrave and cut — typical 8 mm basswood in multiple passes",
+    "Balanced engrave and cut : typical 8 mm basswood in multiple passes",
     "Reference engrave job on this module: ~10–15 min",
     "Reference cut job on this module: ~5–8 min"
   ],
   "cons": [
-    "Verify the 20W SKU — same chassis, different modules",
+    "Verify the 20W SKU : same chassis, different modules",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 20W module on Ortur Laser Master 3. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -98,7 +98,7 @@
     {
       "id": "safety-glasses",
       "availability": "recommended",
-      "note": "450 nm diode — verify OD with seller"
+      "note": "450 nm diode : verify OD with seller"
     },
     {
       "id": "air-assist",
@@ -125,19 +125,19 @@
   "images": [
     {
       "src": "/machines/ortur-laser-master-3-20w/01.webp",
-      "alt": "Ortur Laser Master 3 20W laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 20W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3-20w/02.webp",
-      "alt": "Ortur Laser Master 3 20W laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 20W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3-20w/03.webp",
-      "alt": "Ortur Laser Master 3 20W laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 20W laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3-20w/04.webp",
-      "alt": "Ortur Laser Master 3 20W laser engraver — Ortur"
+      "alt": "Ortur Laser Master 3 20W laser engraver : Ortur"
     }
   ],
   "modelLine": "ortur-laser-master-3",

@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return buildPageMetadata({
     locale: localeParam,
     path: "/",
-    title: `${dict.meta.siteName} — ${dict.meta.siteTagline}`,
+    title: `${dict.meta.siteName} · ${dict.meta.siteTagline}`,
     description: dict.meta.defaultDescription,
     titleAbsolute: true,
   });

@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "20W The most popular open-frame diode laser for makers who outgrow entry-level machines",
-  "tldr": "xTool D1 Pro 20W is the 20W SKU on the xTool xtool d1 pro line. A well-built open-frame diode laser available up to 20W. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tldr": "xTool D1 Pro 20W is the 20W SKU on the xTool xtool d1 pro line. A well-built open-frame diode laser available up to 20W. Verify optical power on the listing : do not assume combined-watt marketing.",
   "bestFor": [
     "Mixed engrave & cut",
     "Hobby side business",
@@ -17,7 +17,7 @@
     "min": 699,
     "max": 899,
     "currency": "USD",
-    "note": "20W optical module — verify SKU before buying"
+    "note": "20W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "20W diode",
@@ -75,16 +75,16 @@
   },
   "pros": [
     "20W The most popular open-frame diode laser for makers who outgrow entry-level machines",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
-    "Swappable laser head on the same chassis — upgrade wattage without a new machine",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
+    "Swappable laser head on the same chassis : upgrade wattage without a new machine",
     "Work area 430 × 390 mm (16.9 × 15.4 in) on this chassis",
     "Software: xTool Creative Space · LightBurn",
-    "Balanced engrave and cut — typical 8 mm basswood in multiple passes",
+    "Balanced engrave and cut : typical 8 mm basswood in multiple passes",
     "Reference engrave job on this module: ~11–15 min"
   ],
   "cons": [
     "Higher modules in this line (40W) add cut speed and depth",
-    "Verify the 20W SKU — same chassis, different modules",
+    "Verify the 20W SKU : same chassis, different modules",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 20W module on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -109,7 +109,7 @@
   "images": [
     {
       "src": "/machines/xtool-d1-pro-20w/01.webp",
-      "alt": "xTool D1 Pro 20W laser engraver — xTool"
+      "alt": "xTool D1 Pro 20W laser engraver : xTool"
     }
   ],
   "modelLine": "xtool-d1-pro",
@@ -117,7 +117,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Swappable diode modules on D1 Pro frame",
-    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need — same rail and software as other D1 Pro heads.",
+    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need : same rail and software as other D1 Pro heads.",
     "options": [
       {
         "power": "5W",

@@ -1,5 +1,6 @@
 import type { Locale } from "@/i18n/config";
 import { parsePowerWatts } from "@/lib/catalog-display";
+import { noEmDash } from "@/lib/copy-style";
 import type { Machine } from "@/types/machine";
 
 export type PowerTierRole =
@@ -127,9 +128,9 @@ const COPY = {
       "fiber-mid": ["Daily metal marking", "Tools & knives", "Shop labels", "Batch runs"],
       "fiber-pro": ["Deep metal engraving", "High throughput", "Production quotes", "Large mark jobs"],
     },
-    enclosed: "Fully enclosed cabinet — beam containment and smoke control vs open-frame diodes",
-    openFrame: "Open-frame layout — laser glasses and ventilation are your responsibility",
-    swappable: "Swappable laser head on the same chassis — upgrade wattage without a new machine",
+    enclosed: "Fully enclosed cabinet : beam containment and smoke control vs open-frame diodes",
+    openFrame: "Open-frame layout : laser glasses and ventilation are your responsibility",
+    swappable: "Swappable laser head on the same chassis : upgrade wattage without a new machine",
     workArea: (area: string) => `Work area ${area} on this chassis`,
     benchEngrave: (t: string) => `Reference engrave job on this module: ${t}`,
     benchCut: (t: string) => `Reference cut job on this module: ${t}`,
@@ -137,13 +138,13 @@ const COPY = {
     upgrade: (hint: string) =>
       hint ? `Higher modules in this line (${hint}) add cut speed and depth` : "",
     skipHigher: (hint: string) =>
-      hint ? `Overkill if you only need engraving — compare ${hint} only for heavy cutting` : "",
-    fiberNoCut: "Fiber marks metal — does not cut wood or acrylic",
-    co2Vent: "CO₂ cutting needs outdoor exhaust or serious filtration — plan before unboxing",
+      hint ? `Overkill if you only need engraving : compare ${hint} only for heavy cutting` : "",
+    fiberNoCut: "Fiber marks metal : does not cut wood or acrylic",
+    co2Vent: "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
     co2Acrylic: "Strong on acrylic and wood versus diodes on the same budget tier",
-    thinCutOnly: (mm: string) => `This module targets thin cuts (about ${mm} mm basswood class) — not thick production plywood`,
-    thickCut: (mm: string) => `Best cut headroom in the line — benchmarked around ${mm} mm basswood-class stock`,
-    mixedCut: (mm: string) => `Balanced engrave and cut — typical ${mm} mm basswood in multiple passes`,
+    thinCutOnly: (mm: string) => `This module targets thin cuts (about ${mm} mm basswood class) : not thick production plywood`,
+    thickCut: (mm: string) => `Best cut headroom in the line : benchmarked around ${mm} mm basswood-class stock`,
+    mixedCut: (mm: string) => `Balanced engrave and cut : typical ${mm} mm basswood in multiple passes`,
     tldrLead: "Summary for this exact SKU:",
   },
   fr: {
@@ -157,9 +158,9 @@ const COPY = {
       "fiber-mid": ["Marquage métal quotidien", "Outils & couteaux", "Étiquettes atelier", "Lots"],
       "fiber-pro": ["Gravure métal profonde", "Débit élevé", "Devis prod.", "Grandes surfaces"],
     },
-    enclosed: "Cabine fermée — meilleur confinement du faisceau et des fumées qu’une open-frame",
-    openFrame: "Open-frame — lunettes laser et ventilation à votre charge",
-    swappable: "Tête laser interchangeable sur le même châssis — monter en puissance sans racheter la machine",
+    enclosed: "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    openFrame: "Open-frame : lunettes laser et ventilation à votre charge",
+    swappable: "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
     workArea: (area: string) => `Surface utile ${area} sur ce châssis`,
     benchEngrave: (t: string) => `Exemple gravure de référence sur ce module : ${t}`,
     benchCut: (t: string) => `Exemple découpe de référence sur ce module : ${t}`,
@@ -167,14 +168,14 @@ const COPY = {
     upgrade: (hint: string) =>
       hint ? `Modules plus puissants dans la gamme (${hint}) : découpe plus rapide et plus profonde` : "",
     skipHigher: (hint: string) =>
-      hint ? `Surdimensionné si vous ne gravez que — comparez ${hint} seulement pour la découpe intensive` : "",
-    fiberNoCut: "Fibre = marquage métal — ne découpe pas bois ni acrylique",
-    co2Vent: "CO₂ : évacuation extérieure ou filtration sérieuse — à prévoir avant déballage",
+      hint ? `Surdimensionné si vous ne gravez que : comparez ${hint} seulement pour la découpe intensive` : "",
+    fiberNoCut: "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    co2Vent: "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage",
     co2Acrylic: "Très bon sur acrylique et bois vs diodes au même budget",
     thinCutOnly: (mm: string) =>
-      `Ce module vise les découpes fines (environ ${mm} mm de tilleul) — pas la production épaisse`,
-    thickCut: (mm: string) => `Meilleure marge de découpe de la gamme — benchmark ~${mm} mm tilleul`,
-    mixedCut: (mm: string) => `Gravure et découpe équilibrées — ~${mm} mm tilleul en plusieurs passes`,
+      `Ce module vise les découpes fines (environ ${mm} mm de tilleul) : pas la production épaisse`,
+    thickCut: (mm: string) => `Meilleure marge de découpe de la gamme : benchmark ~${mm} mm tilleul`,
+    mixedCut: (mm: string) => `Gravure et découpe équilibrées : ~${mm} mm tilleul en plusieurs passes`,
     tldrLead: "Résumé pour ce SKU précis :",
   },
 } as const;
@@ -185,7 +186,7 @@ function labels(locale: Locale) {
 
 /**
  * Machine-specific tier copy for multi-power lines. Uses each profile's own
- * tagline, materials, benchmarks, enclosure, and module system — not generic watt templates.
+ * tagline, materials, benchmarks, enclosure, and module system : not generic watt templates.
  */
 export function buildMachineTierEditorial(
   machine: Machine,
@@ -253,8 +254,8 @@ export function buildMachineTierEditorial(
     if (role === "engrave-only" || role === "engrave-first") {
       pros.push(
         locale === "fr"
-          ? `${wattLabel} sur ${shortName} : priorité gravure — remplissages photo et cuir`
-          : `${wattLabel} on ${shortName}: engraving-first — photo fills and leather at moderate speeds`,
+          ? `${wattLabel} sur ${shortName} : priorité gravure : remplissages photo et cuir`
+          : `${wattLabel} on ${shortName}: engraving-first : photo fills and leather at moderate speeds`,
       );
       cons.push(L.thinCutOnly(cutMm));
       if (higher) cons.push(L.upgrade(higher));
@@ -278,8 +279,8 @@ export function buildMachineTierEditorial(
       if (machine.laserType === "diode") {
         cons.push(
           locale === "fr"
-            ? "Toujours une diode — acrylique transparent et prod. acrylique = CO₂"
-            : "Still a diode — clear acrylic production wants CO₂",
+            ? "Toujours une diode : acrylique transparent et prod. acrylique = CO₂"
+            : "Still a diode : clear acrylic production wants CO₂",
         );
       }
     } else {
@@ -287,8 +288,8 @@ export function buildMachineTierEditorial(
       if (higher) cons.push(L.upgrade(higher));
       cons.push(
         locale === "fr"
-          ? `Vérifiez le SKU ${wattLabel} — même châssis, modules différents`
-          : `Verify the ${wattLabel} SKU — same chassis, different modules`,
+          ? `Vérifiez le SKU ${wattLabel} : même châssis, modules différents`
+          : `Verify the ${wattLabel} SKU : same chassis, different modules`,
       );
     }
 
@@ -341,6 +342,21 @@ export function buildMachineTierEditorial(
   };
 }
 
+function normalizeEditorial<T extends Pick<
+  Machine,
+  "bestFor" | "pros" | "cons" | "beginnerNotes" | "proTips" | "mainObjective" | "primaryUse"
+>>(slice: T): T {
+  return {
+    ...slice,
+    pros: slice.pros.map(noEmDash),
+    cons: slice.cons.map(noEmDash),
+    beginnerNotes: noEmDash(slice.beginnerNotes),
+    proTips: noEmDash(slice.proTips),
+    mainObjective: noEmDash(slice.mainObjective),
+    primaryUse: noEmDash(slice.primaryUse),
+  };
+}
+
 /** Use derived tier copy on multi-power detail pages unless JSON sets tierEditorialOverride. */
 export function resolveMachineEditorial(
   machine: Machine,
@@ -352,7 +368,7 @@ export function resolveMachineEditorial(
 > {
   const derived = buildMachineTierEditorial(machine, tiers, locale);
   if (!derived || machine.tierEditorialOverride) {
-    return {
+    return normalizeEditorial({
       bestFor: machine.bestFor,
       pros: machine.pros,
       cons: machine.cons,
@@ -360,7 +376,7 @@ export function resolveMachineEditorial(
       proTips: machine.proTips,
       mainObjective: machine.mainObjective,
       primaryUse: machine.primaryUse,
-    };
+    });
   }
-  return derived;
+  return normalizeEditorial(derived);
 }

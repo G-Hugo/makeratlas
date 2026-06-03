@@ -7,7 +7,7 @@
   "laserType": "fiber",
   "powerRating": "30W",
   "tagline": "30W Desktop fiber marker for metal and select plastics",
-  "tldr": "Gweike G2 Pro 30W Fiber is the 30W SKU on the Gweike gweike g2 line. Gweike G2 packages a 20W fiber galvo in a desktop form factor. Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tldr": "Gweike G2 Pro 30W Fiber is the 30W SKU on the Gweike gweike g2 line. Gweike G2 packages a 20W fiber galvo in a desktop form factor. Verify optical power on the listing : do not assume combined-watt marketing.",
   "mainObjective": "Entry fiber marking on small metal parts",
   "bestFor": [
     "Jewelry tags",
@@ -19,7 +19,7 @@
     "min": 1999,
     "max": 2799,
     "currency": "USD",
-    "note": "30W optical module — verify SKU before buying"
+    "note": "30W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "30W fiber",
@@ -70,7 +70,7 @@
   },
   "pros": [
     "30W Desktop fiber marker for metal and select plastics",
-    "Fiber marks metal — does not cut wood or acrylic",
+    "Fiber marks metal : does not cut wood or acrylic",
     "Work area 110 × 110 mm on this chassis",
     "Reference engrave job on this module: ~3–7 min"
   ],
@@ -79,7 +79,7 @@
     "Upgrade path to 50W if metal throughput becomes the bottleneck"
   ],
   "beginnerNotes": "This profile is the 30W module on Gweike G2 Pro Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
-  "proTips": "Fix parts firmly; start with low power test squares on scrap metal. Rotary adds complexity — budget time to learn indexing.",
+  "proTips": "Fix parts firmly; start with low power test squares on scrap metal. Rotary adds complexity : budget time to learn indexing.",
   "primaryUse": "Desktop fiber marking for jewelry-scale and test jobs",
   "rating": {
     "overall": 8.3,
@@ -98,19 +98,19 @@
   "images": [
     {
       "src": "/machines/gweike-g2-30w/01.webp",
-      "alt": "Gweike G2 Pro 30W Fiber laser engraver — Gweike"
+      "alt": "Gweike G2 Pro 30W Fiber laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-g2-30w/02.png",
-      "alt": "Gweike G2 Pro 30W Fiber laser engraver — Gweike"
+      "alt": "Gweike G2 Pro 30W Fiber laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-g2-30w/03.jpg",
-      "alt": "Gweike G2 Pro 30W Fiber laser engraver — Gweike"
+      "alt": "Gweike G2 Pro 30W Fiber laser engraver : Gweike"
     },
     {
       "src": "/machines/gweike-g2-30w/04.jpg",
-      "alt": "Gweike G2 Pro 30W Fiber laser engraver — Gweike"
+      "alt": "Gweike G2 Pro 30W Fiber laser engraver : Gweike"
     }
   ],
   "modelLine": "gweike-g2",

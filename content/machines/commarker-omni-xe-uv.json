@@ -8,8 +8,8 @@
   "powerRating": "5W",
   "modelLine": "commarker-omni-x",
   "tagline": "Expanded UV platform for larger glass and plastic work",
-  "tldr": "Omni XE sits between Omni 1 and Omni X in ComMarker's UV lineup — check current specs for bed size and power. UV remains specialized: glass, plastics, fine detail.",
-  "mainObjective": "Detailed engraving on organics and coated metal — occasional thin cuts only",
+  "tldr": "Omni XE sits between Omni 1 and Omni X in ComMarker's UV lineup : check current specs for bed size and power. UV remains specialized: glass, plastics, fine detail.",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -66,15 +66,15 @@
   },
   "pros": [
     "Expanded UV platform for larger glass and plastic work",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 120 × 120 mm typical on this chassis",
     "Software: ComMarker · LightBurn",
-    "5W on ComMarker Omni XE UV: engraving-first — photo fills and leather at moderate speeds",
+    "5W on ComMarker Omni XE UV: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~6–12 min",
     "Reference cut job on this module: Not a cutter"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
     "Not the SKU for a shop cutting 4 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
   ],
@@ -98,19 +98,19 @@
   "images": [
     {
       "src": "/machines/commarker-omni-xe-uv/01.webp",
-      "alt": "ComMarker Omni XE UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni XE UV laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-omni-xe-uv/02.webp",
-      "alt": "ComMarker Omni XE UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni XE UV laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-omni-xe-uv/03.webp",
-      "alt": "ComMarker Omni XE UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni XE UV laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-omni-xe-uv/04.webp",
-      "alt": "ComMarker Omni XE UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni XE UV laser engraver : ComMarker"
     }
   ],
   "releaseDate": "2024-11",

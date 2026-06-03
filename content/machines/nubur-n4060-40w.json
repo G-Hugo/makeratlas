@@ -6,9 +6,9 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/nubur-n4060.svg",
-  "tagline": "40W Large-format open-frame diode — big bed on a budget",
-  "tldr": "Nubur N4060 40W is the 40W SKU on the NuBur nubur n4060 line. NuBur N4060 emphasizes work area size at competitive pricing. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "tagline": "40W Large-format open-frame diode : big bed on a budget",
+  "tldr": "Nubur N4060 40W is the 40W SKU on the NuBur nubur n4060 line. NuBur N4060 emphasizes work area size at competitive pricing. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "mainObjective": "Fast hobby engraving and cutting : thicker basswood, dark acrylic, and shorter job times",
   "bestFor": [
     "Large engravings",
     "Sign panels",
@@ -19,7 +19,7 @@
     "min": 499,
     "max": 699,
     "currency": "USD",
-    "note": "40W optical module — verify SKU before buying"
+    "note": "40W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "40W diode",

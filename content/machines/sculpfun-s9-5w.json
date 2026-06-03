@@ -6,9 +6,9 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/sculpfun-s9-5w/01.webp",
-  "tagline": "5W Sculpfun's proven budget line — still popular for value-focused makers",
-  "tldr": "Sculpfun S9 5W is the 5W SKU on the Sculpfun sculpfun s9 line. Before S30 Ultra, the S9 was Sculpfun's workhorse. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Detailed engraving on organics and coated metal — occasional thin cuts only",
+  "tagline": "5W Sculpfun's proven budget line : still popular for value-focused makers",
+  "tldr": "Sculpfun S9 5W is the 5W SKU on the Sculpfun sculpfun s9 line. Before S30 Ultra, the S9 was Sculpfun's workhorse. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -19,7 +19,7 @@
     "min": 199,
     "max": 299,
     "currency": "USD",
-    "note": "5W optical module — verify SKU before buying"
+    "note": "5W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "5W diode",
@@ -71,16 +71,16 @@
     ]
   },
   "pros": [
-    "5W Sculpfun's proven budget line — still popular for value-focused makers",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "5W Sculpfun's proven budget line : still popular for value-focused makers",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 410 × 400 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "5W on Sculpfun S9: engraving-first — photo fills and leather at moderate speeds",
+    "5W on Sculpfun S9: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~18–28 min",
     "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 3 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 3 mm basswood class) : not thick production plywood",
     "Higher modules in this line (10W) add cut speed and depth",
     "Not the SKU for a shop cutting 3 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -105,19 +105,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s9-5w/01.webp",
-      "alt": "Sculpfun S9 5W laser engraver — Sculpfun"
+      "alt": "Sculpfun S9 5W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9-5w/02.jpg",
-      "alt": "Sculpfun S9 5W laser engraver — Sculpfun"
+      "alt": "Sculpfun S9 5W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9-5w/03.jpg",
-      "alt": "Sculpfun S9 5W laser engraver — Sculpfun"
+      "alt": "Sculpfun S9 5W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9-5w/04.jpg",
-      "alt": "Sculpfun S9 5W laser engraver — Sculpfun"
+      "alt": "Sculpfun S9 5W laser engraver : Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s9",

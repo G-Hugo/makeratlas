@@ -1,10 +1,10 @@
 {
-  "tagline": "CO₂ cheval de bataille pour ateliers ayant dépassé le 40 W — grand plateau, vraie vitesse production",
-  "tldr": "Les machines CO₂ bureau/sol 80 W d’OMTech ciblent enseignistes et makers sérieux ayant besoin de découpes plus rapides sur acrylique et bois épais. Plus de puissance, plateaux plus grands et prix plus élevé que la classe K40. Attendez-vous à setup, ventilation et entretien — pas du plug-and-play.",
+  "tagline": "CO₂ cheval de bataille pour ateliers ayant dépassé le 40 W : grand plateau, vraie vitesse production",
+  "tldr": "Les machines CO₂ bureau/sol 80 W d’OMTech ciblent enseignistes et makers sérieux ayant besoin de découpes plus rapides sur acrylique et bois épais. Plus de puissance, plateaux plus grands et prix plus élevé que la classe K40. Attendez-vous à setup, ventilation et entretien : pas du plug-and-play.",
   "mainObjective": "Production CO₂ haute puissance pour ateliers d’enseignes découpant acrylique et bois épais quotidiennement",
   "primaryUse": "Laser CO₂ de production pour enseignes et découpe de matériaux épais dans des espaces atelier dédiés.",
   "beginnerNotes": "N’achetez pas le 80 W comme premier laser. Vous devez déjà savoir que vous avez besoin de cette puissance et avoir planifié la ventilation.",
-  "proTips": "Installez ampèremètre et capteur de débit d’eau tôt. Gardez miroirs et lentille de rechange — l’arrêt production coûte plus que les pièces.",
+  "proTips": "Installez ampèremètre et capteur de débit d’eau tôt. Gardez miroirs et lentille de rechange : l’arrêt production coûte plus que les pièces.",
   "bestFor": [
     "Ateliers d’enseignes",
     "Acrylique épais",
@@ -61,9 +61,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser OMTech 80W CO₂ — OMTech" },
-    { "alt": "Graveuse laser OMTech 80W CO₂ — OMTech" },
-    { "alt": "Graveuse laser OMTech 80W CO₂ — OMTech" },
-    { "alt": "Graveuse laser OMTech 80W CO₂ — OMTech" }
+    { "alt": "Graveuse laser OMTech 80W CO₂ : OMTech" },
+    { "alt": "Graveuse laser OMTech 80W CO₂ : OMTech" },
+    { "alt": "Graveuse laser OMTech 80W CO₂ : OMTech" },
+    { "alt": "Graveuse laser OMTech 80W CO₂ : OMTech" }
   ]
 }

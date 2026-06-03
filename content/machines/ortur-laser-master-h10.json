@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/ortur-laser-master-h10/01.webp",
-  "tagline": "Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
+  "tagline": "Ortur's enclosed-style H-series : faster frame, tighter integration than LM3",
   "tldr": "The H10 is Ortur's step up from the open-frame LM3 line: a more integrated chassis with up to 20W diode power and higher advertised traverse speeds. Still diode-class cutting limits, but a solid pick if you want Ortur ecosystem with a more polished frame.",
   "mainObjective": "Integrated Ortur diode for faster engraving and cleaner setup than LM3",
   "bestFor": [
@@ -81,14 +81,14 @@
     "Competitive price vs xTool D1 Pro"
   ],
   "cons": [
-    "Still open frame — eye protection required",
+    "Still open frame : eye protection required",
     "40W marketing is optical/combined power",
     "Less proven long-term than LM3 community volume",
     "Air assist often extra",
     "Not a CO₂ replacement for acrylic shops"
   ],
   "beginnerNotes": "Choose H10 over LM3 if you want a slightly more modern Ortur platform and can spend a bit more. For maximum community tutorials, LM3 still wins.",
-  "proTips": "Start with 20W unless you have a clear cutting use case — 40W adds cost with diminishing returns on thick cuts. Pair with Ortur air assist early for cleaner edges.",
+  "proTips": "Start with 20W unless you have a clear cutting use case : 40W adds cost with diminishing returns on thick cuts. Pair with Ortur air assist early for cleaner edges.",
   "primaryUse": "Integrated open-frame Ortur diode for faster engraving and moderate thin-wood cutting.",
   "rating": {
     "overall": 8.3,
@@ -107,11 +107,11 @@
   "images": [
     {
       "src": "/machines/ortur-laser-master-h10/01.webp",
-      "alt": "Ortur Laser Master H10 laser engraver — Ortur"
+      "alt": "Ortur Laser Master H10 laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-h10/02.webp",
-      "alt": "Ortur Laser Master H10 laser engraver — Ortur"
+      "alt": "Ortur Laser Master H10 laser engraver : Ortur"
     }
   ],
   "modelLine": "ortur-laser-master-h10",

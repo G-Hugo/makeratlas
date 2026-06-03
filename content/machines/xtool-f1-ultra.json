@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "tagline": "Portable dual-laser (fiber + diode) for metal marking and fast engraving",
-  "tldr": "A compact desktop machine combining a 20W fiber laser and 20W diode. The fiber module marks bare metal — stainless steel, aluminum, brass — without spray. Ideal for jewelry, knives, and metal gifts. Premium price for a small work area.",
+  "tldr": "A compact desktop machine combining a 20W fiber laser and 20W diode. The fiber module marks bare metal : stainless steel, aluminum, brass : without spray. Ideal for jewelry, knives, and metal gifts. Premium price for a small work area.",
   "bestFor": [
     "Metal marking",
     "Jewelry",
@@ -71,21 +71,21 @@
     ]
   },
   "pros": [
-    "Marks bare metal directly — no chemical spray needed on fiber",
+    "Marks bare metal directly : no chemical spray needed on fiber",
     "Extremely fast fiber engraving for production",
     "Compact and portable compared to open-frame diodes",
     "Dual laser covers both metal and organic materials",
     "Optional conveyor for batch metal marking"
   ],
   "cons": [
-    "Small default work area — not for large signs or panels",
+    "Small default work area : not for large signs or panels",
     "Very expensive for the cutting/engraving area you get",
     "Not a replacement for a CO₂ if you cut acrylic or large wood",
     "Fiber and diode require switching modules (not simultaneous)",
     "Enclosed but still requires proper ventilation for some materials"
   ],
-  "beginnerNotes": "Buy this if metal is your main material — rings, dog tags, tools, tumblers with stainless sleeves. Do not buy it as your first general-purpose laser; the work area is too small for typical hobby projects like large wood signs.",
-  "proTips": "Use the fiber module for all metal work. The diode is a bonus for wood/leather on the same desk. Rotary attachment is essential for rings and cylindrical metal. Dial in power/speed on scrap — fiber is unforgiving on thin metal.",
+  "beginnerNotes": "Buy this if metal is your main material : rings, dog tags, tools, tumblers with stainless sleeves. Do not buy it as your first general-purpose laser; the work area is too small for typical hobby projects like large wood signs.",
+  "proTips": "Use the fiber module for all metal work. The diode is a bonus for wood/leather on the same desk. Rotary attachment is essential for rings and cylindrical metal. Dial in power/speed on scrap : fiber is unforgiving on thin metal.",
   "primaryUse": "Professional metal marking and small-item engraving for jewelry, personalization businesses, and tool marking.",
   "rating": {
     "overall": 8.9,
@@ -104,26 +104,26 @@
   "images": [
     {
       "src": "/machines/xtool-f1-ultra/01.webp",
-      "alt": "xTool F1 Ultra laser engraver — xTool"
+      "alt": "xTool F1 Ultra laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-f1-ultra/02.webp",
-      "alt": "xTool F1 Ultra laser engraver — xTool"
+      "alt": "xTool F1 Ultra laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-f1-ultra/03.jpg",
-      "alt": "xTool F1 Ultra laser engraver — xTool"
+      "alt": "xTool F1 Ultra laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-f1-ultra/04.webp",
-      "alt": "xTool F1 Ultra laser engraver — xTool"
+      "alt": "xTool F1 Ultra laser engraver : xTool"
     }
   ],
   "powerRating": "20W",
   "moduleSystem": {
     "style": "dual-laser",
     "headline": "Fiber + diode in one desktop unit",
-    "description": "The F1 Ultra switches between a fiber source (metal) and a diode source (wood/acrylic) inside one chassis. You do not swap a 10W diode for a 40W diode — that is the xTool S1 model.",
+    "description": "The F1 Ultra switches between a fiber source (metal) and a diode source (wood/acrylic) inside one chassis. You do not swap a 10W diode for a 40W diode : that is the xTool S1 model.",
     "options": [
       {
         "power": "20W",

@@ -1,9 +1,9 @@
 ﻿{
-  "tagline": "OMTech FC-510 Intelli-Cut — plateforme fibre format intermédiaire pour découpe",
-  "tldr": "L’OMTech FC-510 Intelli est une machine de découpe fibre plus grande que les unités de bureau FC-44/105 — conçue pour la tôle et les découpes de type industriel avec les fonctions Intelli-Cut, pas pour le travail diode loisir.",
+  "tagline": "OMTech FC-510 Intelli-Cut : plateforme fibre format intermédiaire pour découpe",
+  "tldr": "L’OMTech FC-510 Intelli est une machine de découpe fibre plus grande que les unités de bureau FC-44/105 : conçue pour la tôle et les découpes de type industriel avec les fonctions Intelli-Cut, pas pour le travail diode loisir.",
   "mainObjective": "Découpe fibre en atelier au-delà des machines de marquage de bureau",
   "primaryUse": "Découpe de tôle fibre pour petites entreprises.",
-  "beginnerNotes": "Nécessite une planification d’installation — ce n’est pas un remplacement diode plug-and-play.",
+  "beginnerNotes": "Nécessite une planification d’installation : ce n’est pas un remplacement diode plug-and-play.",
   "proTips": "Confirmez les besoins en gaz d’assistance, refroidisseur et alimentation électrique avant l’achat.",
   "bestFor": [
     "Métal petite entreprise",
@@ -46,9 +46,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser OMTech FC-510 Intelli — OMTech" },
-    { "alt": "Graveuse laser OMTech FC-510 Intelli — OMTech" },
-    { "alt": "Graveuse laser OMTech FC-510 Intelli — OMTech" },
-    { "alt": "Graveuse laser OMTech FC-510 Intelli — OMTech" }
+    { "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech" },
+    { "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech" },
+    { "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech" },
+    { "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech" }
   ]
 }

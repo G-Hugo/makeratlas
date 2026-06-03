@@ -1,6 +1,6 @@
 {
-  "tagline": "Sculpfun grand format 2025 — plateau 830×800 mm et diode compressée 48 W",
-  "tldr": "Le S40 MAX (2025) vise les makers qui ont dépassé les châssis 400 mm : zone 830×800 mm, 48 W optiques, autofocus et Wi-Fi via écran TS1. Conçu pour panneaux enseignes et découpe en série — vérifiez le poids à l’expédition et l’espace atelier avant commande.",
+  "tagline": "Sculpfun grand format 2025 : plateau 830×800 mm et diode compressée 48 W",
+  "tldr": "Le S40 MAX (2025) vise les makers qui ont dépassé les châssis 400 mm : zone 830×800 mm, 48 W optiques, autofocus et Wi-Fi via écran TS1. Conçu pour panneaux enseignes et découpe en série : vérifiez le poids à l’expédition et l’espace atelier avant commande.",
   "mainObjective": "Sculpfun diode extra-large pour grands panneaux et découpe type production",
   "primaryUse": "Sculpfun 2025 grande surface pour gravure et découpe de panneaux bois, cuir et acrylique surdimensionnés.",
   "beginnerNotes": "N’achetez que si vous atteignez régulièrement les limites de taille du S30 Ultra ou des machines 400 mm. Les premiers acheteurs devraient commencer plus petit.",
@@ -18,10 +18,10 @@
     "Bon rapport qualité-prix vs CO₂ pour gros bois"
   ],
   "cons": [
-    "Énorme châssis — table dédiée requise",
+    "Énorme châssis : table dédiée requise",
     "15,2 kg de machine",
     "Annonces 48 W à valider en conditions réelles",
-    "Structure ouverte — sécurité entièrement à votre charge"
+    "Structure ouverte : sécurité entièrement à votre charge"
   ],
   "materials": {
     "engrave": [
@@ -58,9 +58,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Sculpfun S40 MAX 48W — Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S40 MAX 48W — Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S40 MAX 48W — Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S40 MAX 48W — Sculpfun" }
+    { "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun" },
+    { "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun" }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode Longer 40 W grand format — plateau plus large que Ray5 pour enseignes",
-  "tldr": "Le Longer Laser B1 40 W est le SKU 40 W de la gamme B1. Longer propose aussi 20 W et 30 W séparément. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing watts combinés.",
-  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "tagline": "Diode Longer 40 W grand format : plateau plus large que Ray5 pour enseignes",
+  "tldr": "Le Longer Laser B1 40 W est le SKU 40 W de la gamme B1. Longer propose aussi 20 W et 30 W séparément. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
+  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
   "primaryUse": "Gravure et découpe bois fin à moyen en diode grand format pour loisirs et petits vendeurs.",
   "beginnerNotes": "Ce profil décrit le module 40W de Longer Laser B1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "La valeur du B1, c’est la taille du plateau — concevez vos gabarits pour utiliser toute la largeur en gravure par lots. Ajoutez nido d’abeille et assistance air avant de pousser au-delà de 8 mm de découpe.",
+  "proTips": "La valeur du B1, c’est la taille du plateau : concevez vos gabarits pour utiliser toute la largeur en gravure par lots. Ajoutez nido d’abeille et assistance air avant de pousser au-delà de 8 mm de découpe.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -12,17 +12,17 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Diode Longer 40 W grand format — plateau plus grand que Ray5 pour enseignes",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Diode Longer 40 W grand format : plateau plus grand que Ray5 pour enseignes",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 450 × 440 mm (base; extensions available) sur ce châssis",
     "Logiciels : Longer Laser Tool · LightBurn",
-    "Meilleure marge de découpe de la gamme — benchmark ~10 mm tilleul",
+    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
     "40W : tête la plus orientée découpe de Longer Laser B1",
     "Exemple gravure de référence sur ce module : ~12–18 min"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -46,7 +46,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 40 W — vérifiez le SKU avant d’acheter"
+    "note": "Module optique 40 W : vérifiez le SKU avant d’acheter"
   },
   "specs": {
     "performance": {
@@ -60,16 +60,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Longer Laser B1 40W — Longer"
+      "alt": "Graveuse laser Longer Laser B1 40W : Longer"
     },
     {
-      "alt": "Graveuse laser Longer Laser B1 40W — Longer"
+      "alt": "Graveuse laser Longer Laser B1 40W : Longer"
     },
     {
-      "alt": "Graveuse laser Longer Laser B1 40W — Longer"
+      "alt": "Graveuse laser Longer Laser B1 40W : Longer"
     },
     {
-      "alt": "Graveuse laser Longer Laser B1 40W — Longer"
+      "alt": "Graveuse laser Longer Laser B1 40W : Longer"
     }
   ]
 }

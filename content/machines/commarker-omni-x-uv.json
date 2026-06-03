@@ -8,8 +8,8 @@
   "modelLine": "commarker-omni-x",
   "catalogPrimary": true,
   "tagline": "Desktop UV laser for glass, plastic, and fine detail",
-  "tldr": "ComMarker Omni X uses UV wavelength for cold marking on glass, some plastics, and delicate materials without as much heat damage as fiber or CO₂. Slower than fiber on metal — different tool for different materials.",
-  "mainObjective": "Detailed engraving on organics and coated metal — occasional thin cuts only",
+  "tldr": "ComMarker Omni X uses UV wavelength for cold marking on glass, some plastics, and delicate materials without as much heat damage as fiber or CO₂. Slower than fiber on metal : different tool for different materials.",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -70,15 +70,15 @@
   },
   "pros": [
     "Desktop UV laser for glass, plastic, and fine detail",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 100 × 100 mm typical on this chassis",
     "Software: ComMarker · LightBurn",
-    "5W on ComMarker Omni X UV: engraving-first — photo fills and leather at moderate speeds",
+    "5W on ComMarker Omni X UV: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~6–12 min",
     "Reference cut job on this module: Not a cutter"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
     "Not the SKU for a shop cutting 4 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
   ],
@@ -102,19 +102,19 @@
   "images": [
     {
       "src": "/machines/commarker-omni-x-uv/01.webp",
-      "alt": "ComMarker Omni X UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni X UV laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-omni-x-uv/02.webp",
-      "alt": "ComMarker Omni X UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni X UV laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-omni-x-uv/03.webp",
-      "alt": "ComMarker Omni X UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni X UV laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-omni-x-uv/04.webp",
-      "alt": "ComMarker Omni X UV laser engraver — ComMarker"
+      "alt": "ComMarker Omni X UV laser engraver : ComMarker"
     }
   ],
   "powerRating": "5W",

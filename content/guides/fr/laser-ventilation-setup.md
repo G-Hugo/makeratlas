@@ -24,7 +24,7 @@ Ce guide s’adresse aux **makers à domicile et petits ateliers** qui préparen
 | Cuir | Odeur forte, huiles | Bien ventiler ; certains synthétiques sont pires que le cuir végétal |
 | Acrylique (CO₂) | Vapeurs de polymère fondu | **Jamais** de découpe acrylique CO₂ sans évacuation vers l’extérieur |
 | Résidu spray de marquage | Produits chimiques sur métal traité | Même les petits jobs demandent de l’air qui circule |
-| PVC / vinyle | Composés chlorés | **Ne pas graver** — toxique ; la ventilation ne suffit pas |
+| PVC / vinyle | Composés chlorés | **Ne pas graver** : toxique ; la ventilation ne suffit pas |
 
 La ventilation **ne remplace pas** lunettes ni prévention incendie. Elle garde l’air respirable et limite les dépôts sur la machine.
 
@@ -32,7 +32,7 @@ La ventilation **ne remplace pas** lunettes ni prévention incendie. Elle garde 
 
 ## Trois niveaux d’installation (soyez honnête)
 
-### Niveau 1 — Évacuation fenêtre ou porte (minimum viable)
+### Niveau 1 : Évacuation fenêtre ou porte (minimum viable)
 
 **Pour :** Premiers tests diode, gravure légère, budget serré, location.
 
@@ -44,9 +44,9 @@ La ventilation **ne remplace pas** lunettes ni prévention incendie. Elle garde 
 **Règles :**
 - **Dépression :** plus d’air sorti que de fuites, pour que la fumée ne revienne pas dans la maison.
 - Lancer le ventilateur **avant** le job et **après** quelques minutes pour vider l’enceinte.
-- Gaines **courtes et droites** — chaque coude réduit le débit.
+- Gaines **courtes et droites** : chaque coude réduit le débit.
 
-### Niveau 2 — Sortie murale dédiée + ventilateur inline
+### Niveau 2 : Sortie murale dédiée + ventilateur inline
 
 **Pour :** Hobby régulier, CO₂ entrée de gamme, garage.
 
@@ -55,9 +55,9 @@ La ventilation **ne remplace pas** lunettes ni prévention incendie. Elle garde 
 **Avantages :** Débit stable ; moins de montage quotidien.  
 **Inconvénients :** Trou dans le mur ; vérifier copropriété / bailleur.
 
-**Dimensionnement :** Les ventilateurs indiquent un **débit (m³/h ou CFM)**. Diode open-frame : souvent **100–200 CFM** à la machine si la gaine est courte. CO₂ et machines fermées : souvent **200–400+ CFM** selon longueur et filtres — en cas de doute, **un cran au-dessus** vaut mieux qu’une pièce enfumée.
+**Dimensionnement :** Les ventilateurs indiquent un **débit (m³/h ou CFM)**. Diode open-frame : souvent **100–200 CFM** à la machine si la gaine est courte. CO₂ et machines fermées : souvent **200–400+ CFM** selon longueur et filtres : en cas de doute, **un cran au-dessus** vaut mieux qu’une pièce enfumée.
 
-### Niveau 3 — Enceinte + filtration (ou hybride)
+### Niveau 3 : Enceinte + filtration (ou hybride)
 
 **Pour :** Appartement, air partagé, ou impossible de sortir vers l’extérieur.
 
@@ -74,20 +74,20 @@ La ventilation **ne remplace pas** lunettes ni prévention incendie. Elle garde 
 
 ### Diode open-frame
 
-- Moins de fumée totale qu’un CO₂ en découpe épaisse, mais faisceau **ouvert** — tout ce qui échappe à la buse entre dans la pièce.
-- **Assist air** limite les flammes et oriente la fumée vers la prise — ventiler quand même.
+- Moins de fumée totale qu’un CO₂ en découpe épaisse, mais faisceau **ouvert** : tout ce qui échappe à la buse entre dans la pièce.
+- **Assist air** limite les flammes et oriente la fumée vers la prise : ventiler quand même.
 - Les enceintes add-on aident la collecte ; il faut toujours un chemin vers l’extérieur ou des filtres.
 
 ### CO₂ desktop (K40, OMTech 40W, xTool P2, etc.)
 
 - La **découpe** fume plus que la gravure.
 - L’**acrylique** exige une évacuation fiable à chaque fois.
-- Souvent une seule sortie arrière — respecter le diamètre constructeur ; ne pas écraser la gaine.
+- Souvent une seule sortie arrière : respecter le diamètre constructeur ; ne pas écraser la gaine.
 
 ### Fibre / UV
 
 - Moins de fumée « feu de camp » sur métal, mais **plastiques marqués** et certains revêtements demandent de l’air.
-- Ne pas zapper la ventilation parce que la machine paraît propre — lire la FDS des matériaux.
+- Ne pas zapper la ventilation parce que la machine paraît propre : lire la FDS des matériaux.
 
 ---
 
@@ -97,7 +97,7 @@ La ventilation **ne remplace pas** lunettes ni prévention incendie. Elle garde 
 |------|----------|-------------|
 | **Pré-filtre (maille / fleece)** | Grosses particules, protéger le HEPA | Gaz et odeurs |
 | **HEPA** | Fines particules de fumée | Odeurs, COV |
-| **Charbon actif** | Odeurs, une partie des COV | Forte charge sans pré-filtre — saturation rapide |
+| **Charbon actif** | Odeurs, une partie des COV | Forte charge sans pré-filtre : saturation rapide |
 
 **Entretien :** Si l’odeur revient alors que le ventilateur tourne fort, les **cartouches charbon sont probablement saturées** ou la gaine fuit. En production, remplacer selon un calendrier, pas seulement quand ça sent dans la pièce.
 
@@ -105,11 +105,11 @@ La ventilation **ne remplace pas** lunettes ni prévention incendie. Elle garde 
 
 ## Erreurs fréquentes
 
-1. **Ventilateur seulement dans la machine** — recircule dans l’enceinte sans quitter le bâtiment (sauf système filtrant certifié vers la pièce).
-2. **Gaine longue et enroulée** — tue le débit ; la fumée sort par les jeux de la machine.
-3. **Évacuer vers combles ou vide sanitaire** — dépôts, risque incendie et assurance.
-4. **Pas de plan hiver** — il faut toujours de l’air ; ne pas couper la ventilation sans autre chemin.
-5. **« Fermée = air respirable »** — l’enceinte protège mieux du faisceau que de la fumée ; lire la notice.
+1. **Ventilateur seulement dans la machine** : recircule dans l’enceinte sans quitter le bâtiment (sauf système filtrant certifié vers la pièce).
+2. **Gaine longue et enroulée** : tue le débit ; la fumée sort par les jeux de la machine.
+3. **Évacuer vers combles ou vide sanitaire** : dépôts, risque incendie et assurance.
+4. **Pas de plan hiver** : il faut toujours de l’air ; ne pas couper la ventilation sans autre chemin.
+5. **« Fermée = air respirable »** : l’enceinte protège mieux du faisceau que de la fumée ; lire la notice.
 
 ---
 
@@ -121,7 +121,7 @@ La ventilation **ne remplace pas** lunettes ni prévention incendie. Elle garde 
 | Ventilateur inline | Boîtier métal ou plastique ; CFM vs longueur |
 | Panneau fenêtre ou kit séche-linge | Plaque mousse pour étancher |
 | Colliers de serrage | Éviter la déconnexion en cours de job |
-| Extincteur | ABC ou CO₂ selon consignes locales — voir [guide sécurité](/guides/laser-safety-basics) |
+| Extincteur | ABC ou CO₂ selon consignes locales : voir [guide sécurité](/guides/laser-safety-basics) |
 
 Matériel HVAC ou magasin bricolage : d’abord le **diamètre de sortie**, ensuite le **débit**.
 

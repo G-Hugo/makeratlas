@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode Atezr fermée avec assistance air — sécurité au centre, budget intermédiaire",
-  "tldr": "L’Atezr P2 rivalise avec l’Acmer P3 et le xTool S1 dans le segment diode fermé. Gravure correcte, découpe modérée. Moins de documentation communautaire que xTool — vérifiez le support dans votre région.",
+  "tagline": "Diode Atezr fermée avec assistance air : sécurité au centre, budget intermédiaire",
+  "tldr": "L’Atezr P2 rivalise avec l’Acmer P3 et le xTool S1 dans le segment diode fermé. Gravure correcte, découpe modérée. Moins de documentation communautaire que xTool : vérifiez le support dans votre région.",
   "mainObjective": "Diode fermée budget intermédiaire pour une gravure domestique plus sûre",
   "primaryUse": "Diode 20 W fermée pour gravure compatible appartement et découpe légère.",
   "beginnerNotes": "Comparez la garantie et la politique de retour avec l’Acmer P3 à un prix similaire.",
-  "proTips": "Évacuez vers une fenêtre lors de découpes fréquentes — les filtres seuls peuvent ne pas suffire.",
+  "proTips": "Évacuez vers une fenêtre lors de découpes fréquentes : les filtres seuls peuvent ne pas suffire.",
   "bestFor": [
     "Fermée petit budget",
     "Bureau à domicile",
@@ -52,8 +52,8 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Atezr P2 — Atezr" },
-    { "alt": "Graveuse laser Atezr P2 — Atezr" },
-    { "alt": "Graveuse laser Atezr P2 — Atezr" }
+    { "alt": "Graveuse laser Atezr P2 : Atezr" },
+    { "alt": "Graveuse laser Atezr P2 : Atezr" },
+    { "alt": "Graveuse laser Atezr P2 : Atezr" }
   ]
 }

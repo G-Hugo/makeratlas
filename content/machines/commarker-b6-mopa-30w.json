@@ -76,12 +76,12 @@
   ],
   "cons": [
     "Significantly more expensive than B4",
-    "Still a marking machine — not a workshop cutter",
+    "Still a marking machine : not a workshop cutter",
     "Software learning curve (EZCAD/LightBurn)",
     "Color results depend on material batch"
   ],
   "beginnerNotes": "Choose B6 over B4 when you sell color metal products or need faster cycle times on steel.",
-  "proTips": "Build fixture jigs for repeat jobs. Keep lens clean — contamination shows on high-contrast marks.",
+  "proTips": "Build fixture jigs for repeat jobs. Keep lens clean : contamination shows on high-contrast marks.",
   "primaryUse": "Professional metal marking with optional color effects for premium personalization.",
   "rating": {
     "overall": 8.7,
@@ -101,19 +101,19 @@
   "images": [
     {
       "src": "/machines/commarker-b6-mopa-30w/01.webp",
-      "alt": "ComMarker B6 MOPA 30W laser engraver — ComMarker"
+      "alt": "ComMarker B6 MOPA 30W laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-b6-mopa-30w/02.jpg",
-      "alt": "ComMarker B6 MOPA 30W laser engraver — ComMarker"
+      "alt": "ComMarker B6 MOPA 30W laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-b6-mopa-30w/03.jpg",
-      "alt": "ComMarker B6 MOPA 30W laser engraver — ComMarker"
+      "alt": "ComMarker B6 MOPA 30W laser engraver : ComMarker"
     },
     {
       "src": "/machines/commarker-b6-mopa-30w/04.jpg",
-      "alt": "ComMarker B6 MOPA 30W laser engraver — ComMarker"
+      "alt": "ComMarker B6 MOPA 30W laser engraver : ComMarker"
     }
   ],
   "releaseDate": "2024-09"

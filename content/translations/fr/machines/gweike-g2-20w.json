@@ -13,7 +13,7 @@
   ],
   "pros": [
     "Marqueur fibre de bureau pour métal et certains plastiques",
-    "Fibre = marquage métal — ne découpe pas bois ni acrylique",
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
     "Surface utile 110 × 110 mm sur ce châssis",
     "Exemple gravure de référence sur ce module : ~4–9 min"
   ],
@@ -44,22 +44,22 @@
         "description": "Logo rempli sur plaque en acier inoxydable"
       },
       "cutExample": {
-        "description": "Découpe laser — machine de marquage uniquement"
+        "description": "Découpe laser : machine de marquage uniquement"
       }
     }
   },
   "images": [
     {
-      "alt": "Graveuse laser Gweike G2 20W Fiber — Gweike"
+      "alt": "Graveuse laser Gweike G2 20W Fiber : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G2 20W Fiber — Gweike"
+      "alt": "Graveuse laser Gweike G2 20W Fiber : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G2 20W Fiber — Gweike"
+      "alt": "Graveuse laser Gweike G2 20W Fiber : Gweike"
     },
     {
-      "alt": "Graveuse laser Gweike G2 20W Fiber — Gweike"
+      "alt": "Graveuse laser Gweike G2 20W Fiber : Gweike"
     }
   ]
 }

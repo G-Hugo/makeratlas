@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode CoS 70–77 W — modèle phare Atomstack de découpe 850×800 mm",
-  "tldr": "L’AtomStack A70 Max apporte 70–77 W de diode comprimée sur un châssis 850×800 mm avec mise au point auto, écran tactile et promesse de 25 mm de bois en une passe. Montée en gamme populaire 2024–2025 pour ceux qui dépassent l’A40 Pro — toujours structure ouverte, pas fermée.",
+  "tagline": "Diode CoS 70–77 W : modèle phare Atomstack de découpe 850×800 mm",
+  "tldr": "L’AtomStack A70 Max apporte 70–77 W de diode comprimée sur un châssis 850×800 mm avec mise au point auto, écran tactile et promesse de 25 mm de bois en une passe. Montée en gamme populaire 2024–2025 pour ceux qui dépassent l’A40 Pro : toujours structure ouverte, pas fermée.",
   "mainObjective": "Puissance diode maximale Atomstack pour grands panneaux et découpes bois profondes",
   "primaryUse": "Diode grand format haute puissance pour découpe bois et acrylique type production plus gravure détaillée.",
-  "beginnerNotes": "Ce n’est pas un premier laser — achetez-la après avoir dépassé 20–40 W. Comparez la Sculpfun S70 MAX et l’Acmer P3 fermée si la gestion des fumées compte.",
-  "proTips": "Prévoyez boîtier et extraction avant la commande — des conceptions communautaires existent pour l’empreinte A70.",
+  "beginnerNotes": "Ce n’est pas un premier laser : achetez-la après avoir dépassé 20–40 W. Comparez la Sculpfun S70 MAX et l’Acmer P3 fermée si la gestion des fumées compte.",
+  "proTips": "Prévoyez boîtier et extraction avant la commande : des conceptions communautaires existent pour l’empreinte A70.",
   "bestFor": [
     "Grandes enseignes",
     "Découpes bois profondes",
@@ -18,7 +18,7 @@
     "Modules interchangeables 35 W / 70 W"
   ],
   "cons": [
-    "Lourde (~19 kg) — table solide requise",
+    "Lourde (~19 kg) : table solide requise",
     "Prix premium face à la S40 MAX",
     "Structure ouverte et surveillance flammes restent à votre charge",
     "Promesses de passe unique à valider sur vos matériaux"
@@ -58,9 +58,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack A70 Max — Atomstack" },
-    { "alt": "Graveuse laser AtomStack A70 Max — Atomstack" },
-    { "alt": "Graveuse laser AtomStack A70 Max — Atomstack" },
-    { "alt": "Graveuse laser AtomStack A70 Max — Atomstack" }
+    { "alt": "Graveuse laser AtomStack A70 Max : Atomstack" },
+    { "alt": "Graveuse laser AtomStack A70 Max : Atomstack" },
+    { "alt": "Graveuse laser AtomStack A70 Max : Atomstack" },
+    { "alt": "Graveuse laser AtomStack A70 Max : Atomstack" }
   ]
 }

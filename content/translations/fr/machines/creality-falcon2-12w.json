@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode Creality d'entrée — chemin de montée simple pour les propriétaires d'imprimantes 3D",
+  "tagline": "Diode Creality d'entrée : chemin de montée simple pour les propriétaires d'imprimantes 3D",
   "tldr": "La Falcon2 12W de base est la diode à structure ouverte abordable de Creality. Moins puissante que la Falcon2 Pro mais plus accessible budget. Bon choix pour les utilisateurs orientés gravure qui font déjà confiance à Creality via l'impression 3D. Pas une machine de découpe redoutable.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Diode budget orientée gravure pour utilisateurs écosystème Creality et personnalisation loisir légère.",
   "beginnerNotes": "Ce profil décrit le module 12W de Creality Falcon2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Ralentissez les remplissages pour des résultats plus propres — le 12W demande de la patience. Passez au module 22W plus tard si Creality le propose pour votre châssis.",
+  "proTips": "Ralentissez les remplissages pour des résultats plus propres : le 12W demande de la patience. Passez au module 22W plus tard si Creality le propose pour votre châssis.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,16 +12,16 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Diode Creality d'entrée — chemin de montée simple pour les propriétaires d'imprimantes 3D",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Diode Creality d'entrée : chemin de montée simple pour les propriétaires d'imprimantes 3D",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 400 × 415 mm sur ce châssis",
     "Logiciels : Creality Laser · LightBurn",
-    "12W sur Creality Falcon2 : priorité gravure — remplissages photo et cuir",
+    "12W sur Creality Falcon2 : priorité gravure : remplissages photo et cuir",
     "Exemple gravure de référence sur ce module : ~17–26 min",
     "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (22W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
@@ -57,13 +57,13 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Creality Falcon2 12W — Creality"
+      "alt": "Graveuse laser Creality Falcon2 12W : Creality"
     },
     {
-      "alt": "Graveuse laser Creality Falcon2 12W — Creality"
+      "alt": "Graveuse laser Creality Falcon2 12W : Creality"
     },
     {
-      "alt": "Graveuse laser Creality Falcon2 12W — Creality"
+      "alt": "Graveuse laser Creality Falcon2 12W : Creality"
     }
   ]
 }

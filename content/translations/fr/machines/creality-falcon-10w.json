@@ -1,10 +1,10 @@
 {
-  "tagline": "Entrée Creality CR-Falcon — structure ouverte 10W pour un premier laser",
-  "tldr": "La Creality Falcon 10W (CR-Laser) est l'entrée budget à structure ouverte de la gamme laser Creality — en dessous des Falcon 2 et A1 fermées. Correcte pour apprendre ; la montée en gamme mène vers la Falcon 2 22W ou l'A1.",
+  "tagline": "Entrée Creality CR-Falcon : structure ouverte 10W pour un premier laser",
+  "tldr": "La Creality Falcon 10W (CR-Laser) est l'entrée budget à structure ouverte de la gamme laser Creality : en dessous des Falcon 2 et A1 fermées. Correcte pour apprendre ; la montée en gamme mène vers la Falcon 2 22W ou l'A1.",
   "mainObjective": "Laser Creality le moins cher pour des essais de gravure basiques",
   "primaryUse": "Diode Creality d'entrée pour la gravure loisir.",
   "beginnerNotes": "Envisagez la Falcon A1 10W fermée si vous pouvez étirer le budget.",
-  "proTips": "Souvent en promo en pack avec les imprimantes Creality — vérifiez la valeur totale.",
+  "proTips": "Souvent en promo en pack avec les imprimantes Creality : vérifiez la valeur totale.",
   "bestFor": [
     "Propriétaires d'imprimantes 3D Creality",
     "Budget serré",
@@ -45,9 +45,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Creality Falcon 10W — Creality" },
-    { "alt": "Graveuse laser Creality Falcon 10W — Creality" },
-    { "alt": "Graveuse laser Creality Falcon 10W — Creality" },
-    { "alt": "Graveuse laser Creality Falcon 10W — Creality" }
+    { "alt": "Graveuse laser Creality Falcon 10W : Creality" },
+    { "alt": "Graveuse laser Creality Falcon 10W : Creality" },
+    { "alt": "Graveuse laser Creality Falcon 10W : Creality" },
+    { "alt": "Graveuse laser Creality Falcon 10W : Creality" }
   ]
 }

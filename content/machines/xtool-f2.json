@@ -5,8 +5,8 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "hybrid",
-  "tagline": "2025 portable galvo — 15W diode + 5W IR with 50MP camera",
-  "tldr": "xTool F2 (2025) upgrades the F1 formula with more power, a 50MP alignment camera, and up to 6,000 mm/s galvo speed. Dual-source (diode + infrared) for metal marking and organics in a compact box — xTool Studio only, no LightBurn.",
+  "tagline": "2025 portable galvo : 15W diode + 5W IR with 50MP camera",
+  "tldr": "xTool F2 (2025) upgrades the F1 formula with more power, a 50MP alignment camera, and up to 6,000 mm/s galvo speed. Dual-source (diode + infrared) for metal marking and organics in a compact box : xTool Studio only, no LightBurn.",
   "mainObjective": "Fast portable dual-laser for on-site customization and small-batch metal + wood",
   "bestFor": [
     "Market vendors",
@@ -71,7 +71,7 @@
     ]
   },
   "pros": [
-    "Major F1 upgrade — more power and camera",
+    "Major F1 upgrade : more power and camera",
     "50MP autofocus alignment for batches",
     "Faster galvo than F1 generation",
     "Strong for fairs and on-site engraving"
@@ -83,7 +83,7 @@
     "Premium over F1 for hobby-only users"
   ],
   "beginnerNotes": "Pick F2 over F1 if you sell personalized metal goods or need camera batch alignment. Wood-only hobbyists may prefer D1 Pro or S1 for bed size per dollar.",
-  "proTips": "Use conveyor accessory for tags and flat blanks. Keep IR and diode material libraries separate — power curves are not interchangeable.",
+  "proTips": "Use conveyor accessory for tags and flat blanks. Keep IR and diode material libraries separate : power curves are not interchangeable.",
   "primaryUse": "2025 compact galvo for high-speed metal marking plus light organic engraving and cutting.",
   "rating": {
     "overall": 8.8,
@@ -103,18 +103,18 @@
   "images": [
     {
       "src": "/machines/xtool-f2/01.webp",
-      "alt": "xTool F2 laser engraver — xTool"
+      "alt": "xTool F2 laser engraver : xTool"
     },
     {
       "src": "/machines/xtool-f2/02.webp",
-      "alt": "xTool F2 laser engraver — xTool"
+      "alt": "xTool F2 laser engraver : xTool"
     }
   ],
   "catalogPrimary": true,
   "moduleSystem": {
     "style": "dual-laser",
     "headline": "15W diode + 5W infrared (1064 nm)",
-    "description": "Fixed dual-source galvo — switch between diode for organics and IR for bare metal marking in xTool Studio.",
+    "description": "Fixed dual-source galvo : switch between diode for organics and IR for bare metal marking in xTool Studio.",
     "options": [
       {
         "power": "15W",

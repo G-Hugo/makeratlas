@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "40W High-power diode with built-in air assist and color engraving gimmick",
-  "tldr": "Creality Falcon2 Pro 40W is the 40W SKU on the Creality creality falcon2 pro line. Creality's top open-frame diode at 60W combined (22W optical class). Verify optical power on the listing — do not assume combined-watt marketing.",
+  "tldr": "Creality Falcon2 Pro 40W is the 40W SKU on the Creality creality falcon2 pro line. Creality's top open-frame diode at 60W combined (22W optical class). Verify optical power on the listing : do not assume combined-watt marketing.",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -17,7 +17,7 @@
     "min": 799,
     "max": 1099,
     "currency": "USD",
-    "note": "40W optical module — verify SKU before buying"
+    "note": "40W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "40W diode",
@@ -72,16 +72,16 @@
   },
   "pros": [
     "40W High-power diode with built-in air assist and color engraving gimmick",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 400 × 415 mm on this chassis",
     "Software: Creality Laser · LightBurn",
-    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
     "40W: the most cut-focused head in the Creality Falcon2 Pro line",
     "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
     "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode — clear acrylic production wants CO₂",
+    "Still a diode : clear acrylic production wants CO₂",
     "Open frame: kids, pets, and smoke are not contained"
   ],
   "beginnerNotes": "This profile is the 40W module on Creality Falcon2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -102,23 +102,23 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/creality-falcon2-pro-40w/01.webp",
-  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "images": [
     {
       "src": "/machines/creality-falcon2-pro-40w/01.webp",
-      "alt": "Creality Falcon2 Pro 40W laser engraver — Creality"
+      "alt": "Creality Falcon2 Pro 40W laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon2-pro-40w/02.png",
-      "alt": "Creality Falcon2 Pro 40W laser engraver — Creality"
+      "alt": "Creality Falcon2 Pro 40W laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon2-pro-40w/03.jpg",
-      "alt": "Creality Falcon2 Pro 40W laser engraver — Creality"
+      "alt": "Creality Falcon2 Pro 40W laser engraver : Creality"
     },
     {
       "src": "/machines/creality-falcon2-pro-40w/04.jpg",
-      "alt": "Creality Falcon2 Pro 40W laser engraver — Creality"
+      "alt": "Creality Falcon2 Pro 40W laser engraver : Creality"
     }
   ],
   "powerRating": "40W",

@@ -6,9 +6,9 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/comgrow-z1-5w/01.webp",
-  "tagline": "5W Budget Comgrow diode — often bundled with 3D printer deals",
-  "tldr": "Comgrow Z1 5W is the 5W SKU on the Comgrow comgrow z1 line. Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Detailed engraving on organics and coated metal — occasional thin cuts only",
+  "tagline": "5W Budget Comgrow diode : often bundled with 3D printer deals",
+  "tldr": "Comgrow Z1 5W is the 5W SKU on the Comgrow comgrow z1 line. Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -19,7 +19,7 @@
     "min": 179,
     "max": 249,
     "currency": "USD",
-    "note": "5W optical module — verify SKU before buying"
+    "note": "5W optical module : verify SKU before buying"
   },
   "specs": {
     "power": "5W diode",
@@ -69,16 +69,16 @@
     ]
   },
   "pros": [
-    "5W Budget Comgrow diode — often bundled with 3D printer deals",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "5W Budget Comgrow diode : often bundled with 3D printer deals",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 300 × 300 mm on this chassis",
     "Software: LightBurn · LaserGRBL",
-    "5W on Comgrow Z1: engraving-first — photo fills and leather at moderate speeds",
+    "5W on Comgrow Z1: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~28–43 min",
     "Reference cut job on this module: ~14–24 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
     "Higher modules in this line (10W or 20W) add cut speed and depth",
     "Not the SKU for a shop cutting 4 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -102,15 +102,15 @@
   "images": [
     {
       "src": "/machines/comgrow-z1-5w/01.webp",
-      "alt": "Comgrow Z1 5W laser engraver — Comgrow"
+      "alt": "Comgrow Z1 5W laser engraver : Comgrow"
     },
     {
       "src": "/machines/comgrow-z1-5w/02.webp",
-      "alt": "Comgrow Z1 5W laser engraver — Comgrow"
+      "alt": "Comgrow Z1 5W laser engraver : Comgrow"
     },
     {
       "src": "/machines/comgrow-z1-5w/03.webp",
-      "alt": "Comgrow Z1 5W laser engraver — Comgrow"
+      "alt": "Comgrow Z1 5W laser engraver : Comgrow"
     }
   ],
   "modelLine": "comgrow-z1",

@@ -1,10 +1,10 @@
 {
-  "tagline": "La ligne petit budget éprouvée de Sculpfun en 5 W — toujours populaire chez les makers sensibles au rapport qualité-prix",
-  "tldr": "La Sculpfun S9 5 W est la version 5 W de la gamme S9. Avant la S30 Ultra, la S9 était le cheval de bataille de Sculpfun. Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing « watts combinés ».",
+  "tagline": "La ligne petit budget éprouvée de Sculpfun en 5 W : toujours populaire chez les makers sensibles au rapport qualité-prix",
+  "tldr": "La Sculpfun S9 5 W est la version 5 W de la gamme S9. Avant la S30 Ultra, la S9 était le cheval de bataille de Sculpfun. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing « watts combinés ».",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
   "primaryUse": "Sculpfun structure ouverte petit budget pour gravure bois/cuir et découpe légère de bois fin.",
   "beginnerNotes": "Ce profil décrit le module 5W de Sculpfun S9. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Les mods communautaires S9 (assistance air, pieds rallongés) sont bien documentés — cherchez les groupes Facebook Sculpfun avant votre premier gros projet.",
+  "proTips": "Les mods communautaires S9 (assistance air, pieds rallongés) sont bien documentés : cherchez les groupes Facebook Sculpfun avant votre premier gros projet.",
   "bestFor": [
     "Gravure fine",
     "Photo & logo",
@@ -12,16 +12,16 @@
     "Première machine"
   ],
   "pros": [
-    "La ligne petit budget éprouvée de Sculpfun en 5 W — toujours populaire chez les maker sensibles au rapport qualité-prix",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "La ligne petit budget éprouvée de Sculpfun en 5 W : toujours populaire chez les maker sensibles au rapport qualité-prix",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 410 × 400 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "5W sur Sculpfun S9 : priorité gravure — remplissages photo et cuir",
+    "5W sur Sculpfun S9 : priorité gravure : remplissages photo et cuir",
     "Exemple gravure de référence sur ce module : ~18–28 min",
     "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 3 mm de tilleul) — pas la production épaisse",
+    "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (10W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
@@ -46,7 +46,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 5 W — vérifiez le SKU avant d’acheter"
+    "note": "Module optique 5 W : vérifiez le SKU avant d’acheter"
   },
   "specs": {
     "performance": {
@@ -60,16 +60,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Sculpfun S9 5 W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun S9 5 W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun S9 5 W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun S9 5 W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun S9 5 W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun S9 5 W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun S9 5 W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun S9 5 W : Sculpfun"
     }
   ]
 }

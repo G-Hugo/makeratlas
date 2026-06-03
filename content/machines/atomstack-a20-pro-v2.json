@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Current Atomstack A20 Pro generation — 20W with F60 air assist ecosystem",
-  "tldr": "AtomStack A20 Pro V2 replaces the older A20 Pro with updated optics and bundle options. Mid-tier Atomstack between P1 and A40 — strong detail, not the highest watt class.",
+  "tagline": "Current Atomstack A20 Pro generation : 20W with F60 air assist ecosystem",
+  "tldr": "AtomStack A20 Pro V2 replaces the older A20 Pro with updated optics and bundle options. Mid-tier Atomstack between P1 and A40 : strong detail, not the highest watt class.",
   "mainObjective": "Current-gen Atomstack 20W for fine engraving and moderate cutting",
   "bestFor": [
     "Atomstack upgrades",
@@ -73,7 +73,7 @@
     "A40 exists for more power",
     "Open frame"
   ],
-  "beginnerNotes": "Buy V2 new — avoid confusing with used original A20 Pro listings.",
+  "beginnerNotes": "Buy V2 new : avoid confusing with used original A20 Pro listings.",
   "proTips": "F60 air assist kit is the common upgrade path in reviews.",
   "primaryUse": "Mid-range Atomstack diode for detailed work.",
   "rating": {
@@ -98,19 +98,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a20-pro-v2/01.webp",
-      "alt": "AtomStack A20 Pro V2 laser engraver — Atomstack"
+      "alt": "AtomStack A20 Pro V2 laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro-v2/02.jpg",
-      "alt": "AtomStack A20 Pro V2 laser engraver — Atomstack"
+      "alt": "AtomStack A20 Pro V2 laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro-v2/03.jpg",
-      "alt": "AtomStack A20 Pro V2 laser engraver — Atomstack"
+      "alt": "AtomStack A20 Pro V2 laser engraver : Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro-v2/04.jpg",
-      "alt": "AtomStack A20 Pro V2 laser engraver — Atomstack"
+      "alt": "AtomStack A20 Pro V2 laser engraver : Atomstack"
     }
   ]
 }

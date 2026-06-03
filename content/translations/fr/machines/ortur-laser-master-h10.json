@@ -1,10 +1,10 @@
 ﻿{
-  "tagline": "Série H Ortur semi-fermée — châssis plus rapide et mieux intégré que le LM3",
+  "tagline": "Série H Ortur semi-fermée : châssis plus rapide et mieux intégré que le LM3",
   "tldr": "Le H10 est le palier Ortur au-dessus de la ligne structure ouverte LM3 : châssis plus intégré avec jusqu’à 20 W diode et vitesses de déplacement annoncées plus élevées. Limites de découpe toujours celles du diode, mais bon choix si vous voulez l’écosystème Ortur avec un châssis plus soigné.",
   "mainObjective": "Diode Ortur intégrée pour gravure plus rapide et setup plus propre que le LM3",
   "primaryUse": "Diode Ortur structure ouverte intégrée pour gravure plus rapide et découpe modérée de bois fin.",
   "beginnerNotes": "Choisissez le H10 plutôt que le LM3 si vous voulez une plateforme Ortur un peu plus moderne et pouvez dépenser un peu plus. Pour le maximum de tutoriels communautaires, le LM3 reste devant.",
-  "proTips": "Commencez en 20 W sauf cas de découpe clair — le 40 W ajoute du coût avec des gains limités sur l’épaisseur. Associez l’assistance air Ortur tôt pour des bords plus propres.",
+  "proTips": "Commencez en 20 W sauf cas de découpe clair : le 40 W ajoute du coût avec des gains limités sur l’épaisseur. Associez l’assistance air Ortur tôt pour des bords plus propres.",
   "bestFor": [
     "Montées en gamme Ortur",
     "Loisirs orientés vitesse",
@@ -19,7 +19,7 @@
     "Prix compétitif vs xTool D1 Pro"
   ],
   "cons": [
-    "Toujours structure ouverte — protection oculaire requise",
+    "Toujours structure ouverte : protection oculaire requise",
     "Marketing 40 W = puissance optique/combinée",
     "Moins éprouvé long terme que le volume communautaire LM3",
     "Assistance air souvent en option",
@@ -60,9 +60,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Ortur Laser Master H10 — Ortur" },
-    { "alt": "Graveuse laser Ortur Laser Master H10 — Ortur" },
-    { "alt": "Graveuse laser Ortur Laser Master H10 — Ortur" },
-    { "alt": "Graveuse laser Ortur Laser Master H10 — Ortur" }
+    { "alt": "Graveuse laser Ortur Laser Master H10 : Ortur" },
+    { "alt": "Graveuse laser Ortur Laser Master H10 : Ortur" },
+    { "alt": "Graveuse laser Ortur Laser Master H10 : Ortur" },
+    { "alt": "Graveuse laser Ortur Laser Master H10 : Ortur" }
   ]
 }

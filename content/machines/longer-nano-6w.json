@@ -5,9 +5,9 @@
   "brand": "Longer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Longer's entry portable — compact diode for small projects",
+  "tagline": "Longer's entry portable : compact diode for small projects",
   "tldr": "Longer Nano 6W is a compact portable engraver for small gifts and learning. Pairs with Longer's accessory ecosystem. Upgrade to Nano Pro 12W if you need real cutting speed.",
-  "mainObjective": "Detailed engraving on organics and coated metal — occasional thin cuts only",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -70,16 +70,16 @@
     ]
   },
   "pros": [
-    "Longer's entry portable — compact diode for small projects",
-    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Longer's entry portable : compact diode for small projects",
+    "Open-frame layout : laser glasses and ventilation are your responsibility",
     "Work area 130 × 130 mm (approx.) on this chassis",
     "Software: Longer Laser · LightBurn",
-    "6W on Longer Nano: engraving-first — photo fills and leather at moderate speeds",
+    "6W on Longer Nano: engraving-first : photo fills and leather at moderate speeds",
     "Reference engrave job on this module: ~18–28 min",
     "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
-    "This module targets thin cuts (about 4 mm basswood class) — not thick production plywood",
+    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
     "Higher modules in this line (12W) add cut speed and depth",
     "Not the SKU for a shop cutting 4 mm+ stock all day",
     "Open frame: kids, pets, and smoke are not contained"
@@ -109,7 +109,7 @@
   "images": [
     {
       "src": "/machines/longer-nano-6w/01.webp",
-      "alt": "Longer Nano 6W laser engraver — Longer"
+      "alt": "Longer Nano 6W laser engraver : Longer"
     }
   ],
   "tierEditorialOverride": false

@@ -5,8 +5,8 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "2025 flagship Sculpfun diode — 70W class on the S40/S70 large frame",
-  "tldr": "Sculpfun's S70 MAX pushes the S-series frame to ~70W optical class for shops that want maximum diode cutting depth without CO₂. Same oversized bed philosophy as S40 MAX — premium pricing and workshop space requirements apply.",
+  "tagline": "2025 flagship Sculpfun diode : 70W class on the S40/S70 large frame",
+  "tldr": "Sculpfun's S70 MAX pushes the S-series frame to ~70W optical class for shops that want maximum diode cutting depth without CO₂. Same oversized bed philosophy as S40 MAX : premium pricing and workshop space requirements apply.",
   "mainObjective": "Top-tier Sculpfun large-format cutting with maximum diode power",
   "bestFor": [
     "Heavy cutting",
@@ -77,12 +77,12 @@
     "Competes with Atomstack A70 on paper specs"
   ],
   "cons": [
-    "70W diode marketing — verify optical output",
+    "70W diode marketing : verify optical output",
     "Very large footprint and weight",
     "Premium over S40 MAX for moderate users",
     "Open-frame ventilation required"
   ],
-  "beginnerNotes": "Compare Atomstack A70 Max and Acmer P3 before buying — similar power class, different software and community.",
+  "beginnerNotes": "Compare Atomstack A70 Max and Acmer P3 before buying : similar power class, different software and community.",
   "proTips": "If you don't need 70W daily, S40 MAX at 48W often offers better value per watt.",
   "primaryUse": "2025 maximum-power Sculpfun for large-format cutting and high-throughput engraving.",
   "rating": {
@@ -103,19 +103,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s70-max-70w/01.webp",
-      "alt": "Sculpfun S70 MAX 70W laser engraver — Sculpfun"
+      "alt": "Sculpfun S70 MAX 70W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s70-max-70w/02.jpg",
-      "alt": "Sculpfun S70 MAX 70W laser engraver — Sculpfun"
+      "alt": "Sculpfun S70 MAX 70W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s70-max-70w/03.jpg",
-      "alt": "Sculpfun S70 MAX 70W laser engraver — Sculpfun"
+      "alt": "Sculpfun S70 MAX 70W laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s70-max-70w/04.jpg",
-      "alt": "Sculpfun S70 MAX 70W laser engraver — Sculpfun"
+      "alt": "Sculpfun S70 MAX 70W laser engraver : Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s70-max",

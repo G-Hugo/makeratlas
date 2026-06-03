@@ -1,10 +1,10 @@
 {
-  "tagline": "Kit DIY Mini Algolaser — la plus petite ligne modulaire de la marque",
-  "tldr": "Le Kit DIY Mini est la graveuse kit compacte — empreinte minimale, modules 5 W ou 10 W, pour petits objets de bureau et apprentissage sans l'encombrement d'un MK2 complet.",
+  "tagline": "Kit DIY Mini Algolaser : la plus petite ligne modulaire de la marque",
+  "tldr": "Le Kit DIY Mini est la graveuse kit compacte : empreinte minimale, modules 5 W ou 10 W, pour petits objets de bureau et apprentissage sans l'encombrement d'un MK2 complet.",
   "mainObjective": "Kit Algolaser ultra-compact pour petites gravures",
   "primaryUse": "Gravure en kit compact.",
   "beginnerNotes": "Préférez le Mini 10 W si découper du bois fin compte ; le 5 W est orienté gravure.",
-  "proTips": "Le Mini convient aux projets pour enfants sous supervision — la sécurité laser reste indispensable.",
+  "proTips": "Le Mini convient aux projets pour enfants sous supervision : la sécurité laser reste indispensable.",
   "bestFor": [
     "Peu de place sur le bureau",
     "Cadeaux",
@@ -45,9 +45,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AlgoLaser DIY Kit Mini — AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit Mini — AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit Mini — AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit Mini — AlgoLaser" }
+    { "alt": "Graveuse laser AlgoLaser DIY Kit Mini : AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser DIY Kit Mini : AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser DIY Kit Mini : AlgoLaser" },
+    { "alt": "Graveuse laser AlgoLaser DIY Kit Mini : AlgoLaser" }
   ]
 }

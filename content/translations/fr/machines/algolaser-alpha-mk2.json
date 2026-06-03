@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode haut de gamme à structure ouverte — vitesse et finesse de gravure",
+  "tagline": "Diode haut de gamme à structure ouverte : vitesse et finesse de gravure",
   "tldr": "Algolaser s'adresse aux makers qui veulent graver plus vite et contrôler finement le faisceau mieux qu'avec les diodes d'entrée de gamme. L'Alpha MK2 rivalise avec Sculpfun et xTool D1 Pro en performance. Prix au-dessus d'Ortur mais souvent en dessous de xTool selon la configuration.",
   "mainObjective": "Gravure rapide et fine à structure ouverte pour makers qui dépassent les diodes d'entrée de gamme",
   "primaryUse": "Diode à structure ouverte orientée performance pour gravure détaillée sur bois et cuir, avec vitesse au-dessus de la moyenne.",
-  "beginnerNotes": "Préférez l'Alpha MK2 à Ortur si la vitesse de gravure et la finesse comptent plus qu'économiser ~150 $. Passez votre chemin si vous voulez un boîtier — regardez l'Acmer P3 ou le xTool S1.",
-  "proTips": "Algolaser brille sur le tracé et les remplissages légers — poussez la vitesse sur les vecteurs après des essais. Exploitez le faisceau compressé pour la gravure photo sur bois enduit.",
+  "beginnerNotes": "Préférez l'Alpha MK2 à Ortur si la vitesse de gravure et la finesse comptent plus qu'économiser ~150 $. Passez votre chemin si vous voulez un boîtier : regardez l'Acmer P3 ou le xTool S1.",
+  "proTips": "Algolaser brille sur le tracé et les remplissages légers : poussez la vitesse sur les vecteurs après des essais. Exploitez le faisceau compressé pour la gravure photo sur bois enduit.",
   "bestFor": [
     "Gravure fine",
     "Loisir orienté vitesse",
@@ -19,7 +19,7 @@
     "Châssis rigide et solide"
   ],
   "cons": [
-    "Structure ouverte — lunettes de protection obligatoires",
+    "Structure ouverte : lunettes de protection obligatoires",
     "Puissance optique 40 W à vérifier sur votre unité",
     "Communauté plus petite qu'Ortur/xTool",
     "Prix élevé face à Ortur pour une puissance similaire",
@@ -57,9 +57,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Algolaser Alpha MK2 — Algolaser" },
-    { "alt": "Graveuse laser Algolaser Alpha MK2 — Algolaser" },
-    { "alt": "Graveuse laser Algolaser Alpha MK2 — Algolaser" },
-    { "alt": "Graveuse laser Algolaser Alpha MK2 — Algolaser" }
+    { "alt": "Graveuse laser Algolaser Alpha MK2 : Algolaser" },
+    { "alt": "Graveuse laser Algolaser Alpha MK2 : Algolaser" },
+    { "alt": "Graveuse laser Algolaser Alpha MK2 : Algolaser" },
+    { "alt": "Graveuse laser Algolaser Alpha MK2 : Algolaser" }
   ]
 }

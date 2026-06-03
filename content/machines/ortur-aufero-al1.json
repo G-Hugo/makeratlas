@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/ortur-aufero-al1/01.webp",
-  "tagline": "Compact portable Ortur — desk-friendly engraver for small gifts",
-  "tldr": "The Aufero AL1 is Ortur's compact diode line for small work areas and portable setups. Lower power than LM3 or H10, but easier to fit on a crowded desk. Best for light engraving — not a cutting workhorse.",
+  "tagline": "Compact portable Ortur : desk-friendly engraver for small gifts",
+  "tldr": "The Aufero AL1 is Ortur's compact diode line for small work areas and portable setups. Lower power than LM3 or H10, but easier to fit on a crowded desk. Best for light engraving : not a cutting workhorse.",
   "mainObjective": "Small-footprint Ortur for gift engraving & learning on a budget",
   "bestFor": [
     "Small gifts",
@@ -85,7 +85,7 @@
     "Open frame safety requirements"
   ],
   "beginnerNotes": "Good if you only engrave small items like keychains and tags. If you might outgrow it within months, save for Ortur LM3 instead.",
-  "proTips": "Use smaller benchmark jobs (5×5 cm) for photos on AL1 — 10×10 cm fills take noticeably longer at 5W.",
+  "proTips": "Use smaller benchmark jobs (5×5 cm) for photos on AL1 : 10×10 cm fills take noticeably longer at 5W.",
   "primaryUse": "Compact entry Ortur for small gift engraving and learning laser basics.",
   "rating": {
     "overall": 7.4,
@@ -104,19 +104,19 @@
   "images": [
     {
       "src": "/machines/ortur-aufero-al1/01.webp",
-      "alt": "Ortur Aufero AL1 laser engraver — Ortur"
+      "alt": "Ortur Aufero AL1 laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-aufero-al1/02.webp",
-      "alt": "Ortur Aufero AL1 laser engraver — Ortur"
+      "alt": "Ortur Aufero AL1 laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-aufero-al1/03.webp",
-      "alt": "Ortur Aufero AL1 laser engraver — Ortur"
+      "alt": "Ortur Aufero AL1 laser engraver : Ortur"
     },
     {
       "src": "/machines/ortur-aufero-al1/04.webp",
-      "alt": "Ortur Aufero AL1 laser engraver — Ortur"
+      "alt": "Ortur Aufero AL1 laser engraver : Ortur"
     }
   ],
   "powerRating": "5W"

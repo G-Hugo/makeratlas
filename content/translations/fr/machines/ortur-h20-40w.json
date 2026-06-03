@@ -1,10 +1,10 @@
 {
-  "tagline": "Haut de gamme Ortur H20 — diode compressée 40 W pour découpe sérieuse",
-  "tldr": "L’Ortur H20 40 W est le diode le plus puissant de la série H d’Ortur — compression multi-diodes pour des découpes plus profondes dans le bois et des remplissages plus rapides. Prix premium ; comparez au Longer B1 40 W et Atomstack A40 avant d’acheter.",
-  "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
+  "tagline": "Haut de gamme Ortur H20 : diode compressée 40 W pour découpe sérieuse",
+  "tldr": "L’Ortur H20 40 W est le diode le plus puissant de la série H d’Ortur : compression multi-diodes pour des découpes plus profondes dans le bois et des remplissages plus rapides. Prix premium ; comparez au Longer B1 40 W et Atomstack A40 avant d’acheter.",
+  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
   "primaryUse": "Plateforme Ortur haute puissance pour travail loisir ou side-business orienté découpe.",
   "beginnerNotes": "Ce profil décrit le module 40W de Ortur H20. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Testez les découpes sur chutes aux vitesses annoncées. Gardez l’objectif propre — la haute puissance carbonise vite les résidus.",
+  "proTips": "Testez les découpes sur chutes aux vitesses annoncées. Gardez l’objectif propre : la haute puissance carbonise vite les résidus.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -12,17 +12,17 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Haut de gamme Ortur H20 — diode compressée 40 W pour découpe sérieuse",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Haut de gamme Ortur H20 : diode compressée 40 W pour découpe sérieuse",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 410 × 275 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme — benchmark ~10 mm tilleul",
+    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
     "40W : tête la plus orientée découpe de Ortur H20",
     "Exemple gravure de référence sur ce module : ~12–18 min"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -55,16 +55,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Ortur H20 40W — Ortur"
+      "alt": "Graveuse laser Ortur H20 40W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur H20 40W — Ortur"
+      "alt": "Graveuse laser Ortur H20 40W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur H20 40W — Ortur"
+      "alt": "Graveuse laser Ortur H20 40W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur H20 40W — Ortur"
+      "alt": "Graveuse laser Ortur H20 40W : Ortur"
     }
   ]
 }

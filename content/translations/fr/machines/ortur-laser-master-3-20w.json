@@ -1,10 +1,10 @@
 {
-  "tagline": "Diode structure ouverte favori de la communauté — meilleur rapport qualité-prix LM3",
-  "tldr": "Le LM3 20 W est la configuration que la plupart des acheteurs visent en disant « Laser Master 3 ». Gravure solide, découpe légère, communauté immense — vérifiez que vous ne commandez pas le SKU 10 W par erreur.",
+  "tagline": "Diode structure ouverte favori de la communauté : meilleur rapport qualité-prix LM3",
+  "tldr": "Le LM3 20 W est la configuration que la plupart des acheteurs visent en disant « Laser Master 3 ». Gravure solide, découpe légère, communauté immense : vérifiez que vous ne commandez pas le SKU 10 W par erreur.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Introduction abordable à la gravure diode et découpe légère pour loisirs.",
   "beginnerNotes": "Ce profil décrit le module 20W de Ortur Laser Master 3. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Rejoignez les groupes Ortur Facebook/Reddit avant l’achat — les astuces firmware font gagner des heures. Ajoutez l’assistance air tôt. Si vous prévoyez de vendre sous 6 mois, envisagez directement le xTool D1 Pro ou un CO₂.",
+  "proTips": "Rejoignez les groupes Ortur Facebook/Reddit avant l’achat : les astuces firmware font gagner des heures. Ajoutez l’assistance air tôt. Si vous prévoyez de vendre sous 6 mois, envisagez directement le xTool D1 Pro ou un CO₂.",
   "bestFor": [
     "Gravure + découpe",
     "Side business",
@@ -12,16 +12,16 @@
     "Petites séries"
   ],
   "pros": [
-    "Diode structure ouverte favori de la communauté — meilleur rapport qualité-prix LM3",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Diode structure ouverte favori de la communauté : meilleur rapport qualité-prix LM3",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 400 × 400 mm (15.75 × 15.75 in) sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes",
     "Exemple gravure de référence sur ce module : ~10–15 min",
     "Exemple découpe de référence sur ce module : ~5–8 min"
   ],
   "cons": [
-    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Vérifiez le SKU 20W : même châssis, modules différents",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -46,7 +46,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module 20 W — SKU le plus courant"
+    "note": "Module 20 W : SKU le plus courant"
   },
   "specs": {
     "performance": {
@@ -60,16 +60,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Ortur Laser Master 3 20W — Ortur"
+      "alt": "Graveuse laser Ortur Laser Master 3 20W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur Laser Master 3 20W — Ortur"
+      "alt": "Graveuse laser Ortur Laser Master 3 20W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur Laser Master 3 20W — Ortur"
+      "alt": "Graveuse laser Ortur Laser Master 3 20W : Ortur"
     },
     {
-      "alt": "Graveuse laser Ortur Laser Master 3 20W — Ortur"
+      "alt": "Graveuse laser Ortur Laser Master 3 20W : Ortur"
     }
   ]
 }

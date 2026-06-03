@@ -11,7 +11,7 @@ import type { Machine } from "@/types/machine";
 
 type MachineLabels = Dictionary["machine"];
 
-/** Catalog card — USD list prices only (hidden on /fr). */
+/** Catalog card : USD list prices only (hidden on /fr). */
 export function CatalogCardPrice({
   entry,
   locale,
@@ -37,7 +37,7 @@ export function CatalogCardPrice({
   );
 }
 
-/** Detail sidebar — USD + approximate EUR, optional SKU note. */
+/** Detail sidebar : USD + approximate EUR, optional SKU note. */
 export function MachineDetailPrice({
   machine,
   locale,
@@ -96,7 +96,7 @@ export function MachineDetailPrice({
   );
 }
 
-/** Compare table cell — compact USD range. */
+/** Compare table cell : compact USD range. */
 export function ComparePriceCell({
   machine,
   locale,

@@ -1,10 +1,10 @@
 {
-  "tagline": "Laser diode 5 W ultra petit budget — point d’entrée minimum viable",
-  "tldr": "L’Atomstack A5 Pro 5 W est la référence 5 W de la gamme A5 Pro. L’un des moyens les moins chers d’essayer la gravure laser. Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing en watts cumulés.",
+  "tagline": "Laser diode 5 W ultra petit budget : point d’entrée minimum viable",
+  "tldr": "L’Atomstack A5 Pro 5 W est la référence 5 W de la gamme A5 Pro. L’un des moyens les moins chers d’essayer la gravure laser. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing en watts cumulés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
   "primaryUse": "Expérimentation au coût le plus bas avec gravure laser diode sur petits projets bois et cuir.",
   "beginnerNotes": "Ce profil décrit le module 5W de Atomstack A5 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Équarez le châssis avant la première utilisation. Remplacez la carte d’origine si vous touchez les limites du firmware. Ne comptez pas sur le « 40 W » pour planifier une activité — testez vous-même la profondeur de découpe sur votre unité.",
+  "proTips": "Équarez le châssis avant la première utilisation. Remplacez la carte d’origine si vous touchez les limites du firmware. Ne comptez pas sur le « 40 W » pour planifier une activité : testez vous-même la profondeur de découpe sur votre unité.",
   "bestFor": [
     "Gravure fine",
     "Photo & logo",
@@ -12,16 +12,16 @@
     "Première machine"
   ],
   "pros": [
-    "Laser diode 5 W ultra petit budget — point d’entrée minimum viable",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Laser diode 5 W ultra petit budget : point d’entrée minimum viable",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 410 × 400 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "5W sur Atomstack A5 Pro : priorité gravure — remplissages photo et cuir",
+    "5W sur Atomstack A5 Pro : priorité gravure : remplissages photo et cuir",
     "Exemple gravure de référence sur ce module : ~28–43 min",
     "Exemple découpe de référence sur ce module : ~14–24 min"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 3 mm de tilleul) — pas la production épaisse",
+    "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (10W ou 20W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
@@ -46,7 +46,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 5 W — vérifiez la référence avant achat"
+    "note": "Module optique 5 W : vérifiez la référence avant achat"
   },
   "specs": {
     "performance": {
@@ -60,16 +60,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Atomstack A5 Pro 5 W — Atomstack"
+      "alt": "Graveuse laser Atomstack A5 Pro 5 W : Atomstack"
     },
     {
-      "alt": "Graveuse laser Atomstack A5 Pro 5 W — Atomstack"
+      "alt": "Graveuse laser Atomstack A5 Pro 5 W : Atomstack"
     },
     {
-      "alt": "Graveuse laser Atomstack A5 Pro 5 W — Atomstack"
+      "alt": "Graveuse laser Atomstack A5 Pro 5 W : Atomstack"
     },
     {
-      "alt": "Graveuse laser Atomstack A5 Pro 5 W — Atomstack"
+      "alt": "Graveuse laser Atomstack A5 Pro 5 W : Atomstack"
     }
   ]
 }

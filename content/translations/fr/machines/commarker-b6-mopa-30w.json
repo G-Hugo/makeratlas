@@ -4,7 +4,7 @@
   "mainObjective": "Marquage fibre MOPA avec couleur sur inox et travail métal en production",
   "primaryUse": "Marquage métal professionnel avec effets couleur optionnels pour une personnalisation premium.",
   "beginnerNotes": "Choisissez la B6 plutôt que la B4 si vous vendez des produits métal couleur ou avez besoin de temps de cycle plus courts sur l'acier.",
-  "proTips": "Fabriquez des gabarits de fixation pour les jobs répétitifs. Gardez l'objectif propre — la contamination se voit sur les marquages à fort contraste.",
+  "proTips": "Fabriquez des gabarits de fixation pour les jobs répétitifs. Gardez l'objectif propre : la contamination se voit sur les marquages à fort contraste.",
   "bestFor": [
     "Marquage métal couleur",
     "Marquage en production",
@@ -19,7 +19,7 @@
   ],
   "cons": [
     "Nettement plus chère que la B4",
-    "Toujours une machine de marquage — pas une découpeuse d'atelier",
+    "Toujours une machine de marquage : pas une découpeuse d'atelier",
     "Courbe d'apprentissage logicielle (EZCAD/LightBurn)",
     "Résultats couleur dépendants du lot de matériau"
   ],
@@ -44,14 +44,14 @@
         "description": "Logo rempli sur plaque en acier inoxydable"
       },
       "cutExample": {
-        "description": "Découpe laser — machine de marquage uniquement"
+        "description": "Découpe laser : machine de marquage uniquement"
       }
     }
   },
   "images": [
-    { "alt": "Graveuse laser ComMarker B6 MOPA 30W — ComMarker" },
-    { "alt": "Graveuse laser ComMarker B6 MOPA 30W — ComMarker" },
-    { "alt": "Graveuse laser ComMarker B6 MOPA 30W — ComMarker" },
-    { "alt": "Graveuse laser ComMarker B6 MOPA 30W — ComMarker" }
+    { "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker" },
+    { "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker" },
+    { "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker" },
+    { "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker" }
   ]
 }

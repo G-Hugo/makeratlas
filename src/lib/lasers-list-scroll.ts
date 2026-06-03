@@ -1,4 +1,4 @@
-/** Persist catalog list position when opening a machine — restore on browser back. */
+/** Persist catalog list position when opening a machine : restore on browser back. */
 
 export type LasersListScrollState = {
   slug: string;

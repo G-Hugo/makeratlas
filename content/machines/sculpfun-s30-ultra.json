@@ -5,7 +5,7 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Strong cutting performance for a diode — popular upgrade from entry-level machines",
+  "tagline": "Strong cutting performance for a diode : popular upgrade from entry-level machines",
   "tldr": "Sculpfun's flagship open-frame diode with up to 20W and a robust frame. Known for better-than-average cutting on thin wood thanks to beam compression. A common pick for makers who want more power without CO₂ prices.",
   "bestFor": [
     "Cutting thin wood",
@@ -77,14 +77,14 @@
     "Active user base with tested settings"
   ],
   "cons": [
-    "Open frame — full safety responsibility on you",
+    "Open frame : full safety responsibility on you",
     "USB-only on many configs (no Wi-Fi)",
     "Support and documentation less polished than xTool",
-    "Still a diode — manage expectations vs. CO₂",
+    "Still a diode : manage expectations vs. CO₂",
     "Assembly and squaring require patience"
   ],
   "beginnerNotes": "Choose the S30 Ultra over basic Ortur if cutting thin wood matters to you. For engraving-only projects, save money with a 10W model. Budget for air assist, honeycomb bed, and safety glasses.",
-  "proTips": "Sculpfun publishes material test cards — use them. Multiple slow passes beat one fast pass for cut quality. Extension kits are useful but check frame rigidity before going oversized.",
+  "proTips": "Sculpfun publishes material test cards : use them. Multiple slow passes beat one fast pass for cut quality. Extension kits are useful but check frame rigidity before going oversized.",
   "primaryUse": "Mid-range hobby diode laser focused on engraving and moderate cutting of organic materials.",
   "rating": {
     "overall": 8.4,
@@ -105,19 +105,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s30-ultra/01.webp",
-      "alt": "Sculpfun S30 Ultra laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Ultra laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-ultra/02.jpg",
-      "alt": "Sculpfun S30 Ultra laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Ultra laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-ultra/03.jpg",
-      "alt": "Sculpfun S30 Ultra laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Ultra laser engraver : Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-ultra/04.jpg",
-      "alt": "Sculpfun S30 Ultra laser engraver — Sculpfun"
+      "alt": "Sculpfun S30 Ultra laser engraver : Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s30-ultra",

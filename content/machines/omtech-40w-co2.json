@@ -5,7 +5,7 @@
   "brand": "OMTech",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "The classic budget CO₂ — powerful but expects you to tinker",
+  "tagline": "The classic budget CO₂ : powerful but expects you to tinker",
   "tldr": "The modern evolution of the famous K40. Real CO₂ cutting power at the lowest CO₂ price point. Excellent value if you enjoy upgrading and fixing things. Wrong choice if you want plug-and-play out of the box.",
   "bestFor": [
     "Tinkerers",
@@ -82,11 +82,11 @@
     "Stock exhaust, bed, and controller often need upgrades",
     "Small work area",
     "Safety and ventilation are your responsibility",
-    "Quality control varies — some units need alignment work",
-    "Not enclosed on most models — louder and smokier"
+    "Quality control varies : some units need alignment work",
+    "Not enclosed on most models : louder and smokier"
   ],
   "beginnerNotes": "Do not buy a K40-class machine if you want to unbox and go. Budget an extra $100–200 for exhaust hose, air assist, and possibly a controller upgrade. Watch a full setup video before ordering.",
-  "proTips": "Install LightBurn and a Mini Gerbil or similar board if you outgrow stock software. Replace the stock exhaust fan immediately. Keep a fire extinguisher nearby — CO₂ cuts combustible materials.",
+  "proTips": "Install LightBurn and a Mini Gerbil or similar board if you outgrow stock software. Replace the stock exhaust fan immediately. Keep a fire extinguisher nearby : CO₂ cuts combustible materials.",
   "primaryUse": "Budget CO₂ laser cutting and engraving for makers willing to modify and maintain their machine.",
   "rating": {
     "overall": 8,
@@ -106,19 +106,19 @@
   "images": [
     {
       "src": "/machines/omtech-40w-co2/01.webp",
-      "alt": "OMTech 40W CO₂ (K40 class) laser engraver — OMTech"
+      "alt": "OMTech 40W CO₂ (K40 class) laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-40w-co2/02.jpg",
-      "alt": "OMTech 40W CO₂ (K40 class) laser engraver — OMTech"
+      "alt": "OMTech 40W CO₂ (K40 class) laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-40w-co2/03.jpg",
-      "alt": "OMTech 40W CO₂ (K40 class) laser engraver — OMTech"
+      "alt": "OMTech 40W CO₂ (K40 class) laser engraver : OMTech"
     },
     {
       "src": "/machines/omtech-40w-co2/04.jpg",
-      "alt": "OMTech 40W CO₂ (K40 class) laser engraver — OMTech"
+      "alt": "OMTech 40W CO₂ (K40 class) laser engraver : OMTech"
     }
   ],
   "powerRating": "40W",

@@ -5,8 +5,8 @@
   "brand": "FoxAlien",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "FoxAlien Reizer 40W — high-power open-frame from the CNC brand",
-  "tldr": "FoxAlien Reizer 40W is the flagship diode in FoxAlien's laser line — 40W class cutting for makers already in the FoxAlien CNC ecosystem. Verify optical power; compare to Atomstack A40 and Ortur H20 40W.",
+  "tagline": "FoxAlien Reizer 40W : high-power open-frame from the CNC brand",
+  "tldr": "FoxAlien Reizer 40W is the flagship diode in FoxAlien's laser line : 40W class cutting for makers already in the FoxAlien CNC ecosystem. Verify optical power; compare to Atomstack A40 and Ortur H20 40W.",
   "mainObjective": "40W FoxAlien open-frame for cutting-focused hobby or side business",
   "bestFor": [
     "FoxAlien CNC owners",
@@ -71,11 +71,11 @@
   ],
   "cons": [
     "Smaller laser community than Ortur/Sculpfun",
-    "Watt marketing — verify",
+    "Watt marketing : verify",
     "Open frame"
   ],
   "beginnerNotes": "Strong if you already own FoxAlien CNC and trust the brand.",
-  "proTips": "Compare LE-4040 Pro 20W if 40W is overkill — same brand, lower cost.",
+  "proTips": "Compare LE-4040 Pro 20W if 40W is overkill : same brand, lower cost.",
   "primaryUse": "High-power FoxAlien laser for cutting and fast engraving.",
   "rating": {
     "overall": 8,
@@ -99,11 +99,11 @@
   "images": [
     {
       "src": "/machines/foxaliens-reizer-40w/01.webp",
-      "alt": "FoxAlien Reizer 40W laser engraver — FoxAlien"
+      "alt": "FoxAlien Reizer 40W laser engraver : FoxAlien"
     },
     {
       "src": "/machines/foxaliens-reizer-40w/02.jpg",
-      "alt": "FoxAlien Reizer 40W laser engraver — FoxAlien"
+      "alt": "FoxAlien Reizer 40W laser engraver : FoxAlien"
     }
   ]
 }

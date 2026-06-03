@@ -1,10 +1,10 @@
 {
-  "tagline": "Flagship S30 Ultra actuel — puissance diode Sculpfun maximale",
+  "tagline": "Flagship S30 Ultra actuel : puissance diode Sculpfun maximale",
   "tldr": "Le S30 Ultra 22 W est ce que Sculpfun vend aujourd’hui comme config Ultra structure ouverte haut de gamme (souvent avec LightBurn). Meilleure marge de découpe de la famille ; ne le confondez pas avec les anciennes annonces 10 W ou 20 W.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Diode loisir milieu de gamme orientée gravure et découpe modérée de matériaux organiques.",
   "beginnerNotes": "Ce profil décrit le module 22W de Sculpfun S30 Ultra. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Sculpfun publie des cartes de test matériaux — servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
+  "proTips": "Sculpfun publie des cartes de test matériaux : servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
   "bestFor": [
     "Découpe plus rapide",
     "Bois plus épais",
@@ -12,17 +12,17 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "haut de gamme S30 Ultra actuel — puissance diode Sculpfun maximale",
-    "Open-frame — lunettes laser et ventilation à votre charge",
+    "haut de gamme S30 Ultra actuel : puissance diode Sculpfun maximale",
+    "Open-frame : lunettes laser et ventilation à votre charge",
     "Surface utile 410 × 400 mm sur ce châssis",
     "Logiciels : LightBurn · LaserGRBL",
-    "Meilleure marge de découpe de la gamme — benchmark ~8 mm tilleul",
+    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
     "22W : tête la plus orientée découpe de Sculpfun S30 Ultra",
     "Exemple gravure de référence sur ce module : ~7–11 min"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -47,7 +47,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module 22 W — offre LightBurn courante"
+    "note": "Module 22 W : offre LightBurn courante"
   },
   "specs": {
     "performance": {
@@ -61,16 +61,16 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Sculpfun S30 Ultra 22W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun S30 Ultra 22W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun S30 Ultra 22W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun S30 Ultra 22W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun S30 Ultra 22W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun S30 Ultra 22W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun S30 Ultra 22W — Sculpfun"
+      "alt": "Graveuse laser Sculpfun S30 Ultra 22W : Sculpfun"
     }
   ]
 }

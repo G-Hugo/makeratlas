@@ -12,7 +12,7 @@ export interface ModuleSystemOption {
   tierSlug?: string;
 }
 
-/** Explains swappable heads vs hybrid dual-source — shown on detail pages */
+/** Explains swappable heads vs hybrid dual-source : shown on detail pages */
 export interface ModuleSystem {
   style: ModuleSystemStyle;
   headline: string;
@@ -31,14 +31,14 @@ export interface PriceRange {
   note?: string;
 }
 
-/** Plain-language job example — easy to understand */
+/** Plain-language job example : easy to understand */
 export interface JobExample {
   description: string;
   size: string;
   time: string;
 }
 
-/** Pro-level speed & beam specs — shown in technical section only */
+/** Pro-level speed & beam specs : shown in technical section only */
 export interface MachineTechnical {
   spotSize: string;
   maxSpeed: string;
@@ -47,7 +47,7 @@ export interface MachineTechnical {
 }
 
 export interface MachinePerformance {
-  /** Repositioning accuracy — shown prominently */
+  /** Repositioning accuracy : shown prominently */
   precision: string;
   /** Real-world engrave job example */
   engraveExample: JobExample;
@@ -86,7 +86,7 @@ export interface MachineFaq {
   answer: string;
 }
 
-/** Buyer-facing highlight — manual JSON or auto-detected on detail pages */
+/** Buyer-facing highlight : manual JSON or auto-detected on detail pages */
 export interface MachineStandoutFeature {
   id: string;
   title: string;
@@ -103,7 +103,7 @@ export interface MachineEditorialDepth {
 export type AccessoryAvailability = "included" | "optional" | "recommended" | "not_applicable";
 
 export interface MachineAccessory {
-  /** Stable id — labels live in i18n (`accessories.items.*`). */
+  /** Stable id : labels live in i18n (`accessories.items.*`). */
   id: string;
   availability: AccessoryAvailability;
   /** Machine-specific detail (English in JSON; FR via translation overlay). */
@@ -127,18 +127,18 @@ export interface Machine {
   powerRating?: string;
   /** Shown in /lasers grid as the family card (flagship SKU) */
   catalogPrimary?: boolean;
-  /** Detail page only — omit from browse grid (e.g. generic family slug) */
+  /** Detail page only : omit from browse grid (e.g. generic family slug) */
   catalogHidden?: boolean;
   /** Swappable laser heads or dual-source layout (see ModuleSystemNotice on detail page) */
   moduleSystem?: ModuleSystem;
-  /** Laser types this machine can use — for hybrid / multi-source browse filters */
+  /** Laser types this machine can use : for hybrid / multi-source browse filters */
   laserCapabilities?: LaserType[];
   /** Short tags for card labels, e.g. diode + fiber or diode + blade */
   capabilityTags?: Array<LaserType | "blade" | "infrared">;
   brand: string;
   category: MachineCategory;
   laserType: LaserType;
-  /** Primary thumbnail — first gallery image */
+  /** Primary thumbnail : first gallery image */
   image: string;
   /** Multiple product photos for detail page */
   images?: MachinePhoto[];
@@ -168,7 +168,7 @@ export interface Machine {
   affiliateUrl?: string;
   status: ContentStatus;
   lastUpdated: string;
-  /** First retail availability — YYYY-MM or YYYY-MM-DD */
+  /** First retail availability : YYYY-MM or YYYY-MM-DD */
   releaseDate?: string;
 }
 

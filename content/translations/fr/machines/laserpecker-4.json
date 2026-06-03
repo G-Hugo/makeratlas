@@ -1,10 +1,10 @@
 {
   "tagline": "Laser ultra-portable pour gravure nomade et petits cadeaux",
-  "tldr": "Diode compacte et pliable conçue pour la mobilité — marchés, événements et cadeaux de bureau. Double source laser sur le modèle Pro. Pas une machine d’atelier, mais imbattable pour glisser dans un sac et graver sur place.",
+  "tldr": "Diode compacte et pliable conçue pour la mobilité : marchés, événements et cadeaux de bureau. Double source laser sur le modèle Pro. Pas une machine d’atelier, mais imbattable pour glisser dans un sac et graver sur place.",
   "mainObjective": "Gravure nomade sur place pour événements et petits objets",
   "primaryUse": "Gravure nomade sur place de petits objets lors d’événements, pour des cadeaux et des projets personnels en voyage.",
   "beginnerNotes": "Achetez LaserPecker comme deuxième machine pour la portabilité, pas comme unique laser. Pour un atelier à domicile, préférez Ortur ou xTool D1 Pro.",
-  "proTips": "Utilisez l’extension coulissante pour les objets longs. La batterie (si disponible) est indispensable pour les marchés. Testez vos designs sur des échantillons — un échec sur place est embarrassant.",
+  "proTips": "Utilisez l’extension coulissante pour les objets longs. La batterie (si disponible) est indispensable pour les marchés. Testez vos designs sur des échantillons : un échec sur place est embarrassant.",
   "bestFor": [
     "Gravure portable",
     "Événements et marchés",
@@ -12,7 +12,7 @@
     "Voyage"
   ],
   "pros": [
-    "Extrêmement portable — tient vraiment dans un sac à dos",
+    "Extrêmement portable : tient vraiment dans un sac à dos",
     "Mise en route rapide pour la personnalisation sur site",
     "Le modèle Pro à double source élargit la gamme de matériaux",
     "Workflow via app accessible aux débutants",
@@ -51,7 +51,7 @@
     },
     {
       "question": "Fonctionne-t-il sur le métal ?",
-      "answer": "Le modèle Pro peut marquer certains métaux avec des limites. Ce n’est pas un laser fibre — attendez-vous à des marques plus légères que sur des machines métal dédiées comme xTool F1 Ultra."
+      "answer": "Le modèle Pro peut marquer certains métaux avec des limites. Ce n’est pas un laser fibre : attendez-vous à des marques plus légères que sur des machines métal dédiées comme xTool F1 Ultra."
     }
   ],
   "priceRange": {
@@ -68,9 +68,9 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser LaserPecker 4 — LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 4 — LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 4 — LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 4 — LaserPecker" }
+    { "alt": "Graveuse laser LaserPecker 4 : LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker 4 : LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker 4 : LaserPecker" },
+    { "alt": "Graveuse laser LaserPecker 4 : LaserPecker" }
   ]
 }

@@ -1,4 +1,5 @@
 import type { Locale } from "@/i18n/config";
+import { noEmDash } from "@/lib/copy-style";
 import { getMachineStandoutFeatures } from "@/lib/machine-standout-features";
 import { machineIsEnclosed } from "@/lib/machine-accessories";
 import type { Machine, MachineEditorialDepth } from "@/types/machine";
@@ -73,8 +74,8 @@ function buildLimitations(
   if (machine.laserType === "co2") {
     parts.push(
       locale === "fr"
-        ? "Un CO₂ demande une vraie stratégie d’évacuation (souvent vers l’extérieur) et l’entretien du tube — ce n’est pas un appareil « brancher et oublier » comme une petite diode."
-        : "CO₂ needs a real exhaust strategy (often outdoors) and tube maintenance — not a plug-and-forget appliance like a small diode.",
+        ? "Un CO₂ demande une vraie stratégie d’évacuation (souvent vers l’extérieur) et l’entretien du tube : ce n’est pas un appareil « brancher et oublier » comme une petite diode."
+        : "CO₂ needs a real exhaust strategy (often outdoors) and tube maintenance : not a plug-and-forget appliance like a small diode.",
     );
   }
 
@@ -97,7 +98,10 @@ export function getMachineEditorialDepth(
   editorial: EditorialSlice,
 ): MachineEditorialDepth | null {
   if (machine.editorialDepth?.advantages?.trim() && machine.editorialDepth?.limitations?.trim()) {
-    return machine.editorialDepth;
+    return {
+      advantages: noEmDash(machine.editorialDepth.advantages),
+      limitations: noEmDash(machine.editorialDepth.limitations),
+    };
   }
 
   const advantages = buildAdvantages(machine, editorial, locale);
@@ -106,7 +110,7 @@ export function getMachineEditorialDepth(
   if (!advantages.trim() && !limitations.trim()) return null;
 
   return {
-    advantages: advantages.trim(),
-    limitations: limitations.trim(),
+    advantages: noEmDash(advantages.trim()),
+    limitations: noEmDash(limitations.trim()),
   };
 }

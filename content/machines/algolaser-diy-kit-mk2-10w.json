@@ -5,8 +5,8 @@
   "brand": "AlgoLaser",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "10W enclosed DIY Kit MK2 — common AlgoLaser starter SKU",
-  "tldr": "AlgoLaser DIY Kit MK2 10W is the popular enclosed 10W configuration — assembly required but more contained than open-frame competitors at similar price.",
+  "tagline": "10W enclosed DIY Kit MK2 : common AlgoLaser starter SKU",
+  "tldr": "AlgoLaser DIY Kit MK2 10W is the popular enclosed 10W configuration : assembly required but more contained than open-frame competitors at similar price.",
   "mainObjective": "Enclosed 10W AlgoLaser for hobby engraving",
   "bestFor": [
     "First enclosed diode",
@@ -75,7 +75,7 @@
     "Alpha MK2 20W+ more headroom"
   ],
   "beginnerNotes": "Budget extra time for assembly and squaring the frame.",
-  "proTips": "Extended bed kits exist — confirm compatibility with your exact MK2 revision.",
+  "proTips": "Extended bed kits exist : confirm compatibility with your exact MK2 revision.",
   "primaryUse": "Enclosed hobby engraving with light cutting.",
   "rating": {
     "overall": 7.8,
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/algolaser-diy-kit-mk2-10w/01.webp",
-      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver : AlgoLaser"
     },
     {
       "src": "/machines/algolaser-diy-kit-mk2-10w/02.jpg",
-      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver : AlgoLaser"
     },
     {
       "src": "/machines/algolaser-diy-kit-mk2-10w/03.jpg",
-      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver : AlgoLaser"
     },
     {
       "src": "/machines/algolaser-diy-kit-mk2-10w/04.jpg",
-      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver — AlgoLaser"
+      "alt": "AlgoLaser DIY Kit MK2 10W laser engraver : AlgoLaser"
     }
   ]
 }
