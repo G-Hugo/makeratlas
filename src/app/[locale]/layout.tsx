@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     default: "Maker Atlas",
     template: "%s | Maker Atlas",
   },
+  verification: {
+    google: "uksQHNMSTyKQkNtn8ujAtAoeyoXuloJ_1qqR6BTZP8U",
+  },
 };
 
 export function generateStaticParams() {
