@@ -65,7 +65,7 @@ function mentions(machine: Machine, ...patterns: RegExp[]): boolean {
   return patterns.some((p) => p.test(text));
 }
 
-function isEnclosed(machine: Machine): boolean {
+export function machineIsEnclosed(machine: Machine): boolean {
   if (
     mentions(
       machine,
@@ -87,7 +87,7 @@ function isEnclosed(machine: Machine): boolean {
   );
 }
 
-function hasCamera(machine: Machine): boolean {
+export function machineHasCamera(machine: Machine): boolean {
   return mentions(machine, /\bcamera\b/, /\bvision\b/, /\bpreview\b/);
 }
 
@@ -142,13 +142,13 @@ function hasRotaryOption(machine: Machine): boolean {
 function hasExtensionRail(machine: Machine): boolean {
   return (
     machine.laserType === "diode" &&
-    !isEnclosed(machine) &&
+    !machineIsEnclosed(machine) &&
     mentions(machine, /\bextension\b/, /\brail\b/, /\bpass-?through\b/)
   );
 }
 
 function inferAccessories(machine: Machine): MachineAccessory[] {
-  const enclosed = isEnclosed(machine);
+  const enclosed = machineIsEnclosed(machine);
   const type = machine.laserType;
   const list: MachineAccessory[] = [];
 
@@ -214,7 +214,7 @@ function inferAccessories(machine: Machine): MachineAccessory[] {
     push("honeycomb-bed", "not_applicable");
   }
 
-  if (hasCamera(machine)) {
+  if (machineHasCamera(machine)) {
     push("camera", "included");
   } else if (enclosed || type === "co2") {
     push("camera", "optional", "Often sold as alignment / batch accessory");

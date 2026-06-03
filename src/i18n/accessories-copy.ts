@@ -4,6 +4,7 @@ import type { AccessoryCategory } from "@/lib/machine-accessories";
 export type AccessoriesCopy = {
   title: string;
   subtitle: string;
+  tabsAriaLabel: string;
   footnote: string;
   ventilationGuide: string;
   safetyGuide: string;
@@ -22,8 +23,8 @@ const item = (name: string, description: string) => ({ name, description });
 
 export const accessoriesEn: AccessoriesCopy = {
   title: "Accessories & add-ons",
-  subtitle:
-    "What is typically included, sold separately, or worth budgeting for with this profile. Bundles vary by retailer — confirm your SKU.",
+  subtitle: "Typical inclusions and add-ons for this profile — confirm your SKU.",
+  tabsAriaLabel: "Accessory categories",
   footnote: "Editorial guidance — not a live parts list. See also:",
   ventilationGuide: "Ventilation setup",
   safetyGuide: "Safety basics",
@@ -102,8 +103,8 @@ export const accessoriesEn: AccessoriesCopy = {
 
 export const accessoriesFr: AccessoriesCopy = {
   title: "Accessoires et options",
-  subtitle:
-    "Ce qui est en général inclus, vendu à part ou à prévoir dans le budget pour cette fiche. Les bundles varient selon le revendeur — vérifiez votre SKU.",
+  subtitle: "Inclus / options courantes pour ce profil — vérifiez votre référence.",
+  tabsAriaLabel: "Catégories d’accessoires",
   footnote: "Repères éditoriaux — pas une liste stock en temps réel. Voir aussi :",
   ventilationGuide: "Guide ventilation",
   safetyGuide: "Bases sécurité",

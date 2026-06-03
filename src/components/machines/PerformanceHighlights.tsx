@@ -8,7 +8,7 @@ interface PerformanceHighlightsProps {
   mainObjective: string;
   primaryUse?: string;
   labels: MachineLabels;
-  variant?: "hero" | "compact";
+  variant?: "hero" | "summary" | "compact";
 }
 
 export function PerformanceHighlights({
@@ -19,6 +19,53 @@ export function PerformanceHighlights({
   variant = "hero",
 }: PerformanceHighlightsProps) {
   const spotLabel = performance.technical.spotSize || performance.precision;
+
+  if (variant === "summary") {
+    return (
+      <section className="rounded-xl border border-stone-200 bg-stone-50/80 p-4 dark:border-stone-700 dark:bg-stone-900/60 sm:p-5">
+        <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">
+          {labels.performanceWhatFor}
+        </h2>
+        <p className="mt-2 text-base font-medium leading-snug text-stone-900 dark:text-stone-100">
+          {mainObjective}
+        </p>
+        {primaryUse?.trim() && primaryUse.trim() !== mainObjective.trim() && (
+          <p className="mt-1.5 text-sm text-stone-600 dark:text-stone-400">{primaryUse}</p>
+        )}
+        <div className="mt-4 grid gap-2 sm:grid-cols-3">
+          <div className="rounded-md border border-amber-200 bg-amber-50/80 px-3 py-2 dark:border-amber-900 dark:bg-amber-950/40">
+            <p className="text-[11px] font-medium uppercase tracking-wide text-amber-800 dark:text-amber-300">
+              {labels.spotSize}
+            </p>
+            <p className="mt-0.5 text-sm font-bold text-stone-900 dark:text-stone-100">
+              {spotLabel}
+            </p>
+            <p className="text-[11px] text-stone-500 dark:text-stone-400">
+              {labels.motionPrecision}: {performance.precision}
+            </p>
+          </div>
+          <JobExampleBlock
+            example={performance.engraveExample}
+            kind="engrave"
+            labels={labels}
+            compact
+          />
+          <JobExampleBlock
+            example={performance.cutExample}
+            kind="cut"
+            labels={labels}
+            compact
+          />
+        </div>
+        <p className="mt-3 text-xs text-stone-500 dark:text-stone-400">
+          <span className="font-medium text-stone-600 dark:text-stone-300">
+            {labels.performanceBenchmark}:
+          </span>{" "}
+          {labels.performanceBenchmarkBody} {labels.performanceDisclaimer}
+        </p>
+      </section>
+    );
+  }
 
   if (variant === "compact") {
     return (

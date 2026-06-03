@@ -17,10 +17,11 @@ export const siteLegal = {
   postalAddress:
     process.env.NEXT_PUBLIC_LEGAL_ADDRESS ??
     "[Adresse postale à compléter via les variables d'environnement]",
-  hostName: process.env.NEXT_PUBLIC_LEGAL_HOST ?? "Vercel Inc.",
+  hostName:
+    process.env.NEXT_PUBLIC_LEGAL_HOST ?? "Hostinger International Ltd.",
   hostAddress:
     process.env.NEXT_PUBLIC_LEGAL_HOST_ADDRESS ??
-    "440 N Barranca Ave #4133, Covina, CA 91723, États-Unis",
+    "61 Lordou Vironos Street, 6023 Larnaca, Chypre",
   /** ISO date string for legal page “last updated” */
   policyLastUpdated: "2025-06-02",
 } as const;

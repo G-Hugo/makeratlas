@@ -4,9 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { RatingDisplay } from "@/components/machines/RatingDisplay";
 import { MachineGallery } from "@/components/machines/MachineGallery";
-import {
-  PerformanceHighlights,
-} from "@/components/machines/PerformanceHighlights";
+import { PerformanceHighlights } from "@/components/machines/PerformanceHighlights";
 import { MachineQuickSpecs, MachineTechnicalSpecs } from "@/components/machines/MachineSpecsPanel";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import type { Dictionary } from "@/i18n/dictionaries/types";
@@ -15,8 +13,13 @@ import { localizedPath } from "@/i18n/navigation";
 import { laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import { getCatalogDisplayName, formatMachinePowerBubble } from "@/lib/catalog-display";
 import { formatMachineLaserLabel } from "@/lib/laser-capabilities";
-import { getPrimaryImage, getMachinePhotos } from "@/lib/machine-images";
+import { getMachinePhotos } from "@/lib/machine-images";
 import { MachineAccessoriesPanel } from "@/components/machines/MachineAccessoriesPanel";
+import { MachineMaterialsPanel } from "@/components/machines/MachineMaterialsPanel";
+import { MachineStandoutFeatures } from "@/components/machines/MachineStandoutFeatures";
+import { MachineVerdictPanel } from "@/components/machines/MachineVerdictPanel";
+import { getMachineEditorialDepth } from "@/lib/machine-editorial-depth";
+import { getMachineStandoutFeatures } from "@/lib/machine-standout-features";
 import { ModuleSystemNotice } from "@/components/machines/ModuleSystemNotice";
 import { PowerTierNav } from "@/components/machines/PowerTierNav";
 import { ContentFreshness } from "@/components/content/ContentFreshness";
@@ -30,7 +33,6 @@ interface MachineDetailViewProps {
   dict: Dictionary;
   initialSlug: string;
   tiers: Machine[];
-  /** Same URL as the catalog card hero for this product line. */
   cardHeroSrc: string;
   similarBySlug: Record<string, Machine[]>;
   hasTranslationBySlug: Record<string, boolean>;
@@ -89,6 +91,16 @@ export function MachineDetailView({
     !hasTranslationBySlug[machine.slug] &&
     Boolean(m.contentNotice);
 
+  const standoutFeatures = useMemo(
+    () => getMachineStandoutFeatures(machine, locale),
+    [machine, locale],
+  );
+
+  const editorialDepth = useMemo(
+    () => getMachineEditorialDepth(machine, locale, editorial),
+    [machine, locale, editorial],
+  );
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
       <nav className="mb-6 text-sm text-stone-500 dark:text-stone-300">
@@ -107,49 +119,50 @@ export function MachineDetailView({
         <span className="text-stone-800 dark:text-stone-200">{displayTitle}</span>
       </nav>
 
-      <div className="grid gap-10 lg:grid-cols-3">
-        <div className="lg:col-span-2">
+      <div className="grid gap-10 lg:grid-cols-3 lg:items-start">
+        <div className="min-w-0 space-y-8 lg:col-span-2">
           <MachineGallery
             key={machine.slug}
             machineKey={machine.slug}
             photos={photos}
             name={machine.name}
+            layout="detail"
           />
 
-          <p className="mt-6 text-sm font-medium uppercase tracking-wide text-amber-700">
-            {machine.brand} · {formatMachineLaserLabel(machine, locale)}
-          </p>
-          <h1 className="mt-2 text-3xl font-bold text-stone-900 dark:text-stone-100 sm:text-4xl">
-            {displayTitle}
-          </h1>
-          <p className="mt-2 text-lg text-stone-600 dark:text-stone-300">{machine.tagline}</p>
-          <ContentFreshness
-            lastUpdated={machine.lastUpdated}
-            locale={locale}
-            dict={dict.freshness}
-            className="mt-3"
-          />
-          {showContentNotice && (
-            <p className="mt-3 rounded-lg border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-950 px-4 py-3 text-sm text-stone-600 dark:text-stone-300">
-              {m.contentNotice}
+          <div>
+            <p className="text-sm font-medium uppercase tracking-wide text-amber-700 dark:text-amber-400">
+              {machine.brand} · {formatMachineLaserLabel(machine, locale)}
             </p>
-          )}
-          {machine.releaseDate && (
-            <p className="mt-2 text-sm text-stone-500 dark:text-stone-300">
-              {m.released} {formatReleaseDate(machine.releaseDate, locale)}
-            </p>
-          )}
+            <h1 className="mt-2 text-3xl font-bold text-stone-900 dark:text-stone-100 sm:text-4xl">
+              {displayTitle}
+            </h1>
+            <p className="mt-2 text-lg text-stone-600 dark:text-stone-300">{machine.tagline}</p>
+            <ContentFreshness
+              lastUpdated={machine.lastUpdated}
+              locale={locale}
+              dict={dict.freshness}
+              className="mt-3"
+            />
+            {machine.releaseDate && (
+              <p className="mt-2 text-sm text-stone-500 dark:text-stone-400">
+                {m.released} {formatReleaseDate(machine.releaseDate, locale)}
+              </p>
+            )}
+            {showContentNotice && (
+              <p className="mt-3 rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-sm text-stone-600 dark:border-stone-700 dark:bg-stone-950 dark:text-stone-300">
+                {m.contentNotice}
+              </p>
+            )}
+          </div>
 
           {multiTier && (
-            <div className="mt-6">
-              <PowerTierNav
-                tiers={tiers}
-                activeSlug={activeSlug}
-                locale={locale}
-                labels={m}
-                onSelectTier={handleSelectTier}
-              />
-            </div>
+            <PowerTierNav
+              tiers={tiers}
+              activeSlug={activeSlug}
+              locale={locale}
+              labels={m}
+              onSelectTier={handleSelectTier}
+            />
           )}
 
           <ModuleSystemNotice
@@ -160,29 +173,20 @@ export function MachineDetailView({
             labels={m}
           />
 
-          <div className="mt-8">
-            <PerformanceHighlights
-              performance={machine.specs.performance}
-              mainObjective={editorial.mainObjective}
-              primaryUse={editorial.primaryUse}
-              labels={m}
-            />
-          </div>
-
-          <div className="mt-6 rounded-xl border border-amber-200 bg-amber-50 dark:border-amber-900 dark:bg-amber-950/50 p-5">
+          <div className="rounded-xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-900 dark:bg-amber-950/50">
             <h2 className="text-sm font-semibold uppercase tracking-wide text-amber-800 dark:text-amber-300">
               {m.tldr}
             </h2>
             <p className="mt-2 text-stone-800 dark:text-stone-200">{machine.tldr}</p>
           </div>
 
-          <section className="mt-10">
+          <section>
             <h2 className="text-xl font-bold text-stone-900 dark:text-stone-100">{m.bestFor}</h2>
             <div className="mt-3 flex flex-wrap gap-2">
               {editorial.bestFor.map((item) => (
                 <span
                   key={item}
-                  className="rounded-full bg-stone-100 dark:bg-stone-800 px-3 py-1 text-sm text-stone-700 dark:text-stone-300"
+                  className="rounded-full bg-stone-100 px-3 py-1 text-sm text-stone-700 dark:bg-stone-800 dark:text-stone-300"
                 >
                   {item}
                 </span>
@@ -190,103 +194,105 @@ export function MachineDetailView({
             </div>
           </section>
 
-          <section className="mt-10">
-            <h2 className="text-xl font-bold text-stone-900 dark:text-stone-100">{m.materials}</h2>
-            <div className="mt-4 grid gap-4 sm:grid-cols-3">
-              <div className="rounded-lg border border-stone-200 dark:border-stone-700 p-4">
-                <h3 className="text-sm font-semibold text-emerald-700">{m.engraves}</h3>
-                <ul className="mt-2 space-y-1 text-sm text-stone-700 dark:text-stone-300">
-                  {machine.materials.engrave.map((mat) => (
-                    <li key={mat}>· {mat}</li>
-                  ))}
-                </ul>
-              </div>
-              <div className="rounded-lg border border-stone-200 dark:border-stone-700 p-4">
-                <h3 className="text-sm font-semibold text-blue-700">{m.cuts}</h3>
-                <ul className="mt-2 space-y-1 text-sm text-stone-700 dark:text-stone-300">
-                  {machine.materials.cut.length > 0 ? (
-                    machine.materials.cut.map((mat) => <li key={mat}>· {mat}</li>)
-                  ) : (
-                    <li>· {m.limitedCutting}</li>
-                  )}
-                </ul>
-              </div>
-              <div className="rounded-lg border border-stone-200 dark:border-stone-700 p-4">
-                <h3 className="text-sm font-semibold text-red-700">{m.cannotDo}</h3>
-                <ul className="mt-2 space-y-1 text-sm text-stone-700 dark:text-stone-300">
-                  {machine.materials.cannot.map((mat) => (
-                    <li key={mat}>· {mat}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </section>
+          <MachineStandoutFeatures features={standoutFeatures} labels={m} />
+
+          <MachineVerdictPanel
+            pros={editorial.pros}
+            cons={editorial.cons}
+            labels={m}
+            depth={editorialDepth}
+          />
+
+          <PerformanceHighlights
+            performance={machine.specs.performance}
+            mainObjective={editorial.mainObjective}
+            primaryUse={editorial.primaryUse}
+            labels={m}
+            variant="summary"
+          />
+
+          <MachineMaterialsPanel machine={machine} labels={m} />
 
           <MachineAccessoriesPanel machine={machine} locale={locale} dict={dict} />
 
-          <section className="mt-10 grid gap-6 sm:grid-cols-2">
-            <div>
-              <h2 className="text-xl font-bold text-emerald-800">{m.pros}</h2>
-              <ul className="mt-3 space-y-2 text-stone-700 dark:text-stone-300">
-                {editorial.pros.map((pro) => (
-                  <li key={pro} className="flex gap-2 text-sm">
-                    <span className="text-emerald-600">✓</span>
-                    {pro}
-                  </li>
-                ))}
-              </ul>
+          <section className="rounded-xl border border-stone-200 bg-white p-5 dark:border-stone-700 dark:bg-stone-900 sm:p-6">
+            <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">
+              {m.practicalNotes}
+            </h2>
+            <div className="mt-4 space-y-5">
+              <div>
+                <h3 className="text-sm font-semibold text-stone-800 dark:text-stone-200">
+                  {m.beginnerNotes}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+                  {editorial.beginnerNotes}
+                </p>
+              </div>
+              <div className="border-t border-stone-100 pt-5 dark:border-stone-800">
+                <h3 className="text-sm font-semibold text-stone-800 dark:text-stone-200">
+                  {m.proTips}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+                  {editorial.proTips}
+                </p>
+              </div>
             </div>
-            <div>
-              <h2 className="text-xl font-bold text-red-800">{m.cons}</h2>
-              <ul className="mt-3 space-y-2 text-stone-700 dark:text-stone-300">
-                {editorial.cons.map((con) => (
-                  <li key={con} className="flex gap-2 text-sm">
-                    <span className="text-red-500">✗</span>
-                    {con}
-                  </li>
-                ))}
-              </ul>
+          </section>
+
+          <details className="group rounded-xl border border-stone-200 bg-stone-50 dark:border-stone-700 dark:bg-stone-900">
+            <summary className="cursor-pointer list-none px-5 py-4 marker:content-none sm:px-6 [&::-webkit-details-marker]:hidden">
+              <span className="flex items-center justify-between gap-2">
+                <span>
+                  <span className="text-lg font-bold text-stone-900 dark:text-stone-100">
+                    {m.technicalSpecs}
+                  </span>
+                  <span className="mt-0.5 block text-sm text-stone-500 dark:text-stone-400">
+                    {m.technicalSpecsBody}
+                  </span>
+                </span>
+                <span
+                  className="shrink-0 text-stone-400 transition group-open:rotate-180 dark:text-stone-500"
+                  aria-hidden
+                >
+                  ▾
+                </span>
+              </span>
+            </summary>
+            <div className="border-t border-stone-200 px-5 pb-5 pt-2 dark:border-stone-700 sm:px-6 sm:pb-6">
+              <MachineTechnicalSpecs
+                performance={machine.specs.performance}
+                labels={m}
+                bare
+              />
             </div>
-          </section>
-
-          <section className="mt-10 rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 p-6">
-            <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">{m.beginnerNotes}</h2>
-            <p className="mt-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-              {editorial.beginnerNotes}
-            </p>
-          </section>
-
-          <section className="mt-6 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-950 p-6">
-            <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">{m.proTips}</h2>
-            <p className="mt-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-              {editorial.proTips}
-            </p>
-          </section>
-
-          <MachineTechnicalSpecs performance={machine.specs.performance} labels={m} />
+          </details>
 
           {machine.faq && machine.faq.length > 0 && (
-            <section className="mt-10">
-              <h2 className="text-xl font-bold text-stone-900 dark:text-stone-100">{m.commonQuestions}</h2>
-              <div className="mt-4 space-y-4">
+            <section>
+              <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">
+                {m.commonQuestions}
+              </h2>
+              <div className="mt-3 space-y-3">
                 {machine.faq.map((item) => (
-                  <div
+                  <details
                     key={item.question}
-                    className="rounded-lg border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 p-5"
+                    className="rounded-lg border border-stone-200 bg-white dark:border-stone-700 dark:bg-stone-900"
                   >
-                    <h3 className="font-semibold text-stone-900 dark:text-stone-100">{item.question}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
+                    <summary className="cursor-pointer px-4 py-3 text-sm font-semibold text-stone-900 marker:content-none dark:text-stone-100 [&::-webkit-details-marker]:hidden">
+                      {item.question}
+                    </summary>
+                    <p className="border-t border-stone-100 px-4 pb-4 pt-0 text-sm leading-relaxed text-stone-700 dark:border-stone-800 dark:text-stone-300">
                       {item.answer}
                     </p>
-                  </div>
+                  </details>
                 ))}
               </div>
             </section>
           )}
         </div>
 
-        <aside className="space-y-6 lg:sticky lg:top-6 lg:self-start">
-          <div className="rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 p-6 shadow-sm">
+        <aside className="min-w-0 space-y-6 lg:sticky lg:top-6 lg:self-start">
+          <div className="rounded-xl border border-stone-200 bg-white p-6 shadow-sm dark:border-stone-700 dark:bg-stone-900">
             <p className={`text-3xl font-bold ${ratingColor(machine.rating.overall)}`}>
               {machine.rating.overall.toFixed(1)}
               <span className="text-lg text-stone-400 dark:text-stone-300">/10</span>
@@ -297,11 +303,15 @@ export function MachineDetailView({
             </div>
           </div>
 
-          <MachineDetailPrice machine={machine} locale={locale} labels={m} />
+          {locale === "en" && (
+            <MachineDetailPrice machine={machine} locale={locale} labels={m} variant="card" />
+          )}
 
-          <div className="rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 p-6">
-            <h2 className="font-semibold text-stone-900 dark:text-stone-100">{m.specs}</h2>
-            <div className="mt-4">
+          <div className="rounded-xl border border-stone-200 bg-white p-5 dark:border-stone-700 dark:bg-stone-900">
+            <h2 className="text-sm font-semibold text-stone-900 dark:text-stone-100">
+              {m.specs}
+            </h2>
+            <div className="mt-3">
               <MachineQuickSpecs
                 specs={machine.specs}
                 labels={m}
@@ -311,9 +321,11 @@ export function MachineDetailView({
           </div>
 
           {similar.length > 0 && (
-            <div className="rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 p-6">
-              <h2 className="font-semibold text-stone-900 dark:text-stone-100">{m.compareWith}</h2>
-              <ul className="mt-3 space-y-2">
+            <div className="rounded-xl border border-stone-200 bg-white p-5 dark:border-stone-700 dark:bg-stone-900">
+              <h2 className="text-sm font-semibold text-stone-900 dark:text-stone-100">
+                {m.compareWith}
+              </h2>
+              <ul className="mt-2 space-y-1.5">
                 {similar.map(
                   (other) =>
                     other && (
@@ -332,9 +344,13 @@ export function MachineDetailView({
             </div>
           )}
 
-          <div className="rounded-xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-800 dark:bg-amber-950/60">
-            <p className="text-sm font-medium text-amber-900 dark:text-amber-100">{m.newToLasers}</p>
-            <p className="mt-1 text-xs text-stone-600 dark:text-stone-300">{m.readSafetyBefore}</p>
+          <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-800 dark:bg-amber-950/60">
+            <p className="text-sm font-medium text-amber-900 dark:text-amber-100">
+              {m.newToLasers}
+            </p>
+            <p className="mt-1 text-xs text-stone-600 dark:text-stone-300">
+              {m.readSafetyBefore}
+            </p>
             <LocaleLink
               href="/guides/laser-safety-basics"
               locale={locale}
@@ -344,7 +360,7 @@ export function MachineDetailView({
             </LocaleLink>
           </div>
 
-          <p className="text-xs text-stone-400 dark:text-stone-300">
+          <p className="text-xs text-stone-400 dark:text-stone-500">
             {m.updatedFootnote.replace(
               "{date}",
               formatReleaseDate(machine.lastUpdated, locale),

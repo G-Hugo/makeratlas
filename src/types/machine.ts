@@ -86,6 +86,19 @@ export interface MachineFaq {
   answer: string;
 }
 
+/** Buyer-facing highlight — manual JSON or auto-detected on detail pages */
+export interface MachineStandoutFeature {
+  id: string;
+  title: string;
+  body: string;
+}
+
+/** Long-form verdict context (in addition to bullet pros/cons) */
+export interface MachineEditorialDepth {
+  advantages: string;
+  limitations: string;
+}
+
 /** How an accessory relates to this machine (editorial, not live stock). */
 export type AccessoryAvailability = "included" | "optional" | "recommended" | "not_applicable";
 
@@ -144,6 +157,10 @@ export interface Machine {
   rating: MachineRating;
   similarModels?: string[];
   faq?: MachineFaq[];
+  /** Optional hand-written highlights; otherwise inferred from specs/copy */
+  standoutFeatures?: MachineStandoutFeature[];
+  /** Optional narrative under the verdict; otherwise generated */
+  editorialDepth?: MachineEditorialDepth;
   /** Overrides or adds to inferred accessory list for this profile */
   accessories?: MachineAccessory[];
   /** If true, keep JSON pros/cons on multi-power pages (skip auto tier editorial) */

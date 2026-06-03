@@ -42,15 +42,32 @@ export function MachineDetailPrice({
   machine,
   locale,
   labels,
+  variant = "card",
 }: {
   machine: Machine;
   locale: Locale;
   labels: MachineLabels;
+  variant?: "card" | "inline";
 }) {
   if (locale !== "en") return null;
 
   const { min, max, note } = machine.priceRange;
   const { usd, eurApprox } = formatDualPriceRange(min, max);
+
+  if (variant === "inline") {
+    return (
+      <div>
+        <p className="text-xs font-medium uppercase tracking-wide text-stone-500 dark:text-stone-400">
+          {labels.price}
+        </p>
+        <p className="mt-0.5 text-2xl font-bold text-stone-900 dark:text-stone-100">{usd}</p>
+        <p className="text-sm text-stone-500 dark:text-stone-400">≈ {eurApprox}</p>
+        {note?.trim() && (
+          <p className="mt-1 max-w-xs text-xs text-stone-600 dark:text-stone-400">{note}</p>
+        )}
+      </div>
+    );
+  }
 
   return (
     <div className="rounded-xl border border-stone-200 bg-white p-6 dark:border-stone-700 dark:bg-stone-900">

@@ -137,6 +137,14 @@ export type Dictionary = {
     breadcrumbLasers: string;
     released: string;
     tldr: string;
+    verdict: string;
+    standoutTitle: string;
+    standoutSubtitle: string;
+    advantagesDetail: string;
+    limitationsDetail: string;
+    atAGlance: string;
+    scoreBreakdown: string;
+    practicalNotes: string;
     whatFor: string;
     bestFor: string;
     materials: string;

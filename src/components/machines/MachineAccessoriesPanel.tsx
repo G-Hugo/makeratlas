@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useMemo, useState } from "react";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries/types";
@@ -44,71 +47,105 @@ export function MachineAccessoriesPanel({
 }: MachineAccessoriesPanelProps) {
   const a = dict.accessories;
   const items = getMachineAccessories(machine);
-  if (items.length === 0) return null;
+  const grouped = useMemo(() => groupAccessoriesByCategory(items), [machine]);
+  const [activeCategory, setActiveCategory] = useState<AccessoryCategory | null>(
+    null,
+  );
 
-  const grouped = groupAccessoriesByCategory(items);
+  useEffect(() => {
+    setActiveCategory(grouped[0]?.category ?? null);
+  }, [machine.slug, grouped]);
+
+  if (items.length === 0 || grouped.length === 0) return null;
 
   const categoryLabel = (cat: AccessoryCategory) => a.categories[cat];
-
   const itemLabel = (id: string) => a.items[id as keyof typeof a.items]?.name ?? id;
-
-  const itemDesc = (id: string) => a.items[id as keyof typeof a.items]?.description;
+  const activeGroup =
+    grouped.find((g) => g.category === activeCategory) ?? grouped[0];
 
   return (
-    <section className="mt-10 rounded-xl border border-stone-200 bg-white p-6 dark:border-stone-700 dark:bg-stone-900">
-      <h2 className="text-xl font-bold text-stone-900 dark:text-stone-100">{a.title}</h2>
-      <p className="mt-2 text-sm text-stone-600 dark:text-stone-400">{a.subtitle}</p>
+    <section className="mt-8 rounded-xl border border-stone-200 bg-white p-4 dark:border-stone-700 dark:bg-stone-900 sm:p-5">
+      <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">
+        {a.title}
+      </h2>
+      <p className="mt-1 text-sm text-stone-600 dark:text-stone-400">
+        {a.subtitle}
+      </p>
 
-      <div className="mt-6 space-y-8">
-        {grouped.map(({ category, items: catItems }) => (
-          <div key={category}>
-            <h3 className="text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-stone-400">
+      <div
+        className="mt-4 flex gap-1 overflow-x-auto border-b border-stone-200 pb-px dark:border-stone-700"
+        role="tablist"
+        aria-label={a.tabsAriaLabel}
+      >
+        {grouped.map(({ category, items: catItems }) => {
+          const selected = category === activeGroup.category;
+          return (
+            <button
+              key={category}
+              type="button"
+              role="tab"
+              aria-selected={selected}
+              aria-controls={`accessories-panel-${category}`}
+              id={`accessories-tab-${category}`}
+              onClick={() => setActiveCategory(category)}
+              className={`shrink-0 rounded-t-md px-3 py-2 text-xs font-medium transition sm:text-sm ${
+                selected
+                  ? "border-b-2 border-amber-500 text-stone-900 dark:text-stone-100"
+                  : "text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-stone-200"
+              }`}
+            >
               {categoryLabel(category)}
-            </h3>
-            <ul className="mt-3 divide-y divide-stone-100 dark:divide-stone-800">
-              {catItems.map((item) => {
-                const styles = AVAILABILITY_STYLES[item.availability];
-                const availLabel = a.availability[item.availability];
-                return (
-                  <li
-                    key={item.id}
-                    className="flex flex-col gap-2 py-4 first:pt-0 last:pb-0 sm:flex-row sm:items-start sm:justify-between"
-                  >
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-center gap-2">
-                        <span
-                          className={`h-2 w-2 shrink-0 rounded-full ${styles.dot}`}
-                          aria-hidden
-                        />
-                        <p className="font-medium text-stone-900 dark:text-stone-100">
-                          {itemLabel(item.id)}
-                        </p>
-                      </div>
-                      {itemDesc(item.id) && (
-                        <p className="mt-1 pl-4 text-sm text-stone-600 dark:text-stone-400">
-                          {itemDesc(item.id)}
-                        </p>
-                      )}
-                      {item.note && (
-                        <p className="mt-1 pl-4 text-sm text-stone-500 dark:text-stone-500">
-                          {item.note}
-                        </p>
-                      )}
-                    </div>
-                    <span
-                      className={`shrink-0 self-start rounded-full px-2.5 py-0.5 text-xs font-medium ${styles.badge}`}
-                    >
-                      {availLabel}
-                    </span>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        ))}
+              <span className="ml-1.5 tabular-nums text-stone-400 dark:text-stone-500">
+                ({catItems.length})
+              </span>
+            </button>
+          );
+        })}
       </div>
 
-      <p className="mt-6 border-t border-stone-100 pt-4 text-xs text-stone-500 dark:border-stone-800 dark:text-stone-400">
+      <div
+        role="tabpanel"
+        id={`accessories-panel-${activeGroup.category}`}
+        aria-labelledby={`accessories-tab-${activeGroup.category}`}
+        className="pt-3"
+      >
+        <ul className="divide-y divide-stone-100 dark:divide-stone-800">
+          {activeGroup.items.map((item) => {
+            const styles = AVAILABILITY_STYLES[item.availability];
+            const availLabel = a.availability[item.availability];
+            return (
+              <li
+                key={item.id}
+                className="flex items-start justify-between gap-3 py-2.5 text-sm first:pt-0 last:pb-0"
+              >
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2">
+                    <span
+                      className={`h-1.5 w-1.5 shrink-0 rounded-full ${styles.dot}`}
+                      aria-hidden
+                    />
+                    <p className="font-medium text-stone-900 dark:text-stone-100">
+                      {itemLabel(item.id)}
+                    </p>
+                  </div>
+                  {item.note && (
+                    <p className="mt-0.5 pl-3.5 text-xs text-stone-500 dark:text-stone-500">
+                      {item.note}
+                    </p>
+                  )}
+                </div>
+                <span
+                  className={`shrink-0 rounded-full px-2 py-0.5 text-[11px] font-medium leading-tight ${styles.badge}`}
+                >
+                  {availLabel}
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+
+      <p className="mt-3 text-xs text-stone-500 dark:text-stone-400">
         {a.footnote}{" "}
         <LocaleLink
           href="/guides/laser-ventilation-setup"

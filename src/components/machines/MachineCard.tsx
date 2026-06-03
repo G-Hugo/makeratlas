@@ -88,20 +88,26 @@ export function MachineCard({ entry, locale, dict, onBeforeNavigate }: MachineCa
           sizes="(max-width: 640px) 100vw, 33vw"
         />
         <div
-          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-stone-950/50 via-stone-950/5 to-transparent"
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-stone-950/25 via-transparent to-transparent"
           aria-hidden
         />
         <div className="absolute left-3 top-3">
           <MachineWorkFocusBadge focus={workFocus} workFocusDict={dict.workFocus} />
         </div>
         <div
-          className={`absolute right-3 top-3 rounded-full bg-white/95 px-2.5 py-1 text-sm font-bold shadow-sm backdrop-blur-sm dark:bg-stone-900/95 ${ratingColor(primary.rating.overall)}`}
+          className={`absolute right-3 top-3 rounded-full bg-white/95 px-2.5 py-1 text-sm font-bold shadow-md ring-1 ring-stone-900/10 backdrop-blur-sm dark:bg-stone-950/92 dark:ring-stone-600/40 ${ratingColor(primary.rating.overall)}`}
         >
           {primary.rating.overall.toFixed(1)}
         </div>
-        <p className="absolute bottom-3 left-3 right-3 text-[11px] font-medium uppercase tracking-wider text-white/90 drop-shadow-sm">
-          {primary.brand} · {formatMachineLaserLabel(primary, locale)}
-        </p>
+        <div className="absolute bottom-3 left-3 right-3 flex flex-wrap gap-1.5">
+          <span className="inline-flex max-w-full items-center gap-1 rounded-full bg-white/95 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-stone-800 shadow-md ring-1 ring-stone-900/10 backdrop-blur-sm dark:bg-stone-950/92 dark:text-stone-100 dark:ring-stone-600/40">
+            <span className="text-stone-600 dark:text-stone-300">{primary.brand}</span>
+            <span className="text-stone-300 dark:text-stone-600" aria-hidden>
+              ·
+            </span>
+            <span>{formatMachineLaserLabel(primary, locale)}</span>
+          </span>
+        </div>
       </div>
 
       <div className="flex flex-1 flex-col gap-3 p-4 sm:p-5">

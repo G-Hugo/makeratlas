@@ -87,6 +87,43 @@ interface MachineQuickSpecsProps {
   powerLabel: string;
 }
 
+/** Hero strip — four key numbers without scrolling the sidebar */
+export function MachineAtAGlance({ specs, labels, powerLabel }: MachineQuickSpecsProps) {
+  const { performance } = specs;
+  const engrave = jobRowValues(performance.engraveExample);
+  const workArea = specs.workArea.split(" (")[0];
+
+  const chips = [
+    { label: labels.power, value: powerLabel },
+    { label: labels.workArea, value: workArea },
+    { label: labels.spotSize, value: performance.technical.spotSize },
+    { label: labels.sampleEngrave, value: engrave.primary },
+  ];
+
+  return (
+    <div>
+      <p className="text-xs font-semibold uppercase tracking-wide text-stone-500 dark:text-stone-400">
+        {labels.atAGlance}
+      </p>
+      <dl className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
+        {chips.map((chip) => (
+          <div
+            key={chip.label}
+            className="rounded-lg border border-stone-200 bg-white px-2.5 py-2 dark:border-stone-700 dark:bg-stone-950"
+          >
+            <dt className="text-[10px] font-medium uppercase tracking-wide text-stone-500 dark:text-stone-400">
+              {chip.label}
+            </dt>
+            <dd className="mt-0.5 text-sm font-semibold leading-snug text-stone-900 dark:text-stone-100">
+              {chip.value}
+            </dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  );
+}
+
 /** Sidebar spec sheet — grouped, aligned label / value rows */
 export function MachineQuickSpecs({ specs, labels, powerLabel }: MachineQuickSpecsProps) {
   const { performance } = specs;
@@ -137,25 +174,37 @@ function TechCard({ label, value }: { label: string; value: string }) {
 interface MachineTechnicalSpecsProps {
   performance: MachinePerformance;
   labels: MachineLabels;
+  /** Inside a parent <details> — only the metric grid */
+  bare?: boolean;
 }
 
 /** Main column — pro speed numbers (no duplicate of sidebar quick specs) */
-export function MachineTechnicalSpecs({ performance, labels }: MachineTechnicalSpecsProps) {
+export function MachineTechnicalSpecs({
+  performance,
+  labels,
+  bare = false,
+}: MachineTechnicalSpecsProps) {
   const { technical } = performance;
 
+  const grid = (
+    <dl className={bare ? "grid gap-3 sm:grid-cols-2" : "mt-4 grid gap-3 sm:grid-cols-2"}>
+      <TechCard label={labels.maxSpeed} value={technical.maxSpeed} />
+      <TechCard label={labels.avgEngraveSpeed} value={technical.avgEngraveSpeed} />
+      <TechCard label={labels.avgCutSpeed} value={technical.avgCutSpeed} />
+    </dl>
+  );
+
+  if (bare) return grid;
+
   return (
-    <section className="mt-10 rounded-xl border border-stone-200 bg-stone-50 p-6 dark:border-stone-700 dark:bg-stone-900">
+    <section className="rounded-xl border border-stone-200 bg-stone-50 p-5 dark:border-stone-700 dark:bg-stone-900 sm:p-6">
       <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">
         {labels.technicalSpecs}
       </h2>
       <p className="mt-1 text-sm text-stone-500 dark:text-stone-400">
         {labels.technicalSpecsBody}
       </p>
-      <dl className="mt-4 grid gap-3 sm:grid-cols-2">
-        <TechCard label={labels.maxSpeed} value={technical.maxSpeed} />
-        <TechCard label={labels.avgEngraveSpeed} value={technical.avgEngraveSpeed} />
-        <TechCard label={labels.avgCutSpeed} value={technical.avgCutSpeed} />
-      </dl>
+      {grid}
     </section>
   );
 }

@@ -5,6 +5,8 @@ import { ratingBarColor, ratingColor } from "@/lib/utils";
 interface RatingDisplayProps {
   rating: MachineRating;
   labels: Dictionary["ratings"];
+  /** Hide overall when the hero already shows the headline score */
+  excludeOverall?: boolean;
 }
 
 const CRITERIA_KEYS = [
@@ -15,10 +17,14 @@ const CRITERIA_KEYS = [
   "buildQuality",
 ] as const satisfies readonly (keyof MachineRating)[];
 
-export function RatingDisplay({ rating, labels }: RatingDisplayProps) {
+export function RatingDisplay({ rating, labels, excludeOverall }: RatingDisplayProps) {
+  const keys = excludeOverall
+    ? CRITERIA_KEYS.filter((k) => k !== "overall")
+    : CRITERIA_KEYS;
+
   return (
     <div className="space-y-3">
-      {CRITERIA_KEYS.map((key) => (
+      {keys.map((key) => (
         <div key={key}>
           <div className="mb-1 flex justify-between text-sm">
             <span className="text-stone-600 dark:text-stone-300">{labels[key]}</span>
