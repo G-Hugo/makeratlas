@@ -11,6 +11,7 @@ import {
   getCatalogMachineCount,
 } from "@/lib/content";
 import type { LaserType } from "@/types/machine";
+import { buildPageMetadata } from "@/lib/seo";
 
 const VALID_TYPES: LaserType[] = ["diode", "co2", "fiber", "uv", "hybrid"];
 
@@ -31,10 +32,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
   const dict = getDictionary(localeParam);
   const label = laserTypeLabelLocalized(type, dict);
-  return {
+  return buildPageMetadata({
+    locale: localeParam,
+    path: `/lasers/type/${type}`,
     title: `${label} | ${dict.lasers.title}`,
     description: dict.laserTypeDescriptions[type as LaserType],
-  };
+  });
 }
 
 export default async function LaserTypePage({ params }: PageProps) {

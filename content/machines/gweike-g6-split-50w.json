@@ -9,12 +9,12 @@
   "modelLine": "gweike-g6-split",
   "tagline": "50W Split cabinet fiber marker with room for rotary and fixtures",
   "tldr": "Gweike G6 Split 50W is the 50W SKU on the Gweike gweike g6 split line. Gweike G6 Split is a larger fiber marking platform with separate laser source cabinet — common format for small production. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Industrial marking and deep engraving on metals and engineered plastics",
+  "mainObjective": "Production-leaning fiber marking for small businesses",
   "bestFor": [
-    "Production batches",
-    "Deep metal engraving",
-    "Shop floor marking",
-    "Rotary work"
+    "Daily metal marking",
+    "Tools & knives",
+    "Shop labels",
+    "Batch runs"
   ],
   "priceRange": {
     "min": 3299,
@@ -70,20 +70,18 @@
     ]
   },
   "pros": [
-    "Scalable power tiers",
-    "Split design fits shop floors",
-    "Deep engraving capability",
-    "Production friendly"
+    "50W Split cabinet fiber marker with room for rotary and fixtures",
+    "Fiber marks metal — does not cut wood or acrylic",
+    "Work area 150 × 150 mm typical (varies by lens) on this chassis",
+    "Reference engrave job on this module: ~3–8 min"
   ],
   "cons": [
-    "Larger footprint",
-    "Not portable",
-    "Higher price than desktop galvo boxes",
-    "Installation and alignment matter"
+    "50W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Upgrade path to 70W or 100W if metal throughput becomes the bottleneck"
   ],
-  "beginnerNotes": "Choose 50W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Plan fume extraction for marking coated metals. Fixture repeatability drives profit.",
-  "primaryUse": "Small production fiber marking for metal parts and personalization batches.",
+  "beginnerNotes": "This profile is the 50W module on Gweike G6 Split. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work — it slows flat-stock days.",
+  "primaryUse": "Mid-power fiber for shops marking metal daily",
   "rating": {
     "overall": 8.6,
     "value": 8.4,
@@ -115,5 +113,6 @@
       "src": "/machines/gweike-g6-split-50w/04.jpg",
       "alt": "Gweike G6 Split 50W laser engraver — Gweike"
     }
-  ]
+  ],
+  "tierEditorialOverride": false
 }

@@ -7,12 +7,12 @@
   "laserType": "diode",
   "tagline": "Top Ortur H20 — 40W compressed diode for serious cutting",
   "tldr": "Ortur H20 40W is Ortur's strongest H-series diode — multi-diode compression for deeper cuts in wood and faster fills. Premium price; compare to Longer B1 40W and Atomstack A40 before buying.",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "bestFor": [
-    "Deep wood cuts",
-    "Fast engraving",
-    "Ortur power users",
-    "Small business"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 2099,
@@ -69,19 +69,22 @@
     ]
   },
   "pros": [
-    "Strongest Ortur diode SKU",
-    "Same H20 frame as lower tiers",
-    "Air pump often included",
-    "Good upgrade path from LM3"
+    "Top Ortur H20 — 40W compressed diode for serious cutting",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 410 × 275 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "40W: the most cut-focused head in the Ortur H20 line",
+    "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
-    "Highest H20 price",
-    "Compressed watt claims need verification",
-    "Ventilation and fire safety critical"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Buy when you've outgrown 20W cutting — not necessary for first laser.",
-  "proTips": "Run cut tests on scrap at rated speeds. Keep lens clean — high power burns debris fast.",
-  "primaryUse": "High-power Ortur platform for cutting-focused hobby or side-business work.",
+  "beginnerNotes": "This profile is the 40W module on Ortur H20. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "40W module · Ortur H20",
   "rating": {
     "overall": 8,
     "value": 8,
@@ -117,5 +120,6 @@
       "src": "/machines/ortur-h20-40w/04.webp",
       "alt": "Ortur H20 40W laser engraver — Ortur"
     }
-  ]
+  ],
+  "tierEditorialOverride": false
 }

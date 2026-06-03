@@ -8,12 +8,12 @@
   "image": "/machines/twotrees-tts-55-10w/01.webp",
   "tagline": "10W Ultra-budget diode with surprising build quality for the price",
   "tldr": "TwoTrees TTS-55 10W is the 10W SKU on the TwoTrees twotrees tts 55 line. TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
-    "Ultra-tight budget",
-    "First experiments",
-    "Light engraving",
-    "3D printer owners"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 179,
@@ -71,22 +71,23 @@
     ]
   },
   "pros": [
-    "Among the lowest prices available",
-    "Decent frame for the cost",
-    "LightBurn support",
-    "Modular power upgrades",
-    "Good companion if you already own TwoTrees 3D printers"
+    "10W Ultra-budget diode with surprising build quality for the price",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 300 × 300 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "10W on TwoTrees TTS-55: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~28–43 min",
+    "Reference cut job on this module: ~14–24 min"
   ],
   "cons": [
-    "Inconsistent QA between batches",
-    "Small English support community",
-    "40W label is marketing-heavy",
-    "Open frame — full safety on you",
-    "May need alignment tweaks out of box"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Higher modules in this line (20W or 40W) add cut speed and depth",
+    "Not the SKU for a shop cutting 5 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 10W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Square the frame before first burn. Treat published max speed as aspirational — start at 50% for engraves until you dial settings in.",
-  "primaryUse": "Bare-minimum budget diode for light engraving experiments and learning whether you enjoy the hobby.",
+  "beginnerNotes": "This profile is the 10W module on TwoTrees TTS-55. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "10W module · TwoTrees TTS-55",
   "rating": {
     "overall": 7.2,
     "value": 8.8,
@@ -119,5 +120,6 @@
     }
   ],
   "modelLine": "twotrees-tts-55",
-  "powerRating": "10W"
+  "powerRating": "10W",
+  "tierEditorialOverride": false
 }

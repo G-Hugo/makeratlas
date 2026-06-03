@@ -100,6 +100,13 @@
     "capability": 9.5,
     "buildQuality": 9
   },
+  "accessories": [
+    { "id": "enclosure", "availability": "included" },
+    { "id": "camera", "availability": "included" },
+    { "id": "air-assist", "availability": "recommended", "note": "Compressor + air assist strongly recommended for acrylic" },
+    { "id": "exhaust-vent", "availability": "recommended" },
+    { "id": "rotary-roller", "availability": "optional" }
+  ],
   "similarModels": [
     "xtool-p2s",
     "xtool-p3",

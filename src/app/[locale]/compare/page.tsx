@@ -3,7 +3,8 @@ import { ComparePageClient } from "@/components/machines/ComparePageClient";
 import { PageHeader } from "@/components/pages/PageHeader";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { getAllMachines } from "@/lib/content";
+import { getIndexableMachines } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/seo";
 import { notFound } from "next/navigation";
 
 interface PageProps {
@@ -18,7 +19,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale: localeParam } = await params;
   if (!isLocale(localeParam)) return {};
   const dict = getDictionary(localeParam);
-  return { title: dict.compare.title, description: dict.compare.description };
+  return buildPageMetadata({
+    locale: localeParam,
+    path: "/compare",
+    title: dict.compare.title,
+    description: dict.compare.description,
+  });
 }
 
 export default async function ComparePage({ params }: PageProps) {
@@ -26,7 +32,7 @@ export default async function ComparePage({ params }: PageProps) {
   if (!isLocale(localeParam)) notFound();
   const locale = localeParam as Locale;
   const dict = getDictionary(locale);
-  const machines = getAllMachines(locale);
+  const machines = getIndexableMachines(locale);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">

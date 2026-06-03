@@ -8,10 +8,10 @@
   "tagline": "Enclosed 40W diode — top home cutting in xTool's cabinet line",
   "tldr": "The 40W S1 is xTool's high-power enclosed diode. Still not CO₂, but the extra optical power helps on thicker basswood versus the 20W cabinet.",
   "bestFor": [
-    "Home workshops",
-    "Families with kids nearby",
-    "Apartment use",
-    "Cleaner engraving"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 999,
@@ -72,21 +72,21 @@
     ]
   },
   "pros": [
-    "Fully enclosed — major safety and smoke improvement vs open-frame",
-    "Built-in exhaust filter option for apartment use",
-    "Same large work area as D1 Pro in a safer package",
-    "LightBurn compatible",
-    "Camera alignment available on some configs"
+    "Enclosed 40W diode — top home cutting in xTool's cabinet line",
+    "Fully enclosed cabinet — beam containment and smoke control vs open-frame diodes",
+    "Swappable laser head on the same chassis — upgrade wattage without a new machine",
+    "Work area 430 × 390 mm on this chassis",
+    "Software: xTool Creative Space · LightBurn",
+    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "40W: the most cut-focused head in the xTool S1 line"
   ],
   "cons": [
-    "Enclosure adds bulk",
-    "Filter cartridges need replacement over time",
-    "40W diode marketing — verify optical power for your variant",
-    "40W diode marketing — confirm optical power on the exact SKU you order"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂"
   ],
-  "beginnerNotes": "Choose S1 over D1 Pro if safety and smoke control matter more than saving money — especially with kids, pets, or neighbors. Skip if you need CO₂ cutting; this will not replace a P2.",
-  "proTips": "Vent to window when cutting heavily even with filters — filters reduce smell but are not magic. Use the camera for batch alignment on repeat products. Pair with xTool riser for tumblers.",
-  "primaryUse": "Enclosed hobby and light business diode laser for safer home engraving and moderate cutting.",
+  "beginnerNotes": "This profile is the 40W module on xTool S1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "40W module · xTool S1",
   "rating": {
     "overall": 8.9,
     "value": 8,
@@ -112,7 +112,7 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/xtool-s1-40w/01.webp",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "images": [
     {
       "src": "/machines/xtool-s1-40w/01.webp",
@@ -159,5 +159,6 @@
       }
     ]
   },
-  "releaseDate": "2024-03"
+  "releaseDate": "2024-03",
+  "tierEditorialOverride": false
 }

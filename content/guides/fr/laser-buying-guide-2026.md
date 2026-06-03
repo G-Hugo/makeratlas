@@ -90,6 +90,7 @@ Pas besoin de 20 W ou CO₂ pour facturer quand le produit est la **marque en su
 - [Toutes les graveuses](/lasers)
 - [Comparer](/compare)
 - [Types de laser](/guides/understanding-laser-types)
+- [Ventilation](/guides/laser-ventilation-setup)
 - [Sécurité](/guides/laser-safety-basics)
 
 *Juin 2026. Prix USD convertis en EUR indicatif (≈ 0,92). Vérifiez chaque fiche.*

@@ -3,27 +3,28 @@
   "tldr": "L’Ortur Laser Master H10 10 W est le SKU 10 W de la gamme H10. Montée en gamme Ortur par rapport au LM3 structure ouverte : châssis plus intégré et vitesses de déplacement annoncées plus élevées. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Diode Ortur structure ouverte intégrée pour gravure plus rapide et découpe modérée de bois fin.",
-  "beginnerNotes": "Choisissez le 10 W s’il correspond à vos jobs habituels. Comparez profondeur de découpe et prix aux autres paliers de la gamme avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 10W de Ortur Laser Master H10. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Commencez en 20 W sauf cas de découpe clair — le 40 W ajoute du coût avec des gains limités sur l’épaisseur. Associez l’assistance air Ortur tôt pour des bords plus propres.",
   "bestFor": [
-    "Montées en gamme Ortur",
-    "Loisirs orientés vitesse",
-    "Gravure bois et cuir",
-    "Fans châssis intégré"
+    "Atelier gravure",
+    "Cuir & bois cadeau",
+    "Apprendre la gamme",
+    "Détail prioritaire"
   ],
   "pros": [
-    "Châssis plus intégré que le LM3",
-    "Potentiel de vitesse supérieur sur jobs optimisés",
-    "Grande communauté Ortur et support firmware",
-    "Workflow LightBurn prêt à l’emploi",
-    "Prix compétitif vs xTool D1 Pro"
+    "H10 10 W — série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 400 × 400 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "10W sur Ortur Laser Master H10 : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~28–43 min",
+    "Exemple découpe de référence sur ce module : ~14–24 min"
   ],
   "cons": [
-    "Toujours structure ouverte — protection oculaire requise",
-    "Marketing 40 W = puissance optique/combinée",
-    "Moins éprouvé long terme que le volume communautaire LM3",
-    "Assistance air souvent en option",
-    "Pas un remplacement CO₂ pour ateliers acrylique"
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
+    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

@@ -3,22 +3,26 @@
   "tldr": "L'Acmer P1 20 W offre plus de marge en découpe que le P1 10 W sur la même classe de châssis. Marque toujours entrée de gamme — vérifiez la puissance optique réelle et attendez-vous à moins de finition qu'avec Sculpfun ou Ortur.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Gravure et découpe légère en 20 W petit budget.",
-  "beginnerNotes": "Envisagez le P2 si vous voulez une option fermée chez la même marque.",
+  "beginnerNotes": "Ce profil décrit le module 20W de Acmer P1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Faites des tests de découpe — les modules 20 W entrée de gamme varient en puissance optique réelle.",
   "bestFor": [
-    "20 W petit budget",
-    "Découpe bois",
-    "Grand plateau"
+    "Gravure + découpe",
+    "Side business",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "20 W à prix entrée de gamme",
-    "Même grand plateau que le P1 10 W",
-    "Compatible LightBurn"
+    "Acmer P1 montée en puissance — module 20 W pour des découpes plus rapides",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 400 × 400 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Exemple gravure de référence sur ce module : ~12–18 min",
+    "Exemple découpe de référence sur ce module : ~6–10 min"
   ],
   "cons": [
-    "Communauté plus réduite qu'Ortur/Sculpfun",
-    "Structure ouverte",
-    "Acmer met davantage en avant les gammes P2/P3 aujourd'hui"
+    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

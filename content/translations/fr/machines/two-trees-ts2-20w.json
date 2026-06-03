@@ -3,27 +3,27 @@
   "tldr": "La TS2 20 W est l’une des lignes laser les plus connues de TwoTrees — souvent comparée à Ortur et Sculpfun à des prix promo agressifs. Bon choix pour les hobbyistes qui privilégient le prix et tolèrent un support moins soigné que xTool.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Plateforme TwoTrees 20 W petit budget pour gravure loisir et découpe modérée de bois fin.",
-  "beginnerNotes": "Comparez le prix promo de la TS2 20 W avec l’Ortur LM3 20 W — souvent à moins de 50 $. Choisissez Ortur pour la communauté ; la TS2 quand l’offre est nettement moins chère.",
+  "beginnerNotes": "Ce profil décrit le module 20W de TwoTrees TS2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Les packs TwoTrees (nids d’abeille + assistance air) valent souvent mieux que les pièces à l’unité — vérifiez les bundles officiels avant de payer.",
   "bestFor": [
-    "20 W petit budget",
-    "Écosystème TwoTrees",
-    "Gravure bois",
-    "Chasseurs de promos"
+    "Gravure + découpe",
+    "Side business",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "Prix promo agressifs",
-    "Grande surface de travail",
-    "Compatible LightBurn",
-    "Kits d’upgrade (rotatif, extension) disponibles",
-    "Groupes propriétaires TwoTrees actifs"
+    "La plateforme TS2 populaire de TwoTrees — 20 W structure ouverte avec communauté active",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 410 × 400 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Exemple gravure de référence sur ce module : ~18–28 min",
+    "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "Support moins constant qu’Ortur/xTool",
-    "Sécurité structure ouverte",
-    "Variabilité d’une unité à l’autre signalée",
-    "Documentation parfois en retard sur le firmware",
-    "La TS2 40 W Max peut mieux valoir le coup en promo"
+    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
+    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

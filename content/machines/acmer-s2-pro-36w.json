@@ -7,11 +7,12 @@
   "laserType": "diode",
   "tagline": "Acmer S2 Pro mid-power — enclosed-optional 36W tier",
   "tldr": "Acmer S2 Pro 36W is the lower-power SKU on Acmer's S2 Pro line with rotary and IR bundle options. Compare to S2 Pro 48W before buying — often worth the step up.",
-  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "bestFor": [
-    "Acmer buyers",
-    "Rotary bundles",
-    "36W value tier"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 599,
@@ -63,17 +64,21 @@
     ]
   },
   "pros": [
-    "IR and rotary bundle options",
-    "Lower entry than 48W",
-    "Large bed"
+    "Acmer S2 Pro mid-power — enclosed-optional 36W tier",
+    "Fully enclosed cabinet — beam containment and smoke control vs open-frame diodes",
+    "Work area 400 × 400 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "Best cut headroom in the line — benchmarked around 8 mm basswood-class stock",
+    "36W: the most cut-focused head in the Acmer S2 Pro line",
+    "Reference engrave job on this module: ~14–22 min"
   ],
   "cons": [
-    "48W tier often better value",
-    "Less known than P2/P3 lines"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂"
   ],
-  "beginnerNotes": "Price-compare 48W SKU before checkout.",
-  "proTips": "IR pack only if you mark metals regularly.",
-  "primaryUse": "Mid-power Acmer platform with accessory bundles.",
+  "beginnerNotes": "This profile is the 36W module on Acmer S2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "36W module · Acmer S2 Pro",
   "rating": {
     "overall": 8,
     "value": 8,
@@ -109,5 +114,6 @@
       "src": "/machines/acmer-s2-pro-36w/04.webp",
       "alt": "Acmer S2 Pro 36W laser engraver — Acmer"
     }
-  ]
+  ],
+  "tierEditorialOverride": false
 }

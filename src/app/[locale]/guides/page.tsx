@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/pages/PageHeader";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { getAllGuidesMeta } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/seo";
 import { notFound } from "next/navigation";
 
 interface PageProps {
@@ -18,7 +19,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale: localeParam } = await params;
   if (!isLocale(localeParam)) return {};
   const dict = getDictionary(localeParam);
-  return { title: dict.guides.title, description: dict.guides.description };
+  return buildPageMetadata({
+    locale: localeParam,
+    path: "/guides",
+    title: dict.guides.title,
+    description: dict.guides.description,
+  });
 }
 
 export default async function GuidesPage({ params }: PageProps) {

@@ -8,12 +8,12 @@
   "image": "/machines/ortur-laser-master-h10-40w/01.webp",
   "tagline": "40W Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
   "tldr": "Ortur Laser Master H10 40W is the 40W SKU on the Ortur ortur laser master h10 line. The H10 is Ortur's step up from the open-frame LM3 line: a more integrated chassis with up to 20W diode power and higher advertised traverse speeds. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "bestFor": [
-    "Ortur upgrades",
-    "Speed-focused hobbyists",
-    "Wood & leather engraving",
-    "Integrated frame fans"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 649,
@@ -74,22 +74,22 @@
     ]
   },
   "pros": [
-    "More integrated frame than LM3",
-    "Higher speed potential on optimized jobs",
-    "Large Ortur community and firmware support",
-    "LightBurn-ready workflow",
-    "Competitive price vs xTool D1 Pro"
+    "40W Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 400 × 400 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "40W: the most cut-focused head in the Ortur Laser Master H10 line",
+    "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
-    "Still open frame — eye protection required",
-    "40W marketing is optical/combined power",
-    "Less proven long-term than LM3 community volume",
-    "Air assist often extra",
-    "Not a CO₂ replacement for acrylic shops"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Start with 20W unless you have a clear cutting use case — 40W adds cost with diminishing returns on thick cuts. Pair with Ortur air assist early for cleaner edges.",
-  "primaryUse": "Integrated open-frame Ortur diode for faster engraving and moderate thin-wood cutting.",
+  "beginnerNotes": "This profile is the 40W module on Ortur Laser Master H10. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "40W module · Ortur Laser Master H10",
   "rating": {
     "overall": 8.3,
     "value": 8.5,
@@ -124,5 +124,6 @@
   ],
   "modelLine": "ortur-laser-master-h10",
   "powerRating": "40W",
-  "releaseDate": "2024-09"
+  "releaseDate": "2024-09",
+  "tierEditorialOverride": false
 }

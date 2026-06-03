@@ -21,7 +21,9 @@
     "sync:hero-images": "node scripts/sync-machine-hero-image.mjs && node scripts/sync-umbrella-card-images.mjs && node scripts/sync-machine-hero-image.mjs",
     "refresh:all-images": "node scripts/refresh-all-published-images.mjs",
     "fix:wrong-heroes": "node scripts/sync-manual-to-direct-gallery.mjs && node scripts/fix-wrong-heroes.mjs",
-    "apply:benchmarks": "node scripts/apply-benchmarks.mjs"
+    "apply:benchmarks": "node scripts/apply-benchmarks.mjs",
+    "sync:tier-editorial": "npx tsx scripts/sync-tier-editorial-to-json.ts",
+    "audit:tier-coherence": "node scripts/audit-power-tier-coherence.mjs"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.19",

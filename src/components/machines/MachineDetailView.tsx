@@ -16,9 +16,11 @@ import { laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import { getCatalogDisplayName, formatMachinePowerBubble } from "@/lib/catalog-display";
 import { formatMachineLaserLabel } from "@/lib/laser-capabilities";
 import { getPrimaryImage, getMachinePhotos } from "@/lib/machine-images";
+import { MachineAccessoriesPanel } from "@/components/machines/MachineAccessoriesPanel";
 import { ModuleSystemNotice } from "@/components/machines/ModuleSystemNotice";
 import { PowerTierNav } from "@/components/machines/PowerTierNav";
 import { ContentFreshness } from "@/components/content/ContentFreshness";
+import { resolveMachineEditorial } from "@/lib/power-tier-editorial";
 import { formatReleaseDate, ratingColor } from "@/lib/utils";
 import { MachineDetailPrice } from "@/components/pricing/MachinePrice";
 import type { Machine } from "@/types/machine";
@@ -61,15 +63,17 @@ export function MachineDetailView({
     tiersBySlug[activeSlug] ?? tiersBySlug[initialSlug] ?? tiers[0];
   if (!machine) return null;
   const multiTier = tiers.length > 1;
-  const displayTitle = multiTier
+  const powerLabel = formatMachinePowerBubble(machine, locale);
+  const editorial = resolveMachineEditorial(machine, tiers, locale);
+  const lineTitle = multiTier
     ? getCatalogDisplayName(machine, tiers.length)
     : machine.name;
+  const displayTitle = multiTier ? `${lineTitle} · ${powerLabel}` : machine.name;
   const similar = similarBySlug[machine.slug] ?? [];
   const photos = useMemo(
     () => getMachinePhotos(machine, { cardHeroSrc }),
     [machine, cardHeroSrc],
   );
-  const powerLabel = formatMachinePowerBubble(machine, locale);
 
   const handleSelectTier = useCallback(
     (slug: string) => {
@@ -159,8 +163,8 @@ export function MachineDetailView({
           <div className="mt-8">
             <PerformanceHighlights
               performance={machine.specs.performance}
-              mainObjective={machine.mainObjective}
-              primaryUse={machine.primaryUse}
+              mainObjective={editorial.mainObjective}
+              primaryUse={editorial.primaryUse}
               labels={m}
             />
           </div>
@@ -175,7 +179,7 @@ export function MachineDetailView({
           <section className="mt-10">
             <h2 className="text-xl font-bold text-stone-900 dark:text-stone-100">{m.bestFor}</h2>
             <div className="mt-3 flex flex-wrap gap-2">
-              {machine.bestFor.map((item) => (
+              {editorial.bestFor.map((item) => (
                 <span
                   key={item}
                   className="rounded-full bg-stone-100 dark:bg-stone-800 px-3 py-1 text-sm text-stone-700 dark:text-stone-300"
@@ -218,11 +222,13 @@ export function MachineDetailView({
             </div>
           </section>
 
+          <MachineAccessoriesPanel machine={machine} locale={locale} dict={dict} />
+
           <section className="mt-10 grid gap-6 sm:grid-cols-2">
             <div>
               <h2 className="text-xl font-bold text-emerald-800">{m.pros}</h2>
               <ul className="mt-3 space-y-2 text-stone-700 dark:text-stone-300">
-                {machine.pros.map((pro) => (
+                {editorial.pros.map((pro) => (
                   <li key={pro} className="flex gap-2 text-sm">
                     <span className="text-emerald-600">✓</span>
                     {pro}
@@ -233,7 +239,7 @@ export function MachineDetailView({
             <div>
               <h2 className="text-xl font-bold text-red-800">{m.cons}</h2>
               <ul className="mt-3 space-y-2 text-stone-700 dark:text-stone-300">
-                {machine.cons.map((con) => (
+                {editorial.cons.map((con) => (
                   <li key={con} className="flex gap-2 text-sm">
                     <span className="text-red-500">✗</span>
                     {con}
@@ -246,14 +252,14 @@ export function MachineDetailView({
           <section className="mt-10 rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 p-6">
             <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">{m.beginnerNotes}</h2>
             <p className="mt-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-              {machine.beginnerNotes}
+              {editorial.beginnerNotes}
             </p>
           </section>
 
           <section className="mt-6 rounded-xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-950 p-6">
             <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">{m.proTips}</h2>
             <p className="mt-3 text-sm leading-relaxed text-stone-700 dark:text-stone-300">
-              {machine.proTips}
+              {editorial.proTips}
             </p>
           </section>
 

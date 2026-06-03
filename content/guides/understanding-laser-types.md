@@ -221,6 +221,6 @@ What is your main material?
 
 ## What's next?
 
-Read our [Laser Buying Guide 2026](/guides/laser-buying-guide-2026) for specific recommendations by budget and use case, or browse [all laser profiles](/lasers) for side-by-side specs.
+Read our [Laser Buying Guide 2026](/guides/laser-buying-guide-2026) for specific recommendations by budget and use case. Plan [ventilation before the machine arrives](/guides/laser-ventilation-setup), or browse [all laser profiles](/lasers) for side-by-side specs.
 
 **Remember:** the best laser is the one that matches your **actual materials and projects**: not the highest watt number on a product page.

@@ -9,12 +9,12 @@
   "modelLine": "gweike-g6-split",
   "tagline": "70W Split cabinet fiber marker with room for rotary and fixtures",
   "tldr": "Gweike G6 Split 70W is the 70W SKU on the Gweike gweike g6 split line. Gweike G6 Split is a larger fiber marking platform with separate laser source cabinet — common format for small production. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Industrial marking and deep engraving on metals and engineered plastics",
+  "mainObjective": "Maximum fiber marking speed and depth in the line",
   "bestFor": [
-    "Production batches",
     "Deep metal engraving",
-    "Shop floor marking",
-    "Rotary work"
+    "High throughput",
+    "Production quotes",
+    "Large mark jobs"
   ],
   "priceRange": {
     "min": 3999,
@@ -70,20 +70,18 @@
     ]
   },
   "pros": [
-    "Scalable power tiers",
-    "Split design fits shop floors",
-    "Deep engraving capability",
-    "Production friendly"
+    "70W Split cabinet fiber marker with room for rotary and fixtures",
+    "Fiber marks metal — does not cut wood or acrylic",
+    "Work area 150 × 150 mm typical (varies by lens) on this chassis",
+    "Reference engrave job on this module: ~2–6 min"
   ],
   "cons": [
-    "Larger footprint",
-    "Not portable",
-    "Higher price than desktop galvo boxes",
-    "Installation and alignment matter"
+    "70W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Upgrade path to 100W if metal throughput becomes the bottleneck"
   ],
-  "beginnerNotes": "Choose 70W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Plan fume extraction for marking coated metals. Fixture repeatability drives profit.",
-  "primaryUse": "Small production fiber marking for metal parts and personalization batches.",
+  "beginnerNotes": "This profile is the 70W module on Gweike G6 Split. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Push speed only after depth tests on your metal alloy. Cooling and lens cleanliness matter more at this power level.",
+  "primaryUse": "High-power fiber for metal-focused shops needing line-top throughput",
   "rating": {
     "overall": 8.6,
     "value": 8.4,
@@ -115,5 +113,6 @@
       "src": "/machines/gweike-g6-split-70w/04.jpg",
       "alt": "Gweike G6 Split 70W laser engraver — Gweike"
     }
-  ]
+  ],
+  "tierEditorialOverride": false
 }

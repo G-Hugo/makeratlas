@@ -8,10 +8,10 @@
   "tagline": "40W Compact fixed-focus diode — simple desk engraver for small projects",
   "tldr": "Longer Ray5 40W is the 40W SKU on the Longer longer ray5 line. Longer's compact Ray5 20W diode engraver — verify you are buying the 20W SKU, not the 5W, 10W, or 40W Ray5 listings. Verify optical power on the listing — do not assume combined-watt marketing.",
   "bestFor": [
-    "Desk engraving",
-    "Small items",
-    "Simple setup",
-    "Secondary machine"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 449,
@@ -70,22 +70,22 @@
     ]
   },
   "pros": [
-    "Touchscreen and fixed focus simplify first jobs",
-    "Compact footprint for a desk",
-    "SD card offline operation",
-    "Affordable 20W option for light work",
-    "Good as a second machine for small engravings"
+    "40W Compact fixed-focus diode — simple desk engraver for small projects",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 375 × 375 mm on this chassis",
+    "Software: Longer Laser Tool · LightBurn",
+    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "40W: the most cut-focused head in the Longer Ray5 line",
+    "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
-    "Less rigid frame than Sculpfun/Ortur at similar prices",
-    "Not competitive for cutting-focused buyers",
-    "Smaller community than Ortur/xTool",
-    "Fixed focus limits flexibility on uneven items",
-    "Limited upgrade path vs. modular competitors"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Use a riser or rotary for tumblers if your model supports it. LightBurn improves workflow vs. stock app. Keep expectations on cutting — this is an engraver first.",
-  "primaryUse": "Compact desktop engraving of small wood, leather, and slate items with minimal setup complexity.",
+  "beginnerNotes": "This profile is the 40W module on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "40W module · Longer Ray5",
   "rating": {
     "overall": 7.6,
     "value": 7.8,
@@ -100,7 +100,7 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/longer-ray5-40w/01.webp",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "images": [
     {
       "src": "/machines/longer-ray5-40w/01.webp",
@@ -118,5 +118,6 @@
   "powerRating": "40W",
   "modelLine": "longer-ray5",
   "releaseDate": "2024-05",
-  "catalogPrimary": true
+  "catalogPrimary": true,
+  "tierEditorialOverride": false
 }

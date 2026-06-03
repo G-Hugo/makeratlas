@@ -8,12 +8,12 @@
   "image": "/machines/sculpfun-s9-5w/01.webp",
   "tagline": "5W Sculpfun's proven budget line — still popular for value-focused makers",
   "tldr": "Sculpfun S9 5W is the 5W SKU on the Sculpfun sculpfun s9 line. Before S30 Ultra, the S9 was Sculpfun's workhorse. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Entry-level hobby engraving on wood, leather, and coated metal with light cutting",
+  "mainObjective": "Detailed engraving on organics and coated metal — occasional thin cuts only",
   "bestFor": [
-    "Tight budget",
-    "Engraving-first hobby",
-    "Sculpfun ecosystem entry",
-    "Learning LightBurn"
+    "Fine engraving",
+    "Photo & logo work",
+    "Gifts & coasters",
+    "First machine"
   ],
   "priceRange": {
     "min": 199,
@@ -71,22 +71,23 @@
     ]
   },
   "pros": [
-    "Huge community knowledge base",
-    "Full-size bed at budget price",
-    "LightBurn support",
-    "Upgrade path to S30 modules",
-    "Proven Sculpfun reliability"
+    "5W Sculpfun's proven budget line — still popular for value-focused makers",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 410 × 400 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "5W on Sculpfun S9: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~18–28 min",
+    "Reference cut job on this module: ~9–15 min"
   ],
   "cons": [
-    "Slower than S30 Ultra on same jobs",
-    "10W limits cutting depth",
-    "Open frame safety",
-    "New buyers often better served by S30 Ultra sales",
-    "Air assist recommended for clean cuts"
+    "This module targets thin cuts (about 3 mm basswood class) — not thick production plywood",
+    "Higher modules in this line (10W) add cut speed and depth",
+    "Not the SKU for a shop cutting 3 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 5W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "S9 community mods (air assist, extended feet) are well documented — search Sculpfun Facebook groups before your first big project.",
-  "primaryUse": "Budget Sculpfun open-frame for wood/leather engraving and light thin-wood cutting.",
+  "beginnerNotes": "This profile is the 5W module on Sculpfun S9. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
+  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
   "rating": {
     "overall": 7.9,
     "value": 8.5,
@@ -121,5 +122,6 @@
   ],
   "modelLine": "sculpfun-s9",
   "powerRating": "5W",
-  "releaseDate": "2021-06"
+  "releaseDate": "2021-06",
+  "tierEditorialOverride": false
 }

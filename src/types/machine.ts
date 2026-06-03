@@ -86,6 +86,17 @@ export interface MachineFaq {
   answer: string;
 }
 
+/** How an accessory relates to this machine (editorial, not live stock). */
+export type AccessoryAvailability = "included" | "optional" | "recommended" | "not_applicable";
+
+export interface MachineAccessory {
+  /** Stable id — labels live in i18n (`accessories.items.*`). */
+  id: string;
+  availability: AccessoryAvailability;
+  /** Machine-specific detail (English in JSON; FR via translation overlay). */
+  note?: string;
+}
+
 /** One photo in a machine gallery (manufacturer product shots). */
 export interface MachinePhoto {
   src: string;
@@ -133,6 +144,10 @@ export interface Machine {
   rating: MachineRating;
   similarModels?: string[];
   faq?: MachineFaq[];
+  /** Overrides or adds to inferred accessory list for this profile */
+  accessories?: MachineAccessory[];
+  /** If true, keep JSON pros/cons on multi-power pages (skip auto tier editorial) */
+  tierEditorialOverride?: boolean;
   affiliateUrl?: string;
   status: ContentStatus;
   lastUpdated: string;

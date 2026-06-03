@@ -7,12 +7,12 @@
   "laserType": "diode",
   "tagline": "Entry H20 chassis with integrated design and Ortur app workflow",
   "tldr": "Ortur H20 10W is the base diode tier on the H20 frame — faster traverse than LM3 with a more enclosed integration. Good for engraving and light cuts; step up to 20W or 40W for thicker wood.",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
-    "Ortur fans",
-    "Wood engraving",
-    "Desk workshops",
-    "Light cutting"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 1179,
@@ -69,19 +69,22 @@
     ]
   },
   "pros": [
-    "Newer Ortur integrated frame",
-    "High advertised traverse speed",
-    "Optional IR bundles for metal",
-    "LightBurn support"
+    "Entry H20 chassis with integrated design and Ortur app workflow",
+    "Fully enclosed cabinet — beam containment and smoke control vs open-frame diodes",
+    "Swappable laser head on the same chassis — upgrade wattage without a new machine",
+    "Work area 410 × 275 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "10W on Ortur H20: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~28–43 min"
   ],
   "cons": [
-    "10W limits cutting depth",
-    "Premium over open-frame LM3",
-    "IR bundles cost extra"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Higher modules in this line (20W or 40W) add cut speed and depth",
+    "Not the SKU for a shop cutting 5 mm+ stock all day"
   ],
-  "beginnerNotes": "Solid Ortur pick if you want the H20 chassis without 40W pricing.",
-  "proTips": "Add air assist for cutting. Compare total price to LM3 20W before buying.",
-  "primaryUse": "Mid-tier integrated Ortur engraver for wood and leather gifts.",
+  "beginnerNotes": "This profile is the 10W module on Ortur H20. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "10W module · Ortur H20",
   "rating": {
     "overall": 8,
     "value": 8,
@@ -147,5 +150,6 @@
       "src": "/machines/ortur-h20-10w/04.webp",
       "alt": "Ortur H20 10W laser engraver — Ortur"
     }
-  ]
+  ],
+  "tierEditorialOverride": false
 }

@@ -8,12 +8,12 @@
   "image": "/machines/twotrees-tts-55-40w/01.webp",
   "tagline": "40W Ultra-budget diode with surprising build quality for the price",
   "tldr": "TwoTrees TTS-55 40W is the 40W SKU on the TwoTrees twotrees tts 55 line. TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "bestFor": [
-    "Ultra-tight budget",
-    "First experiments",
-    "Light engraving",
-    "3D printer owners"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 349,
@@ -71,22 +71,22 @@
     ]
   },
   "pros": [
-    "Among the lowest prices available",
-    "Decent frame for the cost",
-    "LightBurn support",
-    "Modular power upgrades",
-    "Good companion if you already own TwoTrees 3D printers"
+    "40W Ultra-budget diode with surprising build quality for the price",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 300 × 300 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "40W: the most cut-focused head in the TwoTrees TTS-55 line",
+    "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
-    "Inconsistent QA between batches",
-    "Small English support community",
-    "40W label is marketing-heavy",
-    "Open frame — full safety on you",
-    "May need alignment tweaks out of box"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Square the frame before first burn. Treat published max speed as aspirational — start at 50% for engraves until you dial settings in.",
-  "primaryUse": "Bare-minimum budget diode for light engraving experiments and learning whether you enjoy the hobby.",
+  "beginnerNotes": "This profile is the 40W module on TwoTrees TTS-55. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "40W module · TwoTrees TTS-55",
   "rating": {
     "overall": 7.2,
     "value": 8.8,
@@ -119,5 +119,6 @@
     }
   ],
   "modelLine": "twotrees-tts-55",
-  "powerRating": "40W"
+  "powerRating": "40W",
+  "tierEditorialOverride": false
 }

@@ -8,12 +8,12 @@
   "image": "/machines/sculpfun-icube-pro-10w/01.webp",
   "tagline": "10W Compact enclosed Sculpfun — small footprint, full safety cabinet",
   "tldr": "Sculpfun iCube Pro Max 10W is the 10W SKU on the Sculpfun sculpfun icube pro line. Sculpfun's enclosed desktop laser for makers who want the brand's cutting performance in a safer cabinet. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
-    "Small desks",
-    "Enclosed safety",
-    "Sculpfun ecosystem",
-    "Home office"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 449,
@@ -71,22 +71,21 @@
     ]
   },
   "pros": [
-    "Enclosed Sculpfun performance in compact box",
-    "Less smoke in room vs open S30",
-    "Sculpfun community settings transfer well",
-    "LightBurn support",
-    "Fits desks that cannot fit open-frame 400 mm machines"
+    "10W Compact enclosed Sculpfun — small footprint, full safety cabinet",
+    "Fully enclosed cabinet — beam containment and smoke control vs open-frame diodes",
+    "Work area 300 × 300 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "10W on Sculpfun iCube Pro Max: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~12–18 min",
+    "Reference cut job on this module: ~6–10 min"
   ],
   "cons": [
-    "Small work area vs open Sculpfun models",
-    "USB-only on many configs",
-    "Enclosure limits material height",
-    "Not cheaper enough vs open S30 to ignore bed size loss",
-    "Ventilation still recommended for cutting"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Not the SKU for a shop cutting 5 mm+ stock all day"
   ],
-  "beginnerNotes": "Choose 10W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Use Sculpfun community presets as starting points — dial back 10–15% speed inside enclosure if char increases due to heat buildup.",
-  "primaryUse": "Compact enclosed diode for small-space home offices doing engraving and light cuts on wood and leather.",
+  "beginnerNotes": "This profile is the 10W module on Sculpfun iCube Pro Max. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "10W module · Sculpfun iCube Pro Max",
   "rating": {
     "overall": 8.2,
     "value": 8.3,
@@ -121,5 +120,6 @@
   ],
   "modelLine": "sculpfun-icube-pro",
   "powerRating": "10W",
-  "releaseDate": "2024-04"
+  "releaseDate": "2024-04",
+  "tierEditorialOverride": false
 }

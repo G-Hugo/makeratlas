@@ -1,4 +1,5 @@
 import type { Dictionary } from "./types";
+import { accessoriesEn } from "@/i18n/accessories-copy";
 import { pagesContentEn } from "@/i18n/pages-content/en";
 
 export const en: Dictionary = {
@@ -196,13 +197,22 @@ export const en: Dictionary = {
     capability: "Capability",
     buildQuality: "Build quality",
   },
+  accessories: accessoriesEn,
   compare: {
     title: "Compare laser engravers",
     description:
       "Filter by laser type and budget. Click any machine for the full profile with honest pros, cons, and material limits. Prices in USD with approximate EUR.",
     laserType: "Laser type",
     allTypes: "All types",
-    maxPrice: "Max price",
+    maxPrice: "Max price (USD)",
+    anyBudget: "Any budget",
+    sortLabel: "Sort by",
+    sortByScore: "Highest score",
+    sortByPrice: "Lowest price",
+    sortByName: "Name (A–Z)",
+    showingCount: "Showing {count} machines",
+    searchLabel: "Search",
+    searchPlaceholder: "Brand, name, or use case…",
     machine: "Machine",
     mainObjective: "Main objective",
     precision: "Precision",
@@ -215,11 +225,12 @@ export const en: Dictionary = {
   guides: {
     title: "Guides",
     description:
-      "Clear guides to understand laser types, choose the right machine, and avoid common buying mistakes.",
+      "Clear guides to understand laser types, choose the right machine, set up ventilation, and avoid common buying mistakes.",
     safetyBanner: "Laser safety basics: read first",
     categoryBuying: "buying guide",
     categorySafety: "safety",
     categoryTypes: "laser types",
+    categorySetup: "setup",
   },
   about: {
     title: "About Maker Atlas",

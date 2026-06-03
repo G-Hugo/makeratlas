@@ -3,27 +3,27 @@
   "tldr": "Le module D1 Pro 40 W s’installe sur le même châssis que les têtes 5–20 W. Meilleure marge de découpe de la gamme ; vérifiez la puissance optique sur l’annonce.",
   "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
   "primaryUse": "Gravure loisir polyvalente sur bois, cuir et métaux revêtus, avec découpe légère de bois fin et acrylique foncé.",
-  "beginnerNotes": "Choisissez le 40 W si la découpe de bois plus épais est votre priorité. Comparez profondeur de découpe et prix avec les autres gammes de la ligne avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 40W de xTool D1 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Utilisez assistance air et plateau nid d’abeille pour des découpes plus propres. Pour marquer le métal, utilisez LaserBond ou Brilliance — les résultats varient selon le revêtement. Ajoutez des rehausseurs à roues acier pour gobelets et objets cylindriques.",
   "bestFor": [
-    "Hobbyistes",
-    "Gravure bois et cuir",
-    "Apprendre le laser",
-    "Personnalisation cadeaux"
+    "Découpe max. de la gamme",
+    "Atelier vitesse",
+    "Bois épais",
+    "Semaines découpe"
   ],
   "pros": [
-    "Grande surface de travail pour le prix",
-    "Modules puissance modulaires (commencer 10 W, passer à 20 W)",
-    "Logiciel et tutoriels communautaires solides",
-    "Bonne qualité de fabrication vs diodes chinoises moins chères",
-    "Compatible LightBurn pour utilisateurs avancés"
+    "40 W — module D1 Pro haut de gamme, diode xTool structure ouverte la plus puissante",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Tête laser interchangeable sur le même châssis — monter en puissance sans racheter la machine",
+    "Surface utile 430 × 390 mm (16.9 × 15.4 in) sur ce châssis",
+    "Logiciels : xTool Creative Space · LightBurn",
+    "Meilleure marge de découpe de la gamme — benchmark ~10 mm tilleul",
+    "40W : tête la plus orientée découpe de xTool D1 Pro"
   ],
   "cons": [
-    "Structure ouverte — lunettes laser obligatoires et supervision requise",
-    "Toujours pas l’équivalent du CO₂ pour acrylique et découpes épaisses",
-    "Plus lent sur grandes gravures remplies vs CO₂",
-    "Assistance air et enceinte vendus séparément",
-    "Taille du spot diode limite le détail ultra-fin vs fibre/UV"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

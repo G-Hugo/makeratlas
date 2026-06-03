@@ -8,10 +8,10 @@
   "tagline": "20W Ultra-budget diode laser — minimum viable entry point",
   "tldr": "Atomstack A5 Pro 20W is the 20W SKU on the Atomstack atomstack a5 pro line. One of the cheapest ways to try laser engraving. Verify optical power on the listing — do not assume combined-watt marketing.",
   "bestFor": [
-    "Tight budget",
-    "Testing the hobby",
-    "Small gifts",
-    "Students"
+    "Mixed engrave & cut",
+    "Hobby side business",
+    "Signs & boxes",
+    "Small-batch gifts"
   ],
   "priceRange": {
     "min": 299,
@@ -69,22 +69,21 @@
     ]
   },
   "pros": [
-    "Lowest cost entry to laser engraving",
-    "Large work area for the price",
-    "Upgrade path via module swaps",
-    "Huge amount of community content",
-    "Good 'try before you invest' machine"
+    "20W Ultra-budget diode laser — minimum viable entry point",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 410 × 400 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "Balanced engrave and cut — typical 8 mm basswood in multiple passes",
+    "Reference engrave job on this module: ~12–18 min",
+    "Reference cut job on this module: ~6–10 min"
   ],
   "cons": [
-    "Build quality and alignment vary unit to unit",
-    "40W label is marketing — real output is much lower",
-    "No enclosure, limited safety features",
-    "May need significant tinkering out of the box",
-    "Resale value low if you upgrade quickly"
+    "Verify the 20W SKU — same chassis, different modules",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 20W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Square the frame before first use. Replace the stock board if you hit firmware limits. Do not trust '40W' for business planning — test cut depth yourself on your unit.",
-  "primaryUse": "Lowest-cost experimentation with diode laser engraving on small wood and leather projects.",
+  "beginnerNotes": "This profile is the 20W module on Atomstack A5 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
+  "primaryUse": "20W module · Atomstack A5 Pro",
   "rating": {
     "overall": 7.4,
     "value": 8.5,
@@ -98,7 +97,7 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/atomstack-a5-pro-20w/01.webp",
-  "mainObjective": "Versatile hobby engraving with solid cutting through typical 3–6 mm basswood",
+  "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "images": [
     {
       "src": "/machines/atomstack-a5-pro-20w/01.webp",
@@ -118,5 +117,6 @@
     }
   ],
   "modelLine": "atomstack-a5-pro",
-  "powerRating": "20W"
+  "powerRating": "20W",
+  "tierEditorialOverride": false
 }

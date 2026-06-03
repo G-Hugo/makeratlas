@@ -3,7 +3,8 @@
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
-import { laserTypeLabelLocalized } from "@/lib/i18n-helpers";
+import { interpolate, laserTypeLabelLocalized } from "@/lib/i18n-helpers";
+import { machineMatchesLaserType } from "@/lib/laser-capabilities";
 import { ComparePriceCell } from "@/components/pricing/MachinePrice";
 import type { Machine, LaserType } from "@/types/machine";
 import { useMemo, useState } from "react";
@@ -14,6 +15,17 @@ interface ComparePageClientProps {
   dict: Dictionary;
 }
 
+const MAX_PRICE_OPTIONS = [
+  { value: "all", usd: null },
+  { value: 500, usd: 500 },
+  { value: 1000, usd: 1000 },
+  { value: 2000, usd: 2000 },
+  { value: 5000, usd: 5000 },
+] as const;
+
+type MaxPriceFilter = (typeof MAX_PRICE_OPTIONS)[number]["value"];
+type SortKey = "score" | "price" | "name";
+
 function exampleSummary(example: { time: string; size: string }) {
   if (example.size === "—") return example.time;
   return `${example.time} (${example.size})`;
@@ -21,20 +33,64 @@ function exampleSummary(example: { time: string; size: string }) {
 
 export function ComparePageClient({ machines, locale, dict }: ComparePageClientProps) {
   const c = dict.compare;
+  const [search, setSearch] = useState("");
   const [typeFilter, setTypeFilter] = useState<LaserType | "all">("all");
-
-  const filtered = useMemo(() => {
-    return machines.filter((m) => {
-      const typeMatch = typeFilter === "all" || m.laserType === typeFilter;
-      return typeMatch;
-    });
-  }, [machines, typeFilter]);
+  const [maxPrice, setMaxPrice] = useState<MaxPriceFilter>("all");
+  const [sort, setSort] = useState<SortKey>("score");
 
   const showPrice = locale === "en";
 
+  const filtered = useMemo(() => {
+    const priceCap =
+      maxPrice === "all" ? null : MAX_PRICE_OPTIONS.find((o) => o.value === maxPrice)?.usd ?? null;
+
+    const q = search.trim().toLowerCase();
+
+    let result = machines.filter((m) => {
+      const typeMatch = typeFilter === "all" || machineMatchesLaserType(m, typeFilter);
+      const priceMatch =
+        priceCap === null || !showPrice || m.priceRange.min <= priceCap;
+      const searchMatch =
+        q === "" ||
+        m.name.toLowerCase().includes(q) ||
+        m.brand.toLowerCase().includes(q) ||
+        m.mainObjective.toLowerCase().includes(q) ||
+        m.bestFor.some((b) => b.toLowerCase().includes(q));
+      return typeMatch && priceMatch && searchMatch;
+    });
+
+    result = [...result].sort((a, b) => {
+      if (sort === "name") return a.name.localeCompare(b.name);
+      if (sort === "price" && showPrice) {
+        if (a.priceRange.min !== b.priceRange.min) {
+          return a.priceRange.min - b.priceRange.min;
+        }
+        return b.rating.overall - a.rating.overall;
+      }
+      return b.rating.overall - a.rating.overall;
+    });
+
+    return result;
+  }, [machines, search, typeFilter, maxPrice, sort, showPrice]);
+
   return (
     <div>
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-2 text-sm text-stone-600 dark:text-stone-400">
+        <p>{interpolate(c.showingCount, { count: filtered.length })}</p>
+      </div>
+
       <div className="mb-8 flex flex-wrap gap-4 rounded-xl border border-stone-200 bg-white p-4 dark:border-stone-700 dark:bg-stone-900">
+        <label className="flex min-w-[200px] flex-1 flex-col gap-1 text-sm">
+          <span className="font-medium text-stone-700 dark:text-stone-300">{c.searchLabel}</span>
+          <input
+            type="search"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder={c.searchPlaceholder}
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
+          />
+        </label>
+
         <label className="flex flex-col gap-1 text-sm">
           <span className="font-medium text-stone-700 dark:text-stone-300">{c.laserType}</span>
           <select
@@ -46,7 +102,42 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
             <option value="diode">{dict.laserTypes.diode}</option>
             <option value="co2">{dict.laserTypes.co2}</option>
             <option value="fiber">{dict.laserTypes.fiber}</option>
+            <option value="uv">{dict.laserTypes.uv}</option>
             <option value="hybrid">{dict.laserTypes.hybrid}</option>
+          </select>
+        </label>
+
+        {showPrice && (
+          <label className="flex flex-col gap-1 text-sm">
+            <span className="font-medium text-stone-700 dark:text-stone-300">{c.maxPrice}</span>
+            <select
+              value={String(maxPrice)}
+              onChange={(e) => {
+                const v = e.target.value;
+                setMaxPrice(v === "all" ? "all" : (Number(v) as MaxPriceFilter));
+              }}
+              className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
+            >
+              <option value="all">{c.anyBudget}</option>
+              {MAX_PRICE_OPTIONS.filter((o) => o.usd !== null).map((o) => (
+                <option key={o.value} value={o.value}>
+                  ≤ ${o.usd}
+                </option>
+              ))}
+            </select>
+          </label>
+        )}
+
+        <label className="flex flex-col gap-1 text-sm">
+          <span className="font-medium text-stone-700 dark:text-stone-300">{c.sortLabel}</span>
+          <select
+            value={sort}
+            onChange={(e) => setSort(e.target.value as SortKey)}
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
+          >
+            <option value="score">{c.sortByScore}</option>
+            {showPrice && <option value="price">{c.sortByPrice}</option>}
+            <option value="name">{c.sortByName}</option>
           </select>
         </label>
       </div>

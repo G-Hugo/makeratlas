@@ -3,24 +3,23 @@
   "tldr": "Le Gweike G2 Pro 30W Fiber est la référence 30W de la gamme G2. Le Gweike G2 intègre un galvo fibre 20W dans un format de bureau. Vérifiez la puissance optique sur l'annonce — ne vous fiez pas au marketing en watts combinés.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Gravure fibre de bureau pour activités secondaires orientées métal.",
-  "beginnerNotes": "Choisissez le 30W s'il correspond à vos jobs habituels. Comparez profondeur de gravure et prix avec les autres niveaux de la gamme avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 30W de Gweike G2 Pro Fibre. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Utilisez un hachurage croisé sur les pièces courbes avec rotary à faible vitesse.",
   "bestFor": [
-    "Cadeaux métal",
-    "Marquage plastiques",
-    "Fibre budget",
-    "Petit atelier"
+    "Bijoux & plaques",
+    "Petites pièces métal",
+    "Apprendre la fibre",
+    "Marquage bureau"
   ],
   "pros": [
-    "Prix fibre compétitif",
-    "Marque connue dans l'univers CO₂ maker",
-    "Compatible LightBurn",
-    "Compact"
+    "Marqueur fibre 30W de bureau pour métal et certains plastiques",
+    "Fibre = marquage métal — ne découpe pas bois ni acrylique",
+    "Surface utile 110 × 110 mm sur ce châssis",
+    "Exemple gravure de référence sur ce module : ~3–7 min"
   ],
   "cons": [
-    "Communauté plus petite que ComMarker pour la fibre",
-    "Vérifiez la garantie régionale",
-    "Accessoires variables selon le bundle"
+    "Fibre 30W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
+    "Montée possible vers 50W si le débit métal devient critique"
   ],
   "materials": {
     "engrave": [

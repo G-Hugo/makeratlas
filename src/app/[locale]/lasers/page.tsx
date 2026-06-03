@@ -5,6 +5,7 @@ import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { interpolate } from "@/lib/i18n-helpers";
 import { getCatalogEntries } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/seo";
 import { notFound } from "next/navigation";
 
 interface PageProps {
@@ -15,12 +16,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale: localeParam } = await params;
   if (!isLocale(localeParam)) return {};
   const dict = getDictionary(localeParam);
-  return {
+  return buildPageMetadata({
+    locale: localeParam,
+    path: "/lasers",
     title: dict.lasers.title,
     description: interpolate(dict.lasers.description, {
       count: getCatalogEntries(localeParam as Locale).length,
     }),
-  };
+  });
 }
 
 export default async function LasersPage({ params }: PageProps) {

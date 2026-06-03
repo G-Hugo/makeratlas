@@ -8,10 +8,10 @@
   "tagline": "40W High-power diode with built-in air assist and color engraving gimmick",
   "tldr": "Creality Falcon2 Pro 40W is the 40W SKU on the Creality creality falcon2 pro line. Creality's top open-frame diode at 60W combined (22W optical class). Verify optical power on the listing — do not assume combined-watt marketing.",
   "bestFor": [
-    "Color metal effects",
-    "Integrated air assist",
-    "Creality ecosystem fans",
-    "Strong diode cutting"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 799,
@@ -71,22 +71,22 @@
     ]
   },
   "pros": [
-    "Built-in air assist — one less accessory to buy",
-    "Color engraving on stainless is a unique selling point",
-    "Strong performance in the high-power diode segment",
-    "LightBurn support",
-    "Creality brand familiarity for 3D printer owners"
+    "40W High-power diode with built-in air assist and color engraving gimmick",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 400 × 415 mm on this chassis",
+    "Software: Creality Laser · LightBurn",
+    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "40W: the most cut-focused head in the Creality Falcon2 Pro line",
+    "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
-    "60W marketing number confuses beginners — optical power is lower",
-    "Open frame with high power — treat safety seriously",
-    "Creality laser software less mature than xTool",
-    "Color metal effect is niche, not a business foundation alone",
-    "Heavier unit — less portable than it looks"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Color marking requires precise speed/power control — practice on scrap stainless. Use LightBurn for serious work. Pair with proper extraction — built-in air assist helps cuts but does not replace ventilation.",
-  "primaryUse": "High-power hobby diode for engraving and moderate cutting, with optional color effects on stainless steel.",
+  "beginnerNotes": "This profile is the 40W module on Creality Falcon2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "40W module · Creality Falcon2 Pro",
   "rating": {
     "overall": 8.3,
     "value": 8.2,
@@ -102,7 +102,7 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/creality-falcon2-pro-40w/01.webp",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "images": [
     {
       "src": "/machines/creality-falcon2-pro-40w/01.webp",
@@ -124,5 +124,6 @@
   "powerRating": "40W",
   "modelLine": "creality-falcon2-pro",
   "catalogPrimary": true,
-  "releaseDate": "2024-09"
+  "releaseDate": "2024-09",
+  "tierEditorialOverride": false
 }

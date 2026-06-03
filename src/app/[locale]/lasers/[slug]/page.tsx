@@ -38,10 +38,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const redirectSlug = getCatalogRedirectSlug(machine, locale);
   if (redirectSlug && redirectSlug !== slug) {
     const target = getMachineBySlug(redirectSlug, locale);
-    if (target) return buildMachineMetadata(target);
+    if (target) return buildMachineMetadata(target, locale);
   }
 
-  return buildMachineMetadata(machine);
+  return buildMachineMetadata(machine, locale);
 }
 
 export default async function MachinePage({ params }: PageProps) {
@@ -72,7 +72,7 @@ export default async function MachinePage({ params }: PageProps) {
 
   return (
     <>
-      <JsonLd data={machineJsonLd(machine)} />
+      <JsonLd data={machineJsonLd(machine, locale)} />
       <JsonLd
         data={breadcrumbJsonLd([
           { name: m.breadcrumbLasers, path: localizedPath(locale, "/lasers") },

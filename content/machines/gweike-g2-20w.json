@@ -8,12 +8,12 @@
   "powerRating": "20W",
   "tagline": "Desktop fiber marker for metal and select plastics",
   "tldr": "Gweike G2 packages a 20W fiber galvo in a desktop form factor. Solid option if you want metal marking with Gweike ecosystem familiarity from their CO₂ lines.",
-  "mainObjective": "Shop marking on metals, plastics, and coated parts with production-friendly speeds",
+  "mainObjective": "Entry fiber marking on small metal parts",
   "bestFor": [
-    "Metal gifts",
-    "Plastics marking",
-    "Budget fiber",
-    "Small shop"
+    "Jewelry tags",
+    "Small metal parts",
+    "Learning fiber",
+    "Bench marking"
   ],
   "priceRange": {
     "min": 1499,
@@ -68,19 +68,18 @@
     ]
   },
   "pros": [
-    "Competitive fiber pricing",
-    "Known brand in maker CO₂ space",
-    "LightBurn path",
-    "Compact"
+    "Desktop fiber marker for metal and select plastics",
+    "Fiber marks metal — does not cut wood or acrylic",
+    "Work area 110 × 110 mm on this chassis",
+    "Reference engrave job on this module: ~4–9 min"
   ],
   "cons": [
-    "Smaller community than ComMarker for fiber",
-    "Verify warranty region",
-    "Accessories vary by bundle"
+    "20W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Upgrade path to 30W or 50W if metal throughput becomes the bottleneck"
   ],
-  "beginnerNotes": "Compare with ComMarker B4 on price, software bundle, and local support.",
-  "proTips": "Use cross-hatch on curved items with rotary at low speed.",
-  "primaryUse": "Desktop fiber engraving for metal-focused side businesses.",
+  "beginnerNotes": "This profile is the 20W module on Gweike G2 Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Fix parts firmly; start with low power test squares on scrap metal. Rotary adds complexity — budget time to learn indexing.",
+  "primaryUse": "Desktop fiber marking for jewelry-scale and test jobs",
   "rating": {
     "overall": 8.3,
     "value": 8.6,
@@ -115,5 +114,6 @@
   ],
   "modelLine": "gweike-g2",
   "catalogPrimary": true,
-  "releaseDate": "2023-06"
+  "releaseDate": "2023-06",
+  "tierEditorialOverride": false
 }

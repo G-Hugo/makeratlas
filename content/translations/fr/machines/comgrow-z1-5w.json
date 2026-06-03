@@ -3,25 +3,28 @@
   "tldr": "La Comgrow Z1 5W est la référence 5W de la gamme Z1. Comgrow cible les débutants, souvent vendue aux côtés des imprimantes Ender 3D. Vérifiez la puissance optique sur l'annonce — ne vous fiez pas au marketing en watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
   "primaryUse": "Diode ultra-budget pour tester si le travail au laser vous intéresse.",
-  "beginnerNotes": "Choisissez le 5W s'il correspond à vos jobs habituels. Comparez profondeur de découpe et prix avec les autres niveaux de la gamme avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 5W de Comgrow Z1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Considérez-la comme des roues stabilisatrices — prévoyez une montée en gamme sous un an si vous vendez vos créations.",
   "bestFor": [
-    "Packs Comgrow",
-    "Premiers essais",
-    "Gravure légère",
-    "Budget serré"
+    "Gravure fine",
+    "Photo & logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
-    "Prix très bas",
-    "Souvent en promo dans les bundles",
-    "Compatible LightBurn",
-    "Suffisante pour apprendre les bases"
+    "Diode Comgrow 5W petit budget — souvent proposée en pack avec les imprimantes 3D",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 300 × 300 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "5W sur Comgrow Z1 : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~28–43 min",
+    "Exemple découpe de référence sur ce module : ~14–24 min"
   ],
   "cons": [
-    "Structure basique",
-    "Communauté plus petite qu'Ortur",
-    "Qualité variable selon les lots",
-    "Rapidement dépassée si le loisir devient sérieux"
+    "Ce module vise les découpes fines (environ 3 mm de tilleul) — pas la production épaisse",
+    "Modules plus puissants dans la gamme (10W ou 20W) : découpe plus rapide et plus profonde",
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

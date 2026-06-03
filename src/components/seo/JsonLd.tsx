@@ -1,4 +1,6 @@
 import type { Machine } from "@/types/machine";
+import type { Locale } from "@/i18n/config";
+import { localizedPath } from "@/i18n/navigation";
 import { absoluteUrl, SITE_URL } from "@/lib/site-url";
 
 interface JsonLdProps {
@@ -21,8 +23,8 @@ function toIsoReleaseDate(iso: string): string {
   return iso;
 }
 
-export function machineJsonLd(machine: Machine) {
-  const url = absoluteUrl(`/lasers/${machine.slug}`);
+export function machineJsonLd(machine: Machine, locale: Locale) {
+  const url = absoluteUrl(localizedPath(locale, `/lasers/${machine.slug}`));
   const image = machine.image.startsWith("http")
     ? machine.image
     : absoluteUrl(machine.image);
@@ -70,18 +72,22 @@ export function breadcrumbJsonLd(
   };
 }
 
-export function guideJsonLd(guide: {
-  title: string;
-  description: string;
-  slug: string;
-  lastUpdated: string;
-}) {
+export function guideJsonLd(
+  guide: {
+    title: string;
+    description: string;
+    slug: string;
+    lastUpdated: string;
+  },
+  locale: Locale,
+) {
   return {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: guide.title,
     description: guide.description,
-    url: absoluteUrl(`/guides/${guide.slug}`),
+    url: absoluteUrl(localizedPath(locale, `/guides/${guide.slug}`)),
+    inLanguage: locale === "fr" ? "fr-FR" : "en-US",
     dateModified: guide.lastUpdated,
     publisher: {
       "@type": "Organization",

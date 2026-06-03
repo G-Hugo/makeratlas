@@ -158,6 +158,6 @@ Learning and tests only. **Paying engraving customers?** Jump to the next row.
 3. Start at **your** budget; upgrade for **cutting volume** or acrylic, not YouTube specs.  
 4. Read what each machine **cannot** do on our [profiles](/lasers).  
 
-**Links:** [All lasers](/lasers) · [Compare](/compare) · [Laser types](/guides/understanding-laser-types) · [Safety basics](/guides/laser-safety-basics)
+**Links:** [All lasers](/lasers) · [Compare](/compare) · [Laser types](/guides/understanding-laser-types) · [Ventilation setup](/guides/laser-ventilation-setup) · [Safety basics](/guides/laser-safety-basics)
 
 *May 2026. Approximate USD. Check profiles for current limits.*

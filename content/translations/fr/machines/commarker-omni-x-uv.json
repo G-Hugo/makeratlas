@@ -3,26 +3,27 @@
   "tldr": "La ComMarker Omni X utilise la longueur d'onde UV pour un marquage à froid sur le verre, certains plastiques et matériaux délicats, avec moins de dégâts thermiques qu'une fibre ou un CO₂. Plus lente que la fibre sur le métal — un outil différent pour des matériaux différents.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
   "primaryUse": "Gravure UV pour trophées verre, pièces plastique et personnalisation cadeaux fines.",
-  "beginnerNotes": "Achetez-la pour la niche cadeaux verre/plastique — pas comme unique laser si vous avez aussi besoin de métal ou de découpe épaisse.",
+  "beginnerNotes": "Ce profil décrit le module 5W de ComMarker Omni X UV. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Testez chaque couleur de plastique — l'absorption UV varie énormément. Commencez à faible puissance sur le verre.",
   "bestFor": [
-    "Verre",
-    "Plastiques",
-    "Fins détails",
-    "Cadeaux",
-    "Marquage électronique"
+    "Gravure fine",
+    "Photo & logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
-    "Marque le verre sans les modes de défaillance fibre/CO₂",
-    "Marquage à froid réduit la fonte sur les plastiques",
-    "Fins détails pour petits cadeaux",
-    "Encombrement bureau"
+    "Laser UV de bureau pour verre, plastique et fines détails",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 100 × 100 mm typical sur ce châssis",
+    "Logiciels : ComMarker · LightBurn",
+    "5W sur ComMarker Omni X UV : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~6–12 min",
+    "Exemple découpe de référence sur ce module : Not a cutter"
   ],
   "cons": [
-    "Lente sur les grandes zones remplies",
-    "Pas adaptée à la production métal",
-    "Lunettes de sécurité UV obligatoires",
-    "Tests matériaux requis pour chaque type de plastique"
+    "Ce module vise les découpes fines (environ 4 mm de tilleul) — pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

@@ -8,12 +8,12 @@
   "image": "/machines/algolaser-alpha-mk2-10w/01.webp",
   "tagline": "10W Entry Alpha MK2 — speed-focused open-frame diode",
   "tldr": "The 10W Alpha MK2 (often sold as DIY kit or enclosed 10W SKU) is the engraving-first tier. Step up to 20W or 40W for faster fills and deeper cuts.",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
-    "Fine engraving",
-    "Speed-focused hobbyists",
-    "Wood & leather detail",
-    "Light production"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 929,
@@ -74,22 +74,23 @@
     ]
   },
   "pros": [
-    "Tight spot for finer detail in diode class",
-    "Fast fill engraving on optimized settings",
-    "Large work area",
-    "LightBurn-first workflow",
-    "Solid frame rigidity"
+    "10W Entry Alpha MK2 — speed-focused open-frame diode",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 440 × 410 mm on this chassis",
+    "Software: LightBurn · Algolaser app",
+    "10W on Algolaser Alpha MK2: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~14–21 min",
+    "Reference cut job on this module: ~7–14 min"
   ],
   "cons": [
-    "Open frame — safety glasses mandatory",
-    "40W optical claims need verification on your unit",
-    "Smaller community than Ortur/xTool",
-    "Premium price vs Ortur for similar watt class",
-    "Air assist often sold separately"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Higher modules in this line (20W or 40W) add cut speed and depth",
+    "Not the SKU for a shop cutting 5 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 20W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Algolaser shines on line art and shallow fills — push speed on vectors after test burns. Use compressed spot advantage for photo engraving on coated wood.",
-  "primaryUse": "Performance-oriented open-frame diode for detailed wood and leather engraving with above-average speed.",
+  "beginnerNotes": "This profile is the 10W module on Algolaser Alpha MK2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "10W module · Algolaser Alpha MK2",
   "rating": {
     "overall": 8.2,
     "value": 8.2,
@@ -124,5 +125,6 @@
   ],
   "modelLine": "algolaser-alpha-mk2",
   "powerRating": "10W",
-  "releaseDate": "2024-03"
+  "releaseDate": "2024-03",
+  "tierEditorialOverride": false
 }

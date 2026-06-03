@@ -7,12 +7,12 @@
   "laserType": "diode",
   "tagline": "Fast portable Longer — 12W with high traverse and rotary options",
   "tldr": "Longer Nano Pro 12W is a premium portable diode with very high advertised speeds and rotary/slide accessories. Niche machine for makers who need portability with more punch than 6W minis.",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
-    "Portable power",
-    "Rotary engraving",
-    "Travel business",
-    "Longer fans"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 1999,
@@ -69,19 +69,22 @@
     ]
   },
   "pros": [
-    "High speed claims",
-    "Rotary and slide ecosystem",
-    "Longer support",
-    "More power than Nano 6W"
+    "Fast portable Longer — 12W with high traverse and rotary options",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 130 × 130 mm (extendable with slide) on this chassis",
+    "Software: Longer Laser · LightBurn",
+    "12W on Longer Nano Pro: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~12–18 min",
+    "Reference cut job on this module: ~6–10 min"
   ],
   "cons": [
-    "Expensive for portable class",
-    "Small native bed",
-    "Not a bench replacement"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Not the SKU for a shop cutting 5 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Buy for portability + speed — not instead of a 400 mm open frame.",
-  "proTips": "Budget for slide extension if you do tumblers regularly.",
-  "primaryUse": "Premium portable Longer for on-the-go engraving and rotary work.",
+  "beginnerNotes": "This profile is the 12W module on Longer Nano Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "12W module · Longer Nano Pro",
   "rating": {
     "overall": 8,
     "value": 8,
@@ -110,5 +113,6 @@
       "src": "/machines/longer-nano-pro-12w/02.jpg",
       "alt": "Longer Nano Pro 12W laser engraver — Longer"
     }
-  ]
+  ],
+  "tierEditorialOverride": false
 }

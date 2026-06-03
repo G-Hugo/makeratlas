@@ -8,10 +8,10 @@
   "tagline": "Entry enclosed S1 — engraving-first with swappable head ecosystem",
   "tldr": "The 10W S1 is xTool's entry enclosed bundle: same Class-1 cabinet as 20W/40W, but the installed diode module limits cutting depth. You can upgrade later by swapping the laser head — verify you are buying the 10W SKU, not a bare machine without a module.",
   "bestFor": [
-    "Home workshops",
-    "Families with kids nearby",
-    "Apartment use",
-    "Cleaner engraving"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 999,
@@ -72,20 +72,22 @@
     ]
   },
   "pros": [
-    "Fully enclosed — major safety and smoke improvement vs open-frame",
-    "Built-in exhaust filter option for apartment use",
-    "Same large work area as D1 Pro in a safer package",
-    "LightBurn compatible",
-    "Camera alignment available on some configs"
+    "Entry enclosed S1 — engraving-first with swappable head ecosystem",
+    "Fully enclosed cabinet — beam containment and smoke control vs open-frame diodes",
+    "Swappable laser head on the same chassis — upgrade wattage without a new machine",
+    "Work area 430 × 390 mm on this chassis",
+    "Software: xTool Creative Space · LightBurn",
+    "10W on xTool S1: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~14–21 min"
   ],
   "cons": [
-    "Enclosure adds bulk",
-    "Filter cartridges need replacement over time",
-    "40W diode marketing — verify optical power for your variant"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Higher modules in this line (20W or 40W) add cut speed and depth",
+    "Not the SKU for a shop cutting 5 mm+ stock all day"
   ],
-  "beginnerNotes": "Pick 10W if you mainly engrave and might upgrade the head later. Choose 20W or 40W factory configs if cutting thicker softwood is day-one priority.",
-  "proTips": "Vent to window when cutting heavily even with filters — filters reduce smell but are not magic. Use the camera for batch alignment on repeat products. Pair with xTool riser for tumblers.",
-  "primaryUse": "Enclosed hobby and light business diode laser for safer home engraving and moderate cutting.",
+  "beginnerNotes": "This profile is the 10W module on xTool S1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "10W module · xTool S1",
   "rating": {
     "overall": 8.3,
     "value": 8,
@@ -119,7 +121,7 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/xtool-s1-10w/01.webp",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "images": [
     {
       "src": "/machines/xtool-s1-10w/01.webp",
@@ -166,5 +168,6 @@
       }
     ]
   },
-  "releaseDate": "2023-10"
+  "releaseDate": "2023-10",
+  "tierEditorialOverride": false
 }

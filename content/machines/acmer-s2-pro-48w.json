@@ -7,12 +7,12 @@
   "laserType": "diode",
   "tagline": "Top Acmer S2 Pro — 48W compressed diode with bundle options",
   "tldr": "Acmer S2 Pro 48W is Acmer's high-power open-frame option before the enclosed P3. Strong cutting claims — verify optical power and compare to P3 48W enclosed if you need smoke control.",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "bestFor": [
-    "High power Acmer",
-    "Cutting",
-    "Rotary engraving",
-    "Bundle buyers"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 799,
@@ -67,18 +67,22 @@
     ]
   },
   "pros": [
-    "Highest Acmer open-frame power",
-    "Rotary and IR packs",
-    "Competitive vs P3 if you have ventilation"
+    "Top Acmer S2 Pro — 48W compressed diode with bundle options",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 400 × 400 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "48W: the most cut-focused head in the Acmer S2 Pro line",
+    "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
-    "P3 enclosed is newer",
-    "Compressed watt claims",
-    "Smaller community"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose P3 instead if you need integrated enclosure and camera.",
-  "proTips": "All-in-one packs often include extras you won't use — price the Basic pack.",
-  "primaryUse": "High-power Acmer open-frame for cutting-heavy hobby or side business.",
+  "beginnerNotes": "This profile is the 48W module on Acmer S2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "48W module · Acmer S2 Pro",
   "rating": {
     "overall": 8,
     "value": 8,
@@ -115,5 +119,6 @@
       "src": "/machines/acmer-s2-pro-48w/04.webp",
       "alt": "Acmer S2 Pro 48W laser engraver — Acmer"
     }
-  ]
+  ],
+  "tierEditorialOverride": false
 }

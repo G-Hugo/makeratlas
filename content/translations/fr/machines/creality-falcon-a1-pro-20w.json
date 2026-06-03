@@ -3,24 +3,26 @@
   "tldr": "La Creality Falcon A1 Pro 20W ajoute une configuration double laser dans un châssis fermé pour une gravure plus rapide et du marquage métal/plastique. Juste milieu entre l'A1 10W et la gamme ouverte Falcon 2 Pro 40W.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Creality double source fermée pour le travail mixte petite entreprise.",
-  "beginnerNotes": "Choisissez-la quand vous voulez enceinte + marquage métal dans une seule machine Creality.",
+  "beginnerNotes": "Ce profil décrit le module 20W de Creality Falcon A1 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Testez chaque source laser sur des chutes — IR et diode demandent des réglages différents.",
   "bestFor": [
-    "Écosystème Creality",
-    "Marquage métal",
-    "Gravure plus rapide",
-    "Petite entreprise"
+    "Gravure + découpe",
+    "Side business",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "Double laser en châssis fermé",
-    "Plus de puissance que l'A1 10W",
-    "Suite logicielle Creality",
-    "Marquage métal sans fibre séparée"
+    "A1 Pro fermée double source — diode plus infrarouge pour plus de matériaux",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 250 × 250 mm (approx.) sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Exemple gravure de référence sur ce module : ~8–12 min",
+    "Exemple découpe de référence sur ce module : ~4–7 min"
   ],
   "cons": [
-    "Plateau plus petit que la Falcon 2",
-    "Complexité hybride vs diode unique",
-    "Premium par rapport au 20W à structure ouverte"
+    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

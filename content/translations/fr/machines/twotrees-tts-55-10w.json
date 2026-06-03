@@ -3,27 +3,28 @@
   "tldr": "La TwoTrees TTS-55 10 W est la version 10 W de la gamme TTS-55. TwoTrees sous-cote Atomstack et Ortur avec une plateforme diode utilisable. Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing « watts combinés ».",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Diode petit budget minimum pour expériences de gravure légère et découvrir le loisir.",
-  "beginnerNotes": "Choisissez le 10 W si ça correspond à vos usages habituels. Comparez profondeur de découpe et prix avec les autres gammes de la ligne avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 10W de TwoTrees TTS-55. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Équerez le châssis avant la première gravure. Considérez la vitesse max annoncée comme théorique — commencez à 50 % pour les remplissages jusqu’à caler vos réglages.",
   "bestFor": [
-    "Budget ultra serré",
-    "Premières expériences",
-    "Gravure légère",
-    "Propriétaires d’imprimantes 3D"
+    "Atelier gravure",
+    "Cuir & bois cadeau",
+    "Apprendre la gamme",
+    "Détail prioritaire"
   ],
   "pros": [
-    "Parmi les prix les plus bas du marché",
-    "Châssis correct pour le coût",
-    "Compatible LightBurn",
-    "Upgrades de puissance modulaires",
-    "Bon complément si vous avez déjà une imprimante 3D TwoTrees"
+    "Diode ultra petit budget 10 W — qualité de châssis surprenante pour le prix",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 300 × 300 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "10W sur TwoTrees TTS-55 : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~28–43 min",
+    "Exemple découpe de référence sur ce module : ~14–24 min"
   ],
   "cons": [
-    "Contrôle qualité inconstant entre lots",
-    "Communauté anglophone réduite",
-    "Label 40 W très marketing",
-    "Structure ouverte — sécurité entièrement à votre charge",
-    "Alignement parfois à ajuster à la sortie de boîte"
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
+    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

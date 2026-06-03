@@ -8,10 +8,10 @@
   "tagline": "10W Compact fixed-focus diode — simple desk engraver for small projects",
   "tldr": "Longer Ray5 10W is the 10W SKU on the Longer longer ray5 line. Longer's compact Ray5 20W diode engraver — verify you are buying the 20W SKU, not the 5W, 10W, or 40W Ray5 listings. Verify optical power on the listing — do not assume combined-watt marketing.",
   "bestFor": [
-    "Desk engraving",
-    "Small items",
-    "Simple setup",
-    "Secondary machine"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 249,
@@ -70,22 +70,23 @@
     ]
   },
   "pros": [
-    "Touchscreen and fixed focus simplify first jobs",
-    "Compact footprint for a desk",
-    "SD card offline operation",
-    "Affordable 20W option for light work",
-    "Good as a second machine for small engravings"
+    "10W Compact fixed-focus diode — simple desk engraver for small projects",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 375 × 375 mm on this chassis",
+    "Software: Longer Laser Tool · LightBurn",
+    "10W on Longer Ray5: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~28–43 min",
+    "Reference cut job on this module: ~14–24 min"
   ],
   "cons": [
-    "Less rigid frame than Sculpfun/Ortur at similar prices",
-    "Not competitive for cutting-focused buyers",
-    "Smaller community than Ortur/xTool",
-    "Fixed focus limits flexibility on uneven items",
-    "Limited upgrade path vs. modular competitors"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Higher modules in this line (20W or 40W) add cut speed and depth",
+    "Not the SKU for a shop cutting 5 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 10W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Use a riser or rotary for tumblers if your model supports it. LightBurn improves workflow vs. stock app. Keep expectations on cutting — this is an engraver first.",
-  "primaryUse": "Compact desktop engraving of small wood, leather, and slate items with minimal setup complexity.",
+  "beginnerNotes": "This profile is the 10W module on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "10W module · Longer Ray5",
   "rating": {
     "overall": 7.6,
     "value": 7.8,
@@ -100,7 +101,7 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/longer-ray5-10w/01.webp",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "images": [
     {
       "src": "/machines/longer-ray5-10w/01.webp",
@@ -121,5 +122,6 @@
   ],
   "powerRating": "10W",
   "modelLine": "longer-ray5",
-  "releaseDate": "2022-08"
+  "releaseDate": "2022-08",
+  "tierEditorialOverride": false
 }

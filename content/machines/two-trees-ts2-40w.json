@@ -8,12 +8,12 @@
   "image": "/machines/two-trees-ts2-40w/01.webp",
   "tagline": "40W TwoTrees' popular TS2 platform — 20W open-frame with active community",
   "tldr": "TwoTrees TS2 40W is the 40W SKU on the TwoTrees two trees ts2 line. The TS2 20W is one of TwoTrees' best-known laser lines — often compared to Ortur and Sculpfun at aggressive sale prices. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "bestFor": [
-    "Budget 20W",
-    "TwoTrees ecosystem",
-    "Wood engraving",
-    "Sale hunters"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 399,
@@ -72,22 +72,22 @@
     ]
   },
   "pros": [
-    "Aggressive sale pricing",
-    "Full-size work area",
-    "LightBurn compatible",
-    "Upgrade kits (rotary, extension) available",
-    "Active TwoTrees owner groups"
+    "40W TwoTrees' popular TS2 platform — 20W open-frame with active community",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 410 × 400 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "40W: the most cut-focused head in the TwoTrees TS2 line",
+    "Reference engrave job on this module: ~12–18 min"
   ],
   "cons": [
-    "Support less consistent than Ortur/xTool",
-    "Open frame safety",
-    "Unit-to-unit variance reported",
-    "Documentation can lag firmware updates",
-    "TS2 40W Max may be better value when on sale"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 40W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "TwoTrees bundles (honeycomb + air assist) often beat buying parts separately — check official store bundles before checkout.",
-  "primaryUse": "Budget 20W TwoTrees platform for hobby engraving and moderate thin-wood cutting.",
+  "beginnerNotes": "This profile is the 40W module on TwoTrees TS2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "40W module · TwoTrees TS2",
   "rating": {
     "overall": 8,
     "value": 8.6,
@@ -121,5 +121,6 @@
     }
   ],
   "modelLine": "two-trees-ts2",
-  "powerRating": "40W"
+  "powerRating": "40W",
+  "tierEditorialOverride": false
 }

@@ -7,6 +7,7 @@ import {
 } from "@/components/pages/InfoPageLayout";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
+import { buildPageMetadata } from "@/lib/seo";
 
 interface PageProps {
   params: Promise<{ locale: string }>;
@@ -20,7 +21,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale: localeParam } = await params;
   if (!isLocale(localeParam)) return {};
   const dict = getDictionary(localeParam);
-  return { title: dict.about.title, description: dict.about.subtitle };
+  return buildPageMetadata({
+    locale: localeParam,
+    path: "/about",
+    title: dict.about.title,
+    description: dict.about.subtitle,
+  });
 }
 
 export default async function AboutPage({ params }: PageProps) {

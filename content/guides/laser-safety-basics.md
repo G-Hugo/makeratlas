@@ -145,6 +145,7 @@ Less smoke than CO₂ on engrave jobs, but still ventilate. "It smells fine" is 
 
 ## What's next?
 
+- [Ventilation & exhaust setup](/guides/laser-ventilation-setup): practical ducting and fan sizing
 - [Understanding laser types](/guides/understanding-laser-types): pick the right technology
 - [Buying guide 2026](/guides/laser-buying-guide-2026): match machine to your work
 - [Browse all lasers](/lasers): every profile lists honest material limits

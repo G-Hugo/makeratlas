@@ -8,12 +8,12 @@
   "powerRating": "100W",
   "tagline": "100W Split fiber laser engraver with autofocus from Monport",
   "tldr": "Monport GT 100W Fiber is the 100W SKU on the Monport monport gt line. Monport GT 30W brings split-cabinet fiber marking with autofocus — useful for varying part heights. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Industrial marking and deep engraving on metals and engineered plastics",
+  "mainObjective": "Maximum fiber marking speed and depth in the line",
   "bestFor": [
-    "Mixed part heights",
-    "Production",
-    "Metal marking",
-    "Monport ecosystem"
+    "Deep metal engraving",
+    "High throughput",
+    "Production quotes",
+    "Large mark jobs"
   ],
   "priceRange": {
     "min": 4999,
@@ -68,19 +68,17 @@
     ]
   },
   "pros": [
-    "Autofocus for varying heights",
-    "Monport support ecosystem",
-    "Split layout for production",
-    "MOPA tiers available"
+    "100W Split fiber laser engraver with autofocus from Monport",
+    "Fiber marks metal — does not cut wood or acrylic",
+    "Work area 150 × 150 mm typical on this chassis",
+    "Reference engrave job on this module: ~2–5 min"
   ],
   "cons": [
-    "Large footprint",
-    "Premium over entry galvo boxes",
-    "Still not a general laser cutter"
+    "100W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs"
   ],
-  "beginnerNotes": "Choose 100W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Calibrate autofocus on your most common part thickness.",
-  "primaryUse": "Production fiber marking with easier focus management across part sizes.",
+  "beginnerNotes": "This profile is the 100W module on Monport GT Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Push speed only after depth tests on your metal alloy. Cooling and lens cleanliness matter more at this power level.",
+  "primaryUse": "High-power fiber for metal-focused shops needing line-top throughput",
   "rating": {
     "overall": 8.5,
     "value": 8.3,
@@ -109,5 +107,6 @@
       "alt": "Monport GT 100W Fiber laser engraver — Monport"
     }
   ],
-  "modelLine": "monport-gt"
+  "modelLine": "monport-gt",
+  "tierEditorialOverride": false
 }

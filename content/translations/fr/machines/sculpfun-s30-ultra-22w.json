@@ -3,27 +3,27 @@
   "tldr": "Le S30 Ultra 22 W est ce que Sculpfun vend aujourd’hui comme config Ultra structure ouverte haut de gamme (souvent avec LightBurn). Meilleure marge de découpe de la famille ; ne le confondez pas avec les anciennes annonces 10 W ou 20 W.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Diode loisir milieu de gamme orientée gravure et découpe modérée de matériaux organiques.",
-  "beginnerNotes": "Choisissez le S30 Ultra plutôt qu’un Ortur basique si la découpe de bois fin compte. Pour la gravure seule, économisez avec un 10 W. Prévoyez assistance air, plateau alvéolé et lunettes.",
+  "beginnerNotes": "Ce profil décrit le module 22W de Sculpfun S30 Ultra. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Sculpfun publie des cartes de test matériaux — servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
   "bestFor": [
-    "Découpe bois fin",
-    "Montées en gamme loisir",
-    "Production budget",
-    "Bois et cuir"
+    "Découpe plus rapide",
+    "Bois plus épais",
+    "Panneaux",
+    "Montée depuis 10W"
   ],
   "pros": [
-    "Forte découpe dans la classe diode",
-    "Châssis rigide réduit la flexion à haute vitesse",
-    "Bon rapport qualité-prix entre Ortur et xTool",
-    "Large écosystème accessoires (rotatif, extensions)",
-    "Base utilisateurs active avec réglages testés"
+    "haut de gamme S30 Ultra actuel — puissance diode Sculpfun maximale",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 410 × 400 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "Meilleure marge de découpe de la gamme — benchmark ~8 mm tilleul",
+    "22W : tête la plus orientée découpe de Sculpfun S30 Ultra",
+    "Exemple gravure de référence sur ce module : ~7–11 min"
   ],
   "cons": [
-    "Structure ouverte — sécurité entièrement à votre charge",
-    "USB seul sur beaucoup de configs (pas de Wi-Fi)",
-    "Support et doc moins soignés que xTool",
-    "Toujours un diode — calibrez vos attentes vs CO₂",
-    "Montage et équerrage demandent de la patience"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

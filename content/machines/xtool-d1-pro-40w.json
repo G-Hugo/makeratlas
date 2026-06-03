@@ -8,10 +8,10 @@
   "tagline": "40W Top D1 Pro module — strongest open-frame xTool diode",
   "tldr": "The 40W D1 Pro module swaps onto the same frame as 5W–20W heads. Best cut headroom in the line; verify optical power on the listing.",
   "bestFor": [
-    "Hobbyists",
-    "Wood & leather engraving",
-    "Learning lasers",
-    "Gift personalization"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 999,
@@ -74,22 +74,22 @@
     ]
   },
   "pros": [
-    "Large work area for the price",
-    "Modular power upgrades (start 10W, move to 20W)",
-    "Strong software support and community tutorials",
-    "Good build quality vs. cheaper Chinese diodes",
-    "LightBurn compatible for advanced users"
+    "40W Top D1 Pro module — strongest open-frame xTool diode",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Swappable laser head on the same chassis — upgrade wattage without a new machine",
+    "Work area 430 × 390 mm (16.9 × 15.4 in) on this chassis",
+    "Software: xTool Creative Space · LightBurn",
+    "Best cut headroom in the line — benchmarked around 10 mm basswood-class stock",
+    "40W: the most cut-focused head in the xTool D1 Pro line"
   ],
   "cons": [
-    "Open frame — you must wear laser safety glasses and supervise operation",
-    "20W still cannot match CO₂ for acrylic and thick cuts",
-    "Slower on large fill engravings compared to CO₂",
-    "Air assist and enclosure sold separately",
-    "Diode spot size limits ultra-fine detail vs. fiber/UV"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode — clear acrylic production wants CO₂",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 20W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Use air assist and a honeycomb bed for cleaner cuts. For metal marking, use LaserBond or Brilliance spray — results vary by coating. Upgrade to steel wheel risers if you engrave tumblers or cylindrical objects.",
-  "primaryUse": "General-purpose hobby engraving on wood, leather, and coated metals, with light cutting of thin wood and dark acrylic.",
+  "beginnerNotes": "This profile is the 40W module on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
+  "primaryUse": "40W module · xTool D1 Pro",
   "rating": {
     "overall": 8.4,
     "value": 8.5,
@@ -105,7 +105,7 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/xtool-d1-pro-40w/01.webp",
-  "mainObjective": "Fast hobby engraving and cutting — thicker basswood, dark acrylic, and shorter job times",
+  "mainObjective": "Maximum cut speed and depth in the line — engraving remains strong at tuned speeds",
   "images": [
     {
       "src": "/machines/xtool-d1-pro-40w/01.webp",
@@ -157,5 +157,6 @@
       }
     ]
   },
-  "releaseDate": "2023-03"
+  "releaseDate": "2023-03",
+  "tierEditorialOverride": false
 }

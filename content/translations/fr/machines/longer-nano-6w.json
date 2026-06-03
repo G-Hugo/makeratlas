@@ -3,24 +3,28 @@
   "tldr": "Le Longer Nano 6 W est une graveuse portable compacte pour petits cadeaux et apprentissage. S’intègre à l’écosystème accessoires Longer. Passez au Nano Pro 12 W si vous avez besoin d’une vraie vitesse de découpe.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
   "primaryUse": "Portable Longer compact pour petits projets de gravure.",
-  "beginnerNotes": "Passez votre chemin si vous prévoyez déjà un laser de bureau 10 W+.",
+  "beginnerNotes": "Ce profil décrit le module 6W de Longer Nano. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Le Nano Pro 12 W est le meilleur portable Longer si le budget le permet.",
   "bestFor": [
-    "Portabilité",
-    "Petits cadeaux",
-    "Écosystème Longer",
-    "Débutants"
+    "Gravure fine",
+    "Photo & logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
-    "Support marque Longer",
-    "Compact",
-    "Packs accessoires disponibles",
-    "Rangement facile"
+    "Entrée portable Longer — diode compacte pour petits projets",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 130 × 130 mm (approx.) sur ce châssis",
+    "Logiciels : Longer Laser · LightBurn",
+    "6W sur Longer Nano : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~18–28 min",
+    "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "Faible puissance vs Nano Pro",
-    "Petite zone de travail",
-    "Premium vs mini lasers génériques"
+    "Ce module vise les découpes fines (environ 3 mm de tilleul) — pas la production épaisse",
+    "Modules plus puissants dans la gamme (12W) : découpe plus rapide et plus profonde",
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

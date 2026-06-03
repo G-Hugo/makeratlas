@@ -8,12 +8,12 @@
   "powerRating": "30W",
   "tagline": "Split fiber laser engraver with autofocus from Monport",
   "tldr": "Monport GT 30W brings split-cabinet fiber marking with autofocus — useful for varying part heights. Strong alternative to Gweike G6 in the same class.",
-  "mainObjective": "Shop marking on metals, plastics, and coated parts with production-friendly speeds",
+  "mainObjective": "Entry fiber marking on small metal parts",
   "bestFor": [
-    "Mixed part heights",
-    "Production",
-    "Metal marking",
-    "Monport ecosystem"
+    "Jewelry tags",
+    "Small metal parts",
+    "Learning fiber",
+    "Bench marking"
   ],
   "priceRange": {
     "min": 2599,
@@ -67,19 +67,18 @@
     ]
   },
   "pros": [
-    "Autofocus for varying heights",
-    "Monport support ecosystem",
-    "Split layout for production",
-    "MOPA tiers available"
+    "Split fiber laser engraver with autofocus from Monport",
+    "Fiber marks metal — does not cut wood or acrylic",
+    "Work area 150 × 150 mm typical on this chassis",
+    "Reference engrave job on this module: ~4–11 min"
   ],
   "cons": [
-    "Large footprint",
-    "Premium over entry galvo boxes",
-    "Still not a general laser cutter"
+    "30W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Upgrade path to 50W, 60W or 100W if metal throughput becomes the bottleneck"
   ],
-  "beginnerNotes": "Compare bundles with rotary and safety gear included.",
-  "proTips": "Calibrate autofocus on your most common part thickness.",
-  "primaryUse": "Production fiber marking with easier focus management across part sizes.",
+  "beginnerNotes": "This profile is the 30W module on Monport GT Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Fix parts firmly; start with low power test squares on scrap metal. Rotary adds complexity — budget time to learn indexing.",
+  "primaryUse": "Desktop fiber marking for jewelry-scale and test jobs",
   "rating": {
     "overall": 8.5,
     "value": 8.3,
@@ -102,5 +101,6 @@
   ],
   "modelLine": "monport-gt",
   "catalogPrimary": true,
-  "releaseDate": "2024-06"
+  "releaseDate": "2024-06",
+  "tierEditorialOverride": false
 }

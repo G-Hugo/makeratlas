@@ -3,22 +3,27 @@
   "tldr": "L'Omni XE se situe entre l'Omni 1 et l'Omni X dans la gamme UV ComMarker — vérifiez les specs actuelles pour la taille du plateau et la puissance. L'UV reste spécialisé : verre, plastiques, fines détails.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
   "primaryUse": "Personnalisation UV sur verre et plastique avec une zone de travail légèrement plus grande.",
-  "beginnerNotes": "Comparez Omni X vs XE vs 1 sur la taille du plateau, le rotary inclus et la licence logicielle.",
-  "proTips": "Utilisez des fixations pour un positionnement verre reproductible.",
+  "beginnerNotes": "Ce profil décrit le module 5W de ComMarker Omni XE UV. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Utilisez les benchmarks de cette fiche pour chiffrer vos devis. Testez sur chutes avant production.",
   "bestFor": [
-    "Verre",
-    "Plastiques",
-    "Cadeaux taille moyenne",
-    "Production UV"
+    "Gravure fine",
+    "Photo & logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
-    "Plus d'espace que l'Omni 1",
-    "Avantages du marquage UV à froid",
-    "Format bureau"
+    "Plateforme UV élargie pour travaux verre et plastique plus grands",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 120 × 120 mm typical sur ce châssis",
+    "Logiciels : ComMarker · LightBurn",
+    "5W sur ComMarker Omni XE UV : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~6–12 min",
+    "Exemple découpe de référence sur ce module : Not a cutter"
   ],
   "cons": [
-    "Chevauche l'Omni X — comparez les bundles",
-    "Tests matériaux UV requis"
+    "Ce module vise les découpes fines (environ 4 mm de tilleul) — pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

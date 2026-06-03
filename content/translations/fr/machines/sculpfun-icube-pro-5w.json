@@ -3,27 +3,28 @@
   "tldr": "Le Sculpfun iCube Pro 5 W est le SKU 5 W de la gamme iCube Pro. Laser de bureau fermé Sculpfun pour makers qui veulent les performances de découpe de la marque dans un capot plus sûr. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
   "primaryUse": "Diode fermée compacte pour bureaux à petit espace : gravure et découpes légères bois/cuir.",
-  "beginnerNotes": "Choisissez le 5 W s’il correspond à vos jobs habituels. Comparez profondeur de découpe et prix aux autres paliers de la gamme avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 5W de Sculpfun iCube Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Utilisez les réglages communautaires Sculpfun comme point de départ — réduisez la vitesse de 10–15 % dans le capot si la carbonisation augmente à cause de la chaleur.",
   "bestFor": [
-    "Petits bureaux",
-    "Sécurité fermée",
-    "Écosystème Sculpfun",
-    "Bureau à domicile"
+    "Gravure fine",
+    "Photo & logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
-    "Performances Sculpfun fermées dans un boîtier compact",
-    "Moins de fumée dans la pièce vs S30 structure ouverte",
-    "Réglages communautaires Sculpfun transférables",
-    "Support LightBurn",
-    "Tient sur bureaux qui n’accueillent pas 400 mm structure ouverte"
+    "iCube Pro 5 W — Sculpfun compact fermé, petit encombrement et capot complet",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 300 × 300 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "5W sur Sculpfun iCube Pro : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~18–28 min",
+    "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "Petite zone vs modèles Sculpfun structure ouverte",
-    "USB seul sur beaucoup de configs",
-    "Capot limite la hauteur des matériaux",
-    "Pas assez moins cher vs S30 open pour ignorer la perte de plateau",
-    "Ventilation toujours recommandée pour la découpe"
+    "Ce module vise les découpes fines (environ 3 mm de tilleul) — pas la production épaisse",
+    "Modules plus puissants dans la gamme (10W) : découpe plus rapide et plus profonde",
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

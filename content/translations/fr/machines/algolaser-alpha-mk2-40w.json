@@ -3,27 +3,27 @@
   "tldr": "L'Alpha MK2 40 W est la référence 40 W de la gamme Alpha MK2. Algolaser vise les makers exigeant vitesse de gravure et contrôle fin du faisceau. Vérifiez la puissance optique sur la fiche produit — ne vous fiez pas au marketing de watts cumulés.",
   "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
   "primaryUse": "Diode à structure ouverte orientée performance pour gravure détaillée sur bois et cuir, avec vitesse au-dessus de la moyenne.",
-  "beginnerNotes": "Choisissez le 40 W si vos travaux typiques le justifient. Comparez profondeur de découpe et prix avec les autres paliers de la gamme avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 40W de Algolaser Alpha MK2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Algolaser brille sur le tracé et les remplissages légers — poussez la vitesse sur les vecteurs après des essais. Exploitez le faisceau compressé pour la gravure photo sur bois enduit.",
   "bestFor": [
-    "Gravure fine",
-    "Loisir orienté vitesse",
-    "Détails bois et cuir",
-    "Petite production"
+    "Découpe max. de la gamme",
+    "Atelier vitesse",
+    "Bois épais",
+    "Semaines découpe"
   ],
   "pros": [
-    "Faisceau serré pour plus de finesse dans la classe diode",
-    "Gravure en remplissage rapide avec réglages optimisés",
-    "Grande zone de travail",
-    "Compatible LightBurn",
-    "Châssis rigide et solide"
+    "Alpha MK2 40 W — diode haut de gamme à structure ouverte, vitesse et finesse",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 440 × 410 mm sur ce châssis",
+    "Logiciels : LightBurn · Algolaser app",
+    "Meilleure marge de découpe de la gamme — benchmark ~10 mm tilleul",
+    "40W : tête la plus orientée découpe de Algolaser Alpha MK2",
+    "Exemple gravure de référence sur ce module : ~6–9 min"
   ],
   "cons": [
-    "Structure ouverte — lunettes de protection obligatoires",
-    "Puissance optique 40 W à vérifier sur votre unité",
-    "Communauté plus petite qu'Ortur/xTool",
-    "Prix élevé face à Ortur pour une puissance similaire",
-    "Assistance air souvent vendue séparément"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

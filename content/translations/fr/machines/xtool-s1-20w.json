@@ -3,25 +3,26 @@
   "tldr": "La S1 20 W est le bon rapport qualité-prix dans la ligne diode fermée xTool : même enceinte et filtres que la 40 W, mais moins de profondeur de découpe sur bois épais. Achetez-la si la sécurité compte et que vous gravez surtout.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Diode fermée loisir et petite activité pour gravure plus sûre à domicile et découpe modérée.",
-  "beginnerNotes": "Choisissez la S1 20 W pour une xTool fermée à budget plus serré. Passez à 40 W seulement si vous découpez régulièrement du bois tendre plus épais.",
+  "beginnerNotes": "Ce profil décrit le module 20W de xTool S1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres — ils réduisent les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
   "bestFor": [
-    "Ateliers à domicile",
-    "Familles avec enfants à proximité",
-    "Usage en appartement",
-    "Gravure plus propre"
+    "Gravure + découpe",
+    "Side business",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "Entièrement fermée — gros progrès sécurité et fumées vs structure ouverte",
-    "Option filtre échappement intégré pour appartement",
-    "Même grande surface que D1 Pro dans un pack plus sûr",
-    "Compatible LightBurn",
-    "Alignement caméra disponible sur certaines configs"
+    "Diode 20 W fermée — gravure domicile plus sûre avec découpe modérée",
+    "Cabine fermée — meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Tête laser interchangeable sur le même châssis — monter en puissance sans racheter la machine",
+    "Surface utile 430 × 390 mm sur ce châssis",
+    "Logiciels : xTool Creative Space · LightBurn",
+    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Exemple gravure de référence sur ce module : ~9–14 min"
   ],
   "cons": [
-    "L’enceinte ajoute du volume",
-    "Cartouches filtre à remplacer avec le temps",
-    "Marketing 40 W diode — vérifiez puissance optique de votre variante"
+    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
+    "Vérifiez le SKU 20W — même châssis, modules différents"
   ],
   "materials": {
     "engrave": [

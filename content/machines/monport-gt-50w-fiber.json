@@ -8,12 +8,12 @@
   "powerRating": "50W",
   "tagline": "50W Split fiber laser engraver with autofocus from Monport",
   "tldr": "Monport GT 50W Fiber is the 50W SKU on the Monport monport gt line. Monport GT 30W brings split-cabinet fiber marking with autofocus — useful for varying part heights. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Industrial marking and deep engraving on metals and engineered plastics",
+  "mainObjective": "Production-leaning fiber marking for small businesses",
   "bestFor": [
-    "Mixed part heights",
-    "Production",
-    "Metal marking",
-    "Monport ecosystem"
+    "Daily metal marking",
+    "Tools & knives",
+    "Shop labels",
+    "Batch runs"
   ],
   "priceRange": {
     "min": 3199,
@@ -68,19 +68,18 @@
     ]
   },
   "pros": [
-    "Autofocus for varying heights",
-    "Monport support ecosystem",
-    "Split layout for production",
-    "MOPA tiers available"
+    "50W Split fiber laser engraver with autofocus from Monport",
+    "Fiber marks metal — does not cut wood or acrylic",
+    "Work area 150 × 150 mm typical on this chassis",
+    "Reference engrave job on this module: ~3–8 min"
   ],
   "cons": [
-    "Large footprint",
-    "Premium over entry galvo boxes",
-    "Still not a general laser cutter"
+    "50W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Upgrade path to 60W or 100W if metal throughput becomes the bottleneck"
   ],
-  "beginnerNotes": "Choose 50W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Calibrate autofocus on your most common part thickness.",
-  "primaryUse": "Production fiber marking with easier focus management across part sizes.",
+  "beginnerNotes": "This profile is the 50W module on Monport GT Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work — it slows flat-stock days.",
+  "primaryUse": "Mid-power fiber for shops marking metal daily",
   "rating": {
     "overall": 8.5,
     "value": 8.3,
@@ -101,5 +100,6 @@
       "alt": "Monport GT 50W Fiber laser engraver — Monport"
     }
   ],
-  "modelLine": "monport-gt"
+  "modelLine": "monport-gt",
+  "tierEditorialOverride": false
 }

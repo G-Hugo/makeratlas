@@ -70,7 +70,7 @@ Each machine has an `image` field (e.g. `/machines/xtool-d1-pro.svg`).
 ## Current content
 
 - **25 laser engravers** with performance specs (precision, speeds, main objective)
-- **3 guides**: laser types, buying guide 2026, safety basics
+- **4 guides**: laser types, buying guide 2026, safety basics, ventilation setup
 - Comparison page with precision & speed columns
 - Auto-generated machine images (replace with real photos anytime)
 

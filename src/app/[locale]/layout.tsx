@@ -1,5 +1,7 @@
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
+import { SITE_URL } from "@/lib/site-url";
 import { Footer, Header } from "@/components/layout/SiteChrome";
 import { ThemeProvider } from "@/components/layout/ThemeProvider";
 import { isLocale, locales, type Locale } from "@/i18n/config";
@@ -20,6 +22,14 @@ interface LocaleLayoutProps {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Maker Atlas",
+    template: "%s | Maker Atlas",
+  },
+};
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));

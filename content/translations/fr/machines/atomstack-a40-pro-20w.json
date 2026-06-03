@@ -3,27 +3,27 @@
   "tldr": "L’Atomstack A40 Pro 20 W est la référence 20 W de la gamme A40 Pro. Montée par rapport à l’A5 Pro avec un châssis plus rigide et un marketing découpe plus agressif (40 W cumulés). Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing en watts cumulés.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Diode structure ouverte budget moyen, entre les modèles d’entrée Atomstack et la gamme premium Sculpfun/xTool.",
-  "beginnerNotes": "Choisissez 20 W si cela correspond à vos travaux habituels. Comparez profondeur de découpe et prix avec les autres niveaux de cette gamme avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 20W de Atomstack A40 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Vérifiez la puissance optique avec un wattmètre si la profondeur de découpe compte pour vos produits. Renforcez les coins du châssis si vous ajoutez des kits d’extension.",
   "bestFor": [
-    "Montées en gamme Atomstack",
-    "Découpe petit budget",
-    "Gravure bois",
-    "Projets loisir annexes"
+    "Gravure + découpe",
+    "Side business",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "Meilleur châssis que l’A5 Pro",
-    "Grande surface de travail pour le prix",
-    "Immense base d’utilisateurs Atomstack",
-    "Compatible LightBurn",
-    "Montée en gamme abordable depuis l’A5"
+    "Atomstack 20 W milieu de gamme avec meilleur châssis et promesses de découpe classe 40 W",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 410 × 400 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Exemple gravure de référence sur ce module : ~18–28 min",
+    "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "L’étiquette 40 W dépasse la puissance optique réelle",
-    "Contrôle qualité encore en dessous des marques premium",
-    "Charge sécurité structure ouverte",
-    "Support client parfois lent",
-    "Peut devenir vite insuffisante si l’activité progresse"
+    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
+    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

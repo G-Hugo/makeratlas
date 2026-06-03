@@ -3,27 +3,28 @@
   "tldr": "Le Longer Ray5 5 W est le SKU 5 W de la gamme Ray5. Vérifiez la puissance optique sur l’annonce — ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
   "primaryUse": "Gravure bureau compacte de petits objets bois, cuir et ardoise avec une mise en route minimale.",
-  "beginnerNotes": "Choisissez le 5 W s’il correspond à vos jobs typiques. Comparez profondeur de découpe et prix avec les autres paliers de cette gamme avant de commander.",
-  "proTips": "Utilisez un rehausseur ou rotary pour les gobelets si votre modèle le supporte. LightBurn améliore le workflow vs l’app d’origine. Gardez des attentes modestes sur la découpe — c’est d’abord une graveuse.",
+  "beginnerNotes": "Ce profil décrit le module 5W de Longer Ray5. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Utilisez un rehausseur ou rotary pour les gobelets si votre modèle le supporte. LightBurn améliore le flux de travail vs l’app d’origine. Gardez des attentes modestes sur la découpe — c’est d’abord une graveuse.",
   "bestFor": [
-    "Gravure bureau",
-    "Petits objets",
-    "Mise en route simple",
-    "Deuxième machine"
+    "Gravure fine",
+    "Photo & logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
-    "Écran tactile et mise au point fixe simplifient les premiers jobs",
-    "Encombrement compact pour un bureau",
-    "Fonctionnement hors ligne par carte SD",
-    "Option abordable pour travail léger",
-    "Bon comme deuxième machine pour petites gravures"
+    "Diode 5 W mise au point fixe compacte — graveuse bureau simple pour petits projets",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 375 × 375 mm sur ce châssis",
+    "Logiciels : Longer Laser Tool · LightBurn",
+    "5W sur Longer Ray5 : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~44–65 min",
+    "Exemple découpe de référence sur ce module : ~22–36 min"
   ],
   "cons": [
-    "Châssis moins rigide que Sculpfun/Ortur à prix similaire",
-    "Peu compétitif pour les acheteurs orientés découpe",
-    "Communauté plus petite qu’Ortur/xTool",
-    "Mise au point fixe limite la flexibilité sur pièces irrégulières",
-    "Chemin de montée en gamme limité vs concurrents modulaires"
+    "Ce module vise les découpes fines (environ 3 mm de tilleul) — pas la production épaisse",
+    "Modules plus puissants dans la gamme (10W, 20W ou 40W) : découpe plus rapide et plus profonde",
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

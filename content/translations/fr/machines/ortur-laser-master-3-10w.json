@@ -3,27 +3,28 @@
   "tldr": "Le Laser Master 3 10 W est le SKU basse puissance d’Ortur sur le même châssis. Idéal pour apprendre et graver ; les découpeurs devraient choisir la version 20 W.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Introduction abordable à la gravure diode et découpe légère pour loisirs.",
-  "beginnerNotes": "Solide premier laser si vous hésitez sur le hobby. Commencez avec LightBurn (payant mais rentable). Ne comptez pas le faire tourner seul pour une entreprise — cycle de service et régularité peuvent frustrer les vendeurs à volume.",
+  "beginnerNotes": "Ce profil décrit le module 10W de Ortur Laser Master 3. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Rejoignez les groupes Ortur Facebook/Reddit avant l’achat — les astuces firmware font gagner des heures. Ajoutez l’assistance air tôt. Si vous prévoyez de vendre sous 6 mois, envisagez directement le xTool D1 Pro ou un CO₂.",
   "bestFor": [
-    "Débutants",
-    "Petit budget",
-    "Gravure bois",
-    "Premier laser"
+    "Atelier gravure",
+    "Cuir & bois cadeau",
+    "Apprendre la gamme",
+    "Détail prioritaire"
   ],
   "pros": [
-    "Excellent rapport zone de travail / prix",
-    "Communauté immense — correctifs et tutoriels partout",
-    "Support LightBurn pour workflows sérieux",
-    "Wi-Fi et options focus fixe simplifient la mise en route",
-    "Assez bon pour savoir si vous aurez besoin d’une plus grosse machine"
+    "LM3 budget — diode structure ouverte orientée gravure",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 400 × 400 mm (15.75 × 15.75 in) sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "10W sur Ortur Laser Master 3 : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~15–23 min",
+    "Exemple découpe de référence sur ce module : ~8–12 min"
   ],
   "cons": [
-    "Structure ouverte — lunettes obligatoires, pas adapté enfants/animaux",
-    "Fabrication et QA moins constantes que les marques premium",
-    "Support client parfois lent",
-    "Marketing 20 W = puissance optique/combinée — découpe réelle toujours limitée",
-    "Pas de capot — fumée et bruit dans l’atelier"
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
+    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

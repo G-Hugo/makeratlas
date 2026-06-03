@@ -3,23 +3,27 @@
   "tldr": "L’Ortur H20 20 W équilibre capacité de découpe et prix sur la plateforme H20. Graveuse loisir solide avec un châssis plus rapide que le LM3 — vérifiez la puissance optique, pas les étiquettes marketing « classe 40 W » des accessoires.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Ortur H20 polyvalent pour gravure et découpe légère à moyenne.",
-  "beginnerNotes": "Recommandation H20 par défaut pour la plupart des acheteurs entre 10 W et 40 W.",
+  "beginnerNotes": "Ce profil décrit le module 20W de Ortur H20. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Utilisez l’assistance air fournie pour les découpes. LightBurn vaut la licence pour les jobs répétés.",
   "bestFor": [
-    "Loisirs orientés vitesse",
-    "Cadeaux bois",
-    "Cuir",
-    "Écosystème Ortur"
+    "Gravure + découpe",
+    "Side business",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "Meilleur rapport qualité-prix H20 pour la plupart des makers",
-    "Gestion des câbles intégrée vs LM3",
-    "Offres combo IR disponibles",
-    "Communauté firmware Ortur active"
+    "Le juste milieu H20 — diode 20 W sur le châssis intégré série H d’Ortur",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 410 × 275 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Exemple gravure de référence sur ce module : ~18–28 min",
+    "Exemple découpe de référence sur ce module : ~9–15 min"
   ],
   "cons": [
-    "Toujours à l’air libre — ventilation requise",
-    "Le palier 40 W existe si vous avez besoin de plus de profondeur"
+    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
+    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

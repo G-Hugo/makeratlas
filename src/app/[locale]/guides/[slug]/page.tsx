@@ -8,6 +8,7 @@ import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { localizeGuideMarkdown } from "@/lib/i18n-helpers";
 import { getAllGuidesMeta, getGuideBySlug } from "@/lib/content";
+import { buildGuideMetadata } from "@/lib/seo";
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -25,17 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const guide = getGuideBySlug(slug, localeParam);
   if (!guide) return { title: localeParam === "fr" ? "Introuvable" : "Not found" };
 
-  return {
-    title: guide.title,
-    description: guide.description,
-    alternates: { canonical: `/${localeParam}/guides/${slug}` },
-    openGraph: {
-      title: guide.title,
-      description: guide.description,
-      url: `/${localeParam}/guides/${slug}`,
-      type: "article",
-    },
-  };
+  return buildGuideMetadata(guide, localeParam);
 }
 
 export default async function GuidePage({ params }: PageProps) {
@@ -50,7 +41,7 @@ export default async function GuidePage({ params }: PageProps) {
 
   return (
     <>
-      <JsonLd data={guideJsonLd(guide)} />
+      <JsonLd data={guideJsonLd(guide, locale)} />
       <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
         <nav className="mb-6 text-sm text-stone-500 dark:text-stone-400">
           <LocaleLink href="/guides" locale={locale} className="hover:text-amber-700 dark:hover:text-amber-400">

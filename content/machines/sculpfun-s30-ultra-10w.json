@@ -8,10 +8,10 @@
   "tagline": "Entry S30 Ultra frame — engraving-first, light cutting",
   "tldr": "The 10W S30 Ultra uses the same rigid frame as higher-power models but targets makers who mainly engrave wood, leather, and slate. Expect slower cuts and thinner material limits than the 20W or 22W versions.",
   "bestFor": [
-    "Cutting thin wood",
-    "Hobby upgrades",
-    "Budget production",
-    "Wood & leather"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 380,
@@ -71,23 +71,23 @@
     ]
   },
   "pros": [
-    "Strong cut performance in the diode class",
-    "Sturdy frame reduces flex at higher speeds",
-    "Good value between Ortur and xTool",
-    "Wide accessory ecosystem (rotary, extension kits)",
-    "Active user base with tested settings"
+    "Entry S30 Ultra frame — engraving-first, light cutting",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 410 × 400 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "10W on Sculpfun S30 Ultra: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~11–18 min",
+    "Reference cut job on this module: ~7–11 min"
   ],
   "cons": [
-    "Open frame — full safety responsibility on you",
-    "USB-only on many configs (no Wi-Fi)",
-    "Support and documentation less polished than xTool",
-    "Still a diode — manage expectations vs. CO₂",
-    "Assembly and squaring require patience",
-    "10W limits cutting vs 20W/22W siblings — verify SKU before buying"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Higher modules in this line (20W or 22W) add cut speed and depth",
+    "Not the SKU for a shop cutting 5 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Pick the 10W only if engraving is 90% of your work. If you might cut 6–8 mm wood later, buy the 20W or 22W variant instead.",
-  "proTips": "Sculpfun publishes material test cards — use them. Multiple slow passes beat one fast pass for cut quality. Extension kits are useful but check frame rigidity before going oversized.",
-  "primaryUse": "Mid-range hobby diode laser focused on engraving and moderate cutting of organic materials.",
+  "beginnerNotes": "This profile is the 10W module on Sculpfun S30 Ultra. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "10W module · Sculpfun S30 Ultra",
   "rating": {
     "overall": 8.1,
     "value": 8.8,
@@ -103,7 +103,7 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/sculpfun-s30-ultra-10w/01.webp",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "images": [
     {
       "src": "/machines/sculpfun-s30-ultra-10w/01.webp",
@@ -112,5 +112,6 @@
   ],
   "modelLine": "sculpfun-s30-ultra",
   "powerRating": "10W",
-  "releaseDate": "2023-03"
+  "releaseDate": "2023-03",
+  "tierEditorialOverride": false
 }

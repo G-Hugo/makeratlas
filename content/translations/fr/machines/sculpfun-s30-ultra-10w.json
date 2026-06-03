@@ -3,28 +3,28 @@
   "tldr": "Le S30 Ultra 10 W utilise le même châssis rigide que les modèles plus puissants, mais vise les makers qui gravent surtout bois, cuir et ardoise. Découpes plus lentes et limites d’épaisseur plus basses que les versions 20 W ou 22 W.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Diode loisir milieu de gamme orientée gravure et découpe modérée de matériaux organiques.",
-  "beginnerNotes": "Prenez le 10 W seulement si la gravure représente 90 % de votre usage. Si vous risquez de couper du bois 6–8 mm plus tard, achetez plutôt le 20 W ou 22 W.",
+  "beginnerNotes": "Ce profil décrit le module 10W de Sculpfun S30 Ultra. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Sculpfun publie des cartes de test matériaux — servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
   "bestFor": [
-    "Découpe bois fin",
-    "Montées en gamme loisir",
-    "Production budget",
-    "Bois et cuir"
+    "Atelier gravure",
+    "Cuir & bois cadeau",
+    "Apprendre la gamme",
+    "Détail prioritaire"
   ],
   "pros": [
-    "Forte découpe dans la classe diode",
-    "Châssis rigide réduit la flexion à haute vitesse",
-    "Bon rapport qualité-prix entre Ortur et xTool",
-    "Large écosystème accessoires (rotatif, extensions)",
-    "Base utilisateurs active avec réglages testés"
+    "Châssis S30 Ultra d’entrée — orienté gravure, découpe légère",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 410 × 400 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "10W sur Sculpfun S30 Ultra : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~11–18 min",
+    "Exemple découpe de référence sur ce module : ~7–11 min"
   ],
   "cons": [
-    "Structure ouverte — sécurité entièrement à votre charge",
-    "USB seul sur beaucoup de configs (pas de Wi-Fi)",
-    "Support et doc moins soignés que xTool",
-    "Toujours un diode — calibrez vos attentes vs CO₂",
-    "Montage et équerrage demandent de la patience",
-    "10 W limite la découpe vs les frères 20 W/22 W — vérifiez le SKU"
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Modules plus puissants dans la gamme (20W ou 22W) : découpe plus rapide et plus profonde",
+    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

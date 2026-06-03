@@ -3,25 +3,27 @@
   "tldr": "La S1 10 W est le pack fermé entrée xTool : même enceinte classe 1 que 20 W/40 W, mais le module diode limite la profondeur de découpe. Vous pouvez upgrader plus tard en changeant la tête — vérifiez que vous achetez le SKU 10 W, pas un châssis nu sans module.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
   "primaryUse": "Diode fermée loisir et petite activité pour gravure plus sûre à domicile et découpe modérée.",
-  "beginnerNotes": "Prenez 10 W si vous gravez surtout et pourriez upgrader la tête plus tard. Choisissez configs usine 20 W ou 40 W si découper du bois tendre plus épais dès le jour 1 est prioritaire.",
+  "beginnerNotes": "Ce profil décrit le module 10W de xTool S1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres — ils réduisent les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
   "bestFor": [
-    "Ateliers à domicile",
-    "Familles avec enfants à proximité",
-    "Usage en appartement",
-    "Gravure plus propre"
+    "Atelier gravure",
+    "Cuir & bois cadeau",
+    "Apprendre la gamme",
+    "Détail prioritaire"
   ],
   "pros": [
-    "Entièrement fermée — gros progrès sécurité et fumées vs structure ouverte",
-    "Option filtre échappement intégré pour appartement",
-    "Même grande surface que D1 Pro dans un pack plus sûr",
-    "Compatible LightBurn",
-    "Alignement caméra disponible sur certaines configs"
+    "S1 fermée entrée de gamme — orientée gravure avec écosystème têtes interchangeables",
+    "Cabine fermée — meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Tête laser interchangeable sur le même châssis — monter en puissance sans racheter la machine",
+    "Surface utile 430 × 390 mm sur ce châssis",
+    "Logiciels : xTool Creative Space · LightBurn",
+    "10W sur xTool S1 : priorité gravure — remplissages photo et cuir",
+    "Exemple gravure de référence sur ce module : ~14–21 min"
   ],
   "cons": [
-    "L’enceinte ajoute du volume",
-    "Cartouches filtre à remplacer avec le temps",
-    "Marketing 40 W diode — vérifiez puissance optique de votre variante"
+    "Ce module vise les découpes fines (environ 5 mm de tilleul) — pas la production épaisse",
+    "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
+    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée"
   ],
   "materials": {
     "engrave": [

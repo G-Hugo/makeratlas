@@ -8,10 +8,10 @@
   "tagline": "Budget LM3 — engraving-focused open-frame diode",
   "tldr": "The 10W Laser Master 3 is Ortur's lower-power SKU on the same frame. Ideal for learning and engraving; cutters should choose the 20W version.",
   "bestFor": [
-    "Beginners",
-    "Budget buyers",
-    "Wood engraving",
-    "First laser"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 140,
@@ -72,22 +72,23 @@
     ]
   },
   "pros": [
-    "Excellent price-to-work-area ratio",
-    "Massive community — fixes and tutorials everywhere",
-    "LightBurn support for serious workflows",
-    "Wi-Fi and fixed-focus options simplify setup",
-    "Good enough to learn whether you need a bigger machine later"
+    "Budget LM3 — engraving-focused open-frame diode",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 400 × 400 mm (15.75 × 15.75 in) on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "10W on Ortur Laser Master 3: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~15–23 min",
+    "Reference cut job on this module: ~8–12 min"
   ],
   "cons": [
-    "Open frame — safety glasses mandatory, not kid/pet friendly",
-    "Build and QA less consistent than premium brands",
-    "Customer support can be slow",
-    "20W marketing is optical/combined power — real cutting still limited",
-    "No enclosure included — smoke and noise in your workspace"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Higher modules in this line (20W) add cut speed and depth",
+    "Not the SKU for a shop cutting 5 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "A solid first laser if you are unsure about the hobby. Start with LightBurn (paid but worth it). Do not expect it to run a business alone — duty cycle and consistency may frustrate high-volume sellers.",
-  "proTips": "Join the Ortur Facebook/Reddit groups before buying — firmware tips save hours. Add air assist early. If you plan to sell products within 6 months, consider jumping to xTool D1 Pro or CO₂ instead.",
-  "primaryUse": "Affordable introduction to diode laser engraving and light cutting for hobbyists.",
+  "beginnerNotes": "This profile is the 10W module on Ortur Laser Master 3. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "10W module · Ortur Laser Master 3",
   "rating": {
     "overall": 7.9,
     "value": 9.2,
@@ -103,7 +104,7 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/ortur-laser-master-3-10w/01.webp",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "images": [
     {
       "src": "/machines/ortur-laser-master-3-10w/01.webp",
@@ -124,5 +125,6 @@
   ],
   "modelLine": "ortur-laser-master-3",
   "powerRating": "10W",
-  "releaseDate": "2022-08"
+  "releaseDate": "2022-08",
+  "tierEditorialOverride": false
 }

@@ -3,27 +3,27 @@
   "tldr": "La TwoTrees TTS-55 40 W est la version 40 W de la gamme TTS-55. TwoTrees sous-cote Atomstack et Ortur avec une plateforme diode utilisable. Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing « watts combinés ».",
   "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
   "primaryUse": "Diode petit budget minimum pour expériences de gravure légère et découvrir le loisir.",
-  "beginnerNotes": "Choisissez le 40 W si ça correspond à vos usages habituels. Comparez profondeur de découpe et prix avec les autres gammes de la ligne avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 40W de TwoTrees TTS-55. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Équerez le châssis avant la première gravure. Considérez la vitesse max annoncée comme théorique — commencez à 50 % pour les remplissages jusqu’à caler vos réglages.",
   "bestFor": [
-    "Budget ultra serré",
-    "Premières expériences",
-    "Gravure légère",
-    "Propriétaires d’imprimantes 3D"
+    "Découpe max. de la gamme",
+    "Atelier vitesse",
+    "Bois épais",
+    "Semaines découpe"
   ],
   "pros": [
-    "Parmi les prix les plus bas du marché",
-    "Châssis correct pour le coût",
-    "Compatible LightBurn",
-    "Upgrades de puissance modulaires",
-    "Bon complément si vous avez déjà une imprimante 3D TwoTrees"
+    "Diode ultra petit budget 40 W — qualité de châssis surprenante pour le prix",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 300 × 300 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "Meilleure marge de découpe de la gamme — benchmark ~10 mm tilleul",
+    "40W : tête la plus orientée découpe de TwoTrees TTS-55",
+    "Exemple gravure de référence sur ce module : ~12–18 min"
   ],
   "cons": [
-    "Contrôle qualité inconstant entre lots",
-    "Communauté anglophone réduite",
-    "Label 40 W très marketing",
-    "Structure ouverte — sécurité entièrement à votre charge",
-    "Alignement parfois à ajuster à la sortie de boîte"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

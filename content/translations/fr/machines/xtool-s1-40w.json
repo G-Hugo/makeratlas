@@ -3,26 +3,26 @@
   "tldr": "La S1 40 W est la diode fermée haute puissance xTool. Toujours pas du CO₂, mais la puissance optique supplémentaire aide sur tilleul plus épais vs l’enceinte 20 W.",
   "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
   "primaryUse": "Diode fermée loisir et petite activité pour gravure plus sûre à domicile et découpe modérée.",
-  "beginnerNotes": "Choisissez S1 plutôt que D1 Pro si sécurité et contrôle fumées comptent plus que l’économie — surtout avec enfants, animaux ou voisins. Passez votre chemin si vous avez besoin de découpe CO₂ ; ça ne remplacera pas une P2.",
+  "beginnerNotes": "Ce profil décrit le module 40W de xTool S1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres — ils réduisent les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
   "bestFor": [
-    "Ateliers à domicile",
-    "Familles avec enfants à proximité",
-    "Usage en appartement",
-    "Gravure plus propre"
+    "Découpe max. de la gamme",
+    "Atelier vitesse",
+    "Bois épais",
+    "Semaines découpe"
   ],
   "pros": [
-    "Entièrement fermée — gros progrès sécurité et fumées vs structure ouverte",
-    "Option filtre échappement intégré pour appartement",
-    "Même grande surface que D1 Pro dans un pack plus sûr",
-    "Compatible LightBurn",
-    "Alignement caméra disponible sur certaines configs"
+    "Diode 40 W fermée — meilleure découpe domicile de la gamme enceinte xTool",
+    "Cabine fermée — meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Tête laser interchangeable sur le même châssis — monter en puissance sans racheter la machine",
+    "Surface utile 430 × 390 mm sur ce châssis",
+    "Logiciels : xTool Creative Space · LightBurn",
+    "Meilleure marge de découpe de la gamme — benchmark ~10 mm tilleul",
+    "40W : tête la plus orientée découpe de xTool S1"
   ],
   "cons": [
-    "L’enceinte ajoute du volume",
-    "Cartouches filtre à remplacer avec le temps",
-    "Marketing 40 W diode — vérifiez puissance optique de votre variante",
-    "Marketing 40 W diode — confirmez la puissance optique du SKU exact commandé"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode — acrylique transparent et prod. acrylique = CO₂"
   ],
   "materials": {
     "engrave": [

@@ -3,25 +3,22 @@
   "tldr": "Le Gweike G6 Split 100W est la référence 100W de la gamme G6 Split. Le Gweike G6 Split est une plateforme de marquage fibre plus grande avec source laser en armoire séparée — format courant pour la petite production. Vérifiez la puissance optique sur l'annonce — ne vous fiez pas au marketing en watts combinés.",
   "mainObjective": "Gravure et découpe rapides — tilleul plus épais, acrylique foncé, jobs plus courts",
   "primaryUse": "Marquage fibre petite production pour lots de pièces métal et personnalisation.",
-  "beginnerNotes": "Choisissez le 100W s'il correspond à vos jobs habituels. Comparez profondeur de gravure et prix avec les autres niveaux de la gamme avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 100W de Gweike G6 Split. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Prévoyez l'extraction des fumées pour le marquage de métaux revêtus. La reproductibilité des fixations conditionne la rentabilité.",
   "bestFor": [
-    "Lots de production",
     "Gravure métal profonde",
-    "Marquage atelier",
-    "Travail rotary"
+    "Débit élevé",
+    "Devis prod.",
+    "Grandes surfaces"
   ],
   "pros": [
-    "Niveaux de puissance évolutifs",
-    "Design split adapté aux ateliers",
-    "Capacité gravure profonde",
-    "Adapté à la production"
+    "Marqueur fibre 100W en armoire split avec place pour rotary et fixations",
+    "Fibre = marquage métal — ne découpe pas bois ni acrylique",
+    "Surface utile 150 × 150 mm typical (varies by lens) sur ce châssis",
+    "Exemple gravure de référence sur ce module : ~2–5 min"
   ],
   "cons": [
-    "Encombrement plus grand",
-    "Pas portable",
-    "Prix supérieur aux boîtiers galvo de bureau",
-    "Installation et alignement critiques"
+    "Fibre 100W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
   ],
   "materials": {
     "engrave": [

@@ -148,6 +148,7 @@ Moins de fumée qu’un CO₂ en gravure, mais ventilez quand même. « Ça ne s
 
 ## Suite
 
+- [Ventilation et évacuation](/guides/laser-ventilation-setup): gaines, ventilateurs, dimensionnement
 - [Comprendre les types de laser](/guides/understanding-laser-types): choisir la bonne technologie
 - [Guide d’achat 2026](/guides/laser-buying-guide-2026): aligner machine et usage
 - [Parcourir les graveuses](/lasers): chaque fiche liste des limites matériaux honnêtes

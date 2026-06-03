@@ -1,4 +1,5 @@
 import type { Dictionary } from "./types";
+import { accessoriesFr } from "@/i18n/accessories-copy";
 import { pagesContentFr } from "@/i18n/pages-content/fr";
 
 export const fr: Dictionary = {
@@ -62,7 +63,7 @@ export const fr: Dictionary = {
   lasers: {
     title: "Graveuses laser",
     description:
-      "{count} gammes avec specs honnêtes et conseils terrain. Parcourir par type, filtrer par budget ou comparer.",
+      "{count} gammes avec specs honnêtes et conseils terrain. Parcourir par type ou comparer côte à côte.",
     helpChoosing: "Besoin d’aide ? Commencez par le",
     laserTypesGuide: "guide des types de laser",
     or: "ou le",
@@ -126,7 +127,8 @@ export const fr: Dictionary = {
     bothDesc: "Gravure et découpe du quotidien",
   },
   machine: {
-    contentNotice: "",
+    contentNotice:
+      "Texte de cette fiche encore en anglais. L’interface et les guides sont en français ; traduction complète des profils en cours.",
     breadcrumbLasers: "Graveuses laser",
     released: "Sortie",
     tldr: "En bref",
@@ -196,13 +198,22 @@ export const fr: Dictionary = {
     capability: "Capacités",
     buildQuality: "Finition",
   },
+  accessories: accessoriesFr,
   compare: {
     title: "Comparer les graveuses laser",
     description:
-      "Filtrez par type et budget. Cliquez sur une machine pour la fiche complète. Prix en USD et EUR indicatif.",
+      "Filtrez par type laser. Cliquez sur une machine pour la fiche complète (objectifs, limites, matériaux).",
     laserType: "Type de laser",
     allTypes: "Tous les types",
-    maxPrice: "Prix max.",
+    maxPrice: "Prix max. (USD)",
+    anyBudget: "Tous budgets",
+    sortLabel: "Trier par",
+    sortByScore: "Meilleure note",
+    sortByPrice: "Prix le plus bas",
+    sortByName: "Nom (A–Z)",
+    showingCount: "{count} machines affichées",
+    searchLabel: "Rechercher",
+    searchPlaceholder: "Marque, nom ou usage…",
     machine: "Machine",
     mainObjective: "Objectif principal",
     precision: "Précision",
@@ -215,11 +226,12 @@ export const fr: Dictionary = {
   guides: {
     title: "Guides",
     description:
-      "Comprendre les types de laser, choisir la bonne machine et éviter les erreurs d’achat.",
+      "Comprendre les types de laser, choisir la bonne machine, installer la ventilation et éviter les erreurs d’achat.",
     safetyBanner: "Bases sécurité laser : à lire en premier",
     categoryBuying: "guide d’achat",
     categorySafety: "sécurité",
     categoryTypes: "types de laser",
+    categorySetup: "installation",
   },
   about: {
     title: "À propos de Maker Atlas",

@@ -3,24 +3,23 @@
   "tldr": "Le Monport GT 30 W apporte le marquage fibre en armoire split avec autofocus — utile pour hauteurs de pièces variables. Forte alternative au Gweike G6 dans la même classe.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Marquage fibre de production avec gestion de mise au point simplifiée sur tailles de pièces variées.",
-  "beginnerNotes": "Comparez les bundles incluant rotary et équipement de sécurité.",
-  "proTips": "Calibrez l’autofocus sur l’épaisseur de pièce la plus courante.",
+  "beginnerNotes": "Ce profil décrit le module 30W de Monport GT Fibre. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Utilisez les benchmarks de cette fiche pour chiffrer vos devis. Testez sur chutes avant production.",
   "bestFor": [
-    "Hauteurs de pièces mixtes",
-    "Production",
-    "Marquage métal",
-    "Écosystème Monport"
+    "Bijoux & plaques",
+    "Petites pièces métal",
+    "Apprendre la fibre",
+    "Marquage bureau"
   ],
   "pros": [
-    "Autofocus pour hauteurs variables",
-    "Écosystème support Monport",
-    "Disposition split pour la production",
-    "Paliers MOPA disponibles"
+    "Graveuse laser fibre split avec autofocus de Monport",
+    "Fibre = marquage métal — ne découpe pas bois ni acrylique",
+    "Surface utile 150 × 150 mm typical sur ce châssis",
+    "Exemple gravure de référence sur ce module : ~4–11 min"
   ],
   "cons": [
-    "Grand encombrement",
-    "Premium vs boîtiers galvo d’entrée",
-    "Toujours pas une découpeuse laser généraliste"
+    "Fibre 30W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
+    "Montée possible vers 50W, 60W ou 100W si le débit métal devient critique"
   ],
   "materials": {
     "engrave": [

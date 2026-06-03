@@ -3,27 +3,26 @@
   "tldr": "L’Atomstack A5 Pro 20 W est la référence 20 W de la gamme A5 Pro. L’un des moyens les moins chers d’essayer la gravure laser. Vérifiez la puissance optique sur l’annonce — ne vous fiez pas au marketing en watts cumulés.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Expérimentation au coût le plus bas avec gravure laser diode sur petits projets bois et cuir.",
-  "beginnerNotes": "Choisissez 20 W si cela correspond à vos travaux habituels. Comparez profondeur de découpe et prix avec les autres niveaux de cette gamme avant de commander.",
+  "beginnerNotes": "Ce profil décrit le module 20W de Atomstack A5 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Équarez le châssis avant la première utilisation. Remplacez la carte d’origine si vous touchez les limites du firmware. Ne comptez pas sur le « 40 W » pour planifier une activité — testez vous-même la profondeur de découpe sur votre unité.",
   "bestFor": [
-    "Budget serré",
-    "Tester le loisir",
-    "Petits cadeaux",
-    "Étudiants"
+    "Gravure + découpe",
+    "Side business",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "Coût d’entrée le plus bas en gravure laser",
-    "Grande surface de travail pour le prix",
-    "Montée en gamme par échange de modules",
-    "Énorme contenu communautaire",
-    "Bonne machine « essayer avant d’investir »"
+    "Laser diode 20 W ultra petit budget — point d’entrée minimum viable",
+    "Open-frame — lunettes laser et ventilation à votre charge",
+    "Surface utile 410 × 400 mm sur ce châssis",
+    "Logiciels : LightBurn · LaserGRBL",
+    "Gravure et découpe équilibrées — ~8 mm tilleul en plusieurs passes",
+    "Exemple gravure de référence sur ce module : ~12–18 min",
+    "Exemple découpe de référence sur ce module : ~6–10 min"
   ],
   "cons": [
-    "Qualité de fabrication et alignement variables d’une unité à l’autre",
-    "L’étiquette 40 W relève du marketing — puissance réelle bien inférieure",
-    "Pas de boîtier, sécurité limitée",
-    "Peut demander beaucoup de bricolage à la sortie de la boîte",
-    "Faible valeur de revente si montée en gamme rapide"
+    "Vérifiez le SKU 20W — même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

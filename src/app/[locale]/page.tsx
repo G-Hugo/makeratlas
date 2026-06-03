@@ -1,13 +1,28 @@
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import { MachineCard } from "@/components/machines/MachineCard";
+import type { Metadata } from "next";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { interpolate } from "@/lib/i18n-helpers";
 import { getAllGuidesMeta, getCatalogEntries } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/seo";
 import { notFound } from "next/navigation";
 
 interface PageProps {
   params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale: localeParam } = await params;
+  if (!isLocale(localeParam)) return {};
+  const dict = getDictionary(localeParam);
+  return buildPageMetadata({
+    locale: localeParam,
+    path: "/",
+    title: `${dict.meta.siteName} — ${dict.meta.siteTagline}`,
+    description: dict.meta.defaultDescription,
+    titleAbsolute: true,
+  });
 }
 
 export default async function HomePage({ params }: PageProps) {

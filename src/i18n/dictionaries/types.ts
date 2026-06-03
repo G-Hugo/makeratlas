@@ -1,3 +1,5 @@
+import type { AccessoriesCopy } from "@/i18n/accessories-copy";
+
 export type LegalSection = {
   title: string;
   paragraphs: string[];
@@ -196,12 +198,21 @@ export type Dictionary = {
     capability: string;
     buildQuality: string;
   };
+  accessories: AccessoriesCopy;
   compare: {
     title: string;
     description: string;
     laserType: string;
     allTypes: string;
     maxPrice: string;
+    anyBudget: string;
+    sortLabel: string;
+    sortByScore: string;
+    sortByPrice: string;
+    sortByName: string;
+    showingCount: string;
+    searchLabel: string;
+    searchPlaceholder: string;
     machine: string;
     mainObjective: string;
     precision: string;
@@ -218,6 +229,7 @@ export type Dictionary = {
     categoryBuying: string;
     categorySafety: string;
     categoryTypes: string;
+    categorySetup: string;
   };
   about: {
     title: string;

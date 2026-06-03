@@ -9,12 +9,12 @@
   "modelLine": "commarker-omni-x",
   "tagline": "Expanded UV platform for larger glass and plastic work",
   "tldr": "Omni XE sits between Omni 1 and Omni X in ComMarker's UV lineup — check current specs for bed size and power. UV remains specialized: glass, plastics, fine detail.",
-  "mainObjective": "Benchtop marking on metals, plastics, and coated parts",
+  "mainObjective": "Detailed engraving on organics and coated metal — occasional thin cuts only",
   "bestFor": [
-    "Glass",
-    "Plastics",
-    "Mid-size gifts",
-    "UV production"
+    "Fine engraving",
+    "Photo & logo work",
+    "Gifts & coasters",
+    "First machine"
   ],
   "priceRange": {
     "min": 2299,
@@ -65,17 +65,22 @@
     ]
   },
   "pros": [
-    "More room than Omni 1",
-    "UV cold marking advantages",
-    "Desktop class"
+    "Expanded UV platform for larger glass and plastic work",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 120 × 120 mm typical on this chassis",
+    "Software: ComMarker · LightBurn",
+    "5W on ComMarker Omni XE UV: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~6–12 min",
+    "Reference cut job on this module: Not a cutter"
   ],
   "cons": [
-    "Overlaps with Omni X — compare bundles",
-    "UV material testing required"
+    "This module targets thin cuts (about 4 mm basswood class) — not thick production plywood",
+    "Not the SKU for a shop cutting 4 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Compare Omni X vs XE vs 1 on bed size, included rotary, and software license.",
-  "proTips": "Use fixtures for repeatable glass positioning.",
-  "primaryUse": "UV personalization for glass and plastic with slightly larger work area.",
+  "beginnerNotes": "This profile is the 5W module on ComMarker Omni XE UV. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
+  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
   "rating": {
     "overall": 8.3,
     "value": 8.1,
@@ -108,5 +113,6 @@
       "alt": "ComMarker Omni XE UV laser engraver — ComMarker"
     }
   ],
-  "releaseDate": "2024-11"
+  "releaseDate": "2024-11",
+  "tierEditorialOverride": false
 }

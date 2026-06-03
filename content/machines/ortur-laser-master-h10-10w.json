@@ -8,12 +8,12 @@
   "image": "/machines/ortur-laser-master-h10-10w/01.webp",
   "tagline": "10W Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
   "tldr": "Ortur Laser Master H10 10W is the 10W SKU on the Ortur ortur laser master h10 line. The H10 is Ortur's step up from the open-frame LM3 line: a more integrated chassis with up to 20W diode power and higher advertised traverse speeds. Verify optical power on the listing — do not assume combined-watt marketing.",
-  "mainObjective": "Hobby engraving on wood, leather, and coated metal with light to moderate cutting",
+  "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
-    "Ortur upgrades",
-    "Speed-focused hobbyists",
-    "Wood & leather engraving",
-    "Integrated frame fans"
+    "Engraving-focused shops",
+    "Leather & wood gifts",
+    "Learning the line",
+    "Detail-heavy work"
   ],
   "priceRange": {
     "min": 399,
@@ -74,22 +74,23 @@
     ]
   },
   "pros": [
-    "More integrated frame than LM3",
-    "Higher speed potential on optimized jobs",
-    "Large Ortur community and firmware support",
-    "LightBurn-ready workflow",
-    "Competitive price vs xTool D1 Pro"
+    "10W Ortur's enclosed-style H-series — faster frame, tighter integration than LM3",
+    "Open-frame layout — laser glasses and ventilation are your responsibility",
+    "Work area 400 × 400 mm on this chassis",
+    "Software: LightBurn · LaserGRBL",
+    "10W on Ortur Laser Master H10: engraving-first — photo fills and leather at moderate speeds",
+    "Reference engrave job on this module: ~28–43 min",
+    "Reference cut job on this module: ~14–24 min"
   ],
   "cons": [
-    "Still open frame — eye protection required",
-    "40W marketing is optical/combined power",
-    "Less proven long-term than LM3 community volume",
-    "Air assist often extra",
-    "Not a CO₂ replacement for acrylic shops"
+    "This module targets thin cuts (about 5 mm basswood class) — not thick production plywood",
+    "Higher modules in this line (20W or 40W) add cut speed and depth",
+    "Not the SKU for a shop cutting 5 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose 10W if it matches your typical jobs. Compare cut depth and price against other tiers in this product line before ordering.",
-  "proTips": "Start with 20W unless you have a clear cutting use case — 40W adds cost with diminishing returns on thick cuts. Pair with Ortur air assist early for cleaner edges.",
-  "primaryUse": "Integrated open-frame Ortur diode for faster engraving and moderate thin-wood cutting.",
+  "beginnerNotes": "This profile is the 10W module on Ortur Laser Master H10. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "primaryUse": "10W module · Ortur Laser Master H10",
   "rating": {
     "overall": 8.3,
     "value": 8.5,
@@ -124,5 +125,6 @@
   ],
   "modelLine": "ortur-laser-master-h10",
   "powerRating": "10W",
-  "releaseDate": "2024-06"
+  "releaseDate": "2024-06",
+  "tierEditorialOverride": false
 }

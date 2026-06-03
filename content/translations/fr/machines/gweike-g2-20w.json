@@ -3,24 +3,23 @@
   "tldr": "Le Gweike G2 intègre un galvo fibre 20W dans un format de bureau. Bonne option si vous voulez du marquage métal avec la familiarité de l'écosystème Gweike de leurs lignes CO₂.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
   "primaryUse": "Gravure fibre de bureau pour activités secondaires orientées métal.",
-  "beginnerNotes": "Comparez avec la ComMarker B4 sur prix, bundle logiciel et support local.",
+  "beginnerNotes": "Ce profil décrit le module 20W de Gweike G2 Fibre. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Utilisez un hachurage croisé sur les pièces courbes avec rotary à faible vitesse.",
   "bestFor": [
-    "Cadeaux métal",
-    "Marquage plastiques",
-    "Fibre budget",
-    "Petit atelier"
+    "Bijoux & plaques",
+    "Petites pièces métal",
+    "Apprendre la fibre",
+    "Marquage bureau"
   ],
   "pros": [
-    "Prix fibre compétitif",
-    "Marque connue dans l'univers CO₂ maker",
-    "Compatible LightBurn",
-    "Compact"
+    "Marqueur fibre de bureau pour métal et certains plastiques",
+    "Fibre = marquage métal — ne découpe pas bois ni acrylique",
+    "Surface utile 110 × 110 mm sur ce châssis",
+    "Exemple gravure de référence sur ce module : ~4–9 min"
   ],
   "cons": [
-    "Communauté plus petite que ComMarker pour la fibre",
-    "Vérifiez la garantie régionale",
-    "Accessoires variables selon le bundle"
+    "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
+    "Montée possible vers 30W ou 50W si le débit métal devient critique"
   ],
   "materials": {
     "engrave": [
