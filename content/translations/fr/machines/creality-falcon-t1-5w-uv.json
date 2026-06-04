@@ -4,7 +4,9 @@
     "limitations": "Inutile comme première machine. Pas de découpe bois/métal. Vérifiez la liste matériaux du module avant d’investir dans le châssis."
   },
   "pros": [
-    "5W UV : marquage froid sur verre et plastiques sensibles à la chaleur"
+    "5W UV : marquage froid sur verre et plastiques sensibles à la chaleur",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "Surface utile 220 × 220 mm (galvo field) : validez vos formats avant achat"
   ],
   "cons": [
     "Pas de découpe bois/métal : installez un autre module sur le châssis pour ces matériaux"
@@ -14,9 +16,23 @@
   "primaryUse": "Module 5W · Creality Falcon T1 UV",
   "mainObjective": "UV galvo marking for glass and specialty plastics on the T1 platform",
   "bestFor": [
-    "Petites séries",
-    "Film & label marking",
-    "UV plastics",
-    "T1 multi-process shops"
-  ]
+    "Gravure fine",
+    "Photo et logo",
+    "Cadeaux & ardoise",
+    "Première machine"
+  ],
+  "materials": {
+    "engrave": [
+      "Verre",
+      "Some plastics",
+      "Céramique (light)",
+      "Film materials"
+    ],
+    "cut": [],
+    "cannot": [
+      "Bois cutting",
+      "Metal production (use fiber module)",
+      "Thick Acrylique CO₂ jobs"
+    ]
+  }
 }

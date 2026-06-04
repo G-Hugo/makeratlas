@@ -75,11 +75,9 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Glowforge Pro : full profile with material limits and benchmarks on Maker Atlas",
-    "Glowforge Glowforge Pro : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
@@ -87,8 +85,8 @@
   "proTips": "Factor 3-year subscription into total cost. Passthrough shines for long thin signs : not for thick industrial cutting.",
   "primaryUse": "Premium enclosed CO₂ for crafters engraving and cutting long thin materials with minimal technical setup.",
   "rating": {
-    "overall": 8.2,
-    "value": 7.3,
+    "overall": 8.6,
+    "value": 8.1,
     "easeOfUse": 9.5,
     "capability": 8.3,
     "buildQuality": 9

@@ -1,15 +1,15 @@
 {
   "tagline": "Flagship CO₂ 80 W 2025 : automatisation ACS, immense plateau, IR optionnel pour métal",
   "tldr": "La xTool P3 (août 2025) remplace P2/P2S comme flagship CO₂ xTool : tube 80 W, plateau 915×458 mm, refroidisseur intégré, extinction incendie et automatisation ACS™ (caméras, autofocus LiDAR, imbrication IA). Module IR 5 W optionnel pour marquage métal nu. Dès ~5 999 $ : conçue pour ateliers qui dépassent les diodes.",
-  "mainObjective": "Production CO₂ 80 W automatisée pour enseignistes et petites entreprises sérieuses",
-  "primaryUse": "Flagship CO₂ 2025 xTool pour découpe et gravure haut volume avec automatisation type usine.",
-  "beginnerNotes": "Achetez la P3 si vous gérez une boutique découpant enseignes acrylique ou bois épais quotidiennement. Vous venez de P2S ? Vous gagnez puissance, taille plateau et automatisation : pas un simple tweak. Toujours serré ? Regardez CO₂ Monport/OMTech ou restez sur diode Falcon 2 Pro.",
-  "proTips": "Planifiez l’évacuation avant livraison. Testez matériaux sur tout le plateau : grands plateaux demandent calibration focus aux coins. Chiffrez le module IR seulement si le métal est une ligne de revenu régulière.",
+  "mainObjective": "Automated 80W CO₂ production for sign shops and serious small businesses",
+  "primaryUse": "Module 80W · xTool P3",
+  "beginnerNotes": "Ce profil décrit le SKU 80W de xTool P3. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Plan exhaust before delivery. Run material tests on the full bed : large beds need focus calibration at corners. Price the IR module only if metal is a regular revenue line.",
   "bestFor": [
-    "Enseignistes",
-    "Production Etsy",
-    "Upgrade P2/P2S",
-    "Acrylique et bois épais"
+    "Découpe max. de la gamme",
+    "Atelier vitesse",
+    "Bois épais",
+    "Semaines découpe"
   ],
   "pros": [
     "80 W et plateau ~2,3× P2S : vraie marge production",

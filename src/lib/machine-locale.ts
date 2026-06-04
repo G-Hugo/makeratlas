@@ -1,6 +1,8 @@
 import fs from "fs";
 import path from "path";
 import type { Locale } from "@/i18n/config";
+import { translateMaterialLine } from "@/lib/editorial-materials-fr";
+import { polishFrenchEditorialText } from "@/lib/editorial-fr-polish";
 import { sanitizePowerLabel } from "@/lib/power-display";
 import type {
   Machine,
@@ -323,12 +325,18 @@ function sanitizeFrenchResiduals(machine: Machine): Machine {
   return localized;
 }
 
+function localizeMaterialItem(item: string, frItem?: string): string {
+  const picked = frItem && !isBrokenTranslation(frItem) && !looksEnglishResidue(frItem)
+    ? frItem
+    : item;
+  return translateMaterialLine(polishFrenchEditorialText(normalizeCommonEnglishToFrench(picked)));
+}
+
 function pickMaterials(en: MachineMaterials, fr?: MachineMaterials): MachineMaterials {
-  if (!fr) return en;
   return {
-    engrave: pickTranslatedList(en.engrave, fr.engrave),
-    cut: pickTranslatedList(en.cut, fr.cut),
-    cannot: pickTranslatedList(en.cannot, fr.cannot),
+    engrave: en.engrave.map((item, i) => localizeMaterialItem(item, fr?.engrave?.[i])),
+    cut: en.cut.map((item, i) => localizeMaterialItem(item, fr?.cut?.[i])),
+    cannot: en.cannot.map((item, i) => localizeMaterialItem(item, fr?.cannot?.[i])),
   };
 }
 

@@ -6,20 +6,21 @@
   "beginnerNotes": "Ce profil décrit le SKU 5W de Sculpfun S9. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
-    "Gravure",
-    "Photo & logo work",
-    "Petites séries",
-    "First machine"
+    "Gravure fine",
+    "Photo et logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
     "5W sur Sculpfun S9 : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (10W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -30,8 +31,8 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 3 mm)",
-      "Paper",
-      "Thin fabric"
+      "Papier",
+      "Tissu fin"
     ],
     "cannot": [
       "Bois dur épais",
@@ -68,7 +69,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Sculpfun S9 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "advantages": "Sculpfun S9 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série : regardez 10W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

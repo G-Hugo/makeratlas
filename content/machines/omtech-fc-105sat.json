@@ -64,12 +64,10 @@
   },
   "pros": [
     "Fiber marks metal : does not cut wood or acrylic",
-    "OMTech FC-105SAT : full profile with material limits and benchmarks on Maker Atlas",
-    "OMTech OMTech FC-105SAT : compare benchmarks and material limits on this profile before ordering.",
-    "OMTech OMTech FC-105SAT : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first",
+    "Work area Verify OMTech listing : confirm your typical job sizes fit the bed"
   ],
   "cons": [
-    "105W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Does not cut wood, leather, or acrylic : metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
@@ -78,9 +76,9 @@
   "primaryUse": "Fiber sheet cutting in the FC-105 family.",
   "rating": {
     "overall": 7.7,
-    "value": 7.5,
+    "value": 7.1,
     "easeOfUse": 8,
-    "capability": 7.9,
+    "capability": 8.2,
     "buildQuality": 7.5
   },
   "similarModels": [

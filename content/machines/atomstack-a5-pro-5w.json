@@ -69,23 +69,22 @@
     ]
   },
   "pros": [
-    "Classic budget Atomstack entry with huge community history",
-    "Full-size bed at low price for learning LightBurn",
-    "Proven frame for engraving coasters and leather gifts"
+    "5W on Atomstack A5 Pro: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Minimal cutting ability versus 10W or 20W tiers",
-    "Open-frame safety entirely on you",
-    "Older design feels basic next to A40 Pro"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 5W SKU on Atomstack A5 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
   "rating": {
-    "overall": 7.3,
-    "value": 8.7,
+    "overall": 7.4,
+    "value": 8.9,
     "easeOfUse": 7,
-    "capability": 6.9,
+    "capability": 6.8,
     "buildQuality": 6.5
   },
   "similarModels": [
@@ -117,7 +116,7 @@
   "powerRating": "5W",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "A5 Pro 5W remains relevant on deep discount: you get Atomstack's ecosystem and mods documentation at entry pricing.",
-    "limitations": "New buyers with budget for 10W should usually skip 5W. Production cutting is not realistic. Verify seller is not shipping a mismatched module."
+    "advantages": "Atomstack A5 Pro 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 3 mm+ cutting in production : see 10W or 20W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

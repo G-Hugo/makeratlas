@@ -148,8 +148,8 @@ const COPY = {
       "fiber-mid": ["Marquage métal quotidien", "Outils & couteaux", "Étiquettes atelier", "Lots"],
       "fiber-pro": ["Gravure métal profonde", "Débit élevé", "Devis prod.", "Grandes surfaces"],
     },
-    enclosed: "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    openFrame: "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    enclosed: "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
+    openFrame: "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
     swappable: "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine",
     upgrade: (hint: string) =>
       hint ? `Modules plus puissants dans la gamme (${hint}) : découpe plus rapide et plus profonde` : "",
@@ -327,7 +327,7 @@ export function buildMachineTierEditorial(
     if (!enclosed) {
       cons.push(
         locale === "fr"
-          ? "Open-frame : enfants, animaux et fumées non confinées"
+          ? "Châssis ouvert : enfants, animaux et fumées non confinées"
           : "Open frame: kids, pets, and smoke are not contained",
       );
     }
@@ -343,6 +343,24 @@ export function buildMachineTierEditorial(
   // Trim duplicates and cap length
   let uniqPros = [...new Set(pros.filter(Boolean))].slice(0, 6);
   uniqPros = uniqPros.filter((p) => !hasBoilerplatePros([p]));
+
+  if (uniqPros.length < 3 && machine.laserType === "diode") {
+    const area = machine.specs?.workArea?.trim();
+    if (area) {
+      uniqPros.push(
+        locale === "fr"
+          ? `Surface utile ${area} : validez vos formats de pièces avant achat`
+          : `Work area ${area} : confirm your typical job sizes fit the bed`,
+      );
+    }
+  }
+  if (uniqPros.length < 3) {
+    uniqPros.push(
+      locale === "fr"
+        ? `Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes`
+        : `Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first`,
+    );
+  }
   const uniqCons = [...new Set(cons.filter(Boolean))].slice(0, 6);
 
   const bestFor = [...L.bestFor[role]];
@@ -517,7 +535,7 @@ export function buildEditorialDepth(
       ),
       limitations: noEmDash(
         fr
-          ? `Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. ${!enclosed ? "Open-frame : sécurité et fumées à votre charge." : ""}`
+          ? `Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. ${!enclosed ? "Châssis ouvert : sécurité et fumées à votre charge." : ""}`
           : `Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. ${!enclosed ? "Open-frame : safety and smoke are on you." : ""}`,
       ),
     };
@@ -526,12 +544,12 @@ export function buildEditorialDepth(
   return {
     advantages: noEmDash(
       fr
-        ? `${shortName} ${wattLabel} est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.`
+        ? `${shortName} ${wattLabel} est le SKU polyvalent hobby / petite activité : gravure propre et découpes légères sur bois et cuir, avec benchmarks comparables sur cette fiche.`
         : `${shortName} ${wattLabel} is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.`,
     ),
     limitations: noEmDash(
       fr
-        ? `${enclosed ? "" : "Open-frame : lunettes et extraction obligatoires. "}${higher ? `Montée possible vers ${higher} si la découpe prend le dessus. ` : ""}Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses.`
+        ? `${enclosed ? "" : "Châssis ouvert : lunettes et extraction obligatoires. "}${higher ? `Montée possible vers ${higher} si la découpe prend le dessus. ` : ""}Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses.`
         : `${enclosed ? "" : "Open-frame : glasses and exhaust required. "}${higher ? `Upgrade path to ${higher} if cutting takes over. ` : ""}Not a CO₂ replacement for clear acrylic or heavy thick-stock production.`,
     ),
   };
@@ -572,7 +590,7 @@ export function buildSingleMachineEditorial(
     while (pros.length < 4) {
       pros.push(
         locale === "fr"
-          ? `${shortName} : fiche complète avec limites matériaux et benchmarks sur Maker Atlas`
+          ? `${shortName} : limites matériaux, benchmarks et conseils pratiques sur cette fiche`
           : `${shortName} : full profile with material limits and benchmarks on Maker Atlas`,
       );
     }

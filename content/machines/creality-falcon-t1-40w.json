@@ -9,10 +9,10 @@
   "tldr": "The 40W diode head is the cutting-focused module on Creality's Falcon T1 galvo platform. Same Class 1 enclosure as the entry diode module but more depth on wood and faster fills for shops that outgrow entry wattage.",
   "mainObjective": "Faster organic engraving and light cutting on the modular T1 galvo",
   "bestFor": [
-    "Wood & leather production",
-    "Gift batch runs",
-    "T1 upgrade path",
-    "Galvo speed on organics"
+    "Maximum cuts in line",
+    "Speed-focused hobby",
+    "Thick soft woods",
+    "Cut-heavy weeks"
   ],
   "priceRange": {
     "min": 2999,
@@ -71,25 +71,23 @@
     ]
   },
   "pros": [
-    "Strongest organic module in the T1 ecosystem",
-    "Keeps Class 1 enclosure and Creality support",
-    "Galvo speed advantage vs open-frame 40W diodes",
-    "Upgrade without replacing the chassis"
+    "Strongest cut headroom in the line : about 8 mm basswood-class stock in benchmarks",
+    "40W: the most cut-focused head in the Creality Falcon T1 Diode line",
+    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes"
   ],
   "cons": [
-    "Module + chassis cost approaches fixed galvo competitors",
-    "Still not CO₂ for thick acrylic",
-    "Swap downtime when switching to fiber or UV",
-    "2026 platform : fewer long-term owner reports"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "Pick 40W if wood cutting time matters more than entry price. Compare the base diode profile if you mainly engrave and are unsure about galvo workflows.",
+  "beginnerNotes": "This profile is the 40W SKU on Creality Falcon T1 Diode. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Price the full module roadmap before committing : 40W plus later fiber can exceed a single F2 Ultra bundle.",
   "primaryUse": "High-power diode module for enclosed galvo cutting and engraving on the Falcon T1 chassis.",
   "rating": {
-    "overall": 8.5,
-    "value": 7.3,
+    "overall": 8.1,
+    "value": 6.7,
     "easeOfUse": 8.5,
-    "capability": 8.9,
+    "capability": 8.5,
     "buildQuality": 8.5
   },
   "similarModels": [

@@ -70,24 +70,22 @@
     ]
   },
   "pros": [
-    "Lowest Ray5 price for learning LightBurn on a compact desk machine",
-    "Fixed-focus simplicity suits coasters, tags, and first engraving tests",
-    "Small footprint for dorms and apartments with window exhaust",
-    "Logical first step before Ray5 10W or 20W if cutting grows later"
+    "5W on Longer Ray5: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Slow on filled photos and any basswood thicker than ~3 mm",
-    "Open-frame safety and ventilation are entirely on you",
-    "Verify you are buying the 5W SKU, not a higher-watt listing"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "This profile is the 5W module on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 5W SKU on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
   "rating": {
     "overall": 7.6,
-    "value": 8.3,
+    "value": 8.9,
     "easeOfUse": 8.5,
-    "capability": 6.9,
+    "capability": 6.8,
     "buildQuality": 7.2
   },
   "similarModels": [
@@ -121,7 +119,7 @@
   "releaseDate": "2022-03",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Ray5 5W is a classroom machine: cheap enough to test whether laser work fits your hobby before you invest in speed. It engraves wood, leather, and slate credibly when you accept long job times.",
-    "limitations": "Side businesses quoting cut-out keychains or thick wood should skip straight to Ray5 20W. Cast acrylic and bare metal are out of scope. Combined-watt marketing on marketplaces is misleading: confirm optical power on the invoice."
+    "advantages": "Longer Ray5 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 3 mm+ cutting in production : see 10W, 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

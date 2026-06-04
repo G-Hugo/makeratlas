@@ -69,23 +69,23 @@
     ]
   },
   "pros": [
-    "Entry H20 module on modular Ortur platform",
-    "Engraving-first with upgrade to 20W or 40W heads",
-    "Integrated frame versus classic LM aesthetics"
+    "10W on Ortur H20: engraving-first : photo fills and leather at moderate speeds",
+    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "20W H20 tier is the usual sweet spot",
-    "Bundle confusion on optical modules",
-    "Open-frame rules apply"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Ortur H20. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts on basswood. If cut jobs exceed ~30% of your week, compare the 20W or 40W module profiles before upgrading.",
   "primaryUse": "10W module · Ortur H20",
   "rating": {
-    "overall": 7.7,
-    "value": 7.5,
+    "overall": 7.3,
+    "value": 6.9,
     "easeOfUse": 8,
-    "capability": 6.9,
+    "capability": 6.8,
     "buildQuality": 7.8
   },
   "similarModels": [

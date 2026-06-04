@@ -1,10 +1,10 @@
 {
   "tagline": "Atomstack 40 W milieu de gamme avec meilleur châssis et promesses de découpe classe 40 W",
   "tldr": "L’Atomstack A40 Pro 40 W est la référence 40 W de la gamme A40 Pro. Montée par rapport à l’A5 Pro avec un châssis plus rigide et un marketing découpe plus agressif (40 W cumulés). Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing en watts cumulés.",
-  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
-  "primaryUse": "Diode structure ouverte budget moyen, entre les modèles d’entrée Atomstack et la gamme premium Sculpfun/xTool.",
-  "beginnerNotes": "Ce profil décrit le module 40W de Atomstack A40 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Vérifiez la puissance optique avec un wattmètre si la profondeur de découpe compte pour vos produits. Renforcez les coins du châssis si vous ajoutez des kits d’extension.",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "primaryUse": "Module 40W · Atomstack A40 Pro",
+  "beginnerNotes": "Ce profil décrit le SKU 40W de Atomstack A40 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Chiffrez vos devis avec les benchmarks découpe de cette fiche. Testez l’évacuation avant les longues sessions sur bois épais.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -12,15 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Tête A40 Pro la plus rapide pour découpe",
-    "Cadre rigide pour vitesses plus élevées que la ligne A5",
-    "Bon rapport pour lots Etsy bois",
-    "Prêt LightBurn pour hobby production"
+    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
+    "40W : tête la plus orientée découpe de Atomstack A40 Pro",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -32,8 +31,8 @@
     "cut": [
       "Tilleul (jusqu'à 10 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric"
+      "Papier",
+      "Tissu"
     ],
     "cannot": [
       "Acrylique transparent",

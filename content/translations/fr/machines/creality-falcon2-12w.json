@@ -13,13 +13,14 @@
   ],
   "pros": [
     "12W sur Creality Falcon2 : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 400 × 415 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (22W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -30,8 +31,8 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 5 mm)",
-      "Paper",
-      "Thin fabric"
+      "Papier",
+      "Tissu fin"
     ],
     "cannot": [
       "Découpes épaisses",
@@ -62,7 +63,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Le Falcon2 12 W convient aux utilisateurs Creality 3D qui veulent rester dans la marque. L’air assist bat les open-frame 5 W nus pour débuter la découpe.",
+    "advantages": "Le Falcon2 12 W convient aux utilisateurs Creality 3D qui veulent rester dans la marque. L’air assist bat les Châssis ouvert 5 W nus pour débuter la découpe.",
     "limitations": "Activité découpe quotidienne : comparez 22 W ou LM3. Acrylique transparent : CO₂."
   }
 }

@@ -1,10 +1,10 @@
 {
   "tagline": "Diode Longer 30 W grand format : plateau plus large que Ray5 pour enseignes",
   "tldr": "Le Longer Laser B1 30 W est le SKU 30 W de la gamme B1. Longer propose aussi 20 W et 40 W séparément. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Gravure et découpe bois fin à moyen en diode grand format pour loisirs et petits vendeurs.",
-  "beginnerNotes": "Ce profil décrit le module 30W de Longer Laser B1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "La valeur du B1, c’est la taille du plateau : concevez vos gabarits pour utiliser toute la largeur en gravure par lots. Ajoutez nido d’abeille et assistance air avant de pousser au-delà de 8 mm de découpe.",
+  "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
+  "primaryUse": "Module 30W · Longer Laser B1",
+  "beginnerNotes": "Ce profil décrit le SKU 30W de Longer Laser B1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
   "bestFor": [
     "Découpe plus rapide",
     "Bois plus épais",
@@ -12,15 +12,14 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Diode compressée entre 20 W et 40 W sur châssis B1",
-    "Découpes soir plus rapides sur tilleul 6–8 mm que le B1 20 W",
-    "Grand plateau sans passer au CO₂",
-    "Bon milieu si vous avez dépassé Ray5 sans budget enceinte"
+    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
+    "30W : tête la plus orientée découpe de Longer Laser B1",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -32,8 +31,8 @@
     "cut": [
       "Tilleul (jusqu'à 8 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric"
+      "Papier",
+      "Tissu"
     ],
     "cannot": [
       "Acrylique transparent",

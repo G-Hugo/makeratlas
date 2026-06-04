@@ -68,12 +68,9 @@
   },
   "pros": [
     "3W UV: cold marking on glass and heat-sensitive plastics",
-    "ComMarker Omni 1 UV : full profile with material limits and benchmarks on Maker Atlas",
-    "ComMarker ComMarker Omni 1 UV : compare benchmarks and material limits on this profile before ordering.",
-    "ComMarker ComMarker Omni 1 UV : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "No wood/metal cutting : install another head on the chassis for those materials",
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
@@ -81,8 +78,8 @@
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Hobby and small-business UV marking on glass and plastics.",
   "rating": {
-    "overall": 8.2,
-    "value": 8.7,
+    "overall": 8.4,
+    "value": 9.1,
     "easeOfUse": 8.6,
     "capability": 8.1,
     "buildQuality": 8

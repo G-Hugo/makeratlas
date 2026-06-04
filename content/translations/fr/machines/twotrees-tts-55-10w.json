@@ -13,13 +13,14 @@
   ],
   "pros": [
     "10W sur TwoTrees TTS-55 : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -30,8 +31,8 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 5 mm)",
-      "Paper",
-      "Thin fabric"
+      "Papier",
+      "Tissu fin"
     ],
     "cannot": [
       "Découpes épaisses",
@@ -68,7 +69,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "TwoTrees TTS-55 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "advantages": "TwoTrees TTS-55 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W ou 40W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

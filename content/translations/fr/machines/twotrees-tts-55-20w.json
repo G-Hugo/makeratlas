@@ -13,12 +13,13 @@
   ],
   "pros": [
     "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
     "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -29,8 +30,8 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 8 mm)",
-      "Paper",
-      "Thin fabric"
+      "Papier",
+      "Tissu fin"
     ],
     "cannot": [
       "Découpes épaisses",
@@ -67,7 +68,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "TwoTrees TTS-55 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
-    "limitations": "Open-frame : lunettes et extraction obligatoires. Montée possible vers 40W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+    "advantages": "TwoTrees TTS-55 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
+    "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Montée possible vers 40W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

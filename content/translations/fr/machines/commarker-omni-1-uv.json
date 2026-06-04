@@ -12,7 +12,9 @@
     "Fine detail"
   ],
   "pros": [
-    "3W UV : marquage froid sur verre et plastiques sensibles à la chaleur"
+    "3W UV : marquage froid sur verre et plastiques sensibles à la chaleur",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "ComMarker Omni 1 UV : limites matériaux, benchmarks et conseils pratiques sur cette fiche"
   ],
   "cons": [
     "Pas de découpe bois/métal : installez un autre module sur le châssis pour ces matériaux"

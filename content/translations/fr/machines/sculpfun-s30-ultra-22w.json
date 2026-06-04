@@ -1,10 +1,10 @@
 {
   "tagline": "Flagship S30 Ultra actuel : puissance diode Sculpfun maximale",
   "tldr": "Le S30 Ultra 22 W est ce que Sculpfun vend aujourd’hui comme config Ultra structure ouverte haut de gamme (souvent avec LightBurn). Meilleure marge de découpe de la famille ; ne le confondez pas avec les anciennes annonces 10 W ou 20 W.",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Diode loisir milieu de gamme orientée gravure et découpe modérée de matériaux organiques.",
-  "beginnerNotes": "Ce profil décrit le module 22W de Sculpfun S30 Ultra. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Sculpfun publie des cartes de test matériaux : servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
+  "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
+  "primaryUse": "Module 22W · Sculpfun S30 Ultra",
+  "beginnerNotes": "Ce profil décrit le SKU 22W de Sculpfun S30 Ultra. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
   "bestFor": [
     "Découpe plus rapide",
     "Bois plus épais",
@@ -12,20 +12,18 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Palier diode Sculpfun le plus musclé pour ceux qui découpent le bois chaque semaine",
-    "Bon rapport face à l’ancienne S30 Pro Max quand les promos sont actives",
-    "Grand plateau et recettes communautaires pour cette génération de châssis",
-    "Bon pont avant le CO₂ si la signalétique acrylique n’est pas votre cœur de métier",
-    "Compatible LightBurn pour sortir des apps débutant"
+    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
+    "22W : tête la plus orientée découpe de Sculpfun S30 Ultra",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "editorialDepth": {
     "advantages": "Choisissez le 22 W quand le temps de job sur tilleul 6–8 mm compte plus que le module gravure le plus lent. Vous restez sur le matériel Ultra actuel avec des mods documentés pour air assist et extraction. Pour un mix Etsy, c’est le SKU à comparer en premier.",
-    "limitations": "Sécurité open-frame et ventilation non négociables. L’acrylique transparent veut du CO₂. Les photos ultra fines peuvent être plus belles sur un 10 W réglé lentement. Comparez Ortur LM3 20 W et xTool S1 fermée si enfants ou animaux imposent une enceinte."
+    "limitations": "Sécurité Châssis ouvert et ventilation non négociables. L’acrylique transparent veut du CO₂. Les photos ultra fines peuvent être plus belles sur un 10 W réglé lentement. Comparez Ortur LM3 20 W et xTool S1 fermée si enfants ou animaux imposent une enceinte."
   },
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -38,8 +36,8 @@
     "cut": [
       "Tilleul (jusqu'à 8 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric"
+      "Papier",
+      "Tissu"
     ],
     "cannot": [
       "Acrylique transparent",

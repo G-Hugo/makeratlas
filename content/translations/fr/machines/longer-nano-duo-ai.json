@@ -12,7 +12,9 @@
     "Longer ecosystem"
   ],
   "pros": [
-    "12W IR : marquage métal sur le même châssis que les autres modules"
+    "12W IR : marquage métal sur le même châssis que les autres modules",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "Longer Nano Duo AI : limites matériaux, benchmarks et conseils pratiques sur cette fiche"
   ],
   "cons": [
     "Nécessite le châssis complet : ce module seul ne remplace pas une machine dédiée"
@@ -58,7 +60,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Longer Nano Duo AI 12W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "advantages": "Longer Nano Duo AI 12W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

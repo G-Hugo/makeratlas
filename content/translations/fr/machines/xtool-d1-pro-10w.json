@@ -1,7 +1,7 @@
 {
   "tagline": "10 W : le laser diode structure ouverte le plus populaire pour les makers qui dépassent l’entrée de gamme",
   "tldr": "La xTool D1 Pro 10 W est la version 10 W de la gamme D1 Pro. Laser diode structure ouverte bien construit, disponible jusqu’à 20 W. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing « watts combinés ».",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "mainObjective": "Priorité gravure avec découpe occasionnelle sur petites épaisseurs",
   "primaryUse": "Module 10W · xTool D1 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 10W de xTool D1 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Optimisez la gravure avant la découpe : vitesse de balayage plus basse pour les photos. L’assistance air reste utile sur le cuir et le bois fin.",
@@ -12,7 +12,7 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Châssis ouvert : lunettes laser et ventilation à votre charge",
     "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
     "10W sur xTool D1 Pro : priorité gravure : remplissages photo et cuir"
   ],
@@ -20,7 +20,7 @@
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -33,9 +33,9 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 5 mm)",
-      "Black acrylic (thin)",
-      "Paper",
-      "Fabric",
+      "Black Acrylique (thin)",
+      "Papier",
+      "Tissu",
       "Felt"
     ],
     "cannot": [

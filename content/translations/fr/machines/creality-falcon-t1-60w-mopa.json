@@ -4,7 +4,9 @@
     "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
   },
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "Surface utile 220 × 220 mm (galvo field) : validez vos formats avant achat"
   ],
   "cons": [
     "Fibre 60W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
@@ -14,9 +16,24 @@
   "primaryUse": "Module 60W · Creality Falcon T1 MOPA",
   "mainObjective": "MOPA fiber marking with color effects on the T1 modular platform",
   "bestFor": [
-    "Color stainless",
-    "Production metal marking",
-    "Knives & tools",
-    "T1 flagship metal module"
-  ]
+    "Gravure métal profonde",
+    "Débit élevé",
+    "Devis prod.",
+    "Grandes surfaces"
+  ],
+  "materials": {
+    "engrave": [
+      "Inox (color)",
+      "Aluminium",
+      "Brass",
+      "Titanium (light)",
+      "Plastics (select)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Bois or Cuir",
+      "CO₂-style thick Acrylique",
+      "Budget hobby-only buyers"
+    ]
+  }
 }

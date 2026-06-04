@@ -14,12 +14,12 @@
   "pros": [
     "Meilleure marge de découpe de la gamme : ~20 mm tilleul en benchmark",
     "48W : tête la plus orientée découpe de Sculpfun S40 MAX",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -71,6 +71,6 @@
   ],
   "editorialDepth": {
     "advantages": "Sculpfun S40 MAX 48W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
-    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Open-frame : sécurité et fumées à votre charge."
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Châssis ouvert : sécurité et fumées à votre charge."
   }
 }

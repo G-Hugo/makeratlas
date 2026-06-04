@@ -13,7 +13,8 @@
   ],
   "pros": [
     "10W sur Creality Falcon A1 : priorité gravure : remplissages photo et cuir",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
+    "Surface utile 250 × 250 mm (approx.) : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
@@ -29,7 +30,7 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 5 mm)",
-      "Paper"
+      "Papier"
     ],
     "cannot": [
       "Découpe production épaisse",

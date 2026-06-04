@@ -9,10 +9,10 @@
   "tldr": "The 5W UV WaveSync module targets materials diode and fiber struggle with : glass, some films, and heat-sensitive plastics. Install on the same Falcon T1 enclosure when your shop adds UV jobs after wood or metal modules.",
   "mainObjective": "UV galvo marking for glass and specialty plastics on the T1 platform",
   "bestFor": [
-    "Glass gifts",
-    "Film & label marking",
-    "UV plastics",
-    "T1 multi-process shops"
+    "Fine engraving",
+    "Photo & logo work",
+    "Gifts & coasters",
+    "First machine"
   ],
   "priceRange": {
     "min": 3999,
@@ -66,25 +66,21 @@
     ]
   },
   "pros": [
-    "UV wavelength without a separate UV bench",
-    "Shares T1 Class 1 enclosure and workflow",
-    "Expands T1 beyond organics and metal",
-    "Galvo precision on small parts"
+    "5W UV: cold marking on glass and heat-sensitive plastics",
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "Niche module : verify material list before buying",
-    "Requires chassis and module swap discipline",
-    "Premium pricing for specialized work",
-    "Not a first module for most buyers"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "Add UV after diode or fiber modules are paid off and you have confirmed UV material demand. Most shops compare the base diode profile on T1 first.",
+  "beginnerNotes": "This profile is the 5W SKU on Creality Falcon T1 UV. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Run glass test tiles at low power : UV on glass is unforgiving. Keep dedicated ventilation practices for UV fumes per Creality guidance.",
   "primaryUse": "5W UV galvo module for glass and specialty marking on the Creality Falcon T1 chassis.",
   "rating": {
-    "overall": 8.1,
-    "value": 7.2,
+    "overall": 7.6,
+    "value": 6.7,
     "easeOfUse": 8.3,
-    "capability": 8,
+    "capability": 7.2,
     "buildQuality": 8.5
   },
   "similarModels": [

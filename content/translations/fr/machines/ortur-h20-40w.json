@@ -1,7 +1,7 @@
 {
   "tagline": "Haut de gamme Ortur H20 : diode compressée 40 W pour découpe sérieuse",
   "tldr": "L’Ortur H20 40 W est le diode le plus puissant de la série H d’Ortur : compression multi-diodes pour des découpes plus profondes dans le bois et des remplissages plus rapides. Prix premium ; comparez au Longer B1 40 W et Atomstack A40 avant d’acheter.",
-  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "primaryUse": "Module 40W · Ortur H20",
   "beginnerNotes": "Ce profil décrit le SKU 40W de Ortur H20. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Chiffrez vos devis avec les benchmarks découpe de cette fiche. Testez l’évacuation avant les longues sessions sur bois épais.",
@@ -12,15 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de Ortur H20"
+    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
+    "40W : tête la plus orientée découpe de Ortur H20",
+    "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -31,8 +30,8 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 10 mm)",
-      "5 mm acrylic",
-      "Leather"
+      "5 mm Acrylique",
+      "Cuir"
     ],
     "cannot": [
       "Transparence acrylique niveau CO₂",
@@ -66,6 +65,6 @@
   ],
   "editorialDepth": {
     "advantages": "Le module 40W diode est la tête la plus orientée découpe de Ortur H20 : bois plus épais et remplissages plus rapides que les modules d’entrée sur le même châssis.",
-    "limitations": "Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est open-frame."
+    "limitations": "Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est Châssis ouvert."
   }
 }

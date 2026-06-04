@@ -13,12 +13,13 @@
   ],
   "pros": [
     "5W sur LaserPecker LP1 Pro : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 100 × 100 mm (approx.) : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
     "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -61,7 +62,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LaserPecker LP1 Pro 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "advantages": "LaserPecker LP1 Pro 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

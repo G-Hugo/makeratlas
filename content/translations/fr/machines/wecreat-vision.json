@@ -13,7 +13,8 @@
   ],
   "pros": [
     "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
+    "Surface utile 400 × 370 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents"
@@ -71,7 +72,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "WeCreat Vision 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "advantages": "WeCreat Vision 20W est le SKU polyvalent hobby / petite activité : gravure propre et découpes légères sur bois et cuir, avec benchmarks comparables sur cette fiche.",
     "limitations": "Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

@@ -69,12 +69,9 @@
   },
   "pros": [
     "Fiber marks metal : does not cut wood or acrylic",
-    "Monport Monport GT Fiber : compare benchmarks and material limits on this profile before ordering.",
-    "Monport Monport GT Fiber : compare benchmarks and material limits on this profile before ordering.",
-    "Monport Monport GT Fiber : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "100W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Does not cut wood, leather, or acrylic : metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
@@ -82,10 +79,10 @@
   "proTips": "Push speed only after depth tests on your metal alloy. Cooling and lens cleanliness matter more at this power level.",
   "primaryUse": "High-power fiber for metal-focused shops needing line-top throughput",
   "rating": {
-    "overall": 8.6,
-    "value": 7.9,
+    "overall": 8.1,
+    "value": 7.5,
     "easeOfUse": 8.4,
-    "capability": 9.3,
+    "capability": 8.2,
     "buildQuality": 8.4
   },
   "similarModels": [

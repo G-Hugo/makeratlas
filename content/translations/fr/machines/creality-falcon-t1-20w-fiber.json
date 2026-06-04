@@ -4,7 +4,9 @@
     "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante (40W ou 60W) ou une autre machine."
   },
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "Surface utile 220 × 220 mm (typical galvo field) : validez vos formats avant achat"
   ],
   "cons": [
     "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
@@ -15,9 +17,24 @@
   "primaryUse": "Module 20W · Creality Falcon T1 Fiber",
   "mainObjective": "Desktop fiber marking on the modular T1 platform",
   "bestFor": [
-    "Petites séries",
-    "Metal tags & tools",
-    "T1 metal upgrade",
-    "Jewelry-scale marking"
-  ]
+    "Bijoux & plaques",
+    "Petites pièces métal",
+    "Apprendre la fibre",
+    "Marquage bureau"
+  ],
+  "materials": {
+    "engrave": [
+      "Inox",
+      "Aluminium",
+      "Brass",
+      "Some plastics",
+      "Coated metals"
+    ],
+    "cut": [],
+    "cannot": [
+      "Bois cutting",
+      "Thick Acrylique signage",
+      "Use alongside diode module without swapping"
+    ]
+  }
 }

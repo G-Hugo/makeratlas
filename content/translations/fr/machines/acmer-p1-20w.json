@@ -13,11 +13,12 @@
   ],
   "pros": [
     "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -59,7 +60,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Acmer P1 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
-    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+    "advantages": "Acmer P1 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
+    "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

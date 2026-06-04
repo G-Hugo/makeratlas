@@ -69,23 +69,22 @@
     ]
   },
   "pros": [
-    "Entry enclosed Falcon A1 for safer home engraving",
-    "Lower price than A1 Pro dual-source",
-    "Creality laser app for beginners"
+    "10W on Creality Falcon A1: engraving-first : photo fills and leather at moderate speeds",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Smaller bed than open Falcon2 lines",
-    "10W limits cutting depth",
-    "A1 Pro adds IR for more materials"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Creality Falcon A1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "10W module · Creality Falcon A1",
   "rating": {
-    "overall": 7.7,
+    "overall": 7.6,
     "value": 7.9,
     "easeOfUse": 8,
-    "capability": 6.9,
+    "capability": 6.8,
     "buildQuality": 7.8
   },
   "similarModels": [

@@ -74,23 +74,23 @@
     ]
   },
   "pros": [
-    "Popular D1 Pro engraving tier with xTool support",
-    "Modular riser ecosystem for cylinders",
-    "Stepping stone before D1 Pro 20W or S1"
+    "10W on xTool D1 Pro: engraving-first : photo fills and leather at moderate speeds",
+    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Cutting still limited to thin stock",
-    "Open-frame safety and smoke on you",
-    "S1 enclosed worth compare at sale time"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 10W SKU on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "10W module · xTool D1 Pro",
   "rating": {
-    "overall": 8.4,
-    "value": 8.1,
+    "overall": 8,
+    "value": 8,
     "easeOfUse": 8.8,
-    "capability": 7.5,
+    "capability": 7.2,
     "buildQuality": 8.8
   },
   "similarModels": [

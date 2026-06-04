@@ -1,10 +1,10 @@
 {
   "tagline": "Diode structure ouverte favori de la communauté : meilleur rapport qualité-prix LM3",
   "tldr": "Le LM3 20 W est la configuration que la plupart des acheteurs visent en disant « Laser Master 3 ». Gravure solide, découpe légère, communauté immense : vérifiez que vous ne commandez pas le SKU 10 W par erreur.",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Introduction abordable à la gravure diode et découpe légère pour loisirs.",
-  "beginnerNotes": "Ce profil décrit le module 20W de Ortur Laser Master 3. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Rejoignez les groupes Ortur Facebook/Reddit avant l’achat : les astuces firmware font gagner des heures. Ajoutez l’assistance air tôt. Si vous prévoyez de vendre sous 6 mois, envisagez directement le xTool D1 Pro ou un CO₂.",
+  "mainObjective": "Gravure quotidienne et découpe légère fiable sur bois, cuir et acrylique foncé",
+  "primaryUse": "Module 20W · Ortur Laser Master 3",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Ortur Laser Master 3. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Utilisez l’assistance air pour la découpe, ralentissez pour la photo. Plusieurs passes modérées valent mieux qu’une passe agressive. Comparez le benchmark découpe du SKU supérieur pour vos devis.",
   "bestFor": [
     "Gravure + découpe",
     "Petite activité",
@@ -12,16 +12,13 @@
     "Petites séries"
   ],
   "pros": [
-    "Souvent la meilleure open-frame pour petites activités mixtes gravure-découpe",
-    "Grand plateau et communauté Ortur mature à prix milieu de gamme",
-    "20 W : bon équilibre entre lenteur S9 et coût d’une 40 W",
-    "Parcours LightBurn bien documenté pour les premiers Ortur",
-    "Fort choix si vous découpez sans budget enceinte ou CO₂"
+    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 400 × 400 mm (15.75 × 15.75 in) : validez vos formats de pièces avant achat"
   ],
   "cons": [
-    "Vérifiez le SKU 20 W : même châssis, modules différents",
-    "Open-frame : enfants, animaux et fumées non confinées",
-    "L’acrylique coulé et la découpe production épaisse restent du CO₂"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "editorialDepth": {
     "advantages": "Le LM3 20 W est recommandé dans le guide d’achat car il offre une vraie marge de découpe bois sans installation CO₂. Lunettes, air assist et évacuation fenêtre suffisent pour des commandes mixtes crédibles.",
@@ -38,8 +35,8 @@
     "cut": [
       "Tilleul (jusqu'à 8 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric"
+      "Papier",
+      "Tissu"
     ],
     "cannot": [
       "Acrylique transparent",

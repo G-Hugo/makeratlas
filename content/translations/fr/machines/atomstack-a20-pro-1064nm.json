@@ -11,7 +11,9 @@
     "Atomstack metal focus"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "AtomStack A20 Pro 1064nm Fiber : limites matériaux, benchmarks et conseils pratiques sur cette fiche"
   ],
   "cons": [
     "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

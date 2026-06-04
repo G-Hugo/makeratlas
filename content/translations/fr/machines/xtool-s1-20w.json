@@ -1,10 +1,10 @@
 {
   "tagline": "Diode 20 W fermée : gravure domicile plus sûre avec découpe modérée",
   "tldr": "La S1 20 W est le bon rapport qualité-prix dans la ligne diode fermée xTool : même enceinte et filtres que la 40 W, mais moins de profondeur de découpe sur bois épais. Achetez-la si la sécurité compte et que vous gravez surtout.",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Diode fermée loisir et petite activité pour gravure plus sûre à domicile et découpe modérée.",
-  "beginnerNotes": "Ce profil décrit le module 20W de xTool S1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres : ils réduisent les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
+  "mainObjective": "Gravure quotidienne et découpe légère fiable sur bois, cuir et acrylique foncé",
+  "primaryUse": "Module 20W · xTool S1",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de xTool S1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Utilisez l’assistance air pour la découpe, ralentissez pour la photo. Plusieurs passes modérées valent mieux qu’une passe agressive. Comparez le benchmark découpe du SKU supérieur pour vos devis.",
   "bestFor": [
     "Gravure + découpe",
     "Petite activité",
@@ -38,8 +38,8 @@
     "cut": [
       "Tilleul (jusqu'à 8 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric"
+      "Papier",
+      "Tissu"
     ],
     "cannot": [
       "Acrylique transparent",

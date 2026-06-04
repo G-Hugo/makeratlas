@@ -6,14 +6,15 @@
   "beginnerNotes": "Cette fiche décrit AtomStack Hurricane 55W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Budget for exhaust hose and water chiller checks. LightBurn is the professional choice.",
   "bestFor": [
-    "Découpe",
-    "Enseignes & boîtes",
+    "Acrylic cutting",
+    "Wood signs",
     "Atomstack brand fans",
     "CO₂ first-timers with space"
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

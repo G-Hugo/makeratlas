@@ -1,10 +1,10 @@
 {
   "tagline": "Diode Longer 40 W grand format : plateau plus large que Ray5 pour enseignes",
   "tldr": "Le Longer Laser B1 40 W est le SKU 40 W de la gamme B1. Longer propose aussi 20 W et 30 W séparément. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
-  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
-  "primaryUse": "Gravure et découpe bois fin à moyen en diode grand format pour loisirs et petits vendeurs.",
-  "beginnerNotes": "Ce profil décrit le module 40W de Longer Laser B1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "La valeur du B1, c’est la taille du plateau : concevez vos gabarits pour utiliser toute la largeur en gravure par lots. Ajoutez nido d’abeille et assistance air avant de pousser au-delà de 8 mm de découpe.",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "primaryUse": "Module 40W · Longer Laser B1",
+  "beginnerNotes": "Ce profil décrit le SKU 40W de Longer Laser B1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Chiffrez vos devis avec les benchmarks découpe de cette fiche. Testez l’évacuation avant les longues sessions sur bois épais.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -12,15 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Palier B1 le plus rapide pour bois tendre épais",
-    "Grand plateau pour séries cadeaux en multi-pièces",
-    "Bon rapport si vous voulez vitesse sans projet ventilation CO₂",
-    "À coupler avec air assist et évacuation extérieure sérieux"
+    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
+    "40W : tête la plus orientée découpe de Longer Laser B1",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -32,8 +31,8 @@
     "cut": [
       "Tilleul (jusqu'à 10 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric"
+      "Papier",
+      "Tissu"
     ],
     "cannot": [
       "Acrylique transparent",
@@ -70,7 +69,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Le B1 40 W s’adresse aux acheteurs déjà engagés sur le grand open-frame Longer qui veulent le maximum diode sur bois.",
+    "advantages": "Le B1 40 W s’adresse aux acheteurs déjà engagés sur le grand Châssis ouvert Longer qui veulent le maximum diode sur bois.",
     "limitations": "Ne remplace pas une boutique enseignes acrylique. Les photos fines peuvent être meilleures en B1 20 W réglé lentement. Prévoyez budget extraction si vous venez du Ray5."
   }
 }

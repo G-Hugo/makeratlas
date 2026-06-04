@@ -74,11 +74,9 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "AtomStack Hurricane : full profile with material limits and benchmarks on Maker Atlas",
-    "Atomstack AtomStack Hurricane : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
@@ -87,9 +85,9 @@
   "primaryUse": "Desktop CO₂ production for acrylic gifts, signage, and wood cutting.",
   "rating": {
     "overall": 7.9,
-    "value": 7.6,
+    "value": 7.1,
     "easeOfUse": 8,
-    "capability": 8.2,
+    "capability": 8.3,
     "buildQuality": 7.8
   },
   "similarModels": [

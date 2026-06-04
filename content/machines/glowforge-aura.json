@@ -73,11 +73,9 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Glowforge Aura : full profile with material limits and benchmarks on Maker Atlas",
-    "Glowforge Glowforge Aura : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
@@ -85,10 +83,10 @@
   "proTips": "Factor subscription cost over 2–3 years into your budget. Proofgrade materials are convenient but expensive : third-party plywood works with testing. Aura is craft-scale, not sign-shop scale.",
   "primaryUse": "Simple CO₂ cutting and engraving for crafters who prioritize ease of use over power and cost efficiency.",
   "rating": {
-    "overall": 8,
-    "value": 7.5,
+    "overall": 8.6,
+    "value": 9,
     "easeOfUse": 9.5,
-    "capability": 7.7,
+    "capability": 8.3,
     "buildQuality": 8.5
   },
   "similarModels": [

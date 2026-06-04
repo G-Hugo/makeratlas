@@ -1,10 +1,10 @@
 {
   "tagline": "Diode 10 W mise au point fixe compacte : graveuse bureau simple pour petits projets",
   "tldr": "Le Longer Ray5 10 W est le SKU 10 W de la gamme Ray5. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Gravure bureau compacte de petits objets bois, cuir et ardoise avec une mise en route minimale.",
-  "beginnerNotes": "Ce profil décrit le module 10W de Longer Ray5. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez un rehausseur ou rotary pour les gobelets si votre modèle le supporte. LightBurn améliore le flux de travail vs l’app d’origine. Gardez des attentes modestes sur la découpe : c’est d’abord une graveuse.",
+  "mainObjective": "Priorité gravure avec découpe occasionnelle sur petites épaisseurs",
+  "primaryUse": "Module 10W · Longer Ray5",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de Longer Ray5. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Optimisez la gravure avant la découpe : vitesse de balayage plus basse pour les photos. L’assistance air reste utile sur le cuir et le bois fin.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,16 +12,15 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Palier Ray5 orienté gravure avec de meilleurs remplissages photo que le 5 W",
-    "Reste compact et abordable face à l’Ortur LM3",
-    "Bon second laser de secours pour gravure cadeaux",
-    "Montée possible vers 20 W ou 40 W sur la même gamme"
+    "10W sur Longer Ray5 : priorité gravure : remplissages photo et cuir",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 375 × 375 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
+    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -32,8 +31,8 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 5 mm)",
-      "Paper",
-      "Thin fabric"
+      "Papier",
+      "Tissu fin"
     ],
     "cannot": [
       "Découpes épaisses",

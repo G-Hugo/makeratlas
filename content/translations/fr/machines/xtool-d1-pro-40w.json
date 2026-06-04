@@ -1,7 +1,7 @@
 {
   "tagline": "40 W : module D1 Pro haut de gamme, diode xTool structure ouverte la plus puissante",
   "tldr": "Le module D1 Pro 40 W s’installe sur le même châssis que les têtes 5–20 W. Meilleure marge de découpe de la gamme ; vérifiez la puissance optique sur l’annonce.",
-  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "primaryUse": "Module 40W · xTool D1 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 40W de xTool D1 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Chiffrez vos devis avec les benchmarks découpe de cette fiche. Testez l’évacuation avant les longues sessions sur bois épais.",
@@ -12,7 +12,7 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Châssis ouvert : lunettes laser et ventilation à votre charge",
     "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
     "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
     "40W : tête la plus orientée découpe de xTool D1 Pro"
@@ -20,7 +20,7 @@
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -34,8 +34,8 @@
     "cut": [
       "Tilleul (jusqu'à 10 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric",
+      "Papier",
+      "Tissu",
       "Felt"
     ],
     "cannot": [
@@ -92,6 +92,6 @@
   },
   "editorialDepth": {
     "advantages": "Le module 40W diode est la tête la plus orientée découpe de xTool D1 Pro : bois plus épais et remplissages plus rapides que les modules d’entrée sur le même châssis.",
-    "limitations": "Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est open-frame."
+    "limitations": "Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est Châssis ouvert."
   }
 }

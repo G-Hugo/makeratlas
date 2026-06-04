@@ -1,10 +1,10 @@
 {
   "tagline": "A1 Pro fermée double source : diode plus infrarouge pour plus de matériaux",
   "tldr": "La Creality Falcon A1 Pro 20W ajoute une configuration double laser dans un châssis fermé pour une gravure plus rapide et du marquage métal/plastique. Juste milieu entre l'A1 10W et la gamme ouverte Falcon 2 Pro 40W.",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Creality double source fermée pour le travail mixte petite entreprise.",
-  "beginnerNotes": "Ce profil décrit le module 20W de Creality Falcon A1 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Testez chaque source laser sur des chutes : IR et diode demandent des réglages différents.",
+  "mainObjective": "Gravure quotidienne et découpe légère fiable sur bois, cuir et acrylique foncé",
+  "primaryUse": "Module 20W · Creality Falcon A1 Pro",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Creality Falcon A1 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Utilisez l’assistance air pour la découpe, ralentissez pour la photo. Plusieurs passes modérées valent mieux qu’une passe agressive. Comparez le benchmark découpe du SKU supérieur pour vos devis.",
   "bestFor": [
     "Gravure + découpe",
     "Petite activité",
@@ -12,14 +12,12 @@
     "Petites séries"
   ],
   "pros": [
-    "Creality fermé diode + IR pour plus de matériaux",
-    "Plus sûr en famille que les Falcon2 ouverts",
-    "Petit plateau adapté appartement et cadeaux",
-    "Double source pour certains métaux/plastiques sans fibre complète"
+    "20W IR : marquage métal sur le même châssis que les autres modules",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "Surface utile 250 × 250 mm (approx.) : validez vos formats avant achat"
   ],
   "cons": [
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Nécessite le châssis complet : ce module seul ne remplace pas une machine dédiée"
   ],
   "materials": {
     "engrave": [

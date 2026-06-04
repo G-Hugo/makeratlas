@@ -74,23 +74,23 @@
     ]
   },
   "pros": [
-    "Highest MK2 throughput for wood-heavy hobby weeks",
-    "Algolaser marketing focuses on cut speed at this tier",
-    "Alternative to Creality 40W or S30 class if priced well"
+    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "40W: the most cut-focused head in the Algolaser Alpha MK2 line",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Fine engraving may need slower tuning than 10W",
-    "Diode material limits unchanged",
-    "Community recipes still maturing versus Sculpfun"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 40W SKU on Algolaser Alpha MK2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "primaryUse": "40W module · Algolaser Alpha MK2",
   "rating": {
-    "overall": 8.4,
-    "value": 7.7,
+    "overall": 7.8,
+    "value": 7.2,
     "easeOfUse": 8.2,
-    "capability": 9.2,
+    "capability": 7.6,
     "buildQuality": 8.3
   },
   "similarModels": [
@@ -124,7 +124,7 @@
   "releaseDate": "2024-06",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "MK2 40W suits buyers already sold on Algolaser design who need maximum diode cutting in that chassis.",
-    "limitations": "Not proven for production sign shops. Compare established 40W bundles with air assist and return policies."
+    "advantages": "Algolaser Alpha MK2 40W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
   }
 }

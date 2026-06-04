@@ -1,7 +1,7 @@
 {
   "tagline": "Acmer S2 Pro puissance intermédiaire : niveau 36 W avec boîtier optionnel",
   "tldr": "L'Acmer S2 Pro 36 W est la référence moins puissante de la gamme S2 Pro d'Acmer, avec options de packs rotatif et IR. Comparez au S2 Pro 48 W avant l'achat : le surclassement vaut souvent le coup.",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "primaryUse": "Module 36W · Acmer S2 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 36W de Acmer S2 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "On the 36W S2 Pro, run separate LightBurn profiles for photo fills versus basswood cuts. Push cut speed only after 10×10 cm test squares. Compare the 48W tier if evening batches still feel slow.",
@@ -12,9 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
-    "36W : tête la plus orientée découpe de Acmer S2 Pro"
+    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
+    "36W : tête la plus orientée découpe de Acmer S2 Pro",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -59,6 +59,6 @@
   ],
   "editorialDepth": {
     "advantages": "Acmer S2 Pro 36W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
-    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. "
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first."
   }
 }

@@ -1,18 +1,18 @@
 {
   "tagline": "5 W : le laser diode structure ouverte le plus populaire pour les makers qui dépassent l’entrée de gamme",
   "tldr": "La xTool D1 Pro 5 W est la version 5 W de la gamme D1 Pro. Laser diode structure ouverte bien construit, disponible jusqu’à 20 W. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing « watts combinés ».",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "primaryUse": "Module 5W · xTool D1 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 5W de xTool D1 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next module before assuming you need more power.",
   "bestFor": [
-    "Gravure",
-    "Photo & logo work",
-    "Petites séries",
-    "First machine"
+    "Gravure fine",
+    "Photo et logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Châssis ouvert : lunettes laser et ventilation à votre charge",
     "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
     "5W sur xTool D1 Pro : priorité gravure : remplissages photo et cuir"
   ],
@@ -20,7 +20,7 @@
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (10W, 20W ou 40W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -33,9 +33,9 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 3 mm)",
-      "Black acrylic (thin)",
-      "Paper",
-      "Fabric",
+      "Black Acrylique (thin)",
+      "Papier",
+      "Tissu",
       "Felt"
     ],
     "cannot": [

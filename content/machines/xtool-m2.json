@@ -73,20 +73,18 @@
   "pros": [
     "10W on xTool M2 Color Craft Laser: engraving-first : photo fills and leather at moderate speeds",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "xTool M2 Color Craft Laser: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
-    "xTool M2 Color Craft Laser : full profile with material limits and benchmarks on Maker Atlas"
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Targets thin cuts (about 3 mm basswood class) : not thick production plywood",
-    "Not the SKU for a shop cutting 3 mm+ stock all day",
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers xTool M2 Color Craft Laser. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Budget for ink cartridges and laser-safe materials rated for both processes. Test color + laser alignment on scraps before client work.",
   "primaryUse": "2026 entry enclosed craft system combining diode laser work with integrated color printing for gifts and small business.",
   "rating": {
     "overall": 8.3,
-    "value": 8.3,
+    "value": 8.1,
     "easeOfUse": 9,
     "capability": 7.9,
     "buildQuality": 8.2

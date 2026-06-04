@@ -25,7 +25,9 @@
     "sync:tier-editorial": "npx tsx scripts/sync-tier-editorial-to-json.ts",
     "editorial:full-pass": "npx tsx scripts/editorial-full-catalog-pass.ts",
     "editorial:sync-fr": "npx tsx scripts/sync-fr-editorial-overlays.ts",
+    "editorial:clean": "npx tsx scripts/editorial-clean-pass.ts",
     "ratings:recalibrate": "node scripts/recalibrate-ratings.mjs",
+    "ratings:audit": "node scripts/audit-ratings.mjs",
     "audit:tier-coherence": "node scripts/audit-power-tier-coherence.mjs"
   },
   "dependencies": {

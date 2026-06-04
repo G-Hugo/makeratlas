@@ -1,10 +1,10 @@
 {
   "tagline": "Diode 20 W mise au point fixe compacte : graveuse bureau simple pour petits projets",
   "tldr": "Le Longer Ray5 20 W est le SKU 20 W de la gamme Ray5. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Gravure bureau compacte de petits objets bois, cuir et ardoise avec une mise en route minimale.",
-  "beginnerNotes": "Ce profil décrit le module 20W de Longer Ray5. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez un rehausseur ou rotary pour les gobelets si votre modèle le supporte. LightBurn améliore le flux de travail vs l’app d’origine. Gardez des attentes modestes sur la découpe : c’est d’abord une graveuse.",
+  "mainObjective": "Gravure quotidienne et découpe légère fiable sur bois, cuir et acrylique foncé",
+  "primaryUse": "Module 20W · Longer Ray5",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Longer Ray5. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Utilisez l’assistance air pour la découpe, ralentissez pour la photo. Plusieurs passes modérées valent mieux qu’une passe agressive. Comparez le benchmark découpe du SKU supérieur pour vos devis.",
   "bestFor": [
     "Gravure + découpe",
     "Petite activité",
@@ -12,16 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Choix Ray5 par défaut pour gravure mixte et découpe bois légère",
-    "Souvent en promo sous l’Ortur LM3 20 W",
-    "Plateau 375 mm pour enseignes et petites séries cadeaux",
-    "Compatible LightBurn après Longer Laser Tool",
-    "Alternative budget du guide d’achat milieu de gamme"
+    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 375 × 375 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
     "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -32,8 +30,8 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 8 mm)",
-      "Paper",
-      "Thin fabric"
+      "Papier",
+      "Tissu fin"
     ],
     "cannot": [
       "Découpes épaisses",

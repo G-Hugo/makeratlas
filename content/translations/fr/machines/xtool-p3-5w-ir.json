@@ -1,27 +1,23 @@
 {
   "tagline": "Tête IR 5 W 1064 nm sur châssis P3 : marquage métal sans seconde machine fibre",
   "tldr": "Le module IR optionnel P3 ajoute du marquage 5 W 1064 nm sur inox, aluminium et nombreux plastiques, sur le même châssis CO₂ 80 W, automatisation et logiciels. À prendre quand le métal est un revenu récurrent : ce n’est pas un remplacement du tube CO₂.",
-  "mainObjective": "Marquage métal nu et plastiques sur la plateforme P3 sans deuxième machine",
-  "primaryUse": "Module 1064 nm optionnel pour propriétaires P3 avec besoin métal répétable sur le flagship CO₂.",
-  "beginnerNotes": "Choisissez ce profil si vous avez ou prévoyez une P3 et que le métal dépasse les tests occasionnels au spray. Si le métal est votre seul métier, comparez une fibre dédiée avant CO₂ + IR.",
-  "proTips": "Testez d’abord l’inox sur chutes. Gardez des presets CO₂ et IR séparés : changer de tête prend du temps.",
+  "mainObjective": "Bare-metal and plastic marking on the P3 platform without a second machine",
+  "primaryUse": "Module 5W · xTool P3 IR",
+  "beginnerNotes": "Ce profil décrit le SKU 5W de xTool P3 IR. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Run stainless parameter libraries on scrap first. Keep CO₂ and IR jobs as separate material presets : swapping heads takes downtime.",
   "bestFor": [
-    "Lignes cadeaux métal",
-    "Ateliers P3 ajoutant l’acier",
-    "Marquage outils & couteaux",
-    "Plastiques difficiles en CO₂/diode"
+    "Gravure fine",
+    "Photo et logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
-    "Marquage métal sur le même plateau et workflow ACS P3",
-    "Pas de seconde enceinte ni ligne d’évacuation pour un banc fibre",
-    "Caméras et autofocus P3 pour jobs répétés",
-    "Entrée métal moins chère qu’une fibre galvo séparée"
+    "5W IR : marquage métal sur le même châssis que les autres modules",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "Surface utile 915 × 458 mm (same P3 bed) : validez vos formats avant achat"
   ],
   "cons": [
-    "Nécessite l’achat de la P3 complète d’abord",
-    "Moins rapide/profond qu’une fibre industrielle sur inox épais",
-    "Module CO₂ toujours requis pour acrylique et bois",
-    "Prix accessoire qui augmente le coût total"
+    "Nécessite le châssis complet : ce module seul ne remplace pas une machine dédiée"
   ],
   "materials": {
     "engrave": [

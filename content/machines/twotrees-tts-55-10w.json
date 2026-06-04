@@ -71,14 +71,13 @@
     ]
   },
   "pros": [
-    "Entry TTS-55 tier on TwoTrees large-format line",
-    "Engraving-first on a wide bed chassis",
-    "Budget path into 55-class frames"
+    "10W on TwoTrees TTS-55: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Higher watt tiers add real cutting speed",
-    "Assembly and calibration demand patience",
-    "Open-frame exhaust required"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 10W SKU on TwoTrees TTS-55. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",

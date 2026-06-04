@@ -74,23 +74,22 @@
     ]
   },
   "pros": [
-    "Algolaser compact platform with engraving-first 10W module",
-    "Interesting option for makers exploring newer brands",
-    "Suitable for detail gifts and leather work"
+    "10W on Algolaser Alpha MK2: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Less community depth than Ortur or Sculpfun",
-    "Cutting limited: compare 20W or 40W tiers",
-    "Open-frame ventilation required"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Algolaser Alpha MK2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "10W module · Algolaser Alpha MK2",
   "rating": {
-    "overall": 7.8,
-    "value": 7.7,
+    "overall": 7.5,
+    "value": 7,
     "easeOfUse": 8.2,
-    "capability": 6.9,
+    "capability": 6.8,
     "buildQuality": 8.3
   },
   "similarModels": [
@@ -123,7 +122,7 @@
   "releaseDate": "2024-03",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Alpha MK2 10W targets buyers curious about Algolaser industrial styling at hobby watts.",
-    "limitations": "Treat community size as a risk factor for troubleshooting. Production cutting wants higher tiers or established brands."
+    "advantages": "Algolaser Alpha MK2 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 5 mm+ cutting in production : see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

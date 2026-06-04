@@ -6,14 +6,15 @@
   "beginnerNotes": "Ce profil décrit le SKU 5W de Sculpfun iCube Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
-    "Gravure",
-    "Photo & logo work",
-    "Petites séries",
-    "First machine"
+    "Gravure fine",
+    "Photo et logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
     "5W sur Sculpfun iCube Pro : priorité gravure : remplissages photo et cuir",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
+    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -29,8 +30,8 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 3 mm)",
-      "Black acrylic (thin)",
-      "Paper"
+      "Black Acrylique (thin)",
+      "Papier"
     ],
     "cannot": [
       "Grandes enseignes (petit plateau)",

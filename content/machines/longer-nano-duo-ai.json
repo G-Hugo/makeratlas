@@ -67,12 +67,9 @@
   },
   "pros": [
     "12W IR: metal marking on the same chassis as other modules",
-    "Longer Nano Duo AI : full profile with material limits and benchmarks on Maker Atlas",
-    "Longer Longer Nano Duo AI : compare benchmarks and material limits on this profile before ordering.",
-    "Longer Longer Nano Duo AI : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "Requires the full chassis : this module alone does not replace a dedicated machine",
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],

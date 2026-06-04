@@ -1,27 +1,24 @@
 {
   "tagline": "Poste galvo modulaire 2026 : échangez têtes diode, fibre, MOPA ou UV",
   "tldr": "La Falcon T1 de Creality (lancement mondial mai 2026) est une plateforme galvo fermée Classe 1 avec modules WaveSync interchangeables : diode 20W/40W, fibre 20W, MOPA 60W et UV 5W. Achetez la base une fois, ajoutez les types de laser au fil de la croissance de l'atelier : rivalise avec xTool F1/F2 Ultra sur la flexibilité plutôt que sur les boîtiers double laser fixes.",
-  "mainObjective": "Galvo fermé modulaire pour les makers qui veulent un châssis et plusieurs types de laser",
-  "primaryUse": "Plateforme galvo modulaire 2026 pour les ateliers qui veulent élargir les types de laser sans remplacer toute la machine.",
-  "beginnerNotes": "Commencez avec le module diode si le bois/cuir représente 80 % du travail ; ajoutez la fibre quand les ventes métal le justifient. Comparez au xTool F1 Ultra fixe si vous savez que vous aurez besoin métal + bois dès le premier jour.",
-  "proTips": "Chiffrez la feuille de route complète des modules avant achat : T1 plus fibre et MOPA peut dépasser un bundle F2 Ultra unique.",
+  "mainObjective": "Modular enclosed galvo for makers who want one chassis and multiple laser types",
+  "primaryUse": "Module 20W · Creality Falcon T1 Diode",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Creality Falcon T1 Diode. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Price the full module roadmap before buying : T1 plus fiber and MOPA can exceed a single F2 Ultra bundle.",
   "bestFor": [
-    "Petite entreprise en croissance",
-    "Métal puis UV plus tard",
-    "Atelier fermé Classe 1",
-    "Montées en gamme par modules"
+    "Gravure + découpe",
+    "Petite activité",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "Véritable chemin de montée en gamme modulaire",
-    "Conception fermée Classe 1 intégrale",
-    "Couvre métal, organiques et UV dans un même écosystème",
-    "Support marque Creality Falcon"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert"
   ],
   "cons": [
-    "Coût total qui monte vite avec les modules",
-    "Plateforme 2026 récente : peu de retours communautaires long terme",
-    "Plateau galvo plus petit que la Falcon 2 Pro ouverte",
-    "Temps d'arrêt au changement de module entre types de jobs"
+    "Modules plus puissants dans la gamme (40W ou 60W) : découpe plus rapide et plus profonde",
+    "Vérifiez le SKU 20W : même châssis, modules différents"
   ],
   "materials": {
     "engrave": [

@@ -68,23 +68,22 @@
     ]
   },
   "pros": [
-    "Top Z1 tier for mixed engrave and light cutting on a budget",
-    "Often among the lowest 20W full-bed prices online",
-    "Good spare machine or gift-shop starter"
+    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Build quality and support trail Ortur or Sculpfun",
-    "Verify optical power and bundle contents carefully",
-    "Open-frame exhaust required for regular cutting"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 20W SKU on Comgrow Z1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
   "primaryUse": "20W module · Comgrow Z1",
   "rating": {
-    "overall": 8.1,
-    "value": 8.6,
+    "overall": 7.8,
+    "value": 8.5,
     "easeOfUse": 7.5,
-    "capability": 9.2,
+    "capability": 8.1,
     "buildQuality": 6.8
   },
   "similarModels": [
@@ -111,7 +110,7 @@
   "powerRating": "20W",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Z1 20W makes sense when price is the only decision variable and you accept thinner ecosystem support.",
-    "limitations": "Heavy users will outgrow frame and community resources. Compare LM3 20W for longevity. Not for enclosed apartment requirements."
+    "advantages": "Comgrow Z1 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   }
 }

@@ -12,11 +12,13 @@
     "Small metal/wood gifts"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "LaserPecker 5 : limites matériaux, benchmarks et conseils pratiques sur cette fiche"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -64,7 +66,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LaserPecker 5 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
-    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+    "advantages": "LaserPecker 5 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
+    "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

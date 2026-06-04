@@ -70,12 +70,9 @@
   },
   "pros": [
     "Fiber marks metal : does not cut wood or acrylic",
-    "ComMarker B6 MOPA : full profile with material limits and benchmarks on Maker Atlas",
-    "ComMarker ComMarker B6 MOPA : compare benchmarks and material limits on this profile before ordering.",
-    "ComMarker ComMarker B6 MOPA : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "30W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Does not cut wood, leather, or acrylic : metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
@@ -83,10 +80,10 @@
   "proTips": "Build fixture jigs for repeat jobs. Keep lens clean : contamination shows on high-contrast marks.",
   "primaryUse": "Professional metal marking with optional color effects for premium personalization.",
   "rating": {
-    "overall": 8.6,
-    "value": 8.4,
+    "overall": 8.5,
+    "value": 8.5,
     "easeOfUse": 8.3,
-    "capability": 8.7,
+    "capability": 8.4,
     "buildQuality": 8.5
   },
   "similarModels": [

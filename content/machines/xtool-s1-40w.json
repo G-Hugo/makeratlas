@@ -72,30 +72,28 @@
     ]
   },
   "pros": [
-    "Strongest cutting head in the S1 family without jumping to CO₂",
-    "Enclosed beam path and integrated smoke handling for home workshops",
-    "Same cabinet as 20W : swap modules instead of replacing the whole laser",
-    "Handles thicker basswood and dark acrylic than 10W/20W SKUs in fewer passes",
-    "Still runs xTool Creative Space for beginners and LightBurn for pros"
+    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "40W: the most cut-focused head in the xTool S1 line",
+    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Choose 40W when your week mixes engraving with real wood cutting, not just marking gifts. You stay inside xTool's enclosed ecosystem, keep camera-assisted placement on repeat jobs, and avoid the space and ventilation project of a CO₂ box until clear acrylic pays the bills.",
-    "limitations": "This is still a diode: cast acrylic, deep hardwood, and metal marking without spray stay frustrating compared with CO₂ or fiber. Ultra-fine photo fills can look better on a slower 10W module if you tune for quality over speed. Filter packs and ducting matter when you cut often."
+    "advantages": "The 40W diode module is the most cut-focused head on xTool S1 : thicker basswood and faster fills than entry modules on the same chassis.",
+    "limitations": "Overkill if you only do fine engraving. Still a diode : clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
   },
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂",
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "This profile is the 40W module on xTool S1. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
+  "beginnerNotes": "This profile is the 40W SKU on xTool S1. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "primaryUse": "40W module · xTool S1",
   "rating": {
-    "overall": 8.8,
-    "value": 7.4,
+    "overall": 8.1,
+    "value": 7.2,
     "easeOfUse": 9.2,
-    "capability": 9.2,
+    "capability": 7.6,
     "buildQuality": 9
   },
   "similarModels": [

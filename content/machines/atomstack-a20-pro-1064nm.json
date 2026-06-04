@@ -65,12 +65,9 @@
   },
   "pros": [
     "Fiber marks metal : does not cut wood or acrylic",
-    "AtomStack A20 Pro 1064nm Fiber : full profile with material limits and benchmarks on Maker Atlas",
-    "Atomstack AtomStack A20 Pro 1064nm Fiber : compare benchmarks and material limits on this profile before ordering.",
-    "Atomstack AtomStack A20 Pro 1064nm Fiber : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "20W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Does not cut wood, leather, or acrylic : metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
@@ -78,8 +75,8 @@
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Fiber marking for metal personalization on a desktop footprint.",
   "rating": {
-    "overall": 8.1,
-    "value": 8.5,
+    "overall": 8.3,
+    "value": 8.9,
     "easeOfUse": 8,
     "capability": 8.2,
     "buildQuality": 7.8

@@ -14,7 +14,7 @@
   "pros": [
     "Meilleure marge de découpe de la gamme : ~5 mm tilleul en benchmark",
     "22W : tête la plus orientée découpe de AlgoLaser Delta",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -61,6 +61,6 @@
   ],
   "editorialDepth": {
     "advantages": "AlgoLaser Delta 22W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
-    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. "
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first."
   }
 }

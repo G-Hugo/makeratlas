@@ -73,24 +73,23 @@
     ]
   },
   "pros": [
-    "Compressed-diode class between 20W and 40W on the B1 frame",
-    "Faster evening cuts on 6–8 mm basswood than B1 20W",
-    "Large bed keeps panel layouts without jumping to CO₂",
-    "Good mid-tier for makers who outgrew Ray5 but skip enclosure cost"
+    "Strongest cut headroom in the line : about 8 mm basswood-class stock in benchmarks",
+    "30W: the most cut-focused head in the Longer Laser B1 line",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Photo engraving may need slower tuning than engraving-first modules",
-    "Still open-frame with diode acrylic limits",
-    "Compare S30 Ultra 22W and LM3 20W before checkout"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "This profile is the 30W module on Longer Laser B1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 30W SKU on Longer Laser B1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
   "primaryUse": "Cut-biased diode tier for makers who outgrew 10–20W job times but stay on the same frame",
   "rating": {
-    "overall": 8.1,
-    "value": 8.2,
+    "overall": 7.7,
+    "value": 7.6,
     "easeOfUse": 8,
-    "capability": 8.1,
+    "capability": 7.2,
     "buildQuality": 7.8
   },
   "similarModels": [
@@ -119,7 +118,7 @@
   "releaseDate": "2023-11",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "B1 30W targets cut-heavy weeks on a large Longer chassis without paying for 40W marketing peaks. Treat it as a throughput upgrade while you keep the same desk footprint class as B1 20W.",
-    "limitations": "Diode material limits unchanged. Apartment makers needing smoke containment should compare enclosed machines. Verify actual optical module in the box."
+    "advantages": "Longer Laser B1 30W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
   }
 }

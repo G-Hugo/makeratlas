@@ -1,7 +1,7 @@
 {
   "tagline": "Châssis H20 d’entrée de gamme avec design intégré et workflow app Ortur",
   "tldr": "L’Ortur H20 10 W est le palier diode de base sur le châssis H20 : déplacements plus rapides que le LM3 avec une intégration plus fermée. Bon pour la gravure et la découpe légère ; passez au 20 W ou 40 W pour le bois épais.",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
+  "mainObjective": "Priorité gravure avec découpe occasionnelle sur petites épaisseurs",
   "primaryUse": "Module 10W · Ortur H20",
   "beginnerNotes": "Ce profil décrit le SKU 10W de Ortur H20. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Optimisez la gravure avant la découpe : vitesse de balayage plus basse pour les photos. L’assistance air reste utile sur le cuir et le bois fin.",
@@ -12,12 +12,12 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "10W sur Ortur H20 : priorité gravure : remplissages photo et cuir"
+    "10W sur Ortur H20 : priorité gravure : remplissages photo et cuir",
+    "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
+    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée"
   ],
@@ -30,8 +30,8 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 5 mm)",
-      "Paper",
-      "Thin leather"
+      "Papier",
+      "Thin Cuir"
     ],
     "cannot": [
       "Production bois dur épais",

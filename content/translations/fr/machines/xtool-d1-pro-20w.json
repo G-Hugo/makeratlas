@@ -1,7 +1,7 @@
 {
   "tagline": "20 W : le laser diode structure ouverte le plus populaire pour les makers qui dépassent l’entrée de gamme",
   "tldr": "La xTool D1 Pro 20 W est la version 20 W de la gamme D1 Pro. Laser diode structure ouverte bien construit, disponible jusqu’à 20 W. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing « watts combinés ».",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
+  "mainObjective": "Gravure quotidienne et découpe légère fiable sur bois, cuir et acrylique foncé",
   "primaryUse": "Module 20W · xTool D1 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 20W de xTool D1 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Utilisez l’assistance air pour la découpe, ralentissez pour la photo. Plusieurs passes modérées valent mieux qu’une passe agressive. Comparez le benchmark découpe du SKU supérieur pour vos devis.",
@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Châssis ouvert : lunettes laser et ventilation à votre charge",
     "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
     "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
     "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -33,8 +33,8 @@
     "cut": [
       "Tilleul (jusqu'à 8 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric",
+      "Papier",
+      "Tissu",
       "Felt"
     ],
     "cannot": [

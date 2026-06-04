@@ -70,23 +70,22 @@
     ]
   },
   "pros": [
-    "Entry Falcon2 tier with Creality software hand-holding",
-    "Built-in air assist on many bundles helps first cuts",
-    "Engraving-first pricing under the 22W and 40W SKUs"
+    "12W on Creality Falcon2: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Limited cut depth versus 22W Falcon2 siblings",
-    "Open-frame safety and ventilation on you",
-    "Color-engrave marketing does not replace material limits"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 12W SKU on Creality Falcon2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "12W module · Creality Falcon2",
   "rating": {
     "overall": 7.6,
-    "value": 8,
+    "value": 8.1,
     "easeOfUse": 8.2,
-    "capability": 6.9,
+    "capability": 6.8,
     "buildQuality": 7.8
   },
   "similarModels": [
@@ -115,7 +114,7 @@
   "releaseDate": "2023-06",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Falcon2 12W suits Creality 3D printer owners who want one-brand laser learning. Air assist and structured chassis beat bare-bones 5W frames for first cuts.",
-    "limitations": "Side businesses cutting daily should compare 22W or open LM3 class value. Clear acrylic still needs CO₂."
+    "advantages": "Creality Falcon2 12W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 5 mm+ cutting in production : see 22W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

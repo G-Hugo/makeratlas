@@ -12,7 +12,9 @@
     "Industrial hobbyists"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "Monport GA MOPA Fiber : limites matériaux, benchmarks et conseils pratiques sur cette fiche"
   ],
   "cons": [
     "Fibre 100W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

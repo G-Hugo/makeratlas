@@ -64,23 +64,23 @@
     ]
   },
   "pros": [
-    "Mid-high Acmer open frame between P2 and flagship watts",
-    "Compressed diode class for faster panel work",
-    "Large bed for sign layouts on a budget"
+    "Strongest cut headroom in the line : about 8 mm basswood-class stock in benchmarks",
+    "36W: the most cut-focused head in the Acmer S2 Pro line",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "48W tier adds more headroom for cut-heavy weeks",
-    "Open-frame rules apply",
-    "Diode acrylic limits unchanged"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 36W SKU on Acmer S2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "On the 36W S2 Pro, run separate LightBurn profiles for photo fills versus basswood cuts. Push cut speed only after 10×10 cm test squares. Compare the 48W tier if evening batches still feel slow.",
   "primaryUse": "36W module · Acmer S2 Pro",
   "rating": {
-    "overall": 7.7,
-    "value": 7.6,
+    "overall": 7.4,
+    "value": 7.2,
     "easeOfUse": 8,
-    "capability": 6.9,
+    "capability": 6.8,
     "buildQuality": 7.8
   },
   "similarModels": [

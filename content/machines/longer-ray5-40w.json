@@ -70,24 +70,23 @@
     ]
   },
   "pros": [
-    "Top Ray5 head for faster cuts on wood and dark acrylic",
-    "Best choice in the line if Ray5 format already fits your desk",
-    "Useful when 20W job times block evening production batches",
-    "Still far cheaper than enclosed or CO₂ routes"
+    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "40W: the most cut-focused head in the Longer Ray5 line",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than 10W",
-    "Still a diode: clear cast acrylic wants CO₂",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "This profile is the 40W module on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 40W SKU on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "primaryUse": "40W module · Longer Ray5",
   "rating": {
-    "overall": 8.1,
-    "value": 7.9,
+    "overall": 8,
+    "value": 8,
     "easeOfUse": 8.5,
-    "capability": 9.2,
+    "capability": 8,
     "buildQuality": 7.2
   },
   "similarModels": [
@@ -118,7 +117,7 @@
   "catalogPrimary": true,
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Pick 40W when Ray5's compact chassis works for you but 20W throughput is the bottleneck. You stay on Longer's entry hardware with the highest cut bias in the family.",
-    "limitations": "Frame flex and duty cycle matter more at 40W class power. Compare Longer Laser B1 or Sculpfun S30 Ultra if you need a larger bed. Enclosed buyers should look at xTool S1 instead of chasing watts on Ray5."
+    "advantages": "Longer Ray5 40W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
   }
 }

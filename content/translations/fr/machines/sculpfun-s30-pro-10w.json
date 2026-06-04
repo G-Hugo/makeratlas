@@ -12,12 +12,13 @@
   ],
   "pros": [
     "10W sur Sculpfun S30 Pro : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
     "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -58,7 +59,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Sculpfun S30 Pro 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "advantages": "Sculpfun S30 Pro 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

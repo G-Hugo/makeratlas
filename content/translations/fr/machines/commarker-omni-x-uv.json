@@ -6,13 +6,15 @@
   "beginnerNotes": "Ce profil décrit le SKU 5W de ComMarker Omni X UV. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "UV on glass: low power test tiles and fixturing matter more than speed. Keep dedicated presets away from fiber jobs. Confirm material compatibility with ComMarker before quoting UV gift lines.",
   "bestFor": [
-    "Gravure",
-    "Photo & logo work",
-    "Petites séries",
-    "First machine"
+    "Gravure fine",
+    "Photo et logo",
+    "Cadeaux & ardoise",
+    "Première machine"
   ],
   "pros": [
-    "5W UV : marquage froid sur verre et plastiques sensibles à la chaleur"
+    "5W UV : marquage froid sur verre et plastiques sensibles à la chaleur",
+    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
+    "Surface utile 100 × 100 mm typical : validez vos formats avant achat"
   ],
   "cons": [
     "Pas de découpe bois/métal : installez un autre module sur le châssis pour ces matériaux"

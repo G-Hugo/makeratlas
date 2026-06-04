@@ -72,13 +72,11 @@
   "pros": [
     "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
     "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "FoxAlien Reisler 2: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
-    "FoxAlien Reisler 2 : full profile with material limits and benchmarks on Maker Atlas"
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Verify the 20W SKU : same chassis, different modules",
-    "Open frame: kids, pets, and smoke are not contained",
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers FoxAlien Reisler 2. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "If you own a FoxAlien CNC, shared vendor support can simplify your workshop.",

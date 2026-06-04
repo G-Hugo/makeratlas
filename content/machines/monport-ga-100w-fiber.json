@@ -66,12 +66,10 @@
   },
   "pros": [
     "Fiber marks metal : does not cut wood or acrylic",
-    "Monport GA MOPA Fiber : full profile with material limits and benchmarks on Maker Atlas",
-    "Monport Monport GA MOPA Fiber : compare benchmarks and material limits on this profile before ordering.",
-    "Monport Monport GA MOPA Fiber : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first",
+    "Work area Large marking field (verify SKU) : confirm your typical job sizes fit the bed"
   ],
   "cons": [
-    "100W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Does not cut wood, leather, or acrylic : metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
@@ -80,7 +78,7 @@
   "primaryUse": "Production MOPA fiber for deep and color metal engraving.",
   "rating": {
     "overall": 7.9,
-    "value": 7.5,
+    "value": 7.1,
     "easeOfUse": 8,
     "capability": 8.2,
     "buildQuality": 7.8

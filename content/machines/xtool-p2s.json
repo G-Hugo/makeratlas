@@ -75,11 +75,9 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "xTool P2S : full profile with material limits and benchmarks on Maker Atlas",
-    "xTool xTool P2S : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
@@ -87,15 +85,15 @@
   "proTips": "Pair with xTool conveyor for batch work. LightBurn unlocks advanced nesting for sign shops.",
   "primaryUse": "Premium enclosed CO₂ for production cutting of acrylic and wood in small businesses.",
   "rating": {
-    "overall": 8.9,
-    "value": 7.2,
+    "overall": 8.4,
+    "value": 7.1,
     "easeOfUse": 9.1,
-    "capability": 9,
+    "capability": 8.3,
     "buildQuality": 9.2
   },
   "editorialDepth": {
-    "advantages": "P2S refines the P2 experience with faster processing and improved autofocus while keeping the same 55W CO₂ class that sign makers expect. You still get enclosure safety, camera alignment, and a mature xTool ecosystem, often at a better bundle value than jumping straight to P3.",
-    "limitations": "All CO₂ caveats remain: ventilation, tube life, weight, and price. If you need 80W, a larger bed, or ACS automation, P3 is the meaningful upgrade, not P2S. Engraving-only buyers should not pay CO₂ money for diode-class work."
+    "advantages": "xTool P2S is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 55W adds headroom on panels and multi-pass jobs.",
+    "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
   "similarModels": [
     "xtool-p3",

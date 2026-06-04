@@ -66,12 +66,10 @@
   },
   "pros": [
     "Fiber marks metal : does not cut wood or acrylic",
-    "OMTech FC-510 Intelli : full profile with material limits and benchmarks on Maker Atlas",
-    "OMTech OMTech FC-510 Intelli : compare benchmarks and material limits on this profile before ordering.",
-    "OMTech OMTech FC-510 Intelli : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first",
+    "Work area Verify against OMTech spec sheet : confirm your typical job sizes fit the bed"
   ],
   "cons": [
-    "510W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Does not cut wood, leather, or acrylic : metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
@@ -80,9 +78,9 @@
   "primaryUse": "Small-business fiber sheet cutting.",
   "rating": {
     "overall": 7.7,
-    "value": 7.4,
+    "value": 6.9,
     "easeOfUse": 8,
-    "capability": 7.9,
+    "capability": 8.2,
     "buildQuality": 7.5
   },
   "similarModels": [

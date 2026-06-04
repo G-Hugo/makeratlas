@@ -1,10 +1,10 @@
 {
   "tagline": "Diode 40W haute puissance avec assistance air intégrée et effet gravure couleur",
   "tldr": "La Creality Falcon2 Pro 40W est la référence 40W de la gamme Falcon2 Pro. La diode ouverte haut de gamme de Creality à 60W combinés (classe 22W optique). Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
-  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
-  "primaryUse": "Diode loisir haute puissance pour gravure et découpe modérée, avec effets couleur optionnels sur acier inoxydable.",
-  "beginnerNotes": "Ce profil décrit le module 40W de Creality Falcon2 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Le marquage couleur exige un contrôle précis vitesse/puissance : entraînez-vous sur de l'inox de récupération. Utilisez LightBurn pour le travail sérieux. Prévoyez une extraction correcte : l'assistance air intégrée aide les découpes mais ne remplace pas la ventilation.",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "primaryUse": "Module 40W · Creality Falcon2 Pro",
+  "beginnerNotes": "Ce profil décrit le SKU 40W de Creality Falcon2 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Chiffrez vos devis avec les benchmarks découpe de cette fiche. Testez l’évacuation avant les longues sessions sur bois épais.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -12,15 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Diode Creality open-frame la plus musclée pour découpe hobby",
-    "Meilleur débit de la ligne Falcon2 Pro sur bois",
-    "Air assist et châssis rigide sur la plupart des packs",
-    "Sous le prix CO₂ si la ventilation bloquait"
+    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
+    "40W : tête la plus orientée découpe de Creality Falcon2 Pro",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -33,8 +32,8 @@
     "cut": [
       "Tilleul (jusqu'à 10 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric"
+      "Papier",
+      "Tissu"
     ],
     "cannot": [
       "Acrylique transparent",

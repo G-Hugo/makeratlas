@@ -66,22 +66,20 @@
   "pros": [
     "10W on Ortur Laser Master 2 Pro: engraving-first : photo fills and leather at moderate speeds",
     "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Ortur Laser Master 2 Pro: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
-    "Ortur Laser Master 2 Pro : full profile with material limits and benchmarks on Maker Atlas"
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Targets thin cuts (about 3 mm basswood class) : not thick production plywood",
-    "Not the SKU for a shop cutting 3 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers Ortur Laser Master 2 Pro. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Flash firmware carefully : many LM2 guides still online.",
   "primaryUse": "Legacy Ortur open-frame for hobby engraving on a budget.",
   "rating": {
-    "overall": 8,
-    "value": 8.3,
+    "overall": 8.1,
+    "value": 8.5,
     "easeOfUse": 8,
-    "capability": 8,
+    "capability": 7.9,
     "buildQuality": 7.8
   },
   "similarModels": [

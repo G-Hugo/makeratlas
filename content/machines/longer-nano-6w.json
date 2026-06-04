@@ -70,23 +70,22 @@
     ]
   },
   "pros": [
-    "Ultra-compact Longer engraver for travel and tiny gifts",
-    "Low power draw and small desk footprint",
-    "Good for leather tags, small plywood tests, and learning software"
+    "6W on Longer Nano: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Not a cutting or production machine",
-    "Limited bed size blocks larger signs",
-    "Open-frame eye protection still required"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 6W SKU on Longer Nano. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
   "rating": {
-    "overall": 7.7,
-    "value": 7.7,
+    "overall": 7.5,
+    "value": 7.5,
     "easeOfUse": 8,
-    "capability": 6.9,
+    "capability": 6.8,
     "buildQuality": 7.8
   },
   "similarModels": [
@@ -109,7 +108,7 @@
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Nano 6W sells portability and low risk entry. It fits makers who want to test laser workflows on small blanks before buying a full-size frame.",
-    "limitations": "Any paid cutting business should look at Ray5 20W minimum. Job times on photos scale with bed size and wattage. Treat combined-watt ads skeptically."
+    "advantages": "Longer Nano 6W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 4 mm+ cutting in production : see 12W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

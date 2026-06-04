@@ -1,7 +1,7 @@
 {
   "tagline": "Sommet de la gamme Acmer S2 Pro : diode compressée 48 W avec packs optionnels",
   "tldr": "L'Acmer S2 Pro 48 W est l'option Acmer structure ouverte la plus puissante avant le P3 fermé. Promesses de découpe solides : vérifiez la puissance optique réelle et comparez au P3 48 W fermé si vous avez besoin de maîtriser les fumées.",
-  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "primaryUse": "Module 48W · Acmer S2 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 48W de Acmer S2 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "The 48W head is for cut-heavy weeks : air assist, exhaust, and multi-pass squares on your plywood before you raise customer prices. Dial engraving speeds down when photo quality beats throughput.",
@@ -12,14 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "48W : tête la plus orientée découpe de Acmer S2 Pro"
+    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
+    "48W : tête la plus orientée découpe de Acmer S2 Pro",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -63,6 +63,6 @@
   ],
   "editorialDepth": {
     "advantages": "Acmer S2 Pro 48W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
-    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Open-frame : sécurité et fumées à votre charge."
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Châssis ouvert : sécurité et fumées à votre charge."
   }
 }

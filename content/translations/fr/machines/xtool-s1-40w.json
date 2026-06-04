@@ -1,10 +1,10 @@
 {
   "tagline": "Diode 40 W fermée : meilleure découpe domicile de la gamme enceinte xTool",
   "tldr": "La S1 40 W est la diode fermée haute puissance xTool. Toujours pas du CO₂, mais la puissance optique supplémentaire aide sur tilleul plus épais vs l’enceinte 20 W.",
-  "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
-  "primaryUse": "Diode fermée loisir et petite activité pour gravure plus sûre à domicile et découpe modérée.",
-  "beginnerNotes": "Ce profil décrit le module 40W de xTool S1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres : ils réduisent les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
+  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "primaryUse": "Module 40W · xTool S1",
+  "beginnerNotes": "Ce profil décrit le SKU 40W de xTool S1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Chiffrez vos devis avec les benchmarks découpe de cette fiche. Testez l’évacuation avant les longues sessions sur bois épais.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -38,8 +38,8 @@
     "cut": [
       "Tilleul (jusqu'à 10 mm)",
       "Acrylique foncé (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric"
+      "Papier",
+      "Tissu"
     ],
     "cannot": [
       "Acrylique transparent",

@@ -68,23 +68,22 @@
     ]
   },
   "pros": [
-    "Cheapest Acmer P1 tier for engraving-first hobby work",
-    "Full-size open frame with LightBurn path",
-    "Good starter before P2 or enclosed P3"
+    "10W on Acmer P1: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile : trial your workflow on scrap before production"
   ],
   "cons": [
-    "Limited cut depth versus P1 20W",
-    "Open-frame safety and exhaust on you",
-    "Verify optical 10W on marketplace listings"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Acmer P1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "10W module · Acmer P1",
   "rating": {
-    "overall": 7.8,
-    "value": 8.4,
+    "overall": 7.6,
+    "value": 8.6,
     "easeOfUse": 8,
-    "capability": 6.9,
+    "capability": 6.8,
     "buildQuality": 7.8
   },
   "similarModels": [

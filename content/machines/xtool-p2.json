@@ -79,11 +79,9 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "xTool P2 : full profile with material limits and benchmarks on Maker Atlas",
-    "xTool xTool P2 : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
@@ -91,10 +89,10 @@
   "proTips": "Pair with a compressor and good air assist for cleaner cuts on acrylic. LightBurn unlocks advanced workflows if you outgrow xTool Creative Space. Plan exhaust routing before unboxing : ventilation is not optional with CO₂.",
   "primaryUse": "Production-grade cutting and engraving of organic materials (wood, acrylic, leather) in a home or small business workshop.",
   "rating": {
-    "overall": 8.8,
+    "overall": 8.4,
     "value": 7.2,
     "easeOfUse": 9,
-    "capability": 8.9,
+    "capability": 8.3,
     "buildQuality": 9
   },
   "accessories": [
@@ -143,8 +141,8 @@
   "powerRating": "55W",
   "releaseDate": "2022-01",
   "editorialDepth": {
-    "advantages": "The P2 is the reference desktop CO₂ for makers who sell acrylic signs, wood products, or batch gifts. True 55W cutting, a large bed for this class, camera alignment, and an enclosure with interlocks make it feel like shop equipment without industrial floorspace. LightBurn support means you are not locked into beginner software forever.",
-    "limitations": "Price, weight, and mandatory ventilation put it out of reach for engraving-only hobbyists. The glass tube is a consumable with real replacement cost. Bare metal work still needs a different laser category. If you only mark tumblers or small gifts, a enclosed diode costs far less."
+    "advantages": "xTool P2 is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 55W adds headroom on panels and multi-pass jobs.",
+    "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
   "tierEditorialOverride": true
 }

@@ -70,12 +70,9 @@
   },
   "pros": [
     "Fiber marks metal : does not cut wood or acrylic",
-    "Gweike Gweike G2 Max Fiber : compare benchmarks and material limits on this profile before ordering.",
-    "Gweike Gweike G2 Max Fiber : compare benchmarks and material limits on this profile before ordering.",
-    "Gweike Gweike G2 Max Fiber : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "50W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Does not cut wood, leather, or acrylic : metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
@@ -83,10 +80,10 @@
   "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work : it slows flat-stock days.",
   "primaryUse": "Mid-power fiber for shops marking metal daily",
   "rating": {
-    "overall": 8.5,
+    "overall": 8.3,
     "value": 8.6,
     "easeOfUse": 8.2,
-    "capability": 9.3,
+    "capability": 7.8,
     "buildQuality": 8.2
   },
   "similarModels": [

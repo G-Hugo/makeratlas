@@ -1,10 +1,10 @@
 {
   "tagline": "Acmer P2 milieu de gamme : 20 W structure ouverte avec packs accessoires",
   "tldr": "L'Acmer P2 20 W se situe entre P1 et P3 dans la gamme Acmer : structure ouverte 20 W avec packs optionnels boîtier et caméra. Bon rapport qualité-prix si vous n'avez pas besoin du boîtier complet du P3.",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Acmer structure ouverte milieu de gamme pour gravure et découpe.",
-  "beginnerNotes": "Ce profil décrit le module 20W de Acmer P2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Prenez le pack Basic pour la machine seule : ajoutez votre propre assistance air si besoin.",
+  "mainObjective": "Gravure quotidienne et découpe légère fiable sur bois, cuir et acrylique foncé",
+  "primaryUse": "Module 20W · Acmer P2",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Acmer P2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Utilisez l’assistance air pour la découpe, ralentissez pour la photo. Plusieurs passes modérées valent mieux qu’une passe agressive. Comparez le benchmark découpe du SKU supérieur pour vos devis.",
   "bestFor": [
     "Gravure + découpe",
     "Petite activité",
@@ -12,20 +12,18 @@
     "Petites séries"
   ],
   "pros": [
-    "Palier P2 équilibré pour monter depuis les 10 W entrée de gamme",
-    "Souvent moins cher que des bundles Ortur ou Sculpfun 20 W comparables",
-    "Plateau 400 mm adapté aux enseignes et panneaux",
-    "Packs accessoires peuvent inclure air assist : vérifiez les photos annonce",
-    "Chemin logique vers le 33 W sur la même gamme si la découpe grossit"
+    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
   ],
   "editorialDepth": {
     "advantages": "Le P2 20 W convient si vous voulez des capacités type Ortur avec tarifs et packs Acmer. Traitez-le comme cheval de travail gravure + tilleul modéré une fois extraction et air assist en place.",
-    "limitations": "Support marque et communauté en retrait de Sculpfun et Ortur. Règles open-frame. Pour enceinte et caméra, comparez Acmer P3 plutôt que de viser 33 W. Acrylique transparent = CO₂."
+    "limitations": "Support marque et communauté en retrait de Sculpfun et Ortur. Règles Châssis ouvert. Pour enceinte et caméra, comparez Acmer P3 plutôt que de viser 33 W. Acrylique transparent = CO₂."
   },
   "cons": [
     "Modules plus puissants dans la gamme (33W) : découpe plus rapide et plus profonde",
     "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [

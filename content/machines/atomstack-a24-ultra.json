@@ -66,15 +66,13 @@
     ]
   },
   "pros": [
-    "Best cut headroom in the line : benchmarked around 5 mm basswood-class stock",
+    "Strongest cut headroom in the line : about 5 mm basswood-class stock in benchmarks",
     "24W: the most cut-focused head in the AtomStack A24 Ultra line",
-    "AtomStack A24 Ultra: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
-    "AtomStack A24 Ultra : full profile with material limits and benchmarks on Maker Atlas"
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Open frame: kids, pets, and smoke are not contained",
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers AtomStack A24 Ultra. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",

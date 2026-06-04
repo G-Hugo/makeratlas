@@ -1,13 +1,12 @@
 {
   "editorialDepth": {
     "advantages": "Le module 40W diode est la tête la plus orientée découpe de Creality Falcon T1 Diode : bois plus épais et remplissages plus rapides que les modules d’entrée sur le même châssis.",
-    "limitations": "Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est open-frame."
+    "limitations": "Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est Châssis ouvert."
   },
   "pros": [
     "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
     "40W : tête la plus orientée découpe de Creality Falcon T1 Diode",
-    "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
+    "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -18,9 +17,28 @@
   "primaryUse": "Module 40W · Creality Falcon T1 Diode",
   "mainObjective": "Faster organic engraving and light cutting on the modular T1 galvo",
   "bestFor": [
-    "Wood & leather production",
-    "Petites séries",
-    "T1 upgrade path",
-    "Galvo speed on organics"
-  ]
+    "Découpe max. de la gamme",
+    "Atelier vitesse",
+    "Bois épais",
+    "Semaines découpe"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Dark Acrylique",
+      "Stone (light)",
+      "Coated metals (with spray)"
+    ],
+    "cut": [
+      "Tilleul (up to ~8 mm claimed)",
+      "Papier",
+      "Thin Cuir"
+    ],
+    "cannot": [
+      "Bare Inox production",
+      "Large-format CO₂ signage",
+      "All modules installed at once"
+    ]
+  }
 }

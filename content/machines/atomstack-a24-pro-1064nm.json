@@ -66,12 +66,10 @@
   },
   "pros": [
     "Fiber marks metal : does not cut wood or acrylic",
-    "AtomStack A24 Pro 1064nm : full profile with material limits and benchmarks on Maker Atlas",
-    "Atomstack AtomStack A24 Pro 1064nm : compare benchmarks and material limits on this profile before ordering.",
-    "Atomstack AtomStack A24 Pro 1064nm : compare benchmarks and material limits on this profile before ordering."
+    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first",
+    "Work area ~110 × 110 mm marking field : confirm your typical job sizes fit the bed"
   ],
   "cons": [
-    "20W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Does not cut wood, leather, or acrylic : metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
@@ -79,10 +77,10 @@
   "proTips": "Rotary and fixture quality matter more than raw wattage for rings and pens.",
   "primaryUse": "Compact fiber marking for metal and engineered plastics.",
   "rating": {
-    "overall": 7.9,
-    "value": 8.5,
+    "overall": 8.3,
+    "value": 9,
     "easeOfUse": 8,
-    "capability": 7.9,
+    "capability": 8.2,
     "buildQuality": 7.5
   },
   "similarModels": [

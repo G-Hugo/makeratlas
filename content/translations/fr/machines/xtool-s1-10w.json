@@ -1,10 +1,10 @@
 {
   "tagline": "S1 fermée entrée de gamme : orientée gravure avec écosystème têtes interchangeables",
   "tldr": "La S1 10 W est le pack fermé entrée xTool : même enceinte classe 1 que 20 W/40 W, mais le module diode limite la profondeur de découpe. Vous pouvez upgrader plus tard en changeant la tête : vérifiez que vous achetez le SKU 10 W, pas un châssis nu sans module.",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Diode fermée loisir et petite activité pour gravure plus sûre à domicile et découpe modérée.",
-  "beginnerNotes": "Ce profil décrit le module 10W de xTool S1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Évacuez vers la fenêtre lors de découpes intensives même avec filtres : ils réduisent les odeurs mais ne font pas miracles. Utilisez la caméra pour alignement en série sur produits répétitifs. Associez le rehausseur xTool pour gobelets.",
+  "mainObjective": "Priorité gravure avec découpe occasionnelle sur petites épaisseurs",
+  "primaryUse": "Module 10W · xTool S1",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de xTool S1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Optimisez la gravure avant la découpe : vitesse de balayage plus basse pour les photos. L’assistance air reste utile sur le cuir et le bois fin.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -36,9 +36,9 @@
     ],
     "cut": [
       "Tilleul (jusqu'à 5 mm)",
-      "Paper",
-      "Fabric",
-      "Thin leather"
+      "Papier",
+      "Tissu",
+      "Thin Cuir"
     ],
     "cannot": [
       "Acrylique transparent",

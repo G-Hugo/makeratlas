@@ -1,10 +1,10 @@
 {
   "tagline": "Diode Creality 22W d'entrée : chemin de montée simple pour les propriétaires d'imprimantes 3D",
   "tldr": "La Creality Falcon2 22W est la référence 22W de la gamme Falcon2. La Falcon2 12W de base est la diode à structure ouverte abordable de Creality. Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
-  "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Diode budget orientée gravure pour utilisateurs écosystème Creality et personnalisation loisir légère.",
-  "beginnerNotes": "Ce profil décrit le module 22W de Creality Falcon2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Ralentissez les remplissages pour des résultats plus propres : le 12W demande de la patience. Passez au module 22W plus tard si Creality le propose pour votre châssis.",
+  "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
+  "primaryUse": "Module 22W · Creality Falcon2",
+  "beginnerNotes": "Ce profil décrit le SKU 22W de Creality Falcon2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
   "bestFor": [
     "Découpe plus rapide",
     "Bois plus épais",
@@ -12,15 +12,14 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Palier Falcon2 équilibré avant la gamme Pro",
-    "Air assist et châssis rigide pour découpe hobby",
-    "Marquage couleur utile pour cadeaux métal",
-    "Grand plateau face au Ray5"
+    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
+    "22W : tête la plus orientée découpe de Creality Falcon2",
+    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
     "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Châssis ouvert : enfants, animaux et fumées non confinées"
   ],
   "priceRange": {
     "note": "Module optique 22W : vérifiez la référence avant achat"
@@ -47,7 +46,26 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Le Falcon2 22 W est le rapport qualité-prix open-frame Creality avec air assist sans surcoût Pro.",
+    "advantages": "Le Falcon2 22 W est le rapport qualité-prix Châssis ouvert Creality avec air assist sans surcoût Pro.",
     "limitations": "Les boutiques production peuvent préférer Sculpfun Ultra ou LM3. La finesse photo peut demander un module gravure plus lent."
+  },
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Anodized Aluminium"
+    ],
+    "cut": [
+      "Tilleul (up to 8 mm)",
+      "Papier",
+      "Tissu fin"
+    ],
+    "cannot": [
+      "Thick cuts",
+      "Clear Acrylique",
+      "Métal nu",
+      "Production work"
+    ]
   }
 }
