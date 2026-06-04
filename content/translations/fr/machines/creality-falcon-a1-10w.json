@@ -2,9 +2,9 @@
   "tagline": "A1 compacte fermée de Creality : diode accessible aux débutants dans un petit encombrement",
   "tldr": "La Creality Falcon A1 10W intègre une graveuse diode dans un châssis fermé de bureau avec l'écosystème logiciel Creality. Moins puissante que la Falcon 2 Pro, mais plus facile à vivre dans les petits espaces.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Diode Creality fermée pour la personnalisation à domicile et l'apprentissage.",
-  "beginnerNotes": "Ce profil décrit le module 10W de Creality Falcon A1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez d'abord les presets matériaux Creality, puis affinez dans LightBurn pour la production.",
+  "primaryUse": "10W module · Creality Falcon A1",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de Creality Falcon A1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,15 +12,13 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Entrée Falcon A1 fermée pour gravure plus sûre",
-    "Moins cher que A1 Pro double source",
-    "App Creality pour débutants"
+    "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "10W sur Creality Falcon A1 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
+    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée"
   ],
   "materials": {
     "engrave": [
@@ -64,7 +62,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Falcon A1 10 W quand la sécurité enceinte prime sur les watts.",
-    "limitations": "Mixte découpe : A1 Pro 20 W."
+    "advantages": "Creality Falcon A1 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Format fermé plus rassurant à la maison.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

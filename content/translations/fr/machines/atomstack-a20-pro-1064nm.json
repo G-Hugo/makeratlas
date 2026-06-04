@@ -2,23 +2,20 @@
   "tagline": "Module de marquage fibre de bureau : IR 1064 nm sur plateforme Atomstack",
   "tldr": "L’AtomStack A20 Pro 1064 nm est une variante fibre pour graver le métal sans banc galvo séparé. Catégorie de machine différente de la diode A20 Pro V2 : achetez-la pour le marquage métal, pas pour découper le bois.",
   "mainObjective": "Marquage fibre de bureau pour cadeaux et outils en métal",
-  "primaryUse": "Marquage fibre pour personnalisation métal sur un empreinte bureau.",
-  "beginnerNotes": "Ne la confondez pas avec la diode A20 Pro V2 : machine totalement différente.",
-  "proTips": "Cherchez « 1064 nm » dans le titre de l’annonce pour confirmer la référence fibre.",
+  "primaryUse": "Fiber marking for metal personalization on a desktop footprint.",
+  "beginnerNotes": "Cette fiche décrit AtomStack A20 Pro 1064nm Fiber. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Marquage métal",
-    "Bureau bijouterie",
-    "Focus métal Atomstack"
+    "Metal marking",
+    "Jewelry desk",
+    "Atomstack metal focus"
   ],
   "pros": [
-    "Marquage métal fibre dans l’écosystème Atomstack",
-    "Pas de spray sur de nombreux métaux",
-    "Compacte face aux fibres industrielles"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "AtomStack A20 Pro 1064nm Fiber : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Ce n’est pas la diode A20",
-    "Petit champ de marquage",
-    "Dénomination confuse avec l’A20 Pro V2"
+    "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
   ],
   "materials": {
     "engrave": [
@@ -45,9 +42,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre : Atomstack" }
-  ]
+    {
+      "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A20 Pro 1064 nm Fibre : Atomstack"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "AtomStack A20 Pro 1064nm Fiber 20W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
+    "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+  }
 }

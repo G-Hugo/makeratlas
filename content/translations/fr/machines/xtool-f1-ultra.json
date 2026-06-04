@@ -2,29 +2,24 @@
   "tagline": "Double laser portable (fibre + diode) pour marquage métal et gravure rapide",
   "tldr": "Machine bureau compacte combinant laser fibre 20 W et diode 20 W. Le module fibre marque le métal nu : acier inox, aluminium, laiton : sans spray. Idéale pour bijoux, couteaux et cadeaux métal. Prix premium pour une petite surface de travail.",
   "mainObjective": "Marquage métal nu direct pour bijoux, outils et personnalisation",
-  "primaryUse": "Marquage métal pro et gravure petits objets pour bijouterie, personnalisation et outillage.",
-  "beginnerNotes": "Achetez si le métal est votre matière principale : bagues, plaques identité, outils, gobelets avec manchon inox. Ne l’achetez pas comme premier laser polyvalent ; la surface est trop petite pour les projets loisir classiques comme grandes enseignes bois.",
-  "proTips": "Utilisez le module fibre pour tout le métal. La diode est un bonus bois/cuir sur le même bureau. Le rotatif est indispensable pour bagues et métal cylindrique. Calibrez puissance/vitesse sur chutes : la fibre est peu indulgente sur métal fin.",
+  "primaryUse": "Professional metal marking and small-item engraving for jewelry, personalization businesses, and tool marking.",
+  "beginnerNotes": "Cette fiche décrit xTool F1 Ultra. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Use the fiber module for all metal work. The diode is a bonus for wood/leather on the same desk. Rotary attachment is essential for rings and cylindrical metal. Dial in power/speed on scrap : fiber is unforgiving on thin metal.",
   "bestFor": [
-    "Marquage métal",
-    "Bijouterie",
-    "Couteaux et outils",
-    "Installation portable",
-    "Petite entreprise"
+    "Metal marking",
+    "Jewelry",
+    "Knives & tools",
+    "Portable setup",
+    "Small business"
   ],
   "pros": [
-    "Marque le métal nu directement : pas de spray chimique en fibre",
-    "Gravure fibre extrêmement rapide en production",
-    "Compact et portable vs diodes structure ouverte",
-    "Double laser couvre métal et matières organiques",
-    "Convoyeur optionnel pour marquage métal en série"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "xTool F1 Ultra : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "xTool F1 Ultra : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Petite surface par défaut : pas pour grandes enseignes ou panneaux",
-    "Très cher pour la surface gravure/découpe obtenue",
-    "Ne remplace pas un CO₂ si vous découpez acrylique ou grand bois",
-    "Fibre et diode nécessitent un changement de module (pas simultané)",
-    "Fermée mais ventilation correcte toujours requise sur certains matériaux"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -57,17 +52,33 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser xTool F1 Ultra : xTool" },
-    { "alt": "Graveuse laser xTool F1 Ultra : xTool" },
-    { "alt": "Graveuse laser xTool F1 Ultra : xTool" },
-    { "alt": "Graveuse laser xTool F1 Ultra : xTool" }
+    {
+      "alt": "Graveuse laser xTool F1 Ultra : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool F1 Ultra : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool F1 Ultra : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool F1 Ultra : xTool"
+    }
   ],
   "moduleSystem": {
     "headline": "Fibre + diode dans une unité bureau",
     "description": "La F1 Ultra bascule entre source fibre (métal) et source diode (bois/acrylique) dans un même châssis. Ce n’est pas un échange 10 W diode contre 40 W diode : c’est le modèle xTool S1.",
     "options": [
-      { "label": "Fibre 20 W" },
-      { "label": "Diode 20 W" }
+      {
+        "label": "Fibre 20 W"
+      },
+      {
+        "label": "Diode 20 W"
+      }
     ]
+  },
+  "editorialDepth": {
+    "advantages": "xTool F1 Ultra 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

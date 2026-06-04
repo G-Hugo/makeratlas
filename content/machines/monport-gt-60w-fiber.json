@@ -68,15 +68,17 @@
     ]
   },
   "pros": [
-    "60W Split fiber laser engraver with autofocus from Monport",
-    "Fiber marks metal : does not cut wood or acrylic"
+    "Fiber marks metal : does not cut wood or acrylic",
+    "Monport Monport GT MOPA Fiber : compare benchmarks and material limits on this profile before ordering.",
+    "Monport Monport GT MOPA Fiber : compare benchmarks and material limits on this profile before ordering.",
+    "Monport Monport GT MOPA Fiber : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
     "60W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Upgrade path to 100W if metal throughput becomes the bottleneck",
-    "Does not cut wood, leather, or acrylic: metal and industrial marking workflows only"
+    "Does not cut wood, leather, or acrylic : metal marking workflows only"
   ],
-  "beginnerNotes": "This profile is the 60W module on Monport GT MOPA Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 60W SKU on Monport GT MOPA Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Push speed only after depth tests on your metal alloy. Cooling and lens cleanliness matter more at this power level.",
   "primaryUse": "High-power fiber for metal-focused shops needing line-top throughput",
   "rating": {
@@ -108,5 +110,9 @@
     }
   ],
   "modelLine": "monport-gt",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Monport GT MOPA Fiber 60W fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.",
+    "limitations": "Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom (100W) or a different machine class."
+  }
 }

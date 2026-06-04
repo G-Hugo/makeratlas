@@ -2,26 +2,25 @@
   "tagline": "Diode CoS 70–77 W : modèle phare Atomstack de découpe 850×800 mm",
   "tldr": "L’AtomStack A70 Max apporte 70–77 W de diode comprimée sur un châssis 850×800 mm avec mise au point auto, écran tactile et promesse de 25 mm de bois en une passe. Montée en gamme populaire 2024–2025 pour ceux qui dépassent l’A40 Pro : toujours structure ouverte, pas fermée.",
   "mainObjective": "Puissance diode maximale Atomstack pour grands panneaux et découpes bois profondes",
-  "primaryUse": "Diode grand format haute puissance pour découpe bois et acrylique type production plus gravure détaillée.",
-  "beginnerNotes": "Ce n’est pas un premier laser : achetez-la après avoir dépassé 20–40 W. Comparez la Sculpfun S70 MAX et l’Acmer P3 fermée si la gestion des fumées compte.",
-  "proTips": "Prévoyez boîtier et extraction avant la commande : des conceptions communautaires existent pour l’empreinte A70.",
+  "primaryUse": "Large-format high-power diode for production-style wood and acrylic cutting plus detailed engraving.",
+  "beginnerNotes": "Cette fiche décrit AtomStack A70 Max. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Grandes enseignes",
-    "Découpes bois profondes",
-    "Écosystème Atomstack",
-    "Alternative au CO₂"
+    "Large signs",
+    "Deep wood cuts",
+    "Atomstack ecosystem",
+    "CO₂ alternative"
   ],
   "pros": [
-    "Parmi les packs diode bureau les plus puissants",
-    "Immense surface de travail avec spec gravure 0,01 mm",
-    "Mise au point auto + manuelle",
-    "Modules interchangeables 35 W / 70 W"
+    "Meilleure marge de découpe de la gamme : ~28 mm tilleul en benchmark",
+    "70W : tête la plus orientée découpe de AtomStack A70 Max",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "AtomStack A70 Max : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
   ],
   "cons": [
-    "Lourde (~19 kg) : table solide requise",
-    "Prix premium face à la S40 MAX",
-    "Structure ouverte et surveillance flammes restent à votre charge",
-    "Promesses de passe unique à valider sur vos matériaux"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -58,9 +57,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack A70 Max : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A70 Max : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A70 Max : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A70 Max : Atomstack" }
-  ]
+    {
+      "alt": "Graveuse laser AtomStack A70 Max : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A70 Max : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A70 Max : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A70 Max : Atomstack"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "AtomStack A70 Max 70W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Open-frame : sécurité et fumées à votre charge."
+  }
 }

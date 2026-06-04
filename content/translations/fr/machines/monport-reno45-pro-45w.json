@@ -2,24 +2,22 @@
   "tagline": "CO₂ bureau Monport avec caméra autofocus : classe 45 W",
   "tldr": "Le Monport Reno45 Pro Vision ajoute autofocus assisté par caméra et tube CO₂ 45 W en format bureau. Solide découpeuse acrylique/bois pour makers passant de la diode : prévoyez ventilation et espace.",
   "mainObjective": "CO₂ bureau assisté par caméra pour signalétique et travail acrylique",
-  "primaryUse": "Production CO₂ bureau avec alignement assisté par vision.",
-  "beginnerNotes": "Comparez Polar et OMTech 40–55 W si vous shoppez le CO₂ au sens large.",
-  "proTips": "Achetez le bundle machine seule si vous possédez déjà refroidisseur et évacuation.",
+  "primaryUse": "Desktop CO₂ production with vision-assisted alignment.",
+  "beginnerNotes": "Cette fiche décrit Monport Reno45 Pro Vision 45W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Montée CO₂",
-    "Enseignes acrylique",
-    "Découpe bois",
-    "Alignement caméra"
+    "CO₂ upgrade",
+    "Acrylic signs",
+    "Wood cutting",
+    "Camera alignment"
   ],
   "pros": [
-    "Autofocus caméra",
-    "Plus grand qu’un K40",
-    "Écosystème bundles Monport"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Monport Reno45 Pro Vision : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Marketing bundles bruyant",
-    "Entretien refroidissement eau",
-    "Grand encombrement"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -52,8 +50,18 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Monport Reno45 Pro Vision 45W : Monport" },
-    { "alt": "Graveuse laser Monport Reno45 Pro Vision 45W : Monport" },
-    { "alt": "Graveuse laser Monport Reno45 Pro Vision 45W : Monport" }
-  ]
+    {
+      "alt": "Graveuse laser Monport Reno45 Pro Vision 45W : Monport"
+    },
+    {
+      "alt": "Graveuse laser Monport Reno45 Pro Vision 45W : Monport"
+    },
+    {
+      "alt": "Graveuse laser Monport Reno45 Pro Vision 45W : Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Monport Reno45 Pro Vision est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 45W donne de la marge sur les panneaux et les passes multiples.",
+    "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  }
 }

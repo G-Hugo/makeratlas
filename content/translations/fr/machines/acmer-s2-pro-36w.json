@@ -2,9 +2,9 @@
   "tagline": "Acmer S2 Pro puissance intermédiaire : niveau 36 W avec boîtier optionnel",
   "tldr": "L'Acmer S2 Pro 36 W est la référence moins puissante de la gamme S2 Pro d'Acmer, avec options de packs rotatif et IR. Comparez au S2 Pro 48 W avant l'achat : le surclassement vaut souvent le coup.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Plateforme Acmer puissance intermédiaire avec packs accessoires.",
-  "beginnerNotes": "Ce profil décrit le module 36W de Acmer S2 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez les benchmarks de cette fiche pour chiffrer vos devis. Testez sur chutes avant production.",
+  "primaryUse": "36W module · Acmer S2 Pro",
+  "beginnerNotes": "Ce profil décrit le SKU 36W de Acmer S2 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -12,14 +12,13 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Acmer open-frame milieu-haut entre P2 et le flagship",
-    "Diode compressée pour panneaux plus rapides",
-    "Grand plateau pour mise en page enseignes"
+    "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Meilleure marge de découpe de la gamme : benchmark ~8 mm tilleul",
+    "36W : tête la plus orientée découpe de Acmer S2 Pro"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂"
   ],
   "materials": {
     "engrave": [
@@ -59,7 +58,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "S2 Pro 36 W pour la vitesse Acmer sans le prix du SKU le plus haut.",
-    "limitations": "Comparez S30 Ultra 22 W et LM3 20 W avant achat."
+    "advantages": "Acmer S2 Pro 36W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. "
   }
 }

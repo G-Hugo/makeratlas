@@ -2,23 +2,24 @@
   "tagline": "AlgoLaser Delta : 22 W à cinématique delta, boîtier en option",
   "tldr": "Le Delta 22 W emploie une cinématique delta dans un format compact, avec boîtier optionnel. Alternative cartésienne à l'Alpha MK2 : renseignez-vous en communauté sur la fiabilité et les pièces détachées avant d'acheter.",
   "mainObjective": "AlgoLaser 22 W compatible boîtier pour makers attirés par la cinématique delta",
-  "primaryUse": "AlgoLaser 22 W compact pour gravure et découpe légère à moyenne.",
-  "beginnerNotes": "Comparez l'Alpha MK2 40 W si vous voulez la puissance maximale Algolaser.",
-  "proTips": "Boîtier fortement recommandé pour un usage en appartement.",
+  "primaryUse": "Compact AlgoLaser 22W for engraving and light-medium cutting.",
+  "beginnerNotes": "Cette fiche décrit AlgoLaser Delta 22W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Écosystème Algolaser",
-    "Découpe 22 W",
-    "Format delta compact",
-    "Option boîtier"
+    "AlgoLaser fans",
+    "22W cutting",
+    "Compact delta design",
+    "Enclosure option"
   ],
   "pros": [
-    "Cinématique différente du cartésien",
-    "Palier 22 W",
-    "Logiciel Algolaser"
+    "Meilleure marge de découpe de la gamme : ~5 mm tilleul en benchmark",
+    "22W : tête la plus orientée découpe de AlgoLaser Delta",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "AlgoLaser Delta : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
   ],
   "cons": [
-    "Communauté plus petite que Sculpfun/Ortur",
-    "Courbe d'apprentissage pour l'entretien delta"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂"
   ],
   "materials": {
     "engrave": [
@@ -46,9 +47,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AlgoLaser Delta 22 W : AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser Delta 22 W : AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser Delta 22 W : AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser Delta 22 W : AlgoLaser" }
-  ]
+    {
+      "alt": "Graveuse laser AlgoLaser Delta 22 W : AlgoLaser"
+    },
+    {
+      "alt": "Graveuse laser AlgoLaser Delta 22 W : AlgoLaser"
+    },
+    {
+      "alt": "Graveuse laser AlgoLaser Delta 22 W : AlgoLaser"
+    },
+    {
+      "alt": "Graveuse laser AlgoLaser Delta 22 W : AlgoLaser"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "AlgoLaser Delta 22W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. "
+  }
 }

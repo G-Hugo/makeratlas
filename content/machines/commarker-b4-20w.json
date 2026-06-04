@@ -70,18 +70,17 @@
     ]
   },
   "pros": [
-    "Strong value in desktop fiber segment",
-    "Direct metal marking without chemicals",
-    "LightBurn compatible on many units",
-    "Compact footprint for desk jewelry work"
+    "Fiber marks metal : does not cut wood or acrylic",
+    "ComMarker B4 : full profile with material limits and benchmarks on Maker Atlas",
+    "ComMarker ComMarker B4 : compare benchmarks and material limits on this profile before ordering.",
+    "ComMarker ComMarker B4 : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Small marking area vs open-frame diodes",
-    "Not for wood/acrylic shop work",
-    "Requires safety glasses and ventilation discipline",
-    "Rotary and fixtures often cost extra"
+    "20W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Fume extraction still matters for coated metals and marking sprays"
   ],
-  "beginnerNotes": "Buy if metal is your main income stream. Skip as a first laser if you want large wood signs or acrylic cutting.",
+  "beginnerNotes": "This profile covers ComMarker B4 20W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Use rotary for rings. Dial in hatch and speed on scrap : fiber power is unforgiving on thin metal.",
   "primaryUse": "Desktop fiber marking for jewelry, tags, tools, and metal personalization.",
   "rating": {
@@ -117,5 +116,10 @@
       "alt": "ComMarker B4 20W laser engraver : ComMarker"
     }
   ],
-  "releaseDate": "2024-05"
+  "releaseDate": "2024-05",
+  "editorialDepth": {
+    "advantages": "ComMarker B4 20W fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.",
+    "limitations": "Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom or a different machine class."
+  },
+  "tierEditorialOverride": true
 }

@@ -64,17 +64,18 @@
     ]
   },
   "pros": [
-    "Fiber metal marking in Atomstack ecosystem",
-    "No spray on many metals",
-    "Compact vs industrial fiber"
+    "Fiber marks metal : does not cut wood or acrylic",
+    "AtomStack A20 Pro 1064nm Fiber : full profile with material limits and benchmarks on Maker Atlas",
+    "Atomstack AtomStack A20 Pro 1064nm Fiber : compare benchmarks and material limits on this profile before ordering.",
+    "Atomstack AtomStack A20 Pro 1064nm Fiber : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Not the diode A20",
-    "Small field",
-    "Confusing naming with A20 Pro V2"
+    "20W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Fume extraction still matters for coated metals and marking sprays"
   ],
-  "beginnerNotes": "Do not confuse with A20 Pro V2 diode : completely different machine.",
-  "proTips": "Search '1064nm' in listing title to confirm fiber SKU.",
+  "beginnerNotes": "This profile covers AtomStack A20 Pro 1064nm Fiber. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Fiber marking for metal personalization on a desktop footprint.",
   "rating": {
     "overall": 8,
@@ -111,5 +112,10 @@
       "src": "/machines/atomstack-a20-pro-1064nm/04.jpg",
       "alt": "AtomStack A20 Pro 1064nm Fiber laser engraver : Atomstack"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "AtomStack A20 Pro 1064nm Fiber 20W fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.",
+    "limitations": "Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom or a different machine class."
+  },
+  "tierEditorialOverride": true
 }

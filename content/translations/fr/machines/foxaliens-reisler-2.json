@@ -2,26 +2,24 @@
   "tagline": "FoxAlien 20W à structure ouverte : une marque CNC qui entre dans le laser",
   "tldr": "FoxAlien apporte une qualité de construction proche du CNC à une plateforme diode 20W. Solide alternative à Ortur/Sculpfun pour les makers qui font déjà confiance à l'écosystème FoxAlien via leurs CNC.",
   "mainObjective": "Gravure et découpe légère en diode 20W pour utilisateurs écosystème FoxAlien",
-  "primaryUse": "Diode 20W à structure ouverte pour gravure loisir et découpe bois fin modérée.",
-  "beginnerNotes": "Comparez avec l'Ortur LM3 et la Sculpfun S30 Ultra à prix similaire avant de choisir par fidélité à la marque.",
-  "proTips": "Si vous possédez une CNC FoxAlien, le support vendeur commun peut simplifier votre atelier.",
+  "primaryUse": "20W open-frame diode for hobby engraving and moderate thin-wood cutting.",
+  "beginnerNotes": "Cette fiche décrit FoxAlien Reisler 2. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "If you own a FoxAlien CNC, shared vendor support can simplify your workshop.",
   "bestFor": [
-    "Propriétaires CNC FoxAlien",
-    "Loisir 20W",
-    "Gravure bois",
-    "Découpe budget"
+    "FoxAlien CNC owners",
+    "20W hobby",
+    "Wood engraving",
+    "Budget cutting"
   ],
   "pros": [
-    "Marque connue de l'univers CNC",
-    "Plateau pleine taille",
-    "Prise en charge LightBurn",
-    "Prix 20W compétitif"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "FoxAlien Reisler 2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "FoxAlien Reisler 2 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Communauté laser plus petite qu'Ortur",
-    "Sécurité structure ouverte",
-    "Toujours limitée par la diode",
-    "Gamme laser plus récente, historique limité"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -52,9 +50,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser FoxAlien Reisler 2 : FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien Reisler 2 : FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien Reisler 2 : FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien Reisler 2 : FoxAlien" }
-  ]
+    {
+      "alt": "Graveuse laser FoxAlien Reisler 2 : FoxAlien"
+    },
+    {
+      "alt": "Graveuse laser FoxAlien Reisler 2 : FoxAlien"
+    },
+    {
+      "alt": "Graveuse laser FoxAlien Reisler 2 : FoxAlien"
+    },
+    {
+      "alt": "Graveuse laser FoxAlien Reisler 2 : FoxAlien"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "FoxAlien Reisler 2 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  }
 }

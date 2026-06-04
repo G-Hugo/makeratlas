@@ -2,22 +2,19 @@
   "tagline": "OMTech FC-105SAT : variante SAT de la gamme découpeuse fibre FC-105",
   "tldr": "L’OMTech FC-105SAT est une variante de la famille FC-105 avec configuration SAT : même classe que FC-105SA pour découpe fibre tôle ; comparez les specs chez OMTech avant de choisir SA vs SAT vs T.",
   "mainObjective": "Découpe fibre FC-105 avec configuration SAT",
-  "primaryUse": "Découpe tôle fibre dans la famille FC-105.",
-  "beginnerNotes": "Comparez FC-105SA, SAT et T chez OMTech : les différences sont propres à chaque configuration.",
-  "proTips": "Obtenez le PDF specs officiel pour gaz assist et taille de plateau avant de chiffrer des jobs.",
+  "primaryUse": "Fiber sheet cutting in the FC-105 family.",
+  "beginnerNotes": "Cette fiche décrit OMTech FC-105SAT. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Ateliers découpe métal",
-    "Acheteurs fibre OMTech comparant les SKU"
+    "Metal cutting shops",
+    "OMTech fiber buyers comparing SKUs"
   ],
   "pros": [
-    "Plateforme FC-105",
-    "Documentation OMTech",
-    "Orienté découpe"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "OMTech FC-105SAT : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Confusion SKU vs SA/T",
-    "Encombrement atelier",
-    "Setup professionnel"
+    "Fibre 105W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
   ],
   "materials": {
     "engrave": [
@@ -44,9 +41,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser OMTech FC-105SAT : OMTech" },
-    { "alt": "Graveuse laser OMTech FC-105SAT : OMTech" },
-    { "alt": "Graveuse laser OMTech FC-105SAT : OMTech" },
-    { "alt": "Graveuse laser OMTech FC-105SAT : OMTech" }
-  ]
+    {
+      "alt": "Graveuse laser OMTech FC-105SAT : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech FC-105SAT : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech FC-105SAT : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech FC-105SAT : OMTech"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "OMTech FC-105SAT 105W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
+    "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+  }
 }

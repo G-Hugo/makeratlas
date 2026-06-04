@@ -136,8 +136,8 @@ export const fr: Dictionary = {
     standoutTitle: "Ce qui fait la différence",
     standoutSubtitle:
       "Fonctions matérielles et workflow à comprendre avant d’acheter : pas seulement les watts sur l’étiquette.",
-    advantagesDetail: "Ce que vous y gagnez au quotidien",
-    limitationsDetail: "Ce qu’il faut anticiper (coût, place, sécurité)",
+    advantagesDetail: "Pour qui c’est idéal",
+    limitationsDetail: "Qui devrait passer son tour",
     atAGlance: "L’essentiel",
     scoreBreakdown: "Détail des notes",
     practicalNotes: "Notes pratiques",

@@ -2,9 +2,9 @@
   "tagline": "Ortur LM2 S2 5 W : l’Ortur le moins cher qui vaut encore le coup",
   "tldr": "L’Ortur LM2 S2 5 W est le SKU d’entrée : d’abord la gravure, découpe minimale. Correct pour apprendre si le prix est bon ; la plupart des utilisateurs le dépassent vite.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "Apprentissage de la gravure à budget minimal.",
-  "beginnerNotes": "Ce profil décrit le module 5W de Ortur LM2 S2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez des vitesses basses et plusieurs passes : n’attendez pas des découpes niveau Pro Max.",
+  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
+  "beginnerNotes": "Ce profil décrit le SKU 5W de Ortur LM2 S2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
     "Gravure fine",
     "Photo & logo",
@@ -12,9 +12,8 @@
     "Première machine"
   ],
   "pros": [
-    "Prix Ortur le plus bas du catalogue",
-    "Communauté LM2 historique pour premiers tests",
-    "Plateau suffisant pour ardoises et petits cadeaux"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "5W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -63,7 +62,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LM2 5 W seulement en forte promo pour apprendre.",
-    "limitations": "Le guide oriente les acheteurs payants vers des gammes plus récentes."
+    "advantages": "Ortur LM2 S2 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série : regardez 10W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

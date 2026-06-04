@@ -2,9 +2,9 @@
   "tagline": "La plateforme TS2 populaire de TwoTrees : 20 W structure ouverte avec communauté active",
   "tldr": "La TS2 20 W est l’une des lignes laser les plus connues de TwoTrees : souvent comparée à Ortur et Sculpfun à des prix promo agressifs. Bon choix pour les hobbyistes qui privilégient le prix et tolèrent un support moins soigné que xTool.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Plateforme TwoTrees 20 W petit budget pour gravure loisir et découpe modérée de bois fin.",
-  "beginnerNotes": "Ce profil décrit le module 20W de TwoTrees TS2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Les packs TwoTrees (nids d’abeille + assistance air) valent souvent mieux que les pièces à l’unité : vérifiez les bundles officiels avant de payer.",
+  "primaryUse": "20W module · TwoTrees TS2",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de TwoTrees TS2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
   "bestFor": [
     "Gravure + découpe",
     "Side business",
@@ -12,9 +12,8 @@
     "Petites séries"
   ],
   "pros": [
-    "TwoTrees 20 W souvent agressif en specs par euro",
-    "Pour hobbyistes chassant les promos bundle",
-    "LightBurn pour gravure et découpe modérée"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
@@ -65,7 +64,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "TS2 20 W si le prix bat les marques établies et vous acceptez moins de support.",
-    "limitations": "Production : LM3 ou S30 pour le dépannage."
+    "advantages": "TwoTrees TS2 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Montée possible vers 40W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

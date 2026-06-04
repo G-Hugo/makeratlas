@@ -2,27 +2,25 @@
   "tagline": "Atomstack fermée Classe 1 : gravure bureau sûre pour la maison et les écoles",
   "tldr": "L’AtomStack P1 est une graveuse diode 5 W entièrement fermée Classe 1, avec packs double laser (diode + infrarouge) en option. Idéale quand la sécurité et le fonctionnement silencieux comptent plus que la puissance de découpe brute.",
   "mainObjective": "Gravure fermée sûre pour débutants, familles et salles de classe",
-  "primaryUse": "Laser d’introduction fermé et sûr pour loisirs créatifs à la maison et enseignement.",
-  "beginnerNotes": "Excellent « premier laser » quand la sécurité prime sur la puissance maximale.",
-  "proTips": "Choisissez le pack double seulement si vous avez besoin du marquage métal : sinon la diode 5 W suffit pour apprendre.",
+  "primaryUse": "Safe enclosed intro laser for home crafters and education.",
+  "beginnerNotes": "Cette fiche décrit AtomStack P1 5W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Choose dual bundle only if you need metal marking : otherwise 5W diode is enough to learn.",
   "bestFor": [
-    "Débutants",
-    "Familles",
-    "Écoles",
-    "Bureaux calmes à la maison",
-    "Petits marquages métal/plastique (référence double)"
+    "Beginners",
+    "Families",
+    "Schools",
+    "Quiet home offices",
+    "Small metal/plastic marks (dual SKU)"
   ],
   "pros": [
-    "Boîtier Classe 1 : pas de lunettes en usage normal",
-    "Empreinte très compacte",
-    "Fonctionnement silencieux",
-    "Option double laser pour le métal"
+    "5W sur AtomStack P1 : priorité gravure : remplissages photo et cuir",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "AtomStack P1 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "AtomStack P1 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Petite surface de travail",
-    "5 W limite la découpe",
-    "Premium au watt face à la structure ouverte",
-    "Pas pour une activité signalétique"
+    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée"
   ],
   "materials": {
     "engrave": [
@@ -57,9 +55,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack P1 5 W : Atomstack" },
-    { "alt": "Graveuse laser AtomStack P1 5 W : Atomstack" },
-    { "alt": "Graveuse laser AtomStack P1 5 W : Atomstack" },
-    { "alt": "Graveuse laser AtomStack P1 5 W : Atomstack" }
-  ]
+    {
+      "alt": "Graveuse laser AtomStack P1 5 W : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack P1 5 W : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack P1 5 W : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack P1 5 W : Atomstack"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "AtomStack P1 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Format fermé plus rassurant à la maison.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

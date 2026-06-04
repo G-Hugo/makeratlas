@@ -66,17 +66,18 @@
     ]
   },
   "pros": [
-    "Creality ecosystem",
-    "Compact",
-    "Simple setup"
+    "5W on Creality Falcon: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Creality Falcon: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "Creality Falcon : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Small work area",
-    "5W limits",
-    "10W/A1 better value for many"
+    "Targets thin cuts (about 4 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 4 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Check work area on your exact kit : basic vs all-in-one bundles differ.",
-  "proTips": "Pair with Falcon risers/accessories only if you upgrade to 10W class later.",
+  "beginnerNotes": "This profile covers Creality Falcon 5W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Small-format Creality engraving.",
   "rating": {
     "overall": 7.8,
@@ -112,5 +113,10 @@
       "src": "/machines/creality-falcon-5w/04.jpg",
       "alt": "Creality Falcon 5W laser engraver : Creality"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Creality Falcon 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

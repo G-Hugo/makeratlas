@@ -1,27 +1,26 @@
-﻿{
+{
   "tagline": "Gamme Sculpfun S10 2025 : châssis type industriel, plateau 385 mm",
   "tldr": "Le Sculpfun S10 10 W, lancé en 2025, est une graveuse structure ouverte format intermédiaire avec un châssis plus rigide que la S9, zone ~385 mm et capot laser amovible. Positionné entre les familles budget S9 et S30 pour makers qui veulent plus de rigidité sans le tarif Ultra.",
   "mainObjective": "Gravure Sculpfun milieu de gamme avec châssis plus rigide que la S9",
-  "primaryUse": "Graveuse Sculpfun format intermédiaire 2025 pour travail détaillé et découpe légère sur châssis renforcé.",
-  "beginnerNotes": "Choisissez le S30 Ultra 10 W si la découpe compte ; choisissez le S10 si vous voulez un châssis 2025 et gravez surtout en 10 W.",
-  "proTips": "Associez une assistance air 30 L/min selon la spec Sculpfun pour des découpes plus propres.",
+  "primaryUse": "2025 Sculpfun mid-size engraver for detailed work and light cutting on a reinforced frame.",
+  "beginnerNotes": "Cette fiche décrit Sculpfun S10 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Pair with 30L/min air assist per Sculpfun spec for cleaner cuts.",
   "bestFor": [
-    "Gravure bureau",
-    "Personnalisation cadeaux",
-    "Montée depuis la S9",
-    "Découpe légère"
+    "Desk engraving",
+    "Gift personalization",
+    "S9 upgrade path",
+    "Light cutting"
   ],
   "pros": [
-    "Châssis plus rigide que la S9 d’entrée",
-    "Capot de sécurité laser amovible",
-    "Kits d’extension supportés",
-    "Palier 10 W sensé rapport qualité-prix"
+    "10W sur Sculpfun S10 : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Sculpfun S10 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "Sculpfun S10 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Plafond 10 W vs 20–22 W mainstream",
-    "Structure ouverte",
-    "Chevauche les prix S9 et S30 Pro",
-    "Gamme récente : moins de presets communautaires que la S9"
+    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -54,7 +53,15 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Sculpfun S10 10W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S10 10W : Sculpfun" }
-  ]
+    {
+      "alt": "Graveuse laser Sculpfun S10 10W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S10 10W : Sculpfun"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Sculpfun S10 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

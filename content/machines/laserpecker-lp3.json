@@ -64,19 +64,18 @@
     ]
   },
   "pros": [
-    "Specialized IR portability",
-    "Metal-focused",
-    "LaserPecker app ecosystem",
-    "Compact"
+    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "LaserPecker LP3: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "LaserPecker LP3 : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Not a wood cutter",
-    "Small area",
-    "Premium per capability",
-    "Superseded by LP5 for hybrid users"
+    "Verify the LP3 infrarouge SKU : same chassis, different modules",
+    "Open frame: kids, pets, and smoke are not contained",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
   ],
-  "beginnerNotes": "Buy for metal/plastic marking on the go : not as your only wood laser.",
-  "proTips": "Compare LP5 if you need diode + fiber in one newer chassis.",
+  "beginnerNotes": "This profile covers LaserPecker LP3. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Portable infrared marking for metal and plastic items.",
   "rating": {
     "overall": 8,
@@ -102,5 +101,10 @@
       "src": "/machines/laserpecker-lp3/01.webp",
       "alt": "LaserPecker LP3 laser engraver : LaserPecker"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker LP3 LP3 infrarouge is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+  },
+  "tierEditorialOverride": true
 }

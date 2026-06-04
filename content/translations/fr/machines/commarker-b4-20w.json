@@ -2,26 +2,21 @@
   "tagline": "Galvo fibre compact de bureau pour le marquage de métal nu",
   "tldr": "La ComMarker B4 est une graveuse galvo fibre d'entrée de gamme très populaire pour la bijouterie, les outils et les cadeaux métalliques. Marque l'inox, l'aluminium et le laiton sans spray. Zone de marquage réduite : pas une découpeuse pour le bois ou l'acrylique.",
   "mainObjective": "Marquage fibre abordable pour la personnalisation métal et les petites entreprises",
-  "primaryUse": "Marquage fibre de bureau pour bijoux, plaques, outils et personnalisation métal.",
-  "beginnerNotes": "Achetez-la si le métal est votre source de revenus principale. Passez votre chemin comme premier laser si vous voulez de grandes enseignes en bois ou de la découpe acrylique.",
-  "proTips": "Utilisez un rotary pour les bagues. Réglez hachurage et vitesse sur des chutes : la puissance fibre ne pardonne pas sur le métal fin.",
+  "primaryUse": "Desktop fiber marking for jewelry, tags, tools, and metal personalization.",
+  "beginnerNotes": "Cette fiche décrit ComMarker B4 20W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Use rotary for rings. Dial in hatch and speed on scrap : fiber power is unforgiving on thin metal.",
   "bestFor": [
-    "Marquage métal",
-    "Bijouterie",
-    "Plaques d'identification",
-    "Petite entreprise"
+    "Metal marking",
+    "Jewelry",
+    "Dog tags",
+    "Small business"
   ],
   "pros": [
-    "Excellent rapport qualité-prix dans le segment fibre de bureau",
-    "Marquage métal direct sans produits chimiques",
-    "Compatible LightBurn sur de nombreuses unités",
-    "Encombrement compact pour le travail bijoux sur bureau"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "ComMarker B4 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Zone de marquage réduite vs diodes à structure ouverte",
-    "Pas adaptée au travail bois/acrylique en atelier",
-    "Lunettes de sécurité et ventilation rigoureuses requises",
-    "Rotary et fixations souvent en option"
+    "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
   ],
   "materials": {
     "engrave": [
@@ -50,9 +45,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser ComMarker B4 20W : ComMarker" },
-    { "alt": "Graveuse laser ComMarker B4 20W : ComMarker" },
-    { "alt": "Graveuse laser ComMarker B4 20W : ComMarker" },
-    { "alt": "Graveuse laser ComMarker B4 20W : ComMarker" }
-  ]
+    {
+      "alt": "Graveuse laser ComMarker B4 20W : ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker B4 20W : ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker B4 20W : ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker B4 20W : ComMarker"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "ComMarker B4 20W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
+    "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+  }
 }

@@ -69,18 +69,16 @@
     ]
   },
   "pros": [
-    "Strongest cutting head in the H20 family without jumping to CO₂",
-    "Class-1-style enclosure : safer around family and pets than open-frame 40W diodes",
-    "Best cut headroom in the line : benchmarked around 10 mm basswood-class stock",
-    "Same chassis as 10W/20W : swap modules instead of replacing the whole laser",
-    "410 × 275 mm work area with LightBurn and LaserGRBL support"
+    "Top H20 cutting head for wood-heavy schedules",
+    "Modular upgrades without replacing the whole machine",
+    "Ortur ecosystem for makers who plan watt steps"
   ],
   "cons": [
-    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
-    "Still a diode : clear acrylic production wants CO₂",
-    "Premium price vs the 20W module if you mostly engrave"
+    "LM3 40W comparisons matter on price",
+    "Clear acrylic production wants CO₂",
+    "Open-frame exhaust and glasses required"
   ],
-  "beginnerNotes": "This profile is the 40W module on Ortur H20. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
+  "beginnerNotes": "This profile is the 40W SKU on Ortur H20. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles on the H20. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "primaryUse": "40W module · Ortur H20",
   "rating": {
@@ -151,7 +149,7 @@
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The H20 40W module is the cut-focused head in Ortur's swappable line : faster passes on basswood and dark acrylic than 10W/20W modules on the same chassis. Keep the H-frame integration and upgrade path without buying a second machine.",
-    "limitations": "Diode limits remain : clear cast acrylic and deep hardwood still favor CO₂. Ultra-fine photo engraving may look better on the 10W module at slower speeds. Filter or duct planning still applies on smoky cut days."
+    "advantages": "The 40W diode module is the most cut-focused head on Ortur H20 : thicker basswood and faster fills than entry modules on the same chassis.",
+    "limitations": "Overkill if you only do fine engraving. Still a diode : clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
   }
 }

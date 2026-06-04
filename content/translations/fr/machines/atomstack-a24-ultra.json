@@ -2,22 +2,23 @@
   "tagline": "Montée en gamme A24 avec plus de puissance diode et flux hybride affiné",
   "tldr": "L’AtomStack A24 Ultra est l’A24 haut de gamme avec plus de puissance diode et une disposition hybride mise à jour. Même usage que l’A24 Pro : marquage métal plus travail organique dans un boîtier compact : avec plus de marge pour la découpe.",
   "mainObjective": "Hybride compact premium Atomstack pour ateliers métal + bois",
-  "primaryUse": "Production hybride compacte pour personnalisation multi-matériaux.",
-  "beginnerNotes": "Comparez l’A24 Ultra et la F1 Ultra portable hybride avant d’acheter.",
-  "proTips": "Des fixations dédiées comptent pour les jobs métal répétitifs.",
+  "primaryUse": "Compact hybrid production for mixed material personalization.",
+  "beginnerNotes": "Cette fiche décrit AtomStack A24 Ultra. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Utilisateurs exigeants hybride",
-    "Bijouterie",
-    "Petite entreprise multi-matériaux"
+    "Hybrid power users",
+    "Jewelry",
+    "Small business mixed materials"
   ],
   "pros": [
-    "Plus de puissance diode que l’A24 Pro",
-    "Toujours compacte de bureau",
-    "Flexibilité double matière"
+    "Meilleure marge de découpe de la gamme : benchmark ~5 mm tilleul",
+    "24W : tête la plus orientée découpe de AtomStack A24 Ultra",
+    "AtomStack A24 Ultra : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "AtomStack A24 Ultra : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Chère pour la taille",
-    "Une A40 structure ouverte peut mieux valoir le coup pour bois seul"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -46,9 +47,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack A24 Ultra : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Ultra : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Ultra : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Ultra : Atomstack" }
-  ]
+    {
+      "alt": "Graveuse laser AtomStack A24 Ultra : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A24 Ultra : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A24 Ultra : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A24 Ultra : Atomstack"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "AtomStack A24 Ultra 24W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Open-frame : sécurité et fumées à votre charge."
+  }
 }

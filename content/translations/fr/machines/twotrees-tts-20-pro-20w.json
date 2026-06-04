@@ -2,24 +2,24 @@
   "tagline": "TwoTrees TTS-20 Pro : 20 W avec châssis prêt pour le rotatif",
   "tldr": "La TwoTrees TTS-20 Pro 20 W est une diode 20 W structure ouverte de la gamme TTS avec options rotatif et rehausseur. Alternative petit budget à la TTS-55 Pro : idéale pour du 20 W sans payer la gamme 40 W.",
   "mainObjective": "TwoTrees 20 W petit budget pour gravure et découpe légère",
-  "primaryUse": "TwoTrees 20 W entrée-milieu pour gravure loisir et découpe.",
-  "beginnerNotes": "Passez à la TTS-55 40 W si vous découpez souvent du bois épais.",
-  "proTips": "Le pack rotatif TR2 est le chemin d’upgrade classique pour les gobelets.",
+  "primaryUse": "Entry-mid TwoTrees 20W for hobby engraving and cutting.",
+  "beginnerNotes": "Cette fiche décrit TwoTrees TTS-20 Pro 20W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "TR2 rotary bundle is the common tumbler upgrade path.",
   "bestFor": [
-    "Acheteurs TwoTrees",
-    "Gamme 20 W",
-    "Packs rotatifs",
-    "Structure ouverte petit budget"
+    "TwoTrees buyers",
+    "20W tier",
+    "Rotary bundles",
+    "Budget open frame"
   ],
   "pros": [
-    "Moins cher que la TTS-55 Pro",
-    "Options rotatives",
-    "Promos TwoTrees fréquentes"
+    "Mix gravure + découpe légère : ~5 mm tilleul en plusieurs passes",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "TwoTrees TTS-20 Pro : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "TwoTrees TTS-20 Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Plateau plus petit que la TTS-55",
-    "Communauté plus réduite que Sculpfun",
-    "Structure ouverte"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -46,9 +46,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser TwoTrees TTS-20 Pro 20 W : TwoTrees" },
-    { "alt": "Graveuse laser TwoTrees TTS-20 Pro 20 W : TwoTrees" },
-    { "alt": "Graveuse laser TwoTrees TTS-20 Pro 20 W : TwoTrees" },
-    { "alt": "Graveuse laser TwoTrees TTS-20 Pro 20 W : TwoTrees" }
-  ]
+    {
+      "alt": "Graveuse laser TwoTrees TTS-20 Pro 20 W : TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TTS-20 Pro 20 W : TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TTS-20 Pro 20 W : TwoTrees"
+    },
+    {
+      "alt": "Graveuse laser TwoTrees TTS-20 Pro 20 W : TwoTrees"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "TwoTrees TTS-20 Pro 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  }
 }

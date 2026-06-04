@@ -2,28 +2,23 @@
   "tagline": "Fibre + diode compact nouvelle génération : marquage métal plus rapide, plus grand que F1",
   "tldr": "Le bureau double laser xTool actualisé s’appuie sur la F1 Ultra avec vitesse et flux améliorés. Toujours spécialiste marquage métal avec petit plateau par défaut. Prix premium pour bijoux, outils et personnalisation métal en série : pas un remplacement d’atelier polyvalent.",
   "mainObjective": "Marquage métal compact haute vitesse plus diode bonus pour bois et cuir",
-  "primaryUse": "Double laser compact pro pour marquage métal haute vitesse et gravure légère sur matières organiques.",
-  "beginnerNotes": "N’achetez qu’après avoir confirmé que le métal représente 70 %+ de votre activité. Les makers orientés bois devraient acheter D1 Pro ou P2.",
-  "proTips": "Utilisez le convoyeur pour plaques identité et blanks plats. Gardez les bibliothèques réglages fibre et diode séparées : les courbes de puissance ne sont pas interchangeables.",
+  "primaryUse": "Professional compact dual-laser for high-speed metal marking and small organic-material engraving.",
+  "beginnerNotes": "Cette fiche décrit xTool F2 Ultra. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Use conveyor for dog tags and flat blanks. Keep fiber and diode settings libraries separate : power curves are not interchangeable.",
   "bestFor": [
-    "Marquage métal en série",
-    "Production bijouterie",
-    "Fabricants de couteaux",
-    "Setup pro compact"
+    "Metal batch marking",
+    "Jewelry production",
+    "Knife makers",
+    "Compact pro setup"
   ],
   "pros": [
-    "Marquage fibre plus rapide que génération F1",
-    "Marque le métal nu sans spray",
-    "Surface légèrement plus grande que F1 Ultra",
-    "Option convoyeur pour métal en série",
-    "Écosystème logiciel xTool premium"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "xTool F2 Ultra : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "xTool F2 Ultra : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Très cher pour la taille du plateau",
-    "Toujours pas un premier laser polyvalent",
-    "Changement de module entre fibre et diode",
-    "Excessif pour makers bois-only",
-    "Classe compacte limite les dimensions produit"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -61,17 +56,33 @@
     }
   ],
   "images": [
-    { "alt": "Graveuse laser xTool F2 Ultra : xTool" },
-    { "alt": "Graveuse laser xTool F2 Ultra : xTool" },
-    { "alt": "Graveuse laser xTool F2 Ultra : xTool" },
-    { "alt": "Graveuse laser xTool F2 Ultra : xTool" }
+    {
+      "alt": "Graveuse laser xTool F2 Ultra : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool F2 Ultra : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool F2 Ultra : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool F2 Ultra : xTool"
+    }
   ],
   "moduleSystem": {
     "headline": "Double laser haute puissance (fibre MOPA + diode)",
     "description": "La F2 Ultra associe fibre MOPA pour marquage métal/couleur et diode classe 40 W pour organiques. Hybride double source, pas gammes de watts interchangeables.",
     "options": [
-      { "label": "Fibre 60 W" },
-      { "label": "Diode 40 W" }
+      {
+        "label": "Fibre 60 W"
+      },
+      {
+        "label": "Diode 40 W"
+      }
     ]
+  },
+  "editorialDepth": {
+    "advantages": "xTool F2 Ultra 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

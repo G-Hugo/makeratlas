@@ -2,9 +2,9 @@
   "tagline": "Diode Creality d'entrée : chemin de montée simple pour les propriétaires d'imprimantes 3D",
   "tldr": "La Falcon2 12W de base est la diode à structure ouverte abordable de Creality. Moins puissante que la Falcon2 Pro mais plus accessible budget. Bon choix pour les utilisateurs orientés gravure qui font déjà confiance à Creality via l'impression 3D. Pas une machine de découpe redoutable.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Diode budget orientée gravure pour utilisateurs écosystème Creality et personnalisation loisir légère.",
-  "beginnerNotes": "Ce profil décrit le module 12W de Creality Falcon2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Ralentissez les remplissages pour des résultats plus propres : le 12W demande de la patience. Passez au module 22W plus tard si Creality le propose pour votre châssis.",
+  "primaryUse": "12W module · Creality Falcon2",
+  "beginnerNotes": "Ce profil décrit le SKU 12W de Creality Falcon2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,9 +12,8 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Entrée Falcon2 avec logiciel Creality guidé",
-    "Air assist intégré sur beaucoup de packs pour premières découpes",
-    "Prix gravure sous les paliers 22 W et 40 W"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "12W sur Creality Falcon2 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",

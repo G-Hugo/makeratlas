@@ -2,9 +2,9 @@
   "tagline": "40 W : module D1 Pro haut de gamme, diode xTool structure ouverte la plus puissante",
   "tldr": "Le module D1 Pro 40 W s’installe sur le même châssis que les têtes 5–20 W. Meilleure marge de découpe de la gamme ; vérifiez la puissance optique sur l’annonce.",
   "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
-  "primaryUse": "Gravure loisir polyvalente sur bois, cuir et métaux revêtus, avec découpe légère de bois fin et acrylique foncé.",
-  "beginnerNotes": "Ce profil décrit le module 40W de xTool D1 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez assistance air et plateau nid d’abeille pour des découpes plus propres. Pour marquer le métal, utilisez LaserBond ou Brilliance : les résultats varient selon le revêtement. Ajoutez des rehausseurs à roues acier pour gobelets et objets cylindriques.",
+  "primaryUse": "40W module · xTool D1 Pro",
+  "beginnerNotes": "Ce profil décrit le SKU 40W de xTool D1 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -12,9 +12,10 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Tête D1 Pro la plus rapide pour découpe",
-    "Même parcours accessoires que les paliers inférieurs",
-    "Maximum débit xTool open-frame"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
+    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
+    "40W : tête la plus orientée découpe de xTool D1 Pro"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -90,7 +91,7 @@
     ]
   },
   "editorialDepth": {
-    "advantages": "D1 Pro 40 W pour fidèles xTool qui veulent vitesse sans S1.",
-    "limitations": "Comparez S1 40 W si la fumée doit être confinée."
+    "advantages": "Le module 40W diode est la tête la plus orientée découpe de xTool D1 Pro : bois plus épais et remplissages plus rapides que les modules d’entrée sur le même châssis.",
+    "limitations": "Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est open-frame."
   }
 }

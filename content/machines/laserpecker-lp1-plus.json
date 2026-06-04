@@ -63,17 +63,18 @@
     ]
   },
   "pros": [
-    "Smallest LaserPecker tier",
-    "Simple app",
-    "Gift-friendly"
+    "5W on LaserPecker LP1 Plus: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "LaserPecker LP1 Plus: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "LaserPecker LP1 Plus : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Low power vs LP3/4/5",
-    "Tiny field",
-    "Older SKU"
+    "Targets thin cuts (about 4 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 4 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Buy LP3 or LP4 if you want current-generation optics and speed.",
-  "proTips": "Third-party stands help stability vs pure handheld mode.",
+  "beginnerNotes": "This profile covers LaserPecker LP1 Plus. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Pocket engraving and learning on LaserPecker.",
   "rating": {
     "overall": 7.8,
@@ -96,5 +97,10 @@
       "src": "/machines/laserpecker-lp1-plus/01.webp",
       "alt": "LaserPecker LP1 Plus laser engraver : LaserPecker"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker LP1 Plus 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

@@ -2,9 +2,9 @@
   "tagline": "H10 20 W : série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
   "tldr": "L’Ortur Laser Master H10 20 W est le SKU 20 W de la gamme H10. Montée en gamme Ortur par rapport au LM3 structure ouverte : châssis plus intégré et vitesses de déplacement annoncées plus élevées. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Diode Ortur structure ouverte intégrée pour gravure plus rapide et découpe modérée de bois fin.",
-  "beginnerNotes": "Ce profil décrit le module 20W de Ortur Laser Master H10. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Commencez en 20 W sauf cas de découpe clair : le 40 W ajoute du coût avec des gains limités sur l’épaisseur. Associez l’assistance air Ortur tôt pour des bords plus propres.",
+  "primaryUse": "20W module · Ortur Laser Master H10",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Ortur Laser Master H10. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
   "bestFor": [
     "Gravure + découpe",
     "Side business",
@@ -12,9 +12,8 @@
     "Petites séries"
   ],
   "pros": [
-    "H10 20 W équilibré pour hobby mixte",
-    "Cadre intégré Ortur avec histoire modulaire",
-    "Alternative esthétique au LM3 classique"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
@@ -70,7 +69,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "H10 20 W pour fans Ortur du châssis H sans complexité H20.",
-    "limitations": "Comparez prix et support LM3 20 W côte à côte."
+    "advantages": "Ortur Laser Master H10 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Montée possible vers 40W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

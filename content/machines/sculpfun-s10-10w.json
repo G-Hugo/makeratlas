@@ -70,18 +70,17 @@
     ]
   },
   "pros": [
-    "Stiffer frame than entry S9",
-    "Detachable laser safety cover",
-    "Expansion kits supported",
-    "Sensible 10W value tier"
+    "10W on Sculpfun S10: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Sculpfun S10: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "Sculpfun S10 : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "10W ceiling vs 20–22W mainstream",
-    "Open frame",
-    "Overlaps with S9 and S30 Pro pricing",
-    "Newer line : fewer community presets than S9"
+    "Targets thin cuts (about 3 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 3 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Choose S30 Ultra 10W if cutting matters; choose S10 if you want a 2025 frame and mainly engrave at 10W.",
+  "beginnerNotes": "This profile covers Sculpfun S10 10W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Pair with 30L/min air assist per Sculpfun spec for cleaner cuts.",
   "primaryUse": "2025 Sculpfun mid-size engraver for detailed work and light cutting on a reinforced frame.",
   "rating": {
@@ -112,5 +111,10 @@
   "modelLine": "sculpfun-s10",
   "powerRating": "10W",
   "catalogPrimary": true,
-  "releaseDate": "2025-04"
+  "releaseDate": "2025-04",
+  "editorialDepth": {
+    "advantages": "Sculpfun S10 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

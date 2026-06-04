@@ -73,18 +73,17 @@
     ]
   },
   "pros": [
-    "Massive work area for diode class",
-    "48W with Z-offset cutting in LightBurn",
-    "Auto-focus and TS1 offline control",
-    "Strong value vs CO₂ for large wood"
+    "Strongest cut headroom in the line : about 20 mm basswood-class stock in benchmarks",
+    "48W: the most cut-focused head in the Sculpfun S40 MAX line",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Sculpfun S40 MAX: profile includes material limits, benchmarks, and practical notes on Maker Atlas"
   ],
   "cons": [
-    "Huge frame : needs dedicated table",
-    "15.2 kg machine weight",
-    "48W claims need real-world verification",
-    "Open frame : full safety responsibility"
+    "Ultra-fine photo engraving may need slower settings than a 10W engraving-first module",
+    "Still a diode : clear acrylic production wants CO₂",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Only buy if you regularly hit size limits on S30 Ultra or 400 mm machines. First laser buyers should start smaller.",
+  "beginnerNotes": "This profile covers Sculpfun S40 MAX 48W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Use Z-axis offset per pass in LightBurn for flatter thick cuts. Budget 50L+ air assist for claimed one-pass thick cuts.",
   "primaryUse": "2025 large-area Sculpfun for engraving and cutting oversized wood, leather, and acrylic panels.",
   "rating": {
@@ -123,5 +122,10 @@
   "modelLine": "sculpfun-s40-max",
   "powerRating": "48W",
   "catalogPrimary": true,
-  "releaseDate": "2025-08"
+  "releaseDate": "2025-08",
+  "editorialDepth": {
+    "advantages": "Sculpfun S40 MAX 48W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+  },
+  "tierEditorialOverride": true
 }

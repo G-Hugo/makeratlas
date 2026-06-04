@@ -23,6 +23,7 @@
     "fix:wrong-heroes": "node scripts/sync-manual-to-direct-gallery.mjs && node scripts/fix-wrong-heroes.mjs",
     "apply:benchmarks": "node scripts/apply-benchmarks.mjs",
     "sync:tier-editorial": "npx tsx scripts/sync-tier-editorial-to-json.ts",
+    "editorial:full-pass": "npx tsx scripts/editorial-full-catalog-pass.ts",
     "audit:tier-coherence": "node scripts/audit-power-tier-coherence.mjs"
   },
   "dependencies": {

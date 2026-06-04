@@ -71,20 +71,17 @@
     ]
   },
   "pros": [
-    "Easiest software experience in the category",
-    "Compact footprint for a CO₂ machine",
-    "Material presets reduce trial-and-error",
-    "Brand recognition helps when selling craft products",
-    "Decent support for non-technical users"
+    "Strong on acrylic and wood versus diodes on the same budget tier",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "Glowforge Aura : full profile with material limits and benchmarks on Maker Atlas",
+    "Glowforge Glowforge Aura : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Subscription required for full features : ongoing cost",
-    "Small work area vs. price",
-    "Less power than desktop CO₂ machines like xTool P2",
-    "Cloud-dependent : needs internet for most jobs",
-    "Closed ecosystem : limited LightBurn/advanced control"
+    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
+    "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
+    "Tube life and replacement cost are part of the true ownership budget"
   ],
-  "beginnerNotes": "Great if you hate tinkering and want to cut thin craft materials today. Bad value if you are technical and willing to learn LightBurn : an xTool D1 Pro or used K40 gives more capability per dollar.",
+  "beginnerNotes": "This profile covers Glowforge Aura. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Factor subscription cost over 2–3 years into your budget. Proofgrade materials are convenient but expensive : third-party plywood works with testing. Aura is craft-scale, not sign-shop scale.",
   "primaryUse": "Simple CO₂ cutting and engraving for crafters who prioritize ease of use over power and cost efficiency.",
   "rating": {
@@ -121,5 +118,10 @@
     }
   ],
   "powerRating": "6.8W",
-  "releaseDate": "2023-10"
+  "releaseDate": "2023-10",
+  "editorialDepth": {
+    "advantages": "Glowforge Aura is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 6.8W adds headroom on panels and multi-pass jobs.",
+    "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
+  },
+  "tierEditorialOverride": true
 }

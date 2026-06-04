@@ -2,26 +2,23 @@
   "tagline": "Diode Atezr fermée avec assistance air : sécurité au centre, budget intermédiaire",
   "tldr": "L’Atezr P2 rivalise avec l’Acmer P3 et le xTool S1 dans le segment diode fermé. Gravure correcte, découpe modérée. Moins de documentation communautaire que xTool : vérifiez le support dans votre région.",
   "mainObjective": "Diode fermée budget intermédiaire pour une gravure domestique plus sûre",
-  "primaryUse": "Diode 20 W fermée pour gravure compatible appartement et découpe légère.",
-  "beginnerNotes": "Comparez la garantie et la politique de retour avec l’Acmer P3 à un prix similaire.",
-  "proTips": "Évacuez vers une fenêtre lors de découpes fréquentes : les filtres seuls peuvent ne pas suffire.",
+  "primaryUse": "Enclosed 20W diode for apartment-friendly engraving and light cutting.",
+  "beginnerNotes": "Cette fiche décrit Atezr P2. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Fermée petit budget",
-    "Bureau à domicile",
-    "Assistance air incluse",
-    "Gravure cadeaux"
+    "Enclosed budget",
+    "Home office",
+    "Air assist included",
+    "Gift engraving"
   ],
   "pros": [
-    "Boîtier fermé à prix moyen",
-    "Assistance air intégrée sur beaucoup de bundles",
-    "Grande zone de travail pour la catégorie",
-    "Compatible LightBurn"
+    "Mix gravure + découpe légère : ~5 mm tilleul en plusieurs passes",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Atezr P2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "Atezr P2 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Communauté de marque plus petite",
-    "Logiciel moins mature que xTool",
-    "Entretien des filtres",
-    "Limites de découpe diode inchangées"
+    "Vérifiez le SKU 20W : même châssis, modules différents"
   ],
   "materials": {
     "engrave": [
@@ -52,8 +49,18 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Atezr P2 : Atezr" },
-    { "alt": "Graveuse laser Atezr P2 : Atezr" },
-    { "alt": "Graveuse laser Atezr P2 : Atezr" }
-  ]
+    {
+      "alt": "Graveuse laser Atezr P2 : Atezr"
+    },
+    {
+      "alt": "Graveuse laser Atezr P2 : Atezr"
+    },
+    {
+      "alt": "Graveuse laser Atezr P2 : Atezr"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Atezr P2 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  }
 }

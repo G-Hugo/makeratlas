@@ -80,7 +80,7 @@
     "S30 Ultra often worth the small price jump",
     "Open-frame ventilation required"
   ],
-  "beginnerNotes": "This profile is the 10W module on Sculpfun S9. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 10W SKU on Sculpfun S9. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "10W module · Sculpfun S9",
   "rating": {
@@ -121,7 +121,7 @@
   "releaseDate": "2022-01",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "S9 10W is the engraving-business budget pick when S30 pricing is high.",
-    "limitations": "Cut-heavy quotes need LM3 or S30 class machines."
+    "advantages": "Sculpfun S9 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 5 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
   }
 }

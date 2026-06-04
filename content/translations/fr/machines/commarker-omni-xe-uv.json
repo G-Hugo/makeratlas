@@ -2,9 +2,9 @@
   "tagline": "Plateforme UV élargie pour travaux verre et plastique plus grands",
   "tldr": "L'Omni XE se situe entre l'Omni 1 et l'Omni X dans la gamme UV ComMarker : vérifiez les specs actuelles pour la taille du plateau et la puissance. L'UV reste spécialisé : verre, plastiques, fines détails.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "Personnalisation UV sur verre et plastique avec une zone de travail légèrement plus grande.",
-  "beginnerNotes": "Ce profil décrit le module 5W de ComMarker Omni XE UV. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez les benchmarks de cette fiche pour chiffrer vos devis. Testez sur chutes avant production.",
+  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
+  "beginnerNotes": "Ce profil décrit le SKU 5W de ComMarker Omni XE UV. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
     "Gravure fine",
     "Photo & logo",
@@ -12,14 +12,10 @@
     "Première machine"
   ],
   "pros": [
-    "Plateforme UV élargie dans la ligne Omni",
-    "Pour ateliers ajoutant l’UV à d’autres outils",
-    "Format bureau vs lignes UV industrielles"
+    "5W UV : marquage froid sur verre et plastiques sensibles à la chaleur"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
-    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Pas de découpe bois/métal : installez un autre module sur le châssis pour ces matériaux"
   ],
   "materials": {
     "engrave": [
@@ -59,7 +55,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Omni XE UV comme deuxième machine dédiée UV.",
-    "limitations": "Makers bois/acrylique : rester sur profils diode ou CO₂."
+    "advantages": "ComMarker Omni XE UV 5W cible verre, films et plastiques sensibles à la chaleur : niche rentable quand vous avez déjà des commandes, pas pour “essayer l’UV”.",
+    "limitations": "Inutile comme première machine. Pas de découpe bois/métal. Vérifiez la liste matériaux du module avant d’investir dans le châssis."
   }
 }

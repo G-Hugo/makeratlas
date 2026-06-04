@@ -2,9 +2,9 @@
   "tagline": "Marqueur fibre 50W de bureau pour métal et certains plastiques",
   "tldr": "Le Gweike G2 Max 50W Fiber est la référence 50W de la gamme G2. Le Gweike G2 intègre un galvo fibre 20W dans un format de bureau. Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
   "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
-  "primaryUse": "Gravure fibre de bureau pour activités secondaires orientées métal.",
-  "beginnerNotes": "Ce profil décrit le module 50W de Gweike G2 Max Fibre. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez un hachurage croisé sur les pièces courbes avec rotary à faible vitesse.",
+  "primaryUse": "Mid-power fiber for shops marking metal daily",
+  "beginnerNotes": "Ce profil décrit le SKU 50W de Gweike G2 Max Fiber. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work : it slows flat-stock days.",
   "bestFor": [
     "Marquage métal quotidien",
     "Outils & couteaux",
@@ -12,10 +12,7 @@
     "Lots"
   ],
   "pros": [
-    "Marqueur fibre 50W de bureau pour métal et certains plastiques",
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Surface utile 110 × 110 mm sur ce châssis",
-    "Exemple gravure de référence sur ce module : ~2–5 min"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
   ],
   "cons": [
     "Fibre 50W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
@@ -63,5 +60,9 @@
     {
       "alt": "Graveuse laser Gweike G2 Max 50W Fiber : Gweike"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Gweike G2 Max Fiber 50W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
+    "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+  }
 }

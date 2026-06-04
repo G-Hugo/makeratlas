@@ -2,23 +2,21 @@
   "tagline": "Gweike Cloud 50W CO₂ : CO₂ de bureau compact avec option rotary",
   "tldr": "Le Gweike Cloud 50W est le CO₂ Cloud de bureau à moindre puissance : acrylique, bois et cuir à un prix inférieur au Cloud 55W/Pro, toujours en workflow type enceinte fermée avec bundles rotary fréquents.",
   "mainObjective": "Entrée Gweike Cloud CO₂ sans le prix du 55W",
-  "primaryUse": "Découpe et gravure CO₂ de bureau pour l'artisanat.",
-  "beginnerNotes": "Prévoyez l'évacuation : le CO₂ demande toujours une ventilation, même sur les unités « bureau ».",
-  "proTips": "Les bundles Rotary Pro sont populaires pour les gobelets : confirmez les accessoires inclus.",
+  "primaryUse": "Desktop CO₂ cutting and engraving for crafts.",
+  "beginnerNotes": "Cette fiche décrit Gweike Cloud 50W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Rotary Pro bundles are popular for tumblers : confirm included accessories.",
   "bestFor": [
-    "Débutants CO₂",
-    "Cadeaux acrylique",
-    "Artisanat petite entreprise"
+    "CO₂ beginners",
+    "Acrylic gifts",
+    "Small business crafts"
   ],
   "pros": [
-    "Format bureau CO₂ enceinte",
-    "Bundles rotary",
-    "Écosystème Gweike Cloud"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Gweike Cloud : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "50W plus lent que 55W/Pro",
-    "Ventilation toujours requise",
-    "Premium vs diode"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -48,9 +46,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Gweike Cloud 50W : Gweike" },
-    { "alt": "Graveuse laser Gweike Cloud 50W : Gweike" },
-    { "alt": "Graveuse laser Gweike Cloud 50W : Gweike" },
-    { "alt": "Graveuse laser Gweike Cloud 50W : Gweike" }
-  ]
+    {
+      "alt": "Graveuse laser Gweike Cloud 50W : Gweike"
+    },
+    {
+      "alt": "Graveuse laser Gweike Cloud 50W : Gweike"
+    },
+    {
+      "alt": "Graveuse laser Gweike Cloud 50W : Gweike"
+    },
+    {
+      "alt": "Graveuse laser Gweike Cloud 50W : Gweike"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Gweike Cloud est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 50W donne de la marge sur les panneaux et les passes multiples.",
+    "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  }
 }

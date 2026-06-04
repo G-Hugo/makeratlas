@@ -71,20 +71,17 @@
     ]
   },
   "pros": [
-    "Very compact footprint",
-    "Low entry price",
-    "Ortur brand support",
-    "Simple first-laser learning curve",
-    "LightBurn compatible"
+    "5W on Ortur Aufero AL1: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Ortur Aufero AL1: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "Ortur Aufero AL1 : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Small work area limits project size",
-    "5W is slow on 10×10 cm fills",
-    "Not competitive vs LM3 for value long-term",
-    "Limited cutting capability",
-    "Open frame safety requirements"
+    "Targets thin cuts (about 3 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 3 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Good if you only engrave small items like keychains and tags. If you might outgrow it within months, save for Ortur LM3 instead.",
+  "beginnerNotes": "This profile covers Ortur Aufero AL1. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Use smaller benchmark jobs (5×5 cm) for photos on AL1 : 10×10 cm fills take noticeably longer at 5W.",
   "primaryUse": "Compact entry Ortur for small gift engraving and learning laser basics.",
   "rating": {
@@ -119,5 +116,10 @@
       "alt": "Ortur Aufero AL1 laser engraver : Ortur"
     }
   ],
-  "powerRating": "5W"
+  "powerRating": "5W",
+  "editorialDepth": {
+    "advantages": "Ortur Aufero AL1 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

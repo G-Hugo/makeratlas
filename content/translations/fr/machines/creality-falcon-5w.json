@@ -2,23 +2,24 @@
   "tagline": "Falcon 5W compacte de Creality : graveuse d'entrée à petit plateau",
   "tldr": "La Creality Falcon 5W est la petite CR-Laser Falcon pour la gravure de bureau et l'artisanat léger : moins puissante que la Falcon 10W/A1 mais avec un encombrement et un prix plus simples.",
   "mainObjective": "Graveuse d'entrée Creality pour petits projets",
-  "primaryUse": "Gravure Creality petit format.",
-  "beginnerNotes": "Vérifiez la zone de travail de votre kit exact : les bundles basiques et tout-en-un diffèrent.",
-  "proTips": "N'ajoutez des rehausseurs/accessoires Falcon que si vous passez plus tard à une classe 10W.",
+  "primaryUse": "Small-format Creality engraving.",
+  "beginnerNotes": "Cette fiche décrit Creality Falcon 5W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Fans Creality",
-    "Petits cadeaux",
-    "Gravure de bureau"
+    "Creality fans",
+    "Small gifts",
+    "Desk engraving"
   ],
   "pros": [
-    "Écosystème Creality",
-    "Compacte",
-    "Installation simple"
+    "5W sur Creality Falcon : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Creality Falcon : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "Creality Falcon : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Zone de travail réduite",
-    "Limites du 5W",
-    "10W/A1 meilleur rapport qualité-prix pour beaucoup"
+    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -47,9 +48,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Creality Falcon 5W : Creality" },
-    { "alt": "Graveuse laser Creality Falcon 5W : Creality" },
-    { "alt": "Graveuse laser Creality Falcon 5W : Creality" },
-    { "alt": "Graveuse laser Creality Falcon 5W : Creality" }
-  ]
+    {
+      "alt": "Graveuse laser Creality Falcon 5W : Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon 5W : Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon 5W : Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon 5W : Creality"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Creality Falcon 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

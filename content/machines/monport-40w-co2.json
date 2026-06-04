@@ -70,19 +70,18 @@
     ]
   },
   "pros": [
-    "Better QA than cheapest K40 clones",
-    "LightBurn ready",
-    "Upgrade path to 55W Monport",
-    "Good value entry CO₂"
+    "Strong on acrylic and wood versus diodes on the same budget tier",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "Monport CO₂ : full profile with material limits and benchmarks on Maker Atlas",
+    "Monport Monport CO₂ : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Small work area",
-    "Ventilation mandatory",
-    "Water cooling maintenance",
-    "Not enclosed"
+    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
+    "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
+    "Tube life and replacement cost are part of the true ownership budget"
   ],
-  "beginnerNotes": "Compare with OMTech 40W on price and bed size. Both need exhaust planning.",
-  "proTips": "Upgrade exhaust fan early. Keep spare mirrors clean.",
+  "beginnerNotes": "This profile covers Monport 40W CO₂. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Budget desktop CO₂ for learning acrylic and wood cutting.",
   "rating": {
     "overall": 8.1,
@@ -112,5 +111,10 @@
     }
   ],
   "powerRating": "40W",
-  "releaseDate": "2022-01"
+  "releaseDate": "2022-01",
+  "editorialDepth": {
+    "advantages": "Monport CO₂ is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 40W adds headroom on panels and multi-pass jobs.",
+    "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
+  },
+  "tierEditorialOverride": true
 }

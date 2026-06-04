@@ -2,27 +2,22 @@
   "tagline": "P2 actualisée avec traitement plus rapide et autofocus amélioré",
   "tldr": "La P2S affine la P2 originale avec meilleur logiciel et autofocus. Même classe CO₂ 55 W pour production acrylique et bois. Toujours le CO₂ fermé principal xTool sous le flagship P3 : choisissez P3 pour 80 W et automatisation ; P2S si 55 W et budget conviennent.",
   "mainObjective": "CO₂ fermé nouvelle génération pour petites entreprises découpant acrylique et bois",
-  "primaryUse": "CO₂ fermé premium pour découpe production acrylique et bois en petite entreprise.",
-  "beginnerNotes": "N’achetez que si vous avez confirmé des besoins découpe CO₂ et prévu la ventilation. Sinon commencez par une diode.",
-  "proTips": "Associez le convoyeur xTool pour le travail en série. LightBurn débloque l’imbrication avancée pour enseignistes.",
+  "primaryUse": "Premium enclosed CO₂ for production cutting of acrylic and wood in small businesses.",
+  "beginnerNotes": "Cette fiche décrit xTool P2S. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Pair with xTool conveyor for batch work. LightBurn unlocks advanced nesting for sign shops.",
   "bestFor": [
-    "Petite entreprise",
-    "Production acrylique",
-    "Boutiques Etsy",
-    "Upgrade P2"
+    "Small business",
+    "Acrylic production",
+    "Etsy shops",
+    "P2 upgrade"
   ],
   "pros": [
-    "Meilleur flux CO₂ bureau de sa catégorie",
-    "Alignement caméra",
-    "Entièrement fermée",
-    "Écosystème xTool solide",
-    "Itération plus rapide que P2 originale"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "xTool P2S : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Très cher",
-    "Lourde, ventilation requise",
-    "Entretien tube CO₂",
-    "Excessif pour hobbyistes gravure-only"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -59,9 +54,17 @@
     "limitations": "Toutes les contraintes CO₂ demeurent : ventilation, tube, poids et prix. Si vous voulez 80 W, un plus grand plateau ou l’automatisation ACS, c’est P3 qui compte, pas P2S. Les acheteurs gravure seule ne doivent pas payer un CO₂ pour du travail niveau diode."
   },
   "images": [
-    { "alt": "Graveuse laser xTool P2S : xTool" },
-    { "alt": "Graveuse laser xTool P2S : xTool" },
-    { "alt": "Graveuse laser xTool P2S : xTool" },
-    { "alt": "Graveuse laser xTool P2S : xTool" }
+    {
+      "alt": "Graveuse laser xTool P2S : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool P2S : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool P2S : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool P2S : xTool"
+    }
   ]
 }

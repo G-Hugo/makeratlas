@@ -48,11 +48,21 @@
     "headline": "Modules galvo WaveSync interchangeables",
     "description": "Un châssis T1 fermé accepte les modules Creality diode (20W/40W), fibre (20W), MOPA (60W) et UV (5W) : une tête installée à la fois.",
     "options": [
-      { "label": "Module diode 20W" },
-      { "label": "Module diode 40W" },
-      { "label": "Module fibre 20W" },
-      { "label": "Module MOPA 60W" },
-      { "label": "Module UV 5W" }
+      {
+        "label": "Module diode 20W"
+      },
+      {
+        "label": "Module diode 40W"
+      },
+      {
+        "label": "Module fibre 20W"
+      },
+      {
+        "label": "Module MOPA 60W"
+      },
+      {
+        "label": "Module UV 5W"
+      }
     ]
   },
   "specs": {
@@ -66,9 +76,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Creality Falcon T1 : Creality" },
-    { "alt": "Graveuse laser Creality Falcon T1 : Creality" },
-    { "alt": "Graveuse laser Creality Falcon T1 : Creality" },
-    { "alt": "Graveuse laser Creality Falcon T1 : Creality" }
-  ]
+    {
+      "alt": "Graveuse laser Creality Falcon T1 : Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon T1 : Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon T1 : Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon T1 : Creality"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Le module 20W diode équilibre gravure et découpe légère sur Creality Falcon T1 Diode : le SKU le plus polyvalent avant de monter en tête plus puissante.",
+    "limitations": "Si la découpe épaisse domine votre semaine, comparez 40W ou 60W. Vérifiez le module dans la boîte : même châssis, têtes différentes."
+  }
 }

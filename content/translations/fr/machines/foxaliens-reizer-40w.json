@@ -2,23 +2,24 @@
   "tagline": "FoxAlien Reizer 40W : haute puissance à structure ouverte de la marque CNC",
   "tldr": "La FoxAlien Reizer 40W est la diode phare de la gamme laser FoxAlien : découpe classe 40W pour les makers déjà dans l'écosystème CNC FoxAlien. Vérifiez la puissance optique ; comparez à l'Atomstack A40 et l'Ortur H20 40W.",
   "mainObjective": "FoxAlien 40W à structure ouverte pour loisir orienté découpe ou activité secondaire",
-  "primaryUse": "Laser FoxAlien haute puissance pour découpe et gravure rapide.",
-  "beginnerNotes": "Solide si vous possédez déjà une CNC FoxAlien et faites confiance à la marque.",
-  "proTips": "Comparez la LE-4040 Pro 20W si le 40W est excessif : même marque, coût inférieur.",
+  "primaryUse": "High-power FoxAlien laser for cutting and fast engraving.",
+  "beginnerNotes": "Cette fiche décrit FoxAlien Reizer 40W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Propriétaires CNC FoxAlien",
-    "Découpe 40W",
-    "Travail grand plateau"
+    "FoxAlien CNC owners",
+    "40W cutting",
+    "Large bed work"
   ],
   "pros": [
-    "Classe 40W à prix compétitif",
-    "Complément naturel à la marque FoxAlien",
-    "Grand plateau"
+    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
+    "40W : tête la plus orientée découpe de FoxAlien Reizer",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "FoxAlien Reizer : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
   ],
   "cons": [
-    "Communauté laser plus petite qu'Ortur/Sculpfun",
-    "Marketing watts : vérifiez",
-    "Structure ouverte"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -46,9 +47,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien" }
-  ]
+    {
+      "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien"
+    },
+    {
+      "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien"
+    },
+    {
+      "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien"
+    },
+    {
+      "alt": "Graveuse laser FoxAlien Reizer 40W : FoxAlien"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "FoxAlien Reizer 40W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Open-frame : sécurité et fumées à votre charge."
+  }
 }

@@ -2,9 +2,9 @@
   "tagline": "Châssis S30 Ultra d’entrée : orienté gravure, découpe légère",
   "tldr": "Le S30 Ultra 10 W utilise le même châssis rigide que les modèles plus puissants, mais vise les makers qui gravent surtout bois, cuir et ardoise. Découpes plus lentes et limites d’épaisseur plus basses que les versions 20 W ou 22 W.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Diode loisir milieu de gamme orientée gravure et découpe modérée de matériaux organiques.",
-  "beginnerNotes": "Ce profil décrit le module 10W de Sculpfun S30 Ultra. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Sculpfun publie des cartes de test matériaux : servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
+  "primaryUse": "10W module · Sculpfun S30 Ultra",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de Sculpfun S30 Ultra. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,9 +12,8 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Ultra 10 W gravure sur châssis Sculpfun actuel",
-    "Entrée moins chère dans la génération Ultra",
-    "Montée vers 22 W sur la même ligne"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "10W sur Sculpfun S30 Ultra : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -71,7 +70,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Ultra 10 W pour cadeaux sur le nouveau cadre Sculpfun.",
-    "limitations": "Boutiques découpe : profil Ultra 22 W."
+    "advantages": "Sculpfun S30 Ultra 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W ou 22W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

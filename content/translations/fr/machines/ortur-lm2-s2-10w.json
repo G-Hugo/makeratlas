@@ -2,9 +2,9 @@
   "tagline": "Ortur LM2 S2 10 W : gravures plus rapides que le 5 W sur le même châssis",
   "tldr": "L’Ortur LM2 S2 10 W est le SKU haute puissance de la famille LM2 S2 : meilleure découpe sur bois fin et remplissages plus rapides que le 5 W, toujours structure ouverte et orienté budget.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Gravure 10 W budget et découpe occasionnelle.",
-  "beginnerNotes": "Ce profil décrit le module 10W de Ortur LM2 S2. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez les benchmarks de cette fiche pour chiffrer vos devis. Testez sur chutes avant production.",
+  "primaryUse": "10W module · Ortur LM2 S2",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de Ortur LM2 S2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,13 +12,12 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Ortur 10 W budget orienté gravure",
-    "Énorme historique forum pour dépannage",
-    "Palier avant LM3 20 W"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "10W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
+    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -61,7 +60,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LM2 10 W viable si bien moins cher que l’équivalent LM3.",
-    "limitations": "En 2026, comparez d’abord LM3 ou H20."
+    "advantages": "Ortur LM2 S2 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

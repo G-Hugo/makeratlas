@@ -2,9 +2,9 @@
   "tagline": "H10 10 W : série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
   "tldr": "L’Ortur Laser Master H10 10 W est le SKU 10 W de la gamme H10. Montée en gamme Ortur par rapport au LM3 structure ouverte : châssis plus intégré et vitesses de déplacement annoncées plus élevées. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Diode Ortur structure ouverte intégrée pour gravure plus rapide et découpe modérée de bois fin.",
-  "beginnerNotes": "Ce profil décrit le module 10W de Ortur Laser Master H10. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Commencez en 20 W sauf cas de découpe clair : le 40 W ajoute du coût avec des gains limités sur l’épaisseur. Associez l’assistance air Ortur tôt pour des bords plus propres.",
+  "primaryUse": "10W module · Ortur Laser Master H10",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de Ortur Laser Master H10. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,9 +12,8 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Entrée H10 sur châssis intégré Ortur plus récent",
-    "Orienté gravure, style plus industriel que LM2",
-    "Ligne modulaire pour monter en puissance"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "10W sur Ortur Laser Master H10 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -71,7 +70,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "H10 10 W pour gravure cadeaux sur châssis série H.",
-    "limitations": "Comparez la valeur LM3 10 W avant de choisir H10."
+    "advantages": "Ortur Laser Master H10 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W ou 40W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

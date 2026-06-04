@@ -2,9 +2,9 @@
   "tagline": "Diode ultra petit budget 40 W : qualité de châssis surprenante pour le prix",
   "tldr": "La TwoTrees TTS-55 40 W est la version 40 W de la gamme TTS-55. TwoTrees sous-cote Atomstack et Ortur avec une plateforme diode utilisable. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing « watts combinés ».",
   "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
-  "primaryUse": "Diode petit budget minimum pour expériences de gravure légère et découvrir le loisir.",
-  "beginnerNotes": "Ce profil décrit le module 40W de TwoTrees TTS-55. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Équerez le châssis avant la première gravure. Considérez la vitesse max annoncée comme théorique : commencez à 50 % pour les remplissages jusqu’à caler vos réglages.",
+  "primaryUse": "40W module · TwoTrees TTS-55",
+  "beginnerNotes": "Ce profil décrit le SKU 40W de TwoTrees TTS-55. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -12,9 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleur débit TTS-55 pour panneaux bois",
-    "Grand lit + haute classe optique en promo",
-    "Alternative CO₂ si seuls les organiques paient"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
+    "40W : tête la plus orientée découpe de TwoTrees TTS-55"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -68,7 +68,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "TTS-55 40 W quand format large et vitesse battent la marque.",
-    "limitations": "Pas pour appartement sans vraie extraction."
+    "advantages": "TwoTrees TTS-55 40W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Open-frame : sécurité et fumées à votre charge."
   }
 }

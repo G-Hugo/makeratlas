@@ -83,7 +83,7 @@
     "Limited cutting depth",
     "Verify H10 SKU versus LM3 listings"
   ],
-  "beginnerNotes": "This profile is the 10W module on Ortur Laser Master H10. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 10W SKU on Ortur Laser Master H10. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "10W module · Ortur Laser Master H10",
   "rating": {
@@ -123,7 +123,7 @@
   "releaseDate": "2024-06",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "H10 10W for buyers who prefer the H-series frame for gift engraving.",
-    "limitations": "Compare LM3 10W value before choosing H10 family."
+    "advantages": "Ortur Laser Master H10 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 5 mm+ cutting in production : see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

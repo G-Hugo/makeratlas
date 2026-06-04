@@ -1,23 +1,25 @@
-﻿{
+{
   "tagline": "S30 Pro milieu de gamme : 10 W sur la famille de châssis S30",
   "tldr": "Le Sculpfun S30 Pro 10 W est le SKU basse puissance du S30 Pro : même classe de châssis que le Pro Max mais moins de profondeur de découpe. Bon Sculpfun budget si vous n’avez pas besoin de 20 W.",
   "mainObjective": "Sculpfun châssis S30 abordable pour travail orienté gravure",
-  "primaryUse": "Gravure Sculpfun mid-budget sur plateau 400 mm.",
-  "beginnerNotes": "Passez votre chemin si vous savez déjà vouloir du 20 W sous quelques mois.",
-  "proTips": "Partage beaucoup de conseils communautaires S30 : cherchez S30 Pro pour les mods.",
+  "primaryUse": "Mid-budget Sculpfun engraving on 400 mm bed.",
+  "beginnerNotes": "Cette fiche décrit Sculpfun S30 Pro 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Sculpfun budget",
-    "Orientation gravure",
-    "Accessoires S30"
+    "Budget Sculpfun",
+    "Engraving focus",
+    "S30 accessories"
   ],
   "pros": [
-    "Écosystème châssis S30",
-    "Grand plateau",
-    "Voie de montée en gamme Sculpfun"
+    "10W sur Sculpfun S30 Pro : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Sculpfun S30 Pro : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "Sculpfun S30 Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Limites 10 W",
-    "Pro Max/Ultra plus courants sur les forums"
+    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -44,9 +46,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Sculpfun S30 Pro 10W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S30 Pro 10W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S30 Pro 10W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S30 Pro 10W : Sculpfun" }
-  ]
+    {
+      "alt": "Graveuse laser Sculpfun S30 Pro 10W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Pro 10W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Pro 10W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Pro 10W : Sculpfun"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Sculpfun S30 Pro 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

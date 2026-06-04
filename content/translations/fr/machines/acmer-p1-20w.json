@@ -2,9 +2,9 @@
   "tagline": "Acmer P1 montée en puissance : module 20 W pour des découpes plus rapides",
   "tldr": "L'Acmer P1 20 W offre plus de marge en découpe que le P1 10 W sur la même classe de châssis. Marque toujours entrée de gamme : vérifiez la puissance optique réelle et attendez-vous à moins de finition qu'avec Sculpfun ou Ortur.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Gravure et découpe légère en 20 W petit budget.",
-  "beginnerNotes": "Ce profil décrit le module 20W de Acmer P1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Faites des tests de découpe : les modules 20 W entrée de gamme varient en puissance optique réelle.",
+  "primaryUse": "20W module · Acmer P1",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Acmer P1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
   "bestFor": [
     "Gravure + découpe",
     "Side business",
@@ -12,9 +12,8 @@
     "Petites séries"
   ],
   "pros": [
-    "P1 20 W équilibré gravure et tilleul fin",
-    "Fort rapport qualité-prix dans le guide d’achat",
-    "Montée vers P2 ou P3 dans la marque"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",
@@ -60,7 +59,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Le P1 20 W est le SKU Acmer à comparer au Ray5 et A5 Pro 20 W.",
-    "limitations": "Cadre et communauté en retrait d’Ortur. Appartement : Acmer P3."
+    "advantages": "Acmer P1 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

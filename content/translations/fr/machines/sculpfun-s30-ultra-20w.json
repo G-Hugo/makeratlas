@@ -2,9 +2,9 @@
   "tagline": "S30 Ultra milieu de gamme : forte découpe diode sans tarif CO₂",
   "tldr": "Le S30 Ultra 20 W est le choix équilibré de la gamme : découpe faisceau compressé sur bois fin, immense bibliothèque de réglages communautaires, même châssis rigide que le refresh 22 W.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Diode loisir milieu de gamme orientée gravure et découpe modérée de matériaux organiques.",
-  "beginnerNotes": "Ce profil décrit le module 20W de Sculpfun S30 Ultra. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Sculpfun publie des cartes de test matériaux : servez-vous-en. Plusieurs passes lentes valent mieux qu’une passe rapide pour la qualité de découpe. Les kits d’extension sont utiles mais vérifiez la rigidité du châssis avant de surdimensionner.",
+  "primaryUse": "20W module · Sculpfun S30 Ultra",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Sculpfun S30 Ultra. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
   "bestFor": [
     "Gravure + découpe",
     "Side business",
@@ -12,9 +12,8 @@
     "Petites séries"
   ],
   "pros": [
-    "Ultra 20 W entre gravure 10 W et flagship 22 W",
-    "Cadre actuel avec communauté solide",
-    "Utile si le 22 W est en rupture"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes"
   ],
   "cons": [
     "Modules plus puissants dans la gamme (22W) : découpe plus rapide et plus profonde",
@@ -70,7 +69,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Ultra 20 W : comparez le prix au 22 W avant achat.",
-    "limitations": "La plupart des acheteurs production visent le 22 W."
+    "advantages": "Sculpfun S30 Ultra 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Montée possible vers 22W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

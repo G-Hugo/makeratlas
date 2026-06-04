@@ -2,27 +2,26 @@
   "tagline": "Acmer S1 de poche : diode ultra-portable pour petits projets",
   "tldr": "L'Acmer S1 est une mini graveuse portable (niveaux 2,5–6 W) pour tampons, petits cadeaux et déplacements. Ce n'est pas une machine d'atelier : elle complète un laser plus grand plutôt qu'elle ne le remplace.",
   "mainObjective": "Micro-gravure portable pour petits objets et apprentissage",
-  "primaryUse": "Micro-graveuse portable pour petite personnalisation.",
-  "beginnerNotes": "Achetez-la comme jouet ou deuxième machine, pas comme votre seul laser.",
-  "proTips": "Prenez le niveau 6 W si vous choisissez le S1 : faible surcoût pour une puissance réellement utilisable.",
+  "primaryUse": "Portable micro-engraver for small personalization.",
+  "beginnerNotes": "Cette fiche décrit Acmer S1 6W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
     "Portable",
-    "Petits cadeaux",
-    "Tampons",
-    "Voyage",
-    "Projets avec les enfants (sous surveillance)"
+    "Small gifts",
+    "Stamps",
+    "Travel",
+    "Kids projects (supervised)"
   ],
   "pros": [
-    "Prix très bas",
-    "Encombrement minimal",
-    "Facile à ranger",
-    "Bon outil d'apprentissage"
+    "6W sur Acmer S1 : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Acmer S1 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "Acmer S1 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Zone de travail minuscule",
-    "Faible puissance",
-    "Pas adaptée à un vrai atelier",
-    "Particularités du flux Bluetooth"
+    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -52,9 +51,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Acmer S1 6 W : Acmer" },
-    { "alt": "Graveuse laser Acmer S1 6 W : Acmer" },
-    { "alt": "Graveuse laser Acmer S1 6 W : Acmer" },
-    { "alt": "Graveuse laser Acmer S1 6 W : Acmer" }
-  ]
+    {
+      "alt": "Graveuse laser Acmer S1 6 W : Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer S1 6 W : Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer S1 6 W : Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer S1 6 W : Acmer"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Acmer S1 6W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

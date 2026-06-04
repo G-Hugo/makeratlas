@@ -2,9 +2,9 @@
   "tagline": "Diode Comgrow 5W petit budget : souvent proposée en pack avec les imprimantes 3D",
   "tldr": "La Comgrow Z1 5W est la référence 5W de la gamme Z1. Comgrow cible les débutants, souvent vendue aux côtés des imprimantes Ender 3D. Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "Diode ultra-budget pour tester si le travail au laser vous intéresse.",
-  "beginnerNotes": "Ce profil décrit le module 5W de Comgrow Z1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Considérez-la comme des roues stabilisatrices : prévoyez une montée en gamme sous un an si vous vendez vos créations.",
+  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
+  "beginnerNotes": "Ce profil décrit le SKU 5W de Comgrow Z1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
     "Gravure fine",
     "Photo & logo",
@@ -12,14 +12,13 @@
     "Première machine"
   ],
   "pros": [
-    "Prix d’entrée très bas pour tester la gravure",
-    "Packs Comgrow souvent pour premiers acheteurs",
-    "Plateforme compacte avant Z1 10 W"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "5W sur Comgrow Z1 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
+    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (10W ou 20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -63,7 +62,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Le Z1 5 W est une machine d’essai avant hardware 20 W.",
-    "limitations": "À éviter si vous savez déjà que vous devez découper. Confusion SKU fréquente. Lunettes et extraction dès le jour 1."
+    "advantages": "Comgrow Z1 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série : regardez 10W ou 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

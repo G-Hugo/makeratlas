@@ -74,19 +74,16 @@
     ]
   },
   "pros": [
-    "Lowest D1 Pro entry : large 430 × 390 mm bed at engraving-first wattage",
-    "Fine spot size for photo fills, leather gifts, and coated metal marks",
-    "Swappable head : upgrade to 10W–40W modules on the same rail",
-    "xTool Creative Space onboarding plus LightBurn for production",
-    "Ideal if cutting thick stock is rare and mark quality matters most"
+    "Entry xTool D1 Pro for brand ecosystem on a budget",
+    "Riser-friendly frame for tumblers on some setups",
+    "xTool Creative Space onboarding"
   ],
   "cons": [
-    "This module targets thin cuts (about 3 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (10W, 20W or 40W) add cut speed and depth",
-    "Not the SKU for a shop cutting 3 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Slow for any real cutting",
+    "Open-frame versus enclosed S1",
+    "10W tier is minimum for most shops"
   ],
-  "beginnerNotes": "This profile is the 5W module on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
+  "beginnerNotes": "This profile is the 5W SKU on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next module before assuming you need more power.",
   "primaryUse": "5W module · xTool D1 Pro",
   "rating": {
@@ -147,7 +144,7 @@
   "releaseDate": "2022-06",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The 5W D1 Pro module is the right buy when your revenue is mostly marks on wood, leather, and slate, not plywood production. You get xTool's large bed and clear upgrade path without paying for cut watts you will not use weekly.",
-    "limitations": "Shops that quote box cutting or thick basswood daily should open the 10W, 20W, or 40W profiles before checkout. Open-frame means glasses and ventilation are non-negotiable. Cast acrylic and bare metal without spray stay out of scope."
+    "advantages": "The 5W diode module on xTool D1 Pro is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
+    "limitations": "Skip this module if you cut 3 mm+ stock daily : open the 10W, 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
   }
 }

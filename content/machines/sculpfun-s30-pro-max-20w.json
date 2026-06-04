@@ -65,18 +65,18 @@
     ]
   },
   "pros": [
-    "Huge Sculpfun community",
-    "Large bed",
-    "LightBurn",
-    "Often discounted used"
+    "Everyday engrave and light cut mix : typical 5 mm basswood in several passes",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Sculpfun S30 Pro Max: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "Sculpfun S30 Pro Max : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Superseded by S30 Ultra",
-    "Open frame",
-    "20W not latest Sculpfun power"
+    "Verify the 20W SKU : same chassis, different modules",
+    "Open frame: kids, pets, and smoke are not contained",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
   ],
-  "beginnerNotes": "Compare used S30 Pro Max vs new S30 Ultra 22W before buying.",
-  "proTips": "Air assist and honeycomb are worth adding day one.",
+  "beginnerNotes": "This profile covers Sculpfun S30 Pro Max 20W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Sculpfun 20W workhorse for hobby engraving and cutting.",
   "rating": {
     "overall": 8,
@@ -114,5 +114,10 @@
       "src": "/machines/sculpfun-s30-pro-max-20w/04.jpg",
       "alt": "Sculpfun S30 Pro Max 20W laser engraver : Sculpfun"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Sculpfun S30 Pro Max 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+  },
+  "tierEditorialOverride": true
 }

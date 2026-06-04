@@ -75,20 +75,17 @@
     ]
   },
   "pros": [
-    "Real 80W cutting throughput for production",
-    "Large bed for signs and panels",
-    "LightBurn standard",
-    "Parts and tubes widely available",
-    "Strong value vs premium enclosed CO₂"
+    "Strong on acrylic and wood versus diodes on the same budget tier",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "OMTech CO₂ : full profile with material limits and benchmarks on Maker Atlas",
+    "OMTech OMTech CO₂ : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Large footprint and weight",
-    "Requires dedicated ventilation and space",
-    "Setup and alignment learning curve",
-    "Water chiller maintenance mandatory",
-    "Not suitable for apartments"
+    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
+    "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
+    "Tube life and replacement cost are part of the true ownership budget"
   ],
-  "beginnerNotes": "Do not buy 80W as a first laser. You should already know you need this power and have ventilation planned.",
+  "beginnerNotes": "This profile covers OMTech 80W CO₂. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Install ammeter and water flow sensor early. Keep spare mirrors and lens : production downtime costs more than parts.",
   "primaryUse": "Production CO₂ laser for sign making and thick material cutting in dedicated workshop spaces.",
   "rating": {
@@ -124,5 +121,10 @@
     }
   ],
   "powerRating": "80W",
-  "releaseDate": "2020-06"
+  "releaseDate": "2020-06",
+  "editorialDepth": {
+    "advantages": "OMTech CO₂ is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 80W adds headroom on panels and multi-pass jobs.",
+    "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
+  },
+  "tierEditorialOverride": true
 }

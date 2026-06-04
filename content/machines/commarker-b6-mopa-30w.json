@@ -69,18 +69,17 @@
     ]
   },
   "pros": [
-    "MOPA color on stainless for premium products",
-    "More power than 20W entry fiber",
-    "Good for production batches with fixtures",
-    "JPT source options on some SKUs"
+    "Fiber marks metal : does not cut wood or acrylic",
+    "ComMarker B6 MOPA : full profile with material limits and benchmarks on Maker Atlas",
+    "ComMarker ComMarker B6 MOPA : compare benchmarks and material limits on this profile before ordering.",
+    "ComMarker ComMarker B6 MOPA : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Significantly more expensive than B4",
-    "Still a marking machine : not a workshop cutter",
-    "Software learning curve (EZCAD/LightBurn)",
-    "Color results depend on material batch"
+    "30W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Fume extraction still matters for coated metals and marking sprays"
   ],
-  "beginnerNotes": "Choose B6 over B4 when you sell color metal products or need faster cycle times on steel.",
+  "beginnerNotes": "This profile covers ComMarker B6 MOPA 30W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Build fixture jigs for repeat jobs. Keep lens clean : contamination shows on high-contrast marks.",
   "primaryUse": "Professional metal marking with optional color effects for premium personalization.",
   "rating": {
@@ -116,5 +115,10 @@
       "alt": "ComMarker B6 MOPA 30W laser engraver : ComMarker"
     }
   ],
-  "releaseDate": "2024-09"
+  "releaseDate": "2024-09",
+  "editorialDepth": {
+    "advantages": "ComMarker B6 MOPA 30W fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.",
+    "limitations": "Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom or a different machine class."
+  },
+  "tierEditorialOverride": true
 }

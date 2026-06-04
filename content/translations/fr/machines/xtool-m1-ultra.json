@@ -2,28 +2,24 @@
   "tagline": "Laser + découpeuse lame dans une machine : hybride unique pour créateurs et stickers",
   "tldr": "La M1 Ultra combine laser diode et découpeuse lame numérique (comme une Cricut renforcée). Découpez vinyle, papier et tissu à la lame ; gravez bois et cuir au laser. Niche mais puissant si votre flux mélange les deux : mauvais choix si vous voulez uniquement découper au laser.",
   "mainObjective": "Découpe vinyle et papier plus gravure laser légère dans une seule machine",
-  "primaryUse": "Machine craft hybride pour stickers vinyle, papeterie et personnalisation laser légère en un flux.",
-  "beginnerNotes": "Achetez la M1 Ultra si vous savez déjà avoir besoin de découpe lame vinyle/papier plus gravure laser légère. Achetez D1 Pro ou P2 si le laser représente 90 %+ de votre travail.",
-  "proTips": "Utilisez la lame pour tout vinyle et papier : le laser noircit les bords papier de façon amateur. Réservez le laser pour personnalisation bois/cuir. Le rotatif étend le travail gobelets sur le module laser.",
+  "primaryUse": "Hybrid craft machine for vinyl stickers, paper goods, and light laser personalization in one workflow.",
+  "beginnerNotes": "Cette fiche décrit xTool M1 Ultra. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Use blade for all vinyl and paper : laser charred edges on paper look amateur. Use laser for wood/leather personalization. Rotary add-on expands tumbler work on the laser module.",
   "bestFor": [
-    "Créateurs de stickers",
-    "Artisans",
-    "Vinyle et papier",
-    "Médias mixtes"
+    "Sticker makers",
+    "Crafters",
+    "Vinyl & paper",
+    "Mixed media"
   ],
   "pros": [
-    "Seul hybride grand public combinant lame + laser sur bureau",
-    "La lame gère vinyle et papier que le laser ne fait pas proprement",
-    "Fermée, encombrement relativement compact",
-    "Fort pour stickers, invitations et activités craft",
-    "Un écosystème logiciel pour les deux outils"
+    "10W sur xTool M1 Ultra : priorité gravure : remplissages photo et cuir",
+    "xTool M1 Ultra : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "xTool M1 Ultra : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Laser 10 W faible pour utilisateurs laser-only sérieux",
-    "Ne remplace pas un CO₂ ou diode haute puissance dédié",
-    "Lame et laser partagent le même plateau : pas d’usage simultané",
-    "Lames consommables = coût récurrent",
-    "Marketing confus si vous attendez une vraie découpeuse laser"
+    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -57,8 +53,18 @@
     }
   ],
   "images": [
-    { "alt": "Graveuse laser xTool M1 Ultra : xTool" },
-    { "alt": "Graveuse laser xTool M1 Ultra : xTool" },
-    { "alt": "Graveuse laser xTool M1 Ultra : xTool" }
-  ]
+    {
+      "alt": "Graveuse laser xTool M1 Ultra : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool M1 Ultra : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool M1 Ultra : xTool"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "xTool M1 Ultra 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

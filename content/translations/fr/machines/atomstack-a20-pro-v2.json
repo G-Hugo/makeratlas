@@ -2,23 +2,23 @@
   "tagline": "Génération actuelle Atomstack A20 Pro : 20 W avec écosystème assistance air F60",
   "tldr": "L’AtomStack A20 Pro V2 remplace l’ancienne A20 Pro avec des optiques mises à jour et des options de pack. Atomstack milieu de gamme entre P1 et A40 : bons détails, pas la classe de puissance la plus élevée.",
   "mainObjective": "Atomstack 20 W dernière génération pour gravure fine et découpe modérée",
-  "primaryUse": "Diode Atomstack milieu de gamme pour travail détaillé.",
-  "beginnerNotes": "Achetez la V2 neuve : évitez de confondre avec des annonces d’occasion de l’A20 Pro originale.",
-  "proTips": "Le kit d’assistance air F60 est la montée en gamme la plus courante dans les avis.",
+  "primaryUse": "Mid-range Atomstack diode for detailed work.",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de AtomStack A20 Pro V2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Utilisez les benchmarks de cette fiche pour chiffrer vos devis. Testez sur chutes avant production.",
   "bestFor": [
-    "Montées en gamme Atomstack",
-    "Travail détaillé 20 W",
-    "Utilisateurs assistance air F60"
+    "Gravure + découpe",
+    "Side business",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "Référence actuelle chez Atomstack",
-    "Châssis plus rigide que l’A5",
-    "Écosystème d’accessoires"
+    "Mix gravure + découpe légère : ~5 mm tilleul en plusieurs passes",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "AtomStack A20 Pro V2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
   ],
   "cons": [
-    "A20 Pro originale discontinuée",
-    "L’A40 existe pour plus de puissance",
-    "Structure ouverte"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -45,9 +45,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack A20 Pro V2 : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A20 Pro V2 : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A20 Pro V2 : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A20 Pro V2 : Atomstack" }
-  ]
+    {
+      "alt": "Graveuse laser AtomStack A20 Pro V2 : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A20 Pro V2 : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A20 Pro V2 : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A20 Pro V2 : Atomstack"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "AtomStack A20 Pro V2 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  }
 }

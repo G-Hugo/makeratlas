@@ -2,28 +2,22 @@
   "tagline": "CO₂ cheval de bataille pour ateliers ayant dépassé le 40 W : grand plateau, vraie vitesse production",
   "tldr": "Les machines CO₂ bureau/sol 80 W d’OMTech ciblent enseignistes et makers sérieux ayant besoin de découpes plus rapides sur acrylique et bois épais. Plus de puissance, plateaux plus grands et prix plus élevé que la classe K40. Attendez-vous à setup, ventilation et entretien : pas du plug-and-play.",
   "mainObjective": "Production CO₂ haute puissance pour ateliers d’enseignes découpant acrylique et bois épais quotidiennement",
-  "primaryUse": "Laser CO₂ de production pour enseignes et découpe de matériaux épais dans des espaces atelier dédiés.",
-  "beginnerNotes": "N’achetez pas le 80 W comme premier laser. Vous devez déjà savoir que vous avez besoin de cette puissance et avoir planifié la ventilation.",
-  "proTips": "Installez ampèremètre et capteur de débit d’eau tôt. Gardez miroirs et lentille de rechange : l’arrêt production coûte plus que les pièces.",
+  "primaryUse": "Production CO₂ laser for sign making and thick material cutting in dedicated workshop spaces.",
+  "beginnerNotes": "Cette fiche décrit OMTech 80W CO₂. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Install ammeter and water flow sensor early. Keep spare mirrors and lens : production downtime costs more than parts.",
   "bestFor": [
-    "Ateliers d’enseignes",
-    "Acrylique épais",
-    "Découpe production",
-    "Anciens utilisateurs K40/55 W"
+    "Sign shops",
+    "Thick acrylic",
+    "Production cutting",
+    "K40/55W graduates"
   ],
   "pros": [
-    "Vrai débit de découpe 80 W pour la production",
-    "Grand plateau pour enseignes et panneaux",
-    "LightBurn standard",
-    "Pièces et tubes largement disponibles",
-    "Fort rapport qualité-prix vs CO₂ enceint premium"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "OMTech CO₂ : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Grand encombrement et poids",
-    "Exige ventilation et espace dédiés",
-    "Courbe d’apprentissage setup et alignement",
-    "Entretien refroidisseur eau obligatoire",
-    "Inadapté aux appartements"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -61,9 +55,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser OMTech 80W CO₂ : OMTech" },
-    { "alt": "Graveuse laser OMTech 80W CO₂ : OMTech" },
-    { "alt": "Graveuse laser OMTech 80W CO₂ : OMTech" },
-    { "alt": "Graveuse laser OMTech 80W CO₂ : OMTech" }
-  ]
+    {
+      "alt": "Graveuse laser OMTech 80W CO₂ : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech 80W CO₂ : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech 80W CO₂ : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech 80W CO₂ : OMTech"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "OMTech CO₂ est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 80W donne de la marge sur les panneaux et les passes multiples.",
+    "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  }
 }

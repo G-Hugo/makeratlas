@@ -2,26 +2,23 @@
   "tagline": "Dernier LaserPecker portable avec puissance et app améliorées",
   "tldr": "Le LaserPecker LP5 combine sources fibre et diode pour marquage métal plus gravure organique dans un châssis portable. Machine spécialisée voyage/événement : pas un remplacement d’atelier complet.",
   "mainObjective": "Fibre + diode portable pour gravure métal et bois sur place",
-  "primaryUse": "Graveuse portable premium pour personnalisation sur site de petits objets.",
-  "beginnerNotes": "Deuxième machine pour la portabilité, pas un remplacement d’un laser de bureau Ortur/xTool.",
-  "proTips": "Utilisez l’extension coulissante et testez les matériaux avant les événements clients.",
+  "primaryUse": "Premium portable engraver for on-site personalization of small items.",
+  "beginnerNotes": "Cette fiche décrit LaserPecker 5. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Portabilité",
-    "Événements",
-    "Voyage",
-    "Petits cadeaux métal/bois"
+    "Portable",
+    "Events",
+    "Travel",
+    "Small metal/wood gifts"
   ],
   "pros": [
-    "Génération LaserPecker la plus capable",
-    "Vraiment portable",
-    "Workflow app peaufiné",
-    "Position unique sur le marché"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "LaserPecker 5 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "LaserPecker 5 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Zone de travail minuscule",
-    "Prix premium au dollar de capacité",
-    "Pas un cheval de bataille de bureau",
-    "Workflow Bluetooth pas pour tout le monde"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -55,9 +52,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser LaserPecker 5 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 5 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 5 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 5 : LaserPecker" }
-  ]
+    {
+      "alt": "Graveuse laser LaserPecker 5 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker 5 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker 5 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker 5 : LaserPecker"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker 5 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  }
 }

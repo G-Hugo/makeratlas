@@ -69,18 +69,16 @@
     ]
   },
   "pros": [
-    "Marks bare metal without spray",
-    "Portable desktop footprint",
-    "Cheaper than F1 Ultra when discounted",
-    "xTool software support"
+    "10W on xTool F1: engraving-first : photo fills and leather at moderate speeds",
+    "xTool F1: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "xTool F1 : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Small work area",
-    "Slower than F1/F2 Ultra",
-    "Not a first laser for most people",
-    "Module switching required"
+    "This module targets thin cuts (about 4 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 4 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Buy only if metal marking is your main job. Wood-primary makers should get D1 Pro or S1.",
+  "beginnerNotes": "This profile covers xTool F1. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Use rotary for rings. F1 Ultra is worth the upgrade if you run production metal batches.",
   "primaryUse": "Entry compact dual-laser for metal personalization and small organic-material engraving.",
   "rating": {
@@ -140,5 +138,10 @@
     "fiber",
     "diode"
   ],
-  "releaseDate": "2023-04"
+  "releaseDate": "2023-04",
+  "editorialDepth": {
+    "advantages": "xTool F1 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

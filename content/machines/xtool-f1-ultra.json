@@ -71,20 +71,17 @@
     ]
   },
   "pros": [
-    "Marks bare metal directly : no chemical spray needed on fiber",
-    "Extremely fast fiber engraving for production",
-    "Compact and portable compared to open-frame diodes",
-    "Dual laser covers both metal and organic materials",
-    "Optional conveyor for batch metal marking"
+    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
+    "xTool F1 Ultra: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "xTool F1 Ultra : full profile with material limits and benchmarks on Maker Atlas",
+    "xTool xTool F1 Ultra : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Small default work area : not for large signs or panels",
-    "Very expensive for the cutting/engraving area you get",
-    "Not a replacement for a CO₂ if you cut acrylic or large wood",
-    "Fiber and diode require switching modules (not simultaneous)",
-    "Enclosed but still requires proper ventilation for some materials"
+    "Verify the 20W SKU : same chassis, different modules",
+    "Open frame: kids, pets, and smoke are not contained",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
   ],
-  "beginnerNotes": "Buy this if metal is your main material : rings, dog tags, tools, tumblers with stainless sleeves. Do not buy it as your first general-purpose laser; the work area is too small for typical hobby projects like large wood signs.",
+  "beginnerNotes": "This profile covers xTool F1 Ultra. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Use the fiber module for all metal work. The diode is a bonus for wood/leather on the same desk. Rotary attachment is essential for rings and cylindrical metal. Dial in power/speed on scrap : fiber is unforgiving on thin metal.",
   "primaryUse": "Professional metal marking and small-item engraving for jewelry, personalization businesses, and tool marking.",
   "rating": {
@@ -145,5 +142,10 @@
     "fiber",
     "diode"
   ],
-  "releaseDate": "2024-05"
+  "releaseDate": "2024-05",
+  "editorialDepth": {
+    "advantages": "xTool F1 Ultra 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+  },
+  "tierEditorialOverride": true
 }

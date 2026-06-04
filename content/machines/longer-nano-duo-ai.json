@@ -66,17 +66,18 @@
     ]
   },
   "pros": [
-    "Dual source portable",
-    "AI workflow hooks",
-    "Longer accessory line"
+    "12W IR: metal marking on the same chassis as other modules",
+    "Longer Nano Duo AI : full profile with material limits and benchmarks on Maker Atlas",
+    "Longer Longer Nano Duo AI : compare benchmarks and material limits on this profile before ordering.",
+    "Longer Longer Nano Duo AI : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Premium portable pricing",
-    "Small bed",
-    "App-dependent workflow"
+    "Requires the full chassis : this module alone does not replace a dedicated machine",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "Compare Nano Pro 12W single-beam if you don't need dual sources.",
-  "proTips": "Conveyor accessory sold separately for batch cylindrical work.",
+  "beginnerNotes": "This profile covers Longer Nano Duo AI. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Portable dual-source personalization with AI-assisted setup.",
   "rating": {
     "overall": 8,
@@ -117,5 +118,10 @@
       "src": "/machines/longer-nano-duo-ai/03.jpg",
       "alt": "Longer Nano Duo AI laser engraver : Longer"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Longer Nano Duo AI 12W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

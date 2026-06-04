@@ -2,28 +2,25 @@
   "tagline": "Ortur compact et portable : graveuse de bureau pour petits cadeaux",
   "tldr": "L’Aufero AL1 est la ligne diode compacte d’Ortur pour petites surfaces de travail et configurations portables. Moins puissant que le LM3 ou le H10, mais plus facile à caser sur un bureau encombré. Idéal pour la gravure légère : pas un cheval de bataille pour la découpe.",
   "mainObjective": "Ortur petit format pour gravure cadeaux et apprentissage à petit budget",
-  "primaryUse": "Ortur compact d’entrée de gamme pour gravure de petits cadeaux et bases du laser.",
-  "beginnerNotes": "Intéressant si vous ne gravez que de petits objets comme porte-clés et étiquettes. Si vous risquez de le dépasser en quelques mois, épargnez pour un Ortur LM3.",
-  "proTips": "Utilisez des jobs de référence plus petits (5×5 cm) pour les photos sur l’AL1 : les remplissages 10×10 cm prennent nettement plus de temps en 5 W.",
+  "primaryUse": "Compact entry Ortur for small gift engraving and learning laser basics.",
+  "beginnerNotes": "Cette fiche décrit Ortur Aufero AL1. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Use smaller benchmark jobs (5×5 cm) for photos on AL1 : 10×10 cm fills take noticeably longer at 5W.",
   "bestFor": [
-    "Petits cadeaux",
-    "Espace bureau limité",
-    "Premiers essais laser",
-    "Configurations portables"
+    "Small gifts",
+    "Desk space limits",
+    "First laser experiments",
+    "Portable setups"
   ],
   "pros": [
-    "Encombrement très compact",
-    "Prix d’entrée bas",
-    "Support marque Ortur",
-    "Courbe d’apprentissage simple pour un premier laser",
-    "Compatible LightBurn"
+    "5W sur Ortur Aufero AL1 : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Ortur Aufero AL1 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "Ortur Aufero AL1 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Petite zone de travail limite la taille des projets",
-    "5 W lent sur les remplissages 10×10 cm",
-    "Peu compétitif vs LM3 sur le long terme",
-    "Capacité de découpe limitée",
-    "Sécurité structure ouverte requise"
+    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -58,9 +55,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Ortur Aufero AL1 : Ortur" },
-    { "alt": "Graveuse laser Ortur Aufero AL1 : Ortur" },
-    { "alt": "Graveuse laser Ortur Aufero AL1 : Ortur" },
-    { "alt": "Graveuse laser Ortur Aufero AL1 : Ortur" }
-  ]
+    {
+      "alt": "Graveuse laser Ortur Aufero AL1 : Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur Aufero AL1 : Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur Aufero AL1 : Ortur"
+    },
+    {
+      "alt": "Graveuse laser Ortur Aufero AL1 : Ortur"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Ortur Aufero AL1 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

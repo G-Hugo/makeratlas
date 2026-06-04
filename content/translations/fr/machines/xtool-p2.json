@@ -2,28 +2,22 @@
   "tagline": "Laser CO₂ fermé conçu pour petites entreprises et hobbyistes sérieux",
   "tldr": "La xTool P2 est un laser CO₂ 55 W fermé avec grande surface de travail et alignement caméra. Elle découpe acrylique et bois bien mieux que tout laser diode. Cher, mais la machine bureau la plus proche d’un « montez une petite boutique ».",
   "mainObjective": "Découpe pro acrylique, bois et cuir pour petites entreprises",
-  "primaryUse": "Découpe et gravure niveau production sur matières organiques (bois, acrylique, cuir) à domicile ou en petite entreprise.",
-  "beginnerNotes": "Si le budget le permet et que vous voulez découper enseignes acrylique, produits bois ou lancer une boutique Etsy, la P2 est l’une des options bureau les plus capables. Si vous voulez surtout graver bijoux métal ou gobelets, regardez plutôt fibre ou diode : le CO₂ ne marque pas le métal nu.",
-  "proTips": "Associez compresseur et bonne assistance air pour des découpes acrylique plus propres. LightBurn débloque des flux avancés si vous dépassez xTool Creative Space. Planifiez l’évacuation avant déballage : la ventilation n’est pas optionnelle avec le CO₂.",
+  "primaryUse": "Production-grade cutting and engraving of organic materials (wood, acrylic, leather) in a home or small business workshop.",
+  "beginnerNotes": "Cette fiche décrit xTool P2. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Pair with a compressor and good air assist for cleaner cuts on acrylic. LightBurn unlocks advanced workflows if you outgrow xTool Creative Space. Plan exhaust routing before unboxing : ventilation is not optional with CO₂.",
   "bestFor": [
-    "Petite entreprise",
-    "Découpe acrylique et bois",
-    "Production en série",
-    "Vendeurs Etsy"
+    "Small business",
+    "Acrylic & wood cutting",
+    "Batch production",
+    "Etsy sellers"
   ],
   "pros": [
-    "Vraie puissance découpe CO₂ : incomparable aux diodes pour acrylique et bois épais",
-    "Entièrement fermée avec verrouillages sécurité : plus sûre à domicile et en atelier",
-    "Caméra intégrée pour alignement visuel et placement en série",
-    "Grande surface pour un CO₂ bureau",
-    "Communauté active et écosystème logiciel xTool solide"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "xTool P2 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Prix élevé : souvent 4–5× le coût d’une bonne diode",
-    "Encombrante et lourde ; pas portable",
-    "Tube CO₂ durée limitée (~1 000–2 000 h) et coût de remplacement",
-    "Ventilation ou évacuation extérieure requise",
-    "Excessif si vous voulez seulement graver métal ou petits objets"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -66,9 +60,17 @@
     "limitations": "Prix, poids et ventilation obligatoire excluent les hobbyistes gravure seule. Le tube vitré est un consommable avec coût de remplacement réel. Le métal nu demande une autre catégorie de laser. Si vous ne marquez que gobelets ou petits cadeaux, une diode fermée coûte bien moins."
   },
   "images": [
-    { "alt": "Graveuse laser xTool P2 : xTool" },
-    { "alt": "Graveuse laser xTool P2 : xTool" },
-    { "alt": "Graveuse laser xTool P2 : xTool" },
-    { "alt": "Graveuse laser xTool P2 : xTool" }
+    {
+      "alt": "Graveuse laser xTool P2 : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool P2 : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool P2 : xTool"
+    },
+    {
+      "alt": "Graveuse laser xTool P2 : xTool"
+    }
   ]
 }

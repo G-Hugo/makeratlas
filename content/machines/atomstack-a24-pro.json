@@ -68,17 +68,18 @@
     ]
   },
   "pros": [
-    "Two lasers one chassis",
-    "Compact vs separate fiber + diode",
-    "Atomstack support"
+    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
+    "AtomStack A24 Pro: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "AtomStack A24 Pro : full profile with material limits and benchmarks on Maker Atlas",
+    "Atomstack AtomStack A24 Pro : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Small marking field for fiber",
-    "Premium vs single-purpose machines",
-    "Learning two workflows"
+    "Verify the 20W SKU : same chassis, different modules",
+    "Open frame: kids, pets, and smoke are not contained",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
   ],
-  "beginnerNotes": "Choose if metal marking is regular : skip if you only engrave wood.",
-  "proTips": "Treat fiber and diode as separate jobs : different fixtures and settings.",
+  "beginnerNotes": "This profile covers AtomStack A24 Pro. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Desk hybrid for mixed metal marking and small organic engraves.",
   "rating": {
     "overall": 8,
@@ -140,5 +141,10 @@
       "src": "/machines/atomstack-a24-pro/04.jpg",
       "alt": "AtomStack A24 Pro laser engraver : Atomstack"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "AtomStack A24 Pro 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+  },
+  "tierEditorialOverride": true
 }

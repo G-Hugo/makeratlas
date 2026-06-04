@@ -2,26 +2,25 @@
   "tagline": "Sculpfun grand format 2025 : plateau 830×800 mm et diode compressée 48 W",
   "tldr": "Le S40 MAX (2025) vise les makers qui ont dépassé les châssis 400 mm : zone 830×800 mm, 48 W optiques, autofocus et Wi-Fi via écran TS1. Conçu pour panneaux enseignes et découpe en série : vérifiez le poids à l’expédition et l’espace atelier avant commande.",
   "mainObjective": "Sculpfun diode extra-large pour grands panneaux et découpe type production",
-  "primaryUse": "Sculpfun 2025 grande surface pour gravure et découpe de panneaux bois, cuir et acrylique surdimensionnés.",
-  "beginnerNotes": "N’achetez que si vous atteignez régulièrement les limites de taille du S30 Ultra ou des machines 400 mm. Les premiers acheteurs devraient commencer plus petit.",
-  "proTips": "Utilisez le décalage axe Z par passe dans LightBurn pour des découpes épaisses plus plates. Prévoyez une assistance air 50 L+ pour les découpes épaisses annoncées en une passe.",
+  "primaryUse": "2025 large-area Sculpfun for engraving and cutting oversized wood, leather, and acrylic panels.",
+  "beginnerNotes": "Cette fiche décrit Sculpfun S40 MAX 48W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Use Z-axis offset per pass in LightBurn for flatter thick cuts. Budget 50L+ air assist for claimed one-pass thick cuts.",
   "bestFor": [
-    "Grandes enseignes",
-    "Découpe en série",
-    "Production studio",
-    "Power users Sculpfun"
+    "Large signs",
+    "Batch cutting",
+    "Studio production",
+    "Sculpfun power users"
   ],
   "pros": [
-    "Zone de travail massive pour la classe diode",
-    "48 W avec découpe offset Z dans LightBurn",
-    "Autofocus et contrôle offline TS1",
-    "Bon rapport qualité-prix vs CO₂ pour gros bois"
+    "Meilleure marge de découpe de la gamme : ~20 mm tilleul en benchmark",
+    "48W : tête la plus orientée découpe de Sculpfun S40 MAX",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Sculpfun S40 MAX : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
   ],
   "cons": [
-    "Énorme châssis : table dédiée requise",
-    "15,2 kg de machine",
-    "Annonces 48 W à valider en conditions réelles",
-    "Structure ouverte : sécurité entièrement à votre charge"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -58,9 +57,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun" }
-  ]
+    {
+      "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S40 MAX 48W : Sculpfun"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Sculpfun S40 MAX 48W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Open-frame : sécurité et fumées à votre charge."
+  }
 }

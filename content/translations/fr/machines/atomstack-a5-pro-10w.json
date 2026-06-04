@@ -2,9 +2,9 @@
   "tagline": "Laser diode 10 W ultra petit budget : point d’entrée minimum viable",
   "tldr": "L’Atomstack A5 Pro 10 W est la référence 10 W de la gamme A5 Pro. L’un des moyens les moins chers d’essayer la gravure laser. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing en watts cumulés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Expérimentation au coût le plus bas avec gravure laser diode sur petits projets bois et cuir.",
-  "beginnerNotes": "Ce profil décrit le module 10W de Atomstack A5 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Équarez le châssis avant la première utilisation. Remplacez la carte d’origine si vous touchez les limites du firmware. Ne comptez pas sur le « 40 W » pour planifier une activité : testez vous-même la profondeur de découpe sur votre unité.",
+  "primaryUse": "10W module · Atomstack A5 Pro",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de Atomstack A5 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,9 +12,8 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Palier A5 Pro le plus populaire pour gravure hobby",
-    "Plateau complet abordable pour ardoise, bois, cuir",
-    "Énorme base de mods et réglages en ligne"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "10W sur Atomstack A5 Pro : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -69,7 +68,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Le 10 W est le sweet spot gravure de la ligne budget Atomstack.",
-    "limitations": "Les activités mixtes découpe/gravure le dépassent vite. Comparez Ortur LM3 10 W pour un châssis plus rigide."
+    "advantages": "Atomstack A5 Pro 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

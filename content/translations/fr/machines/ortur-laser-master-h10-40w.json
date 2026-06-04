@@ -2,9 +2,9 @@
   "tagline": "H10 40 W : série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
   "tldr": "L’Ortur Laser Master H10 40 W est le SKU 40 W de la gamme H10. Montée en gamme Ortur par rapport au LM3 structure ouverte : châssis plus intégré et vitesses de déplacement annoncées plus élevées. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure et découpe rapides : tilleul plus épais, acrylique foncé, jobs plus courts",
-  "primaryUse": "Diode Ortur structure ouverte intégrée pour gravure plus rapide et découpe modérée de bois fin.",
-  "beginnerNotes": "Ce profil décrit le module 40W de Ortur Laser Master H10. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Commencez en 20 W sauf cas de découpe clair : le 40 W ajoute du coût avec des gains limités sur l’épaisseur. Associez l’assistance air Ortur tôt pour des bords plus propres.",
+  "primaryUse": "40W module · Ortur Laser Master H10",
+  "beginnerNotes": "Ce profil décrit le SKU 40W de Ortur Laser Master H10. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -12,9 +12,9 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Tête H10 la plus rapide pour semaines découpe",
-    "Vitesse type LM3 sur plateforme H",
-    "Montée Ortur sans CO₂"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
+    "40W : tête la plus orientée découpe de Ortur Laser Master H10"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -70,7 +70,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "H10 40 W pour la découpe sur plateforme H10.",
-    "limitations": "Comparez H20 40 W modulaire et Falcon2 Pro 40 W."
+    "advantages": "Ortur Laser Master H10 40W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Open-frame : sécurité et fumées à votre charge."
   }
 }

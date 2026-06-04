@@ -2,26 +2,22 @@
   "tagline": "Découpeuse CO₂ de bureau Atomstack : tube 55 W dans un châssis fermé moderne",
   "tldr": "L’AtomStack Hurricane apporte la découpe CO₂ aux acheteurs Atomstack qui ont dépassé les diodes. Découpe acrylique et bois plus épais que toute diode de cette gamme de prix. Nécessite de la place, de la ventilation et une discipline de refroidissement eau : pas adaptée à un appartement.",
   "mainObjective": "CO₂ de bureau pour découpe acrylique et production bois au-delà des limites diode",
-  "primaryUse": "Production CO₂ de bureau pour cadeaux acrylique, signalétique et découpe bois.",
-  "beginnerNotes": "N’achetez qu’avec un plan de ventilation. Propriétaires de diode : workflow et modèle de sécurité différents.",
-  "proTips": "Prévoyez un budget pour tuyau d’extraction et contrôles du refroidisseur eau. LightBurn est le choix professionnel.",
+  "primaryUse": "Desktop CO₂ production for acrylic gifts, signage, and wood cutting.",
+  "beginnerNotes": "Cette fiche décrit AtomStack Hurricane 55W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Budget for exhaust hose and water chiller checks. LightBurn is the professional choice.",
   "bestFor": [
-    "Découpe acrylique",
-    "Enseignes bois",
-    "Fans de la marque Atomstack",
-    "Premiers CO₂ avec de la place"
+    "Acrylic cutting",
+    "Wood signs",
+    "Atomstack brand fans",
+    "CO₂ first-timers with space"
   ],
   "pros": [
-    "Vraie découpe acrylique CO₂",
-    "Accessoires écosystème Atomstack",
-    "Options fermées dans les packs",
-    "Extensions rehausseur et convoyeur"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "AtomStack Hurricane : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Grand encombrement et poids",
-    "Entretien refroidissement eau",
-    "Premium face à l’entrée K40 CO₂",
-    "Pas portable"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -57,9 +53,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack Hurricane 55 W : Atomstack" },
-    { "alt": "Graveuse laser AtomStack Hurricane 55 W : Atomstack" },
-    { "alt": "Graveuse laser AtomStack Hurricane 55 W : Atomstack" },
-    { "alt": "Graveuse laser AtomStack Hurricane 55 W : Atomstack" }
-  ]
+    {
+      "alt": "Graveuse laser AtomStack Hurricane 55 W : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack Hurricane 55 W : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack Hurricane 55 W : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack Hurricane 55 W : Atomstack"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "AtomStack Hurricane est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 55W donne de la marge sur les panneaux et les passes multiples.",
+    "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  }
 }

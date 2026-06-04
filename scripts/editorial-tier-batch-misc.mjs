@@ -531,7 +531,11 @@ function applyPacks() {
     const m = JSON.parse(fs.readFileSync(filePath, "utf8"));
     m.pros = pack.pros;
     if (pack.cons) m.cons = pack.cons;
-    if (pack.editorialDepth) m.editorialDepth = pack.editorialDepth;
+    if (pack.editorialDepth) {
+      const adv = m.editorialDepth?.advantages?.trim() ?? "";
+      const lim = m.editorialDepth?.limitations?.trim() ?? "";
+      if (adv.length < 80 || lim.length < 80) m.editorialDepth = pack.editorialDepth;
+    }
     m.tierEditorialOverride = true;
     fs.writeFileSync(filePath, `${JSON.stringify(m, null, 2)}\n`, "utf8");
     updated++;

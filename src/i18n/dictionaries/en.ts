@@ -136,8 +136,8 @@ export const en: Dictionary = {
     standoutTitle: "What makes this machine stand out",
     standoutSubtitle:
       "Hardware and workflow features worth understanding before you buy : not just wattage on a label.",
-    advantagesDetail: "What you gain in real use",
-    limitationsDetail: "What to plan for (costs, space, safety)",
+    advantagesDetail: "Ideal if you",
+    limitationsDetail: "Skip if you",
     atAGlance: "At a glance",
     scoreBreakdown: "Score breakdown",
     practicalNotes: "Practical notes",

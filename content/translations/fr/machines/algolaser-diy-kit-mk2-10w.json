@@ -2,23 +2,24 @@
   "tagline": "Kit DIY MK2 10 W boîtier : référence d'entrée Algolaser la plus courante",
   "tldr": "Le Kit DIY MK2 10 W est la configuration 10 W boîtier la plus populaire : montage requis, mais plus contenu que les concurrents à structure ouverte à prix similaire.",
   "mainObjective": "Algolaser 10 W boîtier pour gravure loisir",
-  "primaryUse": "Gravure loisir en boîtier avec découpe légère.",
-  "beginnerNotes": "Prévoyez du temps pour le montage et le parallélisme du châssis.",
-  "proTips": "Des kits plateau étendu existent : confirmez la compatibilité avec votre révision MK2 exacte.",
+  "primaryUse": "Enclosed hobby engraving with light cutting.",
+  "beginnerNotes": "Cette fiche décrit AlgoLaser DIY Kit MK2 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Première diode en boîtier",
-    "Écosystème Algolaser",
-    "Découpe modérée"
+    "First enclosed diode",
+    "AlgoLaser ecosystem",
+    "Moderate cutting"
   ],
   "pros": [
-    "Boîtier à prix d'entrée",
-    "Montée en gamme MK2",
-    "Compatible LightBurn"
+    "10W sur AlgoLaser DIY Kit MK2 : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "AlgoLaser DIY Kit MK2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "AlgoLaser DIY Kit MK2 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Temps de montage",
-    "Plafond 10 W",
-    "Alpha MK2 20 W+ offre plus de marge"
+    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -46,9 +47,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser" },
-    { "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser" }
-  ]
+    {
+      "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser"
+    },
+    {
+      "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser"
+    },
+    {
+      "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser"
+    },
+    {
+      "alt": "Graveuse laser AlgoLaser DIY Kit MK2 10 W : AlgoLaser"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "AlgoLaser DIY Kit MK2 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

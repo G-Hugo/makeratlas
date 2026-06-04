@@ -67,17 +67,18 @@
     ]
   },
   "pros": [
-    "Lower entry price than Omni X",
-    "Compact",
-    "Good for glass gift niche"
+    "3W UV: cold marking on glass and heat-sensitive plastics",
+    "ComMarker Omni 1 UV : full profile with material limits and benchmarks on Maker Atlas",
+    "ComMarker ComMarker Omni 1 UV : compare benchmarks and material limits on this profile before ordering.",
+    "ComMarker ComMarker Omni 1 UV : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Smaller work area",
-    "Slower production",
-    "Not for metal at all"
+    "No wood/metal cutting : install another head on the chassis for those materials",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "Pair with a diode or CO₂ if you need wood/acrylic cutting : UV is specialized.",
-  "proTips": "Mask glass for crisp white marks. Ventilate : some plastics off-gas.",
+  "beginnerNotes": "This profile covers ComMarker Omni 1 UV. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Hobby and small-business UV marking on glass and plastics.",
   "rating": {
     "overall": 8.1,
@@ -110,5 +111,10 @@
       "alt": "ComMarker Omni 1 UV laser engraver : ComMarker"
     }
   ],
-  "releaseDate": "2024-06"
+  "releaseDate": "2024-06",
+  "editorialDepth": {
+    "advantages": "ComMarker Omni 1 UV 3W targets glass, films, and heat-sensitive plastics : profitable when you already sell those jobs, not for casual UV experiments.",
+    "limitations": "Poor first-laser purchase. No wood or metal cutting. Confirm the module material list before buying the chassis."
+  },
+  "tierEditorialOverride": true
 }

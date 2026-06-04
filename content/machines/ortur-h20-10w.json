@@ -69,18 +69,16 @@
     ]
   },
   "pros": [
-    "Lowest H20 entry while keeping the integrated chassis and Ortur app workflow",
-    "Integrated H-series enclosure : beam containment and smoke control vs open-frame diodes",
-    "Best module in the line for photo fills, leather, and detail-heavy gifts",
-    "Swappable head : upgrade to 20W or 40W later on the same frame",
-    "410 × 275 mm work area with LightBurn and LaserGRBL support"
+    "Entry H20 module on modular Ortur platform",
+    "Engraving-first with upgrade to 20W or 40W heads",
+    "Integrated frame versus classic LM aesthetics"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W or 40W) add cut speed and depth",
-    "Not the SKU for a shop cutting 5 mm+ stock all day"
+    "20W H20 tier is the usual sweet spot",
+    "Bundle confusion on optical modules",
+    "Open-frame rules apply"
   ],
-  "beginnerNotes": "This profile is the 10W module on Ortur H20. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
+  "beginnerNotes": "This profile is the 10W SKU on Ortur H20. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts on basswood. If cut jobs exceed ~30% of your week, compare the 20W or 40W module profiles before upgrading.",
   "primaryUse": "10W module · Ortur H20",
   "rating": {
@@ -150,8 +148,8 @@
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The H20 10W module keeps Ortur's integrated chassis while targeting engraving-first work : photo fills, leather gifts, and learning the platform at the lowest diode tier. Swap to 20W or 40W later on the same frame when cutting becomes regular revenue.",
-    "limitations": "Not the module for daily plywood production : thin basswood and light gifts only. Optional 2W IR is a separate head, not included. Compare 20W/40W profiles if cut time already dominates your quotes."
+    "advantages": "The 10W diode module on Ortur H20 is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
+    "limitations": "Skip this module if you cut 5 mm+ stock daily : open the 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
   },
   "releaseDate": "2023-10"
 }

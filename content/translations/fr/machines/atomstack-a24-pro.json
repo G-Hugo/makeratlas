@@ -2,24 +2,23 @@
   "tagline": "Atomstack compacte avec diode et marquage fibre dans une seule unité de bureau",
   "tldr": "L’AtomStack A24 Pro réunit une graveuse diode et un marquage fibre dans un encombrement plus petit que deux machines séparées. Niche pour marquage métal à l’échelle bijouterie plus bois : ni fibre d’atelier complet ni diode haute puissance.",
   "mainObjective": "Atomstack double source pour marquage métal et gravure organique",
-  "primaryUse": "Hybride de bureau pour marquage métal mixte et petites gravures organiques.",
-  "beginnerNotes": "Choisissez-la si le marquage métal est régulier : passez votre chemin si vous ne gravez que le bois.",
-  "proTips": "Traitez fibre et diode comme des travaux séparés : fixations et réglages différents.",
+  "primaryUse": "Desk hybrid for mixed metal marking and small organic engraves.",
+  "beginnerNotes": "Cette fiche décrit AtomStack A24 Pro. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Bureau bijouterie",
-    "Plaques métalliques",
-    "Petits cadeaux",
-    "Hybride gain de place"
+    "Jewelry desk",
+    "Metal tags",
+    "Small gifts",
+    "Space-saving hybrid"
   ],
   "pros": [
-    "Deux lasers, un châssis",
-    "Compacte face à fibre + diode séparées",
-    "Support Atomstack"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "AtomStack A24 Pro : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "AtomStack A24 Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Petit champ de marquage pour la fibre",
-    "Premium face aux machines mono-usage",
-    "Deux flux de travail à apprendre"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -49,17 +48,33 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack A24 Pro : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro : Atomstack" }
+    {
+      "alt": "Graveuse laser AtomStack A24 Pro : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A24 Pro : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A24 Pro : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A24 Pro : Atomstack"
+    }
   ],
   "moduleSystem": {
     "headline": "Gravure diode + marquage fibre",
     "description": "L’A24 Pro combine découpe/gravure diode et source fibre pour marquage métal dans un seul pack.",
     "options": [
-      { "label": "Diode 20 W" },
-      { "label": "Marquage fibre" }
+      {
+        "label": "Diode 20 W"
+      },
+      {
+        "label": "Marquage fibre"
+      }
     ]
+  },
+  "editorialDepth": {
+    "advantages": "AtomStack A24 Pro 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
   }
 }

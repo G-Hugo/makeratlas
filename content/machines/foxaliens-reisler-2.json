@@ -70,18 +70,17 @@
     ]
   },
   "pros": [
-    "Known brand from CNC space",
-    "Full-size bed",
-    "LightBurn support",
-    "Competitive 20W pricing"
+    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "FoxAlien Reisler 2: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "FoxAlien Reisler 2 : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Smaller laser community than Ortur",
-    "Open frame safety",
-    "Still diode-limited",
-    "Newer laser line track record"
+    "Verify the 20W SKU : same chassis, different modules",
+    "Open frame: kids, pets, and smoke are not contained",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
   ],
-  "beginnerNotes": "Compare with Ortur LM3 and Sculpfun S30 Ultra at similar price before choosing brand loyalty.",
+  "beginnerNotes": "This profile covers FoxAlien Reisler 2. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "If you own a FoxAlien CNC, shared vendor support can simplify your workshop.",
   "primaryUse": "20W open-frame diode for hobby engraving and moderate thin-wood cutting.",
   "rating": {
@@ -116,5 +115,10 @@
     }
   ],
   "powerRating": "20W",
-  "releaseDate": "2023-05"
+  "releaseDate": "2023-05",
+  "editorialDepth": {
+    "advantages": "FoxAlien Reisler 2 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+  },
+  "tierEditorialOverride": true
 }

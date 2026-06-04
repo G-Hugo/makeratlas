@@ -74,19 +74,16 @@
     ]
   },
   "pros": [
-    "Engraving-focused D1 Pro module with a tighter spot than 20W/40W heads",
-    "Large 430 × 390 mm bed for coasters, signs, and batch gifts",
-    "Swappable head : upgrade to 20W or 40W later on the same rail",
-    "xTool Creative Space keeps onboarding simple before LightBurn",
-    "Strong value if you mostly mark and only cut thin basswood"
+    "Popular D1 Pro engraving tier with xTool support",
+    "Modular riser ecosystem for cylinders",
+    "Stepping stone before D1 Pro 20W or S1"
   ],
   "cons": [
-    "This module targets thin cuts (about 5 mm basswood class) : not thick production plywood",
-    "Higher modules in this line (20W or 40W) add cut speed and depth",
-    "Not the SKU for a shop cutting 5 mm+ stock all day",
-    "Open frame: kids, pets, and smoke are not contained"
+    "Cutting still limited to thin stock",
+    "Open-frame safety and smoke on you",
+    "S1 enclosed worth compare at sale time"
   ],
-  "beginnerNotes": "This profile is the 10W module on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
+  "beginnerNotes": "This profile is the 10W SKU on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "10W module · xTool D1 Pro",
   "rating": {
@@ -147,7 +144,7 @@
   "releaseDate": "2022-06",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The 10W D1 Pro module sits between 5W detail work and 20W mixed production : enough cut depth for typical hobby boxes while keeping engraving quality high at sensible speeds. Same rail, software, and upgrade path as heavier SKUs.",
-    "limitations": "Open-frame safety and ventilation are your responsibility. Thick hardwood, fast sign cutting, and clear acrylic production push you toward the 20W or 40W head or a CO₂ machine. Verify optical power on the listing : do not assume combined-watt marketing."
+    "advantages": "The 10W diode module on xTool D1 Pro is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
+    "limitations": "Skip this module if you cut 5 mm+ stock daily : open the 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
   }
 }

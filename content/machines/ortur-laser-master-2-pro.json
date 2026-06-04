@@ -64,16 +64,17 @@
     ]
   },
   "pros": [
-    "Very cheap used",
-    "Huge legacy tutorial base",
-    "Large bed"
+    "10W on Ortur Laser Master 2 Pro: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Ortur Laser Master 2 Pro: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "Ortur Laser Master 2 Pro : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Discontinued",
-    "Outdated vs LM3/H20",
-    "Open frame"
+    "Targets thin cuts (about 3 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 3 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Only buy used at a steep discount vs a new LM3 10W.",
+  "beginnerNotes": "This profile covers Ortur Laser Master 2 Pro. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Flash firmware carefully : many LM2 guides still online.",
   "primaryUse": "Legacy Ortur open-frame for hobby engraving on a budget.",
   "rating": {
@@ -110,5 +111,10 @@
       "src": "/machines/ortur-laser-master-2-pro/04.webp",
       "alt": "Ortur Laser Master 2 Pro laser engraver : Ortur"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Ortur Laser Master 2 Pro 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

@@ -2,28 +2,23 @@
   "tagline": "Atomstack milieu de gamme avec faisceau comprimé : bon compromis entre A5 et A40",
   "tldr": "L’A20 Pro se situe dans la gamme Atomstack entre l’A5 petit budget et le modèle phare A40. Excellents détails de gravure avec un châssis plus rigide que les modèles d’entrée. Montée en gamme pertinente si l’A5 vous semble lent mais que l’A40 dépasse votre budget.",
   "mainObjective": "Atomstack milieu de gamme pour gravure détaillée et découpe fiable de bois fin",
-  "primaryUse": "Atomstack structure ouverte milieu de gamme pour gravure détaillée et découpe modérée de bois fin.",
-  "beginnerNotes": "Comparez l’A20 Pro et la Sculpfun S30 Ultra à prix similaire : la S30 gagne souvent côté astuces communauté pour la découpe ; l’A20 l’emporte parfois sur le détail de gravure.",
-  "proTips": "Le kit d’assistance air F60 d’Atomstack vaut le coup avant de pousser la profondeur de découpe : le noircissement baisse nettement sur du tilleul 5–6 mm.",
+  "primaryUse": "Mid-tier open-frame Atomstack for detailed engraving and moderate thin-wood cutting.",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Atomstack A20 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Atomstack's F60 air assist kit is worth adding before pushing cut depth : charring drops significantly on 5–6 mm basswood.",
   "bestFor": [
-    "Montées en gamme Atomstack",
-    "Gravure fine",
-    "20 W budget moyen",
-    "Découpe légère"
+    "Gravure + découpe",
+    "Side business",
+    "Enseignes & boîtes",
+    "Petites séries"
   ],
   "pros": [
-    "Meilleur châssis que la série A5",
-    "Faisceau comprimé pour des détails plus fins",
-    "Flux de travail orienté LightBurn",
-    "Grand plateau 400 mm",
-    "Tremplin vers la gamme A40"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Atomstack A20 Pro : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
   ],
   "cons": [
-    "Exigences de sécurité liées à la structure ouverte",
-    "Moins de contenu communautaire qu’Ortur",
-    "20 W reste limité par la diode sur les découpes épaisses",
-    "Assistance air souvent en option",
-    "L’A40 n’est que modérément plus chère pour les utilisateurs exigeants"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -56,9 +51,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Atomstack A20 Pro : Atomstack" },
-    { "alt": "Graveuse laser Atomstack A20 Pro : Atomstack" },
-    { "alt": "Graveuse laser Atomstack A20 Pro : Atomstack" },
-    { "alt": "Graveuse laser Atomstack A20 Pro : Atomstack" }
-  ]
+    {
+      "alt": "Graveuse laser Atomstack A20 Pro : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser Atomstack A20 Pro : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser Atomstack A20 Pro : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser Atomstack A20 Pro : Atomstack"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Atomstack A20 Pro 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  }
 }

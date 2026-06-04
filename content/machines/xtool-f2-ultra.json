@@ -71,20 +71,17 @@
     ]
   },
   "pros": [
-    "Faster fiber marking than F1 generation",
-    "Marks bare metal without spray",
-    "Slightly larger work area than F1 Ultra",
-    "Conveyor option for batch metal",
-    "Premium xTool software ecosystem"
+    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
+    "xTool F2 Ultra: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "xTool F2 Ultra : full profile with material limits and benchmarks on Maker Atlas",
+    "xTool xTool F2 Ultra : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Very expensive for bed size",
-    "Still not a general-purpose first laser",
-    "Module switching between fiber and diode",
-    "Overkill for wood-only makers",
-    "Compact class limits product dimensions"
+    "Verify the 20W SKU : same chassis, different modules",
+    "Open frame: kids, pets, and smoke are not contained",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
   ],
-  "beginnerNotes": "Only buy after you have confirmed metal is 70%+ of your work. Wood-primary makers should buy D1 Pro or P2 instead.",
+  "beginnerNotes": "This profile covers xTool F2 Ultra. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Use conveyor for dog tags and flat blanks. Keep fiber and diode settings libraries separate : power curves are not interchangeable.",
   "primaryUse": "Professional compact dual-laser for high-speed metal marking and small organic-material engraving.",
   "rating": {
@@ -150,5 +147,10 @@
     "fiber",
     "diode"
   ],
-  "releaseDate": "2025-01"
+  "releaseDate": "2025-01",
+  "editorialDepth": {
+    "advantages": "xTool F2 Ultra 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+  },
+  "tierEditorialOverride": true
 }

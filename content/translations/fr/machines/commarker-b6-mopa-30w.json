@@ -2,26 +2,21 @@
   "tagline": "Fibre MOPA pour le marquage couleur et la gravure métal profonde",
   "tldr": "La ComMarker B6 ajoute une fibre MOPA pour les effets couleur sur l'inox et un contrôle plus fin en gravure métal profonde. Montée en gamme par rapport à la B4 pour les ateliers qui ont besoin du marquage couleur ou de cycles de production plus rapides.",
   "mainObjective": "Marquage fibre MOPA avec couleur sur inox et travail métal en production",
-  "primaryUse": "Marquage métal professionnel avec effets couleur optionnels pour une personnalisation premium.",
-  "beginnerNotes": "Choisissez la B6 plutôt que la B4 si vous vendez des produits métal couleur ou avez besoin de temps de cycle plus courts sur l'acier.",
-  "proTips": "Fabriquez des gabarits de fixation pour les jobs répétitifs. Gardez l'objectif propre : la contamination se voit sur les marquages à fort contraste.",
+  "primaryUse": "Professional metal marking with optional color effects for premium personalization.",
+  "beginnerNotes": "Cette fiche décrit ComMarker B6 MOPA 30W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Build fixture jigs for repeat jobs. Keep lens clean : contamination shows on high-contrast marks.",
   "bestFor": [
-    "Marquage métal couleur",
-    "Marquage en production",
-    "Gravure profonde",
-    "Couteaux et outils"
+    "Color metal marking",
+    "Production marking",
+    "Deep engraving",
+    "Knives & tools"
   ],
   "pros": [
-    "Couleur MOPA sur inox pour des produits premium",
-    "Plus de puissance que la fibre 20W d'entrée",
-    "Adaptée aux lots de production avec fixations",
-    "Options source JPT sur certaines références"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "ComMarker B6 MOPA : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Nettement plus chère que la B4",
-    "Toujours une machine de marquage : pas une découpeuse d'atelier",
-    "Courbe d'apprentissage logicielle (EZCAD/LightBurn)",
-    "Résultats couleur dépendants du lot de matériau"
+    "Fibre 30W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
   ],
   "materials": {
     "engrave": [
@@ -49,9 +44,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker" },
-    { "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker" },
-    { "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker" },
-    { "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker" }
-  ]
+    {
+      "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker"
+    },
+    {
+      "alt": "Graveuse laser ComMarker B6 MOPA 30W : ComMarker"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "ComMarker B6 MOPA 30W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
+    "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+  }
 }

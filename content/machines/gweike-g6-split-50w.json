@@ -70,15 +70,17 @@
     ]
   },
   "pros": [
-    "50W Split cabinet fiber marker with room for rotary and fixtures",
-    "Fiber marks metal : does not cut wood or acrylic"
+    "Fiber marks metal : does not cut wood or acrylic",
+    "Gweike Gweike G6 Split : compare benchmarks and material limits on this profile before ordering.",
+    "Gweike Gweike G6 Split : compare benchmarks and material limits on this profile before ordering.",
+    "Gweike Gweike G6 Split : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
     "50W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Upgrade path to 70W or 100W if metal throughput becomes the bottleneck",
-    "Does not cut wood, leather, or acrylic: metal and industrial marking workflows only"
+    "Does not cut wood, leather, or acrylic : metal marking workflows only"
   ],
-  "beginnerNotes": "This profile is the 50W module on Gweike G6 Split. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 50W SKU on Gweike G6 Split. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work : it slows flat-stock days.",
   "primaryUse": "Mid-power fiber for shops marking metal daily",
   "rating": {
@@ -113,5 +115,9 @@
       "alt": "Gweike G6 Split 50W laser engraver : Gweike"
     }
   ],
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Gweike G6 Split 50W fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.",
+    "limitations": "Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom (70W or 100W) or a different machine class."
+  }
 }

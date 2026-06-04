@@ -2,28 +2,25 @@
   "tagline": "Laser ultra-portable pour gravure nomade et petits cadeaux",
   "tldr": "Diode compacte et pliable conçue pour la mobilité : marchés, événements et cadeaux de bureau. Double source laser sur le modèle Pro. Pas une machine d’atelier, mais imbattable pour glisser dans un sac et graver sur place.",
   "mainObjective": "Gravure nomade sur place pour événements et petits objets",
-  "primaryUse": "Gravure nomade sur place de petits objets lors d’événements, pour des cadeaux et des projets personnels en voyage.",
-  "beginnerNotes": "Achetez LaserPecker comme deuxième machine pour la portabilité, pas comme unique laser. Pour un atelier à domicile, préférez Ortur ou xTool D1 Pro.",
-  "proTips": "Utilisez l’extension coulissante pour les objets longs. La batterie (si disponible) est indispensable pour les marchés. Testez vos designs sur des échantillons : un échec sur place est embarrassant.",
+  "primaryUse": "Portable on-site engraving of small items at events, gifts, and personal travel projects.",
+  "beginnerNotes": "Cette fiche décrit LaserPecker 4. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Use the slide extension for longer items. Battery pack (if available for your model) is essential for markets. Pre-test designs on sample materials : on-site failures are embarrassing.",
   "bestFor": [
-    "Gravure portable",
-    "Événements et marchés",
-    "Petits cadeaux",
-    "Voyage"
+    "Portable engraving",
+    "Events & markets",
+    "Small gifts",
+    "Travel"
   ],
   "pros": [
-    "Extrêmement portable : tient vraiment dans un sac à dos",
-    "Mise en route rapide pour la personnalisation sur site",
-    "Le modèle Pro à double source élargit la gamme de matériaux",
-    "Workflow via app accessible aux débutants",
-    "Niche unique qu’aucun laser de bureau ne couvre"
+    "2W sur LaserPecker 4 : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "LaserPecker 4 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "LaserPecker 4 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Zone de travail minuscule sans extension coulissante",
-    "Prix premium au centimètre carré de capacité",
-    "Ne convient pas comme unique laser d’atelier",
-    "Plus lente et moins puissante que les diodes de bureau",
-    "Le workflow Bluetooth-only frustre certains pros"
+    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -68,9 +65,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser LaserPecker 4 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 4 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 4 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker 4 : LaserPecker" }
-  ]
+    {
+      "alt": "Graveuse laser LaserPecker 4 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker 4 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker 4 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker 4 : LaserPecker"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker 4 2W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

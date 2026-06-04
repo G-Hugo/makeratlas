@@ -64,16 +64,17 @@
     ]
   },
   "pros": [
-    "Lowest Creality laser entry",
-    "Large bed",
-    "Creality slicer familiarity"
+    "10W on Creality Falcon: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Creality Falcon: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "Creality Falcon : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Open frame",
-    "10W limited",
-    "Superseded by Falcon 2/A1 for new buyers"
+    "Targets thin cuts (about 3 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 3 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Consider Falcon A1 10W enclosed if you can stretch budget.",
+  "beginnerNotes": "This profile covers Creality Falcon 10W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Often on sale bundled with Creality printers : check total value.",
   "primaryUse": "Entry Creality diode for hobby engraving.",
   "rating": {
@@ -112,5 +113,10 @@
       "src": "/machines/creality-falcon-10w/04.jpg",
       "alt": "Creality Falcon 10W laser engraver : Creality"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Creality Falcon 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

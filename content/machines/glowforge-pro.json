@@ -73,20 +73,17 @@
     ]
   },
   "pros": [
-    "Passthrough for long boards and signs",
-    "Extremely easy software",
-    "Strong brand for craft marketplaces",
-    "Decent support for non-technical users",
-    "Enclosed CO₂ safety"
+    "Strong on acrylic and wood versus diodes on the same budget tier",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "Glowforge Pro : full profile with material limits and benchmarks on Maker Atlas",
+    "Glowforge Glowforge Pro : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Very expensive hardware + subscription",
-    "Cloud required for most jobs",
-    "Closed ecosystem : no LightBurn",
-    "Less power than xTool P2 for similar money",
-    "Proofgrade upsell pressure"
+    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
+    "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
+    "Tube life and replacement cost are part of the true ownership budget"
   ],
-  "beginnerNotes": "Compare xTool P2 and Monport 55W before buying Glowforge Pro : you may get more capability for less if you will learn LightBurn.",
+  "beginnerNotes": "This profile covers Glowforge Pro. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Factor 3-year subscription into total cost. Passthrough shines for long thin signs : not for thick industrial cutting.",
   "primaryUse": "Premium enclosed CO₂ for crafters engraving and cutting long thin materials with minimal technical setup.",
   "rating": {
@@ -122,5 +119,10 @@
     }
   ],
   "powerRating": "45W",
-  "releaseDate": "2018-04"
+  "releaseDate": "2018-04",
+  "editorialDepth": {
+    "advantages": "Glowforge Pro is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 45W adds headroom on panels and multi-pass jobs.",
+    "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
+  },
+  "tierEditorialOverride": true
 }

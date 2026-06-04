@@ -2,9 +2,9 @@
   "tagline": "iCube Pro 5 W : Sculpfun compact fermé, petit encombrement et capot complet",
   "tldr": "Le Sculpfun iCube Pro 5 W est le SKU 5 W de la gamme iCube Pro. Laser de bureau fermé Sculpfun pour makers qui veulent les performances de découpe de la marque dans un capot plus sûr. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "Diode fermée compacte pour bureaux à petit espace : gravure et découpes légères bois/cuir.",
-  "beginnerNotes": "Ce profil décrit le module 5W de Sculpfun iCube Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez les réglages communautaires Sculpfun comme point de départ : réduisez la vitesse de 10–15 % dans le capot si la carbonisation augmente à cause de la chaleur.",
+  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
+  "beginnerNotes": "Ce profil décrit le SKU 5W de Sculpfun iCube Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
     "Gravure fine",
     "Photo & logo",
@@ -12,15 +12,13 @@
     "Première machine"
   ],
   "pros": [
-    "Format Sculpfun compact pour petit bureau",
-    "Intéressant pour appartement et mini cadeaux",
-    "Entrée écosystème Sculpfun"
+    "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "5W sur Sculpfun iCube Pro : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (10W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
-    "Open-frame : enfants, animaux et fumées non confinées"
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée"
   ],
   "materials": {
     "engrave": [
@@ -69,7 +67,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "iCube Pro 5 W pour espaces réduits.",
-    "limitations": "Comparez S9 10 W sauf contrainte taille."
+    "advantages": "Sculpfun iCube Pro 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Format fermé plus rassurant à la maison.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série : regardez 10W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

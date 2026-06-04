@@ -63,17 +63,18 @@
     ]
   },
   "pros": [
-    "Truly portable",
-    "LaserPecker app workflow",
-    "Low footprint"
+    "5W on LaserPecker LP2: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "LaserPecker LP2: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "LaserPecker LP2 : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Small bed",
-    "Superseded by LP2 Plus/3/4",
-    "Premium $/capability"
+    "Targets thin cuts (about 4 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 4 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Compare LP2 Plus if buying new : more power and desktop use.",
-  "proTips": "Use the preview camera workflow : alignment is everything on handheld units.",
+  "beginnerNotes": "This profile covers LaserPecker LP2. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Portable personalization and small engraves.",
   "rating": {
     "overall": 7.8,
@@ -100,5 +101,10 @@
       "src": "/machines/laserpecker-lp2-classic/02.jpg",
       "alt": "LaserPecker LP2 laser engraver : LaserPecker"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker LP2 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

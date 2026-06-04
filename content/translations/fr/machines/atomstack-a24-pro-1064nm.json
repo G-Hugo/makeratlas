@@ -2,24 +2,21 @@
   "tagline": "A24 Pro fibre uniquement : marquage métal et plastique dans une Atomstack compacte",
   "tldr": "L’AtomStack A24 Pro 1064 nm est la variante marquage fibre sans côté diode : pour ceux qui n’ont besoin que du marquage métal/plastique sur petit encombrement, pas de découpe bois.",
   "mainObjective": "Marquage fibre de bureau sans graveuse diode séparée",
-  "primaryUse": "Marquage fibre compact pour métal et plastiques techniques.",
-  "beginnerNotes": "Prenez l’A24 Pro hybride si vous gravez aussi le bois régulièrement.",
-  "proTips": "La qualité du rotatif et des fixations compte plus que la puissance brute pour bagues et stylos.",
+  "primaryUse": "Compact fiber marking for metal and engineered plastics.",
+  "beginnerNotes": "Cette fiche décrit AtomStack A24 Pro 1064nm. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Rotary and fixture quality matter more than raw wattage for rings and pens.",
   "bestFor": [
-    "Plaques métalliques",
-    "Outils",
-    "Marquage bijouterie",
-    "Petites séries"
+    "Metal tags",
+    "Tools",
+    "Jewelry marking",
+    "Small batches"
   ],
   "pros": [
-    "Fibre dédiée dans un châssis compact",
-    "Support Atomstack",
-    "Plus silencieuse qu’une fibre d’atelier"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "AtomStack A24 Pro 1064nm : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Pas de diode bois",
-    "Petit champ",
-    "L’A24 Pro hybride vaut mieux si vous avez besoin des deux"
+    "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
   ],
   "materials": {
     "engrave": [
@@ -46,9 +43,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack" },
-    { "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack" }
-  ]
+    {
+      "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack"
+    },
+    {
+      "alt": "Graveuse laser AtomStack A24 Pro 1064 nm : Atomstack"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "AtomStack A24 Pro 1064nm 20W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
+    "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+  }
 }

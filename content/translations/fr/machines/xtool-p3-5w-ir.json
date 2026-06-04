@@ -39,5 +39,9 @@
       "Inox profond type fibre industrielle",
       "Utilisation sans machine P3 de base"
     ]
+  },
+  "editorialDepth": {
+    "advantages": "Le module 5W IR sur xTool P3 IR est le bon choix si vous gravez surtout bois, cuir et ardoise et n’achetez pas des watts de découpe inutiles. Même châssis, montée possible plus tard.",
+    "limitations": "Ne prenez pas ce module si vous découpez du 4 mm+ tous les jours : ouvrez le profil 80W. Acrylique coulé et métal sans spray restent frustrants sur diode."
   }
 }

@@ -2,26 +2,24 @@
   "tagline": "LaserPecker portable infrarouge pour marquage métal et plastique",
   "tldr": "Le LaserPecker LP3 se concentre sur le marquage infrarouge pour métal et plastiques techniques en format portable. Différent du LP4/LP5 : à privilégier si votre travail porte sur étiquettes métal et plastique, pas sur la découpe bois volumineuse.",
   "mainObjective": "Marquage IR portable pour personnalisation métal et plastique",
-  "primaryUse": "Marquage infrarouge portable pour objets métal et plastique.",
-  "beginnerNotes": "Achetez-le pour le marquage métal/plastique nomade : pas comme unique laser bois.",
-  "proTips": "Comparez le LP5 si vous avez besoin diode + fibre dans un châssis plus récent.",
+  "primaryUse": "Portable infrared marking for metal and plastic items.",
+  "beginnerNotes": "Cette fiche décrit LaserPecker LP3. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Marquage métal",
-    "Plastique",
-    "Portabilité",
-    "Travail échelle bijou"
+    "Metal marking",
+    "Plastic",
+    "Portable",
+    "Jewelry-scale work"
   ],
   "pros": [
-    "Portabilité IR spécialisée",
-    "Orienté métal",
-    "Écosystème app LaserPecker",
-    "Compact"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "LaserPecker LP3 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "LaserPecker LP3 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Pas une découpeuse bois",
-    "Petite surface",
-    "Premium au dollar de capacité",
-    "Remplacé par LP5 pour les utilisateurs hybrides"
+    "Vérifiez le SKU LP3 infrarouge : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -48,9 +46,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser LaserPecker LP3 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP3 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP3 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP3 : LaserPecker" }
-  ]
+    {
+      "alt": "Graveuse laser LaserPecker LP3 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker LP3 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker LP3 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker LP3 : LaserPecker"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker LP3 LP3 infrarouge est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  }
 }

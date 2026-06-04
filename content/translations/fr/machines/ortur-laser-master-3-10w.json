@@ -2,9 +2,9 @@
   "tagline": "LM3 budget : diode structure ouverte orientée gravure",
   "tldr": "Le Laser Master 3 10 W est le SKU basse puissance d’Ortur sur le même châssis. Idéal pour apprendre et graver ; les découpeurs devraient choisir la version 20 W.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Introduction abordable à la gravure diode et découpe légère pour loisirs.",
-  "beginnerNotes": "Ce profil décrit le module 10W de Ortur Laser Master 3. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Rejoignez les groupes Ortur Facebook/Reddit avant l’achat : les astuces firmware font gagner des heures. Ajoutez l’assistance air tôt. Si vous prévoyez de vendre sous 6 mois, envisagez directement le xTool D1 Pro ou un CO₂.",
+  "primaryUse": "10W module · Ortur Laser Master 3",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de Ortur Laser Master 3. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,9 +12,8 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "LM3 gravure avec le même plateau que le 20 W",
-    "Bon apprentissage avant de payer des watts de découpe",
-    "Montée vers module 20 W sur le même cadre"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "10W sur Ortur Laser Master 3 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -71,7 +70,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LM3 10 W pour cadeaux détaillés sur le châssis le plus vendu.",
-    "limitations": "Activités mixtes : commencez sur le profil 20 W."
+    "advantages": "Ortur Laser Master 3 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

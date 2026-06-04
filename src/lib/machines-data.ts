@@ -5,7 +5,7 @@ import type { Machine } from "@/types/machine";
 const machinesDir = path.join(process.cwd(), "content", "machines");
 
 function readJsonFile<T>(filePath: string): T {
-  const raw = fs.readFileSync(filePath, "utf-8");
+  const raw = fs.readFileSync(filePath, "utf-8").replace(/^\uFEFF/, "");
   return JSON.parse(raw) as T;
 }
 

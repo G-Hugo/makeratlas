@@ -2,28 +2,22 @@
   "tagline": "CO₂ pass-through pour créateurs : simplicité premium avec coût d'abonnement",
   "tldr": "Le Glowforge Pro ajoute un slot pass-through pour matériaux longs et de meilleures performances CO₂ vs l'Aura. Toujours dépendant du cloud avec pression abonnement. Idéal pour créateurs orientés design qui refusent LightBurn : pas pour makers sensibles au coût.",
   "mainObjective": "CO₂ pass-through pour créateurs : matériaux longs avec logiciel prêt à l'emploi",
-  "primaryUse": "CO₂ fermé premium pour créateurs qui gravent et découpent des matériaux longs et fins avec une configuration technique minimale.",
-  "beginnerNotes": "Comparez le xTool P2 et le Monport 55W avant d'acheter le Glowforge Pro : vous pouvez obtenir plus de capacités pour moins si vous apprenez LightBurn.",
-  "proTips": "Intégrez l'abonnement sur 3 ans dans le coût total. Le pass-through brille pour les enseignes longues et fines : pas pour la découpe industrielle épaisse.",
+  "primaryUse": "Premium enclosed CO₂ for crafters engraving and cutting long thin materials with minimal technical setup.",
+  "beginnerNotes": "Cette fiche décrit Glowforge Pro. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Factor 3-year subscription into total cost. Passthrough shines for long thin signs : not for thick industrial cutting.",
   "bestFor": [
-    "Matériaux longs",
-    "Créateurs",
-    "Écoles",
-    "Utilisateurs orientés design"
+    "Long materials",
+    "Crafters",
+    "Schools",
+    "Design-focused users"
   ],
   "pros": [
-    "Pass-through pour planches et enseignes longues",
-    "Logiciel extrêmement simple",
-    "Marque forte pour les marketplaces craft",
-    "Support correct pour utilisateurs non techniques",
-    "Sécurité CO₂ enceinte fermée"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Glowforge Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Matériel très cher + abonnement",
-    "Cloud requis pour la plupart des jobs",
-    "Écosystème fermé : pas de LightBurn",
-    "Moins de puissance que le xTool P2 pour un budget similaire",
-    "Pression à la vente Proofgrade"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -61,9 +55,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Glowforge Pro : Glowforge" },
-    { "alt": "Graveuse laser Glowforge Pro : Glowforge" },
-    { "alt": "Graveuse laser Glowforge Pro : Glowforge" },
-    { "alt": "Graveuse laser Glowforge Pro : Glowforge" }
-  ]
+    {
+      "alt": "Graveuse laser Glowforge Pro : Glowforge"
+    },
+    {
+      "alt": "Graveuse laser Glowforge Pro : Glowforge"
+    },
+    {
+      "alt": "Graveuse laser Glowforge Pro : Glowforge"
+    },
+    {
+      "alt": "Graveuse laser Glowforge Pro : Glowforge"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Glowforge Pro est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 45W donne de la marge sur les panneaux et les passes multiples.",
+    "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  }
 }

@@ -2,9 +2,9 @@
   "tagline": "Entrée portable Longer : diode compacte pour petits projets",
   "tldr": "Le Longer Nano 6 W est une graveuse portable compacte pour petits cadeaux et apprentissage. S’intègre à l’écosystème accessoires Longer. Passez au Nano Pro 12 W si vous avez besoin d’une vraie vitesse de découpe.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "Portable Longer compact pour petits projets de gravure.",
-  "beginnerNotes": "Ce profil décrit le module 6W de Longer Nano. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Le Nano Pro 12 W est le meilleur portable Longer si le budget le permet.",
+  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
+  "beginnerNotes": "Ce profil décrit le SKU 6W de Longer Nano. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
     "Gravure fine",
     "Photo & logo",
@@ -12,14 +12,13 @@
     "Première machine"
   ],
   "pros": [
-    "Graveuse Longer ultra-compacte pour voyage et petits cadeaux",
-    "Faible consommation et très petit bureau",
-    "Cuir, mini tests bois et apprentissage logiciel"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "6W sur Longer Nano : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
+    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (12W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {

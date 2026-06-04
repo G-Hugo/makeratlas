@@ -2,24 +2,25 @@
   "tagline": "LaserPecker LP2 Plus bureau : 10 W avant l’ère LP4/LP5",
   "tldr": "Le LaserPecker LP2 Plus est une unité bureau 10 W de la lignée LP : plus capable que les modèles poche LP1 mais moins avancé que LP4/LP5. Bonne graveuse portable de bureau sur le marché d’occasion.",
   "mainObjective": "LaserPecker bureau 10 W pour personnalisation de petite boutique",
-  "primaryUse": "Gravure LaserPecker petit format pour cadeaux et étiquettes.",
-  "beginnerNotes": "Achetez d’occasion seulement si le prix est nettement inférieur à l’entrée LP4.",
-  "proTips": "Vérifiez firmware et support app avant un achat d’occasion.",
+  "primaryUse": "Small-format LaserPecker engraving for gifts and labels.",
+  "beginnerNotes": "Cette fiche décrit LaserPecker LP2 Plus 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Check firmware and app support before buying second-hand.",
   "bestFor": [
-    "Fans LaserPecker",
-    "Petit bureau",
-    "Cadeaux 10 W",
-    "Marché d’occasion"
+    "LaserPecker fans",
+    "Small desk",
+    "10W gifts",
+    "Used market"
   ],
   "pros": [
-    "Écosystème LaserPecker",
-    "Bureau compact",
-    "10 W de puissance utilisable"
+    "10W sur LaserPecker LP2 Plus : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "LaserPecker LP2 Plus : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "LaserPecker LP2 Plus : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Remplacé par LP4/LP5",
-    "Petite surface",
-    "Workflow Bluetooth-only pour certains utilisateurs"
+    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -47,9 +48,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser LaserPecker LP2 Plus 10W : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP2 Plus 10W : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP2 Plus 10W : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP2 Plus 10W : LaserPecker" }
-  ]
+    {
+      "alt": "Graveuse laser LaserPecker LP2 Plus 10W : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker LP2 Plus 10W : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker LP2 Plus 10W : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker LP2 Plus 10W : LaserPecker"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker LP2 Plus 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

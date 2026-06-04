@@ -2,28 +2,22 @@
   "tagline": "Le CO₂ petit budget classique : puissant mais attend du bricolage",
   "tldr": "L’évolution moderne du célèbre K40. Vraie puissance de découpe CO₂ au prix CO₂ le plus bas. Excellent rapport qualité-prix si vous aimez upgrader et réparer. Mauvais choix si vous voulez du plug-and-play sortie de boîte.",
   "mainObjective": "Découpe CO₂ petit budget pour makers prêts à upgrader et entretenir",
-  "primaryUse": "Découpe et gravure laser CO₂ petit budget pour makers prêts à modifier et entretenir leur machine.",
-  "beginnerNotes": "N’achetez pas une machine classe K40 si vous voulez déballer et graver. Prévoyez 100–200 $ supplémentaires pour tuyau d’évacuation, assistance air et éventuellement une carte contrôleur. Regardez une vidéo de setup complète avant de commander.",
-  "proTips": "Installez LightBurn et une carte Mini Gerbil ou similaire si vous dépassez le logiciel d’origine. Remplacez le ventilateur d’évacuation d’origine immédiatement. Gardez un extincteur à portée : le CO₂ découpe des matériaux combustibles.",
+  "primaryUse": "Budget CO₂ laser cutting and engraving for makers willing to modify and maintain their machine.",
+  "beginnerNotes": "Cette fiche décrit OMTech 40W CO₂ (K40 class). Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Install LightBurn and a Mini Gerbil or similar board if you outgrow stock software. Replace the stock exhaust fan immediately. Keep a fire extinguisher nearby : CO₂ cuts combustible materials.",
   "bestFor": [
-    "Bricoleurs",
-    "CO₂ petit budget",
-    "Apprendre le CO₂",
-    "Enseignistes petit budget"
+    "Tinkerers",
+    "Budget CO₂",
+    "Learning CO₂",
+    "Sign makers on a budget"
   ],
   "pros": [
-    "Entrée la moins chère en vraie découpe CO₂",
-    "Découpe acrylique et bois que les diodes peinent à traiter",
-    "Énorme communauté de mods (LightBurn, assistance air, meilleure évacuation)",
-    "Pièces et tubes bon marché à remplacer",
-    "Peut produire des articles vendables une fois réglé"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "OMTech CO₂ (K40 class) : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Évacuation, plateau et contrôleur d’origine demandent souvent des upgrades",
-    "Petite zone de travail",
-    "Sécurité et ventilation sont votre responsabilité",
-    "Contrôle qualité variable : certaines unités demandent un alignement",
-    "Non enceint sur la plupart des modèles : plus bruyant et fumant"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -61,9 +55,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech" },
-    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech" },
-    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech" },
-    { "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech" }
-  ]
+    {
+      "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech 40W CO₂ (classe K40) : OMTech"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "OMTech CO₂ (K40 class) est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 40W donne de la marge sur les panneaux et les passes multiples.",
+    "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  }
 }

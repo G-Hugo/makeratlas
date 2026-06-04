@@ -2,26 +2,22 @@
   "tagline": "Alternative classe K40 avec qualité de fabrication et support Monport",
   "tldr": "Le CO₂ bureau 40 W de Monport se situe aux côtés de la classe OMTech K40 avec souvent une meilleure expérience sortie de boîte. CO₂ d’entrée pour acrylique et bois. Ventilation et apprentissage restent nécessaires.",
   "mainObjective": "Découpe CO₂ d’entrée avec moins de mods obligatoires qu’un K40 classique",
-  "primaryUse": "CO₂ bureau petit budget pour apprendre la découpe acrylique et bois.",
-  "beginnerNotes": "Comparez avec OMTech 40 W sur le prix et la taille du plateau. Les deux exigent une planification d’évacuation.",
-  "proTips": "Améliorez le ventilateur d’évacuation tôt. Gardez les miroirs propres en réserve.",
+  "primaryUse": "Budget desktop CO₂ for learning acrylic and wood cutting.",
+  "beginnerNotes": "Cette fiche décrit Monport 40W CO₂. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Premier CO₂",
-    "Alternative K40",
-    "Loisir acrylique",
-    "CO₂ petit budget"
+    "First CO₂",
+    "K40 alternative",
+    "Acrylic hobby",
+    "Budget CO₂"
   ],
   "pros": [
-    "Meilleur contrôle qualité que les clones K40 les moins chers",
-    "Prêt pour LightBurn",
-    "Chemin de montée vers Monport 55 W",
-    "Bon rapport qualité-prix CO₂ d’entrée"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "Monport CO₂ : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Petite zone de travail",
-    "Ventilation obligatoire",
-    "Entretien refroidissement eau",
-    "Non enceint"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -53,8 +49,18 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Monport 40W CO₂ : Monport" },
-    { "alt": "Graveuse laser Monport 40W CO₂ : Monport" },
-    { "alt": "Graveuse laser Monport 40W CO₂ : Monport" }
-  ]
+    {
+      "alt": "Graveuse laser Monport 40W CO₂ : Monport"
+    },
+    {
+      "alt": "Graveuse laser Monport 40W CO₂ : Monport"
+    },
+    {
+      "alt": "Graveuse laser Monport 40W CO₂ : Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Monport CO₂ est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 40W donne de la marge sur les panneaux et les passes multiples.",
+    "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  }
 }

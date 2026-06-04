@@ -1,27 +1,26 @@
-﻿{
+{
   "tagline": "Flagship diode Sculpfun 2025 : classe 70 W sur le grand châssis S40/S70",
   "tldr": "Le S70 MAX pousse le châssis série S de Sculpfun vers ~70 W optiques pour ateliers qui veulent une profondeur de découpe diode maximale sans CO₂. Même philosophie plateau surdimensionné que le S40 MAX : prix premium et espace atelier requis.",
   "mainObjective": "Découpe grand format Sculpfun haut de gamme avec puissance diode maximale",
-  "primaryUse": "Sculpfun 2025 haute puissance pour découpe grand format et gravure à fort débit.",
-  "beginnerNotes": "Comparez l’Atomstack A70 Max et l’Acmer P3 avant achat : classe de puissance similaire, logiciels et communautés différents.",
-  "proTips": "Si vous n’avez pas besoin de 70 W au quotidien, le S40 MAX à 48 W offre souvent un meilleur rapport qualité-prix par watt.",
+  "primaryUse": "2025 maximum-power Sculpfun for large-format cutting and high-throughput engraving.",
+  "beginnerNotes": "Cette fiche décrit Sculpfun S70 MAX 70W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Découpe lourde",
-    "Grands panneaux",
-    "Fidèles Sculpfun",
-    "Alternatives au CO₂"
+    "Heavy cutting",
+    "Large panels",
+    "Sculpfun loyalists",
+    "CO₂ alternative seekers"
   ],
   "pros": [
-    "Palier diode Sculpfun le plus élevé",
-    "Grand plateau pour enseignes et panneaux mobilier",
-    "Autofocus et contrôle TS1",
-    "Concurrent de l’Atomstack A70 sur le papier"
+    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
+    "70W : tête la plus orientée découpe de Sculpfun S70 MAX",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Sculpfun S70 MAX : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
   ],
   "cons": [
-    "Marketing 70 W diode : vérifiez la sortie optique",
-    "Encombrement et poids très importants",
-    "Premium vs S40 MAX pour usage modéré",
-    "Ventilation structure ouverte requise"
+    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
+    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -54,9 +53,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Sculpfun S70 MAX 70W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S70 MAX 70W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S70 MAX 70W : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S70 MAX 70W : Sculpfun" }
-  ]
+    {
+      "alt": "Graveuse laser Sculpfun S70 MAX 70W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S70 MAX 70W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S70 MAX 70W : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S70 MAX 70W : Sculpfun"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Sculpfun S70 MAX 70W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Open-frame : sécurité et fumées à votre charge."
+  }
 }

@@ -71,18 +71,17 @@
     ]
   },
   "pros": [
-    "Laser + CMYK color in one box",
-    "Enclosed and beginner-oriented",
-    "Aggressive $599 positioning vs S1/P2",
-    "xTool ecosystem and support"
+    "10W on xTool M2 Color Craft Laser: engraving-first : photo fills and leather at moderate speeds",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "xTool M2 Color Craft Laser: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "xTool M2 Color Craft Laser : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "New platform : fewer community settings than D1/S1",
-    "Not for serious metal or thick cutting",
-    "Consumable ink costs add up",
-    "Lower power than open-frame 20–40W diodes"
+    "Targets thin cuts (about 3 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 3 mm+ stock all day",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
   ],
-  "beginnerNotes": "Choose M2 if color printing matters; choose S1 or Falcon A1 if you only need laser power and larger cutting headroom.",
+  "beginnerNotes": "This profile covers xTool M2 Color Craft Laser. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Budget for ink cartridges and laser-safe materials rated for both processes. Test color + laser alignment on scraps before client work.",
   "primaryUse": "2026 entry enclosed craft system combining diode laser work with integrated color printing for gifts and small business.",
   "rating": {
@@ -107,5 +106,10 @@
     }
   ],
   "catalogPrimary": true,
-  "releaseDate": "2026-05"
+  "releaseDate": "2026-05",
+  "editorialDepth": {
+    "advantages": "xTool M2 Color Craft Laser 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Enclosed format is easier to live with at home.",
+    "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

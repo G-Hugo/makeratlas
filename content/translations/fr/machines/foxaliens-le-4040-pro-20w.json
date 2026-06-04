@@ -2,22 +2,23 @@
   "tagline": "FoxAlien LE-4040 Pro : laser 20W sur châssis format 4040",
   "tldr": "La FoxAlien LE-4040 Pro 20W associe un châssis type 4040 à une diode 20W : format familier pour les utilisateurs CNC qui ajoutent la capacité laser. Alternative à la gamme Reizer avec une conception de châssis différente.",
   "mainObjective": "Laser 20W format 4040 pour utilisateurs écosystème FoxAlien",
-  "primaryUse": "FoxAlien 20W format 4040 pour gravure et découpe modérée.",
-  "beginnerNotes": "Choisissez la Reizer 40W pour la puissance max ou celle-ci pour un format 4040 équilibré en 20W.",
-  "proTips": "Vérifiez la rigidité du châssis à haute vitesse sur les jobs pleine largeur.",
+  "primaryUse": "4040-class FoxAlien 20W for engraving and moderate cutting.",
+  "beginnerNotes": "Cette fiche décrit FoxAlien LE-4040 Pro 20W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Fans châssis 4040",
-    "Gravure 20W",
-    "Packs FoxAlien"
+    "4040 frame fans",
+    "20W engraving",
+    "FoxAlien bundles"
   ],
   "pros": [
-    "Disposition 4040 familière",
-    "Niveau 20W solide",
-    "Canaux support FoxAlien"
+    "Mix gravure + découpe légère : ~5 mm tilleul en plusieurs passes",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "FoxAlien LE-4040 Pro : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "FoxAlien LE-4040 Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Moins de contenu forum que la Reizer 40W",
-    "Structure ouverte"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -44,9 +45,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien" },
-    { "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien" }
-  ]
+    {
+      "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien"
+    },
+    {
+      "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien"
+    },
+    {
+      "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien"
+    },
+    {
+      "alt": "Graveuse laser FoxAlien LE-4040 Pro 20W : FoxAlien"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "FoxAlien LE-4040 Pro 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.",
+    "limitations": "Open-frame : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  }
 }

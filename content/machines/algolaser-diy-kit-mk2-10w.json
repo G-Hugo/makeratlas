@@ -65,17 +65,18 @@
     ]
   },
   "pros": [
-    "Enclosed at entry price",
-    "MK2 upgrade path",
-    "LightBurn friendly"
+    "10W on AlgoLaser DIY Kit MK2: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "AlgoLaser DIY Kit MK2: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "AlgoLaser DIY Kit MK2 : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Build time",
-    "10W ceiling",
-    "Alpha MK2 20W+ more headroom"
+    "Targets thin cuts (about 3 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 3 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Budget extra time for assembly and squaring the frame.",
-  "proTips": "Extended bed kits exist : confirm compatibility with your exact MK2 revision.",
+  "beginnerNotes": "This profile covers AlgoLaser DIY Kit MK2 10W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Enclosed hobby engraving with light cutting.",
   "rating": {
     "overall": 7.8,
@@ -113,5 +114,10 @@
       "src": "/machines/algolaser-diy-kit-mk2-10w/04.jpg",
       "alt": "AlgoLaser DIY Kit MK2 10W laser engraver : AlgoLaser"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "AlgoLaser DIY Kit MK2 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

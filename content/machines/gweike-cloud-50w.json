@@ -67,16 +67,17 @@
     ]
   },
   "pros": [
-    "Enclosed CO₂ desk form",
-    "Rotary bundles",
-    "Gweike Cloud ecosystem"
+    "Strong on acrylic and wood versus diodes on the same budget tier",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "Gweike Cloud : full profile with material limits and benchmarks on Maker Atlas",
+    "Gweike Gweike Cloud : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "50W slower than 55W/Pro",
-    "Ventilation still required",
-    "Premium vs diode"
+    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
+    "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
+    "Tube life and replacement cost are part of the true ownership budget"
   ],
-  "beginnerNotes": "Plan exhaust : CO₂ always needs ventilation even on “desktop” units.",
+  "beginnerNotes": "This profile covers Gweike Cloud 50W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Rotary Pro bundles are popular for tumblers : confirm included accessories.",
   "primaryUse": "Desktop CO₂ cutting and engraving for crafts.",
   "rating": {
@@ -113,5 +114,10 @@
       "src": "/machines/gweike-cloud-50w/04.jpg",
       "alt": "Gweike Cloud 50W laser engraver : Gweike"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Gweike Cloud is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 50W adds headroom on panels and multi-pass jobs.",
+    "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
+  },
+  "tierEditorialOverride": true
 }

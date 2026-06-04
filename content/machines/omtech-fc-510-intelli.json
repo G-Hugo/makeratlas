@@ -65,17 +65,18 @@
     ]
   },
   "pros": [
-    "OMTech US support",
-    "Intelli-Cut feature set",
-    "Production orientation"
+    "Fiber marks metal : does not cut wood or acrylic",
+    "OMTech FC-510 Intelli : full profile with material limits and benchmarks on Maker Atlas",
+    "OMTech OMTech FC-510 Intelli : compare benchmarks and material limits on this profile before ordering.",
+    "OMTech OMTech FC-510 Intelli : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "High price",
-    "Space and ventilation",
-    "Not for beginners"
+    "510W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Fume extraction still matters for coated metals and marking sprays"
   ],
-  "beginnerNotes": "Requires installation planning : not a plug-and-play diode replacement.",
-  "proTips": "Confirm assist gas, chiller, and electrical requirements before purchase.",
+  "beginnerNotes": "This profile covers OMTech FC-510 Intelli. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Small-business fiber sheet cutting.",
   "rating": {
     "overall": 7.8,
@@ -117,5 +118,10 @@
       "src": "/machines/omtech-fc-510-intelli/04.jpg",
       "alt": "OMTech FC-510 Intelli laser engraver : OMTech"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "OMTech FC-510 Intelli 510W fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.",
+    "limitations": "Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom or a different machine class."
+  },
+  "tierEditorialOverride": true
 }

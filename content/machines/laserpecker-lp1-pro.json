@@ -65,16 +65,17 @@
     ]
   },
   "pros": [
-    "Truly pocketable",
-    "Simple app workflow",
-    "Fun demos"
+    "5W on LaserPecker LP1 Pro: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "LaserPecker LP1 Pro: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "LaserPecker LP1 Pro : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Very low power",
-    "Old generation",
-    "Tiny bed"
+    "Targets thin cuts (about 4 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 4 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Not a workshop laser : treat as a gadget or second machine.",
+  "beginnerNotes": "This profile covers LaserPecker LP1 Pro. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "LP4 is the better modern portable if buying new from LaserPecker.",
   "primaryUse": "Pocket micro-engraving for personalization on the go.",
   "rating": {
@@ -112,5 +113,10 @@
       "src": "/machines/laserpecker-lp1-pro/04.jpg",
       "alt": "LaserPecker LP1 Pro laser engraver : LaserPecker"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker LP1 Pro 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

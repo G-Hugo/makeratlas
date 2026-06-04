@@ -70,20 +70,17 @@
     ]
   },
   "pros": [
-    "Extremely portable : genuinely fits in a backpack",
-    "Quick setup for on-site personalization",
-    "Dual-source Pro model expands material range",
-    "App-driven workflow is beginner-friendly",
-    "Unique niche no bench laser fills"
+    "2W on LaserPecker 4: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "LaserPecker 4: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "LaserPecker 4 : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "Tiny work area without slide extension",
-    "Premium price per square inch of capability",
-    "Not suitable as your only workshop laser",
-    "Slower and less powerful than bench diodes",
-    "Bluetooth-only workflow frustrates some pro users"
+    "Targets thin cuts (about 4 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 4 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Buy LaserPecker as a second machine for portability, not your first and only laser. If you need a home workshop workhorse, get Ortur or xTool D1 Pro instead.",
+  "beginnerNotes": "This profile covers LaserPecker 4. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Use the slide extension for longer items. Battery pack (if available for your model) is essential for markets. Pre-test designs on sample materials : on-site failures are embarrassing.",
   "primaryUse": "Portable on-site engraving of small items at events, gifts, and personal travel projects.",
   "rating": {
@@ -130,5 +127,10 @@
     }
   ],
   "powerRating": "2W",
-  "releaseDate": "2023-06"
+  "releaseDate": "2023-06",
+  "editorialDepth": {
+    "advantages": "LaserPecker 4 2W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

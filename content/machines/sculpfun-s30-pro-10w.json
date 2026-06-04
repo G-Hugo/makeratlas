@@ -64,17 +64,18 @@
     ]
   },
   "pros": [
-    "S30 frame ecosystem",
-    "Large bed",
-    "Upgrade path within Sculpfun"
+    "10W on Sculpfun S30 Pro: engraving-first : photo fills and leather at moderate speeds",
+    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    "Sculpfun S30 Pro: profile includes material limits, benchmarks, and practical notes on Maker Atlas",
+    "Sculpfun S30 Pro : full profile with material limits and benchmarks on Maker Atlas"
   ],
   "cons": [
-    "10W limits",
-    "Pro Max/Ultra more common in forums now",
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone"
+    "Targets thin cuts (about 3 mm basswood class) : not thick production plywood",
+    "Not the SKU for a shop cutting 3 mm+ stock all day",
+    "Open frame: kids, pets, and smoke are not contained"
   ],
-  "beginnerNotes": "Skip if you already know you'll want 20W within months.",
-  "proTips": "Shares many S30 community tips : search S30 Pro for mods.",
+  "beginnerNotes": "This profile covers Sculpfun S30 Pro 10W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Mid-budget Sculpfun engraving on 400 mm bed.",
   "rating": {
     "overall": 8,
@@ -112,5 +113,10 @@
       "src": "/machines/sculpfun-s30-pro-10w/04.jpg",
       "alt": "Sculpfun S30 Pro 10W laser engraver : Sculpfun"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "Sculpfun S30 Pro 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "tierEditorialOverride": true
 }

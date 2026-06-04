@@ -1,24 +1,21 @@
-﻿{
+{
   "tagline": "OMTech FC-510 Intelli-Cut : plateforme fibre format intermédiaire pour découpe",
   "tldr": "L’OMTech FC-510 Intelli est une machine de découpe fibre plus grande que les unités de bureau FC-44/105 : conçue pour la tôle et les découpes de type industriel avec les fonctions Intelli-Cut, pas pour le travail diode loisir.",
   "mainObjective": "Découpe fibre en atelier au-delà des machines de marquage de bureau",
-  "primaryUse": "Découpe de tôle fibre pour petites entreprises.",
-  "beginnerNotes": "Nécessite une planification d’installation : ce n’est pas un remplacement diode plug-and-play.",
-  "proTips": "Confirmez les besoins en gaz d’assistance, refroidisseur et alimentation électrique avant l’achat.",
+  "primaryUse": "Small-business fiber sheet cutting.",
+  "beginnerNotes": "Cette fiche décrit OMTech FC-510 Intelli. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Métal petite entreprise",
-    "Découpe de production",
-    "Gamme fibre OMTech"
+    "Small business metal",
+    "Production cutting",
+    "OMTech fiber line"
   ],
   "pros": [
-    "Support OMTech aux États-Unis",
-    "Ensemble de fonctions Intelli-Cut",
-    "Orientation production"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "OMTech FC-510 Intelli : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Prix élevé",
-    "Espace et ventilation",
-    "Pas pour les débutants"
+    "Fibre 510W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
   ],
   "materials": {
     "engrave": [
@@ -46,9 +43,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech" },
-    { "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech" },
-    { "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech" },
-    { "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech" }
-  ]
+    {
+      "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech FC-510 Intelli : OMTech"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "OMTech FC-510 Intelli 510W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
+    "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+  }
 }

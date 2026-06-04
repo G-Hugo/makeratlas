@@ -71,18 +71,17 @@
     ]
   },
   "pros": [
-    "Major F1 upgrade : more power and camera",
-    "50MP autofocus alignment for batches",
-    "Faster galvo than F1 generation",
-    "Strong for fairs and on-site engraving"
+    "15W IR: metal marking on the same chassis as other modules",
+    "xTool F2 : full profile with material limits and benchmarks on Maker Atlas",
+    "xTool xTool F2 : compare benchmarks and material limits on this profile before ordering.",
+    "xTool xTool F2 : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "xTool Studio lock-in",
-    "Small bed vs open-frame diodes",
-    "F2 Ultra exists for production metal shops",
-    "Premium over F1 for hobby-only users"
+    "Requires the full chassis : this module alone does not replace a dedicated machine",
+    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
+    "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "Pick F2 over F1 if you sell personalized metal goods or need camera batch alignment. Wood-only hobbyists may prefer D1 Pro or S1 for bed size per dollar.",
+  "beginnerNotes": "This profile covers xTool F2. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Use conveyor accessory for tags and flat blanks. Keep IR and diode material libraries separate : power curves are not interchangeable.",
   "primaryUse": "2025 compact galvo for high-speed metal marking plus light organic engraving and cutting.",
   "rating": {
@@ -136,5 +135,10 @@
     "diode",
     "infrared"
   ],
-  "releaseDate": "2025-06"
+  "releaseDate": "2025-06",
+  "editorialDepth": {
+    "advantages": "xTool F2 15W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+  },
+  "tierEditorialOverride": true
 }

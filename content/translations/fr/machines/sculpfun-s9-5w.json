@@ -2,9 +2,9 @@
   "tagline": "La ligne petit budget éprouvée de Sculpfun en 5 W : toujours populaire chez les makers sensibles au rapport qualité-prix",
   "tldr": "La Sculpfun S9 5 W est la version 5 W de la gamme S9. Avant la S30 Ultra, la S9 était le cheval de bataille de Sculpfun. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing « watts combinés ».",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "Sculpfun structure ouverte petit budget pour gravure bois/cuir et découpe légère de bois fin.",
-  "beginnerNotes": "Ce profil décrit le module 5W de Sculpfun S9. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Les mods communautaires S9 (assistance air, pieds rallongés) sont bien documentés : cherchez les groupes Facebook Sculpfun avant votre premier gros projet.",
+  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
+  "beginnerNotes": "Ce profil décrit le SKU 5W de Sculpfun S9. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
     "Gravure fine",
     "Photo & logo",
@@ -12,9 +12,8 @@
     "Première machine"
   ],
   "pros": [
-    "Entrée S9 la moins chère pour tests gravure",
-    "Immense base connaissance Sculpfun",
-    "Grand plateau à prix budget"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "5W sur Sculpfun S9 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -69,7 +68,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "S9 5 W en forte promo seulement.",
-    "limitations": "Neufs : comparez S9 10 W et promos S30 Ultra."
+    "advantages": "Sculpfun S9 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série : regardez 10W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

@@ -2,9 +2,9 @@
   "tagline": "Diode Comgrow 20W petit budget : souvent proposée en pack avec les imprimantes 3D",
   "tldr": "La Comgrow Z1 20W est la référence 20W de la gamme Z1. Comgrow cible les débutants, souvent vendue aux côtés des imprimantes Ender 3D. Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
   "mainObjective": "Gravure polyvalente avec découpe correcte du tilleul 3–6 mm typique",
-  "primaryUse": "Diode ultra-budget pour tester si le travail au laser vous intéresse.",
-  "beginnerNotes": "Ce profil décrit le module 20W de Comgrow Z1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Considérez-la comme des roues stabilisatrices : prévoyez une montée en gamme sous un an si vous vendez vos créations.",
+  "primaryUse": "20W module · Comgrow Z1",
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Comgrow Z1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
   "bestFor": [
     "Gravure + découpe",
     "Side business",
@@ -12,9 +12,8 @@
     "Petites séries"
   ],
   "pros": [
-    "Palier Z1 le plus haut pour gravure et découpe légère budget",
-    "Souvent parmi les 20 W les moins chers en ligne",
-    "Bon spare ou démarrage micro-boutique"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",

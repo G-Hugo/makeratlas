@@ -67,17 +67,18 @@
     ]
   },
   "pros": [
-    "True fiber cutting class",
-    "OMTech support network",
-    "Business-capable"
+    "Fiber marks metal : does not cut wood or acrylic",
+    "OMTech FC-105SA Fiber : full profile with material limits and benchmarks on Maker Atlas",
+    "OMTech OMTech FC-105SA Fiber : compare benchmarks and material limits on this profile before ordering.",
+    "OMTech OMTech FC-105SA Fiber : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "Very expensive",
-    "Not a desktop engraver",
-    "Install and training required"
+    "105W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
+    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Fume extraction still matters for coated metals and marking sprays"
   ],
-  "beginnerNotes": "Not comparable to FC-105 marking or diode hobby lasers.",
-  "proTips": "Confirm SA vs SAT vs base FC-105 SKU differences before purchase.",
+  "beginnerNotes": "This profile covers OMTech FC-105SA Fiber. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Metal sheet cutting for small fabrication businesses.",
   "rating": {
     "overall": 8,
@@ -113,5 +114,10 @@
       "src": "/machines/omtech-fc-105sa/04.jpg",
       "alt": "OMTech FC-105SA Fiber laser engraver : OMTech"
     }
-  ]
+  ],
+  "editorialDepth": {
+    "advantages": "OMTech FC-105SA Fiber 105W fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.",
+    "limitations": "Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom or a different machine class."
+  },
+  "tierEditorialOverride": true
 }

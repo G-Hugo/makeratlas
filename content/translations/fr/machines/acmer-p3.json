@@ -2,28 +2,24 @@
   "tagline": "Diode 20 W fermée avec caméra intégrée : réponse petit budget à la xTool S1",
   "tldr": "Acmer regroupe diode 20 W fermée, aperçu caméra et assistance air dans un pack à moins de 800 USD. Les performances se situent entre les machines structure ouverte entrée de gamme et la xTool S1. À envisager si le prix xTool freine mais que vous voulez boîtier et caméra.",
   "mainObjective": "Gravure fermée abordable avec alignement caméra pour makers à domicile",
-  "primaryUse": "Laser diode fermé petit budget pour gravure à domicile avec alignement assisté par caméra et découpe modérée de matériaux fins.",
-  "beginnerNotes": "Bonne alternative à la xTool S1 si le budget est le critère décisif. Comparez garantie et politique de retour avant l'achat : les marques récentes varient beaucoup.",
-  "proTips": "Utilisez la caméra pour le placement mais faites toujours des cartes test matériau. Améliorez l'évacuation si vous découpez souvent : les filtres intégrés s'encrassent plus vite qu'une évacuation vers l'extérieur.",
+  "primaryUse": "Budget enclosed diode laser for home engraving with camera-assisted alignment and moderate thin-material cutting.",
+  "beginnerNotes": "Cette fiche décrit Acmer P3. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Use camera for placement but always run material test cards. Upgrade exhaust path if cutting frequently : built-in filters clog faster than ducting outside.",
   "bestFor": [
-    "Boîtier petit budget",
-    "Alignement par caméra",
-    "Utilisation en appartement",
-    "Gravure de cadeaux"
+    "Budget enclosure",
+    "Camera alignment",
+    "Apartment use",
+    "Gift engraving"
   ],
   "pros": [
-    "Boîtier + caméra à un prix inférieur à la xTool S1",
-    "Assistance air intégrée sur de nombreux packs",
-    "Grande zone de travail pour la classe fermée",
-    "Compatible LightBurn",
-    "Bon rapport qualité-prix pour makers en appartement"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Acmer P3 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "Acmer P3 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Support de marque moins éprouvé que xTool",
-    "Logiciel moins mature",
-    "Toujours limité par la diode sur les matériaux",
-    "Qualité filtre/échappement variable selon le pack",
-    "Ressources communautaires de dépannage plus limitées"
+    "Vérifiez le SKU 20W : même châssis, modules différents",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -61,9 +57,17 @@
     "limitations": "Support Acmer et logiciel restent en retrait de xTool. Filtres et évacuation varient selon le pack : la découpe fréquente veut une vraie gaine. Limites diode sur acrylique transparent et bois épais en production. Intégrez garantie et retour dans la décision d’achat."
   },
   "images": [
-    { "alt": "Graveuse laser Acmer P3 : Acmer" },
-    { "alt": "Graveuse laser Acmer P3 : Acmer" },
-    { "alt": "Graveuse laser Acmer P3 : Acmer" },
-    { "alt": "Graveuse laser Acmer P3 : Acmer" }
+    {
+      "alt": "Graveuse laser Acmer P3 : Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer P3 : Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer P3 : Acmer"
+    },
+    {
+      "alt": "Graveuse laser Acmer P3 : Acmer"
+    }
   ]
 }

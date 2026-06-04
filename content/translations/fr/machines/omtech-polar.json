@@ -2,26 +2,22 @@
   "tagline": "CO₂ Polar de bureau : CO₂ compact pour makers qui passent du diode",
   "tldr": "L’OMTech Polar intègre la découpe CO₂ dans un encombrement de bureau plus réduit que les caisses K40 traditionnelles. Bon pont entre la frustration du diode et un CO₂ d’atelier complet. Ventilation et courbe d’apprentissage restent nécessaires.",
   "mainObjective": "CO₂ de bureau compact pour acrylique et bois sans l’encombrement d’un K40",
-  "primaryUse": "Laser CO₂ compact pour makers qui passent du diode à la vraie découpe acrylique.",
-  "beginnerNotes": "Prévoyez l’évacuation avant la commande. Le Polar s’adresse aux makers qui ont dépassé le diode mais manquent d’espace pour un gros CO₂.",
-  "proTips": "Faites un test de rampe après la livraison. Maintenez propre le circuit de refroidissement à eau.",
+  "primaryUse": "Compact CO₂ laser for makers transitioning from diode to real acrylic cutting.",
+  "beginnerNotes": "Cette fiche décrit OMTech Polar. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "CO₂ compact",
-    "Passage depuis le diode",
-    "Découpe acrylique",
-    "CO₂ format bureau"
+    "Compact CO₂",
+    "Diode graduates",
+    "Acrylic cutting",
+    "Desk-sized CO₂"
   ],
   "pros": [
-    "Encombrement CO₂ réduit",
-    "Vraie découpe acrylique",
-    "LightBurn en standard",
-    "Pièces OMTech disponibles"
+    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    "OMTech Polar : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Toujours bruyant et nécessite une extraction",
-    "Plateau plus petit que les modèles 80 W",
-    "Courbe d’apprentissage à l’installation",
-    "Pas fermé comme le xTool P2"
+    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
   "materials": {
     "engrave": [
@@ -53,9 +49,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser OMTech Polar : OMTech" },
-    { "alt": "Graveuse laser OMTech Polar : OMTech" },
-    { "alt": "Graveuse laser OMTech Polar : OMTech" },
-    { "alt": "Graveuse laser OMTech Polar : OMTech" }
-  ]
+    {
+      "alt": "Graveuse laser OMTech Polar : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech Polar : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech Polar : OMTech"
+    },
+    {
+      "alt": "Graveuse laser OMTech Polar : OMTech"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "OMTech Polar est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 50W donne de la marge sur les panneaux et les passes multiples.",
+    "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  }
 }

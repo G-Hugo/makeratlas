@@ -2,23 +2,24 @@
   "tagline": "LaserPecker LP2 classique : graveuse diode portable",
   "tldr": "Le LaserPecker LP2 Classic est la ligne portable LP antérieure au LP2 Plus : pilotée par app, petite zone de travail, idéale pour étiquettes et coques de téléphone, pas pour la production d’atelier.",
   "mainObjective": "Gravure LaserPecker portable sans cadre complet",
-  "primaryUse": "Personnalisation portable et petites gravures.",
-  "beginnerNotes": "Comparez le LP2 Plus si vous achetez neuf : plus de puissance et usage bureau.",
-  "proTips": "Utilisez le workflow caméra de prévisualisation : l’alignement est tout sur les unités manuelles.",
+  "primaryUse": "Portable personalization and small engraves.",
+  "beginnerNotes": "Cette fiche décrit LaserPecker LP2. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "bestFor": [
-    "Portabilité",
-    "Petits objets",
-    "Personnalisation cadeaux"
+    "Portability",
+    "Small items",
+    "Gift personalization"
   ],
   "pros": [
-    "Vraiment portable",
-    "Workflow app LaserPecker",
-    "Faible encombrement"
+    "5W sur LaserPecker LP2 : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "LaserPecker LP2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "LaserPecker LP2 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Petit plateau",
-    "Remplacé par LP2 Plus/3/4",
-    "Prix premium au dollar de capacité"
+    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -44,8 +45,18 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser LaserPecker LP2 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP2 : LaserPecker" },
-    { "alt": "Graveuse laser LaserPecker LP2 : LaserPecker" }
-  ]
+    {
+      "alt": "Graveuse laser LaserPecker LP2 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker LP2 : LaserPecker"
+    },
+    {
+      "alt": "Graveuse laser LaserPecker LP2 : LaserPecker"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker LP2 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

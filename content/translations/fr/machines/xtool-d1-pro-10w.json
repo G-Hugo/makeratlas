@@ -2,9 +2,9 @@
   "tagline": "10 W : le laser diode structure ouverte le plus populaire pour les makers qui dépassent l’entrée de gamme",
   "tldr": "La xTool D1 Pro 10 W est la version 10 W de la gamme D1 Pro. Laser diode structure ouverte bien construit, disponible jusqu’à 20 W. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing « watts combinés ».",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Gravure loisir polyvalente sur bois, cuir et métaux revêtus, avec découpe légère de bois fin et acrylique foncé.",
-  "beginnerNotes": "Ce profil décrit le module 10W de xTool D1 Pro. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez assistance air et plateau nid d’abeille pour des découpes plus propres. Pour marquer le métal, utilisez LaserBond ou Brilliance : les résultats varient selon le revêtement. Ajoutez des rehausseurs à roues acier pour gobelets et objets cylindriques.",
+  "primaryUse": "10W module · xTool D1 Pro",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de xTool D1 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,9 +12,9 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Palier D1 Pro populaire avec support xTool",
-    "Écosystème rehausseur pour cylindres",
-    "Étape avant D1 Pro 20 W ou S1"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
+    "10W sur xTool D1 Pro : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
     "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
@@ -91,7 +91,7 @@
     ]
   },
   "editorialDepth": {
-    "advantages": "D1 Pro 10 W pour fans xTool orientés cadeaux.",
-    "limitations": "Revenus découpe : 20 W ou lignes fermées."
+    "advantages": "Le module 10W diode sur xTool D1 Pro est le bon choix si vous gravez surtout bois, cuir et ardoise et n’achetez pas des watts de découpe inutiles. Même châssis, montée possible plus tard.",
+    "limitations": "Ne prenez pas ce module si vous découpez du 5 mm+ tous les jours : ouvrez le profil 20W ou 40W. Acrylique coulé et métal sans spray restent frustrants sur diode."
   }
 }

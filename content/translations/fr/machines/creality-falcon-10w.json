@@ -2,23 +2,24 @@
   "tagline": "Entrée Creality CR-Falcon : structure ouverte 10W pour un premier laser",
   "tldr": "La Creality Falcon 10W (CR-Laser) est l'entrée budget à structure ouverte de la gamme laser Creality : en dessous des Falcon 2 et A1 fermées. Correcte pour apprendre ; la montée en gamme mène vers la Falcon 2 22W ou l'A1.",
   "mainObjective": "Laser Creality le moins cher pour des essais de gravure basiques",
-  "primaryUse": "Diode Creality d'entrée pour la gravure loisir.",
-  "beginnerNotes": "Envisagez la Falcon A1 10W fermée si vous pouvez étirer le budget.",
-  "proTips": "Souvent en promo en pack avec les imprimantes Creality : vérifiez la valeur totale.",
+  "primaryUse": "Entry Creality diode for hobby engraving.",
+  "beginnerNotes": "Cette fiche décrit Creality Falcon 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
+  "proTips": "Often on sale bundled with Creality printers : check total value.",
   "bestFor": [
-    "Propriétaires d'imprimantes 3D Creality",
-    "Budget serré",
-    "Apprentissage"
+    "Creality 3D printer owners",
+    "Tight budget",
+    "Learning"
   ],
   "pros": [
-    "Entrée laser Creality la moins chère",
-    "Grand plateau",
-    "Écosystème Creality familier"
+    "10W sur Creality Falcon : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    "Creality Falcon : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
+    "Creality Falcon : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
   ],
   "cons": [
-    "Structure ouverte",
-    "10W limité",
-    "Dépassée par Falcon 2/A1 pour les nouveaux acheteurs"
+    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
     "engrave": [
@@ -45,9 +46,21 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Creality Falcon 10W : Creality" },
-    { "alt": "Graveuse laser Creality Falcon 10W : Creality" },
-    { "alt": "Graveuse laser Creality Falcon 10W : Creality" },
-    { "alt": "Graveuse laser Creality Falcon 10W : Creality" }
-  ]
+    {
+      "alt": "Graveuse laser Creality Falcon 10W : Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon 10W : Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon 10W : Creality"
+    },
+    {
+      "alt": "Graveuse laser Creality Falcon 10W : Creality"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Creality Falcon 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  }
 }

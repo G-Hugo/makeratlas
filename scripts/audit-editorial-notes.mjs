@@ -45,12 +45,21 @@ for (const m of machines) {
   if (!m.mainObjective?.trim()) issues.push({ type: "missing-mainObjective", slug });
   if (!m.primaryUse?.trim()) issues.push({ type: "missing-primaryUse", slug });
   if ((m.pros?.length ?? 0) < 3) issues.push({ type: "few-pros", slug, count: m.pros?.length ?? 0 });
+  if ((m.pros?.length ?? 0) === 3 && !m.tierEditorialOverride) {
+    issues.push({ type: "few-pros-prefer-four", slug, count: 3 });
+  }
+  if (!m.tierEditorialOverride) issues.push({ type: "no-tierEditorialOverride", slug });
   if ((m.cons?.length ?? 0) < 2) issues.push({ type: "few-cons", slug, count: m.cons?.length ?? 0 });
 
-  const isModule = m.moduleSystem?.style === "interchangeable";
-  if (isModule && !m.editorialDepth?.advantages?.trim()) {
-    issues.push({ type: "module-missing-editorialDepth", slug });
+  if (!m.editorialDepth?.advantages?.trim() || !m.editorialDepth?.limitations?.trim()) {
+    issues.push({ type: "missing-editorialDepth", slug });
   }
+  const adv = (m.editorialDepth?.advantages ?? "").length;
+  const lim = (m.editorialDepth?.limitations ?? "").length;
+  if (adv > 0 && adv < 80) issues.push({ type: "thin-editorialDepth", slug, field: "advantages" });
+  if (lim > 0 && lim < 80) issues.push({ type: "thin-editorialDepth", slug, field: "limitations" });
+
+  const isModule = m.moduleSystem?.style === "interchangeable";
   if (isModule && m.beginnerNotes?.includes("power options") && !m.beginnerNotes.includes("module")) {
     issues.push({ type: "module-wrong-beginner-wording", slug });
   }

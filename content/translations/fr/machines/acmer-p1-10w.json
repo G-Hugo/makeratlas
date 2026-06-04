@@ -2,9 +2,9 @@
   "tagline": "Acmer structure ouverte petit budget : grand plateau pour le prix",
   "tldr": "L'Acmer P1 10 W est une graveuse structure ouverte abordable de classe 400 mm, idéale pour apprendre et réaliser de petits cadeaux. Fabrication et support de niveau entrée de gamme : excellent rapport qualité-prix si vous acceptez un peu de réglage.",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "Gravure amateur petit budget sur grand plateau.",
-  "beginnerNotes": "Ce profil décrit le module 10W de Acmer P1. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Utilisez les benchmarks de cette fiche pour chiffrer vos devis. Testez sur chutes avant production.",
+  "primaryUse": "10W module · Acmer P1",
+  "beginnerNotes": "Ce profil décrit le SKU 10W de Acmer P1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,14 +12,13 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Palier P1 Acmer le moins cher, orienté gravure",
-    "Open-frame plein format compatible LightBurn",
-    "Bon départ avant P2 ou P3 enceinte"
+    "Open-frame : lunettes laser et ventilation à votre charge",
+    "10W sur Acmer P1 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
+    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
+    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],
   "materials": {
@@ -62,7 +61,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Le P1 10 W est l’entrée Acmer quand la marque compte plus que l’épaisseur de découpe.",
-    "limitations": "Boutiques qui découpent : voir P1 20 W ou P3."
+    "advantages": "Acmer P1 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée open-frame raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
   }
 }

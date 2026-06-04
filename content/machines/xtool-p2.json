@@ -77,20 +77,17 @@
     ]
   },
   "pros": [
-    "True CO₂ cutting power : not comparable to diode lasers for acrylic and thick wood",
-    "Fully enclosed with safety interlocks : safer for home and workshop use",
-    "Built-in camera for visual alignment and batch positioning",
-    "Large work area for a desktop CO₂ machine",
-    "Active community and solid xTool software ecosystem"
+    "Strong on acrylic and wood versus diodes on the same budget tier",
+    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    "xTool P2 : full profile with material limits and benchmarks on Maker Atlas",
+    "xTool xTool P2 : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
-    "High price : often 4–5× the cost of a good diode laser",
-    "Bulky and heavy; not portable",
-    "CO₂ tube has limited lifespan (~1,000–2,000 hours) and replacement cost",
-    "Requires ventilation or an exhaust hose to the outside",
-    "Overkill if you only want to engrave metal or small items"
+    "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
+    "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
+    "Tube life and replacement cost are part of the true ownership budget"
   ],
-  "beginnerNotes": "If your budget allows and you want to cut acrylic signs, wood products, or run an Etsy shop, the P2 is one of the most capable desktop options. If you mainly want to engrave metal jewelry or tumbler cups, look at fiber or diode machines instead : CO₂ cannot mark bare metal.",
+  "beginnerNotes": "This profile covers xTool P2. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Pair with a compressor and good air assist for cleaner cuts on acrylic. LightBurn unlocks advanced workflows if you outgrow xTool Creative Space. Plan exhaust routing before unboxing : ventilation is not optional with CO₂.",
   "primaryUse": "Production-grade cutting and engraving of organic materials (wood, acrylic, leather) in a home or small business workshop.",
   "rating": {
@@ -101,11 +98,27 @@
     "buildQuality": 9
   },
   "accessories": [
-    { "id": "enclosure", "availability": "included" },
-    { "id": "camera", "availability": "included" },
-    { "id": "air-assist", "availability": "recommended", "note": "Compressor + air assist strongly recommended for acrylic" },
-    { "id": "exhaust-vent", "availability": "recommended" },
-    { "id": "rotary-roller", "availability": "optional" }
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "recommended",
+      "note": "Compressor + air assist strongly recommended for acrylic"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    }
   ],
   "similarModels": [
     "xtool-p2s",
@@ -132,5 +145,6 @@
   "editorialDepth": {
     "advantages": "The P2 is the reference desktop CO₂ for makers who sell acrylic signs, wood products, or batch gifts. True 55W cutting, a large bed for this class, camera alignment, and an enclosure with interlocks make it feel like shop equipment without industrial floorspace. LightBurn support means you are not locked into beginner software forever.",
     "limitations": "Price, weight, and mandatory ventilation put it out of reach for engraving-only hobbyists. The glass tube is a consumable with real replacement cost. Bare metal work still needs a different laser category. If you only mark tumblers or small gifts, a enclosed diode costs far less."
-  }
+  },
+  "tierEditorialOverride": true
 }

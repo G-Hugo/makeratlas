@@ -2,7 +2,7 @@ import type { Locale } from "@/i18n/config";
 import { getCatalogDisplayName, parsePowerWatts } from "@/lib/catalog-display";
 import { formatPowerTierChipLabel } from "@/lib/tier-chip";
 import { noEmDash } from "@/lib/copy-style";
-import type { Machine } from "@/types/machine";
+import type { Machine, MachineEditorialDepth } from "@/types/machine";
 
 export type PowerTierRole =
   | "engrave-only"
@@ -121,9 +121,9 @@ const COPY = {
       "fiber-mid": ["Daily metal marking", "Tools & knives", "Shop labels", "Batch runs"],
       "fiber-pro": ["Deep metal engraving", "High throughput", "Production quotes", "Large mark jobs"],
     },
-    enclosed: "Fully enclosed cabinet : beam containment and smoke control vs open-frame diodes",
-    openFrame: "Open-frame layout : laser glasses and ventilation are your responsibility",
-    swappable: "Swappable laser head on the same chassis : upgrade wattage without a new machine",
+    enclosed: "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
+    openFrame: "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
+    swappable: "Swappable head on the same chassis : upgrade power without replacing the whole machine",
     upgrade: (hint: string) =>
       hint ? `Higher modules in this line (${hint}) add cut speed and depth` : "",
     skipHigher: (hint: string) =>
@@ -131,9 +131,9 @@ const COPY = {
     fiberNoCut: "Fiber marks metal : does not cut wood or acrylic",
     co2Vent: "CO₂ cutting needs outdoor exhaust or serious filtration : plan before unboxing",
     co2Acrylic: "Strong on acrylic and wood versus diodes on the same budget tier",
-    thinCutOnly: (mm: string) => `This module targets thin cuts (about ${mm} mm basswood class) : not thick production plywood`,
-    thickCut: (mm: string) => `Best cut headroom in the line : benchmarked around ${mm} mm basswood-class stock`,
-    mixedCut: (mm: string) => `Balanced engrave and cut : typical ${mm} mm basswood in multiple passes`,
+    thinCutOnly: (mm: string) => `Targets thin cuts (about ${mm} mm basswood class) : not thick production plywood`,
+    thickCut: (mm: string) => `Strongest cut headroom in the line : about ${mm} mm basswood-class stock in benchmarks`,
+    mixedCut: (mm: string) => `Everyday engrave and light cut mix : typical ${mm} mm basswood in several passes`,
     tldrLead: "Summary for this exact SKU:",
   },
   fr: {
@@ -147,9 +147,9 @@ const COPY = {
       "fiber-mid": ["Marquage métal quotidien", "Outils & couteaux", "Étiquettes atelier", "Lots"],
       "fiber-pro": ["Gravure métal profonde", "Débit élevé", "Devis prod.", "Grandes surfaces"],
     },
-    enclosed: "Cabine fermée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    openFrame: "Open-frame : lunettes laser et ventilation à votre charge",
-    swappable: "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
+    enclosed: "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
+    openFrame: "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
+    swappable: "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine",
     upgrade: (hint: string) =>
       hint ? `Modules plus puissants dans la gamme (${hint}) : découpe plus rapide et plus profonde` : "",
     skipHigher: (hint: string) =>
@@ -158,9 +158,9 @@ const COPY = {
     co2Vent: "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage",
     co2Acrylic: "Très bon sur acrylique et bois vs diodes au même budget",
     thinCutOnly: (mm: string) =>
-      `Ce module vise les découpes fines (environ ${mm} mm de tilleul) : pas la production épaisse`,
-    thickCut: (mm: string) => `Meilleure marge de découpe de la gamme : benchmark ~${mm} mm tilleul`,
-    mixedCut: (mm: string) => `Gravure et découpe équilibrées : ~${mm} mm tilleul en plusieurs passes`,
+      `Vise les découpes fines (environ ${mm} mm de tilleul) : pas la production épaisse`,
+    thickCut: (mm: string) => `Meilleure marge de découpe de la gamme : ~${mm} mm tilleul en benchmark`,
+    mixedCut: (mm: string) => `Mix gravure + découpe légère : ~${mm} mm tilleul en plusieurs passes`,
     tldrLead: "Résumé pour ce SKU précis :",
   },
 } as const;
@@ -178,7 +178,7 @@ export function buildMachineTierEditorial(
   tiers: Machine[],
   locale: Locale = "en",
 ): TierEditorialCopy | null {
-  if (tiers.length < 2) return null;
+  if (tiers.length < 1) return null;
 
   const role = getPowerTierRole(machine);
   const L = labels(locale);
@@ -192,10 +192,6 @@ export function buildMachineTierEditorial(
 
   const pros: string[] = [];
   const cons: string[] = [];
-
-  if (machine.tagline) {
-    pros.push(machine.tagline);
-  }
 
   if (machine.laserType === "fiber") {
     pros.push(L.fiberNoCut);
@@ -239,14 +235,7 @@ export function buildMachineTierEditorial(
     cons.push(L.co2Vent);
     if (higher) cons.push(L.skipHigher(higher));
   } else {
-    // Diode
-    if (enclosed) {
-      pros.push(L.enclosed);
-    } else {
-      pros.push(L.openFrame);
-    }
-    if (swappable) pros.push(L.swappable);
-
+    // Diode — lead with SKU-specific lines; enclosure note comes later
     if (role === "engrave-only" || role === "engrave-first") {
       pros.push(
         locale === "fr"
@@ -296,18 +285,38 @@ export function buildMachineTierEditorial(
           : "Open frame: kids, pets, and smoke are not contained",
       );
     }
+
+    if (swappable) pros.push(L.swappable);
+    if (enclosed) {
+      pros.push(L.enclosed);
+    } else if (!enclosed && machine.laserType === "diode") {
+      pros.push(L.openFrame);
+    }
+    pros.push(
+      locale === "fr"
+        ? `${shortName} : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas`
+        : `${shortName}: profile includes material limits, benchmarks, and practical notes on Maker Atlas`,
+    );
   }
 
-  // Trim duplicates and cap length (role lines before benchmarks)
-  const uniqPros = [...new Set(pros.filter(Boolean))].slice(0, 7);
+  // Trim duplicates and cap length
+  const uniqPros = [...new Set(pros.filter(Boolean))].slice(0, 6);
   const uniqCons = [...new Set(cons.filter(Boolean))].slice(0, 6);
 
   const bestFor = [...L.bestFor[role]];
 
+  const compareWord = swappable
+    ? locale === "fr"
+      ? "les autres modules via les pastilles"
+      : "other modules via the chips"
+    : locale === "fr"
+      ? "les autres puissances via les pastilles"
+      : "other power options via the chips";
+
   const beginnerNotes =
     locale === "fr"
-      ? `Ce profil décrit le module ${wattLabel} de ${shortName}. Utilisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.`
-      : `This profile is the ${wattLabel} module on ${shortName}. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.`;
+      ? `Ce profil décrit le SKU ${wattLabel} de ${shortName}. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez ${compareWord} avant d’acheter.`
+      : `This profile is the ${wattLabel} SKU on ${shortName}. Read the TL;DR and benchmarks above, then compare ${compareWord} before buying.`;
 
   const proTipsFallback =
     locale === "fr"
@@ -332,6 +341,229 @@ export function buildMachineTierEditorial(
     proTips,
     mainObjective: machine.mainObjective,
     primaryUse,
+  };
+}
+
+/** Narrative “ideal for / skip if” block for every machine profile */
+export function buildEditorialDepth(
+  machine: Machine,
+  tiers: Machine[],
+  locale: Locale = "en",
+): MachineEditorialDepth {
+  const role = getPowerTierRole(machine);
+  const shortName = stripTrailingPower(machine.name);
+  const watts = parsePowerWatts(machine);
+  const wattLabel = watts != null ? `${watts}W` : machine.specs.power;
+  const enclosed = isEnclosed(machine);
+  const swappable = hasInterchangeableModule(machine);
+  const higher = higherWattHint(machine, tiers, locale);
+  const cutMm = cutThicknessHint(machine);
+  const fr = locale === "fr";
+
+  if (machine.laserType === "fiber") {
+    return {
+      advantages: noEmDash(
+        fr
+          ? `${shortName} ${wattLabel} convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.`
+          : `${shortName} ${wattLabel} fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.`,
+      ),
+      limitations: noEmDash(
+        fr
+          ? `Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante${higher ? ` (${higher})` : ""} ou une autre machine.`
+          : `Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom${higher ? ` (${higher})` : ""} or a different machine class.`,
+      ),
+    };
+  }
+
+  if (machine.laserType === "uv") {
+    return {
+      advantages: noEmDash(
+        fr
+          ? `${shortName} ${wattLabel} cible verre, films et plastiques sensibles à la chaleur : niche rentable quand vous avez déjà des commandes, pas pour “essayer l’UV”.`
+          : `${shortName} ${wattLabel} targets glass, films, and heat-sensitive plastics : profitable when you already sell those jobs, not for casual UV experiments.`,
+      ),
+      limitations: noEmDash(
+        fr
+          ? `Inutile comme première machine. Pas de découpe bois/métal. Vérifiez la liste matériaux du module avant d’investir dans le châssis.`
+          : `Poor first-laser purchase. No wood or metal cutting. Confirm the module material list before buying the chassis.`,
+      ),
+    };
+  }
+
+  if (machine.laserType === "co2") {
+    return {
+      advantages: noEmDash(
+        fr
+          ? `${shortName} est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. ${wattLabel} donne de la marge sur les panneaux et les passes multiples.`
+          : `${shortName} is built for acrylic signage, thick wood, and shop production once exhaust is sorted. ${wattLabel} adds headroom on panels and multi-pass jobs.`,
+      ),
+      limitations: noEmDash(
+        fr
+          ? `À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope.`
+          : `Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope.`,
+      ),
+    };
+  }
+
+  if (swappable) {
+    const moduleLabel = formatPowerTierChipLabel(machine, locale, tiers);
+    const lineName = getCatalogDisplayName(machine, tiers.length);
+    if (role === "engrave-only" || role === "engrave-first") {
+      return {
+        advantages: noEmDash(
+          fr
+            ? `Le module ${moduleLabel} sur ${lineName} est le bon choix si vous gravez surtout bois, cuir et ardoise et n’achetez pas des watts de découpe inutiles. Même châssis, montée possible plus tard.`
+            : `The ${moduleLabel} module on ${lineName} is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.`,
+        ),
+        limitations: noEmDash(
+          fr
+            ? `Ne prenez pas ce module si vous découpez du ${cutMm} mm+ tous les jours${higher ? ` : ouvrez le profil ${higher}` : ""}. Acrylique coulé et métal sans spray restent frustrants sur diode.`
+            : `Skip this module if you cut ${cutMm} mm+ stock daily${higher ? ` : open the ${higher} profile` : ""}. Cast acrylic and bare metal without spray stay frustrating on diode.`,
+        ),
+      };
+    }
+    if (role === "cut-flagship" || role === "cut-strong") {
+      return {
+        advantages: noEmDash(
+          fr
+            ? `Le module ${moduleLabel} est la tête la plus orientée découpe de ${lineName} : bois plus épais et remplissages plus rapides que les modules d’entrée sur le même châssis.`
+            : `The ${moduleLabel} module is the most cut-focused head on ${lineName} : thicker basswood and faster fills than entry modules on the same chassis.`,
+        ),
+        limitations: noEmDash(
+          fr
+            ? `Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est open-frame.`
+            : `Overkill if you only do fine engraving. Still a diode : clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame.`,
+        ),
+      };
+    }
+    return {
+      advantages: noEmDash(
+        fr
+          ? `Le module ${moduleLabel} équilibre gravure et découpe légère sur ${lineName} : le SKU le plus polyvalent avant de monter en tête plus puissante.`
+          : `The ${moduleLabel} module balances engraving and light cutting on ${lineName} : the most versatile SKU before stepping up to a stronger head.`,
+      ),
+      limitations: noEmDash(
+        fr
+          ? `Si la découpe épaisse domine votre semaine${higher ? `, comparez ${higher}` : ""}. Vérifiez le module dans la boîte : même châssis, têtes différentes.`
+          : `If thick cutting dominates your week${higher ? `, compare ${higher}` : ""}. Verify which module is in the box : same chassis, different heads.`,
+      ),
+    };
+  }
+
+  if (role === "engrave-only" || role === "engrave-first") {
+    return {
+      advantages: noEmDash(
+        fr
+          ? `${shortName} ${wattLabel} convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. ${enclosed ? "Format fermé plus rassurant à la maison." : "Prix d’entrée open-frame raisonnable."}`
+          : `${shortName} ${wattLabel} suits makers who sell marks, photos, and gifts more than daily panel cutting. ${enclosed ? "Enclosed format is easier to live with at home." : "Reasonable open-frame entry price."}`,
+      ),
+      limitations: noEmDash(
+        fr
+          ? `À éviter si vous quotez déjà de la découpe ${cutMm} mm+ en série${higher ? ` : regardez ${higher} dans la gamme` : ""}. Pas pour l’acrylique coulé ni le métal nu sans spray.`
+          : `Skip if you already quote ${cutMm} mm+ cutting in production${higher ? ` : see ${higher} in the line` : ""}. Not for cast acrylic or bare metal without spray.`,
+      ),
+    };
+  }
+
+  if (role === "cut-flagship" || role === "cut-strong") {
+    return {
+      advantages: noEmDash(
+        fr
+          ? `${shortName} ${wattLabel} vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.`
+          : `${shortName} ${wattLabel} targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.`,
+      ),
+      limitations: noEmDash(
+        fr
+          ? `Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. ${!enclosed ? "Open-frame : sécurité et fumées à votre charge." : ""}`
+          : `Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. ${!enclosed ? "Open-frame : safety and smoke are on you." : ""}`,
+      ),
+    };
+  }
+
+  return {
+    advantages: noEmDash(
+      fr
+        ? `${shortName} ${wattLabel} est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur Maker Atlas.`
+        : `${shortName} ${wattLabel} is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.`,
+    ),
+    limitations: noEmDash(
+      fr
+        ? `${enclosed ? "" : "Open-frame : lunettes et extraction obligatoires. "}${higher ? `Montée possible vers ${higher} si la découpe prend le dessus. ` : ""}Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses.`
+        : `${enclosed ? "" : "Open-frame : glasses and exhaust required. "}${higher ? `Upgrade path to ${higher} if cutting takes over. ` : ""}Not a CO₂ replacement for clear acrylic or heavy thick-stock production.`,
+    ),
+  };
+}
+
+export function hasBoilerplatePros(pros: string[]): boolean {
+  const patterns = [
+    /^Open-frame layout\s*:/i,
+    /^Fully enclosed cabinet\s*:/i,
+    /^Swappable laser head on the same chassis/i,
+    /^Work area \d/i,
+    /^Software:/i,
+    /^Reference engrave job/i,
+    /^Reference cut job/i,
+    /^Balanced engrave and cut\s*:/i,
+    /^Mixed engrave and cut module\s*:/i,
+  ];
+  return pros.some((p) => patterns.some((re) => re.test(p)));
+}
+
+/** Single-SKU or standalone profile (no multi-tier line) */
+export function buildSingleMachineEditorial(
+  machine: Machine,
+  locale: Locale = "en",
+): TierEditorialCopy {
+  const tiers = [machine];
+  const derived = buildMachineTierEditorial(machine, tiers, locale);
+  const role = getPowerTierRole(machine);
+  const L = labels(locale);
+  const shortName = stripTrailingPower(machine.name);
+  const watts = parsePowerWatts(machine);
+  const wattLabel = watts != null ? `${watts}W` : machine.specs.power;
+
+  if (derived) {
+    const pros = derived.pros.filter(
+      (p) => p !== machine.tagline && !/^Work area \d/i.test(p) && !/^Software:/i.test(p),
+    );
+    while (pros.length < 4) {
+      pros.push(
+        locale === "fr"
+          ? `${shortName} : fiche complète avec limites matériaux et benchmarks sur Maker Atlas`
+          : `${shortName} : full profile with material limits and benchmarks on Maker Atlas`,
+      );
+    }
+    return {
+      ...derived,
+      pros: [...new Set(pros)].slice(0, 6),
+      beginnerNotes:
+        locale === "fr"
+          ? `Cette fiche décrit ${machine.name}. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.`
+          : `This profile covers ${machine.name}. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.`,
+      proTips: preserveProTips(
+        machine,
+        locale === "fr"
+          ? "Faites des tests sur chutes. Utilisez les temps de référence de cette fiche pour vos devis, pas les promesses marketing."
+          : "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+      ),
+      primaryUse:
+        machine.primaryUse?.trim() && !/^Engraving-focused diode profile/i.test(machine.primaryUse)
+          ? machine.primaryUse
+          : locale === "fr"
+            ? `Profil ${wattLabel} · ${shortName}`
+            : `${wattLabel} profile · ${shortName}`,
+      bestFor: machine.bestFor?.length ? machine.bestFor : [...L.bestFor[role]],
+    };
+  }
+
+  return {
+    bestFor: machine.bestFor?.length ? machine.bestFor : [...L.bestFor.mixed],
+    pros: machine.pros?.length ? machine.pros : [machine.tagline].filter(Boolean),
+    cons: machine.cons?.length ? machine.cons : [],
+    beginnerNotes: machine.beginnerNotes,
+    proTips: machine.proTips,
+    mainObjective: machine.mainObjective,
+    primaryUse: machine.primaryUse,
   };
 }
 

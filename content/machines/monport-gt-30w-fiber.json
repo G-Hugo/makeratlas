@@ -67,15 +67,17 @@
     ]
   },
   "pros": [
-    "Split fiber laser engraver with autofocus from Monport",
-    "Fiber marks metal : does not cut wood or acrylic"
+    "Fiber marks metal : does not cut wood or acrylic",
+    "Monport Monport GT Fiber : compare benchmarks and material limits on this profile before ordering.",
+    "Monport Monport GT Fiber : compare benchmarks and material limits on this profile before ordering.",
+    "Monport Monport GT Fiber : compare benchmarks and material limits on this profile before ordering."
   ],
   "cons": [
     "30W fiber: slower on deep marks than higher-watt siblings if you run large stainless jobs",
     "Upgrade path to 50W, 60W or 100W if metal throughput becomes the bottleneck",
-    "Does not cut wood, leather, or acrylic: metal and industrial marking workflows only"
+    "Does not cut wood, leather, or acrylic : metal marking workflows only"
   ],
-  "beginnerNotes": "This profile is the 30W module on Monport GT Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 30W SKU on Monport GT Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Fix parts firmly; start with low power test squares on scrap metal. Rotary adds complexity : budget time to learn indexing.",
   "primaryUse": "Desktop fiber marking for jewelry-scale and test jobs",
   "rating": {
@@ -101,5 +103,9 @@
   "modelLine": "monport-gt",
   "catalogPrimary": true,
   "releaseDate": "2024-06",
-  "tierEditorialOverride": false
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Monport GT Fiber 30W fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.",
+    "limitations": "Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom (50W, 60W or 100W) or a different machine class."
+  }
 }

@@ -486,7 +486,11 @@ for (const [slug, pack] of Object.entries(PACKS)) {
   const machine = JSON.parse(fs.readFileSync(filePath, "utf8"));
   machine.pros = pack.pros;
   if (pack.cons) machine.cons = pack.cons;
-  if (pack.editorialDepth) machine.editorialDepth = pack.editorialDepth;
+  if (pack.editorialDepth) {
+    const adv = machine.editorialDepth?.advantages?.trim() ?? "";
+    const lim = machine.editorialDepth?.limitations?.trim() ?? "";
+    if (adv.length < 80 || lim.length < 80) machine.editorialDepth = pack.editorialDepth;
+  }
   machine.tierEditorialOverride = true;
   fs.writeFileSync(filePath, `${JSON.stringify(machine, null, 2)}\n`, "utf8");
   updated++;
