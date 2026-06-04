@@ -1,22 +1,22 @@
 {
   "tagline": "Ortur LM2 S2 5 W : l’Ortur le moins cher qui vaut encore le coup",
   "tldr": "L’Ortur LM2 S2 5 W est le SKU d’entrée : d’abord la gravure, découpe minimale. Correct pour apprendre si le prix est bon ; la plupart des utilisateurs le dépassent vite.",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "primaryUse": "Module 5W · Ortur LM2 S2",
   "beginnerNotes": "Ce profil décrit le SKU 5W de Ortur LM2 S2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
-    "Gravure fine",
-    "Photo & logo",
-    "Cadeaux & ardoise",
-    "Première machine"
+    "Gravure",
+    "Photo & logo work",
+    "Petites séries",
+    "First machine"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "5W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir"
+    "5W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
+    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (10W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"

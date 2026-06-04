@@ -1,7 +1,7 @@
 {
   "tagline": "Falcon 5W compacte de Creality : graveuse d'entrée à petit plateau",
   "tldr": "La Creality Falcon 5W est la petite CR-Laser Falcon pour la gravure de bureau et l'artisanat léger : moins puissante que la Falcon 10W/A1 mais avec un encombrement et un prix plus simples.",
-  "mainObjective": "Graveuse d'entrée Creality pour petits projets",
+  "mainObjective": "Creality-branded entry engraver for small projects",
   "primaryUse": "Small-format Creality engraving.",
   "beginnerNotes": "Cette fiche décrit Creality Falcon 5W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,9 +12,7 @@
   ],
   "pros": [
     "5W sur Creality Falcon : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Creality Falcon : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "Creality Falcon : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",

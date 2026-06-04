@@ -1,7 +1,7 @@
 {
   "tagline": "Kit DIY MK2 10 W boîtier : référence d'entrée Algolaser la plus courante",
   "tldr": "Le Kit DIY MK2 10 W est la configuration 10 W boîtier la plus populaire : montage requis, mais plus contenu que les concurrents à structure ouverte à prix similaire.",
-  "mainObjective": "Algolaser 10 W boîtier pour gravure loisir",
+  "mainObjective": "Enclosed 10W AlgoLaser for hobby engraving",
   "primaryUse": "Enclosed hobby engraving with light cutting.",
   "beginnerNotes": "Cette fiche décrit AlgoLaser DIY Kit MK2 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,9 +12,7 @@
   ],
   "pros": [
     "10W sur AlgoLaser DIY Kit MK2 : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "AlgoLaser DIY Kit MK2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "AlgoLaser DIY Kit MK2 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",

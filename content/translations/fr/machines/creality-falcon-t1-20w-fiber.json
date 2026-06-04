@@ -2,5 +2,22 @@
   "editorialDepth": {
     "advantages": "Creality Falcon T1 Fiber 20W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
     "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante (40W ou 60W) ou une autre machine."
-  }
+  },
+  "pros": [
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
+  ],
+  "cons": [
+    "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
+    "Montée possible vers 40W ou 60W si le débit métal devient critique"
+  ],
+  "beginnerNotes": "Ce profil décrit le SKU 20W de Creality Falcon T1 Fiber. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Keep separate material libraries for fiber vs diode heads. Confirm EZCAD/LightBurn support on your exact module SKU before buying.",
+  "primaryUse": "Module 20W · Creality Falcon T1 Fiber",
+  "mainObjective": "Desktop fiber marking on the modular T1 platform",
+  "bestFor": [
+    "Petites séries",
+    "Metal tags & tools",
+    "T1 metal upgrade",
+    "Jewelry-scale marking"
+  ]
 }

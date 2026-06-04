@@ -1,7 +1,7 @@
 {
   "tagline": "Gamme Sculpfun S10 2025 : châssis type industriel, plateau 385 mm",
   "tldr": "Le Sculpfun S10 10 W, lancé en 2025, est une graveuse structure ouverte format intermédiaire avec un châssis plus rigide que la S9, zone ~385 mm et capot laser amovible. Positionné entre les familles budget S9 et S30 pour makers qui veulent plus de rigidité sans le tarif Ultra.",
-  "mainObjective": "Gravure Sculpfun milieu de gamme avec châssis plus rigide que la S9",
+  "mainObjective": "Mid-tier Sculpfun engraving with a stiffer frame than S9",
   "primaryUse": "2025 Sculpfun mid-size engraver for detailed work and light cutting on a reinforced frame.",
   "beginnerNotes": "Cette fiche décrit Sculpfun S10 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Pair with 30L/min air assist per Sculpfun spec for cleaner cuts.",
@@ -13,9 +13,7 @@
   ],
   "pros": [
     "10W sur Sculpfun S10 : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Sculpfun S10 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "Sculpfun S10 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",

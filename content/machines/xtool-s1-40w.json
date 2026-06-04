@@ -92,10 +92,10 @@
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "primaryUse": "40W module · xTool S1",
   "rating": {
-    "overall": 8.9,
-    "value": 8,
+    "overall": 8.8,
+    "value": 7.4,
     "easeOfUse": 9.2,
-    "capability": 9.5,
+    "capability": 9.2,
     "buildQuality": 9
   },
   "similarModels": [

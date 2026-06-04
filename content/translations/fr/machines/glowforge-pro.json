@@ -1,7 +1,7 @@
 {
   "tagline": "CO₂ pass-through pour créateurs : simplicité premium avec coût d'abonnement",
   "tldr": "Le Glowforge Pro ajoute un slot pass-through pour matériaux longs et de meilleures performances CO₂ vs l'Aura. Toujours dépendant du cloud avec pression abonnement. Idéal pour créateurs orientés design qui refusent LightBurn : pas pour makers sensibles au coût.",
-  "mainObjective": "CO₂ pass-through pour créateurs : matériaux longs avec logiciel prêt à l'emploi",
+  "mainObjective": "Pass-through CO₂ crafting for long materials with zero-config software",
   "primaryUse": "Premium enclosed CO₂ for crafters engraving and cutting long thin materials with minimal technical setup.",
   "beginnerNotes": "Cette fiche décrit Glowforge Pro. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Factor 3-year subscription into total cost. Passthrough shines for long thin signs : not for thick industrial cutting.",
@@ -13,8 +13,7 @@
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Glowforge Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

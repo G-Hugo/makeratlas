@@ -1,20 +1,19 @@
 {
   "tagline": "Atomstack milieu de gamme avec faisceau comprimé : bon compromis entre A5 et A40",
   "tldr": "L’A20 Pro se situe dans la gamme Atomstack entre l’A5 petit budget et le modèle phare A40. Excellents détails de gravure avec un châssis plus rigide que les modèles d’entrée. Montée en gamme pertinente si l’A5 vous semble lent mais que l’A40 dépasse votre budget.",
-  "mainObjective": "Atomstack milieu de gamme pour gravure détaillée et découpe fiable de bois fin",
-  "primaryUse": "Mid-tier open-frame Atomstack for detailed engraving and moderate thin-wood cutting.",
+  "mainObjective": "Mid-range Atomstack for detailed engraving & reliable thin-wood cutting",
+  "primaryUse": "Module 20W · Atomstack A20 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 20W de Atomstack A20 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Atomstack's F60 air assist kit is worth adding before pushing cut depth : charring drops significantly on 5–6 mm basswood.",
   "bestFor": [
     "Gravure + découpe",
-    "Side business",
+    "Petite activité",
     "Enseignes & boîtes",
     "Petites séries"
   ],
   "pros": [
     "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Atomstack A20 Pro : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",

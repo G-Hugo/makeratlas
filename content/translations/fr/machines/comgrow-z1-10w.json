@@ -1,10 +1,10 @@
 {
   "tagline": "Diode Comgrow 10 W petit budget : souvent proposée en pack avec les imprimantes 3D",
   "tldr": "La Comgrow Z1 10 W est le SKU 10 W de la gamme Comgrow Z1. La Z1 vise les débutants, souvent vendue aux côtés des imprimantes Ender 3D. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing en watts combinés.",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "10W module · Comgrow Z1",
+  "mainObjective": "Priorité gravure avec découpe occasionnelle sur petites épaisseurs",
+  "primaryUse": "Module 10W · Comgrow Z1",
   "beginnerNotes": "Ce profil décrit le SKU 10W de Comgrow Z1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "proTips": "Optimisez la gravure avant la découpe : vitesse de balayage plus basse pour les photos. L’assistance air reste utile sur le cuir et le bois fin.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,11 +12,11 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "10W sur Comgrow Z1 : priorité gravure : remplissages photo et cuir"
+    "10W sur Comgrow Z1 : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"

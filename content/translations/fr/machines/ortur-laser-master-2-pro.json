@@ -1,7 +1,7 @@
 {
   "tagline": "Classique Ortur LM2 Pro : structure ouverte historique (marché d’occasion)",
   "tldr": "L’Ortur Laser Master 2 Pro est un classique Ortur discontinu, encore trouvable d’occasion. Correct pour apprendre si le prix est bas ; les nouveaux acheteurs devraient choisir le LM3, le H10 ou le H20.",
-  "mainObjective": "Ortur d’occasion petit budget pour gravure basique",
+  "mainObjective": "Budget used-market Ortur for basic engraving",
   "primaryUse": "Legacy Ortur open-frame for hobby engraving on a budget.",
   "beginnerNotes": "Cette fiche décrit Ortur Laser Master 2 Pro. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Flash firmware carefully : many LM2 guides still online.",
@@ -12,9 +12,7 @@
   ],
   "pros": [
     "10W sur Ortur Laser Master 2 Pro : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Ortur Laser Master 2 Pro : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "Ortur Laser Master 2 Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",

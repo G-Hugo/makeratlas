@@ -1,7 +1,7 @@
 {
   "tagline": "LaserPecker LP2 classique : graveuse diode portable",
   "tldr": "Le LaserPecker LP2 Classic est la ligne portable LP antérieure au LP2 Plus : pilotée par app, petite zone de travail, idéale pour étiquettes et coques de téléphone, pas pour la production d’atelier.",
-  "mainObjective": "Gravure LaserPecker portable sans cadre complet",
+  "mainObjective": "Portable LaserPecker engraving away from a full frame",
   "primaryUse": "Portable personalization and small engraves.",
   "beginnerNotes": "Cette fiche décrit LaserPecker LP2. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,9 +12,7 @@
   ],
   "pros": [
     "5W sur LaserPecker LP2 : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "LaserPecker LP2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "LaserPecker LP2 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",

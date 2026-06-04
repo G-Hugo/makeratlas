@@ -78,10 +78,10 @@
   "proTips": "Omni-XE UV targets heat-sensitive plastics and thin films : run vendor parameter cards on scrap. Do not assume Omni-X UV presets transfer without retesting.",
   "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
   "rating": {
-    "overall": 8.3,
-    "value": 8.1,
+    "overall": 8.2,
+    "value": 7.7,
     "easeOfUse": 8.4,
-    "capability": 7.5,
+    "capability": 8.3,
     "buildQuality": 8.2
   },
   "similarModels": [

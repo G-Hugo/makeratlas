@@ -84,10 +84,10 @@
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
   "rating": {
-    "overall": 7.9,
-    "value": 8.5,
+    "overall": 7.8,
+    "value": 8.7,
     "easeOfUse": 8,
-    "capability": 7,
+    "capability": 6.9,
     "buildQuality": 7.8
   },
   "similarModels": [

@@ -217,7 +217,7 @@ export const fr: Dictionary = {
       "Filtrez par type laser. Cliquez sur une machine pour la fiche complète (objectifs, limites, matériaux).",
     laserType: "Type de laser",
     allTypes: "Tous les types",
-    maxPrice: "Prix max. (USD)",
+    maxPrice: "Prix max. (indicatif)",
     anyBudget: "Tous budgets",
     sortLabel: "Trier par",
     sortByScore: "Meilleure note",

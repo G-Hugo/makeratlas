@@ -1,7 +1,7 @@
 {
   "tagline": "Atomstack fermée Classe 1 : gravure bureau sûre pour la maison et les écoles",
   "tldr": "L’AtomStack P1 est une graveuse diode 5 W entièrement fermée Classe 1, avec packs double laser (diode + infrarouge) en option. Idéale quand la sécurité et le fonctionnement silencieux comptent plus que la puissance de découpe brute.",
-  "mainObjective": "Gravure fermée sûre pour débutants, familles et salles de classe",
+  "mainObjective": "Safe enclosed engraving for beginners, families, and classrooms",
   "primaryUse": "Safe enclosed intro laser for home crafters and education.",
   "beginnerNotes": "Cette fiche décrit AtomStack P1 5W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Choose dual bundle only if you need metal marking : otherwise 5W diode is enough to learn.",
@@ -14,9 +14,7 @@
   ],
   "pros": [
     "5W sur AtomStack P1 : priorité gravure : remplissages photo et cuir",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "AtomStack P1 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "AtomStack P1 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",

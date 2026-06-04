@@ -81,10 +81,10 @@
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "10W module · Ortur LM2 S2",
   "rating": {
-    "overall": 7.8,
-    "value": 8,
+    "overall": 8.1,
+    "value": 8.4,
     "easeOfUse": 8,
-    "capability": 9.4,
+    "capability": 9.2,
     "buildQuality": 7.5
   },
   "similarModels": [

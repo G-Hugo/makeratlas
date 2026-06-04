@@ -1,7 +1,7 @@
 {
   "tagline": "FoxAlien LE-4040 Pro : laser 20W sur châssis format 4040",
   "tldr": "La FoxAlien LE-4040 Pro 20W associe un châssis type 4040 à une diode 20W : format familier pour les utilisateurs CNC qui ajoutent la capacité laser. Alternative à la gamme Reizer avec une conception de châssis différente.",
-  "mainObjective": "Laser 20W format 4040 pour utilisateurs écosystème FoxAlien",
+  "mainObjective": "4040-format 20W laser for FoxAlien ecosystem users",
   "primaryUse": "4040-class FoxAlien 20W for engraving and moderate cutting.",
   "beginnerNotes": "Cette fiche décrit FoxAlien LE-4040 Pro 20W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,9 +12,7 @@
   ],
   "pros": [
     "Mix gravure + découpe légère : ~5 mm tilleul en plusieurs passes",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "FoxAlien LE-4040 Pro : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "FoxAlien LE-4040 Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",

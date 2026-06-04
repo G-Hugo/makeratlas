@@ -1,7 +1,7 @@
 {
   "tagline": "Le CO₂ petit budget classique : puissant mais attend du bricolage",
   "tldr": "L’évolution moderne du célèbre K40. Vraie puissance de découpe CO₂ au prix CO₂ le plus bas. Excellent rapport qualité-prix si vous aimez upgrader et réparer. Mauvais choix si vous voulez du plug-and-play sortie de boîte.",
-  "mainObjective": "Découpe CO₂ petit budget pour makers prêts à upgrader et entretenir",
+  "mainObjective": "Budget CO₂ cutting for makers willing to upgrade and maintain",
   "primaryUse": "Budget CO₂ laser cutting and engraving for makers willing to modify and maintain their machine.",
   "beginnerNotes": "Cette fiche décrit OMTech 40W CO₂ (K40 class). Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Install LightBurn and a Mini Gerbil or similar board if you outgrow stock software. Replace the stock exhaust fan immediately. Keep a fire extinguisher nearby : CO₂ cuts combustible materials.",
@@ -13,8 +13,7 @@
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "OMTech CO₂ (K40 class) : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

@@ -1,7 +1,7 @@
 {
   "tagline": "Module de marquage fibre de bureau : IR 1064 nm sur plateforme Atomstack",
   "tldr": "L’AtomStack A20 Pro 1064 nm est une variante fibre pour graver le métal sans banc galvo séparé. Catégorie de machine différente de la diode A20 Pro V2 : achetez-la pour le marquage métal, pas pour découper le bois.",
-  "mainObjective": "Marquage fibre de bureau pour cadeaux et outils en métal",
+  "mainObjective": "Desktop fiber marking for metal gifts and tools",
   "primaryUse": "Fiber marking for metal personalization on a desktop footprint.",
   "beginnerNotes": "Cette fiche décrit AtomStack A20 Pro 1064nm Fiber. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -11,8 +11,7 @@
     "Atomstack metal focus"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "AtomStack A20 Pro 1064nm Fiber : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
   ],
   "cons": [
     "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

@@ -1,7 +1,7 @@
 {
   "tagline": "CO₂ cheval de bataille pour ateliers ayant dépassé le 40 W : grand plateau, vraie vitesse production",
   "tldr": "Les machines CO₂ bureau/sol 80 W d’OMTech ciblent enseignistes et makers sérieux ayant besoin de découpes plus rapides sur acrylique et bois épais. Plus de puissance, plateaux plus grands et prix plus élevé que la classe K40. Attendez-vous à setup, ventilation et entretien : pas du plug-and-play.",
-  "mainObjective": "Production CO₂ haute puissance pour ateliers d’enseignes découpant acrylique et bois épais quotidiennement",
+  "mainObjective": "High-power CO₂ production for sign shops cutting thick acrylic & wood daily",
   "primaryUse": "Production CO₂ laser for sign making and thick material cutting in dedicated workshop spaces.",
   "beginnerNotes": "Cette fiche décrit OMTech 80W CO₂. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Install ammeter and water flow sensor early. Keep spare mirrors and lens : production downtime costs more than parts.",
@@ -13,8 +13,7 @@
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "OMTech CO₂ : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

@@ -1,7 +1,7 @@
 {
   "tagline": "S30 Pro milieu de gamme : 10 W sur la famille de châssis S30",
   "tldr": "Le Sculpfun S30 Pro 10 W est le SKU basse puissance du S30 Pro : même classe de châssis que le Pro Max mais moins de profondeur de découpe. Bon Sculpfun budget si vous n’avez pas besoin de 20 W.",
-  "mainObjective": "Sculpfun châssis S30 abordable pour travail orienté gravure",
+  "mainObjective": "Affordable S30-frame Sculpfun for engraving-first work",
   "primaryUse": "Mid-budget Sculpfun engraving on 400 mm bed.",
   "beginnerNotes": "Cette fiche décrit Sculpfun S30 Pro 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,9 +12,7 @@
   ],
   "pros": [
     "10W sur Sculpfun S30 Pro : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Sculpfun S30 Pro : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "Sculpfun S30 Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",

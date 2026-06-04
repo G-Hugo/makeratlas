@@ -85,10 +85,10 @@
   "proTips": "Use camera preview for batch placement but still run test cards for new materials : AI presets are starting points, not gospel. LightBurn unlocks more control when you outgrow the stock app.",
   "primaryUse": "Smart enclosed diode laser for beginners who want visual guidance and filtered home operation.",
   "rating": {
-    "overall": 8.1,
-    "value": 7.8,
+    "overall": 8,
+    "value": 7.4,
     "easeOfUse": 9.1,
-    "capability": 7.8,
+    "capability": 7.9,
     "buildQuality": 8
   },
   "similarModels": [

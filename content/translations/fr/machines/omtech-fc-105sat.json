@@ -1,7 +1,7 @@
 {
   "tagline": "OMTech FC-105SAT : variante SAT de la gamme découpeuse fibre FC-105",
   "tldr": "L’OMTech FC-105SAT est une variante de la famille FC-105 avec configuration SAT : même classe que FC-105SA pour découpe fibre tôle ; comparez les specs chez OMTech avant de choisir SA vs SAT vs T.",
-  "mainObjective": "Découpe fibre FC-105 avec configuration SAT",
+  "mainObjective": "FC-105 fiber cutting with SAT configuration",
   "primaryUse": "Fiber sheet cutting in the FC-105 family.",
   "beginnerNotes": "Cette fiche décrit OMTech FC-105SAT. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -10,8 +10,7 @@
     "OMTech fiber buyers comparing SKUs"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "OMTech FC-105SAT : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
   ],
   "cons": [
     "Fibre 105W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

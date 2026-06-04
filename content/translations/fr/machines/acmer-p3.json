@@ -1,7 +1,7 @@
 {
   "tagline": "Diode 20 W fermée avec caméra intégrée : réponse petit budget à la xTool S1",
   "tldr": "Acmer regroupe diode 20 W fermée, aperçu caméra et assistance air dans un pack à moins de 800 USD. Les performances se situent entre les machines structure ouverte entrée de gamme et la xTool S1. À envisager si le prix xTool freine mais que vous voulez boîtier et caméra.",
-  "mainObjective": "Gravure fermée abordable avec alignement caméra pour makers à domicile",
+  "mainObjective": "Affordable enclosed engraving with camera alignment for home makers",
   "primaryUse": "Budget enclosed diode laser for home engraving with camera-assisted alignment and moderate thin-material cutting.",
   "beginnerNotes": "Cette fiche décrit Acmer P3. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Use camera for placement but always run material test cards. Upgrade exhaust path if cutting frequently : built-in filters clog faster than ducting outside.",
@@ -13,9 +13,7 @@
   ],
   "pros": [
     "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Acmer P3 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "Acmer P3 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",

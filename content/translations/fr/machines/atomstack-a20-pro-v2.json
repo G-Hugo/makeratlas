@@ -1,20 +1,19 @@
 {
   "tagline": "Génération actuelle Atomstack A20 Pro : 20 W avec écosystème assistance air F60",
   "tldr": "L’AtomStack A20 Pro V2 remplace l’ancienne A20 Pro avec des optiques mises à jour et des options de pack. Atomstack milieu de gamme entre P1 et A40 : bons détails, pas la classe de puissance la plus élevée.",
-  "mainObjective": "Atomstack 20 W dernière génération pour gravure fine et découpe modérée",
-  "primaryUse": "Mid-range Atomstack diode for detailed work.",
+  "mainObjective": "Current-gen Atomstack 20W for fine engraving and moderate cutting",
+  "primaryUse": "Module 20W · AtomStack A20 Pro V2",
   "beginnerNotes": "Ce profil décrit le SKU 20W de AtomStack A20 Pro V2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Utilisez les benchmarks de cette fiche pour chiffrer vos devis. Testez sur chutes avant production.",
   "bestFor": [
     "Gravure + découpe",
-    "Side business",
+    "Petite activité",
     "Enseignes & boîtes",
     "Petites séries"
   ],
   "pros": [
     "Mix gravure + découpe légère : ~5 mm tilleul en plusieurs passes",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "AtomStack A20 Pro V2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",

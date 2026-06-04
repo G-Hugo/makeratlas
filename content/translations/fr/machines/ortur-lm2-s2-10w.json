@@ -1,10 +1,10 @@
 {
   "tagline": "Ortur LM2 S2 10 W : gravures plus rapides que le 5 W sur le même châssis",
   "tldr": "L’Ortur LM2 S2 10 W est le SKU haute puissance de la famille LM2 S2 : meilleure découpe sur bois fin et remplissages plus rapides que le 5 W, toujours structure ouverte et orienté budget.",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère à modérée",
-  "primaryUse": "10W module · Ortur LM2 S2",
+  "mainObjective": "Priorité gravure avec découpe occasionnelle sur petites épaisseurs",
+  "primaryUse": "Module 10W · Ortur LM2 S2",
   "beginnerNotes": "Ce profil décrit le SKU 10W de Ortur LM2 S2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
+  "proTips": "Optimisez la gravure avant la découpe : vitesse de balayage plus basse pour les photos. L’assistance air reste utile sur le cuir et le bois fin.",
   "bestFor": [
     "Atelier gravure",
     "Cuir & bois cadeau",
@@ -12,11 +12,11 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "10W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir"
+    "10W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
     "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],

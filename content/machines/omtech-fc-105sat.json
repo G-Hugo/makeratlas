@@ -77,10 +77,10 @@
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Fiber sheet cutting in the FC-105 family.",
   "rating": {
-    "overall": 7.8,
-    "value": 8,
+    "overall": 7.7,
+    "value": 7.5,
     "easeOfUse": 8,
-    "capability": 7.5,
+    "capability": 7.9,
     "buildQuality": 7.5
   },
   "similarModels": [

@@ -1,20 +1,19 @@
 {
   "tagline": "Découpeuse CO₂ de bureau Atomstack : tube 55 W dans un châssis fermé moderne",
   "tldr": "L’AtomStack Hurricane apporte la découpe CO₂ aux acheteurs Atomstack qui ont dépassé les diodes. Découpe acrylique et bois plus épais que toute diode de cette gamme de prix. Nécessite de la place, de la ventilation et une discipline de refroidissement eau : pas adaptée à un appartement.",
-  "mainObjective": "CO₂ de bureau pour découpe acrylique et production bois au-delà des limites diode",
+  "mainObjective": "Desktop CO₂ for acrylic cutting and wood production beyond diode limits",
   "primaryUse": "Desktop CO₂ production for acrylic gifts, signage, and wood cutting.",
   "beginnerNotes": "Cette fiche décrit AtomStack Hurricane 55W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Budget for exhaust hose and water chiller checks. LightBurn is the professional choice.",
   "bestFor": [
-    "Acrylic cutting",
-    "Wood signs",
+    "Découpe",
+    "Enseignes & boîtes",
     "Atomstack brand fans",
     "CO₂ first-timers with space"
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "AtomStack Hurricane : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

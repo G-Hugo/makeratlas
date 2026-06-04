@@ -63,7 +63,7 @@ export const pagesContentEn: Pick<
       "Laser spot size affects fine detail in engraving and usually varies with optical power. Motion precision (e.g. 0.01 mm) describes the frame, often identical across tiers on the same model line.",
     ratingsTitle: "Ratings (1–10)",
     ratingsBody:
-      "Scores are editorial and relative to class and price. A 7/10 is a solid machine with clear trade-offs, not a school grade.",
+      "Scores are editorial and relative to laser class and indicative price: capability steps up with power within a product line, value favors lower-priced peers in the same category, and overall blends those criteria with ease of use and build. A 7/10 is a solid machine with clear trade-offs, not a school grade.",
     updatesTitle: "Updates",
     updatesBody:
       "Profiles are revised when lines, modules, or major specs change. The visible “last updated” date reflects content review, not a daily price crawl.",

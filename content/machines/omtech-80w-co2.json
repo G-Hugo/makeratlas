@@ -89,10 +89,10 @@
   "proTips": "Install ammeter and water flow sensor early. Keep spare mirrors and lens : production downtime costs more than parts.",
   "primaryUse": "Production CO₂ laser for sign making and thick material cutting in dedicated workshop spaces.",
   "rating": {
-    "overall": 8.6,
-    "value": 8.7,
+    "overall": 8.3,
+    "value": 8,
     "easeOfUse": 7,
-    "capability": 9.3,
+    "capability": 8.8,
     "buildQuality": 8
   },
   "similarModels": [

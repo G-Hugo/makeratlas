@@ -11,7 +11,7 @@ import type { Machine } from "@/types/machine";
 
 type MachineLabels = Dictionary["machine"];
 
-/** Catalog card : USD list prices only (hidden on /fr). */
+/** Catalog card : primary currency by locale (USD en, EUR indicatif fr). */
 export function CatalogCardPrice({
   entry,
   locale,
@@ -21,15 +21,12 @@ export function CatalogCardPrice({
   locale: Locale;
   className?: string;
 }) {
-  if (locale !== "en") return null;
-
-  const secondary = formatCatalogPriceSecondary(entry, "en");
+  const primary = formatCatalogPrice(entry, locale);
+  const secondary = formatCatalogPriceSecondary(entry, locale);
 
   return (
     <div className={className}>
-      <p className="text-sm font-semibold text-stone-900 dark:text-stone-100">
-        {formatCatalogPrice(entry, "en")}
-      </p>
+      <p className="text-sm font-semibold text-stone-900 dark:text-stone-100">{primary}</p>
       {secondary && (
         <p className="text-xs text-stone-500 dark:text-stone-400">{secondary}</p>
       )}
@@ -37,7 +34,7 @@ export function CatalogCardPrice({
   );
 }
 
-/** Detail sidebar : USD + approximate EUR, optional SKU note. */
+/** Detail sidebar : indicative range + secondary currency, optional SKU note. */
 export function MachineDetailPrice({
   machine,
   locale,
@@ -49,10 +46,10 @@ export function MachineDetailPrice({
   labels: MachineLabels;
   variant?: "card" | "inline";
 }) {
-  if (locale !== "en") return null;
-
   const { min, max, note } = machine.priceRange;
   const { usd, eurApprox } = formatDualPriceRange(min, max);
+  const primary = locale === "fr" ? eurApprox : usd;
+  const secondary = locale === "fr" ? usd : eurApprox;
 
   if (variant === "inline") {
     return (
@@ -60,8 +57,8 @@ export function MachineDetailPrice({
         <p className="text-xs font-medium uppercase tracking-wide text-stone-500 dark:text-stone-400">
           {labels.price}
         </p>
-        <p className="mt-0.5 text-2xl font-bold text-stone-900 dark:text-stone-100">{usd}</p>
-        <p className="text-sm text-stone-500 dark:text-stone-400">≈ {eurApprox}</p>
+        <p className="mt-0.5 text-2xl font-bold text-stone-900 dark:text-stone-100">{primary}</p>
+        <p className="text-sm text-stone-500 dark:text-stone-400">≈ {secondary}</p>
         {note?.trim() && (
           <p className="mt-1 max-w-xs text-xs text-stone-600 dark:text-stone-400">{note}</p>
         )}
@@ -74,8 +71,8 @@ export function MachineDetailPrice({
       <p className="text-xs font-medium uppercase tracking-wide text-stone-500 dark:text-stone-400">
         {labels.price}
       </p>
-      <p className="mt-1 text-2xl font-bold text-stone-900 dark:text-stone-100">{usd}</p>
-      <p className="text-sm text-stone-500 dark:text-stone-400">≈ {eurApprox}</p>
+      <p className="mt-1 text-2xl font-bold text-stone-900 dark:text-stone-100">{primary}</p>
+      <p className="text-sm text-stone-500 dark:text-stone-400">≈ {secondary}</p>
       {note?.trim() && (
         <p className="mt-2 text-xs leading-relaxed text-stone-600 dark:text-stone-400">
           {note}
@@ -96,7 +93,7 @@ export function MachineDetailPrice({
   );
 }
 
-/** Compare table cell : compact USD range. */
+/** Compare table cell : compact indicative range. */
 export function ComparePriceCell({
   machine,
   locale,
@@ -104,8 +101,10 @@ export function ComparePriceCell({
   machine: Machine;
   locale: Locale;
 }) {
-  if (locale !== "en") return null;
-
-  const { usd } = formatDualPriceRange(machine.priceRange.min, machine.priceRange.max);
-  return <span className="font-medium text-stone-900 dark:text-stone-100">{usd}</span>;
+  const { usd, eurApprox } = formatDualPriceRange(
+    machine.priceRange.min,
+    machine.priceRange.max,
+  );
+  const primary = locale === "fr" ? eurApprox : usd;
+  return <span className="font-medium text-stone-900 dark:text-stone-100">{primary}</span>;
 }

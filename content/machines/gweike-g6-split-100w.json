@@ -84,10 +84,10 @@
   "proTips": "Push speed only after depth tests on your metal alloy. Cooling and lens cleanliness matter more at this power level.",
   "primaryUse": "High-power fiber for metal-focused shops needing line-top throughput",
   "rating": {
-    "overall": 8.6,
-    "value": 8.4,
+    "overall": 8.5,
+    "value": 7.9,
     "easeOfUse": 8,
-    "capability": 9.2,
+    "capability": 9.3,
     "buildQuality": 8.5
   },
   "similarModels": [

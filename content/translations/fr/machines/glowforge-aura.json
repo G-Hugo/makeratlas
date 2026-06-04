@@ -1,7 +1,7 @@
 {
   "tagline": "Laser CO₂ grand public avec la configuration la plus simple : au prix d'un abonnement",
   "tldr": "Le laser CO₂ compact de Glowforge conçu pour les créateurs. Logiciel facile, mise en route rapide et découpe correcte pour matériaux fins. Le piège : prix matériel premium plus abonnement obligatoire pour les fonctions complètes, et une zone de travail plus petite que le xTool P2.",
-  "mainObjective": "Configuration CO₂ la plus simple pour les créateurs qui ne veulent aucun bricolage",
+  "mainObjective": "Easiest CO₂ setup for crafters who want zero tinkering",
   "primaryUse": "Simple CO₂ cutting and engraving for crafters who prioritize ease of use over power and cost efficiency.",
   "beginnerNotes": "Cette fiche décrit Glowforge Aura. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Factor subscription cost over 2–3 years into your budget. Proofgrade materials are convenient but expensive : third-party plywood works with testing. Aura is craft-scale, not sign-shop scale.",
@@ -13,8 +13,7 @@
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Glowforge Aura : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

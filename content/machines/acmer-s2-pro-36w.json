@@ -77,10 +77,10 @@
   "proTips": "On the 36W S2 Pro, run separate LightBurn profiles for photo fills versus basswood cuts. Push cut speed only after 10×10 cm test squares. Compare the 48W tier if evening batches still feel slow.",
   "primaryUse": "36W module · Acmer S2 Pro",
   "rating": {
-    "overall": 8,
-    "value": 8,
+    "overall": 7.7,
+    "value": 7.6,
     "easeOfUse": 8,
-    "capability": 7,
+    "capability": 6.9,
     "buildQuality": 7.8
   },
   "similarModels": [

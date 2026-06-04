@@ -6,6 +6,7 @@ import type { Dictionary } from "@/i18n/get-dictionary";
 import { interpolate, laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import { machineMatchesLaserType } from "@/lib/laser-capabilities";
 import { ComparePriceCell } from "@/components/pricing/MachinePrice";
+import { formatMoney, usdToEur } from "@/lib/pricing";
 import type { Machine, LaserType } from "@/types/machine";
 import { useMemo, useState } from "react";
 
@@ -38,7 +39,7 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
   const [maxPrice, setMaxPrice] = useState<MaxPriceFilter>("all");
   const [sort, setSort] = useState<SortKey>("score");
 
-  const showPrice = locale === "en";
+  const showPrice = true;
 
   const filtered = useMemo(() => {
     const priceCap =
@@ -121,7 +122,9 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
               <option value="all">{c.anyBudget}</option>
               {MAX_PRICE_OPTIONS.filter((o) => o.usd !== null).map((o) => (
                 <option key={o.value} value={o.value}>
-                  ≤ ${o.usd}
+                  {locale === "fr"
+                    ? `≤ ${formatMoney(usdToEur(o.usd), "EUR")}`
+                    : `≤ $${o.usd}`}
                 </option>
               ))}
             </select>

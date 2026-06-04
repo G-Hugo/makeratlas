@@ -1,7 +1,7 @@
 {
   "tagline": "Fibre MOPA pour le marquage couleur et la gravure métal profonde",
   "tldr": "La ComMarker B6 ajoute une fibre MOPA pour les effets couleur sur l'inox et un contrôle plus fin en gravure métal profonde. Montée en gamme par rapport à la B4 pour les ateliers qui ont besoin du marquage couleur ou de cycles de production plus rapides.",
-  "mainObjective": "Marquage fibre MOPA avec couleur sur inox et travail métal en production",
+  "mainObjective": "MOPA fiber marking with color on stainless and production metal work",
   "primaryUse": "Professional metal marking with optional color effects for premium personalization.",
   "beginnerNotes": "Cette fiche décrit ComMarker B6 MOPA 30W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Build fixture jigs for repeat jobs. Keep lens clean : contamination shows on high-contrast marks.",
@@ -12,8 +12,7 @@
     "Knives & tools"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "ComMarker B6 MOPA : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
   ],
   "cons": [
     "Fibre 30W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

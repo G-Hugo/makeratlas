@@ -1,7 +1,7 @@
 {
   "tagline": "Diode Atezr fermée avec assistance air : sécurité au centre, budget intermédiaire",
   "tldr": "L’Atezr P2 rivalise avec l’Acmer P3 et le xTool S1 dans le segment diode fermé. Gravure correcte, découpe modérée. Moins de documentation communautaire que xTool : vérifiez le support dans votre région.",
-  "mainObjective": "Diode fermée budget intermédiaire pour une gravure domestique plus sûre",
+  "mainObjective": "Enclosed mid-budget diode for safer home engraving",
   "primaryUse": "Enclosed 20W diode for apartment-friendly engraving and light cutting.",
   "beginnerNotes": "Cette fiche décrit Atezr P2. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -13,9 +13,7 @@
   ],
   "pros": [
     "Mix gravure + découpe légère : ~5 mm tilleul en plusieurs passes",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Atezr P2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "Atezr P2 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents"

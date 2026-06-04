@@ -115,15 +115,35 @@ function pickTranslated(en: string, fr?: string): string {
   return en;
 }
 
-function pickTranslatedList(en: string[], fr?: string[]): string[] {
-  if (!fr?.length) return en;
-  return en.map((item, i) => pickTranslated(item, fr[i]));
+function localizeListItem(item: string, mode: "bestFor" | "bullet"): string {
+  if (mode === "bestFor") {
+    return localizeBestForTag(normalizeCommonEnglishToFrench(item));
+  }
+  return normalizeFiberToFibre(normalizeCommonEnglishToFrench(item));
+}
+
+function pickTranslatedList(
+  en: string[],
+  fr: string[] | undefined,
+  mode: "bestFor" | "bullet" = "bullet",
+): string[] {
+  if (!fr?.length) {
+    return en.map((item) => localizeListItem(item, mode));
+  }
+  return en.map((item, i) => {
+    const candidate = fr[i];
+    if (candidate && !isBrokenTranslation(candidate) && !looksEnglishResidue(candidate)) {
+      return candidate;
+    }
+    return localizeListItem(candidate && !isBrokenTranslation(candidate) ? candidate : item, mode);
+  });
 }
 
 function localizeBestForTag(tag: string): string {
   const lower = tag.trim().toLowerCase();
   const map: Record<string, string> = {
     "small business": "Petite entreprise",
+    "side business": "Petite activité",
     "etsy sellers": "Vendeurs Etsy",
     "sticker makers": "Créateurs de stickers",
     crafters: "Créateurs",
@@ -364,7 +384,15 @@ export function localizeMachine(machine: Machine, locale: Locale): Machine {
   if (locale !== "fr") return machine;
 
   const tr = loadMachineTranslation(machine.slug);
-  if (!tr) return sanitizeFrenchResiduals(machine);
+  if (!tr) {
+    const fallback = {
+      ...machine,
+      bestFor: pickTranslatedList(machine.bestFor, undefined, "bestFor"),
+      pros: pickTranslatedList(machine.pros, undefined, "bullet"),
+      cons: pickTranslatedList(machine.cons, undefined, "bullet"),
+    };
+    return sanitizeFrenchResiduals(fallback);
+  }
 
   const localized: Machine = {
     ...machine,
@@ -374,9 +402,9 @@ export function localizeMachine(machine: Machine, locale: Locale): Machine {
     primaryUse: pickTranslated(machine.primaryUse, tr.primaryUse),
     beginnerNotes: pickTranslated(machine.beginnerNotes, tr.beginnerNotes),
     proTips: pickTranslated(machine.proTips, tr.proTips),
-    bestFor: pickTranslatedList(machine.bestFor, tr.bestFor),
-    pros: pickTranslatedList(machine.pros, tr.pros),
-    cons: pickTranslatedList(machine.cons, tr.cons),
+    bestFor: pickTranslatedList(machine.bestFor, tr.bestFor, "bestFor"),
+    pros: pickTranslatedList(machine.pros, tr.pros, "bullet"),
+    cons: pickTranslatedList(machine.cons, tr.cons, "bullet"),
     materials: pickMaterials(machine.materials, tr.materials),
     faq: machine.faq ? pickFaq(machine.faq, tr.faq) : machine.faq,
     images: mergeImages(machine.images, tr.images),

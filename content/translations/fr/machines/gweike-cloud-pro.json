@@ -1,7 +1,7 @@
 {
   "tagline": "CO₂ de bureau connecté au cloud : populaire dans les communautés makers",
   "tldr": "Le Gweike Cloud Pro offre une découpe CO₂ enceinte fermée avec fonctions cloud et un prix compétitif vs le xTool P2. Bon CO₂ milieu-premium si vous voulez LightBurn et le support communautaire. Vérifiez la garantie locale avant achat.",
-  "mainObjective": "CO₂ enceinte connecté pour travail acrylique et bois petite entreprise",
+  "mainObjective": "Connected enclosed CO₂ for acrylic and wood small business work",
   "primaryUse": "Mid-premium enclosed CO₂ for acrylic and wood product businesses.",
   "beginnerNotes": "Cette fiche décrit Gweike Cloud Pro. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run LightBurn for production jobs even if cloud UI is convenient for tests.",
@@ -13,8 +13,7 @@
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Gweike Cloud Pro : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

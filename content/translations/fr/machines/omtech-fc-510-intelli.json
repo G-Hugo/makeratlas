@@ -1,7 +1,7 @@
 {
   "tagline": "OMTech FC-510 Intelli-Cut : plateforme fibre format intermédiaire pour découpe",
   "tldr": "L’OMTech FC-510 Intelli est une machine de découpe fibre plus grande que les unités de bureau FC-44/105 : conçue pour la tôle et les découpes de type industriel avec les fonctions Intelli-Cut, pas pour le travail diode loisir.",
-  "mainObjective": "Découpe fibre en atelier au-delà des machines de marquage de bureau",
+  "mainObjective": "Shop fiber cutting beyond desktop marking machines",
   "primaryUse": "Small-business fiber sheet cutting.",
   "beginnerNotes": "Cette fiche décrit OMTech FC-510 Intelli. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -11,8 +11,7 @@
     "OMTech fiber line"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "OMTech FC-510 Intelli : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
   ],
   "cons": [
     "Fibre 510W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

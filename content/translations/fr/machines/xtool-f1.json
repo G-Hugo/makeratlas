@@ -1,7 +1,7 @@
 {
   "tagline": "Fibre + diode compact d’origine : marquage métal dans une boîte portable",
   "tldr": "La F1 a lancé la catégorie laser double compact. Plus lente que la F1 Ultra mais souvent moins chère en promo. Toujours spécialiste du marquage métal avec petit plateau : pas un laser d’atelier polyvalent.",
-  "mainObjective": "Marquage métal compact plus gravure diode légère pour petits objets",
+  "mainObjective": "Compact metal marking plus light diode engraving for small items",
   "primaryUse": "Entry compact dual-laser for metal personalization and small organic-material engraving.",
   "beginnerNotes": "Cette fiche décrit xTool F1. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Use rotary for rings. F1 Ultra is worth the upgrade if you run production metal batches.",
@@ -12,12 +12,10 @@
     "Budget vs F1 Ultra"
   ],
   "pros": [
-    "10W sur xTool F1 : priorité gravure : remplissages photo et cuir",
-    "xTool F1 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "xTool F1 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "10W sur xTool F1 : priorité gravure : remplissages photo et cuir"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
+    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
     "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"
   ],

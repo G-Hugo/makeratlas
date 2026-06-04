@@ -1,22 +1,22 @@
 {
   "tagline": "Laser diode 5 W ultra petit budget : point d’entrée minimum viable",
   "tldr": "L’Atomstack A5 Pro 5 W est la référence 5 W de la gamme A5 Pro. L’un des moyens les moins chers d’essayer la gravure laser. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing en watts cumulés.",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "primaryUse": "Module 5W · Atomstack A5 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 5W de Atomstack A5 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
   "bestFor": [
-    "Gravure fine",
-    "Photo & logo",
-    "Cadeaux & ardoise",
-    "Première machine"
+    "Gravure",
+    "Photo & logo work",
+    "Petites séries",
+    "First machine"
   ],
   "pros": [
-    "Open-frame : lunettes laser et ventilation à votre charge",
-    "5W sur Atomstack A5 Pro : priorité gravure : remplissages photo et cuir"
+    "5W sur Atomstack A5 Pro : priorité gravure : remplissages photo et cuir",
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
-    "Ce module vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
+    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
     "Modules plus puissants dans la gamme (10W ou 20W) : découpe plus rapide et plus profonde",
     "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
     "Open-frame : enfants, animaux et fumées non confinées"

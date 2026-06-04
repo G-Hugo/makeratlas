@@ -1,7 +1,7 @@
 {
   "tagline": "LaserPecker portable infrarouge pour marquage métal et plastique",
   "tldr": "Le LaserPecker LP3 se concentre sur le marquage infrarouge pour métal et plastiques techniques en format portable. Différent du LP4/LP5 : à privilégier si votre travail porte sur étiquettes métal et plastique, pas sur la découpe bois volumineuse.",
-  "mainObjective": "Marquage IR portable pour personnalisation métal et plastique",
+  "mainObjective": "Portable IR marking for metal and plastic personalization",
   "primaryUse": "Portable infrared marking for metal and plastic items.",
   "beginnerNotes": "Cette fiche décrit LaserPecker LP3. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -13,9 +13,7 @@
   ],
   "pros": [
     "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "LaserPecker LP3 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "LaserPecker LP3 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vérifiez le SKU LP3 infrarouge : même châssis, modules différents",

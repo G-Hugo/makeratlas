@@ -1,7 +1,7 @@
 {
   "tagline": "Diode fermée assistée par IA avec aperçu en direct : laser intelligent pour débutants",
   "tldr": "Le laser diode fermé WeCreat ajoute caméra et fonctions IA pour la détection des matériaux et l’aperçu visuel. Attractif pour les débutants qui veulent être guidés. Les perfs laser restent comparables aux autres diodes fermées : vous payez les fonctions intelligentes.",
-  "mainObjective": "Gravure fermée guidée par IA pour un flux visuel et accessible aux débutants",
+  "mainObjective": "AI-guided enclosed engraving for visual, beginner-friendly workflow",
   "primaryUse": "Smart enclosed diode laser for beginners who want visual guidance and filtered home operation.",
   "beginnerNotes": "Cette fiche décrit WeCreat Vision. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Use camera preview for batch placement but still run test cards for new materials : AI presets are starting points, not gospel. LightBurn unlocks more control when you outgrow the stock app.",
@@ -13,9 +13,7 @@
   ],
   "pros": [
     "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "WeCreat Vision : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "WeCreat Vision : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents"

@@ -81,10 +81,10 @@
   "proTips": "Run glass test tiles at low power : UV on glass is unforgiving. Keep dedicated ventilation practices for UV fumes per Creality guidance.",
   "primaryUse": "5W UV galvo module for glass and specialty marking on the Creality Falcon T1 chassis.",
   "rating": {
-    "overall": 8.4,
-    "value": 7.8,
+    "overall": 8.1,
+    "value": 7.2,
     "easeOfUse": 8.3,
-    "capability": 8.7,
+    "capability": 8,
     "buildQuality": 8.5
   },
   "similarModels": [

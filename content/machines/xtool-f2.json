@@ -85,10 +85,10 @@
   "proTips": "Use conveyor accessory for tags and flat blanks. Keep IR and diode material libraries separate : power curves are not interchangeable.",
   "primaryUse": "2025 compact galvo for high-speed metal marking plus light organic engraving and cutting.",
   "rating": {
-    "overall": 8.8,
-    "value": 8.4,
+    "overall": 8.6,
+    "value": 8,
     "easeOfUse": 9,
-    "capability": 8.7,
+    "capability": 8.5,
     "buildQuality": 8.8
   },
   "similarModels": [

@@ -63,7 +63,7 @@ export const pagesContentFr: Pick<
       "La taille du spot laser influence le détail en gravure et varie souvent avec la puissance optique. La précision de déplacement (ex. 0,01 mm) décrit le châssis, souvent identique sur toute la gamme.",
     ratingsTitle: "Notes (1–10)",
     ratingsBody:
-      "Scores éditoriaux relatifs à la catégorie et au prix. Un 7/10 signifie une bonne machine avec des compromis clairs, pas une note scolaire.",
+      "Scores éditoriaux relatifs au type de laser et au prix indicatif : la capacité monte avec la puissance sur une même gamme, le rapport qualité-prix favorise les machines moins chères dans leur catégorie, et la note globale combine ces critères. Un 7/10 reste une bonne machine avec des compromis clairs, pas une note scolaire.",
     updatesTitle: "Mises à jour",
     updatesBody:
       "Les fiches sont révisées quand les lignes, modules ou specs majeures changent. La date affichée reflète une revue éditoriale, pas une mise à jour prix en temps réel.",

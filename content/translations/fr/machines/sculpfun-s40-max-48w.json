@@ -1,7 +1,7 @@
 {
   "tagline": "Sculpfun grand format 2025 : plateau 830×800 mm et diode compressée 48 W",
   "tldr": "Le S40 MAX (2025) vise les makers qui ont dépassé les châssis 400 mm : zone 830×800 mm, 48 W optiques, autofocus et Wi-Fi via écran TS1. Conçu pour panneaux enseignes et découpe en série : vérifiez le poids à l’expédition et l’espace atelier avant commande.",
-  "mainObjective": "Sculpfun diode extra-large pour grands panneaux et découpe type production",
+  "mainObjective": "Extra-large Sculpfun diode for big panels and production-style cutting",
   "primaryUse": "2025 large-area Sculpfun for engraving and cutting oversized wood, leather, and acrylic panels.",
   "beginnerNotes": "Cette fiche décrit Sculpfun S40 MAX 48W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Use Z-axis offset per pass in LightBurn for flatter thick cuts. Budget 50L+ air assist for claimed one-pass thick cuts.",
@@ -14,8 +14,7 @@
   "pros": [
     "Meilleure marge de découpe de la gamme : ~20 mm tilleul en benchmark",
     "48W : tête la plus orientée découpe de Sculpfun S40 MAX",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Sculpfun S40 MAX : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",

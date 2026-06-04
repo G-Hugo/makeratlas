@@ -2,14 +2,14 @@
   "tagline": "5 W : le laser diode structure ouverte le plus populaire pour les makers qui dépassent l’entrée de gamme",
   "tldr": "La xTool D1 Pro 5 W est la version 5 W de la gamme D1 Pro. Laser diode structure ouverte bien construit, disponible jusqu’à 20 W. Vérifiez la puissance optique sur l’annonce : ne vous fiez pas au marketing « watts combinés ».",
   "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "5W module · xTool D1 Pro",
+  "primaryUse": "Module 5W · xTool D1 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 5W de xTool D1 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next module before assuming you need more power.",
   "bestFor": [
-    "Gravure fine",
-    "Photo & logo",
-    "Cadeaux & ardoise",
-    "Première machine"
+    "Gravure",
+    "Photo & logo work",
+    "Petites séries",
+    "First machine"
   ],
   "pros": [
     "Open-frame : lunettes laser et ventilation à votre charge",

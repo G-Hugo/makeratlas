@@ -1,7 +1,7 @@
 {
   "tagline": "OMTech FC-105SA : plateforme de découpe fibre industrielle",
   "tldr": "L’OMTech FC-105SA est un système de découpe laser fibre pour travail tôle : au-delà des galvos de marquage bureau. Investissement sérieux pour ateliers découpant acier/aluminium, pas pour gravure bois loisir.",
-  "mainObjective": "Découpe laser fibre pour ateliers de fabrication métal",
+  "mainObjective": "Fiber laser cutting for metal fabrication shops",
   "primaryUse": "Metal sheet cutting for small fabrication businesses.",
   "beginnerNotes": "Cette fiche décrit OMTech FC-105SA Fiber. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,8 +12,7 @@
     "Business"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "OMTech FC-105SA Fiber : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
   ],
   "cons": [
     "Fibre 105W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

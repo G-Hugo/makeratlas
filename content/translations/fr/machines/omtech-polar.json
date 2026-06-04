@@ -1,7 +1,7 @@
 {
   "tagline": "CO₂ Polar de bureau : CO₂ compact pour makers qui passent du diode",
   "tldr": "L’OMTech Polar intègre la découpe CO₂ dans un encombrement de bureau plus réduit que les caisses K40 traditionnelles. Bon pont entre la frustration du diode et un CO₂ d’atelier complet. Ventilation et courbe d’apprentissage restent nécessaires.",
-  "mainObjective": "CO₂ de bureau compact pour acrylique et bois sans l’encombrement d’un K40",
+  "mainObjective": "Compact desktop CO₂ for acrylic and wood without full K40 bulk",
   "primaryUse": "Compact CO₂ laser for makers transitioning from diode to real acrylic cutting.",
   "beginnerNotes": "Cette fiche décrit OMTech Polar. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -13,8 +13,7 @@
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "OMTech Polar : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

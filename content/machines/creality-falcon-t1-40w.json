@@ -86,10 +86,10 @@
   "proTips": "Price the full module roadmap before committing : 40W plus later fiber can exceed a single F2 Ultra bundle.",
   "primaryUse": "High-power diode module for enclosed galvo cutting and engraving on the Falcon T1 chassis.",
   "rating": {
-    "overall": 8.7,
-    "value": 8.1,
+    "overall": 8.5,
+    "value": 7.3,
     "easeOfUse": 8.5,
-    "capability": 9.1,
+    "capability": 8.9,
     "buildQuality": 8.5
   },
   "similarModels": [

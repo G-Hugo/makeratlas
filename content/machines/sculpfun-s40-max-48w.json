@@ -87,10 +87,10 @@
   "proTips": "Use Z-axis offset per pass in LightBurn for flatter thick cuts. Budget 50L+ air assist for claimed one-pass thick cuts.",
   "primaryUse": "2025 large-area Sculpfun for engraving and cutting oversized wood, leather, and acrylic panels.",
   "rating": {
-    "overall": 8.7,
-    "value": 8.8,
+    "overall": 8.5,
+    "value": 7.9,
     "easeOfUse": 8.2,
-    "capability": 9,
+    "capability": 8.5,
     "buildQuality": 8.5
   },
   "similarModels": [

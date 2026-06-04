@@ -1,7 +1,7 @@
 {
   "tagline": "Alternative classe K40 avec qualité de fabrication et support Monport",
   "tldr": "Le CO₂ bureau 40 W de Monport se situe aux côtés de la classe OMTech K40 avec souvent une meilleure expérience sortie de boîte. CO₂ d’entrée pour acrylique et bois. Ventilation et apprentissage restent nécessaires.",
-  "mainObjective": "Découpe CO₂ d’entrée avec moins de mods obligatoires qu’un K40 classique",
+  "mainObjective": "Entry CO₂ cutting with fewer mandatory mods than classic K40",
   "primaryUse": "Budget desktop CO₂ for learning acrylic and wood cutting.",
   "beginnerNotes": "Cette fiche décrit Monport 40W CO₂. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -13,8 +13,7 @@
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Monport CO₂ : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

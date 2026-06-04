@@ -1,15 +1,15 @@
 {
   "tagline": "Laser UV de bureau pour verre, plastique et fines détails",
   "tldr": "La ComMarker Omni X utilise la longueur d'onde UV pour un marquage à froid sur le verre, certains plastiques et matériaux délicats, avec moins de dégâts thermiques qu'une fibre ou un CO₂. Plus lente que la fibre sur le métal : un outil différent pour des matériaux différents.",
-  "mainObjective": "Gravure loisir bois, cuir et métal revêtu avec découpe légère",
-  "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
+  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "primaryUse": "Module 5W · ComMarker Omni X UV",
   "beginnerNotes": "Ce profil décrit le SKU 5W de ComMarker Omni X UV. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
+  "proTips": "UV on glass: low power test tiles and fixturing matter more than speed. Keep dedicated presets away from fiber jobs. Confirm material compatibility with ComMarker before quoting UV gift lines.",
   "bestFor": [
-    "Gravure fine",
-    "Photo & logo",
-    "Cadeaux & ardoise",
-    "Première machine"
+    "Gravure",
+    "Photo & logo work",
+    "Petites séries",
+    "First machine"
   ],
   "pros": [
     "5W UV : marquage froid sur verre et plastiques sensibles à la chaleur"

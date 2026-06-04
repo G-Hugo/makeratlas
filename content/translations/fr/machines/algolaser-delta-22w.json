@@ -1,7 +1,7 @@
 {
   "tagline": "AlgoLaser Delta : 22 W à cinématique delta, boîtier en option",
   "tldr": "Le Delta 22 W emploie une cinématique delta dans un format compact, avec boîtier optionnel. Alternative cartésienne à l'Alpha MK2 : renseignez-vous en communauté sur la fiabilité et les pièces détachées avant d'acheter.",
-  "mainObjective": "AlgoLaser 22 W compatible boîtier pour makers attirés par la cinématique delta",
+  "mainObjective": "Enclosed-capable 22W AlgoLaser for makers who want delta kinematics",
   "primaryUse": "Compact AlgoLaser 22W for engraving and light-medium cutting.",
   "beginnerNotes": "Cette fiche décrit AlgoLaser Delta 22W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -14,8 +14,7 @@
   "pros": [
     "Meilleure marge de découpe de la gamme : ~5 mm tilleul en benchmark",
     "22W : tête la plus orientée découpe de AlgoLaser Delta",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "AlgoLaser Delta : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",

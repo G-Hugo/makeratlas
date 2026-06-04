@@ -1,7 +1,7 @@
 {
   "tagline": "FoxAlien Reizer 40W : haute puissance à structure ouverte de la marque CNC",
   "tldr": "La FoxAlien Reizer 40W est la diode phare de la gamme laser FoxAlien : découpe classe 40W pour les makers déjà dans l'écosystème CNC FoxAlien. Vérifiez la puissance optique ; comparez à l'Atomstack A40 et l'Ortur H20 40W.",
-  "mainObjective": "FoxAlien 40W à structure ouverte pour loisir orienté découpe ou activité secondaire",
+  "mainObjective": "40W FoxAlien open-frame for cutting-focused hobby or side business",
   "primaryUse": "High-power FoxAlien laser for cutting and fast engraving.",
   "beginnerNotes": "Cette fiche décrit FoxAlien Reizer 40W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -13,8 +13,7 @@
   "pros": [
     "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
     "40W : tête la plus orientée découpe de FoxAlien Reizer",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "FoxAlien Reizer : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",

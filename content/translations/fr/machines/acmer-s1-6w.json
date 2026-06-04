@@ -1,7 +1,7 @@
 {
   "tagline": "Acmer S1 de poche : diode ultra-portable pour petits projets",
   "tldr": "L'Acmer S1 est une mini graveuse portable (niveaux 2,5–6 W) pour tampons, petits cadeaux et déplacements. Ce n'est pas une machine d'atelier : elle complète un laser plus grand plutôt qu'elle ne le remplace.",
-  "mainObjective": "Micro-gravure portable pour petits objets et apprentissage",
+  "mainObjective": "Portable micro-engraving for small items and learning",
   "primaryUse": "Portable micro-engraver for small personalization.",
   "beginnerNotes": "Cette fiche décrit Acmer S1 6W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -14,9 +14,7 @@
   ],
   "pros": [
     "6W sur Acmer S1 : priorité gravure : remplissages photo et cuir",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Acmer S1 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "Acmer S1 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",

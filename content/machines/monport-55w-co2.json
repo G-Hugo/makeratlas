@@ -86,10 +86,10 @@
   "proTips": "Budget for exhaust fan upgrade if stock ventilation feels weak. Run a ramp test after delivery to verify focus across the bed. Keep tube cooling water clean : CO₂ tubes fail early with poor maintenance.",
   "primaryUse": "Mid-range CO₂ production for sign makers and Etsy sellers outgrowing K40-class machines.",
   "rating": {
-    "overall": 8.5,
-    "value": 8.8,
+    "overall": 8.4,
+    "value": 8.5,
     "easeOfUse": 7.8,
-    "capability": 9,
+    "capability": 8.7,
     "buildQuality": 8.2
   },
   "similarModels": [

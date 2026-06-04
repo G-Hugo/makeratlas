@@ -84,10 +84,10 @@
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
   "primaryUse": "10W module · Longer Ray5",
   "rating": {
-    "overall": 7.6,
-    "value": 7.8,
+    "overall": 7.7,
+    "value": 8.3,
     "easeOfUse": 8.5,
-    "capability": 7.4,
+    "capability": 7.5,
     "buildQuality": 7.2
   },
   "similarModels": [

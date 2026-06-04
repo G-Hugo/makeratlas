@@ -1,7 +1,7 @@
 {
   "tagline": "Monport GA 100 W MOPA : gravure métal profonde et effets couleur",
   "tldr": "Le Monport GA 100 W MOPA cible les ateliers de gravure métal sérieux nécessitant marques profondes et couleur sur inox. Prix et encombrement industriels : pas un galvo bureau classe B4.",
-  "mainObjective": "Fibre MOPA haute puissance pour gravure profonde et travail couleur sur métal",
+  "mainObjective": "High-power MOPA fiber for deep engraving and color metal work",
   "primaryUse": "Production MOPA fiber for deep and color metal engraving.",
   "beginnerNotes": "Cette fiche décrit Monport GA 100W MOPA Fiber. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,8 +12,7 @@
     "Industrial hobbyists"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Monport GA MOPA Fiber : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
   ],
   "cons": [
     "Fibre 100W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

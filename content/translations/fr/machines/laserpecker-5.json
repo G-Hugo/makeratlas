@@ -1,7 +1,7 @@
 {
   "tagline": "Dernier LaserPecker portable avec puissance et app améliorées",
   "tldr": "Le LaserPecker LP5 combine sources fibre et diode pour marquage métal plus gravure organique dans un châssis portable. Machine spécialisée voyage/événement : pas un remplacement d’atelier complet.",
-  "mainObjective": "Fibre + diode portable pour gravure métal et bois sur place",
+  "mainObjective": "Portable fiber + diode for on-site metal and wood engraving",
   "primaryUse": "Premium portable engraver for on-site personalization of small items.",
   "beginnerNotes": "Cette fiche décrit LaserPecker 5. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,9 +12,7 @@
     "Small metal/wood gifts"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "LaserPecker 5 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "LaserPecker 5 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",

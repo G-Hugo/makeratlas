@@ -1,7 +1,7 @@
 {
   "tagline": "Découpeuse laser fibre industrielle pour tôle métal (pas un marqueur bureau)",
   "tldr": "L’OMTech FC-105 est une plateforme de découpe laser fibre pour tôle : une classe différente des marqueurs galvo bureau. Répertoriée pour les acheteurs cherchant « laser fibre » et devant distinguer découpeuses et marqueurs.",
-  "mainObjective": "Découpe fibre tôle pour ateliers de fabrication",
+  "mainObjective": "Sheet metal fiber cutting for fabrication shops",
   "primaryUse": "Industrial sheet metal fiber laser cutting.",
   "beginnerNotes": "Cette fiche décrit OMTech FC-105 Fiber. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,8 +12,7 @@
     "Not hobby desks"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "OMTech FC-105 Fiber : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
   ],
   "cons": [
     "Fibre 1050W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

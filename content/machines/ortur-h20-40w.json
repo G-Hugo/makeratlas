@@ -82,10 +82,10 @@
   "proTips": "Treat engraving and cutting as separate profiles on the H20. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
   "primaryUse": "40W module · Ortur H20",
   "rating": {
-    "overall": 8,
-    "value": 8,
+    "overall": 8.1,
+    "value": 7.3,
     "easeOfUse": 8,
-    "capability": 9.4,
+    "capability": 9.2,
     "buildQuality": 7.8
   },
   "similarModels": [

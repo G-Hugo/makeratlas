@@ -2,5 +2,21 @@
   "editorialDepth": {
     "advantages": "Creality Falcon T1 MOPA 60W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
     "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
-  }
+  },
+  "pros": [
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
+  ],
+  "cons": [
+    "Fibre 60W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
+  ],
+  "beginnerNotes": "Ce profil décrit le SKU 60W de Creality Falcon T1 MOPA. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
+  "proTips": "Budget MOPA plus chassis plus diode module together before committing : total can exceed fixed F2 Ultra bundles.",
+  "primaryUse": "Module 60W · Creality Falcon T1 MOPA",
+  "mainObjective": "MOPA fiber marking with color effects on the T1 modular platform",
+  "bestFor": [
+    "Color stainless",
+    "Production metal marking",
+    "Knives & tools",
+    "T1 flagship metal module"
+  ]
 }

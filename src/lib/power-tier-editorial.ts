@@ -1,5 +1,6 @@
 import type { Locale } from "@/i18n/config";
 import { getCatalogDisplayName, parsePowerWatts } from "@/lib/catalog-display";
+import { dedupeBulletList, filterBulletsAgainstDepth } from "@/lib/editorial-dedupe";
 import { formatPowerTierChipLabel } from "@/lib/tier-chip";
 import { noEmDash } from "@/lib/copy-style";
 import type { Machine, MachineEditorialDepth } from "@/types/machine";
@@ -140,7 +141,7 @@ const COPY = {
     bestFor: {
       "engrave-only": ["Gravure fine", "Photo & logo", "Cadeaux & ardoise", "Première machine"],
       "engrave-first": ["Atelier gravure", "Cuir & bois cadeau", "Apprendre la gamme", "Détail prioritaire"],
-      mixed: ["Gravure + découpe", "Side business", "Enseignes & boîtes", "Petites séries"],
+      mixed: ["Gravure + découpe", "Petite activité", "Enseignes & boîtes", "Petites séries"],
       "cut-strong": ["Découpe plus rapide", "Bois plus épais", "Panneaux", "Montée depuis 10W"],
       "cut-flagship": ["Découpe max. de la gamme", "Atelier vitesse", "Bois épais", "Semaines découpe"],
       "fiber-entry": ["Bijoux & plaques", "Petites pièces métal", "Apprendre la fibre", "Marquage bureau"],
@@ -167,6 +168,51 @@ const COPY = {
 
 function labels(locale: Locale) {
   return locale === "fr" ? COPY.fr : COPY.en;
+}
+
+const EN_TIPS_RESIDUE =
+  /\b(Use air assist|lower scan speed|Multiple passes|Treat engraving|Run material test|Check the flagship|Everyday engraving|High-quality hobby)\b/i;
+
+function looksEnglishTips(value: string | undefined): boolean {
+  return Boolean(value?.trim() && EN_TIPS_RESIDUE.test(value));
+}
+
+function buildLocalizedMainObjective(machine: Machine, role: PowerTierRole, locale: Locale): string {
+  if (locale !== "fr") return machine.mainObjective;
+  const byRole: Record<PowerTierRole, string> = {
+    "engrave-only": "Gravure fine et cadeaux — découpe légère seulement",
+    "engrave-first": "Priorité gravure avec découpe occasionnelle sur petites épaisseurs",
+    mixed: "Gravure quotidienne et découpe légère fiable sur bois, cuir et acrylique foncé",
+    "cut-strong": "Découpe plus rapide sur bois moyen, gravure toujours utilisable",
+    "cut-flagship": "Découpe intensive dans la gamme — gravure correcte en second plan",
+    "fiber-entry": "Marquage métal bureau et petites pièces pour apprendre la fibre",
+    "fiber-mid": "Marquage métal quotidien, outils et étiquettes atelier",
+    "fiber-pro": "Gravure métal profonde et débit pour devis production",
+  };
+  const generated = byRole[role];
+  if (looksEnglishTips(machine.mainObjective) || /\b(everyday|high-quality|reliable light)\b/i.test(machine.mainObjective)) {
+    return generated;
+  }
+  return machine.mainObjective?.trim() ? machine.mainObjective : generated;
+}
+
+function buildLocalizedProTips(machine: Machine, role: PowerTierRole, locale: Locale, fallback: string): string {
+  if (locale !== "fr") return preserveProTips(machine, fallback);
+  const byRole: Partial<Record<PowerTierRole, string>> = {
+    "engrave-only":
+      "Commencez par des grilles de test en gravure. L’assistance air aide sur les petites découpes. Si la découpe dépasse ~30 % de votre temps, comparez le SKU supérieur via les pastilles.",
+    "engrave-first":
+      "Optimisez la gravure avant la découpe : vitesse de balayage plus basse pour les photos. L’assistance air reste utile sur le cuir et le bois fin.",
+    mixed:
+      "Utilisez l’assistance air pour la découpe, ralentissez pour la photo. Plusieurs passes modérées valent mieux qu’une passe agressive. Comparez le benchmark découpe du SKU supérieur pour vos devis.",
+    "cut-strong":
+      "Priorisez les profils découpe sur chutes épaisses. Pour la gravure photo, acceptez des vitesses plus lentes qu’avec un module 10W dédié.",
+    "cut-flagship":
+      "Chiffrez vos devis avec les benchmarks découpe de cette fiche. Testez l’évacuation avant les longues sessions sur bois épais.",
+  };
+  const tips = machine.proTips?.trim();
+  if (tips && !looksEnglishTips(tips) && tips.length >= 40) return tips;
+  return byRole[role] ?? fallback;
 }
 
 /**
@@ -292,15 +338,11 @@ export function buildMachineTierEditorial(
     } else if (!enclosed && machine.laserType === "diode") {
       pros.push(L.openFrame);
     }
-    pros.push(
-      locale === "fr"
-        ? `${shortName} : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas`
-        : `${shortName}: profile includes material limits, benchmarks, and practical notes on Maker Atlas`,
-    );
   }
 
   // Trim duplicates and cap length
-  const uniqPros = [...new Set(pros.filter(Boolean))].slice(0, 6);
+  let uniqPros = [...new Set(pros.filter(Boolean))].slice(0, 6);
+  uniqPros = uniqPros.filter((p) => !hasBoilerplatePros([p]));
   const uniqCons = [...new Set(cons.filter(Boolean))].slice(0, 6);
 
   const bestFor = [...L.bestFor[role]];
@@ -323,23 +365,24 @@ export function buildMachineTierEditorial(
       ? "Utilisez les benchmarks de cette fiche pour chiffrer vos devis. Testez sur chutes avant production."
       : "Use the benchmarks on this profile for quotes. Test on scrap before production.";
 
-  const proTips = preserveProTips(machine, proTipsFallback);
+  const proTips = buildLocalizedProTips(machine, role, locale, proTipsFallback);
 
   const genericPrimary =
-    /^Engraving-focused diode profile|^Flagship high-power diode for cut-heavy|^Versatile hobby and side-business diode —/i;
-  const primaryUse = genericPrimary.test(machine.primaryUse)
-    ? locale === "fr"
-      ? `Module ${wattLabel} · ${shortName}`
-      : `${wattLabel} module · ${shortName}`
-    : machine.primaryUse;
+    /^Engraving-focused diode profile|^Flagship high-power diode for cut-heavy|^Versatile hobby and side-business diode —|\d+W module ·/i;
+  const primaryUse =
+    locale === "fr" || genericPrimary.test(machine.primaryUse)
+      ? locale === "fr"
+        ? `Module ${wattLabel} · ${shortName}`
+        : `${wattLabel} module · ${shortName}`
+      : machine.primaryUse;
 
   return {
     bestFor,
-    pros: uniqPros,
-    cons: uniqCons,
+    pros: dedupeBulletList(uniqPros, 3),
+    cons: dedupeBulletList(uniqCons, 2),
     beginnerNotes,
     proTips,
-    mainObjective: machine.mainObjective,
+    mainObjective: buildLocalizedMainObjective(machine, role, locale),
     primaryUse,
   };
 }
@@ -623,6 +666,18 @@ function normalizeEditorial<T extends TierEditorialCopy>(slice: T): T {
   };
 }
 
+function finalizeEditorialLists(
+  slice: TierEditorialCopy,
+  machine: Machine,
+): TierEditorialCopy {
+  const depth = machine.editorialDepth;
+  return {
+    ...slice,
+    pros: filterBulletsAgainstDepth(slice.pros, depth, "pro"),
+    cons: filterBulletsAgainstDepth(slice.cons, depth, "con"),
+  };
+}
+
 /**
  * Multi-power SKU lines without swappable heads: derived watt-role copy when JSON allows.
  * Interchangeable module lines: always use each tier's JSON (specs, materials, benchmarks).
@@ -640,16 +695,22 @@ export function resolveMachineEditorial(
     (tiers.length > 1 && isInterchangeableModuleLine(tiers));
 
   if (useTierJson) {
-    const base = normalizeEditorial(machineEditorialSlice(machine));
+    const base = finalizeEditorialLists(
+      normalizeEditorial(machineEditorialSlice(machine)),
+      machine,
+    );
     if (isInterchangeableModuleLine(tiers)) {
-      return normalizeEditorial(augmentModuleEditorial(base, machine, tiers, locale));
+      return finalizeEditorialLists(
+        normalizeEditorial(augmentModuleEditorial(base, machine, tiers, locale)),
+        machine,
+      );
     }
     return base;
   }
 
   const derived = buildMachineTierEditorial(machine, tiers, locale);
   if (!derived) {
-    return normalizeEditorial(machineEditorialSlice(machine));
+    return finalizeEditorialLists(normalizeEditorial(machineEditorialSlice(machine)), machine);
   }
-  return normalizeEditorial(derived);
+  return finalizeEditorialLists(normalizeEditorial(derived), machine);
 }

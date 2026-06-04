@@ -1,7 +1,7 @@
 {
   "tagline": "Longer portable assisté par IA avec double source laser",
   "tldr": "Le Longer Nano Duo AI ajoute la portabilité double source avec fonctions IA dans l’app pour mise en page et préréglages matériaux. Portable de niche pour makers voulant la marque Longer plus de flexibilité que les Nano mono-faisceau.",
-  "mainObjective": "Gravure portable double source intelligente pour voyage et petits objets",
+  "mainObjective": "Smart portable dual-source engraving for travel and small items",
   "primaryUse": "Portable dual-source personalization with AI-assisted setup.",
   "beginnerNotes": "Cette fiche décrit Longer Nano Duo AI. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -12,8 +12,7 @@
     "Longer ecosystem"
   ],
   "pros": [
-    "12W IR : marquage métal sur le même châssis que les autres modules",
-    "Longer Nano Duo AI : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "12W IR : marquage métal sur le même châssis que les autres modules"
   ],
   "cons": [
     "Nécessite le châssis complet : ce module seul ne remplace pas une machine dédiée"

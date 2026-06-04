@@ -87,10 +87,10 @@
   "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
   "primaryUse": "Cut-biased diode tier for makers who outgrew 10–20W job times but stay on the same frame",
   "rating": {
-    "overall": 8.2,
-    "value": 8.6,
+    "overall": 8.1,
+    "value": 8.2,
     "easeOfUse": 8,
-    "capability": 8.3,
+    "capability": 8.1,
     "buildQuality": 7.8
   },
   "similarModels": [

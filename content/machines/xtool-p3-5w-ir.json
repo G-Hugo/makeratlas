@@ -91,10 +91,10 @@
     "limitations": "It is an accessory, not a standalone laser. Throughput and depth on tough metals will trail dedicated MOPA fiber boxes. Budget-only buyers should not buy P3 plus IR if they never needed CO₂ cutting in the first place."
   },
   "rating": {
-    "overall": 8.8,
-    "value": 8,
+    "overall": 8.6,
+    "value": 8.3,
     "easeOfUse": 9,
-    "capability": 8.5,
+    "capability": 8,
     "buildQuality": 9.2
   },
   "similarModels": [

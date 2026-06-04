@@ -1,7 +1,7 @@
 {
   "tagline": "FoxAlien 20W à structure ouverte : une marque CNC qui entre dans le laser",
   "tldr": "FoxAlien apporte une qualité de construction proche du CNC à une plateforme diode 20W. Solide alternative à Ortur/Sculpfun pour les makers qui font déjà confiance à l'écosystème FoxAlien via leurs CNC.",
-  "mainObjective": "Gravure et découpe légère en diode 20W pour utilisateurs écosystème FoxAlien",
+  "mainObjective": "20W diode engraving and light cutting for FoxAlien ecosystem users",
   "primaryUse": "20W open-frame diode for hobby engraving and moderate thin-wood cutting.",
   "beginnerNotes": "Cette fiche décrit FoxAlien Reisler 2. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "If you own a FoxAlien CNC, shared vendor support can simplify your workshop.",
@@ -13,9 +13,7 @@
   ],
   "pros": [
     "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "FoxAlien Reisler 2 : fiche avec limites matériaux, benchmarks et notes pratiques sur Maker Atlas",
-    "FoxAlien Reisler 2 : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Open-frame : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents",

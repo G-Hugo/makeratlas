@@ -1,7 +1,7 @@
 {
   "tagline": "CO₂ bureau Monport avec caméra autofocus : classe 45 W",
   "tldr": "Le Monport Reno45 Pro Vision ajoute autofocus assisté par caméra et tube CO₂ 45 W en format bureau. Solide découpeuse acrylique/bois pour makers passant de la diode : prévoyez ventilation et espace.",
-  "mainObjective": "CO₂ bureau assisté par caméra pour signalétique et travail acrylique",
+  "mainObjective": "Camera-assisted desktop CO₂ for signage and acrylic work",
   "primaryUse": "Desktop CO₂ production with vision-assisted alignment.",
   "beginnerNotes": "Cette fiche décrit Monport Reno45 Pro Vision 45W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -13,8 +13,7 @@
   ],
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame",
-    "Monport Reno45 Pro Vision : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’une open-frame"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"

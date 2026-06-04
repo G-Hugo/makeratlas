@@ -1,7 +1,7 @@
 {
   "tagline": "Fibre OMTech Intelli compacte : plateforme format intermédiaire pour découpe et marquage",
   "tldr": "L’OMTech FC-44 Intelli est un système fibre plus compact que le FC-105, pensé pour les ateliers qui ont besoin de travailler le métal sans l’encombrement d’une machine industrielle. C’est toujours une machine pro : pas un substitut aux graveurs diode de bureau ni aux marqueurs fibre galvo.",
-  "mainObjective": "Fibre mid-format pour petites entreprises orientées métal",
+  "mainObjective": "Mid-format fiber for metal-focused small businesses",
   "primaryUse": "Mid-size fiber system for metal cutting and production marking.",
   "beginnerNotes": "Cette fiche décrit OMTech FC-44 Intelli. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
@@ -11,8 +11,7 @@
     "OMTech ecosystem"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "OMTech FC-44 Intelli : fiche complète avec limites matériaux et benchmarks sur Maker Atlas"
+    "Fibre = marquage métal : ne découpe pas bois ni acrylique"
   ],
   "cons": [
     "Fibre 44W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"

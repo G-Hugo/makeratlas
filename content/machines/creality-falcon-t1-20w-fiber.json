@@ -83,10 +83,10 @@
   "proTips": "Keep separate material libraries for fiber vs diode heads. Confirm EZCAD/LightBurn support on your exact module SKU before buying.",
   "primaryUse": "20W fiber galvo module for metal marking on the Creality Falcon T1 modular workstation.",
   "rating": {
-    "overall": 8.5,
-    "value": 8,
+    "overall": 8.3,
+    "value": 7.9,
     "easeOfUse": 8.4,
-    "capability": 8.8,
+    "capability": 8.3,
     "buildQuality": 8.5
   },
   "similarModels": [
