@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/longer-laser-b1-20w/01.webp",
-  "tagline": "20W Longer's large-format diode : bigger bed than Ray5 for sign-sized projects",
-  "tldr": "Longer Laser B1 20W is the 20W SKU on the Longer longer laser b1 line. Longer's large-format B1 20W diode : this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tagline": "20W Longer's large-format diode: bigger bed than Ray5 for sign-sized projects",
+  "tldr": "Longer Laser B1 20W is the 20W SKU on the Longer longer laser b1 line. Longer's large-format B1 20W diode: this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately. Verify optical power on the listing: do not assume combined-watt marketing.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -19,7 +19,7 @@
     "min": 499,
     "max": 699,
     "currency": "USD",
-    "note": "20W optical module : verify SKU before buying"
+    "note": "20W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "20W diode",
@@ -73,9 +73,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -101,19 +101,19 @@
   "images": [
     {
       "src": "/machines/longer-laser-b1-20w/01.webp",
-      "alt": "Longer Laser B1 20W laser engraver : Longer"
+      "alt": "Longer Laser B1 20W laser engraver: Longer"
     },
     {
       "src": "/machines/longer-laser-b1-20w/02.jpg",
-      "alt": "Longer Laser B1 20W laser engraver : Longer"
+      "alt": "Longer Laser B1 20W laser engraver: Longer"
     },
     {
       "src": "/machines/longer-laser-b1-20w/03.jpg",
-      "alt": "Longer Laser B1 20W laser engraver : Longer"
+      "alt": "Longer Laser B1 20W laser engraver: Longer"
     },
     {
       "src": "/machines/longer-laser-b1-20w/04.jpg",
-      "alt": "Longer Laser B1 20W laser engraver : Longer"
+      "alt": "Longer Laser B1 20W laser engraver: Longer"
     }
   ],
   "powerRating": "20W",
@@ -121,7 +121,7 @@
   "releaseDate": "2023-02",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Longer Laser B1 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Upgrade path to 30W or 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "Longer Laser B1 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 30W or 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   }
 }

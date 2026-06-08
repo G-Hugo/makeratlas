@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "image": "/machines/xtool-f2-ultra/01.webp",
-  "tagline": "Next-gen compact fiber + diode : faster metal marking, larger than F1",
-  "tldr": "xTool's updated dual-laser desktop builds on F1 Ultra with improved speed and workflow. Still a metal-marking specialist with small default bed. Premium price for jewelry, tools, and batch metal personalization : not a general workshop replacement.",
+  "tagline": "Next-gen compact fiber + diode: faster metal marking, larger than F1",
+  "tldr": "xTool's updated dual-laser desktop builds on F1 Ultra with improved speed and workflow. Still a metal-marking specialist with small default bed. Premium price for jewelry, tools, and batch metal personalization: not a general workshop replacement.",
   "mainObjective": "High-speed compact metal marking plus bonus diode for wood & leather",
   "bestFor": [
     "Metal batch marking",
@@ -71,15 +71,15 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers xTool F2 Ultra. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Use conveyor for dog tags and flat blanks. Keep fiber and diode settings libraries separate : power curves are not interchangeable.",
+  "proTips": "Use conveyor for dog tags and flat blanks. Keep fiber and diode settings libraries separate: power curves are not interchangeable.",
   "primaryUse": "Professional compact dual-laser for high-speed metal marking and small organic-material engraving.",
   "rating": {
     "overall": 8.4,
@@ -94,8 +94,8 @@
   ],
   "faq": [
     {
-      "question": "F2 Ultra vs F1 Ultra : worth upgrading?",
-      "answer": "If you already run F1 Ultra at production capacity, F2's speed gains may justify it. New buyers should compare bundle pricing : F1 Ultra discounts may offer better value if speed difference is not critical."
+      "question": "F2 Ultra vs F1 Ultra: worth upgrading?",
+      "answer": "If you already run F1 Ultra at production capacity, F2's speed gains may justify it. New buyers should compare bundle pricing: F1 Ultra discounts may offer better value if speed difference is not critical."
     }
   ],
   "status": "published",
@@ -103,19 +103,19 @@
   "images": [
     {
       "src": "/machines/xtool-f2-ultra/01.webp",
-      "alt": "xTool F2 Ultra laser engraver : xTool"
+      "alt": "xTool F2 Ultra laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-f2-ultra/02.webp",
-      "alt": "xTool F2 Ultra laser engraver : xTool"
+      "alt": "xTool F2 Ultra laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-f2-ultra/03.webp",
-      "alt": "xTool F2 Ultra laser engraver : xTool"
+      "alt": "xTool F2 Ultra laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-f2-ultra/04.webp",
-      "alt": "xTool F2 Ultra laser engraver : xTool"
+      "alt": "xTool F2 Ultra laser engraver: xTool"
     }
   ],
   "powerRating": "20W",
@@ -146,8 +146,8 @@
   ],
   "releaseDate": "2025-01",
   "editorialDepth": {
-    "advantages": "xTool F2 Ultra 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "xTool F2 Ultra 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true
 }

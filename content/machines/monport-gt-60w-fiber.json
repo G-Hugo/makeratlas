@@ -7,7 +7,7 @@
   "laserType": "fiber",
   "powerRating": "60W",
   "tagline": "60W Split fiber laser engraver with autofocus from Monport",
-  "tldr": "Monport GT 60W MOPA Fiber is the 60W SKU on the Monport monport gt line. Monport GT 30W brings split-cabinet fiber marking with autofocus : useful for varying part heights. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tldr": "Monport GT 60W MOPA Fiber is the 60W SKU on the Monport monport gt line. Monport GT 30W brings split-cabinet fiber marking with autofocus: useful for varying part heights. Verify optical power on the listing: do not assume combined-watt marketing.",
   "mainObjective": "Maximum fiber marking speed and depth in the line",
   "bestFor": [
     "Deep metal engraving",
@@ -19,7 +19,7 @@
     "min": 3799,
     "max": 5199,
     "currency": "USD",
-    "note": "60W optical module : verify SKU before buying"
+    "note": "60W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "60W fiber",
@@ -68,11 +68,11 @@
     ]
   },
   "pros": [
-    "Fiber marks metal : does not cut wood or acrylic",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Fiber marks metal: does not cut wood or acrylic",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Does not cut wood, leather, or acrylic: metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
   "beginnerNotes": "This profile is the 60W SKU on Monport GT MOPA Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -95,15 +95,15 @@
   "images": [
     {
       "src": "/machines/monport-gt-60w-fiber/01.webp",
-      "alt": "Monport GT 60W MOPA Fiber laser engraver : Monport"
+      "alt": "Monport GT 60W MOPA Fiber laser engraver: Monport"
     },
     {
       "src": "/machines/monport-gt-60w-fiber/02.webp",
-      "alt": "Monport GT 60W MOPA Fiber laser engraver : Monport"
+      "alt": "Monport GT 60W MOPA Fiber laser engraver: Monport"
     },
     {
       "src": "/machines/monport-gt-60w-fiber/03.webp",
-      "alt": "Monport GT 60W MOPA Fiber laser engraver : Monport"
+      "alt": "Monport GT 60W MOPA Fiber laser engraver: Monport"
     }
   ],
   "modelLine": "monport-gt",

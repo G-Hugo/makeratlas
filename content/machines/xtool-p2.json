@@ -79,14 +79,14 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
   "beginnerNotes": "This profile covers xTool P2. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Pair with a compressor and good air assist for cleaner cuts on acrylic. LightBurn unlocks advanced workflows if you outgrow xTool Creative Space. Plan exhaust routing before unboxing : ventilation is not optional with CO₂.",
+  "proTips": "Pair with a compressor and good air assist for cleaner cuts on acrylic. LightBurn unlocks advanced workflows if you outgrow xTool Creative Space. Plan exhaust routing before unboxing: ventilation is not optional with CO₂.",
   "primaryUse": "Production-grade cutting and engraving of organic materials (wood, acrylic, leather) in a home or small business workshop.",
   "rating": {
     "overall": 8.4,
@@ -131,11 +131,11 @@
   "images": [
     {
       "src": "/machines/xtool-p2/01.webp",
-      "alt": "xTool P2 laser engraver : xTool"
+      "alt": "xTool P2 laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-p2/02.webp",
-      "alt": "xTool P2 laser engraver : xTool"
+      "alt": "xTool P2 laser engraver: xTool"
     }
   ],
   "powerRating": "55W",

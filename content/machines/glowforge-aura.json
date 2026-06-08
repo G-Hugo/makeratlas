@@ -5,7 +5,7 @@
   "brand": "Glowforge",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "Consumer-friendly CO₂ laser with the simplest setup : at a subscription cost",
+  "tagline": "Consumer-friendly CO₂ laser with the simplest setup: at a subscription cost",
   "tldr": "Glowforge's compact CO₂ laser designed for crafters. Easy software, quick setup, and decent cutting for thin materials. The catch: premium hardware price plus required subscription for full features, and a smaller work area than xTool P2.",
   "bestFor": [
     "Crafters",
@@ -73,14 +73,14 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
   "beginnerNotes": "This profile covers Glowforge Aura. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Factor subscription cost over 2–3 years into your budget. Proofgrade materials are convenient but expensive : third-party plywood works with testing. Aura is craft-scale, not sign-shop scale.",
+  "proTips": "Factor subscription cost over 2–3 years into your budget. Proofgrade materials are convenient but expensive: third-party plywood works with testing. Aura is craft-scale, not sign-shop scale.",
   "primaryUse": "Simple CO₂ cutting and engraving for crafters who prioritize ease of use over power and cost efficiency.",
   "rating": {
     "overall": 8.6,
@@ -100,19 +100,19 @@
   "images": [
     {
       "src": "/machines/glowforge-aura/01.webp",
-      "alt": "Glowforge Aura laser engraver : Glowforge"
+      "alt": "Glowforge Aura laser engraver: Glowforge"
     },
     {
       "src": "/machines/glowforge-aura/02.jpg",
-      "alt": "Glowforge Aura laser engraver : Glowforge"
+      "alt": "Glowforge Aura laser engraver: Glowforge"
     },
     {
       "src": "/machines/glowforge-aura/03.jpg",
-      "alt": "Glowforge Aura laser engraver : Glowforge"
+      "alt": "Glowforge Aura laser engraver: Glowforge"
     },
     {
       "src": "/machines/glowforge-aura/04.jpg",
-      "alt": "Glowforge Aura laser engraver : Glowforge"
+      "alt": "Glowforge Aura laser engraver: Glowforge"
     }
   ],
   "powerRating": "6.8W",

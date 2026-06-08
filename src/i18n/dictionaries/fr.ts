@@ -109,7 +109,7 @@ export const fr: Dictionary = {
     co2:
       "Laser infrarouge à tube CO₂. Référence pour découper acrylique et bois. Ventilation obligatoire. Ne marque pas le métal nu.",
     fiber:
-      "Spécialiste du marquage inox, aluminium, laiton, sans spray chimique.",
+      "Marquage métal 1064 nm (inox, alu, laiton). Inclut fibre standard et variantes MOPA (voir guides).",
     uv:
       "Laser « froid » pour plastiques, verre et marquage fin. Rare en bureau maker.",
     hybrid:
@@ -194,7 +194,8 @@ export const fr: Dictionary = {
     powerTierSwappableFootnote:
       "Chaque pastille correspond à une puissance vendue en SKU usine (configuration complète à l’achat).",
     moduleHybridFootnote:
-      "Classé hybride car deux technologies laser partagent la machine. Ce n’est pas un simple choix 10W vs 40W sur la même tête diode.",
+      "Classé hybride car deux technologies laser partagent la machine — pas parce que vous choisissez 10W ou 40W sur la même tête diode.",
+    moduleGuideLink: "Modules vs hybride vs paliers de puissance →",
     powerTierChooseModule: "Choisissez le module installé",
     powerTierChoosePower: "Choisissez une puissance",
     powerTierSpecsModule: "Les informations ci-dessous correspondent au module sélectionné.",
@@ -240,10 +241,37 @@ export const fr: Dictionary = {
     description:
       "Comprendre les types de laser, choisir la bonne machine, installer la ventilation et éviter les erreurs d’achat.",
     safetyBanner: "Bases sécurité laser : à lire en premier",
+    sectionOverview: "Vue d’ensemble",
+    sectionByType: "Guides par type de laser",
+    sectionSpecialtyTech: "Technologie & architecture",
+    sectionSpecialtyBuyer: "Avant d’acheter",
+    sectionBuying: "Achat",
+    sectionSafetySetup: "Sécurité & installation",
+    hubTitle: "Hub guides laser",
+    hubBody:
+      "Commencez par la vue d’ensemble, choisissez votre type, puis les guides spécialisés MOPA, galvo, modules, watts et atelier.",
+    hubOverviewCta: "Tous les types (vue d’ensemble)",
+    hubCatalogCta: "Parcourir les fiches machines",
     categoryBuying: "guide d’achat",
     categorySafety: "sécurité",
-    categoryTypes: "types de laser",
+    categoryTypes: "type de laser",
     categorySetup: "installation",
+    categorySpecialty: "spécialité",
+    typeGuideLink: "Guide complet pour ce type",
+    specialtyGuideLink: "Guides liés",
+    specialtyGuides: {
+      mopa: "Fibre MOPA (marquage couleur)",
+      galvo: "Stations galvo (têtes à miroirs)",
+      infrared: "Modules IR sur diode (pas la fibre)",
+      modules: "Modules interchangeables vs hybride vs puissance",
+      wattage: "Watts optiques vs watts marketing",
+      metalWithoutFiber: "Marquer le métal sans laser fibre",
+      enclosed: "Portique ouvert vs enceinte (classe 1)",
+      lightburn: "LightBurn vs logiciel fabricant",
+      rotary: "Gravure rotative & cylindres",
+      co2Tubes: "Tube CO₂ verre vs RF métal",
+      materials: "Matériaux par type de laser",
+    },
   },
   about: {
     title: "À propos de Maker Atlas",

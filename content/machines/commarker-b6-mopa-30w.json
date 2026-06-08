@@ -69,15 +69,15 @@
     ]
   },
   "pros": [
-    "Fiber marks metal : does not cut wood or acrylic",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Fiber marks metal: does not cut wood or acrylic",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Does not cut wood, leather, or acrylic: metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
   "beginnerNotes": "This profile covers ComMarker B6 MOPA 30W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Build fixture jigs for repeat jobs. Keep lens clean : contamination shows on high-contrast marks.",
+  "proTips": "Build fixture jigs for repeat jobs. Keep lens clean: contamination shows on high-contrast marks.",
   "primaryUse": "Professional metal marking with optional color effects for premium personalization.",
   "rating": {
     "overall": 8.5,
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/commarker-b6-mopa-30w/01.webp",
-      "alt": "ComMarker B6 MOPA 30W laser engraver : ComMarker"
+      "alt": "ComMarker B6 MOPA 30W laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-b6-mopa-30w/02.jpg",
-      "alt": "ComMarker B6 MOPA 30W laser engraver : ComMarker"
+      "alt": "ComMarker B6 MOPA 30W laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-b6-mopa-30w/03.jpg",
-      "alt": "ComMarker B6 MOPA 30W laser engraver : ComMarker"
+      "alt": "ComMarker B6 MOPA 30W laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-b6-mopa-30w/04.jpg",
-      "alt": "ComMarker B6 MOPA 30W laser engraver : ComMarker"
+      "alt": "ComMarker B6 MOPA 30W laser engraver: ComMarker"
     }
   ],
   "releaseDate": "2024-09",

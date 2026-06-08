@@ -8,8 +8,8 @@
   "powerRating": "5W",
   "modelLine": "commarker-omni-x",
   "tagline": "Expanded UV platform for larger glass and plastic work",
-  "tldr": "Omni XE sits between Omni 1 and Omni X in ComMarker's UV lineup : check current specs for bed size and power. UV remains specialized: glass, plastics, fine detail.",
-  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "tldr": "Omni XE sits between Omni 1 and Omni X in ComMarker's UV lineup: check current specs for bed size and power. UV remains specialized: glass, plastics, fine detail.",
+  "mainObjective": "Detailed engraving on organics and coated metal: occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -66,14 +66,14 @@
   },
   "pros": [
     "5W UV: cold marking on glass and heat-sensitive plastics",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 5W SKU on ComMarker Omni XE UV. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
-  "proTips": "Omni-XE UV targets heat-sensitive plastics and thin films : run vendor parameter cards on scrap. Do not assume Omni-X UV presets transfer without retesting.",
+  "proTips": "Omni-XE UV targets heat-sensitive plastics and thin films: run vendor parameter cards on scrap. Do not assume Omni-X UV presets transfer without retesting.",
   "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
   "rating": {
     "overall": 7.9,
@@ -92,25 +92,25 @@
   "images": [
     {
       "src": "/machines/commarker-omni-xe-uv/01.webp",
-      "alt": "ComMarker Omni XE UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni XE UV laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-omni-xe-uv/02.webp",
-      "alt": "ComMarker Omni XE UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni XE UV laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-omni-xe-uv/03.webp",
-      "alt": "ComMarker Omni XE UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni XE UV laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-omni-xe-uv/04.webp",
-      "alt": "ComMarker Omni XE UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni XE UV laser engraver: ComMarker"
     }
   ],
   "releaseDate": "2024-11",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "ComMarker Omni XE UV 5W targets glass, films, and heat-sensitive plastics : profitable when you already sell those jobs, not for casual UV experiments.",
+    "advantages": "ComMarker Omni XE UV 5W targets glass, films, and heat-sensitive plastics: profitable when you already sell those jobs, not for casual UV experiments.",
     "limitations": "Poor first-laser purchase. No wood or metal cutting. Confirm the module material list before buying the chassis."
   }
 }

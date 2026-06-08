@@ -5,9 +5,9 @@
   "brand": "Longer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Longer's entry portable : compact diode for small projects",
+  "tagline": "Longer's entry portable: compact diode for small projects",
   "tldr": "Longer Nano 6W is a compact portable engraver for small gifts and learning. Pairs with Longer's accessory ecosystem. Upgrade to Nano Pro 12W if you need real cutting speed.",
-  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "mainObjective": "Detailed engraving on organics and coated metal: occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -70,9 +70,9 @@
     ]
   },
   "pros": [
-    "6W on Longer Nano: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "6W on Longer Nano: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -103,12 +103,12 @@
   "images": [
     {
       "src": "/machines/longer-nano-6w/01.webp",
-      "alt": "Longer Nano 6W laser engraver : Longer"
+      "alt": "Longer Nano 6W laser engraver: Longer"
     }
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Longer Nano 6W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 4 mm+ cutting in production : see 12W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 4 mm+ cutting in production: see 12W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

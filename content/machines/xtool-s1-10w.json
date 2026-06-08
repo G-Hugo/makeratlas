@@ -5,8 +5,8 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Entry enclosed S1 : engraving-first with swappable head ecosystem",
-  "tldr": "The 10W S1 is xTool's entry enclosed bundle: same Class-1 cabinet as 20W/40W, but the installed diode module limits cutting depth. You can upgrade later by swapping the laser head : verify you are buying the 10W SKU, not a bare machine without a module.",
+  "tagline": "Entry enclosed S1: engraving-first with swappable head ecosystem",
+  "tldr": "The 10W S1 is xTool's entry enclosed bundle: same Class-1 cabinet as 20W/40W, but the installed diode module limits cutting depth. You can upgrade later by swapping the laser head: verify you are buying the 10W SKU, not a bare machine without a module.",
   "bestFor": [
     "Engraving-focused shops",
     "Leather & wood gifts",
@@ -72,15 +72,15 @@
     ]
   },
   "pros": [
-    "10W on xTool S1: engraving-first : photo fills and leather at moderate speeds",
-    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
+    "10W on xTool S1: engraving-first: photo fills and leather at moderate speeds",
+    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "The 10W diode module on xTool S1 is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
-    "limitations": "Skip this module if you cut 5 mm+ stock daily : open the 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
+    "limitations": "Skip this module if you cut 5 mm+ stock daily: open the 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
   },
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -112,11 +112,11 @@
     },
     {
       "question": "Can I upgrade from 20W to 40W later?",
-      "answer": "Yes. S1 laser heads are interchangeable : buy a 40W module and swap it on the same enclosure (two screws + connectors). You can also add the optional 2W 1064 nm IR module for more metal work."
+      "answer": "Yes. S1 laser heads are interchangeable: buy a 40W module and swap it on the same enclosure (two screws + connectors). You can also add the optional 2W 1064 nm IR module for more metal work."
     },
     {
       "question": "Is the S1 a hybrid laser like the F1 Ultra?",
-      "answer": "No. S1 is a diode platform with swappable diode (or IR) heads. Hybrid machines combine fiber and diode sources inside one dual-source product : different category."
+      "answer": "No. S1 is a diode platform with swappable diode (or IR) heads. Hybrid machines combine fiber and diode sources inside one dual-source product: different category."
     }
   ],
   "status": "published",
@@ -126,15 +126,15 @@
   "images": [
     {
       "src": "/machines/xtool-s1-10w/01.webp",
-      "alt": "xTool S1 10W laser engraver : xTool"
+      "alt": "xTool S1 10W laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-s1-10w/02.webp",
-      "alt": "xTool S1 10W laser engraver : xTool"
+      "alt": "xTool S1 10W laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-s1-10w/03.webp",
-      "alt": "xTool S1 10W laser engraver : xTool"
+      "alt": "xTool S1 10W laser engraver: xTool"
     }
   ],
   "modelLine": "xtool-s1",
@@ -142,7 +142,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Interchangeable laser heads on the same S1 cabinet",
-    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet : heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
+    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet: heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
     "options": [
       {
         "power": "10W",

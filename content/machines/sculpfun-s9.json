@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/sculpfun-s9/01.webp",
-  "tagline": "Sculpfun's proven budget line : still popular for value-focused makers",
+  "tagline": "Sculpfun's proven budget line: still popular for value-focused makers",
   "tldr": "Before S30 Ultra, the S9 was Sculpfun's workhorse. Still sold and widely documented in community guides. Lower power than current flagships but excellent value for engraving-focused hobbyists who do not need 20W cutting.",
   "mainObjective": "Budget Sculpfun for reliable wood engraving before upgrading to S30 class",
   "bestFor": [
@@ -85,7 +85,7 @@
     "Air assist recommended for clean cuts"
   ],
   "beginnerNotes": "Buy S9 only on significant discount vs S30 Ultra. The ~$100–150 difference usually buys meaningfully faster jobs and better cutting.",
-  "proTips": "S9 community mods (air assist, extended feet) are well documented : search Sculpfun Facebook groups before your first big project.",
+  "proTips": "S9 community mods (air assist, extended feet) are well documented: search Sculpfun Facebook groups before your first big project.",
   "primaryUse": "Budget Sculpfun open-frame for wood/leather engraving and light thin-wood cutting.",
   "rating": {
     "overall": 7.9,
@@ -108,19 +108,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s9/01.webp",
-      "alt": "Sculpfun S9 laser engraver : Sculpfun"
+      "alt": "Sculpfun S9 laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9/02.jpg",
-      "alt": "Sculpfun S9 laser engraver : Sculpfun"
+      "alt": "Sculpfun S9 laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9/03.jpg",
-      "alt": "Sculpfun S9 laser engraver : Sculpfun"
+      "alt": "Sculpfun S9 laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9/04.jpg",
-      "alt": "Sculpfun S9 laser engraver : Sculpfun"
+      "alt": "Sculpfun S9 laser engraver: Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s9",

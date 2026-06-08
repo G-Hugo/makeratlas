@@ -7,8 +7,8 @@
   "laserType": "diode",
   "image": "/machines/algolaser-alpha-mk2-40w/01.webp",
   "tagline": "40W Premium open-frame diode focused on speed and fine engraving detail",
-  "tldr": "Algolaser Alpha MK2 40W is the 40W SKU on the Algolaser algolaser alpha mk2 line. Algolaser targets makers who want faster engraving and tighter spot control than typical budget diodes. Verify optical power on the listing : do not assume combined-watt marketing.",
-  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "tldr": "Algolaser Alpha MK2 40W is the 40W SKU on the Algolaser algolaser alpha mk2 line. Algolaser targets makers who want faster engraving and tighter spot control than typical budget diodes. Verify optical power on the listing: do not assume combined-watt marketing.",
+  "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -19,7 +19,7 @@
     "min": 799,
     "max": 1099,
     "currency": "USD",
-    "note": "40W optical module : verify SKU before buying"
+    "note": "40W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "40W diode",
@@ -74,10 +74,10 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
     "40W: the most cut-focused head in the Algolaser Alpha MK2 line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -103,19 +103,19 @@
   "images": [
     {
       "src": "/machines/algolaser-alpha-mk2-40w/01.webp",
-      "alt": "Algolaser Alpha MK2 40W laser engraver : Algolaser"
+      "alt": "Algolaser Alpha MK2 40W laser engraver: Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-40w/02.jpg",
-      "alt": "Algolaser Alpha MK2 40W laser engraver : Algolaser"
+      "alt": "Algolaser Alpha MK2 40W laser engraver: Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-40w/03.jpg",
-      "alt": "Algolaser Alpha MK2 40W laser engraver : Algolaser"
+      "alt": "Algolaser Alpha MK2 40W laser engraver: Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-40w/04.jpg",
-      "alt": "Algolaser Alpha MK2 40W laser engraver : Algolaser"
+      "alt": "Algolaser Alpha MK2 40W laser engraver: Algolaser"
     }
   ],
   "modelLine": "algolaser-alpha-mk2",
@@ -124,7 +124,7 @@
   "releaseDate": "2024-06",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Algolaser Alpha MK2 40W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "Algolaser Alpha MK2 40W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   }
 }

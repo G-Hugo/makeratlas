@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "5W Ultra-budget diode laser : minimum viable entry point",
-  "tldr": "Atomstack A5 Pro 5W is the 5W SKU on the Atomstack atomstack a5 pro line. One of the cheapest ways to try laser engraving. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tagline": "5W Ultra-budget diode laser: minimum viable entry point",
+  "tldr": "Atomstack A5 Pro 5W is the 5W SKU on the Atomstack atomstack a5 pro line. One of the cheapest ways to try laser engraving. Verify optical power on the listing: do not assume combined-watt marketing.",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -17,7 +17,7 @@
     "min": 199,
     "max": 299,
     "currency": "USD",
-    "note": "5W optical module : verify SKU before buying"
+    "note": "5W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "5W diode",
@@ -69,9 +69,9 @@
     ]
   },
   "pros": [
-    "5W on Atomstack A5 Pro: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "5W on Atomstack A5 Pro: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -93,23 +93,23 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/atomstack-a5-pro-5w/01.webp",
-  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "mainObjective": "Detailed engraving on organics and coated metal: occasional thin cuts only",
   "images": [
     {
       "src": "/machines/atomstack-a5-pro-5w/01.webp",
-      "alt": "Atomstack A5 Pro 5W laser engraver : Atomstack"
+      "alt": "Atomstack A5 Pro 5W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro-5w/02.jpg",
-      "alt": "Atomstack A5 Pro 5W laser engraver : Atomstack"
+      "alt": "Atomstack A5 Pro 5W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro-5w/03.jpg",
-      "alt": "Atomstack A5 Pro 5W laser engraver : Atomstack"
+      "alt": "Atomstack A5 Pro 5W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro-5w/04.jpg",
-      "alt": "Atomstack A5 Pro 5W laser engraver : Atomstack"
+      "alt": "Atomstack A5 Pro 5W laser engraver: Atomstack"
     }
   ],
   "modelLine": "atomstack-a5-pro",
@@ -117,6 +117,6 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Atomstack A5 Pro 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 3 mm+ cutting in production : see 10W or 20W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 3 mm+ cutting in production: see 10W or 20W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

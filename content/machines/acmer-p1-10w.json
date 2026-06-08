@@ -5,8 +5,8 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Budget Acmer open-frame : large bed for the price",
-  "tldr": "Acmer P1 10W is an affordable 400 mm-class open-frame engraver for learning and light gifts. Build and support are budget-tier : great value if you accept DIY tuning.",
+  "tagline": "Budget Acmer open-frame: large bed for the price",
+  "tldr": "Acmer P1 10W is an affordable 400 mm-class open-frame engraver for learning and light gifts. Build and support are budget-tier: great value if you accept DIY tuning.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
     "Engraving-focused shops",
@@ -68,9 +68,9 @@
     ]
   },
   "pros": [
-    "10W on Acmer P1: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Acmer P1: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -101,24 +101,24 @@
   "images": [
     {
       "src": "/machines/acmer-p1-10w/01.webp",
-      "alt": "Acmer P1 10W laser engraver : Acmer"
+      "alt": "Acmer P1 10W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p1-10w/02.jpg",
-      "alt": "Acmer P1 10W laser engraver : Acmer"
+      "alt": "Acmer P1 10W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p1-10w/03.webp",
-      "alt": "Acmer P1 10W laser engraver : Acmer"
+      "alt": "Acmer P1 10W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p1-10w/04.jpg",
-      "alt": "Acmer P1 10W laser engraver : Acmer"
+      "alt": "Acmer P1 10W laser engraver: Acmer"
     }
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Acmer P1 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 4 mm+ cutting in production : see 20W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 4 mm+ cutting in production: see 20W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

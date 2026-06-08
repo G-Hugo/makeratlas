@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Infrared portable LaserPecker for metal and plastic marking",
-  "tldr": "LaserPecker LP3 focuses on infrared marking for metal and engineered plastics in a portable form factor. Different from LP4/LP5 : prioritize if your work is metal tags and plastic, not large wood cutting.",
+  "tldr": "LaserPecker LP3 focuses on infrared marking for metal and engineered plastics in a portable form factor. Different from LP4/LP5: prioritize if your work is metal tags and plastic, not large wood cutting.",
   "mainObjective": "Portable IR marking for metal and plastic personalization",
   "bestFor": [
     "Metal marking",
@@ -64,9 +64,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -97,12 +97,12 @@
   "images": [
     {
       "src": "/machines/laserpecker-lp3/01.webp",
-      "alt": "LaserPecker LP3 laser engraver : LaserPecker"
+      "alt": "LaserPecker LP3 laser engraver: LaserPecker"
     }
   ],
   "editorialDepth": {
-    "advantages": "LaserPecker LP3 LP3 infrarouge is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "LaserPecker LP3 LP3 infrarouge is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true
 }

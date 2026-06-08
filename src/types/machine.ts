@@ -176,7 +176,7 @@ export interface GuideMeta {
   slug: string;
   title: string;
   description: string;
-  category: "laser-types" | "buying-guide" | "safety" | "general";
+  category: "laser-types" | "buying-guide" | "safety" | "setup" | "specialty" | "general";
   readTime: string;
   lastUpdated: string;
   status: ContentStatus;

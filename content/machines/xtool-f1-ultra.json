@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "tagline": "Portable dual-laser (fiber + diode) for metal marking and fast engraving",
-  "tldr": "A compact desktop machine combining a 20W fiber laser and 20W diode. The fiber module marks bare metal : stainless steel, aluminum, brass : without spray. Ideal for jewelry, knives, and metal gifts. Premium price for a small work area.",
+  "tldr": "A compact desktop machine combining a 20W fiber laser and 20W diode. The fiber module marks bare metal: stainless steel, aluminum, brass: without spray. Ideal for jewelry, knives, and metal gifts. Premium price for a small work area.",
   "bestFor": [
     "Metal marking",
     "Jewelry",
@@ -71,15 +71,15 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers xTool F1 Ultra. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Use the fiber module for all metal work. The diode is a bonus for wood/leather on the same desk. Rotary attachment is essential for rings and cylindrical metal. Dial in power/speed on scrap : fiber is unforgiving on thin metal.",
+  "proTips": "Use the fiber module for all metal work. The diode is a bonus for wood/leather on the same desk. Rotary attachment is essential for rings and cylindrical metal. Dial in power/speed on scrap: fiber is unforgiving on thin metal.",
   "primaryUse": "Professional metal marking and small-item engraving for jewelry, personalization businesses, and tool marking.",
   "rating": {
     "overall": 8.4,
@@ -98,26 +98,26 @@
   "images": [
     {
       "src": "/machines/xtool-f1-ultra/01.webp",
-      "alt": "xTool F1 Ultra laser engraver : xTool"
+      "alt": "xTool F1 Ultra laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-f1-ultra/02.webp",
-      "alt": "xTool F1 Ultra laser engraver : xTool"
+      "alt": "xTool F1 Ultra laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-f1-ultra/03.jpg",
-      "alt": "xTool F1 Ultra laser engraver : xTool"
+      "alt": "xTool F1 Ultra laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-f1-ultra/04.webp",
-      "alt": "xTool F1 Ultra laser engraver : xTool"
+      "alt": "xTool F1 Ultra laser engraver: xTool"
     }
   ],
   "powerRating": "20W",
   "moduleSystem": {
     "style": "dual-laser",
     "headline": "Fiber + diode in one desktop unit",
-    "description": "The F1 Ultra switches between a fiber source (metal) and a diode source (wood/acrylic) inside one chassis. You do not swap a 10W diode for a 40W diode : that is the xTool S1 model.",
+    "description": "The F1 Ultra switches between a fiber source (metal) and a diode source (wood/acrylic) inside one chassis. You do not swap a 10W diode for a 40W diode: that is the xTool S1 model.",
     "options": [
       {
         "power": "20W",
@@ -141,8 +141,8 @@
   ],
   "releaseDate": "2024-05",
   "editorialDepth": {
-    "advantages": "xTool F1 Ultra 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "xTool F1 Ultra 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true
 }

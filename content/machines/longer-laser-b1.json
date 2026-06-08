@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/longer-laser-b1/01.webp",
-  "tagline": "Longer's large-format diode : bigger bed than Ray5 for sign-sized projects",
-  "tldr": "Longer's large-format B1 20W diode : this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately.",
+  "tagline": "Longer's large-format diode: bigger bed than Ray5 for sign-sized projects",
+  "tldr": "Longer's large-format B1 20W diode: this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately.",
   "mainObjective": "Large-format diode for bigger wood signs & light production cutting",
   "bestFor": [
     "Large signs",
@@ -19,7 +19,7 @@
     "min": 510,
     "max": 870,
     "currency": "USD",
-    "note": "20W SKU : other wattages are separate Longer listings"
+    "note": "20W SKU: other wattages are separate Longer listings"
   },
   "specs": {
     "power": "20W diode",
@@ -80,14 +80,14 @@
     "Extension kits for even larger jobs"
   ],
   "cons": [
-    "Open frame : not family-safe without enclosure",
+    "Open frame: not family-safe without enclosure",
     "Longer support community smaller than Ortur",
     "Build quality varies vs premium brands",
     "Air assist often sold separately",
     "40W claims need real-world verification"
   ],
-  "beginnerNotes": "Choose B1 over Ray5 when work area matters : signs, trays, and multi-item jigs. Skip if you only make small gifts.",
-  "proTips": "The B1's value is bed size : design templates to use the full width for batch engraving. Add honeycomb and air assist before pushing 8 mm+ cuts.",
+  "beginnerNotes": "Choose B1 over Ray5 when work area matters: signs, trays, and multi-item jigs. Skip if you only make small gifts.",
+  "proTips": "The B1's value is bed size: design templates to use the full width for batch engraving. Add honeycomb and air assist before pushing 8 mm+ cuts.",
   "primaryUse": "Large-format diode engraving and thin-to-medium wood cutting for hobbyists and light sellers.",
   "rating": {
     "overall": 8.2,
@@ -106,11 +106,11 @@
   "images": [
     {
       "src": "/machines/longer-laser-b1/01.webp",
-      "alt": "Longer Laser B1 20W laser engraver : Longer"
+      "alt": "Longer Laser B1 20W laser engraver: Longer"
     },
     {
       "src": "/machines/longer-laser-b1/02.jpg",
-      "alt": "Longer Laser B1 20W laser engraver : Longer"
+      "alt": "Longer Laser B1 20W laser engraver: Longer"
     }
   ],
   "powerRating": "20W",

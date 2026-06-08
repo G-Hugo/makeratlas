@@ -5,8 +5,8 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "2025 flagship Sculpfun diode : 70W class on the S40/S70 large frame",
-  "tldr": "Sculpfun's S70 MAX pushes the S-series frame to ~70W optical class for shops that want maximum diode cutting depth without CO₂. Same oversized bed philosophy as S40 MAX : premium pricing and workshop space requirements apply.",
+  "tagline": "2025 flagship Sculpfun diode: 70W class on the S40/S70 large frame",
+  "tldr": "Sculpfun's S70 MAX pushes the S-series frame to ~70W optical class for shops that want maximum diode cutting depth without CO₂. Same oversized bed philosophy as S40 MAX: premium pricing and workshop space requirements apply.",
   "mainObjective": "Top-tier Sculpfun large-format cutting with maximum diode power",
   "bestFor": [
     "Heavy cutting",
@@ -71,9 +71,9 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 8 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
     "70W: the most cut-focused head in the Sculpfun S70 MAX line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -100,19 +100,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s70-max-70w/01.webp",
-      "alt": "Sculpfun S70 MAX 70W laser engraver : Sculpfun"
+      "alt": "Sculpfun S70 MAX 70W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s70-max-70w/02.jpg",
-      "alt": "Sculpfun S70 MAX 70W laser engraver : Sculpfun"
+      "alt": "Sculpfun S70 MAX 70W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s70-max-70w/03.jpg",
-      "alt": "Sculpfun S70 MAX 70W laser engraver : Sculpfun"
+      "alt": "Sculpfun S70 MAX 70W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s70-max-70w/04.jpg",
-      "alt": "Sculpfun S70 MAX 70W laser engraver : Sculpfun"
+      "alt": "Sculpfun S70 MAX 70W laser engraver: Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s70-max",
@@ -120,8 +120,8 @@
   "catalogPrimary": true,
   "releaseDate": "2025-10",
   "editorialDepth": {
-    "advantages": "Sculpfun S70 MAX 70W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "Sculpfun S70 MAX 70W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "tierEditorialOverride": true
 }

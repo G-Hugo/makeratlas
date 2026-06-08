@@ -109,7 +109,7 @@ export const en: Dictionary = {
     co2:
       "Gas-tube infrared lasers. The standard for cutting acrylic and wood. Requires ventilation. Cannot mark bare metal.",
     fiber:
-      "Metal-focused lasers for marking stainless, aluminum, and brass without chemical spray.",
+      "Metal-focused 1064 nm lasers for marking stainless, aluminum, and brass. Includes standard fiber and MOPA variants (see guides).",
     uv:
       "Cold laser for plastics, glass, and fine industrial marking. Rare in hobby desktop machines.",
     hybrid:
@@ -194,6 +194,7 @@ export const en: Dictionary = {
       "Each chip is a separate factory wattage SKU (complete laser configuration at purchase).",
     moduleHybridFootnote:
       "Listed as hybrid because two laser technologies share one machine, not because you pick 10W vs 40W on the same diode head.",
+    moduleGuideLink: "Modules vs hybrid vs power tiers →",
     powerTierChooseModule: "Choose installed module",
     powerTierChoosePower: "Choose a power option",
     powerTierSpecsModule: "Details below match the selected module.",
@@ -239,10 +240,37 @@ export const en: Dictionary = {
     description:
       "Clear guides to understand laser types, choose the right machine, set up ventilation, and avoid common buying mistakes.",
     safetyBanner: "Laser safety basics: read first",
+    sectionOverview: "Overview",
+    sectionByType: "Guides by laser type",
+    sectionSpecialtyTech: "Technology & architecture",
+    sectionSpecialtyBuyer: "Before you buy",
+    sectionBuying: "Buying",
+    sectionSafetySetup: "Safety & setup",
+    hubTitle: "Laser knowledge hub",
+    hubBody:
+      "Start with the overview, pick your laser type, then read specialty guides on MOPA, galvo, modules, wattage, and workshop setup.",
+    hubOverviewCta: "All laser types (overview)",
+    hubCatalogCta: "Browse machine profiles",
     categoryBuying: "buying guide",
     categorySafety: "safety",
-    categoryTypes: "laser types",
+    categoryTypes: "laser type",
     categorySetup: "setup",
+    categorySpecialty: "specialty",
+    typeGuideLink: "Full guide for this laser type",
+    specialtyGuideLink: "Related guides",
+    specialtyGuides: {
+      mopa: "MOPA fiber (color metal marking)",
+      galvo: "Galvo workstations (compact scan heads)",
+      infrared: "IR modules on diode machines (not fiber)",
+      modules: "Swappable modules vs hybrid vs power tiers",
+      wattage: "Optical watts vs marketing watts",
+      metalWithoutFiber: "Metal marking without a fiber laser",
+      enclosed: "Open frame vs enclosed (Class 1)",
+      lightburn: "LightBurn vs manufacturer software",
+      rotary: "Rotary & cylindrical engraving",
+      co2Tubes: "CO₂ glass tube vs RF metal tube",
+      materials: "Materials by laser type (quick reference)",
+    },
   },
   about: {
     title: "About Maker Atlas",

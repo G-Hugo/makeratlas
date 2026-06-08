@@ -5,8 +5,8 @@
   "brand": "Gweike",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "Gweike Cloud 50W CO₂ : compact desktop CO₂ with rotary option",
-  "tldr": "Gweike Cloud 50W is the lower-power Cloud CO₂ desktop cutter : acrylic, wood, and leather at a smaller price than Cloud 55W/Pro, still enclosed-class workflow with rotary bundles common.",
+  "tagline": "Gweike Cloud 50W CO₂: compact desktop CO₂ with rotary option",
+  "tldr": "Gweike Cloud 50W is the lower-power Cloud CO₂ desktop cutter: acrylic, wood, and leather at a smaller price than Cloud 55W/Pro, still enclosed-class workflow with rotary bundles common.",
   "mainObjective": "Entry Gweike Cloud CO₂ without 55W pricing",
   "bestFor": [
     "CO₂ beginners",
@@ -69,14 +69,14 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
   "beginnerNotes": "This profile covers Gweike Cloud 50W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Rotary Pro bundles are popular for tumblers : confirm included accessories.",
+  "proTips": "Rotary Pro bundles are popular for tumblers: confirm included accessories.",
   "primaryUse": "Desktop CO₂ cutting and engraving for crafts.",
   "rating": {
     "overall": 7.9,
@@ -98,19 +98,19 @@
   "images": [
     {
       "src": "/machines/gweike-cloud-50w/01.webp",
-      "alt": "Gweike Cloud 50W laser engraver : Gweike"
+      "alt": "Gweike Cloud 50W laser engraver: Gweike"
     },
     {
       "src": "/machines/gweike-cloud-50w/02.png",
-      "alt": "Gweike Cloud 50W laser engraver : Gweike"
+      "alt": "Gweike Cloud 50W laser engraver: Gweike"
     },
     {
       "src": "/machines/gweike-cloud-50w/03.jpg",
-      "alt": "Gweike Cloud 50W laser engraver : Gweike"
+      "alt": "Gweike Cloud 50W laser engraver: Gweike"
     },
     {
       "src": "/machines/gweike-cloud-50w/04.jpg",
-      "alt": "Gweike Cloud 50W laser engraver : Gweike"
+      "alt": "Gweike Cloud 50W laser engraver: Gweike"
     }
   ],
   "editorialDepth": {

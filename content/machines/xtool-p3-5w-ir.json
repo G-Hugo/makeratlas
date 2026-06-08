@@ -5,8 +5,8 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "hybrid",
-  "tagline": "5W 1064 nm IR head on the P3 chassis : metal marking without a separate fiber box",
-  "tldr": "The optional P3 IR module adds 5W 1064 nm marking on stainless, aluminum, and many plastics while keeping the same 80W CO₂ cabinet, automation, and software stack. Buy it when metal jobs are recurring revenue : not a replacement for the CO₂ tube.",
+  "tagline": "5W 1064 nm IR head on the P3 chassis: metal marking without a separate fiber box",
+  "tldr": "The optional P3 IR module adds 5W 1064 nm marking on stainless, aluminum, and many plastics while keeping the same 80W CO₂ cabinet, automation, and software stack. Buy it when metal jobs are recurring revenue: not a replacement for the CO₂ tube.",
   "mainObjective": "Bare-metal and plastic marking on the P3 platform without a second machine",
   "bestFor": [
     "Fine engraving",
@@ -73,18 +73,18 @@
   },
   "pros": [
     "5W IR: metal marking on the same chassis as other modules",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 5W SKU on xTool P3 IR. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
-  "proTips": "Run stainless parameter libraries on scrap first. Keep CO₂ and IR jobs as separate material presets : swapping heads takes downtime.",
+  "proTips": "Run stainless parameter libraries on scrap first. Keep CO₂ and IR jobs as separate material presets: swapping heads takes downtime.",
   "primaryUse": "Optional 1064 nm marking module for P3 owners who need repeatable metal work on the flagship CO₂ chassis.",
   "editorialDepth": {
     "advantages": "The 5W IR module on xTool P3 IR is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
-    "limitations": "Skip this module if you cut 4 mm+ stock daily : open the 80W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
+    "limitations": "Skip this module if you cut 4 mm+ stock daily: open the 80W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
   },
   "rating": {
     "overall": 8.2,
@@ -104,11 +104,11 @@
   "images": [
     {
       "src": "/machines/xtool-p3/01.webp",
-      "alt": "xTool P3 with IR module : xTool"
+      "alt": "xTool P3 with IR module: xTool"
     },
     {
       "src": "/machines/xtool-p3/02.webp",
-      "alt": "xTool P3 with IR module : xTool"
+      "alt": "xTool P3 with IR module: xTool"
     }
   ],
   "modelLine": "xtool-p3",

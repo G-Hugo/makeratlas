@@ -5,8 +5,8 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "uv",
-  "tagline": "5W UV galvo module : glass, film, and sensitive plastics on the T1 chassis",
-  "tldr": "The 5W UV WaveSync module targets materials diode and fiber struggle with : glass, some films, and heat-sensitive plastics. Install on the same Falcon T1 enclosure when your shop adds UV jobs after wood or metal modules.",
+  "tagline": "5W UV galvo module: glass, film, and sensitive plastics on the T1 chassis",
+  "tldr": "The 5W UV WaveSync module targets materials diode and fiber struggle with: glass, some films, and heat-sensitive plastics. Install on the same Falcon T1 enclosure when your shop adds UV jobs after wood or metal modules.",
   "mainObjective": "UV galvo marking for glass and specialty plastics on the T1 platform",
   "bestFor": [
     "Fine engraving",
@@ -67,14 +67,14 @@
   },
   "pros": [
     "5W UV: cold marking on glass and heat-sensitive plastics",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 5W SKU on Creality Falcon T1 UV. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
-  "proTips": "Run glass test tiles at low power : UV on glass is unforgiving. Keep dedicated ventilation practices for UV fumes per Creality guidance.",
+  "proTips": "Run glass test tiles at low power: UV on glass is unforgiving. Keep dedicated ventilation practices for UV fumes per Creality guidance.",
   "primaryUse": "5W UV galvo module for glass and specialty marking on the Creality Falcon T1 chassis.",
   "rating": {
     "overall": 7.6,
@@ -102,7 +102,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "WaveSync swappable galvo modules",
-    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules : install one head at a time.",
+    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules: install one head at a time.",
     "options": [
       {
         "power": "20W",
@@ -145,7 +145,7 @@
   "releaseDate": "2026-05",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The 5W UV module covers glass and heat-sensitive plastics on the T1 chassis : niche work that diode and fiber modules cannot do on the same platform.",
-    "limitations": "Specialty module with narrow material list. Requires chassis and swap discipline. Not a first purchase for most shops : compare the base diode profile unless UV jobs are already sold."
+    "advantages": "The 5W UV module covers glass and heat-sensitive plastics on the T1 chassis: niche work that diode and fiber modules cannot do on the same platform.",
+    "limitations": "Specialty module with narrow material list. Requires chassis and swap discipline. Not a first purchase for most shops: compare the base diode profile unless UV jobs are already sold."
   }
 }

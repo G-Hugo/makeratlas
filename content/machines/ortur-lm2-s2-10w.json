@@ -5,8 +5,8 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "10W Ortur LM2 S2 : faster engraves than 5W on the same frame",
-  "tldr": "Ortur LM2 S2 10W is the higher-power SKU in the LM2 S2 family : better cutting on thin wood and quicker fills than 5W, still open-frame and budget-oriented.",
+  "tagline": "10W Ortur LM2 S2: faster engraves than 5W on the same frame",
+  "tldr": "Ortur LM2 S2 10W is the higher-power SKU in the LM2 S2 family: better cutting on thin wood and quicker fills than 5W, still open-frame and budget-oriented.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
     "Engraving-focused shops",
@@ -68,9 +68,9 @@
     ]
   },
   "pros": [
-    "10W on Ortur LM2 S2: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Ortur LM2 S2: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -100,19 +100,19 @@
   "images": [
     {
       "src": "/machines/ortur-lm2-s2-10w/01.webp",
-      "alt": "Ortur LM2 S2 10W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 10W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-lm2-s2-10w/02.webp",
-      "alt": "Ortur LM2 S2 10W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 10W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-lm2-s2-10w/03.webp",
-      "alt": "Ortur LM2 S2 10W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 10W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-lm2-s2-10w/04.webp",
-      "alt": "Ortur LM2 S2 10W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 10W laser engraver: Ortur"
     }
   ],
   "tierEditorialOverride": true,

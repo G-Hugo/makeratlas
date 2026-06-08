@@ -80,11 +80,11 @@
     "Inconsistent QA between batches",
     "Small English support community",
     "40W label is marketing-heavy",
-    "Open frame : full safety on you",
+    "Open frame: full safety on you",
     "May need alignment tweaks out of box"
   ],
   "beginnerNotes": "Only choose TTS-55 when every dollar counts. If you can reach $400–500, Ortur LM3 is a safer long-term bet.",
-  "proTips": "Square the frame before first burn. Treat published max speed as aspirational : start at 50% for engraves until you dial settings in.",
+  "proTips": "Square the frame before first burn. Treat published max speed as aspirational: start at 50% for engraves until you dial settings in.",
   "primaryUse": "Bare-minimum budget diode for light engraving experiments and learning whether you enjoy the hobby.",
   "rating": {
     "overall": 7.2,
@@ -102,19 +102,19 @@
   "images": [
     {
       "src": "/machines/twotrees-tts-55/01.webp",
-      "alt": "TwoTrees TTS-55 laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 laser engraver: TwoTrees"
     },
     {
       "src": "/machines/twotrees-tts-55/02.jpg",
-      "alt": "TwoTrees TTS-55 laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 laser engraver: TwoTrees"
     },
     {
       "src": "/machines/twotrees-tts-55/03.jpg",
-      "alt": "TwoTrees TTS-55 laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 laser engraver: TwoTrees"
     },
     {
       "src": "/machines/twotrees-tts-55/04.jpg",
-      "alt": "TwoTrees TTS-55 laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 laser engraver: TwoTrees"
     }
   ],
   "modelLine": "twotrees-tts-55",

@@ -7,8 +7,8 @@
   "laserType": "diode",
   "image": "/machines/atomstack-a40-pro-40w/01.webp",
   "tagline": "40W Mid-tier Atomstack with better frame and 40W-class cutting claims",
-  "tldr": "Atomstack A40 Pro 40W is the 40W SKU on the Atomstack atomstack a40 pro line. Step up from A5 Pro with a stiffer frame and stronger cutting marketing (40W combined). Verify optical power on the listing : do not assume combined-watt marketing.",
-  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "tldr": "Atomstack A40 Pro 40W is the 40W SKU on the Atomstack atomstack a40 pro line. Step up from A5 Pro with a stiffer frame and stronger cutting marketing (40W combined). Verify optical power on the listing: do not assume combined-watt marketing.",
+  "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -19,7 +19,7 @@
     "min": 399,
     "max": 599,
     "currency": "USD",
-    "note": "40W optical module : verify SKU before buying"
+    "note": "40W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "40W diode",
@@ -72,10 +72,10 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
     "40W: the most cut-focused head in the Atomstack A40 Pro line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -100,11 +100,11 @@
   "images": [
     {
       "src": "/machines/atomstack-a40-pro-40w/01.webp",
-      "alt": "Atomstack A40 Pro 40W laser engraver : Atomstack"
+      "alt": "Atomstack A40 Pro 40W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a40-pro-40w/02.png",
-      "alt": "Atomstack A40 Pro 40W laser engraver : Atomstack"
+      "alt": "Atomstack A40 Pro 40W laser engraver: Atomstack"
     }
   ],
   "modelLine": "atomstack-a40-pro",
@@ -113,7 +113,7 @@
   "releaseDate": "2023-05",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Atomstack A40 Pro 40W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "Atomstack A40 Pro 40W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   }
 }

@@ -5,7 +5,7 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Entry S30 Ultra frame : engraving-first, light cutting",
+  "tagline": "Entry S30 Ultra frame: engraving-first, light cutting",
   "tldr": "The 10W S30 Ultra uses the same rigid frame as higher-power models but targets makers who mainly engrave wood, leather, and slate. Expect slower cuts and thinner material limits than the 20W or 22W versions.",
   "bestFor": [
     "Engraving-focused shops",
@@ -17,7 +17,7 @@
     "min": 380,
     "max": 520,
     "currency": "USD",
-    "note": "10W module : still sold as a distinct SKU"
+    "note": "10W module: still sold as a distinct SKU"
   },
   "specs": {
     "power": "10W diode",
@@ -71,9 +71,9 @@
     ]
   },
   "pros": [
-    "10W on Sculpfun S30 Ultra: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Sculpfun S30 Ultra: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -101,7 +101,7 @@
   "images": [
     {
       "src": "/machines/sculpfun-s30-ultra-10w/01.webp",
-      "alt": "Sculpfun S30 Ultra 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Ultra 10W laser engraver: Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s30-ultra",
@@ -110,6 +110,6 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Sculpfun S30 Ultra 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 5 mm+ cutting in production : see 20W or 22W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 22W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

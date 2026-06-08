@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/htouroy-40w.svg",
-  "tagline": "Budget 40W-class diode : aggressive pricing, verify before buying",
-  "tldr": "Htouroy sells high-wattage diode kits at very low prices. Optical output is far below the 40W label. Acceptable for experiments if return policy is solid : not recommended as primary business tool without testing your exact unit.",
+  "tagline": "Budget 40W-class diode: aggressive pricing, verify before buying",
+  "tldr": "Htouroy sells high-wattage diode kits at very low prices. Optical output is far below the 40W label. Acceptable for experiments if return policy is solid: not recommended as primary business tool without testing your exact unit.",
   "mainObjective": "Ultra-cheap high-label-watt diode for casual experiments",
   "bestFor": [
     "Experiments",
@@ -80,7 +80,7 @@
   ],
   "beginnerNotes": "Do not trust '40W' for business planning. Buy Ortur or Sculpfun if you can add $100–200.",
   "proTips": "Measure optical power or run our 10×10 cm benchmark on delivery to decide keep vs return.",
-  "primaryUse": "Lowest-cost diode experiment platform : verify performance on arrival.",
+  "primaryUse": "Lowest-cost diode experiment platform: verify performance on arrival.",
   "rating": {
     "overall": 7.1,
     "value": 8,

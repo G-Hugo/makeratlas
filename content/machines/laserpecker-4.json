@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Ultra-portable laser for on-the-go engraving and small gifts",
-  "tldr": "A compact, foldable diode laser designed for portability : markets, events, and desk gifts. Dual laser sources in the Pro model. Not a workshop production machine, but unmatched for throwing in a bag and engraving on-site.",
+  "tldr": "A compact, foldable diode laser designed for portability: markets, events, and desk gifts. Dual laser sources in the Pro model. Not a workshop production machine, but unmatched for throwing in a bag and engraving on-site.",
   "bestFor": [
     "Portable engraving",
     "Events & markets",
@@ -70,16 +70,16 @@
     ]
   },
   "pros": [
-    "2W on LaserPecker 4: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "2W on LaserPecker 4: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers LaserPecker 4. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Use the slide extension for longer items. Battery pack (if available for your model) is essential for markets. Pre-test designs on sample materials : on-site failures are embarrassing.",
+  "proTips": "Use the slide extension for longer items. Battery pack (if available for your model) is essential for markets. Pre-test designs on sample materials: on-site failures are embarrassing.",
   "primaryUse": "Portable on-site engraving of small items at events, gifts, and personal travel projects.",
   "rating": {
     "overall": 7.8,
@@ -99,7 +99,7 @@
     },
     {
       "question": "Does it work on metal?",
-      "answer": "The Pro model can mark some metals with limitations. It is not a fiber laser : expect lighter marks than dedicated metal machines like xTool F1 Ultra."
+      "answer": "The Pro model can mark some metals with limitations. It is not a fiber laser: expect lighter marks than dedicated metal machines like xTool F1 Ultra."
     }
   ],
   "status": "published",
@@ -109,19 +109,19 @@
   "images": [
     {
       "src": "/machines/laserpecker-4/01.webp",
-      "alt": "LaserPecker 4 laser engraver : LaserPecker"
+      "alt": "LaserPecker 4 laser engraver: LaserPecker"
     },
     {
       "src": "/machines/laserpecker-4/02.jpg",
-      "alt": "LaserPecker 4 laser engraver : LaserPecker"
+      "alt": "LaserPecker 4 laser engraver: LaserPecker"
     },
     {
       "src": "/machines/laserpecker-4/03.jpg",
-      "alt": "LaserPecker 4 laser engraver : LaserPecker"
+      "alt": "LaserPecker 4 laser engraver: LaserPecker"
     },
     {
       "src": "/machines/laserpecker-4/04.jpg",
-      "alt": "LaserPecker 4 laser engraver : LaserPecker"
+      "alt": "LaserPecker 4 laser engraver: LaserPecker"
     }
   ],
   "powerRating": "2W",

@@ -5,7 +5,7 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Enclosed 40W diode : top home cutting in xTool's cabinet line",
+  "tagline": "Enclosed 40W diode: top home cutting in xTool's cabinet line",
   "tldr": "The 40W S1 is xTool's high-power enclosed diode. Still not CO₂, but the extra optical power helps on thicker basswood versus the 20W cabinet.",
   "bestFor": [
     "Maximum cuts in line",
@@ -72,15 +72,15 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
     "40W: the most cut-focused head in the xTool S1 line",
-    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
+    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The 40W diode module is the most cut-focused head on xTool S1 : thicker basswood and faster fills than entry modules on the same chassis.",
-    "limitations": "Overkill if you only do fine engraving. Still a diode : clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
+    "advantages": "The 40W diode module is the most cut-focused head on xTool S1: thicker basswood and faster fills than entry modules on the same chassis.",
+    "limitations": "Overkill if you only do fine engraving. Still a diode: clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
   },
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -114,19 +114,19 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/xtool-s1-40w/01.webp",
-  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "images": [
     {
       "src": "/machines/xtool-s1-40w/01.webp",
-      "alt": "xTool S1 40W laser engraver : xTool"
+      "alt": "xTool S1 40W laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-s1-40w/02.webp",
-      "alt": "xTool S1 40W laser engraver : xTool"
+      "alt": "xTool S1 40W laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-s1-40w/03.webp",
-      "alt": "xTool S1 40W laser engraver : xTool"
+      "alt": "xTool S1 40W laser engraver: xTool"
     }
   ],
   "modelLine": "xtool-s1",
@@ -134,7 +134,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Interchangeable laser heads on the same S1 cabinet",
-    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet : heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
+    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet: heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
     "options": [
       {
         "power": "10W",

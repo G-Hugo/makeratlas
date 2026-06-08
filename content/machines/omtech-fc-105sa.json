@@ -5,8 +5,8 @@
   "brand": "OMTech",
   "category": "laser-engraver",
   "laserType": "fiber",
-  "tagline": "OMTech FC-105SA : industrial fiber cutting platform",
-  "tldr": "OMTech FC-105SA is a fiber laser cutting system for metal sheet work : beyond desktop marking galvos. Serious investment for shops doing steel/aluminum cutting, not hobby wood engraving.",
+  "tagline": "OMTech FC-105SA: industrial fiber cutting platform",
+  "tldr": "OMTech FC-105SA is a fiber laser cutting system for metal sheet work: beyond desktop marking galvos. Serious investment for shops doing steel/aluminum cutting, not hobby wood engraving.",
   "mainObjective": "Fiber laser cutting for metal fabrication shops",
   "bestFor": [
     "Metal cutting",
@@ -67,12 +67,12 @@
     ]
   },
   "pros": [
-    "Fiber marks metal : does not cut wood or acrylic",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first",
-    "Work area Large format (verify SKU) : confirm your typical job sizes fit the bed"
+    "Fiber marks metal: does not cut wood or acrylic",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first",
+    "Work area Large format (verify SKU): confirm your typical job sizes fit the bed"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Does not cut wood, leather, or acrylic: metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
   "beginnerNotes": "This profile covers OMTech FC-105SA Fiber. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
@@ -98,19 +98,19 @@
   "images": [
     {
       "src": "/machines/omtech-fc-105sa/01.webp",
-      "alt": "OMTech FC-105SA Fiber laser engraver : OMTech"
+      "alt": "OMTech FC-105SA Fiber laser engraver: OMTech"
     },
     {
       "src": "/machines/omtech-fc-105sa/02.jpg",
-      "alt": "OMTech FC-105SA Fiber laser engraver : OMTech"
+      "alt": "OMTech FC-105SA Fiber laser engraver: OMTech"
     },
     {
       "src": "/machines/omtech-fc-105sa/03.jpg",
-      "alt": "OMTech FC-105SA Fiber laser engraver : OMTech"
+      "alt": "OMTech FC-105SA Fiber laser engraver: OMTech"
     },
     {
       "src": "/machines/omtech-fc-105sa/04.jpg",
-      "alt": "OMTech FC-105SA Fiber laser engraver : OMTech"
+      "alt": "OMTech FC-105SA Fiber laser engraver: OMTech"
     }
   ],
   "editorialDepth": {

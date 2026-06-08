@@ -98,38 +98,129 @@ export function getMachinesByLaserType(type: LaserType, locale: Locale = "en"): 
   return getAllMachines(locale).filter((machine) => machine.laserType === type);
 }
 
+/** Dedicated deep-dive guide per catalog laser type */
+export const LASER_TYPE_GUIDE_SLUG: Record<LaserType, string> = {
+  diode: "diode-lasers-explained",
+  co2: "co2-lasers-explained",
+  fiber: "fiber-lasers-explained",
+  uv: "uv-lasers-explained",
+  hybrid: "hybrid-lasers-explained",
+};
+
+export const SPECIALTY_GUIDE_SLUGS = {
+  mopa: "mopa-fiber-lasers-explained",
+  galvo: "galvo-laser-workstations-explained",
+  infrared: "infrared-laser-modules-explained",
+  modules: "swappable-laser-modules-explained",
+  wattage: "laser-wattage-marketing-explained",
+  metalWithoutFiber: "metal-marking-without-fiber",
+  enclosed: "open-frame-vs-enclosed-lasers",
+  lightburn: "lightburn-vs-maker-software",
+  rotary: "rotary-laser-engraving",
+  co2Tubes: "co2-laser-tubes-explained",
+  materials: "laser-materials-by-type",
+} as const;
+
+export const SETUP_GUIDE_SLUGS = {
+  safety: "laser-safety-basics",
+  ventilation: "laser-ventilation-setup",
+  airAssist: "air-assist-honeycomb-setup",
+  exhaustFilters: "laser-exhaust-filters-explained",
+} as const;
+
+export const SPECIALTY_TECH_SLUGS: string[] = [
+  SPECIALTY_GUIDE_SLUGS.modules,
+  SPECIALTY_GUIDE_SLUGS.wattage,
+  SPECIALTY_GUIDE_SLUGS.mopa,
+  SPECIALTY_GUIDE_SLUGS.galvo,
+  SPECIALTY_GUIDE_SLUGS.infrared,
+  SPECIALTY_GUIDE_SLUGS.co2Tubes,
+];
+
+export const SPECIALTY_BUYER_SLUGS: string[] = [
+  SPECIALTY_GUIDE_SLUGS.metalWithoutFiber,
+  SPECIALTY_GUIDE_SLUGS.enclosed,
+  SPECIALTY_GUIDE_SLUGS.materials,
+  SPECIALTY_GUIDE_SLUGS.lightburn,
+  SPECIALTY_GUIDE_SLUGS.rotary,
+];
+
+export const SETUP_GUIDE_ORDER: string[] = [
+  SETUP_GUIDE_SLUGS.safety,
+  SETUP_GUIDE_SLUGS.ventilation,
+  SETUP_GUIDE_SLUGS.airAssist,
+  SETUP_GUIDE_SLUGS.exhaustFilters,
+];
+
+export type SpecialtyGuideKey = keyof typeof SPECIALTY_GUIDE_SLUGS;
+
+/** Related specialty topics shown on type browse pages */
+export const SPECIALTY_GUIDES_BY_LASER_TYPE: Partial<
+  Record<LaserType, SpecialtyGuideKey[]>
+> = {
+  diode: ["wattage", "metalWithoutFiber", "enclosed", "modules", "infrared", "lightburn", "rotary", "materials"],
+  co2: ["enclosed", "co2Tubes", "materials", "lightburn"],
+  fiber: ["mopa", "galvo", "metalWithoutFiber", "materials"],
+  hybrid: ["galvo", "mopa", "modules", "materials", "lightburn"],
+  uv: ["galvo", "materials"],
+};
+
+export const GUIDE_INDEX_SECTIONS = [
+  "overview",
+  "byType",
+  "specialtyTech",
+  "specialtyBuyer",
+  "buying",
+  "safetySetup",
+] as const;
+
+export type GuideIndexSection = (typeof GUIDE_INDEX_SECTIONS)[number];
+
+const OVERVIEW_GUIDE_SLUG = "understanding-laser-types";
+
+export function guideIndexSectionFor(meta: GuideMeta): GuideIndexSection {
+  if (meta.slug === OVERVIEW_GUIDE_SLUG) return "overview";
+  if (meta.category === "specialty") {
+    if (SPECIALTY_BUYER_SLUGS.includes(meta.slug)) return "specialtyBuyer";
+    return "specialtyTech";
+  }
+  if (meta.category === "laser-types") return "byType";
+  if (meta.category === "buying-guide") return "buying";
+  return "safetySetup";
+}
+
 export const LASER_TYPE_INFO: Record<
   LaserType,
-  { label: string; description: string; guideAnchor?: string }
+  { label: string; description: string; guideSlug: string }
 > = {
   diode: {
     label: "Diode",
     description:
       "Blue-light semiconductor lasers. Best for wood, leather, and budget hobby work. Cannot cut clear acrylic or mark bare metal without spray.",
-    guideAnchor: "diode-lasers--the-popular-entry-point",
+    guideSlug: LASER_TYPE_GUIDE_SLUG.diode,
   },
   co2: {
     label: "CO₂",
     description:
       "Gas-tube infrared lasers. The standard for cutting acrylic and wood. Requires ventilation. Cannot mark bare metal.",
-    guideAnchor: "co-lasers--the-cutting-workhorse",
+    guideSlug: LASER_TYPE_GUIDE_SLUG.co2,
   },
   fiber: {
     label: "Fiber",
     description:
-      "Metal-focused lasers for marking stainless, aluminum, and brass without chemical spray.",
-    guideAnchor: "fiber-lasers--the-metal-specialist",
+      "Metal-focused 1064 nm lasers for marking stainless, aluminum, and brass. Includes standard fiber and MOPA variants (see specialty guides).",
+    guideSlug: LASER_TYPE_GUIDE_SLUG.fiber,
   },
   uv: {
     label: "UV",
     description:
       "Cold laser for plastics, glass, and fine industrial marking. Rare in hobby desktop machines.",
-    guideAnchor: "uv-lasers--precision-on-delicate-materials",
+    guideSlug: LASER_TYPE_GUIDE_SLUG.uv,
   },
   hybrid: {
     label: "Hybrid",
     description:
       "Two laser technologies in one chassis (fiber + diode). Switch modes; not the same as swapping a 10W vs 40W diode head on an S1.",
-    guideAnchor: "hybrid-machines--fiber--diode-in-one-box",
+    guideSlug: LASER_TYPE_GUIDE_SLUG.hybrid,
   },
 };

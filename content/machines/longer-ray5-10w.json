@@ -5,8 +5,8 @@
   "brand": "Longer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "10W Compact fixed-focus diode : simple desk engraver for small projects",
-  "tldr": "Longer Ray5 10W is the 10W SKU on the Longer longer ray5 line. Longer's compact Ray5 20W diode engraver : verify you are buying the 20W SKU, not the 5W, 10W, or 40W Ray5 listings. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tagline": "10W Compact fixed-focus diode: simple desk engraver for small projects",
+  "tldr": "Longer Ray5 10W is the 10W SKU on the Longer longer ray5 line. Longer's compact Ray5 20W diode engraver: verify you are buying the 20W SKU, not the 5W, 10W, or 40W Ray5 listings. Verify optical power on the listing: do not assume combined-watt marketing.",
   "bestFor": [
     "Engraving-focused shops",
     "Leather & wood gifts",
@@ -17,7 +17,7 @@
     "min": 249,
     "max": 379,
     "currency": "USD",
-    "note": "10W optical module : verify SKU before buying"
+    "note": "10W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "10W diode",
@@ -70,9 +70,9 @@
     ]
   },
   "pros": [
-    "10W on Longer Ray5: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Longer Ray5: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/longer-ray5-10w/01.webp",
-      "alt": "Longer Ray5 10W laser engraver : Longer"
+      "alt": "Longer Ray5 10W laser engraver: Longer"
     },
     {
       "src": "/machines/longer-ray5-10w/02.jpg",
-      "alt": "Longer Ray5 10W laser engraver : Longer"
+      "alt": "Longer Ray5 10W laser engraver: Longer"
     },
     {
       "src": "/machines/longer-ray5-10w/03.jpg",
-      "alt": "Longer Ray5 10W laser engraver : Longer"
+      "alt": "Longer Ray5 10W laser engraver: Longer"
     },
     {
       "src": "/machines/longer-ray5-10w/04.jpg",
-      "alt": "Longer Ray5 10W laser engraver : Longer"
+      "alt": "Longer Ray5 10W laser engraver: Longer"
     }
   ],
   "powerRating": "10W",
@@ -120,6 +120,6 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Longer Ray5 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 5 mm+ cutting in production : see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

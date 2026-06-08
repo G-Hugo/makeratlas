@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "20W Ultra-budget diode laser : minimum viable entry point",
-  "tldr": "Atomstack A5 Pro 20W is the 20W SKU on the Atomstack atomstack a5 pro line. One of the cheapest ways to try laser engraving. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tagline": "20W Ultra-budget diode laser: minimum viable entry point",
+  "tldr": "Atomstack A5 Pro 20W is the 20W SKU on the Atomstack atomstack a5 pro line. One of the cheapest ways to try laser engraving. Verify optical power on the listing: do not assume combined-watt marketing.",
   "bestFor": [
     "Mixed engrave & cut",
     "Hobby side business",
@@ -17,7 +17,7 @@
     "min": 299,
     "max": 399,
     "currency": "USD",
-    "note": "20W optical module : verify SKU before buying"
+    "note": "20W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "20W diode",
@@ -69,9 +69,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -97,26 +97,26 @@
   "images": [
     {
       "src": "/machines/atomstack-a5-pro-20w/01.webp",
-      "alt": "Atomstack A5 Pro 20W laser engraver : Atomstack"
+      "alt": "Atomstack A5 Pro 20W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro-20w/02.jpg",
-      "alt": "Atomstack A5 Pro 20W laser engraver : Atomstack"
+      "alt": "Atomstack A5 Pro 20W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro-20w/03.jpg",
-      "alt": "Atomstack A5 Pro 20W laser engraver : Atomstack"
+      "alt": "Atomstack A5 Pro 20W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a5-pro-20w/04.jpg",
-      "alt": "Atomstack A5 Pro 20W laser engraver : Atomstack"
+      "alt": "Atomstack A5 Pro 20W laser engraver: Atomstack"
     }
   ],
   "modelLine": "atomstack-a5-pro",
   "powerRating": "20W",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Atomstack A5 Pro 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "Atomstack A5 Pro 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   }
 }

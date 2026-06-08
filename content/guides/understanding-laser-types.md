@@ -3,14 +3,44 @@ slug: understanding-laser-types
 title: "Understanding Laser Types: CO₂, Diode, Fiber & UV Explained"
 description: A clear, honest guide to every major laser type used in desktop engravers. Learn what each one actually does, who it's for, and what marketing gets wrong.
 category: laser-types
-readTime: 12 min
-lastUpdated: "2026-05-31"
+readTime: 26 min
+lastUpdated: "2026-06-02"
 status: published
 ---
 
 Choosing a laser engraver starts with one decision most buyers get wrong: **which type of laser you actually need**.
 
-Manufacturers love big watt numbers and vague claims. This guide cuts through that. No affiliate links here: just how the technology works.
+Manufacturers love big watt numbers and vague claims. Below: how each technology couples into materials, who each one is for, and the marketing traps that send buyers to the wrong checkout.
+
+
+## Start here, then go deeper
+
+This page is the **overview**. For buying decisions on one technology, read the dedicated guides:
+
+| Type | Deep-dive guide |
+|------|-----------------|
+| **Diode** | [Diode lasers explained](/guides/diode-lasers-explained) |
+| **CO₂** | [CO₂ lasers explained](/guides/co2-lasers-explained) |
+| **Fiber** (+ MOPA in catalog) | [Fiber lasers explained](/guides/fiber-lasers-explained) |
+| **UV** | [UV lasers explained](/guides/uv-lasers-explained) |
+| **Hybrid** | [Hybrid lasers explained](/guides/hybrid-lasers-explained) |
+
+**Related specialties** (same ecosystem, different engineering):
+
+- [MOPA fiber lasers](/guides/mopa-fiber-lasers-explained): pulse control & color stainless (listed under fiber in the catalog)
+- [Galvo workstations](/guides/galvo-laser-workstations-explained): mirror-scanned fiber, UV, and hybrid boxes
+- [Infrared modules](/guides/infrared-laser-modules-explained): 1064 nm heads on diode machines (not fiber)
+- [Swappable modules vs hybrid](/guides/swappable-laser-modules-explained): S1, T1, F1: what you actually swap
+- [Optical vs marketing watts](/guides/laser-wattage-marketing-explained): why "40W" misleads
+- [Metal without fiber](/guides/metal-marking-without-fiber): spray, anodized, CerMark
+- [Open frame vs enclosed](/guides/open-frame-vs-enclosed-lasers): Class 1 and smoke
+- [Materials by laser type](/guides/laser-materials-by-type): quick reference table
+- [LightBurn vs maker software](/guides/lightburn-vs-maker-software): when to upgrade
+- [Rotary engraving](/guides/rotary-laser-engraving): tumblers and cylinders
+- [CO₂ tube types](/guides/co2-laser-tubes-explained): glass vs RF
+- [Air assist & honeycomb](/guides/air-assist-honeycomb-setup) · [Exhaust filters](/guides/laser-exhaust-filters-explained)
+
+---
 
 ## The four laser types you'll encounter
 
@@ -20,6 +50,19 @@ Manufacturers love big watt numbers and vague claims. This guide cuts through th
 | **CO₂** | ~10,600 nm (infrared) | Acrylic, wood, leather, cutting | Bare metal, glass (without tricks) | $500 – $5,000+ |
 | **Fiber** | ~1,064 nm (infrared) | Metal marking & deep engraving | Wood, acrylic, organic cutting | $1,500 – $10,000+ |
 | **UV** | ~355 nm (ultraviolet) | Plastics, glass, fine detail | Thick cutting, large areas | $2,000 – $15,000+ |
+
+### Pick type by material (flow)
+
+```
+Your main material?
+├─ Wood / leather gifts        -> Diode (~450 nm)
+├─ Clear acrylic signs         -> CO₂ (~10,600 nm)
+├─ Bare steel / brass daily    -> Fiber (~1,064 nm)
+├─ Heat-sensitive plastic mark -> UV (~355 nm)
+└─ Small metal + wood same box -> Hybrid (fiber + diode modes)
+```
+
+Machine profiles list **cutExample** / **engraveExample** per SKU: start there after you pick a row. See [laser buying guide 2026](/guides/laser-buying-guide-2026).
 
 ---
 
@@ -102,6 +145,8 @@ CO₂ lasers cut combustible materials. You need:
 
 **How it works:** An optical fiber doped with rare-earth elements generates a beam optimized for metal absorption. Desktop fiber machines exploded in popularity for jewelry and tool marking.
 
+**MOPA variants** share the same 1064 nm wavelength as standard fiber but add adjustable pulses for color stainless and finer process control, see [MOPA fiber lasers explained](/guides/mopa-fiber-lasers-explained). Most desktop fiber units use a **galvo** scan head; see [galvo workstations](/guides/galvo-laser-workstations-explained).
+
 ### What fiber lasers do well
 
 - Mark and engrave **stainless steel, aluminum, brass, copper** without spray
@@ -154,15 +199,17 @@ CO₂ lasers cut combustible materials. You need:
 
 ## Hybrid machines: fiber + diode in one box
 
-Some machines (like the xTool F1 Ultra) combine **two laser technologies** in one chassis: typically fiber for metal and diode for wood/acrylic. You switch modes; they don't engrave with both beams at once.
+**Fixed hybrids** combine **two laser technologies** in one chassis: typically fiber for metal and diode for wood/acrylic. You switch modes in software; both beams do not merge into one super-source.
 
-**Not the same as interchangeable heads:** The xTool S1 is **not** hybrid. It is a **diode** enclosure where you swap **one** laser head (10W, 20W, or 40W diode, or an optional 2W infrared module). Same cabinet, different plug-in module: still one laser type active at a time.
+**Swappable single-head systems** are different: one physical module mounted at a time — usually higher-watt diode tiers, sometimes an optional low-power IR accessory. Same cabinet, different plug-in head; still one active source.
 
-| | Hybrid (F1 Ultra, LP5) | Interchangeable module (S1, D1 Pro) |
-|---|------------------------|-------------------------------------|
-| **Laser types** | Fiber + diode | Usually diode only (+ optional IR on S1) |
+| | Fixed hybrid | Swappable single-head |
+|---|--------------|----------------------|
+| **Laser types** | Fiber + diode integrated | Usually diode only (+ optional IR accessory) |
 | **What you change** | Software mode / internal source | Physical laser head |
-| **Catalog type** | `hybrid` | `diode` |
+| **Shop as** | Hybrid (dual source) | Diode |
+
+Named product comparisons (which listing is which): [hybrid lasers](/guides/hybrid-lasers-explained) · [swappable modules](/guides/swappable-laser-modules-explained)
 
 **Honest take:** Hybrids make sense if you need metal **and** wood on the same desk and accept a small work area. They are expensive. Most beginners should buy one laser type that matches 80% of their work.
 

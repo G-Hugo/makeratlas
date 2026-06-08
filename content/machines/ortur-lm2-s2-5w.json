@@ -5,9 +5,9 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "5W Ortur LM2 S2 : lowest-cost Ortur still worth knowing",
-  "tldr": "Ortur LM2 S2 5W is the entry SKU : engraving-first, minimal cutting. Fine for learning if price is right; most users outgrow it quickly.",
-  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "tagline": "5W Ortur LM2 S2: lowest-cost Ortur still worth knowing",
+  "tldr": "Ortur LM2 S2 5W is the entry SKU: engraving-first, minimal cutting. Fine for learning if price is right; most users outgrow it quickly.",
+  "mainObjective": "Detailed engraving on organics and coated metal: occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -67,9 +67,9 @@
     ]
   },
   "pros": [
-    "5W on Ortur LM2 S2: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "5W on Ortur LM2 S2: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,24 +99,24 @@
   "images": [
     {
       "src": "/machines/ortur-lm2-s2-5w/01.webp",
-      "alt": "Ortur LM2 S2 5W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 5W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-lm2-s2-5w/02.webp",
-      "alt": "Ortur LM2 S2 5W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 5W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-lm2-s2-5w/03.webp",
-      "alt": "Ortur LM2 S2 5W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 5W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-lm2-s2-5w/04.webp",
-      "alt": "Ortur LM2 S2 5W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 5W laser engraver: Ortur"
     }
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Ortur LM2 S2 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 3 mm+ cutting in production : see 10W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 3 mm+ cutting in production: see 10W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

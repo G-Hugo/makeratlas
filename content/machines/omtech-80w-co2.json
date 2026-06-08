@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "co2",
   "image": "/machines/omtech-80w-co2/01.webp",
-  "tagline": "Workhorse CO₂ for shops that outgrew 40W : large bed, real production speed",
-  "tldr": "OMTech's 80W desktop/floor CO₂ machines target sign shops and serious makers who need faster cuts on thick acrylic and wood. More power, larger beds, and higher price than K40 class. Expect setup, ventilation, and maintenance : not plug-and-play.",
+  "tagline": "Workhorse CO₂ for shops that outgrew 40W: large bed, real production speed",
+  "tldr": "OMTech's 80W desktop/floor CO₂ machines target sign shops and serious makers who need faster cuts on thick acrylic and wood. More power, larger beds, and higher price than K40 class. Expect setup, ventilation, and maintenance: not plug-and-play.",
   "mainObjective": "High-power CO₂ production for sign shops cutting thick acrylic & wood daily",
   "bestFor": [
     "Sign shops",
@@ -77,14 +77,14 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
   "beginnerNotes": "This profile covers OMTech 80W CO₂. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Install ammeter and water flow sensor early. Keep spare mirrors and lens : production downtime costs more than parts.",
+  "proTips": "Install ammeter and water flow sensor early. Keep spare mirrors and lens: production downtime costs more than parts.",
   "primaryUse": "Production CO₂ laser for sign making and thick material cutting in dedicated workshop spaces.",
   "rating": {
     "overall": 7.9,
@@ -103,19 +103,19 @@
   "images": [
     {
       "src": "/machines/omtech-80w-co2/01.webp",
-      "alt": "OMTech 80W CO₂ laser engraver : OMTech"
+      "alt": "OMTech 80W CO₂ laser engraver: OMTech"
     },
     {
       "src": "/machines/omtech-80w-co2/02.jpg",
-      "alt": "OMTech 80W CO₂ laser engraver : OMTech"
+      "alt": "OMTech 80W CO₂ laser engraver: OMTech"
     },
     {
       "src": "/machines/omtech-80w-co2/03.jpg",
-      "alt": "OMTech 80W CO₂ laser engraver : OMTech"
+      "alt": "OMTech 80W CO₂ laser engraver: OMTech"
     },
     {
       "src": "/machines/omtech-80w-co2/04.jpg",
-      "alt": "OMTech 80W CO₂ laser engraver : OMTech"
+      "alt": "OMTech 80W CO₂ laser engraver: OMTech"
     }
   ],
   "powerRating": "80W",

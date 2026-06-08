@@ -7,8 +7,8 @@
   "laserType": "diode",
   "image": "/machines/twotrees-tts-55-40w/01.webp",
   "tagline": "40W Ultra-budget diode with surprising build quality for the price",
-  "tldr": "TwoTrees TTS-55 40W is the 40W SKU on the TwoTrees twotrees tts 55 line. TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5. Verify optical power on the listing : do not assume combined-watt marketing.",
-  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "tldr": "TwoTrees TTS-55 40W is the 40W SKU on the TwoTrees twotrees tts 55 line. TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5. Verify optical power on the listing: do not assume combined-watt marketing.",
+  "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -19,7 +19,7 @@
     "min": 349,
     "max": 499,
     "currency": "USD",
-    "note": "40W optical module : verify SKU before buying"
+    "note": "40W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "40W diode",
@@ -71,10 +71,10 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
     "40W: the most cut-focused head in the TwoTrees TTS-55 line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,26 +99,26 @@
   "images": [
     {
       "src": "/machines/twotrees-tts-55-40w/01.webp",
-      "alt": "TwoTrees TTS-55 40W laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 40W laser engraver: TwoTrees"
     },
     {
       "src": "/machines/twotrees-tts-55-40w/02.jpg",
-      "alt": "TwoTrees TTS-55 40W laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 40W laser engraver: TwoTrees"
     },
     {
       "src": "/machines/twotrees-tts-55-40w/03.jpg",
-      "alt": "TwoTrees TTS-55 40W laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 40W laser engraver: TwoTrees"
     },
     {
       "src": "/machines/twotrees-tts-55-40w/04.jpg",
-      "alt": "TwoTrees TTS-55 40W laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 40W laser engraver: TwoTrees"
     }
   ],
   "modelLine": "twotrees-tts-55",
   "powerRating": "40W",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "TwoTrees TTS-55 40W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "TwoTrees TTS-55 40W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   }
 }

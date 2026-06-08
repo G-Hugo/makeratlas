@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "tagline": "Step-up A24 with more diode power and refined hybrid workflow",
-  "tldr": "AtomStack A24 Ultra is the higher-tier A24 with more diode power and updated hybrid layout. Same use case as A24 Pro : metal marking plus organic work in a compact box : with more headroom for cutting.",
+  "tldr": "AtomStack A24 Ultra is the higher-tier A24 with more diode power and updated hybrid layout. Same use case as A24 Pro: metal marking plus organic work in a compact box: with more headroom for cutting.",
   "mainObjective": "Premium compact hybrid Atomstack for metal + wood shops",
   "bestFor": [
     "Hybrid power users",
@@ -20,7 +20,7 @@
   },
   "specs": {
     "power": "24W diode + fiber",
-    "workArea": "Verify listing : compact hybrid format",
+    "workArea": "Verify listing: compact hybrid format",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -66,9 +66,9 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 5 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 5 mm basswood-class stock in benchmarks",
     "24W: the most cut-focused head in the AtomStack A24 Ultra line",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -106,24 +106,24 @@
   "images": [
     {
       "src": "/machines/atomstack-a24-ultra/01.webp",
-      "alt": "AtomStack A24 Ultra laser engraver : Atomstack"
+      "alt": "AtomStack A24 Ultra laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-ultra/02.jpg",
-      "alt": "AtomStack A24 Ultra laser engraver : Atomstack"
+      "alt": "AtomStack A24 Ultra laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-ultra/03.jpg",
-      "alt": "AtomStack A24 Ultra laser engraver : Atomstack"
+      "alt": "AtomStack A24 Ultra laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-ultra/04.jpg",
-      "alt": "AtomStack A24 Ultra laser engraver : Atomstack"
+      "alt": "AtomStack A24 Ultra laser engraver: Atomstack"
     }
   ],
   "editorialDepth": {
-    "advantages": "AtomStack A24 Ultra 24W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "AtomStack A24 Ultra 24W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "tierEditorialOverride": true
 }

@@ -5,8 +5,8 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Enclosed diode laser : safer and cleaner than open-frame alternatives",
-  "tldr": "The xTool S1 is an enclosed Class-1 diode platform with interchangeable 10W, 20W, and 40W heads (plus optional 2W IR for metal). This overview page is deprecated : open a specific power tier for accurate specs.",
+  "tagline": "Enclosed diode laser: safer and cleaner than open-frame alternatives",
+  "tldr": "The xTool S1 is an enclosed Class-1 diode platform with interchangeable 10W, 20W, and 40W heads (plus optional 2W IR for metal). This overview page is deprecated: open a specific power tier for accurate specs.",
   "bestFor": [
     "Home workshops",
     "Families with kids nearby",
@@ -17,7 +17,7 @@
     "min": 999,
     "max": 3049,
     "currency": "USD",
-    "note": "20W and 40W enclosed variants : check xTool for current bundles and purifier add-ons"
+    "note": "20W and 40W enclosed variants: check xTool for current bundles and purifier add-ons"
   },
   "specs": {
     "power": "20W / 40W diode (enclosed)",
@@ -72,7 +72,7 @@
     ]
   },
   "pros": [
-    "Fully enclosed : major safety and smoke improvement vs open-frame",
+    "Fully enclosed: major safety and smoke improvement vs open-frame",
     "Built-in exhaust filter option for apartment use",
     "Same large work area as D1 Pro in a safer package",
     "LightBurn compatible",
@@ -80,13 +80,13 @@
   ],
   "cons": [
     "Premium price over open-frame D1 Pro for similar diode performance",
-    "Still a diode : same material limits as D1 Pro",
+    "Still a diode: same material limits as D1 Pro",
     "Enclosure adds bulk",
     "Filter cartridges need replacement over time",
-    "40W diode marketing : verify optical power for your variant"
+    "40W diode marketing: verify optical power for your variant"
   ],
-  "beginnerNotes": "Choose S1 over D1 Pro if safety and smoke control matter more than saving money : especially with kids, pets, or neighbors. Skip if you need CO₂ cutting; this will not replace a P2.",
-  "proTips": "Vent to window when cutting heavily even with filters : filters reduce smell but are not magic. Use the camera for batch alignment on repeat products. Pair with xTool riser for tumblers.",
+  "beginnerNotes": "Choose S1 over D1 Pro if safety and smoke control matter more than saving money: especially with kids, pets, or neighbors. Skip if you need CO₂ cutting; this will not replace a P2.",
+  "proTips": "Vent to window when cutting heavily even with filters: filters reduce smell but are not magic. Use the camera for batch alignment on repeat products. Pair with xTool riser for tumblers.",
   "primaryUse": "Enclosed hobby and light business diode laser for safer home engraving and moderate cutting.",
   "rating": {
     "overall": 8.8,
@@ -116,7 +116,7 @@
   "images": [
     {
       "src": "/machines/xtool-s1/01.webp",
-      "alt": "xTool S1 20W laser engraver : xTool"
+      "alt": "xTool S1 20W laser engraver: xTool"
     }
   ],
   "modelLine": "xtool-s1",
@@ -124,7 +124,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Interchangeable laser heads on the same S1 cabinet",
-    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet : heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
+    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet: heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
     "options": [
       {
         "power": "10W",

@@ -5,7 +5,7 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Creality's compact enclosed A1 : beginner-friendly diode in a small footprint",
+  "tagline": "Creality's compact enclosed A1: beginner-friendly diode in a small footprint",
   "tldr": "Creality Falcon A1 10W packs a diode engraver into an enclosed desktop body with Creality's software ecosystem. Less power than Falcon 2 Pro, but easier to live with in small spaces.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
@@ -69,9 +69,9 @@
     ]
   },
   "pros": [
-    "10W on Creality Falcon A1: engraving-first : photo fills and leather at moderate speeds",
+    "10W on Creality Falcon A1: engraving-first: photo fills and leather at moderate speeds",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -102,16 +102,16 @@
   "images": [
     {
       "src": "/machines/creality-falcon-a1-10w/01.webp",
-      "alt": "Creality Falcon A1 10W laser engraver : Creality"
+      "alt": "Creality Falcon A1 10W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-a1-10w/02.png",
-      "alt": "Creality Falcon A1 10W laser engraver : Creality"
+      "alt": "Creality Falcon A1 10W laser engraver: Creality"
     }
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Creality Falcon A1 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Enclosed format is easier to live with at home.",
-    "limitations": "Skip if you already quote 4 mm+ cutting in production : see 20W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 4 mm+ cutting in production: see 20W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

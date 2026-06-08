@@ -6,6 +6,9 @@ import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { interpolate, laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import {
+  LASER_TYPE_INFO,
+  SPECIALTY_GUIDES_BY_LASER_TYPE,
+  SPECIALTY_GUIDE_SLUGS,
   getCatalogEntries,
   getCatalogEntriesByLaserType,
   getCatalogMachineCount,
@@ -86,13 +89,42 @@ export default async function LaserTypePage({ params }: PageProps) {
       <div className="mb-8 rounded-xl border border-amber-200 bg-amber-50 p-5 dark:border-amber-900 dark:bg-amber-950/40">
         <p className="text-sm font-medium text-amber-800 dark:text-amber-300">{label}</p>
         <p className="mt-2 text-stone-700 dark:text-stone-300">{description}</p>
-        <LocaleLink
-          href="/guides/understanding-laser-types"
-          locale={locale}
-          className="mt-3 inline-block text-sm font-medium text-amber-700 hover:underline dark:text-amber-400"
-        >
-          {dict.lasers.laserTypesGuide} →
-        </LocaleLink>
+        <div className="mt-3 flex flex-col gap-1.5 text-sm">
+          <LocaleLink
+            href={`/guides/${LASER_TYPE_INFO[laserType].guideSlug}`}
+            locale={locale}
+            className="font-medium text-amber-700 hover:underline dark:text-amber-400"
+          >
+            {dict.guides.typeGuideLink} →
+          </LocaleLink>
+          <LocaleLink
+            href="/guides/understanding-laser-types"
+            locale={locale}
+            className="text-stone-600 hover:text-amber-700 hover:underline dark:text-stone-400 dark:hover:text-amber-400"
+          >
+            {dict.lasers.laserTypesGuide} →
+          </LocaleLink>
+        </div>
+        {(SPECIALTY_GUIDES_BY_LASER_TYPE[laserType]?.length ?? 0) > 0 && (
+          <div className="mt-4 border-t border-amber-200/80 pt-4 dark:border-amber-900/60">
+            <p className="text-xs font-semibold uppercase tracking-wide text-amber-900 dark:text-amber-300">
+              {dict.guides.specialtyGuideLink}
+            </p>
+            <ul className="mt-2 space-y-1.5">
+              {SPECIALTY_GUIDES_BY_LASER_TYPE[laserType]!.map((key) => (
+                <li key={key}>
+                  <LocaleLink
+                    href={`/guides/${SPECIALTY_GUIDE_SLUGS[key]}`}
+                    locale={locale}
+                    className="text-sm text-stone-700 hover:text-amber-700 hover:underline dark:text-stone-300 dark:hover:text-amber-400"
+                  >
+                    {dict.guides.specialtyGuides[key]} →
+                  </LocaleLink>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
 
       <LasersBrowse

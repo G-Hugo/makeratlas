@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/hawk-20.svg",
-  "tagline": "Newer brand open-frame 20W : competitive specs, unproven long-term support",
-  "tldr": "Hawk enters the crowded 20W open-frame market with aggressive pricing and modern design. Specs look competitive on paper. Long-term reliability and community support are the open questions : treat as a calculated risk vs established Ortur/Sculpfun.",
+  "tagline": "Newer brand open-frame 20W: competitive specs, unproven long-term support",
+  "tldr": "Hawk enters the crowded 20W open-frame market with aggressive pricing and modern design. Specs look competitive on paper. Long-term reliability and community support are the open questions: treat as a calculated risk vs established Ortur/Sculpfun.",
   "mainObjective": "Budget 20W open-frame for makers willing to bet on a newer brand",
   "bestFor": [
     "Budget 20W",
@@ -85,7 +85,7 @@
     "Open frame safety requirements"
   ],
   "beginnerNotes": "Safer first-laser picks: Ortur LM3 or Sculpfun S30 Ultra. Choose Hawk only if price difference is significant and you accept support risk.",
-  "proTips": "Document your settings and hardware mods : community knowledge base is still growing. Buy from seller with clear return window.",
+  "proTips": "Document your settings and hardware mods: community knowledge base is still growing. Buy from seller with clear return window.",
   "primaryUse": "Budget 20W open-frame alternative for engraving and light cutting when established brands are priced out.",
   "rating": {
     "overall": 7.5,

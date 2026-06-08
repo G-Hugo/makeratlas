@@ -5,7 +5,7 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Class 1 enclosed Atomstack : safe desktop engraving for home and schools",
+  "tagline": "Class 1 enclosed Atomstack: safe desktop engraving for home and schools",
   "tldr": "AtomStack P1 is a fully enclosed Class 1 diode engraver (5W) with optional dual-laser (diode + infrared) bundles. Ideal when safety and quiet operation matter more than raw cutting power.",
   "mainObjective": "Safe enclosed engraving for beginners, families, and classrooms",
   "bestFor": [
@@ -72,16 +72,16 @@
     ]
   },
   "pros": [
-    "5W on AtomStack P1: engraving-first : photo fills and leather at moderate speeds",
+    "5W on AtomStack P1: engraving-first: photo fills and leather at moderate speeds",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers AtomStack P1 5W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Choose dual bundle only if you need metal marking : otherwise 5W diode is enough to learn.",
+  "proTips": "Choose dual bundle only if you need metal marking: otherwise 5W diode is enough to learn.",
   "primaryUse": "Safe enclosed intro laser for home crafters and education.",
   "rating": {
     "overall": 8.1,
@@ -105,19 +105,19 @@
   "images": [
     {
       "src": "/machines/atomstack-p1/01.webp",
-      "alt": "AtomStack P1 5W laser engraver : Atomstack"
+      "alt": "AtomStack P1 5W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-p1/02.jpg",
-      "alt": "AtomStack P1 5W laser engraver : Atomstack"
+      "alt": "AtomStack P1 5W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-p1/03.jpg",
-      "alt": "AtomStack P1 5W laser engraver : Atomstack"
+      "alt": "AtomStack P1 5W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-p1/04.jpg",
-      "alt": "AtomStack P1 5W laser engraver : Atomstack"
+      "alt": "AtomStack P1 5W laser engraver: Atomstack"
     }
   ],
   "editorialDepth": {

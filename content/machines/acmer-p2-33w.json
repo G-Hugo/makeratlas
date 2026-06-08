@@ -5,8 +5,8 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Strong Acmer P2 tier : 33W compressed diode for faster work",
-  "tldr": "Acmer P2 33W is the high-power open-frame Acmer before the enclosed P3. Verify real optical output vs marketing : capable cutter for the price when tuned properly.",
+  "tagline": "Strong Acmer P2 tier: 33W compressed diode for faster work",
+  "tldr": "Acmer P2 33W is the high-power open-frame Acmer before the enclosed P3. Verify real optical output vs marketing: capable cutter for the price when tuned properly.",
   "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
   "bestFor": [
     "Faster cutting",
@@ -67,22 +67,22 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 8 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
     "33W: the most cut-focused head in the Acmer P2 line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Acmer P2 33W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "Acmer P2 33W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 33W SKU on Acmer P2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
-  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
+  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets: this head is optimized for throughput on wood, not only finesse.",
   "primaryUse": "Cut-biased diode tier for makers who outgrew 10–20W job times but stay on the same frame",
   "rating": {
     "overall": 7.5,
@@ -106,19 +106,19 @@
   "images": [
     {
       "src": "/machines/acmer-p2-33w/01.webp",
-      "alt": "Acmer P2 33W laser engraver : Acmer"
+      "alt": "Acmer P2 33W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p2-33w/02.jpg",
-      "alt": "Acmer P2 33W laser engraver : Acmer"
+      "alt": "Acmer P2 33W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p2-33w/03.jpg",
-      "alt": "Acmer P2 33W laser engraver : Acmer"
+      "alt": "Acmer P2 33W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p2-33w/04.jpg",
-      "alt": "Acmer P2 33W laser engraver : Acmer"
+      "alt": "Acmer P2 33W laser engraver: Acmer"
     }
   ]
 }

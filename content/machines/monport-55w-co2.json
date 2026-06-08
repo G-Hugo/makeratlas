@@ -5,7 +5,7 @@
   "brand": "Monport",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "Mid-range CO₂ with better finish than K40 : less tinkering required",
+  "tagline": "Mid-range CO₂ with better finish than K40: less tinkering required",
   "tldr": "Monport sits between budget K40 machines and premium enclosed CO₂ like xTool P2. The 55W desktop models offer real cutting power with improved build quality and optional autofocus. Still needs ventilation, but closer to 'business ready' than a stock K40.",
   "bestFor": [
     "Small business upgrade",
@@ -74,14 +74,14 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
   "beginnerNotes": "This profile covers Monport 55W CO₂. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Budget for exhaust fan upgrade if stock ventilation feels weak. Run a ramp test after delivery to verify focus across the bed. Keep tube cooling water clean : CO₂ tubes fail early with poor maintenance.",
+  "proTips": "Budget for exhaust fan upgrade if stock ventilation feels weak. Run a ramp test after delivery to verify focus across the bed. Keep tube cooling water clean: CO₂ tubes fail early with poor maintenance.",
   "primaryUse": "Mid-range CO₂ production for sign makers and Etsy sellers outgrowing K40-class machines.",
   "rating": {
     "overall": 8.3,
@@ -101,7 +101,7 @@
     },
     {
       "question": "Do I need water cooling?",
-      "answer": "Yes. CO₂ glass tubes require a water chiller or continuous cooling loop. Never run the tube without proper cooling : minutes of dry operation can destroy it."
+      "answer": "Yes. CO₂ glass tubes require a water chiller or continuous cooling loop. Never run the tube without proper cooling: minutes of dry operation can destroy it."
     }
   ],
   "status": "published",
@@ -115,11 +115,11 @@
     },
     {
       "src": "/machines/monport-55w-co2/02.webp",
-      "alt": "Monport 55W CO₂ laser engraver : Monport"
+      "alt": "Monport 55W CO₂ laser engraver: Monport"
     },
     {
       "src": "/machines/monport-55w-co2/03.webp",
-      "alt": "Monport 55W CO₂ laser engraver : Monport"
+      "alt": "Monport 55W CO₂ laser engraver: Monport"
     }
   ],
   "powerRating": "55W",

@@ -5,8 +5,8 @@
   "brand": "LaserPecker",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Pocket LaserPecker : ultra-portable 5W for stamps and tiny gifts",
-  "tldr": "LaserPecker LP1 Pro is a pocket-sized 5W engraver for maximum portability. Legacy line compared to LP4/LP5 : still relevant on used market for micro projects only.",
+  "tagline": "Pocket LaserPecker: ultra-portable 5W for stamps and tiny gifts",
+  "tldr": "LaserPecker LP1 Pro is a pocket-sized 5W engraver for maximum portability. Legacy line compared to LP4/LP5: still relevant on used market for micro projects only.",
   "mainObjective": "Pocket engraving for stamps, tags, and travel demos",
   "bestFor": [
     "Maximum portability",
@@ -65,9 +65,9 @@
     ]
   },
   "pros": [
-    "5W on LaserPecker LP1 Pro: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "5W on LaserPecker LP1 Pro: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/laserpecker-lp1-pro/01.webp",
-      "alt": "LaserPecker LP1 Pro laser engraver : LaserPecker"
+      "alt": "LaserPecker LP1 Pro laser engraver: LaserPecker"
     },
     {
       "src": "/machines/laserpecker-lp1-pro/02.jpg",
-      "alt": "LaserPecker LP1 Pro laser engraver : LaserPecker"
+      "alt": "LaserPecker LP1 Pro laser engraver: LaserPecker"
     },
     {
       "src": "/machines/laserpecker-lp1-pro/03.jpg",
-      "alt": "LaserPecker LP1 Pro laser engraver : LaserPecker"
+      "alt": "LaserPecker LP1 Pro laser engraver: LaserPecker"
     },
     {
       "src": "/machines/laserpecker-lp1-pro/04.jpg",
-      "alt": "LaserPecker LP1 Pro laser engraver : LaserPecker"
+      "alt": "LaserPecker LP1 Pro laser engraver: LaserPecker"
     }
   ],
   "editorialDepth": {

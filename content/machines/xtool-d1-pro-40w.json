@@ -5,7 +5,7 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "40W Top D1 Pro module : strongest open-frame xTool diode",
+  "tagline": "40W Top D1 Pro module: strongest open-frame xTool diode",
   "tldr": "The 40W D1 Pro module swaps onto the same frame as 5W–20W heads. Best cut headroom in the line; verify optical power on the listing.",
   "bestFor": [
     "Maximum cuts in line",
@@ -74,10 +74,10 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
     "40W: the most cut-focused head in the xTool D1 Pro line",
-    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one"
+    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -101,23 +101,23 @@
   "status": "published",
   "lastUpdated": "2026-06-01",
   "image": "/machines/xtool-d1-pro-40w/01.webp",
-  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "images": [
     {
       "src": "/machines/xtool-d1-pro-40w/01.webp",
-      "alt": "xTool D1 Pro 40W laser engraver : xTool"
+      "alt": "xTool D1 Pro 40W laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-d1-pro-40w/02.webp",
-      "alt": "xTool D1 Pro 40W laser engraver : xTool"
+      "alt": "xTool D1 Pro 40W laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-d1-pro-40w/03.webp",
-      "alt": "xTool D1 Pro 40W laser engraver : xTool"
+      "alt": "xTool D1 Pro 40W laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-d1-pro-40w/04.webp",
-      "alt": "xTool D1 Pro 40W laser engraver : xTool"
+      "alt": "xTool D1 Pro 40W laser engraver: xTool"
     }
   ],
   "modelLine": "xtool-d1-pro",
@@ -125,7 +125,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Swappable diode modules on D1 Pro frame",
-    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need : same rail and software as other D1 Pro heads.",
+    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need: same rail and software as other D1 Pro heads.",
     "options": [
       {
         "power": "5W",
@@ -156,7 +156,7 @@
   "releaseDate": "2023-03",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The 40W diode module is the most cut-focused head on xTool D1 Pro : thicker basswood and faster fills than entry modules on the same chassis.",
-    "limitations": "Overkill if you only do fine engraving. Still a diode : clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
+    "advantages": "The 40W diode module is the most cut-focused head on xTool D1 Pro: thicker basswood and faster fills than entry modules on the same chassis.",
+    "limitations": "Overkill if you only do fine engraving. Still a diode: clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
   }
 }

@@ -5,7 +5,7 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Enclosed 20W diode : safer home engraving with moderate cutting",
+  "tagline": "Enclosed 20W diode: safer home engraving with moderate cutting",
   "tldr": "The 20W S1 is the value pick in xTool's enclosed diode line: same cabinet and filters as the 40W, but less cut depth on thick wood. Buy this if safety matters and you mostly engrave.",
   "bestFor": [
     "Mixed engrave & cut",
@@ -72,10 +72,10 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
@@ -104,7 +104,7 @@
     {
       "id": "smoke-filter",
       "availability": "optional",
-      "note": "Filter cartridge packs : confirm bundle (Basic vs Pro)"
+      "note": "Filter cartridge packs: confirm bundle (Basic vs Pro)"
     },
     {
       "id": "air-assist",
@@ -132,11 +132,11 @@
     },
     {
       "question": "Can I upgrade from 20W to 40W later?",
-      "answer": "Yes. S1 laser heads are interchangeable : buy a 40W module and swap it on the same enclosure (two screws + connectors). You can also add the optional 2W 1064 nm IR module for more metal work."
+      "answer": "Yes. S1 laser heads are interchangeable: buy a 40W module and swap it on the same enclosure (two screws + connectors). You can also add the optional 2W 1064 nm IR module for more metal work."
     },
     {
       "question": "Is the S1 a hybrid laser like the F1 Ultra?",
-      "answer": "No. S1 is a diode platform with swappable diode (or IR) heads. Hybrid machines combine fiber and diode sources inside one dual-source product : different category."
+      "answer": "No. S1 is a diode platform with swappable diode (or IR) heads. Hybrid machines combine fiber and diode sources inside one dual-source product: different category."
     }
   ],
   "status": "published",
@@ -146,7 +146,7 @@
   "images": [
     {
       "src": "/machines/xtool-s1-20w/01.webp",
-      "alt": "xTool S1 20W laser engraver : xTool"
+      "alt": "xTool S1 20W laser engraver: xTool"
     }
   ],
   "modelLine": "xtool-s1",
@@ -155,7 +155,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Interchangeable laser heads on the same S1 cabinet",
-    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet : heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
+    "description": "The xTool S1 is sold with different diode modules (10W, 20W, or 40W) or as a bare cabinet: heads swap with two screws and a plug. An optional 2W 1064 nm infrared module adds metal marking without a full fiber galvo. This is not a “hybrid” machine: you replace one head at a time.",
     "options": [
       {
         "power": "10W",

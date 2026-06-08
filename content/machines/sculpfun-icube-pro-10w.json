@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/sculpfun-icube-pro-10w/01.webp",
-  "tagline": "10W Compact enclosed Sculpfun : small footprint, full safety cabinet",
-  "tldr": "Sculpfun iCube Pro Max 10W is the 10W SKU on the Sculpfun sculpfun icube pro line. Sculpfun's enclosed desktop laser for makers who want the brand's cutting performance in a safer cabinet. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tagline": "10W Compact enclosed Sculpfun: small footprint, full safety cabinet",
+  "tldr": "Sculpfun iCube Pro Max 10W is the 10W SKU on the Sculpfun sculpfun icube pro line. Sculpfun's enclosed desktop laser for makers who want the brand's cutting performance in a safer cabinet. Verify optical power on the listing: do not assume combined-watt marketing.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
     "Engraving-focused shops",
@@ -19,7 +19,7 @@
     "min": 449,
     "max": 649,
     "currency": "USD",
-    "note": "10W optical module : verify SKU before buying"
+    "note": "10W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "10W diode",
@@ -71,9 +71,9 @@
     ]
   },
   "pros": [
-    "10W on Sculpfun iCube Pro Max: engraving-first : photo fills and leather at moderate speeds",
+    "10W on Sculpfun iCube Pro Max: engraving-first: photo fills and leather at moderate speeds",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-icube-pro-10w/01.webp",
-      "alt": "Sculpfun iCube Pro Max 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun iCube Pro Max 10W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-icube-pro-10w/02.jpg",
-      "alt": "Sculpfun iCube Pro Max 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun iCube Pro Max 10W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-icube-pro-10w/03.jpg",
-      "alt": "Sculpfun iCube Pro Max 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun iCube Pro Max 10W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-icube-pro-10w/04.jpg",
-      "alt": "Sculpfun iCube Pro Max 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun iCube Pro Max 10W laser engraver: Sculpfun"
     }
   ],
   "modelLine": "sculpfun-icube-pro",

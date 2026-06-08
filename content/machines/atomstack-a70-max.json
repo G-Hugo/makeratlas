@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "70–77W CoS-packaged diode : 850×800 mm flagship Atomstack cutter",
-  "tldr": "AtomStack A70 Max brings 70–77W compressed diode power to an 850×800 mm frame with auto-focus, touchscreen, and claims of 25 mm wood in one pass. Popular 2024–2025 upgrade path for makers outgrowing A40 Pro : still open-frame, not enclosed.",
+  "tagline": "70–77W CoS-packaged diode: 850×800 mm flagship Atomstack cutter",
+  "tldr": "AtomStack A70 Max brings 70–77W compressed diode power to an 850×800 mm frame with auto-focus, touchscreen, and claims of 25 mm wood in one pass. Popular 2024–2025 upgrade path for makers outgrowing A40 Pro: still open-frame, not enclosed.",
   "mainObjective": "Maximum Atomstack diode power for large panels and deep wood cuts",
   "bestFor": [
     "Large signs",
@@ -75,9 +75,9 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 28 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 28 mm basswood-class stock in benchmarks",
     "70W: the most cut-focused head in the AtomStack A70 Max line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -104,19 +104,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a70-max/01.webp",
-      "alt": "AtomStack A70 Max laser engraver : Atomstack"
+      "alt": "AtomStack A70 Max laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a70-max/02.jpg",
-      "alt": "AtomStack A70 Max laser engraver : Atomstack"
+      "alt": "AtomStack A70 Max laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a70-max/03.jpg",
-      "alt": "AtomStack A70 Max laser engraver : Atomstack"
+      "alt": "AtomStack A70 Max laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a70-max/04.jpg",
-      "alt": "AtomStack A70 Max laser engraver : Atomstack"
+      "alt": "AtomStack A70 Max laser engraver: Atomstack"
     }
   ],
   "modelLine": "atomstack-a70-max",
@@ -124,8 +124,8 @@
   "catalogPrimary": true,
   "releaseDate": "2024-11",
   "editorialDepth": {
-    "advantages": "AtomStack A70 Max 70W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "AtomStack A70 Max 70W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "tierEditorialOverride": true
 }

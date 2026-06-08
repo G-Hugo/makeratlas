@@ -81,11 +81,29 @@ export function ModuleSystemNotice({
             })}
           </ul>
         )}
+        {powerTierCount <= 1 && (
+          <p className={`mt-3 text-xs ${footnote}`}>
+            <LocaleLink
+              href="/guides/swappable-laser-modules-explained"
+              locale={locale}
+              className="font-medium underline underline-offset-2 hover:text-amber-700 dark:hover:text-amber-400"
+            >
+              {labels.moduleGuideLink}
+            </LocaleLink>
+          </p>
+        )}
         {powerTierCount > 1 && (
           <p className={`mt-3 text-xs ${footnote}`}>
             {isMultiModule
               ? labels.moduleInterchangeableFootnote
-              : labels.powerTierSwappableFootnote}
+              : labels.powerTierSwappableFootnote}{" "}
+            <LocaleLink
+              href="/guides/swappable-laser-modules-explained"
+              locale={locale}
+              className="font-medium underline underline-offset-2 hover:text-amber-700 dark:hover:text-amber-400"
+            >
+              {labels.moduleGuideLink}
+            </LocaleLink>
           </p>
         )}
       </div>
@@ -106,7 +124,16 @@ export function ModuleSystemNotice({
             </li>
           ))}
         </ul>
-        <p className="mt-3 text-xs text-violet-800 dark:text-violet-300">{labels.moduleHybridFootnote}</p>
+        <p className="mt-3 text-xs text-violet-800 dark:text-violet-300">
+          {labels.moduleHybridFootnote}{" "}
+          <LocaleLink
+            href="/guides/swappable-laser-modules-explained"
+            locale={locale}
+            className="font-medium underline underline-offset-2"
+          >
+            {labels.moduleGuideLink}
+          </LocaleLink>
+        </p>
       </div>
     );
   }

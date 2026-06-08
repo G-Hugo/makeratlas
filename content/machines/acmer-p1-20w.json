@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Step-up Acmer P1 with 20W module for faster cuts",
-  "tldr": "Acmer P1 20W adds cutting headroom over the 10W P1 on the same frame class. Still a budget brand : verify optical power and expect less polish than Sculpfun or Ortur.",
+  "tldr": "Acmer P1 20W adds cutting headroom over the 10W P1 on the same frame class. Still a budget brand: verify optical power and expect less polish than Sculpfun or Ortur.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -66,9 +66,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -98,24 +98,24 @@
   "images": [
     {
       "src": "/machines/acmer-p1-20w/01.webp",
-      "alt": "Acmer P1 20W laser engraver : Acmer"
+      "alt": "Acmer P1 20W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p1-20w/02.jpg",
-      "alt": "Acmer P1 20W laser engraver : Acmer"
+      "alt": "Acmer P1 20W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p1-20w/03.webp",
-      "alt": "Acmer P1 20W laser engraver : Acmer"
+      "alt": "Acmer P1 20W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p1-20w/04.jpg",
-      "alt": "Acmer P1 20W laser engraver : Acmer"
+      "alt": "Acmer P1 20W laser engraver: Acmer"
     }
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Acmer P1 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "Acmer P1 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   }
 }

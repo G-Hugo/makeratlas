@@ -5,8 +5,8 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Entry Creality CR-Falcon : open-frame 10W for first laser",
-  "tldr": "Creality Falcon 10W (CR-Laser) is the budget open-frame entry in Creality's laser line : below Falcon 2 and A1 enclosed models. Fine for learning; upgrade path leads to Falcon 2 22W or A1.",
+  "tagline": "Entry Creality CR-Falcon: open-frame 10W for first laser",
+  "tldr": "Creality Falcon 10W (CR-Laser) is the budget open-frame entry in Creality's laser line: below Falcon 2 and A1 enclosed models. Fine for learning; upgrade path leads to Falcon 2 22W or A1.",
   "mainObjective": "Cheapest Creality laser for basic engraving experiments",
   "bestFor": [
     "Creality 3D printer owners",
@@ -64,16 +64,16 @@
     ]
   },
   "pros": [
-    "10W on Creality Falcon: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Creality Falcon: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers Creality Falcon 10W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Often on sale bundled with Creality printers : check total value.",
+  "proTips": "Often on sale bundled with Creality printers: check total value.",
   "primaryUse": "Entry Creality diode for hobby engraving.",
   "rating": {
     "overall": 8.1,
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/creality-falcon-10w/01.webp",
-      "alt": "Creality Falcon 10W laser engraver : Creality"
+      "alt": "Creality Falcon 10W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-10w/02.jpg",
-      "alt": "Creality Falcon 10W laser engraver : Creality"
+      "alt": "Creality Falcon 10W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-10w/03.jpg",
-      "alt": "Creality Falcon 10W laser engraver : Creality"
+      "alt": "Creality Falcon 10W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-10w/04.jpg",
-      "alt": "Creality Falcon 10W laser engraver : Creality"
+      "alt": "Creality Falcon 10W laser engraver: Creality"
     }
   ],
   "editorialDepth": {

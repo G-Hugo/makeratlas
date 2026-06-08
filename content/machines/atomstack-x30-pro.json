@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Atomstack's extreme diode class : multi-core compressed beam",
-  "tldr": "AtomStack X30 Pro targets buyers who want maximum diode-class cutting in an open frame. Marketing uses very high watt labels : verify real optical output and compare to Longer B1 40W and similar before spending.",
+  "tagline": "Atomstack's extreme diode class: multi-core compressed beam",
+  "tldr": "AtomStack X30 Pro targets buyers who want maximum diode-class cutting in an open frame. Marketing uses very high watt labels: verify real optical output and compare to Longer B1 40W and similar before spending.",
   "mainObjective": "Maximum-power Atomstack open-frame for cutting-heavy shops",
   "bestFor": [
     "Power seekers",
@@ -67,9 +67,9 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 8 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
     "160W: the most cut-focused head in the AtomStack X30 Pro line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,24 +99,24 @@
   "images": [
     {
       "src": "/machines/atomstack-x30-pro/01.webp",
-      "alt": "AtomStack X30 Pro laser engraver : Atomstack"
+      "alt": "AtomStack X30 Pro laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-x30-pro/02.jpg",
-      "alt": "AtomStack X30 Pro laser engraver : Atomstack"
+      "alt": "AtomStack X30 Pro laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-x30-pro/03.jpg",
-      "alt": "AtomStack X30 Pro laser engraver : Atomstack"
+      "alt": "AtomStack X30 Pro laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-x30-pro/04.jpg",
-      "alt": "AtomStack X30 Pro laser engraver : Atomstack"
+      "alt": "AtomStack X30 Pro laser engraver: Atomstack"
     }
   ],
   "editorialDepth": {
-    "advantages": "AtomStack X30 Pro 160W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "AtomStack X30 Pro 160W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "tierEditorialOverride": true
 }

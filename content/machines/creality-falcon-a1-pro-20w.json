@@ -5,7 +5,7 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "hybrid",
-  "tagline": "Enclosed dual-source A1 Pro : diode plus infrared for more materials",
+  "tagline": "Enclosed dual-source A1 Pro: diode plus infrared for more materials",
   "tldr": "Creality Falcon A1 Pro 20W adds a dual-laser setup in an enclosed chassis for faster engraving and some metal/plastic marking. Middle ground between A1 10W and the open Falcon 2 Pro 40W line.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
@@ -70,7 +70,7 @@
   },
   "pros": [
     "20W IR: metal marking on the same chassis as other modules",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -126,24 +126,24 @@
   "images": [
     {
       "src": "/machines/creality-falcon-a1-pro-20w/01.webp",
-      "alt": "Creality Falcon A1 Pro 20W laser engraver : Creality"
+      "alt": "Creality Falcon A1 Pro 20W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-a1-pro-20w/02.png",
-      "alt": "Creality Falcon A1 Pro 20W laser engraver : Creality"
+      "alt": "Creality Falcon A1 Pro 20W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-a1-pro-20w/03.jpg",
-      "alt": "Creality Falcon A1 Pro 20W laser engraver : Creality"
+      "alt": "Creality Falcon A1 Pro 20W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-a1-pro-20w/04.jpg",
-      "alt": "Creality Falcon A1 Pro 20W laser engraver : Creality"
+      "alt": "Creality Falcon A1 Pro 20W laser engraver: Creality"
     }
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Creality Falcon A1 Pro 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "advantages": "Creality Falcon A1 Pro 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   }
 }

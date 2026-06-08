@@ -7,7 +7,7 @@
   "laserType": "diode",
   "image": "/machines/two-trees-tts-55-pro-20w/01.webp",
   "tagline": "20W Upgraded TTS frame with better rigidity and fixed focus",
-  "tldr": "TwoTrees TTS-55 Pro 20W is the 20W SKU on the TwoTrees two trees tts 55 pro line. The TTS-55 Pro improves on the base TTS-55 with stiffer frame and easier focus workflow. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tldr": "TwoTrees TTS-55 Pro 20W is the 20W SKU on the TwoTrees two trees tts 55 pro line. The TTS-55 Pro improves on the base TTS-55 with stiffer frame and easier focus workflow. Verify optical power on the listing: do not assume combined-watt marketing.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -19,7 +19,7 @@
     "min": 159,
     "max": 433,
     "currency": "USD",
-    "note": "20W optical module : verify SKU before buying"
+    "note": "20W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "20W diode",
@@ -68,9 +68,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -95,19 +95,19 @@
   "images": [
     {
       "src": "/machines/two-trees-tts-55-pro-20w/01.webp",
-      "alt": "TwoTrees TTS-55 Pro 20W laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 Pro 20W laser engraver: TwoTrees"
     },
     {
       "src": "/machines/two-trees-tts-55-pro-20w/02.jpg",
-      "alt": "TwoTrees TTS-55 Pro 20W laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 Pro 20W laser engraver: TwoTrees"
     },
     {
       "src": "/machines/two-trees-tts-55-pro-20w/03.jpg",
-      "alt": "TwoTrees TTS-55 Pro 20W laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 Pro 20W laser engraver: TwoTrees"
     },
     {
       "src": "/machines/two-trees-tts-55-pro-20w/04.jpg",
-      "alt": "TwoTrees TTS-55 Pro 20W laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 Pro 20W laser engraver: TwoTrees"
     }
   ],
   "powerRating": "20W",
@@ -115,7 +115,7 @@
   "catalogPrimary": true,
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "TwoTrees TTS-55 Pro 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "TwoTrees TTS-55 Pro 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   }
 }

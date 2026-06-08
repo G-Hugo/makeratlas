@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/comgrow-z1-10w/01.webp",
-  "tagline": "10W Budget Comgrow diode : often bundled with 3D printer deals",
-  "tldr": "Comgrow Z1 10W is the 10W SKU on the Comgrow comgrow z1 line. Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tagline": "10W Budget Comgrow diode: often bundled with 3D printer deals",
+  "tldr": "Comgrow Z1 10W is the 10W SKU on the Comgrow comgrow z1 line. Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Verify optical power on the listing: do not assume combined-watt marketing.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
     "Engraving-focused shops",
@@ -19,7 +19,7 @@
     "min": 219,
     "max": 299,
     "currency": "USD",
-    "note": "10W optical module : verify SKU before buying"
+    "note": "10W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "10W diode",
@@ -69,9 +69,9 @@
     ]
   },
   "pros": [
-    "10W on Comgrow Z1: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Comgrow Z1: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -96,15 +96,15 @@
   "images": [
     {
       "src": "/machines/comgrow-z1-10w/01.webp",
-      "alt": "Comgrow Z1 10W laser engraver : Comgrow"
+      "alt": "Comgrow Z1 10W laser engraver: Comgrow"
     },
     {
       "src": "/machines/comgrow-z1-10w/02.webp",
-      "alt": "Comgrow Z1 10W laser engraver : Comgrow"
+      "alt": "Comgrow Z1 10W laser engraver: Comgrow"
     },
     {
       "src": "/machines/comgrow-z1-10w/03.webp",
-      "alt": "Comgrow Z1 10W laser engraver : Comgrow"
+      "alt": "Comgrow Z1 10W laser engraver: Comgrow"
     }
   ],
   "modelLine": "comgrow-z1",

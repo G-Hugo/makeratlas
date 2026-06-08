@@ -8,8 +8,8 @@
   "modelLine": "commarker-omni-x",
   "catalogPrimary": true,
   "tagline": "Desktop UV laser for glass, plastic, and fine detail",
-  "tldr": "ComMarker Omni X uses UV wavelength for cold marking on glass, some plastics, and delicate materials without as much heat damage as fiber or CO₂. Slower than fiber on metal : different tool for different materials.",
-  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "tldr": "ComMarker Omni X uses UV wavelength for cold marking on glass, some plastics, and delicate materials without as much heat damage as fiber or CO₂. Slower than fiber on metal: different tool for different materials.",
+  "mainObjective": "Detailed engraving on organics and coated metal: occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -70,7 +70,7 @@
   },
   "pros": [
     "5W UV: cold marking on glass and heat-sensitive plastics",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -96,26 +96,26 @@
   "images": [
     {
       "src": "/machines/commarker-omni-x-uv/01.webp",
-      "alt": "ComMarker Omni X UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni X UV laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-omni-x-uv/02.webp",
-      "alt": "ComMarker Omni X UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni X UV laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-omni-x-uv/03.webp",
-      "alt": "ComMarker Omni X UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni X UV laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-omni-x-uv/04.webp",
-      "alt": "ComMarker Omni X UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni X UV laser engraver: ComMarker"
     }
   ],
   "powerRating": "5W",
   "releaseDate": "2024-08",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "ComMarker Omni X UV 5W targets glass, films, and heat-sensitive plastics : profitable when you already sell those jobs, not for casual UV experiments.",
+    "advantages": "ComMarker Omni X UV 5W targets glass, films, and heat-sensitive plastics: profitable when you already sell those jobs, not for casual UV experiments.",
     "limitations": "Poor first-laser purchase. No wood or metal cutting. Confirm the module material list before buying the chassis."
   }
 }

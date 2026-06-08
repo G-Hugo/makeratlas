@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "image": "/machines/xtool-f1/01.webp",
-  "tagline": "Original compact fiber + diode : metal marking in a portable box",
-  "tldr": "The F1 started the compact dual-laser category. Slower than F1 Ultra but often cheaper on sale. Still a metal-marking specialist with small bed : not a general workshop laser.",
+  "tagline": "Original compact fiber + diode: metal marking in a portable box",
+  "tldr": "The F1 started the compact dual-laser category. Slower than F1 Ultra but often cheaper on sale. Still a metal-marking specialist with small bed: not a general workshop laser.",
   "mainObjective": "Compact metal marking plus light diode engraving for small items",
   "bestFor": [
     "Metal tags",
@@ -69,8 +69,8 @@
     ]
   },
   "pros": [
-    "10W on xTool F1: engraving-first : photo fills and leather at moderate speeds",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "10W on xTool F1: engraving-first: photo fills and leather at moderate speeds",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -95,19 +95,19 @@
   "images": [
     {
       "src": "/machines/xtool-f1/01.webp",
-      "alt": "xTool F1 laser engraver : xTool"
+      "alt": "xTool F1 laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-f1/02.webp",
-      "alt": "xTool F1 laser engraver : xTool"
+      "alt": "xTool F1 laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-f1/03.jpg",
-      "alt": "xTool F1 laser engraver : xTool"
+      "alt": "xTool F1 laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-f1/04.webp",
-      "alt": "xTool F1 laser engraver : xTool"
+      "alt": "xTool F1 laser engraver: xTool"
     }
   ],
   "powerRating": "10W",

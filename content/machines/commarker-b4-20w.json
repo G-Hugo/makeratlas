@@ -8,7 +8,7 @@
   "powerRating": "20W",
   "catalogPrimary": true,
   "tagline": "Compact desktop fiber galvo for bare-metal marking",
-  "tldr": "The ComMarker B4 is a popular entry-level fiber galvo engraver for jewelry, tools, and metal gifts. Marks stainless, aluminum, and brass without spray. Small marking field : not a cutter for wood or acrylic.",
+  "tldr": "The ComMarker B4 is a popular entry-level fiber galvo engraver for jewelry, tools, and metal gifts. Marks stainless, aluminum, and brass without spray. Small marking field: not a cutter for wood or acrylic.",
   "mainObjective": "Affordable fiber marking for metal personalization and small business",
   "bestFor": [
     "Metal marking",
@@ -70,15 +70,15 @@
     ]
   },
   "pros": [
-    "Fiber marks metal : does not cut wood or acrylic",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Fiber marks metal: does not cut wood or acrylic",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Does not cut wood, leather, or acrylic: metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
   "beginnerNotes": "This profile covers ComMarker B4 20W. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Use rotary for rings. Dial in hatch and speed on scrap : fiber power is unforgiving on thin metal.",
+  "proTips": "Use rotary for rings. Dial in hatch and speed on scrap: fiber power is unforgiving on thin metal.",
   "primaryUse": "Desktop fiber marking for jewelry, tags, tools, and metal personalization.",
   "rating": {
     "overall": 8.5,
@@ -98,19 +98,19 @@
   "images": [
     {
       "src": "/machines/commarker-b4-20w/01.webp",
-      "alt": "ComMarker B4 20W laser engraver : ComMarker"
+      "alt": "ComMarker B4 20W laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-b4-20w/02.jpg",
-      "alt": "ComMarker B4 20W laser engraver : ComMarker"
+      "alt": "ComMarker B4 20W laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-b4-20w/03.jpg",
-      "alt": "ComMarker B4 20W laser engraver : ComMarker"
+      "alt": "ComMarker B4 20W laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-b4-20w/04.jpg",
-      "alt": "ComMarker B4 20W laser engraver : ComMarker"
+      "alt": "ComMarker B4 20W laser engraver: ComMarker"
     }
   ],
   "releaseDate": "2024-05",

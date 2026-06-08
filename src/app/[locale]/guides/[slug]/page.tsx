@@ -42,7 +42,7 @@ export default async function GuidePage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={guideJsonLd(guide, locale)} />
-      <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
+      <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
         <nav className="mb-6 text-sm text-stone-500 dark:text-stone-400">
           <LocaleLink href="/guides" locale={locale} className="hover:text-amber-700 dark:hover:text-amber-400">
             {dict.guides.title}

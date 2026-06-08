@@ -68,7 +68,7 @@
   },
   "pros": [
     "3W UV: cold marking on glass and heat-sensitive plastics",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -93,24 +93,24 @@
   "images": [
     {
       "src": "/machines/commarker-omni-1-uv/01.webp",
-      "alt": "ComMarker Omni 1 UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni 1 UV laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-omni-1-uv/02.jpg",
-      "alt": "ComMarker Omni 1 UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni 1 UV laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-omni-1-uv/03.jpg",
-      "alt": "ComMarker Omni 1 UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni 1 UV laser engraver: ComMarker"
     },
     {
       "src": "/machines/commarker-omni-1-uv/04.webp",
-      "alt": "ComMarker Omni 1 UV laser engraver : ComMarker"
+      "alt": "ComMarker Omni 1 UV laser engraver: ComMarker"
     }
   ],
   "releaseDate": "2024-06",
   "editorialDepth": {
-    "advantages": "ComMarker Omni 1 UV 3W targets glass, films, and heat-sensitive plastics : profitable when you already sell those jobs, not for casual UV experiments.",
+    "advantages": "ComMarker Omni 1 UV 3W targets glass, films, and heat-sensitive plastics: profitable when you already sell those jobs, not for casual UV experiments.",
     "limitations": "Poor first-laser purchase. No wood or metal cutting. Confirm the module material list before buying the chassis."
   },
   "tierEditorialOverride": true

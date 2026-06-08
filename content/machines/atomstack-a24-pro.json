@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "tagline": "Compact Atomstack with diode + fiber marking in one desktop unit",
-  "tldr": "AtomStack A24 Pro packs a diode engraver plus fiber marking into a smaller footprint than separate machines. Niche for jewelry-scale metal marking plus wood : not a full workshop fiber or high-power diode.",
+  "tldr": "AtomStack A24 Pro packs a diode engraver plus fiber marking into a smaller footprint than separate machines. Niche for jewelry-scale metal marking plus wood: not a full workshop fiber or high-power diode.",
   "mainObjective": "Dual-source Atomstack for metal marking and organic engraving",
   "bestFor": [
     "Jewelry desk",
@@ -68,8 +68,8 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -124,24 +124,24 @@
   "images": [
     {
       "src": "/machines/atomstack-a24-pro/01.webp",
-      "alt": "AtomStack A24 Pro laser engraver : Atomstack"
+      "alt": "AtomStack A24 Pro laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-pro/02.jpg",
-      "alt": "AtomStack A24 Pro laser engraver : Atomstack"
+      "alt": "AtomStack A24 Pro laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-pro/03.jpg",
-      "alt": "AtomStack A24 Pro laser engraver : Atomstack"
+      "alt": "AtomStack A24 Pro laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a24-pro/04.jpg",
-      "alt": "AtomStack A24 Pro laser engraver : Atomstack"
+      "alt": "AtomStack A24 Pro laser engraver: Atomstack"
     }
   ],
   "editorialDepth": {
-    "advantages": "AtomStack A24 Pro 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "AtomStack A24 Pro 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true
 }

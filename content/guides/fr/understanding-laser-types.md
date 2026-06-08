@@ -3,206 +3,247 @@ slug: understanding-laser-types
 title: "Comprendre les types de laser: CO₂, diode, fibre et UV"
 description: Guide clair et honnête sur chaque type de laser utilisé en desktop. Ce que chaque technologie fait vraiment, pour qui, et ce que le marketing se trompe.
 category: laser-types
-readTime: 12 min
-lastUpdated: "2026-06-01"
+readTime: 28 min
+lastUpdated: "2026-06-02"
 status: published
 ---
 
-Choisir une graveuse laser commence par une décision que beaucoup d’acheteurs ratent : **quel type de laser vous avez vraiment besoin**.
+Choisir une graveuse laser, c'est d'abord choisir une **longueur d'onde** et une **architecture** (portique, galvo, enceinte…). Ce choix détermine les matériaux réalistes, la qualité de finition, la vitesse et le budget atelier complet.
 
-Les fabricants adorent les gros chiffres de watts et les promesses vagues. Ce guide va à l’essentiel: sans lien affilié, juste la technologie.
+Le piège le plus fréquent : comparer les annonces sur le seul chiffre de watts. Deux machines affichant le même wattage peuvent donner des résultats opposés si la technologie n'est pas la même.
 
-## Les quatre types que vous croiserez
 
-| Type | Longueur d’onde | Fort pour | Faible pour | Prix typique |
-|------|-----------------|-----------|-------------|--------------|
-| **Diode** | ~450 nm (bleu) | Bois, cuir, matériaux sombres | Acrylique transparent, métal nu, grosses découpes | 200 – 1 000 € |
-| **CO₂** | ~10 600 nm (IR) | Acrylique, bois, cuir, découpe | Métal nu, verre (sans astuces) | 500 – 5 000 €+ |
-| **Fibre** | ~1 064 nm (IR) | Marquage et gravure métal | Bois, acrylique, découpe organique | 1 500 – 10 000 €+ |
-| **UV** | ~355 nm (UV) | Plastiques, verre, détail fin | Grosses découpes, grandes surfaces | 2 000 – 15 000 €+ |
+## Vue d’ensemble, puis guides détaillés
+
+Cette page sert de synthese. Pour approfondir un type precis, ouvrez le guide dedie:
+
+| Type | Guide détaillé |
+|------|----------------|
+| **Diode** | [Lasers diode expliqués](/guides/diode-lasers-explained) |
+| **CO₂** | [Lasers CO₂ expliqués](/guides/co2-lasers-explained) |
+| **Fibre** (+ MOPA au catalogue) | [Lasers fibre expliqués](/guides/fiber-lasers-explained) |
+| **UV** | [Lasers UV expliqués](/guides/uv-lasers-explained) |
+| **Hybride** | [Lasers hybrides expliqués](/guides/hybrid-lasers-explained) |
+
+Specialites liees (même ecosysteme, autre ingénierie):
+
+- [Fibre MOPA](/guides/mopa-fiber-lasers-explained): impulsions et couleur inox (classé en `fibre` au catalogue)
+- [Stations galvo](/guides/galvo-laser-workstations-explained): balayage miroir fibre, UV et hybride
+- [Modules infrarouges](/guides/infrared-laser-modules-explained): têtes 1064 nm sur machines diode (pas de la fibre)
+- [Modules vs hybride](/guides/swappable-laser-modules-explained): S1, T1, F1 : ce que vous changez vraiment
+- [Watts optiques vs marketing](/guides/laser-wattage-marketing-explained): pourquoi « 40W » trompe
+- [Métal sans fibre](/guides/metal-marking-without-fiber): spray, anodisé, CerMark
+- [Ouvert vs enceinte](/guides/open-frame-vs-enclosed-lasers): classe 1 et fumée
+- [Matériaux par type](/guides/laser-materials-by-type): tableau rapide
+- [LightBurn vs logiciel fabricant](/guides/lightburn-vs-maker-software)
+- [Gravure rotative](/guides/rotary-laser-engraving): gobelets et cylindres
+- [Tubes CO₂](/guides/co2-laser-tubes-explained): verre vs RF
+- [Soufflage d'air & table alvéolée](/guides/air-assist-honeycomb-setup) · [Filtres extraction](/guides/laser-exhaust-filters-explained)
 
 ---
 
+## Les quatre types que vous croiserez
+
+| Type | Longueur d'onde | Tres bon sur | Limites principales | Budget machine courant |
+|------|------------------|---------------|---------------------|------------------------|
+| **Diode** | ~450 nm (bleu) | Bois, cuir, ardoise, anodisé | Acrylique transparent, métal nu direct, découpe épaisse | 200 a 1 500 EUR |
+| **CO₂** | ~10 600 nm (IR) | Acrylique, bois, cuir, caoutchouc | Métal nu direct, logistique ventilation plus lourde | 500 a 5 000 EUR et plus |
+| **Fibre** | ~1 064 nm (IR) | Marquage métal nu, petites pieces, cadence | Bois/acrylique, grandes zones de travail plates | 1 500 a 10 000 EUR et plus |
+| **UV** | ~355 nm (UV) | Plastiques sensibles, verre fin, detail | Découpe de panneaux, retour sur investissement grand public | 2 000 a 15 000 EUR et plus |
+
+---
+
+### Choisir le type par matériau
+
+Matériau principal:
+
+- Bois et cuir, surtout gravure ou petites découpes: **Diode**
+- Acrylique transparent et découpe organique reguliere: **CO₂**
+- Acier, laiton ou aluminium nus au quotidien: **Fibre**
+- Plastiques sensibles a la chaleur, marquage tres fin: **UV**
+- Métal et bois dans un seul boîtier compact: **Hybride**
+
+Les fiches machines listent `cutExample` et `engraveExample` par référence. C'est le meilleur point de depart une fois la technologie choisie. Voir aussi le [guide d'achat 2026](/guides/laser-buying-guide-2026).
+
 ## Lasers diode: l’entrée la plus populaire
 
-**Principe :** une diode semi-conductrice (proche d’un pointeur laser puissant) envoie un faisceau bleu focalisé. Les machines à structure ouverte dominent cette catégorie.
+Une diode semi-conductrice envoie un faisceau bleu focalise. C'est l'entree de gamme la plus repandue en atelier personnel.
 
 ### Ce que les diodes font bien
 
-- Graver bois, cuir, ardoise et pierre sombre
-- Marquer l’aluminium anodisé directement
-- Marquer l’inox **avec** spray de marquage (LaserBond, Brilliance, etc.)
-- Découper du tilleul fin, acrylique noir, papier et tissu (plusieurs passes)
+- Gravure bois, cuir, ardoise et pierre sombre
+- Marquage direct de l'aluminium anodisé
+- Marquage de l'inox avec un spray de marquage adapte
+- Découpe de tilleul fin, acrylique noir, papier et tissu en plusieurs passes
 
 ### Ce qu’elles ne font pas honnêtement
 
-- **Découper l’acrylique transparent**: le faisceau traverse au lieu d’absorber
-- **Marquer le métal nu** de façon fiable sans spray ou revêtement
-- **Rivaliser avec un CO₂** en vitesse/profondeur de découpe sur matériaux épais
-- **Tourner en production fermée** sans ajouter vous-même l’équipement de sécurité (souvent open-frame)
+- **Découpe de l'acrylique transparent**: le faisceau traverse la matiere
+- **Marquage métal nu** fiable sans prétraitement
+- **Cadence de découpe CO₂** sur panneaux épais
+- **Production encadree** sans ajouter extraction et sécurité autour d'un portique ouvert
 
 ### La confusion sur les watts (à lire)
 
-Quand vous voyez « 20 W » ou « 40 W » sur une diode, vérifiez s’il s’agit de :
+Quand vous voyez 20 W ou 40 W sur une diode, verifiez s'il s'agit de:
 
-- **Puissance optique / de sortie** (ce qui compte vraiment), ou
-- **Puissance combinée / électrique** (chiffre marketing, souvent 2× la sortie réelle)
+- **Puissance optique / de sortie**: l'énergie qui atteint reellement la matiere
+- **Puissance combinée / électrique**: un chiffre marketing souvent superieur
 
-Un module « 40 W » peut n’être que ~10–15 W optiques. Cherchez toujours la **puissance optique** dans les specs, ou des tests de découpe indépendants.
+Un module annonce a 40 W peut sortir autour de 10 a 15 W optiques. Cherchez la puissance optique dans la fiche et validez avec des tests de découpe comparables.
 
 ### Pour qui acheter une diode ?
 
-- Amateurs qui apprennent
-- Personnalisation cadeaux (bois, cuir)
-- Makers avec petit budget
-- Tous ceux qui n’ont **pas** besoin de découper de l’acrylique épais tous les jours
+- Débutants qui apprennent les bases
+- Activites cadeaux bois et cuir
+- Ateliers avec budget limite
+- Utilisateurs qui n'ont pas besoin d'acrylique transparent en routine
 
-**Passez votre chemin si :** votre travail principal est bijoux métal nu, produits acrylique transparent, ou découpe de panneaux en série.
+La diode frustre vite si le coeur du travail est le métal nu, l'acrylique transparent ou la découpe de panneaux en série.
 
 ---
 
 ## Lasers CO₂: la découpe organique
 
-**Principe :** un tube en verre rempli de CO₂ produit un faisceau infrarouge invisible. Technologie des enseignes pro: miniaturisée pour le bureau.
+Le CO₂ utilisé un tube qui emet un faisceau infrarouge autour de 10 600 nm. Cette longueur d'onde est tres bien absorbée par l'acrylique et beaucoup de matieres organiques.
 
 ### Ce que les CO₂ font bien
 
-- Découper et graver **l’acrylique** (transparent et coloré)
-- Découper le **bois** plus vite et plus profondément que les diodes
-- Graver cuir, tampons caoutchouc, verre (avec masquage) et métaux revêtus
-- Gérer des lots de matériaux organiques
+- Découpe et gravure de l'acrylique transparent et colore
+- Découpe bois plus rapide et plus profonde qu'une diode
+- Gravure cuir, caoutchouc et surfaces revetues
+- Production reguliere sur matériaux organiques
 
 ### Ce qu’ils ne font pas honnêtement
 
-- **Marquer le métal nu** directement (seulement enlèvement de revêtement ou surfaces traitées)
-- **Tenir sur un petit bureau** sans ventilation (évacuation vers l’extérieur souvent nécessaire)
-- **Tourner en silence ou en sécurité** sans enceinte et extraction correcte
-- **Durer éternellement**: les tubes s’usent (~1 000–2 000 h) et coûtent 100–300 € à remplacer
+- **Marquage direct du métal nu**
+- **Usage en interieur sans extraction**
+- **Exploitation sereine** sans enceinte, filtration et procedures incendie
+- **Duree illimitee**: les tubes verre s'usent et se remplacent
 
 ### La sécurité n’est pas négociable
 
-Les CO₂ découpent des matériaux combustibles. Il vous faut :
+Un atelier CO₂ doit inclure:
 
-1. **Ventilation**: tuyau vers fenêtre ou filtre (de préférence vers l’extérieur)
-2. **Anti-incendie**: ne jamais laisser un job sans surveillance ; extincteur à portée
-3. **Enceinte**: fortement recommandée ; beaucoup de machines récentes en ont une
+1. **Extraction** vers l'exterieur ou filtration dimensionnee
+2. **Plan incendie** avec surveillance active des découpes
+3. **Enceinte** et interverrouillages fonctionnels
 
 ### Pour qui acheter un CO₂ ?
 
-- Vendeurs Etsy (enseignes, ornements, acrylique)
-- Petites entreprises qui découpent cuir ou bois
-- Écoles et fablabs (avec setup sécurité adapté)
-- Tous ceux qui en ont assez des limites diode en découpe
+- Activites enseigne et objets acrylique
+- Petites structures qui decoupent bois et cuir en continu
+- Ateliers equipes pour ventilation et sécurité
+- Utilisateurs qui ont atteint la limite de découpe d'une diode
 
-**Passez votre chemin si :** vous ne marquez que du métal, pas d’option ventilation, ou budget sous 400 €.
+Le CO₂ n'est pas coherent si vous ne faites que du métal, si l'extraction est impossible, ou si le budget global est trop serre.
 
 ---
 
 ## Lasers fibre: le spécialiste métal
 
-**Principe :** une fibre optique dopée génère un faisceau optimisé pour l’absorption métallique. Les desktop fibre ont explosé pour bijoux et marquage outils.
+La fibre produit un faisceau 1064 nm tres efficace sur les métaux. C'est la technologie de référence pour marquage et gravure métal en petite et moyenne série.
+
+Les variantes **MOPA** gardent la même longueur d'onde mais permettent un contrôle fin des impulsions, utile pour certains rendus couleur sur inox. Voir [MOPA expliqué](/guides/mopa-fiber-lasers-explained). La majorite des machines fibre de bureau sont basees sur une tête **galvo**: [stations galvo](/guides/galvo-laser-workstations-explained).
 
 ### Ce que la fibre fait bien
 
-- Marquer et graver **inox, aluminium, laiton, cuivre** sans spray
-- Marquage superficiel très rapide (codes-barres, logos, numéros de série)
-- Détail fin sur petites pièces métal
-- Longue durée de vie (20 000+ h typiques)
+- Marquage inox, aluminium, laiton et cuivre sans spray
+- Cadence elevee sur logos, numéros de série et codes
+- Detaill fin sur petites pieces métal
+- Longue duree de vie de la source
 
 ### Ce qu’elle ne fait pas honnêtement
 
-- Découper bois ou acrylique (mauvaise absorption à cette longueur d’onde)
-- Remplacer un CO₂ pour panneaux et enseignes
-- Couvrir de grandes surfaces à bas coût (souvent compactes, orientées métal)
-- « Découper » le métal comme une fraiseuse CNC: profondeur de gravure limitée
+- Découpe productive du bois ou de l'acrylique
+- Remplacement d'un CO₂ pour enseigne grand format
+- Grande zone de travail plane a faible cout
+- Enlevement de matiere type fraisage CNC profond
 
 ### Pour qui acheter une fibre ?
 
-- Bijoutiers (bagues, pendentifs)
-- Couteliers, armuriers, marquage outils
-- Entreprises de goodies métal
-- Tous ceux dont le matériau principal est le **métal**
+- Ateliers dont la matiere principale est le métal
+- Production de plaques, outillage, bijouterie et pieces techniques
+- Utilisateurs qui priorisent repetition et nettete sur petites pieces
 
-**Passez votre chemin si :** vous travaillez surtout bois, acrylique ou cuir.
+Si votre quotidien est surtout bois, acrylique ou cuir, une autre technologie sera plus pertinente.
 
 ---
 
 ## Lasers UV: précision sur matériaux délicats
 
-**Principe :** un laser UV provoque une ablation « froide »: il casse des liaisons moléculaires avec peu de chaleur. Courant en électronique et dispositifs médicaux.
+Le laser UV travaille autour de 355 nm. Sur certains matériaux, il retire la matiere avec peu de diffusion thermique. On parle souvent d'ablation "a froid".
 
 ### Ce que l’UV fait bien
 
-- Marquer des plastiques que d’autres lasers brûlent ou fondent
-- Graver le verre avec un détail fin
-- Marquage PCB et électronique fragile
-- Traits extrêmement fins (applications haut de gamme)
+- Marquage de plastiques sensibles a la chaleur
+- Gravure fine sur verre et surfaces delicates
+- Applications electroniques et marquages de precision
+- Traits tres fins sur petites zones
 
 ### Ce qu’il ne fait pas honnêtement
 
-- Découper des matériaux épais
-- Offrir un bon rapport qualité-prix en loisir généraliste
-- Remplacer la fibre pour le métal en profondeur
+- Découpe de matériaux épais
+- Rentabilite rapide pour un usage loisir generaliste
+- Remplacement d'une fibre pour gravure métal profonde
 
 ### Pour qui acheter un UV ?
 
-- Applications industrielles ou spécialisées
-- Marquage verre/plastique haute précision
-- **Pas** les premiers acheteurs typiques
+- Ateliers avec besoin precis sur plastique technique ou verre
+- Activites qui vivent de la finesse de marquage
+- Utilisateurs déjà equipes d'une premiere machine plus generaliste
 
 ---
 
 ## Machines hybrides: fibre + diode dans une boîte
 
-Certaines machines (comme xTool F1 Ultra) combinent **deux technologies**: souvent fibre pour le métal et diode pour bois/acrylique. On change de mode ; les deux faisceaux ne gravent pas en même temps.
+Les **hybrides fixes** combinent deux sources dans un même châssis, en général fibre pour le métal et diode pour les matériaux organiques. Le basculement se fait en logiciel, sans fusion des faisceaux.
 
-**Ce n’est pas la même chose que les têtes interchangeables :** le xTool S1 n’est **pas** hybride. C’est une **diode** en enceinte où vous changez **une** tête (10W, 20W, 40W diode, ou module IR 2W en option). Même châssis, module différent: un seul type actif à la fois.
+Les **systèmes a tête interchangeable** sont differents: on monte un module a la fois. Même châssis, mais une seule source active.
 
-| | Hybride (F1 Ultra, LP5) | Module interchangeable (S1, D1 Pro) |
-|---|-------------------------|-------------------------------------|
-| **Types laser** | Fibre + diode | Généralement diode (+ IR option S1) |
-| **Ce que vous changez** | Mode logiciel / source interne | Tête laser physique |
-| **Type catalogue** | `hybrid` | `diode` |
+| Point cle | Hybride fixe | Tête interchangeable |
+|---|---|---|
+| Sources disponibles | Deux sources intégrées | Une source montee a la fois |
+| Changement au quotidien | Bascule logicielle | Changement physique de tête |
+| Positionnement achat | Poste multi-usage compact | Plateforme evolutive |
 
-**Avis honnête :** l’hybride a du sens si vous voulez métal **et** bois sur le même bureau avec une petite zone de travail. C’est cher. La plupart des débutants devraient acheter **un** type qui couvre 80 % du travail.
+Comparaisons par produit (quelle annonce est quoi) : [hybrides](/guides/hybrid-lasers-explained) · [modules interchangeables](/guides/swappable-laser-modules-explained)
+
+En pratique, l'hybride a du sens si vous devez traiter métal et bois sur le même bureau, avec une zone de travail souvent compacte. C'est plus cher. Beaucoup de débutants avancent plus vite avec une seule technologie qui couvre 80 % de leurs commandes.
 
 ---
 
 ## Gravure vs découpe: la différence
 
-| | Gravure | Découpe |
-|---|---------|---------|
-| **Objectif** | Enlever de la matière en surface | Traverser pour séparer des pièces |
-| **Puissance** | Plus faible | Plus élevée |
-| **Passes** | Souvent 1 | Souvent plusieurs |
-| **Diode ?** | Oui, largement | Épaisseur limitée |
-| **CO₂ ?** | Oui | Oui, force principale |
+| Critère | Gravure | Découpe |
+|---|---|---|
+| Objectif | Retirer de la matiere en surface | Traverser la matiere pour separer |
+| Réglages usuels | Vitesse plus elevee, énergie plus basse | Vitesse plus basse, énergie plus haute |
+| Nombre de passes | Souvent une | Souvent plusieurs |
+| Technologie dominante | Diode, CO₂, fibre, UV selon matériau | Surtout CO₂ et diode selon épaisseur |
 
-Beaucoup veulent « graver » mais choisissent une machine pour « découper ». Définissez d’abord votre projet type :
+Beaucoup de mauvais achats viennent d'une confusion entre gravure et découpe. Definissez d'abord votre projet dominant:
 
-- **Sous-verres gravés** → gravure, diode suffit
-- **Panneaux mariage acrylique** → découpe, il faut du CO₂
-- **Médailles chien métal** → fibre ou diode + spray
+- Sous-verres graves: la gravure prime, la diode suffit souvent
+- Panneaux acrylique transparent: la découpe prime, CO₂ requis
+- Medailles métal nues: fibre recommandee, spray possible en depannage
 
 ---
 
 ## Arbre de décision rapide
 
-```
-Matériau principal ?
-│
-├─ Bois / cuir (surtout gravure)
-│   └─ Budget serré ? → Diode (300–700 €)
-│
-├─ Bois / acrylique (découpe régulière)
-│   └─ CO₂ (500–5000 €)
-│
-├─ Métal nu (bagues, outils, plaques)
-│   └─ Fibre ou hybride (1500 €+)
-│
-└─ Pas sûr
-    └─ Commencer en diode OU tester un CO₂ en fablab avant d’acheter
-```
+1. Lister les trois matériaux que vous vendez le plus
+2. Noter pour chacun: gravure de surface ou découpe traversante
+3. Choisir la technologie qui couvre le mieux ces trois cas
+4. Verifier ensuite la zone de travail, l'extraction et le budget accessoires
+
+Raccourci utile:
+
+- Bois et cuir cadeau: diode
+- Acrylique transparent et découpe reguliere: CO₂
+- Métal nu quotidien: fibre
+- Matériaux sensibles et marquage tres fin: UV
+- Doubles besoins métal + organique sur petit poste: hybride
 
 ---
 
@@ -210,17 +251,17 @@ Matériau principal ?
 
 | Terme | Signification |
 |-------|---------------|
-| **Puissance optique** | Sortie réelle au niveau de la lentille: le chiffre qui compte |
-| **Surface utile** | Taille max. du matériau traitable en un job |
-| **Assistance air** | Air comprimé à la buse: coupes plus propres, moins de charbon |
-| **LightBurn** | Logiciel de référence (payant, souvent rentable) |
-| **Passe** | Un parcours complet du laser sur le même tracé |
-| **Mise au point** | Distance où le faisceau est le plus petit: crucial pour un rendu net |
+| **Puissance optique** | Puissance réelle du faisceau au point d'usage; le chiffre utile pour comparer |
+| **Zone de travail** | Dimensions maximales de la piece traitee en un positionnement |
+| **Soufflage d'air** | Air envoye pres de la buse pour limiter charbon et flammes |
+| **Galvo** | Tête a miroirs rapides qui balaie un petit champ sans deplacer la piece |
+| **Passe** | Parcours complet du laser sur le même trace |
+| **Mise au point** | Distance optique ou le spot est le plus fin, donc le plus efficace |
 
 ---
 
-## Suite
+## Aller plus loin
 
-Lisez notre [guide d’achat laser 2026](/guides/laser-buying-guide-2026) pour des recommandations par budget. Prévoyez la [ventilation avant l’arrivée de la machine](/guides/laser-ventilation-setup), ou parcourez [toutes les fiches](/lasers).
+Lisez le [guide d'achat laser 2026](/guides/laser-buying-guide-2026) pour un parcours par budget. Prévoyez la [ventilation avant l'arrivee de la machine](/guides/laser-ventilation-setup), puis comparez les références dans [toutes les fiches](/lasers).
 
-**Rappel :** le meilleur laser est celui qui correspond à **vos matériaux et projets réels**: pas au plus gros watt sur la fiche produit.
+Le meilleur laser est celui qui correspond a vos matériaux et a votre cadence réelle, pas au plus gros watt affiche.

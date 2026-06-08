@@ -5,7 +5,7 @@
   "brand": "Longer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Fast portable Longer : 12W with high traverse and rotary options",
+  "tagline": "Fast portable Longer: 12W with high traverse and rotary options",
   "tldr": "Longer Nano Pro 12W is a premium portable diode with very high advertised speeds and rotary/slide accessories. Niche machine for makers who need portability with more punch than 6W minis.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
@@ -69,9 +69,9 @@
     ]
   },
   "pros": [
-    "12W on Longer Nano Pro: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "12W on Longer Nano Pro: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -102,11 +102,11 @@
   "images": [
     {
       "src": "/machines/longer-nano-pro-12w/01.webp",
-      "alt": "Longer Nano Pro 12W laser engraver : Longer"
+      "alt": "Longer Nano Pro 12W laser engraver: Longer"
     },
     {
       "src": "/machines/longer-nano-pro-12w/02.jpg",
-      "alt": "Longer Nano Pro 12W laser engraver : Longer"
+      "alt": "Longer Nano Pro 12W laser engraver: Longer"
     }
   ],
   "tierEditorialOverride": true,

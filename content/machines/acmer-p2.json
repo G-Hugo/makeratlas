@@ -5,7 +5,7 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Acmer P2 open-frame : 20W and 33W tiers",
+  "tagline": "Acmer P2 open-frame: 20W and 33W tiers",
   "tldr": "Umbrella listing for Acmer P2. Choose 20W or 33W SKU for specs and pricing.",
   "mainObjective": "Navigate Acmer P2 configurations",
   "bestFor": [
@@ -95,19 +95,19 @@
   "images": [
     {
       "src": "/machines/acmer-p2/01.webp",
-      "alt": "Acmer P2 33W laser engraver : Acmer"
+      "alt": "Acmer P2 33W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p2/02.jpg",
-      "alt": "Acmer P2 33W laser engraver : Acmer"
+      "alt": "Acmer P2 33W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p2/03.jpg",
-      "alt": "Acmer P2 33W laser engraver : Acmer"
+      "alt": "Acmer P2 33W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p2/04.jpg",
-      "alt": "Acmer P2 33W laser engraver : Acmer"
+      "alt": "Acmer P2 33W laser engraver: Acmer"
     }
   ]
 }

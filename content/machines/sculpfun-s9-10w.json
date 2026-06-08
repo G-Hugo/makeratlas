@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/sculpfun-s9-10w/01.webp",
-  "tagline": "10W Sculpfun's proven budget line : still popular for value-focused makers",
-  "tldr": "Sculpfun S9 10W is the 10W SKU on the Sculpfun sculpfun s9 line. Before S30 Ultra, the S9 was Sculpfun's workhorse. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tagline": "10W Sculpfun's proven budget line: still popular for value-focused makers",
+  "tldr": "Sculpfun S9 10W is the 10W SKU on the Sculpfun sculpfun s9 line. Before S30 Ultra, the S9 was Sculpfun's workhorse. Verify optical power on the listing: do not assume combined-watt marketing.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
     "Engraving-focused shops",
@@ -19,7 +19,7 @@
     "min": 299,
     "max": 449,
     "currency": "USD",
-    "note": "10W optical module : verify SKU before buying"
+    "note": "10W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "10W diode",
@@ -71,9 +71,9 @@
     ]
   },
   "pros": [
-    "10W on Sculpfun S9: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Sculpfun S9: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s9-10w/01.webp",
-      "alt": "Sculpfun S9 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun S9 10W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9-10w/02.jpg",
-      "alt": "Sculpfun S9 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun S9 10W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9-10w/03.jpg",
-      "alt": "Sculpfun S9 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun S9 10W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s9-10w/04.jpg",
-      "alt": "Sculpfun S9 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun S9 10W laser engraver: Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s9",

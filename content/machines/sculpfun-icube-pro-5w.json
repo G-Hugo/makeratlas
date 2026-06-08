@@ -6,9 +6,9 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/sculpfun-icube-pro-5w/01.webp",
-  "tagline": "5W Compact enclosed Sculpfun : small footprint, full safety cabinet",
-  "tldr": "Sculpfun iCube Pro 5W is the 5W SKU on the Sculpfun sculpfun icube pro line. Sculpfun's enclosed desktop laser for makers who want the brand's cutting performance in a safer cabinet. Verify optical power on the listing : do not assume combined-watt marketing.",
-  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "tagline": "5W Compact enclosed Sculpfun: small footprint, full safety cabinet",
+  "tldr": "Sculpfun iCube Pro 5W is the 5W SKU on the Sculpfun sculpfun icube pro line. Sculpfun's enclosed desktop laser for makers who want the brand's cutting performance in a safer cabinet. Verify optical power on the listing: do not assume combined-watt marketing.",
+  "mainObjective": "Detailed engraving on organics and coated metal: occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -19,7 +19,7 @@
     "min": 349,
     "max": 499,
     "currency": "USD",
-    "note": "5W optical module : verify SKU before buying"
+    "note": "5W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "5W diode",
@@ -71,9 +71,9 @@
     ]
   },
   "pros": [
-    "5W on Sculpfun iCube Pro: engraving-first : photo fills and leather at moderate speeds",
+    "5W on Sculpfun iCube Pro: engraving-first: photo fills and leather at moderate speeds",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-icube-pro-5w/01.webp",
-      "alt": "Sculpfun iCube Pro 5W laser engraver : Sculpfun"
+      "alt": "Sculpfun iCube Pro 5W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-icube-pro-5w/02.jpg",
-      "alt": "Sculpfun iCube Pro 5W laser engraver : Sculpfun"
+      "alt": "Sculpfun iCube Pro 5W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-icube-pro-5w/03.jpg",
-      "alt": "Sculpfun iCube Pro 5W laser engraver : Sculpfun"
+      "alt": "Sculpfun iCube Pro 5W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-icube-pro-5w/04.jpg",
-      "alt": "Sculpfun iCube Pro 5W laser engraver : Sculpfun"
+      "alt": "Sculpfun iCube Pro 5W laser engraver: Sculpfun"
     }
   ],
   "modelLine": "sculpfun-icube-pro",
@@ -121,6 +121,6 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Sculpfun iCube Pro 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Enclosed format is easier to live with at home.",
-    "limitations": "Skip if you already quote 3 mm+ cutting in production : see 10W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 3 mm+ cutting in production: see 10W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

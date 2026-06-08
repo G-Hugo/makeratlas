@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/algolaser-alpha-mk2-10w/01.webp",
-  "tagline": "10W Entry Alpha MK2 : speed-focused open-frame diode",
+  "tagline": "10W Entry Alpha MK2: speed-focused open-frame diode",
   "tldr": "The 10W Alpha MK2 (often sold as DIY kit or enclosed 10W SKU) is the engraving-first tier. Step up to 20W or 40W for faster fills and deeper cuts.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
@@ -74,9 +74,9 @@
     ]
   },
   "pros": [
-    "10W on Algolaser Alpha MK2: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Algolaser Alpha MK2: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -102,19 +102,19 @@
   "images": [
     {
       "src": "/machines/algolaser-alpha-mk2-10w/01.webp",
-      "alt": "Algolaser Alpha MK2 10W laser engraver : Algolaser"
+      "alt": "Algolaser Alpha MK2 10W laser engraver: Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-10w/02.jpg",
-      "alt": "Algolaser Alpha MK2 10W laser engraver : Algolaser"
+      "alt": "Algolaser Alpha MK2 10W laser engraver: Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-10w/03.jpg",
-      "alt": "Algolaser Alpha MK2 10W laser engraver : Algolaser"
+      "alt": "Algolaser Alpha MK2 10W laser engraver: Algolaser"
     },
     {
       "src": "/machines/algolaser-alpha-mk2-10w/04.jpg",
-      "alt": "Algolaser Alpha MK2 10W laser engraver : Algolaser"
+      "alt": "Algolaser Alpha MK2 10W laser engraver: Algolaser"
     }
   ],
   "modelLine": "algolaser-alpha-mk2",
@@ -123,6 +123,6 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Algolaser Alpha MK2 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 5 mm+ cutting in production : see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

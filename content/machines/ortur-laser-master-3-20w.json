@@ -5,8 +5,8 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Community-favorite open-frame diode : best LM3 value",
-  "tldr": "The 20W LM3 is the configuration most buyers mean when they say 'Laser Master 3'. Strong engraving, light cutting, huge community : verify you are not accidentally ordering the 10W SKU.",
+  "tagline": "Community-favorite open-frame diode: best LM3 value",
+  "tldr": "The 20W LM3 is the configuration most buyers mean when they say 'Laser Master 3'. Strong engraving, light cutting, huge community: verify you are not accidentally ordering the 10W SKU.",
   "bestFor": [
     "Mixed engrave & cut",
     "Hobby side business",
@@ -17,7 +17,7 @@
     "min": 140,
     "max": 1740,
     "currency": "USD",
-    "note": "20W module : most common SKU"
+    "note": "20W module: most common SKU"
   },
   "specs": {
     "power": "20W diode",
@@ -72,14 +72,14 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Ortur Laser Master 3 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "Ortur Laser Master 3 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,7 +99,7 @@
     {
       "id": "safety-glasses",
       "availability": "recommended",
-      "note": "450 nm diode : verify OD with seller"
+      "note": "450 nm diode: verify OD with seller"
     },
     {
       "id": "air-assist",
@@ -126,19 +126,19 @@
   "images": [
     {
       "src": "/machines/ortur-laser-master-3-20w/01.webp",
-      "alt": "Ortur Laser Master 3 20W laser engraver : Ortur"
+      "alt": "Ortur Laser Master 3 20W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3-20w/02.webp",
-      "alt": "Ortur Laser Master 3 20W laser engraver : Ortur"
+      "alt": "Ortur Laser Master 3 20W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3-20w/03.webp",
-      "alt": "Ortur Laser Master 3 20W laser engraver : Ortur"
+      "alt": "Ortur Laser Master 3 20W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-3-20w/04.webp",
-      "alt": "Ortur Laser Master 3 20W laser engraver : Ortur"
+      "alt": "Ortur Laser Master 3 20W laser engraver: Ortur"
     }
   ],
   "modelLine": "ortur-laser-master-3",

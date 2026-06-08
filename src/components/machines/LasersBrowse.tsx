@@ -205,25 +205,25 @@ export function LasersBrowse({
         <p className="mt-3 text-sm text-stone-600 dark:text-stone-400">{l.hybridNote}</p>
       )}
 
-      <div className="mt-6 flex flex-wrap gap-4 rounded-xl border border-stone-200 bg-white p-4 dark:border-stone-700 dark:bg-stone-900">
-        <label className="flex min-w-[200px] flex-1 flex-col gap-1 text-sm">
-          <span className="font-medium text-stone-700 dark:text-stone-300">{l.searchLabel}</span>
+      <div className="mt-6 flex flex-wrap gap-4 rounded-xl border border-stone-200 bg-white p-4 dark:scheme-dark dark:border-stone-700 dark:bg-stone-900">
+        <label className="flex min-w-[200px] flex-1 flex-col gap-1.5 text-sm">
+          <span className="font-medium text-stone-700 dark:text-stone-200">{l.searchLabel}</span>
           <input
             type="search"
             placeholder={l.searchPlaceholder}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 text-stone-900 placeholder:text-stone-400 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100 dark:placeholder:text-stone-500"
           />
         </label>
-        <label className="flex flex-col gap-1 text-sm">
-          <span className="font-medium text-stone-700 dark:text-stone-300">{l.sortLabel}</span>
+        <label className="flex min-w-[10.5rem] flex-col gap-1.5 text-sm">
+          <span className="font-medium text-stone-700 dark:text-stone-200">{l.sortLabel}</span>
           <select
             value={sort}
             onChange={(e) =>
               setSort(e.target.value as "rating" | "power" | "newest" | "name")
             }
-            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 text-stone-900 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
           >
             <option value="rating">{l.sortHighestRated}</option>
             <option value="power">{l.sortPower}</option>
@@ -231,12 +231,12 @@ export function LasersBrowse({
             <option value="name">{l.sortName}</option>
           </select>
         </label>
-        <label className="flex flex-col gap-1 text-sm">
-          <span className="font-medium text-stone-700">{l.workFocusLabel}</span>
+        <label className="flex min-w-[10.5rem] flex-col gap-1.5 text-sm">
+          <span className="font-medium text-stone-700 dark:text-stone-200">{l.workFocusLabel}</span>
           <select
             value={workFocus}
             onChange={(e) => setWorkFocus(e.target.value as MachineWorkFocus | "all")}
-            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 text-stone-900 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
           >
             <option value="all">{l.allTypes}</option>
             <option value="engrave">{dict.workFocus.engrave}</option>
@@ -244,14 +244,14 @@ export function LasersBrowse({
             <option value="both">{dict.workFocus.both}</option>
           </select>
         </label>
-        <label className="flex flex-col gap-1 text-sm">
-          <span className="font-medium text-stone-700">{l.powerBandLabel}</span>
+        <label className="flex min-w-[10.5rem] flex-col gap-1.5 text-sm">
+          <span className="font-medium text-stone-700 dark:text-stone-200">{l.powerBandLabel}</span>
           <select
             value={powerBand}
             onChange={(e) =>
               setPowerBand(e.target.value as "all" | "low" | "mid" | "high")
             }
-            className="rounded-md border border-stone-300 bg-white px-3 py-2 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
+            className="rounded-md border border-stone-300 bg-white px-3 py-2 text-stone-900 dark:border-stone-600 dark:bg-stone-950 dark:text-stone-100"
           >
             <option value="all">{l.powerBandAll}</option>
             <option value="low">{l.powerBandLow}</option>

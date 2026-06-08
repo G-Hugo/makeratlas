@@ -17,7 +17,7 @@
     "min": 599,
     "max": 799,
     "currency": "USD",
-    "note": "10W optical module : verify SKU before buying"
+    "note": "10W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "10W diode",
@@ -74,10 +74,10 @@
     ]
   },
   "pros": [
-    "10W on xTool D1 Pro: engraving-first : photo fills and leather at moderate speeds",
-    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on xTool D1 Pro: engraving-first: photo fills and leather at moderate speeds",
+    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -105,7 +105,7 @@
   "images": [
     {
       "src": "/machines/xtool-d1-pro-10w/01.webp",
-      "alt": "xTool D1 Pro 10W laser engraver : xTool"
+      "alt": "xTool D1 Pro 10W laser engraver: xTool"
     }
   ],
   "modelLine": "xtool-d1-pro",
@@ -113,7 +113,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Swappable diode modules on D1 Pro frame",
-    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need : same rail and software as other D1 Pro heads.",
+    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need: same rail and software as other D1 Pro heads.",
     "options": [
       {
         "power": "5W",
@@ -145,6 +145,6 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "The 10W diode module on xTool D1 Pro is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
-    "limitations": "Skip this module if you cut 5 mm+ stock daily : open the 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
+    "limitations": "Skip this module if you cut 5 mm+ stock daily: open the 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
   }
 }

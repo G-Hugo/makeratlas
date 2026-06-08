@@ -5,8 +5,8 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Entry enclosed laser with CMYK color printing : xTool's 2026 mass-market craft machine",
-  "tldr": "Launched May 2026, the M2 packs laser engraving, cutting, and integrated inkjet color printing into one enclosed desktop at $599. Built for everyday crafters and Etsy sellers who want color + laser without a pro CO₂ budget : not a metal-marking or production cutter.",
+  "tagline": "Entry enclosed laser with CMYK color printing: xTool's 2026 mass-market craft machine",
+  "tldr": "Launched May 2026, the M2 packs laser engraving, cutting, and integrated inkjet color printing into one enclosed desktop at $599. Built for everyday crafters and Etsy sellers who want color + laser without a pro CO₂ budget: not a metal-marking or production cutter.",
   "mainObjective": "Affordable enclosed laser + color print for home crafters and small shops",
   "bestFor": [
     "Home crafters",
@@ -71,9 +71,9 @@
     ]
   },
   "pros": [
-    "10W on xTool M2 Color Craft Laser: engraving-first : photo fills and leather at moderate speeds",
+    "10W on xTool M2 Color Craft Laser: engraving-first: photo fills and leather at moderate speeds",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -100,7 +100,7 @@
   "images": [
     {
       "src": "/machines/xtool-m2/01.webp",
-      "alt": "xTool M2 Color Craft Laser laser engraver : xTool"
+      "alt": "xTool M2 Color Craft Laser laser engraver: xTool"
     }
   ],
   "catalogPrimary": true,

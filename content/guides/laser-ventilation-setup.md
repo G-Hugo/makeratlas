@@ -3,18 +3,15 @@ slug: laser-ventilation-setup
 title: "Laser Ventilation & Exhaust: Practical Setup for Home and Small Shops"
 description: How to vent diode and CO₂ desktop lasers without overbuilding. Window vents, inline fans, filters, and what enclosed machines still need.
 category: setup
-readTime: 10 min
+readTime: 18 min
 lastUpdated: "2026-06-02"
 status: published
 ---
 
-Smoke is not optional on a laser job. Even a small diode engraving birch plywood produces **fine particles and irritants**. CO₂ cutting acrylic adds **strong fumes** you should not breathe.
+Ventilation is not an accessory. It is what keeps **odor, particulates, and fire risk** inside a range your room and lungs can tolerate.
 
-This guide is for **home makers and small shops** setting up ventilation before or right after the machine arrives. It pairs with our [laser safety basics](/guides/laser-safety-basics) guide (eyes, fire, supervision).
+Written for **home makers and small shops** setting up before or right after the machine arrives. Pairs with [laser safety basics](/guides/laser-safety-basics) (eyes, fire, supervision).
 
-> **Transparency:** Maker Atlas has no affiliate links. Fan and hose recommendations are generic classes of hardware, not paid picks.
-
----
 
 ## What you are actually removing
 
@@ -138,6 +135,8 @@ Brand-agnostic hardware from HVAC suppliers, maker retailers, or home improvemen
 
 ## What's next?
 
+- [Exhaust filters vs outdoor venting](/guides/laser-exhaust-filters-explained): apartments and filter limits
+- [Air assist & honeycomb](/guides/air-assist-honeycomb-setup): cleaner cuts (not a substitute for exhaust)
 - [Laser safety basics](/guides/laser-safety-basics): glasses, fire, supervision
 - [Buying guide 2026](/guides/laser-buying-guide-2026): budget for ventilation in the real total cost
 - [Compare laser engravers](/compare): filter by type and see honest limits per machine

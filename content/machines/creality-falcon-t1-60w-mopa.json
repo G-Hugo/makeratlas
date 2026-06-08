@@ -5,8 +5,8 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "fiber",
-  "tagline": "60W MOPA module : color stainless and deeper metal on the T1 galvo",
-  "tldr": "The 60W MOPA WaveSync head is Creality's top metal module for Falcon T1 : pulse control for color effects on stainless and faster deep engraving than the 20W fiber option. For shops that already committed to the T1 chassis and need production metal throughput.",
+  "tagline": "60W MOPA module: color stainless and deeper metal on the T1 galvo",
+  "tldr": "The 60W MOPA WaveSync head is Creality's top metal module for Falcon T1: pulse control for color effects on stainless and faster deep engraving than the 20W fiber option. For shops that already committed to the T1 chassis and need production metal throughput.",
   "mainObjective": "MOPA fiber marking with color effects on the T1 modular platform",
   "bestFor": [
     "Deep metal engraving",
@@ -68,15 +68,15 @@
     ]
   },
   "pros": [
-    "Fiber marks metal : does not cut wood or acrylic",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Fiber marks metal: does not cut wood or acrylic",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Does not cut wood, leather, or acrylic: metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
   "beginnerNotes": "This profile is the 60W SKU on Creality Falcon T1 MOPA. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
-  "proTips": "Budget MOPA plus chassis plus diode module together before committing : total can exceed fixed F2 Ultra bundles.",
+  "proTips": "Budget MOPA plus chassis plus diode module together before committing: total can exceed fixed F2 Ultra bundles.",
   "primaryUse": "60W MOPA fiber module for advanced metal marking on the Falcon T1 galvo chassis.",
   "rating": {
     "overall": 8.4,
@@ -104,7 +104,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "WaveSync swappable galvo modules",
-    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules : install one head at a time.",
+    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules: install one head at a time.",
     "options": [
       {
         "power": "20W",
@@ -147,7 +147,7 @@
   "releaseDate": "2026-05",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The 60W MOPA module is Creality's top metal head for T1 : pulse control for color stainless and faster deep marks than the 20W fiber option on the same chassis.",
+    "advantages": "The 60W MOPA module is Creality's top metal head for T1: pulse control for color stainless and faster deep marks than the 20W fiber option on the same chassis.",
     "limitations": "Premium module pricing on top of chassis and likely earlier diode purchases. Overkill for occasional metal gifts. Galvo field size still limits large panels."
   }
 }

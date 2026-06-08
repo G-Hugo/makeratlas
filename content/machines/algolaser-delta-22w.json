@@ -5,8 +5,8 @@
   "brand": "AlgoLaser",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "AlgoLaser Delta : enclosed-optional 22W with delta kinematics",
-  "tldr": "AlgoLaser Delta 22W uses a delta-style motion system in a compact footprint with optional enclosure. Alternative to Cartesian Alpha MK2 : check community for reliability and spare parts before buying.",
+  "tagline": "AlgoLaser Delta: enclosed-optional 22W with delta kinematics",
+  "tldr": "AlgoLaser Delta 22W uses a delta-style motion system in a compact footprint with optional enclosure. Alternative to Cartesian Alpha MK2: check community for reliability and spare parts before buying.",
   "mainObjective": "Enclosed-capable 22W AlgoLaser for makers who want delta kinematics",
   "bestFor": [
     "AlgoLaser fans",
@@ -66,7 +66,7 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 5 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 5 mm basswood-class stock in benchmarks",
     "22W: the most cut-focused head in the AlgoLaser Delta line",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes"
   ],
@@ -99,23 +99,23 @@
   "images": [
     {
       "src": "/machines/algolaser-delta-22w/01.webp",
-      "alt": "AlgoLaser Delta 22W laser engraver : AlgoLaser"
+      "alt": "AlgoLaser Delta 22W laser engraver: AlgoLaser"
     },
     {
       "src": "/machines/algolaser-delta-22w/02.jpg",
-      "alt": "AlgoLaser Delta 22W laser engraver : AlgoLaser"
+      "alt": "AlgoLaser Delta 22W laser engraver: AlgoLaser"
     },
     {
       "src": "/machines/algolaser-delta-22w/03.jpg",
-      "alt": "AlgoLaser Delta 22W laser engraver : AlgoLaser"
+      "alt": "AlgoLaser Delta 22W laser engraver: AlgoLaser"
     },
     {
       "src": "/machines/algolaser-delta-22w/04.jpg",
-      "alt": "AlgoLaser Delta 22W laser engraver : AlgoLaser"
+      "alt": "AlgoLaser Delta 22W laser engraver: AlgoLaser"
     }
   ],
   "editorialDepth": {
-    "advantages": "AlgoLaser Delta 22W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "advantages": "AlgoLaser Delta 22W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. "
   },
   "tierEditorialOverride": true

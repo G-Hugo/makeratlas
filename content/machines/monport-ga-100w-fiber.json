@@ -5,8 +5,8 @@
   "brand": "Monport",
   "category": "laser-engraver",
   "laserType": "fiber",
-  "tagline": "Monport GA 100W MOPA : deep metal engraving and color effects",
-  "tldr": "Monport GA 100W MOPA targets serious metal engraving shops needing deep marks and color on stainless. Industrial pricing and footprint : not a desktop B4-class galvo.",
+  "tagline": "Monport GA 100W MOPA: deep metal engraving and color effects",
+  "tldr": "Monport GA 100W MOPA targets serious metal engraving shops needing deep marks and color on stainless. Industrial pricing and footprint: not a desktop B4-class galvo.",
   "mainObjective": "High-power MOPA fiber for deep engraving and color metal work",
   "bestFor": [
     "Deep metal engraving",
@@ -65,12 +65,12 @@
     ]
   },
   "pros": [
-    "Fiber marks metal : does not cut wood or acrylic",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first",
-    "Work area Large marking field (verify SKU) : confirm your typical job sizes fit the bed"
+    "Fiber marks metal: does not cut wood or acrylic",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first",
+    "Work area Large marking field (verify SKU): confirm your typical job sizes fit the bed"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Does not cut wood, leather, or acrylic: metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
   "beginnerNotes": "This profile covers Monport GA 100W MOPA Fiber. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
@@ -97,11 +97,11 @@
   "images": [
     {
       "src": "/machines/monport-ga-100w-fiber/01.webp",
-      "alt": "Monport GA 100W MOPA Fiber laser engraver : Monport"
+      "alt": "Monport GA 100W MOPA Fiber laser engraver: Monport"
     },
     {
       "src": "/machines/monport-ga-100w-fiber/02.jpg",
-      "alt": "Monport GA 100W MOPA Fiber laser engraver : Monport"
+      "alt": "Monport GA 100W MOPA Fiber laser engraver: Monport"
     }
   ],
   "editorialDepth": {

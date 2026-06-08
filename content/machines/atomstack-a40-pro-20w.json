@@ -7,7 +7,7 @@
   "laserType": "diode",
   "image": "/machines/atomstack-a40-pro-20w/01.webp",
   "tagline": "20W Mid-tier Atomstack with better frame and 40W-class cutting claims",
-  "tldr": "Atomstack A40 Pro 20W is the 20W SKU on the Atomstack atomstack a40 pro line. Step up from A5 Pro with a stiffer frame and stronger cutting marketing (40W combined). Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tldr": "Atomstack A40 Pro 20W is the 20W SKU on the Atomstack atomstack a40 pro line. Step up from A5 Pro with a stiffer frame and stronger cutting marketing (40W combined). Verify optical power on the listing: do not assume combined-watt marketing.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -19,7 +19,7 @@
     "min": 349,
     "max": 499,
     "currency": "USD",
-    "note": "20W optical module : verify SKU before buying"
+    "note": "20W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "20W diode",
@@ -72,9 +72,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/atomstack-a40-pro-20w/01.webp",
-      "alt": "Atomstack A40 Pro 20W laser engraver : Atomstack"
+      "alt": "Atomstack A40 Pro 20W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a40-pro-20w/02.jpg",
-      "alt": "Atomstack A40 Pro 20W laser engraver : Atomstack"
+      "alt": "Atomstack A40 Pro 20W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a40-pro-20w/03.jpg",
-      "alt": "Atomstack A40 Pro 20W laser engraver : Atomstack"
+      "alt": "Atomstack A40 Pro 20W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a40-pro-20w/04.jpg",
-      "alt": "Atomstack A40 Pro 20W laser engraver : Atomstack"
+      "alt": "Atomstack A40 Pro 20W laser engraver: Atomstack"
     }
   ],
   "modelLine": "atomstack-a40-pro",
@@ -119,7 +119,7 @@
   "releaseDate": "2022-06",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Atomstack A40 Pro 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Upgrade path to 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "Atomstack A40 Pro 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   }
 }

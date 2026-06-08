@@ -3,18 +3,15 @@ slug: laser-safety-basics
 title: "Laser Safety Basics: What Every Buyer Must Know Before First Use"
 description: Honest, practical safety guide for desktop laser engravers. Ventilation, eye protection, fire risk, and what enclosed machines actually protect you from.
 category: safety
-readTime: 8 min
+readTime: 12 min
 lastUpdated: "2026-05-31"
 status: published
 ---
 
 Lasers can **permanently damage your eyes** and **start fires**. This is not fear-messaging: it is physics.
 
-Every Maker Atlas machine profile includes material limits. This guide covers what keeps you safe regardless of brand.
+Material limits belong on every serious spec sheet. Below: what keeps you safe regardless of brand.
 
-> **Not legal advice.** Follow your local regulations, manufacturer instructions, and workplace safety rules.
-
----
 
 ## The three real risks
 

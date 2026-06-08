@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "co2",
   "image": "/machines/glowforge-pro/01.webp",
-  "tagline": "Pass-through CO₂ for crafters : premium simplicity with subscription cost",
-  "tldr": "The Glowforge Pro adds passthrough slot for long materials and stronger CO₂ performance vs Aura. Still cloud-dependent with subscription pressure. Best for design-focused crafters who refuse to touch LightBurn : not for cost-sensitive makers.",
+  "tagline": "Pass-through CO₂ for crafters: premium simplicity with subscription cost",
+  "tldr": "The Glowforge Pro adds passthrough slot for long materials and stronger CO₂ performance vs Aura. Still cloud-dependent with subscription pressure. Best for design-focused crafters who refuse to touch LightBurn: not for cost-sensitive makers.",
   "mainObjective": "Pass-through CO₂ crafting for long materials with zero-config software",
   "bestFor": [
     "Long materials",
@@ -75,14 +75,14 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
   "beginnerNotes": "This profile covers Glowforge Pro. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Factor 3-year subscription into total cost. Passthrough shines for long thin signs : not for thick industrial cutting.",
+  "proTips": "Factor 3-year subscription into total cost. Passthrough shines for long thin signs: not for thick industrial cutting.",
   "primaryUse": "Premium enclosed CO₂ for crafters engraving and cutting long thin materials with minimal technical setup.",
   "rating": {
     "overall": 8.6,
@@ -101,19 +101,19 @@
   "images": [
     {
       "src": "/machines/glowforge-pro/01.webp",
-      "alt": "Glowforge Pro laser engraver : Glowforge"
+      "alt": "Glowforge Pro laser engraver: Glowforge"
     },
     {
       "src": "/machines/glowforge-pro/02.jpg",
-      "alt": "Glowforge Pro laser engraver : Glowforge"
+      "alt": "Glowforge Pro laser engraver: Glowforge"
     },
     {
       "src": "/machines/glowforge-pro/03.jpg",
-      "alt": "Glowforge Pro laser engraver : Glowforge"
+      "alt": "Glowforge Pro laser engraver: Glowforge"
     },
     {
       "src": "/machines/glowforge-pro/04.jpg",
-      "alt": "Glowforge Pro laser engraver : Glowforge"
+      "alt": "Glowforge Pro laser engraver: Glowforge"
     }
   ],
   "powerRating": "45W",

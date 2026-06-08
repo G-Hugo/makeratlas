@@ -5,8 +5,8 @@
   "brand": "LaserPecker",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Classic handheld LaserPecker LP2 : portable diode engraver",
-  "tldr": "LaserPecker LP2 Classic is the earlier portable LP line before LP2 Plus : app-driven, small work area, ideal for tags and phone-case scale jobs, not workshop production.",
+  "tagline": "Classic handheld LaserPecker LP2: portable diode engraver",
+  "tldr": "LaserPecker LP2 Classic is the earlier portable LP line before LP2 Plus: app-driven, small work area, ideal for tags and phone-case scale jobs, not workshop production.",
   "mainObjective": "Portable LaserPecker engraving away from a full frame",
   "bestFor": [
     "Portability",
@@ -63,9 +63,9 @@
     ]
   },
   "pros": [
-    "5W on LaserPecker LP2: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Work area ~100 × 100 mm (verify) : confirm your typical job sizes fit the bed"
+    "5W on LaserPecker LP2: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Work area ~100 × 100 mm (verify): confirm your typical job sizes fit the bed"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -93,11 +93,11 @@
   "images": [
     {
       "src": "/machines/laserpecker-lp2-classic/01.webp",
-      "alt": "LaserPecker LP2 laser engraver : LaserPecker"
+      "alt": "LaserPecker LP2 laser engraver: LaserPecker"
     },
     {
       "src": "/machines/laserpecker-lp2-classic/02.jpg",
-      "alt": "LaserPecker LP2 laser engraver : LaserPecker"
+      "alt": "LaserPecker LP2 laser engraver: LaserPecker"
     }
   ],
   "editorialDepth": {

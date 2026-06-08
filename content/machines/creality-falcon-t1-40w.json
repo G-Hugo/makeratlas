@@ -5,7 +5,7 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "40W WaveSync diode module : faster galvo cuts on the T1 chassis",
+  "tagline": "40W WaveSync diode module: faster galvo cuts on the T1 chassis",
   "tldr": "The 40W diode head is the cutting-focused module on Creality's Falcon T1 galvo platform. Same Class 1 enclosure as the entry diode module but more depth on wood and faster fills for shops that outgrow entry wattage.",
   "mainObjective": "Faster organic engraving and light cutting on the modular T1 galvo",
   "bestFor": [
@@ -71,9 +71,9 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 8 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
     "40W: the most cut-focused head in the Creality Falcon T1 Diode line",
-    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
+    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes"
   ],
   "cons": [
@@ -81,7 +81,7 @@
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 40W SKU on Creality Falcon T1 Diode. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
-  "proTips": "Price the full module roadmap before committing : 40W plus later fiber can exceed a single F2 Ultra bundle.",
+  "proTips": "Price the full module roadmap before committing: 40W plus later fiber can exceed a single F2 Ultra bundle.",
   "primaryUse": "High-power diode module for enclosed galvo cutting and engraving on the Falcon T1 chassis.",
   "rating": {
     "overall": 8.1,
@@ -109,7 +109,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "WaveSync swappable galvo modules",
-    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules : install one head at a time.",
+    "description": "One enclosed T1 chassis accepts Creality diode (20W/40W), fiber (20W), MOPA (60W), and UV (5W) modules: install one head at a time.",
     "options": [
       {
         "power": "20W",
@@ -152,7 +152,7 @@
   "releaseDate": "2026-05",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The 40W diode module adds cut-focused galvo speed on the same T1 chassis : thicker basswood and faster fills than the entry diode head while keeping the enclosed Class 1 workflow.",
+    "advantages": "The 40W diode module adds cut-focused galvo speed on the same T1 chassis: thicker basswood and faster fills than the entry diode head while keeping the enclosed Class 1 workflow.",
     "limitations": "Still not CO₂ for cast acrylic production. Module cost stacks on the chassis. Compare fixed galvo bundles if you know you only need 40W diode day one."
   }
 }

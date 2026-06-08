@@ -7,7 +7,7 @@
   "laserType": "co2",
   "image": "/machines/xtool-p2s/01.webp",
   "tagline": "Updated P2 with faster processing and improved autofocus",
-  "tldr": "The P2S refines the original P2 with better software and autofocus. Same 55W CO₂ class for acrylic and wood production. Still xTool's main enclosed CO₂ below the P3 flagship : choose P3 if you need 80W and automation; P2S if 55W and budget fit.",
+  "tldr": "The P2S refines the original P2 with better software and autofocus. Same 55W CO₂ class for acrylic and wood production. Still xTool's main enclosed CO₂ below the P3 flagship: choose P3 if you need 80W and automation; P2S if 55W and budget fit.",
   "mainObjective": "Next-gen enclosed CO₂ for small businesses cutting acrylic and wood",
   "bestFor": [
     "Small business",
@@ -75,7 +75,7 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
@@ -105,11 +105,11 @@
   "images": [
     {
       "src": "/machines/xtool-p2s/01.webp",
-      "alt": "xTool P2S laser engraver : xTool"
+      "alt": "xTool P2S laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-p2s/02.webp",
-      "alt": "xTool P2S laser engraver : xTool"
+      "alt": "xTool P2S laser engraver: xTool"
     }
   ],
   "powerRating": "55W",

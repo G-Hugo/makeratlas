@@ -5,8 +5,8 @@
   "brand": "WeCreat",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "AI-assisted enclosed diode with live preview : beginner-friendly smart laser",
-  "tldr": "WeCreat's enclosed diode laser adds a camera and AI features for material detection and visual preview. Appealing for beginners who want guidance. Core laser performance is comparable to other enclosed diodes : you pay for the smart features.",
+  "tagline": "AI-assisted enclosed diode with live preview: beginner-friendly smart laser",
+  "tldr": "WeCreat's enclosed diode laser adds a camera and AI features for material detection and visual preview. Appealing for beginners who want guidance. Core laser performance is comparable to other enclosed diodes: you pay for the smart features.",
   "bestFor": [
     "Tech-curious beginners",
     "Visual learners",
@@ -71,16 +71,16 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
+    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers WeCreat Vision. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Use camera preview for batch placement but still run test cards for new materials : AI presets are starting points, not gospel. LightBurn unlocks more control when you outgrow the stock app.",
+  "proTips": "Use camera preview for batch placement but still run test cards for new materials: AI presets are starting points, not gospel. LightBurn unlocks more control when you outgrow the stock app.",
   "primaryUse": "Smart enclosed diode laser for beginners who want visual guidance and filtered home operation.",
   "rating": {
     "overall": 8,
@@ -95,7 +95,7 @@
   "faq": [
     {
       "question": "Is the AI feature actually useful?",
-      "answer": "For beginners, yes : it speeds up first projects and reduces alignment errors. Pros will likely ignore it and use LightBurn with manual settings."
+      "answer": "For beginners, yes: it speeds up first projects and reduces alignment errors. Pros will likely ignore it and use LightBurn with manual settings."
     },
     {
       "question": "WeCreat vs xTool S1?",
@@ -109,21 +109,21 @@
   "images": [
     {
       "src": "/machines/wecreat-vision/01.webp",
-      "alt": "WeCreat Vision laser engraver : WeCreat"
+      "alt": "WeCreat Vision laser engraver: WeCreat"
     },
     {
       "src": "/machines/wecreat-vision/02.jpg",
-      "alt": "WeCreat Vision laser engraver : WeCreat"
+      "alt": "WeCreat Vision laser engraver: WeCreat"
     },
     {
       "src": "/machines/wecreat-vision/03.jpg",
-      "alt": "WeCreat Vision laser engraver : WeCreat"
+      "alt": "WeCreat Vision laser engraver: WeCreat"
     }
   ],
   "powerRating": "20W",
   "releaseDate": "2024-07",
   "editorialDepth": {
-    "advantages": "WeCreat Vision 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "advantages": "WeCreat Vision 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true

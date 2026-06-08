@@ -5,8 +5,8 @@
   "brand": "Gweike",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "Gweike Cloud 55W : cloud-connected desktop CO₂ cutter",
-  "tldr": "Gweike Cloud 55W is a CO₂ desktop in the Gweike Cloud line with app/cloud features and rotary options. Alternative to Cloud Pro II listings : verify exact tube wattage and bed size on your SKU.",
+  "tagline": "Gweike Cloud 55W: cloud-connected desktop CO₂ cutter",
+  "tldr": "Gweike Cloud 55W is a CO₂ desktop in the Gweike Cloud line with app/cloud features and rotary options. Alternative to Cloud Pro II listings: verify exact tube wattage and bed size on your SKU.",
   "mainObjective": "Connected desktop CO₂ for acrylic and wood production",
   "bestFor": [
     "CO₂ cutting",
@@ -21,7 +21,7 @@
   },
   "specs": {
     "power": "55W CO₂",
-    "workArea": "Verify SKU : Cloud series beds vary",
+    "workArea": "Verify SKU: Cloud series beds vary",
     "software": [
       "Gweike software",
       "LightBurn"
@@ -69,7 +69,7 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
@@ -99,15 +99,15 @@
   "images": [
     {
       "src": "/machines/gweike-cloud-55w/01.webp",
-      "alt": "Gweike Cloud 55W CO₂ laser engraver : Gweike"
+      "alt": "Gweike Cloud 55W CO₂ laser engraver: Gweike"
     },
     {
       "src": "/machines/gweike-cloud-55w/02.jpg",
-      "alt": "Gweike Cloud 55W CO₂ laser engraver : Gweike"
+      "alt": "Gweike Cloud 55W CO₂ laser engraver: Gweike"
     },
     {
       "src": "/machines/gweike-cloud-55w/03.jpg",
-      "alt": "Gweike Cloud 55W CO₂ laser engraver : Gweike"
+      "alt": "Gweike Cloud 55W CO₂ laser engraver: Gweike"
     }
   ],
   "editorialDepth": {

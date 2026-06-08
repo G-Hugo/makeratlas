@@ -5,8 +5,8 @@
   "brand": "OMTech",
   "category": "laser-engraver",
   "laserType": "fiber",
-  "tagline": "OMTech FC-510 Intelli-Cut : mid-size fiber cutting platform",
-  "tldr": "OMTech FC-510 Intelli is a larger fiber cutting machine than the FC-44/105 desk units : aimed at sheet metal and industrial-style cuts with Intelli-Cut features, not hobby diode work.",
+  "tagline": "OMTech FC-510 Intelli-Cut: mid-size fiber cutting platform",
+  "tldr": "OMTech FC-510 Intelli is a larger fiber cutting machine than the FC-44/105 desk units: aimed at sheet metal and industrial-style cuts with Intelli-Cut features, not hobby diode work.",
   "mainObjective": "Shop fiber cutting beyond desktop marking machines",
   "bestFor": [
     "Small business metal",
@@ -65,12 +65,12 @@
     ]
   },
   "pros": [
-    "Fiber marks metal : does not cut wood or acrylic",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first",
-    "Work area Verify against OMTech spec sheet : confirm your typical job sizes fit the bed"
+    "Fiber marks metal: does not cut wood or acrylic",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first",
+    "Work area Verify against OMTech spec sheet: confirm your typical job sizes fit the bed"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Does not cut wood, leather, or acrylic: metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
   "beginnerNotes": "This profile covers OMTech FC-510 Intelli. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
@@ -102,19 +102,19 @@
   "images": [
     {
       "src": "/machines/omtech-fc-510-intelli/01.webp",
-      "alt": "OMTech FC-510 Intelli laser engraver : OMTech"
+      "alt": "OMTech FC-510 Intelli laser engraver: OMTech"
     },
     {
       "src": "/machines/omtech-fc-510-intelli/02.jpg",
-      "alt": "OMTech FC-510 Intelli laser engraver : OMTech"
+      "alt": "OMTech FC-510 Intelli laser engraver: OMTech"
     },
     {
       "src": "/machines/omtech-fc-510-intelli/03.jpg",
-      "alt": "OMTech FC-510 Intelli laser engraver : OMTech"
+      "alt": "OMTech FC-510 Intelli laser engraver: OMTech"
     },
     {
       "src": "/machines/omtech-fc-510-intelli/04.jpg",
-      "alt": "OMTech FC-510 Intelli laser engraver : OMTech"
+      "alt": "OMTech FC-510 Intelli laser engraver: OMTech"
     }
   ],
   "editorialDepth": {

@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/two-trees-ts2-20w/01.webp",
-  "tagline": "TwoTrees' popular TS2 platform : 20W open-frame with active community",
-  "tldr": "The TS2 20W is one of TwoTrees' best-known laser lines : often compared to Ortur and Sculpfun at aggressive sale prices. Good for hobbyists who prioritize price and can tolerate less polished support than xTool.",
+  "tagline": "TwoTrees' popular TS2 platform: 20W open-frame with active community",
+  "tldr": "The TS2 20W is one of TwoTrees' best-known laser lines: often compared to Ortur and Sculpfun at aggressive sale prices. Good for hobbyists who prioritize price and can tolerate less polished support than xTool.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -71,9 +71,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/two-trees-ts2-20w/01.webp",
-      "alt": "TwoTrees TS2 20W laser engraver : TwoTrees"
+      "alt": "TwoTrees TS2 20W laser engraver: TwoTrees"
     },
     {
       "src": "/machines/two-trees-ts2-20w/02.jpg",
-      "alt": "TwoTrees TS2 20W laser engraver : TwoTrees"
+      "alt": "TwoTrees TS2 20W laser engraver: TwoTrees"
     },
     {
       "src": "/machines/two-trees-ts2-20w/03.jpg",
-      "alt": "TwoTrees TS2 20W laser engraver : TwoTrees"
+      "alt": "TwoTrees TS2 20W laser engraver: TwoTrees"
     },
     {
       "src": "/machines/two-trees-ts2-20w/04.jpg",
-      "alt": "TwoTrees TS2 20W laser engraver : TwoTrees"
+      "alt": "TwoTrees TS2 20W laser engraver: TwoTrees"
     }
   ],
   "modelLine": "two-trees-ts2",
@@ -120,7 +120,7 @@
   "releaseDate": "2022-06",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "TwoTrees TS2 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Upgrade path to 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "TwoTrees TS2 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   }
 }

@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/foxaliens-reisler-2/01.webp",
-  "tagline": "FoxAlien's 20W open-frame : CNC brand crossing into lasers",
+  "tagline": "FoxAlien's 20W open-frame: CNC brand crossing into lasers",
   "tldr": "FoxAlien brings CNC-adjacent build quality to a 20W diode platform. Solid alternative to Ortur/Sculpfun for makers who already trust the FoxAlien ecosystem from CNC routers.",
   "mainObjective": "20W diode engraving and light cutting for FoxAlien ecosystem users",
   "bestFor": [
@@ -70,9 +70,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -97,26 +97,26 @@
   "images": [
     {
       "src": "/machines/foxaliens-reisler-2/01.webp",
-      "alt": "FoxAlien Reisler 2 laser engraver : FoxAlien"
+      "alt": "FoxAlien Reisler 2 laser engraver: FoxAlien"
     },
     {
       "src": "/machines/foxaliens-reisler-2/02.jpg",
-      "alt": "FoxAlien Reisler 2 laser engraver : FoxAlien"
+      "alt": "FoxAlien Reisler 2 laser engraver: FoxAlien"
     },
     {
       "src": "/machines/foxaliens-reisler-2/03.jpg",
-      "alt": "FoxAlien Reisler 2 laser engraver : FoxAlien"
+      "alt": "FoxAlien Reisler 2 laser engraver: FoxAlien"
     },
     {
       "src": "/machines/foxaliens-reisler-2/04.jpg",
-      "alt": "FoxAlien Reisler 2 laser engraver : FoxAlien"
+      "alt": "FoxAlien Reisler 2 laser engraver: FoxAlien"
     }
   ],
   "powerRating": "20W",
   "releaseDate": "2023-05",
   "editorialDepth": {
-    "advantages": "FoxAlien Reisler 2 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "FoxAlien Reisler 2 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true
 }

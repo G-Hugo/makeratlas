@@ -5,9 +5,9 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Top Ortur H20 : 40W compressed diode for serious cutting",
-  "tldr": "Ortur H20 40W is Ortur's strongest H-series diode : multi-diode compression for deeper cuts in wood and faster fills. Premium price; compare to Longer B1 40W and Atomstack A40 before buying.",
-  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "tagline": "Top Ortur H20: 40W compressed diode for serious cutting",
+  "tldr": "Ortur H20 40W is Ortur's strongest H-series diode: multi-diode compression for deeper cuts in wood and faster fills. Premium price; compare to Longer B1 40W and Atomstack A40 before buying.",
+  "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -69,10 +69,10 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
     "40W: the most cut-focused head in the Ortur H20 line",
-    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one"
+    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -101,7 +101,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Swappable diode & IR modules",
-    "description": "H20 ships as a chassis with swappable 10W, 20W, or 40W diode modules and optional 2W IR heads for metal marking : verify which module is in the box.",
+    "description": "H20 ships as a chassis with swappable 10W, 20W, or 40W diode modules and optional 2W IR heads for metal marking: verify which module is in the box.",
     "options": [
       {
         "power": "10W",
@@ -132,24 +132,24 @@
   "images": [
     {
       "src": "/machines/ortur-h20-40w/01.webp",
-      "alt": "Ortur H20 40W laser engraver : Ortur"
+      "alt": "Ortur H20 40W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-h20-40w/02.webp",
-      "alt": "Ortur H20 40W laser engraver : Ortur"
+      "alt": "Ortur H20 40W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-h20-40w/03.webp",
-      "alt": "Ortur H20 40W laser engraver : Ortur"
+      "alt": "Ortur H20 40W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-h20-40w/04.webp",
-      "alt": "Ortur H20 40W laser engraver : Ortur"
+      "alt": "Ortur H20 40W laser engraver: Ortur"
     }
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The 40W diode module is the most cut-focused head on Ortur H20 : thicker basswood and faster fills than entry modules on the same chassis.",
-    "limitations": "Overkill if you only do fine engraving. Still a diode : clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
+    "advantages": "The 40W diode module is the most cut-focused head on Ortur H20: thicker basswood and faster fills than entry modules on the same chassis.",
+    "limitations": "Overkill if you only do fine engraving. Still a diode: clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
   }
 }

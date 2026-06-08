@@ -6,9 +6,9 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/longer-laser-b1-40w/01.webp",
-  "tagline": "40W Longer's large-format diode : bigger bed than Ray5 for sign-sized projects",
-  "tldr": "Longer Laser B1 40W is the 40W SKU on the Longer longer laser b1 line. Longer's large-format B1 20W diode : this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately. Verify optical power on the listing : do not assume combined-watt marketing.",
-  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "tagline": "40W Longer's large-format diode: bigger bed than Ray5 for sign-sized projects",
+  "tldr": "Longer Laser B1 40W is the 40W SKU on the Longer longer laser b1 line. Longer's large-format B1 20W diode: this profile is the 20W SKU only; Longer also sells 30W and 40W B1 machines separately. Verify optical power on the listing: do not assume combined-watt marketing.",
+  "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -19,7 +19,7 @@
     "min": 699,
     "max": 949,
     "currency": "USD",
-    "note": "40W optical module : verify SKU before buying"
+    "note": "40W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "40W diode",
@@ -73,10 +73,10 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 10 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
     "40W: the most cut-focused head in the Longer Laser B1 line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -102,11 +102,11 @@
   "images": [
     {
       "src": "/machines/longer-laser-b1-40w/01.webp",
-      "alt": "Longer Laser B1 40W laser engraver : Longer"
+      "alt": "Longer Laser B1 40W laser engraver: Longer"
     },
     {
       "src": "/machines/longer-laser-b1-40w/02.jpg",
-      "alt": "Longer Laser B1 40W laser engraver : Longer"
+      "alt": "Longer Laser B1 40W laser engraver: Longer"
     }
   ],
   "powerRating": "40W",
@@ -115,7 +115,7 @@
   "releaseDate": "2024-04",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Longer Laser B1 40W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "Longer Laser B1 40W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   }
 }

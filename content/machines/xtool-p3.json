@@ -5,8 +5,8 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "co2",
-  "tagline": "2025 flagship 80W CO₂ : ACS automation, huge bed, optional IR for metal",
-  "tldr": "xTool P3 (August 2025) replaces the P2/P2S as the company's CO₂ flagship: 80W tube, 915×458 mm bed, integrated chiller, fire suppression, and ACS™ automation (cameras, LiDAR autofocus, AI nesting). Optional 5W IR module adds bare-metal marking. From ~$5,999 : built for shops outgrowing diode lasers.",
+  "tagline": "2025 flagship 80W CO₂: ACS automation, huge bed, optional IR for metal",
+  "tldr": "xTool P3 (August 2025) replaces the P2/P2S as the company's CO₂ flagship: 80W tube, 915×458 mm bed, integrated chiller, fire suppression, and ACS™ automation (cameras, LiDAR autofocus, AI nesting). Optional 5W IR module adds bare-metal marking. From ~$5,999: built for shops outgrowing diode lasers.",
   "mainObjective": "Automated 80W CO₂ production for sign shops and serious small businesses",
   "bestFor": [
     "Maximum cuts in line",
@@ -23,7 +23,7 @@
   "specs": {
     "power": "80W CO₂ glass tube",
     "workArea": "915 × 458 mm (36 × 18 in)",
-    "dimensions": "Large desktop footprint : plan dedicated space",
+    "dimensions": "Large desktop footprint: plan dedicated space",
     "weight": "~80 kg class (verify SKU)",
     "software": [
       "xTool Creative Space",
@@ -81,14 +81,14 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
   "beginnerNotes": "This profile is the 80W SKU on xTool P3. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
-  "proTips": "Plan exhaust before delivery. Run material tests on the full bed : large beds need focus calibration at corners. Price the IR module only if metal is a regular revenue line.",
+  "proTips": "Plan exhaust before delivery. Run material tests on the full bed: large beds need focus calibration at corners. Price the IR module only if metal is a regular revenue line.",
   "primaryUse": "80W CO₂ module · xTool P3",
   "editorialDepth": {
     "advantages": "xTool P3 is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 80W adds headroom on panels and multi-pass jobs.",
@@ -112,19 +112,19 @@
   "images": [
     {
       "src": "/machines/xtool-p3/01.webp",
-      "alt": "xTool P3 laser engraver : xTool"
+      "alt": "xTool P3 laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-p3/02.webp",
-      "alt": "xTool P3 laser engraver : xTool"
+      "alt": "xTool P3 laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-p3/03.webp",
-      "alt": "xTool P3 laser engraver : xTool"
+      "alt": "xTool P3 laser engraver: xTool"
     },
     {
       "src": "/machines/xtool-p3/04.jpg",
-      "alt": "xTool P3 laser engraver : xTool"
+      "alt": "xTool P3 laser engraver: xTool"
     }
   ],
   "modelLine": "xtool-p3",

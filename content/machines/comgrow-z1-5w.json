@@ -6,9 +6,9 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/comgrow-z1-5w/01.webp",
-  "tagline": "5W Budget Comgrow diode : often bundled with 3D printer deals",
-  "tldr": "Comgrow Z1 5W is the 5W SKU on the Comgrow comgrow z1 line. Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Verify optical power on the listing : do not assume combined-watt marketing.",
-  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "tagline": "5W Budget Comgrow diode: often bundled with 3D printer deals",
+  "tldr": "Comgrow Z1 5W is the 5W SKU on the Comgrow comgrow z1 line. Comgrow's Z1 targets entry-level buyers, often sold alongside Ender 3D printers. Verify optical power on the listing: do not assume combined-watt marketing.",
+  "mainObjective": "Detailed engraving on organics and coated metal: occasional thin cuts only",
   "bestFor": [
     "Fine engraving",
     "Photo & logo work",
@@ -19,7 +19,7 @@
     "min": 179,
     "max": 249,
     "currency": "USD",
-    "note": "5W optical module : verify SKU before buying"
+    "note": "5W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "5W diode",
@@ -69,9 +69,9 @@
     ]
   },
   "pros": [
-    "5W on Comgrow Z1: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "5W on Comgrow Z1: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -96,15 +96,15 @@
   "images": [
     {
       "src": "/machines/comgrow-z1-5w/01.webp",
-      "alt": "Comgrow Z1 5W laser engraver : Comgrow"
+      "alt": "Comgrow Z1 5W laser engraver: Comgrow"
     },
     {
       "src": "/machines/comgrow-z1-5w/02.webp",
-      "alt": "Comgrow Z1 5W laser engraver : Comgrow"
+      "alt": "Comgrow Z1 5W laser engraver: Comgrow"
     },
     {
       "src": "/machines/comgrow-z1-5w/03.webp",
-      "alt": "Comgrow Z1 5W laser engraver : Comgrow"
+      "alt": "Comgrow Z1 5W laser engraver: Comgrow"
     }
   ],
   "modelLine": "comgrow-z1",
@@ -112,6 +112,6 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Comgrow Z1 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 4 mm+ cutting in production : see 10W or 20W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 4 mm+ cutting in production: see 10W or 20W in the line. Not for cast acrylic or bare metal without spray."
   }
 }

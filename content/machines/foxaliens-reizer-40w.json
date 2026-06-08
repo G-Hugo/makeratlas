@@ -5,8 +5,8 @@
   "brand": "FoxAlien",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "FoxAlien Reizer 40W : high-power open-frame from the CNC brand",
-  "tldr": "FoxAlien Reizer 40W is the flagship diode in FoxAlien's laser line : 40W class cutting for makers already in the FoxAlien CNC ecosystem. Verify optical power; compare to Atomstack A40 and Ortur H20 40W.",
+  "tagline": "FoxAlien Reizer 40W: high-power open-frame from the CNC brand",
+  "tldr": "FoxAlien Reizer 40W is the flagship diode in FoxAlien's laser line: 40W class cutting for makers already in the FoxAlien CNC ecosystem. Verify optical power; compare to Atomstack A40 and Ortur H20 40W.",
   "mainObjective": "40W FoxAlien open-frame for cutting-focused hobby or side business",
   "bestFor": [
     "FoxAlien CNC owners",
@@ -65,9 +65,9 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 8 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
     "40W: the most cut-focused head in the FoxAlien Reizer line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -98,16 +98,16 @@
   "images": [
     {
       "src": "/machines/foxaliens-reizer-40w/01.webp",
-      "alt": "FoxAlien Reizer 40W laser engraver : FoxAlien"
+      "alt": "FoxAlien Reizer 40W laser engraver: FoxAlien"
     },
     {
       "src": "/machines/foxaliens-reizer-40w/02.jpg",
-      "alt": "FoxAlien Reizer 40W laser engraver : FoxAlien"
+      "alt": "FoxAlien Reizer 40W laser engraver: FoxAlien"
     }
   ],
   "editorialDepth": {
-    "advantages": "FoxAlien Reizer 40W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "FoxAlien Reizer 40W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "tierEditorialOverride": true
 }

@@ -78,7 +78,7 @@
     "Open frame",
     "May outgrow quickly"
   ],
-  "beginnerNotes": "Step up to Ortur LM3 if budget allows $150 more : better long-term support.",
+  "beginnerNotes": "Step up to Ortur LM3 if budget allows $150 more: better long-term support.",
   "proTips": "Run benchmark job at 10×10 cm before trusting marketing speed claims.",
   "primaryUse": "Budget hobby diode with improved usability over TwoTrees TTS-55 base.",
   "rating": {
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/two-trees-tts-55-pro/01.webp",
-      "alt": "TwoTrees TTS-55 Pro laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 Pro laser engraver: TwoTrees"
     },
     {
       "src": "/machines/two-trees-tts-55-pro/02.jpg",
-      "alt": "TwoTrees TTS-55 Pro laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 Pro laser engraver: TwoTrees"
     },
     {
       "src": "/machines/two-trees-tts-55-pro/03.jpg",
-      "alt": "TwoTrees TTS-55 Pro laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 Pro laser engraver: TwoTrees"
     },
     {
       "src": "/machines/two-trees-tts-55-pro/04.jpg",
-      "alt": "TwoTrees TTS-55 Pro laser engraver : TwoTrees"
+      "alt": "TwoTrees TTS-55 Pro laser engraver: TwoTrees"
     }
   ],
   "powerRating": "10W",

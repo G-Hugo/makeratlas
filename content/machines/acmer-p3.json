@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/acmer-p3/01.webp",
-  "tagline": "Enclosed 20W diode with built-in camera : budget answer to xTool S1",
+  "tagline": "Enclosed 20W diode with built-in camera: budget answer to xTool S1",
   "tldr": "Acmer packs an enclosed 20W diode, camera preview, and air assist into a sub-$800 package. Performance sits between open-frame budget machines and xTool S1. Worth considering if xTool pricing hurts but you still want enclosure and camera.",
   "mainObjective": "Affordable enclosed engraving with camera alignment for home makers",
   "bestFor": [
@@ -73,16 +73,16 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 6 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers Acmer P3. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Use camera for placement but always run material test cards. Upgrade exhaust path if cutting frequently : built-in filters clog faster than ducting outside.",
+  "proTips": "Use camera for placement but always run material test cards. Upgrade exhaust path if cutting frequently: built-in filters clog faster than ducting outside.",
   "primaryUse": "Budget enclosed diode laser for home engraving with camera-assisted alignment and moderate thin-material cutting.",
   "rating": {
     "overall": 7.8,
@@ -115,8 +115,8 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Acmer P3 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "Acmer P3 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "similarModels": [
     "xtool-s1-20w",
@@ -127,7 +127,7 @@
   "images": [
     {
       "src": "/machines/acmer-p3/01.webp",
-      "alt": "Acmer P3 laser engraver : Acmer"
+      "alt": "Acmer P3 laser engraver: Acmer"
     }
   ],
   "powerRating": "20W",

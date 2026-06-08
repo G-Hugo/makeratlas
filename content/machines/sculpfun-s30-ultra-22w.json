@@ -5,7 +5,7 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Current S30 Ultra flagship : maximum Sculpfun diode power",
+  "tagline": "Current S30 Ultra flagship: maximum Sculpfun diode power",
   "tldr": "The 22W S30 Ultra is what Sculpfun sells today as the top open-frame Ultra config (often bundled with LightBurn). Best cut headroom in the family; do not confuse with older 10W or 20W listings.",
   "bestFor": [
     "Faster cutting",
@@ -17,7 +17,7 @@
     "min": 690,
     "max": 690,
     "currency": "USD",
-    "note": "22W module : common LightBurn bundle"
+    "note": "22W module: common LightBurn bundle"
   },
   "specs": {
     "power": "22W diode",
@@ -71,22 +71,22 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line : about 8 mm basswood-class stock in benchmarks",
+    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
     "22W: the most cut-focused head in the Sculpfun S30 Ultra line",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Sculpfun S30 Ultra 22W targets mixed engraving and wood-cutting weeks : fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
-    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame : safety and smoke are on you."
+    "advantages": "Sculpfun S30 Ultra 22W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile is the 22W SKU on Sculpfun S30 Ultra. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
-  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
+  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets: this head is optimized for throughput on wood, not only finesse.",
   "primaryUse": "Cut-biased diode tier for makers who outgrew 10–20W job times but stay on the same frame",
   "rating": {
     "overall": 7.9,
@@ -107,19 +107,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s30-ultra-22w/01.webp",
-      "alt": "Sculpfun S30 Ultra 22W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Ultra 22W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-ultra-22w/02.jpg",
-      "alt": "Sculpfun S30 Ultra 22W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Ultra 22W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-ultra-22w/03.jpg",
-      "alt": "Sculpfun S30 Ultra 22W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Ultra 22W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-ultra-22w/04.jpg",
-      "alt": "Sculpfun S30 Ultra 22W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Ultra 22W laser engraver: Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s30-ultra",

@@ -5,8 +5,8 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Budget Ortur LM2 S2 line : 5W and 10W open-frame engravers",
-  "tldr": "Ortur LM2 S2 is the successor to the classic LM2 Pro : faster motion and updated electronics on the same budget open-frame idea. Superseded by LM3/H20 for most buyers but still common second-hand.",
+  "tagline": "Budget Ortur LM2 S2 line: 5W and 10W open-frame engravers",
+  "tldr": "Ortur LM2 S2 is the successor to the classic LM2 Pro: faster motion and updated electronics on the same budget open-frame idea. Superseded by LM3/H20 for most buyers but still common second-hand.",
   "mainObjective": "Entry Ortur engraving on a tight budget",
   "bestFor": [
     "First laser",
@@ -99,19 +99,19 @@
   "images": [
     {
       "src": "/machines/ortur-laser-master-2-s2/01.webp",
-      "alt": "Ortur LM2 S2 10W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 10W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-2-s2/02.webp",
-      "alt": "Ortur LM2 S2 10W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 10W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-2-s2/03.webp",
-      "alt": "Ortur LM2 S2 10W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 10W laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-2-s2/04.webp",
-      "alt": "Ortur LM2 S2 10W laser engraver : Ortur"
+      "alt": "Ortur LM2 S2 10W laser engraver: Ortur"
     }
   ]
 }

@@ -5,8 +5,8 @@
   "brand": "Acmer",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Mid-tier Acmer P2 : 20W open-frame with accessory packs",
-  "tldr": "Acmer P2 20W sits between P1 and P3 in Acmer's lineup : 20W open frame with optional enclosure and camera bundles. Good value if you don't need P3's full enclosure.",
+  "tagline": "Mid-tier Acmer P2: 20W open-frame with accessory packs",
+  "tldr": "Acmer P2 20W sits between P1 and P3 in Acmer's lineup: 20W open frame with optional enclosure and camera bundles. Good value if you don't need P3's full enclosure.",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "bestFor": [
     "Mixed engrave & cut",
@@ -67,14 +67,14 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Acmer P2 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Upgrade path to 33W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "Acmer P2 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 33W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -104,19 +104,19 @@
   "images": [
     {
       "src": "/machines/acmer-p2-20w/01.webp",
-      "alt": "Acmer P2 20W laser engraver : Acmer"
+      "alt": "Acmer P2 20W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p2-20w/02.jpg",
-      "alt": "Acmer P2 20W laser engraver : Acmer"
+      "alt": "Acmer P2 20W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p2-20w/03.jpg",
-      "alt": "Acmer P2 20W laser engraver : Acmer"
+      "alt": "Acmer P2 20W laser engraver: Acmer"
     },
     {
       "src": "/machines/acmer-p2-20w/04.jpg",
-      "alt": "Acmer P2 20W laser engraver : Acmer"
+      "alt": "Acmer P2 20W laser engraver: Acmer"
     }
   ]
 }

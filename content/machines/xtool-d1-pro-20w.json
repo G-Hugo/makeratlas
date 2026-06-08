@@ -5,8 +5,8 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "20W balanced module : xTool's most popular D1 Pro head",
-  "tldr": "The 20W D1 Pro module is xTool's most popular open-frame head : mixed engraving and light cutting on the large D1 bed. Verify optical power on the listing; swap to 40W later if cut jobs dominate.",
+  "tagline": "20W balanced module: xTool's most popular D1 Pro head",
+  "tldr": "The 20W D1 Pro module is xTool's most popular open-frame head: mixed engraving and light cutting on the large D1 bed. Verify optical power on the listing; swap to 40W later if cut jobs dominate.",
   "bestFor": [
     "Mixed engrave & cut",
     "Hobby side business",
@@ -17,7 +17,7 @@
     "min": 699,
     "max": 899,
     "currency": "USD",
-    "note": "20W optical module : verify SKU before buying"
+    "note": "20W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "20W diode",
@@ -74,10 +74,10 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Swappable head on the same chassis : upgrade power without replacing the whole machine",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -105,7 +105,7 @@
   "images": [
     {
       "src": "/machines/xtool-d1-pro-20w/01.webp",
-      "alt": "xTool D1 Pro 20W laser engraver : xTool"
+      "alt": "xTool D1 Pro 20W laser engraver: xTool"
     }
   ],
   "modelLine": "xtool-d1-pro",
@@ -113,7 +113,7 @@
   "moduleSystem": {
     "style": "interchangeable",
     "headline": "Swappable diode modules on D1 Pro frame",
-    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need : same rail and software as other D1 Pro heads.",
+    "description": "xTool D1 Pro uses plug-in diode modules (5W–40W depending on era and listing). Buy the module power you need: same rail and software as other D1 Pro heads.",
     "options": [
       {
         "power": "5W",
@@ -145,7 +145,7 @@
   "catalogPrimary": true,
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "The 20W diode module balances engraving and light cutting on xTool D1 Pro : the most versatile SKU before stepping up to a stronger head.",
-    "limitations": "If thick cutting dominates your week, compare 40W. Verify which module is in the box : same chassis, different heads."
+    "advantages": "The 20W diode module balances engraving and light cutting on xTool D1 Pro: the most versatile SKU before stepping up to a stronger head.",
+    "limitations": "If thick cutting dominates your week, compare 40W. Verify which module is in the box: same chassis, different heads."
   }
 }

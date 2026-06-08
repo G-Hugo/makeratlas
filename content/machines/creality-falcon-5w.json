@@ -5,8 +5,8 @@
   "brand": "Creality",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Creality’s compact Falcon 5W : small-bed entry engraver",
-  "tldr": "Creality Falcon 5W is the small CR-Laser Falcon for desktop engraving and light crafts : lower power than Falcon 10W/A1 but simpler footprint and price.",
+  "tagline": "Creality’s compact Falcon 5W: small-bed entry engraver",
+  "tldr": "Creality Falcon 5W is the small CR-Laser Falcon for desktop engraving and light crafts: lower power than Falcon 10W/A1 but simpler footprint and price.",
   "mainObjective": "Creality-branded entry engraver for small projects",
   "bestFor": [
     "Creality fans",
@@ -66,9 +66,9 @@
     ]
   },
   "pros": [
-    "5W on Creality Falcon: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "5W on Creality Falcon: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/creality-falcon-5w/01.webp",
-      "alt": "Creality Falcon 5W laser engraver : Creality"
+      "alt": "Creality Falcon 5W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-5w/02.jpg",
-      "alt": "Creality Falcon 5W laser engraver : Creality"
+      "alt": "Creality Falcon 5W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-5w/03.jpg",
-      "alt": "Creality Falcon 5W laser engraver : Creality"
+      "alt": "Creality Falcon 5W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon-5w/04.jpg",
-      "alt": "Creality Falcon 5W laser engraver : Creality"
+      "alt": "Creality Falcon 5W laser engraver: Creality"
     }
   ],
   "editorialDepth": {

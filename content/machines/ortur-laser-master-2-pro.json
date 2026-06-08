@@ -5,7 +5,7 @@
   "brand": "Ortur",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Classic Ortur LM2 Pro : legacy open-frame (used market)",
+  "tagline": "Classic Ortur LM2 Pro: legacy open-frame (used market)",
   "tldr": "Ortur Laser Master 2 Pro is a discontinued Ortur classic still found used. Fine for learning if cheap; new buyers should choose LM3, H10, or H20 instead.",
   "mainObjective": "Budget used-market Ortur for basic engraving",
   "bestFor": [
@@ -64,16 +64,16 @@
     ]
   },
   "pros": [
-    "10W on Ortur Laser Master 2 Pro: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Ortur Laser Master 2 Pro: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
   "beginnerNotes": "This profile covers Ortur Laser Master 2 Pro. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Flash firmware carefully : many LM2 guides still online.",
+  "proTips": "Flash firmware carefully: many LM2 guides still online.",
   "primaryUse": "Legacy Ortur open-frame for hobby engraving on a budget.",
   "rating": {
     "overall": 8.1,
@@ -95,19 +95,19 @@
   "images": [
     {
       "src": "/machines/ortur-laser-master-2-pro/01.webp",
-      "alt": "Ortur Laser Master 2 Pro laser engraver : Ortur"
+      "alt": "Ortur Laser Master 2 Pro laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-2-pro/02.webp",
-      "alt": "Ortur Laser Master 2 Pro laser engraver : Ortur"
+      "alt": "Ortur Laser Master 2 Pro laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-2-pro/03.webp",
-      "alt": "Ortur Laser Master 2 Pro laser engraver : Ortur"
+      "alt": "Ortur Laser Master 2 Pro laser engraver: Ortur"
     },
     {
       "src": "/machines/ortur-laser-master-2-pro/04.webp",
-      "alt": "Ortur Laser Master 2 Pro laser engraver : Ortur"
+      "alt": "Ortur Laser Master 2 Pro laser engraver: Ortur"
     }
   ],
   "editorialDepth": {

@@ -5,7 +5,7 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Mid-tier S30 Ultra : strong diode cutting without CO₂ pricing",
+  "tagline": "Mid-tier S30 Ultra: strong diode cutting without CO₂ pricing",
   "tldr": "The 20W S30 Ultra is the balanced pick in the line: compressed beam cutting on thin wood, large community settings library, and the same stiff frame as the 22W refresh.",
   "bestFor": [
     "Mixed engrave & cut",
@@ -71,9 +71,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 8 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -101,7 +101,7 @@
   "images": [
     {
       "src": "/machines/sculpfun-s30-ultra-20w/01.webp",
-      "alt": "Sculpfun S30 Ultra 20W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Ultra 20W laser engraver: Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s30-ultra",
@@ -109,7 +109,7 @@
   "releaseDate": "2023-03",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Sculpfun S30 Ultra 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Upgrade path to 22W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "Sculpfun S30 Ultra 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 22W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   }
 }

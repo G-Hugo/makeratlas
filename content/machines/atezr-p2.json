@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/atezr-p2/01.webp",
-  "tagline": "Enclosed Atezr diode with air assist : mid-budget safety focus",
-  "tldr": "Atezr P2 competes with Acmer P3 and xTool S1 in the enclosed diode space. Decent engraving, moderate cutting. Less community documentation than xTool : verify support in your region.",
+  "tagline": "Enclosed Atezr diode with air assist: mid-budget safety focus",
+  "tldr": "Atezr P2 competes with Acmer P3 and xTool S1 in the enclosed diode space. Decent engraving, moderate cutting. Less community documentation than xTool: verify support in your region.",
   "mainObjective": "Enclosed mid-budget diode for safer home engraving",
   "bestFor": [
     "Enclosed budget",
@@ -70,9 +70,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 5 mm basswood in several passes",
+    "Everyday engrave and light cut mix: typical 5 mm basswood in several passes",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -97,21 +97,21 @@
   "images": [
     {
       "src": "/machines/atezr-p2/01.webp",
-      "alt": "Atezr P2 laser engraver : Atezr"
+      "alt": "Atezr P2 laser engraver: Atezr"
     },
     {
       "src": "/machines/atezr-p2/02.webp",
-      "alt": "Atezr P2 laser engraver : Atezr"
+      "alt": "Atezr P2 laser engraver: Atezr"
     },
     {
       "src": "/machines/atezr-p2/03.webp",
-      "alt": "Atezr P2 laser engraver : Atezr"
+      "alt": "Atezr P2 laser engraver: Atezr"
     }
   ],
   "powerRating": "20W",
   "releaseDate": "2023-09",
   "editorialDepth": {
-    "advantages": "Atezr P2 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "advantages": "Atezr P2 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true

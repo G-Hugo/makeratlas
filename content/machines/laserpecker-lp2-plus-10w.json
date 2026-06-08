@@ -5,8 +5,8 @@
   "brand": "LaserPecker",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Desktop LaserPecker LP2 Plus : 10W before LP4/LP5 era",
-  "tldr": "LaserPecker LP2 Plus is a 10W desktop unit in the LP lineage : more capable than LP1 pocket models but less advanced than LP4/LP5. Good used-market portable desk engraver.",
+  "tagline": "Desktop LaserPecker LP2 Plus: 10W before LP4/LP5 era",
+  "tldr": "LaserPecker LP2 Plus is a 10W desktop unit in the LP lineage: more capable than LP1 pocket models but less advanced than LP4/LP5. Good used-market portable desk engraver.",
   "mainObjective": "Desktop LaserPecker 10W for small shop personalization",
   "bestFor": [
     "LaserPecker fans",
@@ -65,9 +65,9 @@
     ]
   },
   "pros": [
-    "10W on LaserPecker LP2 Plus: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on LaserPecker LP2 Plus: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -98,11 +98,11 @@
   "images": [
     {
       "src": "/machines/laserpecker-lp2-plus-10w/01.webp",
-      "alt": "LaserPecker LP2 Plus 10W laser engraver : LaserPecker"
+      "alt": "LaserPecker LP2 Plus 10W laser engraver: LaserPecker"
     },
     {
       "src": "/machines/laserpecker-lp2-plus-10w/02.png",
-      "alt": "LaserPecker LP2 Plus 10W laser engraver : LaserPecker"
+      "alt": "LaserPecker LP2 Plus 10W laser engraver: LaserPecker"
     }
   ],
   "editorialDepth": {

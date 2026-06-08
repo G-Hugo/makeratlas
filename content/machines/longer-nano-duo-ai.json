@@ -67,7 +67,7 @@
   },
   "pros": [
     "12W IR: metal marking on the same chassis as other modules",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -105,15 +105,15 @@
   "images": [
     {
       "src": "/machines/longer-nano-duo-ai/01.webp",
-      "alt": "Longer Nano Duo AI laser engraver : Longer"
+      "alt": "Longer Nano Duo AI laser engraver: Longer"
     },
     {
       "src": "/machines/longer-nano-duo-ai/02.jpg",
-      "alt": "Longer Nano Duo AI laser engraver : Longer"
+      "alt": "Longer Nano Duo AI laser engraver: Longer"
     },
     {
       "src": "/machines/longer-nano-duo-ai/03.jpg",
-      "alt": "Longer Nano Duo AI laser engraver : Longer"
+      "alt": "Longer Nano Duo AI laser engraver: Longer"
     }
   ],
   "editorialDepth": {

@@ -5,8 +5,8 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Mid Sculpfun S30 Pro : 10W on the S30 frame family",
-  "tldr": "Sculpfun S30 Pro 10W is the lower-power S30 Pro SKU : same frame class as Pro Max but less cutting depth. Good budget Sculpfun if you don't need 20W.",
+  "tagline": "Mid Sculpfun S30 Pro: 10W on the S30 frame family",
+  "tldr": "Sculpfun S30 Pro 10W is the lower-power S30 Pro SKU: same frame class as Pro Max but less cutting depth. Good budget Sculpfun if you don't need 20W.",
   "mainObjective": "Affordable S30-frame Sculpfun for engraving-first work",
   "bestFor": [
     "Budget Sculpfun",
@@ -64,9 +64,9 @@
     ]
   },
   "pros": [
-    "10W on Sculpfun S30 Pro: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "10W on Sculpfun S30 Pro: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/sculpfun-s30-pro-10w/01.webp",
-      "alt": "Sculpfun S30 Pro 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Pro 10W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-pro-10w/02.jpg",
-      "alt": "Sculpfun S30 Pro 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Pro 10W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-pro-10w/03.jpg",
-      "alt": "Sculpfun S30 Pro 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Pro 10W laser engraver: Sculpfun"
     },
     {
       "src": "/machines/sculpfun-s30-pro-10w/04.jpg",
-      "alt": "Sculpfun S30 Pro 10W laser engraver : Sculpfun"
+      "alt": "Sculpfun S30 Pro 10W laser engraver: Sculpfun"
     }
   ],
   "editorialDepth": {

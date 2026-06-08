@@ -5,8 +5,8 @@
   "brand": "FoxAlien",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "FoxAlien LE-4040 Pro : 20W laser on 4040-class frame",
-  "tldr": "FoxAlien LE-4040 Pro 20W pairs a 4040-style frame with 20W diode : familiar form factor for CNC users adding laser capability. Alternative to Reizer line with different chassis design.",
+  "tagline": "FoxAlien LE-4040 Pro: 20W laser on 4040-class frame",
+  "tldr": "FoxAlien LE-4040 Pro 20W pairs a 4040-style frame with 20W diode: familiar form factor for CNC users adding laser capability. Alternative to Reizer line with different chassis design.",
   "mainObjective": "4040-format 20W laser for FoxAlien ecosystem users",
   "bestFor": [
     "4040 frame fans",
@@ -64,9 +64,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 5 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 5 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -96,16 +96,16 @@
   "images": [
     {
       "src": "/machines/foxaliens-le-4040-pro-20w/01.webp",
-      "alt": "FoxAlien LE-4040 Pro 20W laser engraver : FoxAlien"
+      "alt": "FoxAlien LE-4040 Pro 20W laser engraver: FoxAlien"
     },
     {
       "src": "/machines/foxaliens-le-4040-pro-20w/02.jpg",
-      "alt": "FoxAlien LE-4040 Pro 20W laser engraver : FoxAlien"
+      "alt": "FoxAlien LE-4040 Pro 20W laser engraver: FoxAlien"
     }
   ],
   "editorialDepth": {
-    "advantages": "FoxAlien LE-4040 Pro 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "FoxAlien LE-4040 Pro 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true
 }

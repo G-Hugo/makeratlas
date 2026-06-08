@@ -8,7 +8,7 @@
   "powerRating": "100W",
   "modelLine": "gweike-g6-split",
   "tagline": "100W Split cabinet fiber marker with room for rotary and fixtures",
-  "tldr": "Gweike G6 Split 100W is the 100W SKU on the Gweike gweike g6 split line. Gweike G6 Split is a larger fiber marking platform with separate laser source cabinet : common format for small production. Verify optical power on the listing : do not assume combined-watt marketing.",
+  "tldr": "Gweike G6 Split 100W is the 100W SKU on the Gweike gweike g6 split line. Gweike G6 Split is a larger fiber marking platform with separate laser source cabinet: common format for small production. Verify optical power on the listing: do not assume combined-watt marketing.",
   "mainObjective": "Maximum fiber marking speed and depth in the line",
   "bestFor": [
     "Deep metal engraving",
@@ -20,7 +20,7 @@
     "min": 4999,
     "max": 6999,
     "currency": "USD",
-    "note": "100W optical module : verify SKU before buying"
+    "note": "100W optical module: verify SKU before buying"
   },
   "specs": {
     "power": "100W fiber",
@@ -70,11 +70,11 @@
     ]
   },
   "pros": [
-    "Fiber marks metal : does not cut wood or acrylic",
-    "Software listed on the profile : test your workflow (LightBurn or maker app) on scrap first"
+    "Fiber marks metal: does not cut wood or acrylic",
+    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic : metal marking workflows only",
+    "Does not cut wood, leather, or acrylic: metal marking workflows only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
   "beginnerNotes": "This profile is the 100W SKU on Gweike G6 Split. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
@@ -97,19 +97,19 @@
   "images": [
     {
       "src": "/machines/gweike-g6-split-100w/01.webp",
-      "alt": "Gweike G6 Split 100W laser engraver : Gweike"
+      "alt": "Gweike G6 Split 100W laser engraver: Gweike"
     },
     {
       "src": "/machines/gweike-g6-split-100w/02.png",
-      "alt": "Gweike G6 Split 100W laser engraver : Gweike"
+      "alt": "Gweike G6 Split 100W laser engraver: Gweike"
     },
     {
       "src": "/machines/gweike-g6-split-100w/03.jpg",
-      "alt": "Gweike G6 Split 100W laser engraver : Gweike"
+      "alt": "Gweike G6 Split 100W laser engraver: Gweike"
     },
     {
       "src": "/machines/gweike-g6-split-100w/04.jpg",
-      "alt": "Gweike G6 Split 100W laser engraver : Gweike"
+      "alt": "Gweike G6 Split 100W laser engraver: Gweike"
     }
   ],
   "tierEditorialOverride": true,

@@ -3,8 +3,8 @@ slug: laser-buying-guide-2026
 title: "Laser Buying Guide 2026: Start Small, Spend Smart"
 description: "Honest picks from ~$250 all-in. Engraving businesses included: you do not need 20W or CO₂ to sell beautiful work."
 category: buying-guide
-readTime: 12 min
-lastUpdated: "2026-06-01"
+readTime: 19 min
+lastUpdated: "2026-06-02"
 status: published
 ---
 
@@ -12,7 +12,6 @@ You do **not** need a $3,000 laser. Most people start between **$200 and $600** 
 
 > **Transparency:** No affiliate links: recommendations follow capability and value.
 
----
 
 ## Step 1: Engrave or cut?
 
@@ -23,6 +22,21 @@ You do **not** need a $3,000 laser. Most people start between **$200 and $600** 
 | **Bare metal** | Tags, tools, jewelry | Fiber/hybrid **~$1,500+**, or diode + spray **~$400+** |
 
 Marketing always shows thick cuts. Most beginners and many **small businesses** only need engraving.
+
+**Physics rule:** more diode watts does not unlock clear acrylic. See [materials by type](/guides/laser-materials-by-type) and [wattage marketing](/guides/laser-wattage-marketing-explained).
+
+---
+
+## Decision tree (quick)
+
+```
+What material dominates?
+├─ Wood/leather engrave, tight budget  → 5–20W diode ([diode guide](/guides/diode-lasers-explained))
+├─ Clear acrylic signs                 → CO₂ ([CO₂ guide](/guides/co2-lasers-explained))
+├─ Bare metal weekly                   → Fiber galvo ([fiber guide](/guides/fiber-lasers-explained))
+├─ Metal + wood, small parts           → Hybrid or modular T1 ([hybrid](/guides/hybrid-lasers-explained))
+└─ Still exploring                     → Entry diode, upgrade later
+```
 
 ---
 
@@ -55,6 +69,21 @@ You do **not** need 20W or CO₂ to charge for work when the product is the **ma
 | CO₂ ventilation | – | **+$50–150** if you buy CO₂ |
 
 **Floor to first good job:** ~**$250–350**. Comfortable hobby: machine **+ $80–150**, not + $300 on day one.
+
+Enclosure does not replace exhaust. See [open vs enclosed](/guides/open-frame-vs-enclosed-lasers) and [exhaust filters](/guides/laser-exhaust-filters-explained).
+
+---
+
+## Using the catalog (starting recipes)
+
+Guides teach logic. **Machine profiles** hold concrete job examples:
+
+1. Open a target machine (e.g. [S9](/lasers/sculpfun-s9), [LM3 20W](/lasers/ortur-laser-master-3-20w))  
+2. Read **cutExample** and **engraveExample**: thickness, material, passes  
+3. Compare two SKUs on [/compare](/compare)  
+4. Cross-check [materials by type](/guides/laser-materials-by-type)
+
+Start from a **real job you want to sell**, not the banner watt number.
 
 ---
 
@@ -141,6 +170,16 @@ Learning and tests only. **Paying engraving customers?** Jump to the next row.
 
 **Traps:** “cuts 20 mm wood” (many passes + char); “engraves everything”; influencer codes as quality proof.
 
+**Common buyer mistakes:**
+
+| Mistake | Why it hurts |
+|---------|--------------|
+| “40W” diode for clear acrylic signs | Wrong wavelength |
+| Hybrid for 400 mm wood panels | Small galvo field |
+| CO₂ without exhaust plan | Health and neighbors |
+| S1 IR module for jewelry production | Not fiber class |
+| T1 base without fiber module budget | Not a metal machine yet |
+
 **Day 1 extras:** correct glasses, extinguisher, air assist if you cut. **Later:** honeycomb, rotary, enclosure, LightBurn.
 
 | Software | Cost | Use when |
@@ -160,4 +199,4 @@ Learning and tests only. **Paying engraving customers?** Jump to the next row.
 
 **Links:** [All lasers](/lasers) · [Compare](/compare) · [Laser types](/guides/understanding-laser-types) · [Ventilation setup](/guides/laser-ventilation-setup) · [Safety basics](/guides/laser-safety-basics)
 
-*May 2026. Approximate USD. Check profiles for current limits.*
+*June 2026. Approximate USD. Check profiles for current limits.*

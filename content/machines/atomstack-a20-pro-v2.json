@@ -5,8 +5,8 @@
   "brand": "Atomstack",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Current Atomstack A20 Pro generation : 20W with F60 air assist ecosystem",
-  "tldr": "AtomStack A20 Pro V2 replaces the older A20 Pro with updated optics and bundle options. Mid-tier Atomstack between P1 and A40 : strong detail, not the highest watt class.",
+  "tagline": "Current Atomstack A20 Pro generation: 20W with F60 air assist ecosystem",
+  "tldr": "AtomStack A20 Pro V2 replaces the older A20 Pro with updated optics and bundle options. Mid-tier Atomstack between P1 and A40: strong detail, not the highest watt class.",
   "mainObjective": "Current-gen Atomstack 20W for fine engraving and moderate cutting",
   "bestFor": [
     "Mixed engrave & cut",
@@ -65,9 +65,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix : typical 5 mm basswood in several passes",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "Everyday engrave and light cut mix: typical 5 mm basswood in several passes",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -98,24 +98,24 @@
   "images": [
     {
       "src": "/machines/atomstack-a20-pro-v2/01.webp",
-      "alt": "AtomStack A20 Pro V2 laser engraver : Atomstack"
+      "alt": "AtomStack A20 Pro V2 laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro-v2/02.jpg",
-      "alt": "AtomStack A20 Pro V2 laser engraver : Atomstack"
+      "alt": "AtomStack A20 Pro V2 laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro-v2/03.jpg",
-      "alt": "AtomStack A20 Pro V2 laser engraver : Atomstack"
+      "alt": "AtomStack A20 Pro V2 laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a20-pro-v2/04.jpg",
-      "alt": "AtomStack A20 Pro V2 laser engraver : Atomstack"
+      "alt": "AtomStack A20 Pro V2 laser engraver: Atomstack"
     }
   ],
   "editorialDepth": {
-    "advantages": "AtomStack A20 Pro V2 20W is the versatile hobby / side-business SKU : clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame : glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "AtomStack A20 Pro V2 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true
 }

@@ -193,6 +193,7 @@ export type Dictionary = {
     moduleInterchangeableFootnote: string;
     powerTierSwappableFootnote: string;
     moduleHybridFootnote: string;
+    moduleGuideLink: string;
     powerTierChooseModule: string;
     powerTierChoosePower: string;
     powerTierSpecsModule: string;
@@ -236,10 +237,36 @@ export type Dictionary = {
     title: string;
     description: string;
     safetyBanner: string;
+    sectionOverview: string;
+    sectionByType: string;
+    sectionSpecialtyTech: string;
+    sectionSpecialtyBuyer: string;
+    sectionBuying: string;
+    sectionSafetySetup: string;
+    hubTitle: string;
+    hubBody: string;
+    hubOverviewCta: string;
+    hubCatalogCta: string;
     categoryBuying: string;
     categorySafety: string;
     categoryTypes: string;
     categorySetup: string;
+    categorySpecialty: string;
+    typeGuideLink: string;
+    specialtyGuideLink: string;
+    specialtyGuides: {
+      mopa: string;
+      galvo: string;
+      infrared: string;
+      modules: string;
+      wattage: string;
+      metalWithoutFiber: string;
+      enclosed: string;
+      lightburn: string;
+      rotary: string;
+      co2Tubes: string;
+      materials: string;
+    };
   };
   about: {
     title: string;

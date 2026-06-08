@@ -103,11 +103,11 @@
   "images": [
     {
       "src": "/machines/atomstack-a40-pro/01.webp",
-      "alt": "Atomstack A40 Pro 40W laser engraver : Atomstack"
+      "alt": "Atomstack A40 Pro 40W laser engraver: Atomstack"
     },
     {
       "src": "/machines/atomstack-a40-pro/02.png",
-      "alt": "Atomstack A40 Pro 40W laser engraver : Atomstack"
+      "alt": "Atomstack A40 Pro 40W laser engraver: Atomstack"
     }
   ],
   "modelLine": "atomstack-a40-pro",

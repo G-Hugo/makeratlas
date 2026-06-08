@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/creality-falcon2-12w/01.webp",
-  "tagline": "Entry Creality diode : simple upgrade path for 3D printer owners",
+  "tagline": "Entry Creality diode: simple upgrade path for 3D printer owners",
   "tldr": "The base Falcon2 12W is Creality's affordable open-frame diode. Less power than Falcon2 Pro but easier on budget. Good for engraving-first users who already trust Creality from 3D printing. Not a cutting powerhouse.",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "bestFor": [
@@ -70,9 +70,9 @@
     ]
   },
   "pros": [
-    "12W on Creality Falcon2: engraving-first : photo fills and leather at moderate speeds",
-    "Open-frame : plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile : trial your workflow on scrap before production"
+    "12W on Creality Falcon2: engraving-first: photo fills and leather at moderate speeds",
+    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -98,15 +98,15 @@
   "images": [
     {
       "src": "/machines/creality-falcon2-12w/01.webp",
-      "alt": "Creality Falcon2 12W laser engraver : Creality"
+      "alt": "Creality Falcon2 12W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon2-12w/02.png",
-      "alt": "Creality Falcon2 12W laser engraver : Creality"
+      "alt": "Creality Falcon2 12W laser engraver: Creality"
     },
     {
       "src": "/machines/creality-falcon2-12w/03.jpg",
-      "alt": "Creality Falcon2 12W laser engraver : Creality"
+      "alt": "Creality Falcon2 12W laser engraver: Creality"
     }
   ],
   "modelLine": "creality-falcon2",
@@ -115,6 +115,6 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Creality Falcon2 12W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 5 mm+ cutting in production : see 22W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 5 mm+ cutting in production: see 22W in the line. Not for cast acrylic or bare metal without spray."
   }
 }
