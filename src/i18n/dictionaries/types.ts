@@ -302,6 +302,22 @@ export type Dictionary = {
     price: string;
     score: string;
     noResults: string;
+    browseCompareColumn: string;
+    browseSelectedBar: string;
+    browseCompareNow: string;
+    browseClearSelection: string;
+    browseNeedTwoHint: string;
+    browseMaxReached: string;
+    browseTrayHint: string;
+    browseTrayEmptySlot: string;
+    browseTrayReady: string;
+    versusEmptyTitle: string;
+    versusEmptyBody: string;
+    versusOneMore: string;
+    versusQuickPicks: string;
+    versusSpecsHeading: string;
+    pickerModalTitleAdd: string;
+    pickerModalTitleChange: string;
   };
   guides: {
     title: string;

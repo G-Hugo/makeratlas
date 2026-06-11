@@ -2,16 +2,11 @@
 
 import { useCallback, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { MachineComparePicker } from "@/components/compare/MachineComparePicker";
-import { MachineVersusView } from "@/components/compare/MachineVersusView";
+import { MachineVersusPanel } from "@/components/compare/MachineVersusPanel";
 import { CompareBrowseTable } from "@/components/machines/CompareBrowseTable";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
-import {
-  MIN_COMPARE_MACHINES,
-  parseCompareIdsParam,
-  serializeCompareIds,
-} from "@/lib/machine-compare";
+import { parseCompareIdsParam, serializeCompareIds } from "@/lib/machine-compare";
 import type { Machine } from "@/types/machine";
 
 interface ComparePageClientProps {
@@ -107,27 +102,27 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
       </div>
 
       {mode === "versus" ? (
-        <>
-          <MachineComparePicker
-            machines={machines}
-            selected={selectedMachines}
-            locale={locale}
-            dict={dict}
-            onChange={handleSelectionChange}
-            onShare={handleShare}
-            shareCopied={shareCopied}
-          />
-
-          {selectedMachines.length < MIN_COMPARE_MACHINES ? (
-            <p className="mt-8 rounded-xl border border-dashed border-stone-300 bg-stone-50 px-6 py-10 text-center text-stone-600 dark:border-stone-700 dark:bg-stone-950 dark:text-stone-400">
-              {c.needTwoMachines}
-            </p>
-          ) : (
-            <MachineVersusView machines={selectedMachines} locale={locale} dict={dict} />
-          )}
-        </>
+        <MachineVersusPanel
+          machines={machines}
+          selected={selectedMachines}
+          locale={locale}
+          dict={dict}
+          onChange={handleSelectionChange}
+          onShare={handleShare}
+          shareCopied={shareCopied}
+        />
       ) : (
-        <CompareBrowseTable machines={machines} locale={locale} dict={dict} />
+        <CompareBrowseTable
+          machines={machines}
+          locale={locale}
+          dict={dict}
+          selectedSlugs={selectedSlugs}
+          onSelectionChange={handleSelectionChange}
+          onCompareNow={() => {
+            setMode("versus");
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        />
       )}
     </div>
   );
