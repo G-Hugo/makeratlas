@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { ComparePageClient } from "@/components/machines/ComparePageClient";
 import { PageHeader } from "@/components/pages/PageHeader";
 import { isLocale, locales, type Locale } from "@/i18n/config";
@@ -38,7 +39,9 @@ export default async function ComparePage({ params }: PageProps) {
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
       <PageHeader title={dict.compare.title} description={dict.compare.description} />
       <div className="mt-10">
-        <ComparePageClient machines={machines} locale={locale} dict={dict} />
+        <Suspense fallback={<p className="text-stone-500">{dict.compare.loading}</p>}>
+          <ComparePageClient machines={machines} locale={locale} dict={dict} />
+        </Suspense>
       </div>
     </div>
   );

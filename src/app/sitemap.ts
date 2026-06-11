@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { defaultLocale, locales, type Locale } from "@/i18n/config";
 import { localizedPath } from "@/i18n/navigation";
 import { getAllGuidesMeta, getIndexableMachines } from "@/lib/content";
+import { getAllBrandProfiles } from "@/lib/brands";
 import type { AppPath } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site-url";
 
@@ -38,6 +39,7 @@ function localizedEntry(
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const machines = getIndexableMachines();
+  const brands = getAllBrandProfiles("en");
   const entries: MetadataRoute.Sitemap = [];
 
   for (const locale of locales) {
@@ -46,6 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const staticPaths: { path: AppPath; rest: Omit<SitemapEntry, "url" | "alternates"> }[] = [
       { path: "/", rest: { lastModified: new Date(), changeFrequency: "weekly", priority: 1 } },
       { path: "/lasers", rest: { lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 } },
+      { path: "/brands", rest: { lastModified: new Date(), changeFrequency: "weekly", priority: 0.88 } },
       { path: "/guides", rest: { lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 } },
       { path: "/compare", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 } },
       { path: "/about", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 } },
@@ -66,6 +69,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
           lastModified: new Date(),
           changeFrequency: "weekly",
           priority: 0.85,
+        }),
+      );
+    }
+
+    for (const brand of brands) {
+      entries.push(
+        localizedEntry(locale, `/brands/${brand.slug}`, {
+          lastModified: new Date(),
+          changeFrequency: "monthly",
+          priority: 0.82,
         }),
       );
     }

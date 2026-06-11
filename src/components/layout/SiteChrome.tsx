@@ -12,6 +12,7 @@ interface ChromeProps {
 export function Header({ locale, dict }: ChromeProps) {
   const navLinks = [
     { href: "/lasers", label: dict.nav.lasers },
+    { href: "/brands", label: dict.nav.brands },
     { href: "/guides", label: dict.nav.guides },
     { href: "/compare", label: dict.nav.compare },
     { href: "/about", label: dict.nav.about },
@@ -86,6 +87,7 @@ function FooterLinkGroup({
 export function Footer({ locale, dict }: ChromeProps) {
   const siteLinks = [
     { href: "/lasers", label: dict.nav.lasers },
+    { href: "/brands", label: dict.nav.brands },
     { href: "/guides", label: dict.nav.guides },
     { href: "/compare", label: dict.nav.compare },
   ];

@@ -10,7 +10,7 @@ import { LocaleLink } from "@/components/layout/LocaleLink";
 import type { Dictionary } from "@/i18n/dictionaries/types";
 import type { Locale } from "@/i18n/config";
 import { localizedPath } from "@/i18n/navigation";
-import { laserTypeLabelLocalized } from "@/lib/i18n-helpers";
+import { interpolate, laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import { getDetailDisplayTitle, powerTierLabel } from "@/lib/catalog-display";
 import { formatMachinePowerBubble } from "@/lib/power-display";
 import { formatMachineLaserLabel } from "@/lib/laser-capabilities";
@@ -28,6 +28,7 @@ import { resolveMachineEditorial } from "@/lib/power-tier-editorial";
 import { getTierChipVariant } from "@/lib/catalog-display";
 import { formatReleaseDate, ratingColor } from "@/lib/utils";
 import { MachineDetailPrice } from "@/components/pricing/MachinePrice";
+import { brandToSlug } from "@/lib/brand-slug";
 import type { Machine } from "@/types/machine";
 
 interface MachineDetailViewProps {
@@ -127,12 +128,36 @@ export function MachineDetailView({
 
           <div>
             <p className="text-sm font-medium uppercase tracking-wide text-amber-700 dark:text-amber-400">
-              {machine.brand} · {formatMachineLaserLabel(machine, locale)}
+              <LocaleLink
+                href={`/brands/${brandToSlug(machine.brand)}`}
+                locale={locale}
+                className="hover:underline"
+              >
+                {machine.brand}
+              </LocaleLink>
+              {" · "}
+              {formatMachineLaserLabel(machine, locale)}
             </p>
             <h1 className="mt-2 text-3xl font-bold text-stone-900 dark:text-stone-100 sm:text-4xl">
               {displayTitle}
             </h1>
             <p className="mt-2 text-lg text-stone-600 dark:text-stone-300">{machine.tagline}</p>
+            <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+              <LocaleLink
+                href={`/brands/${brandToSlug(machine.brand)}`}
+                locale={locale}
+                className="font-medium text-amber-700 hover:underline dark:text-amber-400"
+              >
+                {interpolate(m.viewAllFromBrand, { brand: machine.brand })} →
+              </LocaleLink>
+              <LocaleLink
+                href={`/compare?ids=${machine.slug}`}
+                locale={locale}
+                className="font-medium text-amber-700 hover:underline dark:text-amber-400"
+              >
+                {dict.compare.addToCompare} →
+              </LocaleLink>
+            </p>
             <ContentFreshness
               lastUpdated={machine.lastUpdated}
               locale={locale}

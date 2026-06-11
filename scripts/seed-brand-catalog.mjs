@@ -1,0 +1,578 @@
+import fs from "fs";
+
+const brands = [
+  {
+    slug: "xtool",
+    name: "xTool",
+    tagline: "Premium diode, CO₂, fiber, and modular galvo platforms for makers and small shops.",
+    knownFor: "Polished consumer lasers with strong software and one of the widest maker-focused catalogs.",
+    website: "https://www.xtool.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "xTool started with approachable diode engravers and grew into a full-stack laser brand: open-frame cutters, enclosed P-series units, CO₂ F-series, fiber/MOPA bundles, and the modular T1 galvo platform.",
+      "They are recognized for packaging hardware with usable software (xTool Creative Space, LightBurn on many SKUs) and for shipping complete starter experiences rather than bare frames alone.",
+    ],
+    strengths: [
+      "Broadest catalog in the maker space: diode, CO₂, fiber, UV, and modular galvo",
+      "Consistent UX and documentation compared with many budget OEM brands",
+      "Strong community presence and frequent firmware updates on flagship lines",
+      "Enclosed options (P, S, F) for safer home and classroom use",
+    ],
+    weaknesses: [
+      "Premium pricing versus Chinese open-frame competitors at similar wattage",
+      "Modular T1 roadmap can exceed the cost of a single integrated hybrid if you buy every head",
+      "Proprietary workflows on some models; verify LightBurn support before buying",
+      "Replacement parts and official modules cost more than DIY frame brands",
+    ],
+    flagship: {
+      name: "xTool D1 Pro",
+      machineSlug: "xtool-d1-pro",
+      summary:
+        "The D1 Pro is xTool's reference open-frame diode: multiple power tiers, large community, and the machine most makers mean when they say they bought an xTool. It balances work area, speed, and polish without jumping to enclosed CO₂ pricing.",
+    },
+  },
+  {
+    slug: "atomstack",
+    name: "Atomstack",
+    tagline: "Aggressive price-per-watt diode cutters plus fiber and hybrid options.",
+    knownFor: "High-wattage diode value and fast product refreshes that undercut premium brands.",
+    website: "https://www.atomstack.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "Atomstack built its name on open-frame diode lasers with headline wattage and frequent sales. A, X, and related series target Etsy sellers and hobbyists engraving wood, leather, and acrylic.",
+      "The brand now also sells fiber galvo markers and hybrid enclosed machines, but most buyers still encounter Atomstack as a Sculpfun/Ortur alternative with similar specs at a lower price.",
+    ],
+    strengths: [
+      "Strong price-to-watt ratio on diode frames",
+      "Wide spread of power tiers and bed sizes",
+      "Fiber and hybrid SKUs without jumping to industrial pricing",
+      "LightBurn support on many recent models",
+    ],
+    weaknesses: [
+      "Frame rigidity and long-term alignment vary by generation",
+      "Documentation and support less polished than xTool or Glowforge",
+      "Marketing wattage requires careful reading of optical vs electrical power",
+      "Open-frame safety and smoke control remain the buyer's responsibility",
+    ],
+    flagship: {
+      name: "Atomstack A24 Pro",
+      machineSlug: "atomstack-a24-pro",
+      summary:
+        "The A24 Pro line is Atomstack's sweet spot for makers who want a large diode work area and high advertised power without paying enclosed-laser prices. Compare air assist and frame size against Sculpfun S30 before buying.",
+    },
+  },
+  {
+    slug: "creality",
+    name: "Creality",
+    tagline: "Falcon laser engravers from budget diode to modular galvo and hybrid bundles.",
+    knownFor: "Leveraging Creality's 3D printer distribution to sell accessible Falcon lasers at scale.",
+    website: "https://www.creality.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "Creality entered lasers under the Falcon sub-brand, reusing retail channels and firmware know-how from 3D printing. The lineup runs from entry Falcon diode units to the modular T1 galvo and integrated Falcon 2 Pro hybrids.",
+      "Buyers choose Creality for availability, bundle deals, and brand familiarity—not always for best-in-class optics on every SKU.",
+    ],
+    strengths: [
+      "Easy to find online and in regional stores",
+      "Competitive bundle pricing on starter Falcon kits",
+      "T1 modular platform and Falcon 2 Pro hybrid cover advanced workflows",
+      "Large user base for troubleshooting",
+    ],
+    weaknesses: [
+      "Laser line feels newer than Creality's 3D printers; QC varies by batch",
+      "Module swap downtime on T1 versus integrated hybrids",
+      "Software experience split across Creality ecosystem and third-party tools",
+      "Not always the best value once you add fiber or MOPA modules",
+    ],
+    flagship: {
+      name: "Creality Falcon T1",
+      machineSlug: "creality-falcon-t1",
+      summary:
+        "The Falcon T1 is Creality's modular galvo bet: one base with swappable diode, fiber, MOPA, and UV heads. It is the flagship for buyers planning to grow into metal or UV without replacing the entire machine—if you price the full module path upfront.",
+    },
+  },
+  {
+    slug: "ortur",
+    name: "Ortur",
+    tagline: "Open-frame diode engravers that helped define the hobby laser category.",
+    knownFor: "Affordable Laser Master frames that introduced thousands of makers to diode engraving.",
+    website: "https://ortur.net",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "Ortur was among the first brands to mass-market frame-style diode lasers with the Laser Master series. Today the catalog stays diode-focused: LM, H, and Aufero lines for beginners and upgraders.",
+      "Ortur is a practical first-laser brand if you accept open-frame safety, manual tuning, and community support instead of polished enclosure ecosystems.",
+    ],
+    strengths: [
+      "Low entry price and huge second-hand market",
+      "Simple diode-only lineup without confusing hybrid SKUs",
+      "Active modding and firmware community",
+      "Multiple power tiers on proven frame designs",
+    ],
+    weaknesses: [
+      "No CO₂ or fiber in catalog for thick cuts or deep metal marking",
+      "Build quality and customer support trail premium brands",
+      "Open-frame smoke and eye safety require discipline",
+      "Product naming across LM/H generations confuses newcomers",
+    ],
+    flagship: {
+      name: "Ortur Laser Master 3",
+      machineSlug: "ortur-laser-master-3",
+      summary:
+        "Laser Master 3 is Ortur's modern reference frame: updated electronics, common 10–20W tiers, and the model most buyers compare against Sculpfun and Atomstack when shopping by price.",
+    },
+  },
+  {
+    slug: "sculpfun",
+    name: "Sculpfun",
+    tagline: "Diode engravers from compact desks to large-format S9 and enclosed iCube lines.",
+    knownFor: "Reliable value diode cutters with strong air-assist culture and large-format S9 options.",
+    website: "https://www.sculpfun.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "Sculpfun sits in the same value tier as Ortur and Atomstack but emphasizes consistent frames, air assist, and clear S-series naming. The S30 family is a common upgrade path from 10W hobby machines.",
+      "Enclosed iCube models target makers who want smoke control without CO₂ pricing.",
+    ],
+    strengths: [
+      "Well-understood S6/S9/S30 tier structure",
+      "Strong cutting performance for the price with proper air assist",
+      "Large-format options for sign makers",
+      "iCube enclosure line for cleaner home shops",
+    ],
+    weaknesses: [
+      "Still open-frame on most bestsellers; not Class 1 operation",
+      "Premium tiers overlap Atomstack and xTool without matching software polish",
+      "Fiber/metal marking requires separate machines or IR modules",
+      "Documentation quality varies by reseller region",
+    ],
+    flagship: {
+      name: "Sculpfun S30 Pro",
+      machineSlug: "sculpfun-s30-pro",
+      summary:
+        "S30 Pro is Sculpfun's workhorse: high-wattage diode, popular upgrade path, and the line most compared in budget cutting discussions. Match wattage to your thickest planned plywood or acrylic.",
+    },
+  },
+  {
+    slug: "gweike",
+    name: "Gweike",
+    tagline: "Desktop CO₂ and fiber systems bridging hobby diode and workshop cutters.",
+    knownFor: "Accessible CO₂ desktop cutters and cloud-connected options when diode power is not enough.",
+    website: "https://www.gweikecloud.com",
+    headquarters: "Jinan, China",
+    overview: [
+      "Gweike sells CO₂ and fiber systems for makers outgrowing diode limits. Cloud-branded models add app workflows; classic K-series units focus on cutting organic materials.",
+      "Choose Gweike when you need true CO₂ cutting depth or fiber metal marking—not for the smallest desk footprint.",
+    ],
+    strengths: [
+      "Real CO₂ cutting for acrylic and wood beyond diode limits",
+      "Fiber galvo options for metal marking",
+      "Cloud features on select models for remote monitoring",
+      "Often cheaper than US-rebadged CO₂ cabinets",
+    ],
+    weaknesses: [
+      "Larger footprint, noise, and ventilation requirements",
+      "Support and documentation less hand-holding than Glowforge",
+      "Mixed reputation on tube quality across tiers; verify warranty terms",
+      "Not beginner-friendly compared with enclosed diode brands",
+    ],
+    flagship: {
+      name: "Gweike Cloud Pro",
+      machineSlug: "gweike-cloud-pro",
+      summary:
+        "Cloud Pro represents Gweike's connected CO₂ direction: desktop-class cutting with app integration. Budget for exhaust hose, fire safety, and space—not just the machine price.",
+    },
+  },
+  {
+    slug: "longer",
+    name: "Longer",
+    tagline: "Ray-branded diode and hybrid lasers alongside Longer's 3D printer business.",
+    knownFor: "Bundle-friendly Ray5/Ray6 diode frames and hybrid SKUs for mixed material experiments.",
+    website: "https://longer3d.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "Longer markets Ray-series diode engravers and select hybrid models, often cross-selling with 3D printer customers. Positioning is value and accessory bundles rather than premium enclosure design.",
+      "Verify whether hybrid models run simultaneous sources or swappable modules before buying for metal plus wood workflows.",
+    ],
+    strengths: [
+      "Competitive pricing on 20W-class diode frames",
+      "Ray5/Ray6 naming is relatively easy to navigate",
+      "Hybrid SKUs for shops testing metal marking",
+      "LightBurn on many configurations",
+    ],
+    weaknesses: [
+      "Brand recognition weaker than xTool or Creality lasers",
+      "Hybrid marketing can obscure how metal marking actually works",
+      "QC and support experience inconsistent in community reports",
+      "Fewer enclosed options than Sculpfun iCube or xTool P",
+    ],
+    flagship: {
+      name: "Longer Ray5",
+      machineSlug: "longer-ray5",
+      summary:
+        "Ray5 is Longer's most referenced diode platform: multiple wattages, familiar frame layout, and the default comparison point within the brand before jumping to hybrid Nano or Duo models.",
+    },
+  },
+  {
+    slug: "acmer",
+    name: "Acmer",
+    tagline: "Budget diode engravers for first-time laser buyers.",
+    knownFor: "Frequent discounts on entry 10–20W open-frame machines.",
+    website: "https://www.acmerlaser.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "Acmer competes at the bottom of the diode market with P, S, and M series frames. The brand appears often in sale listings for makers testing whether they need a laser at all.",
+      "Expect manual assembly, basic documentation, and performance aligned with price—not xTool-level polish.",
+    ],
+    strengths: [
+      "Among the lowest prices for 10–20W frames",
+      "Adequate for light engraving and thin material cuts",
+      "Simple catalog without complex module ecosystems",
+      "Easy to compare directly with Ortur and TwoTrees",
+    ],
+    weaknesses: [
+      "Frame alignment and component quality vary",
+      "Limited long-term support and spare parts clarity",
+      "Open-frame safety entirely on the user",
+      "Resale value lower than established brands",
+    ],
+    flagship: {
+      name: "Acmer P2",
+      machineSlug: "acmer-p2",
+      summary:
+        "P2 is Acmer's mid-tier sweet spot: more bed and power than entry S/M units without jumping to premium pricing. Treat it as a starter frame and budget for air assist and exhaust.",
+    },
+  },
+  {
+    slug: "monport",
+    name: "Monport",
+    tagline: "CO₂ and fiber lasers with US-oriented sales and support.",
+    knownFor: "North American-facing CO₂ desktop cutters for small businesses leaving diode behind.",
+    website: "https://monportlaser.com",
+    headquarters: "California, USA (operations); manufactured in China",
+    overview: [
+      "Monport targets US buyers who want CO₂ or fiber with English support and clearer warranty paths than direct-import OEM brands. Desktop CO₂ and fiber galvo lines dominate the catalog.",
+      "Still plan for ventilation, space, and learning curve—Monport simplifies purchasing, not physics.",
+    ],
+    strengths: [
+      "US support channel and documentation for CO₂ buyers",
+      "Range from K40-class desktops to larger CO₂",
+      "Fiber markers for jewelry and metal goods",
+      "Transparent enough for small business budgeting",
+    ],
+    weaknesses: [
+      "Pricing above bare Chinese CO₂ on marketplaces",
+      "Not a diode-first brand for hobby desk setups",
+      "CO₂ maintenance (tubes, mirrors, water) still required",
+      "Fiber models are marking stations, not general engravers",
+    ],
+    flagship: {
+      name: "Monport 55W CO₂",
+      machineSlug: "monport-55w-co2",
+      summary:
+        "The 55W CO₂ desktop is Monport's reference upgrade from diode: real cutting depth on acrylic and wood, with a footprint still manageable in a garage shop if exhaust is sorted.",
+    },
+  },
+  {
+    slug: "omtech",
+    name: "OMTech",
+    tagline: "Workshop CO₂ and fiber systems for sign shops and production-minded buyers.",
+    knownFor: "Business-oriented laser listings with larger beds and US reseller presence.",
+    website: "https://omtechlaser.com",
+    headquarters: "California, USA (operations); manufactured in China",
+    overview: [
+      "OMTech sells CO₂ cutters and fiber markers aimed at sign shops, trophy businesses, and makers scaling beyond diode. Polar and cabinet lines emphasize throughput over desk portability.",
+      "Buyers should budget installation space, electrical work, and extraction—not just the listing price.",
+    ],
+    strengths: [
+      "Larger CO₂ options than typical hobby brands",
+      "Fiber marking for production metal work",
+      "Geared toward business buyers with clearer SKUs",
+      "Parts and support oriented to US customers",
+    ],
+    weaknesses: [
+      "Overkill and oversized for casual hobbyists",
+      "Higher total cost of ownership (chiller, exhaust, space)",
+      "Learning curve steeper than enclosed consumer CO₂",
+      "Diode-curious buyers should look elsewhere first",
+    ],
+    flagship: {
+      name: "OMTech Polar",
+      machineSlug: "omtech-polar",
+      summary:
+        "Polar represents OMTech's compact CO₂ direction for shops that need more than diode but not a full industrial floor unit. Confirm bed size and passthrough needs against your typical job sizes.",
+    },
+  },
+  {
+    slug: "twotrees",
+    name: "TwoTrees",
+    tagline: "Low-cost diode engravers sold beside TwoTrees 3D printers.",
+    knownFor: "Sale-priced TTS frames for buyers testing laser engraving on a minimal budget.",
+    website: "https://www.twotrees3d.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "TwoTrees laser catalog focuses on affordable TTS and TS open-frame diode units, often purchased alongside printer bundles. The brand optimizes for price, not premium fit and finish.",
+      "Read generation-specific reviews before buying; firmware and frame updates change quickly.",
+    ],
+    strengths: [
+      "Very low entry price during promotions",
+      "Adequate for learning LightBurn and basic jobs",
+      "Multiple bed sizes in TTS family",
+      "Straightforward comparison with Acmer and Ortur entry models",
+    ],
+    weaknesses: [
+      "Build quality and longevity trail mid-tier brands",
+      "Support documentation often minimal",
+      "Not suited for production or thick cutting",
+      "Brand trust lower than Sculpfun or xTool for upgrades",
+    ],
+    flagship: {
+      name: "TwoTrees TTS-55",
+      machineSlug: "twotrees-tts-55",
+      summary:
+        "TTS-55 is TwoTrees' larger-frame option when you want more bed area without paying Sculpfun S9 money. Verify frame squareness and upgrade air assist early.",
+    },
+  },
+  {
+    slug: "laserpecker",
+    name: "LaserPecker",
+    tagline: "Portable and desktop compact engravers for personalization.",
+    knownFor: "Palm-sized lasers that made on-the-go engraving mainstream for gifts and phone cases.",
+    website: "https://laserpecker.net",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "LaserPecker built a distinct niche: ultra-compact diode (and select hybrid) engravers controlled by phone apps. LP series machines prioritize portability over cutting large panels.",
+      "They are complementary tools—not replacements for 400×400 mm workshop cutters.",
+    ],
+    strengths: [
+      "Extremely small footprint and travel-friendly design",
+      "Fast setup for small gifts and leather patches",
+      "App workflow approachable for non-technical users",
+      "Hybrid LP models add light metal marking options",
+    ],
+    weaknesses: [
+      "Tiny work area limits signs and large crafts",
+      "Cutting ability minimal versus frame lasers",
+      "Proprietary app dependence on some models",
+      "Price per watt high compared with open-frame competitors",
+    ],
+    flagship: {
+      name: "LaserPecker 5",
+      machineSlug: "laserpecker-5",
+      summary:
+        "LaserPecker 5 continues the compact flagship line with updated optics and app features. Buy it for portability and personalization, not for workshop production.",
+    },
+  },
+  {
+    slug: "algolaser",
+    name: "AlgoLaser",
+    tagline: "DIY kits and enclosed Alpha diode engravers.",
+    knownFor: "Offering both kit builds and enclosed Alpha MK2 frames for budget-conscious makers.",
+    website: "https://www.algolaser.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "AlgoLaser differentiates with DIY kit options and the enclosed Alpha MK2 line. Buyers can save money assembling themselves or pay for a prebuilt enclosure with smoke control.",
+      "Delta series covers traditional open-frame cutting at multiple wattages.",
+    ],
+    strengths: [
+      "Kit pricing for hands-on makers",
+      "Alpha MK2 enclosure without Glowforge-level pricing",
+      "Clear wattage steps on MK2 platform",
+      "Delta line for large open-frame work",
+    ],
+    weaknesses: [
+      "Kit builds require time, squareness, and troubleshooting",
+      "Brand spelling and listings inconsistent (AlgoLaser vs Algolaser)",
+      "Ecosystem and community smaller than Ortur or xTool",
+      "Support experience varies by region and reseller",
+    ],
+    flagship: {
+      name: "AlgoLaser Alpha MK2",
+      machineSlug: "algolaser-alpha-mk2",
+      summary:
+        "Alpha MK2 is the enclosed flagship: smoke control and safer operation for home users who still want diode pricing. Compare total cost against xTool P2 or Sculpfun iCube.",
+    },
+  },
+  {
+    slug: "commarker",
+    name: "ComMarker",
+    tagline: "Fiber and UV galvo markers for metal and precision industrial marking.",
+    knownFor: "Affordable galvo fiber markers popular with jewelry and small-batch metal shops.",
+    website: "https://commarker.com",
+    headquarters: "China",
+    overview: [
+      "ComMarker focuses on galvo marking—not large-bed cutting. B-series fiber and Omni UV lines target permanent marks on metal, tools, and sensitive plastics.",
+      "Buyers need extraction, safety training, and realistic expectations: these are marking stations, not Sculpfun-style craft cutters.",
+    ],
+    strengths: [
+      "Entry pricing for fiber galvo versus industrial brands",
+      "UV options for plastics that fiber cannot mark cleanly",
+      "Compact footprint for benchtop marking",
+      "Popular in jewelry and knife customization communities",
+    ],
+    weaknesses: [
+      "Small field size versus gantry engravers",
+      "Not for cutting plywood, acrylic sheets, or large signs",
+      "Fume extraction mandatory; metal marking produces particulates",
+      "Software and parameter learning curve for new operators",
+    ],
+    flagship: {
+      name: "ComMarker B4 20W",
+      machineSlug: "commarker-b4-20w",
+      summary:
+        "B4 20W fiber is ComMarker's reference benchtop marker: deep metal engraving and fast batch marking in a compact galvo package. Pair with proper exhaust and safety glasses.",
+    },
+  },
+  {
+    slug: "comgrow",
+    name: "Comgrow",
+    tagline: "Budget Z1 diode engravers often bundled with 3D printer ecosystems.",
+    knownFor: "Entry Z1 frames sold in starter bundles for maker beginners.",
+    website: "https://comgrow.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "Comgrow's laser presence centers on the Z1 open-frame diode at a few wattages. The brand cross-sells heavily with printer customers and seasonal promotions.",
+      "Functionally similar to Acmer and Ortur entry machines—compare price, bed size, and included accessories.",
+    ],
+    strengths: [
+      "Low price in bundle deals",
+      "Simple single-platform catalog (Z1)",
+      "Fine for learning and light engraving",
+      "Easy side-by-side with other entry diode brands",
+    ],
+    weaknesses: [
+      "Limited differentiation beyond price",
+      "Support and spare parts less established",
+      "Not suitable for thick cutting or metal work",
+      "Open-frame safety and smoke not addressed by hardware",
+    ],
+    flagship: {
+      name: "Comgrow Z1",
+      machineSlug: "comgrow-z1",
+      summary:
+        "Z1 is the entire Comgrow laser story in one line: pick your wattage tier and treat it as a starter frame. Budget for air assist and outdoor exhaust if you cut more than engrave.",
+    },
+  },
+  {
+    slug: "foxalien",
+    name: "FoxAlien",
+    tagline: "Compact diode engravers for desk-sized workshops.",
+    knownFor: "Small-footprint Reisler and LE frames for tight desks.",
+    website: "https://www.foxalien.com",
+    headquarters: "Shenzhen, China",
+    overview: [
+      "FoxAlien maintains a narrow catalog of compact diode machines. Reisler and LE series target buyers with limited space who still want more bed than a LaserPecker.",
+      "Competes with Acmer and TwoTrees rather than premium enclosed brands.",
+    ],
+    strengths: [
+      "Compact sizes for apartment desks",
+      "Straightforward SKUs without module complexity",
+      "Often discounted in entry-level listings",
+      "Adequate for light engraving and thin cuts",
+    ],
+    weaknesses: [
+      "Small catalog with less community depth",
+      "Build quality inconsistent with lowest-cost peers",
+      "Limited path to CO₂, fiber, or large-format upgrades within brand",
+      "Documentation and long-term support are thin",
+    ],
+    flagship: {
+      name: "FoxAlien Reisler 2",
+      machineSlug: "foxaliens-reisler-2",
+      summary:
+        "Reisler 2 is FoxAlien's most referenced compact frame: enough bed for typical craft sizes without dominating a desk. Compare rigidity and included accessories against Acmer P2.",
+    },
+  },
+  {
+    slug: "glowforge",
+    name: "Glowforge",
+    tagline: "Cloud-connected enclosed CO₂ cutters with a polished craft-market UX.",
+    knownFor: "Making CO₂ feel approachable for non-technical crafters with camera alignment and material presets.",
+    website: "https://glowforge.com",
+    headquarters: "Seattle, USA",
+    overview: [
+      "Glowforge sells enclosed CO₂ machines with a cloud-first workflow, camera registration, and a proprietary materials ecosystem. Aura and Pro tiers target Etsy sellers and schools that prioritize ease over hackability.",
+      "You pay more for the experience—machine, materials, and subscription features add up versus Chinese CO₂.",
+    ],
+    strengths: [
+      "Best-in-class ease of use for non-technical crafters",
+      "Enclosed operation with integrated exhaust options",
+      "Camera alignment speeds repeatable jobs",
+      "Strong brand recognition in US craft markets",
+    ],
+    weaknesses: [
+      "Higher machine and material cost than import CO₂",
+      "Cloud dependence and feature gating frustrate power users",
+      "Less flexible than LightBurn-first workshop machines",
+      "Proprietary material QR upsell model not for every shop",
+    ],
+    flagship: {
+      name: "Glowforge Pro",
+      machineSlug: "glowforge-pro",
+      summary:
+        "Glowforge Pro is the passthrough flagship for sign-length jobs with the simplest UX in the category. Choose it when support and enclosure matter more than raw cost per watt.",
+    },
+  },
+  {
+    slug: "atezr",
+    name: "Atezr",
+    tagline: "Single-line budget diode engravers.",
+    knownFor: "Competing at the lowest price points in the 10W open-frame segment.",
+    website: "https://www.atezr.com",
+    headquarters: "China",
+    overview: [
+      "Atezr appears on Maker Atlas with the P2 diode platform—a point comparison in the crowded entry market rather than a broad ecosystem play.",
+      "Buyers should compare directly with Acmer, Comgrow Z1, and Ortur LM tiers on bed size and bundled accessories.",
+    ],
+    strengths: [
+      "Minimal catalog easy to understand",
+      "Low listing price during sales",
+      "Fine for first experiments with laser engraving",
+      "No module upsell complexity",
+    ],
+    weaknesses: [
+      "Very limited brand footprint and community",
+      "Support and spare parts uncertain long term",
+      "Performance and alignment vary; few independent reviews",
+      "No upgrade path within brand to larger formats",
+    ],
+    flagship: {
+      name: "Atezr P2",
+      machineSlug: "atezr-p2",
+      summary:
+        "P2 is Atezr's sole meaningful reference on Maker Atlas: treat it as a budget diode data point and compare specs line-by-line with better-documented Ortur or Acmer frames.",
+    },
+  },
+  {
+    slug: "wecreat",
+    name: "WeCreat",
+    tagline: "Vision-enclosed diode cutters with camera-assisted workflows.",
+    knownFor: "Enclosed diode machines that prioritize cleaner operation and visual alignment.",
+    website: "https://wecreat.com",
+    headquarters: "China",
+    overview: [
+      "WeCreat sells enclosed diode systems with camera/vision features for alignment and batch personalization. The catalog is small but distinct from open-frame value brands.",
+      "Enclosure helps with smoke management; still verify filter maintenance and duct routing for your workspace.",
+    ],
+    strengths: [
+      "Enclosed form factor without CO₂ pricing",
+      "Camera features speed repeatable placement",
+      "Cleaner desk operation than open-frame 20W+ units",
+      "Appeals to crafters upgrading from compact portables",
+    ],
+    weaknesses: [
+      "Small brand with limited third-party reviews",
+      "Cutting limits still diode-class; not CO₂ depth",
+      "Community and accessory ecosystem smaller than xTool",
+      "Long-term support track record still short",
+    ],
+    flagship: {
+      name: "WeCreat Vision",
+      machineSlug: "wecreat-vision",
+      summary:
+        "Vision is WeCreat's defining product: enclosed diode with camera-assisted jobs. Compare against xTool P2 or Sculpfun iCube on price, filter costs, and software openness.",
+    },
+  },
+];
+
+for (const b of brands) b.status = "published";
+fs.writeFileSync("content/brands/catalog.json", `${JSON.stringify({ brands }, null, 2)}\n`);
+console.log(`Wrote ${brands.length} brands`);
