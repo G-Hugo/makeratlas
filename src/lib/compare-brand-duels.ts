@@ -46,6 +46,14 @@ export const BRAND_COMPARE_DUELS: readonly BrandDuelDefinition[] = [
     brands: ["monport", "omtech"],
     featuredMachines: ["monport-55w-co2", "omtech-polar"],
   },
+  {
+    brands: ["sculpfun", "atomstack"],
+    featuredMachines: ["sculpfun-s30-ultra-22w", "atomstack-a40-pro-40w"],
+  },
+  {
+    brands: ["laserpecker", "xtool"],
+    featuredMachines: ["laserpecker-5", "xtool-f1-ultra"],
+  },
 ];
 
 export function brandDuelParam(slugs: readonly [string, string]): string {
@@ -98,6 +106,13 @@ export function resolveBrandDuel(param: string, locale: Locale): ResolvedBrandDu
 export function getAllResolvedBrandDuels(locale: Locale): ResolvedBrandDuel[] {
   return BRAND_COMPARE_DUELS.map((d) => resolveBrandDuel(brandDuelParam(d.brands), locale)).filter(
     (d): d is ResolvedBrandDuel => Boolean(d),
+  );
+}
+
+/** Brand-vs-brand pages that include the given brand slug. */
+export function getBrandDuelsForBrand(brandSlug: string, locale: Locale): ResolvedBrandDuel[] {
+  return getAllResolvedBrandDuels(locale).filter((d) =>
+    d.brands.some((brand) => brand.slug === brandSlug),
   );
 }
 

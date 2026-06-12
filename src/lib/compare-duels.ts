@@ -38,6 +38,19 @@ export const COMPARE_DUELS: ReadonlyArray<readonly [string, string]> = [
   ["xtool-f1-ultra", "laserpecker-5"],
   ["atomstack-a24-pro", "xtool-f1-ultra"],
   ["commarker-b4-20w", "commarker-b6-mopa-30w"],
+  // Budget diode rivals and power tiers
+  ["sculpfun-s30-ultra-22w", "atomstack-a40-pro-40w"],
+  ["longer-ray5-40w", "creality-falcon2-pro-40w"],
+  ["xtool-d1-pro-40w", "xtool-s1-40w"],
+  ["sculpfun-s10-10w", "atomstack-a5-pro-10w"],
+  ["foxaliens-reisler-2", "ortur-laser-master-3-20w"],
+  ["algolaser-alpha-mk2-20w", "xtool-d1-pro-20w"],
+  ["sculpfun-s40-max-48w", "longer-laser-b1-40w"],
+  ["monport-40w-co2", "glowforge-aura"],
+  // Galvo and fiber
+  ["xtool-f2", "xtool-f1"],
+  ["gweike-g2-20w", "commarker-b4-20w"],
+  ["creality-falcon-t1-60w-mopa", "commarker-b6-mopa-30w"],
 ];
 
 export function duelParam(slugs: readonly [string, string]): string {

@@ -10,14 +10,29 @@ export interface MachineAlternative {
   compareHref: string;
 }
 
+export interface MachineCompareDuel {
+  partner: Machine;
+  compareHref: string;
+  /** True when a curated static page exists at /compare/a-vs-b. */
+  isStaticDuel: boolean;
+}
+
 const DEFAULT_COUNT = 3;
 
-function compareHrefFor(a: string, b: string): string {
+export function buildMachineCompareHref(a: string, b: string): string {
   const pair = COMPARE_DUELS.find(
     ([x, y]) => (x === a && y === b) || (x === b && y === a),
   );
   if (pair) return `/compare/${duelParam(pair)}`;
   return `/compare?ids=${serializeCompareIds([a, b])}`;
+}
+
+function compareHrefFor(a: string, b: string): string {
+  return buildMachineCompareHref(a, b);
+}
+
+function isStaticDuelPair(a: string, b: string): boolean {
+  return COMPARE_DUELS.some(([x, y]) => (x === a && y === b) || (x === b && y === a));
 }
 
 /** Other half of every curated duel this machine appears in. */
@@ -26,6 +41,18 @@ function duelPartners(machine: Machine, locale: Locale): Machine[] {
     .map((pair) => (pair[0] === machine.slug ? pair[1] : pair[0]))
     .map((slug) => getMachineBySlug(slug, locale))
     .filter((m): m is Machine => Boolean(m));
+}
+
+/** Every curated machine duel this slug appears in — for compare links on detail pages. */
+export function getMachineCompareDuels(
+  machine: Machine,
+  locale: Locale,
+): MachineCompareDuel[] {
+  return duelPartners(machine, locale).map((partner) => ({
+    partner,
+    compareHref: compareHrefFor(machine.slug, partner.slug),
+    isStaticDuel: isStaticDuelPair(machine.slug, partner.slug),
+  }));
 }
 
 /**

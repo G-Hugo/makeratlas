@@ -6,6 +6,7 @@ import { RatingDisplay } from "@/components/machines/RatingDisplay";
 import { MachineGallery } from "@/components/machines/MachineGallery";
 import { PerformanceHighlights } from "@/components/machines/PerformanceHighlights";
 import { MachineQuickSpecs, MachineTechnicalSpecs } from "@/components/machines/MachineSpecsPanel";
+import { MachineCompareDuelsList } from "@/components/compare/MachineCompareDuelsList";
 import { AddToCompareLink } from "@/components/machines/AddToCompareLink";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import type { Dictionary } from "@/i18n/dictionaries/types";
@@ -32,7 +33,7 @@ import { MachineDetailPrice } from "@/components/pricing/MachinePrice";
 import { MachineImage } from "@/components/machines/MachineImage";
 import { brandToSlug } from "@/lib/brand-slug";
 import { formatDualPriceRange } from "@/lib/pricing";
-import type { MachineAlternative } from "@/lib/machine-alternatives";
+import type { MachineAlternative, MachineCompareDuel } from "@/lib/machine-alternatives";
 import type { Machine } from "@/types/machine";
 
 interface MachineDetailViewProps {
@@ -43,6 +44,7 @@ interface MachineDetailViewProps {
   similarBySlug: Record<string, Machine[]>;
   hasTranslationBySlug: Record<string, boolean>;
   alternativesBySlug: Record<string, MachineAlternative[]>;
+  compareDuelsBySlug: Record<string, MachineCompareDuel[]>;
 }
 
 export function MachineDetailView({
@@ -53,6 +55,7 @@ export function MachineDetailView({
   similarBySlug,
   hasTranslationBySlug,
   alternativesBySlug,
+  compareDuelsBySlug,
 }: MachineDetailViewProps) {
   const router = useRouter();
   const m = dict.machine;
@@ -79,6 +82,8 @@ export function MachineDetailView({
   const displayTitle = getDetailDisplayTitle(machine, tiers, locale);
   const similar = similarBySlug[machine.slug] ?? [];
   const alternatives = alternativesBySlug[machine.slug] ?? [];
+  const compareDuels = compareDuelsBySlug[machine.slug] ?? [];
+  const compareDuelSlugs = new Set(compareDuels.map((d) => d.partner.slug));
   const photos = useMemo(() => getMachinePhotos(machine), [machine]);
 
   const handleSelectTier = useCallback(
@@ -208,6 +213,23 @@ export function MachineDetailView({
             </h2>
             <p className="mt-2 text-stone-800 dark:text-stone-200">{machine.tldr}</p>
           </div>
+
+          {compareDuels.length > 0 && (
+            <section className="rounded-xl border border-stone-200 bg-white p-5 dark:border-stone-700 dark:bg-stone-900">
+              <h2 className="text-lg font-bold text-stone-900 dark:text-stone-100">
+                {interpolate(m.compareDuelsTitle, { name: machine.name })}
+              </h2>
+              <p className="mt-1 text-sm text-stone-600 dark:text-stone-400">
+                {m.compareDuelsSubtitle}
+              </p>
+              <MachineCompareDuelsList
+                machineName={machine.name}
+                duels={compareDuels}
+                locale={locale}
+                className="mt-4"
+              />
+            </section>
+          )}
 
           <section>
             <h2 className="text-xl font-bold text-stone-900 dark:text-stone-100">{m.bestFor}</h2>
@@ -347,27 +369,45 @@ export function MachineDetailView({
             </div>
           </div>
 
-          {similar.length > 0 && (
+          {(compareDuels.length > 0 || similar.length > 0) && (
             <div className="rounded-xl border border-stone-200 bg-white p-5 dark:border-stone-700 dark:bg-stone-900">
               <h2 className="text-sm font-semibold text-stone-900 dark:text-stone-100">
                 {m.compareWith}
               </h2>
-              <ul className="mt-2 space-y-1.5">
-                {similar.map(
-                  (other) =>
-                    other && (
-                      <li key={other.slug}>
-                        <LocaleLink
-                          href={`/lasers/${other.slug}`}
-                          locale={locale}
-                          className="text-sm text-amber-700 hover:underline dark:text-amber-400"
-                        >
-                          {other.name}
-                        </LocaleLink>
-                      </li>
-                    ),
-                )}
-              </ul>
+              {compareDuels.length > 0 && (
+                <ul className="mt-2 space-y-1.5">
+                  {compareDuels.map(({ partner, compareHref }) => (
+                    <li key={partner.slug}>
+                      <LocaleLink
+                        href={compareHref}
+                        locale={locale}
+                        className="text-sm font-medium text-amber-700 hover:underline dark:text-amber-400"
+                      >
+                        {machine.name} vs {partner.name} →
+                      </LocaleLink>
+                    </li>
+                  ))}
+                </ul>
+              )}
+              {similar.some((other) => other && !compareDuelSlugs.has(other.slug)) && (
+                <ul className={`space-y-1.5 ${compareDuels.length > 0 ? "mt-3 border-t border-stone-100 pt-3 dark:border-stone-800" : "mt-2"}`}>
+                  {similar.map(
+                    (other) =>
+                      other &&
+                      !compareDuelSlugs.has(other.slug) && (
+                        <li key={other.slug}>
+                          <LocaleLink
+                            href={`/lasers/${other.slug}`}
+                            locale={locale}
+                            className="text-sm text-stone-600 hover:text-amber-700 hover:underline dark:text-stone-400 dark:hover:text-amber-400"
+                          >
+                            {other.name}
+                          </LocaleLink>
+                        </li>
+                      ),
+                  )}
+                </ul>
+              )}
             </div>
           )}
 

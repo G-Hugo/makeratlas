@@ -49,6 +49,9 @@ export const fr: Dictionary = {
     brandPageTitle: "Graveuses laser {brand}",
     brandPageDescription:
       "{brand} sur Maker Atlas : présentation, {count} gammes, fiches techniques et limites d'achat honnêtes.",
+    brandDuelsTitle: "Comparer {brand} aux autres marques",
+    brandDuelsSubtitle:
+      "Voyez comment {brand} se positionne face à ses principaux concurrents — puis comparez les modèles précis.",
   },
   footer: {
     blurb:
@@ -97,6 +100,9 @@ export const fr: Dictionary = {
     rankingsSubtitle: "Classements honnêtes, aucun placement sponsorisé.",
     duelsTitle: "Comparaisons populaires",
     duelsSubtitle: "Les face-à-face que les acheteurs demandent le plus, spec par spec.",
+    brandDuelsTitle: "Duels de marques",
+    brandDuelsSubtitle:
+      "Quelle marque de laser correspond à vos projets ? Positionnement, catalogue et modèles phares.",
     featuredTitle: "Meilleures graveuses laser",
     featuredSubtitle: "{count} gammes profilées, specs honnêtes, pas de marketing.",
     viewAll: "Tout voir →",
@@ -221,6 +227,9 @@ export const fr: Dictionary = {
     pricingNote: "EUR indicatif, voir",
     pricingMethodology: "méthode de prix",
     compareWith: "Comparer avec",
+    compareDuelsTitle: "Comparer le {name} à…",
+    compareDuelsSubtitle:
+      "Face-à-face populaires avec specs complètes, notes et verdict honnête.",
     alternativesTitle: "Alternatives au {name}",
     alternativesSubtitle:
       "Des machines du même segment, choisies dans notre base selon le type, le prix et la note.",

@@ -48,6 +48,8 @@ export const en: Dictionary = {
     brandPageTitle: "{brand} laser engravers",
     brandPageDescription:
       "{brand} on Maker Atlas: brand overview, {count} catalog lines, specs, and honest buying limits.",
+    brandDuelsTitle: "Compare {brand} to other brands",
+    brandDuelsSubtitle: "See how {brand} stacks up against its closest rivals — then drill into specific models.",
   },
   footer: {
     blurb:
@@ -96,6 +98,8 @@ export const en: Dictionary = {
     rankingsSubtitle: "Honest rankings, no sponsored placements.",
     duelsTitle: "Popular comparisons",
     duelsSubtitle: "The matchups buyers ask about most, spec by spec.",
+    brandDuelsTitle: "Brand matchups",
+    brandDuelsSubtitle: "Which laser brand fits your projects? Positioning, catalog, and flagship picks.",
     featuredTitle: "Top laser engravers",
     featuredSubtitle: "{count} laser lines profiled, with honest specs, not marketing copy.",
     viewAll: "View all →",
@@ -220,6 +224,8 @@ export const en: Dictionary = {
     pricingNote: "EUR is approximate, see",
     pricingMethodology: "pricing methodology",
     compareWith: "Compare with",
+    compareDuelsTitle: "Compare the {name} to…",
+    compareDuelsSubtitle: "Popular side-by-side matchups with full specs, scores, and an honest verdict.",
     alternativesTitle: "Alternatives to the {name}",
     alternativesSubtitle:
       "Machines in the same space, picked from our database by type, price, and score.",

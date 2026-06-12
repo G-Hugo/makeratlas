@@ -1,3 +1,4 @@
+import { BrandDuelsList } from "@/components/compare/BrandDuelsList";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import { MachineCard } from "@/components/machines/MachineCard";
 import type { Metadata } from "next";
@@ -5,6 +6,7 @@ import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { interpolate } from "@/lib/i18n-helpers";
 import { BEST_OF_CATEGORIES, getBestOfRanking } from "@/lib/best-of";
+import { getAllResolvedBrandDuels } from "@/lib/compare-brand-duels";
 import { getAllResolvedDuels } from "@/lib/compare-duels";
 import { getAllGuidesMeta, getCatalogEntries } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
@@ -37,6 +39,7 @@ export default async function HomePage({ params }: PageProps) {
   const featured = entries.slice(0, 6);
   const guides = getAllGuidesMeta(locale);
   const duels = getAllResolvedDuels(locale).slice(0, 8);
+  const brandDuels = getAllResolvedBrandDuels(locale).slice(0, 8);
 
   const h = dict.home;
 
@@ -166,8 +169,8 @@ export default async function HomePage({ params }: PageProps) {
 
       <section className="border-t border-stone-200 bg-stone-50 dark:border-stone-800 dark:bg-stone-900/40">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-          <div className="grid gap-10 lg:grid-cols-2">
-            <div>
+          <div className="grid gap-10 lg:grid-cols-3">
+            <div className="lg:col-span-1">
               <div className="flex items-end justify-between gap-4">
                 <div>
                   <h2 className="text-2xl font-bold text-stone-900 dark:text-stone-100">
@@ -242,6 +245,25 @@ export default async function HomePage({ params }: PageProps) {
                   </li>
                 ))}
               </ul>
+            </div>
+
+            <div>
+              <div className="flex items-end justify-between gap-4">
+                <div>
+                  <h2 className="text-2xl font-bold text-stone-900 dark:text-stone-100">
+                    {h.brandDuelsTitle}
+                  </h2>
+                  <p className="mt-2 text-stone-600 dark:text-stone-300">{h.brandDuelsSubtitle}</p>
+                </div>
+                <LocaleLink
+                  href="/compare/brands"
+                  locale={locale}
+                  className="shrink-0 text-sm font-medium text-amber-700 hover:text-amber-800 dark:text-amber-400 dark:hover:text-amber-300"
+                >
+                  {h.viewAll}
+                </LocaleLink>
+              </div>
+              <BrandDuelsList duels={brandDuels} locale={locale} className="mt-6" />
             </div>
           </div>
         </div>

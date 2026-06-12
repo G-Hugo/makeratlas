@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BrandPageHero } from "@/components/brands/BrandPageHero";
 import { BrandProfilePanel } from "@/components/brands/BrandProfilePanel";
+import { BrandDuelsList } from "@/components/compare/BrandDuelsList";
 import { getMachineBySlug } from "@/lib/content";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import { LasersBrowse } from "@/components/machines/LasersBrowse";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { getAllBrandProfiles, getBrandBySlug, getCatalogEntriesByBrand } from "@/lib/brands";
+import { getBrandDuelsForBrand } from "@/lib/compare-brand-duels";
 import { interpolate } from "@/lib/i18n-helpers";
 import { buildPageMetadata } from "@/lib/seo";
 
@@ -50,6 +52,7 @@ export default async function BrandDetailPage({ params }: PageProps) {
   const flagship = brand.flagship.machineSlug
     ? getMachineBySlug(brand.flagship.machineSlug, locale)
     : undefined;
+  const brandDuels = getBrandDuelsForBrand(slug, locale);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
@@ -73,6 +76,23 @@ export default async function BrandDetailPage({ params }: PageProps) {
       />
 
       <BrandProfilePanel brand={brand} flagship={flagship} locale={locale} dict={dict} />
+
+      {brandDuels.length > 0 && (
+        <section className="mt-12">
+          <h2 className="text-2xl font-bold text-stone-900 dark:text-stone-100">
+            {interpolate(b.brandDuelsTitle, { brand: brand.name })}
+          </h2>
+          <p className="mt-2 text-stone-600 dark:text-stone-400">
+            {interpolate(b.brandDuelsSubtitle, { brand: brand.name })}
+          </p>
+          <BrandDuelsList
+            duels={brandDuels}
+            locale={locale}
+            highlightBrandSlug={slug}
+            className="mt-6"
+          />
+        </section>
+      )}
 
       <section className="mt-12">
         <h2 className="text-2xl font-bold text-stone-900 dark:text-stone-100">{b.catalogTitle}</h2>

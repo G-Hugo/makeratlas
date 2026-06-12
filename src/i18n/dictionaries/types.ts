@@ -55,6 +55,8 @@ export type Dictionary = {
     noResults: string;
     brandPageTitle: string;
     brandPageDescription: string;
+    brandDuelsTitle: string;
+    brandDuelsSubtitle: string;
   };
   footer: {
     blurb: string;
@@ -101,6 +103,8 @@ export type Dictionary = {
     rankingsSubtitle: string;
     duelsTitle: string;
     duelsSubtitle: string;
+    brandDuelsTitle: string;
+    brandDuelsSubtitle: string;
     heroTitle: string;
     heroBody: string;
     ctaBuyingGuide: string;
@@ -217,6 +221,8 @@ export type Dictionary = {
     pricingNote: string;
     pricingMethodology: string;
     compareWith: string;
+    compareDuelsTitle: string;
+    compareDuelsSubtitle: string;
     alternativesTitle: string;
     alternativesSubtitle: string;
     alternativesVs: string;

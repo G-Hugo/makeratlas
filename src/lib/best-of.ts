@@ -57,6 +57,12 @@ function isPortableMetalMarker(machine: Machine): boolean {
   return machine.laserType === "hybrid" && canMarkMetal(machine);
 }
 
+function isMopaFiber(machine: Machine): boolean {
+  if (machine.laserType !== "fiber") return false;
+  const blob = [machine.name, machine.tagline, machine.tldr, machine.specs.power].join(" ").toLowerCase();
+  return blob.includes("mopa");
+}
+
 export const BEST_OF_CATEGORIES: BestOfCategory[] = [
   {
     slug: "diode-lasers",
@@ -344,6 +350,29 @@ export const BEST_OF_CATEGORIES: BestOfCategory[] = [
     },
     guideSlugs: ["uv-lasers-explained", "laser-materials-by-type"],
     filter: (m) => m.laserType === "uv",
+  },
+  {
+    slug: "mopa-fiber",
+    copy: {
+      en: {
+        title: `Best MOPA Fiber Lasers ${BEST_OF_YEAR}`,
+        metaTitle: `Best MOPA Fiber Laser Engravers ${BEST_OF_YEAR}`,
+        metaDescription: `The best MOPA fiber lasers of ${BEST_OF_YEAR}, ranked for color metal marking, deep engraving, and pulse control on stainless and aluminum.`,
+        intro:
+          "MOPA fiber sources add adjustable pulse width for color marking and finer control on metal. These MOPA galvo machines rank highest in our database.",
+        faqSubject: "MOPA fiber laser",
+      },
+      fr: {
+        title: `Meilleurs lasers fibre MOPA ${BEST_OF_YEAR}`,
+        metaTitle: `Meilleurs graveurs laser fibre MOPA ${BEST_OF_YEAR}`,
+        metaDescription: `Les meilleurs lasers fibre MOPA de ${BEST_OF_YEAR}, classés pour le marquage couleur sur métal, la gravure profonde et le contrôle d'impulsion sur inox et aluminium.`,
+        intro:
+          "Les sources fibre MOPA permettent d'ajuster la largeur d'impulsion pour le marquage couleur et un contrôle fin sur le métal. Ces postes galvo MOPA sont les mieux notés de notre base.",
+        faqSubject: "laser fibre MOPA",
+      },
+    },
+    guideSlugs: ["mopa-fiber-lasers-explained", "fiber-lasers-explained", "galvo-laser-workstations-explained"],
+    filter: isMopaFiber,
   },
 ];
 
