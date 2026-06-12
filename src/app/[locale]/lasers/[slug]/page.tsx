@@ -12,7 +12,7 @@ import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { localizedPath } from "@/i18n/navigation";
 import { laserTypeLabelLocalized } from "@/lib/i18n-helpers";
-import { buildMachineMetadata } from "@/lib/seo";
+import { buildAlternates, buildMachineMetadata, type AppPath } from "@/lib/seo";
 import { hasMachineTranslation } from "@/lib/machine-locale";
 import { getAllMachines, getMachineBySlug, getSimilarMachines } from "@/lib/content";
 import { getPowerTiersForMachine } from "@/lib/catalog";
@@ -35,9 +35,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!machine) return { title: locale === "fr" ? "Introuvable" : "Not found" };
 
   const redirectSlug = getCatalogRedirectSlug(machine, locale);
-  if (redirectSlug && redirectSlug !== slug) {
-    const target = getMachineBySlug(redirectSlug, locale);
-    if (target) return buildMachineMetadata(target, locale);
+
+  if (machine.catalogHidden) {
+    const canonicalSlug = redirectSlug ?? slug;
+    const displayMachine =
+      redirectSlug ? getMachineBySlug(redirectSlug, locale) ?? machine : machine;
+    return {
+      ...buildMachineMetadata(displayMachine, locale),
+      robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
+      alternates: buildAlternates(locale, `/lasers/${canonicalSlug}` as AppPath),
+    };
   }
 
   return buildMachineMetadata(machine, locale);

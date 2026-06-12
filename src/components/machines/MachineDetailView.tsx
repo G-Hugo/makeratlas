@@ -6,6 +6,7 @@ import { RatingDisplay } from "@/components/machines/RatingDisplay";
 import { MachineGallery } from "@/components/machines/MachineGallery";
 import { PerformanceHighlights } from "@/components/machines/PerformanceHighlights";
 import { MachineQuickSpecs, MachineTechnicalSpecs } from "@/components/machines/MachineSpecsPanel";
+import { AddToCompareLink } from "@/components/machines/AddToCompareLink";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import type { Dictionary } from "@/i18n/dictionaries/types";
 import type { Locale } from "@/i18n/config";
@@ -150,13 +151,13 @@ export function MachineDetailView({
               >
                 {interpolate(m.viewAllFromBrand, { brand: machine.brand })} →
               </LocaleLink>
-              <LocaleLink
-                href={`/compare?ids=${machine.slug}`}
+              <AddToCompareLink
+                machineSlug={machine.slug}
                 locale={locale}
                 className="font-medium text-amber-700 hover:underline dark:text-amber-400"
               >
                 {dict.compare.addToCompare} →
-              </LocaleLink>
+              </AddToCompareLink>
             </p>
             <ContentFreshness
               lastUpdated={machine.lastUpdated}

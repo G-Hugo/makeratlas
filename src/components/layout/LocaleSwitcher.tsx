@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import type { Locale } from "@/i18n/config";
 import { locales } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
@@ -15,7 +15,10 @@ interface LocaleSwitcherProps {
 
 export function LocaleSwitcher({ locale, labels }: LocaleSwitcherProps) {
   const pathname = usePathname() ?? "/";
+  const searchParams = useSearchParams();
   const pathWithoutLocale = stripLocaleFromPathname(pathname);
+  const query = searchParams.toString();
+  const querySuffix = query ? `?${query}` : "";
 
   return (
     <div
@@ -28,7 +31,7 @@ export function LocaleSwitcher({ locale, labels }: LocaleSwitcherProps) {
         return (
           <Link
             key={loc}
-            href={localizedPath(loc, pathWithoutLocale)}
+            href={`${localizedPath(loc, pathWithoutLocale)}${querySuffix}`}
             className={`rounded px-2.5 py-1.5 transition ${
               active
                 ? "bg-white text-stone-900 shadow-sm dark:bg-stone-800 dark:text-stone-100"

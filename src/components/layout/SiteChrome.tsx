@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import { LocaleLink } from "./LocaleLink";
@@ -46,7 +47,9 @@ export function Header({ locale, dict }: ChromeProps) {
             </LocaleLink>
           ))}
           <ThemeToggle labels={dict.theme} />
-          <LocaleSwitcher locale={locale} labels={dict.localeSwitcher} />
+          <Suspense fallback={null}>
+            <LocaleSwitcher locale={locale} labels={dict.localeSwitcher} />
+          </Suspense>
         </nav>
       </div>
     </header>

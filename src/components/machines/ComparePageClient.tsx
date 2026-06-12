@@ -1,11 +1,16 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { MachineVersusPanel } from "@/components/compare/MachineVersusPanel";
 import { CompareBrowseTable } from "@/components/machines/CompareBrowseTable";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
+import {
+  readCompareSession,
+  writeCompareSession,
+  type CompareSessionMode,
+} from "@/lib/compare-session";
 import { parseCompareIdsParam, serializeCompareIds } from "@/lib/machine-compare";
 import type { Machine } from "@/types/machine";
 
@@ -15,15 +20,15 @@ interface ComparePageClientProps {
   dict: Dictionary;
 }
 
-type CompareMode = "versus" | "browse";
-
 export function ComparePageClient({ machines, locale, dict }: ComparePageClientProps) {
   const c = dict.compare;
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const [mode, setMode] = useState<CompareMode>("versus");
+  const [mode, setMode] = useState<CompareSessionMode>("versus");
   const [shareCopied, setShareCopied] = useState(false);
+  const [sessionHydrated, setSessionHydrated] = useState(false);
+  const initialHydrationDone = useRef(false);
 
   const machineBySlug = useMemo(
     () => new Map(machines.map((m) => [m.slug, m])),
@@ -57,9 +62,52 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
     [pathname, router, searchParams],
   );
 
+  useEffect(() => {
+    if (initialHydrationDone.current) return;
+
+    const urlIds = parseCompareIdsParam(searchParams.get("ids"));
+    const session = readCompareSession();
+
+    if (urlIds.length > 0) {
+      if (session?.mode) setMode(session.mode);
+      initialHydrationDone.current = true;
+      setSessionHydrated(true);
+      return;
+    }
+
+    if (session?.slugs.length) {
+      if (session.mode) setMode(session.mode);
+      syncUrl(session.slugs);
+      return;
+    }
+
+    if (session?.mode) setMode(session.mode);
+    initialHydrationDone.current = true;
+    setSessionHydrated(true);
+  }, [searchParams, syncUrl]);
+
+  useEffect(() => {
+    if (sessionHydrated || initialHydrationDone.current) return;
+    const urlIds = parseCompareIdsParam(searchParams.get("ids"));
+    if (urlIds.length > 0) {
+      initialHydrationDone.current = true;
+      setSessionHydrated(true);
+    }
+  }, [sessionHydrated, searchParams]);
+
+  useEffect(() => {
+    if (!sessionHydrated) return;
+    writeCompareSession({ slugs: selectedSlugs, mode });
+  }, [sessionHydrated, selectedSlugs, mode]);
+
   function handleSelectionChange(slugs: string[]) {
     syncUrl(slugs);
     setShareCopied(false);
+  }
+
+  function handleModeChange(next: CompareSessionMode) {
+    setMode(next);
+    writeCompareSession({ slugs: selectedSlugs, mode: next });
   }
 
   async function handleShare() {
@@ -79,7 +127,7 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
       <div className="mb-6 flex gap-1 rounded-lg border border-stone-200 bg-stone-100 p-1 dark:border-stone-800 dark:bg-stone-950">
         <button
           type="button"
-          onClick={() => setMode("versus")}
+          onClick={() => handleModeChange("versus")}
           className={`flex-1 rounded-md px-4 py-2 text-sm font-medium transition ${
             mode === "versus"
               ? "bg-white text-stone-900 shadow dark:bg-stone-900 dark:text-stone-100"
@@ -90,7 +138,7 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
         </button>
         <button
           type="button"
-          onClick={() => setMode("browse")}
+          onClick={() => handleModeChange("browse")}
           className={`flex-1 rounded-md px-4 py-2 text-sm font-medium transition ${
             mode === "browse"
               ? "bg-white text-stone-900 shadow dark:bg-stone-900 dark:text-stone-100"
@@ -119,7 +167,7 @@ export function ComparePageClient({ machines, locale, dict }: ComparePageClientP
           selectedSlugs={selectedSlugs}
           onSelectionChange={handleSelectionChange}
           onCompareNow={() => {
-            setMode("versus");
+            handleModeChange("versus");
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         />

@@ -21,6 +21,18 @@ export function buildAlternates(locale: Locale, path: AppPath): NonNullable<Meta
   return { canonical, languages };
 }
 
+const INDEXABLE_ROBOTS: Metadata["robots"] = {
+  index: true,
+  follow: true,
+  googleBot: { index: true, follow: true },
+};
+
+const NOINDEX_ROBOTS: Metadata["robots"] = {
+  index: false,
+  follow: true,
+  googleBot: { index: false, follow: true },
+};
+
 export function buildPageMetadata(options: {
   locale: Locale;
   path: AppPath;
@@ -37,7 +49,7 @@ export function buildPageMetadata(options: {
     title: titleAbsolute ? { absolute: title } : title,
     description,
     alternates: buildAlternates(locale, path),
-    robots,
+    robots: robots ?? INDEXABLE_ROBOTS,
     openGraph: {
       title,
       description,
@@ -81,9 +93,7 @@ export function buildMachineMetadata(machine: Machine, locale: Locale): Metadata
     path,
     title,
     description: machine.tldr,
-    robots: indexable
-      ? { index: true, follow: true }
-      : { index: false, follow: true },
+    robots: indexable ? INDEXABLE_ROBOTS : NOINDEX_ROBOTS,
     openGraph: {
       title: `${machine.name} | Maker Atlas`,
     },

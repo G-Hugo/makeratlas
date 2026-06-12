@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     default: "Maker Atlas",
     template: "%s | Maker Atlas",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
   verification: {
     google: "uksQHNMSTyKQkNtn8ujAtAoeyoXuloJ_1qqR6BTZP8U",
   },
