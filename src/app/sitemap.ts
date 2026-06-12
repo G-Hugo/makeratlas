@@ -3,6 +3,8 @@ import { defaultLocale, locales, type Locale } from "@/i18n/config";
 import { localizedPath } from "@/i18n/navigation";
 import { getAllGuidesMeta, getIndexableMachines } from "@/lib/content";
 import { getAllBrandProfiles } from "@/lib/brands";
+import { BEST_OF_CATEGORIES } from "@/lib/best-of";
+import { COMPARE_DUELS, duelParam } from "@/lib/compare-duels";
 import type { AppPath } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site-url";
 
@@ -51,6 +53,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { path: "/brands", rest: { lastModified: new Date(), changeFrequency: "weekly", priority: 0.88 } },
       { path: "/guides", rest: { lastModified: new Date(), changeFrequency: "weekly", priority: 0.9 } },
       { path: "/compare", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 } },
+      { path: "/best", rest: { lastModified: new Date(), changeFrequency: "weekly", priority: 0.88 } },
+      { path: "/finder", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 } },
+      { path: "/materials", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 } },
       { path: "/about", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 } },
       { path: "/methodology", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 } },
       { path: "/transparency", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 } },
@@ -69,6 +74,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
           lastModified: new Date(),
           changeFrequency: "weekly",
           priority: 0.85,
+        }),
+      );
+    }
+
+    for (const category of BEST_OF_CATEGORIES) {
+      entries.push(
+        localizedEntry(locale, `/best/${category.slug}`, {
+          lastModified: new Date(),
+          changeFrequency: "weekly",
+          priority: 0.85,
+        }),
+      );
+    }
+
+    for (const pair of COMPARE_DUELS) {
+      entries.push(
+        localizedEntry(locale, `/compare/${duelParam(pair)}`, {
+          lastModified: new Date(),
+          changeFrequency: "monthly",
+          priority: 0.75,
         }),
       );
     }

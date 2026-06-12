@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import { LocaleLink } from "@/components/layout/LocaleLink";
 import { ComparePageClient } from "@/components/machines/ComparePageClient";
 import { PageHeader } from "@/components/pages/PageHeader";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
+import { getAllResolvedDuels } from "@/lib/compare-duels";
 import { getIndexableMachines } from "@/lib/content";
 import { buildPageMetadata } from "@/lib/seo";
 import { notFound } from "next/navigation";
@@ -34,6 +36,7 @@ export default async function ComparePage({ params }: PageProps) {
   const locale = localeParam as Locale;
   const dict = getDictionary(locale);
   const machines = getIndexableMachines(locale);
+  const duels = getAllResolvedDuels(locale);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
@@ -43,6 +46,26 @@ export default async function ComparePage({ params }: PageProps) {
           <ComparePageClient machines={machines} locale={locale} dict={dict} />
         </Suspense>
       </div>
+
+      {duels.length > 0 && (
+        <div className="mt-12">
+          <h2 className="text-xl font-semibold text-stone-900 dark:text-stone-100">
+            {dict.compare.popularTitle}
+          </h2>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {duels.map((d) => (
+              <LocaleLink
+                key={d.param}
+                href={`/compare/${d.param}`}
+                locale={locale}
+                className="rounded-full border border-stone-200 bg-white px-3.5 py-1.5 text-sm font-medium text-stone-800 shadow-sm transition hover:border-amber-300 hover:bg-amber-50 dark:border-stone-700 dark:bg-stone-900 dark:text-stone-100 dark:hover:border-amber-700"
+              >
+                {d.machines[0].name} vs {d.machines[1].name}
+              </LocaleLink>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

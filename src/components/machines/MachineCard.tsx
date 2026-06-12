@@ -10,6 +10,8 @@ import { PowerTierChips } from "@/components/machines/PowerTierChips";
 import { getTierChipVariant } from "@/lib/catalog-display";
 import { formatMachinePowerBubble } from "@/lib/power-display";
 import { formatMachineLaserLabel } from "@/lib/laser-capabilities";
+import { interpolate } from "@/lib/i18n-helpers";
+import { MAX_COMPARE_MACHINES } from "@/lib/machine-compare";
 import { getCatalogCardHero } from "@/lib/machine-images";
 import { getMachineWorkFocus } from "@/lib/machine-work-focus";
 import { ratingColor } from "@/lib/utils";
@@ -21,6 +23,10 @@ interface MachineCardProps {
   dict: Dictionary;
   /** Save list scroll target before navigating to the detail page. */
   onBeforeNavigate?: (slug: string) => void;
+  /** Compare selection state — button renders only when the handler is provided. */
+  compareSelected?: boolean;
+  compareDisabled?: boolean;
+  onToggleCompare?: (slug: string) => void;
 }
 
 function cleanFrenchBubbleText(value: string): string {
@@ -57,7 +63,15 @@ const cardShellClassName =
 const profileLinkClassName =
   "block transition duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500";
 
-export function MachineCard({ entry, locale, dict, onBeforeNavigate }: MachineCardProps) {
+export function MachineCard({
+  entry,
+  locale,
+  dict,
+  onBeforeNavigate,
+  compareSelected,
+  compareDisabled,
+  onToggleCompare,
+}: MachineCardProps) {
   const { primary, powerTiers, displayName } = entry;
   const multiTier = powerTiers.length > 1;
   const workFocus = getMachineWorkFocus(primary);
@@ -125,16 +139,47 @@ export function MachineCard({ entry, locale, dict, onBeforeNavigate }: MachineCa
 
       <div className="flex flex-1 flex-col gap-3 p-4 sm:p-5">
         <div>
-          <LocaleLink
-            href={detailHref}
-            locale={locale}
-            onClick={saveScroll}
-            className={profileLinkClassName}
-          >
-            <h3 className="text-lg font-semibold leading-tight text-stone-900 group-hover:text-amber-900 dark:text-stone-100 dark:group-hover:text-amber-400">
-              {displayName}
-            </h3>
-          </LocaleLink>
+          <div className="flex items-start justify-between gap-2">
+            <LocaleLink
+              href={detailHref}
+              locale={locale}
+              onClick={saveScroll}
+              className={`${profileLinkClassName} min-w-0 flex-1`}
+            >
+              <h3 className="text-lg font-semibold leading-tight text-stone-900 group-hover:text-amber-900 dark:text-stone-100 dark:group-hover:text-amber-400">
+                {displayName}
+              </h3>
+            </LocaleLink>
+            {onToggleCompare && (
+              <button
+                type="button"
+                onClick={() => !compareDisabled && onToggleCompare(primary.slug)}
+                disabled={compareDisabled}
+                title={
+                  compareDisabled
+                    ? interpolate(dict.compare.browseMaxReached, { max: MAX_COMPARE_MACHINES })
+                    : compareSelected
+                      ? dict.compare.removeMachine
+                      : dict.compare.addToCompare
+                }
+                aria-pressed={compareSelected}
+                aria-label={
+                  compareSelected
+                    ? `${dict.compare.removeMachine}: ${displayName}`
+                    : `${dict.compare.addToCompare}: ${displayName}`
+                }
+                className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border text-xs font-bold transition ${
+                  compareSelected
+                    ? "border-amber-600 bg-amber-600 text-white shadow-sm dark:border-amber-500 dark:bg-amber-500"
+                    : compareDisabled
+                      ? "cursor-not-allowed border-stone-200 text-stone-300 dark:border-stone-700 dark:text-stone-600"
+                      : "border-stone-300 text-stone-400 hover:border-amber-400 hover:text-amber-700 dark:border-stone-600 dark:text-stone-500 dark:hover:border-amber-500 dark:hover:text-amber-400"
+                }`}
+              >
+                {compareSelected ? "✓" : "⇄"}
+              </button>
+            )}
+          </div>
           <div className="mt-2">
             {multiTier ? (
               <PowerTierChips

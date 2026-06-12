@@ -2,12 +2,19 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { CatalogCompareBar } from "@/components/compare/CatalogCompareBar";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import { MachineCard } from "@/components/machines/MachineCard";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import type { CatalogEntry } from "@/lib/catalog-types";
 import { parsePowerWatts } from "@/lib/catalog-display";
+import {
+  readCompareSession,
+  toggleCompareSessionSlug,
+  writeCompareSession,
+} from "@/lib/compare-session";
+import { MAX_COMPARE_MACHINES } from "@/lib/machine-compare";
 import {
   LASER_TYPES_ORDER,
   machineMatchesLaserType,
@@ -56,7 +63,24 @@ export function LasersBrowse({
   const [powerBand, setPowerBand] = useState<"all" | "low" | "mid" | "high">("all");
   const [sort, setSort] = useState<"rating" | "power" | "newest" | "name">("rating");
   const [scrollTargetSlug, setScrollTargetSlug] = useState<string | null>(null);
+  const [compareSlugs, setCompareSlugs] = useState<string[]>([]);
   const prevActiveTypeRef = useRef<LaserType | "all" | null>(null);
+
+  useEffect(() => {
+    setCompareSlugs(readCompareSession()?.slugs ?? []);
+  }, []);
+
+  const handleToggleCompare = (slug: string) => {
+    setCompareSlugs(toggleCompareSessionSlug(slug));
+  };
+
+  const handleClearCompare = () => {
+    writeCompareSession({ slugs: [] });
+    setCompareSlugs([]);
+  };
+
+  const compareSet = useMemo(() => new Set(compareSlugs), [compareSlugs]);
+  const compareAtMax = compareSlugs.length >= MAX_COMPARE_MACHINES;
 
   useEffect(() => {
     if (!pathname) return;
@@ -281,6 +305,9 @@ export function LasersBrowse({
             locale={locale}
             dict={dict}
             onBeforeNavigate={handleBeforeNavigate}
+            compareSelected={compareSet.has(entry.primary.slug)}
+            compareDisabled={!compareSet.has(entry.primary.slug) && compareAtMax}
+            onToggleCompare={handleToggleCompare}
           />
         ))}
       </div>
@@ -288,6 +315,13 @@ export function LasersBrowse({
       {filtered.length === 0 && (
         <p className="mt-8 text-center text-stone-500 dark:text-stone-400">{l.noResults}</p>
       )}
+
+      <CatalogCompareBar
+        selectedSlugs={compareSlugs}
+        locale={locale}
+        dict={dict}
+        onClear={handleClearCompare}
+      />
     </div>
   );
 }

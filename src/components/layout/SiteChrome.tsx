@@ -1,6 +1,8 @@
 import { Suspense } from "react";
+import { SearchPalette } from "@/components/search/SearchPalette";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
+import { buildSearchIndex } from "@/lib/search-index";
 import { LocaleLink } from "./LocaleLink";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
@@ -13,11 +15,14 @@ interface ChromeProps {
 export function Header({ locale, dict }: ChromeProps) {
   const navLinks = [
     { href: "/lasers", label: dict.nav.lasers },
+    { href: "/best", label: dict.nav.bestOf },
+    { href: "/finder", label: dict.nav.finder },
     { href: "/brands", label: dict.nav.brands },
     { href: "/guides", label: dict.nav.guides },
     { href: "/compare", label: dict.nav.compare },
     { href: "/about", label: dict.nav.about },
   ];
+  const searchIndex = buildSearchIndex(locale, dict);
 
   return (
     <header className="sticky top-0 z-50 border-b border-stone-200 bg-white/95 backdrop-blur-sm dark:border-stone-800 dark:bg-stone-950/95">
@@ -46,6 +51,7 @@ export function Header({ locale, dict }: ChromeProps) {
               {link.label}
             </LocaleLink>
           ))}
+          <SearchPalette items={searchIndex} locale={locale} dict={dict} />
           <ThemeToggle labels={dict.theme} />
           <Suspense fallback={null}>
             <LocaleSwitcher locale={locale} labels={dict.localeSwitcher} />
@@ -90,6 +96,9 @@ function FooterLinkGroup({
 export function Footer({ locale, dict }: ChromeProps) {
   const siteLinks = [
     { href: "/lasers", label: dict.nav.lasers },
+    { href: "/best", label: dict.nav.bestOf },
+    { href: "/finder", label: dict.nav.finder },
+    { href: "/materials", label: dict.nav.materials },
     { href: "/brands", label: dict.nav.brands },
     { href: "/guides", label: dict.nav.guides },
     { href: "/compare", label: dict.nav.compare },

@@ -67,6 +67,19 @@ export function mergeCompareSessionSlug(slug: string): string[] {
   return [...current, slug].slice(0, MAX_COMPARE_MACHINES);
 }
 
+/** Toggle a slug in the stored selection and persist it. Returns the new selection. */
+export function toggleCompareSessionSlug(slug: string): string[] {
+  const session = readCompareSession();
+  const current = session?.slugs ?? [];
+  const next = current.includes(slug)
+    ? current.filter((s) => s !== slug)
+    : current.length >= MAX_COMPARE_MACHINES
+      ? current
+      : [...current, slug];
+  writeCompareSession({ slugs: next, mode: session?.mode });
+  return next;
+}
+
 export function buildCompareHref(slug: string): string {
   const slugs = mergeCompareSessionSlug(slug);
   return `/compare?ids=${serializeCompareIds(slugs)}`;
