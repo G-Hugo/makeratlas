@@ -5,6 +5,7 @@ import { MachineDuelVerdict } from "@/components/compare/MachineDuelVerdict";
 import { MachineVersusStatic } from "@/components/compare/MachineVersusStatic";
 import { MachineImage } from "@/components/machines/MachineImage";
 import { breadcrumbJsonLd, JsonLd } from "@/components/seo/JsonLd";
+import { SeoFaqSection } from "@/components/seo/SeoFaqSection";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { localizedPath } from "@/i18n/navigation";
@@ -16,6 +17,7 @@ import {
 } from "@/lib/compare-duels";
 import { interpolate, laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import { serializeCompareIds } from "@/lib/machine-compare";
+import { buildDuelFaq } from "@/lib/seo-faq";
 import { buildPageMetadata, type AppPath } from "@/lib/seo";
 import { ratingColor } from "@/lib/utils";
 import type { Machine } from "@/types/machine";
@@ -164,6 +166,10 @@ export default async function CompareDuelPage({ params }: PageProps) {
 
       <div className="mt-10">
         <MachineVersusStatic machines={[a, b]} locale={locale} dict={dict} />
+      </div>
+
+      <div className="mt-12">
+        <SeoFaqSection title={c.faqTitle} items={buildDuelFaq([a, b], locale, dict)} />
       </div>
 
       {related.length > 0 && (

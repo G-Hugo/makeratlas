@@ -77,6 +77,26 @@ export const fr: Dictionary = {
     ctaBuyingGuide: "Guide d’achat laser 2026",
     ctaLaserTypes: "Comprendre les types de laser",
     ctaSafety: "Bases sécurité",
+    ctaFinder: "Trouver mon laser en 4 questions",
+    toolsTitle: "Des outils pour choisir sereinement",
+    toolsBody:
+      "Quatre façons de contourner le marketing et de trouver la machine qui correspond vraiment à vos projets.",
+    toolFinderTitle: "Quiz « Quel laser ? »",
+    toolFinderBody:
+      "Répondez à quatre questions sur vos projets, matériaux et budget — obtenez vos trois meilleures correspondances.",
+    toolCompareTitle: "Comparateur côte à côte",
+    toolCompareBody:
+      "Alignez jusqu'à quatre machines : notes, performances réelles, prix et avantages/inconvénients honnêtes.",
+    toolRankingsTitle: "Classements par catégorie",
+    toolRankingsBody:
+      "Meilleurs lasers diode, CO₂, gravure métal, débutants et petit budget — générés depuis notre base de notation.",
+    toolMaterialsTitle: "Tableau des matériaux",
+    toolMaterialsBody:
+      "Ce que chaque type de laser peut découper, graver, ou ne doit jamais toucher : bois, acrylique, métal, verre et plus.",
+    rankingsTitle: "Meilleurs lasers par catégorie",
+    rankingsSubtitle: "Classements honnêtes, aucun placement sponsorisé.",
+    duelsTitle: "Comparaisons populaires",
+    duelsSubtitle: "Les face-à-face que les acheteurs demandent le plus, spec par spec.",
     featuredTitle: "Meilleures graveuses laser",
     featuredSubtitle: "{count} gammes profilées, specs honnêtes, pas de marketing.",
     viewAll: "Tout voir →",
@@ -201,6 +221,10 @@ export const fr: Dictionary = {
     pricingNote: "EUR indicatif, voir",
     pricingMethodology: "méthode de prix",
     compareWith: "Comparer avec",
+    alternativesTitle: "Alternatives au {name}",
+    alternativesSubtitle:
+      "Des machines du même segment, choisies dans notre base selon le type, le prix et la note.",
+    alternativesVs: "Comparer face au {name}",
     safetyLink: "Guide sécurité laser →",
     newToLasers: "Nouveau en gravure laser ?",
     readSafetyBefore: "Lisez les bases sécurité avant votre premier travail.",
@@ -342,6 +366,23 @@ export const fr: Dictionary = {
     verdictSpecWins: "{count} specs gagnées",
     verdictOverall: "Au global, le {name} l'emporte : {a} contre {b} dans notre notation.",
     verdictTie: "Au global, égalité : les deux obtiennent {score} dans notre base.",
+    faqTitle: "Questions fréquentes",
+    faqWhichBetterQ: "Lequel est le meilleur : {a} ou {b} ?",
+    faqWhichBetterA:
+      "Dans notre notation, le {winner} sort devant avec {wScore}/10 au global contre {lScore}/10 pour le {loser}. Le tableau détaillé ci-dessus montre exactement où chaque machine l'emporte.",
+    faqWhichBetterTieA:
+      "Égalité dans notre base : les deux obtiennent {score}/10 au global. Le bon choix dépend des specs qui comptent le plus pour vos projets — le tableau ci-dessus les détaille.",
+    faqCheaperQ: "Lequel est le moins cher : {a} ou {b} ?",
+    faqCheaperA:
+      "Le {cheap} est l'option la plus abordable, à partir d'environ {cheapPrice}, contre {otherPrice} pour le {other}.",
+    faqBeginnerQ: "Lequel choisir pour débuter : {a} ou {b} ?",
+    faqBeginnerA:
+      "Le {name} est la machine la plus simple pour démarrer : elle obtient {score}/10 en facilité d'usage, contre {otherScore}/10 pour le {other}.",
+    faqBeginnerTieA:
+      "Les deux sont aussi accessibles l'une que l'autre : chacune obtient {score}/10 en facilité d'usage dans notre base.",
+    faqDifferenceQ: "Quelle est la principale différence entre le {a} et le {b} ?",
+    faqDifferenceA:
+      "Le {a} est un laser {typeA} orienté {focusA}, tandis que le {b} est un laser {typeB} orienté {focusB}. Cette différence explique la plupart des écarts du tableau comparatif.",
   },
   bestOf: {
     indexTitle: "Meilleurs lasers par catégorie",
@@ -355,6 +396,16 @@ export const fr: Dictionary = {
     otherCategories: "Autres classements",
     relatedGuides: "Guides associés",
     rankedCount: "{count} machines classées",
+    faqTitle: "Questions fréquentes",
+    faqBestQ: "Quel est le meilleur {subject} en {year} ?",
+    faqBestA:
+      "Le {name} arrive en tête de notre base avec une note globale de {score}/10, à partir d'environ {price}. {tldr}",
+    faqBudgetQ: "Quel est le {subject} le plus abordable qui vaille le coup ?",
+    faqBudgetA:
+      "Parmi nos meilleurs choix, le {name} est le plus abordable : à partir d'environ {price}, avec une note globale de {score}/10.",
+    faqHowQ: "Comment ces classements sont-ils construits ?",
+    faqHowA:
+      "Les classements sont générés depuis notre base de notation — capacités, facilité d'usage, qualité de fabrication et rapport qualité-prix, pondérés selon chaque catégorie. Aucun placement sponsorisé : les notes reflètent les performances réelles, pas les promesses marketing.",
   },
   finder: {
     title: "Quel laser acheter ?",

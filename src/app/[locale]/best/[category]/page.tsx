@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import { MachineImage } from "@/components/machines/MachineImage";
 import { breadcrumbJsonLd, JsonLd } from "@/components/seo/JsonLd";
+import { SeoFaqSection } from "@/components/seo/SeoFaqSection";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { localizedPath } from "@/i18n/navigation";
@@ -17,6 +18,7 @@ import { interpolate, laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import { serializeCompareIds } from "@/lib/machine-compare";
 import { formatDualPriceRange } from "@/lib/pricing";
 import { buildPageMetadata, type AppPath } from "@/lib/seo";
+import { buildBestOfFaq } from "@/lib/seo-faq";
 import { ratingColor } from "@/lib/utils";
 
 interface PageProps {
@@ -216,6 +218,13 @@ export default async function BestOfCategoryPage({ params }: PageProps) {
         >
           {b.compareTopCta}
         </LocaleLink>
+      </div>
+
+      <div className="mt-12">
+        <SeoFaqSection
+          title={b.faqTitle}
+          items={buildBestOfFaq(category, ranking, locale, dict)}
+        />
       </div>
 
       {guides.length > 0 && (

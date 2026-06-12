@@ -15,6 +15,7 @@ import { laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import { buildAlternates, buildMachineMetadata, type AppPath } from "@/lib/seo";
 import { hasMachineTranslation } from "@/lib/machine-locale";
 import { getAllMachines, getMachineBySlug, getSimilarMachines } from "@/lib/content";
+import { getMachineAlternatives } from "@/lib/machine-alternatives";
 import { getPowerTiersForMachine } from "@/lib/catalog";
 
 interface PageProps {
@@ -73,6 +74,9 @@ export default async function MachinePage({ params }: PageProps) {
   const hasTranslationBySlug = Object.fromEntries(
     tiers.map((tier) => [tier.slug, hasMachineTranslation(tier.slug)]),
   );
+  const alternativesBySlug = Object.fromEntries(
+    tiers.map((tier) => [tier.slug, getMachineAlternatives(tier, locale)]),
+  );
 
   return (
     <>
@@ -97,6 +101,7 @@ export default async function MachinePage({ params }: PageProps) {
         tiers={tiers}
         similarBySlug={similarBySlug}
         hasTranslationBySlug={hasTranslationBySlug}
+        alternativesBySlug={alternativesBySlug}
       />
     </>
   );

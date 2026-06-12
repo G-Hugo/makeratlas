@@ -76,6 +76,26 @@ export const en: Dictionary = {
     ctaBuyingGuide: "Laser buying guide 2026",
     ctaLaserTypes: "Understand laser types",
     ctaSafety: "Safety basics",
+    ctaFinder: "Find my laser in 4 questions",
+    toolsTitle: "Tools to choose with confidence",
+    toolsBody:
+      "Four ways to cut through the marketing and find the machine that actually fits your projects.",
+    toolFinderTitle: "Laser finder quiz",
+    toolFinderBody:
+      "Answer four questions about your projects, materials, and budget — get your three best matches.",
+    toolCompareTitle: "Side-by-side comparator",
+    toolCompareBody:
+      "Line up to four machines: scores, real-world performance, pricing, and honest pros and cons.",
+    toolRankingsTitle: "Rankings by category",
+    toolRankingsBody:
+      "Best diode, CO₂, metal engraving, beginner, and budget lasers — generated from our scoring database.",
+    toolMaterialsTitle: "Materials table",
+    toolMaterialsBody:
+      "What each laser type can cut, engrave, or should never touch: wood, acrylic, metal, glass, and more.",
+    rankingsTitle: "Best lasers by category",
+    rankingsSubtitle: "Honest rankings, no sponsored placements.",
+    duelsTitle: "Popular comparisons",
+    duelsSubtitle: "The matchups buyers ask about most, spec by spec.",
     featuredTitle: "Top laser engravers",
     featuredSubtitle: "{count} laser lines profiled, with honest specs, not marketing copy.",
     viewAll: "View all →",
@@ -200,6 +220,10 @@ export const en: Dictionary = {
     pricingNote: "EUR is approximate, see",
     pricingMethodology: "pricing methodology",
     compareWith: "Compare with",
+    alternativesTitle: "Alternatives to the {name}",
+    alternativesSubtitle:
+      "Machines in the same space, picked from our database by type, price, and score.",
+    alternativesVs: "Compare vs {name}",
     safetyLink: "Laser safety guide →",
     newToLasers: "New to lasers?",
     readSafetyBefore: "Read our safety basics before your first job.",
@@ -340,6 +364,23 @@ export const en: Dictionary = {
     verdictSpecWins: "{count} spec wins",
     verdictOverall: "Overall, the {name} takes it: {a} vs {b} in our scoring.",
     verdictTie: "Overall, it's a tie — both score {score} in our database.",
+    faqTitle: "Frequently asked questions",
+    faqWhichBetterQ: "Which is better: {a} or {b}?",
+    faqWhichBetterA:
+      "In our scoring, the {winner} comes out ahead with {wScore}/10 overall versus {lScore}/10 for the {loser}. The detailed table above shows exactly where each machine wins.",
+    faqWhichBetterTieA:
+      "They are tied in our database: both score {score}/10 overall. The right pick depends on which specs matter most for your projects — the table above breaks it down.",
+    faqCheaperQ: "Which is cheaper: {a} or {b}?",
+    faqCheaperA:
+      "The {cheap} is the more affordable option, starting around {cheapPrice}, versus {otherPrice} for the {other}.",
+    faqBeginnerQ: "Which is better for a beginner: {a} or {b}?",
+    faqBeginnerA:
+      "The {name} is the easier machine to start with: it scores {score}/10 for ease of use, versus {otherScore}/10 for the {other}.",
+    faqBeginnerTieA:
+      "Both are equally approachable: each scores {score}/10 for ease of use in our database.",
+    faqDifferenceQ: "What is the main difference between the {a} and the {b}?",
+    faqDifferenceA:
+      "The {a} is a {typeA} laser geared toward {focusA}, while the {b} is a {typeB} laser geared toward {focusB}. That difference drives most of the gaps you see in the comparison table.",
   },
   bestOf: {
     indexTitle: "Best lasers by category",
@@ -353,6 +394,16 @@ export const en: Dictionary = {
     otherCategories: "More rankings",
     relatedGuides: "Related guides",
     rankedCount: "{count} machines ranked",
+    faqTitle: "Frequently asked questions",
+    faqBestQ: "What is the best {subject} in {year}?",
+    faqBestA:
+      "The {name} ranks first in our database with an overall score of {score}/10, starting around {price}. {tldr}",
+    faqBudgetQ: "What is the most affordable good {subject}?",
+    faqBudgetA:
+      "Among our top picks, the {name} is the most affordable, starting around {price} with an overall score of {score}/10.",
+    faqHowQ: "How are these rankings built?",
+    faqHowA:
+      "Rankings are generated from our scoring database — capability, ease of use, build quality, and value, weighted for each category. There are no sponsored placements, and scores reflect real-world performance rather than marketing claims.",
   },
   finder: {
     title: "Which laser should I buy?",

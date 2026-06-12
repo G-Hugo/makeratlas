@@ -29,7 +29,10 @@ import { resolveMachineEditorial } from "@/lib/power-tier-editorial";
 import { getTierChipVariant } from "@/lib/catalog-display";
 import { formatReleaseDate, ratingColor } from "@/lib/utils";
 import { MachineDetailPrice } from "@/components/pricing/MachinePrice";
+import { MachineImage } from "@/components/machines/MachineImage";
 import { brandToSlug } from "@/lib/brand-slug";
+import { formatDualPriceRange } from "@/lib/pricing";
+import type { MachineAlternative } from "@/lib/machine-alternatives";
 import type { Machine } from "@/types/machine";
 
 interface MachineDetailViewProps {
@@ -39,6 +42,7 @@ interface MachineDetailViewProps {
   tiers: Machine[];
   similarBySlug: Record<string, Machine[]>;
   hasTranslationBySlug: Record<string, boolean>;
+  alternativesBySlug: Record<string, MachineAlternative[]>;
 }
 
 export function MachineDetailView({
@@ -48,6 +52,7 @@ export function MachineDetailView({
   tiers,
   similarBySlug,
   hasTranslationBySlug,
+  alternativesBySlug,
 }: MachineDetailViewProps) {
   const router = useRouter();
   const m = dict.machine;
@@ -73,6 +78,7 @@ export function MachineDetailView({
   const editorial = resolveMachineEditorial(machine, tiers, locale);
   const displayTitle = getDetailDisplayTitle(machine, tiers, locale);
   const similar = similarBySlug[machine.slug] ?? [];
+  const alternatives = alternativesBySlug[machine.slug] ?? [];
   const photos = useMemo(() => getMachinePhotos(machine), [machine]);
 
   const handleSelectTier = useCallback(
@@ -389,6 +395,71 @@ export function MachineDetailView({
           </p>
         </aside>
       </div>
+
+      {alternatives.length > 0 && (
+        <section className="mt-14 border-t border-stone-200 pt-10 dark:border-stone-800">
+          <h2 className="text-2xl font-bold text-stone-900 dark:text-stone-100">
+            {interpolate(m.alternativesTitle, { name: machine.name })}
+          </h2>
+          <p className="mt-2 text-stone-600 dark:text-stone-300">{m.alternativesSubtitle}</p>
+          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {alternatives.map(({ machine: alt, compareHref }) => {
+              const prices = formatDualPriceRange(alt.priceRange.min, alt.priceRange.max);
+              return (
+                <div
+                  key={alt.slug}
+                  className="flex flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm dark:border-stone-700 dark:bg-stone-900"
+                >
+                  <LocaleLink href={`/lasers/${alt.slug}`} locale={locale} className="block">
+                    <MachineImage
+                      machine={alt}
+                      className="aspect-[4/3] w-full"
+                      sizes="(max-width: 640px) 100vw, 33vw"
+                    />
+                  </LocaleLink>
+                  <div className="flex flex-1 flex-col gap-1.5 p-4">
+                    <div className="flex items-start justify-between gap-2">
+                      <LocaleLink
+                        href={`/lasers/${alt.slug}`}
+                        locale={locale}
+                        className="font-semibold leading-snug text-stone-900 hover:text-amber-700 dark:text-stone-100 dark:hover:text-amber-400"
+                      >
+                        {alt.name}
+                      </LocaleLink>
+                      <span className={`text-lg font-bold ${ratingColor(alt.rating.overall)}`}>
+                        {alt.rating.overall.toFixed(1)}
+                      </span>
+                    </div>
+                    <p className="text-xs text-stone-500 dark:text-stone-400">
+                      {alt.brand} · {laserTypeLabelLocalized(alt.laserType, dict)} ·{" "}
+                      {locale === "fr" ? `≈ ${prices.eurApprox}` : prices.usd}
+                    </p>
+                    <p className="line-clamp-2 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
+                      {alt.tldr}
+                    </p>
+                    <div className="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-2 text-sm font-medium">
+                      <LocaleLink
+                        href={`/lasers/${alt.slug}`}
+                        locale={locale}
+                        className="text-amber-700 hover:underline dark:text-amber-400"
+                      >
+                        {dict.brands.flagshipCta} →
+                      </LocaleLink>
+                      <LocaleLink
+                        href={compareHref}
+                        locale={locale}
+                        className="text-stone-500 hover:text-stone-800 hover:underline dark:text-stone-400 dark:hover:text-stone-200"
+                      >
+                        {interpolate(m.alternativesVs, { name: machine.name })}
+                      </LocaleLink>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

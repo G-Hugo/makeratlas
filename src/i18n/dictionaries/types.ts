@@ -86,6 +86,21 @@ export type Dictionary = {
     howWeEvaluate: string;
   };
   home: {
+    ctaFinder: string;
+    toolsTitle: string;
+    toolsBody: string;
+    toolFinderTitle: string;
+    toolFinderBody: string;
+    toolCompareTitle: string;
+    toolCompareBody: string;
+    toolRankingsTitle: string;
+    toolRankingsBody: string;
+    toolMaterialsTitle: string;
+    toolMaterialsBody: string;
+    rankingsTitle: string;
+    rankingsSubtitle: string;
+    duelsTitle: string;
+    duelsSubtitle: string;
     heroTitle: string;
     heroBody: string;
     ctaBuyingGuide: string;
@@ -202,6 +217,9 @@ export type Dictionary = {
     pricingNote: string;
     pricingMethodology: string;
     compareWith: string;
+    alternativesTitle: string;
+    alternativesSubtitle: string;
+    alternativesVs: string;
     safetyLink: string;
     newToLasers: string;
     readSafetyBefore: string;
@@ -332,6 +350,17 @@ export type Dictionary = {
     verdictSpecWins: string;
     verdictOverall: string;
     verdictTie: string;
+    faqTitle: string;
+    faqWhichBetterQ: string;
+    faqWhichBetterA: string;
+    faqWhichBetterTieA: string;
+    faqCheaperQ: string;
+    faqCheaperA: string;
+    faqBeginnerQ: string;
+    faqBeginnerA: string;
+    faqBeginnerTieA: string;
+    faqDifferenceQ: string;
+    faqDifferenceA: string;
   };
   bestOf: {
     indexTitle: string;
@@ -343,6 +372,13 @@ export type Dictionary = {
     otherCategories: string;
     relatedGuides: string;
     rankedCount: string;
+    faqTitle: string;
+    faqBestQ: string;
+    faqBestA: string;
+    faqBudgetQ: string;
+    faqBudgetA: string;
+    faqHowQ: string;
+    faqHowA: string;
   };
   finder: {
     title: string;
