@@ -41,6 +41,22 @@ function canMarkMetal(machine: Machine): boolean {
   return false;
 }
 
+function isEnclosedLaser(machine: Machine): boolean {
+  const blob = [machine.tagline, machine.tldr, machine.primaryUse, ...machine.pros, ...machine.bestFor]
+    .join(" ")
+    .toLowerCase();
+  if (/enclosed|class 1|class-1|class i\b|fully enclosed/.test(blob)) return true;
+  return /^(xtool-s1|ortur-h20|sculpfun-icube-pro|glowforge-(aura|pro)|wecreat-vision|acmer-p3)/.test(
+    machine.slug,
+  );
+}
+
+function isPortableMetalMarker(machine: Machine): boolean {
+  if (machine.priceRange.min > 4000) return false;
+  if (machine.laserType === "fiber" || machine.laserType === "uv") return true;
+  return machine.laserType === "hybrid" && canMarkMetal(machine);
+}
+
 export const BEST_OF_CATEGORIES: BestOfCategory[] = [
   {
     slug: "diode-lasers",
@@ -212,6 +228,122 @@ export const BEST_OF_CATEGORIES: BestOfCategory[] = [
     guideSlugs: ["laser-buying-guide-2026", "rotary-laser-engraving"],
     filter: (m) => matchesBusinessUse(m) && m.rating.buildQuality >= 7.5,
     score: (m) => m.rating.overall * 0.5 + m.rating.buildQuality * 0.3 + m.rating.capability * 0.2,
+  },
+  {
+    slug: "enclosed-lasers",
+    copy: {
+      en: {
+        title: `Best Enclosed Lasers ${BEST_OF_YEAR}`,
+        metaTitle: `Best Enclosed Laser Engravers ${BEST_OF_YEAR}`,
+        metaDescription: `The best enclosed laser engravers of ${BEST_OF_YEAR}: safer home operation, filtered exhaust, and Class-1 cabinets ranked by real scores.`,
+        intro:
+          "Enclosed cabinets keep smoke contained and reduce stray-beam risk — essential for apartments and family spaces. These machines rank highest for enclosed diode and compact CO₂ options.",
+        faqSubject: "enclosed laser",
+      },
+      fr: {
+        title: `Meilleurs lasers fermés ${BEST_OF_YEAR}`,
+        metaTitle: `Meilleurs graveurs laser fermés ${BEST_OF_YEAR}`,
+        metaDescription: `Les meilleurs graveurs laser fermés de ${BEST_OF_YEAR} : usage domestique plus sûr, filtration des fumées et cabines Classe 1 classées selon nos notes réelles.`,
+        intro:
+          "Les cabines fermées contiennent les fumées et limitent les risques de faisceau — indispensable en appartement ou avec des enfants. Voici les machines fermées diode et CO₂ compactes les mieux notées.",
+        faqSubject: "laser fermé",
+      },
+    },
+    guideSlugs: ["open-frame-vs-enclosed-lasers", "laser-safety-basics", "laser-ventilation-setup"],
+    filter: isEnclosedLaser,
+  },
+  {
+    slug: "fiber-lasers",
+    copy: {
+      en: {
+        title: `Best Fiber Lasers ${BEST_OF_YEAR}`,
+        metaTitle: `Best Fiber Laser Engravers ${BEST_OF_YEAR}`,
+        metaDescription: `The best fiber laser engravers of ${BEST_OF_YEAR}, ranked for metal marking speed, software, build quality, and value across desktop galvo workstations.`,
+        intro:
+          "Fiber lasers (1064 nm) are the standard for marking stainless steel, aluminum, and brass. These desktop galvo machines rank highest in our database for metal engraving work.",
+        faqSubject: "fiber laser",
+      },
+      fr: {
+        title: `Meilleurs lasers fibre ${BEST_OF_YEAR}`,
+        metaTitle: `Meilleurs graveurs laser fibre ${BEST_OF_YEAR}`,
+        metaDescription: `Les meilleurs graveurs laser fibre de ${BEST_OF_YEAR}, classés pour la vitesse de marquage métal, le logiciel, la qualité de fabrication et le rapport qualité-prix.`,
+        intro:
+          "Les lasers fibre (1064 nm) sont la référence pour marquer l'inox, l'aluminium et le laiton. Ces postes galvo de bureau sont les mieux notés de notre base pour la gravure métal.",
+        faqSubject: "laser fibre",
+      },
+    },
+    guideSlugs: ["fiber-lasers-explained", "mopa-fiber-lasers-explained", "galvo-laser-workstations-explained"],
+    filter: (m) => m.laserType === "fiber",
+  },
+  {
+    slug: "portable-metal-markers",
+    copy: {
+      en: {
+        title: `Best Portable Metal Markers ${BEST_OF_YEAR}`,
+        metaTitle: `Best Portable Fiber & Hybrid Lasers ${BEST_OF_YEAR}`,
+        metaDescription: `The best portable metal marking lasers of ${BEST_OF_YEAR}: compact fiber, hybrid, and UV galvo machines ranked for jewelry, tools, and small-batch metal work.`,
+        intro:
+          "Need to mark metal without a full workshop? These compact fiber, hybrid, and UV galvo machines rank highest for jewelry, knives, and small metal gifts — all under $4,000.",
+        faqSubject: "portable metal marking laser",
+      },
+      fr: {
+        title: `Meilleurs marqueurs métal portables ${BEST_OF_YEAR}`,
+        metaTitle: `Meilleurs lasers portables pour le métal ${BEST_OF_YEAR}`,
+        metaDescription: `Les meilleurs lasers portables pour marquer le métal en ${BEST_OF_YEAR} : machines fibre, hybrides et UV compactes classées pour bijoux, outils et petites séries.`,
+        intro:
+          "Besoin de marquer du métal sans un grand atelier ? Ces machines fibre, hybrides et UV compactes sont les mieux notées pour bijoux, couteaux et petits cadeaux métal — toutes sous 4 000 $.",
+        faqSubject: "laser portable pour marquer le métal",
+      },
+    },
+    guideSlugs: ["galvo-laser-workstations-explained", "metal-marking-without-fiber", "hybrid-lasers-explained"],
+    filter: isPortableMetalMarker,
+  },
+  {
+    slug: "high-power-diodes",
+    copy: {
+      en: {
+        title: `Best 40W+ Diode Lasers ${BEST_OF_YEAR}`,
+        metaTitle: `Best High-Power Diode Lasers ${BEST_OF_YEAR} (40W+)`,
+        metaDescription: `The best 40W and higher diode lasers of ${BEST_OF_YEAR}, ranked for cutting depth, build quality, and real-world performance on wood and acrylic.`,
+        intro:
+          "40W diode modules push open-frame cutting closer to entry CO₂ territory. These high-power diodes rank highest for thick wood and everyday production cutting.",
+        faqSubject: "40W diode laser",
+      },
+      fr: {
+        title: `Meilleurs lasers diode 40W+ ${BEST_OF_YEAR}`,
+        metaTitle: `Meilleurs lasers diode haute puissance ${BEST_OF_YEAR} (40W+)`,
+        metaDescription: `Les meilleurs lasers diode 40W et plus de ${BEST_OF_YEAR}, classés pour la profondeur de coupe, la qualité de fabrication et les performances réelles sur bois et acrylique.`,
+        intro:
+          "Les modules diode 40W rapprochent la découpe open-frame du CO₂ d'entrée de gamme. Ces diodes haute puissance sont les mieux notées pour le bois épais et la découpe quotidienne.",
+        faqSubject: "laser diode 40W",
+      },
+    },
+    guideSlugs: ["diode-lasers-explained", "laser-wattage-marketing-explained", "open-frame-vs-enclosed-lasers"],
+    filter: (m) => m.laserType === "diode" && (parsePowerWatts(m) ?? 0) >= 40,
+    score: (m) => m.rating.capability * 0.5 + m.rating.overall * 0.5,
+  },
+  {
+    slug: "uv-lasers",
+    copy: {
+      en: {
+        title: `Best UV Lasers ${BEST_OF_YEAR}`,
+        metaTitle: `Best UV Laser Engravers ${BEST_OF_YEAR}`,
+        metaDescription: `The best UV (355 nm) laser engravers of ${BEST_OF_YEAR}, ranked for plastics, glass, ceramics, and fine marking without heat damage.`,
+        intro:
+          "UV lasers excel on heat-sensitive plastics, glass, and ceramics with minimal thermal damage. Every UV machine in our database, ranked by overall score.",
+        faqSubject: "UV laser",
+      },
+      fr: {
+        title: `Meilleurs lasers UV ${BEST_OF_YEAR}`,
+        metaTitle: `Meilleurs graveurs laser UV ${BEST_OF_YEAR}`,
+        metaDescription: `Les meilleurs graveurs laser UV (355 nm) de ${BEST_OF_YEAR}, classés pour plastiques, verre, céramique et marquage fin sans dommages thermiques.`,
+        intro:
+          "Les lasers UV excellent sur les plastiques sensibles à la chaleur, le verre et la céramique avec peu de dégâts thermiques. Toutes les machines UV de notre base, classées par note globale.",
+        faqSubject: "laser UV",
+      },
+    },
+    guideSlugs: ["uv-lasers-explained", "laser-materials-by-type"],
+    filter: (m) => m.laserType === "uv",
   },
 ];
 

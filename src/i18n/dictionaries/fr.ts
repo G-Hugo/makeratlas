@@ -384,6 +384,54 @@ export const fr: Dictionary = {
     faqDifferenceA:
       "Le {a} est un laser {typeA} orienté {focusA}, tandis que le {b} est un laser {typeB} orienté {focusB}. Cette différence explique la plupart des écarts du tableau comparatif.",
   },
+  brandDuel: {
+    breadcrumb: "Duels de marques",
+    indexTitle: "Marque contre marque",
+    indexDescription:
+      "Vous hésitez entre deux marques ? Comparez le positionnement, l'étendue du catalogue, les fourchettes de prix et les modèles phares — puis passez aux duels machine par machine.",
+    metaTitle: "{a} vs {b} : quelle marque choisir ?",
+    metaDescription:
+      "{a} vs {b} comparées en tant que marques : taille du catalogue, types de laser, fourchette de prix, notes moyennes, forces et modèles phares à comparer ensuite.",
+    intro:
+      "Choisir entre {a} et {b}, c'est plus large qu'une seule machine. Voici comment chaque marque se positionne, ce qu'elle propose et quels modèles représentatifs comparer spec par spec.",
+    viewProfile: "Voir la fiche {brand}",
+    tableTitle: "Comparaison des marques",
+    rowLabel: "Critère",
+    rowKnownFor: "Réputée pour",
+    rowCatalogSize: "Modèles sur Maker Atlas",
+    rowLaserTypes: "Types de laser",
+    rowPriceRange: "Fourchette de prix",
+    rowAvgScore: "Note moyenne",
+    rowHeadquarters: "Siège",
+    modelsCount: "{count} gammes",
+    chooseTitle: "Quelle marque choisir ?",
+    chooseIf: "Choisissez {brand} si…",
+    reasonBudget: "Vous visez un prix d'entrée plus bas sur le catalogue",
+    reasonBreadth: "Vous avez besoin de {types} technologies laser sous une même marque",
+    reasonAvgScore: "La note moyenne du catalogue est plus élevée dans notre base ({score}/10)",
+    reasonCatalog: "Vous voulez plus de gammes au choix ({count} sur Maker Atlas)",
+    featuredTitle: "Comparer des modèles représentatifs",
+    featuredSubtitle:
+      "Une marque, c'est des dizaines de références. Ces deux machines sont un bon point de départ pour un duel spec par spec.",
+    featuredCta: "Comparatif complet : {a} vs {b}",
+    relatedTitle: "Autres duels de marques",
+    popularTitle: "Duels de marques populaires",
+    faqTitle: "Questions fréquentes",
+    faqWhichBrandQ: "Quelle marque est la meilleure : {a} ou {b} ?",
+    faqWhichBrandA:
+      "Dans notre base, {winner} devance avec une note moyenne de {wScore}/10 sur son catalogue, contre {lScore}/10 pour {loser}. Le bon choix dépend tout de même de votre budget et du type de laser — voir le tableau ci-dessus.",
+    faqWhichBrandTieA:
+      "Les deux marques tournent autour de {score}/10 en moyenne sur leur catalogue dans notre base. Choisissez selon le type de laser et la gamme de prix, pas seulement le nom.",
+    faqCheaperBrandQ: "Quelle marque est la moins chère : {a} ou {b} ?",
+    faqCheaperBrandA:
+      "{cheap} affiche des prix de départ plus bas ({cheapFrom}) que {other} ({otherFrom}). Vérifiez les modèles précis — chaque marque a des entrées de gamme et du haut de gamme.",
+    faqDifferenceBrandQ: "Quelle est la principale différence entre {a} et {b} ?",
+    faqDifferenceBrandA:
+      "{a} est connue pour {aKnown} et couvre surtout {aTypes}. {b} est connue pour {bKnown} et propose {bTypes}. Ce positionnement compte plus qu'une fiche technique isolée.",
+    faqFlagshipQ: "Quelles machines comparer entre {a} et {b} ?",
+    faqFlagshipA:
+      "Commencez par {aModel} ({a}) et {bModel} ({b}) — le duo représentatif de cette page. Ouvrez le comparatif complet pour la puissance, la surface de travail et les notes réelles.",
+  },
   bestOf: {
     indexTitle: "Meilleurs lasers par catégorie",
     indexDescription:
