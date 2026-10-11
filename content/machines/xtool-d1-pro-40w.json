@@ -158,5 +158,6 @@
   "editorialDepth": {
     "advantages": "The 40W diode module is the most cut-focused head on xTool D1 Pro: thicker basswood and faster fills than entry modules on the same chassis.",
     "limitations": "Overkill if you only do fine engraving. Still a diode: clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
-  }
+  },
+  "discontinued": {}
 }

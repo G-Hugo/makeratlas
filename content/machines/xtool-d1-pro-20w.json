@@ -147,5 +147,6 @@
   "editorialDepth": {
     "advantages": "The 20W diode module balances engraving and light cutting on xTool D1 Pro: the most versatile SKU before stepping up to a stronger head.",
     "limitations": "If thick cutting dominates your week, compare 40W. Verify which module is in the box: same chassis, different heads."
-  }
+  },
+  "discontinued": {}
 }

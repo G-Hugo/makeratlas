@@ -118,5 +118,6 @@
     "advantages": "OMTech Polar is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 50W adds headroom on panels and multi-pass jobs.",
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "discontinued": {}
 }

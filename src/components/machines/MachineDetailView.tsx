@@ -45,6 +45,8 @@ interface MachineDetailViewProps {
   hasTranslationBySlug: Record<string, boolean>;
   alternativesBySlug: Record<string, MachineAlternative[]>;
   compareDuelsBySlug: Record<string, MachineCompareDuel[]>;
+  /** Replacement profile for a discontinued machine (resolved server-side) */
+  successor?: { slug: string; name: string };
 }
 
 export function MachineDetailView({
@@ -56,6 +58,7 @@ export function MachineDetailView({
   hasTranslationBySlug,
   alternativesBySlug,
   compareDuelsBySlug,
+  successor,
 }: MachineDetailViewProps) {
   const router = useRouter();
   const m = dict.machine;
@@ -180,6 +183,33 @@ export function MachineDetailView({
               <p className="mt-2 text-sm text-stone-500 dark:text-stone-400">
                 {m.released} {formatReleaseDate(machine.releaseDate, locale)}
               </p>
+            )}
+            {machine.discontinued && (
+              <div className="mt-3 rounded-lg border border-stone-300 bg-stone-100 px-4 py-3 text-sm text-stone-700 dark:border-stone-600 dark:bg-stone-900 dark:text-stone-200">
+                <p className="font-semibold text-stone-900 dark:text-stone-100">{m.discontinuedTitle}</p>
+                <p className="mt-1">
+                  {interpolate(m.discontinuedBody, { brand: machine.brand })}
+                  {machine.discontinued.since && (
+                    <>
+                      {" "}
+                      {interpolate(m.discontinuedSince, {
+                        date: formatReleaseDate(machine.discontinued.since, locale),
+                      })}
+                    </>
+                  )}
+                </p>
+                {successor && (
+                  <p className="mt-1">
+                    <LocaleLink
+                      href={`/lasers/${successor.slug}`}
+                      locale={locale}
+                      className="font-medium text-amber-700 hover:underline dark:text-amber-400"
+                    >
+                      {interpolate(m.discontinuedSuccessor, { name: successor.name })} →
+                    </LocaleLink>
+                  </p>
+                )}
+              </div>
             )}
             {showContentNotice && (
               <p className="mt-3 rounded-lg border border-stone-200 bg-stone-50 px-4 py-3 text-sm text-stone-600 dark:border-stone-700 dark:bg-stone-950 dark:text-stone-300">

@@ -125,5 +125,8 @@
   ],
   "modelLine": "sculpfun-s9",
   "catalogHidden": true,
-  "releaseDate": "2021-06"
+  "releaseDate": "2021-06",
+  "discontinued": {
+    "successor": "sculpfun-s10-10w"
+  }
 }

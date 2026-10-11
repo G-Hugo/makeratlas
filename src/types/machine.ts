@@ -170,6 +170,13 @@ export interface Machine {
   lastUpdated: string;
   /** First retail availability : YYYY-MM or YYYY-MM-DD */
   releaseDate?: string;
+  /** No longer sold new by the brand; the profile stays online for used buyers */
+  discontinued?: {
+    /** YYYY-MM when we noticed it left the official store */
+    since?: string;
+    /** Slug of the replacement profile, when we have one */
+    successor?: string;
+  };
 }
 
 export interface GuideMeta {

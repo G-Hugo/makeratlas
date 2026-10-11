@@ -122,5 +122,8 @@
   "editorialDepth": {
     "advantages": "Sculpfun S9 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+  },
+  "discontinued": {
+    "successor": "sculpfun-s10-10w"
   }
 }

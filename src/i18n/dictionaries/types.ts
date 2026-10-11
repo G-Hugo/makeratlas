@@ -184,6 +184,11 @@ export type Dictionary = {
   };
   machine: {
     contentNotice: string;
+    discontinuedBadge: string;
+    discontinuedTitle: string;
+    discontinuedBody: string;
+    discontinuedSince: string;
+    discontinuedSuccessor: string;
     breadcrumbLasers: string;
     breadcrumbBrand: string;
     viewAllFromBrand: string;

@@ -118,8 +118,13 @@ export function MachineCard({
           className="pointer-events-none absolute inset-0 bg-gradient-to-t from-stone-950/25 via-transparent to-transparent"
           aria-hidden
         />
-        <div className="absolute left-3 top-3">
+        <div className="absolute left-3 top-3 flex flex-col items-start gap-1.5">
           <MachineWorkFocusBadge focus={workFocus} workFocusDict={dict.workFocus} />
+          {primary.discontinued && (
+            <span className="rounded-full bg-stone-800/90 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white shadow-md">
+              {dict.machine.discontinuedBadge}
+            </span>
+          )}
         </div>
         <div
           className={`absolute right-3 top-3 rounded-full bg-white/95 px-2.5 py-1 text-sm font-bold shadow-md ring-1 ring-stone-900/10 backdrop-blur-sm dark:bg-stone-950/92 dark:ring-stone-600/40 ${ratingColor(primary.rating.overall)}`}

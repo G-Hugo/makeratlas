@@ -27,7 +27,10 @@ export interface FinderMachine {
 }
 
 export function getFinderMachines(locale: Locale): FinderMachine[] {
-  return getCatalogEntries(locale).map(({ primary: m, displayName }) => ({
+  // The quiz recommends what you can buy new.
+  return getCatalogEntries(locale)
+    .filter(({ primary }) => !primary.discontinued)
+    .map(({ primary: m, displayName }) => ({
     slug: m.slug,
     name: displayName,
     brand: m.brand,

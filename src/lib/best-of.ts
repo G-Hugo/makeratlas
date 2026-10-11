@@ -391,7 +391,8 @@ export function getBestOfRanking(category: BestOfCategory, locale: Locale): Rank
   const score = category.score ?? ((m: Machine) => m.rating.overall);
 
   return getCatalogEntries(locale)
-    .filter((entry) => category.filter(entry.primary))
+    // Rankings are buying advice: discontinued machines stay in the catalog, not in the lists.
+    .filter((entry) => !entry.primary.discontinued && category.filter(entry.primary))
     .map((entry) => ({ entry, score: score(entry.primary) }))
     .sort(
       (a, b) =>

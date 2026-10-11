@@ -146,5 +146,6 @@
   "editorialDepth": {
     "advantages": "The 10W diode module on xTool D1 Pro is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
     "limitations": "Skip this module if you cut 5 mm+ stock daily: open the 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
-  }
+  },
+  "discontinued": {}
 }

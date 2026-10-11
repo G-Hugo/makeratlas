@@ -75,6 +75,12 @@ export default async function MachinePage({ params }: PageProps) {
   );
   const alternativesBySlug = { [machine.slug]: getMachineAlternatives(machine, locale) };
   const compareDuelsBySlug = { [machine.slug]: getMachineCompareDuels(machine, locale) };
+  const successorMachine = machine.discontinued?.successor
+    ? getMachineBySlug(machine.discontinued.successor, locale)
+    : undefined;
+  const successor = successorMachine
+    ? { slug: successorMachine.slug, name: successorMachine.name }
+    : undefined;
 
   return (
     <>
@@ -101,6 +107,7 @@ export default async function MachinePage({ params }: PageProps) {
         hasTranslationBySlug={hasTranslationBySlug}
         alternativesBySlug={alternativesBySlug}
         compareDuelsBySlug={compareDuelsBySlug}
+        successor={successor}
       />
     </>
   );

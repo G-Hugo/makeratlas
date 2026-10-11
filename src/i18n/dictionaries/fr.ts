@@ -187,6 +187,12 @@ export const fr: Dictionary = {
     bothDesc: "Gravure et découpe du quotidien",
   },
   machine: {
+    discontinuedBadge: "Arrêtée",
+    discontinuedTitle: "Machine arrêtée",
+    discontinuedBody:
+      "{brand} ne vend plus cette machine neuve. Nous gardons la fiche en ligne : on la trouve encore d’occasion et elle sert de point de repère.",
+    discontinuedSince: "Retirée de la boutique officielle vers {date}.",
+    discontinuedSuccessor: "Sa remplaçante : {name}",
     contentNotice:
       "Texte de cette fiche encore en anglais. L’interface et les guides sont en français ; traduction complète des profils en cours.",
     breadcrumbLasers: "Graveuses laser",

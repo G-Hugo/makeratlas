@@ -184,6 +184,12 @@ export const en: Dictionary = {
     bothDesc: "Handles everyday engraving and cutting jobs",
   },
   machine: {
+    discontinuedBadge: "Discontinued",
+    discontinuedTitle: "Discontinued",
+    discontinuedBody:
+      "{brand} no longer sells this machine new. We keep the profile online because it still turns up used and as a reference point.",
+    discontinuedSince: "Left the official store around {date}.",
+    discontinuedSuccessor: "Its replacement: {name}",
     contentNotice:
       "Profile text is in English for now. Interface and guides are available in French. Full French profiles are coming.",
     breadcrumbLasers: "Laser engravers",
