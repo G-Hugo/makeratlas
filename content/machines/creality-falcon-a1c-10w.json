@@ -1,0 +1,201 @@
+{
+  "id": "creality-falcon-a1c-10w",
+  "slug": "creality-falcon-a1c-10w",
+  "name": "Creality Falcon A1C 10W",
+  "brand": "Creality",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Class 1 enclosed mini diode with autofocus: a safe first laser for small gifts and coasters",
+  "tldr": "The Falcon A1C 10W is Creality's smallest enclosed laser: a 150 × 150 mm bed in a fully closed Class 1 box with a motorized lifting platform and auto-focus. It engraves cork, bamboo, slate, leather and plywood cleanly and cut 5 mm plywood in one pass in a hands-on test, barely. Small bed and plastic build are the trade-offs for the price.",
+  "mainObjective": "Safe, enclosed small-item engraving at home with light cutting on thin wood",
+  "bestFor": [
+    "First laser at home",
+    "Coasters & small gifts",
+    "Kids or pets nearby",
+    "Small desks"
+  ],
+  "priceRange": {
+    "min": 369,
+    "max": 399,
+    "currency": "USD",
+    "note": "$369 basic, $399 with AI camera on Creality's store (Oct 2026); launch price was $299"
+  },
+  "specs": {
+    "power": "10W diode (enclosed)",
+    "workArea": "150 × 150 mm (Z 148 mm)",
+    "dimensions": "336 × 377 × 341 mm",
+    "weight": "9.7–9.8 kg",
+    "software": [
+      "Falcon Design Space",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi (2.4 GHz)",
+      "Bluetooth"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "technical": {
+        "spotSize": "~0.08 × 0.20 mm",
+        "maxSpeed": "250 mm/s (15,000 mm/min)",
+        "avgEngraveSpeed": "65–165 mm/s fill",
+        "avgCutSpeed": "5–8 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Cork & bamboo",
+      "Leather",
+      "Slate",
+      "Fabric (denim, cotton)",
+      "Coated metal"
+    ],
+    "cut": [
+      "Basswood & plywood up to ~5 mm (one slow pass in testing)",
+      "Paper & card",
+      "Felt & fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Anything wider than 150 mm",
+      "Bare metal without the IR module",
+      "Thick production cutting"
+    ]
+  },
+  "pros": [
+    "Fully enclosed Class 1 box with lid interlock, flame detection, tilt sensor and USB safety key at an entry price",
+    "Motorized lifting bed and auto-focus: objects up to 148 mm tall without manual focus gauges",
+    "Arrives assembled: a hands-on reviewer was engraving on day one",
+    "Tool-free module swap: add the 1.2W IR head later for stainless, slate and black marble"
+  ],
+  "cons": [
+    "150 × 150 mm bed: coasters, tags and small boards only",
+    "Plastic build reflects the price; Wi-Fi is 2.4 GHz only and camera setup needs the phone app",
+    "Auto-focus must be run before each job and the software lets you start without it"
+  ],
+  "beginnerNotes": "This profile is the 10W SKU of the Falcon A1C. Compare it with the 5W: pick the 10W if you want to cut thin plywood or engrave faster; the enclosure, bed and software are identical. The AI camera version costs about $30 more and cannot be added later.",
+  "proTips": "Run the auto-focus before every job: the software does not force it. Use the presets as a starting point and test power on scrap, bamboo especially burns deeper than expected. For 5 mm plywood, slow down (around 300 mm/min at high power) and expect little margin.",
+  "primaryUse": "10W module · Creality Falcon A1C",
+  "rating": {
+    "overall": 7.9,
+    "value": 8.5,
+    "easeOfUse": 8.6,
+    "capability": 7.2,
+    "buildQuality": 7.6
+  },
+  "similarModels": [
+    "xtool-m2",
+    "sculpfun-icube-pro-10w",
+    "creality-falcon-a1-10w"
+  ],
+  "faq": [
+    {
+      "question": "Can the Falcon A1C cut wood?",
+      "answer": "Thin wood, yes. Creality does not publish a cutting figure, but a hands-on review cut 5 mm plywood in one pass with the 10W module at 90% power and 300 mm/min, with little margin. Treat 3 mm as comfortable and 5 mm as the limit."
+    },
+    {
+      "question": "Is the AI camera worth the extra cost?",
+      "answer": "If you engrave on existing objects (coasters, wallets, tags), yes: it makes placement much easier for about $30 more. It cannot be retrofitted to the basic version, so decide at purchase."
+    },
+    {
+      "question": "Can I upgrade from 5W to 10W later?",
+      "answer": "Yes. Creality sells the 10W diode module separately and the swap is tool-free. The optional 1.2W infrared module uses the same mount."
+    },
+    {
+      "question": "Can it engrave metal?",
+      "answer": "Coated metal with the diode, yes. For bare stainless steel, add the 1.2W IR (1064 nm) module: in testing it produced a clean dark mark on brushed stainless, slowly."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included",
+      "note": "Class 1 enclosure with lid interlock"
+    },
+    {
+      "id": "camera",
+      "availability": "optional",
+      "note": "AI camera version only: cannot be added after purchase"
+    },
+    {
+      "id": "smoke-filter",
+      "availability": "optional",
+      "note": "Sold in Creality's Home Clean Kit bundles"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-11",
+  "image": "/machines/creality-falcon-a1c-10w/01.webp",
+  "images": [
+    {
+      "src": "/machines/creality-falcon-a1c-10w/01.webp",
+      "alt": "Creality Falcon A1C 10W laser engraver: Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-a1c-10w/02.webp",
+      "alt": "Creality Falcon A1C front view with orange Class 1 lid: Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-a1c-10w/03.webp",
+      "alt": "Creality Falcon A1C with lid open and lifting bed: Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-a1c-10w/04.webp",
+      "alt": "Creality Falcon A1C side view with emergency stop: Creality"
+    },
+    {
+      "src": "/machines/creality-falcon-a1c-10w/05.webp",
+      "alt": "Creality Falcon A1C auto-lifting 150 × 150 × 148 mm work volume: Creality"
+    }
+  ],
+  "modelLine": "creality-falcon-a1c",
+  "powerRating": "10W",
+  "catalogPrimary": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Tool-free laser modules on the same A1C enclosure",
+    "description": "The Falcon A1C ships with a 5W or 10W diode module. Creality sells the 10W diode and a 1.2W 1064 nm infrared module separately; both clip onto the same head mount without tools. You run one module at a time: this is not a hybrid dual-source machine.",
+    "options": [
+      {
+        "power": "5W",
+        "laserKind": "diode",
+        "label": "5W diode",
+        "tierSlug": "creality-falcon-a1c-5w"
+      },
+      {
+        "power": "10W",
+        "laserKind": "diode",
+        "label": "10W diode",
+        "tierSlug": "creality-falcon-a1c-10w"
+      },
+      {
+        "power": "1.2W",
+        "laserKind": "infrared",
+        "label": "1.2W IR module (accessory)"
+      }
+    ]
+  },
+  "releaseDate": "2026-07",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 10W A1C is the version to buy if you want the enclosure for safety but still expect to cut ornaments, tags or 3 mm plywood shapes. Same box, bed and software as the 5W, with roughly twice the engraving speed on wood and real (if slow) cutting up to 5 mm.",
+    "limitations": "The 150 × 150 mm bed is the hard limit: no signs, no cutting boards, no batches of more than a few coasters. Build is plastic, Wi-Fi is 2.4 GHz only, and job time estimates ran about 25% short in independent testing."
+  }
+}

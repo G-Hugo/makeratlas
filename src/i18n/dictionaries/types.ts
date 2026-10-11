@@ -184,6 +184,7 @@ export type Dictionary = {
   };
   machine: {
     contentNotice: string;
+    galleryCount: string;
     discontinuedBadge: string;
     discontinuedTitle: string;
     discontinuedBody: string;

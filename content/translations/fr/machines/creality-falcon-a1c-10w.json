@@ -1,0 +1,113 @@
+{
+  "tagline": "Mini diode fermée classe 1 avec mise au point automatique : un premier laser sûr pour petits cadeaux et dessous de verre",
+  "tldr": "La Falcon A1C 10 W est le plus petit laser fermé de Creality : une surface de 150 × 150 mm dans un caisson classe 1 entièrement clos, avec plateau élévateur motorisé et mise au point automatique. Elle grave proprement le liège, le bambou, l’ardoise, le cuir et le contreplaqué, et a découpé du contreplaqué de 5 mm en une passe lors d’un test, de justesse. Petite surface et finition plastique sont la contrepartie du prix.",
+  "mainObjective": "Graver de petits objets à la maison en toute sécurité, avec une découpe légère du bois fin",
+  "primaryUse": "Module 10 W · Creality Falcon A1C",
+  "beginnerNotes": "Cette fiche décrit la version 10 W de la Falcon A1C. Comparez-la à la 5 W : prenez la 10 W si vous voulez découper du contreplaqué fin ou graver plus vite ; caisson, plateau et logiciel sont identiques. La version avec caméra IA coûte environ 30 $ de plus et la caméra ne peut pas être ajoutée ensuite.",
+  "proTips": "Lancez la mise au point automatique avant chaque travail : le logiciel ne l’impose pas. Partez des préréglages et testez la puissance sur une chute, le bambou en particulier brûle plus profond que prévu. Pour du contreplaqué de 5 mm, ralentissez (autour de 300 mm/min à forte puissance) et attendez-vous à une faible marge.",
+  "bestFor": [
+    "Premier laser à la maison",
+    "Dessous de verre et petits cadeaux",
+    "Enfants ou animaux à proximité",
+    "Petits bureaux"
+  ],
+  "pros": [
+    "Caisson classe 1 entièrement fermé avec verrouillage du capot, détection de flamme, capteur d’inclinaison et clé USB de sécurité, à un prix d’entrée de gamme",
+    "Plateau élévateur motorisé et mise au point automatique : objets jusqu’à 148 mm de haut sans cale de focale",
+    "Livrée assemblée : un testeur gravait dès le premier jour",
+    "Changement de module sans outil : ajoutez plus tard la tête infrarouge 1,2 W pour l’inox, l’ardoise et le marbre noir"
+  ],
+  "cons": [
+    "Surface de 150 × 150 mm : dessous de verre, étiquettes et petites planches uniquement",
+    "Finition plastique à la hauteur du prix ; Wi-Fi en 2,4 GHz seulement et caméra à configurer via l’application mobile",
+    "La mise au point automatique doit être relancée avant chaque travail et le logiciel permet de démarrer sans elle"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Liège et bambou",
+      "Cuir",
+      "Ardoise",
+      "Tissu (denim, coton)",
+      "Métal revêtu"
+    ],
+    "cut": [
+      "Tilleul et contreplaqué jusqu’à ~5 mm (une passe lente en test)",
+      "Papier et carton",
+      "Feutre et tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Tout objet de plus de 150 mm de large",
+      "Métal nu sans le module infrarouge",
+      "Découpe épaisse en production"
+    ]
+  },
+  "priceRange": {
+    "note": "369 $ en version de base, 399 $ avec caméra IA sur la boutique Creality (oct. 2026) ; prix de lancement 299 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "La Falcon A1C peut-elle découper du bois ?",
+      "answer": "Du bois fin, oui. Creality ne publie aucun chiffre de découpe, mais un test en conditions réelles a traversé du contreplaqué de 5 mm en une passe avec le module 10 W, à 90 % de puissance et 300 mm/min, avec peu de marge. Considérez 3 mm comme confortable et 5 mm comme la limite."
+    },
+    {
+      "question": "La caméra IA vaut-elle le supplément ?",
+      "answer": "Si vous gravez sur des objets existants (dessous de verre, portefeuilles, étiquettes), oui : le placement devient bien plus simple pour environ 30 $ de plus. Elle ne s’ajoute pas après coup sur la version de base, il faut donc trancher à l’achat."
+    },
+    {
+      "question": "Puis-je passer de 5 W à 10 W plus tard ?",
+      "answer": "Oui. Creality vend le module diode 10 W séparément et il se change sans outil. Le module infrarouge 1,2 W optionnel utilise le même support."
+    },
+    {
+      "question": "Peut-elle graver le métal ?",
+      "answer": "Le métal revêtu avec la diode, oui. Pour l’inox nu, ajoutez le module infrarouge 1,2 W (1064 nm) : en test, il a donné un marquage sombre et net sur de l’inox brossé, lentement."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser Creality Falcon A1C 10 W : Creality"
+    },
+    {
+      "alt": "Creality Falcon A1C vue de face, capot orange classe 1 : Creality"
+    },
+    {
+      "alt": "Creality Falcon A1C capot ouvert et plateau élévateur : Creality"
+    },
+    {
+      "alt": "Creality Falcon A1C vue de côté avec arrêt d’urgence : Creality"
+    },
+    {
+      "alt": "Creality Falcon A1C, volume de travail 150 × 150 × 148 mm à plateau élévateur : Creality"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Modules laser sans outil sur le même caisson A1C",
+    "description": "La Falcon A1C est livrée avec un module diode 5 W ou 10 W. Creality vend séparément la diode 10 W et un module infrarouge 1064 nm de 1,2 W ; tous deux se clipsent sur le même support de tête, sans outil. Un seul module fonctionne à la fois : ce n’est pas une machine hybride à double source.",
+    "options": [
+      {
+        "label": "Diode 5 W"
+      },
+      {
+        "label": "Diode 10 W"
+      },
+      {
+        "label": "Module IR 1,2 W (accessoire)"
+      }
+    ]
+  },
+  "editorialDepth": {
+    "advantages": "La A1C 10 W est la version à prendre si vous voulez le caisson pour la sécurité tout en comptant découper des décorations, des étiquettes ou des formes en contreplaqué de 3 mm. Même caisson, même plateau et même logiciel que la 5 W, avec une gravure environ deux fois plus rapide sur bois et une vraie découpe, lente, jusqu’à 5 mm.",
+    "limitations": "La surface de 150 × 150 mm est la limite dure : pas d’enseignes, pas de planches à découper, pas de séries de plus de quelques dessous de verre. La finition est en plastique, le Wi-Fi en 2,4 GHz seulement, et les estimations de durée étaient environ 25 % trop courtes lors d’un test indépendant."
+  }
+}

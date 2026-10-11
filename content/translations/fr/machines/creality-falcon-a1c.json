@@ -1,0 +1,84 @@
+{
+  "tagline": "Diode compacte fermée classe 1 avec modules interchangeables 5 W, 10 W et IR 1,2 W",
+  "tldr": "La Falcon A1C est le laser fermé d’entrée de gamme de Creality, lancé en juillet 2026 : une surface de 150 × 150 mm avec plateau élévateur motorisé et mise au point automatique dans un caisson classe 1 entièrement clos. Elle est livrée avec une diode 5 W ou 10 W, avec ou sans caméra IA ; un module infrarouge 1,2 W est vendu à part pour le métal nu. Ouvrez une puissance pour les caractéristiques et les mesures exactes.",
+  "mainObjective": "Graver de petits objets à la maison en toute sécurité, avec une évolution par modules",
+  "primaryUse": "Diode compacte fermée pour petits cadeaux, dessous de verre et objets personnalisés à la maison.",
+  "beginnerNotes": "Cette vue d’ensemble couvre toute la gamme Falcon A1C. Prenez la 10 W si vous comptez découper du bois fin, la 5 W si vous gravez seulement. Décidez pour la caméra IA à l’achat : elle ne s’ajoute pas ensuite.",
+  "proTips": "Lancez la mise au point automatique avant chaque travail. Testez les préréglages sur une chute, le bambou et le liège réagissent fort. Ajoutez le module infrarouge 1,2 W plutôt qu’une bombe de marquage si vous gravez régulièrement de l’inox.",
+  "bestFor": [
+    "Premier laser à la maison",
+    "Dessous de verre et petits cadeaux",
+    "Enfants ou animaux à proximité",
+    "Petits bureaux"
+  ],
+  "pros": [
+    "Caisson classe 1 entièrement fermé avec verrouillage du capot, détection de flamme et capteur d’inclinaison, à prix d’entrée de gamme",
+    "Plateau élévateur motorisé et mise au point automatique pour des objets jusqu’à 148 mm de haut",
+    "Modules interchangeables sans outil : diode 5 W, 10 W et IR 1,2 W sur le même caisson"
+  ],
+  "cons": [
+    "Surface de 150 × 150 mm : petits objets uniquement",
+    "Finition plastique ; Wi-Fi en 2,4 GHz seulement",
+    "La caméra IA ne s’ajoute pas après l’achat"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Liège et bambou",
+      "Cuir",
+      "Ardoise",
+      "Tissu (denim, coton)",
+      "Métal revêtu"
+    ],
+    "cut": [
+      "Tilleul et contreplaqué jusqu’à ~5 mm (10 W, une passe lente)",
+      "Papier et carton",
+      "Feutre et tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Tout objet de plus de 150 mm de large",
+      "Métal nu sans le module infrarouge",
+      "Découpe épaisse en production"
+    ]
+  },
+  "priceRange": {
+    "note": "De 269 $ (5 W de base) à 399 $ (10 W avec caméra IA) sur la boutique Creality (oct. 2026) ; lancée à 199 $ / 299 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle Falcon A1C choisir, 5 W ou 10 W ?",
+      "answer": "La 10 W si vous voulez découper des décorations ou du contreplaqué fin (jusqu’à environ 5 mm en une passe lente lors d’un test). La 5 W si vous gravez seulement et voulez le prix le plus bas ; le module 10 W peut s’ajouter plus tard."
+    },
+    {
+      "question": "Quelle différence entre la version de base et la version caméra IA ?",
+      "answer": "La version caméra IA ajoute une caméra HD intégrée pour placer les motifs sur les objets et reconnaître les matériaux, pour environ 30 $ de plus. Elle ne peut pas être ajoutée plus tard sur une machine de base."
+    }
+  ],
+  "images": [
+    { "alt": "Graveuse laser Creality Falcon A1C : Creality" },
+    { "alt": "Creality Falcon A1C vue de face, capot orange classe 1 : Creality" },
+    { "alt": "Creality Falcon A1C capot ouvert et plateau élévateur : Creality" },
+    { "alt": "Creality Falcon A1C vue de côté avec arrêt d’urgence : Creality" },
+    { "alt": "Creality Falcon A1C, volume de travail 150 × 150 × 148 mm à plateau élévateur : Creality" }
+  ],
+  "moduleSystem": {
+    "headline": "Modules laser sans outil sur le même caisson A1C",
+    "description": "La Falcon A1C est livrée avec un module diode 5 W ou 10 W. Creality vend séparément la diode 10 W et un module infrarouge 1064 nm de 1,2 W ; tous deux se clipsent sur le même support de tête, sans outil. Un seul module fonctionne à la fois : ce n’est pas une machine hybride à double source.",
+    "options": [
+      { "label": "Diode 5 W" },
+      { "label": "Diode 10 W" },
+      { "label": "Module IR 1,2 W (accessoire)" }
+    ]
+  }
+}

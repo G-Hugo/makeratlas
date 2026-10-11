@@ -1,0 +1,94 @@
+{
+  "tagline": "Diode fermée 21 W sur portique CoreXY, caméra et pompe à air fournies, module infrarouge en option",
+  "tldr": "La Sculpfun E1 Pro monte une diode 21 W sur un portique CoreXY, dans un caisson classe 1 avec une surface de travail de 400 × 320 mm, une caméra intégrée, une pompe à air et un plateau nid d’abeille. Sculpfun annonce une gravure à 600 mm/s et 12 mm de bois en une passe. La version Dual ajoute un module infrarouge 1064 nm de 3 W interchangeable pour le métal. Sortie en juin 2026 ; pas encore de test indépendant approfondi.",
+  "mainObjective": "Graver et découper le bois dans un caisson fermé, sur une surface moyenne, au prix d’une machine ouverte",
+  "primaryUse": "Module 21 W · Sculpfun E1 Pro",
+  "beginnerNotes": "Cette fiche décrit l’E1 Pro (21 W) de la gamme Sculpfun E1. Comparez-la à l’E1 12 W : prenez l’E1 Pro si vous comptez découper du bois régulièrement. La version Dual ne vaut le coup que si vous voulez marquer du métal nu : le module infrarouge s’achète aussi plus tard.",
+  "proTips": "Laissez la pompe à air en marche à chaque découpe et vérifiez la mise au point à la cale avant chaque travail, faute de mise au point automatique. Pour les objets hauts, retirez le nid d’abeille ou ajoutez les rehausses métalliques vendues par Sculpfun pour la série E1. Évacuez les fumées dehors ou ajoutez le purificateur SP1.",
+  "bestFor": [
+    "Caisson fermé à petit budget",
+    "Découpe du bois",
+    "Petite entreprise",
+    "Atelier à la maison"
+  ],
+  "pros": [
+    "Caisson classe 1 avec capteur de capot, arrêt d’urgence et clé de sécurité, au prix d’une machine ouverte",
+    "21 W sur portique CoreXY : gravure rapide et vraie découpe diode dans le même caisson",
+    "Caméra, pompe à air et plateau nid d’abeille fournis, rien à assembler",
+    "Module infrarouge 3 W interchangeable (version Dual ou accessoire à 499 $) pour marquer métal nu et plastiques"
+  ],
+  "cons": [
+    "Seulement 30 mm de hauteur utile avec le nid d’abeille (42 mm sans) : pas de gobelets sans rehausse",
+    "Mise au point manuelle : aucune mise au point automatique annoncée",
+    "Modèle récent : les chiffres de découpe sont ceux de Sculpfun, pas encore de test indépendant approfondi"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique foncé",
+      "Pierre et céramique",
+      "Métal revêtu",
+      "Métal nu et plastiques (avec le module infrarouge)"
+    ],
+    "cut": [
+      "Tilleul et contreplaqué jusqu’à 12 mm (annoncé, une passe)",
+      "Acrylique foncé (fin)",
+      "Cuir",
+      "Papier et tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Objets de plus de 42 mm de haut (30 mm avec le nid d’abeille)",
+      "Production d’acrylique au niveau d’un CO₂"
+    ]
+  },
+  "priceRange": {
+    "note": "849 $ en simple 21 W, 1 149 $ en Dual avec module infrarouge 3 W (boutique Sculpfun, oct. 2026)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle différence entre la Sculpfun E1 et l’E1 Pro ?",
+      "answer": "Même caisson, même portique CoreXY, même surface de 400 × 320 mm et même caméra. L’E1 a une diode 12 W (8 mm de bois par passe annoncés), l’E1 Pro une diode 21 W (12 mm annoncés). L’E1 Pro coûte 350 $ de plus."
+    },
+    {
+      "question": "Qu’apporte la version Dual ?",
+      "answer": "Un module infrarouge 1064 nm de 3 W qui se monte à la place de la tête diode. Il marque les métaux nus (inox, or, argent, aluminium) et les plastiques avec un point de 0,03 mm. Il est aussi vendu seul, 499 $."
+    },
+    {
+      "question": "L’E1 Pro peut-elle découper de l’acrylique transparent ?",
+      "answer": "Non. Comme toute diode bleue, son faisceau traverse l’acrylique transparent. L’acrylique foncé et opaque se découpe en plaques fines ; pour le transparent, il faut un laser CO₂."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée Sculpfun E1 Pro 21 W : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun E1 Pro vue de face : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun E1 Pro dans un atelier à la maison : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun E1 Pro, échange des modules diode 21 W et infrarouge 3 W : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun E1 Pro, contenu du carton : Sculpfun"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "L’E1 Pro apporte 21 W de découpe dans un caisson classe 1 fermé pour bien moins de 1 000 $, caméra et pompe à air comprises. Le portique CoreXY est conçu pour la vitesse, et la surface de 400 × 320 mm couvre la plupart des enseignes, boîtes et séries de dessous de verre.",
+    "limitations": "La hauteur utile est faible (30 mm avec le nid d’abeille), la mise au point est manuelle et les 12 mm de découpe sont un chiffre du fabricant. L’acrylique transparent reste hors de portée, comme avec toute diode."
+  }
+}

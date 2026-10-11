@@ -184,6 +184,7 @@ export const en: Dictionary = {
     bothDesc: "Handles everyday engraving and cutting jobs",
   },
   machine: {
+    galleryCount: "{count} manufacturer photos",
     discontinuedBadge: "Discontinued",
     discontinuedTitle: "Discontinued",
     discontinuedBody:

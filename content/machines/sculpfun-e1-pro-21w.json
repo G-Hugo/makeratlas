@@ -1,0 +1,180 @@
+{
+  "id": "sculpfun-e1-pro-21w",
+  "slug": "sculpfun-e1-pro-21w",
+  "name": "Sculpfun E1 Pro 21W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Enclosed 21W CoreXY diode with camera and air pump included, IR module optional",
+  "tldr": "The Sculpfun E1 Pro puts a 21W diode on a CoreXY gantry inside a Class 1 enclosure with a 400 × 320 mm work area, built-in camera, air pump and honeycomb bed. Sculpfun claims 600 mm/s engraving and 12 mm wood in one pass. A Dual bundle adds a swappable 3W 1064 nm IR module for metal. Launched June 2026; no in-depth independent review yet.",
+  "mainObjective": "Enclosed diode engraving and wood cutting on a mid-size bed at an open-frame price",
+  "bestFor": [
+    "Enclosed on a budget",
+    "Wood cutting",
+    "Small business",
+    "Home workshop"
+  ],
+  "priceRange": {
+    "min": 849,
+    "max": 1149,
+    "currency": "USD",
+    "note": "$849 single 21W, $1,149 Dual with 3W IR module (Sculpfun store, Oct 2026)"
+  },
+  "specs": {
+    "power": "21W diode (enclosed)",
+    "workArea": "400 × 320 mm",
+    "dimensions": "590 × 500 × 205 mm",
+    "software": [
+      "Sculpfun Space",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi (app)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–11 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "technical": {
+        "spotSize": "~0.06 × 0.08 mm",
+        "maxSpeed": "600 mm/s (36,000 mm/min)",
+        "avgEngraveSpeed": "100–250 mm/s fill",
+        "avgCutSpeed": "8–15 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Dark acrylic",
+      "Stone & ceramics",
+      "Coated metal",
+      "Bare metal & plastics (with IR module)"
+    ],
+    "cut": [
+      "Basswood & plywood up to 12 mm (claimed, one pass)",
+      "Dark acrylic (thin)",
+      "Leather",
+      "Paper & fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Objects taller than 42 mm (30 mm with honeycomb)",
+      "CO₂-level acrylic production"
+    ]
+  },
+  "pros": [
+    "Class 1 enclosure with lid sensor, emergency stop and safety key at an open-frame price",
+    "21W on a CoreXY gantry: fast engraving and serious diode cutting in the same box",
+    "Camera, air pump and honeycomb bed included, with nothing to assemble",
+    "Swappable 3W IR module (Dual bundle or $499 add-on) marks bare metal and plastics"
+  ],
+  "cons": [
+    "Only 30 mm of clearance with the honeycomb (42 mm without): no tumblers without a riser",
+    "Manual focus: no auto-focus advertised",
+    "New model: cutting claims are Sculpfun's, no in-depth independent review yet"
+  ],
+  "beginnerNotes": "This profile is the E1 Pro (21W) in the Sculpfun E1 line. Compare it with the 12W E1: choose the E1 Pro if you plan to cut wood regularly. The Dual bundle is worth it only if you want to mark bare metal: the IR module can also be bought later.",
+  "proTips": "Keep the air pump on for every cut and check focus with the gauge before each job, since there is no auto-focus. For tall objects, remove the honeycomb or add the metal risers Sculpfun sells for the E1 series. Vent the exhaust outside or add the SP1 purifier.",
+  "primaryUse": "21W module · Sculpfun E1 Pro",
+  "rating": {
+    "overall": 8,
+    "value": 8.1,
+    "easeOfUse": 8.3,
+    "capability": 7.6,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "sculpfun-e1-12w",
+    "wecreat-vision",
+    "xtool-s1-20w"
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between the Sculpfun E1 and E1 Pro?",
+      "answer": "Same enclosure, CoreXY gantry, 400 × 320 mm work area and camera. The E1 has a 12W diode (8 mm wood per pass claimed), the E1 Pro a 21W diode (12 mm claimed). The E1 Pro costs $350 more."
+    },
+    {
+      "question": "What does the Dual version add?",
+      "answer": "A 3W 1064 nm infrared module that swaps with the diode head. It marks bare metals (stainless, gold, silver, aluminum) and plastics with a 0.03 mm spot. It is also sold separately for $499."
+    },
+    {
+      "question": "Can the E1 Pro cut clear acrylic?",
+      "answer": "No. Like every blue diode, it passes through clear acrylic. Dark and opaque acrylic can be cut in thin sheets; clear acrylic needs a CO₂ laser."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included",
+      "note": "Class 1 enclosure with Hall-sensor lid stop"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included",
+      "note": "Air pump in the box"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "included",
+      "note": "Pre-installed"
+    },
+    {
+      "id": "smoke-filter",
+      "availability": "optional",
+      "note": "Sculpfun SP1 purifier"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-11",
+  "image": "/machines/sculpfun-e1-pro-21w/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-e1-pro-21w/01.webp",
+      "alt": "Sculpfun E1 Pro 21W enclosed laser engraver: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1-pro-21w/02.webp",
+      "alt": "Sculpfun E1 Pro front view: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1-pro-21w/03.webp",
+      "alt": "Sculpfun E1 Pro in a home workspace: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1-pro-21w/04.webp",
+      "alt": "Sculpfun E1 Pro swapping the 21W diode and 3W IR modules: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1-pro-21w/05.webp",
+      "alt": "Sculpfun E1 Pro package contents: Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-e1",
+  "powerRating": "21W",
+  "catalogPrimary": true,
+  "releaseDate": "2026-06",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The E1 Pro brings 21W cutting power into a closed Class 1 box for well under $1,000, with camera and air pump included. The CoreXY gantry is built for speed, and the 400 × 320 mm area covers most signs, boxes and batches of coasters.",
+    "limitations": "Clearance is shallow (30 mm with the honeycomb), focus is manual, and the 12 mm cutting figure is a manufacturer claim. Clear acrylic remains out of reach, as with any diode."
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "id": "omtech-polar-2-70w",
+  "slug": "omtech-polar-2-70w",
+  "name": "OMTech Polar 2 70W",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Desktop CO₂ with a 28 × 14 in bed, 70W glass tube and built-in water cooling",
+  "tldr": "The Polar 2 70W replaces the original Polar with a much larger 710 × 360 mm bed, a 70W glass CO₂ tube cooled by an internal 4.3 L water loop, a 16 MP full-bed camera, one-touch auto-focus and a rotary in the box. It is the cutting-first, lower-cost half of the Polar 2 line; the 50W RF version engraves faster and finer. No independent long-term review yet.",
+  "mainObjective": "Desktop CO₂ cutting of acrylic and wood on a bigger bed, without an external chiller",
+  "bestFor": [
+    "Acrylic signs",
+    "Thicker wood cutting",
+    "Small business",
+    "Upgrading from diode"
+  ],
+  "priceRange": {
+    "min": 3699.99,
+    "max": 3699.99,
+    "currency": "USD",
+    "note": "OMTech store price (Oct 2026), list $5,199.99; package includes rotary, LightBurn key and exhaust kit"
+  },
+  "specs": {
+    "power": "70W CO₂ glass tube",
+    "workArea": "710 × 360 mm (28 × 14 in)",
+    "dimensions": "~1178 × 693 × 363 mm",
+    "software": [
+      "LightBurn",
+      "RDWorks V8"
+    ],
+    "connectivity": [
+      "USB",
+      "U-disk",
+      "Ethernet",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–2 min"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "1,200 mm/s",
+        "avgEngraveSpeed": "200–450 mm/s fill",
+        "avgCutSpeed": "15–40 mm/s on 3 mm acrylic"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Stone & slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Clear and coloured acrylic up to ~10 mm (estimate)",
+      "Plywood & hardwood up to ~10 mm (estimate)",
+      "Leather",
+      "Fabric & felt"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Sheets longer than the bed (no pass-through)",
+      "Use without venting smoke outside"
+    ]
+  },
+  "pros": [
+    "710 × 360 mm bed: about 60% more area than the original Polar, on a desk",
+    "Internal 4.3 L closed water loop: no separate chiller or bucket to plumb",
+    "Complete package: 16 MP full-bed camera, auto-focus, air assist, exhaust fan, rotary and LightBurn key",
+    "Most raw cutting wattage for the money in the Polar 2 line"
+  ],
+  "cons": [
+    "Glass tube rated around 10,000 hours versus 30,000 for the RF version: plan a replacement",
+    "No pass-through, so long sheets must be cut down first",
+    "Brand-new model: no independent long-term review yet, specs are OMTech's"
+  ],
+  "beginnerNotes": "This profile is the 70W glass-tube SKU of the Polar 2. Compare it with the 50W RF: choose the 70W if cutting acrylic and wood is most of your work and budget matters. Both share the same chassis, camera and software.",
+  "proTips": "Check the coolant level and temperature before long cutting runs, even with the internal loop. Use the camera for job placement but verify alignment with a test mark. Duct the exhaust outside: the built-in fan moves smoke, it does not filter it.",
+  "primaryUse": "70W glass tube · OMTech Polar 2",
+  "rating": {
+    "overall": 8.3,
+    "value": 8,
+    "easeOfUse": 7.9,
+    "capability": 8.6,
+    "buildQuality": 8.2
+  },
+  "similarModels": [
+    "omtech-polar-2-50w-rf",
+    "xtool-p2s",
+    "monport-reno45-pro-45w"
+  ],
+  "faq": [
+    {
+      "question": "70W glass or 50W RF: which Polar 2 should I choose?",
+      "answer": "The 70W glass tube cuts thicker material for $1,300 less. The 50W RF tube engraves faster (up to 2,000 mm/s), with a finer spot and a tube rated for about three times longer, and needs no water loop. Cutting-first shops lean 70W; photo and detail engraving lean RF."
+    },
+    {
+      "question": "Does the Polar 2 70W need a water chiller?",
+      "answer": "Not a separate one: OMTech lists an internal 4.3 L closed-loop water cooling system. You still need to keep the coolant topped up and the room temperature reasonable."
+    },
+    {
+      "question": "Is the Polar 2 a replacement for the original Polar?",
+      "answer": "Yes. The original Polar 50W (400 × 300 mm) is no longer sold new by OMTech; the Polar 2 keeps the desktop format with a 710 × 360 mm bed."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included",
+      "note": "16 MP full-bed camera"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "included",
+      "note": "Integrated exhaust fan and pipe: duct it outside"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "included",
+      "note": "Standard rotary in the package"
+    },
+    {
+      "id": "lightburn",
+      "availability": "included",
+      "note": "LightBurn key in the OMTech package"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-11",
+  "image": "/machines/omtech-polar-2-70w/01.webp",
+  "images": [
+    {
+      "src": "/machines/omtech-polar-2-70w/01.webp",
+      "alt": "OMTech Polar 2 desktop CO₂ laser: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2-70w/02.webp",
+      "alt": "OMTech Polar 2 front view: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2-70w/03.webp",
+      "alt": "OMTech Polar 2 with lid open showing the gantry: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2-70w/04.webp",
+      "alt": "OMTech Polar 2 open lid, front view: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2-70w/05.webp",
+      "alt": "OMTech Polar 2 28 × 14 in work area: OMTech"
+    }
+  ],
+  "modelLine": "omtech-polar-2",
+  "powerRating": "70W",
+  "catalogPrimary": true,
+  "releaseDate": "2026-07",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The Polar 2 70W fixes the original Polar's main limit, its small bed, while keeping a desktop footprint. With the water loop built in and camera, auto-focus, rotary and LightBurn included, it is close to a turnkey CO₂ for acrylic signage, wooden boxes and small production runs.",
+    "limitations": "A glass tube wears out faster than an RF source and is slower on fine engraving. There is no pass-through, the machine is large for a desk (about 1.2 m wide), and smoke must be vented outside. Specs are manufacturer figures until independent reviews arrive."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "id": "sculpfun-e1",
+  "slug": "sculpfun-e1",
+  "name": "Sculpfun E1",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Sculpfun's enclosed CoreXY diode line: 12W E1 or 21W E1 Pro, IR module optional",
+  "tldr": "The Sculpfun E1 line, launched in June 2026, packs a CoreXY gantry, a 400 × 320 mm work area, a built-in camera, an air pump and a honeycomb bed into a Class 1 enclosure. Two diode powers: 12W (E1, $499) and 21W (E1 Pro, $849). Dual bundles add a swappable 3W 1064 nm IR module for metal. Open a power tier for exact specs.",
+  "mainObjective": "Enclosed diode engraving and wood cutting on a mid-size bed at an open-frame price",
+  "bestFor": [
+    "Enclosed on a budget",
+    "Home workshop",
+    "Wood & leather",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 499,
+    "max": 1149,
+    "currency": "USD",
+    "note": "E1 12W $499 to E1 Pro Dual (21W + 3W IR) $1,149 on Sculpfun's store (Oct 2026)"
+  },
+  "specs": {
+    "power": "12W / 21W diode (enclosed)",
+    "workArea": "400 × 320 mm",
+    "dimensions": "590 × 500 × 205 mm",
+    "software": [
+      "Sculpfun Space",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi (app)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–11 min (21W)"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min (21W)"
+      },
+      "technical": {
+        "spotSize": "~0.06 × 0.08 mm (21W)",
+        "maxSpeed": "600 mm/s (36,000 mm/min)",
+        "avgEngraveSpeed": "70–250 mm/s fill (12W–21W)",
+        "avgCutSpeed": "4–15 mm/s on 3 mm wood (12W–21W)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Dark acrylic",
+      "Stone & ceramics",
+      "Coated metal",
+      "Bare metal & plastics (with IR module)"
+    ],
+    "cut": [
+      "Basswood & plywood up to 8 mm (12W) or 12 mm (21W), claimed",
+      "Dark acrylic (thin)",
+      "Leather",
+      "Paper & fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Objects taller than 42 mm (30 mm with honeycomb)",
+      "CO₂-level acrylic production"
+    ]
+  },
+  "pros": [
+    "Class 1 enclosure with a 400 × 320 mm work area from $499",
+    "Camera, air pump and honeycomb bed included in every version",
+    "Optional swappable 3W IR module for bare metal"
+  ],
+  "cons": [
+    "Shallow clearance: 30 mm with the honeycomb",
+    "Manual focus",
+    "New line: cutting figures are manufacturer claims"
+  ],
+  "beginnerNotes": "This overview covers the whole Sculpfun E1 line. Pick the 12W E1 for engraving-first use, the 21W E1 Pro if you cut wood regularly. Take a Dual bundle only if you want bare-metal marking.",
+  "proTips": "Keep the air pump on for cuts, check focus before each job and vent the exhaust outside or add the SP1 purifier.",
+  "primaryUse": "Enclosed CoreXY diode laser for home workshops and small businesses.",
+  "rating": {
+    "overall": 8,
+    "value": 8.1,
+    "easeOfUse": 8.3,
+    "capability": 7.6,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "wecreat-vision",
+    "xtool-s1-20w",
+    "sculpfun-icube-pro-10w"
+  ],
+  "faq": [
+    {
+      "question": "E1 or E1 Pro?",
+      "answer": "Same enclosure, gantry, camera and bed. The E1 has a 12W diode, the E1 Pro a 21W diode for faster and thicker cuts, for $350 more."
+    },
+    {
+      "question": "What does the Dual version add?",
+      "answer": "A 3W 1064 nm infrared module that swaps with the diode head to mark bare metals and plastics. It is also sold separately for $499."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-11",
+  "image": "/machines/sculpfun-e1/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-e1/01.webp",
+      "alt": "Sculpfun E1 enclosed laser engraver: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1/02.webp",
+      "alt": "Sculpfun E1 front view: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1/03.webp",
+      "alt": "Sculpfun E1 in a home workspace: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1/04.webp",
+      "alt": "Sculpfun E1 swapping the diode and 3W IR modules: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1/05.webp",
+      "alt": "Sculpfun E1 Pro package contents: Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-e1",
+  "catalogHidden": true,
+  "releaseDate": "2026-06"
+}

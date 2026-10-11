@@ -1,0 +1,175 @@
+{
+  "id": "sculpfun-e1-12w",
+  "slug": "sculpfun-e1-12w",
+  "name": "Sculpfun E1 12W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Enclosed 12W CoreXY diode with camera and air pump for $499",
+  "tldr": "The Sculpfun E1 is the entry version of the E1 line: the same Class 1 enclosure, CoreXY gantry, 400 × 320 mm work area, camera, air pump and honeycomb bed as the E1 Pro, with a 12W diode. Sculpfun claims 8 mm wood in one pass and 600 mm/s engraving. A Dual bundle adds a swappable 3W IR module. Launched June 2026.",
+  "mainObjective": "Affordable enclosed engraving with light wood cutting on a mid-size bed",
+  "bestFor": [
+    "Enclosed on a budget",
+    "Engraving-focused",
+    "Home workshop",
+    "Gifts & small batches"
+  ],
+  "priceRange": {
+    "min": 499,
+    "max": 949,
+    "currency": "USD",
+    "note": "$499 single 12W, $949 Dual with 3W IR module (Sculpfun store, Oct 2026)"
+  },
+  "specs": {
+    "power": "12W diode (enclosed)",
+    "workArea": "400 × 320 mm",
+    "dimensions": "590 × 500 × 205 mm",
+    "software": [
+      "Sculpfun Space",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi (app)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~10–15 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "600 mm/s (36,000 mm/min)",
+        "avgEngraveSpeed": "70–180 mm/s fill",
+        "avgCutSpeed": "4–9 mm/s on 3 mm wood"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Dark acrylic",
+      "Stone & ceramics",
+      "Coated metal",
+      "Bare metal & plastics (with IR module)"
+    ],
+    "cut": [
+      "Basswood & plywood up to 8 mm (claimed, one pass)",
+      "Dark acrylic (thin)",
+      "Leather",
+      "Paper & fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Objects taller than 42 mm (30 mm with honeycomb)",
+      "Thick production cutting"
+    ]
+  },
+  "pros": [
+    "One of the cheapest Class 1 enclosed lasers with a 400 × 320 mm work area",
+    "Camera, air pump and honeycomb bed included at $499",
+    "Same chassis and safety features as the E1 Pro: lid sensor, emergency stop, safety key",
+    "Swappable 3W IR module (Dual bundle or $499 add-on) for bare metal"
+  ],
+  "cons": [
+    "12W cuts noticeably slower than the 21W E1 Pro on wood",
+    "Only 30 mm of clearance with the honeycomb (42 mm without)",
+    "Manual focus; cutting claims are Sculpfun's, not yet independently tested"
+  ],
+  "beginnerNotes": "This profile is the 12W E1 in the Sculpfun E1 line. It suits engraving-first users who want an enclosure and a decent bed without spending $800+. Compare it with the 21W E1 Pro if you know you will cut wood every week: it is worth the extra $350.",
+  "proTips": "Use several moderate passes rather than one slow pass for 5 mm+ wood. Keep the air pump on for cuts. Check focus manually before each job and remove the honeycomb for thicker objects.",
+  "primaryUse": "12W module · Sculpfun E1",
+  "rating": {
+    "overall": 7.8,
+    "value": 8.4,
+    "easeOfUse": 8.3,
+    "capability": 7.2,
+    "buildQuality": 7.9
+  },
+  "similarModels": [
+    "sculpfun-e1-pro-21w",
+    "sculpfun-icube-pro-10w",
+    "xtool-m2"
+  ],
+  "faq": [
+    {
+      "question": "Should I buy the E1 12W or the E1 Pro 21W?",
+      "answer": "The 12W if you mostly engrave and cut occasionally (up to 8 mm wood claimed). The 21W E1 Pro if cutting is a regular part of your work (up to 12 mm claimed). Everything else is shared."
+    },
+    {
+      "question": "Can I add the infrared module later?",
+      "answer": "Yes. Sculpfun sells the IR3 3W 1064 nm module for the E1 series separately ($499). It swaps with the diode head and marks bare metal and plastics."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included",
+      "note": "Class 1 enclosure with Hall-sensor lid stop"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included",
+      "note": "Air pump in the box"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "included",
+      "note": "Pre-installed"
+    },
+    {
+      "id": "smoke-filter",
+      "availability": "optional",
+      "note": "Sculpfun SP1 purifier"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-11",
+  "image": "/machines/sculpfun-e1-12w/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-e1-12w/01.webp",
+      "alt": "Sculpfun E1 12W enclosed laser engraver: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1-12w/02.webp",
+      "alt": "Sculpfun E1 front view: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1-12w/03.webp",
+      "alt": "Sculpfun E1 swapping the 12W diode and 3W IR modules: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1-12w/04.webp",
+      "alt": "Sculpfun E1 built-in camera for positioning: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-e1-12w/05.webp",
+      "alt": "Sculpfun E1 12W module engraving at 600 mm/s: Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-e1",
+  "powerRating": "12W",
+  "releaseDate": "2026-06",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 12W E1 is the budget door into the E1 enclosure: for $499 you get the camera, air pump, CoreXY gantry and a 400 × 320 mm bed, which is large for an enclosed machine at this price. Engraving quality on wood, leather and stone does not depend much on the extra watts.",
+    "limitations": "Cutting is where the 12W shows its limits against the E1 Pro: more passes, slower jobs. Clearance is shallow, focus is manual, and like every diode it cannot cut clear acrylic."
+  }
+}

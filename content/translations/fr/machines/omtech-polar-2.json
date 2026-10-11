@@ -1,0 +1,75 @@
+{
+  "tagline": "CO₂ de bureau avec surface de 710 × 360 mm : tube verre 70 W ou tube RF 50 W",
+  "tldr": "La Polar 2, lancée en juillet 2026, succède à la première Polar avec une surface de 710 × 360 mm, une caméra 16 Mpx couvrant tout le plateau, une mise au point automatique en une touche, l’assistance d’air, un extracteur et un module rotatif fournis. Deux sources : un tube verre 70 W refroidi à l’eau (3 699,99 $) pour la découpe, ou un tube RF 50 W refroidi par air (4 999,99 $) pour une gravure rapide et fine. Ouvrez une version pour les caractéristiques exactes.",
+  "mainObjective": "Un CO₂ de bureau complet pour l’acrylique et le bois, sur un plateau plus grand",
+  "primaryUse": "Laser CO₂ de bureau pour l’acrylique, le bois et la production d’une petite entreprise.",
+  "beginnerNotes": "Cette vue d’ensemble couvre toute la gamme Polar 2. Prenez la version verre 70 W si vous découpez surtout de l’acrylique et du bois, la version RF 50 W si vous gravez surtout et voulez un minimum d’entretien.",
+  "proTips": "Prévoyez le chemin d’évacuation des fumées avant la livraison. Sur la version verre, surveillez le liquide de refroidissement interne ; sur la version RF, gardez les entrées d’air propres.",
+  "bestFor": [
+    "Enseignes en acrylique",
+    "Petite entreprise",
+    "Passer de la diode au CO₂",
+    "Gravure en série"
+  ],
+  "pros": [
+    "Surface bien plus grande que la première Polar tout en restant une machine de bureau",
+    "Caméra, mise au point automatique, assistance d’air, extracteur, module rotatif et licence LightBurn inclus",
+    "Choix du tube : verre pour la découpe au meilleur prix, RF pour la vitesse de gravure et la longévité"
+  ],
+  "cons": [
+    "Pas de trappe traversante",
+    "Environ 1,2 m de large : il faut une table solide et une évacuation vers l’extérieur",
+    "Modèle récent : chiffres d’OMTech en attendant des tests indépendants"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Pierre et ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Acrylique jusqu’à ~8–10 mm selon le tube (estimation)",
+      "Contreplaqué et bois dur jusqu’à ~8–10 mm (estimation)",
+      "Cuir",
+      "Tissu et feutre"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Plaques plus longues que le plateau (pas de trappe traversante)",
+      "Usage sans évacuation des fumées vers l’extérieur"
+    ]
+  },
+  "priceRange": {
+    "note": "Verre 70 W à 3 699,99 $, RF 50 W à 4 999,99 $ sur la boutique OMTech (oct. 2026)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Tube verre 70 W ou RF 50 W ?",
+      "answer": "Le verre pour découper plus épais à moindre prix ; le RF pour une gravure plus rapide et plus fine, une durée de vie annoncée environ trois fois plus longue et un refroidissement par air."
+    },
+    {
+      "question": "La Polar 2 remplace-t-elle la première Polar ?",
+      "answer": "Oui. La Polar 50 W d’origine n’est plus vendue neuve par OMTech ; la Polar 2 lui succède avec une surface plus grande."
+    }
+  ],
+  "images": [
+    { "alt": "Laser CO₂ de bureau OMTech Polar 2 : OMTech" },
+    { "alt": "OMTech Polar 2 vue de face : OMTech" },
+    { "alt": "OMTech Polar 2 capot ouvert sur le portique : OMTech" },
+    { "alt": "OMTech Polar 2 capot ouvert, vue de face : OMTech" },
+    { "alt": "OMTech Polar 2, surface de travail 28 × 14 po : OMTech" }
+  ]
+}

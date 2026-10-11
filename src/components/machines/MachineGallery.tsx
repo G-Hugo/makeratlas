@@ -11,6 +11,8 @@ interface MachineGalleryProps {
   machineKey: string;
   /** Detail page: 4/3 frame like catalog cards */
   layout?: "detail" | "default";
+  /** e.g. "{count} manufacturer photos", from the locale dictionary */
+  countLabel?: string;
 }
 
 export function MachineGallery({
@@ -18,6 +20,7 @@ export function MachineGallery({
   name,
   machineKey,
   layout = "default",
+  countLabel = "{count} manufacturer photos",
 }: MachineGalleryProps) {
   const [active, setActive] = useState(0);
   const current = photos[active] ?? photos[0];
@@ -82,7 +85,7 @@ export function MachineGallery({
             ))}
           </div>
           <p className="text-xs text-stone-400 dark:text-stone-500">
-            {photos.length} manufacturer photos · {active + 1} / {photos.length}
+            {countLabel.replace("{count}", String(photos.length))} · {active + 1} / {photos.length}
           </p>
         </>
       )}

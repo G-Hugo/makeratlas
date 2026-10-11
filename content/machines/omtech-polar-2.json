@@ -1,0 +1,141 @@
+{
+  "id": "omtech-polar-2",
+  "slug": "omtech-polar-2",
+  "name": "OMTech Polar 2",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Desktop CO₂ with a 28 × 14 in bed: 70W glass tube or 50W RF tube",
+  "tldr": "The Polar 2, launched in July 2026, succeeds the original Polar with a 710 × 360 mm bed, a 16 MP full-bed camera, one-touch auto-focus, air assist, exhaust fan and a rotary in the box. Two sources: a 70W water-cooled glass tube ($3,699.99) for cutting, or a 50W air-cooled RF tube ($4,999.99) for fast, fine engraving. Open a tier for exact specs.",
+  "mainObjective": "Desktop CO₂ for acrylic and wood on a bigger bed, as a complete package",
+  "bestFor": [
+    "Acrylic signs",
+    "Small business",
+    "Upgrading from diode",
+    "Batch engraving"
+  ],
+  "priceRange": {
+    "min": 3699.99,
+    "max": 4999.99,
+    "currency": "USD",
+    "note": "70W glass $3,699.99, 50W RF $4,999.99 on OMTech's store (Oct 2026)"
+  },
+  "specs": {
+    "power": "70W CO₂ glass / 50W CO₂ RF",
+    "workArea": "710 × 360 mm (28 × 14 in)",
+    "dimensions": "1178 × 693 × 363 mm (46.4 × 27.3 × 14.3 in)",
+    "software": [
+      "LightBurn",
+      "RDWorks V8"
+    ],
+    "connectivity": [
+      "USB",
+      "U-disk",
+      "Ethernet",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "±0.02 mm (RF)",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–2 min"
+      },
+      "technical": {
+        "spotSize": "~0.07 mm (RF)",
+        "maxSpeed": "1,200 mm/s (70W) / 2,000 mm/s (50W RF)",
+        "avgEngraveSpeed": "200–800 mm/s fill",
+        "avgCutSpeed": "12–40 mm/s on 3 mm acrylic"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Stone & slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Acrylic up to ~8–10 mm depending on tube (estimate)",
+      "Plywood & hardwood up to ~8–10 mm (estimate)",
+      "Leather",
+      "Fabric & felt"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Sheets longer than the bed (no pass-through)",
+      "Use without venting smoke outside"
+    ]
+  },
+  "pros": [
+    "Much larger bed than the original Polar while staying a desktop machine",
+    "Camera, auto-focus, air assist, exhaust fan, rotary and LightBurn key included",
+    "Choice of tube: glass for cutting value, RF for engraving speed and longevity"
+  ],
+  "cons": [
+    "No pass-through",
+    "About 1.2 m wide: needs a sturdy table and an outside vent",
+    "New model: figures are OMTech's until independent reviews arrive"
+  ],
+  "beginnerNotes": "This overview covers the whole Polar 2 line. Pick the 70W glass version if you mostly cut acrylic and wood, the 50W RF version if you mostly engrave and want minimal maintenance.",
+  "proTips": "Plan the exhaust route before delivery. On the glass version, keep an eye on the internal coolant; on the RF version, keep air intakes clean.",
+  "primaryUse": "Desktop CO₂ laser for acrylic, wood and small business production.",
+  "rating": {
+    "overall": 8.3,
+    "value": 8,
+    "easeOfUse": 7.9,
+    "capability": 8.6,
+    "buildQuality": 8.2
+  },
+  "similarModels": [
+    "xtool-p2s",
+    "monport-reno45-pro-45w",
+    "gweike-cloud-pro"
+  ],
+  "faq": [
+    {
+      "question": "70W glass or 50W RF?",
+      "answer": "Glass for cutting thicker stock at a lower price; RF for faster, finer engraving, about three times the rated tube life and air cooling."
+    },
+    {
+      "question": "Does the Polar 2 replace the original Polar?",
+      "answer": "Yes. The original Polar 50W is no longer sold new by OMTech; the Polar 2 is its successor with a larger bed."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-11",
+  "image": "/machines/omtech-polar-2/01.webp",
+  "images": [
+    {
+      "src": "/machines/omtech-polar-2/01.webp",
+      "alt": "OMTech Polar 2 desktop CO₂ laser: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2/02.webp",
+      "alt": "OMTech Polar 2 front view: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2/03.webp",
+      "alt": "OMTech Polar 2 with lid open showing the gantry: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2/04.webp",
+      "alt": "OMTech Polar 2 open lid, front view: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2/05.webp",
+      "alt": "OMTech Polar 2 28 × 14 in work area: OMTech"
+    }
+  ],
+  "modelLine": "omtech-polar-2",
+  "catalogHidden": true,
+  "releaseDate": "2026-07"
+}

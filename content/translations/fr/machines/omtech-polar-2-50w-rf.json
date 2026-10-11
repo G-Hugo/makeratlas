@@ -1,0 +1,94 @@
+{
+  "tagline": "CO₂ RF de bureau : gravure jusqu’à 2 000 mm/s, refroidissement par air et tube métal de 30 000 heures",
+  "tldr": "La Polar 2 50 W RF utilise une source CO₂ RF à tube métal au lieu d’un tube en verre : gravure plus rapide (jusqu’à 2 000 mm/s avec une accélération de 2 G), point de 0,07 mm, refroidissement par air et durée de vie annoncée jusqu’à 30 000 heures. Même surface de 710 × 360 mm, même caméra 16 Mpx, même mise au point automatique et même module rotatif que la version verre 70 W, pour 1 300 $ de plus. Caractéristiques d’OMTech ; pas encore de test indépendant sur la durée.",
+  "mainObjective": "Graver vite et finement au CO₂ sur un plateau de bureau, avec peu d’entretien",
+  "primaryUse": "Tube RF 50 W · OMTech Polar 2",
+  "beginnerNotes": "Cette fiche décrit la version RF 50 W de la Polar 2. Comparez-la à la version verre 70 W : la puissance plus faible n’est pas un recul en pratique, car une source RF pulse plus vite et grave plus finement. Choisissez-la si le volume de gravure et le faible entretien comptent plus que la découpe de matériaux épais.",
+  "proTips": "Réservez la marge de vitesse à la gravure, pas à la découpe : l’acrylique épais demande toujours des passes lentes. Gardez propres le filtre à air et le circuit d’extraction, le tube RF dépend du refroidissement par air. Vérifiez l’alignement de la caméra avec un marquage d’essai avant une série.",
+  "bestFor": [
+    "Photo et gravure de détail",
+    "Production en série",
+    "Peu d’entretien",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Tube RF métal : gravure bien plus rapide et point plus fin (0,07 mm) que les CO₂ de bureau à tube verre",
+    "Refroidi par air : pas de circuit d’eau à remplir, surveiller ou protéger du gel",
+    "Tube annoncé jusqu’à 30 000 heures, garanti 24 mois",
+    "Même ensemble complet que la 70 W : caméra 16 Mpx, mise au point automatique, assistance d’air, extracteur, module rotatif, licence LightBurn"
+  ],
+  "cons": [
+    "1 300 $ de plus que la version verre 70 W pour moins de puissance brute en découpe",
+    "Pas de trappe traversante : les grandes plaques doivent être recoupées avant",
+    "Modèle tout récent : les chiffres de vitesse et de précision sont ceux d’OMTech, pas encore vérifiés indépendamment"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Pierre et ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Acrylique transparent et coloré jusqu’à ~8 mm (estimation)",
+      "Contreplaqué et bois dur jusqu’à ~8 mm (estimation)",
+      "Cuir",
+      "Tissu et feutre"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Plaques plus longues que le plateau (pas de trappe traversante)",
+      "Usage sans évacuation des fumées vers l’extérieur"
+    ]
+  },
+  "priceRange": {
+    "note": "Prix de la boutique OMTech (oct. 2026), prix catalogue 7 599,99 $ ; module rotatif, licence LightBurn et kit d’extraction inclus"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Pourquoi la Polar 2 RF 50 W coûte-t-elle plus cher que la version verre 70 W ?",
+      "answer": "Un tube RF métal coûte plus cher à fabriquer. En échange, il pulse bien plus vite en gravure, donne un point plus fin, dure jusqu’à environ 30 000 heures (contre environ 10 000 pour le verre) et se refroidit par air. Le tube verre 70 W découpe toutefois des matériaux plus épais."
+    },
+    {
+      "question": "La Polar 2 RF a-t-elle besoin d’un refroidissement à eau ?",
+      "answer": "Non. OMTech l’annonce refroidie par air, sans réservoir d’eau : plus de refroidisseur, de liquide ni de risque de gel comme avec un tube verre."
+    },
+    {
+      "question": "La Polar 2 peut-elle graver le métal ?",
+      "answer": "Pas le métal nu : la longueur d’onde du CO₂ s’y réfléchit. L’aluminium anodisé et les métaux revêtus se marquent bien ; l’acier nu demande un produit de marquage ou un laser fibre."
+    }
+  ],
+  "images": [
+    {
+      "alt": "OMTech Polar 2 50 W RF capot ouvert : OMTech"
+    },
+    {
+      "alt": "Laser CO₂ de bureau OMTech Polar 2 : OMTech"
+    },
+    {
+      "alt": "OMTech Polar 2 capot ouvert, vue de face : OMTech"
+    },
+    {
+      "alt": "OMTech Polar 2 50 W RF, caractéristiques principales : OMTech"
+    },
+    {
+      "alt": "OMTech Polar 2 50 W RF découpant bois et acrylique : OMTech"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La Polar 2 RF est faite pour le volume de gravure : photos remplies, logos sur des séries de dessous de verre, acrylique détaillé. Pulsation rapide, point fin et refroidissement par air en font une machine peu contraignante pour une petite entreprise qui la fait tourner tous les jours.",
+    "limitations": "Si vous passez surtout vos heures à découper de l’acrylique épais ou du contreplaqué, la version verre 70 W en fait plus pour moins cher. Pas de trappe traversante, environ 1,2 m de large, et des chiffres qui attendent encore des tests indépendants."
+  }
+}

@@ -139,6 +139,7 @@ export function MachineDetailView({
             photos={photos}
             name={machine.name}
             layout="detail"
+            countLabel={m.galleryCount}
           />
 
           <div>

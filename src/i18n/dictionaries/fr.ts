@@ -187,6 +187,7 @@ export const fr: Dictionary = {
     bothDesc: "Gravure et découpe du quotidien",
   },
   machine: {
+    galleryCount: "{count} photos du fabricant",
     discontinuedBadge: "Arrêtée",
     discontinuedTitle: "Machine arrêtée",
     discontinuedBody:

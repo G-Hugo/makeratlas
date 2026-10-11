@@ -1,0 +1,182 @@
+{
+  "id": "omtech-polar-2-50w-rf",
+  "slug": "omtech-polar-2-50w-rf",
+  "name": "OMTech Polar 2 50W RF",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Desktop RF CO₂: 2,000 mm/s engraving, air cooling and a 30,000-hour metal tube",
+  "tldr": "The Polar 2 50W RF uses a metal RF CO₂ source instead of a glass tube: faster engraving (up to 2,000 mm/s with 2G acceleration), a 0.07 mm spot, air cooling and a rated life of up to 30,000 hours. Same 710 × 360 mm bed, 16 MP camera, auto-focus and rotary as the 70W glass version, for $1,300 more. Specs are OMTech's; no independent long-term review yet.",
+  "mainObjective": "Fast, fine CO₂ engraving on a desktop bed with low maintenance",
+  "bestFor": [
+    "Photo & detail engraving",
+    "Batch production",
+    "Low maintenance",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 4999.99,
+    "max": 4999.99,
+    "currency": "USD",
+    "note": "OMTech store price (Oct 2026), list $7,599.99; package includes rotary, LightBurn key and exhaust kit"
+  },
+  "specs": {
+    "power": "50W CO₂ RF tube",
+    "workArea": "710 × 360 mm (28 × 14 in)",
+    "dimensions": "1178 × 693 × 363 mm (46.4 × 27.3 × 14.3 in)",
+    "software": [
+      "LightBurn",
+      "RDWorks V8"
+    ],
+    "connectivity": [
+      "USB",
+      "U-disk",
+      "Ethernet",
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "±0.02 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–2 min"
+      },
+      "technical": {
+        "spotSize": "~0.07 mm",
+        "maxSpeed": "2,000 mm/s (2G)",
+        "avgEngraveSpeed": "300–800 mm/s fill",
+        "avgCutSpeed": "12–35 mm/s on 3 mm acrylic"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Stone & slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Clear and coloured acrylic up to ~8 mm (estimate)",
+      "Plywood & hardwood up to ~8 mm (estimate)",
+      "Leather",
+      "Fabric & felt"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Sheets longer than the bed (no pass-through)",
+      "Use without venting smoke outside"
+    ]
+  },
+  "pros": [
+    "RF metal tube: much faster raster engraving and a finer 0.07 mm spot than glass-tube desktops",
+    "Air-cooled: no water loop to fill, monitor or protect from freezing",
+    "Tube rated up to 30,000 hours with a 24-month tube warranty",
+    "Same complete package as the 70W: 16 MP camera, auto-focus, air assist, exhaust fan, rotary, LightBurn key"
+  ],
+  "cons": [
+    "$1,300 more than the 70W glass version for less raw cutting power",
+    "No pass-through, so long sheets must be cut down first",
+    "Brand-new model: speed and precision figures are OMTech's, not yet independently tested"
+  ],
+  "beginnerNotes": "This profile is the 50W RF SKU of the Polar 2. Compare it with the 70W glass version: the lower wattage is not a downgrade in practice, since RF sources pulse faster and engrave finer. Choose it if engraving volume and low maintenance matter more than cutting thick stock.",
+  "proTips": "Use the speed headroom for raster jobs, not for cutting: thick acrylic still wants slow passes. Keep the air filter and exhaust path clean, since the RF tube relies on air cooling. Verify camera alignment with a test mark before batch jobs.",
+  "primaryUse": "50W RF tube · OMTech Polar 2",
+  "rating": {
+    "overall": 8.3,
+    "value": 7.3,
+    "easeOfUse": 8.3,
+    "capability": 8.4,
+    "buildQuality": 8.5
+  },
+  "similarModels": [
+    "omtech-polar-2-70w",
+    "xtool-p2s",
+    "gweike-cloud-pro"
+  ],
+  "faq": [
+    {
+      "question": "Why is the 50W RF more expensive than the 70W glass Polar 2?",
+      "answer": "RF metal tubes cost more to build. In exchange they pulse much faster for engraving, produce a finer spot, last up to about 30,000 hours (versus about 10,000 for glass) and are air-cooled. The 70W glass tube still cuts thicker material."
+    },
+    {
+      "question": "Does the Polar 2 RF need water cooling?",
+      "answer": "No. OMTech lists it as air-cooled with no water tank, which removes the chiller, coolant and freezing concerns of glass tubes."
+    },
+    {
+      "question": "Can the Polar 2 engrave metal?",
+      "answer": "Not bare metal: CO₂ wavelengths reflect off it. Anodized aluminum and coated metals mark well, and bare steel needs a marking compound or a fiber laser."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included",
+      "note": "16 MP full-bed camera, ±1 mm positioning (OMTech figure)"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included",
+      "note": "Built-in pump, 14–17 L/min"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "included",
+      "note": "Integrated exhaust fan and pipe: duct it outside"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "included",
+      "note": "Standard rotary in the package"
+    },
+    {
+      "id": "lightburn",
+      "availability": "included",
+      "note": "LightBurn key in the OMTech package"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-11",
+  "image": "/machines/omtech-polar-2-50w-rf/01.webp",
+  "images": [
+    {
+      "src": "/machines/omtech-polar-2-50w-rf/01.webp",
+      "alt": "OMTech Polar 2 50W RF with lid open: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2-50w-rf/02.webp",
+      "alt": "OMTech Polar 2 desktop CO₂ laser: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2-50w-rf/03.webp",
+      "alt": "OMTech Polar 2 open lid, front view: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2-50w-rf/04.webp",
+      "alt": "OMTech Polar 2 50W RF key specifications: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-2-50w-rf/05.webp",
+      "alt": "OMTech Polar 2 50W RF cutting wood and acrylic: OMTech"
+    }
+  ],
+  "modelLine": "omtech-polar-2",
+  "powerRating": "50W",
+  "releaseDate": "2026-07",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The RF Polar 2 is built for engraving volume: photo fills, logos on batches of coasters, detailed acrylic. Fast pulsing, a fine spot and air cooling make it a low-fuss machine for a small business that runs it every day.",
+    "limitations": "If most of your hours are spent cutting thick acrylic or plywood, the 70W glass version does more for less money. No pass-through, a footprint of about 1.2 m wide, and figures that still await independent testing."
+  }
+}

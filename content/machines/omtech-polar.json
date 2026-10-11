@@ -119,5 +119,7 @@
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
   "tierEditorialOverride": true,
-  "discontinued": {}
+  "discontinued": {
+    "successor": "omtech-polar-2-70w"
+  }
 }

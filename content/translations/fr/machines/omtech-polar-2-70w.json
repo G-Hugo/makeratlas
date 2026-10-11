@@ -1,0 +1,94 @@
+{
+  "tagline": "CO₂ de bureau avec surface de 710 × 360 mm, tube verre 70 W et refroidissement à eau intégré",
+  "tldr": "La Polar 2 70 W remplace la première Polar avec une surface bien plus grande (710 × 360 mm), un tube CO₂ en verre de 70 W refroidi par un circuit d’eau interne de 4,3 L, une caméra 16 Mpx couvrant tout le plateau, une mise au point automatique en une touche et un module rotatif fourni. C’est la version la moins chère et la plus orientée découpe de la gamme Polar 2 ; la version RF 50 W grave plus vite et plus finement. Pas encore de test indépendant sur la durée.",
+  "mainObjective": "Découper acrylique et bois au CO₂ sur un bureau, avec un plateau plus grand et sans refroidisseur externe",
+  "primaryUse": "Tube verre 70 W · OMTech Polar 2",
+  "beginnerNotes": "Cette fiche décrit la version tube verre 70 W de la Polar 2. Comparez-la à la RF 50 W : prenez la 70 W si la découpe d’acrylique et de bois représente l’essentiel de votre travail et que le budget compte. Les deux partagent le même châssis, la même caméra et le même logiciel.",
+  "proTips": "Vérifiez le niveau et la température du liquide avant les longues découpes, même avec le circuit intégré. Utilisez la caméra pour placer les travaux, mais contrôlez l’alignement avec un marquage d’essai. Évacuez les fumées vers l’extérieur : le ventilateur intégré les déplace, il ne les filtre pas.",
+  "bestFor": [
+    "Enseignes en acrylique",
+    "Découpe de bois plus épais",
+    "Petite entreprise",
+    "Passer de la diode au CO₂"
+  ],
+  "pros": [
+    "Surface de 710 × 360 mm : environ 60 % de plus que la première Polar, sur un bureau",
+    "Circuit d’eau fermé interne de 4,3 L : pas de refroidisseur séparé ni de seau à raccorder",
+    "Ensemble complet : caméra 16 Mpx sur tout le plateau, mise au point automatique, assistance d’air, extracteur, module rotatif et licence LightBurn",
+    "La plus forte puissance de découpe pour le prix dans la gamme Polar 2"
+  ],
+  "cons": [
+    "Tube verre annoncé pour environ 10 000 heures contre 30 000 pour la version RF : prévoyez son remplacement",
+    "Pas de trappe traversante : les grandes plaques doivent être recoupées avant",
+    "Modèle tout récent : pas encore de test indépendant sur la durée, les caractéristiques sont celles d’OMTech"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Pierre et ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Acrylique transparent et coloré jusqu’à ~10 mm (estimation)",
+      "Contreplaqué et bois dur jusqu’à ~10 mm (estimation)",
+      "Cuir",
+      "Tissu et feutre"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Plaques plus longues que le plateau (pas de trappe traversante)",
+      "Usage sans évacuation des fumées vers l’extérieur"
+    ]
+  },
+  "priceRange": {
+    "note": "Prix de la boutique OMTech (oct. 2026), prix catalogue 5 199,99 $ ; module rotatif, licence LightBurn et kit d’extraction inclus"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Tube verre 70 W ou RF 50 W : quelle Polar 2 choisir ?",
+      "answer": "Le tube verre 70 W découpe des matériaux plus épais pour 1 300 $ de moins. Le tube RF 50 W grave plus vite (jusqu’à 2 000 mm/s), avec un point plus fin, une durée de vie annoncée environ trois fois plus longue et sans circuit d’eau. Un atelier tourné vers la découpe penchera pour le 70 W ; la photo et le détail, pour le RF."
+    },
+    {
+      "question": "La Polar 2 70 W a-t-elle besoin d’un refroidisseur ?",
+      "answer": "Pas d’un appareil séparé : OMTech annonce un circuit d’eau fermé interne de 4,3 L. Il faut tout de même maintenir le niveau de liquide et une température de pièce raisonnable."
+    },
+    {
+      "question": "La Polar 2 remplace-t-elle la première Polar ?",
+      "answer": "Oui. La Polar 50 W d’origine (400 × 300 mm) n’est plus vendue neuve par OMTech ; la Polar 2 garde le format de bureau avec une surface de 710 × 360 mm."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser CO₂ de bureau OMTech Polar 2 : OMTech"
+    },
+    {
+      "alt": "OMTech Polar 2 vue de face : OMTech"
+    },
+    {
+      "alt": "OMTech Polar 2 capot ouvert sur le portique : OMTech"
+    },
+    {
+      "alt": "OMTech Polar 2 capot ouvert, vue de face : OMTech"
+    },
+    {
+      "alt": "OMTech Polar 2, surface de travail 28 × 14 po : OMTech"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La Polar 2 70 W corrige la principale limite de la première Polar, sa petite surface, tout en restant une machine de bureau. Avec le circuit d’eau intégré et la caméra, la mise au point automatique, le module rotatif et LightBurn fournis, elle s’approche d’un CO₂ prêt à l’emploi pour les enseignes en acrylique, les boîtes en bois et les petites séries.",
+    "limitations": "Un tube verre s’use plus vite qu’une source RF et reste plus lent en gravure fine. Il n’y a pas de trappe traversante, la machine est encombrante pour un bureau (environ 1,2 m de large) et les fumées doivent sortir à l’extérieur. Les caractéristiques restent celles du fabricant en attendant des tests indépendants."
+  }
+}

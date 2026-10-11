@@ -1,0 +1,90 @@
+{
+  "tagline": "Diode fermée 12 W sur portique CoreXY, avec caméra et pompe à air, pour 499 $",
+  "tldr": "La Sculpfun E1 est la version d’entrée de la gamme E1 : même caisson classe 1, même portique CoreXY, même surface de 400 × 320 mm, même caméra, pompe à air et plateau nid d’abeille que l’E1 Pro, avec une diode 12 W. Sculpfun annonce 8 mm de bois en une passe et une gravure à 600 mm/s. La version Dual ajoute un module infrarouge 3 W interchangeable. Sortie en juin 2026.",
+  "mainObjective": "Graver dans un caisson fermé à prix abordable, avec une découpe légère du bois sur une surface moyenne",
+  "primaryUse": "Module 12 W · Sculpfun E1",
+  "beginnerNotes": "Cette fiche décrit l’E1 12 W de la gamme Sculpfun E1. Elle convient à ceux qui gravent surtout et veulent un caisson fermé et une surface correcte sans dépenser plus de 800 $. Comparez-la à l’E1 Pro 21 W si vous savez que vous découperez du bois chaque semaine : elle vaut les 350 $ de plus.",
+  "proTips": "Pour du bois de 5 mm et plus, préférez plusieurs passes modérées à une seule passe lente. Laissez la pompe à air en marche pendant les découpes. Vérifiez la mise au point à la main avant chaque travail et retirez le nid d’abeille pour les objets plus épais.",
+  "bestFor": [
+    "Caisson fermé à petit budget",
+    "Surtout de la gravure",
+    "Atelier à la maison",
+    "Cadeaux et petites séries"
+  ],
+  "pros": [
+    "L’un des lasers classe 1 fermés les moins chers avec une surface de 400 × 320 mm",
+    "Caméra, pompe à air et plateau nid d’abeille fournis pour 499 $",
+    "Même châssis et mêmes sécurités que l’E1 Pro : capteur de capot, arrêt d’urgence, clé de sécurité",
+    "Module infrarouge 3 W interchangeable (version Dual ou accessoire à 499 $) pour le métal nu"
+  ],
+  "cons": [
+    "Le 12 W découpe nettement plus lentement le bois que l’E1 Pro 21 W",
+    "Seulement 30 mm de hauteur utile avec le nid d’abeille (42 mm sans)",
+    "Mise au point manuelle ; chiffres de découpe de Sculpfun, pas encore vérifiés indépendamment"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Acrylique foncé",
+      "Pierre et céramique",
+      "Métal revêtu",
+      "Métal nu et plastiques (avec le module infrarouge)"
+    ],
+    "cut": [
+      "Tilleul et contreplaqué jusqu’à 8 mm (annoncé, une passe)",
+      "Acrylique foncé (fin)",
+      "Cuir",
+      "Papier et tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Objets de plus de 42 mm de haut (30 mm avec le nid d’abeille)",
+      "Découpe épaisse en production"
+    ]
+  },
+  "priceRange": {
+    "note": "499 $ en simple 12 W, 949 $ en Dual avec module infrarouge 3 W (boutique Sculpfun, oct. 2026)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Faut-il prendre l’E1 12 W ou l’E1 Pro 21 W ?",
+      "answer": "La 12 W si vous gravez surtout et découpez de temps en temps (jusqu’à 8 mm de bois annoncés). L’E1 Pro 21 W si la découpe fait partie de votre quotidien (jusqu’à 12 mm annoncés). Tout le reste est commun."
+    },
+    {
+      "question": "Puis-je ajouter le module infrarouge plus tard ?",
+      "answer": "Oui. Sculpfun vend séparément le module IR3 de 3 W en 1064 nm pour la série E1 (499 $). Il se monte à la place de la tête diode et marque le métal nu et les plastiques."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée Sculpfun E1 12 W : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun E1 vue de face : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun E1, échange des modules diode 12 W et infrarouge 3 W : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun E1, caméra intégrée pour le positionnement : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun E1, module 12 W gravant à 600 mm/s : Sculpfun"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "L’E1 12 W est la porte d’entrée économique du caisson E1 : pour 499 $, vous avez la caméra, la pompe à air, le portique CoreXY et une surface de 400 × 320 mm, grande pour une machine fermée à ce prix. La qualité de gravure sur bois, cuir et pierre dépend peu des watts supplémentaires.",
+    "limitations": "C’est en découpe que la 12 W montre ses limites face à l’E1 Pro : plus de passes, des travaux plus longs. La hauteur utile est faible, la mise au point manuelle et, comme toute diode, elle ne découpe pas l’acrylique transparent."
+  }
+}
