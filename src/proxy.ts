@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { defaultLocale, isLocale, locales } from "@/i18n/config";
+import { SITE_URL } from "@/lib/site-url";
 
 function negotiateLocale(request: NextRequest): (typeof locales)[number] {
   const header = request.headers.get("accept-language") ?? "";
@@ -8,8 +9,14 @@ function negotiateLocale(request: NextRequest): (typeof locales)[number] {
   return defaultLocale;
 }
 
-export function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
+export function proxy(request: NextRequest) {
+  const { pathname, search } = request.nextUrl;
+
+  // One canonical host: www.maker-atlas.com -> maker-atlas.com (permanent).
+  const host = (request.headers.get("x-forwarded-host") ?? request.headers.get("host") ?? "").toLowerCase();
+  if (host.startsWith("www.")) {
+    return NextResponse.redirect(`${SITE_URL}${pathname}${search}`, 308);
+  }
 
   if (
     pathname.startsWith("/_next") ||

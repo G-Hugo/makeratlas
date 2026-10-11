@@ -97,6 +97,29 @@ export function guideJsonLd(
   };
 }
 
+export function websiteJsonLd(locale: Locale, description: string) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/#organization`,
+        name: "Maker Atlas",
+        url: SITE_URL,
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${SITE_URL}/#website`,
+        name: "Maker Atlas",
+        url: absoluteUrl(localizedPath(locale, "/")),
+        description,
+        inLanguage: locale === "fr" ? "fr-FR" : "en-US",
+        publisher: { "@id": `${SITE_URL}/#organization` },
+      },
+    ],
+  };
+}
+
 export function faqJsonLd(faq: { question: string; answer: string }[]) {
   return {
     "@context": "https://schema.org",

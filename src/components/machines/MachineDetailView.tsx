@@ -80,9 +80,9 @@ export function MachineDetailView({
   const specsPowerLabel = multiTier ? tierLabel : formatMachinePowerBubble(machine, locale);
   const editorial = resolveMachineEditorial(machine, tiers, locale);
   const displayTitle = getDetailDisplayTitle(machine, tiers, locale);
-  const similar = similarBySlug[machine.slug] ?? [];
-  const alternatives = alternativesBySlug[machine.slug] ?? [];
-  const compareDuels = compareDuelsBySlug[machine.slug] ?? [];
+  const similar = similarBySlug[machine.slug] ?? similarBySlug[initialSlug] ?? [];
+  const alternatives = alternativesBySlug[machine.slug] ?? alternativesBySlug[initialSlug] ?? [];
+  const compareDuels = compareDuelsBySlug[machine.slug] ?? compareDuelsBySlug[initialSlug] ?? [];
   const compareDuelSlugs = new Set(compareDuels.map((d) => d.partner.slug));
   const photos = useMemo(() => getMachinePhotos(machine), [machine]);
 

@@ -2,7 +2,6 @@ import { Suspense } from "react";
 import { SearchPalette } from "@/components/search/SearchPalette";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
-import { buildSearchIndex } from "@/lib/search-index";
 import { LocaleLink } from "./LocaleLink";
 import { LocaleSwitcher } from "./LocaleSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
@@ -22,7 +21,6 @@ export function Header({ locale, dict }: ChromeProps) {
     { href: "/compare", label: dict.nav.compare },
     { href: "/about", label: dict.nav.about },
   ];
-  const searchIndex = buildSearchIndex(locale, dict);
 
   return (
     <header className="sticky top-0 z-50 border-b border-stone-200 bg-white/95 backdrop-blur-sm dark:border-stone-800 dark:bg-stone-950/95">
@@ -51,7 +49,7 @@ export function Header({ locale, dict }: ChromeProps) {
               {link.label}
             </LocaleLink>
           ))}
-          <SearchPalette items={searchIndex} locale={locale} dict={dict} />
+          <SearchPalette locale={locale} labels={dict.search} />
           <ThemeToggle labels={dict.theme} />
           <Suspense fallback={null}>
             <LocaleSwitcher locale={locale} labels={dict.localeSwitcher} />

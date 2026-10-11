@@ -1,6 +1,7 @@
 import { BrandDuelsList } from "@/components/compare/BrandDuelsList";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import { MachineCard } from "@/components/machines/MachineCard";
+import { JsonLd, websiteJsonLd } from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { isLocale, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
@@ -72,6 +73,7 @@ export default async function HomePage({ params }: PageProps) {
 
   return (
     <div>
+      <JsonLd data={websiteJsonLd(locale, dict.meta.defaultDescription)} />
       <section className="border-b border-stone-200 bg-gradient-to-b from-amber-50 to-stone-50 dark:border-stone-800 dark:from-stone-900 dark:to-stone-950">
         <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
           <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400">

@@ -68,18 +68,13 @@ export default async function MachinePage({ params }: PageProps) {
 
   const powerTiers = getPowerTiersForMachine(machine, locale);
   const tiers = powerTiers.length > 0 ? powerTiers : [machine];
-  const similarBySlug = Object.fromEntries(
-    tiers.map((tier) => [tier.slug, getSimilarMachines(tier, locale)]),
-  );
+  // Related lists only for the tier being rendered: switching tier navigates to its own page.
+  const similarBySlug = { [machine.slug]: getSimilarMachines(machine, locale) };
   const hasTranslationBySlug = Object.fromEntries(
     tiers.map((tier) => [tier.slug, hasMachineTranslation(tier.slug)]),
   );
-  const alternativesBySlug = Object.fromEntries(
-    tiers.map((tier) => [tier.slug, getMachineAlternatives(tier, locale)]),
-  );
-  const compareDuelsBySlug = Object.fromEntries(
-    tiers.map((tier) => [tier.slug, getMachineCompareDuels(tier, locale)]),
-  );
+  const alternativesBySlug = { [machine.slug]: getMachineAlternatives(machine, locale) };
+  const compareDuelsBySlug = { [machine.slug]: getMachineCompareDuels(machine, locale) };
 
   return (
     <>

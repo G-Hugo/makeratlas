@@ -9,9 +9,8 @@ import { interpolate } from "@/lib/i18n-helpers";
 import type { SearchItem, SearchItemKind } from "@/lib/search-index";
 
 interface SearchPaletteProps {
-  items: SearchItem[];
   locale: Locale;
-  dict: Dictionary;
+  labels: Dictionary["search"];
 }
 
 const GROUP_ORDER: SearchItemKind[] = ["machine", "brand", "guide", "page"];
@@ -31,10 +30,12 @@ const KIND_ICON: Record<SearchItemKind, string> = {
   page: "→",
 };
 
-export function SearchPalette({ items, locale, dict }: SearchPaletteProps) {
-  const s = dict.search;
+export function SearchPalette({ locale, labels: s }: SearchPaletteProps) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
+  // The index is fetched on first open so it stays out of every page's HTML.
+  const [items, setItems] = useState<SearchItem[]>([]);
+  const indexRequested = useRef(false);
   const [query, setQuery] = useState("");
   const [activeIndex, setActiveIndex] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -52,11 +53,20 @@ export function SearchPalette({ items, locale, dict }: SearchPaletteProps) {
 
   useEffect(() => {
     if (open) {
+      if (!indexRequested.current) {
+        indexRequested.current = true;
+        fetch(`/${locale}/search.json`)
+          .then((res) => (res.ok ? res.json() : []))
+          .then((data: SearchItem[]) => setItems(data))
+          .catch(() => {
+            indexRequested.current = false;
+          });
+      }
       setQuery("");
       setActiveIndex(0);
       requestAnimationFrame(() => inputRef.current?.focus());
     }
-  }, [open]);
+  }, [open, locale]);
 
   const flatResults = useMemo(() => {
     const q = normalize(query.trim());
