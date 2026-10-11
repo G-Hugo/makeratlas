@@ -1,6 +1,6 @@
 {
   "tagline": "Diode 40W haute puissance avec assistance air intégrée et effet gravure couleur",
-  "tldr": "La Creality Falcon2 Pro 40W est la référence 40W de la gamme Falcon2 Pro. La diode ouverte haut de gamme de Creality à 60W combinés (classe 22W optique). Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
+  "tldr": "La version 40 W de la Falcon2 Pro fermée de Creality, avec un module infrarouge de 1,6 W pour marquer le métal : un caisson classe 1 qui découpe le contreplaqué épais en moins de passes que la 22 W. Les 450 $ de plus se justifient si vous découpez plus que vous ne gravez.",
   "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
   "primaryUse": "Module 40W · Creality Falcon2 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 40W de Creality Falcon2 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -12,14 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
-    "40W : tête la plus orientée découpe de Creality Falcon2 Pro",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "15 mm de tilleul en une passe dans le guide de réglages 40 W de Creality",
+    "Livrée avec un module 1,6 W pour la gravure de détail",
+    "Les découpes et remplissages les plus rapides des versions Falcon2 Pro que nous présentons, dans notre benchmark"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "1 349 $ la machine seule sur la boutique Creality (octobre 2026), bien au-dessus de la version d’entrée",
+    "L’acrylique noir au-delà de 5 mm environ demande deux passes",
+    "Plus de fumée par travail : prévoyez une évacuation ou un purificateur"
   ],
   "materials": {
     "engrave": [
@@ -43,7 +43,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 40W : vérifiez la référence avant achat"
+    "note": "Boutique officielle Creality, oct. 2026 : de 1 349 $ à 1 999 $ selon le kit et l'option IR 2 W"
   },
   "specs": {
     "performance": {
@@ -72,5 +72,31 @@
   "editorialDepth": {
     "advantages": "Le 40 W quand le format Falcon2 Pro convient et que le 22 W freine vos devis. Argument Creality : vitesse sur organiques avec air assist usine.",
     "limitations": "Enseignes acrylique transparent quotidien : CO₂. Comparez OMTech ou xTool P2 avant de croire qu’une diode 40 W les remplace."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la Falcon2 Pro 40 W peut-elle découper ?",
+      "answer": "Le guide de réglages Falcon2 de Creality pour le module 40 W découpe 15 mm de tilleul en une passe à pleine puissance et 150 mm/min, et l’acrylique noir à 4,6 mm en une passe ou 7,6 mm en deux. Notre liste de matériaux reste à environ 10 mm de tilleul pour des coupes propres et reproductibles."
+    },
+    {
+      "question": "La 40 W vaut-elle 450 $ de plus que la 22 W ?",
+      "answer": "Si vous découpez, oui : notre benchmark a pris environ 6 à 10 min pour un carré de 10 × 10 cm dans du tilleul de 3 mm contre 9 à 14 min sur la 22 W, et la photo remplie est passée de 17-26 à 12-18 min. L’offre 40 W inclut aussi un module 1,6 W pour le détail fin. Prix : 1 349 $ contre 899 $ pour la machine seule sur la boutique Creality, octobre 2026."
+    },
+    {
+      "question": "Qui devrait se passer de la 40 W ?",
+      "answer": "Ceux qui gravent surtout des photos et des cadeaux : la 22 W offre le même caisson pour moins cher, et les découpes à 40 W produisent davantage de fumée à extraire."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "fifteen-mm-cut",
+      "title": "15 mm de tilleul en une passe",
+      "body": "Les réglages de Creality pour le module 40 W découpent 15 mm de tilleul en une seule passe à 150 mm/min, assez pour des enseignes épaisses et des boîtes solides."
+    },
+    {
+      "id": "dual-module-detail",
+      "title": "Un second module pour le détail",
+      "body": "L’offre 40 W inclut un module 1,6 W : la gravure fine de photos et de traits ne souffre pas du faisceau large de la forte puissance."
+    }
+  ]
 }

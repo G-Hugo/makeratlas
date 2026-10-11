@@ -12,14 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
-    "40W : tête la plus orientée découpe de Longer Laser B1",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Découpe des carrés de tilleul de 3 mm en 6 à 10 min dans nos benchmarks, la B1 la plus rapide",
+    "Remplissage à environ 80–180 mm/s pour des séries rapides sur le grand plateau",
+    "Lot avec Clean Air Pack (1 209,99 $) pour un usage en intérieur"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Point plus large de 0,1 × 0,15 mm : petits textes et portraits moins nets",
+    "Plus de fumée sur les longues découpes : prévoyez une extraction vers l’extérieur ou le Clean Air Pack",
+    "Lot de base à 699,99 $, et 1 099,99 $ pour le lot Pro Max"
   ],
   "materials": {
     "engrave": [
@@ -71,5 +71,36 @@
   "editorialDepth": {
     "advantages": "Le B1 40 W s’adresse aux acheteurs déjà engagés sur le grand Châssis ouvert Longer qui veulent le maximum diode sur bois.",
     "limitations": "Ne remplace pas une boutique enseignes acrylique. Les photos fines peuvent être meilleures en B1 20 W réglé lentement. Prévoyez budget extraction si vous venez du Ray5."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que découpe la B1 40 W ?",
+      "answer": "La fiche technique de Longer annonce 25 mm de tilleul en une passe et 50 mm d’acrylique au maximum. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 6 à 10 min à 5–14 mm/s, et le tilleul jusqu’à 10 mm environ est réaliste en plusieurs passes avec assistance d’air. L’acrylique transparent reste hors de portée."
+    },
+    {
+      "question": "La 40 W perd-elle en détail de gravure ?",
+      "answer": "Un peu. Longer indique un point de 0,1 × 0,15 mm pour la 40 W contre 0,08 × 0,1 mm pour les 20 W et 30 W : les petits textes et les portraits sont un peu moins nets. Les remplissages sont en revanche bien plus rapides, environ 80–180 mm/s dans nos tests."
+    },
+    {
+      "question": "B1 40 W ou B1 30 W ?",
+      "answer": "Sur la boutique Longer en octobre 2026, les lots de base étaient à 699,99 $ (40 W) et 569,99 $ (30 W), soit 130 $ d’écart. Prenez la 40 W si vous découpez du 6 mm ou plus chaque semaine ; prenez la 30 W si le détail en gravure compte autant que la découpe."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "b1-40w-cutting",
+      "title": "La découpe B1 la plus puissante",
+      "body": "Longer l’annonce pour 25 mm de tilleul en une passe ; notre benchmark montre des carrés de 3 mm en 6 à 10 min environ."
+    },
+    {
+      "id": "b1-40w-fast-fills",
+      "title": "Remplissages rapides en grand format",
+      "body": "Environ 80–180 mm/s dans nos tests, utile sur le plateau de 450 × 440 mm."
+    },
+    {
+      "id": "b1-40w-clean-air",
+      "title": "Option Clean Air Pack",
+      "body": "Longer vend un lot 40 W avec purificateur d’air (1 209,99 $ en octobre 2026) pour les pièces sans évacuation."
+    }
+  ]
 }

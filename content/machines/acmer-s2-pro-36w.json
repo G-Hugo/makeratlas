@@ -64,14 +64,14 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
-    "36W: the most cut-focused head in the Acmer S2 Pro line",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Built-in 30 L/min air pump: cutting setups need no separate compressor",
+    "Basic pack at $582 on Acmer's store (October 2026), about $178 below the 48W",
+    "Same 400 × 400 mm bed, 0.08 × 0.1 mm spot and 24,000 mm/min top engraving speed as the 48W"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Acmer publishes no cutting chart for the S2 Pro: our benchmark puts a 10 × 10 cm square in 3 mm basswood at ~7–12 min, slower than the 48W",
+    "Real fill speeds sit far below the 24,000 mm/min headline (~29–74 mm/s in our tests)",
+    "Rotary, camera and IR packs push the price to $686–1,227; the IR pack alone adds about $477"
   ],
   "beginnerNotes": "This profile is the 36W SKU on Acmer S2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "On the 36W S2 Pro, run separate LightBurn profiles for photo fills versus basswood cuts. Push cut speed only after 10×10 cm test squares. Compare the 48W tier if evening batches still feel slow.",
@@ -89,7 +89,7 @@
     "sculpfun-s30-ultra-22w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/acmer-s2-pro-36w/01.webp",
   "modelLine": "acmer-s2-pro",
   "powerRating": "36W",
@@ -116,5 +116,31 @@
   "editorialDepth": {
     "advantages": "Acmer S2 Pro 36W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. "
-  }
+  },
+  "faq": [
+    {
+      "question": "How thick can the Acmer S2 Pro 36W cut?",
+      "answer": "Acmer does not publish per-thickness cutting figures for the S2 Pro. On our side, the profile lists basswood up to 8 mm (several passes at the upper end), and our 3 mm basswood test cuts a 10 × 10 cm square in ~7–12 min at 3–5 mm/s. Run a test grid on your own stock before quoting thick jobs."
+    },
+    {
+      "question": "Which S2 Pro 36W pack makes sense?",
+      "answer": "Acmer's US prices in October 2026: Basic $582, Camera $686, Rotary $809, IR $1,059, All in One $1,227. The IR pack adds a 1064 nm module for marking bare metal, which the blue diode cannot do well; skip it if you only work wood, leather and dark acrylic."
+    },
+    {
+      "question": "S2 Pro 36W or 48W: who should pick the 36W?",
+      "answer": "Hobbyists and engravers who cut occasionally. Both share the same bed, spot spec and built-in air pump; the 48W mainly shortens cut and fill times (our photo test: ~12–18 min vs ~14–22 min). The basic packs are about $178 apart ($582 vs $759.99)."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "built-in-air-pump",
+      "title": "Air assist built in",
+      "body": "A 30 L/min air pump is integrated in the machine, so cleaner cuts and less charring need no extra purchase."
+    },
+    {
+      "id": "s2-pro-entry-price",
+      "title": "Cheaper entry to the S2 Pro",
+      "body": "$582 basic pack in October 2026, about $178 less than the 48W for the same 400 × 400 mm frame."
+    }
+  ]
 }

@@ -12,13 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
-    "36W : tête la plus orientée découpe de Acmer S2 Pro",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert"
+    "Pompe à air de 30 L/min intégrée : pas besoin de compresseur séparé pour la découpe",
+    "Pack de base à 582 $ sur la boutique Acmer (octobre 2026), environ 178 $ de moins que la 48 W",
+    "Même plateau 400 × 400 mm, même point de 0,08 × 0,1 mm et même vitesse de gravure maximale de 24 000 mm/min que la 48 W"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂"
+    "Acmer ne publie aucune table de découpe pour la S2 Pro : notre test découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en ~7–12 min, plus lentement que la 48 W",
+    "Les vitesses de remplissage réelles restent loin des 24 000 mm/min annoncés (~29–74 mm/s dans nos tests)",
+    "Les packs rotatif, caméra et IR portent le prix à 686–1 227 $ ; le pack IR ajoute à lui seul environ 477 $"
   ],
   "materials": {
     "engrave": [
@@ -60,5 +61,31 @@
   "editorialDepth": {
     "advantages": "Acmer S2 Pro 36W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
     "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur l'Acmer S2 Pro 36 W peut-elle découper ?",
+      "answer": "Acmer ne publie pas de chiffres de découpe par épaisseur pour la S2 Pro. De notre côté, la fiche indique le tilleul jusqu'à 8 mm (en plusieurs passes dans le haut de la plage), et notre test découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en ~7–12 min, à 3–5 mm/s. Faites une grille de test sur votre propre matériau avant de chiffrer des travaux épais."
+    },
+    {
+      "question": "Quel pack choisir pour la S2 Pro 36 W ?",
+      "answer": "Prix US de la boutique Acmer en octobre 2026 : Basic 582 $, Camera 686 $, Rotary 809 $, IR 1 059 $, All in One 1 227 $. Le pack IR ajoute un module 1064 nm pour marquer le métal nu, ce que la diode bleue fait mal ; inutile si vous travaillez seulement le bois, le cuir et l'acrylique foncé."
+    },
+    {
+      "question": "S2 Pro 36 W ou 48 W : pour qui la 36 W ?",
+      "answer": "Pour les amateurs et ceux qui gravent surtout et découpent de temps en temps. Les deux partagent le même plateau, le même point et la même pompe à air intégrée ; la 48 W raccourcit surtout les temps de découpe et de remplissage (notre photo test : ~12–18 min contre ~14–22 min). Les packs de base ont environ 178 $ d'écart (582 $ contre 759,99 $)."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "built-in-air-pump",
+      "title": "Assistance d'air intégrée",
+      "body": "Une pompe à air de 30 L/min est intégrée à la machine : des découpes plus propres et moins de brûlures sans achat supplémentaire."
+    },
+    {
+      "id": "s2-pro-entry-price",
+      "title": "L'entrée la moins chère dans la S2 Pro",
+      "body": "Pack de base à 582 $ en octobre 2026, environ 178 $ de moins que la 48 W pour le même châssis 400 × 400 mm."
+    }
+  ]
 }

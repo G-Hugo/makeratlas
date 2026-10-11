@@ -74,14 +74,14 @@
     ]
   },
   "pros": [
-    "5W on xTool D1 Pro: engraving-first: photo fills and leather at moderate speeds",
-    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Fine spot (about 0.06 mm) for detailed photo and line engraving",
+    "Lowest price of the D1 Pro modules, especially on the used market",
+    "Large 430 × 390 mm frame for big engraving jobs at a small-laser price"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Cutting stops at card and about 3 mm basswood in several passes",
+    "Slow fills: about 25–36 min for a 10 × 10 cm photo in our benchmark",
+    "Discontinued: buy used, and check parts availability first"
   ],
   "beginnerNotes": "This profile is the 5W SKU on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next module before assuming you need more power.",
@@ -99,7 +99,7 @@
     "creality-falcon2-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-d1-pro-5w/01.webp",
   "mainObjective": "Detailed engraving on organics and coated metal: occasional thin cuts only",
   "images": [
@@ -147,5 +147,31 @@
     "advantages": "The 5W diode module on xTool D1 Pro is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
     "limitations": "Skip this module if you cut 3 mm+ stock daily: open the 10W, 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
   },
-  "discontinued": {}
+  "discontinued": {},
+  "faq": [
+    {
+      "question": "What can the D1 Pro 5W cut?",
+      "answer": "Very little: paper, card, felt and up to about 3 mm basswood in several passes, per our materials list. A 10 × 10 cm square in 3 mm basswood took about 15–22 min in our benchmark. It is an engraving module."
+    },
+    {
+      "question": "Is a D1 Pro 5W still worth buying?",
+      "answer": "The D1 Pro line is discontinued, so the 5W is a used purchase. Well below the $499–$699 it sold for new, it is a capable fine-detail engraver on a large 430 × 390 mm frame. Check the module, belts and focus before buying, and confirm that spare parts are still available."
+    },
+    {
+      "question": "D1 Pro 5W or 10W?",
+      "answer": "Choose the 5W only for engraving (photos on wood, leather, coated metal) at the lowest price. If you want to cut 3–5 mm plywood for ornaments or boxes, the 10W is much quicker (17–24 min against 25–36 min for a 10 × 10 cm photo in our benchmark) and typically cost about $100 more new."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "detail-engraving",
+      "title": "Made for detail",
+      "body": "With a spot of about 0.06 mm, the 5W head draws fine lines and photo dithering cleanly on wood, leather and coated metal."
+    },
+    {
+      "id": "large-frame-low-cost",
+      "title": "Large frame, low cost",
+      "body": "The D1 Pro frame offers 430 × 390 mm of work area, which a used 5W unit brings at a fraction of the price of newer machines."
+    }
+  ]
 }

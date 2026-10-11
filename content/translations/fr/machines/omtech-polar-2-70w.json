@@ -70,6 +70,18 @@
       "answer": "Oui. La Polar 50 W d’origine (400 × 300 mm) n’est plus vendue neuve par OMTech ; la Polar 2 garde le format de bureau avec une surface de 710 × 360 mm."
     }
   ],
+  "standoutFeatures": [
+    {
+      "id": "polar2-70w-cutting",
+      "title": "La plus forte puissance de découpe de la gamme Polar 2",
+      "body": "Le tube verre de 70 W découpe l'acrylique et le contreplaqué jusqu'à environ 10 mm (notre estimation) sur un plateau de 710 × 360 mm, pour 1 300 $ de moins que la version RF."
+    },
+    {
+      "id": "polar2-70w-internal-cooling",
+      "title": "Le refroidissement à eau intégré",
+      "body": "Un circuit fermé interne de 4,3 L remplace le refroidisseur externe ou le seau qu'exigent la plupart des CO₂ à tube verre. Vérifiez le niveau de liquide avant les longues séries de découpe."
+    }
+  ],
   "images": [
     {
       "alt": "Laser CO₂ de bureau OMTech Polar 2 : OMTech"

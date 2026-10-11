@@ -12,14 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
-    "40W : tête la plus orientée découpe de TwoTrees TTS-55",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Les temps les plus courts de la gamme TTS-55 dans notre test : ~12–18 min pour une photo de 10 × 10 cm, ~6–10 min pour un carré en tilleul de 3 mm",
+    "Tilleul jusqu'à 10 mm dans notre fiche",
+    "Vitesses de remplissage de 45–110 mm/s, plusieurs fois celles du module 10 W"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "La boutique TwoTrees ne propose pas de module 40 W pour la famille TTS : vérifiez le fabricant du module, sa puissance optique et la garantie",
+    "À 349–499 $, elle recoupe des machines plus récentes et plus rapides de classe 400 mm",
+    "Le point le plus large de la gamme (~0,10 mm) et plus de fumée sur un châssis ouvert de 300 × 300 mm"
   ],
   "materials": {
     "engrave": [
@@ -70,5 +70,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TTS-55 40W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
     "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Châssis ouvert : sécurité et fumées à votre charge."
-  }
+  },
+  "faq": [
+    {
+      "question": "Qui fabrique le module 40 W d'une TTS-55 ?",
+      "answer": "Lisez l'annonce attentivement. En octobre 2026, la boutique TwoTrees proposait des modules 20 W pour la famille TTS mais aucun module 40 W : les annonces de TTS-55 40 W peuvent associer le châssis à un module tiers ou plus ancien. Demandez la puissance optique (pas électrique) et qui assure la garantie."
+    },
+    {
+      "question": "Que gagne la 40 W par rapport à la 20 W sur ce châssis ?",
+      "answer": "Dans notre test, les photos passent de ~18–28 min à ~12–18 min et le carré en tilleul de 3 mm de ~9–15 min à ~6–10 min. Notre fiche relève la limite de tilleul de 8 à 10 mm. Le plafond de 200 mm/s du châssis limite les gains sur les grandes gravures."
+    },
+    {
+      "question": "Une TTS-55 40 W est-elle un achat raisonnable en 2026 ?",
+      "answer": "Seulement au bas de sa fourchette de 349–499 $. À ce prix, on trouve des machines de 20–40 W plus récentes, avec un plus grand plateau, une assistance d'air et un support actuel. Elle a surtout du sens si vous avez déjà des accessoires TTS-55 ou besoin d'un encombrement compact de 300 × 300 mm."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "tts55-40w-speed",
+      "title": "La configuration TTS-55 la plus rapide",
+      "body": "~12–18 min pour une photo de 10 × 10 cm et ~6–10 min pour un carré en tilleul de 3 mm dans notre test."
+    },
+    {
+      "id": "tts55-40w-depth",
+      "title": "Tilleul jusqu'à 10 mm",
+      "body": "La découpe la plus profonde des versions TTS-55 dans notre fiche, avec assistance d'air recommandée."
+    }
+  ]
 }

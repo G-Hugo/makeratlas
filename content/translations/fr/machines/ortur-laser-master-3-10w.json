@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Ortur Laser Master 3 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm (15.75 × 15.75 in) : validez vos formats de pièces avant achat"
+    "Lot de base à 299,99 $ sur la boutique Ortur en octobre 2026, moins de la moitié du prix de la LM3 plus puissante",
+    "Surface de travail complète de 400 × 400 mm selon Ortur",
+    "Pilotage en Wi-Fi et USB sur la plateforme LM3"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Remplissage photo à environ 20–42 mm/s : une photo de 10 × 10 cm prend 15 à 23 min",
+    "La découpe descend à environ 2–3 mm/s sur du bois de 3 mm",
+    "Ortur n’annonce la pompe Air Pump 1.0 offerte qu’avec le lot LM3 plus puissant"
   ],
   "materials": {
     "engrave": [
@@ -73,5 +72,31 @@
   "editorialDepth": {
     "advantages": "Ortur Laser Master 3 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Combien coûte la LM3 10 W par rapport à la 20 W ?",
+      "answer": "Sur la boutique Ortur en octobre 2026, le lot de base LM3 10 W était à 299,99 $ et celui de la 20 W à 639,99 $, ce dernier avec une pompe Air Pump 1.0 offerte. Les deux entrent dans notre fourchette suivie de 140 à 1 740 $, qui va des machines d’occasion aux lots complets d’Ortur."
+    },
+    {
+      "question": "Que peut découper la LM3 10 W ?",
+      "answer": "Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 8 à 12 min à 2–3 mm/s. Le tilleul jusqu’à 5 mm environ et l’acrylique noir fin sont possibles en plusieurs passes. Ortur ne publie des démonstrations de découpe en une passe que pour le module 20 W."
+    },
+    {
+      "question": "LM3 10 W ou 20 W : laquelle me convient ?",
+      "answer": "Prenez la 10 W pour un usage centré sur la gravure avec un petit budget : elle garde toute la surface de 400 × 400 mm, quand Ortur indique 400 × 380 mm pour la 20 W. Prenez la 20 W si vous découpez souvent : elle fait notre carré de 3 mm en 5 à 8 min environ et Ortur montre 10 mm de contreplaqué en une passe, pour environ 340 $ de plus."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "lm3-10w-price",
+      "title": "La plateforme LM3 au prix d’entrée",
+      "body": "299,99 $ pour le lot de base en octobre 2026, avec le même cadre et la même carte que la version plus chère."
+    },
+    {
+      "id": "lm3-10w-full-area",
+      "title": "Plateau complet de 400 × 400 mm",
+      "body": "Ortur indique toute la surface de 400 × 400 mm avec ce module, un peu plus qu’avec la tête plus puissante."
+    }
+  ]
 }

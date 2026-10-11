@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 450 × 440 mm (base; extensions available) : validez vos formats de pièces avant achat"
+    "La façon la moins chère d’accéder au cadre B1 de 450 × 440 mm : lot de base à 479,99 $ (boutique Longer, octobre 2026)",
+    "Point fin de 0,08 × 0,1 mm selon la fiche technique de Longer",
+    "Kit d’extension et écran tactile disponibles en option"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (30W ou 40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Remplissages lents dans nos tests : environ 14–32 mm/s, donc une photo de 10 × 10 cm prend 18 à 28 min",
+    "Notre benchmark de découpe est très loin des 15 mm en une passe annoncés par Longer",
+    "Écran tactile et kit d’extension en supplément sur le lot de base"
   ],
   "materials": {
     "engrave": [
@@ -71,5 +71,36 @@
   "editorialDepth": {
     "advantages": "Le B1 20 W convient quand vous avez besoin de place physique pour gabarits plus que d’une enceinte. C’est le Longer suivant si le Ray5 375 mm limite vos mises en page.",
     "limitations": "Moins rigide et moins documenté que l’Ortur LM3 à watts comparables. Acrylique coulé : CO₂. Vérifiez le pack : air assist parfois absent."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la B1 20 W découpe-t-elle vraiment ?",
+      "answer": "La fiche technique de Longer annonce 15 mm de tilleul en une passe et 35 mm d’acrylique au maximum. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 9 à 15 min à 2–3 mm/s : considérez 8 mm de tilleul et 5 mm d’acrylique foncé comme des limites pratiques en plusieurs passes ; les 15 mm demandent des réglages idéaux et l’assistance d’air."
+    },
+    {
+      "question": "Quel lot B1 20 W acheter ?",
+      "answer": "Sur la boutique Longer en octobre 2026 : lot Basic 479,99 $, lot Pro 649,99 $, lot Pro Max 869,99 $, et lot Basic avec module IR 799,99 $ pour les bijoux et le marquage du métal. Un kit d’extension (109,99 $) et un écran tactile (39,99 $) sont vendus à part."
+    },
+    {
+      "question": "B1 20 W ou B1 30 W ?",
+      "answer": "Les deux partagent le point de 0,08 × 0,1 mm et la surface de 450 × 440 mm. Le lot de base 30 W coûtait 90 $ de plus (569,99 $), est annoncé pour 20 mm de tilleul en une passe au lieu de 15 mm, et remplit à environ 39–88 mm/s dans nos tests contre 14–32 mm/s. Si vous gravez la plupart du temps, la 20 W suffit."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "b1-20w-entry",
+      "title": "Grand plateau au prix d’entrée",
+      "body": "Surface de 450 × 440 mm dès 479,99 $, extensible avec le kit Longer à 109,99 $."
+    },
+    {
+      "id": "b1-20w-detail",
+      "title": "Un point adapté au détail",
+      "body": "0,08 × 0,1 mm selon Longer, le plus fin des deux points de la gamme B1."
+    },
+    {
+      "id": "b1-20w-ir-option",
+      "title": "Lot avec module IR",
+      "body": "Longer vend un lot Basic avec module IR (799,99 $) pour graver bijoux et métal."
+    }
+  ]
 }

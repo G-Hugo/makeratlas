@@ -12,14 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
-    "40W : tête la plus orientée découpe de Longer Ray5",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Cadre repensé avec rail industriel de 15 mm et 24 000 mm/min, selon Longer",
+    "Remplissage à environ 60–130 mm/s : une photo de 10 × 10 cm en 12 à 18 min",
+    "Longer annonce la découpe d’inox fin (0,15 mm) en une passe"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Point large de 0,10 × 0,15 mm : la Ray5 la moins détaillée pour les petits textes et portraits",
+    "Le prix de la boutique Longer (679,99 $ en base en octobre 2026) dépasse notre fourchette suivie",
+    "Surface de 385 × 385 mm, plus petite que l’ancien cadre Ray5 selon Longer"
   ],
   "materials": {
     "engrave": [
@@ -41,7 +41,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 40 W : vérifiez le SKU avant d’acheter"
+    "note": "Boutique officielle Longer, oct. 2026 : de 680 $ à 950 $ selon le pack"
   },
   "specs": {
     "performance": {
@@ -67,5 +67,36 @@
   "editorialDepth": {
     "advantages": "Prenez le 40 W si le châssis Ray5 vous va mais que le débit 20 W freine vos devis. Vous restez sur l’entrée Longer avec le biais découpe maximal.",
     "limitations": "Flexion châssis et cycle de travail comptent plus à cette puissance. Comparez Longer B1 ou S30 Ultra si vous voulez un plus grand plateau. Pour une enceinte : xTool S1 plutôt que watts sur Ray5."
-  }
+  },
+  "faq": [
+    {
+      "question": "La Ray5 40 W est-elle la même machine que les autres Ray5 ?",
+      "answer": "Non. Longer décrit un cadre repensé : diode compressée à 8 faisceaux avec un point de 0,10 × 0,15 mm, rail industriel de 15 mm avec axe Y à 4 galets, jusqu’à 24 000 mm/min, surface de 385 × 385 mm et 5,73 kg. Seuls le nom et la disposition générale sont communs avec les Ray5 moins puissantes."
+    },
+    {
+      "question": "Que découpe la Ray5 40 W ?",
+      "answer": "Longer annonce 20 mm de tilleul et 0,15 mm d’inox en une passe. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 6 à 10 min à 3–8 mm/s, et le tilleul de 10 mm environ est réaliste en plusieurs passes. L’acrylique transparent reste impossible."
+    },
+    {
+      "question": "Vaut-elle son prix face à la Ray5 20 W ?",
+      "answer": "La boutique Longer affichait la 40 W à 679,99 $ (Basic), 739,99 $ (Pro) et 949,99 $ (Pro Max) en octobre 2026, au-dessus de notre fourchette suivie de 449 à 649 $ : comparez les revendeurs. Elle vaut le coup si vous découpez chaque semaine : notre benchmark en 3 mm passe d’environ 9–15 min à 6–10 min et les remplissages vont plusieurs fois plus vite."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray5-40w-rail",
+      "title": "Un mouvement plus rigide",
+      "body": "Rail industriel de 15 mm et axe Y à 4 galets selon Longer, pour des découpes plus stables à vitesse élevée."
+    },
+    {
+      "id": "ray5-40w-cutting",
+      "title": "Une puissance tournée vers la découpe",
+      "body": "Carrés de 3 mm de tilleul en 6 à 10 min environ dans nos benchmarks, et 10 mm environ atteignables en plusieurs passes."
+    },
+    {
+      "id": "ray5-40w-light",
+      "title": "Légère pour sa puissance",
+      "body": "5,73 kg selon Longer, facile à déplacer entre l’établi et le rangement."
+    }
+  ]
 }

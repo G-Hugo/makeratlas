@@ -12,14 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Ortur H20 : priorité gravure : remplissages photo et cuir",
-    "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert"
+    "Caisson de classe 1 avec verrou de couvercle, ventilateur d’extraction et arrêt d’urgence",
+    "Plateau motorisé pour des objets jusqu’à 98 mm de haut",
+    "Point fin d’environ 0,08 × 0,09 mm pour les gravures détaillées"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée"
+    "Découpe lente : 14 à 24 min environ pour un carré de 10 × 10 cm dans du tilleul de 3 mm dans nos benchmarks",
+    "Mise au point manuelle sur ce module ; Ortur ne propose l’autofocus que sur le module le plus puissant",
+    "Prix élevé pour la puissance : l’essentiel du coût part dans le caisson"
   ],
   "materials": {
     "engrave": [
@@ -66,5 +66,36 @@
   "editorialDepth": {
     "advantages": "Le module 10W diode sur Ortur H20 est le bon choix si vous gravez surtout bois, cuir et ardoise et n’achetez pas des watts de découpe inutiles. Même châssis, montée possible plus tard.",
     "limitations": "Ne prenez pas ce module si vous découpez du 5 mm+ tous les jours : ouvrez le profil 20W ou 40W. Acrylique coulé et métal sans spray restent frustrants sur diode."
-  }
+  },
+  "faq": [
+    {
+      "question": "Pourquoi payer plus de 1 100 $ une machine fermée de 10 W ?",
+      "answer": "Vous payez le caisson, pas la puissance de découpe : Ortur annonce un caisson de classe 1 avec capot filtrant la lumière, ventilateur d’extraction, verrou de sécurité du couvercle, arrêt d’urgence et plateau motorisé pour des objets jusqu’à 98 mm de haut. La boutique Ortur affichait la 10 W à 1 109 $ en octobre 2026, mais en rupture."
+    },
+    {
+      "question": "Que peut découper la H20 10 W ?",
+      "answer": "Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 14 à 24 min à 2–3 mm/s. Le tilleul jusqu’à 5 mm environ et le cuir fin sont possibles en plusieurs passes. Ortur décrit ce module comme adapté à la découpe légère, sans chiffre d’épaisseur."
+    },
+    {
+      "question": "Commencer avec la 10 W et changer de module plus tard ?",
+      "answer": "La H20 accepte des modules interchangeables, c’est donc possible. Comparez d’abord : en octobre 2026, Ortur affichait la version 20 W à 1 379 $ avec pompe à air offerte et la 40 W à 1 909 $. Si vous comptez découper chaque semaine, l’écart entre lots peut revenir moins cher qu’un second module acheté plus tard."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "h20-10w-class1",
+      "title": "Caisson de classe 1",
+      "body": "Verrou de couvercle, arrêt d’urgence, ventilateur d’extraction et capot filtrant : utilisable dans une pièce partagée."
+    },
+    {
+      "id": "h20-10w-lift",
+      "title": "Plateau motorisé",
+      "body": "Le plateau descend pour des objets jusqu’à 98 mm de haut, pratique pour les boîtes et les pièces épaisses."
+    },
+    {
+      "id": "h20-10w-ir-combo",
+      "title": "Version avec infrarouge",
+      "body": "Ortur vend une version 10 W + 2 W IR (1 748 $ en octobre 2026) pour marquer le métal et les plastiques."
+    }
+  ]
 }

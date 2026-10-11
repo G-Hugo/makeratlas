@@ -12,13 +12,40 @@
     "Lots"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 150 × 150 mm typical (varies by lens) : validez vos formats avant achat"
+    "Donne accès à l'objectif 300 × 300 mm de Gweike pour les grandes plaques et les séries",
+    "Plus rapide que la 30 W dans notre benchmark sur inox : environ 3 à 8 min contre 4 à 11 min pour un logo rempli de 10 × 10 cm",
+    "En stock dans toutes les options de relevage en octobre 2026, à partir de 3 899 $"
   ],
   "cons": [
-    "Fibre 50W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
-    "Montée possible vers 70W ou 100W si le débit métal devient critique"
+    "Démarre environ 1 500 $ au-dessus du prix de base de la 30 W (2 399 $)",
+    "Le relevage électrique avec mise au point automatique ajoute jusqu'à 500 $ aux 3 899 $ de base",
+    "Toujours Q-switch : le marquage couleur demande plutôt la gamme G6 Split MOPA"
+  ],
+  "faq": [
+    {
+      "question": "De combien la G6 Split 50 W est-elle plus rapide que la 30 W ?",
+      "answer": "Dans notre benchmark, un logo rempli de 10 × 10 cm sur inox prend environ 3 à 8 minutes sur la 50 W, contre 4 à 11 sur la 30 W. L'écart se creuse en gravure profonde et en découpe multipasse, là où la puissance moyenne compte le plus. Gweike annonce la même vitesse de ligne de 7 000 mm/s pour toutes les G6 Split : les marquages de surface légers y gagnent peu."
+    },
+    {
+      "question": "Quels objectifs conviennent à la G6 Split 50 W ?",
+      "answer": "Elle est livrée avec un objectif de 175 × 175 mm (6,9 po). Gweike vend des objectifs de remplacement de 110, 150, 200 et 300 mm à 199 $ pièce, et prévoit le 300 × 300 mm pour la 50 W et au-delà. Un champ plus grand répartit la même puissance sur un point plus large : la gravure profonde ralentit avec l'objectif 300 mm."
+    },
+    {
+      "question": "G6 Split 50 W ou 70 W : laquelle me convient ?",
+      "answer": "La 50 W démarre à 3 899 $ en relevage manuel sur la boutique Gweike US (octobre 2026) ; la 70 W démarre à 4 899 $, environ 1 000 $ de plus. Choisissez la 50 W pour un mélange de marquage et de gravure profonde occasionnelle. La 70 W se justifie quand la gravure profonde ou la découpe est quotidienne et que des cycles plus courts rapportent de l'argent."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g6-50w-large-lens",
+      "title": "Compatible avec l'objectif 300 × 300 mm",
+      "body": "Gweike prévoit son objectif de remplacement de 11,8 po (300 mm) pour la G6 50 W et au-delà. Pratique pour les grandes plaques, les panneaux et les gabarits qui portent beaucoup de pièces en un seul travail."
+    },
+    {
+      "id": "g6-50w-balance",
+      "title": "Le juste milieu pour un usage mixte",
+      "body": "Assez rapide pour des logos plus profonds et des découpes fines, pour environ 1 000 $ de moins que le palier suivant. Un choix raisonnable quand le marquage est le travail quotidien et la profondeur occasionnelle."
+    }
   ],
   "materials": {
     "engrave": [

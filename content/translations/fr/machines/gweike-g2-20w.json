@@ -12,13 +12,40 @@
     "Marquage bureau"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 110 × 110 mm : validez vos formats avant achat"
+    "L'entrée la moins chère de la gamme G2 : 1 349 $ avec l'objectif 150 mm et le relevage électrique (boutique Gweike US, oct. 2026)",
+    "Facile à déplacer (environ 6,5 kg selon Gweike) et utilisable à la main pour les pièces qui ne passent pas sous la tête",
+    "Puissance suffisante pour le marquage de surface sur acier, laiton, aluminium anodisé et beaucoup de plastiques"
   ],
   "cons": [
-    "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
-    "Montée possible vers 30W ou 50W si le débit métal devient critique"
+    "La plus lente de la gamme en profondeur : environ 2,1 mm dans le laiton après deux heures de passes dans le test de Gweike",
+    "Les découpes de tôle fine sont lentes : 11 passages sur du laiton de 0,5 mm à 10 mm/s (démonstration Gweike)",
+    "Source Q-switch, pas MOPA : contrôle des couleurs limité sur l'inox"
+  ],
+  "faq": [
+    {
+      "question": "Quelle profondeur la G2 20 W atteint-elle dans le laiton ?",
+      "answer": "Dans la vidéo comparative de Gweike, deux heures de passes répétées à 1 000 mm/s atteignent environ 2,1 mm dans le laiton, et une heure environ 1,7 mm dans l'ardoise. Le marquage courant (numéros de série, logos, QR codes) ne demande que quelques centièmes de millimètre, ce que la 20 W fait vite ; un relief d'un millimètre est lent à cette puissance."
+    },
+    {
+      "question": "La G2 20 W peut-elle découper de la tôle fine ?",
+      "answer": "Seulement de la tôle très fine, et lentement. La démonstration de Gweike découpe du laiton de 0,5 mm à 10 mm/s en 11 passes. Voyez-la comme un outil de découpe occasionnelle pour petites médailles et flans, pas comme une découpeuse de tôle."
+    },
+    {
+      "question": "La 20 W suffit-elle, ou faut-il payer plus pour la G2 Pro ?",
+      "answer": "La 20 W est affichée à 1 349 $ avec l'objectif 150 mm et le relevage électrique sur la boutique Gweike US (octobre 2026) ; la version 110 mm à relevage manuel, à 1 299 $, était en rupture. Elle couvre médailles pour animaux, gobelets, outils et aluminium anodisé. Si vous prévoyez de la gravure profonde, des pièces de monnaie ou des découpes régulières de tôle fine, la Pro économise beaucoup de passes. Aucune des deux n'a de source MOPA : le marquage couleur sur acier reste limité."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g2-20w-entry-price",
+      "title": "Le prix d'entrée le plus bas de la gamme G2",
+      "body": "À 1 349 $ avec l'objectif 150 mm et le relevage électrique (octobre 2026), la 20 W coûte environ 450 $ de moins que la même configuration en G2 Pro. L'écart paie le module rotatif à rouleaux à 129 $ et une partie d'un extracteur de fumées."
+    },
+    {
+      "id": "g2-20w-fine-marking",
+      "title": "Une puissance douce pour les marquages fins",
+      "body": "Une puissance plus faible permet de marquer les objets plaqués, les couches anodisées et les plastiques sans les brûler, et les grilles de test se règlent vite. Gweike annonce une taille de caractère minimale de 0,1 mm pour la série G2."
+    }
   ],
   "materials": {
     "engrave": [
@@ -64,5 +91,8 @@
   "editorialDepth": {
     "advantages": "Gweike G2 Fiber 20W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
     "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante (30W ou 50W) ou une autre machine."
+  },
+  "priceRange": {
+    "note": "Boutique officielle Gweike, oct. 2026 : de 1 299 $ à 1 349 $ selon relevage manuel ou électrique"
   }
 }

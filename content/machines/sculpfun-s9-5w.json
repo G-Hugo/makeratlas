@@ -71,13 +71,14 @@
     ]
   },
   "pros": [
-    "5W on Sculpfun S9: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Lowest entry price on the S9 frame: $199–299 on our tracked listings, often less used",
+    "Fine ~0.09 mm spot keeps small text and line art crisp on wood and leather",
+    "Low heat and smoke on engraving jobs, easy to manage in a small room"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Cutting tops out around 3 mm basswood; thicker stock needs several slow passes",
+    "Photo fills run at ~16–38 mm/s, so a 10 × 10 cm photo takes ~18–28 min",
+    "Discontinued: most units are sold used or refurbished, warranty depends on the seller"
   ],
   "beginnerNotes": "This profile is the 5W SKU on Sculpfun S9. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
@@ -95,7 +96,7 @@
     "sculpfun-s30-ultra-22w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/sculpfun-s9-5w/01.webp",
@@ -124,5 +125,36 @@
   },
   "discontinued": {
     "successor": "sculpfun-s10-10w"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is the Sculpfun S9 5W still worth buying used?",
+      "answer": "Sculpfun now sells the S10 and S30 lines as its current models, so the S9 is mostly a used or refurbished buy: Sculpfun's own store listed a refurbished S9 at $129.99 in October 2026. This profile matches the original S9, which uses a 5.5W optical diode. Check the module hours, the lens and that the frame is square, and be wary of paying much more than $150–200 for a used unit."
+    },
+    {
+      "question": "How thick can the S9 5W cut?",
+      "answer": "Sculpfun's original listing claimed up to 15 mm of wood and 10 mm of black acrylic, but those figures need many slow passes. In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 9–15 min at 2–3 mm/s, so 3 mm is the practical limit for clean cuts. Clear acrylic cannot be cut at all."
+    },
+    {
+      "question": "S9 5W or S9 10W: which one fits me?",
+      "answer": "Take the 5W if you mostly engrave wood signs, leather and slate and want the lowest price ($199–299 on our tracked listings, against $299–449 for the 10W). Take the 10W if you cut 3–5 mm plywood regularly: it fills at about 60–140 mm/s in our tests versus 16–38 mm/s, so photo jobs also finish several times faster."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s9-5w-fine-detail",
+      "title": "Fine detail for the price",
+      "body": "About 0.09 mm spot in our benchmark profile: small lettering, line art and leather marks stay sharp."
+    },
+    {
+      "id": "s9-5w-low-cost",
+      "title": "Cheap way to learn",
+      "body": "Refurbished units were $129.99 on Sculpfun's store in October 2026, enough to learn LightBurn or LaserGRBL before spending more."
+    },
+    {
+      "id": "s9-5w-spare-module",
+      "title": "Spare module still listed",
+      "body": "Sculpfun still listed a replacement S9 laser module ($169.99) in October 2026, so a worn diode on a used machine can be swapped."
+    }
+  ]
 }

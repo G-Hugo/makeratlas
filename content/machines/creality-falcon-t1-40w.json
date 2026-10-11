@@ -16,9 +16,9 @@
   ],
   "priceRange": {
     "min": 2999,
-    "max": 3999,
+    "max": 2999,
     "currency": "USD",
-    "note": "40W module or bundle; base chassis sold separately"
+    "note": "Official Creality store, Oct 2026: $2,999, complete machine"
   },
   "specs": {
     "power": "40W diode (galvo)",
@@ -71,14 +71,14 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
-    "40W: the most cut-focused head in the Creality Falcon T1 Diode line",
-    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes"
+    "Most cutting power on the T1: 12 mm basswood and 10 mm opaque acrylic (Creality rating)",
+    "Fast galvo fills: about 2–4 min for a 10 × 10 cm logo on plywood in our benchmark",
+    "Same Class 1 enclosure, sensors and software as the other T1 modules"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "$500 more than the entry T1 bundle on Creality's store (October 2026)",
+    "Thick cuts produce heavy smoke: plan an exhaust or purifier",
+    "Clear acrylic cannot be cut with a diode"
   ],
   "beginnerNotes": "This profile is the 40W SKU on Creality Falcon T1 Diode. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Price the full module roadmap before committing: 40W plus later fiber can exceed a single F2 Ultra bundle.",
@@ -96,7 +96,7 @@
     "creality-falcon2-pro-40w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/creality-falcon-t1/01.webp",
   "images": [
     {
@@ -154,5 +154,31 @@
   "editorialDepth": {
     "advantages": "The 40W diode module adds cut-focused galvo speed on the same T1 chassis: thicker basswood and faster fills than the entry diode head while keeping the enclosed Class 1 workflow.",
     "limitations": "Still not CO₂ for cast acrylic production. Module cost stacks on the chassis. Compare fixed galvo bundles if you know you only need 40W diode day one."
-  }
+  },
+  "faq": [
+    {
+      "question": "How thick can the Falcon T1 40W cut?",
+      "answer": "Creality rates the 40W diode at 12 mm basswood and 10 mm opaque acrylic (reported by Igor's Lab and resellers), with results depending on wood quality, focus and the number of passes. Our materials list stays at about 8 mm for clean cuts."
+    },
+    {
+      "question": "T1 40W bundle, or the 20W bundle plus the 40W module later?",
+      "answer": "The 40W bundle was $2,999 against $2,499 for the 20W bundle on Creality's store in October 2026. The 40W module alone costs $1,399, so if you already know you will cut, buying the 40W upfront saves about $900."
+    },
+    {
+      "question": "Is the 40W diode good for engraving too?",
+      "answer": "For speed, yes: our benchmark filled a 10 × 10 cm logo on plywood in about 2–4 min. For the finest photo detail on wood, test lower power settings first; for bare metal, the fiber module is the right tool, not the diode."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "deepest-t1-cut",
+      "title": "The cutting module of the T1",
+      "body": "Creality rates the 40W diode at 12 mm basswood and 10 mm opaque acrylic, the most of any T1 head."
+    },
+    {
+      "id": "galvo-fill-speed",
+      "title": "Galvo fill speed",
+      "body": "In our benchmark a 10 × 10 cm logo on plywood took about 2–4 min, several times quicker than a gantry diode."
+    }
+  ]
 }

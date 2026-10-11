@@ -12,15 +12,14 @@
     "Petits bureaux"
   ],
   "pros": [
-    "Caisson classe 1 entièrement fermé avec verrouillage du capot, détection de flamme, capteur d’inclinaison et clé USB de sécurité, à un prix d’entrée de gamme",
-    "Plateau élévateur motorisé et mise au point automatique : objets jusqu’à 148 mm de haut sans cale de focale",
-    "Livrée assemblée : un testeur gravait dès le premier jour",
-    "Changement de module sans outil : ajoutez plus tard la tête infrarouge 1,2 W pour l’inox, l’ardoise et le marbre noir"
+    "Découpe 5 mm de tilleul en une passe selon Creality, confirmé sans grande marge par un test en conditions réelles",
+    "Plateau élévateur motorisé et mise au point automatique pour des objets jusqu’à 148 mm de haut",
+    "Les mêmes sécurités Classe 1 que la version d’entrée : verrouillage du capot, détection de flamme, capteur d’inclinaison, clé USB"
   ],
   "cons": [
-    "Surface de 150 × 150 mm : dessous de verre, étiquettes et petites planches uniquement",
-    "Finition plastique à la hauteur du prix ; Wi-Fi en 2,4 GHz seulement et caméra à configurer via l’application mobile",
-    "La mise au point automatique doit être relancée avant chaque travail et le logiciel permet de démarrer sans elle"
+    "5 mm est la limite, à vitesse lente : au-delà, c’est hors de portée",
+    "Plateau de 150 × 150 mm : ni enseignes ni planches à découper",
+    "Construction en plastique et Wi-Fi 2,4 GHz uniquement"
   ],
   "materials": {
     "engrave": [
@@ -58,20 +57,16 @@
   },
   "faq": [
     {
-      "question": "La Falcon A1C peut-elle découper du bois ?",
-      "answer": "Du bois fin, oui. Creality ne publie aucun chiffre de découpe, mais un test en conditions réelles a traversé du contreplaqué de 5 mm en une passe avec le module 10 W, à 90 % de puissance et 300 mm/min, avec peu de marge. Considérez 3 mm comme confortable et 5 mm comme la limite."
+      "question": "Quelle épaisseur la Falcon A1C 10 W peut-elle découper ?",
+      "answer": "La FAQ de Creality pour l’A1C indique 5 mm de tilleul en une passe, et un test en conditions réelles a découpé du contreplaqué de 5 mm en une passe à 90 % de puissance et 300 mm/min, sans grande marge. Considérez le 3 mm comme confortable : notre benchmark a découpé un carré de 10 × 10 cm dans du tilleul de 3 mm en 6 à 10 min environ."
     },
     {
-      "question": "La caméra IA vaut-elle le supplément ?",
-      "answer": "Si vous gravez sur des objets existants (dessous de verre, portefeuilles, étiquettes), oui : le placement devient bien plus simple pour environ 30 $ de plus. Elle ne s’ajoute pas après coup sur la version de base, il faut donc trancher à l’achat."
+      "question": "L’A1C 10 W vaut-elle 100 $ de plus que la 5 W ?",
+      "answer": "Pour la plupart des acheteurs, oui : 369 $ contre 269 $ en version de base sur la boutique Creality (octobre 2026), une gravure plus rapide sur bois (environ 12 à 18 min contre 18 à 26 min pour une photo de 10 × 10 cm dans notre benchmark) et une vraie découpe jusqu’à 5 mm. Ne vous en passez que si vous ne découperez jamais et que chaque dollar compte."
     },
     {
-      "question": "Puis-je passer de 5 W à 10 W plus tard ?",
-      "answer": "Oui. Creality vend le module diode 10 W séparément et il se change sans outil. Le module infrarouge 1,2 W optionnel utilise le même support."
-    },
-    {
-      "question": "Peut-elle graver le métal ?",
-      "answer": "Le métal revêtu avec la diode, oui. Pour l’inox nu, ajoutez le module infrarouge 1,2 W (1064 nm) : en test, il a donné un marquage sombre et net sur de l’inox brossé, lentement."
+      "question": "La version avec caméra IA vaut-elle 30 $ de plus ?",
+      "answer": "Si vous gravez sur des objets existants comme des dessous de verre, des portefeuilles ou des étiquettes, oui : la caméra montre où le motif va tomber. Elle ne peut pas être ajoutée plus tard à la version de base, décidez donc à l’achat (369 $ en base contre 399 $ avec caméra, octobre 2026)."
     }
   ],
   "images": [
@@ -109,5 +104,17 @@
   "editorialDepth": {
     "advantages": "La A1C 10 W est la version à prendre si vous voulez le caisson pour la sécurité tout en comptant découper des décorations, des étiquettes ou des formes en contreplaqué de 3 mm. Même caisson, même plateau et même logiciel que la 5 W, avec une gravure environ deux fois plus rapide sur bois et une vraie découpe, lente, jusqu’à 5 mm.",
     "limitations": "La surface de 150 × 150 mm est la limite dure : pas d’enseignes, pas de planches à découper, pas de séries de plus de quelques dessous de verre. La finition est en plastique, le Wi-Fi en 2,4 GHz seulement, et les estimations de durée étaient environ 25 % trop courtes lors d’un test indépendant."
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "compact-five-mm-cut",
+      "title": "Une vraie découpe dans un boîtier compact",
+      "body": "Creality indique 5 mm de tilleul en une passe pour l’A1C 10 W : assez pour des décorations, des étiquettes et de petites formes en contreplaqué de 3 mm."
+    },
+    {
+      "id": "lift-bed-autofocus",
+      "title": "Plateau élévateur et mise au point automatique",
+      "body": "La plateforme motorisée descend pour accueillir des objets jusqu’à 148 mm de haut, et la mise au point automatique règle la hauteur sans cale."
+    }
+  ]
 }

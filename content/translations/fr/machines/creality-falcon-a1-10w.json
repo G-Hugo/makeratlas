@@ -12,14 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Creality Falcon A1 : priorité gravure : remplissages photo et cuir",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
-    "Surface utile 250 × 250 mm (approx.) : validez vos formats de pièces avant achat"
+    "Livrée entièrement montée, avec une caméra HD intégrée pour placer les motifs sur les objets",
+    "Caisson Classe 1 : pas de lunettes en usage normal, et le laser s’arrête à l’ouverture du capot",
+    "Le prix le plus bas de la famille A1 (549 $ sur la boutique Creality, octobre 2026)"
   ],
   "cons": [
-    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée"
+    "La découpe se limite au bois fin et à environ 5 mm d’acrylique foncé",
+    "Remplissages lents à cette puissance : environ 12 à 18 min pour une photo de 10 × 10 cm dans notre benchmark",
+    "Le caisson contient la fumée sans l’éliminer : un tuyau d’évacuation ou un purificateur reste nécessaire"
   ],
   "materials": {
     "engrave": [
@@ -65,5 +65,31 @@
   "editorialDepth": {
     "advantages": "Creality Falcon A1 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Format fermé plus rassurant à la maison.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que peut découper la Falcon A1 10 W ?",
+      "answer": "Les fiches techniques des revendeurs indiquent environ 5 à 6 mm de tilleul et autour de 5 mm d’acrylique noir en une passe. Notre liste de matériaux est plus prudente et considère le tilleul fin en plusieurs passes comme la zone confortable. Un carré de 10 × 10 cm dans du tilleul de 3 mm a pris environ 6 à 11 min dans notre benchmark."
+    },
+    {
+      "question": "Falcon A1 10 W ou A1 Pro 20 W ?",
+      "answer": "L’A1 10 W (549 $ sur la boutique Creality, octobre 2026) convient à la gravure de cadeaux, avec sa caméra intégrée pour le placement. L’A1 Pro (1 099 $) double la puissance de la diode, ajoute un laser infrarouge 2 W pour le métal nu et les plastiques, et découpe environ 10 mm de tilleul selon Creality. Ne payez les 550 $ d’écart que pour le marquage du métal ou des découpes épaisses régulières."
+    },
+    {
+      "question": "Machine seule, kit Basic ou kit All-in-One ?",
+      "answer": "En octobre 2026, Creality affichait l’A1 10 W seule à 549 $, le kit Basic à 599 $ et le kit All-in-One à 699 $. Les kits ajoutent des accessoires dont le contenu varie selon l’annonce : comparez-les avec ce que vous avez déjà (extraction, purificateur, matériaux) avant de payer 50 à 150 $ de plus."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "camera-placement",
+      "title": "Placement par caméra dès le départ",
+      "body": "La caméra HD intégrée affiche le plateau : vous placez le motif sur l’objet à l’écran au lieu de le cadrer à la main."
+    },
+    {
+      "id": "assembled-class1",
+      "title": "Montée et Classe 1",
+      "body": "L’A1 arrive montée, dans un boîtier fermé Classe 1 avec verrouillage du capot : l’une des façons les plus simples de commencer à graver en intérieur en sécurité."
+    }
+  ]
 }

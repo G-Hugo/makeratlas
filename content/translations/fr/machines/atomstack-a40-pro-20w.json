@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
+    "Vendue uniquement d'occasion désormais : au bas de notre fourchette (349 $) ou en dessous, elle coûte moins que les 20 W actuelles de même classe de découpe",
+    "Point de ~0,07 mm, plus fin que le module 40 W sur le même châssis : mieux pour les photos et les petites polices",
+    "Même châssis rigide A40 Pro de 410 × 400 mm que la 40 W"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Arrêtée : plus de stock neuf chez Atomstack, la garantie et les modules de rechange dépendent du vendeur",
+    "Découpe lente dans notre test : ~9–15 min pour un carré de 10 × 10 cm dans du tilleul de 3 mm, à 2–3 mm/s",
+    "Les photos prennent ~18–28 min pour notre test de 10 × 10 cm, environ 50 % de plus que la 40 W"
   ],
   "materials": {
     "engrave": [
@@ -71,5 +71,31 @@
   "editorialDepth": {
     "advantages": "Le A40 Pro 20 W est la recommandation équilibrée Atomstack : meilleure mécanique que A5 avec 20 W optique.",
     "limitations": "Communauté plus petite qu’Ortur. Acheteurs enceinte : xTool S1 20 W. Confirmez watts optiques, pas seulement « 40 W combinés »."
-  }
+  },
+  "faq": [
+    {
+      "question": "L'Atomstack A40 Pro 20 W vaut-elle encore le coup d'occasion ?",
+      "answer": "Seulement avec une vraie remise. L'A40 Pro n'est plus vendue neuve (Atomstack propose désormais l'A40 Pro V2, 769 $ machine seule en octobre 2026) : vérifiez que le module laser fonctionne, demandez l'alimentation d'origine et partez du principe qu'il n'y a plus de garantie constructeur. Sous 350 $ environ, c'est une graveuse raisonnable ; au-dessus, comparez avec les 20 W actuelles sous garantie."
+    },
+    {
+      "question": "Quelle épaisseur l'A40 Pro 20 W peut-elle découper ?",
+      "answer": "Les chiffres de découpe très épaisse en une passe annoncés par Atomstack pour la famille A40 Pro concernent son module le plus puissant, pas celui-ci. Notre fiche indique le tilleul jusqu'à 8 mm (en plusieurs passes à cette épaisseur) et l'acrylique foncé jusqu'à 5 mm ; notre carré test en tilleul de 3 mm prend ~9–15 min."
+    },
+    {
+      "question": "En occasion, A40 Pro 20 W ou 40 W ?",
+      "answer": "Prenez la 20 W si vous gravez bien plus que vous ne découpez : son point est plus fin (~0,07 mm contre ~0,08 mm) et les annonces sont généralement plus basses (349–499 $ contre 399–599 $ dans notre fourchette). Prenez la 40 W si la découpe compte, car elle divise environ par deux le temps de découpe dans notre test."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "used-value-a40-20w",
+      "title": "Intéressante en occasion",
+      "body": "Notre fourchette commence à 349 $ ; à ce prix ou en dessous, une machine d'occasion donne un châssis rigide de 410 × 400 mm pour la gravure."
+    },
+    {
+      "id": "finer-spot-a40-20w",
+      "title": "Point plus fin que la 40 W",
+      "body": "Point de ~0,07 mm dans notre fiche, un peu plus serré que le module 40 W, utile pour les photos et les textes denses."
+    }
+  ]
 }

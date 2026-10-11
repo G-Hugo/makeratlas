@@ -115,6 +115,18 @@
       "answer": "Not bare metal: CO₂ wavelengths reflect off it. Anodized aluminum and coated metals mark well, and bare steel needs a marking compound or a fiber laser."
     }
   ],
+  "standoutFeatures": [
+    {
+      "id": "polar2-rf-speed",
+      "title": "RF source for fast, fine engraving",
+      "body": "Up to 2,000 mm/s with 2G acceleration and a spot of about 0.07 mm (OMTech figures). Photo fills and small text come out faster and crisper than on the glass-tube Polar 2."
+    },
+    {
+      "id": "polar2-rf-air-cooled",
+      "title": "Air-cooled, long-life tube",
+      "body": "No water loop to fill, monitor or protect from frost. OMTech rates the RF tube for up to 30,000 hours and covers it for 24 months."
+    }
+  ],
   "accessories": [
     {
       "id": "enclosure",
@@ -147,7 +159,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-11",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/omtech-polar-2-50w-rf/01.webp",
   "images": [
     {

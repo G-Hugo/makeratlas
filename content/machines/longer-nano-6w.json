@@ -15,10 +15,10 @@
     "First machine"
   ],
   "priceRange": {
-    "min": 499,
-    "max": 1059,
+    "min": 400,
+    "max": 960,
     "currency": "USD",
-    "note": "Pro sets add rotary/slide"
+    "note": "Official Longer store, Oct 2026: $400 to $960 depending on bundle"
   },
   "specs": {
     "power": "6W diode",
@@ -70,13 +70,14 @@
     ]
   },
   "pros": [
-    "6W on Longer Nano: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Galvo head rated by Longer at up to 5,000 mm/s for quick small marks",
+    "Basic set at $399.99 on Longer's store (October 2026)",
+    "Compact and portable, works with LightBurn, LaserGRBL and LaserBurn"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Precision of 0.05 mm per Longer, coarser than the field-lens Nano Pro",
+    "Small 100 × 100 mm field unless you add the slide extension",
+    "Cutting 3 mm basswood takes ~9–15 min in our benchmarks"
   ],
   "beginnerNotes": "This profile is the 6W SKU on Longer Nano. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
@@ -94,7 +95,7 @@
     "sculpfun-icube-pro-5w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/longer-nano-6w/01.webp",
   "modelLine": "longer-nano",
   "powerRating": "6W",
@@ -110,5 +111,31 @@
   "editorialDepth": {
     "advantages": "Longer Nano 6W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 4 mm+ cutting in production: see 12W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "What can the Nano 6W cut?",
+      "answer": "Longer gives a 6 mm wood cutting depth. The Nano is a galvo machine, so cuts are built from many fast passes: in our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 9–15 min. Paper, card and fabric are easy; treat thicker wood as a slow, multi-pass job."
+    },
+    {
+      "question": "How big can a design be on the Nano 6W?",
+      "answer": "Longer lists a 100 × 100 mm working field, extendable to 100 × 300 mm with the slide extension. That suits tags, jewellery boxes, phone cases and leather patches, not signs or panels."
+    },
+    {
+      "question": "Nano 6W or Nano Pro 12W?",
+      "answer": "On Longer's store in October 2026 the basic sets were $399.99 (6W) and $559.99 (Pro 12W). For $160 more, the Pro adds a second diode and an F-theta field lens, with a 0.01 mm precision claim against 0.05 mm and a 10 mm cutting depth against 6 mm. The 6W is enough for small engraving work."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "nano-6w-galvo",
+      "title": "Galvo speed in a small box",
+      "body": "Up to 5,000 mm/s engraving and 32,000 mm/s preview according to Longer, ideal for repeated small marks."
+    },
+    {
+      "id": "nano-6w-price",
+      "title": "Entry price for a galvo diode",
+      "body": "$399.99 for the basic set in October 2026, with Pro and Pro Max sets adding accessories."
+    }
+  ]
 }

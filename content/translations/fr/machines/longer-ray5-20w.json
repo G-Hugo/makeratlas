@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 375 × 375 mm : validez vos formats de pièces avant achat"
+    "Découpe un carré de tilleul de 3 mm en 9 à 15 min dans nos benchmarks",
+    "Remplissage à environ 16–36 mm/s, trois fois la vitesse de la Ray5 d’entrée",
+    "Large choix de lots sur la boutique Longer, de 399,99 $ en base jusqu’à l’extension grand format"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Point de 0,08 × 0,10 mm selon Longer, moins fin que celui de la Ray5 la plus précise pour les détails",
+    "Surface de travail un peu plus petite : 400 × 365 mm selon Longer",
+    "Les 15 mm en une passe annoncés par Longer sont optimistes face à notre benchmark de découpe"
   ],
   "materials": {
     "engrave": [
@@ -41,7 +41,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 20 W : vérifiez le SKU avant d’acheter"
+    "note": "Boutique officielle Longer, oct. 2026 : de 400 $ à 449 $ selon le pack"
   },
   "specs": {
     "performance": {
@@ -70,5 +70,31 @@
   "editorialDepth": {
     "advantages": "Le Ray5 20 W est la puissance que la plupart des acheteurs cherchent chez Longer. Il équilibre gravure style Etsy et tilleul modéré avec air assist et extraction.",
     "limitations": "Signalétique acrylique ou bois épais en production : CO₂ ou Ray5 40 W. Communauté plus petite qu’Ortur ou Sculpfun. Les photos ultra fines peuvent préférer un 10 W réglé lentement."
-  }
+  },
+  "faq": [
+    {
+      "question": "15 mm en une passe, est-ce réaliste sur la Ray5 20 W ?",
+      "answer": "Longer annonce 15 mm de tilleul en une passe et jusqu’à 35 mm d’acrylique pour la 20 W, des chiffres obtenus dans des conditions idéales. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 9 à 15 min à 2–3 mm/s ; le tilleul de 8 mm environ en plusieurs passes est une limite réaliste au quotidien."
+    },
+    {
+      "question": "Quel lot Ray5 20 W acheter ?",
+      "answer": "Sur la boutique Longer en octobre 2026 : lot de base 399,99 $, kit de découpe avec assistance d’air et nid d’abeille 459,99 $, kit complet avec rotatif et caméra 619,99 $, kit d’extension grand format 779,99 $. Pour découper, les 60 $ du kit de découpe sont les premiers à se rentabiliser."
+    },
+    {
+      "question": "Ray5 20 W ou Ray5 40 W ?",
+      "answer": "La 40 W est une machine repensée : compression à 8 faisceaux, rail industriel de 15 mm et 24 000 mm/min, et elle découpe notre carré de 3 mm en 6 à 10 min environ. La boutique Longer l’affichait à 679,99 $ contre 399,99 $ pour ce lot de base 20 W (octobre 2026). Gardez la 20 W pour un usage mixte gravure et découpe légère."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray5-20w-balance",
+      "title": "Gravure et découpe légère",
+      "body": "Carrés de 3 mm de tilleul en 9 à 15 min environ dans nos benchmarks, avec des remplissages autour de 16–36 mm/s."
+    },
+    {
+      "id": "ray5-20w-kits",
+      "title": "Kit grand format",
+      "body": "Longer vend un kit d’extension grand format pour cette version (779,99 $ en octobre 2026) pour les panneaux plus grands."
+    }
+  ]
 }

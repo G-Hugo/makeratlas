@@ -12,14 +12,14 @@
     "Apprendre en sécurité"
   ],
   "pros": [
-    "L’un des lasers classe 1 entièrement fermés les moins chers, avec mise au point automatique et plateau élévateur",
-    "Mêmes sécurités que la 10 W : verrouillage du capot, détection de flamme, capteur d’inclinaison, clé USB de sécurité",
-    "Évolutive : achetez plus tard le module 10 W ou l’infrarouge 1,2 W et montez-le sans outil"
+    "Le prix d’entrée le plus bas pour un laser fermé Classe 1 ici : 269 $ en version de base sur la boutique Creality (octobre 2026)",
+    "Gravure sur liège, cuir et ardoise de qualité proche de la version plus puissante, simplement plus lente",
+    "Le module infrarouge (239 $) ajoute le marquage de l’inox nu sur le même support"
   ],
   "cons": [
-    "Pensée pour la gravure : la découpe s’arrête au carton et au bois fin",
-    "Surface de 150 × 150 mm réservée aux petits objets",
-    "Choisissez l’option caméra à l’achat : elle ne s’ajoute pas sur la version de base"
+    "La découpe s’arrête au carton, au feutre et au bois très fin",
+    "Remplissages lents : environ 18 à 26 min pour une photo de 10 × 10 cm dans notre benchmark",
+    "Plateau de 150 × 150 mm : uniquement de petits objets"
   ],
   "materials": {
     "engrave": [
@@ -57,36 +57,64 @@
   },
   "faq": [
     {
-      "question": "5 W suffisent-ils sur la Falcon A1C ?",
-      "answer": "Pour graver, oui : liège, bambou, cuir, ardoise et contreplaqué se gravent proprement. Pour découper, on se limite au papier, au carton, au feutre et au bois très fin. Si la découpe compte, prenez la 10 W."
+      "question": "Que peut découper la Falcon A1C 5 W ?",
+      "answer": "Papier, carton, feutre et tissu fin de façon fiable ; au mieux 2 à 3 mm de tilleul en plusieurs passes (notre estimation). Un carré de 10 × 10 cm dans du tilleul de 3 mm a pris environ 12 à 18 min en plusieurs passes dans notre benchmark. Achetez-la pour graver."
     },
     {
-      "question": "Puis-je passer de 5 W à 10 W plus tard ?",
-      "answer": "Oui. Creality vend séparément le module diode 10 W pour l’A1C et il se change sans outil. Acheter directement la machine 10 W revient moins cher que d’ajouter le module ensuite."
+      "question": "A1C 5 W ou 10 W : laquelle acheter ?",
+      "answer": "La 10 W coûtait 100 $ de plus sur la boutique Creality en octobre 2026 (369 $ contre 269 $ en version de base). Elle grave le bois plus vite et découpe jusqu’à 5 mm de tilleul environ. Prenez la 5 W pour graver des dessous de verre, des étiquettes et du cuir avec un petit budget ; prenez la 10 W si vous prévoyez de découper des décorations ou des formes en 3 mm."
     },
     {
-      "question": "La Falcon A1C peut-elle s’utiliser en intérieur ?",
-      "answer": "Le caisson classe 1 bloque le faisceau et coupe le laser à l’ouverture du capot : pas besoin de lunettes en usage normal. La fumée doit tout de même partir quelque part : évacuez-la par une fenêtre ou ajoutez un purificateur."
+      "question": "Est-il moins cher d’acheter la 5 W puis d’ajouter le module 10 W ?",
+      "answer": "Non. Creality vend le module 10 W de l’A1C 139 $ : acheter la 5 W puis l’améliorer revient à 408 $, contre 369 $ pour la machine 10 W. La mise à niveau n’a de sens que si vous possédez déjà la 5 W."
     }
   ],
   "images": [
-    { "alt": "Graveuse laser Creality Falcon A1C 5 W : Creality" },
-    { "alt": "Creality Falcon A1C capot relevé : Creality" },
-    { "alt": "Creality Falcon A1C vue de côté avec arrêt d’urgence : Creality" },
-    { "alt": "Creality Falcon A1C panneau arrière et sortie d’extraction : Creality" },
-    { "alt": "Creality Falcon A1C, volume de travail 150 × 150 × 148 mm à plateau élévateur : Creality" }
+    {
+      "alt": "Graveuse laser Creality Falcon A1C 5 W : Creality"
+    },
+    {
+      "alt": "Creality Falcon A1C capot relevé : Creality"
+    },
+    {
+      "alt": "Creality Falcon A1C vue de côté avec arrêt d’urgence : Creality"
+    },
+    {
+      "alt": "Creality Falcon A1C panneau arrière et sortie d’extraction : Creality"
+    },
+    {
+      "alt": "Creality Falcon A1C, volume de travail 150 × 150 × 148 mm à plateau élévateur : Creality"
+    }
   ],
   "moduleSystem": {
     "headline": "Modules laser sans outil sur le même caisson A1C",
     "description": "La Falcon A1C est livrée avec un module diode 5 W ou 10 W. Creality vend séparément la diode 10 W et un module infrarouge 1064 nm de 1,2 W ; tous deux se clipsent sur le même support de tête, sans outil. Un seul module fonctionne à la fois : ce n’est pas une machine hybride à double source.",
     "options": [
-      { "label": "Diode 5 W" },
-      { "label": "Diode 10 W" },
-      { "label": "Module IR 1,2 W (accessoire)" }
+      {
+        "label": "Diode 5 W"
+      },
+      {
+        "label": "Diode 10 W"
+      },
+      {
+        "label": "Module IR 1,2 W (accessoire)"
+      }
     ]
   },
   "editorialDepth": {
     "advantages": "La A1C 5 W est la façon la moins chère d’accéder à un vrai laser fermé avec mise au point automatique. Pour des dessous de verre, porte-clés, écussons en cuir ou ardoises personnalisés, la qualité de gravure est proche de la 10 W ; les travaux prennent simplement plus de temps.",
     "limitations": "Ne l’achetez pas pour découper : au-delà du carton et du feutre, le bois fin demande plusieurs passes et le contreplaqué de 5 mm est hors de portée. La petite surface et la finition plastique sont communes avec la 10 W."
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "cheapest-class1",
+      "title": "La sécurité Classe 1 au prix le plus bas",
+      "body": "Verrouillage du capot, détection de flamme, capteur d’inclinaison et clé USB de sécurité dans un boîtier fermé, pour 269 $ en version de base (boutique Creality, octobre 2026)."
+    },
+    {
+      "id": "upgrade-later",
+      "title": "Modules interchangeables sans outil",
+      "body": "L’A1C accepte d’autres modules Creality sur le même support, dont une tête infrarouge 1,2 W pour l’inox nu."
+    }
+  ]
 }

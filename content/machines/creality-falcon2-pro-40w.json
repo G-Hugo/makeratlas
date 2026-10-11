@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "40W High-power diode with built-in air assist and color engraving gimmick",
-  "tldr": "Creality Falcon2 Pro 40W is the 40W SKU on the Creality creality falcon2 pro line. Creality's top open-frame diode at 60W combined (22W optical class). Verify optical power on the listing: do not assume combined-watt marketing.",
+  "tldr": "The 40W version of Creality's enclosed Falcon2 Pro, with a 1.6W infrared module for marking metal: a Class 1 cabinet that cuts thick plywood in fewer passes than the 22W. Worth the extra $450 if you cut more than you engrave.",
   "bestFor": [
     "Maximum cuts in line",
     "Speed-focused hobby",
@@ -14,10 +14,10 @@
     "Cut-heavy weeks"
   ],
   "priceRange": {
-    "min": 799,
-    "max": 1099,
+    "min": 1349,
+    "max": 1999,
     "currency": "USD",
-    "note": "40W optical module: verify SKU before buying"
+    "note": "Official Creality store, Oct 2026: $1,349 to $1,999 depending on kit and 2W IR option"
   },
   "specs": {
     "power": "40W diode",
@@ -71,14 +71,14 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
-    "40W: the most cut-focused head in the Creality Falcon2 Pro line",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "15 mm basswood in one pass in Creality's 40W settings guide",
+    "Comes with a 1.6W module for fine-detail engraving",
+    "Fastest cuts and fills of the Falcon2 Pro tiers we list, in our benchmark"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "$1,349 single unit on Creality's store (October 2026), well above the entry tier",
+    "Black acrylic beyond about 5 mm needs two passes",
+    "More smoke per job: plan an exhaust duct or purifier"
   ],
   "beginnerNotes": "This profile is the 40W SKU on Creality Falcon2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -96,7 +96,7 @@
     "ortur-laser-master-3-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/creality-falcon2-pro-40w/01.webp",
   "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "images": [
@@ -125,5 +125,31 @@
   "editorialDepth": {
     "advantages": "Creality Falcon2 Pro 40W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
-  }
+  },
+  "faq": [
+    {
+      "question": "How thick can the Falcon2 Pro 40W cut?",
+      "answer": "Creality's Falcon2 settings guide for the 40W module cuts 15 mm basswood in one pass at full power and 150 mm/min, and black acrylic at 4.6 mm in one pass or 7.6 mm in two. Our materials list stays at about 10 mm basswood for clean, repeatable cuts."
+    },
+    {
+      "question": "Is the 40W worth $450 more than the 22W?",
+      "answer": "If you cut, yes: our benchmark took about 6–10 min for a 10 × 10 cm square in 3 mm basswood against 9–14 min on the 22W, and the photo fill dropped from 17–26 to 12–18 min. The 40W listing also includes a 1.6W module for fine detail. Prices: $1,349 against $899 for the single unit on Creality's store, October 2026."
+    },
+    {
+      "question": "Who should skip the 40W?",
+      "answer": "Buyers who mainly engrave photos and gifts: the 22W gives the same enclosure for less, and 40W cutting jobs produce more smoke for the extractor to handle."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "fifteen-mm-cut",
+      "title": "15 mm basswood in one pass",
+      "body": "Creality's own settings for the 40W module cut 15 mm basswood in a single pass at 150 mm/min, deep enough for thick signs and sturdy boxes."
+    },
+    {
+      "id": "dual-module-detail",
+      "title": "Second module for detail",
+      "body": "The 40W listing includes a 1.6W module, so fine photo and line engraving does not suffer from the wide high-power beam."
+    }
+  ]
 }

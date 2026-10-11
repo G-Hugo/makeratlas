@@ -15,9 +15,10 @@
     "Detail-heavy work"
   ],
   "priceRange": {
-    "min": 1999,
-    "max": 2349,
-    "currency": "USD"
+    "min": 560,
+    "max": 970,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $560 to $970 depending on bundle"
   },
   "specs": {
     "power": "12W diode",
@@ -69,13 +70,14 @@
     ]
   },
   "pros": [
-    "12W on Longer Nano Pro: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "F-theta field lens and 0.01 mm precision claim for crisp small marks",
+    "Two diodes: 3 mm basswood squares in ~6–10 min in our benchmarks",
+    "Fills at ~60–150 mm/s, with galvo moves rated up to 5,000 mm/s"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Small 100 × 100 mm field unless you add the slide extension",
+    "Pricing varies widely between Longer's store and resellers: compare bundles",
+    "Galvo cutting builds depth through many passes, so thick cuts stay slow"
   ],
   "beginnerNotes": "This profile is the 12W SKU on Longer Nano Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -93,7 +95,7 @@
     "wecreat-vision"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/longer-nano-pro-12w/01.webp",
   "modelLine": "longer-nano",
   "powerRating": "12W",
@@ -113,5 +115,36 @@
   "editorialDepth": {
     "advantages": "Longer Nano Pro 12W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "What does the field lens change on the Nano Pro 12W?",
+      "answer": "The Pro pairs two diodes with an F-theta field lens, which keeps the spot focused across the galvo field. Longer quotes 0.01 × 0.01 mm engraving precision for the Pro against 0.05 × 0.05 mm for the 6W, which shows on small text, QR codes and photo detail."
+    },
+    {
+      "question": "How thick can the Nano Pro 12W cut?",
+      "answer": "Longer gives a 10 mm wood cutting depth. In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 6–10 min at 4–10 mm/s, and basswood up to about 5 mm is realistic. The 100 × 100 mm field (100 × 300 mm with the slide) limits part size more than power does."
+    },
+    {
+      "question": "How much does the Nano Pro 12W cost?",
+      "answer": "Longer's own store listed it from $559.99 (Basic) to $689.99 (Pro set or Extension pack) and $969.99 (Pro Max set) in October 2026. Reseller and bundle prices vary widely, so compare what each set includes before buying."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "nano-pro-field-lens",
+      "title": "Field lens precision",
+      "body": "Longer quotes 0.01 × 0.01 mm engraving precision thanks to the F-theta field lens."
+    },
+    {
+      "id": "nano-pro-dual-diode",
+      "title": "Two diodes",
+      "body": "Two diode lasers combined for a 10 mm wood cutting depth according to Longer."
+    },
+    {
+      "id": "nano-pro-extension",
+      "title": "Slide extension",
+      "body": "The working field grows from 100 × 100 mm to 100 × 300 mm with Longer's slide extension."
+    }
+  ]
 }

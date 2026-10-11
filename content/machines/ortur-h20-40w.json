@@ -69,14 +69,14 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
-    "40W: the most cut-focused head in the Ortur H20 line",
-    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
+    "Autofocus, unique to this module in the H20 range",
+    "Cuts 3 mm basswood squares in ~6–10 min, the fastest H20 result in our benchmarks",
+    "Only H20 power still in stock on Ortur's US store in October 2026"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Smaller working area with this module: 410 × 275 mm per Ortur",
+    "Wider ~0.10 × 0.11 mm spot: photo detail is softer than on the lower modules",
+    "$1,909 at Ortur, $2,099–2,399 on our tracked listings"
   ],
   "beginnerNotes": "This profile is the 40W SKU on Ortur H20. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles on the H20. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -94,7 +94,7 @@
     "atomstack-a40-pro-40w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/ortur-h20-40w/01.webp",
   "modelLine": "ortur-h20",
   "powerRating": "40W",
@@ -151,5 +151,36 @@
   "editorialDepth": {
     "advantages": "The 40W diode module is the most cut-focused head on Ortur H20: thicker basswood and faster fills than entry modules on the same chassis.",
     "limitations": "Overkill if you only do fine engraving. Still a diode: clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
-  }
+  },
+  "faq": [
+    {
+      "question": "What does the 40W module add on the H20?",
+      "answer": "Autofocus (the other H20 modules are focused by hand), a compressed 40W diode and the fastest cutting of the range. In October 2026 Ortur listed it at $1,909 with a free air pump, and $2,548 with the added 2W IR module; it was the only H20 power still in stock on the US store."
+    },
+    {
+      "question": "How thick can the H20 40W cut?",
+      "answer": "In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 6–10 min at 4–10 mm/s. Basswood up to about 10 mm and 5 mm acrylic (dark) are realistic in passes. Ortur calls it ideal for thick cutting but publishes no thickness figures."
+    },
+    {
+      "question": "Is the 40W worth it if I mostly engrave?",
+      "answer": "Not really. It fills fast (~60–150 mm/s in our tests), but its ~0.10 × 0.11 mm spot is wider than the lower modules', and Ortur's 20W bundle was about $530 cheaper. Take the 40W if cutting 6–10 mm stock is a weekly job."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "h20-40w-autofocus",
+      "title": "Autofocus",
+      "body": "Ortur fits autofocus only on the 40W module of the H20, which saves time when switching between materials of different thickness."
+    },
+    {
+      "id": "h20-40w-cutting",
+      "title": "Serious cutting in an enclosure",
+      "body": "3 mm basswood squares in about 6–10 min in our benchmarks, with around 10 mm reachable in passes."
+    },
+    {
+      "id": "h20-40w-air-pump",
+      "title": "Air pump included",
+      "body": "Ortur bundles a free air pump with the 40W module."
+    }
+  ]
 }

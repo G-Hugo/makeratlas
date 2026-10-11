@@ -74,14 +74,14 @@
     ]
   },
   "pros": [
-    "10W on xTool D1 Pro: engraving-first: photo fills and leather at moderate speeds",
-    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Cuts 5 mm basswood in one pass at full power (xTool test: 2 min 20 s for a square)",
+    "Fine spot (about 0.07 mm) for detailed photo engraving",
+    "Cheaper than the higher-power heads, new or used"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "About 2.3 times slower than the next head up on 5 mm basswood (xTool test)",
+    "Fills take about 17–24 min for a 10 × 10 cm photo in our benchmark",
+    "Discontinued: used purchase, check parts availability"
   ],
   "beginnerNotes": "This profile is the 10W SKU on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -99,7 +99,7 @@
     "creality-falcon2-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-d1-pro-10w/01.webp",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "images": [
@@ -147,5 +147,31 @@
     "advantages": "The 10W diode module on xTool D1 Pro is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
     "limitations": "Skip this module if you cut 5 mm+ stock daily: open the 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
   },
-  "discontinued": {}
+  "discontinued": {},
+  "faq": [
+    {
+      "question": "How thick can the D1 Pro 10W cut?",
+      "answer": "About 5 mm basswood. In xTool's own test, the 10W cut a square in 5 mm basswood at full power in 2 min 20 s, against 1 min 1 s for the 20W. Thin black acrylic works; hardwood above 5 mm needs several passes."
+    },
+    {
+      "question": "D1 Pro 10W or 20W?",
+      "answer": "Pick the 10W if you mostly engrave and cut thin stock occasionally: it is the gentler head for detail. Pick the 20W if cutting plywood is weekly work: xTool rates it 10 mm basswood plywood in one pass and measured it at about 2.3 times the 10W's cutting speed. New prices were typically about $100 apart ($599–$799 against $699–$899)."
+    },
+    {
+      "question": "Should I buy a used D1 Pro 10W now that it is discontinued?",
+      "answer": "It can be good value. Check that the module reaches full power on a test cut, that the lens is clean and the belts are tight, and that the air-assist nozzle is included. xTool no longer sells the D1 Pro new, so spare parts may get harder to find."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "five-mm-one-pass",
+      "title": "5 mm basswood in one pass",
+      "body": "xTool's own comparison shows the 10W cutting through 5 mm basswood at full power in a single pass, enough for ornaments, tags and small boxes."
+    },
+    {
+      "id": "engrave-first-balance",
+      "title": "Engraving first, light cutting second",
+      "body": "The 10W keeps a fine spot for photos and line art while still handling thin plywood, the balance most gift makers need."
+    }
+  ]
 }

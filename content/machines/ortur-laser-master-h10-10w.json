@@ -74,13 +74,14 @@
     ]
   },
   "pros": [
-    "10W on Ortur Laser Master H10: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Lowest entry to the H10 frame: $359.99 basic set at Ortur in October 2026",
+    "Fine ~0.07 mm spot in our profile for text and line art",
+    "Same H10 frame and accessories, such as the ORP1.0 raiser, as the stronger module"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slow cutting: a 3 mm basswood square takes ~14–24 min in our benchmarks",
+    "Photo fills run at only ~6–14 mm/s in our tests",
+    "No free air pump in the basic set, unlike Ortur's higher-power H10 offer"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Ortur Laser Master H10. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -98,7 +99,7 @@
     "algolaser-alpha-mk2"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/ortur-laser-master-h10-10w/01.webp",
@@ -124,5 +125,31 @@
   "editorialDepth": {
     "advantages": "Ortur Laser Master H10 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "How much is the H10 10W compared with the 20W?",
+      "answer": "Ortur's own store sometimes undercuts our tracked range: in October 2026 it listed the H10 10W basic set at $359.99 ($389.99 with the ORP1.0 raiser, $449.99 with the LEP1.0 bundle), against $549.99–649.99 for the 20W basic set depending on the listing, the 20W coming with a free air pump."
+    },
+    {
+      "question": "What can the H10 10W cut?",
+      "answer": "In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 14–24 min at 2–3 mm/s. Basswood up to about 5 mm and thin black acrylic are possible in several passes. Treat this module as an engraver that can cut thin stock, not as a cutting machine."
+    },
+    {
+      "question": "H10 10W or 20W: which fits my use?",
+      "answer": "Pick the 10W if you mainly engrave text, logos and photos and want the lowest price. Pick the 20W if you cut: Ortur demonstrates 12 mm pine, 8 mm plywood and 8 mm black acrylic in one pass with its LU3-20B module, and our 3 mm benchmark drops to about 9–15 min."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "h10-10w-entry",
+      "title": "H10 frame at the lowest price",
+      "body": "The basic set was $359.99 on Ortur's store in October 2026, with the same frame as the costlier version."
+    },
+    {
+      "id": "h10-10w-detail",
+      "title": "Fine detail",
+      "body": "About 0.07 mm spot in our profile, suited to small lettering, logos and line art."
+    }
+  ]
 }

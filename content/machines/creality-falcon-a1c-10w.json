@@ -76,15 +76,14 @@
     ]
   },
   "pros": [
-    "Fully enclosed Class 1 box with lid interlock, flame detection, tilt sensor and USB safety key at an entry price",
-    "Motorized lifting bed and auto-focus: objects up to 148 mm tall without manual focus gauges",
-    "Arrives assembled: a hands-on reviewer was engraving on day one",
-    "Tool-free module swap: add the 1.2W IR head later for stainless, slate and black marble"
+    "Cuts 5 mm basswood in one pass per Creality, confirmed with little margin in a hands-on test",
+    "Motorized lifting bed and auto-focus for objects up to 148 mm tall",
+    "Same Class 1 safety set as the entry version: lid interlock, flame detection, tilt sensor, USB key"
   ],
   "cons": [
-    "150 × 150 mm bed: coasters, tags and small boards only",
-    "Plastic build reflects the price; Wi-Fi is 2.4 GHz only and camera setup needs the phone app",
-    "Auto-focus must be run before each job and the software lets you start without it"
+    "5 mm is the limit, at slow speed: thicker stock is out of reach",
+    "150 × 150 mm bed: no signs or cutting boards",
+    "Plastic build and 2.4 GHz-only Wi-Fi"
   ],
   "beginnerNotes": "This profile is the 10W SKU of the Falcon A1C. Compare it with the 5W: pick the 10W if you want to cut thin plywood or engrave faster; the enclosure, bed and software are identical. The AI camera version costs about $30 more and cannot be added later.",
   "proTips": "Run the auto-focus before every job: the software does not force it. Use the presets as a starting point and test power on scrap, bamboo especially burns deeper than expected. For 5 mm plywood, slow down (around 300 mm/min at high power) and expect little margin.",
@@ -103,20 +102,16 @@
   ],
   "faq": [
     {
-      "question": "Can the Falcon A1C cut wood?",
-      "answer": "Thin wood, yes. Creality does not publish a cutting figure, but a hands-on review cut 5 mm plywood in one pass with the 10W module at 90% power and 300 mm/min, with little margin. Treat 3 mm as comfortable and 5 mm as the limit."
+      "question": "How thick can the Falcon A1C 10W cut?",
+      "answer": "Creality's A1C FAQ gives 5 mm basswood in one pass, and a hands-on review cut 5 mm plywood in one pass at 90% power and 300 mm/min with little margin. Treat 3 mm as comfortable: our benchmark cut a 10 × 10 cm square in 3 mm basswood in about 6–10 min."
     },
     {
-      "question": "Is the AI camera worth the extra cost?",
-      "answer": "If you engrave on existing objects (coasters, wallets, tags), yes: it makes placement much easier for about $30 more. It cannot be retrofitted to the basic version, so decide at purchase."
+      "question": "Is the A1C 10W worth $100 more than the 5W?",
+      "answer": "For most buyers, yes: $369 against $269 for the basic versions on Creality's store (October 2026), faster engraving on wood (about 12–18 min against 18–26 min for a 10 × 10 cm photo in our benchmark) and real cutting up to 5 mm. Skip it only if you will never cut and every dollar counts."
     },
     {
-      "question": "Can I upgrade from 5W to 10W later?",
-      "answer": "Yes. Creality sells the 10W diode module separately and the swap is tool-free. The optional 1.2W infrared module uses the same mount."
-    },
-    {
-      "question": "Can it engrave metal?",
-      "answer": "Coated metal with the diode, yes. For bare stainless steel, add the 1.2W IR (1064 nm) module: in testing it produced a clean dark mark on brushed stainless, slowly."
+      "question": "Is the AI camera version worth $30 more?",
+      "answer": "If you engrave on existing objects such as coasters, wallets or tags, yes: the camera shows where the design will land. It cannot be added to the basic version later, so decide at purchase ($369 basic against $399 with camera, October 2026)."
     }
   ],
   "accessories": [
@@ -141,7 +136,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-11",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/creality-falcon-a1c-10w/01.webp",
   "images": [
     {
@@ -197,5 +192,17 @@
   "editorialDepth": {
     "advantages": "The 10W A1C is the version to buy if you want the enclosure for safety but still expect to cut ornaments, tags or 3 mm plywood shapes. Same box, bed and software as the 5W, with roughly twice the engraving speed on wood and real (if slow) cutting up to 5 mm.",
     "limitations": "The 150 × 150 mm bed is the hard limit: no signs, no cutting boards, no batches of more than a few coasters. Build is plastic, Wi-Fi is 2.4 GHz only, and job time estimates ran about 25% short in independent testing."
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "compact-five-mm-cut",
+      "title": "Real cutting in a compact box",
+      "body": "Creality gives 5 mm basswood in one pass for the A1C 10W, enough for ornaments, tags and small 3 mm plywood shapes."
+    },
+    {
+      "id": "lift-bed-autofocus",
+      "title": "Lifting bed and auto-focus",
+      "body": "The motorized platform lowers to take objects up to 148 mm tall, and auto-focus sets the height without feeler gauges."
+    }
+  ]
 }

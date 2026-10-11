@@ -12,13 +12,40 @@
     "Grandes surfaces"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 150 × 150 mm typical : validez vos formats avant achat"
+    "Contrôle d'impulsion MOPA (2 à 500 ns, 1 à 3 000 kHz) : marquage couleur sur inox et marquages plus propres sur plastiques",
+    "Le modèle couleur le moins cher de la gamme GT à 4 699,99 $ (Monport, oct. 2026)",
+    "Les impulsions courtes favorisent les marquages blancs ou noirs sur aluminium anodisé et limitent l'échauffement des pièces fines"
   ],
   "cons": [
-    "Fibre 60W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
-    "Montée possible vers 100W si le débit métal devient critique"
+    "Environ 1 100 $ de plus que la GT 50 W pour la même profondeur de marquage annoncée de 0,10 mm",
+    "Champ de 175 × 175 mm, plus petit que les 200 × 200 mm de la GT 50 W",
+    "Le marquage couleur demande du temps sur des grilles de test : les réglages ne sont pas prêts à l'emploi"
+  ],
+  "faq": [
+    {
+      "question": "La GT 60 W MOPA fait-elle du marquage couleur sur inox ?",
+      "answer": "Oui. C'est le point d'entrée de la couleur dans la série GT : la source MOPA règle la durée d'impulsion de 2 à 500 ns et la fréquence de 1 à 3 000 kHz, ce qu'exigent des couleurs d'oxydation maîtrisées sur inox et titane. Prévoyez de construire vos propres grilles de couleurs, car le résultat dépend de l'alliage, de l'état de surface et de la vitesse."
+    },
+    {
+      "question": "Quelle profondeur et quelle vitesse pour la GT 60 W ?",
+      "answer": "Monport annonce la même profondeur de marquage maximale de 0,10 mm que la GT 50 W, avec une énergie d'impulsion de 1,5 mJ et une vitesse maximale de 10 000 mm/s. Dans notre benchmark, un logo rempli de 10 × 10 cm sur inox prend environ 3 à 7 minutes. Un relief plus profond demande des passes répétées."
+    },
+    {
+      "question": "GT 60 W MOPA ou GT 100 W MOPA ?",
+      "answer": "À 4 699,99 $ (Monport, octobre 2026), la 60 W coûte environ 1 900 $ de moins que la GT 100 W (6 600 $ en précommande). Les deux partagent la plage d'impulsion, la capacité couleur et le champ de 175 × 175 mm. Choisissez la 100 W si la gravure profonde (0,15 mm annoncé contre 0,10 mm) ou le débit de découpe font votre chiffre d'affaires ; pour la couleur, les plastiques et le marquage noir, la 60 W suffit."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gt60-mopa-color",
+      "title": "L'entrée dans le marquage couleur",
+      "body": "La GT 60 W est la GT la moins chère équipée d'une source MOPA. Des impulsions réglables de 2 à 500 ns ouvrent la couleur sur inox, les marquages blancs ou noirs sur aluminium anodisé et un marquage plus doux sur les plastiques."
+    },
+    {
+      "id": "gt60-pulse-range",
+      "title": "Une large plage de fréquence",
+      "body": "De 1 à 3 000 kHz, contre 20 à 80 kHz sur la GT 50 W. Les hautes fréquences avec des impulsions courtes donnent des surfaces lisses ; les fréquences plus basses avec des impulsions longues favorisent la profondeur."
+    }
   ],
   "materials": {
     "engrave": [
@@ -36,7 +63,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 60 W : vérifiez le SKU avant d’acheter"
+    "note": "Boutique officielle Monport, oct. 2026 : de 3 600 $ à 4 950 $ selon fibre à mise au point manuelle ou MOPA autofocus"
   },
   "specs": {
     "performance": {

@@ -1,6 +1,6 @@
 {
   "tagline": "Diode 22W haute puissance avec assistance air intégrée et effet gravure couleur",
-  "tldr": "La Creality Falcon2 Pro 22W est la référence 22W de la gamme Falcon2 Pro. La diode ouverte haut de gamme de Creality à 60W combinés (classe 22W optique). Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
+  "tldr": "La version 22 W de la Falcon2 Pro fermée de Creality : un caisson classe 1 avec assistance d'air, qui grave proprement le bois et le cuir et découpe le contreplaqué fin. Une bonne entrée dans les diodes fermées si vous n'avez pas besoin de découper vite en épais.",
   "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
   "primaryUse": "Module 22W · Creality Falcon2 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 22W de Creality Falcon2 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -12,14 +12,14 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
-    "22W : tête la plus orientée découpe de Creality Falcon2 Pro",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Caisson Classe 1 à panneaux transparents sur 360° : pas de lunettes en usage normal",
+    "10 mm de tilleul en une passe, selon Creality",
+    "L’accès le moins cher à la Falcon2 Pro (899 $ seule, octobre 2026)"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Remplissages lents à cette puissance : environ 17 à 26 min pour une photo de 10 × 10 cm dans notre benchmark",
+    "Pas de second module de détail fin dans la boîte à ce niveau",
+    "Le caisson prend plus de place qu’une structure ouverte : prévoyez une table dédiée"
   ],
   "materials": {
     "engrave": [
@@ -43,7 +43,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 22W : vérifiez la référence avant achat"
+    "note": "Boutique officielle Creality, oct. 2026 : de 899 $ à 1 599 $ selon le kit et l'option IR 2 W"
   },
   "specs": {
     "performance": {
@@ -72,5 +72,31 @@
   "editorialDepth": {
     "advantages": "Le Falcon2 Pro 22 W cible l’écosystème Creality avec air assist prêt à l’emploi. Diode orientée découpe avant investissement CO₂.",
     "limitations": "Le marquage couleur n’est pas une gravure fibre profonde. Moins de recettes communautaires que Sculpfun ou Ortur. Appartement : comparez Falcon A1 Pro fermé."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la Falcon2 Pro 22 W peut-elle découper ?",
+      "answer": "Le site européen de Creality annonce 10 mm de tilleul en une passe pour le module 22 W ; certains revendeurs citent 15 mm, chiffre que nous jugeons optimiste. Notre benchmark a pris environ 9 à 14 min pour un carré de 10 × 10 cm dans du tilleul de 3 mm, et l’acrylique foncé jusqu’à 5 mm environ passe."
+    },
+    {
+      "question": "Falcon2 Pro 22 W ou 40 W ?",
+      "answer": "La 22 W seule coûtait 899 $ sur la boutique Creality en octobre 2026, la 40 W (vendue avec un module 1,6 W pour le détail fin) 1 349 $ : 450 $ de plus. Prenez la 22 W pour la gravure et des découpes ponctuelles jusqu’à 6 mm ; prenez la 40 W si vous découpez du contreplaqué ou de l’acrylique foncé chaque semaine."
+    },
+    {
+      "question": "Que change le caisson de la Pro par rapport à la Falcon2 ouverte ?",
+      "answer": "La Falcon2 Pro est une machine fermée Classe 1 à panneaux transparents : elle fonctionne sans lunettes en usage normal et contient la fumée pour l’extraction. Cela coûte environ 300 $ de plus que la Falcon2 22 W ouverte (899 $ seule contre 589 $ pour la Falcon2 22 W en kit Basic, octobre 2026)."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "class1-enclosed",
+      "title": "Fermée et visible",
+      "body": "Certification Classe 1 avec panneaux transparents sur 360° : vous suivez le travail sans lunettes, et la fumée reste dedans pour l’extraction."
+    },
+    {
+      "id": "entry-price-pro",
+      "title": "La Falcon2 Pro d’entrée",
+      "body": "À 899 $ la machine seule (boutique Creality, octobre 2026), la 22 W est la façon la moins chère d’avoir le caisson de la Falcon2 Pro."
+    }
+  ]
 }

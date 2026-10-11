@@ -14,10 +14,10 @@
     "Cut-heavy weeks"
   ],
   "priceRange": {
-    "min": 999,
+    "min": 1699,
     "max": 3049,
     "currency": "USD",
-    "note": "40W enclosed SKU"
+    "note": "Official xTool store, Oct 2026: $1,699 to $3,049 depending on bundle"
   },
   "specs": {
     "power": "40W diode (enclosed)",
@@ -72,10 +72,9 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
-    "40W: the most cut-focused head in the xTool S1 line",
-    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes"
+    "Most cutting power in the S1 line: 15 mm basswood plywood and 15 mm black acrylic in one pass (xTool rating)",
+    "15 mm/s on 3 mm basswood per xTool: the fastest batch cutting of the S1 heads",
+    "Fastest fills in our S1 benchmark: about 6–9 min for a 10 × 10 cm photo"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
@@ -83,8 +82,9 @@
     "limitations": "Overkill if you only do fine engraving. Still a diode: clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
   },
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "More smoke per job: plan for the purifier or a window duct when cutting daily",
+    "Wider spot (0.08 × 0.10 mm per xTool) softens very fine photo dithering and small text",
+    "Most expensive S1 bundle: $1,699 Basic on xTool's US store in October 2026"
   ],
   "beginnerNotes": "This profile is the 40W SKU on xTool S1. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -103,16 +103,20 @@
   ],
   "faq": [
     {
-      "question": "Is the xTool S1 safer than an open-frame laser?",
-      "answer": "Yes. The enclosure blocks direct beam exposure and contains smoke. You still follow safety rules, but accidental exposure risk is much lower than open-frame diodes."
+      "question": "How thick can the xTool S1 40W cut?",
+      "answer": "xTool rates it for 15 mm basswood plywood, 18 mm cherry, 15 mm walnut and 15 mm black acrylic in one pass, plus 0.1 mm stainless sheet. Those are best-case figures with air assist; our materials list stays more conservative at about 10 mm basswood for clean, repeatable cuts."
     },
     {
-      "question": "Can the S1 replace a CO₂ laser?",
-      "answer": "No. It is still a diode laser with the same acrylic and cutting limits. Buy CO₂ (like xTool P2) if clear acrylic and thick wood cutting are your main work."
+      "question": "Is the 40W a good choice for engraving too?",
+      "answer": "For speed, yes: it fills a 10 × 10 cm photo in about 6–9 min in our benchmark, faster than any other S1 head. Its wider spot (0.08 × 0.10 mm per xTool) makes very fine dithering and tiny text slightly softer than on the low-power heads, so run test grids on your material before production."
+    },
+    {
+      "question": "Is the 40W worth $400 more than the 20W?",
+      "answer": "If you cut every week, yes: 15 mm/s on 3 mm basswood against 9 mm/s on the 20W per xTool, and thicker stock in a single pass. If you mainly engrave gifts, the 20W Basic at $1,299 (xTool US store, October 2026) does the same engraving work for less than the $1,699 40W Basic."
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-s1-40w/01.webp",
   "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "images": [
@@ -161,5 +165,17 @@
       }
     ]
   },
-  "releaseDate": "2024-03"
+  "releaseDate": "2024-03",
+  "standoutFeatures": [
+    {
+      "id": "thick-cut-diode",
+      "title": "Cuts thicker than most diodes",
+      "body": "xTool rates 15 mm basswood plywood and 15 mm black acrylic in one pass. In practice that covers sign blanks, box joints in 6–10 mm plywood and dark acrylic lettering without a CO₂ tube."
+    },
+    {
+      "id": "fast-batch-cut",
+      "title": "Fastest cutting in the S1 line",
+      "body": "15 mm/s on 3 mm basswood per xTool, and about 3–5 min for a 10 × 10 cm cut-out in our benchmark."
+    }
+  ]
 }

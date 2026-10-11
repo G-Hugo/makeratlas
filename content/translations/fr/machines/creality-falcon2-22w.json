@@ -12,14 +12,14 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
-    "22W : tête la plus orientée découpe de Creality Falcon2",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "10 mm de tilleul en une passe, selon Creality",
+    "Assistance d’air intégrée pour des découpes plus propres",
+    "Creality annonce un marquage couleur sur inox avec les bons réglages"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Structure ouverte : lunettes, ventilation et sécurité incendie sont à votre charge",
+    "Point plus large (environ 0,10 mm) que les diodes moins puissantes : le détail photo très fin est moins net",
+    "Les bois durs épais et l’acrylique transparent restent hors de portée"
   ],
   "priceRange": {
     "note": "Module optique 22W : vérifiez la référence avant achat"
@@ -67,5 +67,31 @@
       "Métal nu",
       "Production work"
     ]
-  }
+  },
+  "faq": [
+    {
+      "question": "Que découpe la Falcon2 22 W en une passe ?",
+      "answer": "Creality annonce 10 mm de tilleul en une passe et de la tôle fine de 0,1 mm ; son propre guide de réglages utilise la pleine puissance à 700 mm/min pour du tilleul de 2 mm. Notre liste de matériaux reste à environ 8 mm pour des coupes propres et reproductibles."
+    },
+    {
+      "question": "Falcon2 22 W ou 12 W ?",
+      "answer": "La 22 W est le modèle actuel et remplit une photo de 10 × 10 cm en 12 à 18 min environ contre 17 à 26 min pour la 12 W dans notre benchmark. La 12 W n’est plus fabriquée : sauf à en trouver une d’occasion bien moins chère, prenez la 22 W."
+    },
+    {
+      "question": "La 22 W suffit-elle, ou faut-il regarder une 40 W ?",
+      "answer": "Pour des décorations, des boîtes en contreplaqué de 3 à 6 mm et de la gravure, la 22 W suffit. Creality vend aussi une Falcon2 40 W (639 $ seule, 739 $ en kit Basic en octobre 2026, contre 589 $ pour la 22 W en kit Basic) ; elle vaut le supplément si vous découpez du 10 mm chaque semaine."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ten-mm-one-pass",
+      "title": "10 mm de tilleul en une passe",
+      "body": "Creality annonce 10 mm de tilleul en une seule passe pour le module 22 W, ce qui couvre les boîtes, enseignes et décorations dans les épaisseurs de contreplaqué courantes."
+    },
+    {
+      "id": "air-assist-included",
+      "title": "Assistance d’air intégrée",
+      "body": "L’assistance d’air intégrée chasse la fumée de la découpe : bords plus propres et moins de brûlure, sans acheter de pompe séparée."
+    }
+  ]
 }

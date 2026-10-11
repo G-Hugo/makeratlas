@@ -15,10 +15,10 @@
     "First enclosed laser"
   ],
   "priceRange": {
-    "min": 549,
-    "max": 699,
+    "min": 499,
+    "max": 1229,
     "currency": "USD",
-    "note": "Launch promo from $549; MSRP from $599"
+    "note": "Official xTool store, Oct 2026: $499 to $1,229 depending on bundle"
   },
   "specs": {
     "power": "10W diode",
@@ -95,7 +95,7 @@
     "wecreat-vision"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-m2/01.webp",
   "images": [
     {

@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "12W sur Creality Falcon2 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 415 mm : validez vos formats de pièces avant achat"
+    "Gravure propre à vitesse modérée sur bois, cuir et métal revêtu",
+    "Grand plateau ouvert de 400 × 415 mm pour les enseignes et les séries",
+    "Bon marché d’occasion depuis qu’elle a été remplacée"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (22W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Découpe lente : environ 9 à 15 min pour un carré de 10 × 10 cm dans du tilleul de 3 mm",
+    "Structure ouverte : lunettes, ventilation et sécurité incendie sont à votre charge",
+    "Plus fabriquée : uniquement d’occasion"
   ],
   "materials": {
     "engrave": [
@@ -65,5 +64,31 @@
   "editorialDepth": {
     "advantages": "Le Falcon2 12 W convient aux utilisateurs Creality 3D qui veulent rester dans la marque. L’air assist bat les Châssis ouvert 5 W nus pour débuter la découpe.",
     "limitations": "Activité découpe quotidienne : comparez 22 W ou LM3. Acrylique transparent : CO₂."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la Falcon2 12 W peut-elle découper ?",
+      "answer": "Notre liste de matériaux place la limite vers 5 mm de tilleul en plusieurs passes ; un carré de 10 × 10 cm dans du tilleul de 3 mm a pris environ 9 à 15 min dans notre benchmark. Les formes en contreplaqué mince passent bien ; des boîtes en contreplaqué de 6 mm deviennent un travail lent."
+    },
+    {
+      "question": "La Falcon2 12 W est-elle encore vendue ?",
+      "answer": "La boutique américaine de Creality ne la propose plus en octobre 2026 : la gamme Falcon2 ouverte compte désormais la 22 W (589 $ en kit Basic) et la 40 W (639 $ seule). Une 12 W d’occasion ne vaut le coup que bien en dessous de ces prix."
+    },
+    {
+      "question": "Falcon2 12 W ou 22 W ?",
+      "answer": "La 22 W remplit une photo de 10 × 10 cm en 12 à 18 min environ contre 17 à 26 min pour la 12 W dans notre benchmark, et Creality l’annonce à 10 mm de tilleul en une passe. La 22 W étant le modèle actuel à un prix neuf comparable, la 12 W n’a d’intérêt que comme graveuse d’occasion bon marché."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "large-bed-budget",
+      "title": "Grand plateau, petit budget",
+      "body": "Le plateau de 400 × 415 mm accueille des enseignes, des plateaux et des séries de dessous de verre, à des prix d’occasion bien inférieurs aux machines actuelles."
+    },
+    {
+      "id": "engraving-first",
+      "title": "D’abord une machine de gravure",
+      "body": "À cette puissance, la Falcon2 donne le meilleur d’elle-même en gravure de photos et de logos ; la découpe se limite au bois fin."
+    }
+  ]
 }

@@ -12,19 +12,18 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "Prix d’entrée S1 le plus bas tout en gardant l’enceinte fermée",
-    "Meilleur module de la gamme pour photos remplies, cuir et cadeaux détaillés",
-    "Même boîtier interchangeable que 20 W et 40 W pour monter plus tard",
-    "Idéal si la découpe épaisse est rare et la qualité de gravure prime"
+    "Point le plus fin de la gamme S1 (0,06 × 0,04 mm selon xTool) : la meilleure tête ici pour le trait et le détail photo",
+    "Moins de chaleur : cuir, papier et placage fin brunissent moins sur les bords",
+    "Même caisson Classe 1, même détection de flamme et même clé de sécurité que les têtes plus puissantes"
   ],
   "editorialDepth": {
     "advantages": "La S1 10 W convient quand vos revenus viennent surtout de marquages bois, cuir et ardoise, pas de production contreplaqué. Vous gardez le flux xTool fermé et la montée en puissance sans payer des watts de découpe inutilisés chaque semaine.",
     "limitations": "Les ateliers qui chiffrent des boîtes ou du tilleul épais quotidiennement doivent ouvrir les fiches 20 W ou 40 W avant achat. Acrylique coulé et métal sans spray restent hors scope. Filtres ou gaine restent nécessaires les jours de découpe fumante."
   },
   "cons": [
-    "Ce module vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée"
+    "La découpe s’arrête vers 3 mm de contreplaqué de tilleul en une passe (donnée xTool) ; au-delà, passes multiples et lentes",
+    "Remplissages lents : environ 14 à 21 min pour une photo de 10 × 10 cm dans notre benchmark",
+    "Difficile à trouver neuve aux États-Unis en octobre 2026 : comparez son prix aux packs actuels"
   ],
   "materials": {
     "engrave": [
@@ -48,7 +47,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module 10 W préinstallé"
+    "note": "Plus proposée sur la boutique xTool US (oct. 2026) : fin de stock ou occasion"
   },
   "specs": {
     "performance": {
@@ -62,20 +61,16 @@
   },
   "faq": [
     {
-      "question": "La xTool S1 est-elle plus sûre qu’un laser structure ouverte ?",
-      "answer": "Oui. L’enceinte bloque l’exposition directe au faisceau et contient les fumées. Vous suivez toujours les règles de sécurité, mais le risque d’exposition accidentelle est bien plus faible qu’avec une diode ouverte."
+      "question": "Quelle épaisseur la xTool S1 10 W peut-elle découper ?",
+      "answer": "xTool annonce 3 mm de contreplaqué de tilleul en une passe pour la tête 10 W, à environ 5 mm/s sur du 3 mm. Notre liste de matériaux place la limite pratique vers 5 mm de tilleul en plusieurs passes. Au-delà de 3 mm, l’acrylique foncé et les bois durs sont si lents qu’une tête plus puissante est le bon outil."
     },
     {
-      "question": "La S1 peut-elle remplacer un laser CO₂ ?",
-      "answer": "Non. C’est toujours une diode avec les mêmes limites acrylique et découpe. Achetez du CO₂ (comme xTool P2) si acrylique transparent et découpe bois épais sont votre cœur de métier."
+      "question": "Pourquoi prendre la 10 W alors que la 20 W utilise le même caisson ?",
+      "answer": "Pour le détail. xTool indique un point de 0,06 × 0,04 mm pour la 10 W, le plus fin de la gamme S1 (0,08 × 0,06 mm sur la 20 W), ce qui aide le dessin au trait et la photo sur bois, cuir et ardoise. La contrepartie est le temps : une photo remplie de 10 × 10 cm prend environ 14 à 21 min dans notre benchmark, contre 9 à 14 min sur la 20 W."
     },
     {
-      "question": "Puis-je upgrader de 20 W à 40 W plus tard ?",
-      "answer": "Oui. Les têtes S1 sont interchangeables : achetez un module 40 W et montez-le sur la même enceinte (deux vis + connecteurs). Vous pouvez aussi ajouter le module IR 1064 nm 2 W optionnel pour plus de travail métal."
-    },
-    {
-      "question": "La S1 est-elle un laser hybride comme la F1 Ultra ?",
-      "answer": "Non. La S1 est une plateforme diode avec têtes diode (ou IR) interchangeables. Les machines hybrides combinent fibre et diode dans un produit double source : catégorie différente."
+      "question": "La S1 10 W est-elle encore vendue neuve ?",
+      "answer": "En octobre 2026, la boutique américaine de xTool ne propose la S1 qu’en packs 20 W (1 299 $ en Basic) et 40 W (1 699 $ en Basic). Une S1 10 W se trouve surtout en fin de stock ou d’occasion. Au prix d’une 20 W Basic neuve, elle a peu d’intérêt ; d’occasion avec une vraie décote, c’est une machine de gravure cohérente, et le caisson accepte plus tard les têtes plus puissantes."
     }
   ],
   "images": [
@@ -106,5 +101,17 @@
         "label": "Module IR 2 W (accessoire)"
       }
     ]
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "fine-spot",
+      "title": "Le point le plus fin de la gamme S1",
+      "body": "xTool indique un point de 0,06 × 0,04 mm pour la tête 10 W. Hachures fines, petits textes et tramage photo restent plus nets qu’avec les faisceaux plus larges des têtes puissantes."
+    },
+    {
+      "id": "low-power-class1",
+      "title": "Faible puissance dans un caisson Classe 1",
+      "body": "La tête 10 W travaille dans le même caisson, avec verrouillage du capot, détection de flamme sur cinq directions et clé : un choix raisonnable pour une salle de classe ou une pièce partagée."
+    }
+  ]
 }

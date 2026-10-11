@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Algolaser Alpha MK2 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 440 × 410 mm : validez vos formats de pièces avant achat"
+    "Les réglages 10 W d'Algolaser découpent le contreplaqué de tilleul de 3 mm à 500 mm/min et celui de 6 mm à 200 mm/min, chacun en une passe",
+    "Le point le plus fin des trois puissances dans notre fiche (~0,05 mm) : le bon choix pour les photos et les petits textes",
+    "Prix d'entrée bas : le DIY KIT MK2 10 W coûtait 289 $ machine seule sur la boutique Algolaser en octobre 2026"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Le contreplaqué de 8–10 mm demande 3 passes avec les réglages d'Algolaser",
+    "L'acrylique noir est lent : 3,5 mm à 100 mm/min, 6 mm en 3 passes",
+    "Algolaser vend cette puissance sous le nom DIY KIT MK2, un châssis en kit distinct de l'Alpha MK2 plus puissante : comparez les packs et le montage avant de commander"
   ],
   "materials": {
     "engrave": [
@@ -73,5 +72,36 @@
   "editorialDepth": {
     "advantages": "Algolaser Alpha MK2 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W ou 40W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que découpe la 10 W en une passe ?",
+      "answer": "Les réglages matériaux d'Algolaser pour le DIY KIT MK2 10 W indiquent le contreplaqué de tilleul à 500 mm/min (3 mm) et 200 mm/min (5 et 6 mm), en une passe à 100 % de puissance. Le contreplaqué de 8 et 10 mm demande 3 passes. Acrylique noir : 3,5 mm en une passe à 100 mm/min, 6 mm en 3 passes."
+    },
+    {
+      "question": "Quel produit correspond à la 10 W sur la boutique Algolaser ?",
+      "answer": "Algolaser vend sa 10 W sous le nom DIY KIT MK2 : 289 $ machine seule, 439–659 $ en kits, ou 599 $ avec le caisson connecté (octobre 2026). Les versions 20 W et 40 W sont vendues comme Alpha MK2. Vérifiez la surface de travail et les accessoires sur l'annonce exacte, car le châssis en kit et l'Alpha MK2 sont deux produits différents."
+    },
+    {
+      "question": "Qui devrait choisir la 10 W plutôt que la 20 W ?",
+      "answer": "Ceux qui gravent bien plus qu'ils ne découpent. Le préréglage de gravure d'Algolaser pour la 10 W est de 12 000 mm/min sur contreplaqué de tilleul (20 000 sur la 20 W), et notre photo test de 10 × 10 cm prend ~14–21 min contre ~9–14 min. Si vous découpez régulièrement du 8 mm, la 20 W le fait en une passe au lieu de trois."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "finest-spot-mk2",
+      "title": "Le point le plus fin de la gamme",
+      "body": "Point de ~0,05 mm dans notre fiche, le plus petit des trois puissances : un atout pour les photos, les petites polices et les tramages denses."
+    },
+    {
+      "id": "six-mm-one-pass-10w",
+      "title": "6 mm de contreplaqué en une passe",
+      "body": "Les réglages d'Algolaser découpent le contreplaqué de tilleul de 5–6 mm en une passe à 200 mm/min, de quoi faire décorations, boîtes et petits panneaux."
+    },
+    {
+      "id": "low-cost-kit",
+      "title": "Une version en kit peu chère",
+      "body": "289 $ machine seule pour le DIY KIT MK2 10 W en octobre 2026, la façon la moins chère d'entrer dans l'écosystème Algolaser."
+    }
+  ]
 }

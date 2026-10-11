@@ -12,14 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
-    "40W : tête la plus orientée découpe de TwoTrees TS2",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Les temps les plus courts de la gamme TS2 dans notre test : ~12–18 min pour une photo de 10 × 10 cm, ~6–10 min pour un carré en tilleul de 3 mm",
+    "Tilleul jusqu'à 10 mm dans notre fiche, avec des vitesses de remplissage de 70–150 mm/s",
+    "Garde la mise au point automatique et le plateau de 410 × 400 mm de la TS2"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Prix très variable : la boutique TwoTrees affichait la TS2-40W à 1 097 $ avec livraison US uniquement (octobre 2026), bien au-dessus de nombreuses annonces de revendeurs",
+    "Point plus large (~0,09 mm) et plus de fumée que la 20 W : prévoyez extraction et assistance d'air",
+    "L'acrylique foncé plafonne toujours vers 5 mm dans notre fiche : l'acrylique transparent demande un CO₂"
   ],
   "materials": {
     "engrave": [
@@ -41,7 +41,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 40 W : vérifiez le SKU avant d’acheter"
+    "note": "Boutique officielle TwoTrees, oct. 2026 : de 1 097 $ à 1 113 $ selon la version Max (livraison US uniquement)"
   },
   "specs": {
     "performance": {
@@ -70,5 +70,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TS2 40W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
     "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Châssis ouvert : sécurité et fumées à votre charge."
-  }
+  },
+  "faq": [
+    {
+      "question": "Où acheter la TS2 40 W, et à quel prix ?",
+      "answer": "En octobre 2026, la boutique TwoTrees affichait la TS2-40W à 1 097 $ et la TS2-40W Max à 1 113 $, toutes deux avec livraison US uniquement. Les prix des revendeurs sont souvent bien plus bas : vérifiez que l'annonce indique 40 W de puissance optique et que la garantie est assurée dans votre pays."
+    },
+    {
+      "question": "Que gagne la 40 W par rapport à la TS2 20 W ?",
+      "answer": "De la vitesse avant tout. Dans notre test, la photo de 10 × 10 cm passe de ~18–28 min à ~12–18 min et le carré en tilleul de 3 mm de ~9–15 min à ~6–10 min, avec des vitesses de découpe de 4–11 mm/s. Notre fiche relève aussi la limite de tilleul de 8 à 10 mm."
+    },
+    {
+      "question": "La TS2 40 W convient-elle à un petit atelier de production ?",
+      "answer": "Pour découper chaque jour du bois de 3–6 mm, oui : le temps gagné par travail est ce qui la justifie. Pour un travail centré sur les photos, le point plus fin de la 20 W (~0,08 mm contre ~0,09 mm) et son prix plus bas conviennent mieux."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ts2-fastest-tier",
+      "title": "La TS2 la plus rapide",
+      "body": "~12–18 min pour une photo de 10 × 10 cm et ~6–10 min pour un carré en tilleul de 3 mm dans notre test, les meilleurs temps de la gamme."
+    },
+    {
+      "id": "ts2-40w-thick-stock",
+      "title": "Tilleul jusqu'à 10 mm",
+      "body": "Notre fiche indique 10 mm de tilleul et 5 mm d'acrylique foncé, avec des vitesses de découpe de 4–11 mm/s sur du bois de 3 mm."
+    }
+  ]
 }

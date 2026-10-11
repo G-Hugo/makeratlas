@@ -44,9 +44,20 @@
     }
   },
   "images": [
-    { "alt": "Graveuse laser Sculpfun S30 Pro Max : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S30 Pro Max : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S30 Pro Max : Sculpfun" },
-    { "alt": "Graveuse laser Sculpfun S30 Pro Max : Sculpfun" }
-  ]
+    {
+      "alt": "Graveuse laser Sculpfun S30 Pro Max : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Pro Max : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Pro Max : Sculpfun"
+    },
+    {
+      "alt": "Graveuse laser Sculpfun S30 Pro Max : Sculpfun"
+    }
+  ],
+  "priceRange": {
+    "note": "Boutique officielle Sculpfun, oct. 2026 : de 480 $ à 979 $ selon le pack"
+  }
 }

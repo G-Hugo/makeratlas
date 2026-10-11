@@ -12,13 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
+    "Les temps les plus courts de la gamme Z1 dans notre test : ~12–18 min pour une photo de 10 × 10 cm, ~6–10 min pour un carré en tilleul de 3 mm",
+    "Tilleul jusqu'à 8 mm dans notre fiche, contre des matériaux fins seulement pour les versions inférieures",
+    "Vitesses de remplissage de 50–120 mm/s, plusieurs fois celles de la 10 W"
   ],
   "cons": [
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Le manuel Z1 de Comgrow ne mentionne que des modules jusqu'à 10 W : vérifiez la puissance optique et le vendeur de toute annonce « Z1 20W »",
+    "Le point le plus large de la gamme (~0,10 mm) : moins adaptée pour les détails photo très fins",
+    "Plus de fumée sur une structure ouverte : assistance d'air et extraction deviennent nécessaires pour des découpes propres"
   ],
   "materials": {
     "engrave": [
@@ -63,5 +64,31 @@
   "editorialDepth": {
     "advantages": "Le Z1 20 W si le prix est le seul critère et que vous acceptez un écosystème plus fin.",
     "limitations": "Les gros utilisateurs dépassent le cadre et le support. Comparez LM3 20 W. Pas pour exigence enceinte appartement."
-  }
+  },
+  "faq": [
+    {
+      "question": "Comgrow fabrique-t-il officiellement une Z1 de 20 W ?",
+      "answer": "Le manuel de la Z1 documente des lasers de 1,6 W, 5 W et 10 W. Les annonces de Z1 20 W passent surtout par des vendeurs de places de marché (parfois sous le nom « Z1 Pro ») : vérifiez que l'annonce indique la puissance optique et non électrique, et qui assure la garantie."
+    },
+    {
+      "question": "Quelle épaisseur la Z1 20 W découpe-t-elle ?",
+      "answer": "Notre fiche indique le tilleul jusqu'à 8 mm, en plusieurs passes près de cette limite, et notre test découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en ~6–10 min, à 3–8 mm/s. Il n'existe pas de table de découpe officielle Comgrow pour cette version."
+    },
+    {
+      "question": "La 20 W vaut-elle environ 60 $ de plus que la 10 W ?",
+      "answer": "Pour la découpe, oui : notre carré test de 3 mm passe de ~9–15 min à ~6–10 min et la limite d'épaisseur passe des matériaux fins à environ 8 mm. Pour la gravure seule, la 10 W (219–299 $) offre un point un peu plus fin pour moins cher que les 279–379 $ de la 20 W."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "z1-fastest-tier",
+      "title": "La Z1 la plus rapide",
+      "body": "~12–18 min pour une photo de 10 × 10 cm et ~6–10 min pour un carré en tilleul de 3 mm dans notre test."
+    },
+    {
+      "id": "z1-thicker-cuts",
+      "title": "Découpe jusqu'à 8 mm de tilleul",
+      "body": "La seule Z1 de notre fiche qui dépasse les matériaux fins, avec assistance d'air et plusieurs passes dans le haut de la plage."
+    }
+  ]
 }

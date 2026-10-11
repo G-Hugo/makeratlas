@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur TwoTrees TTS-55 Pro : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
+    "Presque deux fois les 5,5 W de la TTS-55 Pro d'origine, avec le même châssis compact de 300 × 300 mm",
+    "Vitesses de remplissage de 15–34 mm/s dans nos tests : ~18–28 min pour une photo de 10 × 10 cm",
+    "Point de ~0,09 mm, plus fin que la version 20 W sur le même châssis"
   ],
   "cons": [
-    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Le petit plateau de 300 × 300 mm limite la taille des panneaux, sauf avec le kit d'extension 600 × 600 mm de TwoTrees (89 $)",
+    "La découpe reste lente : ~9–15 min pour un carré de 10 × 10 cm dans du tilleul de 3 mm dans notre test",
+    "Seulement du tilleul fin dans notre fiche, avec plusieurs passes au-delà de 3 mm"
   ],
   "materials": {
     "engrave": [
@@ -68,5 +67,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TTS-55 Pro 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Qu'est-ce que la TTS-55 Pro 10 W exactement ?",
+      "answer": "La TTS-55 Pro est sortie avec un laser de 5,5 W. La version 10 W reprend le même châssis de 300 × 300 mm avec un module plus puissant ; TwoTrees vend aussi la TTS-10 Pro comme machine 10 W actuelle de cette famille. Vérifiez quel module l'annonce fournit réellement avant d'acheter."
+    },
+    {
+      "question": "Quelle épaisseur peut-elle découper avec le module 10 W ?",
+      "answer": "TwoTrees ne publie pas de table par passe pour cette version. Notre fiche indique du tilleul fin en plusieurs passes, ainsi que du carton et du tissu, et notre carré test en tilleul de 3 mm prend ~9–15 min, à 2–3 mm/s."
+    },
+    {
+      "question": "10 W ou 20 W sur la TTS-55 Pro ?",
+      "answer": "Gardez la 10 W (249–379 $) pour graver des cadeaux et faire des découpes fines occasionnelles. La 20 W découpe notre carré test de 3 mm en ~6–10 min et atteint 8 mm de tilleul ; TwoTrees vend ce module 20 W séparément à 359 $ (octobre 2026), donc l'acheter d'emblée revient généralement moins cher que de faire évoluer la machine plus tard."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "compact-frame-tts55pro",
+      "title": "Châssis compact de 300 × 300 mm",
+      "body": "Tient sur un petit bureau et se met plus facilement sous caisson que les machines de classe 400 mm ; un kit d'extension 600 × 600 mm existe (89 $)."
+    },
+    {
+      "id": "finer-spot-tts55pro-10w",
+      "title": "Point plus fin que la 20 W",
+      "body": "~0,09 mm dans notre fiche contre ~0,10 mm sur la version 20 W, utile pour les photos et les petites lettres."
+    }
+  ]
 }

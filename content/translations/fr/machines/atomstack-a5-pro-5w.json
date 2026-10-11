@@ -12,15 +12,14 @@
     "Première machine"
   ],
   "pros": [
-    "5W sur Atomstack A5 Pro : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
+    "L'entrée la moins chère dans le châssis A5 Pro : 199–299 $, souvent moins en occasion",
+    "Grand plateau de 410 × 400 mm pour une machine de classe 5 W",
+    "Suffisante pour la gravure du bois, du cuir et des surfaces peintes à un rythme de loisir"
   ],
   "cons": [
-    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (10W ou 20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "L'étiquette « 40W » de l'A5 Pro désigne la puissance électrique : la fiche Atomstack indique 5–5,5 W de puissance optique",
+    "La découpe plafonne vers 3 mm de tilleul ; des utilisateurs rapportent du contreplaqué de 2 mm à 250 mm/min en une passe et 2–3 passes pour 3 mm",
+    "Remplissages très lents : ~28–43 min pour notre photo test de 10 × 10 cm"
   ],
   "materials": {
     "engrave": [
@@ -71,5 +70,31 @@
   "editorialDepth": {
     "advantages": "Le A5 Pro 5 W reste pertinent en forte promo : écosystème et mods documentés au prix d’entrée.",
     "limitations": "Si le budget permet 10 W, sautez souvent le 5 W. Pas de découpe production. Vérifiez le module livré."
-  }
+  },
+  "faq": [
+    {
+      "question": "L'Atomstack A5 Pro 5 W est-elle vraiment un laser de 40 W ?",
+      "answer": "Non. Atomstack vendait l'A5 Pro comme « 40W », ce qui correspond à la puissance électrique ; sa propre fiche indique 5–5,5 W de puissance optique. Comparez les machines sur la puissance optique uniquement : à ce compte, c'est une graveuse d'entrée de gamme, pas une machine de découpe."
+    },
+    {
+      "question": "Que peut découper l'A5 Pro 5 W ?",
+      "answer": "Seulement des matériaux fins. Un propriétaire sur le forum LightBurn rapporte du contreplaqué de 2 mm à 250 mm/min et 100 % de puissance en une passe, et s'attend à 2–3 passes pour 3 mm. Notre fiche limite le tilleul à 3 mm, et un carré de 10 × 10 cm dans du tilleul de 3 mm prend ~14–24 min dans notre test."
+    },
+    {
+      "question": "L'A5 Pro est arrêtée : faut-il encore en acheter une ?",
+      "answer": "Seulement comme machine d'initiation d'occasion ou en fin de stock, idéalement sous 200 $. L'A5 Pro n'est plus un modèle actuel d'Atomstack : vérifiez le module et l'alimentation avant de payer. Si vous comptez découper régulièrement du bois de 3 mm, la version 10 W ou une 10 W actuelle est un meilleur premier achat."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "lowest-price-a5",
+      "title": "Le prix le plus bas de la gamme",
+      "body": "199–299 $ dans notre fourchette, et moins en occasion, pour un plateau de gravure de 410 × 400 mm."
+    },
+    {
+      "id": "learning-machine-a5",
+      "title": "Une machine pour apprendre sans risque",
+      "body": "Avec une puissance optique de classe 5 W, les erreurs coûtent peu : un bon moyen d'apprendre LightBurn, la mise au point et les tests matière avant d'acheter plus gros."
+    }
+  ]
 }

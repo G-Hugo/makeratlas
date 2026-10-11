@@ -8,10 +8,10 @@ import { LocaleLink } from "@/components/layout/LocaleLink";
 import { LasersBrowse } from "@/components/machines/LasersBrowse";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { getAllBrandProfiles, getBrandBySlug, getCatalogEntriesByBrand } from "@/lib/brands";
+import { getAllBrandProfiles, getBrandBySlug, getCatalogEntriesByBrand, isBrandIndexable } from "@/lib/brands";
 import { getBrandDuelsForBrand } from "@/lib/compare-brand-duels";
 import { interpolate } from "@/lib/i18n-helpers";
-import { buildPageMetadata } from "@/lib/seo";
+import { buildPageMetadata, NOINDEX_ROBOTS } from "@/lib/seo";
 
 interface PageProps {
   params: Promise<{ locale: string; slug: string }>;
@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return buildPageMetadata({
     locale: localeParam,
     path: `/brands/${slug}`,
+    robots: isBrandIndexable(slug, localeParam as Locale) ? undefined : NOINDEX_ROBOTS,
     title: interpolate(dict.brands.brandPageTitle, { brand: brand.name }),
     description: interpolate(dict.brands.brandPageDescription, {
       brand: brand.name,

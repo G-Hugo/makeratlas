@@ -12,14 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
-    "40W : tête la plus orientée découpe de Atomstack A40 Pro",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Divise environ par deux le temps de découpe face au module 20 W : ~6–10 min pour notre carré de 10 × 10 cm dans du tilleul de 3 mm",
+    "Plage de découpe de notre fiche : tilleul jusqu'à 10 mm et acrylique foncé jusqu'à 5 mm",
+    "Remplissages photo à 60–140 mm/s dans nos tests (~12–18 min pour une photo de 10 × 10 cm)"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Arrêtée : n'achetez d'occasion qu'après avoir vérifié le module, car les modules 40 W de rechange pour l'A40 Pro d'origine sont difficiles à trouver",
+    "Point plus large (~0,08 mm) et plus de fumée que la 20 W : le détail des petites photos est un peu plus doux",
+    "Les prix d'occasion (399–599 $) recoupent ceux de machines neuves avec garantie"
   ],
   "materials": {
     "engrave": [
@@ -71,5 +71,31 @@
   "editorialDepth": {
     "advantages": "Le 40 W pour ceux engagés sur le grand cadre Atomstack qui veulent le maximum diode sans CO₂.",
     "limitations": "Pas d’équipement enseigne acrylique. Comparez Falcon2 Pro 40 W et S30 Ultra 22 W sur prix pack et air assist."
-  }
+  },
+  "faq": [
+    {
+      "question": "Faut-il acheter une Atomstack A40 Pro 40 W d'occasion en 2026 ?",
+      "answer": "Cela peut se justifier si le prix est nettement sous 500 $ et que le vendeur montre une découpe test. L'A40 Pro n'est plus vendue neuve ; le modèle actuel d'Atomstack est l'A40 Pro V2 (24 W/48 W commutable, 769 $ machine seule en octobre 2026), donc les pièces de l'ancienne se raréfient. Prévoyez un éventuel remplacement du module dans le budget."
+    },
+    {
+      "question": "Que découpe l'A40 Pro 40 W en pratique ?",
+      "answer": "Le marketing d'Atomstack pour la famille annonçait des découpes très épaisses en une passe ; nous ne nous appuyons pas sur ces chiffres. Notre fiche indique le tilleul jusqu'à 10 mm et l'acrylique foncé jusqu'à 5 mm, et notre test découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en ~6–10 min, à 4–10 mm/s, contre ~9–15 min sur la 20 W."
+    },
+    {
+      "question": "La 40 W est-elle le bon choix d'occasion face à la 20 W ?",
+      "answer": "Oui si vous découpez plus de quelques pièces par semaine : le temps gagné est la principale raison de la posséder. Si vous gravez surtout des photos, le point plus fin de la 20 W et son prix d'occasion plus bas (349–499 $ contre 399–599 $) font une meilleure affaire."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "cut-time-a40-40w",
+      "title": "Deux fois moins de temps de découpe que la 20 W",
+      "body": "~6–10 min pour notre carré de 10 × 10 cm dans du tilleul de 3 mm, contre ~9–15 min avec le module 20 W sur le même châssis."
+    },
+    {
+      "id": "thicker-stock-a40-40w",
+      "title": "Des épaisseurs plus fortes",
+      "body": "Tilleul jusqu'à 10 mm et acrylique foncé jusqu'à 5 mm dans notre fiche, avec moins de passes que la 20 W."
+    }
+  ]
 }

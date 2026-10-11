@@ -2,8 +2,8 @@
   "tagline": "Laser UV de bureau pour verre, plastique et fines détails",
   "tldr": "La ComMarker Omni X utilise la longueur d'onde UV pour un marquage à froid sur le verre, certains plastiques et matériaux délicats, avec moins de dégâts thermiques qu'une fibre ou un CO₂. Plus lente que la fibre sur le métal : un outil différent pour des matériaux différents.",
   "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
-  "primaryUse": "Module 5W · ComMarker Omni X UV",
-  "beginnerNotes": "Ce profil décrit le SKU 5W de ComMarker Omni X UV. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "primaryUse": "Version 6 W · ComMarker Omni X UV",
+  "beginnerNotes": "Ce profil décrit la version de base 6 W de ComMarker Omni X UV. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "UV on glass: low power test tiles and fixturing matter more than speed. Keep dedicated presets away from fiber jobs. Confirm material compatibility with ComMarker before quoting UV gift lines.",
   "bestFor": [
     "Gravure fine",
@@ -12,12 +12,40 @@
     "Première machine"
   ],
   "pros": [
-    "5W UV : marquage froid sur verre et plastiques sensibles à la chaleur",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 100 × 100 mm typical : validez vos formats avant achat"
+    "Caisson Classe 1 avec protection OD 5+, capteur de porte et clé de sécurité : pas de lunettes nécessaires en usage normal",
+    "ComMarker annonce 99,72 % de poussières retenues dans le caisson, utile pour graver des plastiques dans une pièce partagée",
+    "Mise au point automatique LiDAR et hauteur de travail maximale de 235 mm pour les objets hauts"
   ],
   "cons": [
-    "Pas de découpe bois/métal : installez un autre module sur le châssis pour ces matériaux"
+    "300 $ de plus que l'Omni XE à châssis ouvert pour les mêmes options de laser",
+    "32 kg et 515 × 320 × 655 mm : plus lourde et plus haute que l'Omni XE (20 kg)",
+    "À partir de 3 599 $ en pack de base 6 W (boutique ComMarker, oct. 2026), bien au-dessus des lasers diode qui gravent aussi bois et cuir"
+  ],
+  "faq": [
+    {
+      "question": "Omni X ou Omni XE : quelle différence ?",
+      "answer": "Les deux utilisent les mêmes sources UV 355 nm (6 W ou 12 W), le même galvo à 10 000 mm/s, la même mise au point automatique LiDAR et les mêmes zones de travail, d'après les fiches techniques de ComMarker. L'Omni X est la version fermée : sécurité laser Classe 1, protection OD 5+, capteur de porte et clé de sécurité, 32 kg. L'Omni XE est classée Classe 4, pèse 20 kg et coûte 300 $ de moins. Prenez la X si elle doit tourner dans une pièce partagée, derrière un comptoir de boutique ou près d'enfants."
+    },
+    {
+      "question": "Omni X en 6 W ou en 12 W ?",
+      "answer": "ComMarker affiche le pack de base de l'Omni X à 3 599 $ (6 W) ou 5 999 $ (12 W) en octobre 2026. La 12 W passe à un champ de 250 × 250 mm au lieu de 150 × 150 mm et découpe davantage en plusieurs passes : 12 mm de tilleul, 10 mm d'acrylique et 1 mm d'inox, contre 8 mm, 6 mm et 0,6 mm pour la 6 W. Un kit de mise à niveau 12 W est aussi vendu séparément à 3 499 $."
+    },
+    {
+      "question": "L'Omni X peut-elle marquer le métal ?",
+      "answer": "Oui : ComMarker cite l'inox, l'aluminium, le laiton, l'or et l'argent, et l'UV laisse des marquages fins avec peu de chaleur. Pour la gravure profonde ou le métal en volume, un laser fibre est plus rapide et moins cher par pièce. L'Omni X se justifie sur le verre, le cristal (y compris la gravure 3D interne), les plastiques et les objets sensibles à la chaleur."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "omni-x-class1",
+      "title": "Un UV fermé en Classe 1",
+      "body": "Entièrement fermée, avec protection OD 5+, un capteur de porte qui met le travail en pause et une clé de sécurité. Elle peut tourner dans un bureau, derrière un comptoir ou dans une salle de classe sans protection laser séparée pour l'entourage."
+    },
+    {
+      "id": "omni-x-contained",
+      "title": "Poussières et fumées contenues",
+      "body": "ComMarker annonce 99,72 % de poussières retenues dans le caisson, et un extracteur de fumées externe peut s'y raccorder pour la filtration. Un vrai plus pour graver plastiques, cuir ou aliments en intérieur."
+    }
   ],
   "materials": {
     "engrave": [
@@ -31,7 +59,7 @@
       "Thin films (limited)"
     ],
     "cannot": [
-      "Métal nu (utilisez une fibre)",
+      "Gravure profonde du métal (utilisez une fibre)",
       "Découpe bois épais",
       "Production acrylique à vitesse CO₂"
     ]
@@ -61,7 +89,10 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "ComMarker Omni X UV 5W cible verre, films et plastiques sensibles à la chaleur : niche rentable quand vous avez déjà des commandes, pas pour “essayer l’UV”.",
+    "advantages": "ComMarker Omni X UV cible verre, films et plastiques sensibles à la chaleur : niche rentable quand vous avez déjà des commandes, pas pour “essayer l’UV”.",
     "limitations": "Inutile comme première machine. Pas de découpe bois/métal. Vérifiez la liste matériaux du module avant d’investir dans le châssis."
+  },
+  "priceRange": {
+    "note": "Boutique officielle ComMarker, oct. 2026 : de 3 599 $ à 7 059 $ selon 6 W ou 12 W et le pack"
   }
 }

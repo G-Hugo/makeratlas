@@ -39,6 +39,8 @@ export interface MachineTranslation {
   priceRange?: { note?: string };
   images?: Array<{ alt?: string }>;
   editorialDepth?: MachineEditorialDepth;
+  /** Same order and length as the English list; matched by index. */
+  standoutFeatures?: Array<{ title?: string; body?: string }>;
 }
 
 const translationCache = new Map<string, MachineTranslation | null>();
@@ -416,6 +418,15 @@ export function localizeMachine(machine: Machine, locale: Locale): Machine {
     materials: pickMaterials(machine.materials, tr.materials),
     faq: machine.faq ? pickFaq(machine.faq, tr.faq) : machine.faq,
     images: mergeImages(machine.images, tr.images),
+    ...(machine.standoutFeatures?.length
+      ? {
+          standoutFeatures: machine.standoutFeatures.map((feature, index) => ({
+            ...feature,
+            title: pickTranslated(feature.title, tr.standoutFeatures?.[index]?.title),
+            body: pickTranslated(feature.body, tr.standoutFeatures?.[index]?.body),
+          })),
+        }
+      : {}),
     ...(machine.editorialDepth || tr.editorialDepth
       ? {
           editorialDepth: {

@@ -12,14 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "Découpe des carrés de tilleul de 3 mm en 6 à 10 min dans nos benchmarks",
+    "Gravure remplie à environ 60–150 mm/s : une photo de 10 × 10 cm en 12 à 18 min",
+    "Même cadre et mêmes accessoires que la LM2 S2 moins puissante"
   ],
   "cons": [
-    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
-    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Le module LU2-10A était en rupture sur la boutique Ortur en octobre 2026",
+    "Point un peu plus large (environ 0,08 mm) : les petits textes sont un peu moins nets qu’avec le module moins puissant",
+    "Les épaisseurs au-delà de 5 mm demandent plusieurs passes et une assistance d’air"
   ],
   "materials": {
     "engrave": [
@@ -63,5 +63,31 @@
   "editorialDepth": {
     "advantages": "Ortur LM2 S2 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "La LM2 S2 10 W se trouve-t-elle encore neuve ?",
+      "answer": "La boutique Ortur affichait la LM2 S2 avec module LU2-10A de 10 W à 209,99 $ en octobre 2026, mais en rupture. Comptez sur l’occasion ou les derniers stocks des revendeurs ; Ortur propose aussi des annonces de machines d’occasion pour ses anciens modèles."
+    },
+    {
+      "question": "Quelle épaisseur la LM2 S2 10 W peut-elle découper ?",
+      "answer": "La page Ortur montre 12 mm de bois et 5 mm d’acrylique découpés en une passe, mais ces images figurent dans la partie LM2 Pro S2 et ne s’appliquent peut-être pas à ce cadre. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 6 à 10 min à 4–10 mm/s ; prévoyez 3 à 5 mm en une ou deux passes."
+    },
+    {
+      "question": "La 10 W vaut-elle le coup face à la LM2 S2 5 W ?",
+      "answer": "Pour environ 70 $ de plus sur les annonces suivies, oui dans la plupart des cas : le temps de découpe en 3 mm passe de 9–15 min à 6–10 min, et le remplissage photo tourne à environ 60–150 mm/s au lieu de 16–42 mm/s. La 5 W n’a de sens que pour graver seulement, avec le plus petit budget."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "lm2-10w-cut-step",
+      "title": "Un vrai gain pour un petit écart de prix",
+      "body": "Environ un tiers plus rapide en découpe de 3 mm et plusieurs fois plus rapide en remplissage que la LM2 S2 moins puissante, pour 70 $ de plus environ."
+    },
+    {
+      "id": "lm2-10w-used-value",
+      "title": "Intéressante d’occasion",
+      "body": "En rupture neuve en octobre 2026, elle se trouve souvent d’occasion à prix d’entrée de gamme, avec un grand cadre de 400 × 400 mm."
+    }
+  ]
 }

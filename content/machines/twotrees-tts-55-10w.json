@@ -71,13 +71,14 @@
     ]
   },
   "pros": [
-    "10W on TwoTrees TTS-55: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Cheapest TTS-55 configuration with real cutting ability: $179–279",
+    "Basswood up to 5 mm in our profile, against thin stock on the original 5W machine",
+    "Finest spot of the TTS-55 line in our profile (~0.08 mm)"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slow fills in our benchmark: ~28–43 min for a 10 × 10 cm photo at 3–8 mm/s",
+    "Cutting a 10 × 10 cm square in 3 mm basswood takes ~14–24 min",
+    "Older, no-frills frame (as Tom's Hardware's review put it) with a 300 × 300 mm bed"
   ],
   "beginnerNotes": "This profile is the 10W SKU on TwoTrees TTS-55. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -94,7 +95,7 @@
     "longer-ray5"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/twotrees-tts-55-10w/01.webp",
@@ -119,5 +120,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TTS-55 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "How does the TTS-55 10W compare with the original 5W TTS-55?",
+      "answer": "The TTS-55 was launched around a 5W laser; Tom's Hardware's review found it could still cut 8 mm light plywood with patience. The 10W module roughly doubles the power on the same 300 × 300 mm frame, and our profile lists basswood up to 5 mm as a practical limit."
+    },
+    {
+      "question": "Is the TTS-55 10W fast enough for engraving orders?",
+      "answer": "For occasional orders, yes; for volume, no. Our benchmark puts a 10 × 10 cm filled photo at ~28–43 min, against ~18–28 min with the 20W module. Text and line art run much faster than full photo fills."
+    },
+    {
+      "question": "Should I buy the 10W or go straight to the 20W?",
+      "answer": "If your budget stops at about $200, the 10W ($179–279) is a fair starter. TwoTrees sells a 20W module for the TTS-55 at $359 (October 2026), so if cutting matters, a machine that already ships with 20W is cheaper than upgrading later."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "tts55-10w-budget",
+      "title": "Budget entry with cutting",
+      "body": "$179–279 for a 10W diode on the 300 × 300 mm TTS-55 frame, with basswood up to 5 mm in our profile."
+    },
+    {
+      "id": "tts55-10w-spot",
+      "title": "Finest spot of the line",
+      "body": "~0.08 mm spot in our profile, the tightest of the TTS-55 tiers, which suits text and line art."
+    }
+  ]
 }

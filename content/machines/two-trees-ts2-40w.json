@@ -16,10 +16,10 @@
     "Cut-heavy weeks"
   ],
   "priceRange": {
-    "min": 399,
-    "max": 549,
+    "min": 1097,
+    "max": 1113,
     "currency": "USD",
-    "note": "40W optical module: verify SKU before buying"
+    "note": "Official TwoTrees store, Oct 2026: $1,097 to $1,113 depending on Max version (US shipping only)"
   },
   "specs": {
     "power": "40W diode",
@@ -72,14 +72,14 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
-    "40W: the most cut-focused head in the TwoTrees TS2 line",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Shortest times of the TS2 line in our benchmark: ~12–18 min for a 10 × 10 cm photo, ~6–10 min for a 3 mm basswood square",
+    "Basswood up to 10 mm in our profile, with fill speeds of 70–150 mm/s",
+    "Keeps the TS2's automatic focus and 410 × 400 mm bed"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Price varies widely: TwoTrees' own store listed the TS2-40W at $1,097 with US shipping only (October 2026), far above many reseller listings",
+    "Wider spot (~0.09 mm) and more smoke than the 20W: plan exhaust and air assist",
+    "Dark acrylic still tops out around 5 mm in our profile: clear acrylic needs CO₂"
   ],
   "beginnerNotes": "This profile is the 40W SKU on TwoTrees TS2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -97,7 +97,7 @@
     "ortur-laser-master-3-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/two-trees-ts2-40w/01.webp",
@@ -122,5 +122,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TS2 40W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
-  }
+  },
+  "faq": [
+    {
+      "question": "Where can I buy the TS2 40W, and at what price?",
+      "answer": "In October 2026 TwoTrees' own store listed the TS2-40W at $1,097 and the TS2-40W Max at $1,113, both with US shipping only. Reseller prices are often much lower; check that the listing states 40W optical output and that warranty is handled in your country."
+    },
+    {
+      "question": "What does the 40W gain over the TS2 20W?",
+      "answer": "Speed above all. In our benchmark the 10 × 10 cm photo drops from ~18–28 min to ~12–18 min and the 3 mm basswood square from ~9–15 min to ~6–10 min, with cut speeds of 4–11 mm/s. Our profile also moves the basswood limit from 8 to 10 mm."
+    },
+    {
+      "question": "Is the TS2 40W a good fit for a small production shop?",
+      "answer": "For daily cutting of 3–6 mm wood, yes: the time saved per job is what justifies it. For photo-heavy work, the 20W's finer spot (~0.08 mm vs ~0.09 mm) and lower price are the better match."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ts2-fastest-tier",
+      "title": "Fastest TS2",
+      "body": "~12–18 min for a 10 × 10 cm photo and ~6–10 min for a 3 mm basswood square in our benchmark, the best times of the line."
+    },
+    {
+      "id": "ts2-40w-thick-stock",
+      "title": "Basswood up to 10 mm",
+      "body": "Our profile lists 10 mm basswood and 5 mm dark acrylic, with cut speeds of 4–11 mm/s on 3 mm wood."
+    }
+  ]
 }

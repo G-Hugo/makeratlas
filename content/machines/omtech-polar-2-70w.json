@@ -115,6 +115,18 @@
       "answer": "Yes. The original Polar 50W (400 × 300 mm) is no longer sold new by OMTech; the Polar 2 keeps the desktop format with a 710 × 360 mm bed."
     }
   ],
+  "standoutFeatures": [
+    {
+      "id": "polar2-70w-cutting",
+      "title": "Most cutting power in the Polar 2 line",
+      "body": "The 70W glass tube cuts acrylic and plywood up to about 10 mm (our estimate) on a 710 × 360 mm bed, for $1,300 less than the RF version."
+    },
+    {
+      "id": "polar2-70w-internal-cooling",
+      "title": "Water cooling built in",
+      "body": "An internal 4.3 L closed loop replaces the external chiller or bucket most glass-tube CO₂ machines need. Check the coolant level before long cutting runs."
+    }
+  ],
   "accessories": [
     {
       "id": "enclosure",
@@ -146,7 +158,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-11",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/omtech-polar-2-70w/01.webp",
   "images": [
     {

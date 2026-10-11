@@ -12,14 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
-    "48W : tête la plus orientée découpe de Acmer S2 Pro",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "La plus large plage de découpe de la gamme S2 Pro dans notre fiche : tilleul jusqu'à 10 mm et acrylique foncé jusqu'à 5 mm",
+    "Les remplissages les plus rapides de la gamme : ~12–18 min pour notre photo test de 10 × 10 cm",
+    "Pompe à air de 30 L/min intégrée : le gain de puissance se traduit par des découpes plus propres, sans accessoire"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "759,99 $ pour le pack de base contre 582 $ pour la 36 W, et jusqu'à 1 404,99 $ pour le pack All in One (octobre 2026)",
+    "Même point annoncé (0,08 × 0,1 mm) que la 36 W : aucun gain de détail, et plus de fumée à pleine puissance",
+    "Structure ouverte : si la gestion des fumées compte, comparez avec la P3 fermée d'Acmer avant d'acheter"
   ],
   "materials": {
     "engrave": [
@@ -64,5 +64,31 @@
   "editorialDepth": {
     "advantages": "Acmer S2 Pro 48W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
     "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Châssis ouvert : sécurité et fumées à votre charge."
-  }
+  },
+  "faq": [
+    {
+      "question": "La S2 Pro 48 W vaut-elle 178 $ de plus que la 36 W ?",
+      "answer": "Si la découpe est une tâche hebdomadaire, en général oui. Dans nos tests, elle découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en ~6–10 min (contre ~7–12 min) et remplit une photo en ~12–18 min (contre ~14–22 min). Les packs de base coûtaient 759,99 $ et 582 $ en octobre 2026. Pour la gravure seule, la 36 W donne le même détail pour moins cher."
+    },
+    {
+      "question": "Quelle épaisseur peut-on découper avec la 48 W ?",
+      "answer": "Acmer ne fournit pas de table de découpe officielle pour la S2 Pro. Notre fiche indique le tilleul jusqu'à 10 mm et l'acrylique foncé opaque jusqu'à 5 mm, avec plusieurs passes dans le haut de ces plages ; l'acrylique transparent est impossible avec une diode bleue."
+    },
+    {
+      "question": "Plus de puissance veut-il dire une gravure plus grossière ?",
+      "answer": "Pas sur le papier : Acmer annonce le même point de 0,08 × 0,1 mm pour les deux versions de la S2 Pro. En pratique, vous graverez les photos à un pourcentage de puissance plus bas sur la 48 W, et la fumée comme les brûlures augmentent à pleine puissance : l'assistance d'air (intégrée) et l'extraction comptent davantage."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s2-pro-top-cutting",
+      "title": "Le haut de gamme de la S2 Pro en découpe",
+      "body": "Tilleul jusqu'à 10 mm et acrylique foncé jusqu'à 5 mm dans notre fiche, avec les temps de découpe les plus courts de la gamme (~6–10 min pour notre carré test en 3 mm)."
+    },
+    {
+      "id": "built-in-air-pump-48w",
+      "title": "Assistance d'air 30 L/min intégrée",
+      "body": "La pompe intégrée chasse la fumée au point de coupe, ce qui compte davantage à 48 W, où les brûlures apparaissent vite."
+    }
+  ]
 }

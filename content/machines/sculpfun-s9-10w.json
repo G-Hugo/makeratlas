@@ -71,13 +71,14 @@
     ]
   },
   "pros": [
-    "10W on Sculpfun S9: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Cuts a 10 × 10 cm square in 3 mm basswood in ~6–10 min in our benchmarks",
+    "Photo fills at ~60–140 mm/s: a 10 × 10 cm photo takes ~12–18 min",
+    "Works with LightBurn and LaserGRBL and accepts air assist, so used units are easy to set up"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slightly wider ~0.10 mm spot: very fine photo detail is a little softer than on the lower-power S9",
+    "Beyond 5 mm, cutting needs several slow passes and an air pump",
+    "Discontinued: check diode hours, lens and belts before buying a used unit"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Sculpfun S9. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -95,7 +96,7 @@
     "sculpfun-s30-ultra-22w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/sculpfun-s9-10w/01.webp",
@@ -125,5 +126,36 @@
   },
   "discontinued": {
     "successor": "sculpfun-s10-10w"
-  }
+  },
+  "faq": [
+    {
+      "question": "Which machine is the Sculpfun S9 10W?",
+      "answer": "It corresponds to the S9 Pro, which Sculpfun sold with a 10W optical diode, a claimed 0.06 mm focus and a 400 × 410 mm engraving area. The line has been succeeded by the S10 and S30 series. Most buyers now find it used or refurbished: Sculpfun listed a refurbished S9 Pro at $199 in October 2026."
+    },
+    {
+      "question": "How fast does the S9 10W cut 3 mm and 5 mm wood?",
+      "answer": "In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 6–10 min at 3–8 mm/s. Around 5 mm basswood is the practical limit in one or two passes with air assist. Sculpfun's claim of 15 mm wood relies on many slow passes, and plywood cuts slower than basswood because of its glue layers."
+    },
+    {
+      "question": "Is the extra money over the S9 5W worth it?",
+      "answer": "If you cut, yes. On our tracked listings the 10W costs roughly $100–150 more ($299–449 against $199–299), cuts a 3 mm square in about 6–10 min instead of 9–15 min, and fills photos three to four times faster. If you only engrave small signs and leather, the 5W remains enough."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s9-10w-light-cutting",
+      "title": "Usable cutting on a budget frame",
+      "body": "3 mm basswood squares in about 6–10 min in our benchmarks, with 5 mm reachable in one or two passes."
+    },
+    {
+      "id": "s9-10w-head-upgrade",
+      "title": "Upgrade path through S30 Ultra heads",
+      "body": "Sculpfun lists its S30 Ultra laser heads (11W, 22W, 33W) as compatible with the S9 frame, so a used S9 can take a stronger head later."
+    },
+    {
+      "id": "s9-10w-refurbished",
+      "title": "Low used price",
+      "body": "Sculpfun listed a refurbished S9 Pro at $199 in October 2026; private sales often sit in the same range."
+    }
+  ]
 }

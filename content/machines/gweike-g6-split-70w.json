@@ -70,12 +70,40 @@
     ]
   },
   "pros": [
-    "Fiber marks metal: does not cut wood or acrylic",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "Faster deep work than the 50W: about 2–6 min vs 3–8 min for a filled 10 × 10 cm logo on stainless (our benchmark)",
+    "Compatible with Gweike's 300 × 300 mm lens",
+    "$1,300–1,400 less than the 100W with manual lift"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic: metal marking workflows only",
-    "Fume extraction still matters for coated metals and marking sprays"
+    "Close to the 100W in our filled-logo benchmark: the gain over the 50W shows mostly on deep jobs",
+    "Colour and lift options move the price by up to $600 for the same power ($4,899 to $5,499)",
+    "Q-switched source, no MOPA: no controlled colour marking"
+  ],
+  "faq": [
+    {
+      "question": "Why choose a 70W G6 Split rather than the 50W?",
+      "answer": "For deep engraving and cut-outs. In our benchmark, a filled 10 × 10 cm logo on stainless takes about 2–6 minutes on the 70W, against 3–8 on the 50W. Surface marks look the same at both powers; the 70W shortens the jobs that need many passes, such as deep logos, embossing and thin-sheet parts."
+    },
+    {
+      "question": "How much does the G6 Split 70W cost?",
+      "answer": "On Gweike's US store in October 2026: $4,899–4,999 with manual lift, $4,999–5,099 with electric lift and $5,399–5,499 with electric lift and autofocus, depending on the colour. That is about $1,000 more than the 50W and $1,300–1,400 less than the 100W in similar configurations."
+    },
+    {
+      "question": "70W or 100W G6 Split for a production shop?",
+      "answer": "In our benchmark the two are close on a filled logo (about 2–6 minutes vs 2–5). The 100W starts at $6,299 against $4,899 for the 70W. Choose the 100W only if deep engraving or cut-outs run most of the day; otherwise the 70W covers most production work for less."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g6-70w-deep",
+      "title": "Built for repeated deep passes",
+      "body": "70W of average power from a Raycus Q-switched source. Deep logos, embossing and thin-metal cut-outs need fewer passes than on the 50W, which is where the extra cost pays back."
+    },
+    {
+      "id": "g6-70w-value",
+      "title": "Below the 100W price line",
+      "body": "From $4,899 with manual lift, $1,400 less than the 100W, for most of its benefit on everyday filled-logo jobs according to our benchmark."
+    }
   ],
   "beginnerNotes": "This profile is the 70W SKU on Gweike G6 Split. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Push speed only after depth tests on your metal alloy. Cooling and lens cleanliness matter more at this power level.",
@@ -92,7 +120,7 @@
     "monport-gt-30w-fiber"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/gweike-g6-split-70w/01.webp",
   "images": [
     {

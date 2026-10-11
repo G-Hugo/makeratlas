@@ -12,12 +12,40 @@
     "Grandes surfaces"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 150 × 150 mm typical (varies by lens) : validez vos formats avant achat"
+    "La G6 Split la plus rapide de notre benchmark : environ 2 à 5 min pour un logo rempli de 10 × 10 cm sur inox",
+    "Assez de puissance pour que la gravure profonde reste praticable avec l'objectif 300 × 300 mm",
+    "300 à 400 $ de moins que la G6 Split MOPA 100 W"
   ],
   "cons": [
-    "Fibre 100W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
+    "De 6 299 à 6 699 $ : plus de 1 000 $ au-dessus de la 70 W pour un gain modeste en marquage de surface",
+    "Pas de contrôle d'impulsion MOPA : pas de marquage couleur malgré la puissance maximale",
+    "Les travaux profonds à forte puissance dégagent beaucoup de fumées et de projections : l'aspiration n'est pas optionnelle"
+  ],
+  "faq": [
+    {
+      "question": "À quoi sert le mieux la G6 Split 100 W ?",
+      "answer": "À la gravure profonde et à la découpe sur métal en production : logos embossés, numéros de série profonds sur outils, pièces de monnaie et pièces en tôle fine. Dans notre benchmark, un logo rempli de 10 × 10 cm sur inox prend environ 2 à 5 minutes, le plus rapide de la gamme G6 Split. Pour un marquage de surface léger, la puissance supplémentaire change peu de chose."
+    },
+    {
+      "question": "Combien coûte la G6 Split 100 W, et avec quelles options ?",
+      "answer": "Sur la boutique Gweike US en octobre 2026 : 6 299 $ en relevage manuel, 6 399 $ en relevage électrique et 6 699 $ en relevage électrique avec mise au point automatique. La G6 Split MOPA 100 W, capable de marquer en couleur, coûte de 6 599 à 7 099 $ dans les trois mêmes configurations."
+    },
+    {
+      "question": "100 W standard ou G6 Split MOPA 100 W ?",
+      "answer": "La 100 W standard utilise une source Raycus Q-switch à impulsions fixes : un bon rapport qualité-prix pour la profondeur et le marquage noir. La version MOPA, 300 à 400 $ plus chère, ajoute une durée d'impulsion réglable pour la couleur sur inox et des marquages plus propres sur plastiques et aluminium anodisé. Si la couleur ne fait pas partie de ce que vous vendez, le modèle standard est la façon la moins chère d'avoir 100 W."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g6-100w-throughput",
+      "title": "Le meilleur débit de la gamme G6 Split",
+      "body": "Environ 2 à 5 minutes pour un logo rempli de 10 × 10 cm sur inox dans notre benchmark, et la plus grande marge pour les découpes multipasses et l'embossage sur outils et plaques."
+    },
+    {
+      "id": "g6-100w-large-field",
+      "title": "De la puissance pour les grands objectifs",
+      "body": "Un objectif de 300 × 300 mm répartit l'énergie sur un point plus large. Avec 100 W, la gravure profonde reste praticable sur de grandes plaques, là où les paliers inférieurs ralentissent nettement."
+    }
   ],
   "materials": {
     "engrave": [

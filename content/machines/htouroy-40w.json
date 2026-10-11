@@ -92,7 +92,7 @@
     "atomstack-a5-pro",
     "twotrees-tts-55"
   ],
-  "status": "archived",
+  "status": "published",
   "lastUpdated": "2026-06-01",
   "images": [
     {
@@ -101,5 +101,6 @@
     }
   ],
   "powerRating": "40W",
-  "releaseDate": "2024-02"
+  "releaseDate": "2024-02",
+  "discontinued": {}
 }

@@ -4,13 +4,14 @@
     "limitations": "Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est Châssis ouvert."
   },
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
-    "40W : tête la plus orientée découpe de Creality Falcon T1 Diode",
-    "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine"
+    "La plus forte capacité de découpe de la T1 : 12 mm de tilleul et 10 mm d’acrylique opaque (donnée Creality)",
+    "Remplissages galvo rapides : environ 2 à 4 min pour un logo de 10 × 10 cm sur contreplaqué dans notre benchmark",
+    "Même caisson Classe 1, mêmes capteurs et même logiciel que les autres modules T1"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂"
+    "500 $ de plus que le pack T1 d’entrée sur la boutique Creality (octobre 2026)",
+    "Les découpes épaisses produisent beaucoup de fumée : prévoyez une extraction ou un purificateur",
+    "L’acrylique transparent ne se découpe pas à la diode"
   ],
   "beginnerNotes": "Ce profil décrit le SKU 40W de Creality Falcon T1 Diode. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Price the full module roadmap before committing : 40W plus later fiber can exceed a single F2 Ultra bundle.",
@@ -40,5 +41,34 @@
       "Large-format CO₂ signage",
       "All modules installed at once"
     ]
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la Falcon T1 40 W peut-elle découper ?",
+      "answer": "Creality annonce 12 mm de tilleul et 10 mm d’acrylique opaque pour la diode 40 W (chiffres rapportés par Igor’s Lab et des revendeurs), le résultat dépendant de la qualité du bois, de la mise au point et du nombre de passes. Notre liste de matériaux reste à environ 8 mm pour des coupes propres."
+    },
+    {
+      "question": "Pack T1 40 W, ou pack 20 W puis module 40 W plus tard ?",
+      "answer": "Le pack 40 W coûtait 2 999 $ contre 2 499 $ pour le pack 20 W sur la boutique Creality en octobre 2026. Le module 40 W seul coûte 1 399 $ : si vous savez déjà que vous allez découper, prendre la 40 W dès le départ fait économiser environ 900 $."
+    },
+    {
+      "question": "La diode 40 W est-elle bonne aussi en gravure ?",
+      "answer": "Pour la vitesse, oui : notre benchmark a rempli un logo de 10 × 10 cm sur contreplaqué en 2 à 4 min environ. Pour le détail photo le plus fin sur bois, testez d’abord des réglages de puissance plus bas ; pour le métal nu, le bon outil est le module fibre, pas la diode."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "deepest-t1-cut",
+      "title": "Le module de découpe de la T1",
+      "body": "Creality annonce 12 mm de tilleul et 10 mm d’acrylique opaque pour la diode 40 W, le maximum parmi les têtes T1."
+    },
+    {
+      "id": "galvo-fill-speed",
+      "title": "La vitesse de remplissage du galvo",
+      "body": "Dans notre benchmark, un logo de 10 × 10 cm sur contreplaqué a pris environ 2 à 4 min, plusieurs fois plus vite qu’une diode à portique."
+    }
+  ],
+  "priceRange": {
+    "note": "Boutique officielle Creality, oct. 2026 : 2 999 $, machine complète"
   }
 }

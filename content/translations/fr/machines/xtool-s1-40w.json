@@ -12,16 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Tête la plus musclée de la famille S1 sans passer au CO₂",
-    "Faisceau confiné et gestion des fumées intégrée pour l’atelier maison",
-    "Même enceinte que le 20 W : changez de module au lieu de racheter la machine",
-    "Tilleul plus épais et acrylique foncé en moins de passes que les SKU 10 W/20 W",
-    "xTool Creative Space pour débuter, LightBurn pour les pros"
+    "La plus forte capacité de découpe de la gamme S1 : 15 mm de contreplaqué de tilleul et 15 mm d’acrylique noir en une passe (donnée xTool)",
+    "15 mm/s sur du tilleul de 3 mm selon xTool : la découpe en série la plus rapide des têtes S1",
+    "Les remplissages les plus rapides de notre benchmark S1 : environ 6 à 9 min pour une photo de 10 × 10 cm"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10 W dédié gravure",
-    "Toujours une diode : production acrylique transparent = CO₂",
-    "L’acrylique coulé et la découpe production épaisse restent du CO₂"
+    "Plus de fumée par travail : prévoyez le purificateur ou une évacuation par la fenêtre si vous découpez tous les jours",
+    "Point plus large (0,08 × 0,10 mm selon xTool) : le tramage photo très fin et les petits textes sont un peu moins nets",
+    "Le pack S1 le plus cher : 1 699 $ en Basic sur la boutique américaine de xTool en octobre 2026"
   ],
   "editorialDepth": {
     "advantages": "Choisissez le 40 W quand votre semaine mélange gravure et vraie découpe bois, pas seulement des cadeaux marqués. Vous restez dans l’écosystème fermé xTool, gardez la caméra pour les séries répétées et évitez le projet ventilation d’une caisse CO₂ tant que l’acrylique transparent ne paie pas les factures.",
@@ -49,7 +47,7 @@
     ]
   },
   "priceRange": {
-    "note": "SKU fermée 40 W"
+    "note": "Boutique officielle xTool, oct. 2026 : de 1 699 $ à 3 049 $ selon le pack"
   },
   "specs": {
     "performance": {
@@ -63,12 +61,16 @@
   },
   "faq": [
     {
-      "question": "La xTool S1 est-elle plus sûre qu’un laser structure ouverte ?",
-      "answer": "Oui. L’enceinte bloque l’exposition directe au faisceau et contient les fumées. Vous suivez toujours les règles de sécurité, mais le risque d’exposition accidentelle est bien plus faible qu’avec une diode ouverte."
+      "question": "Quelle épaisseur la xTool S1 40 W peut-elle découper ?",
+      "answer": "xTool annonce 15 mm de contreplaqué de tilleul, 18 mm de merisier, 15 mm de noyer et 15 mm d’acrylique noir en une passe, ainsi que de la tôle inox de 0,1 mm. Ce sont des valeurs optimales avec assistance d’air ; notre liste de matériaux reste plus prudente, vers 10 mm de tilleul pour des coupes propres et reproductibles."
     },
     {
-      "question": "La S1 peut-elle remplacer un laser CO₂ ?",
-      "answer": "Non. C’est toujours une diode avec les mêmes limites acrylique et découpe. Achetez du CO₂ (comme xTool P2) si acrylique transparent et découpe bois épais sont votre cœur de métier."
+      "question": "La 40 W convient-elle aussi à la gravure ?",
+      "answer": "Pour la vitesse, oui : elle remplit une photo de 10 × 10 cm en 6 à 9 min environ dans notre benchmark, plus vite que toute autre tête S1. Son point plus large (0,08 × 0,10 mm selon xTool) rend le tramage très fin et les petits textes un peu moins nets qu’avec les têtes de faible puissance : faites des grilles de test sur votre matériau avant de produire."
+    },
+    {
+      "question": "La 40 W vaut-elle 400 $ de plus que la 20 W ?",
+      "answer": "Si vous découpez chaque semaine, oui : 15 mm/s sur du tilleul de 3 mm contre 9 mm/s pour la 20 W selon xTool, et des planches plus épaisses en une passe. Si vous gravez surtout des cadeaux, la 20 W Basic à 1 299 $ (boutique américaine de xTool, octobre 2026) fait le même travail de gravure pour moins cher que la 40 W Basic à 1 699 $."
     }
   ],
   "images": [
@@ -99,5 +101,17 @@
         "label": "Module IR 2 W (accessoire)"
       }
     ]
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "thick-cut-diode",
+      "title": "Découpe plus épaisse que la plupart des diodes",
+      "body": "xTool annonce 15 mm de contreplaqué de tilleul et 15 mm d’acrylique noir en une passe. En pratique, cela couvre les supports d’enseigne, les assemblages de boîtes en contreplaqué de 6 à 10 mm et les lettres en acrylique foncé sans tube CO₂."
+    },
+    {
+      "id": "fast-batch-cut",
+      "title": "La découpe la plus rapide de la gamme S1",
+      "body": "15 mm/s sur du tilleul de 3 mm selon xTool, et environ 3 à 5 min pour une découpe de 10 × 10 cm dans notre benchmark."
+    }
+  ]
 }

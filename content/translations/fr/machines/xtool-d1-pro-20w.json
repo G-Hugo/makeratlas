@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Châssis ouvert : lunettes laser et ventilation à votre charge",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Gravure et découpe équilibrées : ~8 mm tilleul en plusieurs passes"
+    "10 mm de contreplaqué de tilleul et 8 mm de bois massif en une passe (donnée xTool)",
+    "Découpe 5 mm d’acrylique opaque noir et de plusieurs couleurs (test xTool)",
+    "Grande communauté et réglages matériaux partagés : la tête D1 Pro la plus utilisée"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Les bois durs denses (hêtre, merisier, bambou) demandent plusieurs passes",
+    "Structure ouverte : lunettes, ventilation et support ininflammable sont à votre charge",
+    "Plus fabriquée : achat d’occasion, vérifiez la disponibilité des pièces"
   ],
   "materials": {
     "engrave": [
@@ -92,5 +92,31 @@
   "editorialDepth": {
     "advantages": "Le module 20W diode équilibre gravure et découpe légère sur xTool D1 Pro : le SKU le plus polyvalent avant de monter en tête plus puissante.",
     "limitations": "Si la découpe épaisse domine votre semaine, comparez 40W. Vérifiez le module dans la boîte : même châssis, têtes différentes."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que découpe la D1 Pro 20 W en une passe ?",
+      "answer": "xTool annonce 10 mm de contreplaqué de tilleul et 8 mm de bois massif en une passe, ainsi que 5 mm d’acrylique dans plusieurs couleurs opaques (noir, rouge, orange, jaune, vert clair). Les bois durs plus denses comme le hêtre, le merisier ou le bambou demandent plusieurs passes."
+    },
+    {
+      "question": "D1 Pro 20 W ou 40 W ?",
+      "answer": "La 20 W couvre l’essentiel du loisir et de la vente sur Etsy : boîtes en contreplaqué, décorations, acrylique foncé. La 40 W se justifiait pour des découpes régulières de 10 à 15 mm et des séries plus rapides, mais coûtait environ 999 $ contre 699 à 899 $ pour la 20 W. La gamme n’étant plus fabriquée, comparez les prix d’occasion plutôt que l’écart d’origine."
+    },
+    {
+      "question": "Une D1 Pro 20 W d’occasion reste-t-elle un bon achat ?",
+      "answer": "C’était la tête D1 Pro la plus répandue : les machines d’occasion et les réglages partagés par la communauté sont faciles à trouver. Contrôlez la puissance sur une découpe de test (dans le test de xTool, un carré dans du tilleul de 5 mm passait en une minute environ à pleine puissance), la lentille et l’équerrage du châssis. xTool ne vend plus la D1 Pro neuve."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ten-mm-one-pass",
+      "title": "10 mm de contreplaqué en une passe",
+      "body": "xTool annonce 10 mm de contreplaqué de tilleul et 8 mm de bois massif en une seule passe pour la tête 20 W, ce qui couvre la plupart des boîtes, enseignes et décorations."
+    },
+    {
+      "id": "coloured-acrylic",
+      "title": "Acrylique coloré opaque",
+      "body": "Les tests de xTool montrent de l’acrylique de 5 mm découpé en une passe en noir, rouge, orange, jaune et vert clair, pas seulement en noir."
+    }
+  ]
 }

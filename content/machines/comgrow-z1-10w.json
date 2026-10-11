@@ -69,13 +69,14 @@
     ]
   },
   "pros": [
-    "10W on Comgrow Z1: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "About a third faster than the 5W in our benchmark: ~18–28 min for a 10 × 10 cm photo, ~9–15 min for a 3 mm basswood square",
+    "The highest power listed in Comgrow's own Z1 manual (1.6W, 5W and 10W options)",
+    "$219–299, about $40 above the 5W"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Still slow on cutting: 2–3 mm/s on 3 mm wood in our tests, so multi-pass beyond 3 mm",
+    "Slightly wider spot than the 5W (~0.09 mm vs ~0.08 mm), so photos are a touch softer",
+    "Comgrow publishes no per-thickness cutting chart: you will need your own test grids"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Comgrow Z1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -92,7 +93,7 @@
     "atomstack-a5-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/comgrow-z1-10w/01.webp",
@@ -113,5 +114,31 @@
   "editorialDepth": {
     "advantages": "Z1 10W fits casual engravers who want faster fills than 5W on a tight Comgrow deal.",
     "limitations": "Businesses quoting cut-outs should buy 20W tier. Compare Sculpfun S9 on sale before committing."
-  }
+  },
+  "faq": [
+    {
+      "question": "How thick can the Comgrow Z1 10W cut?",
+      "answer": "Comgrow gives no official thickness per pass. Our profile lists thin basswood with multiple passes, plus paper, card and fabric; our 3 mm basswood test square takes ~9–15 min at 2–3 mm/s. Treat 3 mm as the comfortable limit and test anything thicker on scrap first."
+    },
+    {
+      "question": "Is the Z1 10W good for photo engraving?",
+      "answer": "Yes for gifts and small batches. Our benchmark puts a 10 × 10 cm filled photo at ~18–28 min, against ~28–43 min on the 5W, with fill speeds of 9–21 mm/s. Lower the speed rather than raising power on light woods to avoid scorching."
+    },
+    {
+      "question": "Z1 10W or Z1 20W: which one fits a small side business?",
+      "answer": "If you mostly engrave and cut only card or 3 mm wood, the 10W ($219–299) is the better value. If cut pieces are part of your orders, the 20W listing ($279–379) cuts our 3 mm test square in ~6–10 min and reaches 8 mm basswood; check its optical rating first, since Comgrow's own Z1 manual only lists modules up to 10W."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "z1-10w-balance",
+      "title": "The balanced Z1",
+      "body": "About a third shorter engraving and cutting times than the 5W in our benchmark, for roughly $40 more."
+    },
+    {
+      "id": "official-top-module",
+      "title": "Top module in Comgrow's manual",
+      "body": "Comgrow's Z1 manual lists 1.6W, 5W and 10W laser options: the 10W is the strongest one the brand documents itself."
+    }
+  ]
 }

@@ -12,15 +12,14 @@
     "Cadeaux et petites séries"
   ],
   "pros": [
-    "L’un des lasers classe 1 fermés les moins chers avec une surface de 400 × 320 mm",
-    "Caméra, pompe à air et plateau nid d’abeille fournis pour 499 $",
-    "Même châssis et mêmes sécurités que l’E1 Pro : capteur de capot, arrêt d’urgence, clé de sécurité",
-    "Module infrarouge 3 W interchangeable (version Dual ou accessoire à 499 $) pour le métal nu"
+    "Module infrarouge de 3 W en option sur la même machine pour marquer le métal",
+    "Sculpfun annonce 8 mm de bois en une seule passe",
+    "Remplissage à environ 70–180 mm/s dans nos benchmarks, pour une vitesse maximale de 600 mm/s"
   ],
   "cons": [
-    "Le 12 W découpe nettement plus lentement le bois que l’E1 Pro 21 W",
-    "Seulement 30 mm de hauteur utile avec le nid d’abeille (42 mm sans)",
-    "Mise au point manuelle ; chiffres de découpe de Sculpfun, pas encore vérifiés indépendamment"
+    "Découpe plus lente que sur l’E1 Pro : un carré de tilleul de 3 mm prend 5 à 8 min",
+    "Ajouter le module infrarouge plus tard coûte 499 $, plus que l’écart avec le lot Dual",
+    "Le contreplaqué épais demande toujours plusieurs passes et des travaux plus longs que ne le laisse croire la fiche technique"
   ],
   "materials": {
     "engrave": [
@@ -58,12 +57,16 @@
   },
   "faq": [
     {
-      "question": "Faut-il prendre l’E1 12 W ou l’E1 Pro 21 W ?",
-      "answer": "La 12 W si vous gravez surtout et découpez de temps en temps (jusqu’à 8 mm de bois annoncés). L’E1 Pro 21 W si la découpe fait partie de votre quotidien (jusqu’à 12 mm annoncés). Tout le reste est commun."
+      "question": "Que découpe la Sculpfun E1 12 W en une passe ?",
+      "answer": "Sculpfun annonce 8 mm de bois en une seule passe. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 5 à 8 min à 4–9 mm/s. L’acrylique foncé fin passe ; l’acrylique transparent non, car le faisceau bleu le traverse."
     },
     {
-      "question": "Puis-je ajouter le module infrarouge plus tard ?",
-      "answer": "Oui. Sculpfun vend séparément le module IR3 de 3 W en 1064 nm pour la série E1 (499 $). Il se monte à la place de la tête diode et marque le métal nu et les plastiques."
+      "question": "La version Dual vaut-elle 450 $ de plus ?",
+      "answer": "La Dual ajoute le module infrarouge 3 W pour marquer le métal et certains plastiques : 949 $ contre 499 $ pour la 12 W seule sur la boutique Sculpfun (octobre 2026). Le module IR3 seul coûte 499 $ : si vous savez déjà vouloir marquer le métal, la Dual fait économiser environ 50 $ par rapport à un ajout ultérieur."
+    },
+    {
+      "question": "E1 12 W ou E1 Pro 21 W : laquelle choisir ?",
+      "answer": "La 12 W convient aux cadeaux gravés et aux petites séries, et coûte 350 $ de moins (499 $ contre 849 $). La Pro annonce 12 mm au lieu de 8 mm en une passe et découpe notre carré de 3 mm en 3 à 5 min au lieu de 5 à 8. Si vous découpez du contreplaqué chaque semaine, la Pro se rentabilise ; si vous gravez surtout, gardez la différence."
     }
   ],
   "images": [
@@ -86,5 +89,22 @@
   "editorialDepth": {
     "advantages": "L’E1 12 W est la porte d’entrée économique du caisson E1 : pour 499 $, vous avez la caméra, la pompe à air, le portique CoreXY et une surface de 400 × 320 mm, grande pour une machine fermée à ce prix. La qualité de gravure sur bois, cuir et pierre dépend peu des watts supplémentaires.",
     "limitations": "C’est en découpe que la 12 W montre ses limites face à l’E1 Pro : plus de passes, des travaux plus longs. La hauteur utile est faible, la mise au point manuelle et, comme toute diode, elle ne découpe pas l’acrylique transparent."
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "e1-12w-enclosed-value",
+      "title": "Fermée avec caméra pour 499 $",
+      "body": "Caisson, caméra et pompe à air au prix d’entrée, là où beaucoup de diodes fermées démarrent bien plus haut."
+    },
+    {
+      "id": "e1-12w-ir-ready",
+      "title": "Module infrarouge en option",
+      "body": "Le module infrarouge IR3 de 3 W (499 $) se monte sur l’E1 pour marquer métal et plastique, ou s’achète avec le lot Dual à 949 $."
+    },
+    {
+      "id": "e1-12w-speed",
+      "title": "Mouvement CoreXY rapide",
+      "body": "Annoncée à 36 000 mm/min (600 mm/s) : des remplissages d’environ 70–180 mm/s dans nos tests gardent les gravures courtes."
+    }
+  ]
 }

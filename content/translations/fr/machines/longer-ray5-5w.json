@@ -4,7 +4,7 @@
   "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "primaryUse": "Module 5W · Longer Ray5",
   "beginnerNotes": "Ce profil décrit le SKU 5W de Longer Ray5. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
+  "proTips": "Optimisez pour la gravure : DPI plus bas sur les photos, vitesse de balayage plus élevée sur le dessin au trait, après des essais sur chutes. L’assistance d’air améliore encore la netteté. Comparez les temps de benchmark de la puissance supérieure avant de conclure qu’il vous en faut plus.",
   "bestFor": [
     "Gravure fine",
     "Photo et logo",
@@ -12,15 +12,14 @@
     "Première machine"
   ],
   "pros": [
-    "5W sur Longer Ray5 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 375 × 375 mm : validez vos formats de pièces avant achat"
+    "Le prix le plus bas de la gamme Ray5 : lot de base à 159,99 $ sur la boutique Longer (octobre 2026)",
+    "Point carré de 0,08 × 0,08 mm selon Longer, pour des textes et logos nets",
+    "Peu de chaleur et de fumée : une première machine douce pour les petites pièces"
   ],
   "cons": [
-    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (10W, 20W ou 40W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Une photo remplie de 10 × 10 cm prend 44 à 65 min dans nos benchmarks",
+    "En pratique, la découpe plafonne vers 3 mm de tilleul, à environ 2–3 mm/s",
+    "Peu de marge : la plupart des utilisateurs la dépassent dès qu’ils commencent à découper"
   ],
   "materials": {
     "engrave": [
@@ -42,7 +41,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 5 W : vérifiez le SKU avant d’acheter"
+    "note": "Boutique officielle Longer, oct. 2026 : de 160 $ à 520 $ selon le pack"
   },
   "specs": {
     "performance": {
@@ -71,5 +70,31 @@
   "editorialDepth": {
     "advantages": "Le Ray5 5 W sert à tester si le laser vous convient avant d’investir dans la vitesse. Il grave bois, cuir et ardoise correctement si vous acceptez des temps longs.",
     "limitations": "Les activités qui chiffrent des découpes épaisses doivent viser le Ray5 20 W. Acrylique coulé et métal nu : hors scope. Méfiance des annonces « watts combinés » : vérifiez la puissance optique."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que peut découper la Ray5 5 W ?",
+      "answer": "Longer annonce 4 mm de tilleul en une passe pour le module 5 W. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 22 à 36 min à 2–3 mm/s : 3 mm est la limite pratique. Papier, carton et tissu fin passent facilement ; l’acrylique transparent est impossible."
+    },
+    {
+      "question": "Combien de temps prend une photo sur la Ray5 5 W ?",
+      "answer": "C’est lent : une photo remplie de 10 × 10 cm sur contreplaqué de bouleau prend environ 44 à 65 min dans nos benchmarks. La 5 W convient mieux aux textes, logos et dessins au trait, qui se gravent bien plus vite qu’un remplissage photo."
+    },
+    {
+      "question": "Ray5 5 W ou 10 W : la moins chère suffit-elle ?",
+      "answer": "Sur la boutique Longer en octobre 2026, les lots de base étaient à 159,99 $ (5 W) et 239,99 $ (10 W). Pour 80 $ de plus, la 10 W a un point plus fin de 0,06 × 0,06 mm (contre 0,08 × 0,08 mm), est annoncée pour 8 mm de tilleul en une passe et découpe notre carré de 3 mm en 14 à 24 min environ. Gardez la 5 W pour une gravure occasionnelle avec le budget le plus serré."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray5-5w-price",
+      "title": "La Ray5 la moins chère",
+      "body": "159,99 $ le lot de base, ou 229,99 $ avec assistance d’air et nid d’abeille, sur la boutique Longer en octobre 2026."
+    },
+    {
+      "id": "ray5-5w-kits",
+      "title": "Lots évolutifs",
+      "body": "Longer vend la même machine avec un kit de découpe ou un kit complet avec rotatif et caméra : on peut commencer petit et ajouter des pièces."
+    }
+  ]
 }

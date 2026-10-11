@@ -71,13 +71,14 @@
     ]
   },
   "pros": [
-    "10W on Sculpfun S30 Ultra: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Same frame, adapter and cable as the stronger heads: upgrading means swapping only the laser head",
+    "Fine ~0.07 mm spot in our profile for detailed photo and text work",
+    "Lowest-priced way into the S30 Ultra frame and its linear-rail X axis"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Photo fills of ~18–37 mm/s: a 10 × 10 cm photo takes ~11–18 min",
+    "Cutting 5 mm stock takes several passes at 2–4 mm/s",
+    "Adding a stronger head later costs more than starting with a stronger kit"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Sculpfun S30 Ultra. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -95,7 +96,7 @@
     "creality-falcon2-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/sculpfun-s30-ultra-10w/01.webp",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "images": [
@@ -111,5 +112,36 @@
   "editorialDepth": {
     "advantages": "Sculpfun S30 Ultra 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 22W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Is the S30 Ultra 10W the same as Sculpfun's S30 Ultra 11W?",
+      "answer": "Sculpfun sells the entry S30 Ultra as an 11W head, and this profile covers that entry module. It shares the frame, power adapter and laser cable with the 22W and 33W heads, so upgrading later means swapping only the head. In October 2026 Sculpfun sold the heads separately at $299.99 (11W), $399.99 (22W) and $609.99 (33W)."
+    },
+    {
+      "question": "What does the entry S30 Ultra cut in one pass?",
+      "answer": "In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 7–11 min at 2–4 mm/s. 5 mm basswood needs two or more passes with air assist, and clear acrylic cannot be cut. It is an engraving-first configuration."
+    },
+    {
+      "question": "Should I start with this head or go straight to the 22W?",
+      "answer": "Start here if you mostly engrave and want the lowest entry ($380–520 on our tracked listings against $690 for the 22W bundle). If you already know you will cut 5 mm or more every week, buying the stronger kit up front costs less than adding a $399.99 head later."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s30u-entry-upgradeable",
+      "title": "Upgradeable head",
+      "body": "Sculpfun designed the S30 Ultra so the 11W, 22W and 33W heads share the adapter, structure and cable: only the head changes."
+    },
+    {
+      "id": "s30u-entry-detail",
+      "title": "Fine spot for engraving",
+      "body": "About 0.07 mm in our benchmark profile, the finest of the S30 Ultra heads we list."
+    },
+    {
+      "id": "s30u-entry-rail",
+      "title": "Linear rail on the X axis",
+      "body": "Sculpfun fits a linear slide rail on the X axis, which helps keep small engraved details free of wobble."
+    }
+  ]
 }

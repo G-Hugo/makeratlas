@@ -12,14 +12,14 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
-    "30W : tête la plus orientée découpe de Longer Laser B1",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Garde le point fin de 0,08 × 0,1 mm du module d’entrée tout en découpant plus vite",
+    "Remplissage à environ 39–88 mm/s : une photo de 10 × 10 cm en 14 à 22 min",
+    "Lot de base à 569,99 $ sur la boutique Longer (octobre 2026)"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Gains modérés dans nos benchmarks : un carré de 3 mm prend encore 7 à 12 min",
+    "Le lot Pro Max (949,99 $) coûte plus cher que la B1 plus puissante en version de base",
+    "Les 20 mm en une passe annoncés par Longer dépassent de loin notre benchmark de découpe"
   ],
   "materials": {
     "engrave": [
@@ -71,5 +71,31 @@
   "editorialDepth": {
     "advantages": "Le B1 30 W vise des semaines découpe sur grand châssis Longer sans payer le pic marketing 40 W.",
     "limitations": "Limites diode inchangées. Appartement : comparez machines fermées. Vérifiez le module optique livré."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que découpe la B1 30 W en une passe ?",
+      "answer": "La fiche technique de Longer annonce 20 mm de tilleul en une passe et 50 mm d’acrylique au maximum. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 7 à 12 min à 3–7 mm/s ; le tilleul de 8 mm environ et l’acrylique foncé de 5 mm sont réalistes en plusieurs passes."
+    },
+    {
+      "question": "La 30 W est-elle le bon compromis de la gamme B1 ?",
+      "answer": "Souvent, oui. Elle garde le même point de 0,08 × 0,1 mm que la 20 W, donc le même détail en gravure, tout en découpant et remplissant plus vite. Son lot de base coûtait 90 $ de plus que la 20 W et 130 $ de moins que la 40 W sur la boutique Longer en octobre 2026."
+    },
+    {
+      "question": "Quel lot B1 30 W a du sens ?",
+      "answer": "Longer affichait le lot Basic à 569,99 $, le lot Pro à 729,99 $, le lot Pro Max à 949,99 $ et le lot Basic avec module IR à 929,99 $ (octobre 2026). Au prix du Pro Max, le lot de base 40 W (699,99 $) devient une vraie alternative si la découpe est votre priorité."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "b1-30w-balance",
+      "title": "De la vitesse sans perdre le détail",
+      "body": "Même point de 0,08 × 0,1 mm que la B1 d’entrée, avec des remplissages deux à trois fois plus rapides dans nos tests."
+    },
+    {
+      "id": "b1-30w-large-bed",
+      "title": "Plateau de 450 × 440 mm",
+      "body": "De la place pour des panneaux de la taille d’une enseigne, avec le même kit d’extension que le reste de la gamme B1."
+    }
+  ]
 }

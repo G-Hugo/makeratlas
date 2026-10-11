@@ -15,9 +15,10 @@
     "Portable pro setup"
   ],
   "priceRange": {
-    "min": 1799,
-    "max": 2199,
-    "currency": "USD"
+    "min": 1299,
+    "max": 2079,
+    "currency": "USD",
+    "note": "Official xTool store, Oct 2026: $1,299 to $2,079 depending on bundle"
   },
   "specs": {
     "power": "15W diode + 5W IR (1064 nm)",
@@ -94,7 +95,7 @@
     "laserpecker-5"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-f2/01.webp",
   "images": [
     {

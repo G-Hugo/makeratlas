@@ -12,13 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "La fiche 20 W d'Acmer découpe le contreplaqué de 5 mm en une passe à 300 mm/min et celui de 8 mm à 120 mm/min, avec assistance d'air",
+    "Remplissages plus rapides : ~12–18 min pour notre photo test de 10 × 10 cm sur contreplaqué de bouleau",
+    "Même châssis 400 × 400 mm pour environ 70 $ de plus que la 10 W (329–399 $)"
   ],
   "cons": [
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "L'acrylique noir demande plusieurs passes au-delà de 2–3 mm : Acmer indique 3 passes pour 4 mm et 30 passes pour 30 mm",
+    "Point plus large (~0,08 mm) et plus de fumée que la 10 W : assistance d'air et extraction indispensables pour des bords propres",
+    "La P1 se vend désormais surtout en modules ou en reconditionné : vérifiez le stock et les conditions de garantie avant de commander"
   ],
   "materials": {
     "engrave": [
@@ -62,5 +63,36 @@
   "editorialDepth": {
     "advantages": "Acmer P1 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
     "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que découpe l'Acmer P1 20 W en une seule passe ?",
+      "answer": "Selon la fiche de paramètres 20 W d'Acmer, avec assistance d'air : contreplaqué de 2 mm à 700 mm/min, de 4 mm à 350 mm/min, de 5 mm à 300 mm/min et de 8 mm à 120 mm/min, toujours en une passe. L'acrylique noir opaque est plus lent : 3 passes à 300 mm/min pour 4 mm. Acmer mentionne du bois léger de 20 mm, mais en 8 passes."
+    },
+    {
+      "question": "De combien est-elle plus rapide que la 10 W en conditions réelles ?",
+      "answer": "Avec les préréglages d'Acmer, le contreplaqué de 5–6 mm passe à 300 mm/min sur la 20 W contre 150 mm/min (6 mm) sur la 10 W, soit environ deux fois plus vite. Dans notre test, un carré de 10 × 10 cm dans du tilleul de 3 mm passe de ~9–15 min à ~6–10 min, et une photo remplie de ~18–28 min à ~12–18 min."
+    },
+    {
+      "question": "Les 70 $ de plus valent-ils le coup pour une petite boutique en ligne ?",
+      "answer": "Si plusieurs commandes par semaine comportent des formes découpées (décorations, sous-verres, panneaux détourés), oui : diviser le temps de découpe par deux rembourse vite l'écart. Si vous ne vendez que des objets gravés, la 10 W suffit et son point est un peu plus fin."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "one-pass-8mm",
+      "title": "8 mm de contreplaqué en une passe",
+      "body": "La fiche de paramètres 20 W d'Acmer indique le contreplaqué de 8 mm à 120 mm/min en une passe avec assistance d'air, et celui de 5 mm à 300 mm/min."
+    },
+    {
+      "id": "faster-photo-fills",
+      "title": "Photos gravées plus vite",
+      "body": "~12–18 min pour une photo remplie de 10 × 10 cm dans notre test, environ un tiers de moins que la 10 W sur le même châssis."
+    },
+    {
+      "id": "dark-acrylic-cuts",
+      "title": "L'acrylique opaque devient possible",
+      "body": "L'acrylique noir jusqu'à ~5 mm reste pratique (Acmer : 4 mm en 3 passes). L'acrylique transparent demande toujours un laser CO₂."
+    }
+  ]
 }

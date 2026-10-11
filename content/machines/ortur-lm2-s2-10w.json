@@ -68,13 +68,14 @@
     ]
   },
   "pros": [
-    "10W on Ortur LM2 S2: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Cuts 3 mm basswood squares in ~6–10 min in our benchmarks",
+    "Filled engraving at ~60–150 mm/s: a 10 × 10 cm photo in ~12–18 min",
+    "Same frame and accessories as the lower-power LM2 S2"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Ortur's LU2-10A listing was out of stock in October 2026",
+    "Slightly wider ~0.08 mm spot: small text is a little less crisp than with the lower-power module",
+    "Stock thicker than 5 mm needs multiple passes and air assist"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Ortur LM2 S2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -92,7 +93,7 @@
     "sculpfun-s9-10w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/ortur-lm2-s2-10w/01.webp",
   "modelLine": "ortur-lm2-s2",
   "powerRating": "10W",
@@ -119,5 +120,31 @@
   "editorialDepth": {
     "advantages": "Ortur LM2 S2 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Is the LM2 S2 10W still available new?",
+      "answer": "Ortur's store listed the LM2 S2 with the LU2-10A 10W module at $209.99 in October 2026, but out of stock. Expect to buy it used or from remaining reseller stock; Ortur also runs pre-owned listings for its older machines."
+    },
+    {
+      "question": "How thick can the LM2 S2 10W cut?",
+      "answer": "Ortur's page shows 12 mm wood and 5 mm acrylic cut in one pass, but those images sit in the LM2 Pro S2 section and may not apply to this frame. In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 6–10 min at 4–10 mm/s; plan 3–5 mm in one or two passes."
+    },
+    {
+      "question": "Is the 10W worth it over the LM2 S2 5W?",
+      "answer": "For about $70 more on our tracked listings, yes in most cases: 3 mm cut times drop from 9–15 min to 6–10 min, and photo fills run at about 60–150 mm/s instead of 16–42 mm/s. The 5W only makes sense for engraving-only use on the smallest budget."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "lm2-10w-cut-step",
+      "title": "Big step for a small price gap",
+      "body": "Roughly a third faster on 3 mm cuts and several times faster on fills than the lower-power LM2 S2, for about $70 more."
+    },
+    {
+      "id": "lm2-10w-used-value",
+      "title": "Good used value",
+      "body": "Out of stock new in October 2026, it often shows up second-hand at entry-level prices with a large 400 × 400 mm frame."
+    }
+  ]
 }

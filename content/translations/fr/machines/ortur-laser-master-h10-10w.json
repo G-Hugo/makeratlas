@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Ortur Laser Master H10 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "L’entrée la moins chère sur le cadre H10 : lot de base à 359,99 $ chez Ortur en octobre 2026",
+    "Point fin d’environ 0,07 mm dans notre profil pour les textes et le dessin au trait",
+    "Même cadre H10 et mêmes accessoires (dont la rehausse ORP1.0) que le module plus puissant"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Découpe lente : un carré de tilleul de 3 mm prend 14 à 24 min dans nos benchmarks",
+    "Le remplissage photo ne dépasse pas 6–14 mm/s environ dans nos tests",
+    "Pas de pompe à air offerte dans le lot de base, contrairement à l’offre H10 plus puissante d’Ortur"
   ],
   "materials": {
     "engrave": [
@@ -73,5 +72,31 @@
   "editorialDepth": {
     "advantages": "Ortur Laser Master H10 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W ou 40W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Combien coûte la H10 10 W par rapport à la 20 W ?",
+      "answer": "La boutique Ortur passe parfois sous notre fourchette suivie : en octobre 2026, elle affichait le lot de base H10 10 W à 359,99 $ (389,99 $ avec la rehausse ORP1.0, 449,99 $ avec le lot LEP1.0), contre 549,99 à 649,99 $ pour le lot de base 20 W selon l’annonce, la 20 W étant livrée avec une pompe à air offerte."
+    },
+    {
+      "question": "Que peut découper la H10 10 W ?",
+      "answer": "Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 14 à 24 min à 2–3 mm/s. Le tilleul jusqu’à 5 mm environ et l’acrylique noir fin sont possibles en plusieurs passes. Voyez ce module comme un graveur capable de découper des matériaux fins, pas comme une machine de découpe."
+    },
+    {
+      "question": "H10 10 W ou 20 W : laquelle pour mon usage ?",
+      "answer": "Prenez la 10 W si vous gravez surtout des textes, logos et photos et voulez le prix le plus bas. Prenez la 20 W si vous découpez : Ortur montre 12 mm de pin, 8 mm de contreplaqué et 8 mm d’acrylique noir en une passe avec son module LU3-20B, et notre benchmark en 3 mm descend à 9–15 min environ."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "h10-10w-entry",
+      "title": "Le cadre H10 au prix le plus bas",
+      "body": "Le lot de base était à 359,99 $ sur la boutique Ortur en octobre 2026, avec le même cadre que la version plus chère."
+    },
+    {
+      "id": "h10-10w-detail",
+      "title": "Du détail fin",
+      "body": "Point d’environ 0,07 mm dans notre profil, adapté aux petites lettres, logos et dessins au trait."
+    }
+  ]
 }

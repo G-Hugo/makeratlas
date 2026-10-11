@@ -70,6 +70,18 @@
       "answer": "Pas le métal nu : la longueur d’onde du CO₂ s’y réfléchit. L’aluminium anodisé et les métaux revêtus se marquent bien ; l’acier nu demande un produit de marquage ou un laser fibre."
     }
   ],
+  "standoutFeatures": [
+    {
+      "id": "polar2-rf-speed",
+      "title": "Une source RF pour graver vite et fin",
+      "body": "Jusqu'à 2 000 mm/s avec une accélération de 2G et un point d'environ 0,07 mm (chiffres OMTech). Les photos et le petit texte sortent plus vite et plus nets que sur la Polar 2 à tube verre."
+    },
+    {
+      "id": "polar2-rf-air-cooled",
+      "title": "Un tube refroidi par air et durable",
+      "body": "Pas de circuit d'eau à remplir, surveiller ou protéger du gel. OMTech annonce jusqu'à 30 000 heures pour le tube RF et le garantit 24 mois."
+    }
+  ],
   "images": [
     {
       "alt": "OMTech Polar 2 50 W RF capot ouvert : OMTech"

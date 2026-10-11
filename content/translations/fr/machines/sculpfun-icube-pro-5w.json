@@ -4,7 +4,7 @@
   "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "primaryUse": "Module 5W · Sculpfun iCube Pro",
   "beginnerNotes": "Ce profil décrit le SKU 5W de Sculpfun iCube Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
+  "proTips": "Optimisez pour la gravure : DPI plus bas sur les photos, vitesse de balayage plus élevée sur le dessin au trait, après des essais sur chutes. L’assistance d’air améliore encore la netteté. Comparez les temps de benchmark de la puissance supérieure avant de conclure qu’il vous en faut plus.",
   "bestFor": [
     "Gravure fine",
     "Photo et logo",
@@ -12,14 +12,14 @@
     "Première machine"
   ],
   "pros": [
-    "5W sur Sculpfun iCube Pro : priorité gravure : remplissages photo et cuir",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
-    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
+    "Le point le plus fin de la gamme iCube : 0,06 mm selon Sculpfun",
+    "Filtration des fumées intégrée et écran de protection en acrylique amovible pour un usage sur bureau",
+    "Peu de chaleur et de fumée : confortable pour les dessous de verre, étiquettes et écussons en cuir"
   ],
   "cons": [
-    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (10W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée"
+    "Découpe lente : le tilleul de 3 mm passe à environ 2–3 mm/s dans nos benchmarks",
+    "Remplissage photo à environ 21–44 mm/s : les travaux plus grands qu’un dessous de verre sont longs",
+    "Petite surface de travail, limitée aux étiquettes, dessous de verre et petits panneaux"
   ],
   "materials": {
     "engrave": [
@@ -70,5 +70,36 @@
   "editorialDepth": {
     "advantages": "Sculpfun iCube Pro 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Format fermé plus rassurant à la maison.",
     "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série : regardez 10W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que peut vraiment découper l’iCube Pro 5 W ?",
+      "answer": "Sculpfun annonce jusqu’à 10 mm de panneau tendre et 6 mm d’acrylique, des maximums en plusieurs passes sur matière foncée. Dans nos benchmarks, elle découpe le tilleul de 3 mm à environ 2–3 mm/s : un carré de 10 × 10 cm prend 9 à 15 min. Considérez 3 mm comme la limite confortable et oubliez l’acrylique transparent."
+    },
+    {
+      "question": "Combien de temps prend une gravure photo avec la 5 W ?",
+      "answer": "Sculpfun indique une vitesse maximale de 10 000 mm/min (environ 167 mm/s), mais les remplissages photo réels tournent autour de 21–44 mm/s dans nos tests. Une photo de 10 × 10 cm sur contreplaqué de bouleau prend donc 18 à 28 min environ. Textes et logos sur de petits objets (dessous de verre, étiquettes) vont bien plus vite."
+    },
+    {
+      "question": "iCube Pro 5 W ou iCube Pro Max 10 W ?",
+      "answer": "Choisissez la 5 W pour graver de petits objets sur un bureau : son point de 0,06 mm est plus fin que les 0,08 mm de la 10 W, et elle coûte environ 100 à 150 $ de moins sur les annonces suivies (349 à 499 $ contre 449 à 649 $). Choisissez la 10 W si vous comptez découper régulièrement du bois de 3 à 5 mm."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "icube-5w-fine-focus",
+      "title": "Point de 0,06 mm",
+      "body": "Sculpfun annonce un point de 0,06 mm pour le module 5 W, le plus fin de la gamme iCube, idéal pour les petits textes et le dessin au trait."
+    },
+    {
+      "id": "icube-5w-smoke-filter",
+      "title": "Filtre à fumée intégré",
+      "body": "L’iCube embarque sa propre filtration des fumées et un écran de protection en acrylique, utile dans une pièce sans évacuation par la fenêtre."
+    },
+    {
+      "id": "icube-5w-lens",
+      "title": "Lentille remplaçable",
+      "body": "La tête laser accepte une lentille de rechange : une lentille sale ou abîmée n’oblige pas à changer tout le module."
+    }
+  ]
 }

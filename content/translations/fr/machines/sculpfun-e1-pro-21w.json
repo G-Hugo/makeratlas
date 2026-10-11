@@ -12,15 +12,14 @@
     "Atelier à la maison"
   ],
   "pros": [
-    "Caisson classe 1 avec capteur de capot, arrêt d’urgence et clé de sécurité, au prix d’une machine ouverte",
-    "21 W sur portique CoreXY : gravure rapide et vraie découpe diode dans le même caisson",
-    "Caméra, pompe à air et plateau nid d’abeille fournis, rien à assembler",
-    "Module infrarouge 3 W interchangeable (version Dual ou accessoire à 499 $) pour marquer métal nu et plastiques"
+    "Sculpfun annonce 12 mm de bois en une seule passe",
+    "Découpe des carrés de tilleul de 3 mm en 3 à 5 min à 8–15 mm/s dans nos benchmarks",
+    "Point compact d’environ 0,06 × 0,08 mm malgré la puissance élevée"
   ],
   "cons": [
-    "Seulement 30 mm de hauteur utile avec le nid d’abeille (42 mm sans) : pas de gobelets sans rehausse",
-    "Mise au point manuelle : aucune mise au point automatique annoncée",
-    "Modèle récent : les chiffres de découpe sont ceux de Sculpfun, pas encore de test indépendant approfondi"
+    "849 $ pour la version à un seul laser, 350 $ de plus que l’E1 de base",
+    "Plus de fumée par travail : la gaine d’extraction doit sortir à l’extérieur, pas seulement hors du caisson",
+    "Le bois dur et le contreplaqué dense se découpent bien plus lentement que les chiffres sur tilleul ne le laissent penser"
   ],
   "materials": {
     "engrave": [
@@ -58,16 +57,16 @@
   },
   "faq": [
     {
-      "question": "Quelle différence entre la Sculpfun E1 et l’E1 Pro ?",
-      "answer": "Même caisson, même portique CoreXY, même surface de 400 × 320 mm et même caméra. L’E1 a une diode 12 W (8 mm de bois par passe annoncés), l’E1 Pro une diode 21 W (12 mm annoncés). L’E1 Pro coûte 350 $ de plus."
+      "question": "De combien l’E1 Pro découpe-t-elle plus vite que l’E1 de base ?",
+      "answer": "Sculpfun annonce 12 mm de bois en une passe pour la Pro contre 8 mm pour l’E1 12 W. Dans nos benchmarks, la Pro découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en 3 à 5 min environ à 8–15 mm/s, contre 5 à 8 min pour la 12 W. Pour 350 $ de plus (849 $ contre 499 $), le temps de découpe est à peu près divisé par deux."
     },
     {
-      "question": "Qu’apporte la version Dual ?",
-      "answer": "Un module infrarouge 1064 nm de 3 W qui se monte à la place de la tête diode. Il marque les métaux nus (inox, or, argent, aluminium) et les plastiques avec un point de 0,03 mm. Il est aussi vendu seul, 499 $."
+      "question": "Qu’apporte la version Dual, et peut-on ajouter l’infrarouge plus tard ?",
+      "answer": "La Dual ajoute un module infrarouge de 3 W pour marquer le métal et certains plastiques : 1 149 $ contre 849 $ pour la 21 W seule (boutique Sculpfun, octobre 2026). Le module IR3 seul coûte 499 $ : la Dual fait économiser environ 200 $ si vous êtes sûr de vouloir marquer le métal. L’ajouter plus tard reste possible."
     },
     {
-      "question": "L’E1 Pro peut-elle découper de l’acrylique transparent ?",
-      "answer": "Non. Comme toute diode bleue, son faisceau traverse l’acrylique transparent. L’acrylique foncé et opaque se découpe en plaques fines ; pour le transparent, il faut un laser CO₂."
+      "question": "L’E1 Pro peut-elle découper l’acrylique transparent ou le métal ?",
+      "answer": "Non. La diode bleue de 455 nm traverse l’acrylique transparent, et ni la diode ni le module infrarouge de 3 W ne découpent le métal. Le module infrarouge marque l’inox et d’autres métaux ; pour découper de l’acrylique transparent, il faut un laser CO₂."
     }
   ],
   "images": [
@@ -90,5 +89,22 @@
   "editorialDepth": {
     "advantages": "L’E1 Pro apporte 21 W de découpe dans un caisson classe 1 fermé pour bien moins de 1 000 $, caméra et pompe à air comprises. Le portique CoreXY est conçu pour la vitesse, et la surface de 400 × 320 mm couvre la plupart des enseignes, boîtes et séries de dessous de verre.",
     "limitations": "La hauteur utile est faible (30 mm avec le nid d’abeille), la mise au point est manuelle et les 12 mm de découpe sont un chiffre du fabricant. L’acrylique transparent reste hors de portée, comme avec toute diode."
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "e1-pro-one-pass",
+      "title": "Découpe épaisse en une passe",
+      "body": "Sculpfun annonce 12 mm de bois en une seule passe pour le module 21 W, un niveau en général réservé aux machines ouvertes de plus de 20 W."
+    },
+    {
+      "id": "e1-pro-fine-spot",
+      "title": "Point fin malgré la puissance",
+      "body": "Environ 0,06 × 0,08 mm dans notre profil : le détail en gravure tient malgré la puissance de découpe."
+    },
+    {
+      "id": "e1-pro-dual",
+      "title": "Option double laser",
+      "body": "Le lot Dual à 1 149 $ ajoute un module infrarouge de 3 W pour marquer les métaux, 200 $ de moins que le module acheté à part."
+    }
+  ]
 }

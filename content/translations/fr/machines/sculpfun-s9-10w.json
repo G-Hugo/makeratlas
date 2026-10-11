@@ -12,14 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Sculpfun S9 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
+    "Découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en 6 à 10 min dans nos benchmarks",
+    "Remplissage photo à environ 60–140 mm/s : une photo de 10 × 10 cm prend 12 à 18 min",
+    "Compatible LightBurn et LaserGRBL, accepte l’assistance d’air : une machine d’occasion se remet vite en route"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Point un peu moins fin (environ 0,10 mm) : le détail des photos est légèrement moins net que sur la S9 moins puissante",
+    "Au-delà de 5 mm, la découpe demande plusieurs passes lentes et une pompe à air",
+    "Modèle arrêté : contrôlez les heures de la diode, la lentille et les courroies avant d’acheter d’occasion"
   ],
   "materials": {
     "engrave": [
@@ -70,5 +70,36 @@
   "editorialDepth": {
     "advantages": "Sculpfun S9 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "À quelle machine correspond la Sculpfun S9 10 W ?",
+      "answer": "À la S9 Pro, que Sculpfun vendait avec une diode de 10 W optiques, un point annoncé à 0,06 mm et une surface de gravure de 400 × 410 mm. La gamme a été remplacée par les S10 et S30. Elle s’achète aujourd’hui surtout d’occasion ou reconditionnée : Sculpfun affichait une S9 Pro reconditionnée à 199 $ en octobre 2026."
+    },
+    {
+      "question": "À quelle vitesse la S9 10 W découpe-t-elle du bois de 3 et 5 mm ?",
+      "answer": "Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 6 à 10 min à 3–8 mm/s. Le tilleul de 5 mm est la limite pratique, en une ou deux passes avec assistance d’air. Les 15 mm annoncés par Sculpfun demandent de nombreuses passes lentes, et le contreplaqué se découpe plus lentement que le tilleul à cause de la colle."
+    },
+    {
+      "question": "Le surcoût par rapport à la S9 5 W est-il justifié ?",
+      "answer": "Si vous découpez, oui. Sur les annonces suivies, la 10 W coûte environ 100 à 150 $ de plus (299 à 449 $ contre 199 à 299 $), découpe un carré de 3 mm en 6 à 10 min au lieu de 9 à 15 min et remplit les photos trois à quatre fois plus vite. Si vous gravez seulement de petits panneaux et du cuir, la 5 W suffit."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s9-10w-light-cutting",
+      "title": "Une vraie découpe légère pour un petit budget",
+      "body": "Carrés de 3 mm de tilleul en 6 à 10 min environ dans nos benchmarks, et 5 mm atteignables en une ou deux passes."
+    },
+    {
+      "id": "s9-10w-head-upgrade",
+      "title": "Évolution possible avec les têtes S30 Ultra",
+      "body": "Sculpfun indique que ses têtes laser S30 Ultra (11, 22 et 33 W) sont compatibles avec le cadre S9 : une S9 d’occasion peut recevoir une tête plus puissante plus tard."
+    },
+    {
+      "id": "s9-10w-refurbished",
+      "title": "Prix d’occasion bas",
+      "body": "Sculpfun affichait une S9 Pro reconditionnée à 199 $ en octobre 2026 ; les ventes entre particuliers tournent souvent autour du même prix."
+    }
+  ]
 }

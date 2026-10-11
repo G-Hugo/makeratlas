@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Sculpfun S30 Ultra : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
+    "Même cadre, même alimentation et même câble que les têtes plus puissantes : évoluer revient à changer seulement la tête laser",
+    "Point fin d’environ 0,07 mm dans notre profil pour les photos et textes détaillés",
+    "La façon la moins chère d’accéder au cadre S30 Ultra et à son axe X sur rail linéaire"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W ou 22W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Remplissage photo à environ 18–37 mm/s : une photo de 10 × 10 cm prend 11 à 18 min",
+    "Découper du 5 mm demande plusieurs passes à 2–4 mm/s",
+    "Ajouter une tête plus puissante plus tard coûte plus cher que de partir sur un lot plus puissant"
   ],
   "materials": {
     "engrave": [
@@ -73,5 +72,36 @@
   "editorialDepth": {
     "advantages": "Sculpfun S30 Ultra 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W ou 22W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "La S30 Ultra 10 W est-elle la S30 Ultra 11 W de Sculpfun ?",
+      "answer": "Sculpfun vend l’entrée de gamme S30 Ultra avec une tête de 11 W, et cette fiche couvre ce module d’entrée. Il partage le cadre, l’alimentation et le câble laser avec les têtes 22 W et 33 W : évoluer plus tard revient à changer seulement la tête. En octobre 2026, Sculpfun vendait les têtes seules à 299,99 $ (11 W), 399,99 $ (22 W) et 609,99 $ (33 W)."
+    },
+    {
+      "question": "Que découpe la S30 Ultra d’entrée en une passe ?",
+      "answer": "Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 7 à 11 min à 2–4 mm/s. Le tilleul de 5 mm demande deux passes ou plus avec assistance d’air, et l’acrylique transparent ne se découpe pas. C’est une configuration orientée gravure."
+    },
+    {
+      "question": "Commencer avec cette tête ou passer directement à la 22 W ?",
+      "answer": "Commencez ici si vous gravez surtout et voulez l’entrée la moins chère (380 à 520 $ sur les annonces suivies contre 690 $ pour le lot 22 W). Si vous savez déjà que vous découperez du 5 mm ou plus chaque semaine, acheter le lot plus puissant dès le départ revient moins cher que d’ajouter une tête à 399,99 $ ensuite."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s30u-entry-upgradeable",
+      "title": "Tête évolutive",
+      "body": "Sculpfun a conçu la S30 Ultra pour que les têtes 11, 22 et 33 W partagent l’alimentation, la structure et le câble : seule la tête change."
+    },
+    {
+      "id": "s30u-entry-detail",
+      "title": "Point fin pour la gravure",
+      "body": "Environ 0,07 mm dans notre profil de test, le plus fin des têtes S30 Ultra que nous référençons."
+    },
+    {
+      "id": "s30u-entry-rail",
+      "title": "Rail linéaire sur l’axe X",
+      "body": "Sculpfun monte un rail linéaire sur l’axe X, ce qui aide à garder les petits détails gravés sans ondulation."
+    }
+  ]
 }

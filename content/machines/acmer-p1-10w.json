@@ -68,13 +68,14 @@
     ]
   },
   "pros": [
-    "10W on Acmer P1: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Acmer's own 10W preset engraves wood at 4,800 mm/min (55% power): photos, logos and leather do not need more power",
+    "Finest spot of the P1 line (~0.07 mm), which keeps small text and photo dots crisp",
+    "Cheapest way into the 400 × 400 mm P1 frame: $259–329, about $70 below the higher-watt P1"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Cutting is slow: Acmer's 10W sheet lists 6 mm board at only 150 mm/min, and 3 mm basswood takes ~9–15 min for a 10 × 10 cm square in our benchmark",
+    "Black acrylic stops being practical past ~4 mm (70 mm/min on Acmer's settings)",
+    "New units are scarce: in October 2026 Acmer's store listed the P1 10W as refurbished only ($229)"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Acmer P1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -92,7 +93,7 @@
     "sculpfun-s9-10w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/acmer-p1-10w/01.webp",
   "modelLine": "acmer-p1",
   "powerRating": "10W",
@@ -120,5 +121,36 @@
   "editorialDepth": {
     "advantages": "Acmer P1 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 4 mm+ cutting in production: see 20W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "How thick can the Acmer P1 10W cut?",
+      "answer": "Acmer's 10W parameter sheet lists 2 mm board at 360 mm/min, 6 mm at 150 mm/min and 7.5 mm at 120 mm/min, all at full power, plus black acrylic at 150 mm/min (2 mm) and 70 mm/min (4 mm). The sheet does not state pass counts. In practice, treat 3–4 mm basswood as comfortable and anything above 6 mm as a slow, multi-pass job with air assist."
+    },
+    {
+      "question": "Is the P1 10W fast enough for photo engraving?",
+      "answer": "For gifts and small batches, yes. Our benchmark puts a 10 × 10 cm filled photo on birch plywood at ~18–28 min, against ~12–18 min on the P1 20W. Acmer's wood preset for this module is 4,800 mm/min at 55% power, so you are rarely limited by the laser on engraving work."
+    },
+    {
+      "question": "P1 10W or P1 20W: which one should I buy?",
+      "answer": "Take the 10W if you mainly engrave (photos, leather, slate, signs) and only cut card or 2–3 mm wood now and then: it costs about $70 less ($259–329 vs $329–399). Take the 20W if cut pieces are part of what you sell. Acmer also sells the 20W module on its own ($309 in October 2026), but upgrading later costs more than buying the 20W upfront."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "fine-spot-10w",
+      "title": "Fine spot for detail work",
+      "body": "~0.07 mm spot on the 10W module (vs ~0.08 mm on the 20W): small lettering and photo dithering stay sharp on leather and hardwood."
+    },
+    {
+      "id": "lowest-entry-p1",
+      "title": "Lowest entry price on the P1 frame",
+      "body": "$259–329 for the same 400 × 400 mm frame as the 20W, about $70 less. A refurbished unit was $229 on Acmer's store in October 2026."
+    },
+    {
+      "id": "module-upgrade-path",
+      "title": "Room to upgrade later",
+      "body": "Acmer sells a 20W module for the P1 ($309 in October 2026), so the frame can stay if cutting becomes the main job."
+    }
+  ]
 }

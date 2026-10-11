@@ -15,10 +15,10 @@
     "Small-batch gifts"
   ],
   "priceRange": {
-    "min": 2249,
-    "max": 4499,
+    "min": 2499,
+    "max": 2499,
     "currency": "USD",
-    "note": "Base from ~$2249; modules sold separately"
+    "note": "Official Creality store, Oct 2026: $2,499, complete machine"
   },
   "specs": {
     "power": "20W diode",
@@ -70,14 +70,14 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
-    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Cheapest way into the T1 platform: $2,499 on Creality's store (October 2026)",
+    "Galvo engraving: much faster fills than a gantry diode of similar power",
+    "Tool-free module swap in about 15 seconds when you add other laser types"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Cutting depth limited to about 8 mm basswood (Creality rating)",
+    "Galvo field of about 220 × 220 mm: smaller than gantry machines at this price",
+    "Modules bought later need calibration before first use"
   ],
   "beginnerNotes": "This profile is the 20W SKU on Creality Falcon T1 Diode. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Price the full module roadmap before buying: T1 plus fiber and MOPA can exceed a single F2 Ultra bundle.",
@@ -95,7 +95,7 @@
     "creality-falcon2-pro-40w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/creality-falcon-t1/01.webp",
   "images": [
     {
@@ -166,5 +166,31 @@
     "advantages": "The 20W diode module is the sensible entry to Creality's WaveSync platform: Class 1 galvo enclosure, wood and leather revenue, and a chassis that later accepts fiber, MOPA, or UV heads without replacing the whole machine.",
     "limitations": "Galvo field is smaller than open-frame diode beds. Module swaps mean downtime between material types. Price the full module roadmap before buying: fiber and MOPA add up quickly."
   },
-  "releaseDate": "2026-05"
+  "releaseDate": "2026-05",
+  "faq": [
+    {
+      "question": "What can the Falcon T1 20W diode cut?",
+      "answer": "Creality lists up to 8 mm basswood and 6 mm opaque acrylic for the 20W diode module (figures reported by Igor's Lab from Creality). As a galvo, it is quicker at engraving than at cutting: our benchmark put a 10 × 10 cm cut-out in 3 mm basswood at about 6–10 min."
+    },
+    {
+      "question": "How much do the Falcon T1 and its extra modules cost?",
+      "answer": "On Creality's US store in October 2026 the T1 with the 20W diode was $2,499 (it launched at $2,249). Modules sold alone: 40W diode $1,399, 20W fiber $1,099, 5W UV $2,599, 60W MOPA $2,699. Modules bought separately must be calibrated before first use."
+    },
+    {
+      "question": "Should I start the T1 with the 20W diode or the 40W?",
+      "answer": "Start with the 20W if the T1 is mainly for engraving wood, leather and coated items and you plan to add a fiber or UV module next. Start with the 40W bundle ($2,999, $500 more) if cutting wood is the main job: Creality rates it 12 mm basswood and 10 mm opaque acrylic."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "modular-galvo",
+      "title": "One enclosure, five laser types",
+      "body": "The T1 takes diode, fiber, MOPA and UV WaveSync modules, swapped without tools in about 15 seconds according to Creality."
+    },
+    {
+      "id": "entry-to-platform",
+      "title": "Entry ticket to the platform",
+      "body": "The 20W diode bundle is the lowest-priced T1 and leaves room in the budget for a metal or UV module later."
+    }
+  ]
 }

@@ -12,13 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~5 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "Point de 0,08 × 0,10 mm et vitesse maximale de 400 mm/s selon la fiche Atomstack : bon détail sur les photos et les petits textes",
+    "Sécurités de base incluses : détection de flamme (avec le module d'axe Z2), alarme de basculement au-delà de 15° et reprise après interruption",
+    "Module IR 1064 nm de 1,8 W en option (269 $ en octobre 2026) pour marquer le métal nu sur le même châssis"
   ],
   "cons": [
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Surface de travail de 400 × 365 mm, plus courte que les châssis 400 × 400 mm auxquels on la compare souvent",
+    "La découpe au-delà de ~5 mm de tilleul demande plusieurs passes : comparez avec l'A40 Pro V2 si la découpe domine",
+    "Mise au point manuelle uniquement, et Atomstack ne publie pas de table de découpe par épaisseur pour la V2"
   ],
   "materials": {
     "engrave": [
@@ -61,5 +62,39 @@
   "editorialDepth": {
     "advantages": "AtomStack A20 Pro V2 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
     "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur l'A20 Pro V2 peut-elle découper ?",
+      "answer": "La page de la V2 cite le bois et l'acrylique noir parmi les matériaux découpables, sans épaisseur par passe. L'ancienne A20 Pro était annoncée pour 12 mm de bois massif en une passe, un chiffre optimiste. Notre fiche indique du tilleul de 5 mm, et notre test découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en ~6–10 min, à 4–10 mm/s."
+    },
+    {
+      "question": "Combien coûte l'A20 Pro V2 en octobre 2026 ?",
+      "answer": "Sur la boutique US d'Atomstack : 369 $ machine seule, 409 $ en pack de base, 449 $ avec assistance d'air, 489 $ avec caisson ou en pack pro, 619 $ avec rotatif et 729 $ en pack complet. Le module 20 W de rechange coûtait 279 $. Les prix bougent souvent au gré des promotions : regardez le contenu du pack plutôt que la remise affichée."
+    },
+    {
+      "question": "A20 Pro V2 ou A40 Pro V2 : laquelle choisir ?",
+      "answer": "L'A20 Pro V2 convient à un travail centré sur la gravure avec des découpes fines occasionnelles. L'A40 Pro V2 bascule entre 24 W et 48 W, vise des découpes bien plus épaisses en une passe et coûtait 769 $ machine seule en octobre 2026, environ 400 $ de plus. Si vous gravez surtout des cadeaux et des panneaux, la 20 W est le meilleur usage de votre budget."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "safety-sensors-a20v2",
+      "title": "Capteurs de sécurité inclus",
+      "body": "Détection de flamme (nécessite le module d'axe Z2), alarme de basculement au-delà de 15° et reprise de la gravure après un arrêt, selon la fiche Atomstack."
+    },
+    {
+      "id": "ir-module-option",
+      "title": "Module IR pour le métal",
+      "body": "Le module R20-A 1064 nm de 1,8 W d'Atomstack s'adapte à l'A20 Pro V2 et marque le métal nu, que la diode bleue traite mal (269 $ en octobre 2026)."
+    },
+    {
+      "id": "fine-spot-a20v2",
+      "title": "Point fin de 0,08 × 0,10 mm",
+      "body": "Un point serré pour une diode de 20 W, qui garde le tramage des photos et les petites lettres nets."
+    }
+  ],
+  "priceRange": {
+    "note": "Boutique officielle Atomstack, oct. 2026 : de 369 $ à 729 $ selon le pack"
   }
 }

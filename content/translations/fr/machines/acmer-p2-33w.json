@@ -12,18 +12,18 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
-    "33W : tête la plus orientée découpe de Acmer P2",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Contreplaqué de 12 mm en une passe à 100 mm/min (mise au point abaissée de 2 mm) selon la fiche P2-33W d'Acmer",
+    "Découpe plus rapide des épaisseurs courantes : contreplaqué de 4 mm à 500 mm/min et MDF de 5 mm en une passe",
+    "Préréglage de gravure sur tilleul à 13 000 mm/min : ~12–18 min pour notre photo test de 10 × 10 cm"
   ],
   "editorialDepth": {
     "advantages": "Prenez le 33 W quand vos devis incluent du tilleul plus épais ou plus de panneaux par soir qu’un 20 W ne termine pas. Vous restez sur le matériel P2 avec le biais découpe le plus fort de la famille.",
     "limitations": "Toujours Châssis ouvert avec limites diode. Les puristes photo peuvent préférer un 20 W plus lent. Les makers en appartement doivent peser Acmer P3 ou xTool S1 avant de courir après les watts seuls."
   },
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Environ 105 $ de plus que le pack de base 20 W (589 $ contre 484 $), et le module 33 W seul coûte 499 $",
+    "Plus de fumée et de chaleur à pleine puissance : la structure ouverte demande une extraction ou le pack avec caisson",
+    "L'argument « découpe jusqu'à 30 mm de bois » d'Acmer ne figure pas dans sa propre fiche, qui s'arrête à 20 mm de paulownia : au-delà, il faut plusieurs passes"
   ],
   "materials": {
     "engrave": [
@@ -63,6 +63,37 @@
     },
     {
       "alt": "Graveuse laser Acmer P2 33 W : Acmer"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Que découpe l'Acmer P2 33 W en une seule passe ?",
+      "answer": "La fiche P2-33W d'Acmer indique le contreplaqué à 500 mm/min (4 mm), 400 (6 mm), 300 (8 mm), 200 (10 mm) et 100 mm/min (12 mm, mise au point abaissée de 2 mm), toujours en une passe. Elle donne aussi le paulownia de 20 mm à 150 mm/min et le MDF de 5 mm à 200 mm/min. Acrylique noir : 4 mm en une passe, 6 mm en 2, 10 mm en 4."
+    },
+    {
+      "question": "Les 33 W annoncés sont-ils une vraie puissance optique ?",
+      "answer": "Acmer la vend comme un module à diodes compressées de 33 W ; nous n'avons pas mesuré sa puissance optique nous-mêmes. Les préréglages du fabricant traduisent un vrai gain par rapport à la 20 W : contreplaqué de 4 mm à 500 au lieu de 300 mm/min, et 10 mm en une passe au lieu de deux."
+    },
+    {
+      "question": "Faut-il acheter la 33 W tout de suite ou faire évoluer une P2 20 W plus tard ?",
+      "answer": "Achetez-la tout de suite s'il y a une chance que vous en ayez besoin. Sur la boutique Acmer en octobre 2026, les packs de base coûtaient 484 $ (20 W) et 589 $ (33 W), soit 105 $ d'écart, alors que le module 33 W seul valait 499 $. Des machines reconditionnées sont aussi proposées : 459 $ pour la 20 W et 527 $ pour la 33 W."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "plywood-12mm-one-pass",
+      "title": "12 mm de contreplaqué en une passe",
+      "body": "La fiche P2-33W d'Acmer indique le contreplaqué de 10 mm à 200 mm/min et celui de 12 mm à 100 mm/min en une passe, mise au point abaissée de 2 mm."
+    },
+    {
+      "id": "faster-cuts-same-frame",
+      "title": "Des découpes plus courtes",
+      "body": "Contreplaqué de 4 mm à 500 mm/min au lieu de 300 sur la 20 W, et ~6–10 min pour notre carré de 10 × 10 cm dans du tilleul de 3 mm."
+    },
+    {
+      "id": "acrylic-fewer-passes",
+      "title": "Moins de passes sur l'acrylique noir",
+      "body": "Acrylique opaque de 6 mm en 2 passes et de 10 mm en 4, contre 3 et 5 passes sur la 20 W (chiffres Acmer)."
     }
   ]
 }

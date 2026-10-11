@@ -12,15 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Châssis ouvert : lunettes laser et ventilation à votre charge",
-    "Tête laser interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Meilleure marge de découpe de la gamme : benchmark ~10 mm tilleul",
-    "40W : tête la plus orientée découpe de xTool D1 Pro"
+    "15 mm de contreplaqué de tilleul et 15 mm d’acrylique noir en une passe (donnée xTool)",
+    "Les remplissages et découpes les plus rapides des modules D1 Pro dans notre benchmark",
+    "Se monte sur le même châssis : pas de nouvelle machine pour la découpe lourde"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Faisceau plus large que les têtes de faible puissance : le détail photo fin est moins net",
+    "Découpes épaisses sur structure ouverte : beaucoup de fumée et des flammes possibles, ne jamais la laisser sans surveillance",
+    "Plus fabriquée : environ 999 $ neuve, désormais un achat d’occasion"
   ],
   "materials": {
     "engrave": [
@@ -93,5 +92,31 @@
   "editorialDepth": {
     "advantages": "Le module 40W diode est la tête la plus orientée découpe de xTool D1 Pro : bois plus épais et remplissages plus rapides que les modules d’entrée sur le même châssis.",
     "limitations": "Surdimensionné si vous ne faites que gravure fine. Toujours une diode : acrylique transparent = CO₂. Prévoyez lunettes et extraction si le châssis est Châssis ouvert."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la D1 Pro 40 W peut-elle découper ?",
+      "answer": "xTool annonçait 15 mm de contreplaqué de tilleul et 15 mm d’acrylique noir en une passe pour le module 40 W. Notre liste de matériaux reste plus prudente, vers 10 mm de tilleul pour des coupes propres et reproductibles. Un carré de 10 × 10 cm dans du tilleul de 3 mm a pris environ 4 à 6 min dans notre benchmark."
+    },
+    {
+      "question": "La D1 Pro 40 W est-elle bonne en gravure ?",
+      "answer": "Elle est rapide, environ 7 à 10 min pour une photo remplie de 10 × 10 cm dans notre benchmark, mais son faisceau plus large donne un détail photo un peu moins net que les têtes de faible puissance. Si vous gravez surtout, une tête 10 W ou 20 W donne un résultat plus fin pour moins cher."
+    },
+    {
+      "question": "Faut-il acheter une D1 Pro 40 W d’occasion ?",
+      "answer": "Seulement si vous avez besoin de cette capacité de découpe. Elle coûtait environ 999 $ neuve et la D1 Pro n’est plus fabriquée : vérifiez le module, la lentille et l’assistance d’air, et gardez en tête que la structure ouverte demande un caisson ou une bonne ventilation pour la fumée supplémentaire des découpes épaisses."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "thick-cut-open-frame",
+      "title": "15 mm en une passe",
+      "body": "xTool annonçait 15 mm de contreplaqué de tilleul et 15 mm d’acrylique noir en une seule passe pour le module 40 W, la découpe la plus profonde des têtes D1 Pro."
+    },
+    {
+      "id": "fastest-d1-module",
+      "title": "Le module D1 Pro le plus rapide",
+      "body": "Dans notre benchmark, il a rempli une photo de 10 × 10 cm en 7 à 10 min environ et découpé un carré de 10 × 10 cm dans du tilleul de 3 mm en 4 à 6 min environ."
+    }
+  ]
 }

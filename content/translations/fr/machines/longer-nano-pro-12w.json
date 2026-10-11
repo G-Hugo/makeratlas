@@ -12,14 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "12W sur Longer Nano Pro : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 130 × 130 mm (extendable with slide) : validez vos formats de pièces avant achat"
+    "Lentille F-thêta et précision annoncée de 0,01 mm pour des petits marquages nets",
+    "Deux diodes : carrés de tilleul de 3 mm en 6 à 10 min dans nos benchmarks",
+    "Remplissage à environ 60–150 mm/s, avec des déplacements galvo annoncés jusqu’à 5 000 mm/s"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Petit champ de 100 × 100 mm sans l’extension à glissière",
+    "Les prix varient beaucoup entre la boutique Longer et les revendeurs : comparez les lots",
+    "En galvo, la découpe gagne en profondeur passe après passe : les découpes épaisses restent lentes"
   ],
   "materials": {
     "engrave": [
@@ -66,5 +66,39 @@
   "editorialDepth": {
     "advantages": "Longer Nano Pro 12W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  },
+  "faq": [
+    {
+      "question": "Que change la lentille de champ sur la Nano Pro 12 W ?",
+      "answer": "La Pro associe deux diodes à une lentille F-thêta, qui garde le point net sur tout le champ galvo. Longer annonce une précision de gravure de 0,01 × 0,01 mm pour la Pro contre 0,05 × 0,05 mm pour la 6 W, ce qui se voit sur les petits textes, les QR codes et le détail photo."
+    },
+    {
+      "question": "Quelle épaisseur la Nano Pro 12 W peut-elle découper ?",
+      "answer": "Longer indique une profondeur de découpe de 10 mm dans le bois. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 6 à 10 min à 4–10 mm/s, et le tilleul jusqu’à 5 mm environ est réaliste. Le champ de 100 × 100 mm (100 × 300 mm avec la glissière) limite plus la taille des pièces que la puissance."
+    },
+    {
+      "question": "Combien coûte la Nano Pro 12 W ?",
+      "answer": "La boutique Longer l’affichait de 559,99 $ (Basic) à 689,99 $ (lot Pro ou pack d’extension) et 969,99 $ (lot Pro Max) en octobre 2026. Les prix des revendeurs et des lots varient beaucoup : comparez le contenu de chaque lot avant d’acheter."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "nano-pro-field-lens",
+      "title": "La précision de la lentille de champ",
+      "body": "Longer annonce une précision de gravure de 0,01 × 0,01 mm grâce à la lentille F-thêta."
+    },
+    {
+      "id": "nano-pro-dual-diode",
+      "title": "Deux diodes",
+      "body": "Deux diodes laser combinées pour une profondeur de découpe de 10 mm dans le bois selon Longer."
+    },
+    {
+      "id": "nano-pro-extension",
+      "title": "Extension à glissière",
+      "body": "Le champ de travail passe de 100 × 100 mm à 100 × 300 mm avec l’extension à glissière de Longer."
+    }
+  ],
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : de 560 $ à 970 $ selon le pack"
   }
 }

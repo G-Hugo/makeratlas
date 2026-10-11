@@ -16,9 +16,10 @@
     "Bench marking"
   ],
   "priceRange": {
-    "min": 1499,
-    "max": 2199,
-    "currency": "USD"
+    "min": 1299,
+    "max": 1349,
+    "currency": "USD",
+    "note": "Official Gweike store, Oct 2026: $1,299 to $1,349 depending on manual or electric lift"
   },
   "specs": {
     "power": "20W fiber",
@@ -68,12 +69,40 @@
     ]
   },
   "pros": [
-    "Fiber marks metal: does not cut wood or acrylic",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "Cheapest way into the G2 line: $1,349 with the 150 mm lens and electric lift (Gweike US store, Oct 2026)",
+    "Light enough to move around (about 6.5 kg per Gweike) and usable handheld for parts that do not fit under the head",
+    "Enough power for surface marking of steel, brass, anodized aluminum and many plastics"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic: metal marking workflows only",
-    "Fume extraction still matters for coated metals and marking sprays"
+    "Slowest of the line for depth: about 2.1 mm in brass after two hours of passes in Gweike's own test",
+    "Thin-sheet cut-outs are slow: 11 trips over a 0.5 mm brass sheet at 10 mm/s (Gweike demo)",
+    "Q-switched source, not MOPA: limited colour control on stainless steel"
+  ],
+  "faq": [
+    {
+      "question": "How deep can the G2 20W engrave into brass?",
+      "answer": "In Gweike's comparison video, two hours of repeated passes at 1,000 mm/s reached about 2.1 mm in brass, and one hour reached about 1.7 mm in slate. Everyday marking (serial numbers, logos, QR codes) only needs a few hundredths of a millimetre, which the 20W does quickly; millimetre-deep relief is slow at this power."
+    },
+    {
+      "question": "Can the G2 20W cut thin metal sheet?",
+      "answer": "Only very thin stock, and slowly. Gweike's demo cuts 0.5 mm brass at 10 mm/s in 11 passes. Treat it as an occasional cut-out tool for small tags and blanks, not as a sheet cutter."
+    },
+    {
+      "question": "Is the 20W enough, or should I pay more for the G2 Pro?",
+      "answer": "The 20W lists at $1,349 with the 150 mm lens and electric lift on Gweike's US store (October 2026); the manual-lift 110 mm version at $1,299 was sold out. It covers pet tags, tumblers, tools and anodized aluminum. If you expect deep engraving, coins or regular thin-sheet cut-outs, the Pro saves a lot of passes. Neither is a MOPA source, so colour marking on steel stays limited."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g2-20w-entry-price",
+      "title": "Lowest entry price in the G2 line",
+      "body": "At $1,349 with the 150 mm lens and electric lift (October 2026), the 20W costs about $450 less than the same G2 Pro configuration. The difference pays for the $129 roller rotary and part of a fume extractor."
+    },
+    {
+      "id": "g2-20w-fine-marking",
+      "title": "Gentle power for fine marks",
+      "body": "Lower power makes it easier to mark plated items, anodized layers and plastics without over-burning, and test grids converge quickly. Gweike lists a 0.1 mm minimum character size for the G2 series."
+    }
   ],
   "beginnerNotes": "This profile is the 20W SKU on Gweike G2 Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Fix parts firmly; start with low power test squares on scrap metal. Rotary adds complexity: budget time to learn indexing.",
@@ -90,7 +119,7 @@
     "monport-gt-30w-fiber"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/gweike-g2-20w/01.webp",
   "images": [
     {

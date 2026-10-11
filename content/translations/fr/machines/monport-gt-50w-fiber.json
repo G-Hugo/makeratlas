@@ -12,13 +12,40 @@
     "Lots"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 150 × 150 mm typical : validez vos formats avant achat"
+    "Le plus grand champ de la gamme GT : 200 × 200 mm, selon la fiche technique de Monport",
+    "Énergie d'impulsion de 1,25 mJ, environ 65 % de plus que la GT d'entrée",
+    "Même profondeur de marquage annoncée (0,10 mm) que la GT 60 W MOPA pour environ 1 100 $ de moins"
   ],
   "cons": [
-    "Fibre 50W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
-    "Montée possible vers 60W ou 100W si le débit métal devient critique"
+    "Pas de marquage couleur : impulsion fixe de 100 à 140 ns, source Q-switch",
+    "Qualité de faisceau annoncée à M² inférieur à 1,8, un peu moins serrée que la GT d'entrée (moins de 1,5)",
+    "Prix en précommande et en stock différents (3 529,99 $ contre 3 599,99 $ en octobre 2026) : vérifiez les délais d'expédition"
+  ],
+  "faq": [
+    {
+      "question": "Qu'apporte la GT 50 W par rapport à la GT 30 W ?",
+      "answer": "De l'énergie par impulsion et un champ plus grand. Monport annonce 1,25 mJ par impulsion (0,75 mJ sur la GT 30 W), une plage de fréquence plus large de 20 à 80 kHz, une zone de gravure de 200 × 200 mm et une profondeur de marquage maximale de 0,10 mm. Dans notre benchmark, un logo rempli de 10 × 10 cm sur inox prend environ 3 à 8 minutes, contre 4 à 11 sur la 30 W."
+    },
+    {
+      "question": "La GT 50 W peut-elle découper de la tôle fine ?",
+      "answer": "Monport revendique la découpe de métaux fins de moins de 3 mm pour la série GT, sans publier de tableau par modèle. L'énergie d'impulsion supplémentaire rend les découpes multipasses dans le laiton, l'inox ou l'aluminium fins plus rapides que sur la 30 W ; comptez beaucoup de passes en approchant le haut de cette plage, et préférez une découpeuse fibre dédiée pour un travail régulier de tôle."
+    },
+    {
+      "question": "GT 50 W ou GT 60 W MOPA ?",
+      "answer": "La GT 50 W coûte de 3 529,99 à 3 599,99 $ sur la boutique Monport (octobre 2026), environ 1 100 $ de moins que la GT 60 W MOPA à 4 699,99 $. Les deux annoncent 0,10 mm de profondeur de marquage. Ne payez la MOPA que si vous avez besoin de couleur sur inox ou d'un réglage d'impulsion plus fin pour les plastiques et l'aluminium anodisé ; pour le marquage noir et la profondeur, la 50 W est le meilleur choix."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gt50-wide-field",
+      "title": "Un champ de 200 × 200 mm",
+      "body": "Monport équipe la GT 50 W du plus grand objectif de la gamme GT. Plus de pièces par série sur un gabarit, ou de plus grandes plaques en une passe sans raccord."
+    },
+    {
+      "id": "gt50-pulse-energy",
+      "title": "Plus d'énergie par impulsion",
+      "body": "1,25 mJ par impulsion contre 0,75 mJ sur la GT 30 W, avec une plage de 20 à 80 kHz. Les logos plus profonds et les découpes multipasses vont plus vite, à la même vitesse maximale de 10 000 mm/s."
+    }
   ],
   "materials": {
     "engrave": [
@@ -36,7 +63,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 50 W : vérifiez le SKU avant d’acheter"
+    "note": "Boutique officielle Monport, oct. 2026 : de 3 530 $ à 3 850 $ selon le pack"
   },
   "specs": {
     "performance": {

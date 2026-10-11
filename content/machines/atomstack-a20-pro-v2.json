@@ -15,9 +15,10 @@
     "Small-batch gifts"
   ],
   "priceRange": {
-    "min": 699,
-    "max": 999,
-    "currency": "USD"
+    "min": 369,
+    "max": 729,
+    "currency": "USD",
+    "note": "Official Atomstack store, Oct 2026: $369 to $729 depending on bundle"
   },
   "specs": {
     "power": "20W diode",
@@ -65,13 +66,14 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 5 mm basswood in several passes",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "0.08 × 0.10 mm spot and 400 mm/s top speed on Atomstack's spec sheet: good detail on photos and small text",
+    "Safety basics included: flame detection (with the Z2 Z-axis slider), tip-over alarm above 15° and resume after interruption",
+    "Optional 1.8W 1064 nm IR module ($269 in October 2026) adds bare-metal marking on the same frame"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Work area is 400 × 365 mm, shorter than the 400 × 400 mm frames it is often compared with",
+    "Cutting past ~5 mm basswood turns multi-pass: compare the A40 Pro V2 if cutting dominates",
+    "Manual focus only, and Atomstack does not publish a per-thickness cutting chart for the V2"
   ],
   "beginnerNotes": "This profile is the 20W SKU on AtomStack A20 Pro V2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Use the benchmarks on this profile for quotes. Test on scrap before production.",
@@ -89,7 +91,7 @@
     "atomstack-a20-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/atomstack-a20-pro-v2/01.webp",
   "modelLine": "atomstack-a20-pro",
   "powerRating": "20W",
@@ -117,5 +119,36 @@
     "advantages": "AtomStack A20 Pro V2 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "faq": [
+    {
+      "question": "How thick can the A20 Pro V2 cut?",
+      "answer": "Atomstack's V2 page lists wood and black acrylic among cutting materials but gives no thickness per pass. The earlier A20 Pro was marketed as cutting 12 mm solid wood in one pass, a best-case figure. Our profile lists 5 mm basswood, and our benchmark cuts a 10 × 10 cm square in 3 mm basswood in ~6–10 min at 4–10 mm/s."
+    },
+    {
+      "question": "What does the A20 Pro V2 cost in October 2026?",
+      "answer": "On Atomstack's US store: $369 machine-only, $409 basic bundle, $449 air bundle, $489 enclosure or pro bundle, $619 rotary bundle and $729 all-in-one. The spare 20W module was $279. Prices move often with promotions, so check the bundle contents rather than the headline discount."
+    },
+    {
+      "question": "A20 Pro V2 or A40 Pro V2: which one?",
+      "answer": "The A20 Pro V2 suits engraving-led work and occasional thin cuts. The A40 Pro V2 switches between 24W and 48W, is marketed for much thicker one-pass cuts and was $769 machine-only in October 2026, about $400 more. If you mainly engrave gifts and signs, the 20W is the better use of money."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "safety-sensors-a20v2",
+      "title": "Safety sensors included",
+      "body": "Flame detection (requires the Z2 Z-axis slider), tip-over alarm above 15° and resume engraving after a stop, per Atomstack's spec sheet."
+    },
+    {
+      "id": "ir-module-option",
+      "title": "IR add-on for metal",
+      "body": "Atomstack's R20-A 1.8W 1064 nm module fits the A20 Pro V2 and marks bare metal that a blue diode handles poorly ($269 in October 2026)."
+    },
+    {
+      "id": "fine-spot-a20v2",
+      "title": "Fine 0.08 × 0.10 mm spot",
+      "body": "A tight spot for a 20W diode, which keeps photo dithering and small lettering clean."
+    }
+  ]
 }

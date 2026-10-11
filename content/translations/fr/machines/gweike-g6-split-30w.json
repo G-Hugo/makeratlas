@@ -12,13 +12,40 @@
     "Marquage bureau"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 150 × 150 mm typical (varies by lens) : validez vos formats avant achat"
+    "La G6 Split la moins chère, à partir de 2 399 $ avec relevage manuel sur la boutique Gweike US",
+    "Trois options de relevage : manuel, électrique, ou électrique avec mise au point automatique (2 999 $)",
+    "Assez de puissance pour le marquage quotidien de médailles, d'outils et de gobelets avec l'objectif standard de 175 × 175 mm (6,9 po)"
   ],
   "cons": [
-    "Fibre 30W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
-    "Montée possible vers 50W, 70W ou 100W si le débit métal devient critique"
+    "Toutes les configurations 30 W étaient en rupture sur la boutique Gweike US en octobre 2026",
+    "L'objectif de remplacement 300 × 300 mm de Gweike est prévu pour la 50 W et au-delà, pas pour la 30 W",
+    "Source Q-switch : pas de contrôle des couleurs MOPA (c'est la gamme distincte G6 Split MOPA)"
+  ],
+  "faq": [
+    {
+      "question": "La G6 Split 30 W est-elle encore disponible ?",
+      "answer": "Sur la boutique Gweike US en octobre 2026, toutes les configurations 30 W de la G6 Split (de 2 399 à 2 999 $ selon le relevage et la couleur) étaient en rupture, alors que les modèles plus puissants étaient en stock. Vérifiez la disponibilité avant de compter dessus. La G6 Split MOPA 30 W (à partir de 4 099 $) est une autre machine, capable de marquer en couleur."
+    },
+    {
+      "question": "Que peut graver la 30 W, et à quelle vitesse ?",
+      "answer": "Elle utilise une source Raycus Q-switch (20 à 100 kHz) avec une vitesse de ligne jusqu'à 7 000 mm/s selon Gweike. Elle assure le marquage de surface, le marquage noir et la gravure peu profonde sur acier, laiton et aluminium. Dans notre benchmark, un logo rempli de 10 × 10 cm sur inox prend environ 4 à 11 minutes ; un relief profond demande de nombreuses passes."
+    },
+    {
+      "question": "Faut-il prendre la 30 W ou monter d'un cran ?",
+      "answer": "La 30 W est l'option économique pour les numéros de série, les médailles et le marquage d'outils. Si vous prévoyez de la gravure plus profonde, des découpes de tôle fine ou de grandes plaques avec l'objectif 300 × 300 mm, le palier suivant (à partir de 3 899 $ en relevage manuel) convient mieux, car Gweike ne propose cet objectif qu'à partir de la 50 W."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g6-30w-entry",
+      "title": "L'armoire séparée au prix G6 le plus bas",
+      "body": "À partir de 2 399 $ avec relevage manuel, la 30 W offre l'architecture G6 Split (source dans une armoire séparée, de la place sous la tête pour les modules rotatifs et les gabarits) pour à peu près le prix d'une fibre intégrée compacte."
+    },
+    {
+      "id": "g6-30w-marking",
+      "title": "Dimensionnée pour le marquage",
+      "body": "Source Raycus Q-switch, 20 à 100 kHz et jusqu'à 7 000 mm/s en vitesse de ligne selon Gweike. Pour les numéros de série, logos et QR codes sur métal, plus de puissance raccourcit surtout les gravures profondes, qui ne sont pas la vocation de ce palier."
+    }
   ],
   "materials": {
     "engrave": [

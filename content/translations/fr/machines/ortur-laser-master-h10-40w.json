@@ -12,14 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~10 mm tilleul en benchmark",
-    "40W : tête la plus orientée découpe de Ortur Laser Master H10",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Les remplissages les plus rapides des fiches H10 : environ 80–180 mm/s",
+    "Découpe des carrés de tilleul de 3 mm en 6 à 10 min dans nos benchmarks",
+    "Découpe le tilleul jusqu’à 10 mm environ en plusieurs passes"
   ],
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "La page H10 d’Ortur ne liste pas de module 40 W : vérifiez la compatibilité et la garantie avec le vendeur",
+    "Plus de fumée et de brûlure : assistance d’air et extraction vers l’extérieur obligatoires",
+    "Le prix le plus élevé de la gamme H10 : 649 à 899 $ sur les annonces suivies"
   ],
   "materials": {
     "engrave": [
@@ -72,5 +72,31 @@
   "editorialDepth": {
     "advantages": "Ortur Laser Master H10 40W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
     "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Châssis ouvert : sécurité et fumées à votre charge."
-  }
+  },
+  "faq": [
+    {
+      "question": "Ortur vend-elle vraiment une H10 40 W ?",
+      "answer": "Pas comme configuration listée : la page H10 d’Ortur ne propose que des modules 10 W et 20 W, et sa liste de compatibilité n’inclut pas le module 40 W LU3-40A vendu à part. Une annonce « H10 40 W » est sans doute un assemblage de revendeur ; demandez au vendeur de confirmer le module et sa prise en charge sur le cadre H10 avant d’acheter."
+    },
+    {
+      "question": "Que découperait un module 40 W sur ce cadre ?",
+      "answer": "Dans notre profil de test, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 6 à 10 min à 4–12 mm/s. Le tilleul jusqu’à 10 mm environ et l’acrylique foncé jusqu’à 5 mm environ sont réalistes en plusieurs passes avec assistance d’air. L’acrylique transparent reste hors de portée."
+    },
+    {
+      "question": "40 W ou H10 20 W prise en charge par Ortur ?",
+      "answer": "Sur les annonces suivies, la 40 W coûte 649 à 899 $ contre 499 à 699 $ pour la 20 W. Elle ne vaut le coup que si vous découpez du 6 mm et plus tous les jours. La 20 W est livrée avec une pompe à air par Ortur et c’est la configuration officiellement prise en charge, ce qui compte pour la garantie et les pièces."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "h10-40w-cut-speed",
+      "title": "La découpe la plus rapide des H10",
+      "body": "Carrés de 3 mm de tilleul en 6 à 10 min environ dans notre profil de test, avec des vitesses de découpe jusqu’à 12 mm/s environ."
+    },
+    {
+      "id": "h10-40w-fill-speed",
+      "title": "Remplissages rapides",
+      "body": "Environ 80–180 mm/s sur les photos et logos, le plus rapide des fiches H10 de ce site."
+    }
+  ]
 }

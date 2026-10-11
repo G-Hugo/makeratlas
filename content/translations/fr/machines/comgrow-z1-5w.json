@@ -12,15 +12,14 @@
     "Première machine"
   ],
   "pros": [
-    "5W sur Comgrow Z1 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
+    "Le prix le plus bas de la gamme Z1 : 179–249 $",
+    "Le point le plus fin des trois puissances dans notre fiche (~0,08 mm) : bien pour les textes, les logos et le dessin au trait",
+    "La faible puissance limite la fumée et les brûlures sur le cuir, le carton et le bois fin"
   ],
   "cons": [
-    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (10W ou 20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Photos très lentes : ~28–43 min pour notre test de 10 × 10 cm, à 2–4 mm/s",
+    "La découpe se limite aux matériaux fins : un carré de 10 × 10 cm dans du tilleul de 3 mm prend ~14–24 min dans notre test",
+    "Pas de découpe d'acrylique en pratique, et pas de bois épais sans changer de module"
   ],
   "materials": {
     "engrave": [
@@ -65,5 +64,31 @@
   "editorialDepth": {
     "advantages": "Comgrow Z1 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série : regardez 10W ou 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que peut découper la Comgrow Z1 5 W en pratique ?",
+      "answer": "Papier, carton, tissu et tilleul fin, en plusieurs passes à partir d'environ 3 mm. Comgrow ne publie pas de table de découpe par épaisseur ; dans notre test, un carré de 10 × 10 cm dans du tilleul de 3 mm prend ~14–24 min, à 2–3 mm/s. Au-delà, il faut une machine plus puissante."
+    },
+    {
+      "question": "Combien de temps prend une gravure photo sur la Z1 5 W ?",
+      "answer": "Comptez ~28–43 min pour une photo remplie de 10 × 10 cm sur contreplaqué de bouleau dans notre test, contre ~18–28 min sur la 10 W. Pour le dessin au trait et le texte, l'écart est plus faible, car les contours demandent bien moins de temps laser que les remplissages."
+    },
+    {
+      "question": "La 5 W suffit-elle pour débuter, ou vaut-il mieux commencer par la 10 W ?",
+      "answer": "La 5 W suffit si vous voulez apprendre et graver de petits cadeaux avec un budget serré (179–249 $). Si vous savez déjà que vous voulez découper des décorations ou des puzzles, la 10 W (219–299 $) coûte environ 40 $ de plus et fait gagner un tiers du temps, en découpe comme en gravure."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "lowest-price-z1",
+      "title": "Le prix d'entrée le plus bas",
+      "body": "179–249 $, la façon la moins chère d'accéder à la plateforme Comgrow Z1 et à sa compatibilité LightBurn et LaserGRBL."
+    },
+    {
+      "id": "fine-spot-z1-5w",
+      "title": "Le point le plus fin de la gamme",
+      "body": "Point de ~0,08 mm dans notre fiche, un peu plus serré que les modules 10 W et 20 W, adapté au texte et au trait."
+    }
+  ]
 }

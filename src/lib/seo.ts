@@ -28,7 +28,7 @@ const INDEXABLE_ROBOTS: Metadata["robots"] = {
   googleBot: { index: true, follow: true },
 };
 
-const NOINDEX_ROBOTS: Metadata["robots"] = {
+export const NOINDEX_ROBOTS: Metadata["robots"] = {
   index: false,
   follow: true,
   googleBot: { index: false, follow: true },
@@ -74,7 +74,11 @@ export function machineCanonicalUrl(slug: string, locale: Locale): string {
 
 /** Pages that should be indexed (excludes catalog-hidden duplicates) */
 export function isMachineIndexable(machine: Machine): boolean {
-  return !machine.catalogHidden;
+  if (machine.catalogHidden) return false;
+  // Discontinued profiles still on a placeholder image stay on the site but out of Google
+  // until they get real photos: thin pages drag down how Google rates the whole catalog.
+  if (machine.discontinued && machine.image.endsWith(".svg")) return false;
+  return true;
 }
 
 export function getIndexableMachines(machines: Machine[]): Machine[] {

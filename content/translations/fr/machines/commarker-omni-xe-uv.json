@@ -2,8 +2,8 @@
   "tagline": "Plateforme UV élargie pour travaux verre et plastique plus grands",
   "tldr": "L'Omni XE se situe entre l'Omni 1 et l'Omni X dans la gamme UV ComMarker : vérifiez les specs actuelles pour la taille du plateau et la puissance. L'UV reste spécialisé : verre, plastiques, fines détails.",
   "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
-  "primaryUse": "Module 5W · ComMarker Omni XE UV",
-  "beginnerNotes": "Ce profil décrit le SKU 5W de ComMarker Omni XE UV. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "primaryUse": "Version 6 W · ComMarker Omni XE UV",
+  "beginnerNotes": "Ce profil décrit la version de base 6 W de ComMarker Omni XE UV. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Omni-XE UV targets heat-sensitive plastics and thin films : run vendor parameter cards on scrap. Do not assume Omni-X UV presets transfer without retesting.",
   "bestFor": [
     "Gravure fine",
@@ -12,12 +12,40 @@
     "Première machine"
   ],
   "pros": [
-    "5W UV : marquage froid sur verre et plastiques sensibles à la chaleur",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 120 × 120 mm typical : validez vos formats avant achat"
+    "Mêmes options de source UV, même galvo à 10 000 mm/s et même mise au point automatique LiDAR que l'Omni X pour 300 $ de moins",
+    "20 kg et 320 × 511 × 576 mm : plus facile à déplacer et à caser sur un établi que l'Omni X fermée",
+    "Architecture ouverte : accès plus simple pour les objets grands ou encombrants et les montages rotatifs"
   ],
   "cons": [
-    "Pas de découpe bois/métal : installez un autre module sur le châssis pour ces matériaux"
+    "Classée Classe 4 : lunettes certifiées pour 355 nm et pièce contrôlée obligatoires",
+    "Pas de capteur de porte ni de clé de sécurité, contrairement à l'Omni X",
+    "Les 99,72 % de poussières retenues annoncés par ComMarker concernent l'Omni X fermée : prévoyez votre propre aspiration des fumées"
+  ],
+  "faq": [
+    {
+      "question": "Pourquoi l'Omni XE coûte-t-elle moins cher que l'Omni X ?",
+      "answer": "Elle se passe du caisson étanche à la lumière. ComMarker classe la XE comme laser de Classe 4, avec un écran de protection mais sans indice OD, sans capteur de porte ni clé de sécurité. Le poids descend à 20 kg (Omni X : 32 kg) et le prix à 3 299 $ pour le pack de base 6 W, 300 $ sous l'Omni X. Source laser, vitesse, mise au point automatique et zones de travail sont identiques."
+    },
+    {
+      "question": "Quels équipements de sécurité faut-il avec l'Omni XE ?",
+      "answer": "En tant que laser UV de Classe 4, elle demande des lunettes certifiées pour 355 nm pour toutes les personnes présentes, une pièce où personne n'entre sans protection pendant les travaux, et une aspiration des fumées. ComMarker inclut des lunettes de protection dans les packs. Si vous ne pouvez pas contrôler la pièce, l'Omni X fermée est l'achat le plus sûr."
+    },
+    {
+      "question": "Omni XE en 6 W ou en 12 W ?",
+      "answer": "Le pack de base 12 W coûte 5 699 $ contre 3 299 $ pour la 6 W (boutique ComMarker, octobre 2026). Il apporte un champ de 250 × 250 mm au lieu de 150 × 150 mm et une plus grande capacité de découpe en plusieurs passes : 12 mm de tilleul, 10 mm d'acrylique et 1 mm d'inox, contre 8 mm, 6 mm et 0,6 mm pour la 6 W. Pour le verre, le cristal et le marquage fin, la 6 W suffit généralement."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "omni-xe-price",
+      "title": "Les performances de l'Omni X pour 300 $ de moins",
+      "body": "Mêmes sources 355 nm, même galvo à 10 000 mm/s, même mise au point automatique LiDAR et même gravure 3D interne que l'Omni X, à partir de 3 299 $ pour le pack de base 6 W (octobre 2026)."
+    },
+    {
+      "id": "omni-xe-open-frame",
+      "title": "Un châssis ouvert pour les objets encombrants",
+      "body": "Sans caisson complet, les bouteilles hautes, les outils et les montages rotatifs se positionnent plus facilement. ComMarker annonce la même hauteur de travail maximale de 235 mm que l'Omni X, dans une machine de 20 kg."
+    }
   ],
   "materials": {
     "engrave": [
@@ -28,7 +56,7 @@
     ],
     "cut": [],
     "cannot": [
-      "Métal nu",
+      "Gravure profonde du métal (utilisez une fibre)",
       "Découpe organique épaisse"
     ]
   },
@@ -57,7 +85,10 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "ComMarker Omni XE UV 5W cible verre, films et plastiques sensibles à la chaleur : niche rentable quand vous avez déjà des commandes, pas pour “essayer l’UV”.",
+    "advantages": "ComMarker Omni XE UV cible verre, films et plastiques sensibles à la chaleur : niche rentable quand vous avez déjà des commandes, pas pour “essayer l’UV”.",
     "limitations": "Inutile comme première machine. Pas de découpe bois/métal. Vérifiez la liste matériaux du module avant d’investir dans le châssis."
+  },
+  "priceRange": {
+    "note": "Boutique officielle ComMarker, oct. 2026 : de 3 299 $ à 6 789 $ selon 6 W ou 12 W et le pack"
   }
 }

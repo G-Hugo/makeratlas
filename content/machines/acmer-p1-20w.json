@@ -66,13 +66,14 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Acmer's 20W sheet cuts 5 mm board in one pass at 300 mm/min and 8 mm at 120 mm/min, with air assist",
+    "Faster fills: ~12–18 min for our 10 × 10 cm photo test on birch plywood",
+    "Same 400 × 400 mm frame for about $70 more than the 10W ($329–399)"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Black acrylic is multi-pass beyond 2–3 mm: Acmer lists 4 mm at 3 passes and 30 mm at 30 passes",
+    "Wider spot (~0.08 mm) and more smoke than the 10W: air assist and an exhaust are needed for clean edges",
+    "The P1 is now mostly sold as modules or refurbished units: check stock and warranty terms before ordering"
   ],
   "beginnerNotes": "This profile is the 20W SKU on Acmer P1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
@@ -90,7 +91,7 @@
     "longer-ray5-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/acmer-p1-20w/01.webp",
   "modelLine": "acmer-p1",
   "powerRating": "20W",
@@ -117,5 +118,36 @@
   "editorialDepth": {
     "advantages": "Acmer P1 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
-  }
+  },
+  "faq": [
+    {
+      "question": "What can the Acmer P1 20W cut in one pass?",
+      "answer": "On Acmer's 20W parameter sheet, with air assist: 2 mm board at 700 mm/min, 4 mm at 350 mm/min, 5 mm at 300 mm/min and 8 mm at 120 mm/min, all in a single pass. Opaque black acrylic is slower: 4 mm takes 3 passes at 300 mm/min. Acmer lists 20 mm light wood, but at 8 passes."
+    },
+    {
+      "question": "How much faster is it than the 10W in real jobs?",
+      "answer": "On Acmer's own presets, 5–6 mm board runs at 300 mm/min on the 20W against 150 mm/min (6 mm) on the 10W, so roughly twice the cutting speed. In our benchmark, a 10 × 10 cm square in 3 mm basswood drops from ~9–15 min to ~6–10 min, and a filled photo from ~18–28 min to ~12–18 min."
+    },
+    {
+      "question": "Is the extra $70 worth it for a small online shop?",
+      "answer": "If several orders a week involve cut shapes (ornaments, coasters, signs with cut outlines), yes: halving cut time pays back the difference quickly. If you only sell engraved items, the 10W does the job and has a slightly finer spot."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "one-pass-8mm",
+      "title": "8 mm board in one pass",
+      "body": "Acmer's 20W parameter sheet lists 8 mm board at 120 mm/min in a single pass with air assist, and 5 mm at 300 mm/min."
+    },
+    {
+      "id": "faster-photo-fills",
+      "title": "Faster photo fills",
+      "body": "~12–18 min for a 10 × 10 cm filled photo in our benchmark, about a third less than the 10W on the same frame."
+    },
+    {
+      "id": "dark-acrylic-cuts",
+      "title": "Opaque acrylic within reach",
+      "body": "Black acrylic up to ~5 mm is practical (Acmer: 4 mm in 3 passes). Clear acrylic still needs a CO₂ laser."
+    }
+  ]
 }

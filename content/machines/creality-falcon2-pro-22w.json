@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "22W High-power diode with built-in air assist and color engraving gimmick",
-  "tldr": "Creality Falcon2 Pro 22W is the 22W SKU on the Creality creality falcon2 pro line. Creality's top open-frame diode at 60W combined (22W optical class). Verify optical power on the listing: do not assume combined-watt marketing.",
+  "tldr": "The 22W version of Creality's enclosed Falcon2 Pro: a Class 1 cabinet with air assist that engraves wood and leather cleanly and cuts thin plywood. The sensible entry point to an enclosed diode if you do not need fast thick cuts.",
   "bestFor": [
     "Faster cutting",
     "Thicker basswood",
@@ -14,10 +14,10 @@
     "Upgrade from 10W"
   ],
   "priceRange": {
-    "min": 699,
-    "max": 949,
+    "min": 899,
+    "max": 1599,
     "currency": "USD",
-    "note": "22W optical module: verify SKU before buying"
+    "note": "Official Creality store, Oct 2026: $899 to $1,599 depending on kit and 2W IR option"
   },
   "specs": {
     "power": "22W diode",
@@ -71,14 +71,14 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
-    "22W: the most cut-focused head in the Creality Falcon2 Pro line",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Class 1 enclosure with 360° see-through panels: no goggles in normal use",
+    "10 mm basswood in one pass, per Creality",
+    "Cheapest way into the Falcon2 Pro ($899 single unit, October 2026)"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slow fills at this power: about 17–26 min for a 10 × 10 cm photo in our benchmark",
+    "No fine-detail second module in the box at this tier",
+    "The enclosure takes more room than an open frame: plan a dedicated table"
   ],
   "beginnerNotes": "This profile is the 22W SKU on Creality Falcon2 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets: this head is optimized for throughput on wood, not only finesse.",
@@ -96,7 +96,7 @@
     "ortur-laser-master-3-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/creality-falcon2-pro-22w/01.webp",
   "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
   "images": [
@@ -124,5 +124,31 @@
   "editorialDepth": {
     "advantages": "Creality Falcon2 Pro 22W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
-  }
+  },
+  "faq": [
+    {
+      "question": "How thick can the Falcon2 Pro 22W cut?",
+      "answer": "Creality's European site rates the 22W module at 10 mm basswood in one pass; some resellers quote 15 mm, which we treat as optimistic. Our benchmark took about 9–14 min for a 10 × 10 cm square in 3 mm basswood, and dark acrylic up to about 5 mm works."
+    },
+    {
+      "question": "Falcon2 Pro 22W or 40W?",
+      "answer": "The 22W single unit was $899 on Creality's store in October 2026, the 40W (sold with a 1.6W fine-detail module) $1,349: $450 more. Take the 22W for engraving and occasional cuts up to 6 mm; take the 40W if you cut plywood or dark acrylic every week."
+    },
+    {
+      "question": "What does the Pro enclosure change compared with the open Falcon2?",
+      "answer": "The Falcon2 Pro is a Class 1 enclosed machine with see-through panels, so it runs without goggles in normal use and contains smoke for extraction. That costs about $300 more than the open Falcon2 22W ($899 single unit against $589 for the Falcon2 22W Basic Kit, October 2026)."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "class1-enclosed",
+      "title": "Enclosed and visible",
+      "body": "Class 1 certification with 360° see-through panels: you watch the job without goggles, and smoke stays inside for the exhaust."
+    },
+    {
+      "id": "entry-price-pro",
+      "title": "The entry Falcon2 Pro",
+      "body": "At $899 for the single unit (Creality store, October 2026), the 22W is the least expensive way to get the Falcon2 Pro enclosure."
+    }
+  ]
 }

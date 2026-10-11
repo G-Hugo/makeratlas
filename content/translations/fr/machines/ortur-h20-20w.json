@@ -12,20 +12,18 @@
     "Petites séries"
   ],
   "pros": [
-    "Choix H20 par défaut pour gravure mixte et découpe bois sur châssis série H",
-    "Châssis intégré plus abouti que les anciennes structures LM",
-    "Ligne modulaire : montées 40 W ou IR sur la même plateforme",
-    "Bon milieu de gamme Ortur entre LM2 budget et LM3 flagship",
-    "Prêt LightBurn sans budget CO₂"
+    "Pompe à air offerte dans le lot Ortur pour ce module",
+    "Surface de travail plus grande qu’avec le module le plus puissant : 420 × 300 mm selon Ortur",
+    "Découpe l’acrylique foncé de 3 mm et le tilleul jusqu’à 8 mm environ en plusieurs passes"
   ],
   "editorialDepth": {
     "advantages": "Le H20 20 W vise les fans d’Ortur qui veulent un châssis plus intégré que les open designs d’antan. Il équilibre cadeaux gravés et découpe légère si lunettes et extraction sont prises au sérieux.",
     "limitations": "Confusion fréquente sur les bundles : vérifiez le module optique. Règles Châssis ouvert. Pour recettes communautaires et rapport découpe/prix max, comparez quand même le LM3 20 W."
   },
   "cons": [
-    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Mise au point manuelle : seul le module H20 le plus puissant a l’autofocus",
+    "Remplissage à environ 16–42 mm/s dans nos tests : les photos restent lentes pour une machine fermée à ce prix",
+    "En rupture sur la boutique Ortur américaine en octobre 2026 : vérifiez la disponibilité"
   ],
   "materials": {
     "engrave": [
@@ -70,6 +68,37 @@
     },
     {
       "alt": "Graveuse laser Ortur H20 20W : Ortur"
+    }
+  ],
+  "faq": [
+    {
+      "question": "La H20 20 W est-elle livrée avec l’assistance d’air ?",
+      "answer": "Oui. L’offre 20 W d’Ortur comprend une pompe à air offerte ; elle était à 1 379 $ sur la boutique Ortur en octobre 2026, alors en rupture. Une version 20 W + 2 W IR était affichée à 1 988 $ pour qui veut aussi marquer le métal."
+    },
+    {
+      "question": "Que découpe la H20 20 W ?",
+      "answer": "Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 9 à 15 min. Le tilleul jusqu’à 8 mm environ est réaliste en plusieurs passes, tout comme l’acrylique foncé de 3 mm. Ortur présente ce module comme un équilibre entre gravure et découpe."
+    },
+    {
+      "question": "H20 20 W ou 40 W : laquelle choisir ?",
+      "answer": "La 40 W ajoute l’autofocus et découpe notre carré de 3 mm en 6 à 10 min environ, pour environ 530 $ de plus sur la boutique Ortur (1 909 $ contre 1 379 $). Sa surface de travail est aussi un peu plus petite (410 × 275 mm contre 420 × 300 mm selon Ortur). La 20 W reste le meilleur équilibre si vous gravez autant que vous découpez."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "h20-20w-balance",
+      "title": "Un module équilibré",
+      "body": "Découpe le tilleul de 3 mm en 9 à 15 min environ tout en gardant un point d’environ 0,09 × 0,10 mm pour la gravure."
+    },
+    {
+      "id": "h20-20w-air-pump",
+      "title": "Pompe à air fournie",
+      "body": "Ortur livre une pompe à air avec ce module : la découpe fonctionne dès le déballage."
+    },
+    {
+      "id": "h20-20w-area",
+      "title": "Surface complète de 420 × 300 mm",
+      "body": "Ortur indique une surface de travail plus grande avec ce module qu’avec la tête 40 W."
     }
   ]
 }

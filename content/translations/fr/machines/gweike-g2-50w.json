@@ -12,12 +12,40 @@
     "Lots"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 110 × 110 mm : validez vos formats avant achat"
+    "La gravure la plus profonde de la gamme G2 : environ 4,5 mm dans le laiton dans le test de deux heures de Gweike, jusqu'à 5 mm annoncés sur métal",
+    "Découpe le laiton de 0,5 mm en environ 4 passes à 10 mm/s (démonstration Gweike), la G2 la plus rapide pour les flans de bijoux",
+    "Livrée de série avec l'objectif 150 mm et le relevage électrique"
   ],
   "cons": [
-    "Fibre 50W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
+    "À 2 499 $, elle coûte à peu près le prix de certaines machines fibre split au châssis plus grand",
+    "Même châssis compact et même champ de 150 mm que les G2 moins chères : plus de puissance, pas plus de surface",
+    "Toujours Q-switch : pas de contrôle des couleurs MOPA malgré le prix plus élevé"
+  ],
+  "faq": [
+    {
+      "question": "Quelle profondeur de gravure pour la G2 Max 50 W ?",
+      "answer": "Gweike l'annonce jusqu'à 5 mm sur métal avec suffisamment de passes. Dans sa vidéo comparative, deux heures à 1 000 mm/s atteignent environ 4,5 mm dans le laiton, et une heure 3,2 mm dans l'ardoise. La profondeur par passe est bien plus faible : un relief demande de nombreuses passes répétées."
+    },
+    {
+      "question": "La 50 W peut-elle découper du laiton ou de l'argent fin pour les bijoux ?",
+      "answer": "En faible épaisseur, oui. La démonstration de Gweike découpe le laiton de 0,5 mm à 10 mm/s en 4 passes. Comptez plus de passes sur des métaux plus épais ou plus réfléchissants comme l'argent, et un bord qui peut demander une légère finition. Elle ne remplace pas une découpeuse de tôle."
+    },
+    {
+      "question": "La G2 Max vaut-elle 700 $ de plus que la G2 Pro ?",
+      "answer": "À 2 499 $ (boutique Gweike US, octobre 2026) contre 1 799 $ pour la Pro dans la même configuration 150 mm électrique, le supplément achète de la profondeur et moins de passes, pas plus de finesse ni de couleur. Il se justifie si vous découpez des flans ou gravez en profondeur chaque semaine ; pour le marquage de surface, la Pro fait le même travail."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g2-50w-deep-engraving",
+      "title": "De la gravure profonde dans une machine transportable",
+      "body": "Gweike annonce jusqu'à 5 mm sur métal pour la G2 Max. Son propre test atteint 4,5 mm dans le laiton après deux heures, plus du double des 2,1 mm de la G2 d'entrée, dans une machine d'environ 6,5 kg."
+    },
+    {
+      "id": "g2-50w-thin-cutting",
+      "title": "La G2 pratique pour les découpes fines",
+      "body": "Quatre passes pour traverser du laiton de 0,5 mm à 10 mm/s dans la démonstration de Gweike, contre sept sur la Pro et onze sur la G2 d'entrée. Pour les pendentifs, médailles et petites pièces en laiton, c'est l'écart entre un flux de travail utilisable et un flux fastidieux."
+    }
   ],
   "materials": {
     "engrave": [
@@ -37,7 +65,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 50W : vérifiez la référence avant achat"
+    "note": "Boutique officielle Gweike, oct. 2026 : 2 499 $ selon relevage électrique"
   },
   "specs": {
     "performance": {

@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Acmer P1 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "Le préréglage officiel Acmer grave le bois à 4 800 mm/min (55 % de puissance) : photos, logos et cuir n'ont pas besoin de plus",
+    "Le point le plus fin de la gamme P1 (~0,07 mm), pour des petits textes et des photos nets",
+    "L'entrée la moins chère dans le châssis P1 400 × 400 mm : 259–329 $, environ 70 $ de moins que la P1 plus puissante"
   ],
   "cons": [
-    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Découpe lente : la fiche 10 W d'Acmer donne le contreplaqué de 6 mm à 150 mm/min seulement, et un carré de 10 × 10 cm dans du tilleul de 3 mm prend ~9–15 min dans notre test",
+    "L'acrylique noir devient peu pratique au-delà de ~4 mm (70 mm/min selon les réglages Acmer)",
+    "Les machines neuves se font rares : en octobre 2026, la boutique Acmer ne proposait la P1 10 W qu'en reconditionné (229 $)"
   ],
   "materials": {
     "engrave": [
@@ -64,5 +63,36 @@
   "editorialDepth": {
     "advantages": "Acmer P1 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur l'Acmer P1 10 W peut-elle découper ?",
+      "answer": "La fiche de paramètres 10 W d'Acmer indique du contreplaqué de 2 mm à 360 mm/min, de 6 mm à 150 mm/min et de 7,5 mm à 120 mm/min, toujours à pleine puissance, ainsi que l'acrylique noir à 150 mm/min (2 mm) et 70 mm/min (4 mm). Le nombre de passes n'est pas précisé. En pratique, comptez 3–4 mm de tilleul comme confortable, et au-delà de 6 mm un travail lent en plusieurs passes avec assistance d'air."
+    },
+    {
+      "question": "La P1 10 W est-elle assez rapide pour graver des photos ?",
+      "answer": "Pour des cadeaux et de petites séries, oui. Dans notre test, une photo remplie de 10 × 10 cm sur contreplaqué de bouleau prend ~18–28 min, contre ~12–18 min sur la P1 20 W. Le préréglage bois d'Acmer pour ce module est de 4 800 mm/min à 55 % de puissance : en gravure, le laser est rarement le facteur limitant."
+    },
+    {
+      "question": "P1 10 W ou P1 20 W : laquelle choisir ?",
+      "answer": "Prenez la 10 W si vous gravez surtout (photos, cuir, ardoise, panneaux) et ne découpez que du carton ou du bois de 2–3 mm de temps en temps : elle coûte environ 70 $ de moins (259–329 $ contre 329–399 $). Prenez la 20 W si les pièces découpées font partie de ce que vous vendez. Acmer vend aussi le module 20 W seul (309 $ en octobre 2026), mais passer à la 20 W plus tard coûte plus cher que de l'acheter tout de suite."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "fine-spot-10w",
+      "title": "Point fin pour le détail",
+      "body": "Point de ~0,07 mm sur le module 10 W (contre ~0,08 mm sur la 20 W) : les petites lettres et le tramage des photos restent nets sur le cuir et le bois dur."
+    },
+    {
+      "id": "lowest-entry-p1",
+      "title": "Le prix d'entrée le plus bas du châssis P1",
+      "body": "259–329 $ pour le même châssis 400 × 400 mm que la 20 W, soit environ 70 $ de moins. Une machine reconditionnée coûtait 229 $ sur la boutique Acmer en octobre 2026."
+    },
+    {
+      "id": "module-upgrade-path",
+      "title": "Évolutive",
+      "body": "Acmer vend un module 20 W pour la P1 (309 $ en octobre 2026) : le châssis peut rester si la découpe devient votre activité principale."
+    }
+  ]
 }

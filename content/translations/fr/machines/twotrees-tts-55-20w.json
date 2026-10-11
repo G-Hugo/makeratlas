@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
+    "Tilleul jusqu'à 8 mm dans notre fiche, contre 5 mm avec le module 10 W",
+    "Environ un tiers plus rapide que la 10 W dans notre test : ~18–28 min pour une photo de 10 × 10 cm, ~9–15 min pour un carré en tilleul de 3 mm",
+    "TwoTrees vend toujours le module 20 W pour la TTS-55 (359 $, octobre 2026) : les pièces de rechange existent"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Plus lente que les 20 W récentes : remplissages à 12–31 mm/s et découpes à 2–3 mm/s dans nos tests",
+    "Fourchette de prix très large (159–433 $) : les annonces mélangent machines complètes, modules seuls et fins de stock",
+    "Châssis à 200 mm/s et plateau de 300 × 300 mm hérités de la conception TTS-55 d'origine"
   ],
   "materials": {
     "engrave": [
@@ -70,5 +70,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TTS-55 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
     "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Montée possible vers 40W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que change le module 20 W sur la TTS-55 ?",
+      "answer": "Surtout la profondeur et le temps de découpe. Notre fiche fait passer la limite de tilleul de 5 mm (10 W) à 8 mm, et notre test découpe le carré de 3 mm en ~9–15 min au lieu de ~14–24 min. Les photos passent de ~28–43 min à ~18–28 min."
+    },
+    {
+      "question": "Une TTS-55 20 W est-elle un meilleur achat qu'une 20 W récente ?",
+      "answer": "Seulement si elle est nettement moins chère. Le châssis TTS-55 est limité à 200 mm/s et à un plateau de 300 × 300 mm dans notre fiche, et nos vitesses de remplissage (12–31 mm/s) restent derrière les conceptions 20 W récentes. Au bas de sa fourchette de 159–433 $, c'est une bonne affaire ; vers le haut, une machine récente est plus logique."
+    },
+    {
+      "question": "TTS-55 20 W ou 40 W : laquelle choisir ?",
+      "answer": "La 20 W convient aux amateurs qui découpent jusqu'à environ 5 mm et gravent régulièrement. Les annonces 40 W (349–499 $) ramènent notre photo test à ~12–18 min et atteignent 10 mm de tilleul, mais vérifiez la provenance du module, car la boutique TwoTrees propose des modules 20 W pour la famille TTS, pas de 40 W."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "tts55-20w-depth",
+      "title": "8 mm de tilleul sur un châssis économique",
+      "body": "Notre fiche indique le tilleul jusqu'à 8 mm avec le module 20 W, en plusieurs passes près de la limite."
+    },
+    {
+      "id": "tts55-20w-spares",
+      "title": "Module toujours vendu",
+      "body": "TwoTrees propose le module 20 W pour la TTS-55 à 359 $ (octobre 2026), ce qui garde les réparations possibles sur un châssis ancien."
+    }
+  ]
 }

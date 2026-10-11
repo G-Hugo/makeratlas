@@ -69,14 +69,14 @@
     ]
   },
   "pros": [
-    "10W on Ortur H20: engraving-first: photo fills and leather at moderate speeds",
-    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Class 1 enclosure with lid lock, exhaust fan and emergency stop",
+    "Motorized lifting platform takes objects up to 98 mm tall",
+    "Fine ~0.08 × 0.09 mm spot for detailed engraving"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slow cutting: ~14–24 min for a 3 mm basswood 10 × 10 cm square in our benchmarks",
+    "Manual focus on this module; Ortur only autofocuses the top module",
+    "High price for the laser power: most of the cost is the enclosure"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Ortur H20. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts on basswood. If cut jobs exceed ~30% of your week, compare the 20W or 40W module profiles before upgrading.",
@@ -94,7 +94,7 @@
     "sculpfun-s10-10w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/ortur-h20-10w/01.webp",
   "modelLine": "ortur-h20",
   "powerRating": "10W",
@@ -151,5 +151,36 @@
     "advantages": "The 10W diode module on Ortur H20 is right when you mostly engrave wood, leather, and slate and should not pay for cut watts you will not use weekly. Same chassis, upgrade path later.",
     "limitations": "Skip this module if you cut 5 mm+ stock daily: open the 20W or 40W profile. Cast acrylic and bare metal without spray stay frustrating on diode."
   },
-  "releaseDate": "2023-10"
+  "releaseDate": "2023-10",
+  "faq": [
+    {
+      "question": "Why pay over $1,100 for a 10W enclosed machine?",
+      "answer": "You pay for the enclosure, not the cutting power: Ortur lists a Class 1 enclosure with a light-blocking viewing cover, exhaust fan, lid safety lock, emergency stop and a motorized lifting platform for objects up to 98 mm tall. Ortur's store listed the 10W at $1,109 in October 2026, but out of stock."
+    },
+    {
+      "question": "What can the H20 10W cut?",
+      "answer": "In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 14–24 min at 2–3 mm/s. Basswood up to about 5 mm and thin leather are possible in passes. Ortur describes this module as suited to light cutting, without thickness figures."
+    },
+    {
+      "question": "Start with the 10W and upgrade the module later?",
+      "answer": "The H20 takes interchangeable modules, so it is possible. Compare first: in October 2026 Ortur listed the 20W version at $1,379 with a free air pump and the 40W at $1,909. If you expect to cut weekly, the bundle gap may be cheaper than buying a second module later."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "h20-10w-class1",
+      "title": "Class 1 enclosure",
+      "body": "Lid safety lock, emergency stop, exhaust fan and a light-blocking viewing cover: usable in a shared room."
+    },
+    {
+      "id": "h20-10w-lift",
+      "title": "Motorized lifting platform",
+      "body": "The bed lowers for objects up to 98 mm tall, handy for boxes and thick blanks."
+    },
+    {
+      "id": "h20-10w-ir-combo",
+      "title": "Infrared combo available",
+      "body": "Ortur sells a 10W + 2W IR version ($1,748 in October 2026) for marking metal and plastics."
+    }
+  ]
 }

@@ -76,14 +76,14 @@
     ]
   },
   "pros": [
-    "One of the cheapest fully enclosed Class 1 lasers with auto-focus and a lifting bed",
-    "Same safety features as the 10W: lid interlock, flame detection, tilt sensor, USB safety key",
-    "Upgrade path: buy the 10W or 1.2W IR module later and swap it in without tools"
+    "Lowest entry price into a Class 1 enclosed laser here: $269 basic on Creality's store (October 2026)",
+    "Engraving on cork, leather and slate close in quality to the stronger version, just slower",
+    "The infrared module ($239) adds bare-stainless marking on the same mount"
   ],
   "cons": [
-    "Engraving-first: cutting stops at card and thin wood",
-    "150 × 150 mm bed limits you to small objects",
-    "Confirm the camera option at purchase: it cannot be added to the basic version"
+    "Cutting stops at card, felt and very thin wood",
+    "Slow fills: about 18–26 min for a 10 × 10 cm photo in our benchmark",
+    "150 × 150 mm bed limits you to small objects"
   ],
   "beginnerNotes": "This profile is the 5W SKU of the Falcon A1C. It makes sense if you only want to engrave small objects and keep the budget minimal. If you think you will cut ornaments or thin plywood shapes, the 10W costs $100 more and saves buying the module later ($139).",
   "proTips": "Keep cutting jobs to paper, card and felt; for wood, do several light passes with air flowing through the box. Use the cork and bamboo presets as a base and lower power before a full run. Run auto-focus before every job.",
@@ -102,16 +102,16 @@
   ],
   "faq": [
     {
-      "question": "Is 5W enough on the Falcon A1C?",
-      "answer": "For engraving, yes: cork, bamboo, leather, slate and plywood engrave cleanly. For cutting, it is limited to paper, card, felt and very thin wood. If cutting matters, take the 10W."
+      "question": "What can the Falcon A1C 5W cut?",
+      "answer": "Paper, card, felt and thin fabric reliably; about 2–3 mm basswood in several passes at best (our estimate). A 10 × 10 cm square in 3 mm basswood took about 12–18 min over several passes in our benchmark. Buy it to engrave."
     },
     {
-      "question": "Can I upgrade from 5W to 10W later?",
-      "answer": "Yes. Creality sells the 10W diode module for the A1C separately and the swap is tool-free. Buying the 10W machine upfront is cheaper than adding the module later."
+      "question": "A1C 5W or 10W: which one should I buy?",
+      "answer": "The 10W cost $100 more on Creality's store in October 2026 ($369 against $269 for the basic versions). It engraves wood faster and cuts up to about 5 mm basswood. Take the 5W for engraving coasters, tags and leather on a tight budget; take the 10W if you expect to cut ornaments or 3 mm shapes."
     },
     {
-      "question": "Is the Falcon A1C safe to use indoors?",
-      "answer": "The Class 1 enclosure blocks the beam and stops the laser when the lid opens, so no goggles are needed in normal use. Smoke still has to go somewhere: run the exhaust out of a window or use a purifier."
+      "question": "Is it cheaper to buy the 5W and add the 10W module later?",
+      "answer": "No. Creality sells the A1C 10W module for $139, so buying the 5W and upgrading costs $408, against $369 for the 10W machine. The upgrade only makes sense if you already own the 5W."
     }
   ],
   "accessories": [
@@ -136,7 +136,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-11",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/creality-falcon-a1c-5w/01.webp",
   "images": [
     {
@@ -191,5 +191,17 @@
   "editorialDepth": {
     "advantages": "The 5W A1C is the cheapest way into a properly enclosed laser with auto-focus. For personalised coasters, keyrings, leather patches and slate, the engraving quality is close to the 10W; jobs simply take longer.",
     "limitations": "Do not buy it to cut: beyond card and felt, thin wood needs several passes and 5 mm plywood is out of reach. The small bed and plastic build are shared with the 10W."
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "cheapest-class1",
+      "title": "Class 1 safety at the lowest price",
+      "body": "Lid interlock, flame detection, tilt sensor and USB safety key in a closed box, for $269 in its basic version (Creality store, October 2026)."
+    },
+    {
+      "id": "upgrade-later",
+      "title": "Modules swap without tools",
+      "body": "The A1C accepts other Creality modules on the same mount, including a 1.2W infrared head for bare stainless."
+    }
+  ]
 }

@@ -71,10 +71,9 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
-    "22W: the most cut-focused head in the Sculpfun S30 Ultra line",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Kit includes a 24V automatic air pump: cutting is ready out of the box",
+    "Fastest cut speeds of the S30 Ultra profiles we list: up to ~14 mm/s on 3–6 mm wood",
+    "Fills at ~80–160 mm/s for quick batches of signs and tags"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
@@ -82,8 +81,9 @@
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "$690 with LightBurn is a big step over the entry head for engraving-only buyers",
+    "Fire risk rises on long cutting runs: never leave a job unattended",
+    "Wider ~0.08 mm spot than the entry head, slightly softer on tiny text"
   ],
   "beginnerNotes": "This profile is the 22W SKU on Sculpfun S30 Ultra. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets: this head is optimized for throughput on wood, not only finesse.",
@@ -101,7 +101,7 @@
     "creality-falcon2-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/sculpfun-s30-ultra-22w/01.webp",
   "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
   "images": [
@@ -125,5 +125,36 @@
   "modelLine": "sculpfun-s30-ultra",
   "powerRating": "22W",
   "catalogPrimary": true,
-  "releaseDate": "2024-01"
+  "releaseDate": "2024-01",
+  "faq": [
+    {
+      "question": "What do I get for $690?",
+      "answer": "$689.99 is Sculpfun's price for the S30 Ultra 22W bundled with a LightBurn Core licence key; the machine alone was $539.99–569.99 on Sculpfun's store in October 2026. The kit lists a 24V automatic air pump, a laser shield and a laser repair kit, so it is ready to cut out of the box."
+    },
+    {
+      "question": "How thick can the S30 Ultra 22W cut?",
+      "answer": "In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 4–7 min, with cut speeds up to ~14 mm/s on 3–6 mm wood. Around 8 mm basswood and 5 mm dark acrylic are realistic with air assist. Thicker stock is where the 33W head starts to make sense."
+    },
+    {
+      "question": "22W or the 33W S30 Ultra?",
+      "answer": "Sculpfun prices the 33W at $769.99 alone ($859.99 with LightBurn), about $230 more than the 22W machine. The 22W suits mixed engraving and cutting up to about 8 mm; the 33W is for daily thicker cutting. We have not benchmarked the 33W on this site, so compare reviews before paying the difference."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s30u-22w-air-pump",
+      "title": "Air pump in the box",
+      "body": "Sculpfun's kit lists a 24V automatic air pump with the high-pressure metal nozzle, so cuts stay clean without extra purchases."
+    },
+    {
+      "id": "s30u-22w-cut-speed",
+      "title": "Strong diode cutting",
+      "body": "3 mm basswood squares in about 4–7 min in our benchmarks, with around 8 mm reachable in passes."
+    },
+    {
+      "id": "s30u-22w-head-upgrade",
+      "title": "Room to grow",
+      "body": "The 33W head ($609.99 alone in October 2026) fits the same frame, adapter and cable if you outgrow the 22W."
+    }
+  ]
 }

@@ -12,12 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "20W IR : marquage métal sur le même châssis que les autres modules",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 250 × 250 mm (approx.) : validez vos formats avant achat"
+    "Deux lasers : une diode bleue 20 W pour découper et un infrarouge 2 W pour le métal nu et les plastiques",
+    "Découpe 10 mm de tilleul et 8 mm d’acrylique noir selon Creality",
+    "Plus de capteurs de sécurité (détection de flamme, arrêt en cas de basculement, contrôle du flux d’air) et assistance d’air intégrée"
   ],
   "cons": [
-    "Nécessite le châssis complet : ce module seul ne remplace pas une machine dédiée"
+    "Environ deux fois le prix de l’A1 d’entrée (1 099 $ sur la boutique Creality, octobre 2026)",
+    "La présence du module infrarouge dépend du pack : vérifiez avant d’acheter",
+    "Les marquages infrarouges restent superficiels : ce n’est pas un laser fibre"
   ],
   "materials": {
     "engrave": [
@@ -76,5 +78,31 @@
   "editorialDepth": {
     "advantages": "L’A1 Pro 20 W convient si vous voulez enceinte et essais matériaux sans tarif xTool. L’IR ajoute du marquage impossible en diode seule.",
     "limitations": "Le petit plateau bloque les grandes enseignes. Logiciel et support en retrait de xTool. Découpe intense : ventilation malgré l’enceinte."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la Falcon A1 Pro peut-elle découper ?",
+      "answer": "La fiche de Creality, citée dans le test de CNX Software, indique 10 mm de tilleul et 8 mm d’acrylique noir ; au-delà, il faut plusieurs passes. Dans notre benchmark, un carré de 10 × 10 cm dans du tilleul de 3 mm a pris environ 4 à 7 min."
+    },
+    {
+      "question": "Qu’apporte le laser infrarouge 2 W ?",
+      "answer": "Le marquage de l’inox nu, d’autres métaux et de nombreux plastiques, ce que la diode bleue ne fait pas sans spray. Il sert aux marquages fins sur plaques, gobelets et outils, pas à la gravure profonde. L’annonce de Creality précise que la présence du module dépend du pack : vérifiez que la tête infrarouge est bien dans le kit que vous achetez."
+    },
+    {
+      "question": "A1 Pro ou A1 10 W : laquelle choisir ?",
+      "answer": "L’A1 Pro coûte environ deux fois plus cher (1 099 $ contre 549 $ sur la boutique Creality, octobre 2026). C’est le bon choix si vous avez besoin du marquage métal, de la mise au point automatique par IA sur des objets de hauteurs différentes ou de découpes de 6 à 10 mm. Pour graver des cadeaux sur bois et cuir, l’A1 10 W fait le travail pour moitié prix."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "dual-laser",
+      "title": "Diode et infrarouge dans un même caisson",
+      "body": "La diode 20 W découpe et grave le bois, le cuir et l’acrylique foncé ; la tête infrarouge 2 W marque les métaux nus et les plastiques dans le même boîtier."
+    },
+    {
+      "id": "ai-autofocus",
+      "title": "Mise au point visuelle par IA",
+      "body": "La mise au point visuelle de Creality règle la hauteur focale pour chaque objet, ce qui évite de mesurer à la main quand vous gravez des pièces d’épaisseurs différentes."
+    }
+  ]
 }

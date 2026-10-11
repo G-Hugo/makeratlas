@@ -95,7 +95,7 @@
     "ortur-laser-master-3",
     "algolaser-alpha-mk2"
   ],
-  "status": "archived",
+  "status": "published",
   "lastUpdated": "2026-06-01",
   "images": [
     {
@@ -104,5 +104,6 @@
     }
   ],
   "modelLine": "nubur-n4060",
-  "powerRating": "40W"
+  "powerRating": "40W",
+  "discontinued": {}
 }

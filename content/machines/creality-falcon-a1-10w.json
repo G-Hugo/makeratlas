@@ -69,13 +69,14 @@
     ]
   },
   "pros": [
-    "10W on Creality Falcon A1: engraving-first: photo fills and leather at moderate speeds",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Arrives fully assembled, with a built-in HD camera for placing designs on objects",
+    "Class 1 enclosure: no goggles needed in normal use, and the laser stops when the lid opens",
+    "Lowest price of the A1 family ($549 on Creality's store, October 2026)"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Cutting is limited to thin wood and about 5 mm dark acrylic",
+    "Fills are slow at this power: about 12–18 min for a 10 × 10 cm photo in our benchmark",
+    "The enclosure contains smoke but does not remove it: an exhaust hose or purifier is still needed"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Creality Falcon A1. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -93,7 +94,7 @@
     "atomstack-p1"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/creality-falcon-a1-10w/01.webp",
   "modelLine": "creality-falcon-a1",
   "powerRating": "10W",
@@ -113,5 +114,31 @@
   "editorialDepth": {
     "advantages": "Creality Falcon A1 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Enclosed format is easier to live with at home.",
     "limitations": "Skip if you already quote 4 mm+ cutting in production: see 20W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "What can the Falcon A1 10W cut?",
+      "answer": "Retailer spec sheets list about 5–6 mm basswood and around 5 mm black acrylic in one pass. Our materials list is more cautious and treats thin basswood in several passes as the comfortable range. A 10 × 10 cm square in 3 mm basswood took about 6–11 min in our benchmark."
+    },
+    {
+      "question": "Falcon A1 10W or A1 Pro 20W?",
+      "answer": "The A1 10W ($549 on Creality's store, October 2026) suits engraving gifts, with the built-in camera for placement. The A1 Pro ($1,099) doubles the diode power, adds a 2W infrared laser for bare metal and plastics, and cuts about 10 mm basswood per Creality's spec. Pay the $550 difference only for metal marking or regular thick cuts."
+    },
+    {
+      "question": "Bare unit, Basic kit or All-in-One kit?",
+      "answer": "In October 2026 Creality listed the bare A1 10W at $549, the Basic kit at $599 and the All-in-One kit at $699. The kits add accessories whose contents vary by listing, so compare them with what you already own (exhaust, air purifier, materials) before paying the extra $50–$150."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "camera-placement",
+      "title": "Camera placement out of the box",
+      "body": "The built-in HD camera previews the bed, so you drag the design onto the object on screen instead of framing it by hand."
+    },
+    {
+      "id": "assembled-class1",
+      "title": "Assembled and Class 1",
+      "body": "The A1 ships pre-assembled in a closed Class 1 body with a lid interlock, which makes it one of the simplest ways to start engraving safely indoors."
+    }
+  ]
 }

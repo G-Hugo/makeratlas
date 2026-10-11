@@ -71,13 +71,14 @@
     ]
   },
   "pros": [
-    "5W on Sculpfun iCube Pro: engraving-first: photo fills and leather at moderate speeds",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Finest focus of the iCube range: 0.06 mm according to Sculpfun",
+    "Built-in smoke filtration and a detachable acrylic eye shield make desk use easier",
+    "Low heat and smoke: comfortable for coasters, tags and leather patches indoors"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slow cutting: 3 mm basswood runs at about 2–3 mm/s in our benchmarks",
+    "Photo fills of ~21–44 mm/s mean long jobs on anything larger than a coaster",
+    "Small working area limits it to tags, coasters and small panels"
   ],
   "beginnerNotes": "This profile is the 5W SKU on Sculpfun iCube Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
@@ -95,7 +96,7 @@
     "xtool-s1-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/sculpfun-icube-pro-5w/01.webp",
@@ -122,5 +123,36 @@
   "editorialDepth": {
     "advantages": "Sculpfun iCube Pro 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Enclosed format is easier to live with at home.",
     "limitations": "Skip if you already quote 3 mm+ cutting in production: see 10W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "What can the iCube Pro 5W actually cut?",
+      "answer": "Sculpfun claims up to 10 mm of soft board and 6 mm of acrylic, which are multi-pass maxima on dark material. In our benchmarks it cuts 3 mm basswood at about 2–3 mm/s, so a 10 × 10 cm square takes 9–15 min. Treat 3 mm as the comfortable limit and keep clear acrylic off the list."
+    },
+    {
+      "question": "How long does a photo engraving take on the 5W?",
+      "answer": "Sculpfun rates the machine at 10,000 mm/min (about 167 mm/s) maximum, but real photo fills in our tests run at roughly 21–44 mm/s. A 10 × 10 cm photo on birch plywood therefore takes about 18–28 min. Text and logos on small items such as coasters or tags go much faster."
+    },
+    {
+      "question": "iCube Pro 5W or iCube Pro Max 10W?",
+      "answer": "Choose the 5W for engraving small objects at a desk: its 0.06 mm focus is finer than the 0.08 mm of the 10W, and it costs about $100–150 less on our tracked listings ($349–499 against $449–649). Choose the 10W if you plan to cut 3–5 mm wood regularly."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "icube-5w-fine-focus",
+      "title": "0.06 mm focus",
+      "body": "Sculpfun quotes a 0.06 mm focus for the 5W module, the finest in the iCube range, which suits small text and fine line art."
+    },
+    {
+      "id": "icube-5w-smoke-filter",
+      "title": "Smoke filter built in",
+      "body": "The iCube carries its own smoke filtration and an acrylic eye shield, useful in a room without a window exhaust."
+    },
+    {
+      "id": "icube-5w-lens",
+      "title": "Replaceable lens",
+      "body": "The laser head accepts a replacement lens, so a dirty or damaged lens does not mean a new module."
+    }
+  ]
 }

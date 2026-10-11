@@ -12,18 +12,14 @@
     "Semaines découpe"
   ],
   "pros": [
-    "80 W et plateau ~2,3× P2S : vraie marge production",
-    "Automatisation ACS : caméras, focus LiDAR, imbrication IA, remplissage série",
-    "Enceinte classe 1, détection/extinction incendie, refroidisseur intégré",
-    "Module IR optionnel pour métal vs acheter une fibre séparée",
-    "Option convoyeur pour matériaux longs"
+    "Découpe l’acrylique transparent et coloré, ce qu’aucune machine à diode ne sait faire",
+    "Grand plateau de 915 × 458 mm pour les plaques entières et la production en série",
+    "Refroidisseur et extinction d’incendie intégrés, au lieu des équipements séparés d’un CO₂ classique"
   ],
   "cons": [
-    "Prix premium : plusieurs fois une bonne diode",
-    "Lourde ; espace dédié et évacuation puissante requis",
-    "Entretien et remplacement tube CO₂",
-    "Accessoires (convoyeur, AutoLift, IR) augmentent le coût total",
-    "Excessif si vous gravez seulement petits cadeaux"
+    "Environ 6 999 $ la machine seule : un achat professionnel plutôt qu’un achat de loisir",
+    "Une évacuation vers l’extérieur est indispensable pour découper régulièrement",
+    "Le tube en verre est un consommable : prévoyez son remplacement au fil des années"
   ],
   "materials": {
     "engrave": [
@@ -91,5 +87,36 @@
         "label": "Module IR 5 W (optionnel)"
       }
     ]
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la xTool P3 peut-elle découper ?",
+      "answer": "xTool annonce jusqu’à environ 25 mm d’acrylique et 20 mm de tilleul, ce qui suppose en général plusieurs passes aux épaisseurs maximales. Dans notre benchmark, un carré de 10 × 10 cm dans de l’acrylique de 3 mm a pris environ 1 à 2 min, à 20-50 mm/s. Contrairement à une diode, le tube CO₂ de 80 W découpe aussi l’acrylique transparent."
+    },
+    {
+      "question": "Combien coûte la xTool P3 ?",
+      "answer": "La machine seule était affichée autour de 6 999 $ aux États-Unis en 2026 (revendeurs et test de Tom’s Hardware). Les packs avec chargeur à convoyeur, AutoLift et module IR montent à environ 10 459 $. Prévoyez en plus une évacuation vers l’extérieur et, au fil des années, un tube de remplacement."
+    },
+    {
+      "question": "P3 seule ou avec le module IR 5 W ?",
+      "answer": "Prenez la P3 seule si vous travaillez le bois, l’acrylique, le cuir et le métal revêtu. Ajoutez le module IR seulement si le marquage d’inox ou d’aluminium nu est un travail payé régulier : le tube CO₂ ne marque pas le métal nu, alors que le module IR le fait sur le même plateau sans seconde machine, pour environ 1 299 à 1 899 $ selon le pack."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "clear-acrylic",
+      "title": "Découpe l’acrylique transparent",
+      "body": "La longueur d’onde du CO₂ 80 W est absorbée par l’acrylique transparent : la P3 découpe les plaques transparentes avec des bords polis, ce que les lasers à diode ne savent pas faire."
+    },
+    {
+      "id": "built-in-chiller",
+      "title": "Refroidisseur et extinction intégrés",
+      "body": "Le refroidissement et l’extinction d’incendie font partie de la machine : pas de refroidisseur à eau séparé à acheter et à raccorder."
+    },
+    {
+      "id": "full-sheet-bed",
+      "title": "Plateau de 915 × 458 mm",
+      "body": "Le plateau de 36 × 18 pouces accepte de grandes plaques et des séries de petites pièces en un seul travail."
+    }
+  ]
 }

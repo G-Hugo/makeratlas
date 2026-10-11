@@ -79,13 +79,14 @@
     ]
   },
   "pros": [
-    "Strong on acrylic and wood versus diodes on the same budget tier",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "Cuts clear and coloured acrylic, which no diode machine can do",
+    "Large 915 × 458 mm bed for full sheets and batch production",
+    "Integrated chiller and fire suppression replace kit a CO₂ setup normally needs separately"
   ],
   "cons": [
-    "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
-    "Tube life and replacement cost are part of the true ownership budget"
+    "Base unit around $6,999: a business purchase rather than a hobby one",
+    "Ducting to the outside is required for regular cutting",
+    "The glass tube is a consumable: budget its replacement over the years"
   ],
   "beginnerNotes": "This profile is the 80W SKU on xTool P3. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Plan exhaust before delivery. Run material tests on the full bed: large beds need focus calibration at corners. Price the IR module only if metal is a regular revenue line.",
@@ -107,7 +108,7 @@
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-p3/01.webp",
   "images": [
     {
@@ -154,5 +155,36 @@
     "infrared"
   ],
   "tierEditorialOverride": true,
-  "releaseDate": "2025-08"
+  "releaseDate": "2025-08",
+  "faq": [
+    {
+      "question": "How thick can the xTool P3 cut?",
+      "answer": "xTool claims up to about 25 mm acrylic and 20 mm basswood, which at the top end usually means several passes. In our benchmark a 10 × 10 cm square in 3 mm acrylic took about 1–2 min, at 20–50 mm/s. Unlike a diode, the 80W CO₂ tube also cuts clear acrylic."
+    },
+    {
+      "question": "How much does the xTool P3 cost?",
+      "answer": "The base unit listed at about $6,999 in the US in 2026 (retailers and Tom's Hardware's review). Bundles with the conveyor feeder, AutoLift and the IR module reach about $10,459. Budget extra for ducting to the outside and, over the years, a replacement tube."
+    },
+    {
+      "question": "P3 alone or with the 5W IR module?",
+      "answer": "Take the P3 alone if your work is wood, acrylic, leather and coated metal. Add the IR module only if bare stainless or aluminium marking is recurring paid work: the CO₂ tube cannot mark bare metal, while the IR module does it on the same bed without a second machine, for roughly $1,299 to $1,899 depending on the bundle."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "clear-acrylic",
+      "title": "Cuts clear acrylic",
+      "body": "The 80W CO₂ wavelength is absorbed by clear acrylic, so the P3 cuts transparent sheet with polished edges, a job diode lasers cannot do."
+    },
+    {
+      "id": "built-in-chiller",
+      "title": "Chiller and fire suppression built in",
+      "body": "The cooling and fire suppression are part of the machine, so there is no separate water chiller to buy and plumb."
+    },
+    {
+      "id": "full-sheet-bed",
+      "title": "915 × 458 mm bed",
+      "body": "The 36 × 18 in bed takes large sheets and batches of small parts in one job."
+    }
+  ]
 }

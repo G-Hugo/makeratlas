@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur TwoTrees TTS-55 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
+    "La configuration TTS-55 la moins chère capable de vraies découpes : 179–279 $",
+    "Tilleul jusqu'à 5 mm dans notre fiche, contre des matériaux fins sur la machine 5 W d'origine",
+    "Le point le plus fin de la gamme TTS-55 dans notre fiche (~0,08 mm)"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W ou 40W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Photos lentes dans notre test : ~28–43 min pour une photo de 10 × 10 cm, à 3–8 mm/s",
+    "Découper un carré de 10 × 10 cm dans du tilleul de 3 mm prend ~14–24 min",
+    "Châssis plus ancien et dépouillé (selon le test de Tom's Hardware), avec un plateau de 300 × 300 mm"
   ],
   "materials": {
     "engrave": [
@@ -71,5 +70,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TTS-55 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W ou 40W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que vaut la TTS-55 10 W face à la TTS-55 5 W d'origine ?",
+      "answer": "La TTS-55 est sortie avec un laser de 5 W ; le test de Tom's Hardware a montré qu'elle découpait quand même du contreplaqué léger de 8 mm avec de la patience. Le module 10 W double environ la puissance sur le même châssis de 300 × 300 mm, et notre fiche retient le tilleul jusqu'à 5 mm comme limite pratique."
+    },
+    {
+      "question": "La TTS-55 10 W est-elle assez rapide pour des commandes de gravure ?",
+      "answer": "Pour des commandes occasionnelles, oui ; pour du volume, non. Notre test donne ~28–43 min pour une photo remplie de 10 × 10 cm, contre ~18–28 min avec le module 20 W. Le texte et le dessin au trait vont beaucoup plus vite que les photos remplies."
+    },
+    {
+      "question": "Faut-il acheter la 10 W ou passer directement à la 20 W ?",
+      "answer": "Si votre budget s'arrête vers 200 $, la 10 W (179–279 $) est une machine d'initiation correcte. TwoTrees vend un module 20 W pour la TTS-55 à 359 $ (octobre 2026) : si la découpe compte, une machine livrée d'emblée en 20 W revient moins cher qu'une évolution plus tard."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "tts55-10w-budget",
+      "title": "Petit budget, vraie découpe",
+      "body": "179–279 $ pour une diode de 10 W sur le châssis TTS-55 de 300 × 300 mm, avec du tilleul jusqu'à 5 mm dans notre fiche."
+    },
+    {
+      "id": "tts55-10w-spot",
+      "title": "Le point le plus fin de la gamme",
+      "body": "Point de ~0,08 mm dans notre fiche, le plus serré des versions TTS-55, adapté au texte et au trait."
+    }
+  ]
 }

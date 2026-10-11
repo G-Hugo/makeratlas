@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
+    "Découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en 4 à 7 min dans nos benchmarks",
+    "Remplissage à environ 67–134 mm/s : une photo de 10 × 10 cm en 7 à 12 min",
+    "Découpe l’acrylique foncé jusqu’à 5 mm environ"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (22W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Appellation floue sur beaucoup d’annonces : vérifiez la référence de la tête et la puissance optique",
+    "Plus de brûlure que la tête d’entrée sur le bois fin : l’assistance d’air devient nécessaire",
+    "Point plus large d’environ 0,08 mm : le détail photo le plus fin est un peu moins net qu’avec la tête d’entrée"
   ],
   "materials": {
     "engrave": [
@@ -72,5 +72,36 @@
   "editorialDepth": {
     "advantages": "Sculpfun S30 Ultra 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
     "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Montée possible vers 22W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
-  }
+  },
+  "faq": [
+    {
+      "question": "Sculpfun vend-elle vraiment une S30 Ultra 20 W ?",
+      "answer": "La boutique Sculpfun liste la S30 Ultra avec des têtes de 11, 22 et 33 W. Une annonce « S30 Ultra 20 W » est en général une appellation de revendeur pour l’une de ces têtes, ou une confusion avec la S30 Pro Max 20 W, un autre modèle. Vérifiez la référence de la tête et la puissance optique sur l’annonce avant de payer."
+    },
+    {
+      "question": "Que découpe cette configuration ?",
+      "answer": "Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 4 à 7 min à 5–11 mm/s. Le tilleul jusqu’à 8 mm environ est réaliste en plusieurs passes avec assistance d’air, et l’acrylique foncé jusqu’à 5 mm environ. L’acrylique transparent reste hors de portée, comme sur toute diode."
+    },
+    {
+      "question": "Cette configuration ou la S30 Ultra 22 W ?",
+      "answer": "Nos benchmarks sont proches pour les deux : les mêmes 4 à 7 min pour un carré de 3 mm, avec des vitesses de découpe un peu plus élevées pour la 22 W (jusqu’à 14 mm/s environ contre 11). Sur les annonces suivies, celle-ci coûte 450 à 650 $ contre 690 $ pour le lot 22 W avec LightBurn : prenez la référence officielle la moins chère une fois la pompe à air comprise."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s30u-mid-cutting",
+      "title": "Une vitesse taillée pour la découpe",
+      "body": "Carrés de 3 mm de tilleul en 4 à 7 min environ dans nos benchmarks, à peu près deux fois plus vite que la tête d’entrée."
+    },
+    {
+      "id": "s30u-mid-acrylic",
+      "title": "Acrylique foncé jusqu’à 5 mm environ",
+      "body": "Assez de puissance pour les enseignes et incrustations en acrylique noir ou coloré, difficiles pour la tête d’entrée."
+    },
+    {
+      "id": "s30u-mid-shared-frame",
+      "title": "Cadre S30 Ultra commun",
+      "body": "Même cadre, même alimentation et même câble que les autres têtes S30 Ultra : pièces et accessoires sont interchangeables."
+    }
+  ]
 }

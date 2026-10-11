@@ -69,13 +69,14 @@
     ]
   },
   "pros": [
-    "5W on Atomstack A5 Pro: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Cheapest way into the A5 Pro frame: $199–299, often less used",
+    "Large 410 × 400 mm bed for a 5W-class machine",
+    "Enough for engraving wood, leather and coated surfaces at hobby pace"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Atomstack's '40W' label on the A5 Pro is electrical input: its spec lists 5–5.5W optical output",
+    "Cutting tops out around 3 mm basswood; owners report 2 mm plywood at 250 mm/min in one pass and 3 mm needing 2–3 passes",
+    "Very slow fills: ~28–43 min for our 10 × 10 cm photo test"
   ],
   "beginnerNotes": "This profile is the 5W SKU on Atomstack A5 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
@@ -91,7 +92,7 @@
     "ortur-laser-master-3"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/atomstack-a5-pro-5w/01.webp",
   "mainObjective": "Detailed engraving on organics and coated metal: occasional thin cuts only",
   "images": [
@@ -119,5 +120,31 @@
     "advantages": "Atomstack A5 Pro 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 3 mm+ cutting in production: see 10W or 20W in the line. Not for cast acrylic or bare metal without spray."
   },
-  "discontinued": {}
+  "discontinued": {},
+  "faq": [
+    {
+      "question": "Is the Atomstack A5 Pro 5W really a 40W laser?",
+      "answer": "No. Atomstack marketed the A5 Pro as '40W', which is electrical input; its own spec gives 5–5.5W of optical output. Compare machines on optical power only: by that measure this is an entry-level engraver, not a cutter."
+    },
+    {
+      "question": "What can the A5 Pro 5W cut?",
+      "answer": "Thin material only. A LightBurn forum owner reports 2 mm plywood at 250 mm/min and 100% power in one pass, and expects 3 mm to take 2–3 passes. Our profile caps basswood at 3 mm, and a 10 × 10 cm square in 3 mm basswood takes ~14–24 min in our benchmark."
+    },
+    {
+      "question": "The A5 Pro is discontinued: should I still buy one?",
+      "answer": "Only as a cheap used starter or remaining stock, ideally under $200. The A5 Pro is no longer a current Atomstack model, so check the module and power supply before paying. If you plan to cut 3 mm wood regularly, the 10W tier or a current 10W machine is a better first buy."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "lowest-price-a5",
+      "title": "Lowest price of the line",
+      "body": "$199–299 in our range and less on the used market, for a 410 × 400 mm engraving bed."
+    },
+    {
+      "id": "learning-machine-a5",
+      "title": "A low-risk learning machine",
+      "body": "At 5W-class optical power, mistakes cost little: a sensible way to learn LightBurn, focus and material tests before buying bigger."
+    }
+  ]
 }

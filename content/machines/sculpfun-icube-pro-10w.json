@@ -71,13 +71,14 @@
     ]
   },
   "pros": [
-    "10W on Sculpfun iCube Pro Max: engraving-first: photo fills and leather at moderate speeds",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Cuts 3 mm basswood about twice as fast as the lower-power iCube in our benchmarks",
+    "Filled engraving at ~75–160 mm/s: coasters and tags finish quickly",
+    "Same compact footprint, smoke filtration and eye shield as the rest of the iCube range"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Wider 0.08 mm focus: very small text is slightly softer than on the finest iCube",
+    "Long cutting runs produce more smoke than the built-in filter handles comfortably",
+    "Small working area caps panel size whatever the laser power"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Sculpfun iCube Pro Max. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -95,7 +96,7 @@
     "xtool-s1-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/sculpfun-icube-pro-10w/01.webp",
@@ -121,5 +122,36 @@
   "editorialDepth": {
     "advantages": "Sculpfun iCube Pro Max 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Enclosed format is easier to live with at home.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Is the iCube Pro 10W the same as the iCube Pro Max?",
+      "answer": "Yes. Sculpfun sells the 10W version as the iCube Pro Max: a 10W diode with a 0.08 mm focus and the same 10,000 mm/min maximum speed as the 5W model. Sculpfun also sells it in a bundle with a LightBurn Core licence key, so compare bundles before comparing prices."
+    },
+    {
+      "question": "How thick can the iCube Pro 10W cut?",
+      "answer": "In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 6–10 min at 4–12 mm/s. Basswood up to about 5 mm is realistic in a few passes, thin black acrylic works, clear acrylic does not. The small bed is the bigger limit for cut projects."
+    },
+    {
+      "question": "When is the 10W worth it over the iCube Pro 5W?",
+      "answer": "As soon as cutting is more than occasional: it roughly halves 3 mm cut times (6–10 min against 9–15 min) and fills faster, for about $100–150 more on our tracked listings. If you only engrave small text and photos, the 5W's finer 0.06 mm focus is a real argument."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "icube-10w-light-cutting",
+      "title": "Real light cutting in a compact unit",
+      "body": "3 mm basswood squares in about 6–10 min in our benchmarks, rare for a machine this small."
+    },
+    {
+      "id": "icube-10w-fast-batches",
+      "title": "Quick small batches",
+      "body": "Fills of roughly 75–160 mm/s make series of tags, coasters and keychains fast."
+    },
+    {
+      "id": "icube-10w-lightburn",
+      "title": "LightBurn bundle available",
+      "body": "Sculpfun sells a version with a LightBurn Core licence key, handy if you plan to work in LightBurn from day one."
+    }
+  ]
 }

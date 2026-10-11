@@ -4,7 +4,7 @@
   "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "primaryUse": "Module 5W · Sculpfun S9",
   "beginnerNotes": "Ce profil décrit le SKU 5W de Sculpfun S9. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
+  "proTips": "Optimisez pour la gravure : DPI plus bas sur les photos, vitesse de balayage plus élevée sur le dessin au trait, après des essais sur chutes. L’assistance d’air améliore encore la netteté. Comparez les temps de benchmark de la puissance supérieure avant de conclure qu’il vous en faut plus.",
   "bestFor": [
     "Gravure fine",
     "Photo et logo",
@@ -12,15 +12,14 @@
     "Première machine"
   ],
   "pros": [
-    "5W sur Sculpfun S9 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
+    "Prix d’entrée le plus bas sur le cadre S9 : 199 à 299 $ sur les annonces suivies, souvent moins d’occasion",
+    "Point fin d’environ 0,09 mm : les petits textes et le dessin au trait restent nets sur bois et cuir",
+    "Peu de chaleur et de fumée en gravure, facile à gérer dans une petite pièce"
   ],
   "cons": [
-    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (10W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "La découpe plafonne vers 3 mm de tilleul ; au-delà, il faut plusieurs passes lentes",
+    "Remplissage photo à environ 16–38 mm/s : une photo de 10 × 10 cm prend 18 à 28 min",
+    "Modèle arrêté : la plupart des machines se vendent d’occasion ou reconditionnées, la garantie dépend du vendeur"
   ],
   "materials": {
     "engrave": [
@@ -71,5 +70,36 @@
   "editorialDepth": {
     "advantages": "Sculpfun S9 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série : regardez 10W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "La Sculpfun S9 5 W vaut-elle encore le coup d’occasion ?",
+      "answer": "Sculpfun met désormais en avant les gammes S10 et S30 : la S9 s’achète surtout d’occasion ou reconditionnée (la boutique Sculpfun affichait une S9 reconditionnée à 129,99 $ en octobre 2026). Cette fiche correspond à la S9 d’origine, équipée d’une diode de 5,5 W optiques. Vérifiez les heures du module, l’état de la lentille et l’équerrage du cadre, et méfiez-vous au-delà de 150 à 200 $ pour une machine d’occasion."
+    },
+    {
+      "question": "Quelle épaisseur la S9 5 W peut-elle découper ?",
+      "answer": "L’annonce d’origine de Sculpfun parlait de 15 mm de bois et 10 mm d’acrylique noir, mais ces chiffres demandent de nombreuses passes lentes. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 9 à 15 min à 2–3 mm/s : 3 mm est la limite pratique pour une découpe propre. L’acrylique transparent ne se découpe pas."
+    },
+    {
+      "question": "S9 5 W ou S9 10 W : laquelle me correspond ?",
+      "answer": "Prenez la 5 W si vous gravez surtout des panneaux en bois, du cuir et de l’ardoise et voulez le prix le plus bas (199 à 299 $ sur les annonces suivies, contre 299 à 449 $ pour la 10 W). Prenez la 10 W si vous découpez souvent du contreplaqué de 3 à 5 mm : elle remplit à environ 60–140 mm/s dans nos tests contre 16–38 mm/s, donc les photos se terminent aussi plusieurs fois plus vite."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s9-5w-fine-detail",
+      "title": "Du détail pour le prix",
+      "body": "Point d’environ 0,09 mm dans notre profil de test : petites lettres, dessin au trait et marquage du cuir restent nets."
+    },
+    {
+      "id": "s9-5w-low-cost",
+      "title": "Une façon économique d’apprendre",
+      "body": "Les machines reconditionnées étaient à 129,99 $ sur la boutique Sculpfun en octobre 2026 : de quoi apprendre LightBurn ou LaserGRBL avant d’investir plus."
+    },
+    {
+      "id": "s9-5w-spare-module",
+      "title": "Module de rechange toujours vendu",
+      "body": "Sculpfun proposait encore un module laser S9 de rechange (169,99 $) en octobre 2026 : une diode usée sur une machine d’occasion peut être remplacée."
+    }
+  ]
 }

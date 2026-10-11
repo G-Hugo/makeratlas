@@ -16,10 +16,10 @@
     "Batch runs"
   ],
   "priceRange": {
-    "min": 3199,
-    "max": 4499,
+    "min": 3530,
+    "max": 3850,
     "currency": "USD",
-    "note": "50W optical module: verify SKU before buying"
+    "note": "Official Monport store, Oct 2026: $3,530 to $3,850 depending on bundle"
   },
   "specs": {
     "power": "50W fiber",
@@ -68,12 +68,40 @@
     ]
   },
   "pros": [
-    "Fiber marks metal: does not cut wood or acrylic",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "Largest field in the GT line: 200 × 200 mm, per Monport's spec table",
+    "1.25 mJ pulse energy, about 65% more than the entry GT",
+    "Same 0.10 mm listed marking depth as the GT 60W MOPA for about $1,100 less"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic: metal marking workflows only",
-    "Fume extraction still matters for coated metals and marking sprays"
+    "No colour marking: fixed 100–140 ns pulse from a Q-switched source",
+    "Beam quality listed at M² below 1.8, slightly looser than the entry GT's below 1.5",
+    "Pre-order and in-stock prices differ ($3,529.99 vs $3,599.99 in October 2026): check shipping dates"
+  ],
+  "faq": [
+    {
+      "question": "What does the GT 50W add over the GT 30W?",
+      "answer": "Pulse energy and field size. Monport lists 1.25 mJ per pulse (0.75 mJ on the GT 30W), a wider 20–80 kHz frequency range, a 200 × 200 mm engraving area and a maximum marking depth of 0.10 mm. In our benchmark, a filled 10 × 10 cm logo on stainless takes about 3–8 minutes, against 4–11 on the 30W."
+    },
+    {
+      "question": "Can the GT 50W cut thin sheet metal?",
+      "answer": "Monport claims cuts on thin metals under 3 mm for the GT series but publishes no per-model chart. The extra pulse energy makes multi-pass cut-outs in thin brass, stainless or aluminum quicker than on the 30W; expect many passes as you approach the top of that range, and use a dedicated fiber cutter for regular sheet work."
+    },
+    {
+      "question": "GT 50W or GT 60W MOPA?",
+      "answer": "The GT 50W costs $3,529.99–3,599.99 on Monport's store (October 2026), about $1,100 less than the GT 60W MOPA at $4,699.99. Both list 0.10 mm marking depth. Pay for the MOPA only if you need colour on stainless or finer pulse control for plastics and anodized aluminum; for black marking and depth, the 50W is the better value."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gt50-wide-field",
+      "title": "200 × 200 mm field",
+      "body": "Monport fits the GT 50W with the largest lens of the GT range. More parts per batch on a fixture plate, or larger plaques in one pass without stitching."
+    },
+    {
+      "id": "gt50-pulse-energy",
+      "title": "More energy per pulse",
+      "body": "1.25 mJ per pulse against 0.75 mJ on the GT 30W, with a 20–80 kHz frequency range. Deeper logos and multi-pass cut-outs finish faster, at the same 10,000 mm/s top speed."
+    }
   ],
   "beginnerNotes": "This profile is the 50W SKU on Monport GT Fiber. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work: it slows flat-stock days.",
@@ -90,7 +118,7 @@
     "commarker-b6-mopa-30w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/monport-gt-50w-fiber/01.webp",
   "images": [
     {

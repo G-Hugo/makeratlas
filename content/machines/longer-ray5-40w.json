@@ -14,10 +14,10 @@
     "Cut-heavy weeks"
   ],
   "priceRange": {
-    "min": 449,
-    "max": 649,
+    "min": 680,
+    "max": 950,
     "currency": "USD",
-    "note": "40W optical module: verify SKU before buying"
+    "note": "Official Longer store, Oct 2026: $680 to $950 depending on bundle"
   },
   "specs": {
     "power": "40W diode",
@@ -70,14 +70,14 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
-    "40W: the most cut-focused head in the Longer Ray5 line",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Redesigned frame with 15 mm industrial rail and 24,000 mm/min, per Longer",
+    "Fills at ~60–130 mm/s: a 10 × 10 cm photo in ~12–18 min",
+    "Longer claims thin stainless steel (0.15 mm) can be cut in one pass"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Wide 0.10 × 0.15 mm spot: the least detailed Ray5 for small text and portraits",
+    "Longer's store price ($679.99 basic in October 2026) sits above our tracked range",
+    "Smaller 385 × 385 mm workspace than the older Ray5 frame, per Longer"
   ],
   "beginnerNotes": "This profile is the 40W SKU on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -94,7 +94,7 @@
     "ortur-laser-master-3-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/longer-ray5-40w/01.webp",
   "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "images": [
@@ -119,5 +119,36 @@
   "editorialDepth": {
     "advantages": "Longer Ray5 40W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
-  }
+  },
+  "faq": [
+    {
+      "question": "Is the Ray5 40W the same machine as the other Ray5 models?",
+      "answer": "No. Longer describes a redesigned frame: 8-beam compressed diode with a 0.10 × 0.15 mm spot, 15 mm industrial rail with a 4-roller Y axis, up to 24,000 mm/min, a 385 × 385 mm workspace and 5.73 kg. Only the name and the general layout are shared with the lower-power Ray5."
+    },
+    {
+      "question": "What does the Ray5 40W cut?",
+      "answer": "Longer claims 20 mm basswood and 0.15 mm stainless steel in one pass. In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 6–10 min at 3–8 mm/s, and around 10 mm basswood is realistic in passes. Clear acrylic remains impossible."
+    },
+    {
+      "question": "Is it worth the price over the Ray5 20W?",
+      "answer": "Longer's own store listed the 40W at $679.99 (Basic), $739.99 (Pro) and $949.99 (Pro Max) in October 2026, above our $449–649 tracked range, so compare resellers. It is worth it if you cut weekly: our 3 mm benchmark drops from about 9–15 min to 6–10 min and fills run several times faster."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray5-40w-rail",
+      "title": "Stiffer motion system",
+      "body": "A 15 mm industrial rail and 4-roller Y axis, according to Longer, for steadier cuts at speed."
+    },
+    {
+      "id": "ray5-40w-cutting",
+      "title": "Cutting-first power",
+      "body": "3 mm basswood squares in about 6–10 min in our benchmarks, with around 10 mm reachable in passes."
+    },
+    {
+      "id": "ray5-40w-light",
+      "title": "Light for its power",
+      "body": "5.73 kg according to Longer, easy to move between a workbench and storage."
+    }
+  ]
 }

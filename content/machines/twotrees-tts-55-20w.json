@@ -71,13 +71,14 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Basswood up to 8 mm in our profile, against 5 mm with the 10W module",
+    "About a third faster than the 10W in our benchmark: ~18–28 min for a 10 × 10 cm photo, ~9–15 min for a 3 mm basswood square",
+    "TwoTrees still sells the 20W module for the TTS-55 ($359, October 2026), so spares exist"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slower than newer 20W machines: fill speeds of 12–31 mm/s and 2–3 mm/s cuts in our tests",
+    "Price spread is very wide ($159–433): listings mix complete machines, bare modules and old stock",
+    "200 mm/s frame and 300 × 300 mm bed date from the original TTS-55 design"
   ],
   "beginnerNotes": "This profile is the 20W SKU on TwoTrees TTS-55. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
@@ -94,7 +95,7 @@
     "longer-ray5"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/twotrees-tts-55-20w/01.webp",
@@ -119,5 +120,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TTS-55 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
-  }
+  },
+  "faq": [
+    {
+      "question": "What does the 20W module change on the TTS-55?",
+      "answer": "Mostly cutting depth and time. Our profile moves the basswood limit from 5 mm (10W) to 8 mm, and our benchmark cuts the 3 mm test square in ~9–15 min instead of ~14–24 min. Photo fills drop from ~28–43 min to ~18–28 min."
+    },
+    {
+      "question": "Is a TTS-55 20W a better buy than a newer 20W machine?",
+      "answer": "Only if it is clearly cheaper. The TTS-55 frame is limited to 200 mm/s and a 300 × 300 mm bed in our profile, and our fill speeds (12–31 mm/s) trail newer 20W designs. At the low end of its $159–433 spread it is good value; near the top, newer machines make more sense."
+    },
+    {
+      "question": "TTS-55 20W or 40W: which one should a buyer pick?",
+      "answer": "The 20W suits hobbyists who cut up to about 5 mm and engrave regularly. The 40W listings ($349–499) shorten our photo test to ~12–18 min and reach 10 mm basswood, but confirm the module source, since TwoTrees' own store lists 20W modules for the TTS family, not 40W."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "tts55-20w-depth",
+      "title": "8 mm basswood on a budget frame",
+      "body": "Our profile lists basswood up to 8 mm with the 20W module, with several passes near the limit."
+    },
+    {
+      "id": "tts55-20w-spares",
+      "title": "Module still sold",
+      "body": "TwoTrees lists the 20W module for the TTS-55 at $359 (October 2026), which keeps repairs possible on an older frame."
+    }
+  ]
 }

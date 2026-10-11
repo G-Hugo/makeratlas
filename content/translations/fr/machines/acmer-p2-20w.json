@@ -12,18 +12,18 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "La fiche P2-20W d'Acmer découpe le contreplaqué de 8 mm en une passe à 200 mm/min, et celui de 4 mm à 300 mm/min",
+    "Le prix le plus bas du châssis P2 : pack de base à 484 $ sur la boutique Acmer (octobre 2026)",
+    "Les packs avec caisson, caméra ou extension (598–1 195 $) permettent de commencer simple et d'ajouter des pièces plus tard"
   ],
   "editorialDepth": {
     "advantages": "Le P2 20 W convient si vous voulez des capacités type Ortur avec tarifs et packs Acmer. Traitez-le comme cheval de travail gravure + tilleul modéré une fois extraction et air assist en place.",
     "limitations": "Support marque et communauté en retrait de Sculpfun et Ortur. Règles Châssis ouvert. Pour enceinte et caméra, comparez Acmer P3 plutôt que de viser 33 W. Acrylique transparent = CO₂."
   },
   "cons": [
-    "Modules plus puissants dans la gamme (33W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Le contreplaqué de 10–12 mm demande 2 passes, quand la 33 W le fait en une : comparez les deux si vous prévoyez du bois épais",
+    "L'acrylique noir ralentit vite : 4 mm à 100 mm/min, 6 mm en 3 passes, 10 mm en 5",
+    "Préréglage de gravure sur tilleul à 10 000 mm/min : une photo de 10 × 10 cm prend ~16–25 min dans notre test"
   ],
   "materials": {
     "engrave": [
@@ -65,6 +65,32 @@
     },
     {
       "alt": "Graveuse laser Acmer P2 20 W : Acmer"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelle épaisseur l'Acmer P2 20 W peut-elle découper ?",
+      "answer": "La fiche de découpe P2-20W d'Acmer donne le contreplaqué à 300 mm/min pour 4 mm et à 200 mm/min pour 6 et 8 mm, en une passe ; 10 et 12 mm demandent 2 passes. Avec la mise au point abaissée de 2 mm, elle indique du paulownia de 15 mm en une passe à 150 mm/min. Acrylique noir : 4 mm en une passe à 100 mm/min, 6 mm en 3 passes."
+    },
+    {
+      "question": "Quel pack choisir pour la P2 20 W ?",
+      "answer": "Prix US de la boutique Acmer en octobre 2026 : Basic 484 $, Camera 598 $, Enclosure 632 $, Extension 736 $, All in One 1 195 $. Le pack avec caisson (Enclosure) est à privilégier si vous travaillez dans une pièce de vie, car la P2 est une structure ouverte. Le pack caméra sert surtout à placer un motif sur un objet existant."
+    },
+    {
+      "question": "P2 20 W ou P2 33 W : laquelle est le meilleur achat ?",
+      "answer": "Les packs de base ont environ 105 $ d'écart (484 $ contre 589 $). La 20 W suffit si l'essentiel de vos découpes reste à 8 mm de contreplaqué ou moins. Prenez la 33 W si vous découpez du 10–12 mm ou voulez des temps de découpe plus courts : Acmer indique le contreplaqué de 4 mm à 500 mm/min sur la 33 W contre 300 mm/min ici. Le module 33 W acheté plus tard coûte 499 $ : mieux vaut trancher dès l'achat."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "plywood-8mm-one-pass",
+      "title": "8 mm de contreplaqué en une passe",
+      "body": "La fiche P2-20W d'Acmer classe le contreplaqué de 4, 6 et 8 mm en découpe une passe (300 et 200 mm/min), de quoi couvrir la plupart des panneaux et boîtes."
+    },
+    {
+      "id": "modular-packs",
+      "title": "Des packs évolutifs",
+      "body": "Commencez avec le pack de base à 484 $ et ajoutez plus tard le caisson, la caméra LightBurn ou le kit d'extension L80 (prix de la boutique Acmer, octobre 2026)."
     }
   ]
 }

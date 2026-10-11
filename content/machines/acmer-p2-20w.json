@@ -67,9 +67,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Acmer's P2-20W sheet cuts 8 mm plywood in one pass at 200 mm/min, and 4 mm at 300 mm/min",
+    "Lowest price on the P2 frame: basic pack at $484 on Acmer's store (October 2026)",
+    "Enclosure, camera and extension packs ($598–1,195) let you start basic and add parts later"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
@@ -77,8 +77,9 @@
     "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 33W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "10–12 mm plywood needs 2 passes, where the 33W does it in one: compare both if thick stock is planned",
+    "Black acrylic slows down quickly: 4 mm at 100 mm/min, 6 mm in 3 passes, 10 mm in 5",
+    "Basswood engraving preset is 10,000 mm/min: long photo jobs take ~16–25 min for our 10 × 10 cm test"
   ],
   "beginnerNotes": "This profile is the 20W SKU on Acmer P2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
@@ -96,7 +97,7 @@
     "sculpfun-s30-ultra-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/acmer-p2-20w/01.webp",
   "modelLine": "acmer-p2",
   "powerRating": "20W",
@@ -117,6 +118,32 @@
     {
       "src": "/machines/acmer-p2-20w/04.jpg",
       "alt": "Acmer P2 20W laser engraver: Acmer"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How thick can the Acmer P2 20W cut?",
+      "answer": "Acmer's P2-20W cutting sheet gives plywood at 300 mm/min for 4 mm and 200 mm/min for 6 and 8 mm, all in one pass; 10 and 12 mm need 2 passes. With the focus lowered 2 mm, it lists 15 mm paulownia in one pass at 150 mm/min. Black acrylic: 4 mm in one pass at 100 mm/min, 6 mm in 3 passes."
+    },
+    {
+      "question": "Which P2 20W pack should I choose?",
+      "answer": "Acmer's US prices in October 2026: Basic $484, Camera $598, Enclosure $632, Extension $736, All in One $1,195. The Enclosure pack is the one to look at if you work in a living space, since the P2 is an open frame. The Camera pack mainly helps with placing designs on existing objects."
+    },
+    {
+      "question": "P2 20W or P2 33W: which is the better buy?",
+      "answer": "The basic packs are about $105 apart ($484 vs $589). The 20W is enough if most of your cutting stays at or under 8 mm plywood. Go 33W if you cut 10–12 mm stock or want shorter cut times: Acmer lists 4 mm plywood at 500 mm/min on the 33W against 300 mm/min here. Buying the 33W module later costs $499, so decide upfront."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "plywood-8mm-one-pass",
+      "title": "8 mm plywood in one pass",
+      "body": "Acmer's P2-20W sheet lists 4, 6 and 8 mm plywood as single-pass cuts (300 and 200 mm/min), enough for most signs and boxes."
+    },
+    {
+      "id": "modular-packs",
+      "title": "Packs you can grow into",
+      "body": "Start with the $484 basic pack and add the enclosure, LightBurn camera or L80 extension kit later (prices on Acmer's store, October 2026)."
     }
   ]
 }

@@ -74,13 +74,14 @@
     ]
   },
   "pros": [
-    "10W on Algolaser Alpha MK2: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Algolaser's 10W settings cut 3 mm basswood plywood at 500 mm/min and 6 mm at 200 mm/min, each in one pass",
+    "Finest spot of the three tiers in our profile (~0.05 mm): the pick for photo and small-text detail",
+    "Low entry price: the DIY KIT MK2 10W was $289 machine-only on Algolaser's store in October 2026"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "8–10 mm plywood takes 3 passes on Algolaser's own settings",
+    "Black acrylic is slow: 3.5 mm at 100 mm/min, 6 mm in 3 passes",
+    "Algolaser sells this tier as the DIY KIT MK2, a separate kit frame from the higher-watt Alpha MK2: compare bundles and assembly before ordering"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Algolaser Alpha MK2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -98,7 +99,7 @@
     "ortur-laser-master-3-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/algolaser-alpha-mk2-10w/01.webp",
@@ -124,5 +125,36 @@
   "editorialDepth": {
     "advantages": "Algolaser Alpha MK2 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "What does the 10W cut in one pass?",
+      "answer": "Algolaser's material settings for the DIY KIT MK2 10W list basswood plywood at 500 mm/min (3 mm) and 200 mm/min (5 and 6 mm), in one pass at 100% power. 8 and 10 mm plywood need 3 passes. Black acrylic: 3.5 mm in one pass at 100 mm/min, 6 mm in 3 passes."
+    },
+    {
+      "question": "Which product is the 10W on Algolaser's store?",
+      "answer": "Algolaser sells its 10W as the DIY KIT MK2: $289 machine-only, $439–659 in kits, or $599 with the smart enclosure (October 2026). The 20W and 40W are sold as the Alpha MK2. Check the work area and accessories on the exact listing, since the kit frame and the Alpha MK2 are different products."
+    },
+    {
+      "question": "Who should choose the 10W over the 20W?",
+      "answer": "Buyers who engrave far more than they cut. Algolaser's engraving preset for the 10W is 12,000 mm/min on basswood plywood (20,000 on the 20W), and our 10 × 10 cm photo test takes ~14–21 min vs ~9–14 min. If you cut 8 mm stock regularly, the 20W does it in one pass instead of three."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "finest-spot-mk2",
+      "title": "Finest spot of the line",
+      "body": "~0.05 mm spot in our profile, the smallest of the three tiers, which helps on photos, small fonts and dense dithering."
+    },
+    {
+      "id": "six-mm-one-pass-10w",
+      "title": "6 mm plywood in one pass",
+      "body": "Algolaser's own settings cut 5–6 mm basswood plywood in a single pass at 200 mm/min, enough for ornaments, boxes and small signs."
+    },
+    {
+      "id": "low-cost-kit",
+      "title": "Low-cost kit option",
+      "body": "$289 machine-only for the DIY KIT MK2 10W in October 2026, the cheapest way into Algolaser's ecosystem."
+    }
+  ]
 }

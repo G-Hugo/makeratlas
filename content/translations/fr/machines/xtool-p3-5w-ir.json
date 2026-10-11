@@ -12,12 +12,14 @@
     "Première machine"
   ],
   "pros": [
-    "5W IR : marquage métal sur le même châssis que les autres modules",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 915 × 458 mm (same P3 bed) : validez vos formats avant achat"
+    "Marquage du métal nu sur le plateau de la P3 sans acheter une seconde machine",
+    "Point fin (environ 0,03 mm) pour les petits textes et numéros de série sur inox",
+    "Mêmes caméras, même logiciel et même caisson que pour les travaux CO₂"
   ],
   "cons": [
-    "Nécessite le châssis complet : ce module seul ne remplace pas une machine dédiée"
+    "Nécessite la base CO₂ de la P3 : inutilisable seul",
+    "Marquage uniquement : pas de découpe, et la gravure profonde est lente face à un galvo fibre",
+    "Ajoute environ 1 299 à 1 899 $ selon le pack"
   ],
   "materials": {
     "engrave": [
@@ -39,5 +41,31 @@
   "editorialDepth": {
     "advantages": "Le module 5W IR sur xTool P3 IR est le bon choix si vous gravez surtout bois, cuir et ardoise et n’achetez pas des watts de découpe inutiles. Même châssis, montée possible plus tard.",
     "limitations": "Ne prenez pas ce module si vous découpez du 4 mm+ tous les jours : ouvrez le profil 80W. Acrylique coulé et métal sans spray restent frustrants sur diode."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que marque le module IR de la P3 ?",
+      "answer": "L’inox nu, l’aluminium, le laiton et de nombreux plastiques techniques, grâce à une source 1064 nm avec un point d’environ 0,03 mm selon nos données. Il marque ; il ne découpe ni le bois ni l’acrylique, qui restent le travail du tube CO₂."
+    },
+    {
+      "question": "Le module IR vaut-il 1 299 à 1 899 $ en plus d’une P3 ?",
+      "answer": "Il est rentable si vous vendez régulièrement des objets en métal : gobelets, plaques, outils, cartes de visite. Un logo sur une carte en inox prend environ 4 à 8 min dans notre benchmark. Pour des travaux métal occasionnels, un spray de marquage avec le tube CO₂ ou un petit marqueur fibre dédié peut coûter moins cher."
+    },
+    {
+      "question": "Module IR ou laser fibre séparé ?",
+      "answer": "Un galvo fibre dédié marque beaucoup plus vite et plus profond. L’intérêt du module IR, c’est le grand plateau, les caméras et le logiciel unique de la P3 : bien pour les grandes pièces plates et les commandes mixtes, moins pour la gravure profonde du métal en grande série."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "bare-metal-on-co2",
+      "title": "Le métal nu sur une machine CO₂",
+      "body": "Le module 1064 nm marque l’inox, l’aluminium et le laiton que le tube CO₂ ne peut pas traiter sans spray, sur le même plateau de 915 × 458 mm."
+    },
+    {
+      "id": "one-workflow",
+      "title": "Une machine, un seul flux de travail",
+      "body": "Travaux métal et non-métal partagent les caméras, le caisson et le logiciel de la P3, ce qui simplifie les commandes mixtes."
+    }
+  ]
 }

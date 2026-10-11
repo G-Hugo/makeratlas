@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 440 × 410 mm : validez vos formats de pièces avant achat"
+    "Les réglages d'Algolaser découpent le contreplaqué de tilleul de 8 mm à 200 mm/min et celui de 12 mm à 100 mm/min, chacun en une passe",
+    "Acrylique noir jusqu'à 8 mm en une passe (100 mm/min)",
+    "L'Alpha MK2 la plus abordable : 579 $ machine seule, 729 $ en kit de base (octobre 2026)"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Le point s'élargit à 0,16 × 0,14 mm à pleine puissance (0,06 × 0,05 mm à 3 %) : découpe et gravure fine demandent des réglages de mise au point différents",
+    "Le contreplaqué de 13–15 mm passe à 2 passes, quand la 40 W reste à une : comparez les deux si vous prévoyez du bois épais",
+    "Structure ouverte : fumées et protection des yeux sont à votre charge, sauf avec le caisson connecté d'Algolaser (pack à 929 $)"
   ],
   "materials": {
     "engrave": [
@@ -72,5 +72,36 @@
   "editorialDepth": {
     "advantages": "Algolaser Alpha MK2 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
     "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Montée possible vers 40W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur l'Alpha MK2 20 W découpe-t-elle en une passe ?",
+      "answer": "Les réglages matériaux d'Algolaser indiquent le contreplaqué de tilleul à 700 mm/min (3 mm), 300 mm/min (5–6 mm), 200 mm/min (8 mm) et 100 mm/min (10–12 mm), toujours en une passe à 100 % de puissance ; 13–15 mm demandent 2 passes. Acrylique noir : 5–8 mm en une passe à 100 mm/min, 10 mm en 2 passes."
+    },
+    {
+      "question": "Combien coûte l'Alpha MK2 20 W par rapport à la 40 W ?",
+      "answer": "Sur la boutique Algolaser en octobre 2026 : 579 $ machine seule, 729 $ en kit de base, 809 $ en kit pro et 919 $ en kit sécurité pour la 20 W, contre 999 $ machine seule et 1 149 $ en kit de base pour la 40 W. Soit environ 420 $ d'écart en machine seule. Le pack 20 W avec caisson connecté coûtait 929 $."
+    },
+    {
+      "question": "20 W ou 40 W : laquelle pour une activité d'appoint ?",
+      "answer": "La 20 W couvre la plupart des activités d'appoint qui découpent du contreplaqué jusqu'à 8–12 mm et gravent tous les jours. La 40 W justifie ses 420 $ de plus surtout par le débit : sur 3 mm l'écart est faible (750 contre 700 mm/min), mais le 8 mm passe à 350 contre 200 mm/min et le 15 mm reste en une passe. Prenez la 40 W si de longues découpes remplissent votre semaine."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "plywood-12mm-20w",
+      "title": "12 mm de contreplaqué en une passe",
+      "body": "Les réglages d'Algolaser découpent le contreplaqué de tilleul de 10–12 mm en une passe à 100 mm/min avec le module 20 W."
+    },
+    {
+      "id": "dual-spot-behaviour",
+      "title": "Fine à basse puissance",
+      "body": "Algolaser annonce un point de 0,06 × 0,05 mm à 3 % de puissance : la gravure photo légère reste détaillée, la pleine puissance sert à la découpe."
+    },
+    {
+      "id": "balanced-price-20w",
+      "title": "Un prix équilibré",
+      "body": "579 $ machine seule en octobre 2026, environ 420 $ de moins que la 40 W pour le même écosystème de logiciels et d'accessoires."
+    }
+  ]
 }

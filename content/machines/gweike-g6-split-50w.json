@@ -70,12 +70,40 @@
     ]
   },
   "pros": [
-    "Fiber marks metal: does not cut wood or acrylic",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "Gives access to Gweike's 300 × 300 mm lens for large plates and batches",
+    "Faster than the 30W in our stainless benchmark: about 3–8 min vs 4–11 min for a filled 10 × 10 cm logo",
+    "In stock in every lift option in October 2026, from $3,899"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic: metal marking workflows only",
-    "Fume extraction still matters for coated metals and marking sprays"
+    "Starts about $1,500 above the 30W's $2,399 base price",
+    "Electric lift with autofocus adds up to $500 to the $3,899 base",
+    "Still Q-switched: colour marking needs the G6 Split MOPA line instead"
+  ],
+  "faq": [
+    {
+      "question": "How much faster is the G6 Split 50W than the 30W?",
+      "answer": "In our benchmark, a filled 10 × 10 cm logo on stainless steel takes about 3–8 minutes on the 50W, against 4–11 on the 30W. The gap widens on deep engraving and multi-pass cut-outs, where average power matters most. Gweike lists the same 7,000 mm/s line speed for every G6 Split tier, so light surface marks gain little."
+    },
+    {
+      "question": "Which lenses fit the G6 Split 50W?",
+      "answer": "It ships with a 175 × 175 mm (6.9 in) lens. Gweike sells 110, 150, 200 and 300 mm replacement lenses at $199 each, and lists the 300 × 300 mm lens for the 50W and above. A larger field spreads the same power over a bigger spot, so deep work slows down with the 300 mm lens."
+    },
+    {
+      "question": "50W or 70W G6 Split: which suits me?",
+      "answer": "The 50W starts at $3,899 with manual lift on Gweike's US store (October 2026); the 70W starts at $4,899, about $1,000 more. Choose the 50W for a mix of marking and occasional deep work. The 70W makes sense when deep engraving or cut-outs are a daily task and shorter cycles translate into money."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g6-50w-large-lens",
+      "title": "Compatible with the 300 × 300 mm lens",
+      "body": "Gweike lists its 11.8 in (300 mm) replacement lens for the G6 50W and above. Useful for large plaques, panels and fixture plates holding many parts in one job."
+    },
+    {
+      "id": "g6-50w-balance",
+      "title": "Middle ground for mixed work",
+      "body": "Fast enough for deeper logos and thin cut-outs, at about $1,000 less than the next tier. A sensible choice when marking is the daily job and depth is occasional."
+    }
   ],
   "beginnerNotes": "This profile is the 50W SKU on Gweike G6 Split. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Batch similar jobs to reduce setup. Use rotary only when quotes include cylinder work: it slows flat-stock days.",
@@ -92,7 +120,7 @@
     "monport-gt-30w-fiber"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/gweike-g6-split-50w/01.webp",
   "images": [
     {

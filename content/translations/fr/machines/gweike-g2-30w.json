@@ -12,13 +12,40 @@
     "Marquage bureau"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 110 × 110 mm : validez vos formats avant achat"
+    "Deux configurations : objectif 110 mm et relevage manuel à 1 599 $, ou objectif 150 mm et relevage électrique à 1 799 $ (Gweike, oct. 2026)",
+    "Environ 75 % plus profonde que la 20 W dans le test de deux heures sur laiton de Gweike (3,7 mm contre 2,1 mm)",
+    "Découpe le laiton de 0,5 mm en environ 7 passes à 10 mm/s, utilisable pour de petits flans de bijoux"
   ],
   "cons": [
-    "Fibre 30W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
-    "Montée possible vers 50W si le débit métal devient critique"
+    "Toujours une source Q-switch : pas de contrôle d'impulsion MOPA pour des couleurs régulières sur l'inox",
+    "En version 150 mm électrique, l'écart de prix avec la G2 Max n'est que de 700 $",
+    "Une gravure d'un millimètre de profondeur prend encore des heures, pas des minutes"
+  ],
+  "faq": [
+    {
+      "question": "Qu'apporte concrètement la G2 Pro 30 W par rapport à la 20 W ?",
+      "answer": "Surtout de la profondeur et moins de passes. Dans la comparaison de Gweike, la 30 W atteint environ 3,7 mm dans le laiton après deux heures à 1 000 mm/s (20 W : 2,1 mm) et 2,3 mm dans l'ardoise après une heure (20 W : 1,7 mm). Elle découpe le laiton de 0,5 mm en 7 passes à 10 mm/s, contre 11 pour la 20 W. Les marquages de surface sont presque identiques."
+    },
+    {
+      "question": "Combien coûte la G2 Pro 30 W par rapport aux autres G2 ?",
+      "answer": "Sur la boutique Gweike US (octobre 2026), la G2 Pro coûte 1 599 $ avec l'objectif 110 mm et le relevage manuel, ou 1 799 $ avec l'objectif 150 mm et le relevage électrique. C'est 300 à 450 $ de plus que la 20 W à configuration égale, et 700 $ de moins que la G2 Max, vendue uniquement avec l'objectif 150 mm et le relevage électrique à 2 499 $."
+    },
+    {
+      "question": "G2 Pro ou G2 Max : laquelle pour une petite activité de gravure ?",
+      "answer": "La Pro convient à une activité surtout tournée vers le marquage : gobelets, médailles pour animaux, couteaux, cartes de visite, avec un peu de gravure profonde de temps en temps. Prenez la Max si les pièces de monnaie, le relief profond ou la découpe de flans fins en laiton et en argent reviennent chaque semaine : dans la démonstration de Gweike, elle découpe le laiton de 0,5 mm en 4 passes au lieu de 7."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g2-30w-depth-step",
+      "title": "Un vrai gain de profondeur sur la 20 W",
+      "body": "La comparaison de Gweike montre 3,7 mm dans le laiton après deux heures à 1 000 mm/s, contre 2,1 mm pour la 20 W. Pièces, médailles à texte profond et ardoise atteignent le même résultat en nettement moins de passes."
+    },
+    {
+      "id": "g2-30w-lens-choice",
+      "title": "Champ de 110 mm ou de 150 mm au choix",
+      "body": "La Pro est vendue avec l'un ou l'autre objectif. Le 110 mm donne un point plus petit pour le texte fin ; le 150 mm loge plus de pièces par série. La G2 Max n'est livrée qu'avec l'objectif 150 mm."
+    }
   ],
   "materials": {
     "engrave": [
@@ -38,7 +65,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 30W : vérifiez la référence avant achat"
+    "note": "Boutique officielle Gweike, oct. 2026 : de 1 599 $ à 1 799 $ selon relevage manuel ou électrique"
   },
   "specs": {
     "performance": {

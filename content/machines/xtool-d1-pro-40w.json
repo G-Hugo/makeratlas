@@ -74,14 +74,14 @@
     ]
   },
   "pros": [
-    "Strongest cut headroom in the line: about 10 mm basswood-class stock in benchmarks",
-    "40W: the most cut-focused head in the xTool D1 Pro line",
-    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
+    "15 mm basswood plywood and 15 mm black acrylic in one pass (xTool rating)",
+    "Fastest fills and cuts of the D1 Pro modules in our benchmark",
+    "Fits the same frame: no new machine needed for heavy cutting"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Wider beam than the low-power heads: fine photo detail is softer",
+    "Thick cuts on an open frame mean heavy smoke and flare-ups: never leave it unattended",
+    "Discontinued: about $999 new, now a used purchase"
   ],
   "beginnerNotes": "This profile is the 40W SKU on xTool D1 Pro. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
@@ -99,7 +99,7 @@
     "xtool-s1-40w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-d1-pro-40w/01.webp",
   "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "images": [
@@ -159,5 +159,31 @@
     "advantages": "The 40W diode module is the most cut-focused head on xTool D1 Pro: thicker basswood and faster fills than entry modules on the same chassis.",
     "limitations": "Overkill if you only do fine engraving. Still a diode: clear cast acrylic means CO₂. Plan glasses and exhaust if the chassis is open-frame."
   },
-  "discontinued": {}
+  "discontinued": {},
+  "faq": [
+    {
+      "question": "How thick can the D1 Pro 40W cut?",
+      "answer": "xTool rated the 40W module for 15 mm basswood plywood and 15 mm black acrylic in one pass. Our materials list stays more conservative at about 10 mm basswood for clean, repeatable cuts. A 10 × 10 cm square in 3 mm basswood took about 4–6 min in our benchmark."
+    },
+    {
+      "question": "Is the D1 Pro 40W good for engraving?",
+      "answer": "It is fast, at about 7–10 min for a 10 × 10 cm photo fill in our benchmark, but its wider beam gives slightly softer photo detail than the low-power heads. If engraving is most of your work, a 10W or 20W head gives finer results for less money."
+    },
+    {
+      "question": "Should I buy a D1 Pro 40W used?",
+      "answer": "Only if you need the cutting depth. It sold for about $999 new and the D1 Pro is now discontinued, so check the module, lens and air assist, and remember that the open frame needs an enclosure or good ventilation for the extra smoke of thick cuts."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "thick-cut-open-frame",
+      "title": "15 mm in one pass",
+      "body": "xTool rated the 40W module for 15 mm basswood plywood and 15 mm black acrylic in a single pass, the deepest cut of any D1 Pro head."
+    },
+    {
+      "id": "fastest-d1-module",
+      "title": "Fastest D1 Pro module",
+      "body": "In our benchmark it filled a 10 × 10 cm photo in about 7–10 min and cut a 10 × 10 cm square in 3 mm basswood in about 4–6 min."
+    }
+  ]
 }

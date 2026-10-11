@@ -4,7 +4,7 @@
   "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "primaryUse": "Module 5W · Ortur LM2 S2",
   "beginnerNotes": "Ce profil décrit le SKU 5W de Ortur LM2 S2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
+  "proTips": "Optimisez pour la gravure : DPI plus bas sur les photos, vitesse de balayage plus élevée sur le dessin au trait, après des essais sur chutes. L’assistance d’air améliore encore la netteté. Comparez les temps de benchmark de la puissance supérieure avant de conclure qu’il vous en faut plus.",
   "bestFor": [
     "Gravure fine",
     "Photo et logo",
@@ -12,15 +12,14 @@
     "Première machine"
   ],
   "pros": [
-    "5W sur Ortur LM2 S2 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "La façon la moins chère d’accéder au cadre 400 × 400 mm d’Ortur",
+    "Point fin d’environ 0,07 mm pour les textes, logos et marquages sur cuir",
+    "Peu de fumée en gravure, gérable avec une simple évacuation par la fenêtre"
   ],
   "cons": [
-    "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (10W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Le tilleul de 3 mm est la limite réaliste en découpe, à environ 2–3 mm/s",
+    "Plateforme ancienne : la fiche Ortur indique 5 000 mm/min, lent face aux cadres récents",
+    "Une photo de 10 × 10 cm prend 18 à 28 min en remplissage dans nos tests"
   ],
   "materials": {
     "engrave": [
@@ -65,5 +64,31 @@
   "editorialDepth": {
     "advantages": "Ortur LM2 S2 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série : regardez 10W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quel module laser équipe la LM2 S2 5 W ?",
+      "answer": "Le module LU2-4 d’Ortur, annoncé à 5,5 W optiques, en version SF (focale courte) ou LF (focale longue). En octobre 2026, la boutique Ortur affichait les deux à 199,99 $, la version LF étant en rupture. Vérifiez la version montée sur une machine d’occasion avant d’acheter des lentilles de rechange."
+    },
+    {
+      "question": "La LM2 S2 5 W peut-elle découper du contreplaqué de 3 mm ?",
+      "answer": "Tout juste. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 9 à 15 min à 2–3 mm/s. Le contreplaqué, avec ses couches de colle, demande en général deux ou trois passes ; au-delà, ce module n’est pas fiable."
+    },
+    {
+      "question": "LM2 S2 5 W ou 10 W : laquelle acheter ?",
+      "answer": "L’écart est faible : environ 70 $ sur les annonces suivies (179 à 279 $ contre 249 à 349 $). La 10 W découpe notre carré de 3 mm en 6 à 10 min environ et remplit bien plus vite. Gardez la 5 W pour un usage gravure seule avec un budget serré, où son point fin est un atout."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "lm2-5w-budget",
+      "title": "Le cadre Ortur le moins cher",
+      "body": "Ortur affichait la version LU2-4 à 199,99 $ en octobre 2026 : une façon peu risquée d’apprendre la gravure laser."
+    },
+    {
+      "id": "lm2-5w-fine-spot",
+      "title": "Point fin pour la gravure",
+      "body": "Environ 0,07 mm dans notre profil : petites lettres et dessin au trait restent nets sur bois et cuir."
+    }
+  ]
 }

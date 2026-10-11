@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Atomstack A5 Pro : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
+    "Découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en ~9–15 min dans notre test, contre ~14–24 min pour la 5 W",
+    "Tilleul jusqu'à 5 mm dans notre fiche, de quoi faire des décorations et des petites boîtes",
+    "Fourchette de 249–349 $, environ 50 $ de plus que la 5 W pour des photos environ 35 % plus rapides"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Arrêtée : modules de rechange et assistance dépendent du vendeur",
+    "Point plus large que la 5 W dans notre fiche (~0,09 mm contre ~0,08 mm) : les photos sont un peu plus douces",
+    "L'acrylique noir et le bois de plus de 5 mm sont hors de portée en pratique"
   ],
   "materials": {
     "engrave": [
@@ -71,5 +70,31 @@
   "editorialDepth": {
     "advantages": "Atomstack A5 Pro 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "De combien l'A5 Pro 10 W est-elle plus rapide que la 5 W ?",
+      "answer": "Dans notre test, une photo remplie de 10 × 10 cm sur contreplaqué de bouleau passe de ~28–43 min à ~18–28 min, et un carré de 10 × 10 cm dans du tilleul de 3 mm de ~14–24 min à ~9–15 min. Pour la plupart des acheteurs, ce gain de temps vaut les ~50 $ d'écart (249–349 $ contre 199–299 $)."
+    },
+    {
+      "question": "L'A5 Pro 10 W peut-elle découper du bois de 5 mm ?",
+      "answer": "Du tilleul jusqu'à 5 mm, oui, en plusieurs passes lentes avec assistance d'air ; notre fiche s'arrête là. Notre vitesse de découpe mesurée est de 2–3 mm/s sur du bois de 2–3 mm. Le contreplaqué, avec ses couches de colle, est plus difficile que le tilleul : faites un essai avant de lancer une série."
+    },
+    {
+      "question": "Une A5 Pro 10 W d'occasion est-elle un bon premier laser ?",
+      "answer": "Elle peut l'être, à petit prix. L'A5 Pro est arrêtée : préférez une machine avec son alimentation d'origine et un module qui fonctionne, et ne comptez pas sur une garantie constructeur. Si vous pouvez monter à la version 20 W, le temps de découpe baisse encore d'environ un tiers."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "middle-tier-a5",
+      "title": "Le juste milieu de la gamme",
+      "body": "Des temps de gravure et de découpe environ 35 % plus courts que la 5 W dans notre test, pour environ 50 $ de plus."
+    },
+    {
+      "id": "five-mm-basswood-a5",
+      "title": "Tilleul jusqu'à 5 mm",
+      "body": "De quoi faire décorations, puzzles et petites boîtes selon notre fiche, avec assistance d'air et quelques passes."
+    }
+  ]
 }

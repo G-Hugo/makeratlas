@@ -14,10 +14,10 @@
     "Detail-heavy work"
   ],
   "priceRange": {
-    "min": 249,
-    "max": 379,
+    "min": 240,
+    "max": 720,
     "currency": "USD",
-    "note": "10W optical module: verify SKU before buying"
+    "note": "Official Longer store, Oct 2026: $240 to $720 depending on bundle"
   },
   "specs": {
     "power": "10W diode",
@@ -70,13 +70,14 @@
     ]
   },
   "pros": [
-    "10W on Longer Ray5: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Finest spot of the Ray5 range: 0.06 × 0.06 mm according to Longer",
+    "Basic set at $239.99 on Longer's store (October 2026)",
+    "Full 400 × 400 mm area per Longer, with kits that add air assist or rotary"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slow fills of ~5–10 mm/s in our benchmarks: a 10 × 10 cm photo takes ~28–43 min",
+    "A 3 mm basswood square takes ~14–24 min to cut",
+    "Longer's 8 mm one-pass rating is far above what our cut benchmark suggests"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Longer Ray5. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -93,7 +94,7 @@
     "ortur-laser-master-3-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/longer-ray5-10w/01.webp",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "images": [
@@ -121,5 +122,31 @@
   "editorialDepth": {
     "advantages": "Longer Ray5 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Why does the 10W have the finest spot of the Ray5 range?",
+      "answer": "Longer quotes a 0.06 × 0.06 mm spot for the 10W module, against 0.08 × 0.08 mm for the 5W and 0.08 × 0.10 mm for the 20W. That makes it the Ray5 to pick for small text and photo detail, even if its fills are slow: about 5–10 mm/s in our benchmarks."
+    },
+    {
+      "question": "How thick can the Ray5 10W cut?",
+      "answer": "Longer rates it for 8 mm basswood in one pass. In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 14–24 min at 2–3 mm/s, so plan around 5 mm as the realistic limit in passes. Air assist (in Longer's cutting kit) helps a lot."
+    },
+    {
+      "question": "Ray5 10W or 20W?",
+      "answer": "On Longer's store in October 2026 the basic sets were $239.99 (10W) and $399.99 (20W). The 20W is rated for 15 mm basswood in one pass and cuts our 3 mm square in about 9–15 min, but its spot is wider and Longer lists a slightly smaller 400 × 365 mm area. Detail-first engravers keep the 10W; cutters pay the $160."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray5-10w-fine-spot",
+      "title": "0.06 mm spot",
+      "body": "Longer's finest Ray5 spot, good for small lettering, portraits and detailed line work."
+    },
+    {
+      "id": "ray5-10w-cutting-kit",
+      "title": "Cutting kit option",
+      "body": "Longer's $299.99 cutting kit adds air assist and a honeycomb bed, the two upgrades that matter most for cuts."
+    }
+  ]
 }

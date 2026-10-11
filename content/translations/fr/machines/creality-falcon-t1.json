@@ -12,13 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "Tête interchangeable sur le même châssis : monter en puissance sans racheter la machine",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert"
+    "L’accès le moins cher à la plateforme T1 : 2 499 $ sur la boutique Creality (octobre 2026)",
+    "Gravure galvo : des remplissages bien plus rapides qu’une diode à portique de puissance comparable",
+    "Changement de module sans outil en 15 secondes environ quand vous ajoutez d’autres types de laser"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (40W ou 60W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents"
+    "Profondeur de découpe limitée à environ 8 mm de tilleul (donnée Creality)",
+    "Champ galvo d’environ 220 × 220 mm : plus petit que les machines à portique à ce prix",
+    "Les modules achetés plus tard doivent être calibrés avant la première utilisation"
   ],
   "materials": {
     "engrave": [
@@ -39,7 +40,7 @@
     ]
   },
   "priceRange": {
-    "note": "Base à partir de ~$2249 ; modules vendus séparément"
+    "note": "Boutique officielle Creality, oct. 2026 : 2 499 $, machine complète"
   },
   "moduleSystem": {
     "headline": "Modules galvo WaveSync interchangeables",
@@ -89,5 +90,31 @@
   "editorialDepth": {
     "advantages": "Le module 20W diode équilibre gravure et découpe légère sur Creality Falcon T1 Diode : le SKU le plus polyvalent avant de monter en tête plus puissante.",
     "limitations": "Si la découpe épaisse domine votre semaine, comparez 40W ou 60W. Vérifiez le module dans la boîte : même châssis, têtes différentes."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que peut découper la Falcon T1 avec la diode 20 W ?",
+      "answer": "Creality indique jusqu’à 8 mm de tilleul et 6 mm d’acrylique opaque pour le module diode 20 W (chiffres rapportés par Igor’s Lab d’après Creality). Comme c’est un galvo, elle est plus rapide en gravure qu’en découpe : notre benchmark donne environ 6 à 10 min pour une découpe de 10 × 10 cm dans du tilleul de 3 mm."
+    },
+    {
+      "question": "Combien coûtent la Falcon T1 et ses modules supplémentaires ?",
+      "answer": "Sur la boutique américaine de Creality en octobre 2026, la T1 avec diode 20 W coûtait 2 499 $ (2 249 $ au lancement). Modules vendus seuls : diode 40 W à 1 399 $, fibre 20 W à 1 099 $, UV 5 W à 2 599 $, MOPA 60 W à 2 699 $. Les modules achetés à part doivent être calibrés avant la première utilisation."
+    },
+    {
+      "question": "Commencer la T1 avec la diode 20 W ou la 40 W ?",
+      "answer": "Commencez par la 20 W si la T1 sert surtout à graver bois, cuir et objets revêtus et que vous comptez ajouter ensuite un module fibre ou UV. Commencez par le pack 40 W (2 999 $, soit 500 $ de plus) si la découpe du bois est le travail principal : Creality l’annonce à 12 mm de tilleul et 10 mm d’acrylique opaque."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "modular-galvo",
+      "title": "Un caisson, cinq types de laser",
+      "body": "La T1 accepte des modules WaveSync diode, fibre, MOPA et UV, changés sans outil en 15 secondes environ selon Creality."
+    },
+    {
+      "id": "entry-to-platform",
+      "title": "Le ticket d’entrée de la plateforme",
+      "body": "Le pack diode 20 W est la T1 la moins chère et laisse de la marge dans le budget pour un module métal ou UV plus tard."
+    }
+  ]
 }

@@ -12,13 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm (15.75 × 15.75 in) : validez vos formats de pièces avant achat"
+    "Pompe Air Pump 1.0 offerte dans le lot de base Ortur (octobre 2026)",
+    "Point carré de 0,08 × 0,08 mm, qui donne 256 niveaux de gris selon Ortur",
+    "Remplissage à environ 70–150 mm/s : une photo de 10 × 10 cm en 10 à 15 min"
   ],
   "cons": [
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "La surface de travail descend à 400 × 380 mm (400 × 355 mm avec le réglage de hauteur Z)",
+    "Lot de base à 639,99 $ : plus du double de la LM3 d’entrée",
+    "Les longues découpes enfument la pièce si l’extraction ne sort pas à l’extérieur"
   ],
   "editorialDepth": {
     "advantages": "Le LM3 20 W est recommandé dans le guide d’achat car il offre une vraie marge de découpe bois sans installation CO₂. Lunettes, air assist et évacuation fenêtre suffisent pour des commandes mixtes crédibles.",
@@ -70,6 +71,37 @@
     },
     {
       "alt": "Graveuse laser Ortur Laser Master 3 20W : Ortur"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Que découpe la LM3 20 W en une passe selon Ortur ?",
+      "answer": "La page Ortur montre des démonstrations de découpe en une passe dans du pin de 15 mm, du contreplaqué de 10 mm et de l’acrylique noir de 8 mm. Ce sont des démonstrations, pas des maximums garantis. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 5 à 8 min à 3–10 mm/s, et le tilleul de 8 mm environ est une limite réaliste au quotidien."
+    },
+    {
+      "question": "Quel lot LM3 20 W choisir ?",
+      "answer": "En octobre 2026, Ortur affichait le lot Basic 20 W à 639,99 $ (avec pompe Air Pump 1.0 offerte), le lot Pro à 719,98 $, le lot Rotary à 839,97 $, le lot Extended à 929,96 $ et le lot All-in-1 à 1 399,99 $. Le lot Extended porte la longueur de travail à 850 mm environ selon Ortur."
+    },
+    {
+      "question": "La 20 W vaut-elle deux fois le prix de la LM3 10 W ?",
+      "answer": "Si vous découpez, oui : pour environ 340 $ de plus, elle découpe notre carré de 3 mm en un tiers de temps en moins environ (5 à 8 min contre 8 à 12 min) et remplit à 70–150 mm/s environ au lieu de 20–42 mm/s. Ortur annonce aussi le marquage en couleur sur l’inox avec ce module. Pour graver seulement bois et cuir, la 10 W suffit."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "lm3-20w-one-pass",
+      "title": "Démonstrations de découpe en une passe",
+      "body": "Ortur montre 10 mm de contreplaqué et 8 mm d’acrylique noir découpés en une seule passe avec ce module."
+    },
+    {
+      "id": "lm3-20w-air-pump",
+      "title": "Pompe à air fournie",
+      "body": "Le lot de base est livré avec la pompe Air Pump 1.0 d’Ortur, qui réduit les traces de brûlure de moitié environ selon la marque."
+    },
+    {
+      "id": "lm3-20w-grey-levels",
+      "title": "Point carré pour les photos",
+      "body": "Un point carré de 0,08 × 0,08 mm qu’Ortur annonce pour 256 niveaux de gris en gravure photo."
     }
   ]
 }

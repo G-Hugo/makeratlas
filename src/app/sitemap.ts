@@ -2,11 +2,11 @@ import type { MetadataRoute } from "next";
 import { defaultLocale, locales, type Locale } from "@/i18n/config";
 import { localizedPath } from "@/i18n/navigation";
 import { getAllGuidesMeta, getIndexableMachines } from "@/lib/content";
-import { getAllBrandProfiles } from "@/lib/brands";
+import { getAllBrandProfiles, isBrandIndexable } from "@/lib/brands";
 import { BEST_OF_CATEGORIES } from "@/lib/best-of";
 import { BRAND_COMPARE_DUELS, brandDuelParam } from "@/lib/compare-brand-duels";
 import { COMPARE_DUELS, duelParam } from "@/lib/compare-duels";
-import type { AppPath } from "@/lib/seo";
+import { isMachineIndexable, type AppPath } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site-url";
 
 const BASE_URL = SITE_URL;
@@ -41,8 +41,8 @@ function localizedEntry(
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const machines = getIndexableMachines();
-  const brands = getAllBrandProfiles("en");
+  const machines = getIndexableMachines().filter(isMachineIndexable);
+  const brands = getAllBrandProfiles("en").filter((b) => isBrandIndexable(b.slug));
   const entries: MetadataRoute.Sitemap = [];
 
   for (const locale of locales) {

@@ -74,15 +74,14 @@
     ]
   },
   "pros": [
-    "One of the cheapest Class 1 enclosed lasers with a 400 × 320 mm work area",
-    "Camera, air pump and honeycomb bed included at $499",
-    "Same chassis and safety features as the E1 Pro: lid sensor, emergency stop, safety key",
-    "Swappable 3W IR module (Dual bundle or $499 add-on) for bare metal"
+    "Optional 3W infrared module fits the same machine for metal marking",
+    "Sculpfun claims 8 mm wood in a single pass",
+    "Fills at ~70–180 mm/s in our benchmarks, up to 600 mm/s top speed"
   ],
   "cons": [
-    "12W cuts noticeably slower than the 21W E1 Pro on wood",
-    "Only 30 mm of clearance with the honeycomb (42 mm without)",
-    "Manual focus; cutting claims are Sculpfun's, not yet independently tested"
+    "Cutting is slower than on the E1 Pro: a 3 mm basswood square takes ~5–8 min",
+    "Adding the IR module later costs $499, more than the price gap to the Dual kit",
+    "Thick plywood still means several passes and longer jobs than the spec sheet suggests"
   ],
   "beginnerNotes": "This profile is the 12W E1 in the Sculpfun E1 line. It suits engraving-first users who want an enclosure and a decent bed without spending $800+. Compare it with the 21W E1 Pro if you know you will cut wood every week: it is worth the extra $350.",
   "proTips": "Use several moderate passes rather than one slow pass for 5 mm+ wood. Keep the air pump on for cuts. Check focus manually before each job and remove the honeycomb for thicker objects.",
@@ -101,12 +100,16 @@
   ],
   "faq": [
     {
-      "question": "Should I buy the E1 12W or the E1 Pro 21W?",
-      "answer": "The 12W if you mostly engrave and cut occasionally (up to 8 mm wood claimed). The 21W E1 Pro if cutting is a regular part of your work (up to 12 mm claimed). Everything else is shared."
+      "question": "What does the Sculpfun E1 12W cut in one pass?",
+      "answer": "Sculpfun claims 8 mm of wood in a single pass. In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 5–8 min at 4–9 mm/s. Thin dark acrylic works; clear acrylic does not, because the blue beam passes through it."
     },
     {
-      "question": "Can I add the infrared module later?",
-      "answer": "Yes. Sculpfun sells the IR3 3W 1064 nm module for the E1 series separately ($499). It swaps with the diode head and marks bare metal and plastics."
+      "question": "Is the Dual version worth $450 more?",
+      "answer": "The Dual adds the 3W infrared module for marking metal and some plastics: $949 against $499 for the single 12W on Sculpfun's store (October 2026). The IR3 module alone costs $499, so if you already know you want metal marking, the Dual saves about $50 over adding it later."
+    },
+    {
+      "question": "E1 12W or E1 Pro 21W: which should I choose?",
+      "answer": "The 12W suits engraving-led gifts and small batches, and costs $350 less ($499 against $849). The Pro claims 12 mm instead of 8 mm in one pass and cuts our 3 mm square in about 3–5 min instead of 5–8. If you cut plywood every week, the Pro pays back; if you mostly engrave, keep the difference."
     }
   ],
   "accessories": [
@@ -140,7 +143,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-11",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/sculpfun-e1-12w/01.webp",
   "images": [
     {
@@ -171,5 +174,22 @@
   "editorialDepth": {
     "advantages": "The 12W E1 is the budget door into the E1 enclosure: for $499 you get the camera, air pump, CoreXY gantry and a 400 × 320 mm bed, which is large for an enclosed machine at this price. Engraving quality on wood, leather and stone does not depend much on the extra watts.",
     "limitations": "Cutting is where the 12W shows its limits against the E1 Pro: more passes, slower jobs. Clearance is shallow, focus is manual, and like every diode it cannot cut clear acrylic."
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "e1-12w-enclosed-value",
+      "title": "Enclosed with camera for $499",
+      "body": "Enclosure, camera and air pump at the entry price, where many enclosed diodes start well above it."
+    },
+    {
+      "id": "e1-12w-ir-ready",
+      "title": "Infrared add-on",
+      "body": "The IR3 3W infrared module ($499) fits the E1 for metal and plastic marking, or comes in the $949 Dual kit."
+    },
+    {
+      "id": "e1-12w-speed",
+      "title": "Fast CoreXY motion",
+      "body": "Rated at 36,000 mm/min (600 mm/s): fills of roughly 70–180 mm/s in our tests keep engraving jobs short."
+    }
+  ]
 }

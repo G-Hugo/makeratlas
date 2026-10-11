@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
+    "Mise au point automatique, qui supprime l'erreur de débutant la plus courante sur les lasers à diode",
+    "Point focal de 0,08 × 0,08 mm selon le manuel de la TS2-20W",
+    "Packs officiels de 647 $ (nid d'abeille et assistance d'air) à 707 $ (rotatif et assistance d'air) en octobre 2026"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Plus lente que sa puissance ne le laisse penser dans notre test : ~18–28 min pour une photo de 10 × 10 cm et ~9–15 min pour un carré en tilleul de 3 mm",
+    "Les chiffres du manuel (« 15 mm de bois, 10 mm d'acrylique ») sont des capacités maximales en plusieurs passes, pas des découpes en une passe",
+    "L'acrylique foncé plafonne vers 5 mm dans notre fiche, et l'acrylique transparent demande un laser CO₂"
   ],
   "materials": {
     "engrave": [
@@ -67,5 +67,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TS2 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
     "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Montée possible vers 40W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la TwoTrees TS2 20 W peut-elle découper ?",
+      "answer": "Le manuel de la TS2-20W annonce du bois jusqu'à 15 mm et de l'acrylique opaque jusqu'à 10 mm, des maximums en plusieurs passes. Dans notre test, un carré de 10 × 10 cm dans du tilleul de 3 mm prend ~9–15 min, à 2–3 mm/s, et notre fiche retient le tilleul jusqu'à 8 mm et l'acrylique foncé jusqu'à 5 mm comme limites pratiques."
+    },
+    {
+      "question": "Quel pack TS2 20 W choisir ?",
+      "answer": "Boutique TwoTrees en octobre 2026 : 647 $ avec plateau nid d'abeille et assistance d'air, 657 $ avec rotatif TR2 Pro et rehausses, 677 $ avec kit d'extension, 707 $ avec rotatif et assistance d'air. Pour la découpe, c'est le pack nid d'abeille et assistance d'air qui compte ; ne prenez le rotatif que si vous gravez des gobelets ou des verres."
+    },
+    {
+      "question": "TS2 20 W ou TS2 40 W : qui devrait rester à 20 W ?",
+      "answer": "Tous ceux dont le travail est surtout de la gravure avec des découpes occasionnelles sous 5 mm. La 40 W ramène notre photo test à ~12–18 min et la découpe de 3 mm à ~6–10 min, mais TwoTrees l'affichait à 1 097 $ (livraison US uniquement) en octobre 2026 : pour un usage de loisir, la 20 W reste le choix raisonnable."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "auto-focus-ts2",
+      "title": "Mise au point automatique",
+      "body": "La TS2 règle la mise au point toute seule, un vrai gain de temps quand on alterne des matériaux d'épaisseurs différentes."
+    },
+    {
+      "id": "bundle-value-ts2-20w",
+      "title": "Des packs complets",
+      "body": "647 $ en octobre 2026 pour la machine, le plateau nid d'abeille et le kit d'assistance d'air sur la boutique TwoTrees : prête pour la découpe dès le déballage."
+    }
+  ]
 }

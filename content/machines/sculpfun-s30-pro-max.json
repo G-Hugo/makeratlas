@@ -12,9 +12,10 @@
     "Sculpfun buyers"
   ],
   "priceRange": {
-    "min": 599,
-    "max": 899,
-    "currency": "USD"
+    "min": 480,
+    "max": 979,
+    "currency": "USD",
+    "note": "Official Sculpfun store, Oct 2026: $480 to $979 depending on bundle"
   },
   "specs": {
     "power": "20W diode",
@@ -86,7 +87,7 @@
     "sculpfun-s30-ultra-22w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/sculpfun-s30-pro-max/01.webp",
   "modelLine": "sculpfun-s30-pro-max",
   "catalogHidden": true,

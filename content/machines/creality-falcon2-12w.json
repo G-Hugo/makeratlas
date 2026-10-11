@@ -70,13 +70,14 @@
     ]
   },
   "pros": [
-    "12W on Creality Falcon2: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Clean engraving at moderate speed on wood, leather and coated metal",
+    "Large 400 × 415 mm open bed for signs and batches",
+    "Cheap on the used market now that it has been replaced"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slow cutting: about 9–15 min for a 10 × 10 cm square in 3 mm basswood",
+    "Open frame: goggles, ventilation and fire safety are up to you",
+    "Discontinued: used purchase only"
   ],
   "beginnerNotes": "This profile is the 12W SKU on Creality Falcon2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -94,7 +95,7 @@
     "longer-ray5"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/creality-falcon2-12w/01.webp",
@@ -117,5 +118,31 @@
     "advantages": "Creality Falcon2 12W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production: see 22W in the line. Not for cast acrylic or bare metal without spray."
   },
-  "discontinued": {}
+  "discontinued": {},
+  "faq": [
+    {
+      "question": "How thick can the Falcon2 12W cut?",
+      "answer": "Our materials list puts the limit around 5 mm basswood in several passes; a 10 × 10 cm square in 3 mm basswood took about 9–15 min in our benchmark. Thin plywood shapes are fine; boxes in 6 mm plywood are slow work."
+    },
+    {
+      "question": "Is the Falcon2 12W still sold?",
+      "answer": "Creality's US store no longer lists it in October 2026: the open-frame Falcon2 range is now the 22W ($589 Basic Kit) and the 40W ($639 single unit). A used 12W is worth it only well below those prices."
+    },
+    {
+      "question": "Falcon2 12W or 22W?",
+      "answer": "The 22W fills a 10 × 10 cm photo in about 12–18 min against 17–26 min for the 12W in our benchmark, and Creality rates it at 10 mm basswood in one pass. Since the 22W is the current model at a similar new price, the 12W only makes sense as a cheap used engraver."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "large-bed-budget",
+      "title": "Large bed on a small budget",
+      "body": "The 400 × 415 mm bed fits signs, trays and batches of coasters, at used prices well below current machines."
+    },
+    {
+      "id": "engraving-first",
+      "title": "An engraving machine first",
+      "body": "At this power the Falcon2 is at its best on photo and logo engraving; cutting is limited to thin wood."
+    }
+  ]
 }

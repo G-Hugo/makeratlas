@@ -71,13 +71,14 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Automatic focus, which removes the most common beginner error on diode lasers",
+    "0.08 × 0.08 mm focal spot per the TS2-20W manual",
+    "Official bundles from $647 (honeycomb and air assist) to $707 (rotary and air assist) in October 2026"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Slower than its rating suggests in our benchmark: ~18–28 min for a 10 × 10 cm photo and ~9–15 min for a 3 mm basswood square",
+    "The manual's '15 mm wood, 10 mm acrylic' figures are maximum capacity over several passes, not single-pass cuts",
+    "Dark acrylic tops out around 5 mm in our profile, and clear acrylic needs a CO₂ laser"
   ],
   "beginnerNotes": "This profile is the 20W SKU on TwoTrees TS2. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
@@ -95,7 +96,7 @@
     "ortur-laser-master-3-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/two-trees-ts2-20w/01.webp",
@@ -122,5 +123,31 @@
   "editorialDepth": {
     "advantages": "TwoTrees TS2 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
-  }
+  },
+  "faq": [
+    {
+      "question": "How thick can the TwoTrees TS2 20W cut?",
+      "answer": "The TS2-20W manual claims wood up to 15 mm and opaque acrylic up to 10 mm, which are multi-pass maximums. In our benchmark a 10 × 10 cm square in 3 mm basswood takes ~9–15 min at 2–3 mm/s, and our profile lists basswood up to 8 mm and dark acrylic up to 5 mm as practical limits."
+    },
+    {
+      "question": "Which TS2 20W bundle should I buy?",
+      "answer": "TwoTrees' store in October 2026: $647 with honeycomb panel and air assist, $657 with TR2 Pro rotary and risers, $677 with extension kit, $707 with rotary and air assist. For cutting, the honeycomb and air assist bundle is the one that matters; take the rotary only if you engrave tumblers or glasses."
+    },
+    {
+      "question": "TS2 20W or TS2 40W: who should stay at 20W?",
+      "answer": "Anyone whose work is mainly engraving with occasional cuts under 5 mm. The 40W shortens our photo test to ~12–18 min and the 3 mm cut to ~6–10 min, but TwoTrees listed it at $1,097 (US only) in October 2026, so the 20W remains the sensible choice for hobby use."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "auto-focus-ts2",
+      "title": "Automatic focus",
+      "body": "The TS2 sets focus automatically, a real time saver when you switch between materials of different thickness."
+    },
+    {
+      "id": "bundle-value-ts2-20w",
+      "title": "Complete bundles",
+      "body": "$647 in October 2026 for the machine, honeycomb panel and air assist kit on TwoTrees' store: ready for cutting out of the box."
+    }
+  ]
 }

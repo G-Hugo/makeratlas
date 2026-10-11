@@ -14,10 +14,10 @@
     "Small-batch gifts"
   ],
   "priceRange": {
-    "min": 999,
-    "max": 3049,
+    "min": 1299,
+    "max": 2599,
     "currency": "USD",
-    "note": "20W enclosed SKU"
+    "note": "Official xTool store, Oct 2026: $1,299 to $2,599 depending on bundle"
   },
   "specs": {
     "power": "20W diode (enclosed)",
@@ -72,10 +72,9 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 8 mm basswood in several passes",
-    "Swappable head on the same chassis: upgrade power without replacing the whole machine",
-    "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Balanced head: 10 mm basswood plywood and 8 mm black acrylic in one pass (xTool rating)",
+    "Spot of 0.08 × 0.06 mm per xTool keeps photo and text detail sharp",
+    "Cheapest S1 bundle on xTool's US store in October 2026 ($1,299 Basic)"
   ],
   "tierEditorialOverride": true,
   "editorialDepth": {
@@ -83,8 +82,9 @@
     "limitations": "Thick hardwood, fast sign cutting, and clear acrylic production still push you toward the 40W head or a CO₂ machine. Photo work at gallery-grade density can take longer than on a dedicated low-watt engraving module. Budget for filter replacements or window ducting if you cut daily."
   },
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Dense hardwoods such as beech, oak and bamboo need several passes",
+    "About 9 mm/s on 3 mm basswood: batch cutting takes noticeably longer than on the top head",
+    "Clear acrylic is out of reach, as with every diode"
   ],
   "beginnerNotes": "This profile is the 20W SKU on xTool S1. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Use air assist for cuts, lower scan speed for photo engraving. Multiple passes at moderate speed beat one aggressive pass. Check the flagship tier’s cut benchmark if you quote production times to customers.",
@@ -123,24 +123,20 @@
   ],
   "faq": [
     {
-      "question": "Is the xTool S1 safer than an open-frame laser?",
-      "answer": "Yes. The enclosure blocks direct beam exposure and contains smoke. You still follow safety rules, but accidental exposure risk is much lower than open-frame diodes."
+      "question": "What can the xTool S1 20W cut in one pass?",
+      "answer": "xTool rates the 20W head for 10 mm basswood plywood, 10 mm cherry or walnut and 8 mm black acrylic in one pass, and 9 mm/s on 3 mm basswood. Expect those figures with air assist and a clean, flat sheet. In our benchmark a 10 × 10 cm square in 3 mm basswood took about 5–8 min."
     },
     {
-      "question": "Can the S1 replace a CO₂ laser?",
-      "answer": "No. It is still a diode laser with the same acrylic and cutting limits. Buy CO₂ (like xTool P2) if clear acrylic and thick wood cutting are your main work."
+      "question": "S1 20W or 40W: which one should I buy?",
+      "answer": "Take the 20W if most jobs are engraving (coasters, leather, slate, photos) with occasional cuts up to about 6 mm. Take the 40W if you cut signs, boxes or 10 mm stock every week: xTool rates it 15 mm basswood plywood in one pass and 15 mm/s on 3 mm. On xTool's US store the Basic bundles were $1,299 and $1,699 in October 2026, a $400 gap."
     },
     {
-      "question": "Can I upgrade from 20W to 40W later?",
-      "answer": "Yes. S1 laser heads are interchangeable: buy a 40W module and swap it on the same enclosure (two screws + connectors). You can also add the optional 2W 1064 nm IR module for more metal work."
-    },
-    {
-      "question": "Is the S1 a hybrid laser like the F1 Ultra?",
-      "answer": "No. S1 is a diode platform with swappable diode (or IR) heads. Hybrid machines combine fiber and diode sources inside one dual-source product: different category."
+      "question": "Can I add the 40W head to a 20W S1 later?",
+      "answer": "Yes. The heads swap on the same cabinet, and xTool sold the 40W module alone for $1,099 in October 2026. That is about $700 more than the bundle gap, so if you already expect to cut thick wood, buying the 40W upfront is cheaper."
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-s1-20w/01.webp",
   "mainObjective": "Everyday engraving plus reliable light cutting on wood, leather, and dark acrylic",
   "images": [
@@ -182,5 +178,17 @@
       }
     ]
   },
-  "releaseDate": "2023-10"
+  "releaseDate": "2023-10",
+  "standoutFeatures": [
+    {
+      "id": "one-pass-10mm",
+      "title": "10 mm basswood in one pass",
+      "body": "xTool rates the 20W head for 10 mm basswood plywood and 8 mm black acrylic in a single pass, enough for boxes, ornaments and dark acrylic lettering."
+    },
+    {
+      "id": "lowest-s1-price",
+      "title": "Lowest-priced S1 bundle",
+      "body": "The 20W Basic bundle was $1,299 on xTool's US store in October 2026 and keeps the full S1 cabinet, safety features and LightBurn support."
+    }
+  ]
 }

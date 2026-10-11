@@ -12,15 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Comgrow Z1 : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
+    "Environ un tiers plus rapide que la 5 W dans notre test : ~18–28 min pour une photo de 10 × 10 cm, ~9–15 min pour un carré en tilleul de 3 mm",
+    "La puissance la plus élevée du manuel Z1 de Comgrow (options 1,6 W, 5 W et 10 W)",
+    "219–299 $, environ 40 $ de plus que la 5 W"
   ],
   "cons": [
-    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (20W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Toujours lente en découpe : 2–3 mm/s sur du bois de 3 mm dans nos tests, donc plusieurs passes au-delà de 3 mm",
+    "Point un peu plus large que la 5 W (~0,09 mm contre ~0,08 mm), donc des photos un peu moins fines",
+    "Comgrow ne publie pas de table de découpe par épaisseur : il faudra faire vos propres grilles de test"
   ],
   "materials": {
     "engrave": [
@@ -65,5 +64,31 @@
   "editorialDepth": {
     "advantages": "Comgrow Z1 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série : regardez 20W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la Comgrow Z1 10 W peut-elle découper ?",
+      "answer": "Comgrow ne donne aucune épaisseur officielle par passe. Notre fiche indique du tilleul fin en plusieurs passes, ainsi que papier, carton et tissu ; notre carré test en tilleul de 3 mm prend ~9–15 min, à 2–3 mm/s. Considérez 3 mm comme la limite confortable et testez sur des chutes au-delà."
+    },
+    {
+      "question": "La Z1 10 W convient-elle à la gravure photo ?",
+      "answer": "Oui pour des cadeaux et de petites séries. Notre test donne ~18–28 min pour une photo remplie de 10 × 10 cm, contre ~28–43 min sur la 5 W, avec des vitesses de remplissage de 9–21 mm/s. Sur les bois clairs, baissez la vitesse plutôt que d'augmenter la puissance pour éviter les brûlures."
+    },
+    {
+      "question": "Z1 10 W ou Z1 20 W : laquelle pour une petite activité d'appoint ?",
+      "answer": "Si vous gravez surtout et ne découpez que du carton ou du bois de 3 mm, la 10 W (219–299 $) offre le meilleur rapport qualité-prix. Si les pièces découpées font partie de vos commandes, la version 20 W (279–379 $) découpe notre carré test de 3 mm en ~6–10 min et atteint 8 mm de tilleul ; vérifiez d'abord sa puissance optique, car le manuel Z1 de Comgrow ne mentionne que des modules jusqu'à 10 W."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "z1-10w-balance",
+      "title": "La Z1 équilibrée",
+      "body": "Des temps de gravure et de découpe environ un tiers plus courts que la 5 W dans notre test, pour environ 40 $ de plus."
+    },
+    {
+      "id": "official-top-module",
+      "title": "Le module le plus puissant du manuel Comgrow",
+      "body": "Le manuel de la Z1 liste des lasers de 1,6 W, 5 W et 10 W : la 10 W est la plus puissante que la marque documente elle-même."
+    }
+  ]
 }

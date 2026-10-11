@@ -12,18 +12,18 @@
     "Montée depuis 10W"
   ],
   "pros": [
-    "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
-    "22W : tête la plus orientée découpe de Sculpfun S30 Ultra",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Lot avec pompe à air automatique 24 V : prête à découper dès le déballage",
+    "Les vitesses de découpe les plus élevées des fiches S30 Ultra : jusqu’à 14 mm/s environ sur du bois de 3 à 6 mm",
+    "Remplissage à environ 80–160 mm/s pour des séries rapides d’enseignes et d’étiquettes"
   ],
   "editorialDepth": {
     "advantages": "Choisissez le 22 W quand le temps de job sur tilleul 6–8 mm compte plus que le module gravure le plus lent. Vous restez sur le matériel Ultra actuel avec des mods documentés pour air assist et extraction. Pour un mix Etsy, c’est le SKU à comparer en premier.",
     "limitations": "Sécurité Châssis ouvert et ventilation non négociables. L’acrylique transparent veut du CO₂. Les photos ultra fines peuvent être plus belles sur un 10 W réglé lentement. Comparez Ortur LM3 20 W et xTool S1 fermée si enfants ou animaux imposent une enceinte."
   },
   "cons": [
-    "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
-    "Toujours une diode : acrylique transparent et prod. acrylique = CO₂",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "690 $ avec LightBurn : un gros saut par rapport à la tête d’entrée pour qui ne fait que graver",
+    "Risque d’incendie accru sur les longues découpes : ne jamais laisser un travail sans surveillance",
+    "Point plus large (environ 0,08 mm) que la tête d’entrée, un peu moins net sur les très petits textes"
   ],
   "materials": {
     "engrave": [
@@ -71,6 +71,37 @@
     },
     {
       "alt": "Graveuse laser Sculpfun S30 Ultra 22W : Sculpfun"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Qu’obtient-on pour 690 $ ?",
+      "answer": "689,99 $ est le prix Sculpfun de la S30 Ultra 22 W avec licence LightBurn Core ; la machine seule était à 539,99–569,99 $ sur la boutique Sculpfun en octobre 2026. Le lot comprend une pompe à air automatique 24 V, un écran de protection et un kit de réparation laser : elle est prête à découper dès le déballage."
+    },
+    {
+      "question": "Quelle épaisseur la S30 Ultra 22 W peut-elle découper ?",
+      "answer": "Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 4 à 7 min, avec des vitesses de découpe jusqu’à 14 mm/s environ sur du bois de 3 à 6 mm. Le tilleul de 8 mm et l’acrylique foncé de 5 mm sont réalistes avec assistance d’air. Au-delà, la tête 33 W commence à se justifier."
+    },
+    {
+      "question": "22 W ou S30 Ultra 33 W ?",
+      "answer": "Sculpfun vend la 33 W 769,99 $ seule (859,99 $ avec LightBurn), environ 230 $ de plus que la 22 W. La 22 W convient à un usage mixte gravure et découpe jusqu’à 8 mm environ ; la 33 W vise la découpe épaisse quotidienne. Nous n’avons pas mesuré la 33 W sur ce site : comparez les tests avant de payer la différence."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s30u-22w-air-pump",
+      "title": "Pompe à air fournie",
+      "body": "Le lot Sculpfun comprend une pompe à air automatique 24 V et la buse métallique haute pression : des découpes propres sans achat supplémentaire."
+    },
+    {
+      "id": "s30u-22w-cut-speed",
+      "title": "Une découpe diode solide",
+      "body": "Carrés de 3 mm de tilleul en 4 à 7 min environ dans nos benchmarks, et environ 8 mm atteignables en plusieurs passes."
+    },
+    {
+      "id": "s30u-22w-head-upgrade",
+      "title": "De la marge pour évoluer",
+      "body": "La tête 33 W (609,99 $ seule en octobre 2026) se monte sur le même cadre, avec la même alimentation et le même câble."
     }
   ]
 }

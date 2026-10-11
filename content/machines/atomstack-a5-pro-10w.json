@@ -69,13 +69,14 @@
     ]
   },
   "pros": [
-    "10W on Atomstack A5 Pro: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Cuts a 10 × 10 cm square in 3 mm basswood in ~9–15 min in our benchmark, versus ~14–24 min for the 5W",
+    "Basswood up to 5 mm in our profile, enough for ornaments and small boxes",
+    "$249–349 range, about $50 above the 5W for roughly 35% shorter photo fills"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Discontinued: spare modules and support depend on the seller",
+    "Wider spot than the 5W in our profile (~0.09 mm vs ~0.08 mm): photos are slightly softer",
+    "Black acrylic and anything above 5 mm wood are out of practical reach"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Atomstack A5 Pro. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -91,7 +92,7 @@
     "ortur-laser-master-3"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/atomstack-a5-pro-10w/01.webp",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "images": [
@@ -119,5 +120,31 @@
     "advantages": "Atomstack A5 Pro 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W in the line. Not for cast acrylic or bare metal without spray."
   },
-  "discontinued": {}
+  "discontinued": {},
+  "faq": [
+    {
+      "question": "How much faster is the A5 Pro 10W than the 5W?",
+      "answer": "In our benchmark, a 10 × 10 cm filled photo on birch plywood drops from ~28–43 min to ~18–28 min, and a 10 × 10 cm square in 3 mm basswood from ~14–24 min to ~9–15 min. For most buyers that time saving is worth the ~$50 gap ($249–349 vs $199–299)."
+    },
+    {
+      "question": "Can the A5 Pro 10W cut 5 mm wood?",
+      "answer": "Basswood up to 5 mm, yes, in several slow passes with air assist; our profile tops out there. Our measured cut speed is 2–3 mm/s on 2–3 mm wood. Plywood with glue layers is harder than basswood, so test before committing to a batch."
+    },
+    {
+      "question": "Is a used A5 Pro 10W a good first laser?",
+      "answer": "It can be, at a low price. The A5 Pro is discontinued, so prefer a unit with its original power supply and a working module, and expect no factory warranty. If you can stretch to the 20W tier, cut time drops by roughly a third again."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "middle-tier-a5",
+      "title": "The practical middle tier",
+      "body": "Roughly 35% shorter photo and cut times than the 5W in our benchmark, for about $50 more."
+    },
+    {
+      "id": "five-mm-basswood-a5",
+      "title": "Basswood up to 5 mm",
+      "body": "Enough for ornaments, puzzles and small boxes in our profile, with air assist and a few passes."
+    }
+  ]
 }

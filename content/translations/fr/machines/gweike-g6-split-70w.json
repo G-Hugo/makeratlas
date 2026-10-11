@@ -12,13 +12,40 @@
     "Grandes surfaces"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 150 × 150 mm typical (varies by lens) : validez vos formats avant achat"
+    "Gravure profonde plus rapide que la 50 W : environ 2 à 6 min contre 3 à 8 min pour un logo rempli de 10 × 10 cm sur inox (notre benchmark)",
+    "Compatible avec l'objectif 300 × 300 mm de Gweike",
+    "1 300 à 1 400 $ de moins que la 100 W en relevage manuel"
   ],
   "cons": [
-    "Fibre 70W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
-    "Montée possible vers 100W si le débit métal devient critique"
+    "Proche de la 100 W dans notre benchmark de logo rempli : le gain sur la 50 W se voit surtout en gravure profonde",
+    "La couleur et le type de relevage font varier le prix jusqu'à 600 $ pour la même puissance (de 4 899 à 5 499 $)",
+    "Source Q-switch, pas de MOPA : pas de marquage couleur maîtrisé"
+  ],
+  "faq": [
+    {
+      "question": "Pourquoi choisir une G6 Split 70 W plutôt que la 50 W ?",
+      "answer": "Pour la gravure profonde et la découpe. Dans notre benchmark, un logo rempli de 10 × 10 cm sur inox prend environ 2 à 6 minutes sur la 70 W, contre 3 à 8 sur la 50 W. Les marquages de surface sont identiques aux deux puissances ; la 70 W raccourcit les travaux qui demandent beaucoup de passes, comme les logos profonds, l'embossage et les pièces en tôle fine."
+    },
+    {
+      "question": "Combien coûte la G6 Split 70 W ?",
+      "answer": "Sur la boutique Gweike US en octobre 2026 : 4 899 à 4 999 $ en relevage manuel, 4 999 à 5 099 $ en relevage électrique et 5 399 à 5 499 $ en relevage électrique avec mise au point automatique, selon la couleur. C'est environ 1 000 $ de plus que la 50 W et 1 300 à 1 400 $ de moins que la 100 W à configuration comparable."
+    },
+    {
+      "question": "G6 Split 70 W ou 100 W pour un atelier de production ?",
+      "answer": "Dans notre benchmark, les deux sont proches sur un logo rempli (environ 2 à 6 minutes contre 2 à 5). La 100 W démarre à 6 299 $ contre 4 899 $ pour la 70 W. Ne prenez la 100 W que si la gravure profonde ou la découpe occupe l'essentiel de la journée ; sinon, la 70 W couvre la plupart des travaux de production pour moins cher."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "g6-70w-deep",
+      "title": "Pensée pour les passes profondes répétées",
+      "body": "70 W de puissance moyenne issus d'une source Raycus Q-switch. Les logos profonds, l'embossage et les découpes de métal fin demandent moins de passes que sur la 50 W, et c'est là que le surcoût se rentabilise."
+    },
+    {
+      "id": "g6-70w-value",
+      "title": "Sous la barre de prix de la 100 W",
+      "body": "À partir de 4 899 $ en relevage manuel, soit 1 400 $ de moins que la 100 W, pour l'essentiel de son intérêt sur les logos remplis du quotidien d'après notre benchmark."
+    }
   ],
   "materials": {
     "engrave": [

@@ -72,12 +72,14 @@
     ]
   },
   "pros": [
-    "5W IR: metal marking on the same chassis as other modules",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "Bare-metal marking on the P3 bed without buying a second machine",
+    "Fine spot (about 0.03 mm) for small text and serial numbers on stainless",
+    "Uses the same cameras, software and enclosure as CO₂ jobs"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Requires the P3 CO₂ base: not usable on its own",
+    "Marks only: no cutting, and deep engraving is slow next to a fiber galvo",
+    "Adds roughly $1,299 to $1,899 depending on the bundle"
   ],
   "beginnerNotes": "This profile is the 5W SKU on xTool P3 IR. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Run stainless parameter libraries on scrap first. Keep CO₂ and IR jobs as separate material presets: swapping heads takes downtime.",
@@ -99,7 +101,7 @@
     "commarker-b4-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-p3/01.webp",
   "images": [
     {
@@ -137,5 +139,31 @@
     "infrared"
   ],
   "tierEditorialOverride": true,
-  "releaseDate": "2025-08"
+  "releaseDate": "2025-08",
+  "faq": [
+    {
+      "question": "What does the P3 IR module mark?",
+      "answer": "Bare stainless steel, aluminium, brass and many engineering plastics, using a 1064 nm source with a spot of about 0.03 mm in our data. It marks; it does not cut wood or acrylic, which stays the CO₂ tube's job."
+    },
+    {
+      "question": "Is the IR module worth $1,299 to $1,899 on top of a P3?",
+      "answer": "It pays if you sell metal items regularly: tumblers, tags, tools, business cards. A logo on a stainless card takes about 4–8 min in our benchmark. For occasional metal jobs, marking spray with the CO₂ tube or a small dedicated fiber marker can cost less."
+    },
+    {
+      "question": "IR module or a separate fiber laser?",
+      "answer": "A dedicated fiber galvo marks much faster and deeper. The IR module's advantage is the P3's large bed, cameras and single software workflow: good for large flat parts and mixed orders, less so for high-volume deep metal engraving."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "bare-metal-on-co2",
+      "title": "Bare metal on a CO₂ machine",
+      "body": "The 1064 nm module marks stainless, aluminium and brass that the CO₂ tube cannot touch without spray, on the same 915 × 458 mm bed."
+    },
+    {
+      "id": "one-workflow",
+      "title": "One machine, one workflow",
+      "body": "Metal and non-metal jobs share the P3's cameras, enclosure and software, which simplifies mixed orders."
+    }
+  ]
 }

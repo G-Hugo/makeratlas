@@ -99,7 +99,7 @@
     "sculpfun-s30-ultra",
     "atomstack-a40-pro"
   ],
-  "status": "archived",
+  "status": "published",
   "lastUpdated": "2026-06-01",
   "images": [
     {
@@ -108,5 +108,6 @@
     }
   ],
   "powerRating": "20W",
-  "releaseDate": "2023-11"
+  "releaseDate": "2023-11",
+  "discontinued": {}
 }

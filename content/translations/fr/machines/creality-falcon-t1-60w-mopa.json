@@ -4,12 +4,14 @@
     "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
   },
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 220 × 220 mm (galvo field) : validez vos formats avant achat"
+    "Réglage d’impulsion pour le marquage couleur sur inox et le marquage noir sur aluminium anodisé",
+    "Le module métal le plus puissant de la T1 : la gravure profonde la plus rapide de notre benchmark",
+    "Point fin (environ 0,02 mm) pour le travail détaillé sur métal"
   ],
   "cons": [
-    "Fibre 60W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
+    "L’option T1 la plus chère : 4 299 $ en pack ou 2 699 $ seul (octobre 2026)",
+    "Le marquage couleur demande des grilles de test et du temps de réglage pour chaque matériau",
+    "Aucune découpe du bois, du cuir ou de l’acrylique"
   ],
   "beginnerNotes": "Ce profil décrit le SKU 60W de Creality Falcon T1 MOPA. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Budget MOPA plus chassis plus diode module together before committing : total can exceed fixed F2 Ultra bundles.",
@@ -35,5 +37,34 @@
       "CO₂-style thick Acrylique",
       "Budget hobby-only buyers"
     ]
+  },
+  "faq": [
+    {
+      "question": "Qu’apporte le module MOPA par rapport au module fibre ?",
+      "answer": "Une largeur d’impulsion réglable. Elle permet des marquages couleur sur inox, des marquages noirs sur aluminium anodisé et des marquages plus propres sur plastique, et ses 60 W gravent plus profond et plus vite. Un logo profond de 10 × 10 cm sur inox a pris environ 1 à 3 min dans notre benchmark."
+    },
+    {
+      "question": "Combien coûte la T1 MOPA, et est-elle disponible ?",
+      "answer": "Sur la boutique américaine de Creality en octobre 2026 : 4 299 $ pour la T1 avec module MOPA, 2 699 $ pour le module seul. Le module seul était en précommande, annoncé disponible à partir du 20 octobre 2026."
+    },
+    {
+      "question": "La MOPA vaut-elle 1 600 $ de plus que le pack fibre ?",
+      "answer": "Seulement si le marquage couleur ou la gravure profonde du métal sont des travaux payés, par exemple des couteaux personnalisés, des plaques ou des bijoux. Pour les logos et les numéros de série, le module fibre 20 W fait le même travail pour moins cher."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "mopa-colour",
+      "title": "La couleur sur inox",
+      "body": "La largeur d’impulsion réglable permet à la source MOPA de produire des couleurs d’oxydation sur l’inox, ce qu’une source fibre classique ne sait pas faire."
+    },
+    {
+      "id": "deep-metal",
+      "title": "Gravure profonde du métal",
+      "body": "Les 60 W enlèvent la matière rapidement : un logo profond de 10 × 10 cm sur inox a pris environ 1 à 3 min dans notre benchmark."
+    }
+  ],
+  "priceRange": {
+    "note": "Boutique officielle Creality, oct. 2026 : 4 299 $, machine complète"
   }
 }

@@ -12,13 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 410 × 400 mm : validez vos formats de pièces avant achat"
+    "La plus rapide des versions A5 Pro dans notre test : ~12–18 min pour une photo de 10 × 10 cm et ~6–10 min pour un carré en tilleul de 3 mm",
+    "Tilleul jusqu'à 8 mm dans notre fiche, contre 5 mm pour la 10 W",
+    "Vitesses de remplissage de 50–120 mm/s, plusieurs fois celles des versions inférieures"
   ],
   "cons": [
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Arrêtée : un module 20 W d'occasion est la pièce la plus chère à remplacer en cas de panne",
+    "La vitesse maximale de 200 mm/s du châssis A5 limite le gain de puissance sur les grandes gravures",
+    "Le point le plus large de la gamme (~0,10 mm) : pas le bon choix pour les photos très fines"
   ],
   "materials": {
     "engrave": [
@@ -69,5 +70,31 @@
   "editorialDepth": {
     "advantages": "Le 20 W pour ceux qui connaissent déjà l’A5 et veulent couper sans changer de châssis.",
     "limitations": "Le A40 Pro est plus rigide à puissance égale. Prévoyez une montée si les devis incluent des panneaux tilleul quotidiens."
-  }
+  },
+  "faq": [
+    {
+      "question": "Qu'apporte l'A5 Pro 20 W par rapport à la 10 W ?",
+      "answer": "Surtout de la vitesse et de l'épaisseur. Dans notre test, les photos passent de ~18–28 min à ~12–18 min et le carré en tilleul de 3 mm de ~9–15 min à ~6–10 min. Notre fiche relève la limite de tilleul de 5 mm à 8 mm, en plusieurs passes près du maximum."
+    },
+    {
+      "question": "Le châssis A5 bride-t-il la 20 W ?",
+      "answer": "En partie. Le châssis A5 Pro plafonne à 200 mm/s dans notre fiche : sur les grandes photos, le gain face à la 10 W est plus faible que l'écart de puissance ne le laisse croire. En découpe, où la vitesse dépend du laser plutôt que des moteurs, la 20 W fait une vraie différence."
+    },
+    {
+      "question": "A5 Pro 20 W d'occasion ou 20 W actuelle ?",
+      "answer": "Si l'A5 Pro 20 W d'occasion coûte nettement moins que sa fourchette de 299–399 $ et que le module fonctionne bien, c'est une affaire correcte pour découper du bois fin. Sinon, une 20 W actuelle avec garantie et un châssis plus rapide est plus sûre, car l'A5 Pro est arrêtée et le module de remplacement reste le principal risque."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "fastest-a5-tier",
+      "title": "La version A5 Pro la plus rapide",
+      "body": "~12–18 min pour une photo de 10 × 10 cm et ~6–10 min pour un carré en tilleul de 3 mm dans notre test, les temps les plus courts de la gamme."
+    },
+    {
+      "id": "eight-mm-basswood-a5",
+      "title": "Tilleul jusqu'à 8 mm",
+      "body": "La seule version A5 Pro qui atteint 8 mm de tilleul dans notre fiche, avec assistance d'air et plusieurs passes."
+    }
+  ]
 }

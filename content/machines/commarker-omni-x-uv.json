@@ -17,12 +17,13 @@
     "First machine"
   ],
   "priceRange": {
-    "min": 1999,
-    "max": 2999,
-    "currency": "USD"
+    "min": 3599,
+    "max": 7059,
+    "currency": "USD",
+    "note": "Official ComMarker store, Oct 2026: $3,599 to $7,059 depending on 6W or 12W and bundle"
   },
   "specs": {
-    "power": "3W–5W UV",
+    "power": "6W UV (12W version available)",
     "workArea": "100 × 100 mm typical",
     "software": [
       "ComMarker",
@@ -63,20 +64,48 @@
       "Thin films (limited)"
     ],
     "cannot": [
-      "Bare metal (use fiber)",
+      "Deep metal engraving (use fiber)",
       "Thick wood cutting",
       "CO₂-speed acrylic production"
     ]
   },
   "pros": [
-    "5W UV: cold marking on glass and heat-sensitive plastics",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "Class 1 enclosure with OD 5+ shielding, door sensor and safety key: no goggles needed in normal use",
+    "ComMarker claims 99.72% dust isolation inside the enclosure, useful when engraving plastics in a shared room",
+    "LiDAR autofocus and a 235 mm maximum processing height for tall objects"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "$300 more than the open-frame Omni XE for the same laser options",
+    "32 kg and 515 × 320 × 655 mm: heavier and taller than the Omni XE (20 kg)",
+    "From $3,599 for the 6W basic bundle (ComMarker store, Oct 2026), far above diode lasers that also engrave wood and leather"
   ],
-  "beginnerNotes": "This profile is the 5W SKU on ComMarker Omni X UV. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "faq": [
+    {
+      "question": "Omni X or Omni XE: what is the difference?",
+      "answer": "Both use the same 355 nm UV source options (6W or 12W), the same 10,000 mm/s galvo, LiDAR autofocus and work areas, according to ComMarker's spec pages. The Omni X is the enclosed version: Class 1 laser safety, OD 5+ shielding, door sensor and safety key, 32 kg. The Omni XE is rated Class 4, weighs 20 kg and costs $300 less. Pick the X if it will run in a shared room, a shop counter or near children."
+    },
+    {
+      "question": "6W or 12W Omni X?",
+      "answer": "ComMarker lists the Omni X basic bundle at $3,599 (6W) or $5,999 (12W) in October 2026. The 12W gets a 250 × 250 mm field instead of 150 × 150 mm and more multi-pass cutting capacity: 12 mm basswood, 10 mm acrylic and 1 mm stainless, against 8 mm, 6 mm and 0.6 mm for the 6W. A 12W upgrade kit is also sold separately for $3,499."
+    },
+    {
+      "question": "Can the Omni X mark metal?",
+      "answer": "Yes: ComMarker lists stainless steel, aluminum, brass, gold and silver, and UV leaves fine, low-heat marks. For deep engraving or high-volume metal work a fiber laser is faster and cheaper per part. The Omni X earns its place on glass, crystal (including 3D internal engraving), plastics and heat-sensitive items."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "omni-x-class1",
+      "title": "Class 1 enclosed UV",
+      "body": "Fully enclosed with OD 5+ shielding, a door sensor that pauses the job and a safety key. It can run in an office, a retail counter or a classroom without separate laser protection for bystanders."
+    },
+    {
+      "id": "omni-x-contained",
+      "title": "Contained dust and fumes",
+      "body": "ComMarker claims 99.72% dust isolation inside the enclosure, and an external fume extractor can be connected for filtration. A practical point when engraving plastics, leather or food items indoors."
+    }
+  ],
+  "beginnerNotes": "This profile is the 6W base version on ComMarker Omni X UV. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "UV on glass: low power test tiles and fixturing matter more than speed. Keep dedicated presets away from fiber jobs. Confirm material compatibility with ComMarker before quoting UV gift lines.",
   "primaryUse": "Engraving-first desktop diode for makers who prioritize mark quality over cut speed",
   "rating": {
@@ -91,7 +120,7 @@
     "commarker-omni-xe-uv"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/commarker-omni-x-uv/01.webp",
   "images": [
     {
@@ -111,11 +140,11 @@
       "alt": "ComMarker Omni X UV laser engraver: ComMarker"
     }
   ],
-  "powerRating": "5W",
+  "powerRating": "6W",
   "releaseDate": "2024-08",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "ComMarker Omni X UV 5W targets glass, films, and heat-sensitive plastics: profitable when you already sell those jobs, not for casual UV experiments.",
+    "advantages": "ComMarker Omni X UV targets glass, films, and heat-sensitive plastics: profitable when you already sell those jobs, not for casual UV experiments.",
     "limitations": "Poor first-laser purchase. No wood or metal cutting. Confirm the module material list before buying the chassis."
   }
 }

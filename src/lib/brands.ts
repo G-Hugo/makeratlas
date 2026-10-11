@@ -1,4 +1,5 @@
 import fs from "fs";
+import { isMachineIndexable } from "@/lib/seo";
 import path from "path";
 import type { Locale } from "@/i18n/config";
 import { brandToSlug, normalizeBrandName } from "@/lib/brand-slug";
@@ -154,6 +155,13 @@ export function getAllBrandProfiles(locale: Locale = "en"): BrandProfile[] {
   }
 
   return profiles.sort((a, b) => b.lineCount - a.lineCount || a.name.localeCompare(b.name));
+}
+
+/** A brand page is worth indexing only if it lists at least one indexable machine. */
+export function isBrandIndexable(slug: string, locale: Locale = "en"): boolean {
+  return getCatalogEntries(locale).some(
+    (entry) => brandToSlug(entry.primary.brand) === slug && isMachineIndexable(entry.primary),
+  );
 }
 
 export function getBrandBySlug(slug: string, locale: Locale = "en"): BrandProfile | undefined {

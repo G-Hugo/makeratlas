@@ -16,9 +16,9 @@
   ],
   "priceRange": {
     "min": 3999,
-    "max": 5499,
+    "max": 3999,
     "currency": "USD",
-    "note": "UV module; chassis required"
+    "note": "Official Creality store, Oct 2026: $3,999, complete machine"
   },
   "specs": {
     "power": "5W UV",
@@ -66,12 +66,14 @@
     ]
   },
   "pros": [
-    "5W UV: cold marking on glass and heat-sensitive plastics",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "Marks glass, crystal and clear acrylic, which diode and fiber lasers handle poorly",
+    "Smallest spot of the T1 modules (0.014 mm in CNX Software's spec table)",
+    "Internal-engraving lens and bracket included, per Creality"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Expensive: $3,999 bundle or $2,599 alone (October 2026)",
+    "Marking only: it does not cut",
+    "Not Class 1 in open-cover modes (conveyor, rotary): eye protection is needed then"
   ],
   "beginnerNotes": "This profile is the 5W SKU on Creality Falcon T1 UV. Read the TL;DR and benchmarks above, then compare other modules via the chips before buying.",
   "proTips": "Run glass test tiles at low power: UV on glass is unforgiving. Keep dedicated ventilation practices for UV fumes per Creality guidance.",
@@ -89,7 +91,7 @@
     "xtool-f1-ultra"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-02",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/creality-falcon-t1/01.webp",
   "images": [
     {
@@ -147,5 +149,31 @@
   "editorialDepth": {
     "advantages": "The 5W UV module covers glass and heat-sensitive plastics on the T1 chassis: niche work that diode and fiber modules cannot do on the same platform.",
     "limitations": "Specialty module with narrow material list. Requires chassis and swap discipline. Not a first purchase for most shops: compare the base diode profile unless UV jobs are already sold."
-  }
+  },
+  "faq": [
+    {
+      "question": "What is the T1 UV module for?",
+      "answer": "Cold marking on materials that burn, melt or reflect other lasers: glass, crystal, clear acrylic, many plastics and some films. CNX Software's spec table lists a 0.014 mm spot. A fine mark on a 10 × 10 cm glass panel took about 5–10 min in our benchmark."
+    },
+    {
+      "question": "Can the T1 UV engrave inside glass or crystal?",
+      "answer": "Creality ships the UV version with an internal-engraving F-theta lens and bracket, intended for subsurface marks in crystal. Expect to test settings carefully: results depend on the quality of the blank."
+    },
+    {
+      "question": "How much is the UV module compared with other T1 options?",
+      "answer": "$3,999 for the T1 UV bundle, or $2,599 for the module alone, on Creality's US store in October 2026. That is $1,500 more than the entry diode bundle, so it only pays if glass, crystal or plastic marking is a regular product."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "cold-marking",
+      "title": "Cold marking",
+      "body": "The UV wavelength marks with little heat, so glass, clear acrylic and heat-sensitive plastics are marked without melting or cracking."
+    },
+    {
+      "id": "crystal-engraving",
+      "title": "Inside-crystal engraving kit",
+      "body": "Creality includes an internal-engraving F-theta lens and bracket with the UV version, for subsurface marks in crystal blocks."
+    }
+  ]
 }

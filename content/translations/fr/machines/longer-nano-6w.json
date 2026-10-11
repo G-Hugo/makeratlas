@@ -4,7 +4,7 @@
   "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
   "primaryUse": "Module 6W · Longer Nano",
   "beginnerNotes": "Ce profil décrit le SKU 6W de Longer Nano. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
+  "proTips": "Optimisez pour la gravure : DPI plus bas sur les photos, vitesse de balayage plus élevée sur le dessin au trait, après des essais sur chutes. L’assistance d’air améliore encore la netteté. Comparez les temps de benchmark de la puissance supérieure avant de conclure qu’il vous en faut plus.",
   "bestFor": [
     "Gravure fine",
     "Photo et logo",
@@ -12,15 +12,14 @@
     "Première machine"
   ],
   "pros": [
-    "6W sur Longer Nano : priorité gravure : remplissages photo et cuir",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 130 × 130 mm (approx.) : validez vos formats de pièces avant achat"
+    "Tête galvo annoncée par Longer jusqu’à 5 000 mm/s pour des petits marquages rapides",
+    "Lot de base à 399,99 $ sur la boutique Longer (octobre 2026)",
+    "Compacte et transportable, compatible avec LightBurn, LaserGRBL et LaserBurn"
   ],
   "cons": [
-    "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
-    "Modules plus puissants dans la gamme (12W) : découpe plus rapide et plus profonde",
-    "Pas le SKU pour une boutique qui découpe du 4 mm+ toute la journée",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Précision de 0,05 mm selon Longer, moins fine que la Nano Pro avec lentille de champ",
+    "Petit champ de 100 × 100 mm sans l’extension à glissière",
+    "Découper du tilleul de 3 mm prend 9 à 15 min dans nos benchmarks"
   ],
   "materials": {
     "engrave": [
@@ -40,7 +39,7 @@
     ]
   },
   "priceRange": {
-    "note": "Les kits Pro ajoutent rotary/coulisse"
+    "note": "Boutique officielle Longer, oct. 2026 : de 400 $ à 960 $ selon le pack"
   },
   "specs": {
     "performance": {
@@ -69,5 +68,31 @@
   "editorialDepth": {
     "advantages": "Le Nano 6 W vend la portabilité et l’entrée à faible risque avant un grand châssis.",
     "limitations": "Toute activité de découpe payante : minimum Ray5 20 W. Les temps photo dépendent du format. Méfiance des watts combinés en annonce."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que peut découper la Nano 6 W ?",
+      "answer": "Longer indique une profondeur de découpe de 6 mm dans le bois. La Nano est une machine galvo : la découpe se fait par de nombreuses passes rapides. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 9 à 15 min. Papier, carton et tissu passent facilement ; le bois plus épais reste un travail lent en plusieurs passes."
+    },
+    {
+      "question": "Quelle taille de motif sur la Nano 6 W ?",
+      "answer": "Longer indique un champ de travail de 100 × 100 mm, extensible à 100 × 300 mm avec l’extension à glissière. Cela convient aux étiquettes, boîtes à bijoux, coques de téléphone et écussons en cuir, pas aux enseignes ni aux panneaux."
+    },
+    {
+      "question": "Nano 6 W ou Nano Pro 12 W ?",
+      "answer": "Sur la boutique Longer en octobre 2026, les lots de base étaient à 399,99 $ (6 W) et 559,99 $ (Pro 12 W). Pour 160 $ de plus, la Pro ajoute une seconde diode et une lentille F-thêta, avec une précision annoncée de 0,01 mm contre 0,05 mm et une profondeur de découpe de 10 mm contre 6 mm. La 6 W suffit pour les petits travaux de gravure."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "nano-6w-galvo",
+      "title": "La vitesse galvo dans une petite machine",
+      "body": "Jusqu’à 5 000 mm/s en gravure et 32 000 mm/s en aperçu selon Longer, idéal pour les petits marquages répétés."
+    },
+    {
+      "id": "nano-6w-price",
+      "title": "Prix d’entrée pour une diode galvo",
+      "body": "399,99 $ le lot de base en octobre 2026, les lots Pro et Pro Max ajoutant des accessoires."
+    }
+  ]
 }

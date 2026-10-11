@@ -12,16 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Meilleur rapport qualité-prix de la gamme S1 si vous gravez surtout et ne découpez que fin",
-    "Même enceinte, logiciels et chemin de filtration que le module 40 W",
-    "Tête interchangeable : passez au 40 W plus tard sans racheter la machine",
-    "Plus sûr pour famille et animaux qu’une open-frame à puissance comparable",
-    "xTool Creative Space simplifie la prise en main avant LightBurn"
+    "Tête équilibrée : 10 mm de contreplaqué de tilleul et 8 mm d’acrylique noir en une passe (donnée xTool)",
+    "Point de 0,08 × 0,06 mm selon xTool : photos et textes restent nets",
+    "Le pack S1 le moins cher sur la boutique américaine de xTool en octobre 2026 (1 299 $ en Basic)"
   ],
   "cons": [
-    "Les modules plus puissants (40 W) ajoutent vitesse et profondeur de découpe",
-    "Vérifiez le SKU 20 W : même châssis, modules différents",
-    "L’acrylique coulé transparent et la découpe production épaisse restent du CO₂"
+    "Les bois durs denses comme le hêtre, le chêne ou le bambou demandent plusieurs passes",
+    "Environ 9 mm/s sur du tilleul de 3 mm : la découpe en série prend nettement plus de temps qu’avec la tête la plus puissante",
+    "L’acrylique transparent reste hors de portée, comme pour toute diode"
   ],
   "editorialDepth": {
     "advantages": "La S1 20 W convient aux makers en appartement qui veulent une enceinte sans payer la marge de découpe du 40 W. Vous gardez le logiciel guidé xTool, les packs filtre optionnels et le même chemin de montée que les SKU plus lourds. Pour ardoises, cuir et photos remplies, la qualité suit le module 40 W à vitesses raisonnables.",
@@ -49,7 +47,7 @@
     ]
   },
   "priceRange": {
-    "note": "SKU fermée 20 W"
+    "note": "Boutique officielle xTool, oct. 2026 : de 1 299 $ à 2 599 $ selon le pack"
   },
   "specs": {
     "performance": {
@@ -63,20 +61,16 @@
   },
   "faq": [
     {
-      "question": "La xTool S1 est-elle plus sûre qu’un laser structure ouverte ?",
-      "answer": "Oui. L’enceinte bloque l’exposition directe au faisceau et contient les fumées. Vous suivez toujours les règles de sécurité, mais le risque d’exposition accidentelle est bien plus faible qu’avec une diode ouverte."
+      "question": "Que découpe la xTool S1 20 W en une passe ?",
+      "answer": "xTool annonce pour la tête 20 W 10 mm de contreplaqué de tilleul, 10 mm de merisier ou de noyer et 8 mm d’acrylique noir en une passe, et 9 mm/s sur du tilleul de 3 mm. Ces chiffres supposent l’assistance d’air et une plaque propre et plane. Dans notre benchmark, un carré de 10 × 10 cm dans du tilleul de 3 mm a pris environ 5 à 8 min."
     },
     {
-      "question": "La S1 peut-elle remplacer un laser CO₂ ?",
-      "answer": "Non. C’est toujours une diode avec les mêmes limites acrylique et découpe. Achetez du CO₂ (comme xTool P2) si acrylique transparent et découpe bois épais sont votre cœur de métier."
+      "question": "S1 20 W ou 40 W : laquelle acheter ?",
+      "answer": "Prenez la 20 W si vous gravez surtout (dessous de verre, cuir, ardoise, photos) avec des découpes ponctuelles jusqu’à 6 mm environ. Prenez la 40 W si vous découpez des enseignes, des boîtes ou du 10 mm chaque semaine : xTool l’annonce à 15 mm de contreplaqué de tilleul en une passe et 15 mm/s sur du 3 mm. Sur la boutique américaine de xTool, les packs Basic coûtaient 1 299 $ et 1 699 $ en octobre 2026, soit 400 $ d’écart."
     },
     {
-      "question": "Puis-je upgrader de 20 W à 40 W plus tard ?",
-      "answer": "Oui. Les têtes S1 sont interchangeables : achetez un module 40 W et montez-le sur la même enceinte (deux vis + connecteurs). Vous pouvez aussi ajouter le module IR 1064 nm 2 W optionnel pour plus de travail métal."
-    },
-    {
-      "question": "La S1 est-elle un laser hybride comme la F1 Ultra ?",
-      "answer": "Non. La S1 est une plateforme diode avec têtes diode (ou IR) interchangeables. Les machines hybrides combinent fibre et diode dans un produit double source : catégorie différente."
+      "question": "Puis-je ajouter la tête 40 W sur une S1 20 W plus tard ?",
+      "answer": "Oui. Les têtes s’échangent sur le même caisson, et xTool vendait le module 40 W seul 1 099 $ en octobre 2026. C’est environ 700 $ de plus que l’écart entre les packs : si vous prévoyez déjà de découper du bois épais, acheter la 40 W dès le départ revient moins cher."
     }
   ],
   "images": [
@@ -107,5 +101,17 @@
         "label": "Module IR 2 W (accessoire)"
       }
     ]
-  }
+  },
+  "standoutFeatures": [
+    {
+      "id": "one-pass-10mm",
+      "title": "10 mm de tilleul en une passe",
+      "body": "xTool annonce 10 mm de contreplaqué de tilleul et 8 mm d’acrylique noir en une seule passe pour la tête 20 W : assez pour des boîtes, des décorations et des lettres en acrylique foncé."
+    },
+    {
+      "id": "lowest-s1-price",
+      "title": "Le pack S1 le moins cher",
+      "body": "Le pack 20 W Basic coûtait 1 299 $ sur la boutique américaine de xTool en octobre 2026, avec le même caisson, les mêmes sécurités et la compatibilité LightBurn."
+    }
+  ]
 }

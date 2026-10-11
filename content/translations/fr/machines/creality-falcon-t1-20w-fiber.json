@@ -4,13 +4,14 @@
     "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante (40W ou 60W) ou une autre machine."
   },
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "Surface utile 220 × 220 mm (typical galvo field) : validez vos formats avant achat"
+    "Marquage du métal nu sans machine fibre séparée",
+    "Point très fin (environ 0,02 mm) pour les numéros de série et les petits textes",
+    "Le module métal le moins cher pour la T1 (1 099 $ seul, octobre 2026)"
   ],
   "cons": [
-    "Fibre 20W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox",
-    "Montée possible vers 40W ou 60W si le débit métal devient critique"
+    "Aucune découpe du bois, du cuir ou de l’acrylique",
+    "Pas de marquage couleur sur inox : il faut une source MOPA avec réglage d’impulsion",
+    "Les métaux revêtus et les sprays de marquage demandent toujours une extraction des fumées"
   ],
   "beginnerNotes": "Ce profil décrit le SKU 20W de Creality Falcon T1 Fiber. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
   "proTips": "Keep separate material libraries for fiber vs diode heads. Confirm EZCAD/LightBurn support on your exact module SKU before buying.",
@@ -36,5 +37,34 @@
       "Thick Acrylique signage",
       "Use alongside diode module without swapping"
     ]
+  },
+  "faq": [
+    {
+      "question": "Que fait le module fibre de la T1 que la diode ne sait pas faire ?",
+      "answer": "Il marque et grave les métaux nus (inox, aluminium, laiton) et certains plastiques durs, avec un point d’environ 0,02 mm. Un logo rempli de 10 × 10 cm sur inox a pris environ 2 à 5 min dans notre benchmark. Il ne découpe ni le bois, ni le cuir, ni l’acrylique."
+    },
+    {
+      "question": "Combien coûte la T1 avec le module fibre ?",
+      "answer": "Sur la boutique américaine de Creality en octobre 2026, la T1 avec module fibre 20 W coûtait 2 699 $, et le module fibre seul 1 099 $ pour qui possède déjà un autre pack T1. Les prix bougent avec les promotions : vérifiez la boutique le jour de l’achat."
+    },
+    {
+      "question": "Fibre 20 W ou MOPA 60 W sur la T1 ?",
+      "answer": "La fibre 20 W couvre les logos, les numéros de série et la gravure légère sur métal. La MOPA 60 W (pack à 4 299 $, soit 1 600 $ de plus) ajoute le réglage d’impulsion pour le marquage couleur sur inox et grave plus vite en profondeur. Prenez la fibre, sauf si la couleur ou la gravure profonde sont des travaux facturés."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "metal-marking-module",
+      "title": "Le marquage métal dans le caisson T1",
+      "body": "Le module fibre transforme la T1 en marqueur métal pour l’inox, l’aluminium et le laiton, sans seconde machine sur l’établi."
+    },
+    {
+      "id": "fine-fiber-spot",
+      "title": "Un point très fin",
+      "body": "Avec un point d’environ 0,02 mm, les QR codes, numéros de série et petits logos restent nets sur les plaques et les outils."
+    }
+  ],
+  "priceRange": {
+    "note": "Boutique officielle Creality, oct. 2026 : 2 699 $, machine complète"
   }
 }

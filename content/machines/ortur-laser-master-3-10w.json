@@ -72,13 +72,14 @@
     ]
   },
   "pros": [
-    "10W on Ortur Laser Master 3: engraving-first: photo fills and leather at moderate speeds",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Basic set at $299.99 on Ortur's store in October 2026, less than half the price of the stronger LM3",
+    "Full 400 × 400 mm working area, per Ortur",
+    "Wi-Fi and USB control on the LM3 platform"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Photo fills of ~20–42 mm/s: a 10 × 10 cm photo takes ~15–23 min",
+    "Cutting slows to ~2–3 mm/s on 3 mm wood",
+    "Ortur only advertises the free Air Pump 1.0 with the higher-power LM3 set"
   ],
   "beginnerNotes": "This profile is the 10W SKU on Ortur Laser Master 3. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
@@ -96,7 +97,7 @@
     "atomstack-a40-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/ortur-laser-master-3-10w/01.webp",
   "mainObjective": "High-quality hobby and light-business engraving with light, slow cutting",
   "images": [
@@ -124,5 +125,31 @@
   "editorialDepth": {
     "advantages": "Ortur Laser Master 3 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W in the line. Not for cast acrylic or bare metal without spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "How much does the LM3 10W cost compared with the 20W?",
+      "answer": "On Ortur's store in October 2026 the LM3 10W basic set was $299.99 and the 20W basic set $639.99, the latter with a free Air Pump 1.0. Both sit inside our tracked $140–1,740 range, which spans used units up to Ortur's all-in-one bundles."
+    },
+    {
+      "question": "What can the LM3 10W cut?",
+      "answer": "In our benchmarks a 10 × 10 cm square in 3 mm basswood takes about 8–12 min at 2–3 mm/s. Basswood up to about 5 mm and thin black acrylic are possible in several passes. Ortur publishes one-pass cutting demos only for the 20W module."
+    },
+    {
+      "question": "LM3 10W or 20W: which one suits me?",
+      "answer": "Take the 10W for engraving-led work on a budget: it keeps the full 400 × 400 mm area, while Ortur lists 400 × 380 mm for the 20W. Take the 20W if you cut regularly: it handles our 3 mm square in about 5–8 min and Ortur demonstrates 10 mm plywood in one pass, for roughly $340 more."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "lm3-10w-price",
+      "title": "LM3 platform at entry price",
+      "body": "$299.99 for the basic set in October 2026, with the same LM3 frame and controller as the costlier version."
+    },
+    {
+      "id": "lm3-10w-full-area",
+      "title": "Full 400 × 400 mm bed",
+      "body": "Ortur lists the full 400 × 400 mm area for this module, slightly larger than with the stronger head."
+    }
+  ]
 }

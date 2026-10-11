@@ -12,14 +12,14 @@
     "Petites séries"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~8 mm tilleul en plusieurs passes",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "Pompe à air offerte avec ce module sur la boutique Ortur",
+    "Ortur montre 8 mm de contreplaqué et 8 mm d’acrylique noir découpés en une passe",
+    "Module annoncé par Ortur pour plus de 10 000 heures"
   ],
   "cons": [
-    "Modules plus puissants dans la gamme (40W) : découpe plus rapide et plus profonde",
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Point focal plus large de 0,1 × 0,12 mm (chiffre Ortur) : les photos fines sont moins nettes qu’avec le module moins puissant",
+    "Remplissage à environ 22–49 mm/s dans nos tests : une photo de 10 × 10 cm prend encore 18 à 28 min",
+    "Une vraie découpe de 8 mm demande des vitesses lentes, une lentille propre et une pompe à air qui fonctionne"
   ],
   "materials": {
     "engrave": [
@@ -72,5 +72,36 @@
   "editorialDepth": {
     "advantages": "Ortur Laser Master H10 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
     "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Montée possible vers 40W si la découpe prend le dessus. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
-  }
+  },
+  "faq": [
+    {
+      "question": "Que découpe la H10 20 W en une passe ?",
+      "answer": "La page Ortur montre des démonstrations de découpe en une passe dans du pin de 12 mm, du contreplaqué de 8 mm et de l’acrylique noir de 8 mm avec le module LU3-20B ; ce sont des démonstrations, pas des maximums garantis. Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 9 à 15 min, et le tilleul jusqu’à 8 mm environ est réaliste en plusieurs passes."
+    },
+    {
+      "question": "La H10 20 W inclut-elle l’assistance d’air ?",
+      "answer": "Oui, Ortur vend la version 20 W avec une pompe à air offerte. En octobre 2026, le lot de base était à 549,99–649,99 $ selon l’annonce, 589,98–679,98 $ avec la rehausse ORP1.0 et 659,98–729,98 $ avec le lot LEP1.0."
+    },
+    {
+      "question": "H10 20 W ou 40 W ?",
+      "answer": "La page H10 d’Ortur ne liste que les modules 10 W et 20 W, et sa liste de compatibilité n’inclut pas le module 40 W LU3-40A vendu à part. La 20 W est la configuration qu’Ortur prend officiellement en charge sur la H10 ; ne choisissez une annonce 40 W que si le vendeur confirme la compatibilité."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "h10-20w-air-pump",
+      "title": "Pompe à air fournie",
+      "body": "Ortur livre une pompe à air avec la H10 20 W : des découpes propres sans achat supplémentaire."
+    },
+    {
+      "id": "h10-20w-one-pass",
+      "title": "8 mm en une passe",
+      "body": "Ortur montre 8 mm de contreplaqué et 8 mm d’acrylique noir découpés en une seule passe avec le module LU3-20B."
+    },
+    {
+      "id": "h10-20w-lifetime",
+      "title": "Longue durée de vie",
+      "body": "Ortur annonce plus de 10 000 heures d’utilisation pour le module LU3-20B."
+    }
+  ]
 }

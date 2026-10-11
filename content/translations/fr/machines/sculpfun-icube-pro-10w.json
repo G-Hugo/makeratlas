@@ -12,13 +12,14 @@
     "Détail prioritaire"
   ],
   "pros": [
-    "10W sur Sculpfun iCube Pro Max : priorité gravure : remplissages photo et cuir",
-    "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
-    "Surface utile 300 × 300 mm : validez vos formats de pièces avant achat"
+    "Découpe le tilleul de 3 mm environ deux fois plus vite que l’iCube moins puissante dans nos benchmarks",
+    "Gravure remplie à environ 75–160 mm/s : les dessous de verre et étiquettes sont vite terminés",
+    "Même encombrement compact, même filtration des fumées et même écran de protection que le reste de la gamme iCube"
   ],
   "cons": [
-    "Vise les découpes fines (environ 5 mm de tilleul) : pas la production épaisse",
-    "Pas le SKU pour une boutique qui découpe du 5 mm+ toute la journée"
+    "Point plus large de 0,08 mm : les très petits textes sont un peu moins nets que sur l’iCube la plus fine",
+    "Les longues séries de découpe produisent plus de fumée que le filtre intégré n’en absorbe confortablement",
+    "Petite surface de travail qui limite la taille des panneaux, quelle que soit la puissance"
   ],
   "materials": {
     "engrave": [
@@ -69,5 +70,36 @@
   "editorialDepth": {
     "advantages": "Sculpfun iCube Pro Max 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Format fermé plus rassurant à la maison.",
     "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
-  }
+  },
+  "faq": [
+    {
+      "question": "L’iCube Pro 10 W est-elle la même machine que l’iCube Pro Max ?",
+      "answer": "Oui. Sculpfun vend la version 10 W sous le nom iCube Pro Max : diode de 10 W, point de 0,08 mm et même vitesse maximale de 10 000 mm/min que la 5 W. Sculpfun la propose aussi avec une licence LightBurn Core : comparez les lots avant de comparer les prix."
+    },
+    {
+      "question": "Quelle épaisseur l’iCube Pro 10 W peut-elle découper ?",
+      "answer": "Dans nos benchmarks, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 6 à 10 min à 4–12 mm/s. Le tilleul jusqu’à 5 mm environ est réaliste en quelques passes, l’acrylique noir fin passe, l’acrylique transparent non. La petite surface limite davantage les projets de découpe que la puissance."
+    },
+    {
+      "question": "Quand la 10 W vaut-elle mieux que l’iCube Pro 5 W ?",
+      "answer": "Dès que la découpe devient plus qu’occasionnelle : elle divise environ par deux le temps de découpe en 3 mm (6 à 10 min contre 9 à 15 min) et remplit plus vite, pour 100 à 150 $ de plus environ sur les annonces suivies. Si vous gravez seulement des petits textes et des photos, le point de 0,06 mm de la 5 W reste un vrai argument."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "icube-10w-light-cutting",
+      "title": "Une vraie découpe légère dans un format compact",
+      "body": "Carrés de 3 mm de tilleul en 6 à 10 min environ dans nos benchmarks, rare pour une machine aussi petite."
+    },
+    {
+      "id": "icube-10w-fast-batches",
+      "title": "Petites séries rapides",
+      "body": "Des remplissages d’environ 75–160 mm/s accélèrent les séries d’étiquettes, de dessous de verre et de porte-clés."
+    },
+    {
+      "id": "icube-10w-lightburn",
+      "title": "Lot avec LightBurn disponible",
+      "body": "Sculpfun vend une version avec licence LightBurn Core, pratique pour travailler sous LightBurn dès le premier jour."
+    }
+  ]
 }
