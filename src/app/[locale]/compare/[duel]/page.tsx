@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { duelMetaDescription, duelMetaTitle } from "@/lib/seo-snippets";
 import { notFound } from "next/navigation";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import { MachineDuelVerdict } from "@/components/compare/MachineDuelVerdict";
@@ -39,14 +40,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const duel = resolveDuel(duelSlug, locale);
   if (!duel) return {};
 
-  const dict = getDictionary(locale);
   const [a, b] = duel.machines;
 
   return buildPageMetadata({
     locale,
     path: `/compare/${duelSlug}` as AppPath,
-    title: interpolate(dict.compare.duelMetaTitle, { a: a.name, b: b.name }),
-    description: interpolate(dict.compare.duelMetaDescription, { a: a.name, b: b.name }),
+    title: duelMetaTitle(a, b, locale),
+    description: duelMetaDescription(a, b, locale),
   });
 }
 

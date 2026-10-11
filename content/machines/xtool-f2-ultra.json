@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "image": "/machines/xtool-f2-ultra/01.webp",
-  "tagline": "Next-gen compact fiber + diode: faster metal marking, larger than F1",
-  "tldr": "xTool's updated dual-laser desktop builds on F1 Ultra with improved speed and workflow. Still a metal-marking specialist with small default bed. Premium price for jewelry, tools, and batch metal personalization: not a general workshop replacement.",
+  "tagline": "60W MOPA fiber + 40W diode under one cover: color metal marking with a bigger bed than F1 Ultra",
+  "tldr": "xTool's flagship desktop dual laser: 60W MOPA fiber for color and deep metal marking, plus a 40W diode for wood and leather, in an enclosed 220 × 220 mm machine. Fast and precise, but priced for small businesses, not hobby use.",
   "mainObjective": "High-speed compact metal marking plus bonus diode for wood & leather",
   "bestFor": [
     "Metal batch marking",
@@ -16,13 +16,14 @@
     "Compact pro setup"
   ],
   "priceRange": {
-    "min": 3999,
-    "max": 4599,
-    "currency": "USD"
+    "min": 4299,
+    "max": 6969,
+    "currency": "USD",
+    "note": "Official xTool store, Oct 2026: $4,299 MOPA-only, $5,299 dual laser, up to $6,969 for the deluxe bundle"
   },
   "specs": {
-    "power": "20W fiber + 20W diode",
-    "workArea": "150 × 150 mm (expandable with conveyor)",
+    "power": "60W MOPA fiber + 40W diode",
+    "workArea": "220 × 220 mm (8.6 × 8.6 in)",
     "performance": {
       "precision": "0.00199 mm",
       "engraveExample": {
@@ -37,7 +38,7 @@
       },
       "technical": {
         "spotSize": "~0.02 mm fiber spot",
-        "maxSpeed": "18,000 mm/s",
+        "maxSpeed": "15,000 mm/s",
         "avgEngraveSpeed": "800–3,000 mm/s marking",
         "avgCutSpeed": "N/A"
       }
@@ -71,12 +72,15 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "60W MOPA marks colors, deep engraves and cuts thin brass or stainless steel",
+    "Enclosed cover with eye protection and fire stop: safer in a shared workspace than open galvo markers",
+    "Two 48 MP cameras for precise placement on small parts and jewelry",
+    "40W diode in the same machine handles wood, leather and coated materials"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Expensive: the dual-laser version starts above $5,000",
+    "220 × 220 mm bed is made for small parts, not signs or sheet goods",
+    "Not a CO₂ replacement for clear acrylic or thick wood cutting"
   ],
   "beginnerNotes": "This profile covers xTool F2 Ultra. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Use conveyor for dog tags and flat blanks. Keep fiber and diode settings libraries separate: power curves are not interchangeable.",
@@ -95,11 +99,15 @@
   "faq": [
     {
       "question": "F2 Ultra vs F1 Ultra: worth upgrading?",
-      "answer": "If you already run F1 Ultra at production capacity, F2's speed gains may justify it. New buyers should compare bundle pricing: F1 Ultra discounts may offer better value if speed difference is not critical."
+      "answer": "The F2 Ultra moves from a 20W fiber to a 60W MOPA, which adds color marking, deeper engraving and thin-metal cutting, plus a larger 220 × 220 mm area and dual cameras. If you only do simple black marks on metal, a discounted F1 Ultra still does the job for much less."
+    },
+    {
+      "question": "Can the F2 Ultra cut metal?",
+      "answer": "Only thin sheet: xTool shows brass and stainless steel cut-outs with the 60W MOPA. Thicker metal needs an industrial fiber cutter."
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/xtool-f2-ultra/01.webp",
@@ -118,7 +126,7 @@
       "alt": "xTool F2 Ultra laser engraver: xTool"
     }
   ],
-  "powerRating": "20W",
+  "powerRating": "60W",
   "moduleSystem": {
     "style": "dual-laser",
     "headline": "High-power dual laser (MOPA fiber + diode)",
@@ -146,8 +154,8 @@
   ],
   "releaseDate": "2025-01",
   "editorialDepth": {
-    "advantages": "xTool F2 Ultra 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "The F2 Ultra makes sense for a business that marks metal every day: color MOPA results, galvo speed, camera placement and an enclosure in one desktop unit. The diode turns it into a two-in-one for wood and leather goods.",
+    "limitations": "Too much machine for occasional gifts, and the small bed rules out large items. Buyers who only need wood and leather get more for their money from an enclosed diode or a CO₂ laser."
   },
   "tierEditorialOverride": true
 }

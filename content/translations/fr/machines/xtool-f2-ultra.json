@@ -1,6 +1,6 @@
 {
-  "tagline": "Fibre + diode compact nouvelle génération : marquage métal plus rapide, plus grand que F1",
-  "tldr": "Le bureau double laser xTool actualisé s’appuie sur la F1 Ultra avec vitesse et flux améliorés. Toujours spécialiste marquage métal avec petit plateau par défaut. Prix premium pour bijoux, outils et personnalisation métal en série : pas un remplacement d’atelier polyvalent.",
+  "tagline": "Fibre MOPA 60 W + diode 40 W sous un même capot : marquage couleur du métal, sur une surface plus grande que la F1 Ultra",
+  "tldr": "Le double laser haut de gamme d’xTool : une fibre MOPA de 60 W pour marquer le métal en couleur ou en profondeur, et une diode de 40 W pour le bois et le cuir, dans une machine fermée de 220 × 220 mm. Rapide et précise, mais à un prix de petite entreprise, pas de loisir.",
   "mainObjective": "High-speed compact metal marking plus bonus diode for wood & leather",
   "primaryUse": "Professional compact dual-laser for high-speed metal marking and small organic-material engraving.",
   "beginnerNotes": "Cette fiche décrit xTool F2 Ultra. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
@@ -12,13 +12,15 @@
     "Compact pro setup"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
-    "xTool F2 Ultra : limites matériaux, benchmarks et conseils pratiques sur cette fiche"
+    "La fibre MOPA de 60 W marque en couleur, grave en profondeur et découpe le laiton ou l’inox fins",
+    "Capot fermé avec protection des yeux et arrêt incendie : plus sûre qu’un marqueur galvo ouvert dans un atelier partagé",
+    "Deux caméras de 48 Mpx pour placer précisément le marquage sur les petites pièces et les bijoux",
+    "La diode de 40 W intégrée traite le bois, le cuir et les matériaux revêtus"
   ],
   "cons": [
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Châssis ouvert : enfants, animaux et fumées non confinées"
+    "Chère : la version double laser dépasse les 5 000 $",
+    "La surface de 220 × 220 mm est faite pour les petites pièces, pas pour les panneaux ni les plaques",
+    "Ne remplace pas un laser CO₂ pour découper l’acrylique transparent ou le bois épais"
   ],
   "materials": {
     "engrave": [
@@ -47,12 +49,17 @@
       "cutExample": {
         "description": "Découpe laser"
       }
-    }
+    },
+    "power": "Fibre MOPA 60 W + diode 40 W"
   },
   "faq": [
     {
-      "question": "F2 Ultra vs F1 Ultra : l’upgrade vaut-il le coup ?",
-      "answer": "Si vous exploitez déjà la F1 Ultra à pleine capacité production, les gains de vitesse F2 peuvent le justifier. Nouveaux acheteurs : comparez les prix pack : les promos F1 Ultra peuvent mieux valoir le coup si la différence de vitesse n’est pas critique."
+      "question": "F2 Ultra ou F1 Ultra : l’évolution vaut-elle le coup ?",
+      "answer": "La F2 Ultra passe d’une fibre de 20 W à une fibre MOPA de 60 W : marquage couleur, gravure plus profonde et découpe de métal fin, avec une surface de 220 × 220 mm et deux caméras. Pour de simples marquages noirs sur métal, une F1 Ultra en promotion suffit pour bien moins cher."
+    },
+    {
+      "question": "La F2 Ultra peut-elle découper du métal ?",
+      "answer": "Seulement de la tôle fine : xTool montre des découpes de laiton et d’inox avec la fibre MOPA de 60 W. Pour du métal plus épais, il faut une découpeuse fibre industrielle."
     }
   ],
   "images": [
@@ -82,7 +89,7 @@
     ]
   },
   "editorialDepth": {
-    "advantages": "xTool F2 Ultra 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
-    "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+    "advantages": "La F2 Ultra se justifie pour une activité qui marque du métal tous les jours : couleurs MOPA, vitesse galvo, placement par caméra et capot fermé dans une seule machine de bureau. La diode en fait un deux-en-un pour les objets en bois et en cuir.",
+    "limitations": "Trop de machine pour quelques cadeaux par an, et sa petite surface exclut les grands objets. Pour le bois et le cuir seuls, une diode fermée ou un laser CO₂ en donne plus pour le prix."
   }
 }

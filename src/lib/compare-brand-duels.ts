@@ -54,6 +54,18 @@ export const BRAND_COMPARE_DUELS: readonly BrandDuelDefinition[] = [
     brands: ["laserpecker", "xtool"],
     featuredMachines: ["laserpecker-5", "xtool-f1-ultra"],
   },
+  {
+    brands: ["xtool", "gweike"],
+    featuredMachines: ["xtool-p2s", "gweike-cloud-pro"],
+  },
+  {
+    brands: ["xtool", "creality"],
+    featuredMachines: ["xtool-s1-20w", "creality-falcon2-pro-40w"],
+  },
+  {
+    brands: ["xtool", "omtech"],
+    featuredMachines: ["xtool-p2s", "omtech-polar-2-70w"],
+  },
 ];
 
 export function brandDuelParam(slugs: readonly [string, string]): string {

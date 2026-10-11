@@ -51,6 +51,18 @@ export const COMPARE_DUELS: ReadonlyArray<readonly [string, string]> = [
   ["xtool-f2", "xtool-f1"],
   ["gweike-g2-20w", "commarker-b4-20w"],
   ["creality-falcon-t1-60w-mopa", "commarker-b6-mopa-30w"],
+  // From Search Console queries (Oct 2026)
+  ["xtool-f2-ultra", "xtool-f1-ultra"],
+  ["xtool-f2", "xtool-f2-ultra"],
+  ["xtool-s1-20w", "xtool-p2s"],
+  ["xtool-m2", "xtool-s1-20w"],
+  ["xtool-m2", "glowforge-aura"],
+  ["atomstack-a20-pro-v2", "atomstack-a20-pro"],
+  ["acmer-s2-pro-36w", "acmer-s2-pro-48w"],
+  // New releases against the machine they replace or rival
+  ["creality-falcon-a1c-10w", "xtool-m2"],
+  ["omtech-polar-2-70w", "xtool-p2s"],
+  ["sculpfun-e1-pro-21w", "xtool-s1-20w"],
 ];
 
 export function duelParam(slugs: readonly [string, string]): string {

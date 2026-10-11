@@ -3,6 +3,7 @@ import type { Machine } from "@/types/machine";
 import { defaultLocale, locales, type Locale } from "@/i18n/config";
 import { localizedPath } from "@/i18n/navigation";
 import { getCatalogRedirectSlug } from "@/lib/catalog";
+import { machineMetaDescription, machineMetaTitle } from "@/lib/seo-snippets";
 import { absoluteUrl } from "@/lib/site-url";
 
 export { getCatalogRedirectSlug };
@@ -83,16 +84,13 @@ export function getIndexableMachines(machines: Machine[]): Machine[] {
 export function buildMachineMetadata(machine: Machine, locale: Locale): Metadata {
   const path = `/lasers/${machine.slug}` as AppPath;
   const indexable = isMachineIndexable(machine);
-  const title =
-    locale === "fr"
-      ? `${machine.name} : avis et fiches techniques`
-      : `${machine.name} Review & Specs`;
+  const title = machineMetaTitle(machine, locale);
 
   return buildPageMetadata({
     locale,
     path,
     title,
-    description: machine.tldr,
+    description: machineMetaDescription(machine, locale),
     robots: indexable ? INDEXABLE_ROBOTS : NOINDEX_ROBOTS,
     openGraph: {
       title: `${machine.name} | Maker Atlas`,
