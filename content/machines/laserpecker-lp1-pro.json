@@ -5,8 +5,8 @@
   "brand": "LaserPecker",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Pocket LaserPecker: ultra-portable 5W for stamps and tiny gifts",
-  "tldr": "LaserPecker LP1 Pro is a pocket-sized 5W engraver for maximum portability. Legacy line compared to LP4/LP5: still relevant on used market for micro projects only.",
+  "tagline": "Pocket LaserPecker: ultra-portable 0.5W for stamps and tiny gifts",
+  "tldr": "LaserPecker LP1 Pro is a pocket-sized 0.5W (405 nm) engraver for maximum portability. Legacy line compared to LP4/LP5: still relevant on used market for micro projects only.",
   "mainObjective": "Pocket engraving for stamps, tags, and travel demos",
   "bestFor": [
     "Maximum portability",
@@ -15,13 +15,14 @@
     "Travel demos"
   ],
   "priceRange": {
-    "min": 399,
-    "max": 549,
-    "currency": "USD"
+    "min": 299,
+    "max": 319,
+    "currency": "USD",
+    "note": "Official LaserPecker US store, Oct 2026: $299 to $319 depending on bundle; currently sold out"
   },
   "specs": {
-    "power": "5W diode",
-    "workArea": "100 × 100 mm (approx.)",
+    "power": "0.5W diode (405 nm)",
+    "workArea": "100 × 100 mm",
     "software": [
       "LaserPecker Design Space"
     ],
@@ -36,15 +37,15 @@
         "time": "~12–18 min"
       },
       "cutExample": {
-        "description": "Simple square cut-out from 3 mm basswood",
-        "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~6–10 min"
+        "description": "Cutting",
+        "size": "—",
+        "time": "—"
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "20 mm/s",
         "avgEngraveSpeed": "60–150 mm/s fill",
-        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+        "avgCutSpeed": "—"
       }
     }
   },
@@ -65,7 +66,7 @@
     ]
   },
   "pros": [
-    "5W on LaserPecker LP1 Pro: engraving-first: photo fills and leather at moderate speeds",
+    "0.5W (405 nm) on LaserPecker LP1 Pro: slow surface engraving (1–20 mm/s) on wood, leather and paper",
     "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
     "Software on the profile: trial your workflow on scrap before production"
   ],
@@ -77,10 +78,10 @@
   "proTips": "LP4 is the better modern portable if buying new from LaserPecker.",
   "primaryUse": "Pocket micro-engraving for personalization on the go.",
   "rating": {
-    "overall": 8,
-    "value": 8.1,
+    "overall": 7.7,
+    "value": 8.4,
     "easeOfUse": 8,
-    "capability": 8,
+    "capability": 6.8,
     "buildQuality": 7.8
   },
   "similarModels": [
@@ -89,10 +90,10 @@
     "ortur-aufero-al1"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/laserpecker-lp1-pro/01.webp",
   "modelLine": "laserpecker-lp1",
-  "powerRating": "5W",
+  "powerRating": "0.5W",
   "releaseDate": "2021-06",
   "images": [
     {
@@ -113,8 +114,8 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LaserPecker LP1 Pro 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+    "advantages": "LaserPecker LP1 Pro (0.5W) suits makers who personalize small gifts, stamps and tags on the go, from a phone app.",
+    "limitations": "It does not cut: 0.5W is for surface marks only, and slowly. Not for acrylic, bare metal without spray, or production work."
   },
   "tierEditorialOverride": true
 }

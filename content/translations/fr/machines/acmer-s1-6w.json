@@ -1,10 +1,10 @@
 {
   "tagline": "Acmer S1 de poche : diode ultra-portable pour petits projets",
   "tldr": "L'Acmer S1 est une mini graveuse portable (niveaux 2,5–6 W) pour tampons, petits cadeaux et déplacements. Ce n'est pas une machine d'atelier : elle complète un laser plus grand plutôt qu'elle ne le remplace.",
-  "mainObjective": "Portable micro-engraving for small items and learning",
-  "primaryUse": "Portable micro-engraver for small personalization.",
+  "mainObjective": "Micro-gravure portable pour petits objets et apprentissage",
+  "primaryUse": "Micro-graveur portable pour de petites personnalisations.",
   "beginnerNotes": "Cette fiche décrit Acmer S1 6W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "Portable",
     "Small gifts",
@@ -15,7 +15,7 @@
   "pros": [
     "6W sur Acmer S1 : priorité gravure : remplissages photo et cuir",
     "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 100 × 100 mm (approx.) : validez vos formats de pièces avant achat"
+    "Surface utile 130 × 130 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
@@ -66,5 +66,8 @@
   "editorialDepth": {
     "advantages": "Acmer S1 6W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  },
+  "priceRange": {
+    "note": "Boutique officielle Acmer, oct. 2026 : 169 $ en 6 W (prix barré 249 $) ; 109 $ en 2,5 W et 129 $ en 3,5 W"
   }
 }

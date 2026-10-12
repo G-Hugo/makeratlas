@@ -5,29 +5,30 @@
   "brand": "LaserPecker",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Desktop LaserPecker LP2 Plus: 10W before LP4/LP5 era",
-  "tldr": "LaserPecker LP2 Plus is a 10W desktop unit in the LP lineage: more capable than LP1 pocket models but less advanced than LP4/LP5. Good used-market portable desk engraver.",
+  "tagline": "LaserPecker LP2 Plus: the 10W, 4,000 mm/s successor to the LP2",
+  "tldr": "LaserPecker LP2 Plus is the 10W successor to the LP2: same portable multi-angle format, about six times faster (up to 4,000 mm/s) and able to cut thin basswood. The standard area is 100 × 100 mm; the slide extension brings it to 160 × 300 mm and the roller handles long items.",
   "mainObjective": "Desktop LaserPecker 10W for small shop personalization",
   "bestFor": [
     "LaserPecker fans",
     "Small desk",
     "10W gifts",
-    "Used market"
+    "Portable cutting"
   ],
   "priceRange": {
-    "min": 699,
-    "max": 899,
-    "currency": "USD"
+    "min": 859,
+    "max": 1499,
+    "currency": "USD",
+    "note": "Official LaserPecker US store, Oct 2026: $859 to $1,499 depending on bundle"
   },
   "specs": {
     "power": "10W diode",
-    "workArea": "120 × 120 mm (approx.)",
+    "workArea": "100 × 100 mm",
     "software": [
       "LaserPecker Design Space"
     ],
     "connectivity": [
-      "Bluetooth",
-      "USB"
+      "USB",
+      "Wi-Fi"
     ],
     "performance": {
       "precision": "0.01 mm",
@@ -43,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "4,000 mm/s",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }
@@ -77,8 +78,8 @@
   "proTips": "Check firmware and app support before buying second-hand.",
   "primaryUse": "Small-format LaserPecker engraving for gifts and labels.",
   "rating": {
-    "overall": 7.9,
-    "value": 7.5,
+    "overall": 7.8,
+    "value": 7.2,
     "easeOfUse": 8,
     "capability": 7.9,
     "buildQuality": 7.8
@@ -89,12 +90,12 @@
     "longer-nano-6w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/laserpecker-lp2-plus-10w/01.webp",
   "modelLine": "laserpecker-lp2",
   "powerRating": "10W",
   "catalogPrimary": true,
-  "releaseDate": "2022-10",
+  "releaseDate": "2025-09",
   "images": [
     {
       "src": "/machines/laserpecker-lp2-plus-10w/01.webp",

@@ -1,10 +1,10 @@
 {
-  "tagline": "LaserPecker de poche : 5 W ultra-portable pour tampons et mini cadeaux",
-  "tldr": "Le LaserPecker LP1 Pro est une graveuse 5 W format poche pour une portabilité maximale. Ligne legacy face aux LP4/LP5 : encore pertinente sur le marché d’occasion pour micro-projets uniquement.",
-  "mainObjective": "Pocket engraving for stamps, tags, and travel demos",
-  "primaryUse": "Pocket micro-engraving for personalization on the go.",
+  "tagline": "LaserPecker de poche : 0,5 W ultra-portable pour tampons et mini cadeaux",
+  "tldr": "Le LaserPecker LP1 Pro est une graveuse 0,5 W (405 nm) format poche pour une portabilité maximale. Ligne legacy face aux LP4/LP5 : encore pertinente sur le marché d’occasion pour micro-projets uniquement.",
+  "mainObjective": "Gravure de poche pour tampons, étiquettes et démonstrations en déplacement",
+  "primaryUse": "Micro-gravure de poche pour personnaliser en déplacement.",
   "beginnerNotes": "Cette fiche décrit LaserPecker LP1 Pro. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "LP4 is the better modern portable if buying new from LaserPecker.",
+  "proTips": "Le LP4 est le portable moderne le plus intéressant si vous achetez neuf chez LaserPecker.",
   "bestFor": [
     "Maximum portability",
     "Micro gifts",
@@ -12,9 +12,9 @@
     "Travel demos"
   ],
   "pros": [
-    "5W sur LaserPecker LP1 Pro : priorité gravure : remplissages photo et cuir",
+    "0,5 W (405 nm) sur LaserPecker LP1 Pro : gravure de surface lente (1 à 20 mm/s) sur bois, cuir et papier",
     "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 100 × 100 mm (approx.) : validez vos formats de pièces avant achat"
+    "Surface utile 100 × 100 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
@@ -43,7 +43,7 @@
         "description": "Photo remplie ou logo sur contreplaqué de bouleau"
       },
       "cutExample": {
-        "description": "Découpe carrée simple dans du tilleul 3 mm"
+        "description": "Découpe"
       }
     }
   },
@@ -62,7 +62,10 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LaserPecker LP1 Pro 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
-    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+    "advantages": "Le LaserPecker LP1 Pro (0,5 W) convient aux makers qui personnalisent petits cadeaux, tampons et étiquettes en déplacement, depuis une app mobile.",
+    "limitations": "Il ne découpe pas : 0,5 W ne sert qu’au marquage de surface, et lentement. Pas pour l’acrylique, le métal nu sans spray ni la production."
+  },
+  "priceRange": {
+    "note": "Boutique officielle LaserPecker (US), oct. 2026 : de 299 $ à 319 $ selon le pack ; actuellement en rupture"
   }
 }

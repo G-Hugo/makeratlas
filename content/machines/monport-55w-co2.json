@@ -17,7 +17,7 @@
     "min": 1800,
     "max": 2800,
     "currency": "USD",
-    "note": "Varies by bed size and autofocus options"
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
     "power": "55W CO₂ glass tube",
@@ -105,7 +105,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/monport-55w-co2/01.jpg",
   "mainObjective": "Mid-range CO₂ production for signs, acrylic & wood shops",
   "images": [
@@ -128,5 +128,7 @@
     "advantages": "Monport CO₂ is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 55W adds headroom on panels and multi-pass jobs.",
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "discontinued": {},
+  "enclosed": true
 }

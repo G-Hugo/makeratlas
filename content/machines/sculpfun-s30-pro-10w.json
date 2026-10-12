@@ -14,20 +14,20 @@
     "S30 accessories"
   ],
   "priceRange": {
-    "min": 399,
-    "max": 549,
-    "currency": "USD"
+    "min": 299.99,
+    "max": 577.99,
+    "currency": "USD",
+    "note": "Official Sculpfun store (US clearance), Oct 2026: $299.99 to $577.99 depending on bundle"
   },
   "specs": {
     "power": "10W diode",
-    "workArea": "400 × 400 mm",
+    "workArea": "380 × 385 mm",
     "software": [
       "LightBurn",
       "LaserGRBL"
     ],
     "connectivity": [
-      "USB",
-      "Wi-Fi"
+      "USB"
     ],
     "performance": {
       "precision": "0.01 mm",
@@ -88,7 +88,7 @@
     "sculpfun-s30-pro-max-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/sculpfun-s30-pro-10w/01.webp",
   "modelLine": "sculpfun-s30-pro",
   "powerRating": "10W",

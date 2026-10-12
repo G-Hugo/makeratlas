@@ -1,10 +1,10 @@
 {
   "tagline": "Fibre MOPA 60 W + diode 40 W sous un même capot : marquage couleur du métal, sur une surface plus grande que la F1 Ultra",
   "tldr": "Le double laser haut de gamme d’xTool : une fibre MOPA de 60 W pour marquer le métal en couleur ou en profondeur, et une diode de 40 W pour le bois et le cuir, dans une machine fermée de 220 × 220 mm. Rapide et précise, mais à un prix de petite entreprise, pas de loisir.",
-  "mainObjective": "High-speed compact metal marking plus bonus diode for wood & leather",
-  "primaryUse": "Professional compact dual-laser for high-speed metal marking and small organic-material engraving.",
+  "mainObjective": "Marquage compact et rapide du métal, plus une diode en bonus pour le bois et le cuir",
+  "primaryUse": "Double laser compact professionnel pour le marquage rapide du métal et la gravure de petits objets en matériaux organiques.",
   "beginnerNotes": "Cette fiche décrit xTool F2 Ultra. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Use conveyor for dog tags and flat blanks. Keep fiber and diode settings libraries separate : power curves are not interchangeable.",
+  "proTips": "Utilisez le convoyeur pour les plaques d'identité et les ébauches plates. Gardez des bibliothèques de réglages séparées pour la fibre et la diode : les courbes de puissance ne sont pas interchangeables.",
   "bestFor": [
     "Metal batch marking",
     "Jewelry production",

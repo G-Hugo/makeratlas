@@ -18,7 +18,8 @@
   "priceRange": {
     "min": 329,
     "max": 799,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
     "power": "20W diode",
@@ -95,7 +96,7 @@
     "sculpfun-s30-ultra"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/atomstack-a20-pro/01.webp",
@@ -119,5 +120,8 @@
     "advantages": "Atomstack A20 Pro 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "discontinued": {
+    "successor": "atomstack-a20-pro-v2"
+  }
 }

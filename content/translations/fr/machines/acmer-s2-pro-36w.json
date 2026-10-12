@@ -1,10 +1,10 @@
 {
   "tagline": "Acmer S2 Pro puissance intermédiaire : niveau 36 W avec boîtier optionnel",
   "tldr": "L'Acmer S2 Pro 36 W est la référence moins puissante de la gamme S2 Pro d'Acmer, avec options de packs rotatif et IR. Comparez au S2 Pro 48 W avant l'achat : le surclassement vaut souvent le coup.",
-  "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
+  "mainObjective": "Vitesse et profondeur de découpe maximales de la gamme : la gravure reste performante à vitesse réglée",
   "primaryUse": "Module 36W · Acmer S2 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 36W de Acmer S2 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "On the 36W S2 Pro, run separate LightBurn profiles for photo fills versus basswood cuts. Push cut speed only after 10×10 cm test squares. Compare the 48W tier if evening batches still feel slow.",
+  "proTips": "Sur la S2 Pro 36 W, utilisez des profils LightBurn distincts pour les remplissages photo et les découpes de tilleul. N'augmentez la vitesse de découpe qu'après des carrés de test de 10×10 cm. Comparez avec la version 48 W si les séries du soir restent trop lentes.",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",

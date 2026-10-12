@@ -1,10 +1,10 @@
 {
   "tagline": "Tête S30 Ultra du milieu : forte découpe diode, un cran sous la 33 W",
   "tldr": "La 22 W est la tête du milieu des trois S30 Ultra de Sculpfun (11, 22 et 33 W), souvent vendue avec LightBurn. La tête 33 W va plus loin en découpe épaisse. Les annonces « S30 Ultra 10 W » ou « 20 W » sont des appellations de revendeurs.",
-  "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
+  "mainObjective": "Découpe plus rapide et plus profonde pour le loisir, avec une gravure toujours solide",
   "primaryUse": "Module 22W · Sculpfun S30 Ultra",
   "beginnerNotes": "Ce profil décrit le SKU 22W de Sculpfun S30 Ultra. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
+  "proTips": "Réglez les passes de découpe avec l'assistance d'air et en vérifiant la mise au point. Pour la gravure photo, ralentissez par rapport à vos préréglages de découpe : cette tête est optimisée pour le débit sur bois, pas seulement pour la finesse.",
   "bestFor": [
     "Découpe plus rapide",
     "Bois plus épais",

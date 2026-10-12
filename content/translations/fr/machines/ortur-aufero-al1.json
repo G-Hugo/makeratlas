@@ -1,10 +1,10 @@
 {
   "tagline": "Ortur compact et portable : graveuse de bureau pour petits cadeaux",
   "tldr": "L’Aufero AL1 est la ligne diode compacte d’Ortur pour petites surfaces de travail et configurations portables. Moins puissant que le LM3 ou le H10, mais plus facile à caser sur un bureau encombré. Idéal pour la gravure légère : pas un cheval de bataille pour la découpe.",
-  "mainObjective": "Small-footprint Ortur for gift engraving & learning on a budget",
-  "primaryUse": "Compact entry Ortur for small gift engraving and learning laser basics.",
+  "mainObjective": "Ortur peu encombrant pour graver des cadeaux et apprendre à petit budget",
+  "primaryUse": "Ortur compact d'entrée de gamme pour graver de petits cadeaux et apprendre les bases du laser.",
   "beginnerNotes": "Cette fiche décrit Ortur Aufero AL1. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Use smaller benchmark jobs (5×5 cm) for photos on AL1 : 10×10 cm fills take noticeably longer at 5W.",
+  "proTips": "Sur l'AL1, utilisez des travaux de référence plus petits (5×5 cm) pour les photos : les remplissages de 10×10 cm prennent nettement plus de temps à 5 W.",
   "bestFor": [
     "Small gifts",
     "Desk space limits",
@@ -41,7 +41,7 @@
     ]
   },
   "priceRange": {
-    "note": "5 W typique ; vérifiez les options de module actuelles"
+    "note": "Boutique officielle Ortur, oct. 2026 : de 129,99 $ (module 1,6 W) à 209,99 $ (module 5,5 W), en rupture sur toutes les versions"
   },
   "specs": {
     "performance": {

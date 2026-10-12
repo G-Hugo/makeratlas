@@ -15,9 +15,10 @@
     "Small batches"
   ],
   "priceRange": {
-    "min": 999,
-    "max": 1499,
-    "currency": "USD"
+    "min": 909,
+    "max": 1159,
+    "currency": "USD",
+    "note": "Official Atomstack store, Oct 2026: $1,159 (US plug) or $909 (EU plug), machine only; currently sold out"
   },
   "specs": {
     "power": "20W fiber",
@@ -89,7 +90,7 @@
     "gweike-g2-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/atomstack-a24-pro-1064nm/01.webp",
   "catalogPrimary": true,
   "laserCapabilities": [

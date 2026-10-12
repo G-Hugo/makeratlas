@@ -17,21 +17,21 @@
     "Knives & tools"
   ],
   "priceRange": {
-    "min": 2499,
-    "max": 3499,
-    "currency": "USD"
+    "min": 3099,
+    "max": 3966,
+    "currency": "USD",
+    "note": "Official ComMarker store, Oct 2026: $3,099 to $3,966 depending on bundle (30W)"
   },
   "specs": {
     "power": "30W MOPA fiber",
-    "workArea": "150 × 150 mm typical",
+    "workArea": "150 × 150 mm (5.9 × 5.9 in)",
     "software": [
       "ComMarker",
       "LightBurn",
       "EZCAD"
     ],
     "connectivity": [
-      "USB",
-      "Ethernet"
+      "USB"
     ],
     "performance": {
       "precision": "0.01 mm",
@@ -47,7 +47,7 @@
       },
       "technical": {
         "spotSize": "~0.02 mm MOPA spot",
-        "maxSpeed": "7,000 mm/s",
+        "maxSpeed": "15,000 mm/s",
         "avgEngraveSpeed": "500–2,000 mm/s marking",
         "avgCutSpeed": "N/A"
       }
@@ -80,8 +80,8 @@
   "proTips": "Build fixture jigs for repeat jobs. Keep lens clean: contamination shows on high-contrast marks.",
   "primaryUse": "Professional metal marking with optional color effects for premium personalization.",
   "rating": {
-    "overall": 8.5,
-    "value": 8.5,
+    "overall": 8.4,
+    "value": 8.3,
     "easeOfUse": 8.3,
     "capability": 8.4,
     "buildQuality": 8.5
@@ -92,7 +92,7 @@
     "xtool-f2-ultra"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/commarker-b6-mopa-30w/01.webp",
   "images": [
     {

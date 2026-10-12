@@ -14,13 +14,14 @@
     "Gift personalization"
   ],
   "priceRange": {
-    "min": 999,
-    "max": 1299,
-    "currency": "USD"
+    "min": 1140,
+    "max": 1990,
+    "currency": "USD",
+    "note": "Official WeCreat store, Oct 2026: $1,140 to $1,990 depending on bundle"
   },
   "specs": {
     "power": "20W diode",
-    "workArea": "400 × 370 mm",
+    "workArea": "420 × 290 mm (16.5 × 11.4 in)",
     "software": [
       "WeCreat Studio",
       "LightBurn"
@@ -43,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "350 mm/s",
+        "maxSpeed": "600 mm/s",
         "avgEngraveSpeed": "75–160 mm/s fill",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }
@@ -103,7 +104,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/wecreat-vision/01.webp",
   "mainObjective": "AI-guided enclosed engraving for visual, beginner-friendly workflow",
   "images": [
@@ -126,5 +127,6 @@
     "advantages": "WeCreat Vision 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": true
 }

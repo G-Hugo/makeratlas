@@ -1,14 +1,14 @@
 {
-  "tagline": "FoxAlien LE-4040 Pro : laser 20W sur châssis format 4040",
-  "tldr": "La FoxAlien LE-4040 Pro 20W associe un châssis type 4040 à une diode 20W : format familier pour les utilisateurs CNC qui ajoutent la capacité laser. Alternative à la gamme Reizer avec une conception de châssis différente.",
-  "mainObjective": "4040-format 20W laser for FoxAlien ecosystem users",
-  "primaryUse": "4040-class FoxAlien 20W for engraving and moderate cutting.",
+  "tagline": "FoxAlien LE-4040 Pro : module classe 20W (5 à 5,5 W optiques) sur châssis format 4040",
+  "tldr": "La FoxAlien LE-4040 Pro 20W associe un châssis type 4040 à une diode vendue comme 20W : c'est la puissance électrique, FoxAlien annonce 5 à 5,5 W optiques. Format familier pour les utilisateurs CNC qui ajoutent la capacité laser. Alternative à la gamme Reizer avec une conception de châssis différente.",
+  "mainObjective": "Diode format 4040 pour les utilisateurs de l’écosystème FoxAlien",
+  "primaryUse": "Diode FoxAlien sur châssis 4040, pour la gravure et la découpe modérée.",
   "beginnerNotes": "Cette fiche décrit FoxAlien LE-4040 Pro 20W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d’abord des essais sur chutes. Fiez-vous aux temps de référence de cette fiche pour vos devis, pas aux annonces commerciales.",
   "bestFor": [
-    "4040 frame fans",
-    "20W engraving",
-    "FoxAlien bundles"
+    "Amateurs de châssis 4040",
+    "Gravure",
+    "Packs FoxAlien"
   ],
   "pros": [
     "Mix gravure + découpe légère : ~5 mm tilleul en plusieurs passes",
@@ -60,5 +60,8 @@
   "editorialDepth": {
     "advantages": "FoxAlien LE-4040 Pro 20W est le SKU polyvalent hobby / petit business : gravure propre et découpes légères sur bois et cuir avec benchmarks comparables sur cette fiche.",
     "limitations": "Châssis ouvert : lunettes et extraction obligatoires. Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  },
+  "priceRange": {
+    "note": "Plus vendue neuve (oct. 2026) ; dernier prix connu sur la boutique officielle FoxAlien : 359,99 $, ou 519,98 $ avec le rouleau rotatif"
   }
 }

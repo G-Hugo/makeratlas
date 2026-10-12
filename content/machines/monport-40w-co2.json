@@ -16,9 +16,10 @@
     "Budget CO₂"
   ],
   "priceRange": {
-    "min": 600,
-    "max": 1230,
-    "currency": "USD"
+    "min": 599.99,
+    "max": 1259.96,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $599.99 to $1,259.96 depending on bundle (both bundles out of stock)"
   },
   "specs": {
     "power": "40W CO₂ glass tube",
@@ -37,7 +38,7 @@
       },
       "technical": {
         "spotSize": "~0.2 mm CO₂ spot",
-        "maxSpeed": "400 mm/s",
+        "maxSpeed": "350 mm/s",
         "avgEngraveSpeed": "120–240 mm/s fill",
         "avgCutSpeed": "10–28 mm/s on 3 mm acrylic"
       }
@@ -93,7 +94,7 @@
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/monport-40w-co2/01.webp",
@@ -114,5 +115,6 @@
     "advantages": "Monport CO₂ is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 40W adds headroom on panels and multi-pass jobs.",
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": true
 }

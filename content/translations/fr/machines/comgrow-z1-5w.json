@@ -1,10 +1,10 @@
 {
   "tagline": "Diode Comgrow 5W petit budget : souvent proposée en pack avec les imprimantes 3D",
   "tldr": "La Comgrow Z1 5W est la référence 5W de la gamme Z1. Comgrow cible les débutants, souvent vendue aux côtés des imprimantes Ender 3D. Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
-  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "mainObjective": "Gravure détaillée sur matériaux organiques et métal revêtu : découpes fines occasionnelles seulement",
   "primaryUse": "Module 5W · Comgrow Z1",
   "beginnerNotes": "Ce profil décrit le SKU 5W de Comgrow Z1. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Optimize for engraving: lower DPI on photos, higher scan speed on line art after test burns. Air assist still helps clarity. Compare benchmark times on the next tier before assuming you need more power.",
+  "proTips": "Optimisez pour la gravure : DPI plus bas sur les photos, vitesse de balayage plus élevée sur le dessin au trait après des essais sur chutes. L'assistance d'air améliore quand même la netteté. Comparez les temps mesurés de la gamme au-dessus avant de conclure qu'il vous faut plus de puissance.",
   "bestFor": [
     "Gravure fine",
     "Photo et logo",

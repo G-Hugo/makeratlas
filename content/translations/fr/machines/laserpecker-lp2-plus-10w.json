@@ -1,20 +1,20 @@
 {
-  "tagline": "LaserPecker LP2 Plus bureau : 10 W avant l’ère LP4/LP5",
-  "tldr": "Le LaserPecker LP2 Plus est une unité bureau 10 W de la lignée LP : plus capable que les modèles poche LP1 mais moins avancé que LP4/LP5. Bonne graveuse portable de bureau sur le marché d’occasion.",
-  "mainObjective": "Desktop LaserPecker 10W for small shop personalization",
-  "primaryUse": "Small-format LaserPecker engraving for gifts and labels.",
+  "tagline": "LaserPecker LP2 Plus : le successeur 10 W et 4 000 mm/s du LP2",
+  "tldr": "Le LaserPecker LP2 Plus est le successeur 10 W du LP2 : même format portable multi-angle, environ six fois plus rapide (jusqu’à 4 000 mm/s) et capable de découper du tilleul fin. La zone standard fait 100 × 100 mm ; l’extension coulissante la porte à 160 × 300 mm et le rouleau gère les pièces longues.",
+  "mainObjective": "LaserPecker 10 W de bureau pour la personnalisation en petit atelier",
+  "primaryUse": "Gravure petit format LaserPecker pour cadeaux et étiquettes.",
   "beginnerNotes": "Cette fiche décrit LaserPecker LP2 Plus 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Check firmware and app support before buying second-hand.",
+  "proTips": "Vérifiez la prise en charge du firmware et de l'application avant d'acheter d'occasion.",
   "bestFor": [
-    "LaserPecker fans",
-    "Small desk",
-    "10W gifts",
-    "Used market"
+    "Fans de LaserPecker",
+    "Petit bureau",
+    "Cadeaux en 10 W",
+    "Découpe portable"
   ],
   "pros": [
     "10W sur LaserPecker LP2 Plus : priorité gravure : remplissages photo et cuir",
     "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 120 × 120 mm (approx.) : validez vos formats de pièces avant achat"
+    "Surface utile 100 × 100 mm (160 × 300 mm avec l’extension) : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
@@ -63,5 +63,8 @@
   "editorialDepth": {
     "advantages": "LaserPecker LP2 Plus 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  },
+  "priceRange": {
+    "note": "Boutique officielle LaserPecker (US), oct. 2026 : de 859 $ à 1 499 $ selon le pack"
   }
 }

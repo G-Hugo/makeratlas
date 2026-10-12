@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import type { Locale } from "@/i18n/config";
+import { accessoryNotesFr } from "@/i18n/accessories-copy";
 import type { Dictionary } from "@/i18n/dictionaries/types";
 import {
   groupAccessoriesByCategory,
@@ -130,7 +131,7 @@ export function MachineAccessoriesPanel({
                   </div>
                   {item.note && (
                     <p className="mt-0.5 pl-3.5 text-xs text-stone-500 dark:text-stone-500">
-                      {item.note}
+                      {locale === "fr" ? (accessoryNotesFr[item.note] ?? item.note) : item.note}
                     </p>
                   )}
                 </div>

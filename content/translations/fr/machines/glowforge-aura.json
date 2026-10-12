@@ -1,10 +1,10 @@
 {
-  "tagline": "Laser CO₂ grand public avec la configuration la plus simple : au prix d'un abonnement",
-  "tldr": "Le laser CO₂ compact de Glowforge conçu pour les créateurs. Logiciel facile, mise en route rapide et découpe correcte pour matériaux fins. Le piège : prix matériel premium plus abonnement obligatoire pour les fonctions complètes, et une zone de travail plus petite que le xTool P2.",
-  "mainObjective": "Easiest CO₂ setup for crafters who want zero tinkering",
-  "primaryUse": "Simple CO₂ cutting and engraving for crafters who prioritize ease of use over power and cost efficiency.",
+  "tagline": "Laser diode de loisir créatif grand public, à la configuration la plus simple",
+  "tldr": "Le laser diode compact de 6 W de Glowforge, conçu pour les créateurs. Logiciel facile, autofocus, mise en route rapide et fente Passthrough pour les projets longs, mais la découpe se limite aux matériaux fins. Le piège : une application en ligne (abonnement Premium optionnel à partir de 20 $/mois) et bien moins de puissance qu’une machine CO₂ comme le xTool P2S.",
+  "mainObjective": "La configuration laser la plus simple pour les créateurs qui ne veulent rien bricoler",
+  "primaryUse": "Découpe et gravure diode simples pour les créateurs qui privilégient la facilité d’usage plutôt que la puissance et le coût.",
   "beginnerNotes": "Cette fiche décrit Glowforge Aura. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Factor subscription cost over 2–3 years into your budget. Proofgrade materials are convenient but expensive : third-party plywood works with testing. Aura is craft-scale, not sign-shop scale.",
+  "proTips": "Si vous prenez l’abonnement Premium (optionnel), comptez-le sur 2 à 3 ans dans le budget. Les matériaux Proofgrade sont pratiques mais chers : le contreplaqué d’autres marques fonctionne après tests. L’Aura est une machine de loisir créatif, pas d’atelier d’enseignes.",
   "bestFor": [
     "Crafters",
     "Non-technical users",
@@ -12,12 +12,13 @@
     "Simple cutting"
   ],
   "pros": [
-    "Très bon sur acrylique et bois vs diodes au même budget",
+    "Laser de loisir fermé avec autofocus et fente Passthrough pour les projets longs",
     "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
     "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes"
   ],
   "cons": [
-    "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
+    "Évacuation extérieure ou filtre obligatoires, comme pour tout laser",
+    "Découpe limitée aux matériaux fins : 6 mm (1/4 in) maximum selon Glowforge"
   ],
   "materials": {
     "engrave": [
@@ -38,11 +39,11 @@
       "Acrylique/bois épais comme un CO₂ 55W",
       "Marquage métal nu",
       "Travail grand format",
-      "Workflows hors ligne/avancés sans abonnement"
+      "Utilisation hors ligne (application Glowforge en ligne)"
     ]
   },
   "priceRange": {
-    "note": "Plus abonnement Premium obligatoire (~$50/mo) pour les fonctionnalités complètes"
+    "note": "Boutique officielle Glowforge, oct. 2026 : 999 $ (prix catalogue 1 199 $) ; abonnement Premium optionnel à partir de 20 $/mois"
   },
   "specs": {
     "performance": {
@@ -69,7 +70,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Glowforge Aura est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 6.8W donne de la marge sur les panneaux et les passes multiples.",
-    "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+    "advantages": "Glowforge Aura est faite pour le loisir créatif : papier, carton, bois fin, cuir et gravure, avec autofocus et fente Passthrough pour les pièces longues. Sa diode de 6 W la garde compacte mais limite la découpe aux matériaux fins.",
+    "limitations": "À éviter pour le bois ou l’acrylique épais, le volume d’un atelier d’enseignes ou un usage hors ligne. Le marquage du métal nu reste hors de portée."
   }
 }

@@ -1,10 +1,10 @@
 {
   "tagline": "Poste galvo modulaire 2026 : échangez têtes diode, fibre, MOPA ou UV",
   "tldr": "La Falcon T1 de Creality (lancement mondial mai 2026) est une plateforme galvo fermée Classe 1 avec modules WaveSync interchangeables : diode 20W/40W, fibre 20W, MOPA 60W et UV 5W. Achetez la base une fois, ajoutez les types de laser au fil de la croissance de l'atelier : rivalise avec xTool F1/F2 Ultra sur la flexibilité plutôt que sur les boîtiers double laser fixes.",
-  "mainObjective": "Modular enclosed galvo for makers who want one chassis and multiple laser types",
+  "mainObjective": "Galvo modulaire fermé pour les makers qui veulent un seul châssis et plusieurs types de laser",
   "primaryUse": "Module 20W · Creality Falcon T1 Diode",
   "beginnerNotes": "Ce profil décrit le SKU 20W de Creality Falcon T1 Diode. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
-  "proTips": "Price the full module roadmap before buying : T1 plus fiber and MOPA can exceed a single F2 Ultra bundle.",
+  "proTips": "Chiffrez l'ensemble des modules prévus avant d'acheter : un T1 plus fibre et MOPA peut dépasser le prix d'un seul pack F2 Ultra.",
   "bestFor": [
     "Gravure + découpe",
     "Petite activité",

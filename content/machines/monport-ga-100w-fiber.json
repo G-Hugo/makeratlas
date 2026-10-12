@@ -15,13 +15,14 @@
     "Industrial hobbyists"
   ],
   "priceRange": {
-    "min": 5999,
-    "max": 8999,
-    "currency": "USD"
+    "min": 5000,
+    "max": 5200,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $5,000 to $5,200 depending on bundle (pre-order, ships late Nov.)"
   },
   "specs": {
     "power": "100W MOPA fiber",
-    "workArea": "Large marking field (verify SKU)",
+    "workArea": "175 × 175 mm (6.9 × 6.9 in)",
     "software": [
       "LightBurn",
       "EZCAD"
@@ -44,7 +45,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "10,000 mm/s",
         "avgEngraveSpeed": "MOPA marking",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }
@@ -67,7 +68,7 @@
   "pros": [
     "Fiber marks metal: does not cut wood or acrylic",
     "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first",
-    "Work area Large marking field (verify SKU): confirm your typical job sizes fit the bed"
+    "Work area 175 × 175 mm (6.9 × 6.9 in): confirm your typical job sizes fit the field"
   ],
   "cons": [
     "Does not cut wood, leather, or acrylic: metal marking workflows only",
@@ -77,8 +78,8 @@
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Production MOPA fiber for deep and color metal engraving.",
   "rating": {
-    "overall": 7.9,
-    "value": 7.1,
+    "overall": 8,
+    "value": 7.3,
     "easeOfUse": 8,
     "capability": 8.2,
     "buildQuality": 7.8
@@ -89,7 +90,7 @@
     "gweike-g6-split-100w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/monport-ga-100w-fiber/01.webp",
   "powerRating": "100W",
   "catalogPrimary": true,

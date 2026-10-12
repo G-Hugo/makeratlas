@@ -14,9 +14,9 @@
     "Aucune découpe du bois, du cuir ou de l’acrylique"
   ],
   "beginnerNotes": "Ce profil décrit le SKU 60W de Creality Falcon T1 MOPA. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
-  "proTips": "Budget MOPA plus chassis plus diode module together before committing : total can exceed fixed F2 Ultra bundles.",
+  "proTips": "Chiffrez ensemble MOPA, châssis et module diode avant de vous engager : le total peut dépasser les packs F2 Ultra tout compris.",
   "primaryUse": "Module 60W · Creality Falcon T1 MOPA",
-  "mainObjective": "MOPA fiber marking with color effects on the T1 modular platform",
+  "mainObjective": "Marquage fibre MOPA avec effets de couleur sur la plateforme modulaire T1",
   "bestFor": [
     "Gravure métal profonde",
     "Débit élevé",
@@ -66,5 +66,7 @@
   ],
   "priceRange": {
     "note": "Boutique officielle Creality, oct. 2026 : 4 299 $, machine complète"
-  }
+  },
+  "tagline": "Module MOPA 60 W : inox en couleur et gravure du métal plus profonde sur la T1",
+  "tldr": "La tête MOPA WaveSync 60 W est le module métal haut de gamme de la Falcon T1 : le réglage des impulsions donne des couleurs sur l’inox et une gravure profonde plus rapide que l’option fibre 20 W. Pour les ateliers déjà équipés du châssis T1 qui ont besoin d’un vrai débit sur le métal."
 }

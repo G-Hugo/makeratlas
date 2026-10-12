@@ -14,20 +14,20 @@
     "Beginner gifts"
   ],
   "priceRange": {
-    "min": 299,
-    "max": 449,
-    "currency": "USD"
+    "min": 219,
+    "max": 379,
+    "currency": "USD",
+    "note": "Official LaserPecker US store, Oct 2026: $219 to $379 depending on bundle"
   },
   "specs": {
-    "power": "5W diode",
-    "workArea": "~100 × 100 mm",
+    "power": "0.6W diode (405 nm)",
+    "workArea": "100 × 100 mm",
     "software": [
       "LightBurn",
       "LaserGRBL"
     ],
     "connectivity": [
-      "USB",
-      "Wi-Fi"
+      "Bluetooth"
     ],
     "performance": {
       "precision": "0.01 mm",
@@ -37,15 +37,15 @@
         "time": "~12–18 min"
       },
       "cutExample": {
-        "description": "Simple square cut-out from 3 mm basswood",
-        "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~6–10 min"
+        "description": "Cutting",
+        "size": "—",
+        "time": "—"
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "600 mm/s",
         "avgEngraveSpeed": "60–150 mm/s fill",
-        "avgCutSpeed": "4–10 mm/s on 3 mm wood"
+        "avgCutSpeed": "—"
       }
     }
   },
@@ -63,9 +63,9 @@
     ]
   },
   "pros": [
-    "5W on LaserPecker LP1 Plus: engraving-first: photo fills and leather at moderate speeds",
+    "0.6W (405 nm) on LaserPecker LP1 Plus: surface engraving on wood, leather and paper, not cutting",
     "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Work area ~100 × 100 mm: confirm your typical job sizes fit the bed"
+    "Work area 100 × 100 mm: confirm your typical job sizes fit"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -75,10 +75,10 @@
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Pocket engraving and learning on LaserPecker.",
   "rating": {
-    "overall": 8,
-    "value": 8.4,
+    "overall": 7.7,
+    "value": 8.6,
     "easeOfUse": 8,
-    "capability": 7.9,
+    "capability": 6.8,
     "buildQuality": 7.5
   },
   "similarModels": [
@@ -87,9 +87,9 @@
     "laserpecker-lp3"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/laserpecker-lp1-plus/01.webp",
-  "releaseDate": "2022-03",
+  "releaseDate": "2026-02",
   "images": [
     {
       "src": "/machines/laserpecker-lp1-plus/01.webp",
@@ -97,8 +97,9 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LaserPecker LP1 Plus 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+    "advantages": "LaserPecker LP1 Plus (0.6W) suits makers who personalize small gifts, tags and photos on the go. Pocket size and power-bank operation are the point.",
+    "limitations": "It does not cut: 0.6W is for surface marks only. Not for acrylic, bare metal without spray, or production work."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "powerRating": "0.6W"
 }

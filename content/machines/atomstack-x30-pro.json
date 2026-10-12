@@ -16,11 +16,12 @@
   "priceRange": {
     "min": 1999,
     "max": 2799,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
-    "power": "160W diode (compressed)",
-    "workArea": "400 × 400 mm (approx.)",
+    "power": "33W diode (6 × 6W)",
+    "workArea": "410 × 400 mm",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -68,7 +69,7 @@
   },
   "pros": [
     "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
-    "160W: the most cut-focused head in the AtomStack X30 Pro line",
+    "33W (sold as \"160W\"): the most cut-focused head in the AtomStack X30 Pro line",
     "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
   ],
   "cons": [
@@ -91,9 +92,9 @@
     "ortur-h20-40w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/atomstack-x30-pro/01.webp",
-  "powerRating": "160W",
+  "powerRating": "33W",
   "catalogPrimary": true,
   "releaseDate": "2025-03",
   "images": [
@@ -115,7 +116,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "AtomStack X30 Pro 160W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
+    "advantages": "AtomStack X30 Pro 33W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "tierEditorialOverride": true,

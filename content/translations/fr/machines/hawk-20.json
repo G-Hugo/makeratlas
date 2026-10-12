@@ -56,5 +56,8 @@
   },
   "images": [
     { "alt": "Graveuse laser Hawk 20W : Hawk" }
-  ]
+  ],
+  "priceRange": {
+    "note": "Plus vendue neuve (oct. 2026) ; dernier prix connu"
+  }
 }

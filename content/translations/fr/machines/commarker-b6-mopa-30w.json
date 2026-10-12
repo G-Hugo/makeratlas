@@ -1,10 +1,10 @@
 {
   "tagline": "Fibre MOPA pour le marquage couleur et la gravure métal profonde",
   "tldr": "La ComMarker B6 ajoute une fibre MOPA pour les effets couleur sur l'inox et un contrôle plus fin en gravure métal profonde. Montée en gamme par rapport à la B4 pour les ateliers qui ont besoin du marquage couleur ou de cycles de production plus rapides.",
-  "mainObjective": "MOPA fiber marking with color on stainless and production metal work",
-  "primaryUse": "Professional metal marking with optional color effects for premium personalization.",
+  "mainObjective": "Marquage fibre MOPA en couleur sur l'inox et travail du métal en production",
+  "primaryUse": "Marquage professionnel du métal avec effets de couleur en option pour une personnalisation haut de gamme.",
   "beginnerNotes": "Cette fiche décrit ComMarker B6 MOPA 30W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Build fixture jigs for repeat jobs. Keep lens clean : contamination shows on high-contrast marks.",
+  "proTips": "Fabriquez des gabarits pour les travaux répétés. Gardez la lentille propre : la moindre salissure se voit sur les marquages très contrastés.",
   "bestFor": [
     "Color metal marking",
     "Production marking",
@@ -61,5 +61,8 @@
   "editorialDepth": {
     "advantages": "ComMarker B6 MOPA 30W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
     "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+  },
+  "priceRange": {
+    "note": "Boutique officielle ComMarker, oct. 2026 : de 3 099 $ à 3 966 $ selon le pack (30 W)"
   }
 }

@@ -1,22 +1,22 @@
 {
   "tagline": "Fibre OMTech Intelli compacte : plateforme format intermédiaire pour découpe et marquage",
   "tldr": "L’OMTech FC-44 Intelli est un système fibre plus compact que le FC-105, pensé pour les ateliers qui ont besoin de travailler le métal sans l’encombrement d’une machine industrielle. C’est toujours une machine pro : pas un substitut aux graveurs diode de bureau ni aux marqueurs fibre galvo.",
-  "mainObjective": "Mid-format fiber for metal-focused small businesses",
-  "primaryUse": "Mid-size fiber system for metal cutting and production marking.",
+  "mainObjective": "Fibre format moyen pour les petites entreprises centrées sur le métal",
+  "primaryUse": "Système fibre de taille moyenne pour la découpe du métal et le marquage en production.",
   "beginnerNotes": "Cette fiche décrit OMTech FC-44 Intelli. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "Small metal shop",
     "Fiber cutting entry",
     "OMTech ecosystem"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "Fibre = découpe de tôle métal : ne découpe pas bois ni acrylique",
     "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
     "OMTech FC-44 Intelli : limites matériaux, benchmarks et conseils pratiques sur cette fiche"
   ],
   "cons": [
-    "Fibre 44W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
+    "Machine industrielle : source 1,5 à 3 kW, alimentation triphasée 380 V, gaz d’assistance et plusieurs tonnes au sol"
   ],
   "materials": {
     "engrave": [
@@ -52,7 +52,10 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "OMTech FC-44 Intelli 44W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
-    "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+    "advantages": "OMTech FC-44 Intelli est une découpeuse fibre industrielle (source IPG 1,5 à 3 kW, plateau 1300 × 1300 mm) pour pièces en acier, inox et aluminium. Elle convient aux ateliers de chaudronnerie qui veulent internaliser la découpe de tôle.",
+    "limitations": "Passez votre chemin pour la gravure, le bois, le cuir ou l’acrylique, ou sans triphasé 380 V, gaz d’assistance et place pour une machine de plusieurs tonnes. Prix sur devis, et l’installation est un projet à part entière."
+  },
+  "priceRange": {
+    "note": "Boutique officielle OMTech, oct. 2026 : affichée à 56 999 $ (sur devis ; source IPG de 1,5 à 3 kW)"
   }
 }

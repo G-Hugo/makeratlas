@@ -17,13 +17,14 @@
     "Small business"
   ],
   "priceRange": {
-    "min": 1299,
-    "max": 1899,
-    "currency": "USD"
+    "min": 1399,
+    "max": 1632,
+    "currency": "USD",
+    "note": "Official ComMarker store, Oct 2026: $1,399 to $1,632 depending on bundle (20W)"
   },
   "specs": {
     "power": "20W fiber",
-    "workArea": "110 × 110 mm typical marking area",
+    "workArea": "110 × 110 mm (4.3 × 4.3 in)",
     "software": [
       "ComMarker",
       "LightBurn",
@@ -93,7 +94,7 @@
     "xtool-f1-ultra"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/commarker-b4-20w/01.webp",
   "images": [
     {

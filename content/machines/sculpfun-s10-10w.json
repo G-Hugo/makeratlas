@@ -5,8 +5,8 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "2025 Sculpfun S10 line: industrial-style frame, 385 mm bed",
-  "tldr": "Sculpfun S10 10W launched in 2025 as a mid-size open-frame engraver with a sturdier industrial frame than S9, ~385 mm work area, and detachable laser cover. Positioned between budget S9 and S30 families for makers who want better rigidity without Ultra pricing.",
+  "tagline": "Sculpfun S10: industrial-style frame, 385 mm bed",
+  "tldr": "Sculpfun S10 10W (2022) is a mid-size open-frame engraver with a sturdier industrial frame than S9, ~385 mm work area, and detachable laser cover. Positioned between budget S9 and S30 families for makers who want better rigidity without Ultra pricing.",
   "mainObjective": "Mid-tier Sculpfun engraving with a stiffer frame than S9",
   "bestFor": [
     "Desk engraving",
@@ -15,9 +15,10 @@
     "Light cutting"
   ],
   "priceRange": {
-    "min": 399,
-    "max": 549,
-    "currency": "USD"
+    "min": 269.99,
+    "max": 269.99,
+    "currency": "USD",
+    "note": "Official Sculpfun store, Oct 2026: $269.99 (machine only)"
   },
   "specs": {
     "power": "10W diode",
@@ -82,8 +83,8 @@
   "proTips": "Pair with 30L/min air assist per Sculpfun spec for cleaner cuts.",
   "primaryUse": "2025 Sculpfun mid-size engraver for detailed work and light cutting on a reinforced frame.",
   "rating": {
-    "overall": 8.1,
-    "value": 8.3,
+    "overall": 8.2,
+    "value": 8.6,
     "easeOfUse": 8,
     "capability": 7.8,
     "buildQuality": 8.2
@@ -94,7 +95,7 @@
     "atomstack-a5-pro-10w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/sculpfun-s10-10w/01.webp",
   "images": [
     {
@@ -109,7 +110,7 @@
   "modelLine": "sculpfun-s10",
   "powerRating": "10W",
   "catalogPrimary": true,
-  "releaseDate": "2025-04",
+  "releaseDate": "2022-09",
   "editorialDepth": {
     "advantages": "Sculpfun S10 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."

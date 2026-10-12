@@ -93,7 +93,7 @@
     "xtool-s1"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/atezr-p2/01.webp",
@@ -114,5 +114,6 @@
     "advantages": "Atezr P2 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "catalogHidden": true
 }

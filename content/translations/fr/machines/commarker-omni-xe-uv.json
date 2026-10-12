@@ -1,10 +1,10 @@
 {
   "tagline": "Plateforme UV élargie pour travaux verre et plastique plus grands",
   "tldr": "L'Omni XE se situe entre l'Omni 1 et l'Omni X dans la gamme UV ComMarker : vérifiez les specs actuelles pour la taille du plateau et la puissance. L'UV reste spécialisé : verre, plastiques, fines détails.",
-  "mainObjective": "Detailed engraving on organics and coated metal : occasional thin cuts only",
+  "mainObjective": "Gravure détaillée sur matériaux organiques et métal revêtu : découpes fines occasionnelles seulement",
   "primaryUse": "Version 6 W · ComMarker Omni XE UV",
   "beginnerNotes": "Ce profil décrit la version de base 6 W de ComMarker Omni XE UV. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Omni-XE UV targets heat-sensitive plastics and thin films : run vendor parameter cards on scrap. Do not assume Omni-X UV presets transfer without retesting.",
+  "proTips": "L'Omni-XE UV vise les plastiques sensibles à la chaleur et les films minces : passez les cartes de paramètres du fabricant sur des chutes. Ne supposez pas que les préréglages de l'Omni-X UV se transposent sans nouveaux essais.",
   "bestFor": [
     "Gravure fine",
     "Photo et logo",

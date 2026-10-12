@@ -18,11 +18,11 @@
     "min": 2929,
     "max": 3699,
     "currency": "USD",
-    "note": "Bundle tiers add conveyor, purifier, riser"
+    "note": "Official Atomstack store, Oct 2026: $2,929 to $3,699 depending on bundle (conveyor, purifier, riser); currently sold out"
   },
   "specs": {
     "power": "55W CO₂",
-    "workArea": "500 × 300 mm (approx.)",
+    "workArea": "500 × 300 mm",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -96,7 +96,7 @@
     "gweike-cloud-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/atomstack-hurricane/01.webp",
   "powerRating": "55W",
   "catalogPrimary": true,
@@ -115,5 +115,6 @@
     "advantages": "AtomStack Hurricane is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 55W adds headroom on panels and multi-pass jobs.",
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": true
 }

@@ -90,7 +90,7 @@
     "acmer-p3"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/atomstack-a24-ultra/01.webp",
   "powerRating": "24W",
   "laserCapabilities": [
@@ -125,5 +125,6 @@
     "advantages": "AtomStack A24 Ultra 24W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "discontinued": {}
 }

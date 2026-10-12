@@ -1,10 +1,10 @@
 {
   "tagline": "Galvo portable 2025 : diode 15 W + IR 5 W avec caméra 50 MP",
   "tldr": "La xTool F2 (2025) améliore la formule F1 avec plus de puissance, une caméra d’alignement 50 MP et jusqu’à 6 000 mm/s en galvo. Double source (diode + infrarouge) pour marquage métal et organiques dans une boîte compacte : xTool Studio uniquement, pas LightBurn.",
-  "mainObjective": "Fast portable dual-laser for on-site customization and small-batch metal + wood",
-  "primaryUse": "2025 compact galvo for high-speed metal marking plus light organic engraving and cutting.",
+  "mainObjective": "Double laser portable et rapide pour la personnalisation sur place et les petites séries en métal et en bois",
+  "primaryUse": "Galvo compact (2025) pour le marquage rapide du métal, avec gravure et découpe légères des matériaux organiques.",
   "beginnerNotes": "Cette fiche décrit xTool F2. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Use conveyor accessory for tags and flat blanks. Keep IR and diode material libraries separate : power curves are not interchangeable.",
+  "proTips": "Utilisez l'accessoire convoyeur pour les plaques et les ébauches plates. Gardez des bibliothèques de matériaux séparées pour l'IR et la diode : les courbes de puissance ne sont pas interchangeables.",
   "bestFor": [
     "Market vendors",
     "Jewelry & tools",

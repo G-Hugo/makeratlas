@@ -15,8 +15,16 @@ export type { CatalogEntry } from "@/lib/catalog-types";
 
 const contentDir = path.join(process.cwd(), "content");
 
+// Content files do not change during a production build: compute once per locale.
+// (Dev keeps recomputing so edits to content/ show up without a restart.)
+const machinesCache = new Map<Locale, Machine[]>();
+
 export function getAllMachines(locale: Locale = "en"): Machine[] {
-  return localizeMachines(readPublishedMachines(), locale);
+  const cached = machinesCache.get(locale);
+  if (cached) return [...cached];
+  const machines = localizeMachines(readPublishedMachines(), locale);
+  if (process.env.NODE_ENV === "production") machinesCache.set(locale, machines);
+  return [...machines];
 }
 
 export function getMachineBySlug(slug: string, locale: Locale = "en"): Machine | undefined {

@@ -48,6 +48,7 @@ const CATEGORY_ORDER: AccessoryCategory[] = [
 ];
 
 export function machineIsEnclosed(machine: Machine): boolean {
+  if (machine.enclosed !== undefined) return machine.enclosed;
   if (machine.laserType === "co2") {
     return !copyMentions(machine, /\bk40\b/, /\bopen[- ]?frame\b/, /\bstructure\s+ouverte\b/);
   }

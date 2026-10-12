@@ -127,5 +127,6 @@
     "advantages": "AtomStack A70 Max 70W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": false
 }

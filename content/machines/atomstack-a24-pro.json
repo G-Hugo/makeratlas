@@ -4,24 +4,25 @@
   "name": "AtomStack A24 Pro",
   "brand": "Atomstack",
   "category": "laser-engraver",
-  "laserType": "hybrid",
-  "tagline": "Compact Atomstack with diode + fiber marking in one desktop unit",
-  "tldr": "AtomStack A24 Pro packs a diode engraver plus fiber marking into a smaller footprint than separate machines. Niche for jewelry-scale metal marking plus wood: not a full workshop fiber or high-power diode.",
-  "mainObjective": "Dual-source Atomstack for metal marking and organic engraving",
+  "laserType": "diode",
+  "tagline": "Atomstack's 24W unibody-frame diode: set up in minutes, conveyor-ready bed",
+  "tldr": "AtomStack A24 Pro is a 24W diode engraver and cutter (four 6W diodes) built on a unibody frame you set up in minutes. The 360 × 280 mm bed is small for this power class, but the optional conveyor stretches it to 360 × 800 mm. Diode only: for metal marking, Atomstack sells a separate A24 Pro 1064nm fiber version.",
+  "mainObjective": "24W diode engraving and cutting in a quick-setup unibody frame",
   "bestFor": [
-    "Jewelry desk",
-    "Metal tags",
-    "Small gifts",
-    "Space-saving hybrid"
+    "Wood cutting",
+    "Signs and boxes",
+    "Quick setup",
+    "Small-batch gifts"
   ],
   "priceRange": {
-    "min": 1299,
-    "max": 1899,
-    "currency": "USD"
+    "min": 459,
+    "max": 1119,
+    "currency": "USD",
+    "note": "Official Atomstack store, Oct 2026: $459 to $1,119 depending on bundle"
   },
   "specs": {
-    "power": "20W diode + fiber marking",
-    "workArea": "110 × 110 mm marking / ~400 mm diode area (verify SKU)",
+    "power": "24W diode",
+    "workArea": "360 × 280 mm",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -43,10 +44,10 @@
         "time": "~4–7 min"
       },
       "technical": {
-        "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "spotSize": "0.06 × 0.06 mm",
+        "maxSpeed": "600 mm/s",
         "avgEngraveSpeed": "60–150 mm/s fill",
-        "avgCutSpeed": "Diode cut; fiber marks metal"
+        "avgCutSpeed": "Diode cutting on wood and dark acrylic"
       }
     }
   },
@@ -54,16 +55,17 @@
     "engrave": [
       "Wood",
       "Leather",
-      "Stainless (fiber)",
+      "Coated metal",
       "Plastics"
     ],
     "cut": [
-      "Thin wood",
+      "Wood",
+      "Dark acrylic",
       "Paper"
     ],
     "cannot": [
-      "Large signage",
-      "Industrial fiber depth",
+      "Clear acrylic",
+      "Bare metal marking",
       "CO₂ work"
     ]
   },
@@ -77,7 +79,7 @@
   ],
   "beginnerNotes": "This profile covers AtomStack A24 Pro. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
-  "primaryUse": "Desk hybrid for mixed metal marking and small organic engraves.",
+  "primaryUse": "24W diode engraving and cutting for hobby and small-business work.",
   "rating": {
     "overall": 8.1,
     "value": 8.5,
@@ -86,41 +88,22 @@
     "buildQuality": 7.8
   },
   "similarModels": [
-    "xtool-f1-ultra",
-    "atomstack-a24-ultra",
-    "commarker-b4-20w"
+    "atomstack-a20-pro-v2",
+    "atomstack-a24-pro-1064nm",
+    "sculpfun-s30-ultra-22w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/atomstack-a24-pro/01.webp",
-  "powerRating": "20W",
+  "powerRating": "24W",
   "catalogPrimary": true,
-  "moduleSystem": {
-    "style": "dual-laser",
-    "headline": "Diode engrave + fiber mark",
-    "description": "A24 Pro combines diode cutting/engraving with a fiber source for metal marking in one package.",
-    "options": [
-      {
-        "power": "20W",
-        "laserKind": "diode",
-        "label": "20W diode"
-      },
-      {
-        "power": "20W",
-        "laserKind": "fiber",
-        "label": "Fiber marking"
-      }
-    ]
-  },
   "laserCapabilities": [
-    "diode",
-    "fiber"
+    "diode"
   ],
   "capabilityTags": [
-    "diode",
-    "fiber"
+    "diode"
   ],
-  "releaseDate": "2024-07",
+  "releaseDate": "2023-09",
   "images": [
     {
       "src": "/machines/atomstack-a24-pro/01.webp",
@@ -140,7 +123,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "AtomStack A24 Pro 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
+    "advantages": "AtomStack A24 Pro 24W is the versatile hobby / side-business SKU: clean engraving and wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "tierEditorialOverride": true

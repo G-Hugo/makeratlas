@@ -1,10 +1,10 @@
 {
   "tagline": "Diode Creality 22W d'entrée : chemin de montée simple pour les propriétaires d'imprimantes 3D",
   "tldr": "La Creality Falcon2 22W est la référence 22W de la gamme Falcon2. La Falcon2 12W de base est la diode à structure ouverte abordable de Creality. Vérifiez la puissance optique sur l'annonce : ne vous fiez pas au marketing en watts combinés.",
-  "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
+  "mainObjective": "Découpe plus rapide et plus profonde pour le loisir, avec une gravure toujours solide",
   "primaryUse": "Module 22W · Creality Falcon2",
   "beginnerNotes": "Ce profil décrit le SKU 22W de Creality Falcon2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
+  "proTips": "Réglez les passes de découpe avec l'assistance d'air et en vérifiant la mise au point. Pour la gravure photo, ralentissez par rapport à vos préréglages de découpe : cette tête est optimisée pour le débit sur bois, pas seulement pour la finesse.",
   "bestFor": [
     "Découpe plus rapide",
     "Bois plus épais",

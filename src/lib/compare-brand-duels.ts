@@ -28,7 +28,7 @@ export const BRAND_COMPARE_DUELS: readonly BrandDuelDefinition[] = [
   },
   {
     brands: ["creality", "foxalien"],
-    featuredMachines: ["creality-falcon2-22w", "foxaliens-reisler-2"],
+    featuredMachines: ["creality-falcon2-22w", "foxaliens-reizer-40w"],
   },
   {
     brands: ["commarker", "xtool"],

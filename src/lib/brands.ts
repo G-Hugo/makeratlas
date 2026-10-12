@@ -134,7 +134,19 @@ function fallbackEditorial(
 }
 
 /** Brands with at least one catalog line, merged with editorial content when available. */
+// Content files do not change during a production build: compute once per locale.
+// (Dev keeps recomputing so edits to content/ show up without a restart.)
+const brandProfilesCache = new Map<Locale, BrandProfile[]>();
+
 export function getAllBrandProfiles(locale: Locale = "en"): BrandProfile[] {
+  const cached = brandProfilesCache.get(locale);
+  if (cached) return [...cached];
+  const profiles = buildAllBrandProfiles(locale);
+  if (process.env.NODE_ENV === "production") brandProfilesCache.set(locale, profiles);
+  return [...profiles];
+}
+
+function buildAllBrandProfiles(locale: Locale): BrandProfile[] {
   const entries = getCatalogEntries(locale);
   const editorialBySlug = new Map(readBrandEditorials().map((b) => [b.slug, b]));
 

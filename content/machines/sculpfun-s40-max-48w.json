@@ -15,10 +15,10 @@
     "Sculpfun power users"
   ],
   "priceRange": {
-    "min": 999,
-    "max": 1299,
+    "min": 1149,
+    "max": 2316,
     "currency": "USD",
-    "note": "LightBurn bundle common"
+    "note": "Official Sculpfun store, Oct 2026: $1,149 to $2,316 depending on bundle"
   },
   "specs": {
     "power": "48W diode (compressed)",
@@ -45,7 +45,7 @@
       },
       "technical": {
         "spotSize": "0.154 × 0.121 mm",
-        "maxSpeed": "600 mm/s (36,000 mm/min marketing)",
+        "maxSpeed": "600 mm/s (36,000 mm/min)",
         "avgEngraveSpeed": "100–200 mm/s fill",
         "avgCutSpeed": "8–18 mm/s on 3–6 mm wood"
       }
@@ -97,7 +97,7 @@
     "acmer-s2-pro-48w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/sculpfun-s40-max-48w/01.webp",
   "images": [
     {

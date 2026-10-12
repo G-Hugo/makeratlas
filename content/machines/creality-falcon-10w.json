@@ -14,13 +14,14 @@
     "Learning"
   ],
   "priceRange": {
-    "min": 299,
-    "max": 399,
-    "currency": "USD"
+    "min": 205,
+    "max": 389,
+    "currency": "USD",
+    "note": "Official Creality Falcon store, Oct 2026: $205 to $389 depending on bundle"
   },
   "specs": {
     "power": "10W diode",
-    "workArea": "400 × 400 mm",
+    "workArea": "400 × 415 mm",
     "software": [
       "Creality Laser",
       "LightBurn"
@@ -43,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "167 mm/s (10,000 mm/min)",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }
@@ -88,7 +89,7 @@
     "longer-ray5-10w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/creality-falcon-10w/01.webp",
   "modelLine": "creality-falcon-cr",
   "powerRating": "10W",
@@ -116,5 +117,6 @@
     "advantages": "Creality Falcon 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": false
 }

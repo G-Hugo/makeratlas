@@ -44,7 +44,19 @@ function buildEntry(primary: Machine, powerTiers: Machine[]): CatalogEntry {
   };
 }
 
+// Content files do not change during a production build: compute once per locale.
+// (Dev keeps recomputing so edits to content/ show up without a restart.)
+const catalogCache = new Map<Locale, CatalogEntry[]>();
+
 export function getCatalogEntries(locale: Locale = "en"): CatalogEntry[] {
+  const cached = catalogCache.get(locale);
+  if (cached) return [...cached];
+  const entries = buildCatalogEntries(locale);
+  if (process.env.NODE_ENV === "production") catalogCache.set(locale, entries);
+  return [...entries];
+}
+
+function buildCatalogEntries(locale: Locale): CatalogEntry[] {
   const all = localizeMachines(readPublishedMachines(), locale);
   const entries: CatalogEntry[] = [];
   const modelLines = new Set(

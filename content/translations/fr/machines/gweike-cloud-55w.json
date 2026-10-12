@@ -1,10 +1,10 @@
 {
   "tagline": "Gweike Cloud 55W : découpeuse CO₂ de bureau connectée au cloud",
   "tldr": "Le Gweike Cloud 55W est un CO₂ de bureau de la gamme Gweike Cloud avec fonctions app/cloud et options rotary. Alternative aux annonces Cloud Pro II : vérifiez la puissance exacte du tube et la taille du plateau sur votre référence.",
-  "mainObjective": "Connected desktop CO₂ for acrylic and wood production",
-  "primaryUse": "Desktop CO₂ cutting for signs and acrylic products.",
+  "mainObjective": "CO₂ de bureau connecté pour la production en acrylique et en bois",
+  "primaryUse": "Découpe CO₂ de bureau pour enseignes et produits en acrylique.",
   "beginnerNotes": "Cette fiche décrit Gweike Cloud 55W CO₂. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "CO₂ cutting",
     "Gweike ecosystem",
@@ -62,5 +62,8 @@
   "editorialDepth": {
     "advantages": "Gweike Cloud CO₂ est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 55W donne de la marge sur les panneaux et les passes multiples.",
     "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  },
+  "priceRange": {
+    "note": "Boutique officielle Gweike, oct. 2026 : de 1 749 $ à 2 539 $ selon le pack (Cloud Pro II 55 W ; pack rotatif en rupture)"
   }
 }

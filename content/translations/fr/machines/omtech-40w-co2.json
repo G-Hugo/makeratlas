@@ -1,10 +1,10 @@
 {
   "tagline": "Le CO₂ petit budget classique : puissant mais attend du bricolage",
   "tldr": "L’évolution moderne du célèbre K40. Vraie puissance de découpe CO₂ au prix CO₂ le plus bas. Excellent rapport qualité-prix si vous aimez upgrader et réparer. Mauvais choix si vous voulez du plug-and-play sortie de boîte.",
-  "mainObjective": "Budget CO₂ cutting for makers willing to upgrade and maintain",
-  "primaryUse": "Budget CO₂ laser cutting and engraving for makers willing to modify and maintain their machine.",
+  "mainObjective": "Découpe CO₂ à petit budget pour les makers prêts à améliorer et entretenir leur machine",
+  "primaryUse": "Découpe et gravure laser CO₂ à petit budget pour les makers prêts à modifier et entretenir leur machine.",
   "beginnerNotes": "Cette fiche décrit OMTech 40W CO₂ (K40 class). Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Install LightBurn and a Mini Gerbil or similar board if you outgrow stock software. Replace the stock exhaust fan immediately. Keep a fire extinguisher nearby : CO₂ cuts combustible materials.",
+  "proTips": "Installez LightBurn et une carte Mini Gerbil ou équivalente si le logiciel d'origine ne suffit plus. Remplacez tout de suite le ventilateur d'extraction d'origine. Gardez un extincteur à portée de main : le CO₂ découpe des matériaux combustibles.",
   "bestFor": [
     "Tinkerers",
     "Budget CO₂",
@@ -42,7 +42,7 @@
     ]
   },
   "priceRange": {
-    "note": "Modèles bureau 40 W ; 50–60 W coûtent plus"
+    "note": "Boutique officielle OMTech, oct. 2026 : de 599,99 $ à 999,99 $ selon le pack (vendue sous le nom K40+)"
   },
   "specs": {
     "performance": {

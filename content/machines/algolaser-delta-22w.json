@@ -15,13 +15,14 @@
     "Enclosure option"
   ],
   "priceRange": {
-    "min": 799,
-    "max": 1099,
-    "currency": "USD"
+    "min": 499,
+    "max": 749,
+    "currency": "USD",
+    "note": "Official AlgoLaser store (US clearance), Oct 2026: $499 to $749 depending on bundle (machine-only option sold out)"
   },
   "specs": {
     "power": "22W diode",
-    "workArea": "250 × 250 mm (approx.)",
+    "workArea": "440 × 415 mm",
     "software": [
       "AlgoLaser",
       "LightBurn"
@@ -44,7 +45,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "500 mm/s (30 000 mm/min)",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }
@@ -78,8 +79,8 @@
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Compact AlgoLaser 22W for engraving and light-medium cutting.",
   "rating": {
-    "overall": 7.8,
-    "value": 7.2,
+    "overall": 7.9,
+    "value": 7.4,
     "easeOfUse": 8,
     "capability": 7.9,
     "buildQuality": 7.8
@@ -90,7 +91,7 @@
     "sculpfun-s30-ultra-22w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/algolaser-delta-22w/01.webp",
   "modelLine": "algolaser-delta",
   "powerRating": "22W",
@@ -118,5 +119,6 @@
     "advantages": "AlgoLaser Delta 22W targets mixed engraving and wood-cutting weeks: fewer passes on basswood and dark acrylic than weaker SKUs in the same line.",
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. "
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": false
 }

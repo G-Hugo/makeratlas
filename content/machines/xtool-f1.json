@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "image": "/machines/xtool-f1/01.webp",
-  "tagline": "Original compact fiber + diode: metal marking in a portable box",
+  "tagline": "Original compact infrared + diode: metal marking in a portable box",
   "tldr": "The F1 started the compact dual-laser category. Slower than F1 Ultra but often cheaper on sale. Still a metal-marking specialist with small bed: not a general workshop laser.",
   "mainObjective": "Compact metal marking plus light diode engraving for small items",
   "bestFor": [
@@ -18,11 +18,12 @@
   "priceRange": {
     "min": 2499,
     "max": 2999,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
-    "power": "10W fiber + 10W diode",
-    "workArea": "100 × 100 mm",
+    "power": "10W diode + 2W IR (1064 nm)",
+    "workArea": "115 × 115 mm (4.5 × 4.5 in)",
     "performance": {
       "precision": "0.01 mm",
       "engraveExample": {
@@ -36,8 +37,8 @@
         "time": "Not a cutter"
       },
       "technical": {
-        "spotSize": "~0.03 mm fiber spot",
-        "maxSpeed": "10,000 mm/s",
+        "spotSize": "~0.03 mm (IR)",
+        "maxSpeed": "4,000 mm/s",
         "avgEngraveSpeed": "300–1,500 mm/s marking",
         "avgCutSpeed": "N/A"
       }
@@ -91,7 +92,7 @@
     "xtool-f2-ultra"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/xtool-f1/01.webp",
@@ -114,12 +115,12 @@
   "moduleSystem": {
     "style": "dual-laser",
     "headline": "Compact dual-source engraver",
-    "description": "F1 combines 10W fiber marking with 10W diode engraving. Different product class from modular S1 heads.",
+    "description": "F1 combines a 2W infrared (1064 nm) laser for metal and plastic marking with a 10W diode for engraving. Different product class from modular S1 heads.",
     "options": [
       {
-        "power": "10W",
-        "laserKind": "fiber",
-        "label": "10W fiber"
+        "power": "2W",
+        "laserKind": "infrared",
+        "label": "2W IR (1064 nm)"
       },
       {
         "power": "10W",
@@ -129,17 +130,17 @@
     ]
   },
   "laserCapabilities": [
-    "fiber",
+    "infrared",
     "diode"
   ],
   "capabilityTags": [
-    "fiber",
+    "infrared",
     "diode"
   ],
   "releaseDate": "2023-04",
   "editorialDepth": {
-    "advantages": "xTool F1 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
+    "advantages": "The F1 suits makers who mark small metal and leather goods, photos and gifts: its 2W infrared laser marks bare metal and the galvo head is fast. Now mostly found refurbished or used.",
+    "limitations": "Small 115 × 115 mm field and only very light cutting: not a tool for panels, cast acrylic or production cutting."
   },
   "tierEditorialOverride": true,
   "discontinued": {

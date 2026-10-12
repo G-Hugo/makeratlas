@@ -1,10 +1,10 @@
 {
   "tagline": "Diode 22W haute puissance avec assistance air intégrée et effet gravure couleur",
   "tldr": "La version 22 W de la Falcon2 Pro fermée de Creality : un caisson classe 1 avec assistance d'air, qui grave proprement le bois et le cuir et découpe le contreplaqué fin. Une bonne entrée dans les diodes fermées si vous n'avez pas besoin de découper vite en épais.",
-  "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
+  "mainObjective": "Découpe plus rapide et plus profonde pour le loisir, avec une gravure toujours solide",
   "primaryUse": "Module 22W · Creality Falcon2 Pro",
   "beginnerNotes": "Ce profil décrit le SKU 22W de Creality Falcon2 Pro. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Tune cut passes with air assist and focus checks. For photo engraving, slow down vs your cut presets : this head is optimized for throughput on wood, not only finesse.",
+  "proTips": "Réglez les passes de découpe avec l'assistance d'air et en vérifiant la mise au point. Pour la gravure photo, ralentissez par rapport à vos préréglages de découpe : cette tête est optimisée pour le débit sur bois, pas seulement pour la finesse.",
   "bestFor": [
     "Découpe plus rapide",
     "Bois plus épais",

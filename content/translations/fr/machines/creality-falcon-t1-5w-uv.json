@@ -14,9 +14,9 @@
     "Pas Classe 1 en mode capot ouvert (convoyeur, rotatif) : protection des yeux obligatoire dans ce cas"
   ],
   "beginnerNotes": "Ce profil décrit le SKU 5W de Creality Falcon T1 UV. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
-  "proTips": "Run glass test tiles at low power : UV on glass is unforgiving. Keep dedicated ventilation practices for UV fumes per Creality guidance.",
+  "proTips": "Faites des carreaux de test sur verre à faible puissance : l'UV sur verre ne pardonne pas. Appliquez une ventilation dédiée aux fumées UV selon les recommandations de Creality.",
   "primaryUse": "Module 5W · Creality Falcon T1 UV",
-  "mainObjective": "UV galvo marking for glass and specialty plastics on the T1 platform",
+  "mainObjective": "Marquage galvo UV pour le verre et les plastiques spéciaux sur la plateforme T1",
   "bestFor": [
     "Gravure fine",
     "Photo et logo",
@@ -65,5 +65,7 @@
   ],
   "priceRange": {
     "note": "Boutique officielle Creality, oct. 2026 : 3 999 $, machine complète"
-  }
+  },
+  "tagline": "Module galvo UV 5 W : verre, films et plastiques sensibles sur le châssis T1",
+  "tldr": "Le module UV WaveSync 5 W vise les matériaux qui posent problème à la diode et à la fibre : le verre, certains films et les plastiques sensibles à la chaleur. Il se monte dans le même caisson Falcon T1 quand votre atelier ajoute des travaux UV après les modules bois ou métal."
 }

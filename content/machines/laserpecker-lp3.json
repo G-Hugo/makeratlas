@@ -17,11 +17,12 @@
   "priceRange": {
     "min": 1199,
     "max": 1359,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
-    "power": "LP3 infrarouge",
-    "workArea": "120 × 120 mm (approx.)",
+    "power": "1W IR (1064 nm)",
+    "workArea": "115 × 80 mm / 65 × 65 mm",
     "software": [
       "LaserPecker Design Space"
     ],
@@ -43,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.03 mm IR spot",
-        "maxSpeed": "200 mm/s",
+        "maxSpeed": "800 mm/s",
         "avgEngraveSpeed": "IR marking speeds",
         "avgCutSpeed": "N/A"
       }
@@ -64,7 +65,7 @@
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
+    "Pulsed 1064 nm infrared: marks bare metal and plastics that blue diodes cannot touch",
     "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
     "Software on the profile: trial your workflow on scrap before production"
   ],
@@ -88,10 +89,10 @@
     "xtool-f1"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/laserpecker-lp3/01.webp",
   "modelLine": "laserpecker-lp3",
-  "powerRating": "IR",
+  "powerRating": "1W",
   "catalogPrimary": true,
   "releaseDate": "2023-12",
   "images": [
@@ -101,9 +102,11 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LaserPecker LP3 LP3 infrarouge is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "LaserPecker LP3 (1W pulsed 1064 nm IR) is a portable marker for metal tags, tools and plastics: fine marks without a fiber bench.",
+    "limitations": "Marking only: it does not cut wood or acrylic, and the field is small (115 × 80 mm oval). Not a production fiber laser."
   },
   "tierEditorialOverride": true,
-  "discontinued": {}
+  "discontinued": {
+    "successor": "laserpecker-4"
+  }
 }

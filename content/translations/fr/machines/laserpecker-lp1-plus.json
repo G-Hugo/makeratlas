@@ -1,19 +1,19 @@
 {
   "tagline": "LaserPecker LP1 Plus : graveuse de poche un cran au-dessus du LP1 Pro",
   "tldr": "Le LaserPecker LP1 Plus se situe entre LP1 Pro et LP2 dans la gamme poche : toujours ultra-compact, orienté app, pour gravure à l’échelle bijou et en voyage plutôt que pour des panneaux.",
-  "mainObjective": "Compact LaserPecker for maximum portability",
-  "primaryUse": "Pocket engraving and learning on LaserPecker.",
+  "mainObjective": "LaserPecker compact pour une portabilité maximale",
+  "primaryUse": "Gravure de poche et apprentissage avec LaserPecker.",
   "beginnerNotes": "Cette fiche décrit LaserPecker LP1 Plus. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "Travel",
     "Jewelry-scale",
     "Beginner gifts"
   ],
   "pros": [
-    "5W sur LaserPecker LP1 Plus : priorité gravure : remplissages photo et cuir",
+    "0,6 W (405 nm) sur LaserPecker LP1 Plus : gravure de surface sur bois, cuir et papier, pas de découpe",
     "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile ~100 × 100 mm : validez vos formats de pièces avant achat"
+    "Surface utile 100 × 100 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
@@ -39,7 +39,7 @@
         "description": "Photo remplie ou logo sur contreplaqué de bouleau"
       },
       "cutExample": {
-        "description": "Découpe carrée simple dans du tilleul 3 mm"
+        "description": "Découpe"
       }
     }
   },
@@ -58,7 +58,10 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "LaserPecker LP1 Plus 5W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
-    "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+    "advantages": "Le LaserPecker LP1 Plus (0,6 W) convient aux makers qui personnalisent petits cadeaux, étiquettes et photos en déplacement. Le format poche et l’alimentation sur batterie externe sont tout l’intérêt.",
+    "limitations": "Il ne découpe pas : 0,6 W ne sert qu’au marquage de surface. Pas pour l’acrylique, le métal nu sans spray ni la production."
+  },
+  "priceRange": {
+    "note": "Boutique officielle LaserPecker (US), oct. 2026 : de 219 $ à 379 $ selon le pack"
   }
 }

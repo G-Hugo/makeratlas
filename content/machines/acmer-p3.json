@@ -37,7 +37,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "350 mm/s",
+        "maxSpeed": "800 mm/s",
         "avgEngraveSpeed": "70–150 mm/s fill",
         "avgCutSpeed": "4–11 mm/s on 3 mm wood"
       }
@@ -74,7 +74,7 @@
   },
   "pros": [
     "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
+    "Class 1 enclosure with built-in smoke exhaust: still duct the fumes outside for frequent cutting",
     "Software on the profile: trial your workflow on scrap before production"
   ],
   "cons": [
@@ -116,14 +116,14 @@
   ],
   "editorialDepth": {
     "advantages": "Acmer P3 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "limitations": "Enclosed, but cutting still needs a real exhaust duct. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "similarModels": [
     "xtool-s1-20w",
     "wecreat-vision"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/acmer-p3/01.webp",
@@ -132,5 +132,6 @@
   ],
   "powerRating": "20W",
   "releaseDate": "2024-08",
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": true
 }

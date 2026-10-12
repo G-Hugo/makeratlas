@@ -18,11 +18,12 @@
   "priceRange": {
     "min": 2000,
     "max": 2300,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
     "power": "50W CO₂",
-    "workArea": "400 × 300 mm",
+    "workArea": "510 × 300 mm (20.1 × 11.8 in)",
     "performance": {
       "precision": "0.01 mm",
       "engraveExample": {
@@ -37,7 +38,7 @@
       },
       "technical": {
         "spotSize": "~0.18 mm CO₂ spot",
-        "maxSpeed": "450 mm/s",
+        "maxSpeed": "500 mm/s",
         "avgEngraveSpeed": "130–260 mm/s fill",
         "avgCutSpeed": "10–30 mm/s on 3 mm acrylic"
       }
@@ -93,7 +94,7 @@
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/omtech-polar/01.webp",
@@ -121,5 +122,6 @@
   "tierEditorialOverride": true,
   "discontinued": {
     "successor": "omtech-polar-2-70w"
-  }
+  },
+  "enclosed": true
 }

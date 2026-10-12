@@ -16,10 +16,10 @@
     "Portable setups"
   ],
   "priceRange": {
-    "min": 110,
+    "min": 130,
     "max": 210,
     "currency": "USD",
-    "note": "5W typical; check current module options"
+    "note": "Official Ortur store, Oct 2026: $129.99 (1.6W module) to $209.99 (5.5W module), sold out on every variant"
   },
   "specs": {
     "power": "5W diode",
@@ -45,7 +45,7 @@
       },
       "technical": {
         "spotSize": "~0.12 mm spot",
-        "maxSpeed": "200 mm/s",
+        "maxSpeed": "83 mm/s (5 000 mm/min)",
         "avgEngraveSpeed": "50–120 mm/s fill",
         "avgCutSpeed": "2–6 mm/s on 2–3 mm wood"
       }
@@ -95,7 +95,7 @@
     "atomstack-a40-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/ortur-aufero-al1/01.webp",

@@ -1,10 +1,10 @@
 {
-  "tagline": "Kit DIY MK2 10 W boîtier : référence d'entrée Algolaser la plus courante",
-  "tldr": "Le Kit DIY MK2 10 W est la configuration 10 W boîtier la plus populaire : montage requis, mais plus contenu que les concurrents à structure ouverte à prix similaire.",
-  "mainObjective": "Enclosed 10W AlgoLaser for hobby engraving",
-  "primaryUse": "Enclosed hobby engraving with light cutting.",
+  "tagline": "Kit DIY MK2 10 W à structure ouverte : référence d'entrée AlgoLaser la plus courante",
+  "tldr": "Le Kit DIY MK2 10 W est le kit 10 W à structure ouverte le plus populaire : montage requis, caisson vendu à part ou dans un pack dédié.",
+  "mainObjective": "Kit AlgoLaser 10 W à structure ouverte pour la gravure de loisir",
+  "primaryUse": "Gravure de loisir en caisson, avec découpe légère.",
   "beginnerNotes": "Cette fiche décrit AlgoLaser DIY Kit MK2 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "First enclosed diode",
     "AlgoLaser ecosystem",
@@ -13,7 +13,7 @@
   "pros": [
     "10W sur AlgoLaser DIY Kit MK2 : priorité gravure : remplissages photo et cuir",
     "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile ~400 × 400 mm : validez vos formats de pièces avant achat"
+    "Surface utile 400 × 435 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -62,5 +62,8 @@
   "editorialDepth": {
     "advantages": "AlgoLaser DIY Kit MK2 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  },
+  "priceRange": {
+    "note": "Boutique officielle AlgoLaser, oct. 2026 : de 289 $ à 659 $ selon le pack"
   }
 }

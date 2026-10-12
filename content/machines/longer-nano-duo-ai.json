@@ -15,19 +15,20 @@
     "Longer ecosystem"
   ],
   "priceRange": {
-    "min": 1499,
-    "max": 1899,
-    "currency": "USD"
+    "min": 1519.99,
+    "max": 2119.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $1,519.99 to $2,119.99 depending on bundle"
   },
   "specs": {
-    "power": "12W diode + IR auxiliary",
-    "workArea": "130 × 130 mm (approx.)",
+    "power": "20W diode + 2W IR",
+    "workArea": "160 × 140 mm",
     "software": [
       "Longer Laser"
     ],
     "connectivity": [
-      "Bluetooth",
-      "USB"
+      "USB",
+      "Wi-Fi"
     ],
     "performance": {
       "precision": "0.01 mm",
@@ -43,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "5,000 mm/s",
+        "maxSpeed": "10,000 mm/s",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }
@@ -66,7 +67,7 @@
     ]
   },
   "pros": [
-    "12W IR: metal marking on the same chassis as other modules",
+    "2W infrared next to the 20W blue diode: marks metal and plastics on the same machine",
     "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
   ],
   "cons": [
@@ -89,9 +90,9 @@
     "laserpecker-5"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/longer-nano-duo-ai/01.webp",
-  "powerRating": "12W",
+  "powerRating": "20W",
   "catalogPrimary": true,
   "laserCapabilities": [
     "diode",
@@ -117,7 +118,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Longer Nano Duo AI 12W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "advantages": "Longer Nano Duo AI (20W diode + 2W IR) suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
   },
   "tierEditorialOverride": true

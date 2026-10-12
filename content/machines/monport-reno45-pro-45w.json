@@ -18,7 +18,7 @@
     "min": 2499,
     "max": 3499,
     "currency": "USD",
-    "note": "Bundle listings vary"
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
     "power": "45W CO₂",
@@ -92,7 +92,7 @@
     "atomstack-hurricane"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/monport-reno45-pro-45w/01.webp",
   "powerRating": "45W",
   "catalogPrimary": true,
@@ -110,5 +110,6 @@
   "tierEditorialOverride": true,
   "discontinued": {
     "successor": "monport-reno-45-2026"
-  }
+  },
+  "enclosed": true
 }

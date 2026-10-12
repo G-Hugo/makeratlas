@@ -1,10 +1,10 @@
 {
-  "tagline": "Gamme Sculpfun S10 2025 : châssis type industriel, plateau 385 mm",
-  "tldr": "Le Sculpfun S10 10 W, lancé en 2025, est une graveuse structure ouverte format intermédiaire avec un châssis plus rigide que la S9, zone ~385 mm et capot laser amovible. Positionné entre les familles budget S9 et S30 pour makers qui veulent plus de rigidité sans le tarif Ultra.",
-  "mainObjective": "Mid-tier Sculpfun engraving with a stiffer frame than S9",
-  "primaryUse": "2025 Sculpfun mid-size engraver for detailed work and light cutting on a reinforced frame.",
+  "tagline": "Sculpfun S10 : châssis type industriel, plateau 385 mm",
+  "tldr": "Le Sculpfun S10 10 W (2022) est une graveuse structure ouverte format intermédiaire avec un châssis plus rigide que la S9, zone ~385 mm et capot laser amovible. Positionné entre les familles budget S9 et S30 pour makers qui veulent plus de rigidité sans le tarif Ultra.",
+  "mainObjective": "Gravure Sculpfun milieu de gamme sur un châssis plus rigide",
+  "primaryUse": "Graveur Sculpfun de taille moyenne (2025) pour le travail détaillé et la découpe légère, sur cadre renforcé.",
   "beginnerNotes": "Cette fiche décrit Sculpfun S10 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Pair with 30L/min air assist per Sculpfun spec for cleaner cuts.",
+  "proTips": "Associez-le à une assistance d'air de 30 L/min, comme le préconise Sculpfun, pour des découpes plus propres.",
   "bestFor": [
     "Desk engraving",
     "Gift personalization",
@@ -62,5 +62,8 @@
   "editorialDepth": {
     "advantages": "Sculpfun S10 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  },
+  "priceRange": {
+    "note": "Boutique officielle Sculpfun, oct. 2026 : 269,99 $ (machine seule)"
   }
 }

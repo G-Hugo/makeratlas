@@ -170,6 +170,8 @@ export interface Machine {
   lastUpdated: string;
   /** First retail availability : YYYY-MM or YYYY-MM-DD */
   releaseDate?: string;
+  /** Factory enclosure. Overrides the text-based guess, which misreads copy like "safer than an open frame". */
+  enclosed?: boolean;
   /** Announced or on preorder, not shipping yet: no score shown, kept out of rankings */
   announced?: {
     /** YYYY-MM when the brand says it will ship or go on sale */

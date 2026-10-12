@@ -15,20 +15,20 @@
     "Rotary add-ons"
   ],
   "priceRange": {
-    "min": 2499,
-    "max": 3999,
-    "currency": "USD"
+    "min": 1749,
+    "max": 2539,
+    "currency": "USD",
+    "note": "Official Gweike store, Oct 2026: $1,749 to $2,539 depending on bundle (Cloud Pro II 55W; rotary bundle out of stock)"
   },
   "specs": {
     "power": "55W CO₂",
-    "workArea": "Verify SKU: Cloud series beds vary",
+    "workArea": "510 × 300 mm (20.1 × 11.8 in)",
     "software": [
       "Gweike software",
       "LightBurn"
     ],
     "connectivity": [
-      "USB",
-      "Wi-Fi"
+      "USB"
     ],
     "performance": {
       "precision": "0.01 mm",
@@ -44,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "600 mm/s",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "CO₂"
       }
@@ -79,8 +79,8 @@
   "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
   "primaryUse": "Desktop CO₂ cutting for signs and acrylic products.",
   "rating": {
-    "overall": 8,
-    "value": 7.5,
+    "overall": 8.1,
+    "value": 8,
     "easeOfUse": 8,
     "capability": 8.3,
     "buildQuality": 7.8
@@ -91,7 +91,7 @@
     "omtech-polar"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/gweike-cloud-55w/01.webp",
   "powerRating": "55W",
   "catalogPrimary": true,
@@ -114,5 +114,6 @@
     "advantages": "Gweike Cloud CO₂ is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 55W adds headroom on panels and multi-pass jobs.",
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": true
 }

@@ -1,10 +1,10 @@
 {
   "tagline": "Classe diode extrême Atomstack : faisceau comprimé multi-cœur",
   "tldr": "L’AtomStack X30 Pro vise les acheteurs qui veulent le maximum de découpe classe diode en structure ouverte. Le marketing affiche des watts très élevés : vérifiez la puissance optique réelle et comparez à la Longer B1 40 W et similaires avant d’investir.",
-  "mainObjective": "Maximum-power Atomstack open-frame for cutting-heavy shops",
-  "primaryUse": "High-power Atomstack for demanding cutting and fast engraving.",
+  "mainObjective": "Atomstack cadre ouvert le plus puissant, pour les ateliers axés sur la découpe",
+  "primaryUse": "Atomstack haute puissance pour la découpe exigeante et la gravure rapide.",
   "beginnerNotes": "Cette fiche décrit AtomStack X30 Pro. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "Power seekers",
     "Thick wood cutting",
@@ -12,7 +12,7 @@
   ],
   "pros": [
     "Meilleure marge de découpe de la gamme : ~8 mm tilleul en benchmark",
-    "160W : tête la plus orientée découpe de AtomStack X30 Pro",
+    "33W (vendue comme « 160W ») : tête la plus orientée découpe de AtomStack X30 Pro",
     "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
   ],
   "cons": [
@@ -62,7 +62,10 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "AtomStack X30 Pro 160W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
+    "advantages": "AtomStack X30 Pro 33W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
     "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Châssis ouvert : sécurité et fumées à votre charge."
+  },
+  "priceRange": {
+    "note": "Plus vendue neuve (oct. 2026) ; dernier prix connu"
   }
 }

@@ -26,8 +26,7 @@
       "LaserGRBL"
     ],
     "connectivity": [
-      "USB",
-      "Wi-Fi"
+      "USB"
     ],
     "performance": {
       "precision": "0.01 mm",
@@ -43,7 +42,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "15,000 mm/s traverse",
+        "maxSpeed": "250 mm/s (15 000 mm/min)",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }
@@ -88,7 +87,7 @@
     "sculpfun-s9-10w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/ortur-laser-master-2-pro/01.webp",
   "powerRating": "10W",
   "releaseDate": "2021-03",
@@ -114,5 +113,6 @@
     "advantages": "Ortur Laser Master 2 Pro 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "discontinued": {}
 }

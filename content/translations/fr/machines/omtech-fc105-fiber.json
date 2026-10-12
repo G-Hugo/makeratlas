@@ -1,10 +1,10 @@
 {
   "tagline": "Découpeuse laser fibre industrielle pour tôle métal (pas un marqueur bureau)",
   "tldr": "L’OMTech FC-105 est une plateforme de découpe laser fibre pour tôle : une classe différente des marqueurs galvo bureau. Répertoriée pour les acheteurs cherchant « laser fibre » et devant distinguer découpeuses et marqueurs.",
-  "mainObjective": "Sheet metal fiber cutting for fabrication shops",
+  "mainObjective": "Découpe de tôle par fibre pour les ateliers de métallerie",
   "primaryUse": "Industrial sheet metal fiber laser cutting.",
   "beginnerNotes": "Cette fiche décrit OMTech FC-105 Fiber. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "Sheet metal cutting",
     "Fabrication",
@@ -12,12 +12,12 @@
     "Not hobby desks"
   ],
   "pros": [
-    "Fibre = marquage métal : ne découpe pas bois ni acrylique",
+    "Fibre = découpe de tôle métal : ne découpe pas bois ni acrylique",
     "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
     "OMTech FC-105 Fiber : limites matériaux, benchmarks et conseils pratiques sur cette fiche"
   ],
   "cons": [
-    "Fibre 1050W : plus lent en profondeur que les modules supérieurs de la même gamme si vous marquez de gros inox"
+    "Machine industrielle : source 1,5 à 4 kW, alimentation triphasée 380 V, gaz d’assistance et plusieurs tonnes au sol"
   ],
   "materials": {
     "engrave": [],
@@ -34,7 +34,7 @@
     ]
   },
   "priceRange": {
-    "note": "Tarification industrielle ; vérifiez la configuration"
+    "note": "Boutique officielle OMTech, oct. 2026 : affichée à 59 999 $ (sur devis ; source IPG de 1,5 à 4 kW)"
   },
   "specs": {
     "performance": {
@@ -58,7 +58,7 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "OMTech FC-105 Fiber 1050W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
-    "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+    "advantages": "OMTech FC-105 Fiber est une découpeuse fibre industrielle (source IPG 1,5 à 4 kW, plateau 3050 × 1530 mm) pour pièces en acier, inox et aluminium. Elle convient aux ateliers de chaudronnerie qui veulent internaliser la découpe de tôle.",
+    "limitations": "Passez votre chemin pour la gravure, le bois, le cuir ou l’acrylique, ou sans triphasé 380 V, gaz d’assistance et place pour une machine de plusieurs tonnes. Prix sur devis, et l’installation est un projet à part entière."
   }
 }

@@ -1,10 +1,10 @@
 {
   "tagline": "Longer portable assisté par IA avec double source laser",
   "tldr": "Le Longer Nano Duo AI ajoute la portabilité double source avec fonctions IA dans l’app pour mise en page et préréglages matériaux. Portable de niche pour makers voulant la marque Longer plus de flexibilité que les Nano mono-faisceau.",
-  "mainObjective": "Smart portable dual-source engraving for travel and small items",
-  "primaryUse": "Portable dual-source personalization with AI-assisted setup.",
+  "mainObjective": "Gravure portable intelligente à double source pour les déplacements et les petits objets",
+  "primaryUse": "Personnalisation portable à double source avec réglage assisté par IA.",
   "beginnerNotes": "Cette fiche décrit Longer Nano Duo AI. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "Portable",
     "AI presets",
@@ -12,7 +12,7 @@
     "Longer ecosystem"
   ],
   "pros": [
-    "12W IR : marquage métal sur le même châssis que les autres modules",
+    "Infrarouge 2 W à côté de la diode bleue 20 W : marquage du métal et des plastiques sur la même machine",
     "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes",
     "Longer Nano Duo AI : limites matériaux, benchmarks et conseils pratiques sur cette fiche"
   ],
@@ -60,7 +60,10 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "Longer Nano Duo AI 12W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
+    "advantages": "Longer Nano Duo AI (diode 20 W + IR 2 W) convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 4 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : de 1 519,99 $ à 2 119,99 $ selon le pack"
   }
 }

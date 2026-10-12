@@ -16,13 +16,14 @@
     "Kids projects (supervised)"
   ],
   "priceRange": {
-    "min": 109,
+    "min": 169,
     "max": 169,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "Official Acmer store, Oct 2026: $169 for the 6W (list price $249); the 2.5W is $109 and the 3.5W $129"
   },
   "specs": {
     "power": "6W diode (max tier)",
-    "workArea": "100 × 100 mm (approx.)",
+    "workArea": "130 × 130 mm",
     "software": [
       "Acmer mobile app",
       "LightBurn (select)"
@@ -45,7 +46,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "200 mm/s",
+        "maxSpeed": "167 mm/s (10 000 mm/min)",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "Paper/thin wood only"
       }
@@ -93,7 +94,7 @@
     "ortur-aufero-al1"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/acmer-s1-6w/01.webp",
   "modelLine": "acmer-s1",
   "powerRating": "6W",

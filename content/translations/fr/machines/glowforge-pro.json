@@ -1,10 +1,10 @@
 {
   "tagline": "CO₂ pass-through pour créateurs : simplicité premium avec coût d'abonnement",
   "tldr": "Le Glowforge Pro ajoute un slot pass-through pour matériaux longs et de meilleures performances CO₂ vs l'Aura. Toujours dépendant du cloud avec pression abonnement. Idéal pour créateurs orientés design qui refusent LightBurn : pas pour makers sensibles au coût.",
-  "mainObjective": "Pass-through CO₂ crafting for long materials with zero-config software",
-  "primaryUse": "Premium enclosed CO₂ for crafters engraving and cutting long thin materials with minimal technical setup.",
+  "mainObjective": "Loisirs créatifs au CO₂ avec passage traversant pour les matériaux longs, logiciel sans configuration",
+  "primaryUse": "CO₂ fermé haut de gamme pour graver et découper des matériaux longs et fins avec un minimum de réglages techniques.",
   "beginnerNotes": "Cette fiche décrit Glowforge Pro. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Factor 3-year subscription into total cost. Passthrough shines for long thin signs : not for thick industrial cutting.",
+  "proTips": "Intégrez l'abonnement sur 3 ans dans le coût total. Le passage traversant est idéal pour les enseignes longues et fines : pas pour la découpe industrielle épaisse.",
   "bestFor": [
     "Long materials",
     "Crafters",
@@ -42,7 +42,7 @@
     ]
   },
   "priceRange": {
-    "note": "Pro vs Pro+ profondeur pass-through ; abonnement en sus"
+    "note": "Plus vendue neuve (oct. 2026) ; dernier prix connu"
   },
   "specs": {
     "performance": {

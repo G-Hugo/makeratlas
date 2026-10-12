@@ -16,10 +16,11 @@
   "priceRange": {
     "min": 1299,
     "max": 1799,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
-    "power": "10W diode + lame 400 g",
+    "power": "10W diode + 2W IR (1064 nm)",
     "workArea": "385 × 300 mm",
     "software": [
       "xTool Creative Space",
@@ -102,7 +103,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-m1-ultra/01.webp",
   "mainObjective": "Vinyl & paper cutting plus light laser engraving in one machine",
   "images": [

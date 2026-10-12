@@ -43,7 +43,6 @@ export const COMPARE_DUELS: ReadonlyArray<readonly [string, string]> = [
   ["longer-ray5-40w", "creality-falcon2-pro-40w"],
   ["xtool-d1-pro-40w", "xtool-s1-40w"],
   ["sculpfun-s10-10w", "atomstack-a5-pro-10w"],
-  ["foxaliens-reisler-2", "ortur-laser-master-3-20w"],
   ["algolaser-alpha-mk2-20w", "xtool-d1-pro-20w"],
   ["sculpfun-s40-max-48w", "longer-laser-b1-40w"],
   ["monport-40w-co2", "glowforge-aura"],

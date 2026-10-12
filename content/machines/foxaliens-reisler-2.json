@@ -18,7 +18,8 @@
   "priceRange": {
     "min": 330,
     "max": 330,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026): not listed on the official FoxAlien store; last known price"
   },
   "specs": {
     "power": "20W diode",
@@ -93,7 +94,7 @@
     "sculpfun-s30-ultra-22w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/foxaliens-reisler-2/01.webp",
@@ -118,5 +119,7 @@
     "advantages": "FoxAlien Reisler 2 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
     "limitations": "Open-frame: glasses and exhaust required. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "discontinued": {},
+  "catalogHidden": true
 }

@@ -116,5 +116,6 @@
   "powerRating": "55W",
   "releaseDate": "2024-06",
   "catalogPrimary": true,
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": true
 }

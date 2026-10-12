@@ -18,7 +18,8 @@
   "priceRange": {
     "min": 250,
     "max": 450,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
     "power": "40W diode (compressed)",
@@ -93,7 +94,7 @@
     "twotrees-tts-55"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/htouroy-40w.svg",

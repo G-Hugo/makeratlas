@@ -1,10 +1,10 @@
 {
   "tagline": "Laser CO₂ fermé conçu pour petites entreprises et hobbyistes sérieux",
   "tldr": "La xTool P2 est un laser CO₂ 55 W fermé avec grande surface de travail et alignement caméra. Elle découpe acrylique et bois bien mieux que tout laser diode. Cher, mais la machine bureau la plus proche d’un « montez une petite boutique ».",
-  "mainObjective": "Professional cutting of acrylic, wood & leather for small businesses",
-  "primaryUse": "Production-grade cutting and engraving of organic materials (wood, acrylic, leather) in a home or small business workshop.",
+  "mainObjective": "Découpe professionnelle de l'acrylique, du bois et du cuir pour les petites entreprises",
+  "primaryUse": "Découpe et gravure de niveau production des matériaux organiques (bois, acrylique, cuir) dans un atelier à domicile ou de petite entreprise.",
   "beginnerNotes": "Cette fiche décrit xTool P2. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Pair with a compressor and good air assist for cleaner cuts on acrylic. LightBurn unlocks advanced workflows if you outgrow xTool Creative Space. Plan exhaust routing before unboxing : ventilation is not optional with CO₂.",
+  "proTips": "Associez-le à un compresseur et à une bonne assistance d'air pour des découpes plus propres dans l'acrylique. LightBurn ouvre des flux de travail avancés si xTool Creative Space ne suffit plus. Prévoyez l'évacuation des fumées avant le déballage : avec un CO₂, la ventilation n'est pas facultative.",
   "bestFor": [
     "Small business",
     "Acrylic & wood cutting",
@@ -43,7 +43,7 @@
     ]
   },
   "priceRange": {
-    "note": "Le prix varie selon options assistance air et base rehausseur"
+    "note": "Plus vendue neuve (oct. 2026) ; dernier prix connu"
   },
   "specs": {
     "performance": {

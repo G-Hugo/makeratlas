@@ -1,10 +1,10 @@
 {
   "tagline": "Diode fermée assistée par IA avec aperçu en direct : laser intelligent pour débutants",
   "tldr": "Le laser diode fermé WeCreat ajoute caméra et fonctions IA pour la détection des matériaux et l’aperçu visuel. Attractif pour les débutants qui veulent être guidés. Les perfs laser restent comparables aux autres diodes fermées : vous payez les fonctions intelligentes.",
-  "mainObjective": "AI-guided enclosed engraving for visual, beginner-friendly workflow",
-  "primaryUse": "Smart enclosed diode laser for beginners who want visual guidance and filtered home operation.",
+  "mainObjective": "Gravure en caisson guidée par IA pour un flux de travail visuel, accessible aux débutants",
+  "primaryUse": "Laser diode fermé intelligent pour les débutants qui veulent un guidage visuel et un fonctionnement filtré à domicile.",
   "beginnerNotes": "Cette fiche décrit WeCreat Vision. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Use camera preview for batch placement but still run test cards for new materials : AI presets are starting points, not gospel. LightBurn unlocks more control when you outgrow the stock app.",
+  "proTips": "Utilisez l'aperçu caméra pour placer les séries, mais faites quand même des cartes de test pour les nouveaux matériaux : les préréglages IA sont un point de départ, pas une vérité absolue. LightBurn offre plus de contrôle quand l'application d'origine ne suffit plus.",
   "bestFor": [
     "Tech-curious beginners",
     "Visual learners",
@@ -14,7 +14,7 @@
   "pros": [
     "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
     "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
-    "Surface utile 400 × 370 mm : validez vos formats de pièces avant achat"
+    "Surface utile 420 × 290 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vérifiez le SKU 20W : même châssis, modules différents"
@@ -74,5 +74,8 @@
   "editorialDepth": {
     "advantages": "WeCreat Vision 20W est le SKU polyvalent hobby / petite activité : gravure propre et découpes légères sur bois et cuir, avec benchmarks comparables sur cette fiche.",
     "limitations": "Pas de remplacement CO₂ pour acrylique transparent ou grosses séries épaisses."
+  },
+  "priceRange": {
+    "note": "Boutique officielle WeCreat, oct. 2026 : de 1 140 $ à 1 990 $ selon le pack"
   }
 }

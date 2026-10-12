@@ -14,9 +14,9 @@
     "L’acrylique transparent ne se découpe pas à la diode"
   ],
   "beginnerNotes": "Ce profil décrit le SKU 40W de Creality Falcon T1 Diode. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
-  "proTips": "Price the full module roadmap before committing : 40W plus later fiber can exceed a single F2 Ultra bundle.",
+  "proTips": "Chiffrez l'ensemble des modules prévus avant de vous engager : un 40 W puis une fibre peuvent dépasser le prix d'un seul pack F2 Ultra.",
   "primaryUse": "Module 40W · Creality Falcon T1 Diode",
-  "mainObjective": "Faster organic engraving and light cutting on the modular T1 galvo",
+  "mainObjective": "Gravure plus rapide des matériaux organiques et découpe légère sur le galvo modulaire T1",
   "bestFor": [
     "Découpe max. de la gamme",
     "Atelier vitesse",
@@ -70,5 +70,7 @@
   ],
   "priceRange": {
     "note": "Boutique officielle Creality, oct. 2026 : 2 999 $, machine complète"
-  }
+  },
+  "tagline": "Module diode WaveSync 40 W : découpe galvo plus rapide sur le châssis T1",
+  "tldr": "La tête diode 40 W est le module orienté découpe de la plateforme galvo Falcon T1 de Creality. Même caisson classe 1 que le module diode d’entrée, mais plus de profondeur dans le bois et des remplissages plus rapides pour les ateliers qui dépassent la puissance d’entrée."
 }

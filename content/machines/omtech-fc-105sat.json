@@ -13,13 +13,14 @@
     "OMTech fiber buyers comparing SKUs"
   ],
   "priceRange": {
-    "min": 5999,
-    "max": 9500,
-    "currency": "USD"
+    "min": 169999,
+    "max": 169999,
+    "currency": "USD",
+    "note": "Official OMTech store, Oct 2026: starting at $169,999 (quote-based; sheet and tube cutting, 1.5 to 6 kW IPG source)"
   },
   "specs": {
-    "power": "105W fiber",
-    "workArea": "Verify OMTech listing",
+    "power": "1500–6000 W fibre IPG",
+    "workArea": "3000 × 1500 mm (118 × 59 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -38,11 +39,11 @@
       "cutExample": {
         "description": "Laser cutting",
         "size": "—",
-        "time": "Not a cutter"
+        "time": "—"
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "2166 mm/s",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "Fiber cutting speeds per material"
       }
@@ -63,12 +64,12 @@
     ]
   },
   "pros": [
-    "Fiber marks metal: does not cut wood or acrylic",
+    "Fiber cuts sheet metal: does not cut wood or acrylic",
     "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first",
-    "Work area Verify OMTech listing: confirm your typical job sizes fit the bed"
+    "Work area 3000 × 1500 mm (5 × 10 ft): confirm floor space, 3-phase power and loading before you order"
   ],
   "cons": [
-    "Does not cut wood, leather, or acrylic: metal marking workflows only",
+    "Does not cut wood, leather, or acrylic: sheet metal cutting only",
     "Fume extraction still matters for coated metals and marking sprays"
   ],
   "beginnerNotes": "This profile covers OMTech FC-105SAT. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
@@ -87,7 +88,7 @@
     "omtech-fc-510-intelli"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/omtech-fc-105sat/01.webp",
   "catalogPrimary": true,
   "laserCapabilities": [
@@ -116,8 +117,8 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "OMTech FC-105SAT 105W fits shops that mark stainless, aluminum, and tools daily without a CO₂ bay. A solid bench option for jewelry, tags, and small batches.",
-    "limitations": "Skip if wood, leather, or cast acrylic pay your bills. Deep metal cutting and large industrial panels often need more fiber headroom or a different machine class."
+    "advantages": "OMTech FC-105SAT is an industrial fiber cutter (1.5–6 kW IPG source, 3000 × 1500 mm bed) for steel, stainless and aluminum parts. It suits fabrication shops that want to bring sheet cutting in-house instead of outsourcing.",
+    "limitations": "Skip for engraving, wood, leather or acrylic, or without 3-phase 380 V power, assist gas and floor space for a multi-ton machine. Pricing is quote-based and installation is a project of its own."
   },
   "tierEditorialOverride": true
 }

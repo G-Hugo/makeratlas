@@ -5,22 +5,23 @@
   "brand": "AlgoLaser",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "10W enclosed DIY Kit MK2: common AlgoLaser starter SKU",
-  "tldr": "AlgoLaser DIY Kit MK2 10W is the popular enclosed 10W configuration: assembly required but more contained than open-frame competitors at similar price.",
-  "mainObjective": "Enclosed 10W AlgoLaser for hobby engraving",
+  "tagline": "10W open-frame DIY Kit MK2: common AlgoLaser starter SKU",
+  "tldr": "AlgoLaser DIY Kit MK2 10W is the popular 10W open-frame kit: assembly required, with an enclosure sold separately or in a dedicated bundle.",
+  "mainObjective": "Open-frame 10W AlgoLaser kit for hobby engraving",
   "bestFor": [
     "First enclosed diode",
     "AlgoLaser ecosystem",
     "Moderate cutting"
   ],
   "priceRange": {
-    "min": 449,
-    "max": 649,
-    "currency": "USD"
+    "min": 289,
+    "max": 659,
+    "currency": "USD",
+    "note": "Official AlgoLaser store, Oct 2026: $289 to $659 depending on bundle"
   },
   "specs": {
     "power": "10W diode",
-    "workArea": "~400 × 400 mm",
+    "workArea": "400 × 435 mm",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -43,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "200 mm/s (12 000 mm/min)",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }
@@ -67,7 +68,7 @@
   "pros": [
     "10W on AlgoLaser DIY Kit MK2: engraving-first: photo fills and leather at moderate speeds",
     "Open-frame: plan laser glasses, exhaust, and workspace rules from day one",
-    "Work area ~400 × 400 mm: confirm your typical job sizes fit the bed"
+    "Work area 400 × 435 mm: confirm your typical job sizes fit the bed"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
@@ -89,7 +90,7 @@
     "algolaser-diy-kit-mk3-15w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/algolaser-diy-kit-mk2-10w/01.webp",
   "modelLine": "algolaser-diy-kit-mk2",
   "powerRating": "10W",
@@ -117,5 +118,6 @@
     "advantages": "AlgoLaser DIY Kit MK2 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
     "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": false
 }

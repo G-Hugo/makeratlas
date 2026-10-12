@@ -14,10 +14,10 @@
     "Sign makers on a budget"
   ],
   "priceRange": {
-    "min": 600,
-    "max": 1000,
+    "min": 599.99,
+    "max": 999.99,
     "currency": "USD",
-    "note": "40W desktop models; 50–60W cost more"
+    "note": "Official OMTech store, Oct 2026: $599.99 to $999.99 depending on bundle (sold as K40+)"
   },
   "specs": {
     "power": "40W CO₂ glass tube",
@@ -95,7 +95,7 @@
     "glowforge-aura"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/omtech-40w-co2/01.webp",
   "mainObjective": "Budget CO₂ cutting for makers willing to upgrade and maintain",
   "images": [
@@ -122,5 +122,6 @@
     "advantages": "OMTech CO₂ (K40 class) is built for acrylic signage, thick wood, and shop production once exhaust is sorted. 40W adds headroom on panels and multi-pass jobs.",
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": true
 }

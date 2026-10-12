@@ -1,10 +1,10 @@
 {
   "tagline": "Atomstack fermée Classe 1 : gravure bureau sûre pour la maison et les écoles",
   "tldr": "L’AtomStack P1 est une graveuse diode 5 W entièrement fermée Classe 1, avec packs double laser (diode + infrarouge) en option. Idéale quand la sécurité et le fonctionnement silencieux comptent plus que la puissance de découpe brute.",
-  "mainObjective": "Safe enclosed engraving for beginners, families, and classrooms",
-  "primaryUse": "Safe enclosed intro laser for home crafters and education.",
+  "mainObjective": "Gravure sûre en caisson pour débutants, familles et classes",
+  "primaryUse": "Laser d'initiation fermé et sûr pour les loisirs créatifs à domicile et l'enseignement.",
   "beginnerNotes": "Cette fiche décrit AtomStack P1 5W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Choose dual bundle only if you need metal marking : otherwise 5W diode is enough to learn.",
+  "proTips": "Ne prenez le pack double que si vous avez besoin de marquer le métal : sinon, la diode de 5 W suffit pour apprendre.",
   "bestFor": [
     "Beginners",
     "Families",
@@ -15,7 +15,7 @@
   "pros": [
     "5W sur AtomStack P1 : priorité gravure : remplissages photo et cuir",
     "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
-    "Surface utile 200 × 200 mm (approx.) : validez vos formats de pièces avant achat"
+    "Surface utile 110 × 110 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 4 mm de tilleul) : pas la production épaisse",
@@ -41,7 +41,7 @@
     ]
   },
   "priceRange": {
-    "note": "Les packs double laser coûtent plus cher"
+    "note": "Boutique officielle Atomstack, oct. 2026 : de 219 $ à 559 $ selon le pack (P1 Dual avec IR 1,2 W : de 399 $ à 699 $)"
   },
   "specs": {
     "performance": {

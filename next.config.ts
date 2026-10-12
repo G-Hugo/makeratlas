@@ -13,6 +13,10 @@ const nextConfig: NextConfig = {
       { source: "/:locale(en|fr)/lasers/sculpfun-s30-ultra-20w", destination: "/:locale/lasers/sculpfun-s30-ultra-22w", permanent: true },
       { source: "/:locale(en|fr)/lasers/comgrow-z1-20w", destination: "/:locale/lasers/comgrow-z1-10w", permanent: true },
       { source: "/:locale(en|fr)/lasers/algolaser-alpha-mk2-10w", destination: "/:locale/lasers/algolaser-diy-kit-mk2-10w", permanent: true },
+      { source: "/:locale(en|fr)/lasers/foxaliens-reisler-2", destination: "/:locale/lasers/foxaliens-reizer-40w", permanent: true },
+      { source: "/:locale(en|fr)/compare/foxaliens-reisler-2-vs-ortur-laser-master-3-20w", destination: "/:locale/lasers/ortur-laser-master-3-20w", permanent: true },
+      { source: "/:locale(en|fr)/lasers/atezr-p2", destination: "/:locale/lasers", permanent: true },
+      { source: "/:locale(en|fr)/brands/atezr", destination: "/:locale/brands", permanent: true },
       {
         source: "/lasers/xtool-s1",
         destination: "/en/lasers/xtool-s1-20w",

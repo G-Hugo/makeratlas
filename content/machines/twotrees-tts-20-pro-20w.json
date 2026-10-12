@@ -16,12 +16,13 @@
   ],
   "priceRange": {
     "min": 399,
-    "max": 699,
-    "currency": "USD"
+    "max": 684,
+    "currency": "USD",
+    "note": "Official TwoTrees store, Oct 2026: $399 to $684 depending on bundle"
   },
   "specs": {
     "power": "20W diode",
-    "workArea": "300 × 300 mm (approx.)",
+    "workArea": "418 × 418 mm",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -44,7 +45,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "500 mm/s (30 000 mm/min)",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }
@@ -89,7 +90,7 @@
     "comgrow-z1-10w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/twotrees-tts-20-pro-20w/01.webp",
   "modelLine": "twotrees-tts-20-pro",
   "powerRating": "20W",

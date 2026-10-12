@@ -1,10 +1,10 @@
 {
   "tagline": "Tête IR 5 W 1064 nm sur châssis P3 : marquage métal sans seconde machine fibre",
   "tldr": "Le module IR optionnel P3 ajoute du marquage 5 W 1064 nm sur inox, aluminium et nombreux plastiques, sur le même châssis CO₂ 80 W, automatisation et logiciels. À prendre quand le métal est un revenu récurrent : ce n’est pas un remplacement du tube CO₂.",
-  "mainObjective": "Bare-metal and plastic marking on the P3 platform without a second machine",
+  "mainObjective": "Marquage du métal nu et du plastique sur la plateforme P3, sans seconde machine",
   "primaryUse": "Module 5W · xTool P3 IR",
   "beginnerNotes": "Ce profil décrit le SKU 5W de xTool P3 IR. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres modules via les pastilles avant d’acheter.",
-  "proTips": "Run stainless parameter libraries on scrap first. Keep CO₂ and IR jobs as separate material presets : swapping heads takes downtime.",
+  "proTips": "Passez d'abord les bibliothèques de paramètres pour l'inox sur des chutes. Gardez des préréglages matière séparés pour le CO₂ et l'IR : changer de tête immobilise la machine.",
   "bestFor": [
     "Gravure fine",
     "Photo et logo",

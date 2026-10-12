@@ -18,7 +18,8 @@
   "priceRange": {
     "min": 449,
     "max": 649,
-    "currency": "USD"
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
     "power": "20W diode",
@@ -100,7 +101,7 @@
     "atomstack-a40-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/hawk-20.svg",

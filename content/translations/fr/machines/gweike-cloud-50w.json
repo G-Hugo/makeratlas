@@ -2,9 +2,9 @@
   "tagline": "Gweike Cloud 50W CO₂ : CO₂ de bureau compact avec option rotary",
   "tldr": "Le Gweike Cloud 50W est le CO₂ Cloud de bureau à moindre puissance : acrylique, bois et cuir à un prix inférieur au Cloud 55W/Pro, toujours en workflow type enceinte fermée avec bundles rotary fréquents.",
   "mainObjective": "Entry Gweike Cloud CO₂ without 55W pricing",
-  "primaryUse": "Desktop CO₂ cutting and engraving for crafts.",
+  "primaryUse": "Découpe et gravure CO₂ de bureau pour les loisirs créatifs.",
   "beginnerNotes": "Cette fiche décrit Gweike Cloud 50W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Rotary Pro bundles are popular for tumblers : confirm included accessories.",
+  "proTips": "Les packs Rotary Pro sont appréciés pour les gobelets : vérifiez les accessoires inclus.",
   "bestFor": [
     "CO₂ beginners",
     "Acrylic gifts",
@@ -62,5 +62,8 @@
   "editorialDepth": {
     "advantages": "Gweike Cloud est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 50W donne de la marge sur les panneaux et les passes multiples.",
     "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  },
+  "priceRange": {
+    "note": "Boutique officielle Gweike, oct. 2026 : de 1 659 $ à 2 400 $ selon le pack (Cloud Pro II 50 W ; pack rotatif en rupture)"
   }
 }

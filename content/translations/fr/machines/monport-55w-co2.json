@@ -1,10 +1,10 @@
 {
   "tagline": "CO₂ milieu de gamme avec finition supérieure au K40 : moins de bricolage",
   "tldr": "Monport se situe entre les K40 petit budget et les CO₂ enceints premium comme xTool P2. Les modèles bureau 55 W offrent une vraie puissance de découpe avec une meilleure finition et autofocus en option. Ventilation toujours requise, mais plus proche du « prêt pour l’activité » qu’un K40 stock.",
-  "mainObjective": "Mid-range CO₂ production for signs, acrylic & wood shops",
-  "primaryUse": "Mid-range CO₂ production for sign makers and Etsy sellers outgrowing K40-class machines.",
+  "mainObjective": "Production CO₂ de milieu de gamme pour ateliers d'enseignes, d'acrylique et de bois",
+  "primaryUse": "Production CO₂ de milieu de gamme pour les fabricants d'enseignes et les vendeurs Etsy à l'étroit avec une machine de type K40.",
   "beginnerNotes": "Cette fiche décrit Monport 55W CO₂. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Budget for exhaust fan upgrade if stock ventilation feels weak. Run a ramp test after delivery to verify focus across the bed. Keep tube cooling water clean : CO₂ tubes fail early with poor maintenance.",
+  "proTips": "Prévoyez un ventilateur d'extraction plus puissant si celui d'origine paraît faible. Faites un test en rampe à la livraison pour vérifier la mise au point sur tout le plateau. Gardez l'eau de refroidissement du tube propre : les tubes CO₂ mal entretenus lâchent tôt.",
   "bestFor": [
     "Small business upgrade",
     "Mid-budget CO₂",
@@ -51,7 +51,7 @@
     }
   ],
   "priceRange": {
-    "note": "Varie selon taille de plateau et options autofocus"
+    "note": "Plus vendue neuve (oct. 2026) ; dernier prix connu"
   },
   "specs": {
     "performance": {

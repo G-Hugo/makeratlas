@@ -1,15 +1,15 @@
 {
   "tagline": "AlgoLaser Delta : 22 W à cinématique delta, boîtier en option",
   "tldr": "Le Delta 22 W emploie une cinématique delta dans un format compact, avec boîtier optionnel. Alternative cartésienne à l'Alpha MK2 : renseignez-vous en communauté sur la fiabilité et les pièces détachées avant d'acheter.",
-  "mainObjective": "Enclosed-capable 22W AlgoLaser for makers who want delta kinematics",
-  "primaryUse": "Compact AlgoLaser 22W for engraving and light-medium cutting.",
+  "mainObjective": "Diode AlgoLaser 22 W à cinématique delta, avec caisson en option",
+  "primaryUse": "AlgoLaser 22 W compacte pour la gravure et la découpe légère à moyenne.",
   "beginnerNotes": "Cette fiche décrit AlgoLaser Delta 22W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d’abord des essais sur chutes. Fiez-vous aux temps de référence de cette fiche pour vos devis, pas aux annonces commerciales.",
   "bestFor": [
-    "AlgoLaser fans",
-    "22W cutting",
-    "Compact delta design",
-    "Enclosure option"
+    "Habitués d’AlgoLaser",
+    "Découpe 22 W",
+    "Format delta compact",
+    "Caisson en option"
   ],
   "pros": [
     "Meilleure marge de découpe de la gamme : ~5 mm tilleul en benchmark",
@@ -62,5 +62,8 @@
   "editorialDepth": {
     "advantages": "AlgoLaser Delta 22W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
     "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first."
+  },
+  "priceRange": {
+    "note": "Boutique officielle AlgoLaser (déstockage US), oct. 2026 : de 499 $ à 749 $ selon le pack (machine seule en rupture)"
   }
 }

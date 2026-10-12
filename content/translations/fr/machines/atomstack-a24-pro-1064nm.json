@@ -2,9 +2,9 @@
   "tagline": "A24 Pro fibre uniquement : marquage métal et plastique dans une Atomstack compacte",
   "tldr": "L’AtomStack A24 Pro 1064 nm est la variante marquage fibre sans côté diode : pour ceux qui n’ont besoin que du marquage métal/plastique sur petit encombrement, pas de découpe bois.",
   "mainObjective": "Desktop fiber marking without a separate diode engraver",
-  "primaryUse": "Compact fiber marking for metal and engineered plastics.",
+  "primaryUse": "Marquage fibre compact pour le métal et les plastiques techniques.",
   "beginnerNotes": "Cette fiche décrit AtomStack A24 Pro 1064nm. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Rotary and fixture quality matter more than raw wattage for rings and pens.",
+  "proTips": "Pour les bagues et les stylos, la qualité du module rotatif et du montage compte plus que la puissance brute.",
   "bestFor": [
     "Metal tags",
     "Tools",
@@ -60,5 +60,8 @@
   "editorialDepth": {
     "advantages": "AtomStack A24 Pro 1064nm 20W convient aux ateliers qui marquent inox, aluminium et outils au quotidien sans atelier CO₂. Bon compromis bureau pour bijoux, plaques et petites séries.",
     "limitations": "Passez votre chemin si le bois, le cuir ou l’acrylique coulé sont votre chiffre d’affaires. La découpe métal profonde et les gros formats industriels demandent souvent une fibre plus puissante ou une autre machine."
+  },
+  "priceRange": {
+    "note": "Boutique officielle Atomstack, oct. 2026 : 1 159 $ (prise US) ou 909 $ (prise EU), machine seule ; actuellement en rupture"
   }
 }

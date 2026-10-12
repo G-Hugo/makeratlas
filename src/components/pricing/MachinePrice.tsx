@@ -23,9 +23,18 @@ export function CatalogCardPrice({
 }) {
   const primary = formatCatalogPrice(entry, locale);
   const secondary = formatCatalogPriceSecondary(entry, locale);
+  // Announced machines without an official price carry an estimate: say so on the card too.
+  const estimated =
+    Boolean(entry.primary.announced) &&
+    /not announced|pas encore annoncé/i.test(entry.primary.priceRange.note ?? "");
 
   return (
     <div className={className}>
+      {estimated && (
+        <p className="text-[11px] font-medium uppercase tracking-wide text-sky-700 dark:text-sky-400">
+          {locale === "fr" ? "Prix estimé" : "Estimated price"}
+        </p>
+      )}
       <p className="text-sm font-semibold text-stone-900 dark:text-stone-100">{primary}</p>
       {secondary && (
         <p className="text-xs text-stone-500 dark:text-stone-400">{secondary}</p>

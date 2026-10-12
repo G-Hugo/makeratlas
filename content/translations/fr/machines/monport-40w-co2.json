@@ -1,10 +1,10 @@
 {
   "tagline": "Alternative classe K40 avec qualité de fabrication et support Monport",
   "tldr": "Le CO₂ bureau 40 W de Monport se situe aux côtés de la classe OMTech K40 avec souvent une meilleure expérience sortie de boîte. CO₂ d’entrée pour acrylique et bois. Ventilation et apprentissage restent nécessaires.",
-  "mainObjective": "Entry CO₂ cutting with fewer mandatory mods than classic K40",
-  "primaryUse": "Budget desktop CO₂ for learning acrylic and wood cutting.",
+  "mainObjective": "Découpe CO₂ d'entrée de gamme avec moins de modifications obligatoires qu'un K40 classique",
+  "primaryUse": "CO₂ de bureau à petit budget pour apprendre à découper l'acrylique et le bois.",
   "beginnerNotes": "Cette fiche décrit Monport 40W CO₂. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "First CO₂",
     "K40 alternative",
@@ -62,5 +62,8 @@
   "editorialDepth": {
     "advantages": "Monport CO₂ est fait pour signalétique acrylique, bois épais et production atelier quand l’évacuation est installée. 40W donne de la marge sur les panneaux et les passes multiples.",
     "limitations": "À éviter en appartement sans gaine, pour des cadeaux occasionnels, ou si le budget n’inclut pas tube + électricité + place au sol. Le métal nu sans accessoire IR reste hors scope."
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : de 599,99 $ à 1 259,96 $ selon le pack (les deux packs en rupture)"
   }
 }

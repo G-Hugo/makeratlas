@@ -19,11 +19,11 @@
     "min": 2999,
     "max": 2999,
     "currency": "USD",
-    "note": "Pro vs Pro+ passthrough depth; subscription extra"
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
     "power": "45W CO₂",
-    "workArea": "279 × 483 mm with passthrough",
+    "workArea": "279 × 495 mm (11 × 19.5 in)",
     "performance": {
       "precision": "0.025 mm",
       "engraveExample": {
@@ -97,7 +97,7 @@
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/glowforge-pro/01.webp",

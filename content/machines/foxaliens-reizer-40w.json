@@ -5,8 +5,8 @@
   "brand": "FoxAlien",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "FoxAlien Reizer 40W: high-power open-frame from the CNC brand",
-  "tldr": "FoxAlien Reizer 40W is the flagship diode in FoxAlien's laser line: 40W class cutting for makers already in the FoxAlien CNC ecosystem. Verify optical power; compare to Atomstack A40 and Ortur H20 40W.",
+  "tagline": "FoxAlien Reizer 40W: 40W-class module (10W optical) on an open frame from the CNC brand",
+  "tldr": "FoxAlien Reizer 40W (sold as Reizer Pro 40W) was the top diode in FoxAlien's laser line, for makers already in the FoxAlien CNC ecosystem. The 40W figure is electrical input: FoxAlien lists 10W optical output, so compare it with 10W machines rather than true 40W optical diodes such as the Atomstack A40 or Ortur H20 40W.",
   "mainObjective": "40W FoxAlien open-frame for cutting-focused hobby or side business",
   "bestFor": [
     "FoxAlien CNC owners",
@@ -14,20 +14,20 @@
     "Large bed work"
   ],
   "priceRange": {
-    "min": 899,
-    "max": 1299,
-    "currency": "USD"
+    "min": 430,
+    "max": 430,
+    "currency": "USD",
+    "note": "No longer sold new (Oct 2026); last known price on the official FoxAlien store: $429.99 (Reizer Pro 40W)"
   },
   "specs": {
-    "power": "40W diode (compressed)",
+    "power": "10W diode",
     "workArea": "400 × 400 mm",
     "software": [
       "LightBurn",
       "LaserGRBL"
     ],
     "connectivity": [
-      "USB",
-      "Wi-Fi"
+      "USB"
     ],
     "performance": {
       "precision": "0.01 mm",
@@ -66,7 +66,7 @@
   },
   "pros": [
     "Strongest cut headroom in the line: about 8 mm basswood-class stock in benchmarks",
-    "40W: the most cut-focused head in the FoxAlien Reizer line",
+    "10W optical (40W electrical): the most cut-focused head in the FoxAlien Reizer line",
     "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
   ],
   "cons": [
@@ -84,17 +84,16 @@
     "buildQuality": 7.8
   },
   "similarModels": [
-    "foxaliens-reisler-2",
     "atomstack-a40-pro-40w",
     "ortur-h20-40w"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/foxaliens-reizer-40w/01.webp",
   "modelLine": "foxalien-reizer",
-  "powerRating": "40W",
+  "powerRating": "10W",
   "catalogPrimary": true,
-  "releaseDate": "2024-09",
+  "releaseDate": "2022-05",
   "images": [
     {
       "src": "/machines/foxaliens-reizer-40w/01.webp",

@@ -1,10 +1,10 @@
 {
   "tagline": "Graveuse UV de bureau d'entrée pour le verre et les plastiques",
   "tldr": "La ComMarker Omni 1 est la gamme UV la plus compacte pour les makers qui débutent le marquage verre et plastique. Mêmes réserves que pour tout UV : tests matériaux, protection oculaire et attentes réalistes sur la vitesse.",
-  "mainObjective": "Entry UV engraving for glass and plastic gifts",
-  "primaryUse": "Hobby and small-business UV marking on glass and plastics.",
+  "mainObjective": "Gravure UV d'entrée de gamme pour cadeaux en verre et en plastique",
+  "primaryUse": "Marquage UV sur verre et plastiques, pour le loisir et les petites entreprises.",
   "beginnerNotes": "Cette fiche décrit ComMarker Omni 1 UV. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
   "bestFor": [
     "Glass gifts",
     "Plastics",
@@ -60,5 +60,8 @@
   "editorialDepth": {
     "advantages": "ComMarker Omni 1 UV 3W cible verre, films et plastiques sensibles à la chaleur : niche rentable quand vous avez déjà des commandes, pas pour “essayer l’UV”.",
     "limitations": "Inutile comme première machine. Pas de découpe bois/métal. Vérifiez la liste matériaux du module avant d’investir dans le châssis."
+  },
+  "priceRange": {
+    "note": "Plus vendue neuve (oct. 2026) ; dernier prix connu"
   }
 }

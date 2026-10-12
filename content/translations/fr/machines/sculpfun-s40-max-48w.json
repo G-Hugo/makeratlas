@@ -1,10 +1,10 @@
 {
   "tagline": "Sculpfun grand format 2025 : plateau 830×800 mm et diode compressée 48 W",
   "tldr": "Le S40 MAX (2025) vise les makers qui ont dépassé les châssis 400 mm : zone 830×800 mm, 48 W optiques, autofocus et Wi-Fi via écran TS1. Conçu pour panneaux enseignes et découpe en série : vérifiez le poids à l’expédition et l’espace atelier avant commande.",
-  "mainObjective": "Extra-large Sculpfun diode for big panels and production-style cutting",
-  "primaryUse": "2025 large-area Sculpfun for engraving and cutting oversized wood, leather, and acrylic panels.",
+  "mainObjective": "Diode Sculpfun très grand format pour les grands panneaux et la découpe en production",
+  "primaryUse": "Sculpfun grand format de 2025 pour graver et découper bois, cuir et acrylique foncé surdimensionnés.",
   "beginnerNotes": "Cette fiche décrit Sculpfun S40 MAX 48W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Use Z-axis offset per pass in LightBurn for flatter thick cuts. Budget 50L+ air assist for claimed one-pass thick cuts.",
+  "proTips": "Dans LightBurn, décalez l'axe Z à chaque passe pour des découpes épaisses plus régulières. Prévoyez une assistance d'air de 50 L/min ou plus pour obtenir les découpes épaisses en une passe annoncées.",
   "bestFor": [
     "Large signs",
     "Batch cutting",
@@ -43,7 +43,7 @@
     ]
   },
   "priceRange": {
-    "note": "Offre LightBurn courante"
+    "note": "Boutique officielle Sculpfun, oct. 2026 : de 1 149 $ à 2 316 $ selon le pack"
   },
   "specs": {
     "performance": {

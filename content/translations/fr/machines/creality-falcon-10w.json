@@ -1,10 +1,10 @@
 {
   "tagline": "Entrée Creality CR-Falcon : structure ouverte 10W pour un premier laser",
   "tldr": "La Creality Falcon 10W (CR-Laser) est l'entrée budget à structure ouverte de la gamme laser Creality : en dessous des Falcon 2 et A1 fermées. Correcte pour apprendre ; la montée en gamme mène vers la Falcon 2 22W ou l'A1.",
-  "mainObjective": "Cheapest Creality laser for basic engraving experiments",
-  "primaryUse": "Entry Creality diode for hobby engraving.",
+  "mainObjective": "Le laser Creality le moins cher pour s'essayer à la gravure",
+  "primaryUse": "Diode Creality d'entrée de gamme pour la gravure de loisir.",
   "beginnerNotes": "Cette fiche décrit Creality Falcon 10W. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Often on sale bundled with Creality printers : check total value.",
+  "proTips": "Souvent en promotion avec des imprimantes Creality : vérifiez la valeur totale du lot.",
   "bestFor": [
     "Creality 3D printer owners",
     "Tight budget",
@@ -13,7 +13,7 @@
   "pros": [
     "10W sur Creality Falcon : priorité gravure : remplissages photo et cuir",
     "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "Surface utile 400 × 415 mm : validez vos formats de pièces avant achat"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
@@ -61,5 +61,8 @@
   "editorialDepth": {
     "advantages": "Creality Falcon 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
     "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  },
+  "priceRange": {
+    "note": "Boutique officielle Creality Falcon, oct. 2026 : de 205 $ à 389 $ selon le pack"
   }
 }

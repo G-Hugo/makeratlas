@@ -16,14 +16,14 @@
     "Small metal/plastic marks (dual SKU)"
   ],
   "priceRange": {
-    "min": 179,
-    "max": 479,
+    "min": 219,
+    "max": 559,
     "currency": "USD",
-    "note": "Dual-laser bundles cost more"
+    "note": "Official Atomstack store, Oct 2026: $219 to $559 depending on bundle (P1 Dual with 1.2W IR: $399 to $699)"
   },
   "specs": {
     "power": "5W diode",
-    "workArea": "200 × 200 mm (approx.)",
+    "workArea": "110 × 110 mm",
     "software": [
       "AtomStack Studio",
       "LightBurn (select)"
@@ -46,7 +46,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "10,000 mm/s",
+        "maxSpeed": "167 mm/s (10,000 mm/min)",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "2–5 mm/s thin wood"
       }
@@ -96,7 +96,7 @@
     "laserpecker-4"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/atomstack-p1/01.webp",
   "modelLine": "atomstack-p1",
   "powerRating": "5W",
@@ -124,5 +124,6 @@
     "advantages": "AtomStack P1 5W suits makers who sell marks, photos, and gifts more than daily panel cutting. Enclosed format is easier to live with at home.",
     "limitations": "Skip if you already quote 4 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": true
 }

@@ -109,5 +109,6 @@
     "advantages": "xTool M2 Color Craft Laser 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Enclosed format is easier to live with at home.",
     "limitations": "Skip if you already quote 3 mm+ cutting in production. Not for cast acrylic or bare metal without spray."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "enclosed": true
 }
