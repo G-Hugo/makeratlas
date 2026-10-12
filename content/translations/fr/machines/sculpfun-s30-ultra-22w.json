@@ -1,6 +1,6 @@
 {
   "tagline": "Tête S30 Ultra du milieu : forte découpe diode, un cran sous la 33 W",
-  "tldr": "La 22 W est la tête du milieu des trois S30 Ultra de Sculpfun (11, 22 et 33 W), souvent vendue avec LightBurn. C’est la plus grosse marge de découpe des fiches S30 Ultra de ce site ; la 33 W va plus loin. Les annonces « S30 Ultra 10 W » ou « 20 W » sont des appellations de revendeurs.",
+  "tldr": "La 22 W est la tête du milieu des trois S30 Ultra de Sculpfun (11, 22 et 33 W), souvent vendue avec LightBurn. La tête 33 W va plus loin en découpe épaisse. Les annonces « S30 Ultra 10 W » ou « 20 W » sont des appellations de revendeurs.",
   "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
   "primaryUse": "Module 22W · Sculpfun S30 Ultra",
   "beginnerNotes": "Ce profil décrit le SKU 22W de Sculpfun S30 Ultra. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -84,7 +84,7 @@
     },
     {
       "question": "22 W ou S30 Ultra 33 W ?",
-      "answer": "Sculpfun vend la 33 W 769,99 $ seule (859,99 $ avec LightBurn), environ 230 $ de plus que la 22 W. La 22 W convient à un usage mixte gravure et découpe jusqu’à 8 mm environ ; la 33 W vise la découpe épaisse quotidienne. Nous n’avons pas mesuré la 33 W sur ce site : comparez les tests avant de payer la différence."
+      "answer": "Sculpfun vend la 33 W 769,99 $ seule (859,99 $ avec LightBurn), environ 230 $ de plus que la 22 W. La 22 W convient à un usage mixte gravure et découpe jusqu’à 8 mm environ ; la 33 W vise la découpe épaisse quotidienne. Notre fiche S30 Ultra 33 W donne ses chiffres de découpe."
     }
   ],
   "standoutFeatures": [
@@ -101,7 +101,7 @@
     {
       "id": "s30u-22w-head-upgrade",
       "title": "De la marge pour évoluer",
-      "body": "La tête 33 W (609,99 $ seule en octobre 2026) se monte sur le même cadre, avec la même alimentation et le même câble."
+      "body": "La tête 33 W (vendue en kit à 549,99 $ en octobre 2026) se monte sur le même cadre, avec la même alimentation et le même câble."
     }
   ]
 }

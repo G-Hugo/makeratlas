@@ -91,7 +91,7 @@
     "buildQuality": 8
   },
   "similarModels": [
-    "sculpfun-s30-ultra-20w",
+    "sculpfun-s30-ultra-33w",
     "ortur-laser-master-3-20w",
     "creality-falcon2-pro"
   ],
@@ -116,7 +116,7 @@
   "faq": [
     {
       "question": "Is this the S30 Ultra 10W some listings mention?",
-      "answer": "Sculpfun sells the entry S30 Ultra as an 11W head, and this profile covers that entry module. It shares the frame, power adapter and laser cable with the 22W and 33W heads, so upgrading later means swapping only the head. In October 2026 Sculpfun sold the heads separately at $299.99 (11W), $399.99 (22W) and $609.99 (33W)."
+      "answer": "Sculpfun sells the entry S30 Ultra as an 11W head, and this profile covers that entry module. It shares the frame, power adapter and laser cable with the 22W and 33W heads, so upgrading later means swapping only the head. In October 2026 Sculpfun sold the 22W and 33W heads as upgrade kits at $389.99 and $549.99."
     },
     {
       "question": "What does the entry S30 Ultra cut in one pass?",

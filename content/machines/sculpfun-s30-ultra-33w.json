@@ -1,0 +1,164 @@
+{
+  "id": "sculpfun-s30-ultra-33w",
+  "slug": "sculpfun-s30-ultra-33w",
+  "name": "Sculpfun S30 Ultra 33W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Top S30 Ultra head: thick wood cuts on the same 590 × 595 mm frame",
+  "tldr": "The 33W is the strongest of Sculpfun's three S30 Ultra heads (11W, 22W, 33W). Sculpfun claims 15 mm plywood and 20 mm balsa in one pass, on the same frame, adapter and cable as the 22W. It costs about $200–230 more than the 22W machine and makes more smoke on long cuts.",
+  "bestFor": [
+    "Thick wood cutting",
+    "Batch cut-outs",
+    "Large panels",
+    "Sign making"
+  ],
+  "priceRange": {
+    "min": 770,
+    "max": 860,
+    "currency": "USD",
+    "note": "Official Sculpfun store, Oct 2026: $769.99 for the machine (US warehouse sold out, China and EU stock available), $859.99 with LightBurn Core (sold out)"
+  },
+  "specs": {
+    "power": "33W diode",
+    "workArea": "590 × 595 mm (23.2 × 23.4 in)",
+    "software": [
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Bluetooth"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–9 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "technical": {
+        "spotSize": "~0.10 mm",
+        "maxSpeed": "167 mm/s",
+        "avgEngraveSpeed": "80–160 mm/s",
+        "avgCutSpeed": "6–20 mm/s (3–6 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Leather",
+      "Slate",
+      "Anodized aluminum",
+      "Stainless (with spray)"
+    ],
+    "cut": [
+      "Plywood (up to 15 mm, one pass per Sculpfun)",
+      "Balsa (up to 20 mm, one pass per Sculpfun)",
+      "Dark acrylic (thin sheets, several passes)",
+      "Paper and fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Thick acrylic sheets",
+      "Bare metal",
+      "Glass engraving (reliably)"
+    ]
+  },
+  "pros": [
+    "Sculpfun claims 15 mm plywood and 20 mm balsa in a single pass, the thickest of the three S30 Ultra heads",
+    "3 mm basswood squares in about 2–4 min in our reference profile, roughly half the time of the middle head",
+    "Same 590 × 595 mm frame, air pump and Bluetooth board as the cheaper heads: the extra cost goes into the laser"
+  ],
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "Sculpfun S30 Ultra 33W fits workshops where cut jobs fill most of the week: thick plywood signs, layered panels, batches of cut-outs on a large open bed. Fewer passes also shortens the time you spend watching over each job.",
+    "limitations": "Paying for this head makes little sense if you mostly engrave photos or small text: the wider spot gives no gain there. Long thick cuts produce a lot of smoke and char, so an enclosure or extraction is close to mandatory indoors. Open frame, no camera, no Wi-Fi."
+  },
+  "cons": [
+    "$769.99 for the machine alone, about $200–230 more than the middle head for gains that only show on cutting",
+    "Thick cuts make heavy smoke and charred edges: plan extraction and fire supervision",
+    "Wider ~0.10 mm spot: tiny text and fine photo detail are softer than on the entry head"
+  ],
+  "beginnerNotes": "This profile is the 33W head on the Sculpfun S30 Ultra. Read the TL;DR and benchmarks above, then compare the other power options via the chips: buy this one only if cutting thick wood is a regular job.",
+  "proTips": "Keep the air pump on for every cut and check focus before thick stock: one-pass claims assume a clean lens and a sharp focus. Replace the protective lens when cut depth drops. For photos, lower power and slow down rather than reusing cut presets.",
+  "primaryUse": "33W module · Sculpfun S30 Ultra",
+  "rating": {
+    "overall": 8,
+    "value": 7.6,
+    "easeOfUse": 7.8,
+    "capability": 8,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "sculpfun-s30-ultra-22w",
+    "longer-ray5-40w",
+    "xtool-s1-40w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/sculpfun-s30-ultra-33w/01.webp",
+  "mainObjective": "Thick diode cutting on a large open frame, with engraving as a secondary job",
+  "images": [
+    {
+      "src": "/machines/sculpfun-s30-ultra-33w/01.webp",
+      "alt": "Sculpfun S30 Ultra 33W laser engraver with thick wood cut-outs: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-33w/02.webp",
+      "alt": "Sculpfun S30 Ultra 33W engraving a large wood panel: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-33w/03.webp",
+      "alt": "Sculpfun S30 Ultra side view with control box and air pump: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-33w/04.webp",
+      "alt": "Sculpfun S30 Ultra laser head and air-assist nozzle: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-s30-ultra-33w/05.webp",
+      "alt": "Sculpfun S30 Ultra 33W package contents: Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-s30-ultra",
+  "powerRating": "33W",
+  "releaseDate": "2023-04",
+  "faq": [
+    {
+      "question": "How thick can the S30 Ultra 33W cut?",
+      "answer": "Sculpfun states 15 mm plywood and 20 mm balsa in one pass with air assist. We have not verified those figures; our reference profile estimates a 10 × 10 cm square in 3 mm basswood at about 2–4 min. Real results depend on the wood, the focus and a clean lens."
+    },
+    {
+      "question": "Is the 33W worth about $200 more than the 22W?",
+      "answer": "Only if you cut often. In October 2026 Sculpfun sold the 33W machine at $769.99 against $539.99–569.99 for the 22W, on the same frame. For engraving the extra power brings little, and the wider spot is slightly softer on small detail."
+    },
+    {
+      "question": "Can I upgrade an existing S30 Ultra to 33W instead?",
+      "answer": "Yes. Sculpfun says the 11W, 22W and 33W heads share the power adapter, structure and laser cable. In October 2026 its 33W upgrade kit cost $549.99 and included the head, a motherboard, an air pump and the adapter. If you already own an S30 Ultra, the kit costs less than a new machine; the $769.99 machine makes sense when you start from scratch."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s30u-33w-thick-cut",
+      "title": "Thickest cuts in the line",
+      "body": "Sculpfun claims 15 mm plywood and 20 mm balsa in one pass, against the 8 mm range we list for the middle head."
+    },
+    {
+      "id": "s30u-33w-cut-time",
+      "title": "Shorter cut jobs",
+      "body": "About 2–4 min for a 10 × 10 cm square in 3 mm basswood in our reference profile, with cut speeds up to ~20 mm/s on thin wood."
+    },
+    {
+      "id": "s30u-33w-lens",
+      "title": "Replaceable protective lens",
+      "body": "The lens in front of the diodes is a cheap spare part: swapping it restores cutting power after heavy smoke, with one spare in the box."
+    }
+  ]
+}

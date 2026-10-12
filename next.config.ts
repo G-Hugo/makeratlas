@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Profiles for products that do not exist (Oct 2026 catalog audit): permanent, so Google
+      // moves their signals to the real machine.
+      { source: "/:locale(en|fr)/lasers/sculpfun-s30-ultra-20w", destination: "/:locale/lasers/sculpfun-s30-ultra-22w", permanent: true },
+      { source: "/:locale(en|fr)/lasers/comgrow-z1-20w", destination: "/:locale/lasers/comgrow-z1-10w", permanent: true },
+      { source: "/:locale(en|fr)/lasers/algolaser-alpha-mk2-10w", destination: "/:locale/lasers/algolaser-diy-kit-mk2-10w", permanent: true },
       {
         source: "/lasers/xtool-s1",
         destination: "/en/lasers/xtool-s1-20w",

@@ -1,0 +1,110 @@
+{
+  "tagline": "La tête S30 Ultra la plus puissante : découpe de bois épais sur le même cadre de 590 × 595 mm",
+  "tldr": "La 33 W est la plus puissante des trois têtes S30 Ultra de Sculpfun (11, 22 et 33 W). Sculpfun annonce du contreplaqué de 15 mm et du balsa de 20 mm en une passe, sur le même cadre, la même alimentation et le même câble que la 22 W. Elle coûte environ 200 à 230 $ de plus que la machine 22 W et dégage plus de fumée sur les longues découpes.",
+  "mainObjective": "Découpe diode de bois épais sur un grand cadre ouvert, la gravure passant au second plan",
+  "primaryUse": "Module 33 W · Sculpfun S30 Ultra",
+  "beginnerNotes": "Ce profil décrit la tête 33 W de la Sculpfun S30 Ultra. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles : ne prenez celle-ci que si la découpe de bois épais fait partie de vos travaux réguliers.",
+  "proTips": "Gardez la pompe à air allumée pour chaque découpe et vérifiez la mise au point avant un bois épais : les promesses en une passe supposent une lentille propre et un foyer bien réglé. Changez la lentille de protection quand la profondeur de coupe baisse. Pour les photos, baissez la puissance et ralentissez plutôt que de reprendre les réglages de découpe.",
+  "bestFor": [
+    "Découpe de bois épais",
+    "Découpes en série",
+    "Grands panneaux",
+    "Enseignes"
+  ],
+  "pros": [
+    "Sculpfun annonce du contreplaqué de 15 mm et du balsa de 20 mm en une seule passe, le plus épais des trois têtes S30 Ultra",
+    "Carrés de 3 mm de tilleul en 2 à 4 min environ dans notre profil de référence, à peu près deux fois plus vite que la tête du milieu",
+    "Même cadre de 590 × 595 mm, même pompe à air et même carte Bluetooth que les têtes moins chères : le surcoût va entièrement au laser"
+  ],
+  "editorialDepth": {
+    "advantages": "La Sculpfun S30 Ultra 33 W convient aux ateliers où la découpe occupe l’essentiel de la semaine : enseignes en contreplaqué épais, panneaux en couches, séries de pièces découpées sur un grand plateau ouvert. Moins de passes, c’est aussi moins de temps à surveiller chaque travail.",
+    "limitations": "Payer cette tête a peu d’intérêt si vous gravez surtout des photos ou des petits textes : le point plus large n’apporte rien. Les longues découpes épaisses produisent beaucoup de fumée et de brûlé, donc un caisson ou une extraction devient presque obligatoire en intérieur. Cadre ouvert, sans caméra ni Wi-Fi."
+  },
+  "cons": [
+    "769,99 $ la machine seule, environ 200 à 230 $ de plus que la tête du milieu, pour un gain qui ne se voit qu’en découpe",
+    "Les découpes épaisses dégagent beaucoup de fumée et noircissent les bords : prévoyez une extraction et une surveillance contre le feu",
+    "Point plus large (environ 0,10 mm) : petits textes et détails photo moins nets qu’avec la tête d’entrée"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Cuir",
+      "Ardoise",
+      "Aluminium anodisé",
+      "Inox (avec spray)"
+    ],
+    "cut": [
+      "Contreplaqué (jusqu'à 15 mm en une passe selon Sculpfun)",
+      "Balsa (jusqu'à 20 mm en une passe selon Sculpfun)",
+      "Acrylique foncé (plaques fines, plusieurs passes)",
+      "Papier et tissu"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Plaques acrylique épaisses",
+      "Métal nu",
+      "Gravure verre (de façon fiable)"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Sculpfun, oct. 2026 : 769,99 $ la machine (entrepôt US épuisé, stock Chine et UE disponible), 859,99 $ avec LightBurn Core (épuisé)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "images": [
+    {
+      "alt": "Graveuse laser Sculpfun S30 Ultra 33 W avec des pièces découpées dans du bois épais : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun S30 Ultra 33 W gravant un grand panneau de bois : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun S30 Ultra vue de côté, avec le boîtier de commande et la pompe à air : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun S30 Ultra, tête laser et buse d’assistance d’air : Sculpfun"
+    },
+    {
+      "alt": "Contenu du carton de la Sculpfun S30 Ultra 33 W : Sculpfun"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelle épaisseur la S30 Ultra 33 W peut-elle découper ?",
+      "answer": "Sculpfun annonce du contreplaqué de 15 mm et du balsa de 20 mm en une passe avec assistance d’air. Nous n’avons pas vérifié ces chiffres ; notre profil de référence estime un carré de 10 × 10 cm dans du tilleul de 3 mm à environ 2 à 4 min. Le résultat réel dépend du bois, de la mise au point et de la propreté de la lentille."
+    },
+    {
+      "question": "La 33 W vaut-elle environ 200 $ de plus que la 22 W ?",
+      "answer": "Seulement si vous découpez souvent. En octobre 2026, Sculpfun vendait la machine 33 W 769,99 $ contre 539,99 à 569,99 $ pour la 22 W, sur le même cadre. En gravure, la puissance supplémentaire apporte peu, et le point plus large rend les petits détails un peu moins nets."
+    },
+    {
+      "question": "Peut-on plutôt passer une S30 Ultra existante en 33 W ?",
+      "answer": "Oui. Selon Sculpfun, les têtes 11, 22 et 33 W partagent l’alimentation, la structure et le câble laser. En octobre 2026, son kit de mise à niveau 33 W coûtait 549,99 $ et comprenait la tête, une carte mère, une pompe à air et l’alimentation. Si vous avez déjà une S30 Ultra, le kit revient moins cher qu’une machine neuve ; la machine à 769,99 $ se justifie quand on part de zéro."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "s30u-33w-thick-cut",
+      "title": "Les découpes les plus épaisses de la gamme",
+      "body": "Sculpfun annonce du contreplaqué de 15 mm et du balsa de 20 mm en une passe, contre environ 8 mm pour la tête du milieu dans nos fiches."
+    },
+    {
+      "id": "s30u-33w-cut-time",
+      "title": "Des découpes plus courtes",
+      "body": "Environ 2 à 4 min pour un carré de 10 × 10 cm dans du tilleul de 3 mm dans notre profil de référence, avec des vitesses de découpe jusqu’à 20 mm/s environ sur bois fin."
+    },
+    {
+      "id": "s30u-33w-lens",
+      "title": "Lentille de protection remplaçable",
+      "body": "La lentille placée devant les diodes est une pièce de rechange bon marché : la changer rend sa puissance de coupe après beaucoup de fumée, et une lentille de rechange est fournie."
+    }
+  ]
+}

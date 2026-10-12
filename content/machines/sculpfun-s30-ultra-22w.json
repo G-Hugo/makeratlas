@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Middle S30 Ultra head: strong diode cutting, one step below the 33W",
-  "tldr": "The 22W is the middle of Sculpfun's three S30 Ultra heads (11W, 22W, 33W), often sold bundled with LightBurn. It has the most cut headroom of the S30 Ultra profiles we list; the 33W goes further. Listings that say S30 Ultra 10W or 20W are reseller labels.",
+  "tldr": "The 22W is the middle of Sculpfun's three S30 Ultra heads (11W, 22W, 33W), often sold bundled with LightBurn. The 33W head goes further for thick cuts. Listings that say S30 Ultra 10W or 20W are reseller labels.",
   "bestFor": [
     "Faster cutting",
     "Thicker basswood",
@@ -96,7 +96,7 @@
     "buildQuality": 8
   },
   "similarModels": [
-    "sculpfun-s30-ultra-20w",
+    "sculpfun-s30-ultra-33w",
     "ortur-laser-master-3-20w",
     "creality-falcon2-pro"
   ],
@@ -137,7 +137,7 @@
     },
     {
       "question": "22W or the 33W S30 Ultra?",
-      "answer": "Sculpfun prices the 33W at $769.99 alone ($859.99 with LightBurn), about $230 more than the 22W machine. The 22W suits mixed engraving and cutting up to about 8 mm; the 33W is for daily thicker cutting. We have not benchmarked the 33W on this site, so compare reviews before paying the difference."
+      "answer": "Sculpfun prices the 33W at $769.99 alone ($859.99 with LightBurn), about $230 more than the 22W machine. The 22W suits mixed engraving and cutting up to about 8 mm; the 33W is for daily thicker cutting. Our S30 Ultra 33W profile has its cutting figures."
     }
   ],
   "standoutFeatures": [
@@ -154,7 +154,7 @@
     {
       "id": "s30u-22w-head-upgrade",
       "title": "Room to grow",
-      "body": "The 33W head ($609.99 alone in October 2026) fits the same frame, adapter and cable if you outgrow the 22W."
+      "body": "The 33W head (a $549.99 upgrade kit in October 2026) fits the same frame, adapter and cable if you outgrow the 22W."
     }
   ]
 }
