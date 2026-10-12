@@ -1,0 +1,140 @@
+{
+  "id": "laserpecker-u1",
+  "slug": "laserpecker-u1",
+  "name": "LaserPecker U1",
+  "brand": "LaserPecker",
+  "category": "laser-engraver",
+  "laserType": "uv",
+  "tagline": "Announced enclosed UV engraver in 5W and 10W versions, with sensor auto-focus for crystal inner engraving",
+  "tldr": "The U1 is a LaserPecker UV engraver shown at IFA in Berlin in September 2026 and not yet on sale. It comes in 5W and 10W UV versions; LaserPecker says the 10W cuts glass and engraves deeper. The pitch is automation: sensor-based auto-focus that finds crystal for inner engraving, surface scanning for curved objects, and a single lens for inner and surface work, in a Class 1 enclosure. LaserPecker plans sales on its own website in Q4 2026. Price, work area, wavelength and speed are not published yet, and everything may change before launch.",
+  "mainObjective": "Burn-free marking and inner engraving of glass and crystal with as little manual setup as possible",
+  "bestFor": [
+    "Glass & crystal gifts",
+    "3D inner engraving",
+    "Curved objects",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 3000,
+    "max": 5500,
+    "currency": "USD",
+    "note": "Price not announced yet (Oct 2026); estimate based on enclosed 5W UV machines (Creality Falcon T1 UV at $3,999, xTool F2 Ultra UV from $4,299) and 10W UV machines around $5,000."
+  },
+  "specs": {
+    "power": "5W / 10W UV",
+    "workArea": "—",
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "cutExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "—",
+        "avgEngraveSpeed": "—",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Glass & crystal (surface and inner)",
+      "Curved and irregular objects",
+      "Heat-sensitive materials (cold UV processing)"
+    ],
+    "cut": [
+      "Glass (10W version, according to LaserPecker; no thickness published)"
+    ],
+    "cannot": [
+      "Wood or acrylic cutting at CO₂ speed",
+      "Deep metal engraving",
+      "Large panels (work area not published)"
+    ]
+  },
+  "pros": [
+    "Sensor auto-focus that detects crystal for inner engraving with little manual setup",
+    "Surface scanning maps curved and irregular objects and adjusts focus for 3D engraving",
+    "One lens for inner and surface work, with automatic lens recognition, in a Class 1 enclosure"
+  ],
+  "cons": [
+    "Not on sale yet: LaserPecker only gives Q4 2026, with no exact date",
+    "No price, work area, wavelength or speed published",
+    "No independent test; the only hands-on reports come from trade-show demos"
+  ],
+  "beginnerNotes": "This profile covers both announced versions of the U1, 5W and 10W, because LaserPecker has not published enough detail to tell them apart beyond power. If you need a UV laser now, the xTool F2 Ultra UV and Commarker Omni X UV are already on sale with published specs.",
+  "proTips": "Wait for the work area and the price of each version before deciding: inner-engraving volume and cutting ability matter more than wattage for crystal products. Ask for sample engravings on your own blocks once demo units reach resellers.",
+  "primaryUse": "Enclosed UV engraver for glass, crystal and curved objects, with automatic focus",
+  "rating": {
+    "overall": 7.6,
+    "value": 7,
+    "easeOfUse": 8.4,
+    "capability": 7.2,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "xtool-f2-ultra-uv",
+    "commarker-omni-x-uv",
+    "creality-falcon-t1-5w-uv"
+  ],
+  "faq": [
+    {
+      "question": "When will the LaserPecker U1 be available, and at what price?",
+      "answer": "LaserPecker says the U1 should go on sale through its official website in the fourth quarter of 2026, with more details to come. No price has been announced as of October 2026. Specs, versions and timing may change before launch."
+    },
+    {
+      "question": "5W or 10W?",
+      "answer": "LaserPecker describes the 10W version as more powerful, able to cut glass and engrave deeper, while keeping cold UV processing. It has not published separate work areas, speeds or prices, so we cannot compare the two versions in more detail yet."
+    },
+    {
+      "question": "Can the U1 engrave inside crystal?",
+      "answer": "Yes, according to LaserPecker. Its sensor-based auto-focus detects the crystal and sets focus for inner engraving, and the same lens handles inner and surface work. The size of the inner-engraving volume has not been published."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/laserpecker-u1/01.webp",
+  "images": [
+    {
+      "src": "/machines/laserpecker-u1/01.webp",
+      "alt": "LaserPecker U1 UV laser engraver on a workbench next to engraved crystal blocks: LaserPecker"
+    }
+  ],
+  "laserCapabilities": [
+    "uv"
+  ],
+  "capabilityTags": [
+    "uv"
+  ],
+  "releaseDate": "2026-09",
+  "announced": {},
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "LaserPecker aims the U1 at the hardest part of UV work on glass: finding focus on transparent material and on curved surfaces. Automatic crystal detection, surface mapping and lens recognition could make inner engraving accessible to people who do not want to tune parameters by hand, and the Class 1 enclosure suits a shop or a home studio.",
+    "limitations": "Almost nothing measurable is public yet: no price, work area, wavelength, speed or inner-engraving volume. LaserPecker's earlier machines were compact and app-driven; how the U1 compares with established enclosed UV galvos will only be clear once it ships and is tested."
+  },
+  "standoutFeatures": [
+    {
+      "id": "u1-crystal-autofocus",
+      "title": "Automatic focus on crystal",
+      "body": "A sensor-based auto-focus detects the crystal block and sets focus for inner engraving with little manual setup."
+    },
+    {
+      "id": "u1-surface-mapping",
+      "title": "Curved surface mapping",
+      "body": "The U1 scans irregular and curved objects, maps their shape and adjusts the focal length for 3D engraving."
+    }
+  ]
+}

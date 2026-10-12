@@ -1,0 +1,108 @@
+{
+  "tagline": "Le premier laser de Bambu Lab : CO₂ de 55 W fermé, plateau de 600 × 300 mm, alignement par caméra et convoyeur de 3 m en option",
+  "tldr": "La R1 est la première découpeuse laser autonome de Bambu Lab, annoncée le 22 septembre 2026 et pas encore livrée : les précommandes sont ouvertes et l’expédition est désormais prévue en novembre 2026. C’est une machine CO₂ de 55 W fermée, avec un plateau de 600 × 300 mm, jusqu’à 1 000 mm/s, un système de caméras et de capteurs pour l’alignement et la mise au point, et un convoyeur en option pour des pièces jusqu’à 3 m de long. Bambu Lab annonce 2 499 $ / 2 499 €. Les premiers tests de presse existent, mais aucun acheteur ne l’a encore reçue : caractéristiques, logiciel et prix peuvent encore changer avant la livraison.",
+  "mainObjective": "Découper et graver avec un CO₂ de 55 W fermé, pour les makers déjà équipés chez Bambu Lab",
+  "primaryUse": "CO₂ de 55 W fermé pour découper et graver le bois, l’acrylique et le cuir, avec alimentation des pièces longues",
+  "beginnerNotes": "La R1 est annoncée mais pas encore entre les mains des acheteurs. Si vous avez besoin d’un laser CO₂ maintenant, comparez-la avec des machines déjà livrées, comme la xTool P2S. Prévoyez la ventilation : la R1 demande une évacuation vers l’extérieur ou le purificateur d’air de Bambu Lab, vendu à part.",
+  "proTips": "Attendez les premières livraisons et des essais de découpe indépendants avant d’y engager une activité professionnelle. Si vous comptez découper des pièces longues, chiffrez dès le départ le pack avec rehausse et convoyeur, et gardez en tête que la machine n’est plus de classe 1 une fois ces accessoires montés : les lunettes de protection deviennent obligatoires.",
+  "bestFor": [
+    "Passer de la diode au CO₂",
+    "Découpe d’acrylique et de bois",
+    "Utilisateurs Bambu Lab",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Plateau CO₂ fermé de 600 × 300 mm à 2 499 $, moins cher que la plupart des concurrentes fermées de 55 W",
+    "Caméra en vue d’ensemble, caméras sur la tête, laser de mesure de distance et codeurs XY pour l’alignement et la mise au point automatique",
+    "Le convoyeur en option accepte des pièces jusqu’à 3 m de long, et la rehausse permet de graver des objets plus hauts"
+  ],
+  "cons": [
+    "Pas encore livrée : l’expédition a glissé d’octobre à novembre 2026 et il n’existe aucun retour sur la durée",
+    "Bambu Suite uniquement au lancement ; la compatibilité LightBurn est promise sans date",
+    "La classe 1 est perdue avec la rehausse ou le convoyeur, et le purificateur, l’extincteur automatique et le codeur de précision sont en supplément"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Acrylique",
+      "Cuir",
+      "Papier et tissu",
+      "Verre et pierre",
+      "Métal revêtu"
+    ],
+    "cut": [
+      "Contreplaqué jusqu’à 18 mm (chiffre Bambu Lab)",
+      "Acrylique jusqu’à 20 mm (chiffre Bambu Lab)",
+      "Cuir",
+      "Papier et carton",
+      "Tissu"
+    ],
+    "cannot": [
+      "Marquage du métal nu",
+      "PVC et vinyle (fumées chlorées)",
+      "Utilisation sans évacuation ni purificateur d’air"
+    ]
+  },
+  "priceRange": {
+    "note": "Prix en précommande, boutique Bambu Lab (oct. 2026) : 2 499 $ / 2 499 € pour la R1 seule ; packs américains relevés à 3 289 $ avec rehausse et convoyeur, 3 499 $ avec module rotatif en plus. Pas encore livrée ; les prix peuvent changer."
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Pas encore mesuré"
+      },
+      "cutExample": {
+        "description": "Pas encore mesuré"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quand la Bambu Lab R1 sera-t-elle livrée, et combien coûte-t-elle ?",
+      "answer": "Les précommandes ont ouvert le 22 septembre 2026, à 2 499 $ aux États-Unis et 2 499 € en Europe. Bambu Lab annonçait d’abord une expédition en octobre 2026 ; en octobre, ses boutiques affichaient une expédition estimée en novembre 2026. Tant que les machines ne sont pas livrées, caractéristiques, prix et dates peuvent encore changer."
+    },
+    {
+      "question": "Que peut découper la R1 ?",
+      "answer": "Bambu Lab annonce jusqu’à 18 mm de contreplaqué et 20 mm d’acrylique, ainsi que le cuir, le papier et le tissu. Elle grave aussi le verre, la pierre et le métal revêtu. Ce sont des chiffres du fabricant : nous n’avons pas encore mesuré de vitesses ni d’épaisseurs de découpe."
+    },
+    {
+      "question": "R1 ou xTool P2S ?",
+      "answer": "Ce sont deux machines CO₂ de 55 W fermées, avec un plateau d’environ 600 × 300 mm et un placement par caméra. La P2S est en vente depuis plus longtemps et fonctionne avec LightBurn ; la R1 coûte moins cher au lancement et s’intègre au logiciel de Bambu Lab et à MakerWorld. Tant que la R1 n’est pas livrée et testée, la P2S reste le choix le plus sûr."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Découpeuse laser CO₂ Bambu Lab R1 : Bambu Lab"
+    },
+    {
+      "alt": "Bambu Lab R1 sur un établi, à côté de matériaux et de réalisations : Bambu Lab"
+    },
+    {
+      "alt": "Bambu Lab R1 capot ouvert, avec le champ de la caméra au-dessus du plateau : Bambu Lab"
+    },
+    {
+      "alt": "Bambu Lab R1 dans un atelier à domicile : Bambu Lab"
+    },
+    {
+      "alt": "Pièce en acrylique multicouche présentée par Bambu Lab au lancement de la R1 : Bambu Lab"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "Sur le papier, la R1 fait entrer un laser CO₂ fermé de bonne taille dans l’écosystème Bambu Lab, à un prix de lancement agressif : plateau de 600 × 300 mm, 1 000 mm/s, caméras, mesure de distance et codeurs pour l’alignement et la mise au point automatiques, plus un convoyeur pour les pièces longues. Les makers qui utilisent déjà des imprimantes Bambu Lab et MakerWorld gardent un seul compte et un seul logiciel pour les deux.",
+    "limitations": "La machine n’est pas encore livrée et l’expédition a déjà été repoussée une fois. Le logiciel se limite à Bambu Suite en attendant LightBurn, et le boîtier perd sa classe 1 avec la rehausse ou le convoyeur. La ventilation, l’extinction automatique et le codeur de précision sont payants : le budget réel dépasse 2 499 $."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Alignement par caméras et capteurs",
+      "body": "Une caméra en vue d’ensemble, des caméras sur la tête, un laser de mesure de distance pour la mise au point et des codeurs XY placent les motifs et règlent la mise au point automatiquement."
+    },
+    {
+      "title": "Pièces jusqu’à 3 m de long",
+      "body": "Avec la rehausse et le convoyeur en option, la R1 fait passer des pièces jusqu’à 3 000 mm de long à travers le plateau de 600 × 300 mm."
+    },
+    {
+      "title": "Écosystème Bambu Lab",
+      "body": "La R1 utilise le même compte Bambu Lab, le même logiciel Bambu Suite et la même bibliothèque de projets MakerWorld que les imprimantes 3D de la marque."
+    }
+  ]
+}

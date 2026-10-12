@@ -185,6 +185,13 @@ export type Dictionary = {
   machine: {
     contentNotice: string;
     galleryCount: string;
+    announcedBadge: string;
+    announcedOn: string;
+    announcedTitle: string;
+    announcedBody: string;
+    announcedExpected: string;
+    notRatedYet: string;
+    notRatedYetBody: string;
     discontinuedBadge: string;
     discontinuedTitle: string;
     discontinuedBody: string;

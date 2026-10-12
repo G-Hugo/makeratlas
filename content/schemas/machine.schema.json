@@ -118,6 +118,11 @@
     },
     "mainObjective": { "type": "string" },
     "status": { "enum": ["draft", "published", "archived"] },
+    "announced": {
+      "type": "object",
+      "properties": { "expected": { "type": "string" } },
+      "additionalProperties": false
+    },
     "discontinued": {
       "type": "object",
       "properties": {

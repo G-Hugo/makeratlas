@@ -185,6 +185,13 @@ export const en: Dictionary = {
   },
   machine: {
     galleryCount: "{count} manufacturer photos",
+    announcedBadge: "Coming soon",
+    announcedOn: "Announced",
+    announcedTitle: "Coming soon",
+    announcedBody: "{brand} has announced this machine but it is not shipping yet. Specs and price may still change.",
+    announcedExpected: "Expected {date}.",
+    notRatedYet: "Not rated yet",
+    notRatedYetBody: "We score machines once they ship and real-world results exist.",
     discontinuedBadge: "Discontinued",
     discontinuedTitle: "Discontinued",
     discontinuedBody:

@@ -170,6 +170,11 @@ export interface Machine {
   lastUpdated: string;
   /** First retail availability : YYYY-MM or YYYY-MM-DD */
   releaseDate?: string;
+  /** Announced or on preorder, not shipping yet: no score shown, kept out of rankings */
+  announced?: {
+    /** YYYY-MM when the brand says it will ship or go on sale */
+    expected?: string;
+  };
   /** No longer sold new by the brand; the profile stays online for used buyers */
   discontinued?: {
     /** YYYY-MM when we noticed it left the official store */

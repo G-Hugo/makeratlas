@@ -1,0 +1,85 @@
+{
+  "tagline": "Graveur UV fermé annoncé en versions 5 W et 10 W, avec mise au point automatique par capteur pour la gravure interne du cristal",
+  "tldr": "La U1 est un graveur UV de LaserPecker présenté à l’IFA de Berlin en septembre 2026 et pas encore en vente. Il existe en versions UV de 5 W et de 10 W ; selon LaserPecker, la 10 W découpe le verre et grave plus profond. L’argument principal est l’automatisation : mise au point automatique par capteur qui repère le cristal pour la gravure interne, balayage des surfaces pour les objets courbes et une seule lentille pour la gravure interne et de surface, dans un boîtier de classe 1. LaserPecker prévoit la vente sur son propre site au quatrième trimestre 2026. Prix, surface de travail, longueur d’onde et vitesse ne sont pas encore publiés, et tout peut changer d’ici le lancement.",
+  "mainObjective": "Marquer sans brûlure et graver à l’intérieur du verre et du cristal avec le moins de réglages manuels possible",
+  "primaryUse": "Graveur UV fermé pour le verre, le cristal et les objets courbes, avec mise au point automatique",
+  "beginnerNotes": "Cette fiche couvre les deux versions annoncées de la U1, 5 W et 10 W, car LaserPecker n’a pas publié assez de détails pour les distinguer au-delà de la puissance. Si vous avez besoin d’un laser UV maintenant, la xTool F2 Ultra UV et la Commarker Omni X UV sont déjà en vente, avec des caractéristiques publiées.",
+  "proTips": "Attendez la surface de travail et le prix de chaque version avant de décider : pour des produits en cristal, le volume de gravure interne et la capacité de découpe comptent plus que la puissance. Demandez des essais sur vos propres blocs dès que des machines de démonstration arrivent chez les revendeurs.",
+  "bestFor": [
+    "Cadeaux en verre et en cristal",
+    "Gravure 3D interne",
+    "Objets courbes",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Mise au point automatique par capteur qui repère le cristal pour la gravure interne, avec peu de réglages manuels",
+    "Le balayage des surfaces cartographie les objets courbes et irréguliers et ajuste la mise au point pour la gravure 3D",
+    "Une seule lentille pour la gravure interne et de surface, avec reconnaissance automatique de la lentille, dans un boîtier de classe 1"
+  ],
+  "cons": [
+    "Pas encore en vente : LaserPecker annonce seulement le quatrième trimestre 2026, sans date précise",
+    "Ni prix, ni surface de travail, ni longueur d’onde, ni vitesse publiés",
+    "Aucun test indépendant ; les seuls retours viennent de démonstrations sur salon"
+  ],
+  "materials": {
+    "engrave": [
+      "Verre et cristal (surface et interne)",
+      "Objets courbes et irréguliers",
+      "Matériaux sensibles à la chaleur (traitement UV à froid)"
+    ],
+    "cut": [
+      "Verre (version 10 W, selon LaserPecker ; aucune épaisseur publiée)"
+    ],
+    "cannot": [
+      "Découpe du bois ou de l’acrylique à la vitesse d’un CO₂",
+      "Gravure profonde du métal",
+      "Grands panneaux (surface de travail non publiée)"
+    ]
+  },
+  "priceRange": {
+    "note": "Prix pas encore annoncé (oct. 2026) ; estimation d’après les machines UV fermées de 5 W (Creality Falcon T1 UV à 3 999 $, xTool F2 Ultra UV à partir de 4 299 $) et les machines UV de 10 W autour de 5 000 $."
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Pas encore mesuré"
+      },
+      "cutExample": {
+        "description": "Pas encore mesuré"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quand la LaserPecker U1 sera-t-elle disponible, et à quel prix ?",
+      "answer": "LaserPecker indique que la U1 devrait être mise en vente sur son site officiel au quatrième trimestre 2026, avec plus de détails à venir. Aucun prix n’est annoncé en octobre 2026. Caractéristiques, versions et calendrier peuvent changer d’ici le lancement."
+    },
+    {
+      "question": "5 W ou 10 W ?",
+      "answer": "LaserPecker présente la version 10 W comme plus puissante, capable de découper le verre et de graver plus profond, tout en gardant le traitement UV à froid. Il n’a publié ni surfaces de travail, ni vitesses, ni prix séparés : impossible pour l’instant de comparer plus finement les deux versions."
+    },
+    {
+      "question": "La U1 grave-t-elle à l’intérieur du cristal ?",
+      "answer": "Oui, selon LaserPecker. Sa mise au point automatique par capteur repère le cristal et règle le foyer pour la gravure interne, et la même lentille sert à la gravure interne et de surface. Le volume de gravure interne n’a pas été publié."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveur laser UV LaserPecker U1 sur un établi, à côté de blocs de cristal gravés : LaserPecker"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "LaserPecker vise avec la U1 le point le plus délicat du travail UV sur le verre : faire la mise au point sur un matériau transparent et sur des surfaces courbes. La détection automatique du cristal, la cartographie des surfaces et la reconnaissance des lentilles pourraient rendre la gravure interne accessible à ceux qui ne veulent pas régler leurs paramètres à la main, et le boîtier de classe 1 convient à une boutique comme à un atelier à domicile.",
+    "limitations": "Presque rien de mesurable n’est encore public : ni prix, ni surface de travail, ni longueur d’onde, ni vitesse, ni volume de gravure interne. Les machines précédentes de LaserPecker étaient compactes et pilotées par application ; la comparaison avec les galvos UV fermés déjà installés ne sera possible qu’après la livraison et les premiers tests."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Mise au point automatique sur le cristal",
+      "body": "Une mise au point automatique par capteur repère le bloc de cristal et règle le foyer pour la gravure interne, avec peu de réglages manuels."
+    },
+    {
+      "title": "Cartographie des surfaces courbes",
+      "body": "La U1 balaie les objets courbes et irréguliers, relève leur forme et ajuste la distance focale pour la gravure 3D."
+    }
+  ]
+}

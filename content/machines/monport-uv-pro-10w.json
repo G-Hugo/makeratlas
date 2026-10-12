@@ -173,5 +173,8 @@
   "editorialDepth": {
     "advantages": "The 10W tier makes sense for shops whose revenue depends on 3D crystals or UV marking volume: faster scanning and a complete package with chiller and 3D lens.",
     "limitations": "It is a pre-order until November 2026, has manual focus and no camera, and needs strict eye protection around the open UV beam. SapphireMark is Windows-only and no independent review exists yet."
+  },
+  "announced": {
+    "expected": "2026-11"
   }
 }

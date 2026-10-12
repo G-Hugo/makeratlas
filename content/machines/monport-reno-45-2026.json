@@ -194,5 +194,8 @@
   "editorialDepth": {
     "advantages": "The 2026 Reno 45 removes the old model's most awkward setup step, the external water tank, and lowers the price sharply. With a pass-through, 100 mm of Z travel and an optional IR module on the Pro and Vision, it covers most of what a home business needs from a first CO₂.",
     "limitations": "It is a pre-order with no independent review of this generation yet. The bed is modest, focus is assisted rather than automatic, the glass tube is a consumable with a 6-month warranty, and smoke must be vented outside."
+  },
+  "announced": {
+    "expected": "2026-10"
   }
 }

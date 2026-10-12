@@ -29,7 +29,7 @@ export interface FinderMachine {
 export function getFinderMachines(locale: Locale): FinderMachine[] {
   // The quiz recommends what you can buy new.
   return getCatalogEntries(locale)
-    .filter(({ primary }) => !primary.discontinued)
+    .filter(({ primary }) => !primary.discontinued && !primary.announced)
     .map(({ primary: m, displayName }) => ({
     slug: m.slug,
     name: displayName,

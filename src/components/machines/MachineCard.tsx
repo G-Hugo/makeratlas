@@ -120,17 +120,22 @@ export function MachineCard({
         />
         <div className="absolute left-3 top-3 flex flex-col items-start gap-1.5">
           <MachineWorkFocusBadge focus={workFocus} workFocusDict={dict.workFocus} />
+          {primary.announced && (
+            <span className="rounded-full bg-sky-700/90 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white shadow-md">
+              {dict.machine.announcedBadge}
+            </span>
+          )}
           {primary.discontinued && (
             <span className="rounded-full bg-stone-800/90 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-white shadow-md">
               {dict.machine.discontinuedBadge}
             </span>
           )}
         </div>
-        <div
+        {!primary.announced && <div
           className={`absolute right-3 top-3 rounded-full bg-white/95 px-2.5 py-1 text-sm font-bold shadow-md ring-1 ring-stone-900/10 backdrop-blur-sm dark:bg-stone-950/92 dark:ring-stone-600/40 ${ratingColor(primary.rating.overall)}`}
         >
           {primary.rating.overall.toFixed(1)}
-        </div>
+        </div>}
         <div className="absolute bottom-3 left-3 right-3 flex flex-wrap gap-1.5">
           <span className="inline-flex max-w-full items-center gap-1 rounded-full bg-white/95 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-stone-800 shadow-md ring-1 ring-stone-900/10 backdrop-blur-sm dark:bg-stone-950/92 dark:text-stone-100 dark:ring-stone-600/40">
             <span className="text-stone-600 dark:text-stone-300">{primary.brand}</span>

@@ -43,7 +43,8 @@ export function machineJsonLd(machine: Machine, locale: Locale) {
     ...(machine.releaseDate
       ? { releaseDate: toIsoReleaseDate(machine.releaseDate) }
       : {}),
-    review: {
+    // No editorial score for machines that have not shipped.
+    ...(machine.announced ? {} : { review: {
       "@type": "Review",
       reviewRating: {
         "@type": "Rating",
@@ -53,7 +54,7 @@ export function machineJsonLd(machine: Machine, locale: Locale) {
       },
       author: { "@type": "Organization", name: "Maker Atlas" },
       reviewBody: machine.primaryUse,
-    },
+    } }),
   };
 }
 

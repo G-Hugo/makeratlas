@@ -182,8 +182,24 @@ export function MachineDetailView({
             />
             {machine.releaseDate && (
               <p className="mt-2 text-sm text-stone-500 dark:text-stone-400">
-                {m.released} {formatReleaseDate(machine.releaseDate, locale)}
+                {machine.announced ? m.announcedOn : m.released} {formatReleaseDate(machine.releaseDate, locale)}
               </p>
+            )}
+            {machine.announced && (
+              <div className="mt-3 rounded-lg border border-sky-200 bg-sky-50 px-4 py-3 text-sm text-sky-950 dark:border-sky-900 dark:bg-sky-950/50 dark:text-sky-100">
+                <p className="font-semibold">{m.announcedTitle}</p>
+                <p className="mt-1">
+                  {interpolate(m.announcedBody, { brand: machine.brand })}
+                  {machine.announced.expected && (
+                    <>
+                      {" "}
+                      {interpolate(m.announcedExpected, {
+                        date: formatReleaseDate(machine.announced.expected, locale),
+                      })}
+                    </>
+                  )}
+                </p>
+              </div>
             )}
             {machine.discontinued && (
               <div className="mt-3 rounded-lg border border-stone-300 bg-stone-100 px-4 py-3 text-sm text-stone-700 dark:border-stone-600 dark:bg-stone-900 dark:text-stone-200">
@@ -375,14 +391,23 @@ export function MachineDetailView({
 
         <aside key={`aside-${activeSlug}`} className="min-w-0 space-y-6 lg:sticky lg:top-6 lg:self-start">
           <div className="rounded-xl border border-stone-200 bg-white p-6 shadow-sm dark:border-stone-700 dark:bg-stone-900">
-            <p className={`text-3xl font-bold ${ratingColor(machine.rating.overall)}`}>
-              {machine.rating.overall.toFixed(1)}
-              <span className="text-lg text-stone-400 dark:text-stone-300">/10</span>
-            </p>
-            <p className="mt-1 text-sm text-stone-500 dark:text-stone-300">{m.overallScore}</p>
-            <div className="mt-6">
-              <RatingDisplay rating={machine.rating} labels={dict.ratings} />
-            </div>
+            {machine.announced ? (
+              <>
+                <p className="text-xl font-bold text-stone-700 dark:text-stone-200">{m.notRatedYet}</p>
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-300">{m.notRatedYetBody}</p>
+              </>
+            ) : (
+              <>
+                <p className={`text-3xl font-bold ${ratingColor(machine.rating.overall)}`}>
+                  {machine.rating.overall.toFixed(1)}
+                  <span className="text-lg text-stone-400 dark:text-stone-300">/10</span>
+                </p>
+                <p className="mt-1 text-sm text-stone-500 dark:text-stone-300">{m.overallScore}</p>
+                <div className="mt-6">
+                  <RatingDisplay rating={machine.rating} labels={dict.ratings} />
+                </div>
+              </>
+            )}
           </div>
 
           <MachineDetailPrice machine={machine} locale={locale} labels={m} variant="card" />
@@ -497,9 +522,11 @@ export function MachineDetailView({
                       >
                         {alt.name}
                       </LocaleLink>
-                      <span className={`text-lg font-bold ${ratingColor(alt.rating.overall)}`}>
-                        {alt.rating.overall.toFixed(1)}
-                      </span>
+                      {!alt.announced && (
+                        <span className={`text-lg font-bold ${ratingColor(alt.rating.overall)}`}>
+                          {alt.rating.overall.toFixed(1)}
+                        </span>
+                      )}
                     </div>
                     <p className="text-xs text-stone-500 dark:text-stone-400">
                       {alt.brand} · {laserTypeLabelLocalized(alt.laserType, dict)} ·{" "}

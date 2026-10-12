@@ -1,0 +1,189 @@
+{
+  "id": "bambu-lab-r1",
+  "slug": "bambu-lab-r1",
+  "name": "Bambu Lab R1",
+  "brand": "Bambu Lab",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Bambu Lab's first laser: enclosed 55W CO₂ with a 600 × 300 mm bed, camera alignment and an optional 3 m conveyor",
+  "tldr": "The R1 is Bambu Lab's first standalone laser cutter, announced on September 22, 2026 and not yet delivered: pre-orders are open, with shipping now expected in November 2026. It is an enclosed 55W CO₂ machine with a 600 × 300 mm bed, up to 1,000 mm/s, a camera and sensor system for alignment and focus, and an optional conveyor for material up to 3 m long. Bambu Lab lists $2,499 / €2,499. Early hands-on reviews exist, but no buyer has received one yet, and specs, software and prices may still change before delivery.",
+  "mainObjective": "Enclosed 55W CO₂ cutting and engraving for makers already in the Bambu Lab ecosystem",
+  "bestFor": [
+    "Upgrading from diode",
+    "Acrylic & wood cutting",
+    "Bambu Lab users",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 2499,
+    "max": 3499,
+    "currency": "USD",
+    "note": "Pre-order price, Bambu Lab store (Oct 2026): $2,499 / €2,499 for the R1 alone; US bundles reported at $3,289 with riser base and conveyor and $3,499 with rotary as well. Not delivered yet; prices may change."
+  },
+  "specs": {
+    "power": "55W CO₂",
+    "workArea": "600 × 300 mm (23.6 × 11.8 in)",
+    "software": [
+      "Bambu Suite"
+    ],
+    "connectivity": [
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "cutExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "1,000 mm/s",
+        "avgEngraveSpeed": "—",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Acrylic",
+      "Leather",
+      "Paper & fabric",
+      "Glass & stone",
+      "Coated metal"
+    ],
+    "cut": [
+      "Plywood up to 18 mm (Bambu Lab figure)",
+      "Acrylic up to 20 mm (Bambu Lab figure)",
+      "Leather",
+      "Paper & card",
+      "Fabric"
+    ],
+    "cannot": [
+      "Bare metal marking",
+      "PVC and vinyl (chlorine fumes)",
+      "Use without exhaust or air purifier"
+    ]
+  },
+  "pros": [
+    "600 × 300 mm enclosed CO₂ bed at $2,499, below most enclosed 55W rivals",
+    "Bird's-eye and toolhead cameras, distance laser and XY encoders for alignment and auto-focus",
+    "Optional conveyor takes material up to 3 m long, and the riser base handles taller objects"
+  ],
+  "cons": [
+    "Not delivered yet: shipping slipped from October to November 2026 and there is no long-term feedback",
+    "Bambu Suite only at launch; LightBurn support is promised without a date",
+    "Class 1 safety is lost once the riser base or conveyor is fitted, and the purifier, fire extinguisher and encoder are extra"
+  ],
+  "beginnerNotes": "The R1 is announced but not yet in buyers' hands. If you need a CO₂ laser now, compare it with machines already shipping, such as the xTool P2S. Plan for ventilation: the R1 needs an exhaust to the outside or Bambu Lab's air purifier, sold separately.",
+  "proTips": "Wait for the first deliveries and independent cutting tests before committing a business to it. If you plan to cut long parts, price the riser base and conveyor bundle from the start, and remember that the machine is no longer Class 1 with them fitted: eye protection becomes mandatory.",
+  "primaryUse": "Enclosed 55W CO₂ for cutting and engraving wood, acrylic and leather, with long-material feed",
+  "rating": {
+    "overall": 8,
+    "value": 8.2,
+    "easeOfUse": 8.6,
+    "capability": 8,
+    "buildQuality": 8.2
+  },
+  "similarModels": [
+    "xtool-p2s",
+    "gweike-cloud-55w",
+    "omtech-polar-2-70w"
+  ],
+  "faq": [
+    {
+      "question": "When will the Bambu Lab R1 ship, and how much does it cost?",
+      "answer": "Pre-orders opened on September 22, 2026 at $2,499 in the US and €2,499 in Europe. Bambu Lab first announced shipping in October 2026; in October its stores showed estimated shipping dates in November 2026. Until machines are delivered, specs, prices and dates may still change."
+    },
+    {
+      "question": "What can the R1 cut?",
+      "answer": "Bambu Lab quotes up to 18 mm plywood and 20 mm acrylic, plus leather, paper and fabric. It also engraves glass, stone and coated metal. These are manufacturer figures; we have not measured cutting speeds or thicknesses yet."
+    },
+    {
+      "question": "R1 or xTool P2S?",
+      "answer": "Both are enclosed 55W CO₂ machines with a bed around 600 × 300 mm and camera placement. The P2S has been on sale for longer and supports LightBurn; the R1 costs less at launch and fits into Bambu Lab's software and MakerWorld. Until the R1 ships and is tested, the P2S is the safer choice."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "smoke-filter",
+      "availability": "optional"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/bambu-lab-r1/01.webp",
+  "images": [
+    {
+      "src": "/machines/bambu-lab-r1/01.webp",
+      "alt": "Bambu Lab R1 CO₂ laser cutter: Bambu Lab"
+    },
+    {
+      "src": "/machines/bambu-lab-r1/02.webp",
+      "alt": "Bambu Lab R1 on a workbench next to stock and finished projects: Bambu Lab"
+    },
+    {
+      "src": "/machines/bambu-lab-r1/03.webp",
+      "alt": "Bambu Lab R1 with the lid open, showing the camera field over the bed: Bambu Lab"
+    },
+    {
+      "src": "/machines/bambu-lab-r1/04.webp",
+      "alt": "Bambu Lab R1 in a home workshop: Bambu Lab"
+    },
+    {
+      "src": "/machines/bambu-lab-r1/05.webp",
+      "alt": "Layered acrylic piece shown by Bambu Lab at the R1 launch: Bambu Lab"
+    }
+  ],
+  "powerRating": "55W",
+  "laserCapabilities": [
+    "co2"
+  ],
+  "capabilityTags": [
+    "co2"
+  ],
+  "releaseDate": "2026-09",
+  "announced": {
+    "expected": "2026-11"
+  },
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "On paper, the R1 brings a full-size enclosed CO₂ laser to Bambu Lab's ecosystem at an aggressive launch price: a 600 × 300 mm bed, 1,000 mm/s, cameras, distance sensing and encoders for automatic alignment and focus, plus a conveyor for long parts. Makers who already use Bambu Lab printers and MakerWorld get one account and one software for both.",
+    "limitations": "The machine is not delivered yet and shipping has already slipped once. Software is limited to Bambu Suite until LightBurn support arrives, and the enclosure loses its Class 1 rating with the riser base or conveyor. Ventilation, fire suppression and the precision encoder cost extra, so the real budget is higher than $2,499."
+  },
+  "standoutFeatures": [
+    {
+      "id": "r1-trisense",
+      "title": "Camera and sensor alignment",
+      "body": "A bird's-eye camera, toolhead cameras, a distance laser for focus and XY encoders place designs and adjust focus automatically."
+    },
+    {
+      "id": "r1-conveyor",
+      "title": "Material up to 3 m long",
+      "body": "With the optional riser base and conveyor, the R1 feeds stock up to 3,000 mm long through the 600 × 300 mm bed."
+    },
+    {
+      "id": "r1-ecosystem",
+      "title": "Bambu Lab ecosystem",
+      "body": "The R1 uses the same Bambu Lab account, Bambu Suite software and MakerWorld project library as the brand's 3D printers."
+    }
+  ]
+}

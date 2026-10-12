@@ -188,6 +188,13 @@ export const fr: Dictionary = {
   },
   machine: {
     galleryCount: "{count} photos du fabricant",
+    announcedBadge: "Prochainement",
+    announcedOn: "Annoncée en",
+    announcedTitle: "Prochainement",
+    announcedBody: "{brand} a annoncé cette machine, mais elle n’est pas encore livrée. Caractéristiques et prix peuvent encore changer.",
+    announcedExpected: "Sortie prévue : {date}.",
+    notRatedYet: "Pas encore notée",
+    notRatedYetBody: "Nous notons une machine une fois qu’elle est livrée et que des résultats réels existent.",
     discontinuedBadge: "Arrêtée",
     discontinuedTitle: "Machine arrêtée",
     discontinuedBody:

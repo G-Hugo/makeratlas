@@ -1,0 +1,127 @@
+{
+  "tagline": "Plateforme hybride annoncée : CO₂ de 55 W sur portique et diode galvo de 20 W, avec sources UV, MOPA et fibre en option",
+  "tldr": "La X1 est une plateforme xTool dévoilée fin août 2026 et pas encore livrée. Toutes les X1 partent d’une tête CO₂ de 55 W sur portique ; un module galvo à diode de 20 W, porté par le portique, ajoute une gravure rapide et est indispensable pour les sources en option UV de 5 W, MOPA de 60 W et fibre de 30 W. xTool annonce une surface de travail maximale de 615 × 320 mm, jusqu’à 6 000 mm/s en mode galvo et un passage traversant pour des projets jusqu’à 3 m. Un acompte remboursable de 100 $ est ouvert ; xTool indique que les prix seront dévoilés le 28 octobre et que les expéditions commencent le 29 octobre 2026. D’ici là, le prix est inconnu, et caractéristiques et dates peuvent changer.",
+  "mainObjective": "Une seule machine fermée pour la découpe CO₂ et la gravure galvo, extensible plus tard au verre et au métal",
+  "primaryUse": "Plateforme fermée CO₂ et galvo pour la découpe, la gravure rapide et, en option, le verre ou le métal",
+  "beginnerNotes": "La X1 est annoncée, pas encore expédiée. Si vous n’avez besoin que de découpe CO₂, une machine déjà en vente comme la xTool P2S est une valeur connue. La X1 a du sens si vous comptez ajouter plus tard le verre ou le métal et voulez une seule machine pour tout.",
+  "proTips": "Si vous versez l’acompte, attendez la grille de prix du 28 octobre avant de choisir une configuration. Prenez la version CO₂ + diode galvo si vous pensez ajouter l’UV, la MOPA ou la fibre : le module galvo est indispensable pour elles. Comparez le coût de la base plus une source supplémentaire avec une F2 Ultra ou une F2 Ultra UV dédiée.",
+  "bestFor": [
+    "Petite entreprise",
+    "Ateliers multi-matériaux",
+    "Passer de la diode au CO₂",
+    "Verre et métal plus tard"
+  ],
+  "pros": [
+    "CO₂ de 55 W pour la découpe et diode galvo de 20 W pour la gravure rapide dans un même boîtier",
+    "Sources en option UV de 5 W, MOPA de 60 W et fibre de 30 W sur la même machine, au lieu d’acheter plusieurs lasers galvo",
+    "Surface de travail maximale de 615 × 320 mm, trois caméras, base AutoLift et passage traversant jusqu’à 3 m"
+  ],
+  "cons": [
+    "Pas encore livrée, et prix inconnu jusqu’au 28 octobre 2026",
+    "L’UV, la MOPA et la fibre demandent le module galvo à diode plus chaque source : le système complet coûtera bien plus que la base",
+    "La surface utile dépend de la source : xTool annonce 414 × 226 mm pour le relief sur métal ; aucune épaisseur de découpe CO₂ publiée"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois, cuir et papier cartonné",
+      "Acrylique",
+      "Métal peint ou revêtu (diode)",
+      "Verre et cristal, en surface et en interne (UV en option)",
+      "Métal nu, couleur et relief (MOPA ou fibre en option)"
+    ],
+    "cut": [
+      "Bois",
+      "Acrylique transparent",
+      "Cuir, papier et tissu",
+      "Métal fin (fibre ou MOPA en option, aucune épaisseur publiée)"
+    ],
+    "cannot": [
+      "Métal nu sans source fibre ou MOPA en option",
+      "Gravure interne du verre sans la source UV en option",
+      "PVC et vinyle (fumées chlorées)"
+    ]
+  },
+  "priceRange": {
+    "note": "Prix pas encore annoncé (oct. 2026) ; estimation d’après la P2S CO₂ de 55 W d’xTool (2 999 $) et sa gamme galvo F2 Ultra (à partir de 4 299 $). xTool prend un acompte remboursable de 100 $ et annonce les configurations et les prix pour le 28 octobre 2026."
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Pas encore mesuré"
+      },
+      "cutExample": {
+        "description": "Pas encore mesuré"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quand la xTool X1 sera-t-elle livrée, et combien coûtera-t-elle ?",
+      "answer": "xTool n’a pas encore publié de prix. Un acompte remboursable de 100 $ est ouvert du 12 au 28 octobre 2026 ; xTool indique que les configurations et les prix seront dévoilés à l’ouverture du paiement final, le 28 octobre, et que les expéditions commencent le 29 octobre avec un stock de lancement limité. Jusqu’à la livraison, prix, caractéristiques et dates peuvent changer."
+    },
+    {
+      "question": "Quelles sources laser la X1 accepte-t-elle ?",
+      "answer": "Toutes les X1 ont une tête CO₂ de 55 W. La version X1 CO₂ + Diode Galvo ajoute un module galvo à diode de 20 W, indispensable aussi pour les sources en option UV de 5 W, MOPA de 60 W et fibre de 30 W. La version Single CO₂ peut recevoir le module galvo plus tard."
+    },
+    {
+      "question": "X1 ou F2 Ultra ?",
+      "answer": "xTool présente la X1 comme la machine polyvalente des grands projets, avec une gravure galvo jusqu’à 6 000 mm/s sur 615 × 320 mm. La gamme F2 Ultra est plus rapide (jusqu’à 15 000 mm/s), plus compacte et déjà en vente. Choisissez selon la taille de vos pièces et votre besoin de découpe CO₂."
+    }
+  ],
+  "moduleSystem": {
+    "headline": "CO₂ sur portique et tête galvo à sources interchangeables",
+    "description": "La X1 associe une tête CO₂ de 55 W pour la découpe et une tête galvo portée par le portique. La tête galvo intègre une diode de 20 W et accepte en option une source UV de 5 W, MOPA de 60 W ou fibre de 30 W.",
+    "options": [
+      {
+        "label": "CO₂ 55 W"
+      },
+      {
+        "label": "Diode galvo 20 W"
+      },
+      {
+        "label": "UV 5 W (option)"
+      },
+      {
+        "label": "MOPA 60 W (option)"
+      },
+      {
+        "label": "Fibre 30 W (option)"
+      }
+    ]
+  },
+  "images": [
+    {
+      "alt": "Plateforme laser hybride xTool X1 : xTool"
+    },
+    {
+      "alt": "Présentation de la xTool X1 : cinq sources laser, surface de travail de 615 × 320 mm et trois caméras : xTool"
+    },
+    {
+      "alt": "Zone de gravure interne du verre de la xTool X1 comparée à un laser UV classique : xTool"
+    },
+    {
+      "alt": "Zones de gravure couleur et de relief sur métal de la xTool X1 : xTool"
+    },
+    {
+      "alt": "Réalisations en bois, acrylique et papier faites avec le laser CO₂ de 55 W de la xTool X1 : xTool"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La X1 cherche à remplacer deux ou trois machines par une seule : un CO₂ de 55 W pour découper, une diode galvo qui grave bien plus vite qu’une tête sur portique, et des sources UV, MOPA et fibre en option pour le verre et le métal. La surface de travail est grande pour du galvo, et les caméras, la base AutoLift et le passage traversant annoncent une machine pensée pour la production en petite entreprise.",
+    "limitations": "On ne sait encore rien du prix, et aucun test indépendant n’existe. Chaque source supplémentaire s’ajoutera au coût du module galvo, et la surface utile diminue pour certains procédés. xTool n’a publié ni épaisseurs de découpe CO₂, ni taille de spot, ni dimensions de la machine : la comparaison avec la P2S et la F2 Ultra reste théorique jusqu’à la livraison."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Tête galvo sur portique",
+      "body": "Le système Hybrid Motion d’xTool déplace les miroirs galvo avec le portique, pour graver jusqu’à 6 000 mm/s sur une surface de 615 × 320 mm."
+    },
+    {
+      "title": "Cinq sources laser",
+      "body": "CO₂ de 55 W et diode de 20 W, avec en option des sources UV de 5 W, MOPA de 60 W et fibre de 30 W montées dans la tête galvo."
+    },
+    {
+      "title": "Projets jusqu’à 3 m",
+      "body": "Un passage traversant laisse circuler des pièces longues, jusqu’à 3 m selon xTool, à travers la machine."
+    }
+  ]
+}

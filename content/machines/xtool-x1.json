@@ -1,0 +1,217 @@
+{
+  "id": "xtool-x1",
+  "slug": "xtool-x1",
+  "name": "xTool X1",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "Announced hybrid platform: 55W CO₂ gantry plus a 20W diode galvo, with optional UV, MOPA and fiber sources",
+  "tldr": "The X1 is an xTool platform revealed in late August 2026 and not yet delivered. Every X1 starts with a 55W CO₂ head on a gantry; a 20W diode galvo module, moving with the gantry, adds fast engraving and is required for the optional 5W UV, 60W MOPA and 30W fiber sources. xTool gives a maximum working area of 615 × 320 mm, up to 6,000 mm/s in galvo mode and a pass-through for projects up to 3 m. A refundable $100 deposit is open; xTool says prices will be revealed on October 28 and shipping starts on October 29, 2026. Until then, prices are unknown, and specs and dates may change.",
+  "mainObjective": "One enclosed machine for CO₂ cutting and galvo engraving, expandable to glass and metal later",
+  "bestFor": [
+    "Small business",
+    "Multi-material shops",
+    "Upgrading from diode",
+    "Glass & metal later"
+  ],
+  "priceRange": {
+    "min": 3000,
+    "max": 6000,
+    "currency": "USD",
+    "note": "Price not announced yet (Oct 2026); estimate based on xTool's 55W CO₂ P2S ($2,999) and its galvo F2 Ultra line (from $4,299). xTool takes a refundable $100 deposit and says configurations and prices will be revealed on October 28, 2026."
+  },
+  "specs": {
+    "power": "55W CO₂ + 20W diode galvo",
+    "workArea": "615 × 320 mm (24.2 × 12.6 in)",
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "cutExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "6,000 mm/s (galvo)",
+        "avgEngraveSpeed": "—",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood, leather & cardstock",
+      "Acrylic",
+      "Painted & coated metal (diode)",
+      "Glass & crystal, surface and inner (optional UV)",
+      "Bare metal, color and embossing (optional MOPA or fiber)"
+    ],
+    "cut": [
+      "Wood",
+      "Clear acrylic",
+      "Leather, paper & fabric",
+      "Thin metal (optional fiber or MOPA, no thickness published)"
+    ],
+    "cannot": [
+      "Bare metal without an optional fiber or MOPA source",
+      "Inner glass engraving without the optional UV source",
+      "PVC and vinyl (chlorine fumes)"
+    ]
+  },
+  "pros": [
+    "55W CO₂ for cutting and a 20W diode galvo for fast engraving in one enclosure",
+    "Optional 5W UV, 60W MOPA and 30W fiber sources on the same machine, instead of buying separate galvo lasers",
+    "615 × 320 mm maximum working area, triple cameras, AutoLift base and pass-through up to 3 m"
+  ],
+  "cons": [
+    "Not delivered yet and price unknown until October 28, 2026",
+    "UV, MOPA and fiber need the diode galvo module plus each source, so the full system will cost far more than the base",
+    "Working area depends on the source: xTool gives 414 × 226 mm for metal embossing; no CO₂ cutting thickness published"
+  ],
+  "beginnerNotes": "The X1 is announced, not shipping. If you only need CO₂ cutting, a machine already on sale such as the xTool P2S is a known quantity. The X1 makes sense if you expect to add glass or metal work later and want a single machine for it.",
+  "proTips": "If you place the deposit, wait for the October 28 price list before choosing a configuration. Pick the CO₂ + diode galvo version if you might add UV, MOPA or fiber later: the galvo module is required for them. Compare the cost of the base plus one extra source with a dedicated F2 Ultra or F2 Ultra UV.",
+  "primaryUse": "Enclosed CO₂ and galvo platform for cutting, fast engraving and optional glass or metal work",
+  "rating": {
+    "overall": 8,
+    "value": 7,
+    "easeOfUse": 8.6,
+    "capability": 8.6,
+    "buildQuality": 8.6
+  },
+  "similarModels": [
+    "xtool-p2s",
+    "xtool-f2-ultra",
+    "xtool-p3"
+  ],
+  "faq": [
+    {
+      "question": "When does the xTool X1 ship, and how much will it cost?",
+      "answer": "xTool has not published a price yet. A refundable $100 deposit is open from October 12 to October 28, 2026; xTool says configurations and prices will be revealed when final payment opens on October 28, and that shipping starts on October 29 with limited launch stock. Until delivery, prices, specs and dates may change."
+    },
+    {
+      "question": "Which laser sources can the X1 use?",
+      "answer": "Every X1 has a 55W CO₂ head. The X1 CO₂ + Diode Galvo version adds a 20W diode galvo module, which is also required for the optional 5W UV, 60W MOPA and 30W fiber sources. The Single CO₂ version can take the galvo module later."
+    },
+    {
+      "question": "X1 or an F2 Ultra?",
+      "answer": "xTool positions the X1 for versatility and larger projects, with galvo engraving up to 6,000 mm/s over a 615 × 320 mm area. The F2 Ultra series is faster (up to 15,000 mm/s) and more compact, and is already on sale. Choose by the size of your work and whether you need CO₂ cutting."
+    }
+  ],
+  "moduleSystem": {
+    "style": "dual-laser",
+    "headline": "CO₂ gantry plus galvo head with swappable sources",
+    "description": "The X1 pairs a 55W CO₂ head for cutting with a galvo head that moves with the gantry. The galvo head carries a 20W diode and accepts optional 5W UV, 60W MOPA or 30W fiber sources.",
+    "options": [
+      {
+        "power": "55W",
+        "laserKind": "co2",
+        "label": "55W CO₂"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode galvo"
+      },
+      {
+        "power": "5W",
+        "laserKind": "uv",
+        "label": "5W UV (optional)"
+      },
+      {
+        "power": "60W",
+        "laserKind": "fiber",
+        "label": "60W MOPA (optional)"
+      },
+      {
+        "power": "30W",
+        "laserKind": "fiber",
+        "label": "30W fiber (optional)"
+      }
+    ]
+  },
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "smoke-filter",
+      "availability": "optional"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/xtool-x1/01.webp",
+  "images": [
+    {
+      "src": "/machines/xtool-x1/01.webp",
+      "alt": "xTool X1 hybrid laser platform: xTool"
+    },
+    {
+      "src": "/machines/xtool-x1/02.webp",
+      "alt": "xTool X1 feature overview: five laser sources, 24.2 × 12.6 in working area and triple cameras: xTool"
+    },
+    {
+      "src": "/machines/xtool-x1/03.webp",
+      "alt": "xTool X1 glass inner engraving area compared with a typical UV laser: xTool"
+    },
+    {
+      "src": "/machines/xtool-x1/04.webp",
+      "alt": "xTool X1 metal color engraving and embossing areas: xTool"
+    },
+    {
+      "src": "/machines/xtool-x1/05.webp",
+      "alt": "Wood, acrylic and paper projects made with the xTool X1 55W CO₂ laser: xTool"
+    }
+  ],
+  "powerRating": "55W",
+  "laserCapabilities": [
+    "co2",
+    "diode",
+    "uv",
+    "fiber"
+  ],
+  "capabilityTags": [
+    "co2",
+    "diode"
+  ],
+  "releaseDate": "2026-08",
+  "announced": {
+    "expected": "2026-10"
+  },
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The X1 tries to replace two or three machines with one: a 55W CO₂ for cutting, a diode galvo that engraves far faster than a gantry head, and optional UV, MOPA and fiber sources for glass and metal. The working area is large for galvo work, and xTool's cameras, AutoLift base and pass-through point to a production-friendly design for small businesses.",
+    "limitations": "Nothing is known about price yet, and no independent test exists. Each extra source will add cost on top of the galvo module, and the usable area shrinks for some processes. xTool has not published CO₂ cutting thicknesses, spot sizes or the machine's dimensions, so the comparison with the P2S and F2 Ultra stays theoretical until delivery."
+  },
+  "standoutFeatures": [
+    {
+      "id": "x1-hybrid-motion",
+      "title": "Galvo head on a gantry",
+      "body": "xTool's Hybrid Motion moves the galvo mirrors with the gantry, for engraving up to 6,000 mm/s over a 615 × 320 mm area."
+    },
+    {
+      "id": "x1-laser-swap",
+      "title": "Five laser sources",
+      "body": "55W CO₂ and 20W diode, with optional 5W UV, 60W MOPA and 30W fiber sources swapped into the galvo head."
+    },
+    {
+      "id": "x1-passthrough",
+      "title": "Projects up to 3 m",
+      "body": "A pass-through lets long material, up to 118 in (3 m) according to xTool, travel through the machine."
+    }
+  ]
+}
