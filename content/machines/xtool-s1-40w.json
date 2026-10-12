@@ -21,7 +21,7 @@
   },
   "specs": {
     "power": "40W diode (enclosed)",
-    "workArea": "430 × 390 mm",
+    "workArea": "498 × 319 mm (19.6 × 12.5 in)",
     "software": [
       "xTool Creative Space",
       "LightBurn"
@@ -44,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "400 mm/s",
+        "maxSpeed": "600 mm/s",
         "avgEngraveSpeed": "80–180 mm/s fill",
         "avgCutSpeed": "4–12 mm/s on 3 mm wood"
       }

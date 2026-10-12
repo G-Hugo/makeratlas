@@ -21,7 +21,7 @@
   },
   "specs": {
     "power": "20W / 40W diode (enclosed)",
-    "workArea": "430 × 390 mm",
+    "workArea": "498 × 319 mm (19.6 × 12.5 in)",
     "software": [
       "xTool Creative Space",
       "LightBurn"
@@ -44,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "400 mm/s",
+        "maxSpeed": "600 mm/s",
         "avgEngraveSpeed": "80–180 mm/s fill",
         "avgCutSpeed": "4–12 mm/s on 3 mm wood"
       }
@@ -74,7 +74,7 @@
   "pros": [
     "Fully enclosed: major safety and smoke improvement vs open-frame",
     "Built-in exhaust filter option for apartment use",
-    "Same large work area as D1 Pro in a safer package",
+    "Work area close to the D1 Pro's, in a safer enclosed package",
     "LightBurn compatible",
     "Camera alignment available on some configs"
   ],
@@ -110,7 +110,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/xtool-s1/01.webp",
   "mainObjective": "Safer enclosed home engraving with cleaner smoke control",
   "images": [

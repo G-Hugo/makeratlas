@@ -21,7 +21,7 @@
   },
   "specs": {
     "power": "20W diode",
-    "workArea": "410 × 400 mm",
+    "workArea": "590 × 595 mm (23.2 × 23.4 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"

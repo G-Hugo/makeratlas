@@ -1,6 +1,6 @@
 {
   "tagline": "Diode ultra petit budget avec une qualité de châssis surprenante pour le prix",
-  "tldr": "TwoTrees sous-cote Atomstack et Ortur tout en proposant une plateforme diode 5,5–40 W utilisable. Bon pour tester le loisir. Attendez-vous à moins de finition, une communauté plus petite et plus de variabilité d’une unité à l’autre que les marques établies.",
+  "tldr": "TwoTrees sous-cote Atomstack et Ortur tout en proposant une plateforme diode 5,5 W utilisable, qui accepte les modules 10 W et 20 W de TwoTrees. Bon pour tester le loisir. Attendez-vous à moins de finition, une communauté plus petite et plus de variabilité d’une unité à l’autre que les marques établies.",
   "mainObjective": "Laser de bureau le moins cher pour expérimenter gravure bois et cuir",
   "primaryUse": "Diode petit budget minimum pour expériences de gravure légère et découvrir le loisir.",
   "beginnerNotes": "Ne choisissez la TTS-55 que si chaque euro compte. Si vous pouvez viser 400–500 $, l’Ortur LM3 est un pari plus sûr à long terme.",
@@ -21,7 +21,7 @@
   "cons": [
     "Contrôle qualité inconstant entre lots",
     "Communauté anglophone réduite",
-    "Label 40 W très marketing",
+    "Pas d’option 40 W officielle : TwoTrees vend des modules 10 W et 20 W pour la TTS-55",
     "Structure ouverte : sécurité entièrement à votre charge",
     "Alignement parfois à ajuster à la sortie de boîte"
   ],

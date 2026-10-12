@@ -22,7 +22,7 @@
   },
   "specs": {
     "power": "10W / 20W diode (enclosed)",
-    "workArea": "300 × 300 mm",
+    "workArea": "125 × 125 mm (4.9 × 4.9 in)",
     "performance": {
       "precision": "0.01 mm",
       "engraveExample": {
@@ -37,7 +37,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "167 mm/s",
         "avgEngraveSpeed": "75–160 mm/s fill",
         "avgCutSpeed": "4–12 mm/s on 3 mm wood"
       }
@@ -47,7 +47,8 @@
       "LaserGRBL"
     ],
     "connectivity": [
-      "USB"
+      "USB",
+      "Bluetooth"
     ]
   },
   "materials": {
@@ -99,7 +100,7 @@
     "xtool-s1-20w"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/sculpfun-icube-pro/01.webp",

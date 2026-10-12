@@ -1,9 +1,9 @@
 {
   "tagline": "Châssis S30 Ultra d’entrée : orienté gravure, découpe légère",
-  "tldr": "Le S30 Ultra 10 W utilise le même châssis rigide que les modèles plus puissants, mais vise les makers qui gravent surtout bois, cuir et ardoise. Découpes plus lentes et limites d’épaisseur plus basses que les versions 20 W ou 22 W.",
+  "tldr": "Le S30 Ultra 11 W (tête d’entrée de Sculpfun, parfois annoncée 10 W) utilise le même châssis rigide que les modèles plus puissants, mais vise les makers qui gravent surtout bois, cuir et ardoise. Découpes plus lentes et limites d’épaisseur plus basses que les versions 22 W ou 33 W.",
   "mainObjective": "Priorité gravure avec découpe occasionnelle sur petites épaisseurs",
-  "primaryUse": "Module 10W · Sculpfun S30 Ultra",
-  "beginnerNotes": "Ce profil décrit le SKU 10W de Sculpfun S30 Ultra. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "primaryUse": "Module 11 W · Sculpfun S30 Ultra",
+  "beginnerNotes": "Ce profil décrit la tête 11 W de la Sculpfun S30 Ultra. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
   "proTips": "Optimisez la gravure avant la découpe : vitesse de balayage plus basse pour les photos. L’assistance air reste utile sur le cuir et le bois fin.",
   "bestFor": [
     "Atelier gravure",
@@ -43,7 +43,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module 10 W : vendu encore comme SKU distinct"
+    "note": "Boutique officielle Sculpfun, oct. 2026 : 399,99 $ la machine (stock UE, stock US épuisé), 489,99 $ avec LightBurn (épuisé)"
   },
   "specs": {
     "performance": {
@@ -57,25 +57,25 @@
   },
   "images": [
     {
-      "alt": "Graveuse laser Sculpfun S30 Ultra 10W : Sculpfun"
+      "alt": "Graveuse laser Sculpfun S30 Ultra 11W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun S30 Ultra 10W : Sculpfun"
+      "alt": "Graveuse laser Sculpfun S30 Ultra 11W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun S30 Ultra 10W : Sculpfun"
+      "alt": "Graveuse laser Sculpfun S30 Ultra 11W : Sculpfun"
     },
     {
-      "alt": "Graveuse laser Sculpfun S30 Ultra 10W : Sculpfun"
+      "alt": "Graveuse laser Sculpfun S30 Ultra 11W : Sculpfun"
     }
   ],
   "editorialDepth": {
-    "advantages": "Sculpfun S30 Ultra 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
-    "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez 20W ou 22W dans la gamme. Pas pour l’acrylique coulé ni le métal nu sans spray."
+    "advantages": "Sculpfun S30 Ultra 11W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Prix d’entrée Châssis ouvert raisonnable.",
+    "limitations": "À éviter si vous quotez déjà de la découpe 5 mm+ en série : regardez les têtes 22 W ou 33 W. Pas pour l’acrylique coulé ni le métal nu sans spray."
   },
   "faq": [
     {
-      "question": "La S30 Ultra 10 W est-elle la S30 Ultra 11 W de Sculpfun ?",
+      "question": "Est-ce la S30 Ultra 10 W citée par certaines annonces ?",
       "answer": "Sculpfun vend l’entrée de gamme S30 Ultra avec une tête de 11 W, et cette fiche couvre ce module d’entrée. Il partage le cadre, l’alimentation et le câble laser avec les têtes 22 W et 33 W : évoluer plus tard revient à changer seulement la tête. En octobre 2026, Sculpfun vendait les têtes seules à 299,99 $ (11 W), 399,99 $ (22 W) et 609,99 $ (33 W)."
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "question": "Commencer avec cette tête ou passer directement à la 22 W ?",
-      "answer": "Commencez ici si vous gravez surtout et voulez l’entrée la moins chère (380 à 520 $ sur les annonces suivies contre 690 $ pour le lot 22 W). Si vous savez déjà que vous découperez du 5 mm ou plus chaque semaine, acheter le lot plus puissant dès le départ revient moins cher que d’ajouter une tête à 399,99 $ ensuite."
+      "answer": "Commencez ici si vous gravez surtout et voulez l’entrée la moins chère (399,99 $ sur la boutique Sculpfun en octobre 2026 contre 539,99 à 569,99 $ pour la machine 22 W). Si vous savez déjà que vous découperez du 5 mm ou plus chaque semaine, acheter le lot plus puissant dès le départ revient moins cher que d’ajouter une tête à 399,99 $ ensuite."
     }
   ],
   "standoutFeatures": [

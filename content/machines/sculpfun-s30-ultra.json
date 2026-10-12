@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Strong cutting performance for a diode: popular upgrade from entry-level machines",
-  "tldr": "Sculpfun's flagship open-frame diode with up to 20W and a robust frame. Known for better-than-average cutting on thin wood thanks to beam compression. A common pick for makers who want more power without CO₂ prices.",
+  "tldr": "Sculpfun's flagship open-frame diode, sold with 11W, 22W or 33W heads on a robust frame. Known for better-than-average cutting on thin wood thanks to beam compression. A common pick for makers who want more power without CO₂ prices.",
   "bestFor": [
     "Cutting thin wood",
     "Hobby upgrades",
@@ -19,8 +19,8 @@
     "currency": "USD"
   },
   "specs": {
-    "power": "10W / 20W diode",
-    "workArea": "410 × 400 mm",
+    "power": "11W / 22W / 33W diode",
+    "workArea": "590 × 595 mm (23.2 × 23.4 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -57,7 +57,7 @@
       "Stainless (with spray)"
     ],
     "cut": [
-      "Basswood up to ~8 mm (20W, multiple passes)",
+      "Basswood up to ~8 mm (22W, multiple passes)",
       "Black acrylic (thin)",
       "Paper",
       "Fabric"
@@ -83,7 +83,7 @@
     "Still a diode: manage expectations vs. CO₂",
     "Assembly and squaring require patience"
   ],
-  "beginnerNotes": "Choose the S30 Ultra over basic Ortur if cutting thin wood matters to you. For engraving-only projects, save money with a 10W model. Budget for air assist, honeycomb bed, and safety glasses.",
+  "beginnerNotes": "Choose the S30 Ultra over basic Ortur if cutting thin wood matters to you. For engraving-only projects, save money with the 11W head. Budget for air assist, honeycomb bed, and safety glasses.",
   "proTips": "Sculpfun publishes material test cards: use them. Multiple slow passes beat one fast pass for cut quality. Extension kits are useful but check frame rigidity before going oversized.",
   "primaryUse": "Mid-range hobby diode laser focused on engraving and moderate cutting of organic materials.",
   "rating": {
@@ -99,7 +99,7 @@
     "xtool-d1-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "image": "/machines/sculpfun-s30-ultra/01.webp",
   "mainObjective": "Strong diode cutting & engraving without CO₂ pricing",
   "images": [

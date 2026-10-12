@@ -1,12 +1,12 @@
 {
   "id": "sculpfun-s30-ultra-10w",
   "slug": "sculpfun-s30-ultra-10w",
-  "name": "Sculpfun S30 Ultra 10W",
+  "name": "Sculpfun S30 Ultra 11W",
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
   "tagline": "Entry S30 Ultra frame: engraving-first, light cutting",
-  "tldr": "The 10W S30 Ultra uses the same rigid frame as higher-power models but targets makers who mainly engrave wood, leather, and slate. Expect slower cuts and thinner material limits than the 20W or 22W versions.",
+  "tldr": "The S30 Ultra 11W (Sculpfun's entry head, sometimes listed as 10W) uses the same rigid frame as higher-power models but targets makers who mainly engrave wood, leather, and slate. Expect slower cuts and thinner material limits than the 22W or 33W versions.",
   "bestFor": [
     "Engraving-focused shops",
     "Leather & wood gifts",
@@ -14,14 +14,14 @@
     "Detail-heavy work"
   ],
   "priceRange": {
-    "min": 380,
-    "max": 520,
+    "min": 400,
+    "max": 490,
     "currency": "USD",
-    "note": "10W module: still sold as a distinct SKU"
+    "note": "Official Sculpfun store, Oct 2026: $399.99 for the machine (EU stock, US stock sold out), $489.99 with LightBurn (sold out)"
   },
   "specs": {
-    "power": "10W diode",
-    "workArea": "410 × 400 mm",
+    "power": "11W diode",
+    "workArea": "600 × 600 mm (23.6 × 23.6 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -80,9 +80,9 @@
     "Cutting 5 mm stock takes several passes at 2–4 mm/s",
     "Adding a stronger head later costs more than starting with a stronger kit"
   ],
-  "beginnerNotes": "This profile is the 10W SKU on Sculpfun S30 Ultra. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile is the 11W head on the Sculpfun S30 Ultra. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
   "proTips": "Run material test grids at engraving speeds first. Add air assist for light cuts. If cut jobs exceed ~30% of your week, open the higher-watt profile on this site and compare times.",
-  "primaryUse": "10W module · Sculpfun S30 Ultra",
+  "primaryUse": "11W module · Sculpfun S30 Ultra",
   "rating": {
     "overall": 7.6,
     "value": 8.4,
@@ -102,20 +102,20 @@
   "images": [
     {
       "src": "/machines/sculpfun-s30-ultra-10w/01.webp",
-      "alt": "Sculpfun S30 Ultra 10W laser engraver: Sculpfun"
+      "alt": "Sculpfun S30 Ultra 11W laser engraver: Sculpfun"
     }
   ],
   "modelLine": "sculpfun-s30-ultra",
-  "powerRating": "10W",
+  "powerRating": "11W",
   "releaseDate": "2023-03",
   "tierEditorialOverride": true,
   "editorialDepth": {
-    "advantages": "Sculpfun S30 Ultra 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 22W in the line. Not for cast acrylic or bare metal without spray."
+    "advantages": "Sculpfun S30 Ultra 11W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
+    "limitations": "Skip if you already quote 5 mm+ cutting in production: see the 22W or 33W heads. Not for cast acrylic or bare metal without spray."
   },
   "faq": [
     {
-      "question": "Is the S30 Ultra 10W the same as Sculpfun's S30 Ultra 11W?",
+      "question": "Is this the S30 Ultra 10W some listings mention?",
       "answer": "Sculpfun sells the entry S30 Ultra as an 11W head, and this profile covers that entry module. It shares the frame, power adapter and laser cable with the 22W and 33W heads, so upgrading later means swapping only the head. In October 2026 Sculpfun sold the heads separately at $299.99 (11W), $399.99 (22W) and $609.99 (33W)."
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "question": "Should I start with this head or go straight to the 22W?",
-      "answer": "Start here if you mostly engrave and want the lowest entry ($380–520 on our tracked listings against $690 for the 22W bundle). If you already know you will cut 5 mm or more every week, buying the stronger kit up front costs less than adding a $399.99 head later."
+      "answer": "Start here if you mostly engrave and want the lowest entry ($399.99 on Sculpfun's store in October 2026 against $539.99–569.99 for the 22W machine). If you already know you will cut 5 mm or more every week, buying the stronger kit up front costs less than adding a $399.99 head later."
     }
   ],
   "standoutFeatures": [

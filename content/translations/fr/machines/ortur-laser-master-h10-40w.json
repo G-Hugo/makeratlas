@@ -1,9 +1,9 @@
 {
-  "tagline": "H10 40 W : série H semi-fermée Ortur, châssis plus rapide et mieux intégré que le LM3",
-  "tldr": "L’Ortur Laser Master H10 40 W est le SKU 40 W de la gamme H10. Montée en gamme Ortur par rapport au LM3 structure ouverte : châssis plus intégré et vitesses de déplacement annoncées plus élevées. Vérifiez la puissance optique sur l’annonce : ne supposez pas le marketing watts combinés.",
+  "tagline": "H10 avec module 40 W, configuration non officielle : Ortur ne vend cette machine qu’en 10 W ou 20 W",
+  "tldr": "Ortur ne vend pas de H10 40 W : sa page H10 ne propose que des modules 10 W et 20 W, et le module 40 W LU3-40A vendu à part est réservé aux LM3 et F10, pas à la H10. Cette fiche décrit les annonces qui associent le cadre H10 à un module 40 W. Considérez-la comme une configuration non officielle et faites confirmer par écrit la compatibilité et la garantie par le vendeur.",
   "mainObjective": "Maximum cut speed and depth in the line : engraving remains strong at tuned speeds",
-  "primaryUse": "Module 40W · Ortur Laser Master H10",
-  "beginnerNotes": "Ce profil décrit le SKU 40W de Ortur Laser Master H10. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
+  "primaryUse": "Module 40 W non officiel · Ortur Laser Master H10",
+  "beginnerNotes": "Cette fiche décrit une configuration 40 W non officielle : Ortur ne vend la H10 qu’avec un module 10 W ou 20 W. Lisez la FAQ ci-dessous, puis comparez les fiches officielles 10 W et 20 W via les pastilles avant d’acheter.",
   "proTips": "Chiffrez vos devis avec les benchmarks découpe de cette fiche. Testez l’évacuation avant les longues sessions sur bois épais.",
   "bestFor": [
     "Découpe max. de la gamme",
@@ -43,7 +43,7 @@
     ]
   },
   "priceRange": {
-    "note": "Module optique 40 W : vérifiez le SKU avant achat"
+    "note": "Configuration non officielle : Ortur ne liste pas de H10 40 W (oct. 2026), ce sont des prix de revendeurs"
   },
   "specs": {
     "performance": {

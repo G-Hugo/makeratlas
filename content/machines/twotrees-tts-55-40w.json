@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/twotrees-tts-55-40w/01.webp",
-  "tagline": "40W Ultra-budget diode with surprising build quality for the price",
-  "tldr": "TwoTrees TTS-55 40W is the 40W SKU on the TwoTrees twotrees tts 55 line. TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5. Verify optical power on the listing: do not assume combined-watt marketing.",
+  "tagline": "Unofficial 40W pairing on the TTS-55 frame: TwoTrees sells 10W and 20W modules only",
+  "tldr": "TwoTrees does not sell a TTS-55 40W: the TTS-55 Pro ships with a 5.5W module, and TwoTrees' store lists 10W and 20W upgrade modules for the TTS family, no 40W. This profile covers listings that pair the frame with a 40W module from another source. Treat it as an unofficial configuration and confirm the module's maker, optical rating and warranty.",
   "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
@@ -19,7 +19,7 @@
     "min": 349,
     "max": 499,
     "currency": "USD",
-    "note": "40W optical module: verify SKU before buying"
+    "note": "Unofficial configuration: TwoTrees does not list a 40W module for the TTS-55 (Oct 2026), so these are reseller prices"
   },
   "specs": {
     "power": "40W diode",
@@ -80,9 +80,9 @@
     "At $349–499 it overlaps with newer, faster 400 mm-class machines",
     "Widest spot of the line (~0.10 mm) and more smoke on an open 300 × 300 mm frame"
   ],
-  "beginnerNotes": "This profile is the 40W SKU on TwoTrees TTS-55. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile covers an unofficial 40W configuration: TwoTrees sells 10W and 20W modules for the TTS-55, not 40W. Read the FAQ below, then compare the 10W and 20W profiles via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
-  "primaryUse": "40W module · TwoTrees TTS-55",
+  "primaryUse": "Unofficial 40W pairing · TwoTrees TTS-55",
   "rating": {
     "overall": 7.5,
     "value": 8.3,

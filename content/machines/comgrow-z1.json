@@ -22,7 +22,7 @@
   },
   "specs": {
     "power": "5W / 10W / 20W diode",
-    "workArea": "300 × 300 mm",
+    "workArea": "400 × 400 mm (15.7 × 15.7 in)",
     "performance": {
       "precision": "0.01 mm",
       "engraveExample": {
@@ -93,7 +93,7 @@
     "atomstack-a5-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/comgrow-z1/01.webp",

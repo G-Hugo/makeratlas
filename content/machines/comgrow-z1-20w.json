@@ -23,7 +23,7 @@
   },
   "specs": {
     "power": "20W diode",
-    "workArea": "300 × 300 mm",
+    "workArea": "400 × 400 mm (15.7 × 15.7 in)",
     "performance": {
       "precision": "0.01 mm",
       "engraveExample": {

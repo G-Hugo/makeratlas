@@ -4,7 +4,7 @@
   "mainObjective": "Diode Ortur intégrée pour gravure plus rapide et setup plus propre que le LM3",
   "primaryUse": "Diode Ortur structure ouverte intégrée pour gravure plus rapide et découpe modérée de bois fin.",
   "beginnerNotes": "Choisissez le H10 plutôt que le LM3 si vous voulez une plateforme Ortur un peu plus moderne et pouvez dépenser un peu plus. Pour le maximum de tutoriels communautaires, le LM3 reste devant.",
-  "proTips": "Commencez en 20 W sauf cas de découpe clair : le 40 W ajoute du coût avec des gains limités sur l’épaisseur. Associez l’assistance air Ortur tôt pour des bords plus propres.",
+  "proTips": "Commencez en 20 W sauf si vous ne faites que graver : Ortur ne vend la H10 qu’avec un module 10 W ou 20 W, et la 20 W est livrée avec une pompe à air. Associez l’assistance air Ortur tôt pour des bords plus propres.",
   "bestFor": [
     "Montées en gamme Ortur",
     "Loisirs orientés vitesse",
@@ -20,7 +20,7 @@
   ],
   "cons": [
     "Toujours structure ouverte : protection oculaire requise",
-    "Marketing 40 W = puissance optique/combinée",
+    "Pas d’option 40 W officielle : Ortur réserve son module LU3-40A aux LM3 et F10, pas à la H10",
     "Moins éprouvé long terme que le volume communautaire LM3",
     "Assistance air souvent en option",
     "Pas un remplacement CO₂ pour ateliers acrylique"
@@ -47,7 +47,7 @@
     ]
   },
   "priceRange": {
-    "note": "Configs optiques 10 W, 20 W et 40 W disponibles"
+    "note": "Ortur ne vend la H10 qu’avec un module 10 W ou 20 W"
   },
   "specs": {
     "performance": {

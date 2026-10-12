@@ -6,8 +6,8 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/ortur-laser-master-h10-40w/01.webp",
-  "tagline": "40W Ortur's enclosed-style H-series: faster frame, tighter integration than LM3",
-  "tldr": "Ortur Laser Master H10 40W is the 40W SKU on the Ortur ortur laser master h10 line. The H10 is Ortur's step up from the open-frame LM3 line: a more integrated chassis with up to 20W diode power and higher advertised traverse speeds. Verify optical power on the listing: do not assume combined-watt marketing.",
+  "tagline": "Unofficial 40W pairing on the H10 frame: Ortur sells this machine with 10W or 20W only",
+  "tldr": "Ortur does not sell an H10 40W: its H10 page offers 10W and 20W modules only, and the separate LU3-40A 40W module is listed for the LM3 and F10, not the H10. This profile covers listings that pair the H10 frame with a 40W module. Treat it as an unofficial configuration and get the seller to confirm compatibility and warranty in writing.",
   "mainObjective": "Maximum cut speed and depth in the line: engraving remains strong at tuned speeds",
   "bestFor": [
     "Maximum cuts in line",
@@ -19,11 +19,11 @@
     "min": 649,
     "max": 899,
     "currency": "USD",
-    "note": "40W optical module: verify SKU before buying"
+    "note": "Unofficial configuration: Ortur does not list an H10 40W (Oct 2026), so these are reseller prices"
   },
   "specs": {
     "power": "40W diode",
-    "workArea": "400 × 400 mm",
+    "workArea": "300 × 300 mm (11.8 × 11.8 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -83,9 +83,9 @@
     "Heavier smoke and charring: air assist and ducted exhaust are mandatory",
     "Highest price of the H10 range: $649–899 on our tracked listings"
   ],
-  "beginnerNotes": "This profile is the 40W SKU on Ortur Laser Master H10. Read the TL;DR and benchmarks above, then compare other power options via the chips before buying.",
+  "beginnerNotes": "This profile covers an unofficial 40W configuration: Ortur sells the H10 with 10W or 20W modules only. Read the FAQ below, then compare the official 10W and 20W profiles via the chips before buying.",
   "proTips": "Treat engraving and cutting as separate profiles. Push cut speeds only after test squares on your material. Compare CO₂ only when clear acrylic or all-day production enters the picture.",
-  "primaryUse": "40W module · Ortur Laser Master H10",
+  "primaryUse": "Unofficial 40W pairing · Ortur Laser Master H10",
   "rating": {
     "overall": 7.8,
     "value": 7.4,

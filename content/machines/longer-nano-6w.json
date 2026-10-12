@@ -22,14 +22,14 @@
   },
   "specs": {
     "power": "6W diode",
-    "workArea": "130 × 130 mm (approx.)",
+    "workArea": "100 × 100 mm (3.9 × 3.9 in), 100 × 300 mm max",
     "software": [
       "Longer Laser",
       "LightBurn"
     ],
     "connectivity": [
       "USB",
-      "Bluetooth"
+      "Wi-Fi"
     ],
     "performance": {
       "precision": "0.01 mm",

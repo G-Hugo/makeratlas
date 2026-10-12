@@ -23,7 +23,7 @@
   },
   "specs": {
     "power": "10W diode",
-    "workArea": "400 × 400 mm",
+    "workArea": "300 × 300 mm (11.8 × 11.8 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -124,7 +124,7 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Ortur Laser Master H10 10W suits makers who sell marks, photos, and gifts more than daily panel cutting. Reasonable open-frame entry price.",
-    "limitations": "Skip if you already quote 5 mm+ cutting in production: see 20W or 40W in the line. Not for cast acrylic or bare metal without spray."
+    "limitations": "Skip if you already quote 5 mm+ cutting in production: see the 20W in the line. Not for cast acrylic or bare metal without spray."
   },
   "faq": [
     {

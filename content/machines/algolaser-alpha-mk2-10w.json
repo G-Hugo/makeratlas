@@ -16,10 +16,10 @@
     "Detail-heavy work"
   ],
   "priceRange": {
-    "min": 929,
-    "max": 1229,
+    "min": 289,
+    "max": 659,
     "currency": "USD",
-    "note": "10W optical module"
+    "note": "Official Algolaser store, Oct 2026: sold as the DIY KIT MK2 10W, $289 machine-only, $439 to $659 in kits, $599 to $889 with enclosure"
   },
   "specs": {
     "power": "10W diode",

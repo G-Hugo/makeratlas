@@ -23,7 +23,7 @@
   },
   "specs": {
     "power": "20W diode",
-    "workArea": "400 × 400 mm",
+    "workArea": "300 × 300 mm (11.8 × 11.8 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -117,7 +117,7 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "Ortur Laser Master H10 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "limitations": "Open-frame: glasses and exhaust required. Ortur offers no 40W module for the H10: if cutting takes over, look at its 40W machines (LM3, F10, H20). Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "faq": [
     {

@@ -19,11 +19,11 @@
     "min": 380,
     "max": 730,
     "currency": "USD",
-    "note": "10W, 20W, and 40W optical configs available"
+    "note": "Ortur sells the H10 with 10W or 20W modules only"
   },
   "specs": {
-    "power": "10W / 20W / 40W diode options",
-    "workArea": "400 × 400 mm",
+    "power": "10W / 20W diode options",
+    "workArea": "300 × 300 mm (11.8 × 11.8 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -82,13 +82,13 @@
   ],
   "cons": [
     "Still open frame: eye protection required",
-    "40W marketing is optical/combined power",
+    "No official 40W option: Ortur lists its LU3-40A module for the LM3 and F10, not the H10",
     "Less proven long-term than LM3 community volume",
     "Air assist often extra",
     "Not a CO₂ replacement for acrylic shops"
   ],
   "beginnerNotes": "Choose H10 over LM3 if you want a slightly more modern Ortur platform and can spend a bit more. For maximum community tutorials, LM3 still wins.",
-  "proTips": "Start with 20W unless you have a clear cutting use case: 40W adds cost with diminishing returns on thick cuts. Pair with Ortur air assist early for cleaner edges.",
+  "proTips": "Start with 20W unless you only engrave: Ortur sells the H10 with 10W or 20W modules only, and the 20W ships with a free air pump. Pair with Ortur air assist early for cleaner edges.",
   "primaryUse": "Integrated open-frame Ortur diode for faster engraving and moderate thin-wood cutting.",
   "rating": {
     "overall": 8.3,
@@ -103,7 +103,7 @@
     "algolaser-alpha-mk2"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/ortur-laser-master-h10/01.webp",

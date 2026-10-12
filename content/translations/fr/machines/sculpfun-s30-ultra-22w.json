@@ -1,6 +1,6 @@
 {
-  "tagline": "Flagship S30 Ultra actuel : puissance diode Sculpfun maximale",
-  "tldr": "Le S30 Ultra 22 W est ce que Sculpfun vend aujourd’hui comme config Ultra structure ouverte haut de gamme (souvent avec LightBurn). Meilleure marge de découpe de la famille ; ne le confondez pas avec les anciennes annonces 10 W ou 20 W.",
+  "tagline": "Tête S30 Ultra du milieu : forte découpe diode, un cran sous la 33 W",
+  "tldr": "La 22 W est la tête du milieu des trois S30 Ultra de Sculpfun (11, 22 et 33 W), souvent vendue avec LightBurn. C’est la plus grosse marge de découpe des fiches S30 Ultra de ce site ; la 33 W va plus loin. Les annonces « S30 Ultra 10 W » ou « 20 W » sont des appellations de revendeurs.",
   "mainObjective": "Faster cutting and deeper hobby cuts while keeping solid engraving capability",
   "primaryUse": "Module 22W · Sculpfun S30 Ultra",
   "beginnerNotes": "Ce profil décrit le SKU 22W de Sculpfun S30 Ultra. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
@@ -9,7 +9,7 @@
     "Découpe plus rapide",
     "Bois plus épais",
     "Panneaux",
-    "Montée depuis 10W"
+    "Montée depuis 11 W"
   ],
   "pros": [
     "Lot avec pompe à air automatique 24 V : prête à découper dès le déballage",
@@ -18,7 +18,7 @@
   ],
   "editorialDepth": {
     "advantages": "Choisissez le 22 W quand le temps de job sur tilleul 6–8 mm compte plus que le module gravure le plus lent. Vous restez sur le matériel Ultra actuel avec des mods documentés pour air assist et extraction. Pour un mix Etsy, c’est le SKU à comparer en premier.",
-    "limitations": "Sécurité Châssis ouvert et ventilation non négociables. L’acrylique transparent veut du CO₂. Les photos ultra fines peuvent être plus belles sur un 10 W réglé lentement. Comparez Ortur LM3 20 W et xTool S1 fermée si enfants ou animaux imposent une enceinte."
+    "limitations": "Sécurité Châssis ouvert et ventilation non négociables. L’acrylique transparent veut du CO₂. Les photos ultra fines peuvent être plus belles sur la tête 11 W réglée lentement. Comparez Ortur LM3 20 W et xTool S1 fermée si enfants ou animaux imposent une enceinte."
   },
   "cons": [
     "690 $ avec LightBurn : un gros saut par rapport à la tête d’entrée pour qui ne fait que graver",

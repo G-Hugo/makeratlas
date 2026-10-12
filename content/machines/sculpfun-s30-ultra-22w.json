@@ -5,13 +5,13 @@
   "brand": "Sculpfun",
   "category": "laser-engraver",
   "laserType": "diode",
-  "tagline": "Current S30 Ultra flagship: maximum Sculpfun diode power",
-  "tldr": "The 22W S30 Ultra is what Sculpfun sells today as the top open-frame Ultra config (often bundled with LightBurn). Best cut headroom in the family; do not confuse with older 10W or 20W listings.",
+  "tagline": "Middle S30 Ultra head: strong diode cutting, one step below the 33W",
+  "tldr": "The 22W is the middle of Sculpfun's three S30 Ultra heads (11W, 22W, 33W), often sold bundled with LightBurn. It has the most cut headroom of the S30 Ultra profiles we list; the 33W goes further. Listings that say S30 Ultra 10W or 20W are reseller labels.",
   "bestFor": [
     "Faster cutting",
     "Thicker basswood",
     "Panel work",
-    "Upgrade from 10W"
+    "Upgrade from 11W"
   ],
   "priceRange": {
     "min": 690,
@@ -21,7 +21,7 @@
   },
   "specs": {
     "power": "22W diode",
-    "workArea": "410 × 400 mm",
+    "workArea": "590 × 595 mm (23.2 × 23.4 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"

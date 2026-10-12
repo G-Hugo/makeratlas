@@ -7,7 +7,7 @@
   "laserType": "diode",
   "image": "/machines/twotrees-tts-55/01.webp",
   "tagline": "Ultra-budget diode with surprising build quality for the price",
-  "tldr": "TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5.5W–40W diode platform. Good for testing the hobby. Expect less polish, smaller community, and more variance unit-to-unit than established brands.",
+  "tldr": "TwoTrees undercuts Atomstack and Ortur on price while offering a usable 5.5W diode platform that takes TwoTrees' 10W and 20W modules. Good for testing the hobby. Expect less polish, smaller community, and more variance unit-to-unit than established brands.",
   "mainObjective": "Lowest-cost bench laser for basic wood & leather engraving experiments",
   "bestFor": [
     "Ultra-tight budget",
@@ -21,7 +21,7 @@
     "currency": "USD"
   },
   "specs": {
-    "power": "5.5W / 10W / 20W / 40W diode options",
+    "power": "5.5W / 10W / 20W diode options",
     "workArea": "300 × 300 mm",
     "performance": {
       "precision": "0.01 mm",
@@ -79,7 +79,7 @@
   "cons": [
     "Inconsistent QA between batches",
     "Small English support community",
-    "40W label is marketing-heavy",
+    "No official 40W option: TwoTrees sells 10W and 20W modules for the TTS-55",
     "Open frame: full safety on you",
     "May need alignment tweaks out of box"
   ],
@@ -98,7 +98,7 @@
     "longer-ray5"
   ],
   "status": "published",
-  "lastUpdated": "2026-05-31",
+  "lastUpdated": "2026-10-12",
   "images": [
     {
       "src": "/machines/twotrees-tts-55/01.webp",

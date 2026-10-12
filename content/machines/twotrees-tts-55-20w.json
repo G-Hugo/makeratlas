@@ -119,7 +119,7 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "TwoTrees TTS-55 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Open-frame: glasses and exhaust required. Upgrade path to 40W if cutting takes over. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "limitations": "Open-frame: glasses and exhaust required. TwoTrees lists no 40W module for the TTS-55: if cutting takes over, move to a 40W machine. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
   },
   "faq": [
     {
@@ -146,5 +146,6 @@
       "title": "Module still sold",
       "body": "TwoTrees lists the 20W module for the TTS-55 at $359 (October 2026), which keeps repairs possible on an older frame."
     }
-  ]
+  ],
+  "catalogPrimary": true
 }

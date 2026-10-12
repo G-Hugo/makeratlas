@@ -21,7 +21,7 @@
   },
   "specs": {
     "power": "20W diode + infrared auxiliary",
-    "workArea": "250 × 250 mm (approx.)",
+    "workArea": "381 × 305 mm (15 × 12 in)",
     "software": [
       "LightBurn",
       "LaserGRBL"
@@ -44,7 +44,7 @@
       },
       "technical": {
         "spotSize": "~0.08 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "600 mm/s",
         "avgEngraveSpeed": "60–150 mm/s fill",
         "avgCutSpeed": "4–10 mm/s on 3 mm wood"
       }

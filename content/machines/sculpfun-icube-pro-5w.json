@@ -23,7 +23,7 @@
   },
   "specs": {
     "power": "5W diode",
-    "workArea": "300 × 300 mm",
+    "workArea": "125 × 125 mm (4.9 × 4.9 in)",
     "performance": {
       "precision": "0.01 mm",
       "engraveExample": {
@@ -38,7 +38,7 @@
       },
       "technical": {
         "spotSize": "~0.07 mm spot",
-        "maxSpeed": "300 mm/s",
+        "maxSpeed": "167 mm/s",
         "avgEngraveSpeed": "21–44 mm/s fill",
         "avgCutSpeed": "2–3 mm/s on 3 mm wood"
       }
@@ -48,7 +48,8 @@
       "LaserGRBL"
     ],
     "connectivity": [
-      "USB"
+      "USB",
+      "Bluetooth"
     ]
   },
   "materials": {
