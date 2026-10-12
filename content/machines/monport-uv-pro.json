@@ -1,0 +1,172 @@
+{
+  "id": "monport-uv-pro",
+  "slug": "monport-uv-pro",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "uv",
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "releaseDate": "2026-09",
+  "modelLine": "monport-uv-pro",
+  "image": "/machines/monport-uv-pro/01.webp",
+  "tierEditorialOverride": true,
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "optional"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "materials": {
+    "engrave": [
+      "Crystal & glass (inside and on the surface)",
+      "Acrylic",
+      "Plastics & silicone",
+      "Ceramics",
+      "Wood & leather",
+      "Metals (surface marking)"
+    ],
+    "cut": [
+      "Paper & film",
+      "Thin plastics (PE, PP, PET)",
+      "Thin opaque acrylic"
+    ],
+    "cannot": [
+      "Cutting fully transparent acrylic",
+      "Deep metal engraving (fiber territory)",
+      "Cutting thick wood or acrylic"
+    ]
+  },
+  "name": "Monport UV Pro",
+  "catalogHidden": true,
+  "tagline": "UV galvo for 3D engraving inside crystal and glass: 6W or 10W, chiller included",
+  "tldr": "Monport's UV Pro, listed in September 2026, is a 355 nm UV galvo built for 3D engraving inside crystal and glass, with a 70 × 70 mm 3D lens, an electric Z lift and a separate water chiller in the package. Two sources: 6W ($3,190, 10,000 mm/s, in stock) and 10W ($4,990, 15,000 mm/s, shipping in early November 2026). Open a tier for exact specs.",
+  "mainObjective": "3D crystal engraving and clean UV marking on glass and plastics",
+  "bestFor": [
+    "3D crystal gifts",
+    "Glass & acrylic",
+    "Plastics marking",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 3190,
+    "max": 5190,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: 6W $3,190, 10W $4,990 (shipping early November), water chiller included; the LightBurn bundle adds $200"
+  },
+  "specs": {
+    "power": "6W / 10W UV",
+    "workArea": "150 × 150 mm",
+    "dimensions": "290 × 500 × 545 mm",
+    "software": [
+      "SapphireMark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "±0.001 mm",
+      "engraveExample": {
+        "description": "3D photo engraved inside a K9 crystal block",
+        "size": "5 × 5 × 8 cm",
+        "time": "~12–40 min"
+      },
+      "cutExample": {
+        "description": "Not a cutter: paper, film and thin plastics only",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "0.0019 mm",
+        "maxSpeed": "10 000–15 000 mm/s",
+        "avgEngraveSpeed": "~1 000–4 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "pros": [
+    "3D inner engraving in crystal and glass, with the 3D lens and a test crystal in the box",
+    "Water chiller included on both tiers",
+    "355 nm cold marking: clean, unburned marks on plastics, glass and heat-sensitive parts"
+  ],
+  "cons": [
+    "Manual focus and no camera",
+    "Open galvo with a Class 4 UV beam: glasses are supplied, an enclosure is not",
+    "Launched in September 2026: no independent review yet"
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between the UV Pro and Monport's 2D UV engraver?",
+      "answer": "The UV Pro carries the hardware for 3D inner engraving. Monport sells a 2D-only UV galvo separately ($2,719.99 for 6W and $4,369.99 for 10W in October 2026) and a $700 kit that converts its 10W 2D model to 3D. If you only mark surfaces or flat designs inside glass, the 2D model costs less."
+    },
+    {
+      "question": "Which UV Pro tier should I choose?",
+      "answer": "The 6W ($3,190) for gifts and small runs; the 10W ($4,990, shipping early November 2026) when 3D crystals or UV marking are a daily production job, since it scans at 15,000 mm/s instead of 10,000 mm/s."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "uvpro-3d",
+      "title": "Built for 3D crystals",
+      "body": "A 70 × 70 mm lens, electric Z lift and SapphireMark's 3D file support (STL, OBJ, GLB) target photo crystals and engraved glass blocks."
+    },
+    {
+      "id": "uvpro-chiller",
+      "title": "Chiller in the package",
+      "body": "Both tiers ship with a separate water chiller, which keeps the UV source stable during long jobs."
+    }
+  ],
+  "beginnerNotes": "This overview covers the whole UV Pro line. Choose the 6W to start with 3D photo crystals and fine marking; choose the 10W for production volumes.",
+  "proTips": "Keep the chiller topped up and wear the supplied OD5 glasses: the UV beam is invisible and the galvo is open.",
+  "primaryUse": "UV galvo for 3D crystal engraving and fine marking on glass and plastics.",
+  "rating": {
+    "overall": 7.9,
+    "value": 7.8,
+    "easeOfUse": 7.5,
+    "capability": 7.6,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "commarker-omni-x-uv",
+    "commarker-omni-xe-uv",
+    "creality-falcon-t1-5w-uv"
+  ],
+  "images": [
+    {
+      "src": "/machines/monport-uv-pro/01.webp",
+      "alt": "Monport UV Pro UV galvo laser: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro/02.webp",
+      "alt": "Monport UV Pro side view with cable: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro/03.webp",
+      "alt": "Monport UV Pro rear view with control panel: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro/04.webp",
+      "alt": "3D engravings inside crystal and glass made with the Monport UV Pro: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro/05.webp",
+      "alt": "Monport UV Pro galvo head and column: Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The UV Pro packages what 3D crystal engraving needs, lens, Z lift, chiller and software, at a price that compares well with enclosed UV machines that need extras for the same work.",
+    "limitations": "It is an open Class 4 galvo with manual focus and no camera, SapphireMark is Windows-only, and the specs are Monport's until independent reviews appear."
+  }
+}

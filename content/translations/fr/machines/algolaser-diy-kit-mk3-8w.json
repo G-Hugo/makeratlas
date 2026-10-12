@@ -1,0 +1,117 @@
+{
+  "tagline": "Module 8 W d’entrée du MK3 : gravure fine sur structure ouverte de 400 × 400 mm pour 259 $",
+  "tldr": "Le DIY Kit MK3 8 W est la porte d’entrée la moins chère du nouveau kit d’AlgoLaser : même châssis de 400 × 400 mm, même écran tactile AlgoOS et même tige de mise au point que les autres puissances, avec une diode de 8 W qu’AlgoLaser présente pour le détail (« précision 0,03 mm »). Il grave bien le bois, le cuir et l’ardoise et découpe lentement les matériaux fins. AlgoLaser ne publie aucun chiffre de découpe pour ce module, et aucun test indépendant n’existe encore.",
+  "mainObjective": "Gravure détaillée à petit prix sur une surface moyenne, avec une découpe fine occasionnelle",
+  "primaryUse": "Module 8 W · AlgoLaser DIY Kit MK3",
+  "beginnerNotes": "Cette fiche décrit la version 8 W du DIY Kit MK3. Comparez-la au 15 W avant d’acheter : pour 50 $ de plus, le 15 W grave plus vite et découpe le bois de 3 mm avec plus de marge. Ne prenez le 8 W que si vous comptez seulement graver.",
+  "proTips": "Gravez les photos à vitesse modérée après quelques carrés de test : une diode peu puissante récompense des passes plus lentes et plus propres. Pour découper, utilisez l’assistance air et plusieurs passes plutôt qu’une seule passe très lente, et gardez 3 mm comme limite pratique.",
+  "bestFor": [
+    "Premier laser à petit budget",
+    "Gravure de photos et de détails",
+    "Dessous de verre et étiquettes",
+    "Travailler sans ordinateur"
+  ],
+  "pros": [
+    "259 $ pour un châssis de 400 × 400 mm avec écran tactile et tige de mise au point intégrée",
+    "Présenté par AlgoLaser pour le détail, avec « précision 0,03 mm » sur son tableau comparatif",
+    "La faible puissance limite fumée et chaleur pour graver des photos sur bois clair"
+  ],
+  "cons": [
+    "Lent sur le bois de 3 mm et inadapté aux découpes plus épaisses",
+    "Le kit Basic coûte 200 $ de plus que la machine, presque le prix du kit 15 W",
+    "AlgoLaser ne précise pas si 0,03 mm désigne la taille du point ou une précision de positionnement"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Acrylique foncé",
+      "Papier et carton",
+      "Métal revêtu ou anodisé"
+    ],
+    "cut": [
+      "Tilleul et contreplaqué jusqu’à ~3 mm (lent, plusieurs passes probables)",
+      "Papier, carton et feutre",
+      "Film d’acrylique foncé fin"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu (aucun module infrarouge annoncé pour le MK3)",
+      "Usage fermé sans le caisson en option"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle AlgoLaser, oct. 2026 : 259 $ la machine seule, 459 $ le kit Basic (plateau alvéolé, rouleau rotatif RR2, rehausses, pompe à air)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Le DIY Kit MK3 8 W peut-il découper du bois ?",
+      "answer": "Du bois fin, lentement. AlgoLaser ne donne aucun chiffre de découpe pour le 8 W ; comptez environ 3 mm de tilleul en plusieurs passes, soit 9 à 14 min pour un carré de 10 × 10 cm dans notre benchmark. Pour découper régulièrement, le 15 W ou le 20 W sont de meilleurs choix."
+    },
+    {
+      "question": "8 W ou 15 W ?",
+      "answer": "Le 15 W coûte 309 $ contre 259 $ pour le 8 W sur la boutique AlgoLaser (octobre 2026). Les 50 $ de plus apportent une gravure nettement plus rapide (environ 11 à 17 min contre 16 à 24 min pour une photo de 10 × 10 cm dans notre benchmark) et une découpe plus facile. Ne choisissez le 8 W que si vous gravez sans jamais découper."
+    },
+    {
+      "question": "Le kit Basic 8 W vaut-il 200 $ de plus ?",
+      "answer": "Il ajoute un plateau alvéolé, le rouleau rotatif RR2, un jeu de rehausses et une pompe à air (459 $ au total, octobre 2026). Si vous voulez le rotatif pour les gobelets, oui ; sinon, plateau et pompe peuvent s’acheter plus tard, et le kit Basic 15 W ne coûte que 50 $ de plus."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser AlgoLaser DIY Kit MK3 8 W : AlgoLaser"
+    },
+    {
+      "alt": "Présentation de l’AlgoLaser DIY Kit MK3 : AlgoOS, écran tactile et châssis : AlgoLaser"
+    },
+    {
+      "alt": "Tige de mise au point rabattable intégrée de l’AlgoLaser DIY Kit MK3 : AlgoLaser"
+    },
+    {
+      "alt": "Écran tactile AlgoOS de l’AlgoLaser DIY Kit MK3 : AlgoLaser"
+    },
+    {
+      "alt": "Contenu du kit Basic de l’AlgoLaser DIY Kit MK3 8 W : AlgoLaser"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Trois modules diode sur le même châssis MK3",
+    "description": "Le DIY Kit MK3 est vendu avec un module diode de 8, 15 ou 20 W sur le même châssis de 400 × 400 mm et le même écran tactile. La puissance se choisit à l’achat ; les modules se montent sur le même support de tête, un à la fois.",
+    "options": [
+      {
+        "label": "Diode 8 W"
+      },
+      {
+        "label": "Diode 15 W"
+      },
+      {
+        "label": "Diode 20 W"
+      }
+    ]
+  },
+  "editorialDepth": {
+    "advantages": "La version 8 W offre tout le MK3, écran tactile, tige de mise au point et châssis de 400 × 400 mm, au prix le plus bas. Elle convient aux débutants qui gravent surtout des photos, des prénoms et des logos sur bois, cuir et ardoise.",
+    "limitations": "La découpe est lente et limitée aux matériaux fins, et l’écart de prix avec le 15 W est faible. L’annonce « précision 0,03 mm » d’AlgoLaser reste floue, et aucun test indépendant n’a encore mesuré le module."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Un kit à écran tactile pour 259 $",
+      "body": "La version 8 W est le MK3 le moins cher, avec le même écran AlgoOS, la même tige de mise au point et le même châssis de 400 × 400 mm que les modules plus puissants."
+    },
+    {
+      "title": "Pensé pour le détail",
+      "body": "AlgoLaser présente le 8 W comme son module de gravure fine, pour les photos, les petits textes et les portraits sur bois clair."
+    }
+  ]
+}

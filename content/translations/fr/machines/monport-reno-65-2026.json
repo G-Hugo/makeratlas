@@ -1,0 +1,108 @@
+{
+  "tagline": "CO₂ de bureau 65 W avec plateau de 600 × 400 mm et refroidissement à eau intégré",
+  "tldr": "La Reno 65 a été relancée en septembre 2026 avec un réservoir d’eau de 3 L intégré, un plateau de 600 × 400 mm, une fente traversante avant de 640 × 7 mm, 100 mm de course en Z et une mise au point assistée par aimant. Un seul tube verre de 65 W, trois versions : Basic (1 599,99 $, 500 mm/s, USB et LightBurn uniquement), Pro (2 249,99 $, 800 mm/s, Wi-Fi, panneau de commande autonome, compatible avec le module IR 1 W) et Vision (caméra 8 Mpx, 2 749,99 $). En octobre 2026, la Pro était annoncée pour une expédition début octobre et la Basic fin novembre : ce sont en pratique des précommandes ; seule la Vision était indiquée en stock. Pas encore de test indépendant de cette génération.",
+  "mainObjective": "Découper acrylique et bois sur un plateau de 600 × 400 mm au prix d’un CO₂ de bureau",
+  "primaryUse": "Tube verre 65 W · Monport Reno 65 (2026)",
+  "beginnerNotes": "Cette fiche décrit la génération 2026 de la Reno 65. Si vous découpez surtout de l’acrylique et du bois et que le Wi-Fi ne vous manque pas, la Basic est le meilleur rapport qualité-prix ; la Pro est la version à prendre pour les 800 mm/s, le panneau autonome et l’option IR. Prévoyez l’évacuation des fumées vers l’extérieur avant la livraison.",
+  "proTips": "Restez sous environ 70 % de puissance pour les découpes courantes : selon Monport, la durée de vie du tube passe de 4 500 h à 1 300 h au-delà. Vérifiez le niveau de liquide et ajoutez de l’antigel si la pièce descend sous 5 °C. Utilisez la fente avant pour les bandes longues, puis refaites l’origine avec le point rouge.",
+  "bestFor": [
+    "Enseignes en acrylique",
+    "Découpe de bois épais",
+    "Petite entreprise",
+    "Passer de la diode au CO₂"
+  ],
+  "pros": [
+    "Plateau de 600 × 400 mm et fente traversante avant de 640 × 7 mm sur une machine d’environ 1 m de longueur",
+    "Réservoir d’eau de 3 L intégré : ni refroidisseur séparé ni seau, un surcoût que la plupart des CO₂ à tube verre imposent",
+    "Version Basic à 1 599,99 $ (Monport, oct. 2026) : moins chère que tous les autres CO₂ de 60 W et plus de notre catalogue"
+  ],
+  "cons": [
+    "Mise au point assistée par aimant, pas un vrai autofocus : la hauteur se règle encore à chaque matériau",
+    "Tube verre annoncé pour 4 500 h sous 40 % de puissance mais 1 300 h au-delà de 70 %, garanti 6 mois",
+    "Basic et Pro en précommande en octobre 2026, et pas encore de test indépendant de cette génération"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Pierre et ardoise",
+      "Métal revêtu ou peint"
+    ],
+    "cut": [
+      "Acrylique jusqu’à 20 mm en une passe (annonce Monport)",
+      "Contreplaqué et bois dur",
+      "Cuir",
+      "Tissu et feutre",
+      "Papier et carton"
+    ],
+    "cannot": [
+      "Métal nu (sauf avec le module IR 1 W en option sur Pro et Vision)",
+      "PVC et vinyle (fumées chlorées)",
+      "Usage sans évacuation des fumées vers l’extérieur"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : Basic 1 599,99 $, Pro 2 249,99 $, Vision 2 749,99 $ ; l’offre avec LightBurn ajoute 99,99 $ (Basic) ou 199,99 $ (Pro, Vision)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Basic, Pro ou Vision : qu’est-ce qui change sur la Reno 65 ?",
+      "answer": "Les trois partagent le tube de 65 W, le plateau de 600 × 400 mm, le refroidissement à eau intégré et la mise au point assistée par aimant. La Basic (1 599,99 $) plafonne à 500 mm/s, se connecte uniquement en USB et fonctionne avec LightBurn ou LaserGRBL. La Pro (2 249,99 $) monte à 800 mm/s, ajoute le Wi-Fi, la clé USB, un panneau de commande autonome, le logiciel AutoLaser et l’application mobile de Monport, et accepte le module IR 1 W en option pour marquer le métal. La Vision (2 749,99 $) ajoute une caméra 8 Mpx pour le placement et les mises en page en série."
+    },
+    {
+      "question": "La nouvelle Reno 65 est-elle disponible ?",
+      "answer": "En partie. Sur la boutique américaine de Monport en octobre 2026, la Pro affichait une expédition prévue début octobre et la Basic fin novembre, ce qui en fait des précommandes ; la Vision était indiquée en stock, avec une seule unité restante. Vérifiez la date d’expédition affichée à côté de chaque version avant de commander."
+    },
+    {
+      "question": "Quelle épaisseur la Reno 65 peut-elle découper ?",
+      "answer": "Monport annonce 20 mm d’acrylique en une passe et montre du contreplaqué multicouche de 18 mm. Ce sont des chiffres dans les meilleures conditions, avec une optique propre et l’assistance d’air. Au quotidien, comptez environ 8 à 10 mm d’acrylique ou de contreplaqué en une passe, et plusieurs passes au-delà (notre estimation). La durée de vie du tube chute nettement au-dessus de 70 % de puissance."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Le refroidissement à eau dans le châssis",
+      "body": "Un réservoir de 3 L et un radiateur sont logés dans la machine : aucun refroidisseur externe ni seau à raccorder. Monport demande d’ajouter de l’antigel sous 5 °C."
+    },
+    {
+      "title": "Un grand plateau avec fente traversante",
+      "body": "600 × 400 mm de surface de gravure, un nid d’abeille de 640 × 440 mm et une fente avant de 640 × 7 mm pour les plaques longues et fines, dans un boîtier de 1000 × 690 × 285 mm."
+    },
+    {
+      "title": "Le module IR 1 W en option",
+      "body": "La Pro et la Vision acceptent un module infrarouge interchangeable de 1 W, vendu à part, pour marquer le métal nu que le faisceau CO₂ ne marque pas."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser CO₂ de bureau Monport Reno 65 (2026) : Monport"
+    },
+    {
+      "alt": "Monport Reno 65 capot ouvert sur le portique : Monport"
+    },
+    {
+      "alt": "Monport Reno 65 vue de face : Monport"
+    },
+    {
+      "alt": "Monport Reno 65 sur un bureau avec un ordinateur et des pièces finies : Monport"
+    },
+    {
+      "alt": "Monport Reno 65, nid d’abeille de 600 × 400 mm : Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La Reno 65 de 2026 réunit un grand plateau, un tube de 65 W et le refroidissement à eau dans un seul boîtier de bureau, à un prix inférieur à la plupart des CO₂ de la classe 60 W. Pour les fabricants d’enseignes et les petits ateliers qui découpent acrylique et contreplaqué, la version Pro ajoute la vitesse et la connectivité qui rendent le travail en série praticable.",
+    "limitations": "La mise au point est assistée, pas automatique, et seule la Vision a une caméra. Le tube verre est un consommable à la garantie courte. La machine pèse 40 kg : il faut une table solide et une évacuation vers l’extérieur. Les chiffres restent ceux de Monport en attendant des tests indépendants de cette génération."
+  }
+}

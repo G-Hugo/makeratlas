@@ -1,0 +1,213 @@
+{
+  "id": "sculpfun-icube-ultra-12w",
+  "slug": "sculpfun-icube-ultra-12w",
+  "name": "Sculpfun iCube Ultra 12W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Class 1 enclosed 12W diode with auto-focus and built-in smoke filter for $299, IR module optional",
+  "tldr": "The iCube Ultra is Sculpfun's enclosed compact laser: a 12W diode in a Class 1 box with door interlock, emergency stop, temperature sensor, auto-focus and a built-in carbon smoke filter, over a 150 × 150 mm bed. The Dual version adds a 1.2W 1064 nm infrared module for bare metal and plastics. Sculpfun claims 10 mm paulownia in one pass; an independent review cut 3 mm and 5 mm plywood cleanly at slow speed. Small bed and no honeycomb are the trade-offs.",
+  "mainObjective": "Safe enclosed engraving and light cutting at home, with an optional infrared module for metal",
+  "bestFor": [
+    "First laser at home",
+    "Small gifts & tags",
+    "Classrooms & offices",
+    "Kids or pets nearby"
+  ],
+  "priceRange": {
+    "min": 299,
+    "max": 499,
+    "currency": "USD",
+    "note": "Official Sculpfun store, Oct 2026: $299 single 12W diode, $499 Dual with 1.2W infrared module (list prices $599 and $799)"
+  },
+  "specs": {
+    "power": "12W diode (enclosed)",
+    "workArea": "150 × 150 mm (Z 80 mm)",
+    "dimensions": "335 × 357 × 289 mm",
+    "weight": "5.95 kg (6.3 kg Dual)",
+    "software": [
+      "Sculpfun App",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB-C",
+      "Bluetooth"
+    ],
+    "performance": {
+      "precision": "0.1 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~11–17 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "technical": {
+        "spotSize": "0.08 mm",
+        "maxSpeed": "167 mm/s (10 000 mm/min)",
+        "avgEngraveSpeed": "~100–167 mm/s",
+        "avgCutSpeed": "~3–8 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Bamboo & cork",
+      "Slate & stone",
+      "Paper & card",
+      "Stainless steel, brass, aluminium and plastics (Dual IR module)"
+    ],
+    "cut": [
+      "Plywood up to 5 mm (slow pass, independent test)",
+      "Paulownia up to 10 mm (Sculpfun claim, one pass)",
+      "Thin black acrylic",
+      "Paper, card & felt"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Objects wider than 150 mm",
+      "Bare metal without the IR module",
+      "Large signs or production batches"
+    ]
+  },
+  "pros": [
+    "Class 1 enclosure with door interlock, emergency stop, temperature sensor and USB security key for $299",
+    "Auto-focus and a built-in carbon smoke filter: no feeler gauge and less smell indoors",
+    "Cut 3 mm and 5 mm plywood cleanly in an independent review (100% power, 500 and 200 mm/min)"
+  ],
+  "cons": [
+    "150 × 150 mm bed (150 × 135 mm with the IR module) and no honeycomb in the box",
+    "Swapping between the diode and IR modules means laying the machine on its side",
+    "No Wi-Fi or touchscreen: USB-C or Bluetooth from a phone or computer only"
+  ],
+  "beginnerNotes": "This is the 12W iCube Ultra. Choose the single version if you only work wood, leather and paper; the $200 Dual adds a 1.2W infrared module for bare metal and plastics, and the module can also be bought later for $200. Budget for the air assist kit if you plan to cut regularly.",
+  "proTips": "Run auto-focus before each job and keep curved items flat with magnets, since uneven surfaces throw off focus. Cut slowly with several passes rather than one very slow pass, and add the air assist kit for cleaner edges. For heavier cutting, connect the exhaust hose to a window or the SP1 purifier: the built-in filter is sized for engraving.",
+  "primaryUse": "Enclosed 12W diode for home engraving and light cutting, with an optional 1.2W IR module for metal",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.9,
+    "easeOfUse": 8.5,
+    "capability": 7.3,
+    "buildQuality": 7.8
+  },
+  "similarModels": [
+    "sculpfun-icube-pro-10w",
+    "creality-falcon-a1c-10w",
+    "xtool-m2"
+  ],
+  "faq": [
+    {
+      "question": "How thick can the iCube Ultra cut?",
+      "answer": "Sculpfun claims 10 mm paulownia, a very light wood, in one pass. In an independent review (3DWithUs, 2026), the 12W diode cut 3 mm plywood at 100% power and 500 mm/min and 5 mm plywood at 200 mm/min with clean results. Treat 3–5 mm plywood as the realistic range."
+    },
+    {
+      "question": "Single or Dual: is the infrared module worth $200?",
+      "answer": "Only if you want to mark bare stainless, brass, aluminium or plastics. The 1.2W 1064 nm module marks a stainless dog tag well but leaves debris to clean. It costs $200 extra in the Dual bundle ($499 against $299, October 2026) and the same price on its own later, so you can start with the single version."
+    },
+    {
+      "question": "Is the iCube Ultra safe to use indoors without goggles?",
+      "answer": "It is certified Class 1: the laser stops when the door opens, and there is an emergency stop, a temperature alarm and a USB security key. Smoke still needs to go somewhere: the built-in carbon filter handles light engraving, but route the exhaust hose outside or to a purifier when cutting."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "smoke-filter",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "recommended"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/sculpfun-icube-ultra-12w/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-icube-ultra-12w/01.webp",
+      "alt": "Sculpfun iCube Ultra 12W enclosed laser engraver: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-ultra-12w/02.webp",
+      "alt": "Sculpfun iCube Ultra dimensions, 335 × 357 × 289 mm: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-ultra-12w/03.webp",
+      "alt": "Sculpfun iCube Ultra 150 mm work area and 80 mm height: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-ultra-12w/04.webp",
+      "alt": "Sculpfun iCube Ultra 12W diode module cutting and engraving: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-icube-ultra-12w/05.webp",
+      "alt": "Sculpfun iCube Ultra Dual with 12W diode and 1.2W infrared modules: Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-icube-ultra",
+  "powerRating": "12W",
+  "catalogPrimary": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "12W diode, with a 1.2W infrared module as an option",
+    "description": "The iCube Ultra ships with a 12W diode. The Dual bundle adds a 1.2W 1064 nm infrared module, also sold alone. The modules swap on the same head mount, one at a time: this is not a dual-source machine, and the work area drops to 150 × 135 mm with the IR module.",
+    "options": [
+      {
+        "power": "12W",
+        "laserKind": "diode",
+        "label": "12W diode",
+        "tierSlug": "sculpfun-icube-ultra-12w"
+      },
+      {
+        "power": "1.2W",
+        "laserKind": "infrared",
+        "label": "1.2W IR module (Dual bundle or accessory)"
+      }
+    ]
+  },
+  "releaseDate": "2025-07",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "At $299 the iCube Ultra is one of the cheapest certified Class 1 enclosed lasers, and it adds auto-focus, a built-in smoke filter and a 12W diode that really cuts thin plywood. The optional IR module opens bare metal and plastics without changing machines.",
+    "limitations": "The 150 × 150 mm bed limits it to small items, there is no honeycomb or air assist in the box, and module swaps are awkward. Connection is USB-C or Bluetooth only, with no touchscreen for standalone work."
+  },
+  "standoutFeatures": [
+    {
+      "id": "icube-ultra-class1-price",
+      "title": "Class 1 safety for $299",
+      "body": "Door interlock, emergency stop, temperature alarm and USB key in a closed box: safe for homes, offices and classrooms without goggles."
+    },
+    {
+      "id": "icube-ultra-autofocus-filter",
+      "title": "Auto-focus and built-in filter",
+      "body": "One button sets the focus, and a carbon filter cleans the smoke from everyday engraving before it leaves the enclosure."
+    },
+    {
+      "id": "icube-ultra-ir-option",
+      "title": "Infrared module for metal",
+      "body": "The 1.2W 1064 nm module marks stainless, brass and many plastics on the same machine, in the Dual bundle or bought later."
+    }
+  ]
+}

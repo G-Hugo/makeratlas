@@ -1,0 +1,177 @@
+{
+  "id": "monport-uv-pro-10w",
+  "slug": "monport-uv-pro-10w",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "uv",
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "releaseDate": "2026-09",
+  "modelLine": "monport-uv-pro",
+  "image": "/machines/monport-uv-pro-10w/01.webp",
+  "tierEditorialOverride": true,
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "optional"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "materials": {
+    "engrave": [
+      "Crystal & glass (inside and on the surface)",
+      "Acrylic",
+      "Plastics & silicone",
+      "Ceramics",
+      "Wood & leather",
+      "Metals (surface marking)"
+    ],
+    "cut": [
+      "Paper & film",
+      "Thin plastics (PE, PP, PET)",
+      "Thin opaque acrylic"
+    ],
+    "cannot": [
+      "Cutting fully transparent acrylic",
+      "Deep metal engraving (fiber territory)",
+      "Cutting thick wood or acrylic"
+    ]
+  },
+  "name": "Monport UV Pro 10W",
+  "powerRating": "10W",
+  "tagline": "UV galvo for 3D crystal engraving: 10W, 15,000 mm/s and water chiller included",
+  "tldr": "The UV Pro 10W is the faster tier of Monport's 3D inner-engraving UV galvo, listed in September 2026: 355 nm, 15,000 mm/s, 30–200 kHz, the same 70 × 70 mm 3D lens (Monport lists a 150 × 150 mm processing area), an electric Z lift and a water chiller in the package. $4,990 on Monport's store in October 2026, on pre-order with shipping in early November. Manual focus, no camera; no independent review yet.",
+  "mainObjective": "Higher-volume 3D crystal engraving and fine UV marking",
+  "bestFor": [
+    "3D crystal gifts",
+    "Batch production",
+    "Glass & acrylic",
+    "Electronics marking"
+  ],
+  "priceRange": {
+    "min": 4990,
+    "max": 5190,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $4,990 with the free water chiller, $5,190 with LightBurn added, pre-order shipping in early November"
+  },
+  "specs": {
+    "power": "10W UV",
+    "workArea": "150 × 150 mm",
+    "dimensions": "290 × 500 × 545 mm",
+    "weight": "21.5 kg",
+    "software": [
+      "SapphireMark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "±0.001 mm",
+      "engraveExample": {
+        "description": "3D photo engraved inside a K9 crystal block",
+        "size": "5 × 5 × 8 cm",
+        "time": "~12–25 min"
+      },
+      "cutExample": {
+        "description": "Not a cutter: paper, film and thin plastics only",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "0.0019 mm",
+        "maxSpeed": "15 000 mm/s",
+        "avgEngraveSpeed": "~1 500–4 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "pros": [
+    "Fastest UV Pro: 15,000 mm/s and 30–200 kHz, for denser 3D crystals and shorter batches",
+    "Water chiller, 3D lens and K9 test block included at $4,990 (Monport, Oct 2026)",
+    "355 nm cold marking on glass, plastics and heat-sensitive parts"
+  ],
+  "cons": [
+    "Pre-order: shipping in early November 2026",
+    "Manual focus, no camera, and an open Class 4 UV beam",
+    "About $1,800 more than the entry tier for the same field and features"
+  ],
+  "faq": [
+    {
+      "question": "Is the UV Pro 10W available now?",
+      "answer": "Not yet: in October 2026 Monport listed it at $4,990 ($5,190 with LightBurn) with shipping in early November. The 6W tier was available immediately."
+    },
+    {
+      "question": "What does the 10W add over the 6W?",
+      "answer": "Speed and headroom: 15,000 mm/s against 10,000 mm/s, a 30–200 kHz frequency range against 10–150 kHz, and more power for dense point clouds in 3D crystals and faster marking. Field, lens, software and accessories are the same. The 10W weighs 21.5 kg against 16.5 kg."
+    },
+    {
+      "question": "Can the UV Pro replace a fiber laser?",
+      "answer": "No. UV marks glass, crystal, plastics and many coatings cleanly and can mark metal surfaces, but it does not engrave metal deeply. For deep metal work, look at a fiber laser such as Monport's GPro Vision."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "uvpro10-speed",
+      "title": "15,000 mm/s galvo",
+      "body": "The fastest scanning speed of the UV Pro line, which shortens dense 3D crystal jobs and batch marking."
+    },
+    {
+      "id": "uvpro10-bundle",
+      "title": "Complete 3D package",
+      "body": "Chiller, 70 × 70 mm 3D lens, electric Z lift, foot pedal and a K9 crystal block come in the box; only LightBurn is extra."
+    }
+  ],
+  "beginnerNotes": "This profile is the 10W tier of the UV Pro. Pick it if 3D crystals or UV marking are a daily production job; for occasional gifts, compare the entry tier via the chips.",
+  "proTips": "Batch crystals with the positioning bars to keep placement repeatable. Keep the chiller and room temperature stable during long 3D jobs. Buy K9 blocks from a reliable supplier: inclusions and bubbles show up in the engraving.",
+  "primaryUse": "10W UV · Monport UV Pro",
+  "rating": {
+    "overall": 7.9,
+    "value": 7.2,
+    "easeOfUse": 7.5,
+    "capability": 8,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "commarker-omni-x-uv",
+    "commarker-omni-xe-uv",
+    "creality-falcon-t1-5w-uv"
+  ],
+  "images": [
+    {
+      "src": "/machines/monport-uv-pro-10w/01.webp",
+      "alt": "Monport UV Pro 10W UV galvo laser: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro-10w/02.webp",
+      "alt": "Monport UV Pro side view with cable: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro-10w/03.webp",
+      "alt": "Monport UV Pro UV10 in a workshop: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro-10w/04.webp",
+      "alt": "3D engravings inside crystal and glass made with the Monport UV Pro: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro-10w/05.webp",
+      "alt": "Monport UV Pro galvo head and column: Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 10W tier makes sense for shops whose revenue depends on 3D crystals or UV marking volume: faster scanning and a complete package with chiller and 3D lens.",
+    "limitations": "It is a pre-order until November 2026, has manual focus and no camera, and needs strict eye protection around the open UV beam. SapphireMark is Windows-only and no independent review exists yet."
+  }
+}

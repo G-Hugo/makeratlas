@@ -1,0 +1,101 @@
+{
+  "tagline": "Fibre MOPA séparée avec caméra 16 Mpx et autofocus : l’entrée du marquage couleur dans la gamme GPro Vision",
+  "tldr": "La GPro Vision MOPA 60 W associe la caméra de positionnement 16 Mpx et l’autofocus de Monport à une source MOPA de 60 W, avec un champ de 175 × 175 mm. Le réglage des impulsions MOPA permet le marquage couleur sur l’acier inoxydable et le titane et des marquages plus propres sur les plastiques ; Monport annonce la découpe du laiton jusqu’à 2,5 mm d’épaisseur. 5 299 $ sur la boutique Monport en octobre 2026, avec une expédition annoncée pour la mi-octobre. La gamme est sortie en juin 2026 ; pas encore de test indépendant.",
+  "mainObjective": "Marquage couleur et gravure fine du métal avec placement par caméra",
+  "primaryUse": "Fibre MOPA 60 W · Monport GPro Vision",
+  "beginnerNotes": "Cette fiche décrit la version MOPA 60 W de la GPro Vision, la moins chère à proposer le marquage couleur maîtrisé. Comparez les autres versions avec les puces s’il vous faut un champ plus grand ou plus de profondeur.",
+  "proTips": "Faites des grilles d’essai de couleur sur votre propre alliage avant de chiffrer un travail en couleur : le résultat dépend de l’état de surface, de la vitesse et de la fréquence. Recalibrez la caméra après chaque changement de lentille.",
+  "bestFor": [
+    "Marquage couleur",
+    "Bijoux et cadeaux",
+    "Aluminium anodisé",
+    "Gravure en série"
+  ],
+  "pros": [
+    "Source MOPA : couleur maîtrisée sur l’acier inoxydable et le titane, marquages plus propres sur les plastiques et l’aluminium anodisé",
+    "Caméra 16 Mpx et autofocus pour placer le motif sur des pièces irrégulières et organiser des séries",
+    "Découpe du laiton jusqu’à 2,5 mm d’épaisseur selon Monport, en nombreuses passes"
+  ],
+  "cons": [
+    "Environ 600 $ de plus que la GT MOPA de Monport à puissance égale, qui a l’autofocus mais pas de caméra",
+    "Champ de 175 × 175 mm, plus petit que celui de la version d’entrée",
+    "Expédition annoncée pour la mi-octobre en octobre 2026, et pas encore de test indépendant de la gamme"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Titane",
+      "Or et argent",
+      "Plastiques",
+      "Pierre et cuir"
+    ],
+    "cut": [
+      "Laiton jusqu’à 2,5 mm (chiffre Monport, nombreuses passes)"
+    ],
+    "cannot": [
+      "Production en bois et en acrylique",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Pièces plus grandes que le champ de 175 × 175 mm sans repositionnement"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 5 299 $ la machine seule, 5 499 $ avec LightBurn Pro, expédition annoncée pour la mi-octobre"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Combien coûte la caméra par rapport à une GT 60W MOPA ?",
+      "answer": "Environ 600 $ : la GPro Vision MOPA 60 W coûte 5 299 $ sur la boutique Monport en octobre 2026, la GT 60W MOPA avec autofocus 4 699,99 $. Les deux utilisent une source MOPA de 60 W et un champ de 175 × 175 mm ; la GPro Vision ajoute la caméra 16 Mpx pour le placement visuel, la mise en page en série et le convoyeur de Monport."
+    },
+    {
+      "question": "La GPro Vision MOPA 60 W est-elle en stock ?",
+      "answer": "En octobre 2026, Monport affichait pour la MOPA 60 W une expédition à la mi-octobre : comptez une courte attente. Les versions 50 et 100 W étaient indiquées sans délai. Vérifiez la mention à côté de l’option de puissance avant de commander."
+    },
+    {
+      "question": "MOPA 60 W ou 100 W ?",
+      "answer": "La 60 W (5 299 $) couvre le marquage couleur, le marquage noir, les plastiques et la gravure légère. La 100 W (6 919,99 $) partage le champ et la caméra mais enlève la matière plus vite, ce qui compte pour le relief profond, l’embossage 3D et la découpe de tôle fine. Choisissez selon la profondeur et le débit, pas selon la couleur : les deux font de la couleur."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Le marquage couleur avec placement par caméra",
+      "body": "Le réglage des impulsions MOPA pour les couleurs d’oxydation sur l’acier inoxydable et le titane, associé à une caméra 16 Mpx pour placer le motif sur des pièces finies."
+    },
+    {
+      "title": "La découpe de métal fin",
+      "body": "Monport annonce pour cette version la découpe du laiton jusqu’à 2,5 mm d’épaisseur. Comptez de nombreuses passes : c’est un laser de marquage capable de découper de petites pièces, pas une machine de découpe de plaques."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser fibre séparé Monport GPro Vision MOPA 60 W : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision, caisson de source et tête galvo : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision, caisson de source vu de face : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision sur un établi avec un ordinateur et des pièces marquées : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision, panneau arrière et câble fibre : Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La MOPA 60 W est la version équilibrée de la GPro Vision : couleur et marquage fin sur métaux et plastiques, une caméra qui accélère le placement sur les produits finis, et assez de puissance pour la gravure légère et de petites découpes dans le laiton.",
+    "limitations": "Elle coûte nettement plus cher que l’équivalent GT sans caméra, le champ est de 175 × 175 mm et la conception ouverte impose un caisson ou une protection oculaire stricte. Les caractéristiques restent celles de Monport en attendant des tests indépendants."
+  }
+}

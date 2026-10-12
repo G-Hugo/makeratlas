@@ -1,0 +1,182 @@
+{
+  "id": "monport-gpro-vision-50w",
+  "slug": "monport-gpro-vision-50w",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "releaseDate": "2026-06",
+  "modelLine": "monport-gpro-vision",
+  "image": "/machines/monport-gpro-vision-50w/01.webp",
+  "tierEditorialOverride": true,
+  "accessories": [
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "name": "Monport GPro Vision 50W Fiber",
+  "powerRating": "50W",
+  "tagline": "Split fiber with 16 MP camera and autofocus: standard source and a 200 × 200 mm field",
+  "tldr": "The GPro Vision 50W is the entry tier of Monport's camera-equipped split fiber line, launched in June 2026. Monport's launch announcement describes it as a standard fiber laser rather than MOPA, so it is not the tier for controlled colour marking, but it gets the largest field in the line (200 × 200 mm), the 16 MP positioning camera and autofocus. $4,249 on Monport's store in October 2026, shown without a shipping delay.",
+  "mainObjective": "Camera-aligned metal marking and engraving at the lowest GPro Vision price",
+  "bestFor": [
+    "Metal tags & plates",
+    "Tool marking",
+    "Serial numbers",
+    "Batch engraving"
+  ],
+  "priceRange": {
+    "min": 4249,
+    "max": 4449,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $4,249 machine only, $4,449 with LightBurn Pro"
+  },
+  "specs": {
+    "power": "50W fiber",
+    "workArea": "200 × 200 mm",
+    "software": [
+      "SapphireMark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–8 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "0.01 mm",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~500–1 500 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Titanium",
+      "Gold & silver",
+      "Plastics",
+      "Stone & leather"
+    ],
+    "cut": [
+      "Thin metal sheet (many passes)"
+    ],
+    "cannot": [
+      "Controlled colour marking (needs a MOPA source)",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Wood and acrylic production work"
+    ]
+  },
+  "pros": [
+    "16 MP camera and autofocus at the line's lowest price: $4,249 (Monport, Oct 2026)",
+    "Largest field in the GPro Vision line: 200 × 200 mm",
+    "Shown in stock in October 2026, unlike two of the MOPA tiers"
+  ],
+  "cons": [
+    "Standard source, not MOPA: no controlled colour on stainless and less control on plastics",
+    "Roughly $400 to $700 more than Monport's GT 50W, which has autofocus but no camera",
+    "Open split design with a Class 4 beam: an enclosure or strict eye protection is required"
+  ],
+  "faq": [
+    {
+      "question": "Can the GPro Vision 50W do colour marking?",
+      "answer": "Not in the controlled way the MOPA tiers do. Monport's launch announcement describes the 50W as a standard fiber laser; the 60W, 100W and 200W tiers use MOPA sources whose adjustable pulse width produces oxide colours on stainless steel and titanium. The 50W handles black, white and deep marks on metals and marks many plastics."
+    },
+    {
+      "question": "What does the camera add over the GT series?",
+      "answer": "Placement. The 16 MP camera shows the part on screen so you can drop artwork on it, align irregular items and lay out batches, and Monport says it works with its conveyor accessory for continuous runs. Monport quotes about 0.3 mm camera positioning accuracy, so confirm alignment with a test mark on precise jobs. The GT 50W has autofocus but no camera and costs about $400 to $700 less."
+    },
+    {
+      "question": "GPro Vision 50W or 60W MOPA?",
+      "answer": "Pick the 50W ($4,249) for tags, tools, plates and serial numbers on bare metal, especially if you value the larger 200 × 200 mm field. Pay the $1,050 extra for the 60W MOPA ($5,299) if colour on stainless or cleaner marks on plastics and anodized aluminum are part of the job; its field is 175 × 175 mm."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gpro50-camera",
+      "title": "Camera and autofocus at the entry price",
+      "body": "The 16 MP camera and autofocus that define the GPro Vision line are already on the $4,249 base tier."
+    },
+    {
+      "id": "gpro50-field",
+      "title": "The widest field in the line",
+      "body": "200 × 200 mm, against 175 × 175 mm on the MOPA tiers: useful for larger plates and multi-part batches."
+    }
+  ],
+  "beginnerNotes": "This profile is the 50W tier of the GPro Vision. Choose it for bare-metal marking and engraving where colour is not needed; compare the MOPA tiers via the chips if colour or plastics matter.",
+  "proTips": "Calibrate the camera with the supplied calibration sheets before batch work, then confirm with a test mark. Wear the supplied OD7 glasses or add Monport's enclosure: the split design leaves the beam open.",
+  "primaryUse": "50W fiber · Monport GPro Vision",
+  "rating": {
+    "overall": 8,
+    "value": 7.6,
+    "easeOfUse": 8.6,
+    "capability": 7.5,
+    "buildQuality": 8.4
+  },
+  "similarModels": [
+    "monport-gt-50w-fiber",
+    "gweike-g6-split-50w",
+    "gweike-g2-50w"
+  ],
+  "images": [
+    {
+      "src": "/machines/monport-gpro-vision-50w/01.webp",
+      "alt": "Monport GPro Vision 50W split fiber laser: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-50w/02.webp",
+      "alt": "Monport GPro Vision source cabinet and galvo head: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-50w/03.webp",
+      "alt": "Monport GPro Vision source cabinet, front view: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-50w/04.webp",
+      "alt": "Monport GPro Vision on a workbench with laptop and marked parts: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-50w/05.webp",
+      "alt": "Monport GPro Vision rear panel and fiber cable: Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 50W GPro Vision brings camera placement to a fiber that covers the usual bench jobs: tags, plates, tools, jewelry and serial numbers. For shops that mark many irregular or repeated parts, the camera saves more setup time than extra watts would.",
+    "limitations": "Without a MOPA source it is not the tier for colour or delicate plastics. It is an open galvo with a Class 4 beam, and it costs more than the camera-less GT 50W. No independent review of the GPro Vision line yet."
+  }
+}

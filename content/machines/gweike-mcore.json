@@ -1,0 +1,210 @@
+{
+  "id": "gweike-mcore",
+  "slug": "gweike-mcore",
+  "name": "Gweike MCore",
+  "brand": "Gweike",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "Pre-order: 400W fiber for cutting metal plus an 80W CO₂ laser, in one enclosed 711 × 411 mm machine",
+  "tldr": "The Gweike MCore combines a 400W fiber laser, rated to cut up to 5 mm of stainless steel, carbon steel, brass and aluminum, with an 80W CO₂ laser for wood and acrylic up to 20 mm, in one enclosed 711 × 411 mm machine with a 16 MP camera. Gweike gives 1,200 mm/s and 0.01 mm motion accuracy. Pre-order: in October 2026 Gweike's store listed it as sold out at $6,999, with shipment from China by sea in November, and no hands-on review or owner report existed yet. Every figure here is a manufacturer claim.",
+  "mainObjective": "Cut thin sheet metal and engrave or cut wood and acrylic with one machine in a small workshop",
+  "bestFor": [
+    "Thin sheet metal parts",
+    "Signs & mixed materials",
+    "Small business",
+    "Workshop with 135 kg of space"
+  ],
+  "priceRange": {
+    "min": 6999,
+    "max": 6999,
+    "currency": "USD",
+    "note": "Official Gweike store, Oct 2026: $6,999 pre-order (list price $9,999), sold out, shipment from China by sea in November; Kickstarter early-bird price was $4,999"
+  },
+  "specs": {
+    "power": "400W fiber + 80W CO₂",
+    "workArea": "711 × 411 mm (28 × 16.2 in)",
+    "dimensions": "1280 × 800 × 582 mm",
+    "weight": "135 kg",
+    "software": [
+      "Mlaser (Windows)"
+    ],
+    "connectivity": [
+      "Ethernet"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–5 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–2 min"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "1,200 mm/s",
+        "avgEngraveSpeed": "200–500 mm/s",
+        "avgCutSpeed": "15–40 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Acrylic",
+      "Leather",
+      "Stainless steel & aluminum",
+      "Brass & titanium",
+      "Stone & glass"
+    ],
+    "cut": [
+      "Stainless steel, carbon steel, brass & aluminum up to 5 mm (claimed, one pass)",
+      "Acrylic up to 20 mm (claimed, one pass)",
+      "Wood, MDF, leather & fabric"
+    ],
+    "cannot": [
+      "Metal thicker than 5 mm",
+      "Sheets larger than 711 × 411 mm without the conveyor",
+      "Running in a small room without exhaust and power planning",
+      "Using LightBurn (Mlaser only)"
+    ]
+  },
+  "pros": [
+    "Metal cutting up to 5 mm and CO₂ cutting up to 20 mm of acrylic in one machine, per Gweike",
+    "711 × 411 mm area, 16 MP camera and automatic edge finder",
+    "Runs on single-phase 110V or 220V power, without an industrial installation"
+  ],
+  "cons": [
+    "Pre-order: not yet shipped to store buyers in October 2026, no hands-on review",
+    "135 kg and 1280 × 800 × 582 mm: needs a sturdy bench and two people to move it",
+    "Windows-only Mlaser software, and conflicting figures between Gweike pages (connectivity, acrylic thickness, weight)"
+  ],
+  "beginnerNotes": "The MCore is not a beginner machine: it is a metal-cutting fiber laser and a CO₂ laser in one cabinet, with matching risks. Wait for the first owner reports before paying, plan an exhaust to the outside, and check the shipping date with Gweike before ordering.",
+  "proTips": "For carbon steel, Gweike recommends its optional compressed-air system (1.2 MPa, oil-free, with dryer); budget for it if steel parts are your goal. Keep fiber and CO₂ parameter libraries separate, and run test cuts on offcuts to check the 5 mm claim on your material before quoting jobs.",
+  "primaryUse": "Hybrid fiber cutting laser and CO₂ laser for small workshops working with both metal and organic materials",
+  "rating": {
+    "overall": 8,
+    "value": 7.6,
+    "easeOfUse": 7.4,
+    "capability": 8.8,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "xtool-p3",
+    "omtech-polar-2-70w",
+    "gweike-cloud-pro"
+  ],
+  "faq": [
+    {
+      "question": "Can I buy the MCore now, and when will it ship?",
+      "answer": "Only as a pre-order. In October 2026, Gweike's store listed the MCore as sold out at $6,999 (list price $9,999) with the note \"Shipment from China by sea in Nov.\" The Kickstarter campaign started on May 26, 2026, with deliveries planned from August, but we found no confirmed owner report. Check the shipping window with Gweike before paying."
+    },
+    {
+      "question": "What can it really cut?",
+      "answer": "Gweike claims up to 5 mm of stainless steel, carbon steel, brass, aluminum and titanium with the 400W fiber, and up to 20 mm of acrylic in one pass with the 80W CO₂ laser. Its pages are not consistent: the FAQ gives 4 mm for carbon steel with the air system, and the deposit page gave 25 mm of acrylic. No independent test has confirmed these figures yet."
+    },
+    {
+      "question": "Is it a replacement for a fiber marking laser?",
+      "answer": "Not exactly. The MCore's 400W fiber is aimed at cutting sheet metal on a 711 × 411 mm bed, while galvo fiber markers such as the Gweike G2 are built for fast marking and deep engraving on small parts. If your work is mostly marking, a galvo fiber is cheaper and faster."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "recommended"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/gweike-mcore/01.webp",
+  "images": [
+    {
+      "src": "/machines/gweike-mcore/01.webp",
+      "alt": "Gweike MCore fiber and CO₂ laser cutter: Gweike"
+    },
+    {
+      "src": "/machines/gweike-mcore/02.webp",
+      "alt": "Gweike MCore 400W fiber for metal and 80W CO₂ for non-metals: Gweike"
+    },
+    {
+      "src": "/machines/gweike-mcore/03.webp",
+      "alt": "Gweike MCore features: camera, conveyor, rotary and servo motors: Gweike"
+    },
+    {
+      "src": "/machines/gweike-mcore/04.webp",
+      "alt": "Gweike MCore with conveyor feeding a long board: Gweike"
+    },
+    {
+      "src": "/machines/gweike-mcore/05.webp",
+      "alt": "Gweike MCore and the metal and non-metal materials it processes: Gweike"
+    }
+  ],
+  "powerRating": "400W",
+  "moduleSystem": {
+    "style": "dual-laser",
+    "headline": "400W fiber + 80W CO₂ in one machine",
+    "description": "The MCore pairs a 400W fiber laser for cutting and engraving metal with an 80W CO₂ laser for wood, acrylic and leather, over the same 711 × 411 mm bed. Gweike does not state the fiber source type.",
+    "options": [
+      {
+        "power": "400W",
+        "laserKind": "fiber",
+        "label": "400W fiber"
+      },
+      {
+        "power": "80W",
+        "laserKind": "co2",
+        "label": "80W CO₂"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "fiber",
+    "co2"
+  ],
+  "capabilityTags": [
+    "fiber",
+    "co2"
+  ],
+  "releaseDate": "2026-05",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "On paper, the MCore fills a gap: thin sheet metal cutting and a full CO₂ laser in one desktop-sized cabinet on household power, for less than many standalone fiber cutters. For a workshop that makes signs, brackets, nameplates and mixed metal and wood products, it could replace two machines.",
+    "limitations": "It is still a pre-order: no hands-on review, no owner reports, and Gweike's own pages disagree on several figures. It weighs 135 kg, runs only on Windows software, and steel cutting may require the optional air system. Wait for independent tests before treating it as a production tool."
+  },
+  "standoutFeatures": [
+    {
+      "id": "mcore-metal-and-co2",
+      "title": "Metal cutting and CO₂ in one cabinet",
+      "body": "A 400W fiber rated for 5 mm of steel, brass or aluminum and an 80W CO₂ laser rated for 20 mm of acrylic share one 711 × 411 mm bed."
+    },
+    {
+      "id": "mcore-single-phase",
+      "title": "Household power",
+      "body": "Gweike specifies single-phase 110V or 220V power, so the machine does not need a three-phase supply."
+    },
+    {
+      "id": "mcore-camera-edge",
+      "title": "Camera and edge finder",
+      "body": "A 16 MP panoramic camera and an automatic edge finder place jobs on irregular offcuts."
+    }
+  ]
+}

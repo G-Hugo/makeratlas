@@ -1,0 +1,102 @@
+{
+  "tagline": "Galvo UV pour la gravure 3D dans le cristal : 6 W, lentille 3D et refroidisseur à eau inclus",
+  "tldr": "L’UV Pro 6 W est la version d’entrée du galvo UV de gravure 3D à cœur de Monport, mis en ligne en septembre 2026 : 355 nm, 10 000 mm/s, 10 à 150 kHz, une lentille de 70 × 70 mm pour la 3D (Monport annonce une zone de travail de 150 × 150 mm), un axe Z électrique, une pédale et un refroidisseur à eau séparé fournis. 3 190 $ sur la boutique Monport en octobre 2026, disponible tout de suite. Mise au point manuelle, ni caméra ni caisson ; pas encore de test indépendant.",
+  "mainObjective": "Lancer une activité de cristaux 3D et de marquage UV fin",
+  "primaryUse": "UV 6 W · Monport UV Pro",
+  "beginnerNotes": "Cette fiche décrit la version 6 W de l’UV Pro. Elle convient aux boutiques de cadeaux qui débutent avec les cristaux photo 3D et le marquage fin des plastiques et du verre. Comparez la version plus rapide avec les puces si vous visez de gros volumes.",
+  "proTips": "Maintenez le niveau du refroidisseur et une pièce entre 5 et 35 °C, la plage indiquée par Monport. Portez les lunettes OD5 fournies : le faisceau UV est invisible et le galvo est ouvert. Nettoyez les blocs de cristal avant la gravure, car les traces de doigts dispersent le faisceau.",
+  "bestFor": [
+    "Cadeaux en cristal 3D",
+    "Verrerie personnalisée",
+    "Marquage des plastiques",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Gravure 3D à cœur dans le cristal et le verre, avec un bloc d’essai K9 de 5 × 5 × 8 cm et la lentille de 70 × 70 mm fournis",
+    "Refroidisseur à eau inclus à 3 190 $ (Monport, oct. 2026)",
+    "Marquage à froid à 355 nm : marques nettes, sans brûlure, sur les plastiques, le verre et les pièces sensibles à la chaleur"
+  ],
+  "cons": [
+    "Mise au point manuelle (axe Z électrique et double point rouge) : ni autofocus ni caméra",
+    "Galvo ouvert avec faisceau UV de classe 4 : les lunettes sont fournies, pas de caisson",
+    "Garantie floue : la page indique 2 ans sur la machine et 1 an sur la source UV, le tableau des caractéristiques 12 mois"
+  ],
+  "materials": {
+    "engrave": [
+      "Cristal et verre (à cœur et en surface)",
+      "Acrylique",
+      "Plastiques et silicone",
+      "Céramique",
+      "Bois et cuir",
+      "Métaux (marquage de surface)"
+    ],
+    "cut": [
+      "Papier et film",
+      "Plastiques fins (PE, PP, PET)",
+      "Acrylique opaque fin"
+    ],
+    "cannot": [
+      "Découpe d’acrylique entièrement transparent",
+      "Gravure profonde du métal (domaine de la fibre)",
+      "Découpe de bois ou d’acrylique épais"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 3 190 $ avec le refroidisseur offert, 3 390 $ avec LightBurn en plus"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo 3D gravée dans un bloc de cristal K9"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe : papier, film et plastiques fins uniquement"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Que contient le carton de l’UV Pro 6 W ?",
+      "answer": "En octobre 2026, l’offre Monport comprend un refroidisseur à eau séparé (expédié dans son propre carton), la lentille de 70 × 70 mm utilisée pour la gravure 3D à cœur, un bloc de cristal K9, un plateau élévateur, des barres de positionnement, une pédale et des lunettes OD5. Une lentille de 110 × 110 ou 220 × 220 mm pour les grands travaux à plat coûte 99,99 $ ; LightBurn est une option à 200 $, SapphireMark est inclus."
+    },
+    {
+      "question": "Quelle différence entre l’UV Pro et le graveur UV 2D de Monport ?",
+      "answer": "L’UV Pro dispose du matériel de gravure 3D à cœur. Monport vend à part un galvo UV limité à la 2D (2 719,99 $ en 6 W en octobre 2026). Si vous marquez seulement des surfaces ou des motifs plats dans le verre, le modèle 2D coûte moins cher ; pour les cristaux photo 3D, il faut l’UV Pro."
+    },
+    {
+      "question": "UV Pro 6 W ou 10 W ?",
+      "answer": "Même châssis, même lentille, même logiciel. La 10 W (4 990 $, expédition début novembre 2026) annonce 15 000 mm/s au lieu de 10 000 mm/s et une plage de fréquence plus haute : les cristaux 3D denses et les séries se terminent plus vite. Pour les cadeaux et les petites séries, la 6 W à 3 190 $ est la plus rentable. Notre temps de gravure de cristal ci-dessus est une estimation : il dépend beaucoup du nombre de points du fichier 3D."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "La gravure 3D à cœur dès la sortie du carton",
+      "body": "La lentille de 70 × 70 mm, l’axe Z électrique et un bloc de cristal K9 sont fournis : les cristaux photo 3D se font dès le premier jour avec SapphireMark."
+    },
+    {
+      "title": "Le refroidisseur inclus",
+      "body": "Monport livre un refroidisseur à eau séparé avec la machine, qui garde la source UV à température stable pendant les longs travaux."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser galvo UV Monport UV Pro 6 W : Monport"
+    },
+    {
+      "alt": "Monport UV Pro vue de côté avec son câble : Monport"
+    },
+    {
+      "alt": "Monport UV Pro UV6 dans un atelier de cadeaux avec un cristal 3D : Monport"
+    },
+    {
+      "alt": "Gravures 3D dans le cristal et le verre réalisées avec le Monport UV Pro : Monport"
+    },
+    {
+      "alt": "Monport UV Pro, tête galvo et colonne : Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "L’UV Pro 6 W est un outil ciblé pour les cristaux photo 3D et le marquage propre du verre, des plastiques et de l’électronique. Avec le refroidisseur et la lentille 3D inclus, son prix se compare bien aux machines UV fermées qui exigent des options pour le même travail.",
+    "limitations": "C’est un galvo ouvert de classe 4, à mise au point manuelle et sans caméra. SapphireMark ne fonctionne que sous Windows. Les conditions de garantie sont contradictoires sur la page de Monport, et il n’existe pas encore de test indépendant."
+  }
+}

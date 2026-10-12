@@ -1,0 +1,101 @@
+{
+  "tagline": "Fibre MOPA séparée avec caméra 16 Mpx et autofocus : plus de puissance pour la gravure profonde et le relief",
+  "tldr": "La GPro Vision MOPA 100 W garde la caméra 16 Mpx, l’autofocus et le champ de 175 × 175 mm de la gamme, avec une source MOPA de 100 W pour la gravure plus profonde, le relief 3D et la découpe de tôle fine, en plus du marquage couleur. 6 919,99 $ sur la boutique Monport en octobre 2026, sans délai d’expédition affiché. Sortie en juin 2026 ; pas encore de test indépendant.",
+  "mainObjective": "Gravure profonde du métal et travail en relief avec placement par caméra",
+  "primaryUse": "Fibre MOPA 100 W · Monport GPro Vision",
+  "beginnerNotes": "Cette fiche décrit la version MOPA 100 W de la GPro Vision. Prenez-la quand la profondeur et le débit font votre chiffre d’affaires ; pour la couleur et le marquage fin seuls, comparez les versions inférieures avec les puces.",
+  "proTips": "Préférez plusieurs passes rapides à une seule passe lente pour la gravure profonde, afin de limiter l’échauffement et la déformation des pièces fines. Gardez la lentille propre : à cette puissance, la saleté cuit vite.",
+  "bestFor": [
+    "Gravure profonde",
+    "Relief 3D",
+    "Découpe de métal fin",
+    "Production en atelier"
+  ],
+  "pros": [
+    "Enlèvement de matière plus rapide pour la gravure profonde, le relief et l’embossage, avec le marquage couleur MOPA toujours disponible",
+    "Placement par caméra et autofocus pour les pièces répétées et la mise en page en série",
+    "Indiquée sans délai d’expédition sur la boutique Monport en octobre 2026"
+  ],
+  "cons": [
+    "6 919,99 $ : environ 320 $ de plus que la GT de Monport à puissance égale, sans caméra (6 600 $)",
+    "Pas de champ plus grand que la version MOPA moins chère : 175 × 175 mm",
+    "Plus d’échauffement sur les pièces fines : le travail en couleur demande des essais de réglages soignés"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Titane",
+      "Or et argent",
+      "Plastiques",
+      "Pierre et cuir"
+    ],
+    "cut": [
+      "Tôle fine d’acier, de laiton et de cuivre (nombreuses passes)"
+    ],
+    "cannot": [
+      "Production en bois et en acrylique",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Pièces plus grandes que le champ de 175 × 175 mm sans repositionnement"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 6 919,99 $ la machine seule, 7 119,99 $ avec LightBurn Pro"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "GPro Vision 100 W ou GT 100W ?",
+      "answer": "Les deux utilisent une source MOPA de 100 W et un autofocus. La GPro Vision 100 W (6 919,99 $, octobre 2026) ajoute la caméra 16 Mpx et la compatibilité avec le convoyeur ; la GT 100W était affichée à partir de 6 600 $. Si vous marquez surtout des pièces plates positionnées dans des gabarits, la GT suffit ; pour des pièces finies variées, la caméra rentabilise son prix."
+    },
+    {
+      "question": "Que fait la MOPA 100 W que la 60 W ne fait pas ?",
+      "answer": "Rien de différent sur le fond, mais plus vite : une gravure plus profonde à chaque passe, un relief 3D et un embossage plus rapides, et une découpe plus praticable de l’acier ou du laiton fins. Monport ne publie pas d’épaisseur de découpe pour cette version ; comptez sur de la tôle fine uniquement, en nombreuses passes."
+    },
+    {
+      "question": "Faut-il un caisson pour la GPro Vision ?",
+      "answer": "C’est un galvo séparé ouvert avec un faisceau de classe 4. Monport fournit des lunettes OD7 et vend un caisson avec contacteur de porte (509 $ en octobre 2026). Dans une pièce partagée ou un atelier qui reçoit du public, le caisson est le choix le plus sûr ; une extraction des fumées est aussi recommandée pour les métaux revêtus et les plastiques."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Profondeur et relief",
+      "body": "La source MOPA de 100 W rend la gravure profonde, l’embossage 3D et la découpe de tôle fine praticables en temps de production, tout en gardant le contrôle de la couleur."
+    },
+    {
+      "title": "Pensée pour la production répétée",
+      "body": "Le placement par caméra, l’autofocus et la compatibilité avec le convoyeur de Monport conviennent aux pièces numérotées et aux logos répétés."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser fibre séparé Monport GPro Vision MOPA 100 W : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision, caisson de source et tête galvo : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision, caisson de source vu de face : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision sur un établi avec un ordinateur et des pièces marquées : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision, panneau arrière et câble fibre : Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La version 100 W convient aux ateliers qui vendent de la gravure profonde, du relief, du marquage d’outils et de petites découpes de métal, et veulent que la caméra réduise le temps de préparation sur les produits finis.",
+    "limitations": "La puissance supplémentaire coûte environ 1 600 $ de plus que la version MOPA moins chère, sans champ plus grand. Elle dépasse les besoins d’un travail limité à la couleur ou au marquage léger, et exige toujours un caisson ou une protection oculaire stricte."
+  }
+}

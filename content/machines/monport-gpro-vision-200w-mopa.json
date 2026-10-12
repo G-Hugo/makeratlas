@@ -1,0 +1,182 @@
+{
+  "id": "monport-gpro-vision-200w-mopa",
+  "slug": "monport-gpro-vision-200w-mopa",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "releaseDate": "2026-06",
+  "modelLine": "monport-gpro-vision",
+  "image": "/machines/monport-gpro-vision-200w-mopa/01.webp",
+  "tierEditorialOverride": true,
+  "accessories": [
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "name": "Monport GPro Vision 200W MOPA",
+  "powerRating": "200W",
+  "tagline": "Split MOPA fiber with 16 MP camera: top power and 22,000 mm/s for production work",
+  "tldr": "The GPro Vision 200W MOPA is the top of the line: a 200W MOPA source, a galvo listed at 22,000 mm/s (against 10,000 mm/s on the other tiers), the 16 MP camera, autofocus and a 175 × 175 mm field. $8,599 on Monport's store in October 2026, listed for late-October shipping. Aimed at production work and deep metal processing; no independent review yet.",
+  "mainObjective": "High-throughput metal marking, deep engraving and cutting with camera placement",
+  "bestFor": [
+    "Production lines",
+    "Deep engraving",
+    "Thin metal cutting",
+    "Mass marking"
+  ],
+  "priceRange": {
+    "min": 8599,
+    "max": 8799,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $8,599 machine only, $8,799 with LightBurn Pro, listed for late-October shipping"
+  },
+  "specs": {
+    "power": "200W MOPA fiber",
+    "workArea": "175 × 175 mm",
+    "software": [
+      "SapphireMark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–3 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "0.01 mm",
+        "maxSpeed": "22 000 mm/s",
+        "avgEngraveSpeed": "~1 000–4 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Titanium",
+      "Gold & silver",
+      "Plastics",
+      "Stone & leather"
+    ],
+    "cut": [
+      "Thin steel, brass and copper sheet (fewer passes than lower tiers)"
+    ],
+    "cannot": [
+      "Wood and acrylic production work",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Parts larger than the 175 × 175 mm field without repositioning"
+    ]
+  },
+  "pros": [
+    "Fastest tier: 22,000 mm/s galvo speed listed by Monport",
+    "Top MOPA power for deep engraving, relief and thin-metal cutting in production times",
+    "Camera placement and conveyor compatibility for continuous batches"
+  ],
+  "cons": [
+    "$8,599 (Monport, Oct 2026): the highest price in the line for the same 175 × 175 mm field",
+    "Listed for late-October shipping in October 2026",
+    "Too much power for fine colour work on thin parts without careful tuning"
+  ],
+  "faq": [
+    {
+      "question": "Who needs the 200W tier?",
+      "answer": "Shops paid by throughput: deep engraving, embossing, heavy serial marking and small metal cut-outs in volume. Monport lists a 22,000 mm/s maximum speed for this tier against 10,000 mm/s for the others. For gifts, jewelry or colour marking, a lower tier is better value."
+    },
+    {
+      "question": "Is the GPro Vision 200W available now?",
+      "answer": "In October 2026 Monport listed it with a late-October shipping note at $8,599 ($8,799 with LightBurn Pro), so it is effectively a pre-order. Check the current note before ordering."
+    },
+    {
+      "question": "200W or 100W MOPA?",
+      "answer": "Both share the camera, autofocus and 175 × 175 mm field. The 200W ($8,599) doubles the source power and lists 22,000 mm/s instead of 10,000 mm/s, for about $1,680 more than the 100W ($6,919.99). It pays off when deep engraving or cutting runs for hours every day."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gpro200-speed",
+      "title": "22,000 mm/s galvo",
+      "body": "Monport lists more than twice the scanning speed of the other GPro Vision tiers, which shortens fill-heavy jobs."
+    },
+    {
+      "id": "gpro200-power",
+      "title": "The most power in the line",
+      "body": "The strongest source in Monport's camera-equipped split fiber range, for deep engraving, relief and thin-metal cutting."
+    }
+  ],
+  "beginnerNotes": "This profile is the 200W MOPA tier of the GPro Vision, a production machine. Compare the lower tiers via the chips first: most small shops do not need this much power.",
+  "proTips": "Start from reduced power and raise it gradually when building parameters: at this level, thin parts warp and colours shift quickly. Plan fume extraction and an enclosure from day one.",
+  "primaryUse": "200W MOPA fiber · Monport GPro Vision",
+  "rating": {
+    "overall": 8.1,
+    "value": 6.9,
+    "easeOfUse": 8.4,
+    "capability": 8.7,
+    "buildQuality": 8.4
+  },
+  "similarModels": [
+    "monport-gt-100w-fiber",
+    "gweike-g6-split-100w",
+    "monport-ga-100w-fiber"
+  ],
+  "images": [
+    {
+      "src": "/machines/monport-gpro-vision-200w-mopa/01.webp",
+      "alt": "Monport GPro Vision 200W MOPA split fiber laser: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-200w-mopa/02.webp",
+      "alt": "Monport GPro Vision source cabinet and galvo head: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-200w-mopa/03.webp",
+      "alt": "Monport GPro Vision source cabinet, front view: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-200w-mopa/04.webp",
+      "alt": "Monport GPro Vision on a workbench with laptop and marked parts: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-200w-mopa/05.webp",
+      "alt": "Monport GPro Vision rear panel and fiber cable: Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 200W tier turns the GPro Vision into a production tool: deep engraving, embossing and thin-metal cutting at speeds the lower tiers cannot match, with camera placement for continuous batches.",
+    "limitations": "It is expensive for a 175 × 175 mm field, ships later than most tiers, and its power is wasted on colour, jewelry or light marking. No independent review yet, and Monport's product page gives few details on electrical and cooling requirements."
+  }
+}

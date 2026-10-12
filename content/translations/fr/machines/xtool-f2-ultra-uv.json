@@ -1,0 +1,105 @@
+{
+  "tagline": "Galvo UV 355 nm de 5 W, fermée, pour le verre, le cristal et les plastiques, avec gravure 3D interne et deux caméras de 48 Mpx",
+  "tldr": "La F2 Ultra UV est la version UV de la F2 Ultra d’xTool : une seule source UV 355 nm de 5 W sur galvo, dans le même boîtier fermé, avec un champ de 200 × 200 mm et deux caméras de 48 Mpx. Le traitement à froid marque le verre, le cristal, les plastiques, la céramique et les matériaux sensibles à la chaleur sans bords brûlés, et une seconde lentille grave des images 3D à l’intérieur de blocs de cristal jusqu’à 70 × 70 mm. Elle est lente pour la gravure profonde et n’est pas faite pour découper. À ne pas confondre avec la F2 Ultra, qui associe une fibre MOPA de 60 W et une diode de 40 W.",
+  "mainObjective": "Marquer finement et sans brûlure le verre, le cristal et les plastiques, et graver en 3D à l’intérieur du cristal, pour une petite entreprise",
+  "primaryUse": "Galvo UV fermée pour le verre, le cristal, les plastiques et la gravure 3D interne",
+  "beginnerNotes": "Cette fiche décrit la F2 Ultra UV, une machine uniquement UV. Si vous marquez surtout du métal, la F2 Ultra (fibre MOPA + diode) est un meilleur achat pour un prix proche. Prenez la version UV pour le verre, le cristal, les plastiques et le travail de détail.",
+  "proTips": "Passez à la lentille de gravure interne pour les blocs de cristal et utilisez la rehausse pour placer le bloc à la bonne hauteur. Gardez des préréglages séparés pour le marquage de surface du verre et la gravure interne. Pour des séries de pièces plates, le pack avec convoyeur évite de tout repositionner.",
+  "bestFor": [
+    "Cadeaux en verre et en cristal",
+    "Gravure 3D interne",
+    "Plastiques et électronique",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Traitement à froid à 355 nm : marquages nets sur le verre, les plastiques et les matériaux sensibles à la chaleur, sans bords brûlés",
+    "Gravure 3D interne dans des blocs de cristal jusqu’à 70 × 70 mm, avec une seconde lentille et la conversion de photos en 3D par IA dans xTool Studio",
+    "Champ de 200 × 200 mm et deux caméras de 48 Mpx pour placer les séries, dans un boîtier fermé"
+  ],
+  "cons": [
+    "Lente en profondeur : un testeur a mis environ 6 heures et 256 passes pour une pièce en laiton à peine creusée",
+    "4 299 $ pour une seule source UV, quand la F2 Ultra MOPA coûte le même prix",
+    "xTool Studio uniquement, sans LightBurn ; un testeur n’a trouvé ni vraie mise au point automatique ni port Ethernet"
+  ],
+  "materials": {
+    "engrave": [
+      "Verre et cristal (surface et 3D interne)",
+      "Plastiques (ABS, PE, PP, PET, EVA)",
+      "Acrylique",
+      "Céramique",
+      "Silicone",
+      "Bois, cuir et métal revêtu"
+    ],
+    "cut": [
+      "Plastiques fins, films et papier (xTool ne publie aucune épaisseur)"
+    ],
+    "cannot": [
+      "Découpe du métal",
+      "Gravure profonde du métal ou du bois",
+      "Découpe en série du bois ou de l’acrylique",
+      "Objets de plus de 200 mm de largeur"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle xTool, oct. 2026 : 4 299 $ seule, 4 749 $ avec convoyeur, 5 959 $ en pack Deluxe avec module rotatif et purificateur d’air"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Marquage fin sur plaque de verre"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "F2 Ultra UV ou F2 Ultra : laquelle choisir ?",
+      "answer": "Elles partagent le boîtier mais pas le laser. La F2 Ultra associe une fibre MOPA de 60 W et une diode de 40 W pour marquer le métal, colorer l’inox et graver le bois. La F2 Ultra UV n’a qu’une source UV 355 nm de 5 W pour le verre, le cristal, les plastiques et la gravure 3D interne. Les deux démarrent à 4 299 $ sur la boutique xTool (octobre 2026) : choisissez selon vos matériaux."
+    },
+    {
+      "question": "La F2 Ultra UV grave-t-elle à l’intérieur du cristal ?",
+      "answer": "Oui. Une seconde lentille, interchangeable, concentre le faisceau à l’intérieur du bloc, et xTool annonce une zone de gravure interne de 70 × 70 mm. xTool Studio peut transformer une photo ou un texte en modèle 3D pour cela. Un test en conditions réelles y a vu le point fort de la machine."
+    },
+    {
+      "question": "Peut-elle découper des matériaux ?",
+      "answer": "Seulement des matériaux fins. xTool cite la découpe du bois, de l’acrylique, du verre et des plastiques sans publier d’épaisseurs, et les testeurs la décrivent comme une machine de marquage, pas de découpe. Pour découper de l’acrylique ou du bois, un laser CO₂ est bien plus rapide."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser xTool F2 Ultra UV : xTool"
+    },
+    {
+      "alt": "xTool F2 Ultra UV avec un utilisateur tenant un bloc de cristal gravé : xTool"
+    },
+    {
+      "alt": "xTool F2 Ultra UV, gravure 3D interne à partir d’une image 2D : xTool"
+    },
+    {
+      "alt": "xTool F2 Ultra UV, lentilles de gravure de surface et de gravure interne : xTool"
+    },
+    {
+      "alt": "Exemples de cristal, de verre et de bijoux gravés avec la xTool F2 Ultra UV : xTool"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La F2 Ultra UV s’adresse aux entreprises qui personnalisent verrerie, trophées en cristal, pièces en plastique et électronique : le marquage UV à froid reste net sur des matériaux qui brûlent ou fondent sous une diode ou une fibre, et la gravure interne ouvre une gamme de produits qu’aucun autre laser de bureau ne propose. Le boîtier fermé, les caméras et le logiciel guidé d’xTool la rendent simple à utiliser.",
+    "limitations": "Avec 5 W, elle est lente pour la gravure profonde et ne découpe que des matériaux fins. Elle coûte autant que la F2 Ultra MOPA, meilleur outil pour le métal. Le logiciel se limite à xTool Studio, et un test en conditions réelles n’a relevé ni vraie mise au point automatique ni port Ethernet."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Gravure 3D interne",
+      "body": "Une lentille interchangeable grave des images 3D à l’intérieur de blocs de cristal jusqu’à 70 × 70 mm, à partir de photos ou de textes convertis dans xTool Studio."
+    },
+    {
+      "title": "Marquage à froid à 355 nm",
+      "body": "Le faisceau UV marque le verre, les plastiques et les matériaux sensibles à la chaleur en chauffant très peu : les bords restent nets, sans revêtement préalable ni polissage."
+    },
+    {
+      "title": "Deux caméras de 48 Mpx",
+      "body": "Les deux caméras placent les motifs sur les petites pièces et les séries dans tout le champ de 200 × 200 mm."
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "xtool-f2-ultra-uv",
+  "slug": "xtool-f2-ultra-uv",
+  "name": "xTool F2 Ultra UV",
+  "brand": "xTool",
+  "category": "laser-engraver",
+  "laserType": "uv",
+  "tagline": "Enclosed 5W 355 nm UV galvo for glass, crystal and plastics, with 3D inner engraving and two 48 MP cameras",
+  "tldr": "The F2 Ultra UV is the UV version of xTool's F2 Ultra: a single 5W 355 nm UV source on a galvo, in the same enclosed body, with a 200 × 200 mm field and two 48 MP cameras. Cold processing marks glass, crystal, plastics, ceramics and heat-sensitive materials without burnt edges, and a second lens engraves 3D images inside crystal blocks up to 70 × 70 mm. It is slow for deep engraving and not built for cutting. Not to be confused with the F2 Ultra, which pairs a 60W MOPA fiber with a 40W diode.",
+  "mainObjective": "Fine, burn-free marking of glass, crystal and plastics, plus 3D inner engraving, for a small business",
+  "bestFor": [
+    "Glass & crystal gifts",
+    "3D inner engraving",
+    "Plastics & electronics",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 4299,
+    "max": 5959,
+    "currency": "USD",
+    "note": "Official xTool store, Oct 2026: $4,299 standalone, $4,749 with conveyor, $5,959 Deluxe Bundle with rotary and air purifier"
+  },
+  "specs": {
+    "power": "5W UV (355 nm)",
+    "workArea": "200 × 200 mm",
+    "software": [
+      "xTool Studio"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.001 mm",
+      "engraveExample": {
+        "description": "Fine mark on glass panel",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–15 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "< 0.01 mm",
+        "maxSpeed": "15,000 mm/s",
+        "avgEngraveSpeed": "~1,000–3,400 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Glass & crystal (surface and 3D inner)",
+      "Plastics (ABS, PE, PP, PET, EVA)",
+      "Acrylic",
+      "Ceramics",
+      "Silicone",
+      "Wood, leather & coated metal"
+    ],
+    "cut": [
+      "Thin plastics, films & paper (xTool publishes no thickness)"
+    ],
+    "cannot": [
+      "Metal cutting",
+      "Deep engraving in metal or wood",
+      "Production cutting of wood or acrylic",
+      "Objects wider than 200 mm"
+    ]
+  },
+  "pros": [
+    "Cold 355 nm processing: clean marks on glass, plastics and heat-sensitive materials without burnt edges",
+    "3D inner engraving in crystal blocks up to 70 × 70 mm, with a second lens and AI conversion of photos to 3D in xTool Studio",
+    "200 × 200 mm field and two 48 MP cameras for batch placement, in an enclosed body"
+  ],
+  "cons": [
+    "Slow for deep work: a reviewer needed about 6 hours and 256 passes for a shallow brass coin",
+    "$4,299 for a single UV source, while the F2 Ultra MOPA costs the same",
+    "xTool Studio only, no LightBurn; one reviewer found no true auto-focus and no Ethernet"
+  ],
+  "beginnerNotes": "This profile covers the F2 Ultra UV, a UV-only machine. If you mainly mark metal, the F2 Ultra (MOPA fiber + diode) is the better buy at a similar price. Pick the UV version for glass, crystal, plastics and fine detail work.",
+  "proTips": "Swap to the inner-engraving lens for crystal blocks and use the riser so the block sits at the right height. Keep separate material presets for glass surface marking and inner engraving. For batches of flat parts, the conveyor bundle saves repositioning time.",
+  "primaryUse": "Enclosed UV galvo for glass, crystal, plastics and 3D inner engraving",
+  "rating": {
+    "overall": 8.3,
+    "value": 7.2,
+    "easeOfUse": 8.8,
+    "capability": 7.8,
+    "buildQuality": 9
+  },
+  "similarModels": [
+    "xtool-f2-ultra",
+    "creality-falcon-t1-5w-uv",
+    "commarker-omni-x-uv"
+  ],
+  "faq": [
+    {
+      "question": "F2 Ultra UV or F2 Ultra: which one?",
+      "answer": "They share the body but not the laser. The F2 Ultra pairs a 60W MOPA fiber with a 40W diode for metal marking, color on stainless and wood. The F2 Ultra UV has a single 5W 355 nm UV source for glass, crystal, plastics and 3D inner engraving. Both start at $4,299 on xTool's store (October 2026): choose by material."
+    },
+    {
+      "question": "Can the F2 Ultra UV engrave inside crystal?",
+      "answer": "Yes. A second, switchable lens focuses the beam inside the block, and xTool gives a 70 × 70 mm inner-engraving zone. xTool Studio can turn a photo or text into a 3D model for it. A hands-on review found it the standout feature of the machine."
+    },
+    {
+      "question": "Can it cut materials?",
+      "answer": "Only thin ones. xTool lists cutting for wood, acrylic, glass and plastics without publishing thicknesses, and reviewers describe it as a marking machine, not a cutter. For cutting acrylic or wood, a CO₂ laser is far faster."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "smoke-filter",
+      "availability": "optional"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/xtool-f2-ultra-uv/01.webp",
+  "images": [
+    {
+      "src": "/machines/xtool-f2-ultra-uv/01.webp",
+      "alt": "xTool F2 Ultra UV laser engraver: xTool"
+    },
+    {
+      "src": "/machines/xtool-f2-ultra-uv/02.webp",
+      "alt": "xTool F2 Ultra UV with a user holding an engraved crystal block: xTool"
+    },
+    {
+      "src": "/machines/xtool-f2-ultra-uv/03.webp",
+      "alt": "xTool F2 Ultra UV 3D inner engraving from a 2D image: xTool"
+    },
+    {
+      "src": "/machines/xtool-f2-ultra-uv/04.webp",
+      "alt": "xTool F2 Ultra UV surface and inner engraving lenses: xTool"
+    },
+    {
+      "src": "/machines/xtool-f2-ultra-uv/05.webp",
+      "alt": "xTool F2 Ultra UV engraved crystal, glass and jewelry samples: xTool"
+    }
+  ],
+  "powerRating": "5W",
+  "laserCapabilities": [
+    "uv"
+  ],
+  "capabilityTags": [
+    "uv"
+  ],
+  "releaseDate": "2025-11",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The F2 Ultra UV is built for businesses that personalize glassware, crystal awards, plastic parts and electronics: cold UV marks stay clean on materials that burn or melt under diode and fiber lasers, and inner engraving opens a product line that other desktop lasers cannot offer. xTool's enclosure, cameras and guided software keep it easy to run.",
+    "limitations": "At 5W, it is slow for deep engraving and only cuts thin materials. It costs as much as the F2 Ultra MOPA, which is the better tool for metal. Software is limited to xTool Studio, and a hands-on review noted no true auto-focus and no Ethernet port."
+  },
+  "standoutFeatures": [
+    {
+      "id": "f2-uv-inner-engraving",
+      "title": "3D inner engraving",
+      "body": "A switchable lens engraves 3D images inside crystal blocks up to 70 × 70 mm, from photos or text converted in xTool Studio."
+    },
+    {
+      "id": "f2-uv-cold-marking",
+      "title": "Cold 355 nm marking",
+      "body": "The UV beam marks glass, plastics and heat-sensitive materials with very little heat, so edges stay clean without pre-coating or polishing."
+    },
+    {
+      "id": "f2-uv-dual-cameras",
+      "title": "Two 48 MP cameras",
+      "body": "Dual cameras place designs on small parts and batches across the 200 × 200 mm field."
+    }
+  ]
+}

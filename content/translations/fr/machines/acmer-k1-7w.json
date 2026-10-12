@@ -1,0 +1,103 @@
+{
+  "tagline": "La K1 intermédiaire : mini diode fermée de 2,4 kg pour graver, avec une découpe légère du bois fin",
+  "tldr": "La K1 7 W est la version intermédiaire de la mini graveuse fermée d’Acmer : même surface de 150 × 150 mm, même boîtier de 2,4 kg, mêmes capteurs de capot et d’inclinaison et même ventilateur d’extraction que les autres versions, pour 229,99 $. Elle grave le bois, le cuir, le papier et l’acrylique foncé à un rythme correct et découpe le bois fin en plusieurs passes. Le tableau d’Acmer indique jusqu’à 10 mm de contreplaqué, sans préciser le nombre de passes.",
+  "mainObjective": "Graver de petits objets à la maison dans un boîtier fermé, avec une découpe occasionnelle du bois fin",
+  "primaryUse": "Module 7 W · Acmer K1",
+  "beginnerNotes": "Cette fiche décrit la version 7 W de l’Acmer K1. Comparez-la à la 12 W : prenez la 7 W si vous gravez surtout et ne découpez que de temps en temps ; boîtier, surface et logiciel sont identiques. Pour graver uniquement, la 3,5 W fait économiser 30 $.",
+  "proTips": "Pour les découpes, faites plusieurs passes à vitesse modérée plutôt qu’une seule passe très lente, et gardez le capot fermé pour que le ventilateur évacue la fumée. Partez des préréglages d’ACMER Studio et ajustez la puissance sur une chute du même matériau.",
+  "bestFor": [
+    "Premier laser à la maison",
+    "Petits cadeaux",
+    "Cuir et papier",
+    "Petit budget"
+  ],
+  "pros": [
+    "Bon compromis pour la gravure : environ 18 à 26 min pour une photo de 10 × 10 cm sur contreplaqué dans notre profil de benchmark",
+    "Boîtier fermé avec capteurs de capot et d’inclinaison pour 229,99 $",
+    "Découpe le tilleul de 3 mm en quelques passes, assez pour des étiquettes et des décorations de temps en temps"
+  ],
+  "cons": [
+    "La découpe est lente : environ 8 à 14 min pour un carré de 10 × 10 cm dans du tilleul de 3 mm dans notre profil de benchmark",
+    "Ni caméra, ni Wi-Fi, ni mise au point automatique",
+    "Surface de 150 × 150 mm : petits objets uniquement"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Papier et carton",
+      "Cuir",
+      "Acrylique foncé",
+      "Liège et bambou",
+      "Métal revêtu"
+    ],
+    "cut": [
+      "Contreplaqué jusqu’à 10 mm et paulownia jusqu’à 13 mm (tableau Acmer, nombre de passes non précisé)",
+      "Acrylique foncé (fin)",
+      "Papier et carton"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Tout objet de plus de 150 mm de largeur",
+      "Découpe épaisse régulière"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Acmer, oct. 2026 : 229,99 $ (prix barré 399 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "La K1 7 W peut-elle découper du bois ?",
+      "answer": "Du bois fin, oui, en plusieurs passes. Le tableau d’Acmer indique jusqu’à 10 mm de contreplaqué sans préciser la vitesse ni le nombre de passes ; notre profil de benchmark découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en 8 à 14 min environ. Au-delà de 3 mm, la découpe devient lente."
+    },
+    {
+      "question": "K1 7 W ou K1 12 W ?",
+      "answer": "Pour 40 $ de plus (269,99 $ contre 229,99 $ sur la boutique Acmer, octobre 2026), la 12 W divise environ par deux le temps de découpe et grave le bois un peu plus vite. Si vous gravez surtout, la 7 W suffit."
+    },
+    {
+      "question": "La K1 7 W peut-elle graver le métal ?",
+      "answer": "Seulement le métal revêtu ou peint, en retirant la couche de surface. L’inox ou l’aluminium nu demandent un laser infrarouge ou fibre, que la K1 ne propose pas."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Mini graveuse laser fermée Acmer K1 7 W : Acmer"
+    },
+    {
+      "alt": "Acmer K1, dimensions et surface de gravure de 150 × 150 mm : Acmer"
+    },
+    {
+      "alt": "Acmer K1, capteur de capot et capteur d’inclinaison : Acmer"
+    },
+    {
+      "alt": "Acmer K1 sur un établi avec des pièces en bois gravées : Acmer"
+    },
+    {
+      "alt": "Acmer K1, tableau des profondeurs de découpe selon la puissance : Acmer"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La 7 W est le juste milieu de la gamme K1 : une gravure nettement plus rapide que la 3,5 W et assez de puissance pour découper de temps en temps du bois fin, dans le même boîtier fermé de 2,4 kg. Pour les cadeaux, les dessous de verre, les étiquettes en cuir et les projets en papier, elle couvre l’essentiel.",
+    "limitations": "La découpe reste lente et la surface de 150 × 150 mm la limite aux petits objets. Elle n’a ni caméra, ni Wi-Fi, ni mise au point automatique, et le tableau de découpe est une donnée du fabricant sans le nombre de passes."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Équilibrée pour la gravure",
+      "body": "Grave une photo de 10 × 10 cm sur contreplaqué en 18 à 26 min environ dans notre profil de benchmark, avec une découpe légère en plus."
+    },
+    {
+      "title": "Boîtier fermé à moins de 250 $",
+      "body": "Capteur de capot, capteur d’inclinaison et ventilateur d’extraction dans un boîtier fermé vendu 229,99 $ sur la boutique Acmer."
+    }
+  ]
+}

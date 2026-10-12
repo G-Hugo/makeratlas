@@ -1,0 +1,175 @@
+{
+  "id": "sculpfun-v12",
+  "slug": "sculpfun-v12",
+  "name": "Sculpfun V12",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "uv",
+  "tagline": "12W 355 nm UV galvo with two field lenses: cold marking on almost any material, including inside crystal",
+  "tldr": "The Sculpfun V12 is a 12W UV galvo launched in August 2026, the big brother of the 5W V5. It ships with a 70 × 70 mm lens for fine work and 3D engraving inside crystal, and a 200 × 200 mm lens for everyday marking, on a motorized Z column with dual red-dot focusing. UV marks plastics, glass, metals, wood and paper with little heat. At $5,499 and 26.7 kg it is a business machine; no independent review yet.",
+  "mainObjective": "Cold UV marking of plastics, glass, crystal and metals for a personalisation business",
+  "bestFor": [
+    "Crystal & glass gifts",
+    "Plastic parts & packaging",
+    "Fine detail on metal",
+    "Personalisation business"
+  ],
+  "priceRange": {
+    "min": 5499,
+    "max": 5499,
+    "currency": "USD",
+    "note": "Official Sculpfun store, Oct 2026: $5,499 (list price $5,999), both field lenses included"
+  },
+  "specs": {
+    "power": "12W UV (galvo)",
+    "workArea": "200 × 200 mm / 70 × 70 mm",
+    "dimensions": "387 × 592 × 638 mm",
+    "weight": "26.7 kg",
+    "software": [
+      "SGD Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.001 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–9 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "0.0019 mm",
+        "maxSpeed": "10 000–15 000 mm/s",
+        "avgEngraveSpeed": "~1 000–3 000 mm/s",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Plastics (PE, PVC, PP, ABS, PC, POM, nylon, PLA)",
+      "Glass and crystal (surface and subsurface)",
+      "Clear and coloured acrylic",
+      "Stainless steel, aluminium, titanium, brass",
+      "Gold, silver and platinum",
+      "Wood, leather, fabric, paper and card"
+    ],
+    "cut": [],
+    "cannot": [
+      "Cutting wood or acrylic sheets",
+      "Deep engraving in metal at fiber speed",
+      "Anything wider than 200 mm without the slide extension kit"
+    ]
+  },
+  "pros": [
+    "Two field lenses in the box: 70 × 70 mm for fine work and crystal, 200 × 200 mm for everyday marking",
+    "Motorized Z column with dual red-dot focusing and a preset button for each lens",
+    "355 nm cold marking handles plastics, glass and clear acrylic that fiber and diode lasers struggle with"
+  ],
+  "cons": [
+    "$5,499 and 26.7 kg: a business purchase, $2,300 more than the 5W V5",
+    "Sculpfun's own figures disagree (10,000 mm/s in the spec list, 15,000 mm/s on the product images), and the 0.0019 mm spot is a marketing number",
+    "Open galvo with no enclosure: UV light needs proper eye protection and fume extraction on plastics"
+  ],
+  "beginnerNotes": "UV is the most versatile marking laser, but it marks rather than cuts and costs several times more than a diode. Pick the V12 if your business is personalised glass, crystal, plastic parts or very fine detail on metal. For crystal subsurface engraving you need the 70 mm lens and Sculpfun's PC software, not the app.",
+  "proTips": "Swap lenses only with the machine off and use the matching focus button afterwards. Start crystal jobs with Sculpfun's sample parameters and the supplied crystal pillars before buying blanks in bulk. Extract fumes when marking PVC or other plastics, and keep separate parameter libraries for each lens.",
+  "primaryUse": "12W UV galvo for cold marking of plastics, glass, crystal and metals, with 3D subsurface engraving",
+  "rating": {
+    "overall": 7.9,
+    "value": 7,
+    "easeOfUse": 8,
+    "capability": 8.2,
+    "buildQuality": 8.2
+  },
+  "similarModels": [
+    "commarker-omni-x-uv",
+    "commarker-omni-xe-uv",
+    "creality-falcon-t1-5w-uv"
+  ],
+  "faq": [
+    {
+      "question": "Can the Sculpfun V12 engrave inside crystal?",
+      "answer": "Yes, according to Sculpfun: 3D subsurface engraving works with the 70 × 70 mm field lens and Sculpfun's PC software, and the motorized Z raises the head layer by layer. Two crystal pillars come in the box for first tests."
+    },
+    {
+      "question": "V12 or V5: is the extra $2,300 worth it?",
+      "answer": "On Sculpfun's store in October 2026 the V12 is $5,499 against $3,199 for the 5W V5. The V12 brings 12W instead of 5W, a 200 × 200 mm lens instead of 150 × 150 mm and colour marking on metal. Take it if UV marking is daily paid work; for occasional crystal gifts the V5 costs much less."
+    },
+    {
+      "question": "Can a UV laser cut acrylic or wood?",
+      "answer": "Not in any practical sense. Sculpfun lists cutting among the V12's capabilities, but at 12W a UV galvo only cuts thin films, paper and labels. For acrylic or plywood parts you need a CO₂ or a strong diode."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "extension-rail",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/sculpfun-v12/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-v12/01.webp",
+      "alt": "Sculpfun V12 12W UV laser engraver: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-v12/02.webp",
+      "alt": "Sculpfun V12 with its 70 × 70 mm and 200 × 200 mm field lenses: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-v12/03.webp",
+      "alt": "Sculpfun V12 motorized Z column and dual red-dot positioning: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-v12/04.webp",
+      "alt": "Sculpfun V12 colour marking on a metal card: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-v12/05.webp",
+      "alt": "Sculpfun V12 with the slide extension and rotary roller: Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-v12",
+  "powerRating": "12W",
+  "catalogPrimary": true,
+  "releaseDate": "2026-08",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The V12 packs 12W of 355 nm UV, two field lenses and motorized focusing into one desktop unit, so a single machine covers crystal, glass, plastics, packaging and fine metal detail. It is one of the most powerful UV galvos sold to small businesses at this price.",
+    "limitations": "It is heavy, costs more than many CO₂ lasers and cuts nothing useful. The galvo is open, Sculpfun's speed and spot figures are inconsistent or optimistic, and there is no independent review yet to confirm them."
+  },
+  "standoutFeatures": [
+    {
+      "id": "v12-dual-lens",
+      "title": "Two field lenses included",
+      "body": "A 70 × 70 mm lens concentrates energy for fine detail and crystal, a 200 × 200 mm lens covers larger items; both come in the box."
+    },
+    {
+      "id": "v12-crystal-3d",
+      "title": "3D engraving inside crystal",
+      "body": "With the short lens and Sculpfun's PC software, the V12 engraves 3D models inside crystal blocks, raising the head as it goes."
+    }
+  ]
+}

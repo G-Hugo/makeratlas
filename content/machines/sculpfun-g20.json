@@ -1,0 +1,184 @@
+{
+  "id": "sculpfun-g20",
+  "slug": "sculpfun-g20",
+  "name": "Sculpfun G20",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "tagline": "20W fiber galvo on a compact stand with motorized Z: metal marking and deep engraving under $1,500",
+  "tldr": "The Sculpfun G20 is a 20W 1064 nm fiber galvo on an open stand, launched in August 2026. It marks and engraves stainless, aluminium, brass, gold and titanium over a 150 × 150 mm field, with a motorized Z column, dual red-dot focusing and Wi-Fi. Sculpfun claims 10,000 mm/s, a 0.01 mm spot, engraving up to 1.5 mm deep and colour marking on stainless and titanium. No independent review yet; the open frame means you handle 1064 nm safety yourself.",
+  "mainObjective": "Affordable desktop metal marking and deep engraving for jewellery, tags and small parts",
+  "bestFor": [
+    "Jewellery & dog tags",
+    "Metal business cards",
+    "Small metal parts",
+    "First fiber laser"
+  ],
+  "priceRange": {
+    "min": 1499,
+    "max": 1499,
+    "currency": "USD",
+    "note": "Official Sculpfun store, Oct 2026: $1,499 (list price $1,799), same price with US, EU, UK or AU plug"
+  },
+  "specs": {
+    "power": "20W fiber (galvo)",
+    "workArea": "150 × 150 mm",
+    "dimensions": "330 × 250 × 418 mm",
+    "weight": "6.9 kg",
+    "software": [
+      "SGD Laser",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–5 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "Not a cutter"
+      },
+      "technical": {
+        "spotSize": "~0.01 mm",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~1 000–4 000 mm/s",
+        "avgCutSpeed": "N/A"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminium (bare and anodized)",
+      "Brass, copper, gold and silver",
+      "Titanium",
+      "Hard plastics",
+      "Leather, dark glass, coloured ceramics, black acrylic, stone (per Sculpfun)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Cutting wood, acrylic or sheet metal",
+      "Clear glass and clear acrylic",
+      "Anything wider than 150 mm without the slide extension kit"
+    ]
+  },
+  "pros": [
+    "Full 20W fiber galvo with motorized Z and dual red-dot focusing for $1,499",
+    "150 × 150 mm field, wider than the 110 × 110 mm lens on most entry fiber markers",
+    "Accepts the G9 SE slide extension (350 × 150 mm) and the RA Pro Max rotary for rings and tumblers"
+  ],
+  "cons": [
+    "Open stand: no enclosure in the box, and 1064 nm light needs proper OD-rated glasses",
+    "Colour marking relies on a 30–60 kHz frequency range, not a MOPA source: expect a narrower palette",
+    "Launched August 2026: speed, depth and colour claims are not yet confirmed by an independent review"
+  ],
+  "beginnerNotes": "Fiber galvos mark metal: they do not cut wood or acrylic, and they handle organic materials poorly compared with a diode. If you mainly sell wood or leather goods, a diode machine is a better first laser. If your orders are tags, jewellery, tools or metal cards, the G20 is one of the cheapest complete 20W fiber setups with motorized focus.",
+  "proTips": "Set focus with the dual red dots before each job, then run a small parameter grid on scrap: colour on stainless depends on frequency, speed and line spacing together. For deep engraving, use many fast passes rather than one slow one. Budget for the G-series enclosure or a dedicated room, and buy glasses rated for 1064 nm.",
+  "primaryUse": "20W fiber galvo for metal marking, deep engraving and colour tests on stainless and titanium",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.3,
+    "easeOfUse": 8.2,
+    "capability": 7.9,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "commarker-b4-20w",
+    "atomstack-a20-pro-1064nm",
+    "gweike-g2-20w"
+  ],
+  "faq": [
+    {
+      "question": "Can the Sculpfun G20 do colour marking like a MOPA laser?",
+      "answer": "Sculpfun says yes on stainless steel and titanium, with more than 30 colours, using an adjustable 30–60 kHz frequency. It is not sold as a MOPA source, which also varies pulse width: expect fewer, less repeatable colours than on a MOPA machine and plan on test grids before taking colour orders."
+    },
+    {
+      "question": "Does the G20 need an enclosure?",
+      "answer": "It ships as an open stand with one pair of goggles and two security keys. Sculpfun sells an optional enclosure designed for the G series. Without it, keep the machine in a closed room and wear glasses rated for 1064 nm: fiber light is invisible and reflects off metal."
+    },
+    {
+      "question": "Is the G20 a good alternative to the ComMarker B4 20W?",
+      "answer": "On paper, yes: same 20W class, a larger 150 × 150 mm field and motorized Z for $1,499 on Sculpfun's store (October 2026). The B4 has years of user settings and reviews behind it; the G20 launched in August 2026, so its claims still need independent confirmation."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "extension-rail",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/sculpfun-g20/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-g20/01.webp",
+      "alt": "Sculpfun G20 20W fiber laser engraver: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-g20/02.webp",
+      "alt": "Sculpfun G20 fiber laser source and metal engraving samples: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-g20/03.webp",
+      "alt": "Sculpfun G20 motorized Z column and lift buttons: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-g20/04.webp",
+      "alt": "Sculpfun G20 colour marking samples on titanium and stainless steel: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-g20/05.webp",
+      "alt": "Sculpfun G20 with optional enclosure, rotary roller and slide extension: Sculpfun"
+    }
+  ],
+  "modelLine": "sculpfun-g20",
+  "powerRating": "20W",
+  "catalogPrimary": true,
+  "releaseDate": "2026-08",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The G20 brings a 20W fiber galvo with motorized focusing and a 150 × 150 mm field to $1,499, close to the cheapest 20W markers but with a larger field and Wi-Fi. It fits sellers who personalise tags, jewellery, knives and metal cards, and the slide extension and rotary cover longer plates and rings.",
+    "limitations": "It is a marker, not a cutter: wood, leather and acrylic are better served by a diode or CO₂. The stand is open, so safety is on you, and the colour, depth and speed figures are Sculpfun's until independent tests appear."
+  },
+  "standoutFeatures": [
+    {
+      "id": "g20-motorized-z",
+      "title": "Motorized focus at an entry price",
+      "body": "An electric Z column with dual red-dot alignment replaces the hand crank found on most fiber markers in this price range."
+    },
+    {
+      "id": "g20-wide-field",
+      "title": "150 × 150 mm field",
+      "body": "Wider than the usual 110 × 110 mm lens, and the optional slide kit stretches it to 350 × 150 mm for long plates."
+    },
+    {
+      "id": "g20-colour-claim",
+      "title": "Colour marking claimed",
+      "body": "Sculpfun rates the G20 for more than 30 colours on stainless steel and titanium through its 30–60 kHz frequency range."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "tagline": "Diode 12 W fermée classe 1 avec mise au point automatique et filtre à fumée intégré pour 299 $, module infrarouge en option",
+  "tldr": "L’iCube Ultra est le laser compact fermé de Sculpfun : une diode de 12 W dans un caisson classe 1 avec verrouillage de porte, arrêt d’urgence, capteur de température, mise au point automatique et filtre à charbon intégré, sur une surface de 150 × 150 mm. La version Dual ajoute un module infrarouge 1064 nm de 1,2 W pour le métal nu et les plastiques. Sculpfun annonce 10 mm de paulownia en une passe ; un test indépendant a découpé proprement du contreplaqué de 3 et 5 mm à vitesse lente. Petite surface et absence de plateau alvéolé sont la contrepartie.",
+  "mainObjective": "Graver et découper légèrement à la maison en toute sécurité, avec un module infrarouge en option pour le métal",
+  "primaryUse": "Diode 12 W fermée pour la gravure et la découpe légère à la maison, avec un module IR de 1,2 W en option pour le métal",
+  "beginnerNotes": "Cette fiche décrit l’iCube Ultra 12 W. Prenez la version simple si vous travaillez seulement le bois, le cuir et le papier ; la version Dual, 200 $ de plus, ajoute un module infrarouge de 1,2 W pour le métal nu et les plastiques, module que l’on peut aussi acheter plus tard pour 200 $. Prévoyez le kit d’assistance air si vous comptez découper souvent.",
+  "proTips": "Lancez la mise au point automatique avant chaque travail et maintenez les objets bombés à plat avec des aimants : une surface irrégulière fausse la mise au point. Découpez en plusieurs passes lentes plutôt qu’en une seule passe très lente, et ajoutez l’assistance air pour des bords plus nets. Pour la découpe intensive, raccordez le tuyau d’évacuation à une fenêtre ou au purificateur SP1 : le filtre intégré est dimensionné pour la gravure.",
+  "bestFor": [
+    "Premier laser à la maison",
+    "Petits cadeaux et étiquettes",
+    "Salles de classe et bureaux",
+    "Enfants ou animaux à proximité"
+  ],
+  "pros": [
+    "Caisson classe 1 avec verrouillage de porte, arrêt d’urgence, capteur de température et clé de sécurité USB pour 299 $",
+    "Mise au point automatique et filtre à charbon intégré : pas de cale, et moins d’odeur à l’intérieur",
+    "A découpé proprement du contreplaqué de 3 et 5 mm lors d’un test indépendant (100 % de puissance, 500 et 200 mm/min)"
+  ],
+  "cons": [
+    "Surface de 150 × 150 mm (150 × 135 mm avec le module IR) et pas de plateau alvéolé fourni",
+    "Passer de la diode au module IR oblige à coucher la machine sur le côté",
+    "Ni Wi-Fi ni écran tactile : uniquement USB-C ou Bluetooth depuis un téléphone ou un ordinateur"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Bambou et liège",
+      "Ardoise et pierre",
+      "Papier et carton",
+      "Inox, laiton, aluminium et plastiques (module IR de la version Dual)"
+    ],
+    "cut": [
+      "Contreplaqué jusqu’à 5 mm (passe lente, test indépendant)",
+      "Paulownia jusqu’à 10 mm (annonce Sculpfun, une passe)",
+      "Acrylique noir fin",
+      "Papier, carton et feutre"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Objets dépassant 150 mm de largeur",
+      "Métal nu sans le module infrarouge",
+      "Grandes enseignes ou fabrication en série"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Sculpfun, oct. 2026 : 299 $ pour la diode 12 W seule, 499 $ pour la version Dual avec module infrarouge de 1,2 W (prix barrés 599 $ et 799 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur l’iCube Ultra peut-elle découper ?",
+      "answer": "Sculpfun annonce 10 mm de paulownia, un bois très léger, en une passe. Lors d’un test indépendant (3DWithUs, 2026), la diode de 12 W a découpé du contreplaqué de 3 mm à 100 % de puissance et 500 mm/min, et du contreplaqué de 5 mm à 200 mm/min, avec un résultat propre. Considérez 3 à 5 mm de contreplaqué comme la plage réaliste."
+    },
+    {
+      "question": "Simple ou Dual : le module infrarouge vaut-il 200 $ ?",
+      "answer": "Seulement si vous voulez marquer de l’inox nu, du laiton, de l’aluminium ou des plastiques. Le module 1064 nm de 1,2 W marque bien une plaque en inox mais laisse des résidus à nettoyer. Il coûte 200 $ de plus dans la version Dual (499 $ contre 299 $, octobre 2026) et le même prix acheté seul plus tard : vous pouvez donc commencer par la version simple."
+    },
+    {
+      "question": "Peut-on utiliser l’iCube Ultra à l’intérieur sans lunettes ?",
+      "answer": "Elle est certifiée classe 1 : le laser s’arrête à l’ouverture de la porte, et elle dispose d’un arrêt d’urgence, d’une alarme de température et d’une clé de sécurité USB. La fumée doit tout de même sortir : le filtre à charbon intégré suffit pour la gravure légère, mais dirigez le tuyau d’évacuation dehors ou vers un purificateur pour découper."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée Sculpfun iCube Ultra 12 W : Sculpfun"
+    },
+    {
+      "alt": "Dimensions de la Sculpfun iCube Ultra, 335 × 357 × 289 mm : Sculpfun"
+    },
+    {
+      "alt": "Surface de travail de 150 mm et hauteur de 80 mm de la Sculpfun iCube Ultra : Sculpfun"
+    },
+    {
+      "alt": "Module diode 12 W de la Sculpfun iCube Ultra en découpe et en gravure : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun iCube Ultra Dual avec modules diode 12 W et infrarouge 1,2 W : Sculpfun"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Diode 12 W, avec un module infrarouge de 1,2 W en option",
+    "description": "L’iCube Ultra est livrée avec une diode de 12 W. La version Dual ajoute un module infrarouge 1064 nm de 1,2 W, aussi vendu seul. Les modules se montent sur le même support de tête, un à la fois : ce n’est pas une machine à double source, et la surface de travail passe à 150 × 135 mm avec le module IR.",
+    "options": [
+      {
+        "label": "Diode 12 W"
+      },
+      {
+        "label": "Module IR 1,2 W (version Dual ou accessoire)"
+      }
+    ]
+  },
+  "editorialDepth": {
+    "advantages": "À 299 $, l’iCube Ultra est l’un des lasers fermés certifiés classe 1 les moins chers, et elle ajoute la mise au point automatique, un filtre à fumée intégré et une diode de 12 W qui découpe vraiment le contreplaqué fin. Le module IR en option ouvre le métal nu et les plastiques sans changer de machine.",
+    "limitations": "La surface de 150 × 150 mm la limite aux petits objets, il n’y a ni plateau alvéolé ni assistance air dans le carton, et le changement de module est malcommode. La connexion se fait uniquement en USB-C ou en Bluetooth, sans écran tactile pour travailler en autonomie."
+  },
+  "standoutFeatures": [
+    {
+      "title": "La sécurité classe 1 pour 299 $",
+      "body": "Verrouillage de porte, arrêt d’urgence, alarme de température et clé USB dans un caisson fermé : utilisable à la maison, au bureau ou en classe sans lunettes."
+    },
+    {
+      "title": "Mise au point automatique et filtre intégré",
+      "body": "Un bouton règle la mise au point, et un filtre à charbon nettoie la fumée de la gravure courante avant qu’elle ne sorte du caisson."
+    },
+    {
+      "title": "Module infrarouge pour le métal",
+      "body": "Le module 1064 nm de 1,2 W marque l’inox, le laiton et de nombreux plastiques sur la même machine, en version Dual ou acheté plus tard."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "tagline": "La K1 la plus puissante : une mini diode fermée de 2,4 kg qui découpe aussi le contreplaqué fin",
+  "tldr": "La K1 12 W est la version haute de la mini graveuse fermée d’Acmer : une surface de 150 × 150 mm dans un boîtier de 2,4 kg avec capteurs de capot et d’inclinaison et ventilateur d’extraction, pour 269,99 $. Le tableau d’Acmer indique jusqu’à 12 mm de contreplaqué, sans préciser le nombre de passes ; attendez-vous à plusieurs passes au-delà de quelques millimètres. Petite surface, connexion USB seulement et absence de caméra sont la contrepartie du prix.",
+  "mainObjective": "Graver de petits objets dans un boîtier fermé avec une vraie découpe du bois fin, à petit budget",
+  "primaryUse": "Module 12 W · Acmer K1",
+  "beginnerNotes": "Cette fiche décrit la version 12 W de l’Acmer K1. Comparez-la à la 7 W : prenez la 12 W si vous comptez découper des formes, des décorations ou des étiquettes en contreplaqué ; boîtier, surface et logiciel sont identiques. Pour 40 $ de plus que la 7 W, vous gagnez surtout en vitesse de découpe.",
+  "proTips": "Découpez lentement en plusieurs passes plutôt qu’à pleine vitesse, et gardez le capot fermé pour que le ventilateur dégage la fumée du trajet du faisceau. Vérifiez la mise au point avant chaque travail, et testez les bois durs sur une chute : ils se découpent bien plus lentement que ne le laissent croire les chiffres sur le paulownia.",
+  "bestFor": [
+    "Premier laser à la maison",
+    "Décorations et étiquettes",
+    "Petits bureaux",
+    "Découpe de bois fin"
+  ],
+  "pros": [
+    "La seule K1 qui découpe le tilleul de 3 mm en quelques minutes, environ 5 à 9 min pour un carré de 10 × 10 cm dans notre profil de benchmark",
+    "Boîtier fermé avec capteurs de capot et d’inclinaison pour 269,99 $",
+    "La gravure sur bois la plus rapide de la gamme K1, avec le même point de 0,08 × 0,08 mm"
+  ],
+  "cons": [
+    "Vitesse de gravure plafonnée à 10 000 mm/min, plus lente que les machines fermées concurrentes à prix proche",
+    "Plus de fumée en découpe : le tuyau doit sortir à l’extérieur",
+    "Surface de 150 × 150 mm et connexion USB seulement"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Papier et carton",
+      "Cuir",
+      "Acrylique foncé",
+      "Liège et bambou",
+      "Métal revêtu"
+    ],
+    "cut": [
+      "Contreplaqué jusqu’à 12 mm et paulownia jusqu’à 15 mm (tableau Acmer, nombre de passes non précisé)",
+      "Acrylique foncé (fin)",
+      "Papier, carton et feutre"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Tout objet de plus de 150 mm de largeur",
+      "Découpe épaisse en production"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Acmer, oct. 2026 : 269,99 $ (prix barré 459 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la K1 12 W peut-elle découper ?",
+      "answer": "Le tableau d’Acmer indique 12 mm de contreplaqué, 8 mm d’acrylique noir et 15 mm de paulownia, sans préciser la vitesse ni le nombre de passes. Considérez le 3 mm comme confortable : notre profil de benchmark découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en 5 à 9 min environ. Au-delà, il faut plusieurs passes lentes."
+    },
+    {
+      "question": "K1 12 W ou Creality Falcon A1C 10 W ?",
+      "answer": "La Falcon A1C 10 W (369 $ sur la boutique Creality, octobre 2026) ajoute un plateau élévateur motorisé, la mise au point automatique et le Wi-Fi, sur la même surface de 150 × 150 mm. La K1 12 W coûte 269,99 $, elle est plus légère et plus compacte, mais se connecte uniquement en USB. Prenez la K1 pour économiser 100 $, l’A1C pour les objets hauts et l’usage sans fil."
+    },
+    {
+      "question": "La K1 12 W vaut-elle 40 $ de plus que la 7 W ?",
+      "answer": "Si vous découpez du bois, oui : la 12 W divise environ par deux le temps de découpe sur du tilleul de 3 mm dans notre profil de benchmark. Pour graver seulement, la 7 W à 229,99 $ suffit (boutique Acmer, octobre 2026)."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Mini graveuse laser fermée Acmer K1 12 W : Acmer"
+    },
+    {
+      "alt": "Acmer K1, dimensions et surface de gravure de 150 × 150 mm : Acmer"
+    },
+    {
+      "alt": "Acmer K1, capteur de capot et capteur d’inclinaison : Acmer"
+    },
+    {
+      "alt": "Acmer K1 sur un établi avec des pièces en bois gravées : Acmer"
+    },
+    {
+      "alt": "Acmer K1, tableau des profondeurs de découpe selon la puissance : Acmer"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La 12 W est la K1 à prendre si vous voulez un boîtier fermé à très petit prix tout en comptant découper des décorations, des étiquettes ou de petites formes en contreplaqué. Même boîtier de 2,4 kg, même surface et même logiciel que les autres versions, avec le plus de puissance pour la découpe et une gravure plus rapide sur bois.",
+    "limitations": "La surface de 150 × 150 mm la limite aux petits objets, le plafond de 10 000 mm/min ralentit les grands remplissages, et elle n’a ni caméra, ni Wi-Fi, ni mise au point automatique. Les chiffres de découpe d’Acmer ne précisent pas le nombre de passes, et aucun test indépendant approfondi n’était disponible en octobre 2026."
+  },
+  "standoutFeatures": [
+    {
+      "title": "La découpe dans un boîtier fermé à moins de 300 $",
+      "body": "La diode de 12 W découpe le tilleul de 3 mm en quelques minutes dans notre profil de benchmark, dans un boîtier fermé vendu 269,99 $."
+    },
+    {
+      "title": "2,4 kg, elle tient sur une étagère",
+      "body": "Avec 286 × 273 × 190 mm, la K1 se range dans un placard et passe facilement d’une pièce à l’autre ou sur un stand de marché."
+    }
+  ]
+}

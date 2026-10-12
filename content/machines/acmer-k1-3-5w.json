@@ -1,0 +1,171 @@
+{
+  "id": "acmer-k1-3-5w",
+  "slug": "acmer-k1-3-5w",
+  "name": "Acmer K1 3.5W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Entry K1: an enclosed 2.4 kg mini diode for engraving small objects under $200",
+  "tldr": "The K1 3.5W is the cheapest version of Acmer's enclosed mini engraver still in stock in October 2026: a 150 × 150 mm area in a 2.4 kg box with lid and tilt sensors and an exhaust fan, for $199.99. It is an engraver first: wood, leather, paper and dark acrylic. Acmer's chart gives up to 8 mm of plywood, without stating the number of passes; in practice, cutting is slow and limited to thin material.",
+  "mainObjective": "Safe, low-cost engraving of small objects at home",
+  "bestFor": [
+    "First laser at home",
+    "Small gifts",
+    "Paper & leather",
+    "Tight budget"
+  ],
+  "priceRange": {
+    "min": 199.99,
+    "max": 199.99,
+    "currency": "USD",
+    "note": "Official Acmer store, Oct 2026: $199.99 (list price $359)"
+  },
+  "specs": {
+    "power": "3.5W diode (enclosed)",
+    "workArea": "150 × 150 mm",
+    "dimensions": "286 × 273 × 190 mm",
+    "weight": "2.4 kg",
+    "software": [
+      "ACMER Studio",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~25–35 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~15–25 min"
+      },
+      "technical": {
+        "spotSize": "0.08 × 0.08 mm",
+        "maxSpeed": "167 mm/s (10,000 mm/min)",
+        "avgEngraveSpeed": "40–80 mm/s",
+        "avgCutSpeed": "1–3 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Paper & card",
+      "Leather",
+      "Dark acrylic",
+      "Cork & bamboo",
+      "Coated metal"
+    ],
+    "cut": [
+      "Thin plywood and paulownia (Acmer chart: up to 8 and 10 mm, passes not stated)",
+      "Paper & card",
+      "Felt"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "Anything wider than 150 mm",
+      "Regular wood cutting"
+    ]
+  },
+  "pros": [
+    "Enclosed box with lid and tilt sensors for $199.99",
+    "Plenty for engraving paper, card, leather and wooden gifts",
+    "Same box and software as the more powerful versions, with LightBurn support"
+  ],
+  "cons": [
+    "Slow: about 25–35 min for a 10 × 10 cm photo on plywood in our benchmark profile",
+    "Cutting 3 mm wood takes several passes, about 15–25 min for a 10 × 10 cm square",
+    "No camera, Wi-Fi or auto-focus"
+  ],
+  "beginnerNotes": "This profile is the 3.5W version of the Acmer K1. Compare it with the 7W: pick the 3.5W only if you will engrave and almost never cut; for $30 more, the 7W engraves faster and cuts thin wood. The box, area and software are identical.",
+  "proTips": "Use high power and moderate speed for dark, even engraving on wood, and keep cutting for paper, card and felt. Vent the exhaust hose outside even for short jobs.",
+  "primaryUse": "3.5W module · Acmer K1",
+  "rating": {
+    "overall": 7.1,
+    "value": 8.2,
+    "easeOfUse": 8,
+    "capability": 6.3,
+    "buildQuality": 7.2
+  },
+  "similarModels": [
+    "acmer-k1-7w",
+    "acmer-s1-6w",
+    "creality-falcon-a1c-5w"
+  ],
+  "faq": [
+    {
+      "question": "Is the K1 3.5W enough for a beginner?",
+      "answer": "For engraving small objects, yes: wood, leather, paper and dark acrylic within 150 × 150 mm. If you hope to cut plywood shapes, take the 7W or 12W: the 3.5W cuts thin wood only with many slow passes."
+    },
+    {
+      "question": "K1 3.5W or K1 7W?",
+      "answer": "Only $30 apart ($199.99 against $229.99 on Acmer's store, October 2026). The 7W engraves a 10 × 10 cm photo faster (about 18–26 min against 25–35 min in our benchmark profile) and cuts thin wood in reasonable time. For most buyers, the 7W is worth the difference."
+    },
+    {
+      "question": "What about the K1 2.5W?",
+      "answer": "Acmer lists a 2.5W version at $179.99, but it was out of stock in October 2026. With even less power, it would only suit light engraving."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "recommended"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/acmer-k1-3-5w/01.webp",
+  "images": [
+    {
+      "src": "/machines/acmer-k1-3-5w/01.webp",
+      "alt": "Acmer K1 3.5W enclosed mini laser engraver: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-3-5w/02.webp",
+      "alt": "Acmer K1 dimensions and 150 × 150 mm engraving area: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-3-5w/03.webp",
+      "alt": "Acmer K1 lid sensor and tilt sensor: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-3-5w/04.webp",
+      "alt": "Acmer K1 on a workbench with engraved wooden pieces: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-3-5w/05.webp",
+      "alt": "Acmer K1 cutting depth chart by power: Acmer"
+    }
+  ],
+  "modelLine": "acmer-k1",
+  "powerRating": "3.5W",
+  "releaseDate": "2025-09",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 3.5W is the lowest-cost way into an enclosed laser in Acmer's range: a closed box with safety sensors and an exhaust fan for under $200, which suits a first laser at home for paper, leather and wooden gifts.",
+    "limitations": "Engraving is slow and cutting is limited to thin material with many passes. For $30 more, the 7W does almost everything better; the 3.5W only makes sense if every dollar counts and you will not cut."
+  },
+  "standoutFeatures": [
+    {
+      "id": "k1-3-5w-entry",
+      "title": "Enclosed for under $200",
+      "body": "Lid sensor, tilt sensor and exhaust fan in a closed 2.4 kg box sold $199.99 on Acmer's store."
+    },
+    {
+      "id": "k1-3-5w-software",
+      "title": "Open software choice",
+      "body": "Works with ACMER Studio, LightBurn and LaserGRBL, so you can keep the same software if you move to a bigger laser."
+    }
+  ]
+}

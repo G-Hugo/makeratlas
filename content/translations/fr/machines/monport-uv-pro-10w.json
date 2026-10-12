@@ -1,0 +1,102 @@
+{
+  "tagline": "Galvo UV pour la gravure 3D dans le cristal : 10 W, 15 000 mm/s et refroidisseur à eau inclus",
+  "tldr": "L’UV Pro 10 W est la version rapide du galvo UV de gravure 3D à cœur de Monport, mis en ligne en septembre 2026 : 355 nm, 15 000 mm/s, 30 à 200 kHz, la même lentille 3D de 70 × 70 mm (Monport annonce une zone de travail de 150 × 150 mm), un axe Z électrique et un refroidisseur à eau fournis. 4 990 $ sur la boutique Monport en octobre 2026, en précommande avec une expédition début novembre. Mise au point manuelle, pas de caméra ; pas encore de test indépendant.",
+  "mainObjective": "Gravure 3D de cristaux en volume et marquage UV fin",
+  "primaryUse": "UV 10 W · Monport UV Pro",
+  "beginnerNotes": "Cette fiche décrit la version 10 W de l’UV Pro. Prenez-la si les cristaux 3D ou le marquage UV sont une production quotidienne ; pour des cadeaux occasionnels, comparez la version d’entrée avec les puces.",
+  "proTips": "Calez les cristaux avec les barres de positionnement pour garder un placement reproductible. Gardez le refroidisseur et la température de la pièce stables pendant les longs travaux 3D. Achetez vos blocs K9 chez un fournisseur fiable : inclusions et bulles se voient dans la gravure.",
+  "bestFor": [
+    "Cadeaux en cristal 3D",
+    "Production en série",
+    "Verre et acrylique",
+    "Marquage d’électronique"
+  ],
+  "pros": [
+    "L’UV Pro la plus rapide : 15 000 mm/s et 30 à 200 kHz, pour des cristaux 3D plus denses et des séries plus courtes",
+    "Refroidisseur à eau, lentille 3D et bloc d’essai K9 inclus à 4 990 $ (Monport, oct. 2026)",
+    "Marquage à froid à 355 nm sur le verre, les plastiques et les pièces sensibles à la chaleur"
+  ],
+  "cons": [
+    "En précommande : expédition début novembre 2026",
+    "Mise au point manuelle, pas de caméra, et un faisceau UV de classe 4 à l’air libre",
+    "Environ 1 800 $ de plus que la version d’entrée pour le même champ et le même équipement"
+  ],
+  "materials": {
+    "engrave": [
+      "Cristal et verre (à cœur et en surface)",
+      "Acrylique",
+      "Plastiques et silicone",
+      "Céramique",
+      "Bois et cuir",
+      "Métaux (marquage de surface)"
+    ],
+    "cut": [
+      "Papier et film",
+      "Plastiques fins (PE, PP, PET)",
+      "Acrylique opaque fin"
+    ],
+    "cannot": [
+      "Découpe d’acrylique entièrement transparent",
+      "Gravure profonde du métal (domaine de la fibre)",
+      "Découpe de bois ou d’acrylique épais"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 4 990 $ avec le refroidisseur offert, 5 190 $ avec LightBurn en plus, précommande avec expédition début novembre"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo 3D gravée dans un bloc de cristal K9"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe : papier, film et plastiques fins uniquement"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "L’UV Pro 10 W est-elle disponible ?",
+      "answer": "Pas encore : en octobre 2026, Monport l’affichait à 4 990 $ (5 190 $ avec LightBurn) avec une expédition début novembre. La version 6 W était disponible tout de suite."
+    },
+    {
+      "question": "Qu’apporte la 10 W par rapport à la 6 W ?",
+      "answer": "De la vitesse et de la marge : 15 000 mm/s contre 10 000 mm/s, une plage de fréquence de 30 à 200 kHz contre 10 à 150 kHz, et plus de puissance pour les nuages de points denses des cristaux 3D et un marquage plus rapide. Le champ, la lentille, le logiciel et les accessoires sont identiques. La 10 W pèse 21,5 kg contre 16,5 kg."
+    },
+    {
+      "question": "L’UV Pro peut-elle remplacer un laser fibre ?",
+      "answer": "Non. L’UV marque proprement le verre, le cristal, les plastiques et de nombreux revêtements, et peut marquer la surface du métal, mais il ne grave pas le métal en profondeur. Pour le travail profond du métal, regardez un laser fibre comme la GPro Vision de Monport."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Un galvo à 15 000 mm/s",
+      "body": "La vitesse de balayage la plus élevée de la gamme UV Pro, qui raccourcit les cristaux 3D denses et le marquage en série."
+    },
+    {
+      "title": "Un ensemble 3D complet",
+      "body": "Refroidisseur, lentille 3D de 70 × 70 mm, axe Z électrique, pédale et bloc de cristal K9 sont fournis ; seul LightBurn est en supplément."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser galvo UV Monport UV Pro 10 W : Monport"
+    },
+    {
+      "alt": "Monport UV Pro vue de côté avec son câble : Monport"
+    },
+    {
+      "alt": "Monport UV Pro UV10 dans un atelier : Monport"
+    },
+    {
+      "alt": "Gravures 3D dans le cristal et le verre réalisées avec le Monport UV Pro : Monport"
+    },
+    {
+      "alt": "Monport UV Pro, tête galvo et colonne : Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La version 10 W se justifie pour les ateliers dont le chiffre d’affaires dépend du volume de cristaux 3D ou de marquage UV : un balayage plus rapide et un ensemble complet avec refroidisseur et lentille 3D.",
+    "limitations": "C’est une précommande jusqu’en novembre 2026, à mise au point manuelle et sans caméra, qui exige une protection oculaire stricte autour du faisceau UV ouvert. SapphireMark ne fonctionne que sous Windows et il n’existe pas encore de test indépendant."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": "acmer-k1-12w",
+  "slug": "acmer-k1-12w",
+  "name": "Acmer K1 12W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The most powerful K1: an enclosed 2.4 kg mini diode that can also cut thin plywood",
+  "tldr": "The K1 12W is the top version of Acmer's enclosed mini engraver: a 150 × 150 mm area in a 2.4 kg box with lid and tilt sensors and an exhaust fan, for $269.99. Acmer's chart gives up to 12 mm of plywood, without stating the number of passes; expect several passes beyond a few millimeters. Small area, USB-only connection and no camera are the trade-offs for the price.",
+  "mainObjective": "Enclosed small-item engraving with real cutting of thin wood, on a tight budget",
+  "bestFor": [
+    "First laser at home",
+    "Ornaments & tags",
+    "Small desks",
+    "Thin wood cutting"
+  ],
+  "priceRange": {
+    "min": 269.99,
+    "max": 269.99,
+    "currency": "USD",
+    "note": "Official Acmer store, Oct 2026: $269.99 (list price $459)"
+  },
+  "specs": {
+    "power": "12W diode (enclosed)",
+    "workArea": "150 × 150 mm",
+    "dimensions": "286 × 273 × 190 mm",
+    "weight": "2.4 kg",
+    "software": [
+      "ACMER Studio",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~14–20 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–9 min"
+      },
+      "technical": {
+        "spotSize": "0.08 × 0.08 mm",
+        "maxSpeed": "167 mm/s (10,000 mm/min)",
+        "avgEngraveSpeed": "80–160 mm/s",
+        "avgCutSpeed": "4–8 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Paper & card",
+      "Leather",
+      "Dark acrylic",
+      "Cork & bamboo",
+      "Coated metal"
+    ],
+    "cut": [
+      "Plywood up to 12 mm and paulownia up to 15 mm (Acmer chart, passes not stated)",
+      "Dark acrylic (thin)",
+      "Paper, card & felt"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "Anything wider than 150 mm",
+      "Thick production cutting"
+    ]
+  },
+  "pros": [
+    "The only K1 that cuts 3 mm basswood in a few minutes, about 5–9 min for a 10 × 10 cm square in our benchmark profile",
+    "Enclosed box with lid and tilt sensors for $269.99",
+    "Fastest K1 engraving on wood, while keeping the same 0.08 × 0.08 mm spot"
+  ],
+  "cons": [
+    "Engraving speed capped at 10,000 mm/min, slower than enclosed rivals near the price",
+    "More smoke when cutting: the hose must be vented outside",
+    "150 × 150 mm area and USB-only connection"
+  ],
+  "beginnerNotes": "This profile is the 12W version of the Acmer K1. Compare it with the 7W: pick the 12W if you plan to cut plywood shapes, ornaments or tags; box, area and software are identical. For $40 more than the 7W you mostly gain cutting speed.",
+  "proTips": "Cut at low speed with several passes rather than at full speed, and keep the lid closed so the fan can clear smoke from the beam path. Check focus before each job, and test hardwood on scrap: it cuts far slower than the paulownia figures suggest.",
+  "primaryUse": "12W module · Acmer K1",
+  "rating": {
+    "overall": 7.6,
+    "value": 8.3,
+    "easeOfUse": 8,
+    "capability": 7,
+    "buildQuality": 7.2
+  },
+  "similarModels": [
+    "acmer-k1-7w",
+    "creality-falcon-a1c-10w",
+    "sculpfun-icube-pro-10w"
+  ],
+  "faq": [
+    {
+      "question": "How thick can the K1 12W cut?",
+      "answer": "Acmer's chart gives 12 mm of plywood, 8 mm of black acrylic and 15 mm of paulownia, without stating speed or passes. Treat 3 mm as comfortable: our benchmark profile cuts a 10 × 10 cm square in 3 mm basswood in about 5–9 min. Thicker stock needs several slow passes."
+    },
+    {
+      "question": "K1 12W or Creality Falcon A1C 10W?",
+      "answer": "The Falcon A1C 10W ($369 on Creality's store, October 2026) adds a motorized lifting bed, auto-focus and Wi-Fi on the same 150 × 150 mm area. The K1 12W costs $269.99, is lighter and more compact, but connects by USB only. Pick the K1 to save $100, the A1C for taller objects and wireless use."
+    },
+    {
+      "question": "Is the K1 12W worth $40 more than the 7W?",
+      "answer": "If you will cut wood, yes: the 12W roughly halves cutting time on 3 mm basswood in our benchmark profile. For engraving alone, the 7W at $229.99 is enough (Acmer store, October 2026)."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "recommended"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/acmer-k1-12w/01.webp",
+  "images": [
+    {
+      "src": "/machines/acmer-k1-12w/01.webp",
+      "alt": "Acmer K1 12W enclosed mini laser engraver: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-12w/02.webp",
+      "alt": "Acmer K1 dimensions and 150 × 150 mm engraving area: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-12w/03.webp",
+      "alt": "Acmer K1 lid sensor and tilt sensor: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-12w/04.webp",
+      "alt": "Acmer K1 on a workbench with engraved wooden pieces: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-12w/05.webp",
+      "alt": "Acmer K1 cutting depth chart by power: Acmer"
+    }
+  ],
+  "modelLine": "acmer-k1",
+  "powerRating": "12W",
+  "catalogPrimary": true,
+  "releaseDate": "2025-09",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 12W is the K1 to buy if you want an enclosed box at a very low price and still expect to cut ornaments, tags or small plywood shapes. Same 2.4 kg box, area and software as the other versions, with the most power for cutting and faster engraving on wood.",
+    "limitations": "The 150 × 150 mm area limits it to small objects, the speed cap of 10,000 mm/min slows large fills, and there is no camera, Wi-Fi or auto-focus. Acmer's cutting figures do not state the number of passes, and no in-depth independent review was available in October 2026."
+  },
+  "standoutFeatures": [
+    {
+      "id": "k1-12w-cut-budget",
+      "title": "Cutting in an enclosed box under $300",
+      "body": "The 12W diode cuts 3 mm basswood in a few minutes in our benchmark profile, in a closed box sold $269.99."
+    },
+    {
+      "id": "k1-12w-compact",
+      "title": "2.4 kg and fits on a shelf",
+      "body": "At 286 × 273 × 190 mm, the K1 stores in a cupboard and moves easily between rooms or to a market stall."
+    }
+  ]
+}

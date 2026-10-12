@@ -1,0 +1,178 @@
+{
+  "id": "monport-uv-pro-6w",
+  "slug": "monport-uv-pro-6w",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "uv",
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "releaseDate": "2026-09",
+  "modelLine": "monport-uv-pro",
+  "image": "/machines/monport-uv-pro-6w/01.webp",
+  "tierEditorialOverride": true,
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "optional"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "materials": {
+    "engrave": [
+      "Crystal & glass (inside and on the surface)",
+      "Acrylic",
+      "Plastics & silicone",
+      "Ceramics",
+      "Wood & leather",
+      "Metals (surface marking)"
+    ],
+    "cut": [
+      "Paper & film",
+      "Thin plastics (PE, PP, PET)",
+      "Thin opaque acrylic"
+    ],
+    "cannot": [
+      "Cutting fully transparent acrylic",
+      "Deep metal engraving (fiber territory)",
+      "Cutting thick wood or acrylic"
+    ]
+  },
+  "name": "Monport UV Pro 6W",
+  "powerRating": "6W",
+  "catalogPrimary": true,
+  "tagline": "UV galvo for 3D crystal engraving: 6W, 3D lens and water chiller included",
+  "tldr": "The UV Pro 6W is the entry tier of Monport's 3D inner-engraving UV galvo, listed in September 2026: 355 nm, 10,000 mm/s, 10–150 kHz, a 70 × 70 mm lens for 3D work (Monport lists a 150 × 150 mm processing area), an electric Z lift, a foot pedal and a separate water chiller in the package. $3,190 on Monport's store in October 2026 and available immediately. Manual focus, no camera, no enclosure; no independent review yet.",
+  "mainObjective": "Starting a 3D crystal and fine UV marking business",
+  "bestFor": [
+    "3D crystal gifts",
+    "Personalized glassware",
+    "Plastics marking",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 3190,
+    "max": 3390,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $3,190 with the free water chiller, $3,390 with LightBurn added"
+  },
+  "specs": {
+    "power": "6W UV",
+    "workArea": "150 × 150 mm",
+    "dimensions": "290 × 500 × 545 mm",
+    "weight": "16.5 kg",
+    "software": [
+      "SapphireMark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "±0.001 mm",
+      "engraveExample": {
+        "description": "3D photo engraved inside a K9 crystal block",
+        "size": "5 × 5 × 8 cm",
+        "time": "~20–40 min"
+      },
+      "cutExample": {
+        "description": "Not a cutter: paper, film and thin plastics only",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "0.0019 mm",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~1 000–3 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "pros": [
+    "3D engraving inside crystal and glass, with a 5 × 5 × 8 cm K9 test block and the 70 × 70 mm lens in the box",
+    "Water chiller included at $3,190 (Monport, Oct 2026)",
+    "355 nm cold marking: clean, unburned marks on plastics, glass and heat-sensitive parts"
+  ],
+  "cons": [
+    "Manual focus (electric Z lift with dual red dot): no autofocus and no camera",
+    "Open galvo with a Class 4 UV beam: glasses are supplied, an enclosure is not",
+    "Warranty unclear: the page shows 2 years on the machine and 1 year on the UV source, the spec table says 12 months"
+  ],
+  "faq": [
+    {
+      "question": "What comes in the box with the UV Pro 6W?",
+      "answer": "Monport's October 2026 package includes a separate water chiller (shipped in its own box), the 70 × 70 mm field lens used for 3D inner engraving, a K9 crystal block, a lifting platform, positioning bars, a foot pedal and OD5 glasses. A 110 × 110 or 220 × 220 mm lens for larger flat work costs $99.99; LightBurn is a $200 option, SapphireMark is included."
+    },
+    {
+      "question": "What is the difference between the UV Pro and Monport's 2D UV engraver?",
+      "answer": "The UV Pro carries the hardware for 3D inner engraving. Monport sells a 2D-only UV galvo separately ($2,719.99 for 6W in October 2026). If you only mark surfaces or flat designs inside glass, the 2D model costs less; for 3D photo crystals, you need the UV Pro."
+    },
+    {
+      "question": "6W or 10W UV Pro?",
+      "answer": "Same chassis, lens and software. The 10W ($4,990, shipping early November 2026) lists 15,000 mm/s instead of 10,000 mm/s and a higher frequency range, so dense 3D crystals and batches finish faster. For gifts and small runs, the 6W at $3,190 is the better value. Our crystal time above is an estimate: it depends heavily on the number of points in the 3D file."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "uvpro6-3d",
+      "title": "3D inner engraving out of the box",
+      "body": "The 70 × 70 mm lens, electric Z lift and a K9 crystal block come in the package, so 3D photo crystals can be made on day one with SapphireMark."
+    },
+    {
+      "id": "uvpro6-chiller",
+      "title": "Chiller included",
+      "body": "Monport bundles a separate water chiller with the machine, which keeps the UV source at a stable temperature during long jobs."
+    }
+  ],
+  "beginnerNotes": "This profile is the 6W tier of the UV Pro. It suits gift shops starting with 3D photo crystals and fine marking on plastics and glass. Compare the faster tier via the chips if you plan high volumes.",
+  "proTips": "Keep the chiller topped up and the room between 5 and 35 °C, the range Monport specifies. Wear the supplied OD5 glasses: the UV beam is invisible and the galvo is open. Clean crystal blocks before engraving, since fingerprints scatter the beam.",
+  "primaryUse": "6W UV · Monport UV Pro",
+  "rating": {
+    "overall": 7.9,
+    "value": 7.8,
+    "easeOfUse": 7.5,
+    "capability": 7.6,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "commarker-omni-x-uv",
+    "commarker-omni-xe-uv",
+    "creality-falcon-t1-5w-uv"
+  ],
+  "images": [
+    {
+      "src": "/machines/monport-uv-pro-6w/01.webp",
+      "alt": "Monport UV Pro 6W UV galvo laser: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro-6w/02.webp",
+      "alt": "Monport UV Pro side view with cable: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro-6w/03.webp",
+      "alt": "Monport UV Pro UV6 in a gift studio with a 3D crystal: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro-6w/04.webp",
+      "alt": "3D engravings inside crystal and glass made with the Monport UV Pro: Monport"
+    },
+    {
+      "src": "/machines/monport-uv-pro-6w/05.webp",
+      "alt": "Monport UV Pro galvo head and column: Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The UV Pro 6W is a focused tool for 3D photo crystals and clean marking on glass, plastics and electronics. With the chiller and 3D lens included, its price compares well with enclosed UV machines that need extras for the same job.",
+    "limitations": "It is an open Class 4 galvo with manual focus and no camera. SapphireMark runs on Windows only. The warranty terms are inconsistent on Monport's page, and there is no independent review yet."
+  }
+}

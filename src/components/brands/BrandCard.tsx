@@ -24,8 +24,8 @@ export function BrandCard({ brand, locale, dict }: BrandCardProps) {
       <div className="flex items-start gap-4">
         <BrandLogo name={brand.name} src={brand.logoSrc} size="card" />
         <div className="min-w-0 flex-1">
-          <div className="flex items-start justify-between gap-2">
-            <div>
+          <div className="flex flex-wrap items-start justify-between gap-2">
+            <div className="min-w-0">
               <h2 className="text-xl font-semibold text-stone-900 group-hover:text-amber-700 dark:text-stone-100 dark:group-hover:text-amber-400">
                 {brand.name}
               </h2>

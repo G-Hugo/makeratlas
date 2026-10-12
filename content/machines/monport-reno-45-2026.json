@@ -1,0 +1,198 @@
+{
+  "id": "monport-reno-45-2026",
+  "slug": "monport-reno-45-2026",
+  "name": "Monport Reno 45 (2026)",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "powerRating": "45W",
+  "tagline": "Desktop 45W CO₂ with a 400 × 300 mm bed and built-in water cooling",
+  "tldr": "Monport's new-generation Reno 45, listed on 20 September 2026, keeps the 400 × 300 mm bed and 45W glass tube but moves the water cooling inside (3 L tank) and adds a 470 × 7 mm front pass-through, 100 mm of Z travel and magnetic assisted focus. Basic $1,149.99 (500 mm/s, USB), Pro $1,499.99 (600 mm/s, Wi-Fi, offline panel, compatible with the 1W IR module), Vision $1,649.99 (8 MP camera). All three were on pre-order in October 2026: Pro and Vision shipping late October, Basic late November. It replaces the earlier Reno 45 Pro Vision.",
+  "mainObjective": "An affordable first CO₂ for acrylic, wood and leather on a desk",
+  "bestFor": [
+    "Upgrading from diode",
+    "Acrylic signs",
+    "Personalized gifts",
+    "Craft fairs"
+  ],
+  "priceRange": {
+    "min": 1149.99,
+    "max": 1649.99,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: Basic $1,149.99, Pro $1,499.99, Vision $1,649.99, all on pre-order; the LightBurn bundle adds $99.99 (Basic) or $199.99 (Pro, Vision)"
+  },
+  "specs": {
+    "power": "45W CO₂",
+    "workArea": "400 × 300 mm",
+    "dimensions": "800 × 575 × 285 mm",
+    "weight": "30 kg",
+    "software": [
+      "LightBurn",
+      "AutoLaser",
+      "TopwisdomLaser",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi",
+      "U-disk"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–10 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "500–600 mm/s",
+        "avgEngraveSpeed": "~150–350 mm/s",
+        "avgCutSpeed": "~6–15 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Stone & slate",
+      "Coated or painted metal"
+    ],
+    "cut": [
+      "Acrylic up to 15 mm (Monport claim)",
+      "Plywood & hardwood",
+      "Leather",
+      "Fabric & felt",
+      "Paper & card"
+    ],
+    "cannot": [
+      "Bare metal (except with the optional 1W IR module on Pro and Vision)",
+      "PVC and vinyl (chlorine fumes)",
+      "Use without venting smoke outside"
+    ]
+  },
+  "pros": [
+    "Built-in 3 L water tank replaces the external tank the previous Reno 45 needed",
+    "Low entry price: $1,149.99 for the Basic, $1,649.99 for the camera-equipped Vision (Monport, Oct 2026)",
+    "470 × 7 mm front pass-through and 100 mm of Z travel for long strips and taller objects"
+  ],
+  "cons": [
+    "Pre-order only in October 2026: Pro and Vision ship late October, Basic late November",
+    "Tube rated 3,000 h below 40% power but 900 h above 70%, with a 6-month tube warranty",
+    "400 × 300 mm bed: half the area of the Reno 65, which costs $450 to $1,100 more depending on version"
+  ],
+  "faq": [
+    {
+      "question": "What changed from the previous Reno 45?",
+      "answer": "Monport's own comparison lists three changes: the water cooling moves inside the machine (3 L tank, no external tank to set up), the air assist pump rises from 18 to 20 L/min and only runs during jobs, and the Pro and Vision accept a swappable 1W IR module for bare metal. The bed stays at 400 × 300 mm. The previous Reno 45 Pro Vision is no longer sold on Monport's store."
+    },
+    {
+      "question": "Is the new Reno 45 available now?",
+      "answer": "Not yet. In October 2026 every version was a pre-order on Monport's US store: Pro and Vision with an estimated late-October ship date, Basic late November. Monport's own product page points buyers who need a machine right away to other models."
+    },
+    {
+      "question": "Basic, Pro or Vision?",
+      "answer": "The Basic ($1,149.99) is USB-only, 500 mm/s, with LightBurn or LaserGRBL. The Pro ($1,499.99) adds 600 mm/s, Wi-Fi, U-disk, an offline control panel, AutoLaser and the mobile app, plus IR module compatibility. The Vision ($1,649.99) adds the 8 MP camera for placement, contour recognition and batch layouts in AutoLaser; at $150 more than the Pro, it is the version most buyers should look at first."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "reno45-2026-cooling",
+      "title": "Water cooling now built in",
+      "body": "The previous Reno 45 relied on an external tank. This generation carries a 3 L tank and radiator inside the chassis, which removes the bucket, pump and hoses from the desk."
+    },
+    {
+      "id": "reno45-2026-price",
+      "title": "A camera CO₂ under $1,700",
+      "body": "The Vision version pairs an 8 MP full-bed camera with the 45W tube for $1,649.99 on Monport's store (October 2026, pre-order)."
+    }
+  ],
+  "beginnerNotes": "This profile covers the 2026 generation of the Reno 45, not the earlier Reno 45 Pro Vision. It suits a first CO₂ for gifts, signs and craft-fair products. Choose the Pro or Vision if you want Wi-Fi and the IR option; the Basic is USB-only.",
+  "proTips": "Keep routine work under about 70% tube power to stay near Monport's longer life figures. Use the front pass-through for long strips. Duct the 100 mm exhaust outlet outside, even for short engraving jobs.",
+  "primaryUse": "45W glass tube · Monport Reno 45 (2026)",
+  "rating": {
+    "overall": 8.2,
+    "value": 8.7,
+    "easeOfUse": 7.8,
+    "capability": 8.1,
+    "buildQuality": 7.9
+  },
+  "similarModels": [
+    "monport-reno-65-2026",
+    "gweike-cloud-pro",
+    "omtech-polar-2-70w"
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "recommended"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "optional"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "releaseDate": "2026-09",
+  "image": "/machines/monport-reno-45-2026/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-reno-45-2026/01.webp",
+      "alt": "Monport Reno 45 desktop CO₂ laser (2026): Monport"
+    },
+    {
+      "src": "/machines/monport-reno-45-2026/02.webp",
+      "alt": "Monport Reno 45 with the lid open: Monport"
+    },
+    {
+      "src": "/machines/monport-reno-45-2026/03.webp",
+      "alt": "Monport Reno 45 on a desk with a laptop and finished pieces: Monport"
+    },
+    {
+      "src": "/machines/monport-reno-45-2026/04.webp",
+      "alt": "Monport Reno 45 engraving a batch of coasters: Monport"
+    },
+    {
+      "src": "/machines/monport-reno-45-2026/05.webp",
+      "alt": "Monport Reno 45 400 × 300 mm honeycomb bed: Monport"
+    }
+  ],
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 2026 Reno 45 removes the old model's most awkward setup step, the external water tank, and lowers the price sharply. With a pass-through, 100 mm of Z travel and an optional IR module on the Pro and Vision, it covers most of what a home business needs from a first CO₂.",
+    "limitations": "It is a pre-order with no independent review of this generation yet. The bed is modest, focus is assisted rather than automatic, the glass tube is a consumable with a 6-month warranty, and smoke must be vented outside."
+  }
+}

@@ -86,7 +86,8 @@ function normalizeCommonEnglishToFrench(value: string): string {
     [/\bcutting\b/gi, "découpe"],
     [/\bengraving\b/gi, "gravure"],
     [/\bheavy\b/gi, "intensive"],
-    [/\blarge\b/gi, "grand"],
+    // Not after "de", "plus"... where it is already the French word ("150 mm de large").
+    [/(?<!\b(?:de|plus|très|assez|trop|moins|aussi) )\blarge\b/gi, "grand"],
     [/\bpanels\b/gi, "panneaux"],
     [/\bmaker(s)?\b/gi, "maker"],
     [/\bcrafter(s)?\b/gi, "créateur"],

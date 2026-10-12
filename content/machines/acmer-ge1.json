@@ -1,0 +1,207 @@
+{
+  "id": "acmer-ge1",
+  "slug": "acmer-ge1",
+  "name": "Acmer GE1",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "Enclosed portable galvo with a 10W diode and a 2W infrared source, auto-focus and a 105 × 105 mm field",
+  "tldr": "The Acmer GE1 (August 2026) is a small enclosed galvo engraver that pairs a 10W blue diode for wood, leather and paper with a 2W 1064 nm infrared source for metal and some plastics. Acmer gives 5,000 mm/s galvo speed, a motorized Z-axis with auto-focus for objects up to 110 mm tall and a 105 × 105 mm field, extendable to 105 × 370 mm with the optional slide. At $799 it costs far less than xTool's portable galvos, but it is brand new: no dimensions, weight or independent test yet.",
+  "mainObjective": "Fast marking of small objects in wood, leather and metal from one enclosed portable box",
+  "bestFor": [
+    "Personalized small gifts",
+    "Pet tags & jewelry",
+    "Market stalls",
+    "First galvo"
+  ],
+  "priceRange": {
+    "min": 799,
+    "max": 1346,
+    "currency": "USD",
+    "note": "Official Acmer store, Oct 2026: $799 Basic Pack, $978 with slide extension, $988 with rotary chuck, $1,346 All In One Pack (list prices $1,299 to $1,916)"
+  },
+  "specs": {
+    "power": "10W diode + 2W IR (1064 nm)",
+    "workArea": "105 × 105 mm",
+    "software": [
+      "GE LAB (Windows, Android)",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–8 min"
+      },
+      "cutExample": {
+        "description": "Laser cutting",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "5,000 mm/s",
+        "avgEngraveSpeed": "~300–1,500 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Paper & card",
+      "Dark acrylic",
+      "Stainless steel & aluminum (IR)",
+      "Some plastics (IR)"
+    ],
+    "cut": [
+      "Paper & thin card (Acmer publishes no cutting thickness)"
+    ],
+    "cannot": [
+      "Wood or acrylic cutting in useful thicknesses",
+      "Clear acrylic",
+      "Deep metal engraving",
+      "Objects wider than 105 mm without the slide"
+    ]
+  },
+  "pros": [
+    "Diode and infrared in one enclosed galvo for $799, against $1,299 for xTool's F2",
+    "Motorized Z-axis with auto-focus for objects up to 110 mm tall",
+    "Optional slide extends the field to 105 × 370 mm for rows of tags or long pieces"
+  ],
+  "cons": [
+    "105 × 105 mm field: smaller than the 220 × 220 mm of the xTool F2",
+    "2W infrared marks metal slowly and only on the surface",
+    "New machine: no dimensions, weight, spot size or independent review published"
+  ],
+  "beginnerNotes": "The GE1 arrives assembled and runs from two buttons on the machine: preview, then engrave. Choose the diode for wood, leather and paper, and the infrared source for bare metal and some plastics; you run one source at a time. Do not buy it to cut: it is a marking machine.",
+  "proTips": "Use the outline preview to place each piece before engraving, and save repeat jobs: the GE1 re-runs the last settings with one press. On stainless steel, run several passes with the infrared source rather than slowing down too much. Connect a fume extractor or the Acmer purifier for leather and plastics.",
+  "primaryUse": "Portable galvo, 10W diode + 2W infrared, for small personalized objects",
+  "rating": {
+    "overall": 7.8,
+    "value": 8.4,
+    "easeOfUse": 8.6,
+    "capability": 7.4,
+    "buildQuality": 7.9
+  },
+  "similarModels": [
+    "xtool-f2",
+    "xtool-f1",
+    "laserpecker-5"
+  ],
+  "faq": [
+    {
+      "question": "Acmer GE1 or xTool F2: which one?",
+      "answer": "The xTool F2 has more power (15W diode and 5W infrared), a 220 × 220 mm field and a 50 MP camera, for $1,299 on xTool's store (October 2026). The GE1 costs $799 with a 105 × 105 mm field and no camera, but it is fully enclosed and adds auto-focus. Pick the GE1 for small objects on a budget, the F2 for larger pieces and metal work."
+    },
+    {
+      "question": "Can the GE1 cut wood or acrylic?",
+      "answer": "Not in practical thicknesses. Acmer publishes no cutting figure for the GE1, and a galvo with a 10W diode is built to mark quickly, not to cut. For cutting plywood or acrylic shapes, a gantry diode or a CO₂ laser is the right tool."
+    },
+    {
+      "question": "Which pack should I buy?",
+      "answer": "The $799 Basic Pack is enough for tags, keychains and flat gifts. Add the slide extension ($978 pack) for rows of tags or long pieces up to 370 mm, and the rotary chuck ($988 pack) for tumblers and rings. The $1,346 All In One Pack adds both plus a fume purifier (Acmer store, October 2026)."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "extension-rail",
+      "availability": "optional"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "smoke-filter",
+      "availability": "optional"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/acmer-ge1/01.webp",
+  "images": [
+    {
+      "src": "/machines/acmer-ge1/01.webp",
+      "alt": "Acmer GE1 portable galvo laser engraver: Acmer"
+    },
+    {
+      "src": "/machines/acmer-ge1/02.webp",
+      "alt": "Acmer GE1 with fume purifier, rotary chuck and slide extension: Acmer"
+    },
+    {
+      "src": "/machines/acmer-ge1/03.webp",
+      "alt": "Acmer GE1 outline preview on a wooden coaster: Acmer"
+    },
+    {
+      "src": "/machines/acmer-ge1/04.webp",
+      "alt": "Acmer GE1 slide extension and rotary chuck in use: Acmer"
+    },
+    {
+      "src": "/machines/acmer-ge1/05.webp",
+      "alt": "Acmer GE1 engraving samples with the 10W diode and the 2W infrared source: Acmer"
+    }
+  ],
+  "powerRating": "10W",
+  "moduleSystem": {
+    "style": "dual-laser",
+    "headline": "10W diode + 2W infrared (1064 nm)",
+    "description": "Fixed dual-source galvo: the diode handles wood, leather and paper, the infrared source marks bare metal and some plastics. You select the source per job, without swapping modules.",
+    "options": [
+      {
+        "power": "10W",
+        "laserKind": "diode",
+        "label": "10W diode"
+      },
+      {
+        "power": "2W",
+        "laserKind": "infrared",
+        "label": "2W IR"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "diode",
+    "infrared"
+  ],
+  "capabilityTags": [
+    "diode",
+    "infrared"
+  ],
+  "releaseDate": "2026-08",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The GE1 brings the portable galvo formula, diode plus infrared in a closed box, below $800. Auto-focus, the motorized Z-axis and the one-press preview make it easy to use for name tags, keychains, jewelry and small wooden gifts, and the optional slide and rotary chuck widen what it can take.",
+    "limitations": "The 105 × 105 mm field and the 2W infrared source limit it to small objects and surface marks on metal. Acmer does not publish dimensions, weight or spot size, and there is no independent review yet: treat speed and accuracy figures as manufacturer claims."
+  },
+  "standoutFeatures": [
+    {
+      "id": "ge1-dual-source-price",
+      "title": "Two sources under $800",
+      "body": "A 10W diode for organic materials and a 2W 1064 nm infrared source for metal, in one enclosed galvo sold $799 in the Basic Pack."
+    },
+    {
+      "id": "ge1-autofocus-z",
+      "title": "Auto-focus on a motorized Z-axis",
+      "body": "The head moves to the right focal height on its own and takes objects up to 110 mm tall."
+    },
+    {
+      "id": "ge1-slide-extension",
+      "title": "Slide for longer pieces",
+      "body": "The optional slide extends the field from 105 × 105 mm to 105 × 370 mm for rows of tags or long pieces."
+    }
+  ]
+}

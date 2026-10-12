@@ -53,3 +53,11 @@ body {
   --tw-prose-th-borders: #57534e;
   --tw-prose-td-borders: #44403c;
 }
+
+/* Grid items default to min-width: auto and widen to fit long words or rows, pushing the page
+   wider than a phone screen. Let them shrink; their content wraps or scrolls instead. */
+@layer base {
+  .grid > * {
+    min-width: 0;
+  }
+}

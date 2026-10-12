@@ -1,0 +1,203 @@
+{
+  "id": "monport-reno-65-2026",
+  "slug": "monport-reno-65-2026",
+  "name": "Monport Reno 65 (2026)",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "powerRating": "65W",
+  "tagline": "Desktop 65W CO₂ with a 600 × 400 mm bed and built-in water cooling",
+  "tldr": "The Reno 65 relaunched in September 2026 with a built-in 3 L water tank, a 600 × 400 mm bed, a 640 × 7 mm front pass-through, 100 mm of Z travel and magnetic assisted focus. One 65W glass tube, three versions: Basic ($1,599.99, 500 mm/s, USB and LightBurn only), Pro ($2,249.99, 800 mm/s, Wi-Fi, offline panel, compatible with the 1W IR module) and Vision (8 MP camera, $2,749.99). In October 2026 the Pro was listed for early-October shipping and the Basic for late November, so both are effectively pre-orders; only the Vision was shown in stock. No independent review of this generation yet.",
+  "mainObjective": "Cutting acrylic and wood on a 600 × 400 mm bed for the price of a desktop CO₂",
+  "bestFor": [
+    "Acrylic signs",
+    "Thick wood cutting",
+    "Small business",
+    "Upgrading from diode"
+  ],
+  "priceRange": {
+    "min": 1599.99,
+    "max": 2749.99,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: Basic $1,599.99, Pro $2,249.99, Vision $2,749.99; the LightBurn bundle adds $99.99 (Basic) or $199.99 (Pro, Vision)"
+  },
+  "specs": {
+    "power": "65W CO₂",
+    "workArea": "600 × 400 mm",
+    "dimensions": "1000 × 690 × 285 mm",
+    "weight": "40 kg",
+    "software": [
+      "LightBurn",
+      "AutoLaser",
+      "TopwisdomLaser",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "Wi-Fi",
+      "U-disk"
+    ],
+    "performance": {
+      "precision": "0.1 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–2 min"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "500–800 mm/s",
+        "avgEngraveSpeed": "~200–450 mm/s",
+        "avgCutSpeed": "~10–30 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Stone & slate",
+      "Coated or painted metal"
+    ],
+    "cut": [
+      "Acrylic up to 20 mm in one pass (Monport claim)",
+      "Plywood & hardwood",
+      "Leather",
+      "Fabric & felt",
+      "Paper & card"
+    ],
+    "cannot": [
+      "Bare metal (except with the optional 1W IR module on Pro and Vision)",
+      "PVC and vinyl (chlorine fumes)",
+      "Use without venting smoke outside"
+    ]
+  },
+  "pros": [
+    "600 × 400 mm bed and a 640 × 7 mm front pass-through on a machine about 1 m long",
+    "Built-in 3 L water tank: no separate chiller or bucket, a cost most glass-tube CO₂ machines add",
+    "Basic version at $1,599.99 (Monport, Oct 2026): cheaper than any other 60W-plus CO₂ in our catalog"
+  ],
+  "cons": [
+    "Magnetic assisted focus, not true autofocus: you still set the height for each material",
+    "Glass tube rated 4,500 h below 40% power but 1,300 h above 70%, with a 6-month tube warranty",
+    "Basic and Pro on pre-order in October 2026, and no independent review of this generation yet"
+  ],
+  "faq": [
+    {
+      "question": "Basic, Pro or Vision: what changes on the Reno 65?",
+      "answer": "All three share the 65W tube, the 600 × 400 mm bed, the built-in water cooling and the magnetic assisted focus. The Basic ($1,599.99) tops out at 500 mm/s, connects by USB only and runs LightBurn or LaserGRBL. The Pro ($2,249.99) reaches 800 mm/s, adds Wi-Fi, U-disk, an offline control panel, Monport's AutoLaser software and mobile app, and accepts the optional 1W IR module for metal marking. The Vision ($2,749.99) adds an 8 MP camera for placement and batch layouts."
+    },
+    {
+      "question": "Is the new Reno 65 available now?",
+      "answer": "Partly. On Monport's US store in October 2026 the Pro carried an estimated early-October ship date and the Basic late November, which makes them pre-orders; the Vision was shown in stock with one unit left. Check the ship date shown next to each version before ordering."
+    },
+    {
+      "question": "How thick can the Reno 65 cut?",
+      "answer": "Monport claims 20 mm acrylic in a single pass and shows 18 mm multi-layer plywood. Treat those as best-case figures with clean optics and air assist. For everyday work, plan on about 8–10 mm acrylic or plywood in one pass and several passes beyond that (our estimate). Remember that tube life drops sharply above 70% power."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "reno65-built-in-cooling",
+      "title": "Water cooling inside the chassis",
+      "body": "A 3 L tank and radiator sit inside the machine, so there is no external chiller or bucket to plumb. Monport asks for antifreeze below 5 °C."
+    },
+    {
+      "id": "reno65-pass-through",
+      "title": "Large bed with front pass-through",
+      "body": "600 × 400 mm of engraving area, a 640 × 440 mm honeycomb and a 640 × 7 mm front slot for long, thin sheets, in a 1000 × 690 × 285 mm body."
+    },
+    {
+      "id": "reno65-ir-option",
+      "title": "Optional 1W IR module",
+      "body": "The Pro and Vision accept a swappable 1W infrared module, sold separately, for marking bare metal that a CO₂ beam cannot mark."
+    }
+  ],
+  "beginnerNotes": "This profile covers the 2026 generation of the Reno 65. If you mainly cut acrylic and wood and can live without Wi-Fi, the Basic is the value pick; the Pro is the one to buy for 800 mm/s motion, the offline panel and the IR option. Plan an outside vent before delivery.",
+  "proTips": "Keep tube power under about 70% for routine cuts: Monport's own life figures fall from 4,500 h to 1,300 h above that. Check the coolant level and add antifreeze if the room drops below 5 °C. Use the front pass-through for long strips, then re-zero with the red dot.",
+  "primaryUse": "65W glass tube · Monport Reno 65 (2026)",
+  "rating": {
+    "overall": 8.3,
+    "value": 8.6,
+    "easeOfUse": 7.8,
+    "capability": 8.5,
+    "buildQuality": 7.9
+  },
+  "similarModels": [
+    "monport-reno-45-2026",
+    "omtech-polar-2-70w",
+    "xtool-p2s"
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "recommended"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "optional"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "releaseDate": "2026-09",
+  "image": "/machines/monport-reno-65-2026/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-reno-65-2026/01.webp",
+      "alt": "Monport Reno 65 desktop CO₂ laser (2026): Monport"
+    },
+    {
+      "src": "/machines/monport-reno-65-2026/02.webp",
+      "alt": "Monport Reno 65 with the lid open over the gantry: Monport"
+    },
+    {
+      "src": "/machines/monport-reno-65-2026/03.webp",
+      "alt": "Monport Reno 65 front view: Monport"
+    },
+    {
+      "src": "/machines/monport-reno-65-2026/04.webp",
+      "alt": "Monport Reno 65 on a desk with a laptop and finished pieces: Monport"
+    },
+    {
+      "src": "/machines/monport-reno-65-2026/05.webp",
+      "alt": "Monport Reno 65 600 × 400 mm honeycomb bed: Monport"
+    }
+  ],
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 2026 Reno 65 puts a large bed, a 65W tube and water cooling in a single desktop box at a price below most 60W-class CO₂ machines. For sign makers and small shops cutting acrylic and plywood, the Pro version adds the motion speed and connectivity that make batch work practical.",
+    "limitations": "Focus is assisted, not automatic, and only the Vision has a camera. A glass tube is a consumable with a short warranty. The machine weighs 40 kg and needs a sturdy table and an outside vent. Figures are Monport's until independent reviews of this generation appear."
+  }
+}

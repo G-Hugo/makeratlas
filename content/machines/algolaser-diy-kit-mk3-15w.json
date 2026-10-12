@@ -1,0 +1,185 @@
+{
+  "id": "algolaser-diy-kit-mk3-15w",
+  "slug": "algolaser-diy-kit-mk3-15w",
+  "name": "AlgoLaser DIY Kit MK3 15W",
+  "brand": "AlgoLaser",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Balanced 15W module of the MK3: engraving and 3 mm cutting on a 400 × 400 mm frame for $309",
+  "tldr": "The DIY Kit MK3 15W is the middle tier and the one AlgoLaser calls 'Everyday Maker's Choice': the 400 × 400 mm frame, AlgoOS touchscreen and focus stick of the MK3 with a 15W diode for faster engraving and routine 3 mm cutting. At $309 it costs only $50 more than the 8W. AlgoLaser publishes no cutting figure for this module, and no independent review exists yet.",
+  "mainObjective": "All-round engraving and light cutting on a mid-size bed at a budget price",
+  "bestFor": [
+    "First laser on a budget",
+    "Batches of coasters & signs",
+    "Engraving & light cutting",
+    "Working without a computer"
+  ],
+  "priceRange": {
+    "min": 309,
+    "max": 509,
+    "currency": "USD",
+    "note": "Official AlgoLaser store, Oct 2026: $309 machine only, $509 Basic kit (honeycomb, RR2 rotary roller, riser kit, air pump)"
+  },
+  "specs": {
+    "power": "15W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "AlgoOS (touchscreen)",
+      "AlgoLaser App",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~11–17 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–9 min"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "250 mm/s (15 000 mm/min)",
+        "avgEngraveSpeed": "~60–150 mm/s",
+        "avgCutSpeed": "~2–5 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Dark acrylic",
+      "Paper & card",
+      "Coated and anodized metal"
+    ],
+    "cut": [
+      "Basswood & plywood 3 mm (routine), thicker with several passes",
+      "Dark acrylic (thin)",
+      "Paper, card & felt"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal (no infrared module listed for the MK3)",
+      "Enclosed use without the optional enclosure"
+    ]
+  },
+  "pros": [
+    "Only $50 more than the entry module for clearly faster engraving",
+    "Handles routine 3 mm basswood and plywood cuts with air assist",
+    "Full MK3 package: touchscreen, focus stick and 400 × 400 mm frame for $309"
+  ],
+  "cons": [
+    "No published cutting thickness or optical power test for this module",
+    "Air assist is not included with the machine-only version",
+    "Open frame with no enclosure in the box"
+  ],
+  "beginnerNotes": "This profile is the 15W tier of the DIY Kit MK3, the one most buyers should compare first. Against the 8W it adds speed and cutting margin for $50; against the 20W it saves $150, which pays for air assist and a honeycomb. Take the 20W only if cutting wood is your main job.",
+  "proTips": "Pair the 15W with air assist before cutting anything: it keeps edges clean and the lens free of smoke. Do batches of coasters from the touchscreen's stored projects, and move to LightBurn for photo work. Expect 3 mm in one or two passes and plan more passes beyond that.",
+  "primaryUse": "15W module · AlgoLaser DIY Kit MK3",
+  "rating": {
+    "overall": 7.6,
+    "value": 8.4,
+    "easeOfUse": 8,
+    "capability": 7.1,
+    "buildQuality": 7.6
+  },
+  "similarModels": [
+    "algolaser-diy-kit-mk3-20w",
+    "ortur-laser-master-3-20w",
+    "sculpfun-s30-pro-max-20w"
+  ],
+  "faq": [
+    {
+      "question": "How thick can the DIY Kit MK3 15W cut?",
+      "answer": "AlgoLaser does not publish a figure for the 15W. Plan on 3 mm basswood or plywood as routine, about 6–9 min for a 10 × 10 cm square in our benchmark, and several passes for 5–6 mm. AlgoLaser's 12 mm one-pass claim applies to the 20W only."
+    },
+    {
+      "question": "15W or 20W?",
+      "answer": "The 20W costs $459 with a free air pump against $309 for the 15W on AlgoLaser's store (October 2026). The 20W cuts faster and AlgoLaser rates it for 12 mm wood in one pass. For mostly engraving with some 3 mm cutting, the 15W plus a $69 air assist is the better buy."
+    },
+    {
+      "question": "Does the 15W need a computer?",
+      "answer": "Not for simple jobs: the AlgoOS touchscreen engraves text, sketches and over 400 stored projects on its own. For photos, vector files and precise layouts, connect LightBurn, LaserGRBL or the AlgoLaser app."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/algolaser-diy-kit-mk3-15w/01.webp",
+  "images": [
+    {
+      "src": "/machines/algolaser-diy-kit-mk3-15w/01.webp",
+      "alt": "AlgoLaser DIY Kit MK3 15W laser engraver: AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk3-15w/02.webp",
+      "alt": "AlgoLaser DIY Kit MK3 feature overview: AlgoOS, touchscreen and frame: AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk3-15w/03.webp",
+      "alt": "AlgoLaser DIY Kit MK3 built-in flip-down focus stick: AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk3-15w/04.webp",
+      "alt": "AlgoLaser DIY Kit MK3 AlgoOS touchscreen: AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk3-15w/05.webp",
+      "alt": "AlgoLaser DIY Kit MK3 15W Basic kit contents: AlgoLaser"
+    }
+  ],
+  "modelLine": "algolaser-diy-kit-mk3",
+  "powerRating": "15W",
+  "catalogPrimary": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Three diode modules on the same MK3 frame",
+    "description": "The DIY Kit MK3 is sold with an 8W, 15W or 20W diode module on the same 400 × 400 mm frame and touchscreen. The power is chosen at purchase; modules fit the same head mount, one at a time.",
+    "options": [
+      {
+        "power": "8W",
+        "laserKind": "diode",
+        "label": "8W diode",
+        "tierSlug": "algolaser-diy-kit-mk3-8w"
+      },
+      {
+        "power": "15W",
+        "laserKind": "diode",
+        "label": "15W diode",
+        "tierSlug": "algolaser-diy-kit-mk3-15w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "algolaser-diy-kit-mk3-20w"
+      }
+    ]
+  },
+  "releaseDate": "2026-07",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 15W is the sensible default of the MK3 range: close to the 8W in price, much faster in use, and enough for routine 3 mm cutting. With a touchscreen and a 400 × 400 mm frame for $309, it undercuts most open-frame rivals of similar size.",
+    "limitations": "AlgoLaser gives no verified cutting figure for this module, air assist costs extra on the machine-only version, and the open frame needs ventilation and eye protection. No independent review has tested it yet."
+  },
+  "standoutFeatures": [
+    {
+      "id": "mk3-15w-balance",
+      "title": "The balanced tier",
+      "body": "AlgoLaser positions the 15W as its everyday module: faster engraving than the 8W and routine 3 mm cuts for only $50 more."
+    },
+    {
+      "id": "mk3-15w-screen",
+      "title": "Offline touchscreen",
+      "body": "Text, sketches and stored projects run straight from the AlgoOS screen, so batches of coasters do not need a computer."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "tagline": "En précommande : fibre de 400 W pour découper le métal et laser CO₂ de 80 W, dans une seule machine fermée de 711 × 411 mm",
+  "tldr": "La Gweike MCore associe un laser fibre de 400 W, annoncé pour découper jusqu’à 5 mm d’inox, d’acier au carbone, de laiton et d’aluminium, à un laser CO₂ de 80 W pour le bois et l’acrylique jusqu’à 20 mm, dans une seule machine fermée de 711 × 411 mm avec caméra de 16 Mpx. Gweike annonce 1 200 mm/s et une précision de mouvement de 0,01 mm. Précommande : en octobre 2026, la boutique Gweike l’affichait en rupture à 6 999 $, avec une expédition depuis la Chine par bateau en novembre, et aucun test en conditions réelles ni retour de propriétaire n’existait encore. Tous les chiffres de cette fiche sont ceux du fabricant.",
+  "mainObjective": "Découper de la tôle fine et graver ou découper le bois et l’acrylique avec une seule machine dans un petit atelier",
+  "primaryUse": "Laser hybride fibre de découpe et CO₂ pour les petits ateliers qui travaillent le métal et les matériaux organiques",
+  "beginnerNotes": "La MCore n’est pas une machine de débutant : c’est un laser fibre de découpe du métal et un laser CO₂ dans un même caisson, avec les risques qui vont avec. Attendez les premiers retours de propriétaires avant de payer, prévoyez une évacuation des fumées vers l’extérieur et vérifiez la date d’expédition auprès de Gweike avant de commander.",
+  "proTips": "Pour l’acier au carbone, Gweike recommande son système d’air comprimé en option (1,2 MPa, sans huile, avec sécheur) : prévoyez-le dans le budget si les pièces en acier sont votre objectif. Gardez des bibliothèques de paramètres séparées pour la fibre et le CO₂, et faites des essais sur des chutes pour vérifier les 5 mm annoncés sur votre matériau avant de chiffrer un travail.",
+  "bestFor": [
+    "Pièces en tôle fine",
+    "Enseignes et multi-matériaux",
+    "Petite entreprise",
+    "Atelier pouvant accueillir 135 kg"
+  ],
+  "pros": [
+    "Découpe du métal jusqu’à 5 mm et découpe CO₂ jusqu’à 20 mm d’acrylique dans une seule machine, selon Gweike",
+    "Surface de 711 × 411 mm, caméra de 16 Mpx et détection automatique des bords",
+    "Fonctionne en monophasé 110 V ou 220 V, sans installation industrielle"
+  ],
+  "cons": [
+    "Précommande : pas encore expédiée aux acheteurs de la boutique en octobre 2026, aucun test en conditions réelles",
+    "135 kg et 1280 × 800 × 582 mm : il faut un établi solide et deux personnes pour la déplacer",
+    "Logiciel Mlaser sous Windows uniquement, et chiffres contradictoires d’une page Gweike à l’autre (connectique, épaisseur d’acrylique, poids)"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Acrylique",
+      "Cuir",
+      "Inox et aluminium",
+      "Laiton et titane",
+      "Pierre et verre"
+    ],
+    "cut": [
+      "Inox, acier au carbone, laiton et aluminium jusqu’à 5 mm (annoncé, une passe)",
+      "Acrylique jusqu’à 20 mm (annoncé, une passe)",
+      "Bois, MDF, cuir et tissu"
+    ],
+    "cannot": [
+      "Métal de plus de 5 mm",
+      "Plaques de plus de 711 × 411 mm sans le convoyeur",
+      "Fonctionner dans une petite pièce sans évacuation ni alimentation prévues",
+      "Utiliser LightBurn (Mlaser uniquement)"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Gweike, oct. 2026 : 6 999 $ en précommande (prix barré 9 999 $), en rupture, expédition depuis la Chine par bateau en novembre ; le prix Kickstarter de lancement était de 4 999 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Peut-on acheter la MCore maintenant, et quand sera-t-elle expédiée ?",
+      "answer": "Seulement en précommande. En octobre 2026, la boutique Gweike affichait la MCore en rupture à 6 999 $ (prix barré 9 999 $), avec la mention « Shipment from China by sea in Nov. » (expédition depuis la Chine par bateau en novembre). La campagne Kickstarter a démarré le 26 mai 2026 avec des livraisons prévues à partir d’août, mais nous n’avons trouvé aucun retour de propriétaire confirmé. Vérifiez la date d’expédition auprès de Gweike avant de payer."
+    },
+    {
+      "question": "Que peut-elle vraiment découper ?",
+      "answer": "Gweike annonce jusqu’à 5 mm d’inox, d’acier au carbone, de laiton, d’aluminium et de titane avec la fibre de 400 W, et jusqu’à 20 mm d’acrylique en une passe avec le laser CO₂ de 80 W. Ses pages ne concordent pas : la FAQ donne 4 mm pour l’acier au carbone avec le système d’air, et la page d’acompte indiquait 25 mm d’acrylique. Aucun test indépendant n’a encore confirmé ces chiffres."
+    },
+    {
+      "question": "Remplace-t-elle un laser fibre de marquage ?",
+      "answer": "Pas vraiment. La fibre de 400 W de la MCore vise la découpe de tôle sur un plateau de 711 × 411 mm, alors que les marqueurs fibre galvo comme la Gweike G2 sont faits pour marquer vite et graver en profondeur de petites pièces. Si vous faites surtout du marquage, une fibre galvo coûte moins cher et va plus vite."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Découpeuse laser fibre et CO₂ Gweike MCore : Gweike"
+    },
+    {
+      "alt": "Gweike MCore, fibre 400 W pour le métal et CO₂ 80 W pour les autres matériaux : Gweike"
+    },
+    {
+      "alt": "Fonctions de la Gweike MCore : caméra, convoyeur, module rotatif et servomoteurs : Gweike"
+    },
+    {
+      "alt": "Gweike MCore avec convoyeur faisant passer une longue planche : Gweike"
+    },
+    {
+      "alt": "La Gweike MCore et les métaux et autres matériaux qu’elle travaille : Gweike"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Fibre 400 W + CO₂ 80 W dans une seule machine",
+    "description": "La MCore associe un laser fibre de 400 W pour découper et graver le métal à un laser CO₂ de 80 W pour le bois, l’acrylique et le cuir, sur le même plateau de 711 × 411 mm. Gweike ne précise pas le type de source fibre.",
+    "options": [
+      {
+        "label": "Fibre 400 W"
+      },
+      {
+        "label": "CO₂ 80 W"
+      }
+    ]
+  },
+  "editorialDepth": {
+    "advantages": "Sur le papier, la MCore comble un vide : découpe de tôle fine et laser CO₂ complet dans un caisson de la taille d’un gros laser de bureau, sur une prise domestique, pour moins cher que bien des découpeuses fibre seules. Pour un atelier qui fabrique enseignes, supports, plaques gravées et objets mêlant métal et bois, elle pourrait remplacer deux machines.",
+    "limitations": "Elle reste en précommande : aucun test en conditions réelles, aucun retour de propriétaire, et les pages de Gweike se contredisent sur plusieurs chiffres. Elle pèse 135 kg, son logiciel ne tourne que sous Windows, et la découpe de l’acier peut exiger le système d’air en option. Attendez des tests indépendants avant d’en faire un outil de production."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Découpe du métal et CO₂ dans un même caisson",
+      "body": "Une fibre de 400 W annoncée pour 5 mm d’acier, de laiton ou d’aluminium et un laser CO₂ de 80 W annoncé pour 20 mm d’acrylique partagent le même plateau de 711 × 411 mm."
+    },
+    {
+      "title": "Alimentation domestique",
+      "body": "Gweike indique une alimentation monophasée en 110 V ou 220 V : pas besoin de triphasé."
+    },
+    {
+      "title": "Caméra et détection des bords",
+      "body": "Une caméra panoramique de 16 Mpx et une détection automatique des bords placent les travaux sur des chutes irrégulières."
+    }
+  ]
+}

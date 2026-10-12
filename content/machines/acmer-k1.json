@@ -1,0 +1,139 @@
+{
+  "id": "acmer-k1",
+  "slug": "acmer-k1",
+  "name": "Acmer K1",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Acmer's enclosed mini diode line: 2.4 kg, 150 × 150 mm, from 2.5W to 12W",
+  "tldr": "The Acmer K1 is a small enclosed diode engraver: a 150 × 150 mm area in a 286 × 273 × 190 mm box weighing 2.4 kg, with a lid sensor, a tilt sensor and a built-in exhaust fan. Acmer sells it in four diode powers, 2.5W, 3.5W, 7W and 12W, from $179.99 to $269.99 (the 2.5W was out of stock in October 2026). It connects by USB and works with ACMER Studio, LightBurn and LaserGRBL. Open a power tier for exact specs.",
+  "mainObjective": "Enclosed small-item engraving at home for the price of an open mini laser",
+  "bestFor": [
+    "First laser at home",
+    "Small gifts",
+    "Small desks",
+    "Tight budget"
+  ],
+  "priceRange": {
+    "min": 179.99,
+    "max": 269.99,
+    "currency": "USD",
+    "note": "Official Acmer store, Oct 2026: $179.99 (2.5W, out of stock), $199.99 (3.5W), $229.99 (7W), $269.99 (12W)"
+  },
+  "specs": {
+    "power": "2.5W / 3.5W / 7W / 12W diode (enclosed)",
+    "workArea": "150 × 150 mm",
+    "dimensions": "286 × 273 × 190 mm",
+    "weight": "2.4 kg",
+    "software": [
+      "ACMER Studio",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~14–35 min (12W–3.5W)"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–25 min (12W–3.5W)"
+      },
+      "technical": {
+        "spotSize": "0.08 × 0.08 mm",
+        "maxSpeed": "167 mm/s (10,000 mm/min)",
+        "avgEngraveSpeed": "40–160 mm/s (3.5W–12W)",
+        "avgCutSpeed": "1–8 mm/s (3.5W–12W)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Paper & card",
+      "Leather",
+      "Dark acrylic",
+      "Cork & bamboo",
+      "Coated metal"
+    ],
+    "cut": [
+      "Plywood and paulownia (Acmer chart: 5 mm at 2.5W to 12 mm at 12W, passes not stated)",
+      "Dark acrylic (thin)",
+      "Paper & card"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "Anything wider than 150 mm"
+    ]
+  },
+  "pros": [
+    "Enclosed box with lid and tilt sensors from $199.99",
+    "2.4 kg and 286 × 273 × 190 mm: easy to store or carry",
+    "Works with LightBurn and LaserGRBL as well as ACMER Studio"
+  ],
+  "cons": [
+    "150 × 150 mm area: small objects only",
+    "USB only: no Wi-Fi and no camera",
+    "Cutting figures are manufacturer claims, without the number of passes"
+  ],
+  "beginnerNotes": "This overview covers the whole Acmer K1 line. Same box, area and software for every version: only the diode power changes. Pick the 3.5W for engraving only, the 7W for engraving with light cutting, the 12W if you want to cut thin plywood regularly.",
+  "proTips": "Run the exhaust hose to a window: the fan pushes smoke out of the box, it does not filter it. Test power and speed on scrap, and plan several passes for any cut thicker than 2 to 3 mm.",
+  "primaryUse": "Enclosed mini diode engraver for small objects at home",
+  "rating": {
+    "overall": 7.6,
+    "value": 8.3,
+    "easeOfUse": 8,
+    "capability": 7,
+    "buildQuality": 7.2
+  },
+  "similarModels": [
+    "creality-falcon-a1c",
+    "acmer-s1-6w",
+    "sculpfun-icube-pro"
+  ],
+  "faq": [
+    {
+      "question": "Which K1 power should I choose?",
+      "answer": "Same box, area and software for every version. The 3.5W ($199.99) is for engraving, the 7W ($229.99) adds light cutting, and the 12W ($269.99) cuts thin plywood faster. The 2.5W ($179.99) was out of stock on Acmer's store in October 2026."
+    },
+    {
+      "question": "Is the K1 safe to use indoors?",
+      "answer": "The box is enclosed, the laser stops when the lid opens or the machine tilts more than 13°, and a fan pushes smoke out through a hose. Smoke still has to go outside: vent the hose to a window."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/acmer-k1/01.webp",
+  "images": [
+    {
+      "src": "/machines/acmer-k1/01.webp",
+      "alt": "Acmer K1 enclosed mini laser engraver: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1/02.webp",
+      "alt": "Acmer K1 dimensions and 150 × 150 mm engraving area: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1/03.webp",
+      "alt": "Acmer K1 lid sensor and tilt sensor: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1/04.webp",
+      "alt": "Acmer K1 on a workbench with engraved wooden pieces: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1/05.webp",
+      "alt": "Acmer K1 cutting depth chart by power: Acmer"
+    }
+  ],
+  "modelLine": "acmer-k1",
+  "catalogHidden": true,
+  "releaseDate": "2025-09"
+}

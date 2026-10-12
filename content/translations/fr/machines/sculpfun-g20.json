@@ -1,0 +1,102 @@
+{
+  "tagline": "Fibre galvo 20 W sur pied compact avec axe Z motorisé : marquage et gravure profonde du métal pour moins de 1 500 $",
+  "tldr": "La Sculpfun G20 est une fibre galvo 20 W à 1064 nm montée sur pied ouvert, lancée en août 2026. Elle marque et grave l’inox, l’aluminium, le laiton, l’or et le titane sur un champ de 150 × 150 mm, avec colonne Z motorisée, double pointeur rouge pour la mise au point et Wi-Fi. Sculpfun annonce 10 000 mm/s, un point de 0,01 mm, une gravure jusqu’à 1,5 mm de profondeur et un marquage couleur sur inox et titane. Aucun test indépendant pour l’instant ; la structure ouverte laisse la sécurité 1064 nm à votre charge.",
+  "mainObjective": "Marquage et gravure profonde du métal à petit prix, pour bijoux, plaques et petites pièces",
+  "primaryUse": "Fibre galvo 20 W pour le marquage du métal, la gravure profonde et les essais couleur sur inox et titane",
+  "beginnerNotes": "Une fibre galvo marque le métal : elle ne découpe ni le bois ni l’acrylique, et travaille mal les matières organiques comparée à une diode. Si vous vendez surtout du bois ou du cuir, une diode sera un meilleur premier laser. Si vos commandes sont des plaques, des bijoux, des outils ou des cartes en métal, la G20 est l’une des fibres 20 W complètes les moins chères avec mise au point motorisée.",
+  "proTips": "Réglez la mise au point avec les deux pointeurs rouges avant chaque travail, puis lancez une petite grille de paramètres sur une chute : la couleur sur inox dépend à la fois de la fréquence, de la vitesse et de l’interligne. Pour graver profond, enchaînez de nombreuses passes rapides plutôt qu’une passe lente. Prévoyez le caisson de la série G ou une pièce dédiée, et des lunettes certifiées pour 1064 nm.",
+  "bestFor": [
+    "Bijoux et médailles",
+    "Cartes de visite en métal",
+    "Petites pièces métalliques",
+    "Première fibre"
+  ],
+  "pros": [
+    "Une vraie fibre galvo 20 W avec axe Z motorisé et double pointeur rouge pour 1 499 $",
+    "Champ de 150 × 150 mm, plus large que la lentille 110 × 110 mm de la plupart des fibres d’entrée de gamme",
+    "Compatible avec l’extension coulissante G9 SE (350 × 150 mm) et le rouleau rotatif RA Pro Max pour bagues et gobelets"
+  ],
+  "cons": [
+    "Pied ouvert : pas de caisson fourni, et la lumière à 1064 nm exige des lunettes à densité optique adaptée",
+    "Le marquage couleur repose sur une plage de fréquence de 30 à 60 kHz, pas sur une source MOPA : attendez-vous à une palette plus réduite",
+    "Lancée en août 2026 : vitesse, profondeur et couleurs ne sont pas encore confirmées par un test indépendant"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium (nu et anodisé)",
+      "Laiton, cuivre, or et argent",
+      "Titane",
+      "Plastiques durs",
+      "Cuir, verre foncé, céramique colorée, acrylique noir, pierre (selon Sculpfun)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Découper du bois, de l’acrylique ou de la tôle",
+      "Verre et acrylique transparents",
+      "Tout objet dépassant 150 mm de largeur sans le kit d’extension coulissant"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Sculpfun, oct. 2026 : 1 499 $ (prix barré 1 799 $), même tarif en prise US, UE, UK ou AU"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "La Sculpfun G20 fait-elle du marquage couleur comme un laser MOPA ?",
+      "answer": "Sculpfun l’affirme sur l’inox et le titane, avec plus de 30 couleurs, grâce à une fréquence réglable de 30 à 60 kHz. Elle n’est pas vendue comme une source MOPA, qui fait aussi varier la durée d’impulsion : attendez-vous à des couleurs moins nombreuses et moins reproductibles que sur une machine MOPA, et prévoyez des grilles d’essai avant de prendre des commandes en couleur."
+    },
+    {
+      "question": "La G20 a-t-elle besoin d’un caisson ?",
+      "answer": "Elle est livrée en pied ouvert avec une paire de lunettes et deux clés de sécurité. Sculpfun vend en option un caisson conçu pour la série G. Sans lui, installez la machine dans une pièce fermée et portez des lunettes certifiées pour 1064 nm : la lumière fibre est invisible et se réfléchit sur le métal."
+    },
+    {
+      "question": "La G20 est-elle une bonne alternative à la ComMarker B4 20 W ?",
+      "answer": "Sur le papier, oui : même classe de 20 W, un champ plus grand de 150 × 150 mm et un axe Z motorisé pour 1 499 $ sur la boutique Sculpfun (octobre 2026). La B4 a derrière elle des années de réglages partagés et de tests ; la G20 est sortie en août 2026, ses chiffres restent donc à confirmer de façon indépendante."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fibre Sculpfun G20 20 W : Sculpfun"
+    },
+    {
+      "alt": "Source laser fibre de la Sculpfun G20 et exemples de gravure sur métal : Sculpfun"
+    },
+    {
+      "alt": "Colonne Z motorisée et boutons de levage de la Sculpfun G20 : Sculpfun"
+    },
+    {
+      "alt": "Exemples de marquage couleur sur titane et inox par la Sculpfun G20 : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun G20 avec caisson, rouleau rotatif et extension coulissante en option : Sculpfun"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La G20 met une fibre galvo 20 W avec mise au point motorisée et champ de 150 × 150 mm à 1 499 $, au niveau des marqueuses 20 W les moins chères mais avec un champ plus grand et le Wi-Fi. Elle convient aux vendeurs qui personnalisent plaques, bijoux, couteaux et cartes en métal ; l’extension coulissante et le rotatif couvrent les plaques longues et les bagues.",
+    "limitations": "C’est une marqueuse, pas une découpeuse : le bois, le cuir et l’acrylique relèvent plutôt d’une diode ou d’un CO₂. Le pied est ouvert, la sécurité vous revient, et les chiffres de couleur, de profondeur et de vitesse restent ceux de Sculpfun en attendant des tests indépendants."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Mise au point motorisée à prix d’entrée",
+      "body": "Une colonne Z électrique avec double pointeur rouge remplace la manivelle de la plupart des fibres de cette gamme de prix."
+    },
+    {
+      "title": "Champ de 150 × 150 mm",
+      "body": "Plus large que la lentille habituelle de 110 × 110 mm, et le kit coulissant en option l’étend à 350 × 150 mm pour les plaques longues."
+    },
+    {
+      "title": "Marquage couleur annoncé",
+      "body": "Sculpfun annonce plus de 30 couleurs sur l’inox et le titane grâce à sa plage de fréquence de 30 à 60 kHz."
+    }
+  ]
+}

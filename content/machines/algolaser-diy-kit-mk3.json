@@ -1,0 +1,184 @@
+{
+  "id": "algolaser-diy-kit-mk3",
+  "slug": "algolaser-diy-kit-mk3",
+  "name": "AlgoLaser DIY Kit MK3",
+  "brand": "AlgoLaser",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Open-frame 400 × 400 mm diode with a standalone touchscreen, sold with 8W, 15W or 20W modules",
+  "tldr": "The DIY Kit MK3 is AlgoLaser's third-generation open-frame kit, launched in July 2026: a 400 × 400 mm frame that arrives 95% pre-assembled, a capacitive touchscreen running AlgoOS for offline jobs, a flip-down focus stick and 15,000 mm/min engraving. It is sold with an 8W, 15W or 20W diode module, from $259. Open a power tier for exact prices and benchmarks.",
+  "mainObjective": "Budget open-frame engraving and cutting on a mid-size bed, without a computer for simple jobs",
+  "bestFor": [
+    "First laser on a budget",
+    "Batches of coasters & signs",
+    "Working without a computer",
+    "Garage or workshop"
+  ],
+  "priceRange": {
+    "min": 259,
+    "max": 659,
+    "currency": "USD",
+    "note": "Official AlgoLaser store, Oct 2026: $259 (8W machine) to $659 (20W Basic kit); the Basic kit adds a honeycomb, RR2 rotary roller and riser kit"
+  },
+  "specs": {
+    "power": "8W / 15W / 20W diode",
+    "workArea": "400 × 400 mm",
+    "software": [
+      "AlgoOS (touchscreen)",
+      "AlgoLaser App",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "Wi-Fi"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–24 min (20W–8W)"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–14 min (20W–8W)"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "250 mm/s (15 000 mm/min)",
+        "avgEngraveSpeed": "~50–180 mm/s (8W–20W)",
+        "avgCutSpeed": "~1–8 mm/s (8W–20W)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Dark acrylic",
+      "Paper & card",
+      "Coated and anodized metal"
+    ],
+    "cut": [
+      "Basswood & plywood (3 mm on every module; up to 12 mm claimed on the 20W)",
+      "Dark acrylic (thin)",
+      "Paper, card & felt"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal (no infrared module listed for the MK3)",
+      "Enclosed use without the optional enclosure"
+    ]
+  },
+  "pros": [
+    "400 × 400 mm bed from $259, 95% pre-assembled with a five-step setup",
+    "Capacitive touchscreen with AlgoOS: text, sketches and stored projects run without a computer",
+    "Same frame for all three modules, plus LightBurn and LaserGRBL support"
+  ],
+  "cons": [
+    "Open frame: no enclosure, and the Class 1 enclosure is a $299 extra",
+    "AlgoLaser publishes no spot size, optical power test or cutting figure except 12 mm for the 20W",
+    "Launched in July 2026 with no independent review yet"
+  ],
+  "beginnerNotes": "Choose the power before anything else: the 8W engraves fine detail but cuts slowly, the 15W is the balanced choice, and the 20W is the one for regular cutting. The Basic kit adds a honeycomb, a rotary roller and risers for $200; check whether you need them before paying for them.",
+  "proTips": "Use the flip-down focus stick before every job and check the frame is square after shipping. The touchscreen is handy for text and stored projects; for photos and complex vector work, LightBurn gives finer control. Plan for air assist on any module you cut with, and for an outdoor exhaust.",
+  "primaryUse": "Budget open-frame diode engraving and cutting with standalone touchscreen control",
+  "rating": {
+    "overall": 7.6,
+    "value": 8.3,
+    "easeOfUse": 8,
+    "capability": 7.1,
+    "buildQuality": 7.6
+  },
+  "similarModels": [
+    "algolaser-diy-kit-mk2-10w",
+    "ortur-laser-master-3-10w",
+    "sculpfun-s30-pro-max-20w"
+  ],
+  "faq": [
+    {
+      "question": "What changed from the DIY Kit MK2?",
+      "answer": "The MK3 adds a capacitive touchscreen running AlgoOS for offline jobs, a flip-down focus stick and a 95% pre-assembled frame. AlgoLaser claims up to 60% more power than the previous kit and engraving at 15,000 mm/min. The 400 × 400 mm work area is unchanged."
+    },
+    {
+      "question": "Which module should I choose?",
+      "answer": "The 8W ($259, October 2026) is for detailed engraving and light cutting, the 15W ($309) is the all-rounder, and the 20W ($459 with a free air pump) is for regular wood cutting, where AlgoLaser claims 12 mm in one pass. Open each tier for its benchmark."
+    },
+    {
+      "question": "Can the DIY Kit MK3 be enclosed?",
+      "answer": "Yes, with AlgoLaser's Smart Enclosure 2.0 with camera, sold for $299 on the official store in October 2026, plus an optional $299 smoke purifier. Without it, the MK3 is an open-frame laser: wear the supplied glasses, keep it away from children and vent the smoke outside."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/algolaser-diy-kit-mk3/01.webp",
+  "images": [
+    {
+      "src": "/machines/algolaser-diy-kit-mk3/01.webp",
+      "alt": "AlgoLaser DIY Kit MK3 laser engraver: AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk3/02.webp",
+      "alt": "AlgoLaser DIY Kit MK3 feature overview: AlgoOS, touchscreen and frame: AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk3/03.webp",
+      "alt": "AlgoLaser DIY Kit MK3 8W, 15W and 20W diode modules compared: AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk3/04.webp",
+      "alt": "AlgoLaser DIY Kit MK3 built-in flip-down focus stick: AlgoLaser"
+    },
+    {
+      "src": "/machines/algolaser-diy-kit-mk3/05.webp",
+      "alt": "AlgoLaser DIY Kit MK3 AlgoOS touchscreen: AlgoLaser"
+    }
+  ],
+  "modelLine": "algolaser-diy-kit-mk3",
+  "catalogHidden": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Three diode modules on the same MK3 frame",
+    "description": "The DIY Kit MK3 is sold with an 8W, 15W or 20W diode module on the same 400 × 400 mm frame and touchscreen. The power is chosen at purchase; modules fit the same head mount, one at a time.",
+    "options": [
+      {
+        "power": "8W",
+        "laserKind": "diode",
+        "label": "8W diode",
+        "tierSlug": "algolaser-diy-kit-mk3-8w"
+      },
+      {
+        "power": "15W",
+        "laserKind": "diode",
+        "label": "15W diode",
+        "tierSlug": "algolaser-diy-kit-mk3-15w"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode",
+        "tierSlug": "algolaser-diy-kit-mk3-20w"
+      }
+    ]
+  },
+  "releaseDate": "2026-07",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The MK3 keeps the low price and 400 × 400 mm bed of AlgoLaser's kits and adds what beginners usually miss: a near-assembled frame, a touchscreen that runs jobs without a computer and a focus stick built into the head. Three modules cover everything from detailed engraving to regular cutting.",
+    "limitations": "It remains an open-frame diode: safety, smoke and enclosure are extra costs. AlgoLaser gives few verifiable figures, and no independent review has tested the frame, the modules or the touchscreen yet."
+  },
+  "standoutFeatures": [
+    {
+      "id": "mk3-standalone-screen",
+      "title": "Touchscreen that works offline",
+      "body": "AlgoOS runs text, sketches and more than 400 stored projects straight from the capacitive screen, with no computer or app needed."
+    },
+    {
+      "id": "mk3-preassembled",
+      "title": "95% pre-assembled frame",
+      "body": "The frame arrives nearly assembled and is set up in five steps, which AlgoLaser puts at under 10 minutes."
+    }
+  ]
+}

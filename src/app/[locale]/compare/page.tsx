@@ -36,7 +36,15 @@ export default async function ComparePage({ params }: PageProps) {
   if (!isLocale(localeParam)) notFound();
   const locale = localeParam as Locale;
   const dict = getDictionary(locale);
-  const machines = getIndexableMachines(locale);
+  // The picker and versus table never read the long editorial fields: leave them out of the payload.
+  const machines = getIndexableMachines(locale).map(
+    ({ faq, standoutFeatures, editorialDepth, accessories, similarModels, ...machine }) => ({
+      ...machine,
+      beginnerNotes: "",
+      proTips: "",
+      primaryUse: "",
+    }),
+  );
   const duels = getAllResolvedDuels(locale);
   const brandDuels = getAllResolvedBrandDuels(locale);
 

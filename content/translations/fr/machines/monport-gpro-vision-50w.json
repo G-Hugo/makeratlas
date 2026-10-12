@@ -1,0 +1,101 @@
+{
+  "tagline": "Fibre séparée avec caméra 16 Mpx et autofocus : source standard et champ de 200 × 200 mm",
+  "tldr": "La GPro Vision 50 W est la version d’entrée de la gamme de fibres séparées avec caméra de Monport, lancée en juin 2026. L’annonce de lancement de Monport la présente comme un laser fibre standard et non MOPA : ce n’est donc pas la version du marquage couleur maîtrisé, mais elle a le plus grand champ de la gamme (200 × 200 mm), la caméra de positionnement 16 Mpx et l’autofocus. 4 249 $ sur la boutique Monport en octobre 2026, sans délai d’expédition affiché.",
+  "mainObjective": "Marquage et gravure du métal alignés à la caméra, au prix le plus bas de la gamme GPro Vision",
+  "primaryUse": "Fibre 50 W · Monport GPro Vision",
+  "beginnerNotes": "Cette fiche décrit la version 50 W de la GPro Vision. Choisissez-la pour marquer et graver le métal nu quand la couleur n’est pas nécessaire ; comparez les versions MOPA avec les puces si la couleur ou les plastiques comptent.",
+  "proTips": "Calibrez la caméra avec les feuilles de calibrage fournies avant le travail en série, puis vérifiez avec un marquage d’essai. Portez les lunettes OD7 fournies ou ajoutez le caisson Monport : la conception séparée laisse le faisceau à l’air libre.",
+  "bestFor": [
+    "Plaques et étiquettes en métal",
+    "Marquage d’outils",
+    "Numéros de série",
+    "Gravure en série"
+  ],
+  "pros": [
+    "Caméra 16 Mpx et autofocus au prix le plus bas de la gamme : 4 249 $ (Monport, oct. 2026)",
+    "Le plus grand champ de la gamme GPro Vision : 200 × 200 mm",
+    "Indiquée en stock en octobre 2026, contrairement à deux des versions MOPA"
+  ],
+  "cons": [
+    "Source standard, pas MOPA : pas de couleur maîtrisée sur l’inox et moins de contrôle sur les plastiques",
+    "Environ 400 à 700 $ de plus que la GT 50W de Monport, qui a l’autofocus mais pas de caméra",
+    "Conception séparée ouverte avec faisceau de classe 4 : un caisson ou une protection oculaire stricte est indispensable"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Titane",
+      "Or et argent",
+      "Plastiques",
+      "Pierre et cuir"
+    ],
+    "cut": [
+      "Tôle métallique fine (nombreuses passes)"
+    ],
+    "cannot": [
+      "Marquage couleur maîtrisé (il faut une source MOPA)",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Production en bois et en acrylique"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 4 249 $ la machine seule, 4 449 $ avec LightBurn Pro"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "La GPro Vision 50 W fait-elle du marquage couleur ?",
+      "answer": "Pas de façon maîtrisée comme les versions MOPA. L’annonce de lancement de Monport présente la 50 W comme un laser fibre standard ; les versions 60, 100 et 200 W utilisent des sources MOPA dont la largeur d’impulsion réglable produit des couleurs d’oxydation sur l’acier inoxydable et le titane. La 50 W réalise des marquages noirs, blancs et profonds sur les métaux et marque de nombreux plastiques."
+    },
+    {
+      "question": "Qu’apporte la caméra par rapport à la série GT ?",
+      "answer": "Le placement. La caméra 16 Mpx affiche la pièce à l’écran pour y déposer le motif, aligner des objets irréguliers et organiser des séries, et Monport indique qu’elle fonctionne avec son convoyeur pour les productions en continu. Monport annonce une précision de positionnement de la caméra d’environ 0,3 mm : vérifiez l’alignement avec un marquage d’essai sur les travaux précis. La GT 50W a l’autofocus mais pas de caméra et coûte environ 400 à 700 $ de moins."
+    },
+    {
+      "question": "GPro Vision 50 W ou MOPA 60 W ?",
+      "answer": "Prenez la 50 W (4 249 $) pour les étiquettes, les outils, les plaques et les numéros de série sur métal nu, surtout si le champ plus grand de 200 × 200 mm vous sert. Payez les 1 050 $ de plus de la MOPA 60 W (5 299 $) si la couleur sur l’inox ou des marquages plus propres sur les plastiques et l’aluminium anodisé font partie du travail ; son champ est de 175 × 175 mm."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Caméra et autofocus dès le prix d’entrée",
+      "body": "La caméra 16 Mpx et l’autofocus qui définissent la gamme GPro Vision sont déjà présents sur la version de base à 4 249 $."
+    },
+    {
+      "title": "Le plus grand champ de la gamme",
+      "body": "200 × 200 mm, contre 175 × 175 mm sur les versions MOPA : pratique pour les plaques plus grandes et les séries de plusieurs pièces."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser fibre séparé Monport GPro Vision 50 W : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision, caisson de source et tête galvo : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision, caisson de source vu de face : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision sur un établi avec un ordinateur et des pièces marquées : Monport"
+    },
+    {
+      "alt": "Monport GPro Vision, panneau arrière et câble fibre : Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La GPro Vision 50 W ajoute le placement par caméra à une fibre qui couvre les travaux d’établi habituels : étiquettes, plaques, outils, bijoux et numéros de série. Pour un atelier qui marque beaucoup de pièces irrégulières ou répétées, la caméra fait gagner plus de temps de préparation que des watts supplémentaires.",
+    "limitations": "Sans source MOPA, ce n’est pas la version pour la couleur ni pour les plastiques délicats. C’est un galvo ouvert avec un faisceau de classe 4, plus cher que la GT 50W sans caméra. Pas encore de test indépendant de la gamme GPro Vision."
+  }
+}

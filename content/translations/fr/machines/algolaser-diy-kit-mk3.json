@@ -1,0 +1,117 @@
+{
+  "tagline": "Diode à structure ouverte de 400 × 400 mm avec écran tactile autonome, vendue avec des modules de 8, 15 ou 20 W",
+  "tldr": "Le DIY Kit MK3 est le kit à structure ouverte de troisième génération d’AlgoLaser, lancé en juillet 2026 : un châssis de 400 × 400 mm livré monté à 95 %, un écran tactile capacitif sous AlgoOS pour travailler hors ligne, une tige de mise au point rabattable et une gravure à 15 000 mm/min. Il est vendu avec un module diode de 8, 15 ou 20 W, à partir de 259 $. Ouvrez une puissance pour les prix exacts et les benchmarks.",
+  "mainObjective": "Graver et découper à petit prix sur une surface moyenne à structure ouverte, sans ordinateur pour les travaux simples",
+  "primaryUse": "Diode à structure ouverte économique pour la gravure et la découpe, pilotée depuis un écran tactile autonome",
+  "beginnerNotes": "Choisissez d’abord la puissance : le 8 W grave le détail fin mais découpe lentement, le 15 W est le choix équilibré, et le 20 W celui de la découpe régulière. Le kit Basic ajoute un plateau alvéolé, un rouleau rotatif et des rehausses pour 200 $ ; vérifiez que vous en avez besoin avant de les payer.",
+  "proTips": "Utilisez la tige de mise au point rabattable avant chaque travail et vérifiez l’équerrage du châssis après le transport. L’écran tactile est pratique pour le texte et les projets enregistrés ; pour les photos et les vecteurs complexes, LightBurn offre un contrôle plus fin. Prévoyez une assistance air pour tout module utilisé en découpe, et une évacuation vers l’extérieur.",
+  "bestFor": [
+    "Premier laser à petit budget",
+    "Séries de dessous de verre et de panneaux",
+    "Travailler sans ordinateur",
+    "Garage ou atelier"
+  ],
+  "pros": [
+    "Surface de 400 × 400 mm dès 259 $, livrée montée à 95 % avec une installation en cinq étapes",
+    "Écran tactile capacitif sous AlgoOS : texte, croquis et projets enregistrés se lancent sans ordinateur",
+    "Même châssis pour les trois modules, avec prise en charge de LightBurn et LaserGRBL"
+  ],
+  "cons": [
+    "Structure ouverte : pas de caisson, et le caisson classe 1 coûte 299 $ en plus",
+    "AlgoLaser ne publie ni taille de point, ni mesure de puissance optique, ni chiffre de découpe, sauf 12 mm pour le 20 W",
+    "Lancé en juillet 2026, sans test indépendant pour l’instant"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Acrylique foncé",
+      "Papier et carton",
+      "Métal revêtu ou anodisé"
+    ],
+    "cut": [
+      "Tilleul et contreplaqué (3 mm avec chaque module ; jusqu’à 12 mm annoncés avec le 20 W)",
+      "Acrylique foncé (fin)",
+      "Papier, carton et feutre"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu (aucun module infrarouge annoncé pour le MK3)",
+      "Usage fermé sans le caisson en option"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle AlgoLaser, oct. 2026 : de 259 $ (machine 8 W) à 659 $ (kit Basic 20 W) ; le kit Basic ajoute un plateau alvéolé, le rouleau rotatif RR2 et un jeu de rehausses"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Qu’est-ce qui change par rapport au DIY Kit MK2 ?",
+      "answer": "Le MK3 ajoute un écran tactile capacitif sous AlgoOS pour travailler hors ligne, une tige de mise au point rabattable et un châssis livré monté à 95 %. AlgoLaser annonce jusqu’à 60 % de puissance en plus par rapport au kit précédent et une gravure à 15 000 mm/min. La surface de 400 × 400 mm ne change pas."
+    },
+    {
+      "question": "Quel module choisir ?",
+      "answer": "Le 8 W (259 $, octobre 2026) sert à la gravure détaillée et à la découpe légère, le 15 W (309 $) est le polyvalent, et le 20 W (459 $ avec pompe à air offerte) vise la découpe régulière du bois, avec 12 mm en une passe selon AlgoLaser. Ouvrez chaque puissance pour son benchmark."
+    },
+    {
+      "question": "Peut-on fermer le DIY Kit MK3 ?",
+      "answer": "Oui, avec le Smart Enclosure 2.0 à caméra d’AlgoLaser, vendu 299 $ sur la boutique officielle en octobre 2026, plus un purificateur de fumée en option à 299 $. Sans lui, le MK3 reste un laser à structure ouverte : portez les lunettes fournies, gardez-le hors de portée des enfants et évacuez la fumée dehors."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser AlgoLaser DIY Kit MK3 : AlgoLaser"
+    },
+    {
+      "alt": "Présentation de l’AlgoLaser DIY Kit MK3 : AlgoOS, écran tactile et châssis : AlgoLaser"
+    },
+    {
+      "alt": "Comparaison des modules diode 8 W, 15 W et 20 W de l’AlgoLaser DIY Kit MK3 : AlgoLaser"
+    },
+    {
+      "alt": "Tige de mise au point rabattable intégrée de l’AlgoLaser DIY Kit MK3 : AlgoLaser"
+    },
+    {
+      "alt": "Écran tactile AlgoOS de l’AlgoLaser DIY Kit MK3 : AlgoLaser"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Trois modules diode sur le même châssis MK3",
+    "description": "Le DIY Kit MK3 est vendu avec un module diode de 8, 15 ou 20 W sur le même châssis de 400 × 400 mm et le même écran tactile. La puissance se choisit à l’achat ; les modules se montent sur le même support de tête, un à la fois.",
+    "options": [
+      {
+        "label": "Diode 8 W"
+      },
+      {
+        "label": "Diode 15 W"
+      },
+      {
+        "label": "Diode 20 W"
+      }
+    ]
+  },
+  "editorialDepth": {
+    "advantages": "Le MK3 garde le prix bas et la surface de 400 × 400 mm des kits AlgoLaser, et ajoute ce qui manque d’habitude aux débutants : un châssis presque monté, un écran tactile qui lance les travaux sans ordinateur et une tige de mise au point intégrée à la tête. Trois modules couvrent tout, de la gravure détaillée à la découpe régulière.",
+    "limitations": "Cela reste une diode à structure ouverte : sécurité, fumée et caisson sont des coûts en plus. AlgoLaser donne peu de chiffres vérifiables, et aucun test indépendant n’a encore évalué le châssis, les modules ou l’écran tactile."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Un écran tactile qui fonctionne hors ligne",
+      "body": "AlgoOS lance texte, croquis et plus de 400 projets enregistrés directement depuis l’écran capacitif, sans ordinateur ni application."
+    },
+    {
+      "title": "Châssis monté à 95 %",
+      "body": "Le châssis arrive presque monté et s’installe en cinq étapes, en moins de 10 minutes selon AlgoLaser."
+    }
+  ]
+}

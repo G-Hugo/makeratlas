@@ -1,0 +1,104 @@
+{
+  "tagline": "CO₂ de bureau 45 W avec plateau de 400 × 300 mm et refroidissement à eau intégré",
+  "tldr": "La nouvelle génération de Reno 45, mise en ligne par Monport le 20 septembre 2026, garde le plateau de 400 × 300 mm et le tube verre de 45 W, mais intègre le refroidissement à eau (réservoir de 3 L) et ajoute une fente traversante avant de 470 × 7 mm, 100 mm de course en Z et une mise au point assistée par aimant. Basic à 1 149,99 $ (500 mm/s, USB), Pro à 1 499,99 $ (600 mm/s, Wi-Fi, panneau autonome, compatible avec le module IR 1 W), Vision à 1 649,99 $ (caméra 8 Mpx). Les trois versions étaient en précommande en octobre 2026 : expédition fin octobre pour la Pro et la Vision, fin novembre pour la Basic. Elle remplace l’ancienne Reno 45 Pro Vision.",
+  "mainObjective": "Un premier CO₂ abordable pour l’acrylique, le bois et le cuir, sur un bureau",
+  "primaryUse": "Tube verre 45 W · Monport Reno 45 (2026)",
+  "beginnerNotes": "Cette fiche décrit la génération 2026 de la Reno 45, pas l’ancienne Reno 45 Pro Vision. Elle convient comme premier CO₂ pour les cadeaux, les enseignes et les objets de marché artisanal. Prenez la Pro ou la Vision si vous voulez le Wi-Fi et l’option IR ; la Basic ne se connecte qu’en USB.",
+  "proTips": "Restez sous environ 70 % de puissance pour le travail courant afin de rester proche des durées de vie les plus longues annoncées par Monport. Utilisez la fente avant pour les bandes longues. Raccordez la sortie d’extraction de 100 mm vers l’extérieur, même pour de courtes gravures.",
+  "bestFor": [
+    "Passer de la diode au CO₂",
+    "Enseignes en acrylique",
+    "Cadeaux personnalisés",
+    "Marchés artisanaux"
+  ],
+  "pros": [
+    "Réservoir d’eau de 3 L intégré, à la place du réservoir externe qu’exigeait l’ancienne Reno 45",
+    "Prix d’entrée bas : 1 149,99 $ pour la Basic, 1 649,99 $ pour la Vision avec caméra (Monport, oct. 2026)",
+    "Fente traversante avant de 470 × 7 mm et 100 mm de course en Z pour les bandes longues et les objets hauts"
+  ],
+  "cons": [
+    "Uniquement en précommande en octobre 2026 : expédition fin octobre pour la Pro et la Vision, fin novembre pour la Basic",
+    "Tube annoncé pour 3 000 h sous 40 % de puissance mais 900 h au-delà de 70 %, garanti 6 mois",
+    "Plateau de 400 × 300 mm : moitié moins de surface que la Reno 65, qui coûte 450 à 1 100 $ de plus selon la version"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Pierre et ardoise",
+      "Métal revêtu ou peint"
+    ],
+    "cut": [
+      "Acrylique jusqu’à 15 mm (annonce Monport)",
+      "Contreplaqué et bois dur",
+      "Cuir",
+      "Tissu et feutre",
+      "Papier et carton"
+    ],
+    "cannot": [
+      "Métal nu (sauf avec le module IR 1 W en option sur Pro et Vision)",
+      "PVC et vinyle (fumées chlorées)",
+      "Usage sans évacuation des fumées vers l’extérieur"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : Basic 1 149,99 $, Pro 1 499,99 $, Vision 1 649,99 $, toutes en précommande ; l’offre avec LightBurn ajoute 99,99 $ (Basic) ou 199,99 $ (Pro, Vision)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Qu’est-ce qui change par rapport à l’ancienne Reno 45 ?",
+      "answer": "Le comparatif de Monport cite trois changements : le refroidissement à eau passe dans la machine (réservoir de 3 L, plus de réservoir externe à installer), la pompe d’assistance d’air passe de 18 à 20 L/min et ne tourne que pendant les travaux, et la Pro et la Vision acceptent un module IR 1 W interchangeable pour le métal nu. Le plateau reste à 400 × 300 mm. L’ancienne Reno 45 Pro Vision n’est plus vendue sur la boutique Monport."
+    },
+    {
+      "question": "La nouvelle Reno 45 est-elle disponible ?",
+      "answer": "Pas encore. En octobre 2026, toutes les versions étaient en précommande sur la boutique américaine de Monport : expédition prévue fin octobre pour la Pro et la Vision, fin novembre pour la Basic. La page produit de Monport oriente d’ailleurs vers d’autres modèles ceux qui ont besoin d’une machine tout de suite."
+    },
+    {
+      "question": "Basic, Pro ou Vision ?",
+      "answer": "La Basic (1 149,99 $) ne se connecte qu’en USB, monte à 500 mm/s et fonctionne avec LightBurn ou LaserGRBL. La Pro (1 499,99 $) ajoute 600 mm/s, le Wi-Fi, la clé USB, un panneau de commande autonome, AutoLaser et l’application mobile, ainsi que la compatibilité avec le module IR. La Vision (1 649,99 $) ajoute la caméra 8 Mpx pour le placement, la reconnaissance de contours et les mises en page en série dans AutoLaser ; pour 150 $ de plus que la Pro, c’est la version à regarder en premier."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Le refroidissement à eau désormais intégré",
+      "body": "L’ancienne Reno 45 dépendait d’un réservoir externe. Cette génération loge un réservoir de 3 L et un radiateur dans le châssis : plus de seau, de pompe ni de tuyaux sur le bureau."
+    },
+    {
+      "title": "Un CO₂ avec caméra sous 1 700 $",
+      "body": "La version Vision associe une caméra 8 Mpx couvrant tout le plateau au tube de 45 W pour 1 649,99 $ sur la boutique Monport (octobre 2026, en précommande)."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser CO₂ de bureau Monport Reno 45 (2026) : Monport"
+    },
+    {
+      "alt": "Monport Reno 45 capot ouvert : Monport"
+    },
+    {
+      "alt": "Monport Reno 45 sur un bureau avec un ordinateur et des pièces finies : Monport"
+    },
+    {
+      "alt": "Monport Reno 45 gravant une série de dessous de verre : Monport"
+    },
+    {
+      "alt": "Monport Reno 45, nid d’abeille de 400 × 300 mm : Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La Reno 45 de 2026 supprime l’étape d’installation la plus pénible de l’ancien modèle, le réservoir d’eau externe, et baisse nettement le prix. Avec une fente traversante, 100 mm de course en Z et un module IR en option sur la Pro et la Vision, elle couvre l’essentiel de ce qu’une activité à domicile attend d’un premier CO₂.",
+    "limitations": "C’est une précommande, sans test indépendant de cette génération pour l’instant. Le plateau reste modeste, la mise au point est assistée plutôt qu’automatique, le tube verre est un consommable garanti 6 mois et les fumées doivent sortir à l’extérieur."
+  }
+}

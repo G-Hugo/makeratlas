@@ -1,0 +1,183 @@
+{
+  "id": "monport-gpro-vision-60w-mopa",
+  "slug": "monport-gpro-vision-60w-mopa",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "releaseDate": "2026-06",
+  "modelLine": "monport-gpro-vision",
+  "image": "/machines/monport-gpro-vision-60w-mopa/01.webp",
+  "tierEditorialOverride": true,
+  "accessories": [
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "name": "Monport GPro Vision 60W MOPA",
+  "powerRating": "60W",
+  "catalogPrimary": true,
+  "tagline": "Split MOPA fiber with 16 MP camera and autofocus: the colour-marking entry of the GPro Vision line",
+  "tldr": "The GPro Vision 60W MOPA adds Monport's 16 MP positioning camera and autofocus to a 60W MOPA source with a 175 × 175 mm field. MOPA pulse control opens colour marking on stainless steel and titanium and cleaner marks on plastics; Monport rates it for brass up to 2.5 mm thick. $5,299 on Monport's store in October 2026, listed for mid-October shipping. The line launched in June 2026; no independent review yet.",
+  "mainObjective": "Colour marking and fine metal engraving with camera placement",
+  "bestFor": [
+    "Colour marking",
+    "Jewelry & gifts",
+    "Anodized aluminum",
+    "Batch engraving"
+  ],
+  "priceRange": {
+    "min": 5299,
+    "max": 5499,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $5,299 machine only, $5,499 with LightBurn Pro, listed for mid-October shipping"
+  },
+  "specs": {
+    "power": "60W MOPA fiber",
+    "workArea": "175 × 175 mm",
+    "software": [
+      "SapphireMark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–6 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "0.01 mm",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~500–2 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Titanium",
+      "Gold & silver",
+      "Plastics",
+      "Stone & leather"
+    ],
+    "cut": [
+      "Brass up to 2.5 mm (Monport figure, many passes)"
+    ],
+    "cannot": [
+      "Wood and acrylic production work",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Parts larger than the 175 × 175 mm field without repositioning"
+    ]
+  },
+  "pros": [
+    "MOPA source: controlled colour on stainless steel and titanium, cleaner marks on plastics and anodized aluminum",
+    "16 MP camera and autofocus for placing artwork on irregular parts and laying out batches",
+    "Rated by Monport to cut brass up to 2.5 mm thick, in many passes"
+  ],
+  "cons": [
+    "About $600 more than Monport's GT MOPA at the same power, which has autofocus but no camera",
+    "175 × 175 mm field, smaller than the entry tier's",
+    "Listed for mid-October shipping in October 2026, and no independent review of the line yet"
+  ],
+  "faq": [
+    {
+      "question": "How much does the camera cost over a GT 60W MOPA?",
+      "answer": "About $600: the GPro Vision 60W MOPA is $5,299 on Monport's store in October 2026, the GT 60W MOPA with autofocus $4,699.99. Both use a 60W MOPA source and a 175 × 175 mm field; the GPro Vision adds the 16 MP camera for visual placement, batch layouts and Monport's conveyor accessory."
+    },
+    {
+      "question": "Is the GPro Vision 60W MOPA in stock?",
+      "answer": "In October 2026 Monport listed the 60W MOPA with a mid-October shipping note, so expect a short wait; the 50W and 100W tiers were shown without a delay. Check the note next to the power option before ordering."
+    },
+    {
+      "question": "60W or 100W MOPA?",
+      "answer": "The 60W ($5,299) covers colour marking, black marking, plastics and light engraving. The 100W ($6,919.99) shares the field and camera but removes material faster, which matters for deep relief, 3D embossing and cutting thin sheet. Choose by depth and throughput, not by colour: both do colour."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gpro60-color",
+      "title": "Colour marking with camera placement",
+      "body": "MOPA pulse control for oxide colours on stainless steel and titanium, combined with a 16 MP camera to position artwork on finished parts."
+    },
+    {
+      "id": "gpro60-brass",
+      "title": "Thin-metal cutting",
+      "body": "Monport rates this tier for brass up to 2.5 mm thick. Expect many passes: it is a marking laser that can cut small parts, not a sheet cutter."
+    }
+  ],
+  "beginnerNotes": "This profile is the 60W MOPA tier of the GPro Vision, the least expensive one with controlled colour marking. Compare the other tiers via the chips if you need a wider field or more depth.",
+  "proTips": "Build colour test grids on your own alloy before quoting colour jobs: results depend on surface finish, speed and frequency. Recalibrate the camera after changing the lens.",
+  "primaryUse": "60W MOPA fiber · Monport GPro Vision",
+  "rating": {
+    "overall": 8.2,
+    "value": 7.6,
+    "easeOfUse": 8.6,
+    "capability": 7.9,
+    "buildQuality": 8.4
+  },
+  "similarModels": [
+    "monport-gt-60w-fiber",
+    "creality-falcon-t1-60w-mopa",
+    "commarker-b6-mopa-30w"
+  ],
+  "images": [
+    {
+      "src": "/machines/monport-gpro-vision-60w-mopa/01.webp",
+      "alt": "Monport GPro Vision 60W MOPA split fiber laser: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-60w-mopa/02.webp",
+      "alt": "Monport GPro Vision source cabinet and galvo head: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-60w-mopa/03.webp",
+      "alt": "Monport GPro Vision source cabinet, front view: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-60w-mopa/04.webp",
+      "alt": "Monport GPro Vision on a workbench with laptop and marked parts: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-60w-mopa/05.webp",
+      "alt": "Monport GPro Vision rear panel and fiber cable: Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 60W MOPA is the balanced tier of the GPro Vision: colour and fine marking on metals and plastics, a camera that speeds up placement on finished goods, and enough power for light engraving and small brass cut-outs.",
+    "limitations": "It costs noticeably more than the camera-less GT equivalent, the field is 175 × 175 mm, and the open design needs an enclosure or strict eye protection. Specs are Monport's until independent tests arrive."
+  }
+}

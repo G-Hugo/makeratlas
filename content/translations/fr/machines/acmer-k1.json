@@ -1,0 +1,84 @@
+{
+  "tagline": "La gamme de mini diodes fermées d’Acmer : 2,4 kg, 150 × 150 mm, de 2,5 W à 12 W",
+  "tldr": "L’Acmer K1 est une petite graveuse à diode fermée : une surface de 150 × 150 mm dans un boîtier de 286 × 273 × 190 mm pesant 2,4 kg, avec capteur d’ouverture du capot, capteur d’inclinaison et ventilateur d’extraction intégré. Acmer la vend en quatre puissances de diode, 2,5 W, 3,5 W, 7 W et 12 W, de 179,99 $ à 269,99 $ (la 2,5 W était en rupture en octobre 2026). Elle se connecte en USB et fonctionne avec ACMER Studio, LightBurn et LaserGRBL. Ouvrez une version pour les caractéristiques exactes.",
+  "mainObjective": "Graver de petits objets à la maison dans un boîtier fermé, au prix d’un mini laser ouvert",
+  "primaryUse": "Mini graveuse à diode fermée pour petits objets à la maison",
+  "beginnerNotes": "Cette fiche présente toute la gamme Acmer K1. Même boîtier, même surface et même logiciel pour toutes les versions : seule la puissance de la diode change. Prenez la 3,5 W pour graver uniquement, la 7 W pour graver avec un peu de découpe, la 12 W si vous voulez découper régulièrement du contreplaqué fin.",
+  "proTips": "Faites sortir le tuyau d’extraction par une fenêtre : le ventilateur chasse la fumée hors du boîtier, il ne la filtre pas. Testez puissance et vitesse sur une chute, et prévoyez plusieurs passes pour toute découpe de plus de 2 à 3 mm.",
+  "bestFor": [
+    "Premier laser à la maison",
+    "Petits cadeaux",
+    "Petits bureaux",
+    "Petit budget"
+  ],
+  "pros": [
+    "Boîtier fermé avec capteurs de capot et d’inclinaison dès 199,99 $",
+    "2,4 kg et 286 × 273 × 190 mm : facile à ranger ou à transporter",
+    "Compatible LightBurn et LaserGRBL en plus d’ACMER Studio"
+  ],
+  "cons": [
+    "Surface de 150 × 150 mm : petits objets uniquement",
+    "USB seulement : ni Wi-Fi ni caméra",
+    "Les chiffres de découpe sont ceux du fabricant, sans le nombre de passes"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Papier et carton",
+      "Cuir",
+      "Acrylique foncé",
+      "Liège et bambou",
+      "Métal revêtu"
+    ],
+    "cut": [
+      "Contreplaqué et paulownia (tableau Acmer : de 5 mm en 2,5 W à 12 mm en 12 W, nombre de passes non précisé)",
+      "Acrylique foncé (fin)",
+      "Papier et carton"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Tout objet de plus de 150 mm de largeur"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Acmer, oct. 2026 : 179,99 $ (2,5 W, en rupture), 199,99 $ (3,5 W), 229,99 $ (7 W), 269,99 $ (12 W)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle puissance de K1 choisir ?",
+      "answer": "Même boîtier, même surface et même logiciel pour toutes les versions. La 3,5 W (199,99 $) sert à graver, la 7 W (229,99 $) ajoute un peu de découpe, et la 12 W (269,99 $) découpe le contreplaqué fin plus vite. La 2,5 W (179,99 $) était en rupture sur la boutique Acmer en octobre 2026."
+    },
+    {
+      "question": "La K1 s’utilise-t-elle sans risque en intérieur ?",
+      "answer": "Le boîtier est fermé, le laser s’arrête quand le capot s’ouvre ou quand la machine penche de plus de 13°, et un ventilateur évacue la fumée par un tuyau. La fumée doit tout de même sortir : faites passer le tuyau par une fenêtre."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Mini graveuse laser fermée Acmer K1 : Acmer"
+    },
+    {
+      "alt": "Acmer K1, dimensions et surface de gravure de 150 × 150 mm : Acmer"
+    },
+    {
+      "alt": "Acmer K1, capteur de capot et capteur d’inclinaison : Acmer"
+    },
+    {
+      "alt": "Acmer K1 sur un établi avec des pièces en bois gravées : Acmer"
+    },
+    {
+      "alt": "Acmer K1, tableau des profondeurs de découpe selon la puissance : Acmer"
+    }
+  ]
+}

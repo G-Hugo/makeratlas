@@ -1,0 +1,117 @@
+{
+  "tagline": "Galvo portable fermée avec une diode 10 W et une source infrarouge 2 W, mise au point automatique et champ de 105 × 105 mm",
+  "tldr": "L’Acmer GE1 (août 2026) est une petite graveuse galvo fermée qui associe une diode bleue de 10 W pour le bois, le cuir et le papier à une source infrarouge 1064 nm de 2 W pour le métal et certains plastiques. Acmer annonce 5 000 mm/s, un axe Z motorisé avec mise au point automatique pour des objets jusqu’à 110 mm de haut et un champ de 105 × 105 mm, porté à 105 × 370 mm avec la glissière en option. À 799 $, elle coûte bien moins cher que les galvos portables d’xTool, mais elle est toute neuve : ni dimensions, ni poids, ni test indépendant pour l’instant.",
+  "mainObjective": "Marquer vite de petits objets en bois, en cuir et en métal avec un seul boîtier fermé et transportable",
+  "primaryUse": "Galvo portable, diode 10 W + infrarouge 2 W, pour petits objets personnalisés",
+  "beginnerNotes": "La GE1 arrive montée et se pilote avec deux boutons sur la machine : aperçu, puis gravure. Prenez la diode pour le bois, le cuir et le papier, et la source infrarouge pour le métal nu et certains plastiques ; une seule source fonctionne à la fois. Ne l’achetez pas pour découper : c’est une machine de marquage.",
+  "proTips": "Utilisez l’aperçu du contour pour placer chaque pièce avant de graver, et enregistrez les travaux répétitifs : la GE1 relance les derniers réglages d’une seule pression. Sur l’inox, faites plusieurs passes avec la source infrarouge plutôt que de trop ralentir. Branchez un extracteur de fumées ou le purificateur Acmer pour le cuir et les plastiques.",
+  "bestFor": [
+    "Petits cadeaux personnalisés",
+    "Médailles et bijoux",
+    "Stands de marché",
+    "Première galvo"
+  ],
+  "pros": [
+    "Diode et infrarouge dans une galvo fermée à 799 $, contre 1 299 $ pour la F2 d’xTool",
+    "Axe Z motorisé avec mise au point automatique pour des objets jusqu’à 110 mm de haut",
+    "La glissière en option porte le champ à 105 × 370 mm pour des séries de médailles ou des pièces longues"
+  ],
+  "cons": [
+    "Champ de 105 × 105 mm : plus petit que les 220 × 220 mm de la xTool F2",
+    "L’infrarouge de 2 W marque le métal lentement et seulement en surface",
+    "Machine neuve : ni dimensions, ni poids, ni taille de point, ni test indépendant publiés"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Papier et carton",
+      "Acrylique foncé",
+      "Inox et aluminium (infrarouge)",
+      "Certains plastiques (infrarouge)"
+    ],
+    "cut": [
+      "Papier et carton fin (Acmer ne publie aucune épaisseur de découpe)"
+    ],
+    "cannot": [
+      "Découper du bois ou de l’acrylique d’une épaisseur utile",
+      "Acrylique transparent",
+      "Gravure profonde du métal",
+      "Objets de plus de 105 mm de largeur sans la glissière"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Acmer, oct. 2026 : 799 $ en pack de base, 978 $ avec glissière, 988 $ avec mandrin rotatif, 1 346 $ en pack complet (prix barrés de 1 299 $ à 1 916 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Acmer GE1 ou xTool F2 : laquelle choisir ?",
+      "answer": "La xTool F2 a plus de puissance (diode 15 W et infrarouge 5 W), un champ de 220 × 220 mm et une caméra de 50 Mpx, pour 1 299 $ sur la boutique xTool (octobre 2026). La GE1 coûte 799 $ avec un champ de 105 × 105 mm et sans caméra, mais elle est entièrement fermée et ajoute la mise au point automatique. Prenez la GE1 pour de petits objets à petit budget, la F2 pour des pièces plus grandes et le travail du métal."
+    },
+    {
+      "question": "La GE1 peut-elle découper du bois ou de l’acrylique ?",
+      "answer": "Pas dans des épaisseurs utiles. Acmer ne publie aucun chiffre de découpe pour la GE1, et une galvo à diode de 10 W est faite pour marquer vite, pas pour découper. Pour découper des formes en contreplaqué ou en acrylique, il faut une diode à portique ou un laser CO₂."
+    },
+    {
+      "question": "Quel pack acheter ?",
+      "answer": "Le pack de base à 799 $ suffit pour les médailles, les porte-clés et les cadeaux plats. Ajoutez la glissière (pack à 978 $) pour des séries de médailles ou des pièces jusqu’à 370 mm de long, et le mandrin rotatif (pack à 988 $) pour les gobelets et les bagues. Le pack complet à 1 346 $ réunit les deux et un purificateur de fumées (boutique Acmer, octobre 2026)."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser galvo portable Acmer GE1 : Acmer"
+    },
+    {
+      "alt": "Acmer GE1 avec purificateur, mandrin rotatif et glissière : Acmer"
+    },
+    {
+      "alt": "Acmer GE1, aperçu du contour sur un dessous de verre en bois : Acmer"
+    },
+    {
+      "alt": "Glissière et mandrin rotatif de l’Acmer GE1 en service : Acmer"
+    },
+    {
+      "alt": "Exemples de gravure de l’Acmer GE1 avec la diode 10 W et l’infrarouge 2 W : Acmer"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Diode 10 W + infrarouge 2 W (1064 nm)",
+    "description": "Galvo à double source fixe : la diode traite le bois, le cuir et le papier, la source infrarouge marque le métal nu et certains plastiques. On choisit la source pour chaque travail, sans changer de module.",
+    "options": [
+      {
+        "label": "Diode 10 W"
+      },
+      {
+        "label": "Infrarouge 2 W"
+      }
+    ]
+  },
+  "editorialDepth": {
+    "advantages": "La GE1 propose la formule de la galvo portable, diode et infrarouge dans un boîtier fermé, pour moins de 800 $. La mise au point automatique, l’axe Z motorisé et l’aperçu en une pression la rendent simple à utiliser pour les médailles, porte-clés, bijoux et petits cadeaux en bois, et la glissière comme le mandrin rotatif en option élargissent ce qu’elle accepte.",
+    "limitations": "Le champ de 105 × 105 mm et l’infrarouge de 2 W la limitent aux petits objets et au marquage de surface sur métal. Acmer ne publie ni dimensions, ni poids, ni taille de point, et aucun test indépendant n’existe encore : les chiffres de vitesse et de précision restent ceux du fabricant."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Deux sources pour moins de 800 $",
+      "body": "Une diode de 10 W pour les matériaux organiques et une source infrarouge 1064 nm de 2 W pour le métal, dans une galvo fermée vendue 799 $ en pack de base."
+    },
+    {
+      "title": "Mise au point automatique sur axe Z motorisé",
+      "body": "La tête se place seule à la bonne hauteur focale et accepte des objets jusqu’à 110 mm de haut."
+    },
+    {
+      "title": "Glissière pour les pièces longues",
+      "body": "La glissière en option porte le champ de 105 × 105 mm à 105 × 370 mm pour des séries de médailles ou des pièces longues."
+    }
+  ]
+}

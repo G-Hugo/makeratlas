@@ -1,0 +1,98 @@
+{
+  "tagline": "UV galvo 12 W à 355 nm avec deux lentilles de champ : marquage à froid de presque tous les matériaux, jusqu’à l’intérieur du cristal",
+  "tldr": "La Sculpfun V12 est une UV galvo de 12 W lancée en août 2026, grande sœur de la V5 de 5 W. Elle est livrée avec une lentille de 70 × 70 mm pour le travail fin et la gravure 3D dans le cristal, et une lentille de 200 × 200 mm pour le marquage courant, sur une colonne Z motorisée avec double pointeur rouge. L’UV marque plastiques, verre, métaux, bois et papier en chauffant très peu. À 5 499 $ et 26,7 kg, c’est une machine professionnelle ; aucun test indépendant pour l’instant.",
+  "mainObjective": "Marquage UV à froid des plastiques, du verre, du cristal et des métaux pour une activité de personnalisation",
+  "primaryUse": "UV galvo 12 W pour le marquage à froid des plastiques, du verre, du cristal et des métaux, avec gravure 3D dans la masse",
+  "beginnerNotes": "L’UV est le laser de marquage le plus polyvalent, mais il marque sans découper et coûte plusieurs fois le prix d’une diode. Choisissez la V12 si votre activité tourne autour du verre personnalisé, du cristal, des pièces plastiques ou du détail très fin sur métal. Pour graver dans la masse du cristal, il faut la lentille de 70 mm et le logiciel PC de Sculpfun, pas l’application.",
+  "proTips": "Changez de lentille machine éteinte, puis utilisez le bouton de mise au point correspondant. Commencez les travaux sur cristal avec les paramètres d’exemple de Sculpfun et les cylindres fournis avant d’acheter des blocs en quantité. Aspirez les fumées quand vous marquez du PVC ou d’autres plastiques, et gardez une bibliothèque de paramètres par lentille.",
+  "bestFor": [
+    "Cadeaux en cristal et en verre",
+    "Pièces plastiques et emballages",
+    "Détail fin sur métal",
+    "Activité de personnalisation"
+  ],
+  "pros": [
+    "Deux lentilles de champ fournies : 70 × 70 mm pour le travail fin et le cristal, 200 × 200 mm pour le marquage courant",
+    "Colonne Z motorisée avec double pointeur rouge et un bouton de mise au point préréglé par lentille",
+    "Le marquage à froid à 355 nm traite les plastiques, le verre et l’acrylique transparent, difficiles pour une fibre ou une diode"
+  ],
+  "cons": [
+    "5 499 $ et 26,7 kg : un achat professionnel, 2 300 $ de plus que la V5 de 5 W",
+    "Les chiffres de Sculpfun se contredisent (10 000 mm/s dans la fiche technique, 15 000 mm/s sur les visuels), et le point de 0,0019 mm est un argument commercial",
+    "Galvo ouverte sans caisson : la lumière UV impose une vraie protection des yeux et une extraction des fumées sur les plastiques"
+  ],
+  "materials": {
+    "engrave": [
+      "Plastiques (PE, PVC, PP, ABS, PC, POM, nylon, PLA)",
+      "Verre et cristal (en surface et dans la masse)",
+      "Acrylique transparent et coloré",
+      "Inox, aluminium, titane, laiton",
+      "Or, argent et platine",
+      "Bois, cuir, tissu, papier et carton"
+    ],
+    "cut": [],
+    "cannot": [
+      "Découper des plaques de bois ou d’acrylique",
+      "Graver profond dans le métal à la vitesse d’une fibre",
+      "Tout objet dépassant 200 mm de largeur sans le kit d’extension coulissant"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Sculpfun, oct. 2026 : 5 499 $ (prix barré 5 999 $), les deux lentilles de champ incluses"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe laser"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "La Sculpfun V12 peut-elle graver à l’intérieur du cristal ?",
+      "answer": "Oui, selon Sculpfun : la gravure 3D dans la masse fonctionne avec la lentille de 70 × 70 mm et le logiciel PC de Sculpfun, l’axe Z motorisé montant la tête couche après couche. Deux cylindres de cristal sont fournis pour les premiers essais."
+    },
+    {
+      "question": "V12 ou V5 : les 2 300 $ de plus valent-ils le coup ?",
+      "answer": "Sur la boutique Sculpfun en octobre 2026, la V12 coûte 5 499 $ contre 3 199 $ pour la V5 de 5 W. La V12 apporte 12 W au lieu de 5, une lentille de 200 × 200 mm au lieu de 150 × 150 mm et le marquage couleur sur métal. Prenez-la si le marquage UV est un travail payé au quotidien ; pour quelques cadeaux en cristal, la V5 coûte bien moins cher."
+    },
+    {
+      "question": "Un laser UV peut-il découper de l’acrylique ou du bois ?",
+      "answer": "Pas de façon utile. Sculpfun cite la découpe parmi les capacités de la V12, mais à 12 W une UV galvo ne découpe que des films fins, du papier et des étiquettes. Pour des pièces en acrylique ou en contreplaqué, il faut un CO₂ ou une diode puissante."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser UV Sculpfun V12 12 W : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun V12 et ses lentilles de champ de 70 × 70 mm et 200 × 200 mm : Sculpfun"
+    },
+    {
+      "alt": "Colonne Z motorisée et double pointeur rouge de la Sculpfun V12 : Sculpfun"
+    },
+    {
+      "alt": "Marquage couleur sur une carte en métal par la Sculpfun V12 : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun V12 avec l’extension coulissante et le rouleau rotatif : Sculpfun"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La V12 réunit 12 W d’UV à 355 nm, deux lentilles de champ et une mise au point motorisée dans une seule machine de bureau : cristal, verre, plastiques, emballages et détail fin sur métal sont couverts par un seul appareil. C’est l’une des UV galvo les plus puissantes vendues aux petites entreprises à ce prix.",
+    "limitations": "Elle est lourde, coûte plus cher que bien des lasers CO₂ et ne découpe rien d’utile. La galvo est ouverte, les chiffres de vitesse et de point de Sculpfun sont incohérents ou optimistes, et aucun test indépendant ne les confirme encore."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Deux lentilles de champ fournies",
+      "body": "Une lentille de 70 × 70 mm concentre l’énergie pour le détail fin et le cristal, une lentille de 200 × 200 mm couvre les objets plus grands ; les deux sont dans le carton."
+    },
+    {
+      "title": "Gravure 3D dans le cristal",
+      "body": "Avec la lentille courte et le logiciel PC de Sculpfun, la V12 grave des modèles 3D à l’intérieur de blocs de cristal en remontant la tête au fil du travail."
+    }
+  ]
+}

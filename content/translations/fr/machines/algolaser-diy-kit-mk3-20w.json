@@ -1,0 +1,117 @@
+{
+  "tagline": "Module 20 W du MK3 orienté découpe, pompe à air offerte : 12 mm de bois en une passe annoncés",
+  "tldr": "Le DIY Kit MK3 20 W est la version haute : le châssis de 400 × 400 mm, l’écran tactile AlgoOS et la tige de mise au point du MK3 avec un module diode de 20 W plus gros et une pompe à air fournie. AlgoLaser l’annonce pour 12 mm de bois en une passe, le seul chiffre de découpe publié pour le MK3. À 459 $, il coûte 150 $ de plus que le 15 W. Aucun test indépendant ne confirme encore cette annonce.",
+  "mainObjective": "Découpe régulière du bois et gravure plus rapide sur une structure ouverte économique",
+  "primaryUse": "Module 20 W · AlgoLaser DIY Kit MK3",
+  "beginnerNotes": "Cette fiche décrit la version 20 W du DIY Kit MK3. Comparez-la au 15 W : prenez le 20 W si vous découpez du bois chaque semaine, la pompe à air fournie réduisant l’écart de prix réel. Pour surtout graver, le 15 W reste le meilleur rapport qualité-prix.",
+  "proTips": "Laissez la pompe à air tourner à chaque découpe et nettoyez souvent la fenêtre de la lentille : les découpes épaisses l’encrassent vite. Considérez 12 mm comme un cas favorable sur bois tendre ; le contreplaqué dense et les bois durs demandent des vitesses plus lentes ou des passes en plus. Évacuez dehors ou ajoutez le purificateur, la fumée de découpe s’accumule vite.",
+  "bestFor": [
+    "Découpe du bois",
+    "Panneaux et formes découpées",
+    "Petite entreprise à petit budget",
+    "Garage ou atelier"
+  ],
+  "pros": [
+    "AlgoLaser annonce le module pour 12 mm de bois en une seule passe",
+    "Pompe à air fournie, même avec la version machine seule",
+    "La gravure la plus rapide de la gamme MK3, sur le même châssis de 400 × 400 mm"
+  ],
+  "cons": [
+    "150 $ de plus que la version intermédiaire, et le chiffre de 12 mm n’est pas vérifié",
+    "Plus de fumée et de chaleur : une évacuation extérieure s’impose, et le caisson coûte 299 $ en plus",
+    "Module plus gros sans taille de point publiée : la finesse en gravure reste inconnue"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Acrylique foncé",
+      "Papier et carton",
+      "Métal revêtu ou anodisé"
+    ],
+    "cut": [
+      "Tilleul et contreplaqué jusqu’à 12 mm (annonce AlgoLaser, une passe)",
+      "Acrylique foncé (fin)",
+      "Cuir, papier et feutre"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu (aucun module infrarouge annoncé pour le MK3)",
+      "Usage fermé sans le caisson en option"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle AlgoLaser, oct. 2026 : 459 $ la machine avec pompe à air offerte, 659 $ le kit Basic (ajoute plateau alvéolé, rouleau rotatif RR2 et rehausses)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Le DIY Kit MK3 20 W découpe-t-il vraiment 12 mm de bois en une passe ?",
+      "answer": "C’est l’annonce d’AlgoLaser sur ses visuels produit, et aucun test indépendant ne l’a encore confirmée. Ce type de chiffre diode se mesure en général sur bois tendre avec assistance air ; le contreplaqué et les bois durs prennent plus de temps. Dans notre benchmark, un carré de 10 × 10 cm dans du tilleul de 3 mm prend environ 5 à 8 min."
+    },
+    {
+      "question": "La pompe à air est-elle vraiment incluse ?",
+      "answer": "Oui : sur la boutique AlgoLaser en octobre 2026, la machine 20 W est affichée à 459 $ avec pompe à air offerte. Le kit Basic à 659 $ ajoute un plateau alvéolé, le rouleau rotatif RR2 et un jeu de rehausses."
+    },
+    {
+      "question": "MK3 20 W ou Alpha MK2 20 W ?",
+      "answer": "Le MK3 20 W est moins cher (459 $ contre 579 $ pour la machine Alpha MK2 20 W sur la boutique AlgoLaser, octobre 2026) et ajoute un écran tactile autonome. L’Alpha MK2 a un châssis plus robuste et plus éprouvé, avec un module infrarouge en option pour le métal. Choisissez le MK3 pour découper à petit budget, l’Alpha pour une machine d’atelier sur la durée."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser AlgoLaser DIY Kit MK3 20 W : AlgoLaser"
+    },
+    {
+      "alt": "Présentation de l’AlgoLaser DIY Kit MK3 : AlgoOS, écran tactile et châssis : AlgoLaser"
+    },
+    {
+      "alt": "Tige de mise au point rabattable intégrée de l’AlgoLaser DIY Kit MK3 : AlgoLaser"
+    },
+    {
+      "alt": "Écran tactile AlgoOS de l’AlgoLaser DIY Kit MK3 : AlgoLaser"
+    },
+    {
+      "alt": "Contenu du kit Basic de l’AlgoLaser DIY Kit MK3 20 W : AlgoLaser"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Trois modules diode sur le même châssis MK3",
+    "description": "Le DIY Kit MK3 est vendu avec un module diode de 8, 15 ou 20 W sur le même châssis de 400 × 400 mm et le même écran tactile. La puissance se choisit à l’achat ; les modules se montent sur le même support de tête, un à la fois.",
+    "options": [
+      {
+        "label": "Diode 8 W"
+      },
+      {
+        "label": "Diode 15 W"
+      },
+      {
+        "label": "Diode 20 W"
+      }
+    ]
+  },
+  "editorialDepth": {
+    "advantages": "Le 20 W fait du MK3 une machine de découpe économique : un module plus gros, une pompe à air dans le carton et l’annonce de 12 mm en une passe, sur un châssis de 400 × 400 mm avec écran tactile hors ligne. À 459 $, il convient aux makers qui découpent panneaux et formes chaque semaine.",
+    "limitations": "L’annonce de découpe n’est pas vérifiée, la structure est ouverte, et la gestion des fumées devient un vrai coût à cette puissance. Ceux qui gravent surtout paient 150 $ pour une vitesse dont ils se serviront rarement."
+  },
+  "standoutFeatures": [
+    {
+      "title": "12 mm en une passe, selon AlgoLaser",
+      "body": "AlgoLaser annonce le module 20 W pour 12 mm de bois en une seule passe, le seul chiffre de découpe publié pour le MK3."
+    },
+    {
+      "title": "Pompe à air incluse",
+      "body": "Contrairement aux versions 8 W et 15 W vendues seules, le 20 W est livré avec une pompe à air pour des découpes plus nettes."
+    }
+  ]
+}

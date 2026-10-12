@@ -1,0 +1,171 @@
+{
+  "id": "acmer-k1-7w",
+  "slug": "acmer-k1-7w",
+  "name": "Acmer K1 7W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "Middle K1: enclosed 2.4 kg mini diode for engraving, with light cutting of thin wood",
+  "tldr": "The K1 7W is the middle version of Acmer's enclosed mini engraver: same 150 × 150 mm area, 2.4 kg box, lid and tilt sensors and exhaust fan as the other versions, for $229.99. It engraves wood, leather, paper and dark acrylic at a reasonable pace and cuts thin wood with several passes. Acmer's chart gives up to 10 mm of plywood, without stating the number of passes.",
+  "mainObjective": "Enclosed small-item engraving at home, with occasional cutting of thin wood",
+  "bestFor": [
+    "First laser at home",
+    "Small gifts",
+    "Leather & paper",
+    "Tight budget"
+  ],
+  "priceRange": {
+    "min": 229.99,
+    "max": 229.99,
+    "currency": "USD",
+    "note": "Official Acmer store, Oct 2026: $229.99 (list price $399)"
+  },
+  "specs": {
+    "power": "7W diode (enclosed)",
+    "workArea": "150 × 150 mm",
+    "dimensions": "286 × 273 × 190 mm",
+    "weight": "2.4 kg",
+    "software": [
+      "ACMER Studio",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–26 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–14 min"
+      },
+      "technical": {
+        "spotSize": "0.08 × 0.08 mm",
+        "maxSpeed": "167 mm/s (10,000 mm/min)",
+        "avgEngraveSpeed": "60–120 mm/s",
+        "avgCutSpeed": "2–5 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Paper & card",
+      "Leather",
+      "Dark acrylic",
+      "Cork & bamboo",
+      "Coated metal"
+    ],
+    "cut": [
+      "Plywood up to 10 mm and paulownia up to 13 mm (Acmer chart, passes not stated)",
+      "Dark acrylic (thin)",
+      "Paper & card"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal",
+      "Anything wider than 150 mm",
+      "Regular thick cutting"
+    ]
+  },
+  "pros": [
+    "Good balance for engraving: about 18–26 min for a 10 × 10 cm photo on plywood in our benchmark profile",
+    "Enclosed box with lid and tilt sensors for $229.99",
+    "Cuts 3 mm basswood with a few passes, enough for occasional tags and ornaments"
+  ],
+  "cons": [
+    "Cutting is slow: about 8–14 min for a 10 × 10 cm square in 3 mm basswood in our benchmark profile",
+    "No camera, Wi-Fi or auto-focus",
+    "150 × 150 mm area: small objects only"
+  ],
+  "beginnerNotes": "This profile is the 7W version of the Acmer K1. Compare it with the 12W: pick the 7W if you mostly engrave and cut only now and then; box, area and software are identical. For engraving alone, the 3.5W saves $30.",
+  "proTips": "For cuts, use several passes at moderate speed rather than one very slow pass, and keep the lid closed so the fan clears smoke. Start from the ACMER Studio presets and fine-tune power on scrap of the same material.",
+  "primaryUse": "7W module · Acmer K1",
+  "rating": {
+    "overall": 7.4,
+    "value": 8.4,
+    "easeOfUse": 8,
+    "capability": 6.6,
+    "buildQuality": 7.2
+  },
+  "similarModels": [
+    "acmer-k1-12w",
+    "acmer-k1-3-5w",
+    "creality-falcon-a1c-5w"
+  ],
+  "faq": [
+    {
+      "question": "Can the K1 7W cut wood?",
+      "answer": "Thin wood, yes, with several passes. Acmer's chart gives up to 10 mm of plywood without stating speed or passes; our benchmark profile cuts a 10 × 10 cm square in 3 mm basswood in about 8–14 min. Beyond 3 mm, cutting gets slow."
+    },
+    {
+      "question": "K1 7W or K1 12W?",
+      "answer": "For $40 more ($269.99 against $229.99 on Acmer's store, October 2026), the 12W roughly halves cutting time and engraves wood a little faster. If you mostly engrave, the 7W is enough."
+    },
+    {
+      "question": "Can the K1 7W engrave metal?",
+      "answer": "Only coated or painted metal, by removing the coating. Bare stainless steel or aluminum needs an infrared or fiber laser, which the K1 does not offer."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "recommended"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "image": "/machines/acmer-k1-7w/01.webp",
+  "images": [
+    {
+      "src": "/machines/acmer-k1-7w/01.webp",
+      "alt": "Acmer K1 7W enclosed mini laser engraver: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-7w/02.webp",
+      "alt": "Acmer K1 dimensions and 150 × 150 mm engraving area: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-7w/03.webp",
+      "alt": "Acmer K1 lid sensor and tilt sensor: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-7w/04.webp",
+      "alt": "Acmer K1 on a workbench with engraved wooden pieces: Acmer"
+    },
+    {
+      "src": "/machines/acmer-k1-7w/05.webp",
+      "alt": "Acmer K1 cutting depth chart by power: Acmer"
+    }
+  ],
+  "modelLine": "acmer-k1",
+  "powerRating": "7W",
+  "releaseDate": "2025-09",
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The 7W is the middle ground of the K1 line: noticeably faster engraving than the 3.5W and enough power for occasional cuts in thin wood, in the same enclosed 2.4 kg box. For gifts, coasters, leather tags and paper projects, it covers most needs.",
+    "limitations": "Cutting stays slow and the 150 × 150 mm area limits it to small objects. There is no camera, Wi-Fi or auto-focus, and the cutting chart is a manufacturer claim without the number of passes."
+  },
+  "standoutFeatures": [
+    {
+      "id": "k1-7w-balance",
+      "title": "Balanced for engraving",
+      "body": "Engraves a 10 × 10 cm photo on plywood in about 18–26 min in our benchmark profile, with light cutting as a bonus."
+    },
+    {
+      "id": "k1-7w-enclosed-price",
+      "title": "Enclosed box under $250",
+      "body": "Lid sensor, tilt sensor and exhaust fan in a closed box sold $229.99 on Acmer's store."
+    }
+  ]
+}

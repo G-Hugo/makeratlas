@@ -1,0 +1,103 @@
+{
+  "tagline": "La K1 d’entrée : une mini diode fermée de 2,4 kg pour graver de petits objets à moins de 200 $",
+  "tldr": "La K1 3,5 W est la version la moins chère encore disponible en octobre 2026 de la mini graveuse fermée d’Acmer : une surface de 150 × 150 mm dans un boîtier de 2,4 kg avec capteurs de capot et d’inclinaison et ventilateur d’extraction, pour 199,99 $. C’est d’abord une graveuse : bois, cuir, papier et acrylique foncé. Le tableau d’Acmer indique jusqu’à 8 mm de contreplaqué, sans préciser le nombre de passes ; en pratique, la découpe est lente et limitée aux matériaux fins.",
+  "mainObjective": "Graver de petits objets à la maison en sécurité et à petit prix",
+  "primaryUse": "Module 3,5 W · Acmer K1",
+  "beginnerNotes": "Cette fiche décrit la version 3,5 W de l’Acmer K1. Comparez-la à la 7 W : prenez la 3,5 W seulement si vous allez graver et presque jamais découper ; pour 30 $ de plus, la 7 W grave plus vite et découpe le bois fin. Boîtier, surface et logiciel sont identiques.",
+  "proTips": "Utilisez une forte puissance et une vitesse modérée pour une gravure foncée et régulière sur bois, et réservez la découpe au papier, au carton et au feutre. Faites sortir le tuyau d’extraction à l’extérieur, même pour les travaux courts.",
+  "bestFor": [
+    "Premier laser à la maison",
+    "Petits cadeaux",
+    "Papier et cuir",
+    "Petit budget"
+  ],
+  "pros": [
+    "Boîtier fermé avec capteurs de capot et d’inclinaison pour 199,99 $",
+    "Largement suffisante pour graver papier, carton, cuir et cadeaux en bois",
+    "Même boîtier et même logiciel que les versions plus puissantes, avec prise en charge de LightBurn"
+  ],
+  "cons": [
+    "Lente : environ 25 à 35 min pour une photo de 10 × 10 cm sur contreplaqué dans notre profil de benchmark",
+    "Découper du bois de 3 mm demande plusieurs passes, environ 15 à 25 min pour un carré de 10 × 10 cm",
+    "Ni caméra, ni Wi-Fi, ni mise au point automatique"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Papier et carton",
+      "Cuir",
+      "Acrylique foncé",
+      "Liège et bambou",
+      "Métal revêtu"
+    ],
+    "cut": [
+      "Contreplaqué et paulownia fins (tableau Acmer : jusqu’à 8 et 10 mm, nombre de passes non précisé)",
+      "Papier et carton",
+      "Feutre"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu",
+      "Tout objet de plus de 150 mm de largeur",
+      "Découpe régulière du bois"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Acmer, oct. 2026 : 199,99 $ (prix barré 359 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "La K1 3,5 W suffit-elle pour débuter ?",
+      "answer": "Pour graver de petits objets, oui : bois, cuir, papier et acrylique foncé dans 150 × 150 mm. Si vous espérez découper des formes en contreplaqué, prenez la 7 W ou la 12 W : la 3,5 W ne découpe le bois fin qu’avec de nombreuses passes lentes."
+    },
+    {
+      "question": "K1 3,5 W ou K1 7 W ?",
+      "answer": "Seulement 30 $ d’écart (199,99 $ contre 229,99 $ sur la boutique Acmer, octobre 2026). La 7 W grave plus vite une photo de 10 × 10 cm (environ 18 à 26 min contre 25 à 35 min dans notre profil de benchmark) et découpe le bois fin en un temps raisonnable. Pour la plupart des acheteurs, la 7 W vaut la différence."
+    },
+    {
+      "question": "Et la K1 2,5 W ?",
+      "answer": "Acmer affiche une version 2,5 W à 179,99 $, mais elle était en rupture en octobre 2026. Avec encore moins de puissance, elle ne conviendrait qu’à de la gravure légère."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Mini graveuse laser fermée Acmer K1 3,5 W : Acmer"
+    },
+    {
+      "alt": "Acmer K1, dimensions et surface de gravure de 150 × 150 mm : Acmer"
+    },
+    {
+      "alt": "Acmer K1, capteur de capot et capteur d’inclinaison : Acmer"
+    },
+    {
+      "alt": "Acmer K1 sur un établi avec des pièces en bois gravées : Acmer"
+    },
+    {
+      "alt": "Acmer K1, tableau des profondeurs de découpe selon la puissance : Acmer"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La 3,5 W est l’entrée la moins chère vers un laser fermé dans la gamme Acmer : un boîtier clos avec capteurs de sécurité et ventilateur d’extraction pour moins de 200 $, ce qui convient à un premier laser à la maison pour le papier, le cuir et les cadeaux en bois.",
+    "limitations": "La gravure est lente et la découpe se limite aux matériaux fins, en de nombreuses passes. Pour 30 $ de plus, la 7 W fait presque tout mieux ; la 3,5 W n’a de sens que si chaque dollar compte et que vous ne découperez pas."
+  },
+  "standoutFeatures": [
+    {
+      "title": "Un boîtier fermé pour moins de 200 $",
+      "body": "Capteur de capot, capteur d’inclinaison et ventilateur d’extraction dans un boîtier fermé de 2,4 kg vendu 199,99 $ sur la boutique Acmer."
+    },
+    {
+      "title": "Libre choix du logiciel",
+      "body": "Fonctionne avec ACMER Studio, LightBurn et LaserGRBL : vous gardez le même logiciel si vous passez à un laser plus grand."
+    }
+  ]
+}

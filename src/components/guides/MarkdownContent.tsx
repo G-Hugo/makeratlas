@@ -8,7 +8,19 @@ interface MarkdownContentProps {
 export function MarkdownContent({ content }: MarkdownContentProps) {
   return (
     <div className="prose prose-stone max-w-none prose-headings:scroll-mt-24 prose-a:text-amber-700 prose-a:no-underline hover:prose-a:underline prose-strong:text-stone-900 dark:prose-invert dark:prose-strong:text-stone-100">
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        components={{
+          // Wide comparison tables scroll inside the article instead of widening the page on phones.
+          table: ({ node: _node, ...props }) => (
+            <div className="overflow-x-auto">
+              <table {...props} />
+            </div>
+          ),
+        }}
+      >
+        {content}
+      </ReactMarkdown>
     </div>
   );
 }

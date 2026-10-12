@@ -1,0 +1,182 @@
+{
+  "id": "monport-gpro-vision-100w-mopa",
+  "slug": "monport-gpro-vision-100w-mopa",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "status": "published",
+  "lastUpdated": "2026-10-12",
+  "releaseDate": "2026-06",
+  "modelLine": "monport-gpro-vision",
+  "image": "/machines/monport-gpro-vision-100w-mopa/01.webp",
+  "tierEditorialOverride": true,
+  "accessories": [
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "name": "Monport GPro Vision 100W MOPA",
+  "powerRating": "100W",
+  "tagline": "Split MOPA fiber with 16 MP camera and autofocus: more power for deep engraving and relief",
+  "tldr": "The GPro Vision 100W MOPA keeps the line's 16 MP camera, autofocus and 175 × 175 mm field with a 100W MOPA source for deeper engraving, 3D relief and thin-sheet cutting, alongside colour marking. $6,919.99 on Monport's store in October 2026, shown without a shipping delay. Launched in June 2026; no independent review yet.",
+  "mainObjective": "Deep metal engraving and relief work with camera placement",
+  "bestFor": [
+    "Deep engraving",
+    "3D relief",
+    "Thin metal cutting",
+    "Production quotes"
+  ],
+  "priceRange": {
+    "min": 6919.99,
+    "max": 7119.99,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $6,919.99 machine only, $7,119.99 with LightBurn Pro"
+  },
+  "specs": {
+    "power": "100W MOPA fiber",
+    "workArea": "175 × 175 mm",
+    "software": [
+      "SapphireMark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~2–4 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "0.01 mm",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~800–2 500 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Titanium",
+      "Gold & silver",
+      "Plastics",
+      "Stone & leather"
+    ],
+    "cut": [
+      "Thin steel, brass and copper sheet (many passes)"
+    ],
+    "cannot": [
+      "Wood and acrylic production work",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Parts larger than the 175 × 175 mm field without repositioning"
+    ]
+  },
+  "pros": [
+    "Faster material removal for deep engraving, relief and embossing, with MOPA colour marking still available",
+    "Camera placement and autofocus for repeat parts and batch layouts",
+    "Shown without a shipping delay on Monport's store in October 2026"
+  ],
+  "cons": [
+    "$6,919.99: about $320 more than Monport's camera-less GT at the same power ($6,600)",
+    "No larger field than the cheaper MOPA tier: 175 × 175 mm",
+    "More heat on thin parts: colour work needs careful parameter tests"
+  ],
+  "faq": [
+    {
+      "question": "GPro Vision 100W or GT 100W?",
+      "answer": "Both use a 100W MOPA source and autofocus. The GPro Vision 100W ($6,919.99, October 2026) adds the 16 MP camera and conveyor compatibility; the GT 100W was listed from $6,600. If you mark mostly flat stock positioned with jigs, the GT is enough; for varied finished parts, the camera earns its cost."
+    },
+    {
+      "question": "What can the 100W MOPA do that the 60W cannot?",
+      "answer": "Nothing different in kind, but it does it faster: deeper engraving per pass, quicker 3D relief and embossing, and more practical cutting of thin steel or brass. Monport does not publish cutting thicknesses for this tier; expect thin sheet only, in many passes."
+    },
+    {
+      "question": "Do I need an enclosure for the GPro Vision?",
+      "answer": "It is an open split galvo with a Class 4 beam. Monport includes OD7 glasses and sells an enclosure with a door safety switch ($509 in October 2026). In a shared room or a shop with visitors, the enclosure is the safer choice; fume extraction is also recommended for coated metals and plastics."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gpro100-depth",
+      "title": "Depth and relief",
+      "body": "The 100W MOPA source makes deep engraving, 3D embossing and thin-sheet cutting practical in production times, while keeping MOPA colour control."
+    },
+    {
+      "id": "gpro100-batch",
+      "title": "Built for repeat production",
+      "body": "Camera placement, autofocus and compatibility with Monport's conveyor accessory suit serialized parts and repeated logos."
+    }
+  ],
+  "beginnerNotes": "This profile is the 100W MOPA tier of the GPro Vision. Buy it when depth and throughput pay the bills; for colour and fine marking alone, compare the lower tiers via the chips.",
+  "proTips": "Use several fast passes rather than one slow pass for deep engraving, to limit heat build-up and warping on thin parts. Keep the lens clean: at this power, dirt burns in quickly.",
+  "primaryUse": "100W MOPA fiber · Monport GPro Vision",
+  "rating": {
+    "overall": 8.2,
+    "value": 7.3,
+    "easeOfUse": 8.6,
+    "capability": 8.3,
+    "buildQuality": 8.4
+  },
+  "similarModels": [
+    "monport-gt-100w-fiber",
+    "gweike-g6-split-100w",
+    "monport-ga-100w-fiber"
+  ],
+  "images": [
+    {
+      "src": "/machines/monport-gpro-vision-100w-mopa/01.webp",
+      "alt": "Monport GPro Vision 100W MOPA split fiber laser: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-100w-mopa/02.webp",
+      "alt": "Monport GPro Vision source cabinet and galvo head: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-100w-mopa/03.webp",
+      "alt": "Monport GPro Vision source cabinet, front view: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-100w-mopa/04.webp",
+      "alt": "Monport GPro Vision on a workbench with laptop and marked parts: Monport"
+    },
+    {
+      "src": "/machines/monport-gpro-vision-100w-mopa/05.webp",
+      "alt": "Monport GPro Vision rear panel and fiber cable: Monport"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 100W tier suits shops that sell deep engraving, relief work, tool marking and small metal cut-outs, and want the camera to cut setup time on finished goods.",
+    "limitations": "The extra power costs about $1,600 over the cheaper MOPA tier with no larger field. It is more than colour-only or light marking work needs, and it still requires an enclosure or strict eye protection."
+  }
+}

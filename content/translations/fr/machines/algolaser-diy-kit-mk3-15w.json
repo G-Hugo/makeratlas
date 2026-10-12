@@ -1,0 +1,117 @@
+{
+  "tagline": "Module 15 W équilibré du MK3 : gravure et découpe de 3 mm sur châssis de 400 × 400 mm pour 309 $",
+  "tldr": "Le DIY Kit MK3 15 W est la version intermédiaire, celle qu’AlgoLaser présente comme le choix du quotidien : le châssis de 400 × 400 mm, l’écran tactile AlgoOS et la tige de mise au point du MK3 avec une diode de 15 W pour graver plus vite et découper couramment le 3 mm. À 309 $, il ne coûte que 50 $ de plus que le 8 W. AlgoLaser ne publie aucun chiffre de découpe pour ce module, et aucun test indépendant n’existe encore.",
+  "mainObjective": "Gravure polyvalente et découpe légère sur une surface moyenne à petit prix",
+  "primaryUse": "Module 15 W · AlgoLaser DIY Kit MK3",
+  "beginnerNotes": "Cette fiche décrit la version 15 W du DIY Kit MK3, celle que la plupart des acheteurs devraient comparer en premier. Face au 8 W, elle ajoute vitesse et marge de découpe pour 50 $ ; face au 20 W, elle économise 150 $, de quoi payer l’assistance air et un plateau alvéolé. Ne prenez le 20 W que si la découpe du bois est votre activité principale.",
+  "proTips": "Associez le 15 W à une assistance air avant de découper quoi que ce soit : les bords restent propres et la lentille à l’abri de la fumée. Lancez les séries de dessous de verre depuis les projets enregistrés de l’écran, et passez à LightBurn pour les photos. Comptez le 3 mm en une ou deux passes, et davantage au-delà.",
+  "bestFor": [
+    "Premier laser à petit budget",
+    "Séries de dessous de verre et de panneaux",
+    "Gravure et découpe légère",
+    "Travailler sans ordinateur"
+  ],
+  "pros": [
+    "Seulement 50 $ de plus que le module d’entrée pour une gravure nettement plus rapide",
+    "Découpe couramment le tilleul et le contreplaqué de 3 mm avec assistance air",
+    "Tout le MK3 : écran tactile, tige de mise au point et châssis de 400 × 400 mm pour 309 $"
+  ],
+  "cons": [
+    "Aucune épaisseur de découpe ni mesure de puissance optique publiée pour ce module",
+    "L’assistance air n’est pas fournie avec la version machine seule",
+    "Structure ouverte, sans caisson dans le carton"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Acrylique foncé",
+      "Papier et carton",
+      "Métal revêtu ou anodisé"
+    ],
+    "cut": [
+      "Tilleul et contreplaqué de 3 mm (courant), plus épais en plusieurs passes",
+      "Acrylique foncé (fin)",
+      "Papier, carton et feutre"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Métal nu (aucun module infrarouge annoncé pour le MK3)",
+      "Usage fermé sans le caisson en option"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle AlgoLaser, oct. 2026 : 309 $ la machine seule, 509 $ le kit Basic (plateau alvéolé, rouleau rotatif RR2, rehausses, pompe à air)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur le DIY Kit MK3 15 W peut-il découper ?",
+      "answer": "AlgoLaser ne publie pas de chiffre pour le 15 W. Comptez le tilleul ou le contreplaqué de 3 mm comme courant, environ 6 à 9 min pour un carré de 10 × 10 cm dans notre benchmark, et plusieurs passes pour 5 à 6 mm. L’annonce de 12 mm en une passe concerne uniquement le 20 W."
+    },
+    {
+      "question": "15 W ou 20 W ?",
+      "answer": "Le 20 W coûte 459 $ avec pompe à air offerte contre 309 $ pour le 15 W sur la boutique AlgoLaser (octobre 2026). Le 20 W découpe plus vite et AlgoLaser l’annonce pour 12 mm de bois en une passe. Pour surtout graver avec un peu de découpe en 3 mm, le 15 W plus une assistance air à 69 $ est le meilleur achat."
+    },
+    {
+      "question": "Le 15 W a-t-il besoin d’un ordinateur ?",
+      "answer": "Pas pour les travaux simples : l’écran tactile AlgoOS grave seul du texte, des croquis et plus de 400 projets enregistrés. Pour les photos, les fichiers vectoriels et les mises en page précises, branchez LightBurn, LaserGRBL ou l’application AlgoLaser."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser AlgoLaser DIY Kit MK3 15 W : AlgoLaser"
+    },
+    {
+      "alt": "Présentation de l’AlgoLaser DIY Kit MK3 : AlgoOS, écran tactile et châssis : AlgoLaser"
+    },
+    {
+      "alt": "Tige de mise au point rabattable intégrée de l’AlgoLaser DIY Kit MK3 : AlgoLaser"
+    },
+    {
+      "alt": "Écran tactile AlgoOS de l’AlgoLaser DIY Kit MK3 : AlgoLaser"
+    },
+    {
+      "alt": "Contenu du kit Basic de l’AlgoLaser DIY Kit MK3 15 W : AlgoLaser"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Trois modules diode sur le même châssis MK3",
+    "description": "Le DIY Kit MK3 est vendu avec un module diode de 8, 15 ou 20 W sur le même châssis de 400 × 400 mm et le même écran tactile. La puissance se choisit à l’achat ; les modules se montent sur le même support de tête, un à la fois.",
+    "options": [
+      {
+        "label": "Diode 8 W"
+      },
+      {
+        "label": "Diode 15 W"
+      },
+      {
+        "label": "Diode 20 W"
+      }
+    ]
+  },
+  "editorialDepth": {
+    "advantages": "Le 15 W est le choix raisonnable de la gamme MK3 : proche du 8 W en prix, bien plus rapide à l’usage, et suffisant pour la découpe courante du 3 mm. Avec un écran tactile et un châssis de 400 × 400 mm pour 309 $, il passe sous la plupart des concurrents à structure ouverte de taille comparable.",
+    "limitations": "AlgoLaser ne donne aucun chiffre de découpe vérifié pour ce module, l’assistance air est en supplément sur la version machine seule, et la structure ouverte impose ventilation et protection des yeux. Aucun test indépendant ne l’a encore évalué."
+  },
+  "standoutFeatures": [
+    {
+      "title": "La version équilibrée",
+      "body": "AlgoLaser présente le 15 W comme son module du quotidien : une gravure plus rapide que le 8 W et des découpes courantes en 3 mm pour seulement 50 $ de plus."
+    },
+    {
+      "title": "Écran tactile hors ligne",
+      "body": "Texte, croquis et projets enregistrés se lancent directement depuis l’écran AlgoOS : une série de dessous de verre ne demande pas d’ordinateur."
+    }
+  ]
+}
