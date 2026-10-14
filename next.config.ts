@@ -17,6 +17,15 @@ const nextConfig: NextConfig = {
       { source: "/:locale(en|fr)/compare/foxaliens-reisler-2-vs-ortur-laser-master-3-20w", destination: "/:locale/lasers/ortur-laser-master-3-20w", permanent: true },
       { source: "/:locale(en|fr)/lasers/atezr-p2", destination: "/:locale/lasers", permanent: true },
       { source: "/:locale(en|fr)/brands/atezr", destination: "/:locale/brands", permanent: true },
+      // Industrial sheet cutters (OMTech FC) and duplicate or never-sold profiles (Oct 2026 review).
+      { source: "/:locale(en|fr)/lasers/omtech-fc-105sa", destination: "/:locale/brands/omtech", permanent: true },
+      { source: "/:locale(en|fr)/lasers/omtech-fc-105sat", destination: "/:locale/brands/omtech", permanent: true },
+      { source: "/:locale(en|fr)/lasers/omtech-fc-44-intelli", destination: "/:locale/brands/omtech", permanent: true },
+      { source: "/:locale(en|fr)/lasers/omtech-fc-510-intelli", destination: "/:locale/brands/omtech", permanent: true },
+      { source: "/:locale(en|fr)/lasers/omtech-fc105-fiber", destination: "/:locale/brands/omtech", permanent: true },
+      { source: "/:locale(en|fr)/lasers/atomstack-a24-ultra", destination: "/:locale/lasers/atomstack-a24-pro", permanent: true },
+      { source: "/:locale(en|fr)/lasers/gweike-cloud-50w", destination: "/:locale/lasers/gweike-cloud-pro", permanent: true },
+      { source: "/:locale(en|fr)/lasers/gweike-cloud-55w", destination: "/:locale/lasers/gweike-cloud-pro", permanent: true },
       {
         source: "/lasers/xtool-s1",
         destination: "/en/lasers/xtool-s1-20w",

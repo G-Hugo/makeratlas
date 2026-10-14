@@ -90,7 +90,7 @@
     "acmer-p3"
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-14",
   "image": "/machines/atomstack-a24-ultra/01.webp",
   "powerRating": "24W",
   "laserCapabilities": [
@@ -102,7 +102,6 @@
     "fiber"
   ],
   "releaseDate": "2025-01",
-  "catalogPrimary": true,
   "images": [
     {
       "src": "/machines/atomstack-a24-ultra/01.webp",
@@ -126,5 +125,6 @@
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "tierEditorialOverride": true,
-  "discontinued": {}
+  "discontinued": {},
+  "catalogHidden": true
 }

@@ -91,9 +91,8 @@
     "monport-40w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-14",
   "image": "/machines/gweike-cloud-50w/01.webp",
-  "catalogPrimary": true,
   "releaseDate": "2023-08",
   "images": [
     {
@@ -118,5 +117,6 @@
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
   "tierEditorialOverride": true,
-  "enclosed": true
+  "enclosed": true,
+  "catalogHidden": true
 }

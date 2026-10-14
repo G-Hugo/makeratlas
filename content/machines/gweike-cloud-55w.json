@@ -91,10 +91,9 @@
     "omtech-polar"
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-14",
   "image": "/machines/gweike-cloud-55w/01.webp",
   "powerRating": "55W",
-  "catalogPrimary": true,
   "releaseDate": "2023-10",
   "images": [
     {
@@ -115,5 +114,6 @@
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
   "tierEditorialOverride": true,
-  "enclosed": true
+  "enclosed": true,
+  "catalogHidden": true
 }

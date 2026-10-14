@@ -88,7 +88,7 @@
     "gweike-g6-split-30w"
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-14",
   "image": "/machines/omtech-fc105-fiber/01.webp",
   "images": [
     {
@@ -109,5 +109,6 @@
     "advantages": "OMTech FC-105 Fiber is an industrial fiber cutter (1.5–4 kW IPG source, 3050 × 1530 mm bed) for steel, stainless and aluminum parts. It suits fabrication shops that want to bring sheet cutting in-house instead of outsourcing.",
     "limitations": "Skip for engraving, wood, leather or acrylic, or without 3-phase 380 V power, assist gas and floor space for a multi-ton machine. Pricing is quote-based and installation is a project of its own."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "catalogHidden": true
 }

@@ -87,10 +87,9 @@
     "monport-gt-60w-fiber"
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-14",
   "image": "/machines/omtech-fc-44-intelli/01.webp",
   "powerRating": "1500–3000W",
-  "catalogPrimary": true,
   "releaseDate": "2024-04",
   "images": [
     {
@@ -110,5 +109,6 @@
     "advantages": "OMTech FC-44 Intelli is an industrial fiber cutter (1.5–3 kW IPG source, 1300 × 1300 mm bed) for steel, stainless and aluminum parts. It suits fabrication shops that want to bring sheet cutting in-house instead of outsourcing.",
     "limitations": "Skip for engraving, wood, leather or acrylic, or without 3-phase 380 V power, assist gas and floor space for a multi-ton machine. Pricing is quote-based and installation is a project of its own."
   },
-  "tierEditorialOverride": true
+  "tierEditorialOverride": true,
+  "catalogHidden": true
 }
