@@ -193,6 +193,8 @@ export const en: Dictionary = {
     notRatedYet: "Not rated yet",
     notRatedYetBody: "We score machines once they ship and real-world results exist.",
     discontinuedBadge: "Discontinued",
+    usedMarketBadge: "Discontinued · buy used",
+    lastNewPrice: "Last new price",
     discontinuedTitle: "Discontinued",
     discontinuedBody:
       "{brand} no longer sells this machine new. We keep the profile online because it still turns up used and as a reference point.",

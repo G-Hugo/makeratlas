@@ -193,6 +193,8 @@ export type Dictionary = {
     notRatedYet: string;
     notRatedYetBody: string;
     discontinuedBadge: string;
+    usedMarketBadge: string;
+    lastNewPrice: string;
     discontinuedTitle: string;
     discontinuedBody: string;
     discontinuedSince: string;

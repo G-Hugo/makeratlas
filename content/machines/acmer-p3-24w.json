@@ -1,0 +1,221 @@
+{
+  "id": "acmer-p3-24w",
+  "slug": "acmer-p3-24w",
+  "name": "Acmer P3 24W",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The cheapest way into Acmer's enclosed P3: 24W diode, camera and CoreXY from $765",
+  "tldr": "The P3 24W puts a 24W diode module in Acmer's enclosed P3 cabinet: Class 1 lid with flame detection, CoreXY gantry at 800 mm/s, a camera covering the full 400 × 400 mm bed and 30 L/min air assist. Acmer rates it for 12 mm plywood and 8 mm black acrylic in one pass. At $765 for the Basic Pack (October 2026) it is one of the lowest-priced enclosed diode lasers with a camera; it suits makers who mostly engrave and cut thin stock.",
+  "mainObjective": "Enclosed engraving at home on a budget, with light to medium cutting",
+  "bestFor": [
+    "First enclosed laser",
+    "Engraving-first workshops",
+    "Gifts & coasters",
+    "Apartment use"
+  ],
+  "priceRange": {
+    "min": 765,
+    "max": 1658,
+    "currency": "USD",
+    "note": "Official Acmer store, Oct 2026: $765 Basic Pack, $937 Rotary Pack, $1,266 Rotary & Conveyor Pack, $1,658 All In One Pack (list prices $1,799 to $3,186)"
+  },
+  "specs": {
+    "power": "24W diode",
+    "workArea": "400 × 400 mm (15.7 × 15.7 in)",
+    "dimensions": "577 × 655 × 286 mm",
+    "weight": "~19 kg",
+    "software": [
+      "ACMER Studio",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "microSD (TF)",
+      "ACMER app"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.08 mm",
+        "maxSpeed": "800 mm/s",
+        "avgEngraveSpeed": "~120–350 mm/s",
+        "avgCutSpeed": "~6–12 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Dark glass & ceramic",
+      "Stainless steel (surface mark)"
+    ],
+    "cut": [
+      "Plywood up to 12 mm in one pass (Acmer rating)",
+      "Black acrylic up to 8 mm in one pass",
+      "MDF up to ~6 mm",
+      "Leather, felt & paper"
+    ],
+    "cannot": [
+      "Clear or light-colored acrylic",
+      "Bare metal marking without the IR module",
+      "Fast cutting of thick hardwood",
+      "CO₂-speed production cutting"
+    ]
+  },
+  "pros": [
+    "$765 Basic Pack in October 2026 with enclosure, camera and air assist included",
+    "Narrow 0.06 × 0.08 mm spot keeps photos and small text sharp",
+    "Full 400 × 400 mm bed, slightly larger than with the 48W module"
+  ],
+  "cons": [
+    "One-pass cuts stop at 12 mm plywood and 8 mm black acrylic, so thick stock needs several passes",
+    "Cutting 3 mm basswood takes roughly twice as long as on the most powerful P3 module",
+    "Upgrading later costs more than buying the 48W pack upfront"
+  ],
+  "beginnerNotes": "This profile is the 24W version of the Acmer P3. It is the right pick if you mostly engrave wood, leather and slate and cut thin plywood now and then; compare the other P3 versions with the chips above if thick cuts or bare metal are on your list. The machine arrives assembled, and the camera removes most of the guesswork when placing a design.",
+  "proTips": "Keep air assist on for cuts and turn it down for photo engraving to avoid blowing ash across the surface. For plywood thicker than 6 mm, two moderate passes give cleaner edges than one very slow pass. Duct the exhaust outside if you cut more than occasionally: owners say the stock fan lets smoke escape.",
+  "primaryUse": "24W module on the enclosed Acmer P3: budget engraving and light to medium cutting at home",
+  "rating": {
+    "overall": 8,
+    "value": 8.6,
+    "easeOfUse": 8.4,
+    "capability": 7.5,
+    "buildQuality": 8.2
+  },
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "included"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 24W P3 is the value entry into Acmer's enclosed line: you get the same cabinet, CoreXY gantry, camera and safety features as the pricier versions, for a few hundred dollars less. Its narrower spot makes it a better pure engraver than the 48W module, and the full 400 × 400 mm bed is generous for coasters, cutting boards and batches of small gifts.",
+    "limitations": "Cutting is where the savings show: thick plywood and dark acrylic take several passes, and batch cutting is noticeably slower. Like every diode it cannot cut clear acrylic. Owners mention a weak stock exhaust fan and basic software, and buying the stronger module later costs more than the price gap between packs."
+  },
+  "similarModels": [
+    "xtool-s1-20w",
+    "acmer-p3-48w",
+    "wecreat-vision"
+  ],
+  "faq": [
+    {
+      "question": "What can the Acmer P3 24W cut?",
+      "answer": "Acmer rates it for 12 mm plywood and 8 mm black acrylic in one pass, and up to 25 mm plywood, 20 mm black acrylic and 6 mm MDF with several passes. For everyday jobs such as 3 mm basswood ornaments or 6 mm boxes it is comfortable; thick signs are slow."
+    },
+    {
+      "question": "Is the P3 24W worth it over an open-frame diode?",
+      "answer": "If smoke, light and safety matter at home, yes: the enclosure, flame detection, emergency stop and camera are included for $765 (Acmer store, October 2026). An open-frame 20W machine costs less, but you would add an enclosure and camera to match it."
+    },
+    {
+      "question": "Can I upgrade the P3 24W later?",
+      "answer": "Yes. The P3 cabinet takes Acmer's other modules, including the 48W and the 10W diode + 2W IR head. Bought separately they cost more than the $384 gap between the 24W and 48W Basic Packs, so decide upfront if you already know you will cut thick wood."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "p3-24w-entry-price",
+      "title": "Enclosed with camera from $765",
+      "body": "The Basic Pack includes the Class 1 cabinet, the full-bed camera and 30 L/min air assist for $765 on Acmer's store in October 2026."
+    },
+    {
+      "id": "p3-24w-fine-spot",
+      "title": "The sharper diode spot",
+      "body": "Acmer gives a 0.06 × 0.08 mm spot for the 24W module, narrower than the 48W, which helps on photos and small lettering."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-21",
+  "image": "/machines/acmer-p3-24w/01.webp",
+  "images": [
+    {
+      "src": "/machines/acmer-p3-24w/01.webp",
+      "alt": "Acmer P3 24W enclosed laser engraver: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3-24w/02.webp",
+      "alt": "Acmer P3 batch engraving on the 400 mm bed: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3-24w/03.webp",
+      "alt": "Acmer P3 24W box contents: machine, air assist, 24W module and accessories: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3-24w/04.webp",
+      "alt": "Acmer P3 enclosed laser used at home: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3-24w/05.webp",
+      "alt": "Materials the Acmer P3 diode and infrared modules can process: Acmer"
+    }
+  ],
+  "modelLine": "acmer-p3",
+  "powerRating": "24W",
+  "enclosed": true,
+  "tierEditorialOverride": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Interchangeable laser modules on the same P3 cabinet",
+    "description": "The Acmer P3 is sold with a 24W diode module, a 48W module that also runs at 24W, or a dual-laser head that combines a 10W diode and a 2W 1064 nm infrared source. A 2W infrared module is also sold on its own. Modules swap on the same cabinet; only the dual-laser head carries two sources at once.",
+    "options": [
+      {
+        "power": "24W",
+        "laserKind": "diode",
+        "label": "24W diode",
+        "tierSlug": "acmer-p3-24w"
+      },
+      {
+        "power": "48W",
+        "laserKind": "diode",
+        "label": "48W diode (switchable to 24W)",
+        "tierSlug": "acmer-p3-48w"
+      },
+      {
+        "power": "10W",
+        "laserKind": "hybrid",
+        "label": "10W diode + 2W IR",
+        "tierSlug": "acmer-p3-10w-ir"
+      },
+      {
+        "power": "2W",
+        "laserKind": "infrared",
+        "label": "2W IR module (accessory)"
+      }
+    ]
+  },
+  "releaseDate": "2024-12"
+}

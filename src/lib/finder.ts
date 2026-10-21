@@ -18,6 +18,7 @@ export interface FinderMachine {
   watts: number | null;
   workFocus: MachineWorkFocus;
   canMetal: boolean;
+  discontinued: boolean;
   rating: {
     overall: number;
     easeOfUse: number;
@@ -27,9 +28,9 @@ export interface FinderMachine {
 }
 
 export function getFinderMachines(locale: Locale): FinderMachine[] {
-  // The quiz recommends what you can buy new.
+  // Discontinued machines stay in: the used market is active (badge in the results).
   return getCatalogEntries(locale)
-    .filter(({ primary }) => !primary.discontinued && !primary.announced)
+    .filter(({ primary }) => !primary.announced && !(primary.discontinued && primary.image.endsWith(".svg")))
     .map(({ primary: m, displayName }) => ({
     slug: m.slug,
     name: displayName,
@@ -41,6 +42,7 @@ export function getFinderMachines(locale: Locale): FinderMachine[] {
     priceMax: m.priceRange.max,
     watts: parsePowerWatts(m),
     workFocus: getMachineWorkFocus(m),
+    discontinued: Boolean(m.discontinued),
     canMetal:
       m.laserType === "fiber" ||
       m.laserType === "uv" ||

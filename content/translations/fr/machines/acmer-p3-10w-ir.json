@@ -1,0 +1,129 @@
+{
+  "tagline": "P3 fermée avec une tête double laser : diode 10 W pour le bois, infrarouge 2 W pour le métal nu",
+  "tldr": "La P3 2IN1 est la version de la P3 fermée d’Acmer construite autour d’une tête double laser : une diode bleue de 10 W pour le bois, le cuir et l’ardoise, et une source infrarouge 1064 nm de 2 W pour le métal nu et les plastiques foncés, que l’on choisit d’un bouton. Elle garde le caisson classe 1, le portique CoreXY à 800 mm/s, la caméra qui couvre tout le plateau et la surface de 400 × 390 mm. Le pack de base coûtait 999 $ en octobre 2026 ; une P3 infrarouge seule, sans pompe à air, coûtait 799 $. C’est d’abord une graveuse : Acmer annonce 10 mm de contreplaqué comme découpe maximale.",
+  "mainObjective": "Graver le bois et le métal nu dans la même machine fermée, sans laser fibre",
+  "primaryUse": "Module double laser (diode 10 W + IR 2 W) sur l’Acmer P3 fermée, pour personnaliser le bois et le métal nu",
+  "beginnerNotes": "Cette fiche décrit la version double laser de l’Acmer P3. Choisissez-la si graver le métal (médailles, gobelets, outils, bijoux) compte autant que le bois ; comparez les autres versions de la P3 avec les pastilles ci-dessus si la découpe est votre priorité. Prenez la diode pour le bois, le cuir et l’ardoise, et la source infrarouge pour le métal nu et les plastiques foncés : une seule source fonctionne à la fois.",
+  "proTips": "Sur l’inox, plusieurs passes infrarouges rapides donnent un marquage plus net et plus sombre qu’une seule passe lente. Nettoyez la pièce à l’alcool avant : les traces de doigts ressortent au marquage infrarouge. Gardez l’assistance d’air pour le bois avec la diode et soignez la mise au point de la source infrarouge, dont le petit point pardonne mal les erreurs de hauteur.",
+  "bestFor": [
+    "Médailles et bijoux en métal",
+    "Cadeaux mêlant bois et métal",
+    "Boutiques de personnalisation",
+    "Gravure de détail"
+  ],
+  "pros": [
+    "Une seule tête grave le bois avec la diode et le métal nu avec l’infrarouge 2 W, au choix d’un bouton",
+    "Point infrarouge de 0,02 × 0,02 mm selon Acmer, pour des marquages très fins sur médailles, bijoux et outils",
+    "Même caisson fermé, même caméra et même plateau de 400 × 390 mm que les versions orientées découpe"
+  ],
+  "cons": [
+    "Découpe limitée : 10 mm de contreplaqué au maximum selon Acmer, et le tilleul de 3 mm est lent",
+    "234 $ de plus que le pack de base 24 W pour qui n’a pas besoin du métal",
+    "Le marquage infrarouge du métal reste en surface et bien plus lent qu’avec une galvo fibre"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué (diode)",
+      "Cuir et ardoise (diode)",
+      "Inox, aluminium, laiton et argent (infrarouge)",
+      "Plastiques foncés comme l’ABS et le PC (infrarouge)",
+      "Acrylique opaque",
+      "Métal revêtu ou peint"
+    ],
+    "cut": [
+      "Contreplaqué jusqu’à 10 mm, en plusieurs passes (donnée Acmer)",
+      "Acrylique noir jusqu’à 8 mm",
+      "MDF jusqu’à ~3 mm",
+      "Papier, feutre et cuir fin"
+    ],
+    "cannot": [
+      "Découpe épaisse ou rapide",
+      "Acrylique transparent",
+      "Gravure profonde ou découpe du métal",
+      "Vitesse de marquage d’une galvo fibre"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Acmer, oct. 2026 : 999 $ en pack de base, 1 171 $ avec rotatif, 1 500 $ avec rotatif et convoyeur, 2 189 $ en pack complet (prix barrés de 1 999 $ à 3 626 $) ; P3 infrarouge seule sans pompe à air à 799 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La P3 double laser fait partie des rares machines à portique qui gravent le bois et le métal nu avec une seule tête, dans un caisson classe 1 avec une caméra qui couvre tout le plateau. Pour une activité de personnalisation qui mêle boîtes en bois, écussons en cuir et médailles ou gobelets en inox, elle évite d’acheter une galvo fibre à part, et le grand plateau permet de disposer toute une série de médailles en une fois.",
+    "limitations": "La diode 10 W est la plus faible de la gamme P3 en découpe : les découpes de contreplaqué et d’acrylique sont lentes et limitées. La source infrarouge de 2 W marque la surface du métal mais ne le grave pas en profondeur et ne le découpe pas, et une galvo fibre marque bien plus vite. Les propriétaires citent un logiciel basique et un ventilateur d’extraction faible ; les fumées de plastique, en particulier, doivent être évacuées dehors."
+  },
+  "faq": [
+    {
+      "question": "Que peut graver le laser infrarouge de la P3 ?",
+      "answer": "Acmer cite l’or, l’argent, le cuivre, l’aluminium, le fer et l’inox, ainsi que les plastiques foncés comme l’ABS et le PC, l’acrylique opaque, le cuir et la pierre. Ce sont des marquages de surface : parfaits pour des logos, des numéros de série et du texte, pas pour une gravure profonde."
+    },
+    {
+      "question": "P3 2IN1 ou P3 infrarouge seule ?",
+      "answer": "La P3 infrarouge seule coûtait 799 $ sans pompe à air sur la boutique Acmer en octobre 2026, contre 999 $ pour la 2IN1 en pack de base. La version infrarouge seule ne découpe pas le bois et le grave mal : la 2IN1 est plus logique, sauf si vous marquez uniquement du métal et des plastiques."
+    },
+    {
+      "question": "La P3 2IN1 découpe-t-elle le bois ?",
+      "answer": "Un peu. Acmer donne 10 mm de contreplaqué, 8 mm d’acrylique noir et 3 mm de MDF comme épaisseurs maximales en plusieurs passes. Pour découper régulièrement, un module diode plus puissant sur le même caisson, ou les versions de la P3 orientées découpe, font gagner beaucoup de temps."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "p3-2in1-one-button",
+      "title": "Diode et infrarouge dans une seule tête",
+      "body": "Une diode 10 W et une source infrarouge 1064 nm de 2 W partagent la même tête et se choisissent d’un bouton : le bois et le métal nu passent sur la même machine."
+    },
+    {
+      "id": "p3-2in1-fine-ir",
+      "title": "Point infrarouge de 0,02 mm",
+      "body": "Acmer donne un point de 0,02 × 0,02 mm pour la source infrarouge, assez fin pour de petits textes sur des médailles, des bagues et des outils."
+    },
+    {
+      "id": "p3-2in1-big-bed-metal",
+      "title": "Un grand plateau pour les séries en métal",
+      "body": "La surface de 400 × 390 mm et la caméra qui couvre tout le plateau permettent de disposer des dizaines de médailles ou de cartes en métal dans un seul travail."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse fermée double laser Acmer P3 avec diode 10 W et infrarouge 2 W : Acmer"
+    },
+    {
+      "alt": "Présentation de l’Acmer P3 2IN1 : tête double laser, caméra et structure CoreXY : Acmer"
+    },
+    {
+      "alt": "Détail de gravure de la tête double laser de l’Acmer P3 : Acmer"
+    },
+    {
+      "alt": "Matériaux gravés avec les lasers diode et infrarouge de l’Acmer P3 : Acmer"
+    },
+    {
+      "alt": "Contenu du carton de l’Acmer P3 2IN1 : machine, assistance d’air, module double laser et accessoires : Acmer"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Modules laser interchangeables sur le même caisson P3",
+    "description": "L’Acmer P3 se vend avec un module diode 24 W, un module 48 W qui fonctionne aussi en 24 W, ou une tête double laser qui associe une diode 10 W et une source infrarouge 1064 nm de 2 W. Un module infrarouge 2 W est aussi vendu seul. Les modules s’échangent sur le même caisson ; seule la tête double laser porte deux sources à la fois.",
+    "options": [
+      {
+        "label": "Diode 24 W"
+      },
+      {
+        "label": "Diode 48 W (bascule en 24 W)"
+      },
+      {
+        "label": "Diode 10 W + IR 2 W"
+      },
+      {
+        "label": "Module IR 2 W (accessoire)"
+      }
+    ]
+  }
+}

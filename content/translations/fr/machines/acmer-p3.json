@@ -1,45 +1,50 @@
 {
-  "tagline": "Diode 20 W fermée avec caméra intégrée : réponse petit budget à la xTool S1",
-  "tldr": "Acmer regroupe diode 20 W fermée, aperçu caméra et assistance air dans un pack à moins de 800 USD. Les performances se situent entre les machines structure ouverte entrée de gamme et la xTool S1. À envisager si le prix xTool freine mais que vous voulez boîtier et caméra.",
-  "mainObjective": "Gravure en caisson abordable avec alignement par caméra pour les makers à domicile",
-  "primaryUse": "Laser diode fermé à petit budget pour la gravure à domicile, avec alignement assisté par caméra et découpe modérée de matériaux fins.",
-  "beginnerNotes": "Cette fiche décrit Acmer P3. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Servez-vous de la caméra pour le placement, mais faites toujours des cartes de test matière. Améliorez l'extraction si vous découpez souvent : les filtres intégrés s'encrassent plus vite qu'une évacuation vers l'extérieur.",
+  "tagline": "Diode CoreXY fermée avec caméra, en versions 24 W, 48 W et diode 10 W + infrarouge 2 W",
+  "tldr": "L’Acmer P3 est un laser fermé classe 1 avec un portique CoreXY à 800 mm/s, une caméra qui couvre tout le plateau, une assistance d’air de 30 L/min et un convoyeur en option pour des pièces jusqu’à 4 000 mm de long. Acmer la vend en trois versions : une diode 24 W dès 765 $, une diode 48 W qui passe aussi en 24 W dès 1 149 $, et une tête double laser avec une diode 10 W et une source infrarouge 2 W pour le métal nu dès 999 $ (boutique Acmer, octobre 2026). Ouvrez une version pour les caractéristiques et les mesures exactes.",
+  "mainObjective": "Graver et découper à la maison dans un caisson fermé, avec un module pour chaque type de travail",
+  "primaryUse": "Gamme de lasers diode CoreXY fermés pour la gravure et la découpe à la maison, avec une option infrarouge pour le métal",
+  "beginnerNotes": "Cette vue d’ensemble couvre toute la gamme Acmer P3. Prenez la 24 W si vous gravez surtout et découpez du bois fin, la 48 W si les découpes de contreplaqué épais et d’acrylique foncé sont votre travail principal, et la version diode 10 W + infrarouge 2 W si vous voulez aussi marquer le métal nu. Les trois partagent le même caisson, la même caméra et le même logiciel.",
+  "proTips": "Faites sortir l’extraction à l’extérieur ou ajoutez un ventilateur en ligne si vous découpez régulièrement. Servez-vous de la caméra pour placer les séries, mais faites quand même une grille de test matière avant de produire. Le convoyeur ne se justifie que pour les longues enseignes et les bandes : la plupart des acheteurs trouveront mieux leur compte avec le pack rotatif.",
   "bestFor": [
-    "Budget enclosure",
-    "Camera alignment",
-    "Apartment use",
-    "Gift engraving"
+    "Atelier fermé à la maison",
+    "Alignement par caméra",
+    "Séries pour petite activité",
+    "Gravure du bois et du métal"
   ],
   "pros": [
-    "Mix gravure + découpe légère : ~6 mm tilleul en plusieurs passes",
-    "Caisson fermé classe 1 avec extraction intégrée : gainez quand même les fumées vers l’extérieur si vous découpez souvent",
-    "Surface utile 400 × 400 mm : validez vos formats de pièces avant achat"
+    "Caisson classe 1 avec détection de flamme, arrêt d’urgence et caméra sur tout le plateau, pour toutes les versions",
+    "Trois modules pour trois usages : découpe fine, découpe épaisse, ou bois et métal nu",
+    "Nettement moins chère que la S1 fermée d’xTool à chaque niveau de puissance"
   ],
   "cons": [
-    "Vérifiez le SKU 20W : même châssis, modules différents",
-    "Filtres et évacuation selon le pack : la découpe fréquente demande une vraie gaine"
+    "Des propriétaires signalent que le ventilateur d’extraction d’origine laisse s’échapper la fumée lors des longues découpes",
+    "ACMER Studio fait le travail mais reste moins abouti que le logiciel d’xTool",
+    "Réseau de support plus réduit que celui des plus grandes marques"
   ],
   "materials": {
     "engrave": [
-      "Bois",
+      "Bois et contreplaqué",
       "Cuir",
-      "Ardoise",
-      "Aluminium anodisé",
-      "Inox (avec spray)"
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Métal nu (version infrarouge)",
+      "Plastiques foncés (version infrarouge)"
     ],
     "cut": [
-      "Tilleul 3–6 mm",
-      "Acrylique noir (fin)",
-      "Papier",
-      "Tissu"
+      "Contreplaqué jusqu’à 18 mm en une passe (48 W)",
+      "Acrylique noir jusqu’à 18 mm en une passe (48 W)",
+      "MDF",
+      "Cuir, feutre et papier"
     ],
     "cannot": [
       "Acrylique transparent",
-      "Production de niveau CO₂",
-      "Métal nu sans spray",
-      "Bois dur épais en une passe"
+      "Métal nu sans la source infrarouge",
+      "Découpe de production à la vitesse d’un CO₂",
+      "Gravure profonde du métal"
     ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Acmer, oct. 2026 : 24 W dès 765 $, 48 W dès 1 149 $, diode 10 W + infrarouge 2 W dès 999 $ (packs de base), jusqu’à 2 189 $ pour le pack complet double laser"
   },
   "specs": {
     "performance": {
@@ -52,21 +57,46 @@
     }
   },
   "editorialDepth": {
-    "advantages": "La P3 est l’alternative budget la plus claire à la xTool S1 : diode 20 W fermée, aperçu caméra et air assist dans un seul carton. Grand plateau pour la classe et LightBurn sans tarif xTool. Pour gravure en appartement avec découpes fines occasionnelles, elle coche les critères que les acheteurs comparent vraiment.",
-    "limitations": "Support Acmer et logiciel restent en retrait de xTool. Filtres et évacuation varient selon le pack : la découpe fréquente veut une vraie gaine. Limites diode sur acrylique transparent et bois épais en production. Intégrez garantie et retour dans la décision d’achat."
+    "advantages": "La P3 est la réponse d’Acmer à la S1 d’xTool : un laser diode fermé avec caméra, un portique CoreXY plus rapide et un plateau plus grand, vendu moins cher à chaque niveau de puissance. Le vrai choix porte sur le module : une 24 W économique pour graver, une 48 W pour découper qui redescend en 24 W pour le détail, ou une tête double laser qui ajoute le marquage du métal nu.",
+    "limitations": "Toutes les versions restent des diodes : pas d’acrylique transparent, pas de production à la vitesse d’un CO₂. Le ventilateur d’extraction d’origine et le logiciel concentrent les reproches des propriétaires, et le réseau de support d’Acmer est plus réduit que celui d’xTool. Vérifiez quel module contient un pack avant de commander : le caisson est le même, les capacités non."
   },
+  "faq": [
+    {
+      "question": "Quelle Acmer P3 choisir ?",
+      "answer": "La 24 W (765 $) si vous gravez surtout et découpez du bois fin ; la 48 W (1 149 $) si vous découpez souvent du contreplaqué de 10 mm et plus ou de l’acrylique foncé ; la diode 10 W + infrarouge 2 W (999 $) si vous gravez aussi du métal nu, comme des médailles en inox ou des gobelets. Prix des packs de base sur la boutique Acmer en octobre 2026."
+    },
+    {
+      "question": "Les modules de la P3 sont-ils interchangeables ?",
+      "answer": "Oui. Les modules 24 W, 48 W, double laser et infrarouge 2 W se montent sur le même caisson P3, et Acmer indique qu’ils vont aussi sur la P2. Les modules de la P2, eux, ne vont pas sur la P3."
+    }
+  ],
   "images": [
     {
-      "alt": "Graveuse laser Acmer P3 : Acmer"
+      "alt": "Graveuse laser fermée Acmer P3 : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer P3 : Acmer"
+      "alt": "Présentation de l’Acmer P3 avec les modules diode 24 W et 48 W : Acmer"
     },
     {
-      "alt": "Graveuse laser Acmer P3 : Acmer"
-    },
-    {
-      "alt": "Graveuse laser Acmer P3 : Acmer"
+      "alt": "Présentation de l’Acmer P3 2IN1 avec la tête double laser : Acmer"
     }
-  ]
+  ],
+  "moduleSystem": {
+    "headline": "Modules laser interchangeables sur le même caisson P3",
+    "description": "L’Acmer P3 se vend avec un module diode 24 W, un module 48 W qui fonctionne aussi en 24 W, ou une tête double laser qui associe une diode 10 W et une source infrarouge 1064 nm de 2 W. Un module infrarouge 2 W est aussi vendu seul. Les modules s’échangent sur le même caisson ; seule la tête double laser porte deux sources à la fois.",
+    "options": [
+      {
+        "label": "Diode 24 W"
+      },
+      {
+        "label": "Diode 48 W (bascule en 24 W)"
+      },
+      {
+        "label": "Diode 10 W + IR 2 W"
+      },
+      {
+        "label": "Module IR 2 W (accessoire)"
+      }
+    ]
+  }
 }

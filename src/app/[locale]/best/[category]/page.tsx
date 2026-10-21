@@ -151,8 +151,14 @@ export default async function BestOfCategoryPage({ params }: PageProps) {
                       </LocaleLink>
                       <p className="text-sm text-stone-500 dark:text-stone-400">
                         {m.brand} · {laserTypeLabelLocalized(m.laserType, dict)} ·{" "}
+                        {m.discontinued && `${dict.machine.lastNewPrice} `}
                         {locale === "fr" ? `≈ ${prices.eurApprox}` : prices.usd}
                       </p>
+                      {m.discontinued && (
+                        <p className="mt-1 inline-flex rounded-full bg-stone-800 px-2.5 py-0.5 text-xs font-semibold text-white dark:bg-stone-600">
+                          {dict.machine.usedMarketBadge}
+                        </p>
+                      )}
                     </div>
                     <span className={`text-2xl font-bold ${ratingColor(m.rating.overall)}`}>
                       {m.rating.overall.toFixed(1)}

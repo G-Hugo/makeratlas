@@ -6,90 +6,97 @@
   "category": "laser-engraver",
   "laserType": "diode",
   "image": "/machines/acmer-p3/01.webp",
-  "tagline": "Enclosed 20W diode with built-in camera: budget answer to xTool S1",
-  "tldr": "Acmer packs an enclosed 20W diode, camera preview, and air assist into a sub-$800 package. Performance sits between open-frame budget machines and xTool S1. Worth considering if xTool pricing hurts but you still want enclosure and camera.",
-  "mainObjective": "Affordable enclosed engraving with camera alignment for home makers",
+  "tagline": "Enclosed CoreXY diode with camera, sold in 24W, 48W and 10W diode + 2W IR versions",
+  "tldr": "The Acmer P3 is an enclosed Class 1 laser with a CoreXY gantry at 800 mm/s, a camera covering the whole bed, 30 L/min air assist and an optional conveyor for work up to 4,000 mm long. Acmer sells it in three versions: a 24W diode from $765, a 48W diode that also runs at 24W from $1,149, and a dual-laser head with a 10W diode and a 2W infrared source for bare metal from $999 (Acmer store, October 2026). Open a version for exact specs and benchmarks.",
+  "mainObjective": "Enclosed engraving and cutting at home, with a module for each kind of work",
   "bestFor": [
-    "Budget enclosure",
+    "Enclosed home workshop",
     "Camera alignment",
-    "Apartment use",
-    "Gift engraving"
+    "Side business batches",
+    "Wood and metal engraving"
   ],
   "priceRange": {
-    "min": 799,
-    "max": 1969,
-    "currency": "USD"
+    "min": 765,
+    "max": 2189,
+    "currency": "USD",
+    "note": "Official Acmer store, Oct 2026: 24W from $765, 48W from $1,149, 10W diode + 2W IR from $999 (Basic Packs) up to $2,189 for the dual-laser All In One Pack"
   },
   "specs": {
-    "power": "20W diode (enclosed)",
-    "workArea": "400 × 400 mm",
+    "power": "24W / 48W diode, 10W diode + 2W IR",
+    "workArea": "400 × 400 mm / 400 × 390 mm",
+    "dimensions": "577 × 655 × 286 mm",
+    "weight": "~19 kg",
     "performance": {
       "precision": "0.01 mm",
       "engraveExample": {
         "description": "Filled photo or logo on birch plywood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~10–14 min"
+        "time": "~6–18 min"
       },
       "cutExample": {
         "description": "Simple square cut-out from 3 mm basswood",
         "size": "10 × 10 cm (4 × 4 in)",
-        "time": "~5–8 min"
+        "time": "~3–12 min"
       },
       "technical": {
-        "spotSize": "~0.08 mm spot",
+        "spotSize": "0.02 × 0.02 mm (IR) – 0.08 × 0.10 mm",
         "maxSpeed": "800 mm/s",
-        "avgEngraveSpeed": "70–150 mm/s fill",
-        "avgCutSpeed": "4–11 mm/s on 3 mm wood"
+        "avgEngraveSpeed": "~80–400 mm/s",
+        "avgCutSpeed": "~3–20 mm/s (3 mm)"
       }
     },
     "software": [
-      "Acmer Laser",
-      "LightBurn"
+      "ACMER Studio",
+      "LightBurn",
+      "LaserGRBL"
     ],
     "connectivity": [
-      "Wi-Fi",
-      "USB"
+      "USB",
+      "microSD (TF)",
+      "ACMER app"
     ]
   },
   "materials": {
     "engrave": [
-      "Wood",
+      "Wood & plywood",
       "Leather",
-      "Slate",
-      "Anodized aluminum",
-      "Stainless (with spray)"
+      "Slate & stone",
+      "Coated or painted metal",
+      "Bare metal (infrared version)",
+      "Dark plastics (infrared version)"
     ],
     "cut": [
-      "Basswood 3–6 mm",
-      "Black acrylic (thin)",
-      "Paper",
-      "Fabric"
+      "Plywood up to 18 mm in one pass (48W)",
+      "Black acrylic up to 18 mm in one pass (48W)",
+      "MDF",
+      "Leather, felt & paper"
     ],
     "cannot": [
       "Clear acrylic",
-      "CO₂-level production",
-      "Bare metal without spray",
-      "Thick hardwood one-pass"
+      "Bare metal without the infrared source",
+      "CO₂-speed production cutting",
+      "Deep metal engraving"
     ]
   },
   "pros": [
-    "Everyday engrave and light cut mix: typical 6 mm basswood in several passes",
-    "Class 1 enclosure with built-in smoke exhaust: still duct the fumes outside for frequent cutting",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Class 1 cabinet with flame detection, emergency stop and full-bed camera on every version",
+    "Three modules for three jobs: thin cuts, thick cuts, or wood plus bare metal",
+    "Priced well below xTool's enclosed S1 at each power level"
   ],
   "cons": [
-    "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Owners report the stock exhaust fan lets smoke escape on long cuts",
+    "ACMER Studio is serviceable but less polished than xTool's software",
+    "Smaller support network than the largest brands"
   ],
-  "beginnerNotes": "This profile covers Acmer P3. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Use camera for placement but always run material test cards. Upgrade exhaust path if cutting frequently: built-in filters clog faster than ducting outside.",
-  "primaryUse": "Budget enclosed diode laser for home engraving with camera-assisted alignment and moderate thin-material cutting.",
+  "beginnerNotes": "This overview covers the whole Acmer P3 line. Take the 24W if you mostly engrave and cut thin wood, the 48W if thick plywood and dark acrylic cuts are the main job, and the 10W diode + 2W IR version if you also want to mark bare metal. All three share the same cabinet, camera and software.",
+  "proTips": "Duct the exhaust outside or add an inline fan if you cut regularly. Use the camera for batch placement, but still run a material test matrix before production. The conveyor only pays off for long signs and strips: most buyers are better served by the rotary pack.",
+  "primaryUse": "Enclosed CoreXY diode laser line for home engraving and cutting, with an infrared option for metal",
   "rating": {
-    "overall": 7.8,
-    "value": 6.8,
-    "easeOfUse": 8.5,
+    "overall": 8.2,
+    "value": 8.2,
+    "easeOfUse": 8.3,
     "capability": 7.9,
-    "buildQuality": 7.8
+    "buildQuality": 8.2
   },
   "accessories": [
     {
@@ -102,36 +109,89 @@
     },
     {
       "id": "air-assist",
-      "availability": "included",
-      "note": "Often bundled; verify listing"
+      "availability": "included"
     },
     {
-      "id": "smoke-filter",
+      "id": "honeycomb-bed",
+      "availability": "included"
+    },
+    {
+      "id": "rotary-chuck",
       "availability": "optional"
     },
     {
-      "id": "rotary-roller",
-      "availability": "optional"
+      "id": "fume-extractor",
+      "availability": "recommended"
     }
   ],
   "editorialDepth": {
-    "advantages": "Acmer P3 20W is the versatile hobby / side-business SKU: clean engraving and light wood or leather cuts with comparable benchmarks on Maker Atlas.",
-    "limitations": "Enclosed, but cutting still needs a real exhaust duct. Not a CO₂ replacement for clear acrylic or heavy thick-stock production."
+    "advantages": "The P3 is Acmer's answer to xTool's S1: an enclosed, camera-equipped diode laser with a faster CoreXY gantry and a larger bed, sold for less at each power level. The module choice is the real decision: a budget 24W engraver, a 48W cutter that drops to 24W for detail, or a dual-laser head that adds bare-metal marking.",
+    "limitations": "Every version is still a diode: no clear acrylic, no CO₂-speed production. The stock exhaust fan and software draw the most complaints from owners, and Acmer's support network is smaller than xTool's. Check which module a pack includes before ordering: the cabinet is the same, the capabilities are not."
   },
   "similarModels": [
-    "xtool-s1-20w",
-    "wecreat-vision"
+    "xtool-s1",
+    "wecreat-vision",
+    "acmer-p2"
+  ],
+  "faq": [
+    {
+      "question": "Which Acmer P3 should I buy?",
+      "answer": "The 24W ($765) if you mostly engrave and cut thin wood; the 48W ($1,149) if you cut 10 mm and thicker plywood or dark acrylic often; the 10W diode + 2W IR ($999) if you also engrave bare metal such as stainless tags or tumblers. Prices are Basic Packs on Acmer's store in October 2026."
+    },
+    {
+      "question": "Are the P3 modules interchangeable?",
+      "answer": "Yes. The 24W, 48W, dual-laser and 2W infrared modules fit the same P3 cabinet, and Acmer says they also fit the P2. P2 modules do not fit the P3."
+    }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-21",
   "images": [
     {
       "src": "/machines/acmer-p3/01.webp",
-      "alt": "Acmer P3 laser engraver: Acmer"
+      "alt": "Acmer P3 enclosed laser engraver: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3/02.webp",
+      "alt": "Acmer P3 overview with the 24W and 48W diode modules: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3/03.webp",
+      "alt": "Acmer P3 2IN1 overview with the dual-laser head: Acmer"
     }
   ],
-  "powerRating": "20W",
-  "releaseDate": "2024-08",
+  "modelLine": "acmer-p3",
+  "catalogHidden": true,
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Interchangeable laser modules on the same P3 cabinet",
+    "description": "The Acmer P3 is sold with a 24W diode module, a 48W module that also runs at 24W, or a dual-laser head that combines a 10W diode and a 2W 1064 nm infrared source. A 2W infrared module is also sold on its own. Modules swap on the same cabinet; only the dual-laser head carries two sources at once.",
+    "options": [
+      {
+        "power": "24W",
+        "laserKind": "diode",
+        "label": "24W diode",
+        "tierSlug": "acmer-p3-24w"
+      },
+      {
+        "power": "48W",
+        "laserKind": "diode",
+        "label": "48W diode (switchable to 24W)",
+        "tierSlug": "acmer-p3-48w"
+      },
+      {
+        "power": "10W",
+        "laserKind": "hybrid",
+        "label": "10W diode + 2W IR",
+        "tierSlug": "acmer-p3-10w-ir"
+      },
+      {
+        "power": "2W",
+        "laserKind": "infrared",
+        "label": "2W IR module (accessory)"
+      }
+    ]
+  },
+  "releaseDate": "2024-05",
   "tierEditorialOverride": true,
   "enclosed": true
 }

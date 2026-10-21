@@ -1,0 +1,234 @@
+{
+  "id": "acmer-p3-10w-ir",
+  "slug": "acmer-p3-10w-ir",
+  "name": "Acmer P3 10W + 2W IR",
+  "brand": "Acmer",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "tagline": "Enclosed P3 with a dual-laser head: 10W diode for wood, 2W infrared for bare metal",
+  "tldr": "The P3 2IN1 is the version of Acmer's enclosed P3 built around a dual-laser head: a 10W blue diode for wood, leather and slate, and a 2W 1064 nm infrared source for bare metal and dark plastics, switched with one button. It keeps the Class 1 cabinet, CoreXY gantry at 800 mm/s, full-bed camera and 400 × 390 mm work area. The Basic Pack was $999 in October 2026; an infrared-only P3 without air pump was $799. It is an engraver first: Acmer rates 10 mm plywood as its maximum cut.",
+  "mainObjective": "Engraving wood and bare metal in the same enclosed machine without a fiber laser",
+  "bestFor": [
+    "Metal tags & jewelry",
+    "Mixed wood and metal gifts",
+    "Personalization shops",
+    "Detailed engraving"
+  ],
+  "priceRange": {
+    "min": 999,
+    "max": 2189,
+    "currency": "USD",
+    "note": "Official Acmer store, Oct 2026: $999 Basic Pack, $1,171 Rotary Pack, $1,500 Rotary & Conveyor Pack, $2,189 All In One Pack (list prices $1,999 to $3,626); infrared-only P3 without air pump $799"
+  },
+  "specs": {
+    "power": "10W diode + 2W IR (1064 nm)",
+    "workArea": "400 × 390 mm (15.7 × 15.4 in)",
+    "dimensions": "577 × 655 × 286 mm",
+    "weight": "~19 kg",
+    "software": [
+      "ACMER Studio",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB",
+      "microSD (TF)",
+      "ACMER app"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~7–12 min"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.04 mm (diode) / 0.02 × 0.02 mm (IR)",
+        "maxSpeed": "800 mm/s",
+        "avgEngraveSpeed": "~80–250 mm/s",
+        "avgCutSpeed": "~3–6 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood (diode)",
+      "Leather & slate (diode)",
+      "Stainless steel, aluminum, brass & silver (IR)",
+      "Dark plastics such as ABS and PC (IR)",
+      "Opaque acrylic",
+      "Coated or painted metal"
+    ],
+    "cut": [
+      "Plywood up to 10 mm, several passes (Acmer rating)",
+      "Black acrylic up to 8 mm",
+      "MDF up to ~3 mm",
+      "Paper, felt & thin leather"
+    ],
+    "cannot": [
+      "Thick or fast cutting",
+      "Clear acrylic",
+      "Deep metal engraving or metal cutting",
+      "Fiber-galvo marking speed"
+    ]
+  },
+  "pros": [
+    "One head engraves wood with the diode and bare metal with the 2W infrared, switched with a button",
+    "Infrared spot of 0.02 × 0.02 mm per Acmer for very fine marks on tags, jewelry and tools",
+    "Same enclosed cabinet, camera and 400 × 390 mm bed as the cutting versions"
+  ],
+  "cons": [
+    "Cutting is limited: 10 mm plywood is Acmer's maximum and 3 mm basswood is slow",
+    "$234 more than the 24W Basic Pack for buyers who do not need metal",
+    "Infrared metal marks stay on the surface, far slower than a fiber galvo"
+  ],
+  "beginnerNotes": "This profile is the dual-laser version of the Acmer P3. Choose it if engraving metal (tags, tumblers, tools, jewelry) matters as much as wood; compare the other P3 versions with the chips above if cutting is your priority. Use the diode for wood, leather and slate, and the infrared source for bare metal and dark plastics: one source runs at a time.",
+  "proTips": "On stainless steel, several fast infrared passes give a cleaner, darker mark than one slow pass. Clean the part with alcohol first: fingerprints show in IR marks. Keep air assist on for wood with the diode and focus carefully for the infrared source, whose small spot is less forgiving of height errors.",
+  "primaryUse": "Dual-laser module (10W diode + 2W IR) on the enclosed Acmer P3, for wood and bare metal personalization",
+  "rating": {
+    "overall": 7.8,
+    "value": 7.6,
+    "easeOfUse": 8.4,
+    "capability": 7.2,
+    "buildQuality": 8.2
+  },
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "included"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The dual-laser P3 is the rare gantry machine that engraves wood and bare metal from one head, inside a Class 1 cabinet with a full-bed camera. For a personalization business that mixes wooden boxes, leather patches and stainless tags or tumblers, it avoids buying a separate fiber galvo, and the large bed lets you lay out a whole batch of metal tags at once.",
+    "limitations": "The 10W diode is the weakest cutter in the P3 range, so plywood and acrylic cuts are slow and limited. The 2W infrared source marks metal surfaces but will not deep-engrave or cut it, and a fiber galvo marks much faster. Owners mention basic software and a weak stock exhaust fan; plastics fumes in particular need ducting outside."
+  },
+  "similarModels": [
+    "creality-falcon-a1-pro-20w",
+    "longer-nano-duo-ai",
+    "acmer-p3-24w"
+  ],
+  "faq": [
+    {
+      "question": "What can the infrared laser on the P3 engrave?",
+      "answer": "Acmer lists gold, silver, copper, aluminum, iron and stainless steel, plus dark plastics such as ABS and PC, opaque acrylic, leather and stone. The marks are surface marks: good for logos, serial numbers and text, not for deep engraving."
+    },
+    {
+      "question": "2IN1 or infrared-only P3?",
+      "answer": "The infrared-only P3 was $799 without air pump on Acmer's store in October 2026, against $999 for the 2IN1 Basic Pack. The infrared-only version cannot cut or engrave wood well, so the 2IN1 makes more sense unless you only mark metal and plastics."
+    },
+    {
+      "question": "Can the P3 2IN1 cut wood?",
+      "answer": "Lightly. Acmer gives 10 mm plywood, 8 mm black acrylic and 3 mm MDF as maximum thicknesses with several passes. For regular cutting, a stronger diode module on the same cabinet, or the cutting-oriented P3 versions, will save a lot of time."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "p3-2in1-one-button",
+      "title": "Diode and infrared in one head",
+      "body": "A 10W diode and a 2W 1064 nm infrared source share the same head and switch with one button, so wood and bare metal jobs run on the same machine."
+    },
+    {
+      "id": "p3-2in1-fine-ir",
+      "title": "0.02 mm infrared spot",
+      "body": "Acmer gives a 0.02 × 0.02 mm spot for the infrared source, fine enough for small text on tags, rings and tools."
+    },
+    {
+      "id": "p3-2in1-big-bed-metal",
+      "title": "A large bed for metal batches",
+      "body": "The 400 × 390 mm work area and full-bed camera let you lay out dozens of metal tags or cards in one job."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-21",
+  "image": "/machines/acmer-p3-10w-ir/01.webp",
+  "images": [
+    {
+      "src": "/machines/acmer-p3-10w-ir/01.webp",
+      "alt": "Acmer P3 dual-laser enclosed engraver with 10W diode and 2W infrared: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3-10w-ir/02.webp",
+      "alt": "Acmer P3 2IN1 overview: dual-laser head, camera and CoreXY structure: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3-10w-ir/03.webp",
+      "alt": "Acmer P3 dual-laser head engraving detail: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3-10w-ir/04.webp",
+      "alt": "Materials engraved with the Acmer P3 diode and infrared lasers: Acmer"
+    },
+    {
+      "src": "/machines/acmer-p3-10w-ir/05.webp",
+      "alt": "Acmer P3 2IN1 box contents: machine, air assist, dual-laser module and accessories: Acmer"
+    }
+  ],
+  "modelLine": "acmer-p3",
+  "powerRating": "10W",
+  "enclosed": true,
+  "tierEditorialOverride": true,
+  "laserCapabilities": [
+    "diode",
+    "infrared"
+  ],
+  "capabilityTags": [
+    "diode",
+    "infrared"
+  ],
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Interchangeable laser modules on the same P3 cabinet",
+    "description": "The Acmer P3 is sold with a 24W diode module, a 48W module that also runs at 24W, or a dual-laser head that combines a 10W diode and a 2W 1064 nm infrared source. A 2W infrared module is also sold on its own. Modules swap on the same cabinet; only the dual-laser head carries two sources at once.",
+    "options": [
+      {
+        "power": "24W",
+        "laserKind": "diode",
+        "label": "24W diode",
+        "tierSlug": "acmer-p3-24w"
+      },
+      {
+        "power": "48W",
+        "laserKind": "diode",
+        "label": "48W diode (switchable to 24W)",
+        "tierSlug": "acmer-p3-48w"
+      },
+      {
+        "power": "10W",
+        "laserKind": "hybrid",
+        "label": "10W diode + 2W IR",
+        "tierSlug": "acmer-p3-10w-ir"
+      },
+      {
+        "power": "2W",
+        "laserKind": "infrared",
+        "label": "2W IR module (accessory)"
+      }
+    ]
+  },
+  "releaseDate": "2024-05"
+}

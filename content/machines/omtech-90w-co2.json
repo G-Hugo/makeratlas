@@ -1,0 +1,201 @@
+{
+  "id": "omtech-90w-co2",
+  "slug": "omtech-90w-co2",
+  "name": "OMTech 90W CO₂",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "powerRating": "90W",
+  "tagline": "Cabinet CO₂ with a 500 × 700 mm bed, 90W glass tube and four-way pass-through",
+  "tldr": "OMTech now sells its 500 × 700 mm cabinet laser with a 90W Yongli H2 glass tube, under model numbers that still end in -80: the MF2028-80 with manual focus ($2,999.99) and the AF2028-80 with motorized autofocus on a taller stand ($3,299.99). Both have a Ruida control panel, USB and Ethernet, front, rear and side pass-through doors, air assist and an exhaust fan built in. Cooling is a pump and tank in the base package; a 6 L chiller costs $500 more. It replaces our OMTech 80W profile. No independent review of the 90W version yet.",
+  "mainObjective": "Production cutting of acrylic and wood on a 500 × 700 mm bed in a workshop, for the price of a large desktop CO₂",
+  "bestFor": [
+    "Sign shops",
+    "Thick acrylic",
+    "Production cutting",
+    "K40/55W graduates"
+  ],
+  "priceRange": {
+    "min": 2999.99,
+    "max": 4299.99,
+    "currency": "USD",
+    "note": "Official OMTech store, Oct 2026: MF2028-80 (manual focus) $2,999.99, AF2028-80 (autofocus) $3,299.99; chiller, LightBurn and rotary bundles up to $3,999.99 (MF) and $4,299.99 (AF)"
+  },
+  "specs": {
+    "power": "90W CO₂",
+    "workArea": "500 × 700 mm",
+    "dimensions": "1450 × 870 × 680 mm (MF2028-80), 1500 × 870 × 930 mm (AF2028-80)",
+    "weight": "103 kg (MF2028-80), 117 kg (AF2028-80)",
+    "software": [
+      "RDWorks V8",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB",
+      "Ethernet",
+      "U-disk"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–6 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm acrylic",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~1–2 min"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~200–400 mm/s",
+        "avgCutSpeed": "~10–30 mm/s"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Stone & slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Acrylic up to about 9–10 mm in one pass (OMTech figure)",
+      "Plywood & softwood",
+      "MDF",
+      "Leather",
+      "Fabric & felt",
+      "Paper & card"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Hardwoods like mahogany in one pass (OMTech warning)",
+      "PVC and vinyl (chlorine fumes)",
+      "Use without venting smoke outside"
+    ]
+  },
+  "pros": [
+    "90W tube and 500 × 700 mm bed from $2,999.99 (OMTech, Oct 2026): more power and area per dollar than desktop CO₂ machines",
+    "Front, rear and side pass-through doors (835 × 95 mm and 520 × 20 mm) for sheets longer than the bed",
+    "Ruida control panel with USB, Ethernet and offline jobs from a flash drive, supported by LightBurn"
+  ],
+  "cons": [
+    "The base package cools the tube with a pump and tank; a 6 L chiller adds $500 and is worth it for long runs",
+    "No camera, and manual focus on the MF2028-80; autofocus needs the AF2028-80 at $300 more",
+    "103 to 117 kg and about 1.5 m long: it needs a workshop floor, a 110 V outlet and an outside vent"
+  ],
+  "faq": [
+    {
+      "question": "Why is a 90W laser called MF2028-80?",
+      "answer": "OMTech kept the old model numbers when it fitted a 90W Yongli H2 tube to the 500 × 700 mm cabinet machines, around early 2025 according to archived store pages. The MF2028-80 and AF2028-80 sold today are the 90W machines; used units listed as 80W usually have the older 80W tube."
+    },
+    {
+      "question": "MF2028-80 or AF2028-80: which one should I buy?",
+      "answer": "Both share the 90W tube, the 500 × 700 mm bed, the controller and the pass-through doors. The AF2028-80 adds motorized autofocus and stands on a taller frame (930 mm high instead of 680 mm). If you change material thickness often, the $300 difference pays for itself in setup time; for long runs of the same sheet, the MF2028-80 is enough."
+    },
+    {
+      "question": "Do I need the water chiller package?",
+      "answer": "The standard package includes a submersible pump and a tank, and OMTech asks for distilled water between 16 and 21 °C. That works for short jobs in a cool room. For daily production or a warm workshop, a chiller keeps the tube in range and protects its life; the chiller package costs $500 more than the standard one."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "omtech90-power-per-dollar",
+      "title": "90W on a 500 × 700 mm bed for about $3,000",
+      "body": "The MF2028-80 pairs a 90W glass tube with a 500 × 700 mm bed for $2,999.99 on OMTech's store in October 2026, less than OMTech's own Polar 2 desktop machines with a smaller bed and tube."
+    },
+    {
+      "id": "omtech90-four-way-pass-through",
+      "title": "Four-way pass-through",
+      "body": "Front and rear doors open an 835 × 95 mm slot and side doors a 520 × 20 mm slot, so long sheets and panels can be worked in sections."
+    },
+    {
+      "id": "omtech90-ruida-offline",
+      "title": "Ruida controller with offline jobs",
+      "body": "The control panel frames, pauses and runs files from a flash drive without a computer, and connects by USB or Ethernet. LightBurn supports it on Windows and macOS; the bundled RDWorks runs on Windows only."
+    }
+  ],
+  "beginnerNotes": "This profile covers the 90W machines OMTech sells today under the MF2028-80 and AF2028-80 names. It is a workshop machine, not a desktop one: plan floor space, a 110 V circuit, distilled water or a chiller, and a duct to the outside before it arrives. Budget for LightBurn if you work on a Mac.",
+  "proTips": "Keep routine cuts under about 70% power: OMTech rates the tube at 7,000–8,000 hours at 10–40% but 3,000–4,000 hours at 70–100%. Check the mirror alignment after delivery and after any move, starting from the first mirror. Clean the lens and mirrors weekly in production, and keep a spare lens on the shelf.",
+  "primaryUse": "90W glass tube · OMTech MF2028-80 / AF2028-80",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.2,
+    "easeOfUse": 6.9,
+    "capability": 8.7,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "omtech-80w-co2",
+    "omtech-polar-2-70w",
+    "monport-reno-65-2026",
+    "xtool-p3"
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "included"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "included"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "recommended"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-21",
+  "releaseDate": "2025-03",
+  "image": "/machines/omtech-90w-co2/01.webp",
+  "images": [
+    {
+      "src": "/machines/omtech-90w-co2/01.webp",
+      "alt": "OMTech 90W CO₂ cabinet laser (AF2028-80): OMTech"
+    },
+    {
+      "src": "/machines/omtech-90w-co2/02.webp",
+      "alt": "OMTech 90W CO₂ front view with the lid open over the bed: OMTech"
+    },
+    {
+      "src": "/machines/omtech-90w-co2/03.webp",
+      "alt": "OMTech 90W CO₂ with the lid open, three-quarter view: OMTech"
+    },
+    {
+      "src": "/machines/omtech-90w-co2/04.webp",
+      "alt": "OMTech 90W CO₂ with a sheet through the front and rear pass-through doors: OMTech"
+    },
+    {
+      "src": "/machines/omtech-90w-co2/05.webp",
+      "alt": "OMTech 90W CO₂ in a workshop next to its water chiller: OMTech"
+    }
+  ],
+  "tierEditorialOverride": true,
+  "enclosed": true,
+  "editorialDepth": {
+    "advantages": "The 90W OMTech gives a sign shop or a growing business a 500 × 700 mm bed, real pass-through doors and enough power for 9–10 mm acrylic, for about the price of a large desktop CO₂. The Ruida controller is a known quantity: LightBurn supports it, jobs run offline from a flash drive, and spare tubes, lenses and mirrors are easy to find.",
+    "limitations": "It is a heavy cabinet that needs a workshop, an outside vent and proper cooling: the pump and tank of the base package are a minimum, not a production setup. There is no camera, autofocus costs extra, and the glass tube is a consumable with a one-year warranty. Figures are OMTech's until independent reviews of the 90W version appear."
+  }
+}

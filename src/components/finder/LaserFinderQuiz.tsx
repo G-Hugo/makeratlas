@@ -294,8 +294,14 @@ export function LaserFinderQuiz({ machines, locale, dict }: LaserFinderQuizProps
                   </div>
                   <p className="text-xs text-stone-500 dark:text-stone-400">
                     {machine.brand} · {laserTypeLabelLocalized(machine.laserType, dict)} ·{" "}
+                    {machine.discontinued && `${dict.machine.lastNewPrice} `}
                     {formatPriceRange(machine.priceMin, machine.priceMax, locale === "fr" ? "EUR" : "USD")}
                   </p>
+                  {machine.discontinued && (
+                    <p className="inline-flex self-start rounded-full bg-stone-800 px-2.5 py-0.5 text-xs font-semibold text-white dark:bg-stone-600">
+                      {dict.machine.usedMarketBadge}
+                    </p>
+                  )}
                   <p className="line-clamp-3 text-sm leading-relaxed text-stone-600 dark:text-stone-300">
                     {machine.tldr}
                   </p>

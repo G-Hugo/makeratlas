@@ -19,6 +19,12 @@
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
   ],
+  "faq": [
+    {
+      "question": "À quoi faire attention en achetant une OMTech 80 W d’occasion ?",
+      "answer": "Commencez par le tube : demandez son âge ou ses heures, cherchez fissures, liquide trouble ou dépôts dans le verre, et faites faire une découpe d’essai à puissance moyenne. Un tube usé découpe mal même à fort courant, et un tube de 80 W neuf coûte environ 380 à 460 $ sur la boutique OMTech (oct. 2026). Vérifiez ensuite le refroidissement : refroidisseur ou pompe en état, tuyaux propres et capteur de débit qui coupe le laser quand l’eau ne circule plus. Faites un tir d’essai sur chaque miroir pour contrôler l’alignement, et inspectez lentille et miroirs à la recherche de brûlures. Enfin, assurez-vous que le contrôleur démarre et lit les fichiers en USB ou en Ethernet, et que le vendeur fournit le logiciel RDWorks ou que la carte est prise en charge par LightBurn."
+    }
+  ],
   "materials": {
     "engrave": [
       "Bois",
@@ -42,7 +48,7 @@
     ]
   },
   "priceRange": {
-    "note": "Varie selon taille de plateau (500×700 mm courant)"
+    "note": "Plus vendue neuve (oct. 2026) ; dernier prix connu"
   },
   "specs": {
     "performance": {

@@ -1,0 +1,110 @@
+{
+  "tagline": "CO₂ en caisson avec plateau de 500 × 700 mm, tube verre 90 W et trappes traversantes sur quatre côtés",
+  "tldr": "OMTech vend désormais son laser en caisson de 500 × 700 mm avec un tube verre Yongli H2 de 90 W, sous des références qui se terminent encore par -80 : la MF2028-80 à mise au point manuelle (2 999,99 $) et l’AF2028-80 à mise au point automatique motorisée, sur un piètement plus haut (3 299,99 $). Les deux ont un panneau de commande Ruida, l’USB et l’Ethernet, des trappes traversantes à l’avant, à l’arrière et sur les côtés, une assistance d’air et un extracteur intégrés. Le refroidissement passe par une pompe et un réservoir dans l’offre de base ; un refroidisseur de 6 L coûte 500 $ de plus. Elle remplace notre fiche OMTech 80 W. Pas encore de test indépendant de la version 90 W.",
+  "mainObjective": "Découper acrylique et bois en série sur un plateau de 500 × 700 mm, en atelier, pour le prix d’un grand CO₂ de bureau",
+  "primaryUse": "Tube verre 90 W · OMTech MF2028-80 / AF2028-80",
+  "beginnerNotes": "Cette fiche décrit les machines 90 W qu’OMTech vend aujourd’hui sous les noms MF2028-80 et AF2028-80. C’est une machine d’atelier, pas de bureau : prévoyez la place au sol, une prise 110 V, de l’eau distillée ou un refroidisseur et une gaine vers l’extérieur avant la livraison. Comptez une licence LightBurn si vous travaillez sur Mac.",
+  "proTips": "Restez sous environ 70 % de puissance pour les découpes courantes : OMTech annonce 7 000 à 8 000 heures de tube entre 10 et 40 %, mais 3 000 à 4 000 heures entre 70 et 100 %. Contrôlez l’alignement des miroirs à la livraison et après chaque déplacement, en partant du premier miroir. Nettoyez lentille et miroirs chaque semaine en production et gardez une lentille de rechange.",
+  "bestFor": [
+    "Ateliers d’enseignes",
+    "Acrylique épais",
+    "Découpe en série",
+    "Passer d’un K40 ou d’un 55 W à plus grand"
+  ],
+  "pros": [
+    "Tube de 90 W et plateau de 500 × 700 mm dès 2 999,99 $ (OMTech, oct. 2026) : plus de puissance et de surface par dollar que les CO₂ de bureau",
+    "Trappes traversantes à l’avant, à l’arrière et sur les côtés (835 × 95 mm et 520 × 20 mm) pour les plaques plus longues que le plateau",
+    "Panneau Ruida avec USB, Ethernet et travaux autonomes depuis une clé USB, pris en charge par LightBurn"
+  ],
+  "cons": [
+    "L’offre de base refroidit le tube avec une pompe et un réservoir ; un refroidisseur de 6 L ajoute 500 $ et se justifie pour les longues séries",
+    "Pas de caméra, et mise au point manuelle sur la MF2028-80 ; l’autofocus demande l’AF2028-80, 300 $ de plus",
+    "De 103 à 117 kg et environ 1,5 m de longueur : il faut un sol d’atelier, une prise 110 V et une évacuation vers l’extérieur"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Pierre et ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Acrylique jusqu’à environ 9 à 10 mm en une passe (chiffre OMTech)",
+      "Contreplaqué et bois tendre",
+      "MDF",
+      "Cuir",
+      "Tissu et feutre",
+      "Papier et carton"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Bois durs comme l’acajou en une passe (mise en garde OMTech)",
+      "PVC et vinyle (fumées chlorées)",
+      "Usage sans évacuation des fumées vers l’extérieur"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle OMTech, oct. 2026 : MF2028-80 (mise au point manuelle) 2 999,99 $, AF2028-80 (autofocus) 3 299,99 $ ; offres avec refroidisseur, LightBurn et module rotatif jusqu’à 3 999,99 $ (MF) et 4 299,99 $ (AF)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans de l’acrylique 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Pourquoi un laser de 90 W s’appelle-t-il MF2028-80 ?",
+      "answer": "OMTech a gardé les anciennes références en montant un tube Yongli H2 de 90 W sur ses machines en caisson de 500 × 700 mm, vers début 2025 d’après les pages archivées de sa boutique. Les MF2028-80 et AF2028-80 vendues aujourd’hui sont les versions 90 W ; une machine d’occasion annoncée en 80 W a en général l’ancien tube de 80 W."
+    },
+    {
+      "question": "MF2028-80 ou AF2028-80 : laquelle choisir ?",
+      "answer": "Les deux partagent le tube de 90 W, le plateau de 500 × 700 mm, le contrôleur et les trappes traversantes. L’AF2028-80 ajoute la mise au point automatique motorisée et repose sur un piètement plus haut (930 mm au lieu de 680 mm). Si vous changez souvent d’épaisseur de matériau, les 300 $ d’écart se rentabilisent en temps de réglage ; pour de longues séries sur la même plaque, la MF2028-80 suffit."
+    },
+    {
+      "question": "Faut-il prendre l’offre avec refroidisseur ?",
+      "answer": "L’offre standard comprend une pompe immergée et un réservoir, et OMTech demande de l’eau distillée entre 16 et 21 °C. Cela suffit pour des travaux courts dans une pièce fraîche. Pour une production quotidienne ou un atelier chaud, un refroidisseur maintient le tube dans sa plage et préserve sa durée de vie ; l’offre avec refroidisseur coûte 500 $ de plus que l’offre standard."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "90 W sur un plateau de 500 × 700 mm pour environ 3 000 $",
+      "body": "La MF2028-80 associe un tube verre de 90 W à un plateau de 500 × 700 mm pour 2 999,99 $ sur la boutique OMTech en octobre 2026, moins cher que les Polar 2 de bureau d’OMTech, au plateau et au tube plus petits."
+    },
+    {
+      "title": "Des trappes traversantes sur quatre côtés",
+      "body": "Les portes avant et arrière ouvrent une fente de 835 × 95 mm et les portes latérales une fente de 520 × 20 mm : les longues plaques et les panneaux se travaillent par sections."
+    },
+    {
+      "title": "Un contrôleur Ruida qui travaille sans ordinateur",
+      "body": "Le panneau de commande cadre, met en pause et lance les fichiers depuis une clé USB, et se connecte en USB ou en Ethernet. LightBurn le prend en charge sous Windows et macOS ; le logiciel RDWorks fourni ne tourne que sous Windows."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser CO₂ en caisson OMTech 90 W (AF2028-80) : OMTech"
+    },
+    {
+      "alt": "OMTech 90 W CO₂ vue de face, capot ouvert sur le plateau : OMTech"
+    },
+    {
+      "alt": "OMTech 90 W CO₂ capot ouvert, vue de trois quarts : OMTech"
+    },
+    {
+      "alt": "OMTech 90 W CO₂ avec une plaque passée par les trappes avant et arrière : OMTech"
+    },
+    {
+      "alt": "OMTech 90 W CO₂ dans un atelier à côté de son refroidisseur : OMTech"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "L’OMTech 90 W donne à un atelier d’enseignes ou à une entreprise qui grandit un plateau de 500 × 700 mm, de vraies trappes traversantes et assez de puissance pour l’acrylique de 9 à 10 mm, pour à peu près le prix d’un grand CO₂ de bureau. Le contrôleur Ruida est connu : LightBurn le prend en charge, les travaux tournent sans ordinateur depuis une clé USB, et tubes, lentilles et miroirs de rechange se trouvent facilement.",
+    "limitations": "C’est un caisson lourd qui demande un atelier, une évacuation vers l’extérieur et un vrai refroidissement : la pompe et le réservoir de l’offre de base sont un minimum, pas une installation de production. Il n’y a pas de caméra, l’autofocus coûte plus cher et le tube verre est un consommable garanti un an. Les chiffres restent ceux d’OMTech en attendant des tests indépendants de la version 90 W."
+  }
+}

@@ -196,6 +196,8 @@ export const fr: Dictionary = {
     notRatedYet: "Pas encore notée",
     notRatedYetBody: "Nous notons une machine une fois qu’elle est livrée et que des résultats réels existent.",
     discontinuedBadge: "Arrêtée",
+    usedMarketBadge: "Arrêtée · à trouver d’occasion",
+    lastNewPrice: "Dernier prix neuf",
     discontinuedTitle: "Machine arrêtée",
     discontinuedBody:
       "{brand} ne vend plus cette machine neuve. Nous gardons la fiche en ligne : on la trouve encore d’occasion et elle sert de point de repère.",

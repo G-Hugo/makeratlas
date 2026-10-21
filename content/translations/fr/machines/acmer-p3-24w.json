@@ -1,0 +1,124 @@
+{
+  "tagline": "L’entrée la moins chère dans la P3 fermée d’Acmer : diode 24 W, caméra et CoreXY dès 765 $",
+  "tldr": "La P3 24 W place un module diode 24 W dans le caisson fermé de la P3 d’Acmer : capot classe 1 avec détection de flamme, portique CoreXY à 800 mm/s, caméra qui couvre tout le plateau de 400 × 400 mm et assistance d’air de 30 L/min. Acmer l’annonce à 12 mm de contreplaqué et 8 mm d’acrylique noir en une passe. À 765 $ en pack de base (octobre 2026), c’est l’une des diodes fermées avec caméra les moins chères ; elle convient à qui grave surtout et découpe des matières fines.",
+  "mainObjective": "Graver en caisson fermé à la maison avec un petit budget, avec des découpes légères à moyennes",
+  "primaryUse": "Module 24 W sur l’Acmer P3 fermée : gravure à petit prix et découpe légère à moyenne à la maison",
+  "beginnerNotes": "Cette fiche décrit la version 24 W de l’Acmer P3. C’est le bon choix si vous gravez surtout le bois, le cuir et l’ardoise et découpez du contreplaqué fin de temps en temps ; comparez les autres versions de la P3 avec les pastilles ci-dessus si les découpes épaisses ou le métal nu font partie de vos projets. La machine arrive montée, et la caméra évite la plupart des tâtonnements pour placer un motif.",
+  "proTips": "Gardez l’assistance d’air pour les découpes et baissez-la pour la gravure photo, pour ne pas étaler les cendres sur la surface. Au-delà de 6 mm de contreplaqué, deux passes modérées donnent des bords plus propres qu’une seule passe très lente. Faites sortir l’extraction à l’extérieur si vous découpez régulièrement : des propriétaires disent que le ventilateur d’origine laisse passer la fumée.",
+  "bestFor": [
+    "Premier laser fermé",
+    "Ateliers orientés gravure",
+    "Cadeaux et dessous de verre",
+    "Usage en appartement"
+  ],
+  "pros": [
+    "Pack de base à 765 $ en octobre 2026, avec caisson, caméra et assistance d’air inclus",
+    "Point étroit de 0,06 × 0,08 mm : photos et petits textes restent nets",
+    "Plateau complet de 400 × 400 mm, un peu plus grand qu’avec le module 48 W"
+  ],
+  "cons": [
+    "Les découpes en une passe s’arrêtent à 12 mm de contreplaqué et 8 mm d’acrylique noir : le bois épais demande plusieurs passes",
+    "Découper du tilleul de 3 mm prend environ deux fois plus de temps qu’avec le module P3 le plus puissant",
+    "Monter en puissance plus tard coûte plus cher que de prendre le pack 48 W dès le départ"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Verre foncé et céramique",
+      "Inox (marquage de surface)"
+    ],
+    "cut": [
+      "Contreplaqué jusqu’à 12 mm en une passe (donnée Acmer)",
+      "Acrylique noir jusqu’à 8 mm en une passe",
+      "MDF jusqu’à ~6 mm",
+      "Cuir, feutre et papier"
+    ],
+    "cannot": [
+      "Acrylique transparent ou clair",
+      "Marquage du métal nu sans le module infrarouge",
+      "Découpe rapide de bois dur épais",
+      "Découpe de production à la vitesse d’un CO₂"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Acmer, oct. 2026 : 765 $ en pack de base, 937 $ avec rotatif, 1 266 $ avec rotatif et convoyeur, 1 658 $ en pack complet (prix barrés de 1 799 $ à 3 186 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La P3 24 W est l’entrée économique dans la gamme fermée d’Acmer : même caisson, même portique CoreXY, même caméra et mêmes sécurités que les versions plus chères, pour quelques centaines de dollars de moins. Son point plus fin en fait une meilleure graveuse pure que le module 48 W, et le plateau complet de 400 × 400 mm est généreux pour les dessous de verre, les planches à découper et les séries de petits cadeaux.",
+    "limitations": "C’est en découpe que l’économie se voit : le contreplaqué épais et l’acrylique foncé demandent plusieurs passes, et la découpe en série est nettement plus lente. Comme toute diode, elle ne découpe pas l’acrylique transparent. Les propriétaires citent un ventilateur d’extraction faible et un logiciel basique, et acheter le module plus puissant plus tard coûte plus que l’écart entre les packs."
+  },
+  "faq": [
+    {
+      "question": "Que découpe l’Acmer P3 24 W ?",
+      "answer": "Acmer l’annonce à 12 mm de contreplaqué et 8 mm d’acrylique noir en une passe, et jusqu’à 25 mm de contreplaqué, 20 mm d’acrylique noir et 6 mm de MDF en plusieurs passes. Pour les travaux courants, comme des décorations en tilleul de 3 mm ou des boîtes en 6 mm, elle est à l’aise ; les enseignes épaisses sont lentes."
+    },
+    {
+      "question": "La P3 24 W vaut-elle mieux qu’une diode à structure ouverte ?",
+      "answer": "Si la fumée, la lumière et la sécurité comptent à la maison, oui : caisson, détection de flamme, arrêt d’urgence et caméra sont inclus pour 765 $ (boutique Acmer, octobre 2026). Une machine ouverte de 20 W coûte moins cher, mais il faudrait lui ajouter un caisson et une caméra pour arriver au même niveau."
+    },
+    {
+      "question": "Peut-on faire évoluer la P3 24 W plus tard ?",
+      "answer": "Oui. Le caisson P3 accepte les autres modules d’Acmer, dont le 48 W et la tête diode 10 W + infrarouge 2 W. Achetés à part, ils coûtent plus que les 384 $ d’écart entre les packs de base 24 W et 48 W : décidez dès le départ si vous savez déjà que vous découperez du bois épais."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "p3-24w-entry-price",
+      "title": "Fermée avec caméra dès 765 $",
+      "body": "Le pack de base comprend le caisson classe 1, la caméra qui couvre tout le plateau et l’assistance d’air de 30 L/min pour 765 $ sur la boutique Acmer en octobre 2026."
+    },
+    {
+      "id": "p3-24w-fine-spot",
+      "title": "Le point diode le plus fin",
+      "body": "Acmer donne un point de 0,06 × 0,08 mm pour le module 24 W, plus étroit que celui du 48 W, ce qui aide pour les photos et les petites lettres."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée Acmer P3 24 W : Acmer"
+    },
+    {
+      "alt": "Gravure en série sur le plateau de 400 mm de l’Acmer P3 : Acmer"
+    },
+    {
+      "alt": "Contenu du carton de l’Acmer P3 24 W : machine, assistance d’air, module 24 W et accessoires : Acmer"
+    },
+    {
+      "alt": "Laser fermé Acmer P3 utilisé à la maison : Acmer"
+    },
+    {
+      "alt": "Matériaux traités par les modules diode et infrarouge de l’Acmer P3 : Acmer"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Modules laser interchangeables sur le même caisson P3",
+    "description": "L’Acmer P3 se vend avec un module diode 24 W, un module 48 W qui fonctionne aussi en 24 W, ou une tête double laser qui associe une diode 10 W et une source infrarouge 1064 nm de 2 W. Un module infrarouge 2 W est aussi vendu seul. Les modules s’échangent sur le même caisson ; seule la tête double laser porte deux sources à la fois.",
+    "options": [
+      {
+        "label": "Diode 24 W"
+      },
+      {
+        "label": "Diode 48 W (bascule en 24 W)"
+      },
+      {
+        "label": "Diode 10 W + IR 2 W"
+      },
+      {
+        "label": "Module IR 2 W (accessoire)"
+      }
+    ]
+  }
+}

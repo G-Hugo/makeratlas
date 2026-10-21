@@ -19,7 +19,7 @@
     "min": 3000,
     "max": 3500,
     "currency": "USD",
-    "note": "Varies by bed size (500×700 mm common)"
+    "note": "No longer sold new (Oct 2026); last known price"
   },
   "specs": {
     "power": "80W CO₂ glass tube",
@@ -98,8 +98,14 @@
     "omtech-40w-co2",
     "xtool-p2s"
   ],
+  "faq": [
+    {
+      "question": "What should I check before buying a used OMTech 80W?",
+      "answer": "Start with the tube: ask for its age or hours, look for cracks, cloudy coolant or scale inside the glass, and watch a test cut at moderate power. A worn tube cuts weakly even at high current, and a new 80W tube costs about $380–460 on OMTech's store (Oct 2026). Check the cooling next: a working chiller or pump, clean hoses and a water flow sensor that stops the laser when the water stops. Fire a test pulse at each mirror to check the alignment, and inspect the lens and mirrors for burns. Finally, confirm the controller powers up and reads files over USB or Ethernet, and that the seller hands over the RDWorks software or that the board is supported by LightBurn."
+    }
+  ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-21",
   "images": [
     {
       "src": "/machines/omtech-80w-co2/01.webp",
@@ -125,5 +131,8 @@
     "limitations": "Avoid without ducting, for occasional gifts only, or if budget ignores tube replacement, power, and floor space. Bare metal without an IR accessory stays out of scope."
   },
   "tierEditorialOverride": true,
-  "enclosed": true
+  "enclosed": true,
+  "discontinued": {
+    "successor": "omtech-90w-co2"
+  }
 }
