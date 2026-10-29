@@ -1,0 +1,183 @@
+{
+  "id": "longer-ray7s-7-5w",
+  "slug": "longer-ray7s-7-5w",
+  "name": "Longer Ray7S 7.5W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The cheapest Ray7S: a Class 1 enclosed engraver with a fine 7.5W diode for under $300",
+  "tldr": "The Ray7S 7.5W is the entry version of Longer's new enclosed laser: $279.99 for the Basic Set on Longer's store in October 2026. It puts a 0.06 × 0.06 mm diode inside a Class 1 cabinet with Klipper firmware, 600 mm/s motion, Wi-Fi and a 305 × 310 mm bed. That is twice the bed of the small enclosed lasers at this price, but cutting stays limited to thin wood and card.",
+  "mainObjective": "Safe, detailed engraving at home or in a shared room, on a small budget",
+  "bestFor": [
+    "Enclosed home engraving",
+    "Shared rooms & families",
+    "Photo & text engraving",
+    "Tight budget"
+  ],
+  "priceRange": {
+    "min": 279.99,
+    "max": 279.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $279.99 Basic Set (list price $399.99)"
+  },
+  "specs": {
+    "power": "7.5W diode",
+    "workArea": "305 × 310 mm",
+    "software": [
+      "Longer Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "microSD (TF)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~24–36 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–30 min (2 passes)"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.06 mm",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~40–100 mm/s",
+        "avgCutSpeed": "~1–2 mm/s (3 mm, 2 passes)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Glass & ceramic (with care)",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "Basswood ~2–3 mm per pass (our estimate)",
+      "Paper & card",
+      "Felt & thin leather"
+    ],
+    "cannot": [
+      "Plywood thicker than ~3 mm in practice",
+      "Clear acrylic",
+      "Bare metal marking",
+      "Sheets larger than 305 × 310 mm"
+    ]
+  },
+  "pros": [
+    "Class 1 enclosure for $279.99 (October 2026), with a 305 × 310 mm bed far larger than the mini enclosed lasers",
+    "Finest spot of the range at 0.06 × 0.06 mm according to Longer, helped by Klipper vibration compensation for sharp details",
+    "Low power keeps paper, card and thin leather easy to engrave without burning through"
+  ],
+  "cons": [
+    "Cutting tops out around 2–3 mm basswood per pass by our estimate",
+    "Slow on large photo fills: about 24–36 min for 10 × 10 cm by our estimate",
+    "No air pump included at this price; it is an option"
+  ],
+  "beginnerNotes": "This profile is the 7.5W version of the Longer Ray7S. Take it if you want a closed, Class 1 laser for engraving gifts, tags and photos at home and rarely cut. Compare the other Ray7S versions with the chips above if cutting matters: the cabinet, bed and Klipper firmware are the same, only the module changes. No independent review is available yet.",
+  "proTips": "Even with a Class 1 cabinet, route the exhaust outdoors or use a filter: the smoke still has to go somewhere. Keep cuts to paper, card, felt and 2–3 mm basswood in two passes. Klipper's vibration compensation helps most on fast photo fills, so test higher speeds than you would on an older diode.",
+  "primaryUse": "7.5W module · Longer Ray7S",
+  "rating": {
+    "overall": 7.6,
+    "value": 8.5,
+    "easeOfUse": 8.7,
+    "capability": 6.8,
+    "buildQuality": 7.8
+  },
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 7.5W Ray7S is one of the cheapest ways to get a Class 1 enclosed diode with a usable 305 × 310 mm bed, Wi-Fi and Klipper firmware. Its fine spot suits portraits, small text and detailed gifts.",
+    "limitations": "It is an engraver: cuts beyond thin basswood and card take many passes. The bed is smaller than the open Ray7's 405 × 410 mm. The Ray7S is new, with no independent tests of cabinet sealing, exhaust or long-term reliability yet."
+  },
+  "similarModels": [
+    "creality-falcon-a1c-5w",
+    "longer-ray7s-15w",
+    "acmer-k1-7w"
+  ],
+  "faq": [
+    {
+      "question": "Do I need safety glasses with the Ray7S 7.5W?",
+      "answer": "Longer sells the Ray7S as a Class 1 laser: with the lid closed, the cabinet blocks the beam, so you can watch the job without glasses. Keep glasses for any work with the lid open, such as alignment."
+    },
+    {
+      "question": "Ray7S 7.5W or Ray7S 15W?",
+      "answer": "The 15W costs $369.99 against $279.99 for the 7.5W Basic Set (Longer store, October 2026). The $90 step roughly doubles cutting capacity; stay with the 7.5W if you engrave almost exclusively."
+    },
+    {
+      "question": "What can the Ray7S 7.5W cut?",
+      "answer": "Longer does not publish per-version cutting figures. By our estimate it cuts paper, card, felt, thin leather and about 2–3 mm basswood per pass; 3 mm plywood needs two passes or more."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray7s-7-5w-class1-price",
+      "title": "Class 1 under $300",
+      "body": "A closed, Class 1 cabinet with a 305 × 310 mm bed for $279.99 in October 2026."
+    },
+    {
+      "id": "ray7s-7-5w-fine-spot",
+      "title": "0.06 × 0.06 mm spot",
+      "body": "The finest laser spot Longer lists for the Ray7S, for sharper portraits and small lettering."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "image": "/machines/longer-ray7s-7-5w/01.webp",
+  "images": [
+    {
+      "src": "/machines/longer-ray7s-7-5w/01.webp",
+      "alt": "Longer Ray7S 7.5W enclosed Class 1 laser engraver: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-7-5w/02.webp",
+      "alt": "Longer Ray7S seen from above, with the laser gantry over an engraved plywood sheet: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-7-5w/03.webp",
+      "alt": "Longer Ray7S Class 1 safety features: blue-light protection lid, emergency stop, limit switches and goggles: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-7-5w/04.webp",
+      "alt": "Longer Ray7S Klipper firmware and an engraving comparison with vibration compensation: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-7-5w/05.webp",
+      "alt": "Longer Ray7S enclosed laser engraver with its orange lid: Longer"
+    }
+  ],
+  "powerRating": "7.5W",
+  "modelLine": "longer-ray7s",
+  "enclosed": true,
+  "tierEditorialOverride": true,
+  "releaseDate": "2026-10"
+}

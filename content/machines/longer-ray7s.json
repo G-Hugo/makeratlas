@@ -1,0 +1,146 @@
+{
+  "id": "longer-ray7s",
+  "slug": "longer-ray7s",
+  "name": "Longer Ray7S",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/longer-ray7s/01.webp",
+  "tagline": "Enclosed Class 1 diode with Klipper firmware, sold in 7.5W, 15W, 20W and 40W versions",
+  "tldr": "The Longer Ray7S, launched in October 2026, is an enclosed Class 1 diode laser running Klipper firmware with vibration compensation, 600 mm/s motion, Wi-Fi and a bed of about 305 × 305 mm. Longer sells four laser powers: 7.5W from $279.99, 15W at $369.99, 20W at $529.99 and 40W at $849.99, the only one with the air pump included (Basic Sets, Longer store, October 2026). Open a version for exact specs and benchmarks.",
+  "mainObjective": "Enclosed engraving and cutting at home, with a power level for each budget",
+  "bestFor": [
+    "Enclosed home workshop",
+    "Shared rooms & families",
+    "Engraving & light cutting",
+    "Budget Class 1"
+  ],
+  "priceRange": {
+    "min": 279.99,
+    "max": 849.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: 7.5W $279.99, 15W $369.99, 20W $529.99, 40W $849.99 (Basic Sets)"
+  },
+  "specs": {
+    "power": "7.5W / 15W / 20W / 40W diode",
+    "workArea": "305 × 300 – 305 × 310 mm",
+    "software": [
+      "Longer Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "microSD (TF)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–36 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–30 min"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.06 – 0.10 × 0.15 mm",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~40–300 mm/s",
+        "avgCutSpeed": "~1–12 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Glass & ceramic (with care)",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "Basswood up to 30 mm in several passes (40W, Longer)",
+      "Black acrylic up to 35 mm in several passes (40W, Longer)",
+      "Plywood",
+      "Leather, felt & card"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal marking",
+      "CO₂-speed production",
+      "Sheets larger than about 305 × 305 mm"
+    ]
+  },
+  "pros": [
+    "Class 1 cabinet from $279.99, with a larger bed than the mini enclosed lasers at that price",
+    "Klipper firmware with vibration compensation and 600 mm/s motion on every version",
+    "Four powers in the same cabinet, from a fine engraver to a 40W cutter with air pump included"
+  ],
+  "cons": [
+    "Bed of about 305 × 305 mm, small next to the xTool S1 or Acmer P3",
+    "Air pump only included with the 40W",
+    "New in October 2026: no independent reviews yet"
+  ],
+  "beginnerNotes": "This overview covers the whole Longer Ray7S line. Take the 7.5W or 15W if you mostly engrave, the 20W for mixed engraving and cutting, and the 40W if thick cuts are the main job. All four share the same Class 1 cabinet, Klipper firmware and software.",
+  "proTips": "Route the exhaust outdoors even with the Class 1 cabinet. Add the air pump to any version below 40W if you plan to cut. Run a material test grid before production runs.",
+  "primaryUse": "Enclosed Class 1 diode laser line with Klipper firmware for home engraving and cutting",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8.6,
+    "capability": 7.8,
+    "buildQuality": 7.8
+  },
+  "editorialDepth": {
+    "advantages": "The Ray7S is Longer's budget answer to enclosed lasers like the xTool S1: a Class 1 cabinet, Klipper firmware and 600 mm/s motion for a fraction of the price. The real choice is the module: a fine engraver at 7.5W or 15W, an all-rounder at 20W, or a 40W cutter with the air pump included.",
+    "limitations": "Every version is a diode with a bed of about 305 × 305 mm: no clear acrylic, no large panels. The air pump is extra below 40W. Launched in October 2026, the Ray7S has no independent reviews of its cabinet, exhaust or reliability yet."
+  },
+  "similarModels": [
+    "xtool-s1",
+    "acmer-p3",
+    "longer-ray7"
+  ],
+  "faq": [
+    {
+      "question": "Which Longer Ray7S should I buy?",
+      "answer": "The 7.5W ($279.99) or 15W ($369.99) if you mostly engrave; the 20W ($529.99) for regular cuts in 3–6 mm plywood; the 40W ($849.99) if thick cuts are the main job, and it is the only one with the air pump included. Prices are Basic Sets on Longer's store in October 2026."
+    },
+    {
+      "question": "Is the Ray7S really Class 1?",
+      "answer": "Longer sells it as a Class 1 laser: with the lid closed, the cabinet contains the beam, so no glasses are needed to watch a job. That rating only holds with the lid shut."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "images": [
+    {
+      "src": "/machines/longer-ray7s/01.webp",
+      "alt": "Longer Ray7S enclosed Class 1 laser engraver: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s/02.webp",
+      "alt": "Longer Ray7S seen from above, with the laser gantry over an engraved plywood sheet: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s/03.webp",
+      "alt": "Longer Ray7S Class 1 safety features: blue-light protection lid, emergency stop, limit switches and goggles: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s/04.webp",
+      "alt": "Longer Ray7S Klipper firmware and an engraving comparison with vibration compensation: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s/05.webp",
+      "alt": "Longer Ray7S enclosed laser engraver with its orange lid: Longer"
+    }
+  ],
+  "modelLine": "longer-ray7s",
+  "catalogHidden": true,
+  "releaseDate": "2026-10",
+  "tierEditorialOverride": true,
+  "enclosed": true
+}

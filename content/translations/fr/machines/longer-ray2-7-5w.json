@@ -1,0 +1,102 @@
+{
+  "tagline": "Le laser classe 1 le moins cher de Longer : une diode de 7,5 W dans un caisson fermé pour 239,99 $",
+  "tldr": "La Ray2 7,5 W est la version d’entrée de la Ray2 fermée de Longer, lancée le 21 octobre 2026 : un caisson classe 1 livré monté, avec capot ambré, alarmes de flamme et de basculement, arrêt d’urgence et une surface de travail de 130 × 110 mm. Longer annonce 6 mm de tilleul en une passe pour la diode de 7,5 W, avec un point de 0,08 × 0,08 mm et une vitesse maximale de 12 000 mm/min. À 239,99 $ en pack de base (boutique Longer États-Unis, octobre 2026), c’est l’un des lasers fermés les moins chers de notre catalogue, mais le petit plateau la limite aux dessous de verre, médailles et petits cadeaux, et aucun avis de propriétaire n’existe encore.",
+  "mainObjective": "Graver de petits objets à la maison, en sécurité et à petit prix",
+  "primaryUse": "Version 7,5 W de la Longer Ray2 fermée : gravure de petits objets à petit prix à la maison",
+  "beginnerNotes": "Cette fiche décrit la version 7,5 W de la Longer Ray2. Elle convient comme premier laser pour graver des prénoms, des photos et des logos sur de petits objets en bois, en cuir et en papier, avec quelques découpes fines. Comparez avec l’autre version de la Ray2 grâce aux pastilles ci-dessus si la découpe compte pour vous.",
+  "proTips": "Faites une grille de test sur une chute avant chaque nouveau matériau : les diodes de faible puissance sont sensibles à la vitesse et à la densité du bois. Limitez les découpes au tilleul fin et au carton, et préférez deux passes à une seule passe très lente pour des bords plus propres.",
+  "bestFor": [
+    "Premier laser à la maison",
+    "Loisir orienté gravure",
+    "Porte-clés et médailles",
+    "Petits budgets"
+  ],
+  "pros": [
+    "239,99 $ pour un laser fermé classe 1, à peu près le prix d’une diode d’initiation à structure ouverte",
+    "Alarmes de flamme et de basculement, arrêt à l’ouverture du capot et bouton d’urgence, d’après la fiche sécurité de Longer",
+    "Livrée montée, compatible avec LightBurn et LaserGRBL en plus du logiciel LaserBurn de Longer"
+  ],
+  "cons": [
+    "6 mm de tilleul en une passe au maximum : boîtes en contreplaqué et découpes épaisses hors de portée",
+    "Le plateau de 130 × 110 mm accueille dessous de verre et médailles, pas les planches à découper ni les panneaux",
+    "Ni avis de propriétaires ni test indépendant pour l’instant, et aucun filtre à fumée annoncé"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Papier et carton",
+      "Tissu",
+      "Inox (marquage de surface, selon Longer)"
+    ],
+    "cut": [
+      "Tilleul jusqu’à 6 mm en une passe (donnée Longer)",
+      "Carton et papier",
+      "Feutre et cuir fin"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Tout objet de plus de 130 × 110 mm",
+      "Contreplaqué épais ou bois dur",
+      "Gravure profonde du métal nu"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 239,99 $ en pack de base"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray2 7,5 W est l’accès le moins cher que nous connaissions à un laser fermé classe 1 d’une marque établie. Pour graver des prénoms, des photos et des logos sur de petits objets en bois, en cuir et en papier, elle fait le travail avec très peu de réglages.",
+    "limitations": "La découpe se limite aux matières fines, et le plateau de 130 × 110 mm plafonne la taille de chaque projet. C’est un produit nouveau, sans historique : achetez-la sur la boutique Longer pour profiter de la garantie de 12 mois."
+  },
+  "faq": [
+    {
+      "question": "Que découpe la Longer Ray2 7,5 W ?",
+      "answer": "Longer l’annonce à 6 mm de tilleul en une passe. Le carton, le feutre, le cuir fin et le contreplaqué de 3 mm sont à sa portée ; le bois dur dense ne l’est pas, et Longer ne publie aucun chiffre pour l’acrylique. Chaque pièce doit aussi tenir dans le plateau de 130 × 110 mm."
+    },
+    {
+      "question": "Ray2 7,5 W ou 15 W ?",
+      "answer": "La 15 W coûte 80 $ de plus (319,99 $ contre 239,99 $ sur la boutique Longer États-Unis, octobre 2026), découpe 10 mm de tilleul en une passe au lieu de 6 mm et a un point plus fin de 0,06 mm. Le caisson, le plateau et la vitesse sont identiques. Prenez la 7,5 W si vous gravez surtout, la 15 W si vous comptez découper."
+    },
+    {
+      "question": "La Ray2 s’utilise-t-elle sans risque en intérieur ?",
+      "answer": "C’est un laser fermé classe 1 : le capot filtre le faisceau, et Longer montre des alarmes de flamme et de basculement, un arrêt d’urgence et un laser qui s’arrête à l’ouverture du capot. La fumée doit quand même être évacuée : Longer n’annonce pas de filtre, prévoyez donc une ventilation."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Fermée pour 239,99 $",
+      "body": "Le pack de base coûtait 239,99 $ sur la boutique Longer États-Unis en octobre 2026, l’un des prix les plus bas que nous ayons vus pour une diode fermée classe 1."
+    },
+    {
+      "title": "Prête à l’emploi",
+      "body": "Longer livre la Ray2 montée, avec le caisson, les alarmes et l’arrêt d’urgence déjà en place : aucun châssis à assembler ni à aligner."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée Longer Ray2 7,5 W : Longer"
+    },
+    {
+      "alt": "Longer Ray2 avec des exemples gravés sur bois, cuir et lampe : Longer"
+    },
+    {
+      "alt": "Sécurités classe 1 de la Longer Ray2 : alarme de flamme, arrêt à l’ouverture du capot et bouton d’urgence : Longer"
+    },
+    {
+      "alt": "Projets gravés avec la Longer Ray2 sur laiton, cuir, jean et ardoise : Longer"
+    },
+    {
+      "alt": "Longer Ray2 utilisée pour des cadeaux, des médailles pour animaux et des produits de marché artisanal : Longer"
+    }
+  ]
+}

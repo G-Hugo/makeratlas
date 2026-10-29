@@ -1,0 +1,103 @@
+{
+  "tagline": "La Ray7 la plus rentable : une diode de 15 W qui grave net et découpe le contreplaqué fin, pour moins de 300 $",
+  "tldr": "La Ray7 15 W se place juste au-dessus du modèle d’entrée, à 299,99 $ sur la boutique Longer (octobre 2026). Elle garde un point fin de 0,06 × 0,08 mm pour le détail tout en découpant le tilleul de 3 mm en une passe selon notre estimation, sur le même cadre ouvert de 405 × 410 mm avec Wi-Fi et déplacements à 600 mm/s. Pour qui grave la plupart du temps et découpe de temps en temps des boîtes ou des décorations, c’est le prix le plus équilibré de la gamme.",
+  "mainObjective": "Gravure au quotidien et découpe légère de bois de 3 à 5 mm, avec un budget de loisir",
+  "primaryUse": "Module 15 W · Longer Ray7",
+  "beginnerNotes": "Cette fiche décrit la version 15 W de la Longer Ray7. Elle convient à qui grave la plupart du temps et découpe des décorations, des sous-verres et des petites boîtes dans du bois de 3 mm. Comparez les autres versions de la Ray7 avec les pastilles ci-dessus si vous prévoyez des découpes régulières au-delà de 6 mm. Le cadre, la surface et le logiciel sont les mêmes sur toute la gamme.",
+  "proTips": "Ajoutez la pompe à air avant de découper : les bords restent plus propres et vous pouvez monter la vitesse. Lancez une grille de test à chaque nouveau lot de contreplaqué, car les couches de colle varient. Pour les photos, ralentissez le remplissage et baissez un peu la puissance pour garder un point net.",
+  "bestFor": [
+    "Gravure de loisir",
+    "Décorations et petites boîtes",
+    "Rapport qualité-prix",
+    "Cadeaux en cuir et en bois"
+  ],
+  "pros": [
+    "Point encore fin, 0,06 × 0,08 mm selon Longer, proche du module d’entrée pour les photos",
+    "Découpe le tilleul de 3 mm en une passe et environ 5 mm avec assistance d’air selon notre estimation",
+    "299,99 $ en octobre 2026, seulement 70 $ de plus que la Ray7 d’entrée pour environ deux fois plus de capacité de découpe"
+  ],
+  "cons": [
+    "Au-delà de 6 mm de contreplaqué environ, il faut plusieurs passes lentes",
+    "Pas de pompe à air dans le carton : des découpes propres demandent la pompe en option",
+    "Machine très récente : aucun test de découpe indépendant publié pour l’instant"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Verre et céramique (avec précaution)",
+      "Acrylique foncé"
+    ],
+    "cut": [
+      "Tilleul de 3 mm en une passe, environ 5 mm avec air (notre estimation)",
+      "Contreplaqué jusqu’à 6 mm environ en plusieurs passes",
+      "Cuir, feutre et carton"
+    ],
+    "cannot": [
+      "Contreplaqué épais en production",
+      "Acrylique transparent",
+      "Marquage du métal nu",
+      "Découpe à la vitesse d’un CO₂"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 299,99 $ (prix barré 399,99 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La 15 W est le meilleur compromis de prix de la gamme Ray7 : elle garde un point fin pour la gravure détaillée et découpe le bois de 3 mm qu’utilisent la plupart des projets de loisir, pour un peu moins de 300 $ avec une grande surface et le Wi-Fi.",
+    "limitations": "Le contreplaqué plus épais et l’acrylique foncé demandent de nombreuses passes ; qui découpe chaque semaine s’y sentira vite à l’étroit. Cadre ouvert : lunettes de protection et extraction de la fumée obligatoires. Pas encore de test indépendant de la Ray7 : les chiffres de vitesse et de fiabilité reposent sur les données de Longer et sur nos estimations."
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur découpe la Ray7 15 W ?",
+      "answer": "Longer ne publie pas de chiffres de découpe par version. Selon notre estimation, elle découpe le tilleul de 3 mm en une passe, environ 5 mm avec assistance d’air, et le contreplaqué de 6 mm en plusieurs passes. Les bois durs denses et le MDF se découpent plus lentement."
+    },
+    {
+      "question": "Ray7 15 W ou Ray7 20 W ?",
+      "answer": "La 20 W coûte 429,99 $ contre 299,99 $ pour la 15 W (boutique Longer, octobre 2026). Les 130 $ d’écart achètent des découpes plus rapides et de meilleurs résultats sur le bois de 5 à 8 mm ; si vous gravez surtout, la 15 W garde un point plus fin et l’économie paie la pompe à air."
+    },
+    {
+      "question": "Faut-il une pompe à air sur la Ray7 15 W ?",
+      "answer": "Pour graver, non. Pour découper, elle est vivement conseillée : elle chasse la fumée de la saignée, limite le noircissement des bords et permet d’aller plus vite. Longer la vend en option pour cette version."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Détail fin et découpes de 3 mm",
+      "body": "Un point de 0,06 × 0,08 mm pour la gravure et, selon notre estimation, des découpes en une passe dans le tilleul de 3 mm."
+    },
+    {
+      "title": "70 $ au-dessus du modèle d’entrée",
+      "body": "À 299,99 $ en octobre 2026, la 15 W ajoute une vraie capacité de découpe pour un petit écart de prix."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser à cadre ouvert Longer Ray7 15W, montrée avec le rotatif en option : Longer"
+    },
+    {
+      "alt": "Cadre de la Longer Ray7 avec le module laser et le boîtier de commande : Longer"
+    },
+    {
+      "alt": "Surface de travail de 405 × 410 mm de la Longer Ray7 : Longer"
+    },
+    {
+      "alt": "Boîtier de commande de la Longer Ray7 avec arrêt d’urgence, ports USB et carte TF : Longer"
+    },
+    {
+      "alt": "Aperçu des fonctions de la Longer Ray7 : 36 000 mm/min, sécurités et les quatre modules laser : Longer"
+    }
+  ]
+}

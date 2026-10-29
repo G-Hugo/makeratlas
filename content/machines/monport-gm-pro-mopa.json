@@ -1,0 +1,175 @@
+{
+  "id": "monport-gm-pro-mopa",
+  "slug": "monport-gm-pro-mopa",
+  "name": "Monport GM Pro MOPA",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "catalogHidden": true,
+  "modelLine": "monport-gm-pro-mopa",
+  "tagline": "Compact all-in-one JPT MOPA fiber with autofocus, in 30W and 60W",
+  "tldr": "The GM Pro MOPA is Monport's integrated fiber with a JPT MOPA source: the pulse adjusts from 2 to 500 ns and the frequency from 1 to 4,000 kHz, which opens colour marking on stainless steel and titanium and cleaner black marks on aluminum. One-touch autofocus, electric lift and a 175 × 175 mm field on both tiers: 30W ($2,978) and 60W ($3,598) in October 2026. Open a tier for exact specs.",
+  "mainObjective": "Colour marking and fine metal engraving from a compact one-piece fiber",
+  "bestFor": [
+    "Colour marking",
+    "Jewelry & gifts",
+    "Anodized aluminum",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 2978,
+    "max": 3798,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: 30W MOPA $2,978, 60W MOPA $3,598; the LightBurn Pro bundle adds $200, the rotary bundle $150. A manual-focus GM 60W MOPA is listed at $3,500"
+  },
+  "specs": {
+    "power": "30–60W MOPA fiber",
+    "workArea": "175 × 175 mm",
+    "software": [
+      "BslAppSimple",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–10 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~500–2 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel (black and colour)",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Titanium (colour)",
+      "Gold & silver",
+      "Plastics",
+      "Stone"
+    ],
+    "cut": [
+      "Thin metal sheet (many passes)"
+    ],
+    "cannot": [
+      "Wood and acrylic production work",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Parts larger than the 175 × 175 mm field without repositioning"
+    ]
+  },
+  "pros": [
+    "JPT MOPA sources with 2–500 ns pulse control: colour on stainless steel and titanium, black marks on aluminum",
+    "Autofocus, electric lift and a 175 × 175 mm field on both tiers",
+    "Hundreds of dollars below Monport's split MOPA machines at the same power"
+  ],
+  "cons": [
+    "Open galvo with a Class 4 beam: an enclosure or strict eye protection is required",
+    "Colour marking takes test grids and patience: results depend on alloy and surface",
+    "400 mm maximum Z height, less than Monport's split GT series"
+  ],
+  "faq": [
+    {
+      "question": "Which GM Pro MOPA tier should I choose?",
+      "answer": "The 30W ($2,978) handles colour marking, black marking on aluminum and plastics well. The 60W ($3,598) doubles the pulse energy (2 mJ vs 1 mJ), which matters for deep engraving, relief and thin-sheet cutting. Both share the field, chassis and autofocus."
+    },
+    {
+      "question": "How does the GM Pro MOPA compare with Monport's GT 60W MOPA?",
+      "answer": "The GT is a split fiber with a separate source cabinet, a 550 mm Z height and an autofocus version listed at $4,270. The GM Pro 60W MOPA keeps autofocus and the same 175 × 175 mm field in a one-piece chassis for $3,598 (October 2026)."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gm-pro-mopa-colour",
+      "title": "Colour marking in a compact chassis",
+      "body": "Adjustable pulse width from 2 to 500 ns and frequency up to 4,000 kHz give controlled oxide colours on stainless steel and titanium from a machine that fits on a 40 × 33 cm footprint."
+    },
+    {
+      "id": "gm-pro-mopa-field",
+      "title": "Larger field than the GM Pro",
+      "body": "Both MOPA tiers use a 175 × 175 mm field, against 150 × 150 mm on the standard GM Pro, with the same autofocus and electric lift."
+    }
+  ],
+  "beginnerNotes": "This overview covers the GM Pro MOPA line. Choose the 30W for colour and fine marking on a budget, the 60W when depth and speed also count. For plain marking without colour, the standard GM Pro costs less.",
+  "proTips": "Build colour test grids on your own alloy before quoting colour jobs, and keep notes of speed, frequency and pulse settings: colours shift with surface finish.",
+  "primaryUse": "Integrated MOPA fiber laser for colour marking and metal engraving.",
+  "rating": {
+    "overall": 8.2,
+    "value": 8.4,
+    "easeOfUse": 8.2,
+    "capability": 8,
+    "buildQuality": 8.1
+  },
+  "similarModels": [
+    "commarker-b6-mopa-30w",
+    "monport-gt-60w-fiber",
+    "monport-gpro-vision-60w-mopa"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "releaseDate": "2025-10",
+  "image": "/machines/monport-gm-pro-mopa/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-gm-pro-mopa/01.webp",
+      "alt": "Monport GM Pro MOPA integrated fiber laser: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-mopa/02.webp",
+      "alt": "Monport GM Pro MOPA colour marking on a metal plate: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-mopa/03.webp",
+      "alt": "Monport GM Pro MOPA components: galvo, F-theta lens, Z axis and control panel: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-mopa/04.webp",
+      "alt": "Monport GM Pro MOPA rear ports: USB, rotary, foot pedal and enclosure signal: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-mopa/05.webp",
+      "alt": "Monport GM Pro MOPA on a desk with laptop and key specs: Monport"
+    }
+  ],
+  "tierEditorialOverride": true,
+  "enclosed": false,
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The GM Pro MOPA brings MOPA colour marking and autofocus to a one-piece fiber priced well below split MOPA machines, a good fit for jewelry, gifts and anodized aluminum work.",
+    "limitations": "The open galvo needs an enclosure or strict eye protection, colour work has a learning curve, and the specs are Monport's until independent reviews appear."
+  }
+}

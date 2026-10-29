@@ -1,0 +1,169 @@
+{
+  "id": "omtech-q3-50w",
+  "slug": "omtech-q3-50w",
+  "name": "OMTech Q3 50W",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "image": "/machines/omtech-q3-50w/01.webp",
+  "tagline": "50W Q-switched fiber for faster deep engraving, on the bench, split or handheld, for $2,699.99",
+  "tldr": "The Q3 50W is the faster version of OMTech's 3-in-1 fiber marker, listed on OMTech's store at the end of October 2026. It keeps the same desktop, split and handheld modes, the 150 × 150 mm field and the 170 mm processing height, with a 50W Q-switched source. OMTech lists 3 mm deep engraving, a 0.06 mm minimum line width and 10,000 mm/s, and its own deep-engraving example took about 60 minutes, roughly 45% less time than the entry version. At $2,699.99 (OMTech store, October 2026, regular price $4,899.99) it suits shops where engraving time is money; focus is manual and the laser is Class 4.",
+  "mainObjective": "Faster deep metal engraving for repeat jobs, including on large or fixed parts",
+  "bestFor": [
+    "Deep logos & serial plates",
+    "Repeat metal jobs",
+    "Large or fixed workpieces",
+    "Machine shops"
+  ],
+  "priceRange": {
+    "min": 2699.99,
+    "max": 2699.99,
+    "currency": "USD",
+    "note": "Official OMTech store, Oct 2026: $2,699.99 (regular price $4,899.99)"
+  },
+  "specs": {
+    "power": "50W fiber (Q-switch)",
+    "workArea": "150 × 150 mm",
+    "software": [
+      "OMTech Mark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "±0.002 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–6 min"
+      },
+      "cutExample": {
+        "description": "No cutting on this machine",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "10,000 mm/s",
+        "avgEngraveSpeed": "~800–2,000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Steel & stainless steel (deep engraving)",
+      "Aluminum",
+      "Brass",
+      "Titanium",
+      "Gold & silver",
+      "Some hard plastics and stone (after testing)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood and paper (OMTech warning)",
+      "PVC and PTFE",
+      "Color marking on stainless (needs a MOPA)",
+      "Fields larger than 150 × 150 mm in one go"
+    ]
+  },
+  "pros": [
+    "About 45% less time than the entry version on OMTech's deep-engraving example (60 minutes against 110)",
+    "Same desktop, split and handheld modes, with the 150 × 150 mm field kept on the handheld head",
+    "$2,699.99 in October 2026, close to a fixed Gweike G2 50W ($2,499) with a larger field and the handheld head"
+  ],
+  "cons": [
+    "$900 more than the entry version for the same field, focus and features: you pay only for time saved",
+    "Q-switched source: no color marking on stainless steel, unlike a MOPA",
+    "Class 4 laser with manual focus and no camera: goggles, a controlled area and careful setup for every job"
+  ],
+  "beginnerNotes": "This profile is the 50W version of the OMTech Q3. It makes sense if you engrave deep logos, serial plates or molds, or run repeat jobs where time counts. Compare the entry Q3 with the chips above if your marks are mostly shallow.",
+  "proTips": "Use the extra power for depth with multiple passes and a cleaning pass at the end, rather than slowing one pass to a crawl. For long handheld jobs, rest the focusing hood flat on the part and plan breaks: the head weighs 3.2 kg.",
+  "primaryUse": "50W version of the OMTech Q3: faster deep metal engraving on the bench, split or handheld",
+  "rating": {
+    "overall": 8,
+    "value": 8.2,
+    "easeOfUse": 7.9,
+    "capability": 7.6,
+    "buildQuality": 8
+  },
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 50W Q3 is for shops where engraving time matters: OMTech's own example nearly halves the time of the entry version on deep work. The handheld mode makes it a single tool for bench parts and for equipment that cannot be moved, and the price stays close to fixed 50W desktop fibers.",
+    "limitations": "Speed is the only gain over the cheaper version: same field, same manual focus, same Class 4 constraints. It cannot produce colors on stainless steel, and like the whole line it has no owner feedback yet."
+  },
+  "similarModels": [
+    "gweike-g2-50w",
+    "monport-gt-50w-fiber",
+    "omtech-q3-30w"
+  ],
+  "faq": [
+    {
+      "question": "How much faster is the OMTech Q3 50W?",
+      "answer": "In OMTech's illustrated deep-engraving example, the 50W took about 60 minutes against about 110 for the 30W, roughly 45% less time. OMTech notes that savings depend on material, design and settings. For shallow marks on tags the gap is much smaller."
+    },
+    {
+      "question": "Can I use the Q3 50W handheld on large parts?",
+      "answer": "Yes, when the surface lets the focusing hood sit flat against it. The quick-release head stays connected to the main unit and the computer, weighs 3.2 kg and keeps a 150 × 150 mm field. It suits tool cabinets, panels, molds and machines that cannot be moved."
+    },
+    {
+      "question": "Q3 50W or a MOPA fiber?",
+      "answer": "Take the Q3 50W for black, white and deep marks on metal at a lower price. A MOPA adds adjustable pulse width for colors on stainless steel and finer control on plastics: the Commarker B6 MOPA 30W started at $3,099 and the OMTech Solis Duo 60W MOPA at $4,999.99 in October 2026."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "q3-50w-speed",
+      "title": "Deep engraving in half the time",
+      "body": "OMTech's deep-engraving example took about 60 minutes on the 50W against 110 on the entry version, a real gain for serial plates and repeat logos."
+    },
+    {
+      "id": "q3-50w-handheld",
+      "title": "50W in a handheld head",
+      "body": "The quick-release head brings the 50W source to parts that cannot be moved, keeping the 150 × 150 mm field, the same as on the bench."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "images": [
+    {
+      "src": "/machines/omtech-q3-50w/01.webp",
+      "alt": "OMTech Q3 50W fiber laser marker in desktop mode: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3-50w/02.webp",
+      "alt": "OMTech Q3 deep engraving, 0.06 mm lines and 10,000 mm/s marking: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3-50w/03.webp",
+      "alt": "OMTech Q3 key specs: 170 mm height, 150 × 150 mm field and 0–30° tilt: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3-50w/04.webp",
+      "alt": "OMTech Q3 handheld head next to the processing unit: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3-50w/05.webp",
+      "alt": "OMTech Q3 power comparison: about 110 minutes at 30W against 60 minutes at 50W: OMTech"
+    }
+  ],
+  "modelLine": "omtech-q3",
+  "powerRating": "50W",
+  "releaseDate": "2026-10",
+  "tierEditorialOverride": true,
+  "enclosed": false
+}

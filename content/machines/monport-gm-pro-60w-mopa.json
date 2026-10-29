@@ -1,0 +1,180 @@
+{
+  "id": "monport-gm-pro-60w-mopa",
+  "slug": "monport-gm-pro-60w-mopa",
+  "name": "Monport GM Pro 60W MOPA",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "60W",
+  "modelLine": "monport-gm-pro-mopa",
+  "catalogPrimary": true,
+  "tagline": "Integrated 60W JPT MOPA with autofocus: colour marking plus real engraving depth",
+  "tldr": "The GM Pro 60W MOPA is the most powerful version of Monport's integrated fiber: a 60W JPT MOPA source with 2 mJ of pulse energy, adjustable 2–500 ns pulse, one-touch autofocus and a 175 × 175 mm field. It covers colour marking and deeper engraving (0.10 mm listed per pass) in one compact machine. $3,598 on Monport's store in October 2026, about $670 less than the split GT 60W MOPA with autofocus.",
+  "mainObjective": "Colour marking, deep engraving and relief on a compact one-piece MOPA",
+  "bestFor": [
+    "Colour marking",
+    "Deep engraving",
+    "3D relief",
+    "Small production"
+  ],
+  "priceRange": {
+    "min": 3598,
+    "max": 3798,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $3,598 machine only, $3,748 with rotary axis, $3,798 with LightBurn Pro; a manual-focus GM 60W MOPA sells for $3,500"
+  },
+  "specs": {
+    "power": "60W MOPA fiber",
+    "workArea": "175 × 175 mm",
+    "software": [
+      "BslAppSimple",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–6 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~500–2 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel (black and colour)",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Titanium (colour)",
+      "Gold & silver",
+      "Plastics",
+      "Stone"
+    ],
+    "cut": [
+      "Thin metal sheet (many passes)"
+    ],
+    "cannot": [
+      "Wood and acrylic production work",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Parts larger than the 175 × 175 mm field without repositioning"
+    ]
+  },
+  "pros": [
+    "2 mJ pulse energy with full MOPA pulse control: colour work and deep engraving from one machine",
+    "About $670 less than Monport's split GT 60W MOPA with autofocus ($4,270, Monport store, Oct 2026)",
+    "175 × 175 mm field, autofocus and electric lift in a 40 × 33 cm footprint"
+  ],
+  "cons": [
+    "Only $98 more than the manual-focus GM 60W MOPA: check which version is in the cart",
+    "400 mm maximum Z height, against 550 mm on the split GT series",
+    "Open galvo and Class 4 beam: an enclosure or strict eye protection is required"
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between the GM Pro 60W MOPA and the GM 60W MOPA?",
+      "answer": "The Pro version has one-touch autofocus and an electric lift; the GM 60W MOPA, listed on the same page at $3,500 in October 2026, is set by hand. For $98 more, the autofocus version is the easier daily machine."
+    },
+    {
+      "question": "GM Pro 60W MOPA or GPro Vision 60W MOPA?",
+      "answer": "Both use a 60W MOPA source and a 175 × 175 mm field. The GPro Vision is a split fiber with a 16 MP positioning camera at $5,299; the GM Pro 60W MOPA is a one-piece machine without camera at $3,598 (October 2026). Pay for the camera only if you place artwork on many irregular finished parts."
+    },
+    {
+      "question": "Can the GM Pro 60W MOPA cut metal?",
+      "answer": "Thin sheet, in many passes. With 2 mJ of pulse energy it is the strongest tier of the line for cut-outs and deep relief, but it remains a marking laser with a 175 × 175 mm field."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gm60mopa-range",
+      "title": "Colour and depth in one machine",
+      "body": "2 mJ of pulse energy and a 2–500 ns adjustable pulse: oxide colours on stainless steel, black marks on aluminum and deep relief on the same compact chassis."
+    },
+    {
+      "id": "gm60mopa-price",
+      "title": "MOPA 60W under $3,600",
+      "body": "At $3,598 in October 2026 the GM Pro 60W MOPA undercuts Monport's split GT 60W MOPA with autofocus by about $670 and the GPro Vision 60W MOPA by about $1,700."
+    }
+  ],
+  "beginnerNotes": "This profile is the 60W tier of the GM Pro MOPA, the version to pick when colour and engraving depth both matter. Compare the other tier via the chips.",
+  "proTips": "For deep relief, use long pulses and high power with several passes, refocusing with the autofocus as the surface goes down; switch to short pulses for the final cleaning pass to brighten the bottom.",
+  "primaryUse": "60W MOPA fiber · Monport GM Pro MOPA",
+  "rating": {
+    "overall": 8.2,
+    "value": 8.4,
+    "easeOfUse": 8.2,
+    "capability": 8,
+    "buildQuality": 8.1
+  },
+  "similarModels": [
+    "monport-gt-60w-fiber",
+    "monport-gpro-vision-60w-mopa",
+    "creality-falcon-t1-60w-mopa"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "releaseDate": "2025-10",
+  "image": "/machines/monport-gm-pro-60w-mopa/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-gm-pro-60w-mopa/01.webp",
+      "alt": "Monport GM Pro 60W MOPA integrated fiber laser: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-60w-mopa/02.webp",
+      "alt": "Monport GM Pro MOPA, side view of the column and base: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-60w-mopa/03.webp",
+      "alt": "Monport GM Pro MOPA colour marking on a metal plate: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-60w-mopa/04.webp",
+      "alt": "Monport GM Pro MOPA uses: colour marking, deep engraving and thin-sheet cutting: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-60w-mopa/05.webp",
+      "alt": "Monport GM Pro MOPA components: galvo, F-theta lens, Z axis and control panel: Monport"
+    }
+  ],
+  "tierEditorialOverride": true,
+  "enclosed": false,
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The GM Pro 60W MOPA is the strongest value in Monport's MOPA range: colour, black marking and deep engraving with autofocus, for well under the price of the split machines.",
+    "limitations": "No camera, a 400 mm Z height that limits tall parts, and an open galvo that needs an enclosure or strict eye protection. Specs are Monport's until independent tests arrive."
+  }
+}

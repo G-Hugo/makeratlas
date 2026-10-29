@@ -1,0 +1,159 @@
+{
+  "id": "monport-gm-20w-fiber",
+  "slug": "monport-gm-20w-fiber",
+  "name": "Monport GM 20W Fiber",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "20W",
+  "modelLine": "monport-gm-pro",
+  "tagline": "Manual-focus integrated fiber for small tags: the entry model sold alongside the GM Pro",
+  "tldr": "The GM 20W is the low-cost model on Monport's GM Pro page: an integrated 20W fiber with manual focus and a 110 × 110 mm field, $1,410 on Monport's store in October 2026. It suits tags, jewelry and small tools. Monport gives few figures for it: no source brand, depth or weight on the product page, so treat it as a budget marker rather than an engraving machine.",
+  "mainObjective": "Low-cost marking of small metal parts",
+  "bestFor": [
+    "Pet tags",
+    "Jewelry",
+    "Small tools",
+    "First fiber"
+  ],
+  "priceRange": {
+    "min": 1410,
+    "max": 1610,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $1,410 machine only, $1,560 with rotary axis, $1,610 with LightBurn Pro"
+  },
+  "specs": {
+    "power": "20W fiber",
+    "workArea": "110 × 110 mm",
+    "software": [
+      "BslAppSimple",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~6–14 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "—",
+        "avgEngraveSpeed": "—",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Gold & silver",
+      "Hard plastics"
+    ],
+    "cut": [],
+    "cannot": [
+      "Deep engraving or metal cut-outs",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Parts larger than the 110 × 110 mm field without repositioning"
+    ]
+  },
+  "pros": [
+    "Lowest price in Monport's fiber range at $1,410 (Monport store, Oct 2026)",
+    "Integrated one-piece design: source, galvo and column on a single base",
+    "Rotary and LightBurn bundles offered at the same small price steps as the Pro tiers"
+  ],
+  "cons": [
+    "Manual focus: height is set by hand for every new part",
+    "Small 110 × 110 mm field, limiting for tumblers and larger plates",
+    "Specs largely missing from the product page: source, marking depth and weight are not listed"
+  ],
+  "faq": [
+    {
+      "question": "What does the GM 20W lack compared with the GM Pro tiers?",
+      "answer": "Autofocus and the electric lift: focus is set manually. The field is also smaller (110 × 110 mm instead of 150 × 150 mm), and Monport does not publish its source, depth or pulse figures in the comparison table that covers the Pro tiers."
+    },
+    {
+      "question": "Can the GM 20W engrave deeply or cut metal?",
+      "answer": "It is not meant for that. A 20W Q-switched fiber marks and lightly engraves metal; deep relief and thin-sheet cut-outs take many passes and are better left to the higher-power tiers."
+    },
+    {
+      "question": "Is the GM 20W worth it over a 20W integrated fiber from another brand?",
+      "answer": "It is priced in the same range as Gweike's G2 20W ($1,299) and close to the ComMarker B4 20W ($1,399). The GM 20W's case rests on Monport's US support and bundles; the published specs are thinner than its rivals', so compare field size and focus type before buying."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gm20-price",
+      "title": "Monport's cheapest fiber",
+      "body": "At $1,410 in October 2026, the GM 20W is the least expensive way into Monport's fiber range, with the same rotary and LightBurn bundle options as the Pro tiers."
+    },
+    {
+      "id": "gm20-small-field",
+      "title": "Sized for small parts",
+      "body": "The 110 × 110 mm field covers tags, rings, pendants, keys and small tools, the bread-and-butter of a home or market-stall marking business."
+    }
+  ],
+  "beginnerNotes": "This profile is the manual-focus GM 20W sold on the GM Pro page. Compare the Pro tiers via the chips if you want autofocus or a larger field.",
+  "proTips": "Use the red-dot preview and a focus gauge to set height precisely on each part type, then note the value for repeat jobs.",
+  "primaryUse": "20W fiber · Monport GM, manual focus",
+  "rating": {
+    "overall": 7.6,
+    "value": 8.3,
+    "easeOfUse": 7.8,
+    "capability": 6.9,
+    "buildQuality": 7.9
+  },
+  "similarModels": [
+    "gweike-g2-20w",
+    "commarker-b4-20w",
+    "sculpfun-g20"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "releaseDate": "2025-10",
+  "image": "/machines/monport-gm-20w-fiber/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-gm-20w-fiber/01.webp",
+      "alt": "Monport GM 20W manual-focus integrated fiber laser: Monport"
+    }
+  ],
+  "tierEditorialOverride": true,
+  "enclosed": false,
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The GM 20W makes sense for a small marking side business on a strict budget: tags, jewelry and tools fit its field, and the price leaves room for an enclosure and safety gear.",
+    "limitations": "Manual focus slows mixed-height work, the field is small, and Monport publishes few specifications for this model. Anyone planning deep engraving should look at a higher-power tier."
+  }
+}

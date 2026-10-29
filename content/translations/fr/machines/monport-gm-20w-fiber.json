@@ -1,0 +1,85 @@
+{
+  "tagline": "Fibre intégrée à mise au point manuelle pour les petites plaques : le modèle d’entrée vendu avec la GM Pro",
+  "tldr": "La GM 20 W est le modèle économique de la page GM Pro de Monport : une fibre intégrée de 20 W à mise au point manuelle avec un champ de 110 × 110 mm, à 1 410 $ sur la boutique Monport en octobre 2026. Elle convient aux médailles, aux bijoux et aux petits outils. Monport donne peu de chiffres : ni marque de source, ni profondeur, ni poids sur la page produit. Voyez-la comme un marqueur à petit budget plutôt que comme une machine de gravure.",
+  "mainObjective": "Marquage économique de petites pièces en métal",
+  "primaryUse": "Fibre 20 W · Monport GM, mise au point manuelle",
+  "beginnerNotes": "Cette fiche décrit la GM 20 W à mise au point manuelle vendue sur la page GM Pro. Comparez les versions Pro via les pastilles si vous voulez l’autofocus ou un champ plus grand.",
+  "proTips": "Servez-vous de l’aperçu au point rouge et d’une cale de mise au point pour régler la hauteur de chaque type de pièce, puis notez la valeur pour les séries.",
+  "bestFor": [
+    "Médailles pour animaux",
+    "Bijoux",
+    "Petits outils",
+    "Première fibre"
+  ],
+  "pros": [
+    "Le prix le plus bas des fibres Monport, à 1 410 $ (boutique Monport, oct. 2026)",
+    "Conception monobloc : source, galvo et colonne sur un seul socle",
+    "Offres avec axe rotatif ou LightBurn aux mêmes petits suppléments que les versions Pro"
+  ],
+  "cons": [
+    "Mise au point manuelle : la hauteur se règle à la main à chaque nouvelle pièce",
+    "Petit champ de 110 × 110 mm, limitant pour les gobelets et les grandes plaques",
+    "Caractéristiques en grande partie absentes de la page produit : source, profondeur de marquage et poids ne sont pas indiqués"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Or et argent",
+      "Plastiques durs"
+    ],
+    "cut": [],
+    "cannot": [
+      "Gravure profonde ou découpe de métal",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Pièces plus grandes que le champ de 110 × 110 mm sans repositionnement"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 1 410 $ la machine seule, 1 560 $ avec axe rotatif, 1 610 $ avec LightBurn Pro"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Que manque-t-il à la GM 20 W par rapport aux versions GM Pro ?",
+      "answer": "L’autofocus et le relevage électrique : la mise au point se fait à la main. Le champ est aussi plus petit (110 × 110 mm au lieu de 150 × 150 mm), et Monport ne publie ni sa source, ni sa profondeur, ni ses valeurs d’impulsion dans le tableau comparatif qui couvre les versions Pro."
+    },
+    {
+      "question": "La GM 20 W peut-elle graver en profondeur ou découper du métal ?",
+      "answer": "Ce n’est pas son rôle. Une fibre Q-switch de 20 W marque et grave légèrement le métal ; les reliefs profonds et la découpe de tôle fine demandent de nombreuses passes et reviennent plutôt aux versions plus puissantes."
+    },
+    {
+      "question": "La GM 20 W vaut-elle mieux qu’une fibre intégrée de 20 W d’une autre marque ?",
+      "answer": "Elle se situe dans la même zone de prix que la Gweike G2 20 W (1 299 $) et près de la ComMarker B4 20 W (1 399 $). Ses arguments tiennent au support américain de Monport et aux offres groupées ; ses caractéristiques publiées sont plus minces que celles de ses rivales, donc comparez la taille du champ et le type de mise au point avant d’acheter."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "La fibre la moins chère de Monport",
+      "body": "À 1 410 $ en octobre 2026, la GM 20 W est l’entrée la moins chère dans les fibres de Monport, avec les mêmes offres axe rotatif et LightBurn que les versions Pro."
+    },
+    {
+      "title": "Taillée pour les petites pièces",
+      "body": "Le champ de 110 × 110 mm couvre les médailles, bagues, pendentifs, clés et petits outils, le cœur d’une activité de marquage à domicile ou sur les marchés."
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La GM 20 W a du sens pour une petite activité de marquage avec un budget serré : médailles, bijoux et outils tiennent dans son champ, et le prix laisse de quoi financer un caisson et l’équipement de sécurité.",
+    "limitations": "La mise au point manuelle ralentit le travail sur des pièces de hauteurs variées, le champ est petit et Monport publie peu de caractéristiques pour ce modèle. Pour de la gravure profonde, regardez une version plus puissante."
+  },
+  "images": [
+    {
+      "alt": "Laser fibre intégré Monport GM 20 W à mise au point manuelle : Monport"
+    }
+  ]
+}

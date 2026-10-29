@@ -1,0 +1,146 @@
+{
+  "id": "longer-ray7",
+  "slug": "longer-ray7",
+  "name": "Longer Ray7",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/longer-ray7/01.webp",
+  "tagline": "Open-frame diode at 600 mm/s with a 405 × 410 mm bed, sold in 7.5W, 15W, 20W and 40W versions",
+  "tldr": "The Longer Ray7, launched in October 2026, is an open-frame diode laser with an upgraded controller, 600 mm/s motion, a dual-shaft X-axis with metal rollers, Wi-Fi and a bed of about 405 × 405 mm. Longer sells four laser powers: 7.5W at $229.99, 15W at $299.99, 20W at $429.99 and 40W at $669.99 (Longer store, October 2026). Air pump, autofocus and camera are optional. Open a version for exact specs and benchmarks.",
+  "mainObjective": "Fast open-frame engraving and cutting on a full-size bed, with a power level for each budget",
+  "bestFor": [
+    "Hobby engraving",
+    "Mixed engrave & cut",
+    "Large bed on a budget",
+    "Side business"
+  ],
+  "priceRange": {
+    "min": 229.99,
+    "max": 669.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: 7.5W $229.99, 15W $299.99, 20W $429.99, 40W $669.99"
+  },
+  "specs": {
+    "power": "7.5W / 15W / 20W / 40W diode",
+    "workArea": "405 × 400 – 405 × 410 mm",
+    "software": [
+      "Longer Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "microSD (TF)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–36 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–30 min"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.06 – 0.10 × 0.15 mm",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~40–300 mm/s",
+        "avgCutSpeed": "~1–12 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Glass & ceramic (with care)",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "Basswood 2–15 mm per pass depending on power (our estimate)",
+      "Plywood",
+      "Dark acrylic",
+      "Leather, felt & card"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal marking",
+      "CO₂-speed production",
+      "Use without safety glasses"
+    ]
+  },
+  "pros": [
+    "600 mm/s motion and a stiffer dual-shaft X-axis than the Ray5",
+    "Full 405 × 410 mm class bed from $229.99",
+    "Four powers on the same frame, from a fine engraver to a 40W cutter"
+  ],
+  "cons": [
+    "Open frame: glasses, extraction and a fire-safe surface required",
+    "Air pump, autofocus and camera are all extras",
+    "New in October 2026: no independent reviews yet"
+  ],
+  "beginnerNotes": "This overview covers the whole Longer Ray7 line. Take the 7.5W or 15W if you mostly engrave, the 20W for mixed engraving and cutting, and the 40W if thick cuts are the main job. All four share the same frame, controller and software.",
+  "proTips": "Plan for the air pump if you cut, and a honeycomb bed for cleaner undersides. Wear the right safety glasses and extract the smoke. Run a material test grid before production runs.",
+  "primaryUse": "Open-frame diode laser line for hobby engraving and cutting on a 405 mm class bed",
+  "rating": {
+    "overall": 7.9,
+    "value": 7.9,
+    "easeOfUse": 8.3,
+    "capability": 8,
+    "buildQuality": 7.4
+  },
+  "editorialDepth": {
+    "advantages": "The Ray7 succeeds the Ray5 as Longer's main open-frame laser: three times the Ray5 20W's top speed, a stiffer X-axis and Wi-Fi at similar prices. The module choice decides what it does: fine engraving at 7.5W or 15W, mixed work at 20W, thick cuts at 40W.",
+    "limitations": "Open frame at every power: glasses, extraction and fire safety are on you. Air pump, autofocus and camera cost extra. Launched in October 2026, the Ray7 has no independent reviews yet."
+  },
+  "similarModels": [
+    "longer-ray5",
+    "longer-ray7s",
+    "atomstack-a40-pro"
+  ],
+  "faq": [
+    {
+      "question": "Which Longer Ray7 should I buy?",
+      "answer": "The 7.5W ($229.99) or 15W ($299.99) if you mostly engrave; the 20W ($429.99) for regular cuts in 3–6 mm plywood; the 40W ($669.99) if thick cuts are the main job. Prices are on Longer's store in October 2026."
+    },
+    {
+      "question": "Ray7 or Ray5?",
+      "answer": "The Ray7 moves faster (600 mm/s against 200 mm/s for the Ray5 20W), has a stiffer dual-shaft X-axis and Wi-Fi, at similar prices. The Ray5 keeps a touchscreen and years of owner feedback."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "images": [
+    {
+      "src": "/machines/longer-ray7/01.webp",
+      "alt": "Longer Ray7 open-frame laser engraver, shown with the optional rotary: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7/02.webp",
+      "alt": "Longer Ray7 frame with the laser module and control box: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7/03.webp",
+      "alt": "Longer Ray7 405 × 410 mm working area: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7/04.webp",
+      "alt": "Longer Ray7 control box with emergency stop, USB and TF card ports: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7/05.webp",
+      "alt": "Longer Ray7 feature overview: 36,000 mm/min, safety features and the four laser modules: Longer"
+    }
+  ],
+  "modelLine": "longer-ray7",
+  "catalogHidden": true,
+  "releaseDate": "2026-10",
+  "tierEditorialOverride": true,
+  "enclosed": false
+}

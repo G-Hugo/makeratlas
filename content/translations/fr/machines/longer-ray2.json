@@ -1,0 +1,85 @@
+{
+  "tagline": "La petite diode fermée classe 1 de Longer, en versions 7,5 W et 15 W dès 239,99 $",
+  "tldr": "La Ray2 est le petit laser fermé de Longer, lancé le 21 octobre 2026 : un caisson classe 1 livré monté, avec capot ambré, alarmes de flamme et de basculement, arrêt d’urgence et une surface de travail de 130 × 110 mm. Longer la vend avec une diode de 7,5 W (239,99 $) ou de 15 W (319,99 $) en pack de base (boutique Longer États-Unis, octobre 2026). Les deux partagent le même caisson, le même plateau et la même vitesse maximale de 12 000 mm/min ; la 15 W ajoute un point plus fin et découpe 10 mm de tilleul en une passe au lieu de 6 mm. Ouvrez une version pour les caractéristiques et les mesures exactes.",
+  "mainObjective": "Un laser fermé à petit prix pour les petits cadeaux, les médailles et les dessous de verre à la maison",
+  "primaryUse": "Gamme de lasers diode fermés et compacts pour la gravure de petits objets et la découpe légère à la maison",
+  "beginnerNotes": "Cette vue d’ensemble couvre toute la gamme Longer Ray2. Prenez la 7,5 W si vous gravez surtout de petits objets en bois, en cuir ou en papier, la 15 W si vous voulez aussi découper du bois fin. Les deux versions partagent le même caisson, le même plateau et le même logiciel ; comparez-les avec les pastilles ci-dessus.",
+  "proTips": "Mesurez vos objets habituels avant d’acheter : le plateau de 130 × 110 mm exclut la plupart des planches à découper et des panneaux. Prévoyez une ventilation même capot fermé : le caisson arrête le faisceau, pas la fumée.",
+  "bestFor": [
+    "Premier laser à la maison",
+    "Petits cadeaux et médailles",
+    "Familles avec enfants à proximité",
+    "Petits budgets"
+  ],
+  "pros": [
+    "Caisson classe 1 avec alarmes de flamme et de basculement et arrêt d’urgence, dès 239,99 $",
+    "Livrée montée : aucun châssis à assembler ni à régler",
+    "Compatible avec LightBurn et LaserGRBL, en plus du logiciel LaserBurn de Longer"
+  ],
+  "cons": [
+    "Plateau de 130 × 110 mm : dessous de verre, médailles et petites plaques seulement",
+    "Pas de caméra, et Longer n’annonce pas de filtre à fumée",
+    "Trop récente pour des avis de propriétaires ou des tests indépendants"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Papier et carton",
+      "Tissu",
+      "Inox (marquage de surface, selon Longer)"
+    ],
+    "cut": [
+      "Tilleul jusqu’à 10 mm en une passe (15 W)",
+      "Contreplaqué fin",
+      "Cuir, feutre et papier"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Tout objet de plus de 130 × 110 mm",
+      "Gravure profonde du métal nu",
+      "Bois dur épais"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 7,5 W en pack de base 239,99 $, 15 W en pack de base 319,99 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray2 ramène un caisson classe 1 au prix d’un laser d’initiation à structure ouverte. Pour une première machine à la maison, avec des enfants ou des animaux autour, le caisson fermé, les alarmes et la livraison montée lèvent l’essentiel des soucis d’installation et de sécurité.",
+    "limitations": "La contrepartie, c’est la taille : 130 × 110 mm limite la machine aux petits objets, et les deux versions sont des diodes de faible puissance qui ne découpent ni l’acrylique transparent ni le bois épais. La gamme est toute neuve : aucun retour de propriétaires sur la fiabilité pour l’instant."
+  },
+  "faq": [
+    {
+      "question": "Quelle Longer Ray2 choisir ?",
+      "answer": "La 7,5 W (239,99 $) si vous gravez surtout de petits objets ; la 15 W (319,99 $) si vous voulez aussi découper du tilleul ou du contreplaqué jusqu’à environ 10 mm. Les 80 $ d’écart paient la profondeur de découpe et un point plus fin, pas un plateau plus grand. Prix des packs de base sur la boutique Longer États-Unis en octobre 2026."
+    },
+    {
+      "question": "Quelle taille de projet accepte la Ray2 ?",
+      "answer": "Longer annonce une surface de travail de 130 × 110 mm pour les deux versions. Cela couvre les dessous de verre, porte-clés, médailles, petites plaques et portefeuilles, mais pas les planches à découper, les grands panneaux ni les feuilles A4."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée Longer Ray2 : Longer"
+    },
+    {
+      "alt": "Longer Ray2 avec des exemples gravés sur bois, cuir et lampe : Longer"
+    },
+    {
+      "alt": "Présentation de la Longer Ray2 avec les options 7,5 W et 15 W : Longer"
+    },
+    {
+      "alt": "Sécurités classe 1 de la Longer Ray2 : alarme de flamme, arrêt à l’ouverture du capot et bouton d’urgence : Longer"
+    }
+  ]
+}

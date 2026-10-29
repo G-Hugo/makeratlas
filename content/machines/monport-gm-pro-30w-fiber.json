@@ -1,0 +1,180 @@
+{
+  "id": "monport-gm-pro-30w-fiber",
+  "slug": "monport-gm-pro-30w-fiber",
+  "name": "Monport GM Pro 30W Fiber",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "30W",
+  "modelLine": "monport-gm-pro",
+  "catalogPrimary": true,
+  "tagline": "Integrated 30W fiber with one-touch autofocus: Monport's budget everyday marker",
+  "tldr": "The GM Pro 30W is an integrated fiber marker with a 30W MAX source, one-touch autofocus, electric lift and a 150 × 150 mm field. Monport lists 10,000 mm/s, 0.08 mm maximum marking depth and M² below 1.5. At $1,999.99 on Monport's store in October 2026 it undercuts the split GT 30W by about $440. No colour marking: the source has a fixed pulse.",
+  "mainObjective": "Everyday marking of tags, tools and tumblers with autofocus",
+  "bestFor": [
+    "Tags & jewelry",
+    "Tools & knives",
+    "Tumblers (rotary)",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 1999.99,
+    "max": 2199.99,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $1,999.99 machine only, $2,149.99 with rotary axis, $2,199.99 with LightBurn Pro"
+  },
+  "specs": {
+    "power": "30W fiber",
+    "workArea": "150 × 150 mm",
+    "software": [
+      "BslAppSimple",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–11 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~500–2 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Titanium",
+      "Gold & silver",
+      "Hard plastics",
+      "Stone"
+    ],
+    "cut": [
+      "Thin metal sheet (many passes)"
+    ],
+    "cannot": [
+      "Wood and acrylic production work",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Parts larger than the 150 × 150 mm field without repositioning"
+    ]
+  },
+  "pros": [
+    "Autofocus and electric lift for $1,999.99, about $440 less than the split GT 30W (Monport store, Oct 2026)",
+    "Tight beam (M² below 1.5) for small text, serial numbers and QR codes",
+    "Package includes safety goggles, positioning bars and test aluminum sheets"
+  ],
+  "cons": [
+    "Q-switched MAX source with a fixed 80–120 ns pulse: no controlled colour marking",
+    "0.78 mJ pulse energy and 0.08 mm listed depth: slow for deep engraving",
+    "Heaviest tier of the line at 17.1 kg despite the lowest power with autofocus"
+  ],
+  "faq": [
+    {
+      "question": "How deep can the GM Pro 30W engrave?",
+      "answer": "Monport lists a maximum marking depth of 0.08 mm per job setting, with 0.78 mJ of pulse energy; deeper relief comes from repeated passes. In our benchmark estimate, a filled 10 × 10 cm logo on stainless steel takes about 4–11 minutes depending on fill density."
+    },
+    {
+      "question": "GM Pro 30W or GM Pro 50W?",
+      "answer": "The 30W ($1,999.99) covers marking, tags and light engraving. The 50W ($2,498) shares the field, chassis and autofocus but adds pulse energy (1.1 mJ vs 0.78 mJ) and a deeper listed mark (0.10 mm), which shortens deep logos and thin-metal cut-outs. For $500 more, the 50W is the better buy if engraving depth pays the bills."
+    },
+    {
+      "question": "Does the GM Pro 30W need an enclosure?",
+      "answer": "It is an open galvo with a Class 4 invisible beam. Monport includes safety goggles; an enclosure (Monport sells one for integrated fibers) is strongly advised if other people or pets share the room."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gm30pro-autofocus-price",
+      "title": "Autofocus under $2,000",
+      "body": "One-touch autofocus and an electric Z lift at $1,999.99 in October 2026: switching between a flat tag and a taller tool no longer means adjusting focus by hand."
+    },
+    {
+      "id": "gm30pro-beam",
+      "title": "Fine beam for detail",
+      "body": "Monport lists M² below 1.5 for the 30W, the tightest of the two MAX sources in the line, which favours small text and dense QR codes over raw depth."
+    }
+  ],
+  "beginnerNotes": "This profile is the 30W tier of the GM Pro, the default choice for everyday metal marking with autofocus. Compare the other tiers via the chips.",
+  "proTips": "Start with Monport's material presets, then refine speed and frequency on test squares. Clean the F-theta lens regularly: residue from coated tumblers builds up quickly.",
+  "primaryUse": "30W fiber · Monport GM Pro",
+  "rating": {
+    "overall": 7.9,
+    "value": 8.3,
+    "easeOfUse": 8.3,
+    "capability": 7.3,
+    "buildQuality": 8.1
+  },
+  "similarModels": [
+    "gweike-g2-30w",
+    "monport-gt-30w-fiber",
+    "commarker-b4-20w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "releaseDate": "2025-10",
+  "image": "/machines/monport-gm-pro-30w-fiber/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-gm-pro-30w-fiber/01.webp",
+      "alt": "Monport GM Pro 30W integrated fiber laser: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-30w-fiber/02.webp",
+      "alt": "Monport GM Pro, side view of the column and base: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-30w-fiber/03.webp",
+      "alt": "Monport GM Pro components: galvo, F-theta lens, Z axis and control panel: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-30w-fiber/04.webp",
+      "alt": "Monport GM Pro rear ports: USB, rotary, foot pedal and enclosure signal: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-30w-fiber/05.webp",
+      "alt": "Monport GM Pro 30W package contents: goggles, positioning bars, test sheets and cables: Monport"
+    }
+  ],
+  "tierEditorialOverride": true,
+  "enclosed": false,
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The GM Pro 30W gives a small shop autofocus and a precise beam for the price of a basic manual fiber, which suits tags, tools and personalised tumblers well.",
+    "limitations": "No colour marking, modest depth per pass and a 150 × 150 mm field. The specs are Monport's; no independent review yet."
+  }
+}

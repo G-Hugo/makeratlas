@@ -1,0 +1,109 @@
+{
+  "tagline": "La Ray7S de découpe : une diode de 40 W avec pompe à air dans un caisson classe 1, pour le bois épais et l’acrylique foncé",
+  "tldr": "La Ray7S 40 W est le haut de la nouvelle gamme fermée de Longer : 849,99 $ en lot de base sur la boutique Longer en octobre 2026, et la seule Ray7S livrée avec la pompe à air. Longer la montre en train de découper 30 mm de tilleul et 35 mm d’acrylique noir, sans préciser le nombre de passes ; selon notre estimation, elle découpe 10 à 15 mm de tilleul en une passe. Le firmware Klipper, les 600 mm/s et le caisson classe 1 s’accompagnent d’une surface modeste de 305 × 300 mm, pour environ 850 $ de moins que la 40 W fermée d’xTool.",
+  "mainObjective": "Découper du contreplaqué épais et de l’acrylique foncé dans un caisson fermé classe 1 à la maison",
+  "primaryUse": "Module 40 W · Longer Ray7S",
+  "beginnerNotes": "Cette fiche décrit la version 40 W de la Longer Ray7S. Prenez-la si la découpe de contreplaqué épais, de boîtes ou d’acrylique foncé est votre travail principal et que vous voulez garder le faisceau dans un caisson classe 1. Comparez les autres versions de la Ray7S avec les pastilles ci-dessus si vous gravez surtout : les petits modules ont des points plus fins et coûtent bien moins cher. Prévoyez une sortie d’extraction vers l’extérieur dès le premier jour.",
+  "proTips": "Faites sortir l’extraction à l’extérieur : à 40 W, un caisson fermé se remplit vite de fumée. Découpez le bois épais en plusieurs passes plus rapides pour limiter la carbonisation et les flammes, et gardez le capot teinté propre. Descendez bien sous la moitié de la puissance pour les photos, sinon le point large brouille le détail.",
+  "bestFor": [
+    "Découpe de bois épais",
+    "Atelier fermé à la maison",
+    "Acrylique foncé",
+    "Séries pour petite activité"
+  ],
+  "pros": [
+    "Pompe à air incluse, contrairement aux Ray7S moins puissantes : elle découpe proprement dès le déballage",
+    "Longer montre des découpes de 30 mm de tilleul et 35 mm d’acrylique noir ; selon notre estimation, 10 à 15 mm de tilleul passent en une passe",
+    "849,99 $ en octobre 2026, environ 850 $ de moins que la S1 40 W fermée d’xTool et 300 $ de moins que la P3 48 W d’Acmer"
+  ],
+  "cons": [
+    "La plus petite surface de la gamme, 305 × 300 mm, bien en dessous de la S1 et de la P3 à cette puissance",
+    "Point le plus large de la gamme, 0,10 × 0,15 mm selon Longer : les photos fines sont plus douces",
+    "Longer ne précise pas le nombre de passes pour ses 30 et 35 mm, et aucun test de découpe indépendant n’existe encore"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Verre et céramique (avec précaution)",
+      "Acrylique foncé"
+    ],
+    "cut": [
+      "Tilleul de 10 à 15 mm en une passe (notre estimation)",
+      "Tilleul jusqu’à 30 mm en plusieurs passes (Longer)",
+      "Acrylique noir jusqu’à 35 mm en plusieurs passes (Longer)",
+      "Contreplaqué de 6 à 8 mm",
+      "Cuir et feutre"
+    ],
+    "cannot": [
+      "Plaques de plus de 305 × 300 mm",
+      "Acrylique transparent",
+      "Marquage du métal nu",
+      "Production à la vitesse d’un CO₂"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 849,99 $ en lot de base avec pompe à air (prix barré 1 129,99 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray7S 40 W apporte une vraie puissance de découpe dans un caisson classe 1 pour bien moins de 1 000 $, avec pompe à air incluse, firmware Klipper et déplacements à 600 mm/s. Peu de diodes fermées de 40 W coûtent aussi peu.",
+    "limitations": "La surface de 305 × 300 mm est petite pour les enseignes et les panneaux, le point large est un compromis pour la gravure fine, et les découpes de 30 et 35 mm annoncées par Longer ne précisent pas le nombre de passes. C’est une machine toute récente : la capacité d’extraction et la tenue du caisson n’ont pas été testées de façon indépendante."
+  },
+  "faq": [
+    {
+      "question": "La Ray7S 40 W découpe-t-elle vraiment 30 mm de tilleul ?",
+      "answer": "La page produit de Longer montre des découpes de 30 mm de tilleul et de 35 mm d’acrylique noir, sans dire combien de passes elles demandent ; de telles épaisseurs exigent toujours plusieurs passes sur une diode. Selon notre estimation, la 40 W découpe 10 à 15 mm de tilleul en une passe avec sa pompe à air incluse."
+    },
+    {
+      "question": "Ray7S 40 W ou xTool S1 40 W ?",
+      "answer": "La Ray7S 40 W coûte 849,99 $ contre environ 1 699 $ pour la xTool S1 40 W (octobre 2026). La S1 offre une surface de 498 × 319 mm, un écosystème abouti et une option infrarouge ; la Ray7S coûte moitié moins, avec une surface plus petite et sans recul pour l’instant."
+    },
+    {
+      "question": "Ray7S 40 W ou Ray7 40 W ouverte ?",
+      "answer": "La Ray7 40 W ouverte coûte 669,99 $ et offre une surface plus grande de 405 × 400 mm, mais sans pompe à air dans le carton ni caisson. La Ray7S 40 W ajoute 180 $ pour le caisson classe 1, le firmware Klipper et la pompe incluse."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Pompe à air dans le carton",
+      "body": "La seule Ray7S livrée avec la pompe d’assistance d’air, prête à découper le bois épais."
+    },
+    {
+      "title": "30 mm de tilleul, 35 mm d’acrylique noir",
+      "body": "Les découpes maximales montrées par Longer pour la Ray7S, en plusieurs passes ; en une passe, environ 10 à 15 mm de tilleul selon notre estimation."
+    },
+    {
+      "title": "Moitié prix de la xTool S1 40 W",
+      "body": "849,99 $ en octobre 2026, contre environ 1 699 $ pour la 40 W fermée d’xTool."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée classe 1 Longer Ray7S 40W : Longer"
+    },
+    {
+      "alt": "Longer Ray7S vue de dessus, avec le portique laser au-dessus d’une plaque de contreplaqué gravée : Longer"
+    },
+    {
+      "alt": "Sécurités classe 1 de la Longer Ray7S : capot anti-lumière bleue, arrêt d’urgence, fins de course et lunettes : Longer"
+    },
+    {
+      "alt": "Firmware Klipper de la Longer Ray7S et comparaison de gravure avec compensation des vibrations : Longer"
+    },
+    {
+      "alt": "Graveuse laser fermée Longer Ray7S avec son capot orange : Longer"
+    }
+  ]
+}

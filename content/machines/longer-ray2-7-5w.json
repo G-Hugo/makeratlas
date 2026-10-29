@@ -1,0 +1,166 @@
+{
+  "id": "longer-ray2-7-5w",
+  "slug": "longer-ray2-7-5w",
+  "name": "Longer Ray2 7.5W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/longer-ray2-7-5w/01.webp",
+  "tagline": "Longer's cheapest Class 1 laser: a 7.5W diode in a closed box for $239.99",
+  "tldr": "The Ray2 7.5W is the entry version of Longer's enclosed Ray2, launched on October 21, 2026: a preassembled Class 1 box with an amber lid, flame and tilt alarms, an emergency stop and a 130 × 110 mm working area. Longer rates the 7.5W diode for 6 mm basswood in one pass, with a 0.08 × 0.08 mm spot and a 12,000 mm/min top speed. At $239.99 for the Basic Set (Longer US store, October 2026) it is one of the cheapest enclosed lasers we list, but the small bed limits it to coasters, tags and small gifts, and there are no owner reviews yet.",
+  "mainObjective": "Safe, low-cost engraving of small items at home",
+  "bestFor": [
+    "First laser at home",
+    "Engraving-first hobby",
+    "Keychains & tags",
+    "Tight budgets"
+  ],
+  "priceRange": {
+    "min": 239.99,
+    "max": 239.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $239.99 Basic Set"
+  },
+  "specs": {
+    "power": "7.5W diode (enclosed)",
+    "workArea": "130 × 110 mm",
+    "software": [
+      "LaserBurn",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–17 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~5–8 min"
+      },
+      "technical": {
+        "spotSize": "0.08 × 0.08 mm",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "~60–140 mm/s",
+        "avgCutSpeed": "~3–5 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Paper & cardstock",
+      "Fabric",
+      "Stainless steel (surface mark, per Longer)"
+    ],
+    "cut": [
+      "Basswood up to 6 mm in one pass (Longer rating)",
+      "Cardstock & paper",
+      "Felt & thin leather"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Anything larger than 130 × 110 mm",
+      "Thick plywood or hardwood",
+      "Bare metal engraving in depth"
+    ]
+  },
+  "pros": [
+    "$239.99 for a Class 1 enclosed laser, about the price of an open-frame starter diode",
+    "Flame and tilt alarms, lid stop and emergency button shown on Longer's safety sheet",
+    "Preassembled, with LightBurn and LaserGRBL support besides Longer's LaserBurn"
+  ],
+  "cons": [
+    "6 mm basswood is the one-pass limit: plywood boxes and thick cuts are out of reach",
+    "The 130 × 110 mm bed fits coasters and tags, not cutting boards or signs",
+    "No owner reviews or independent tests yet, and no smoke filter listed"
+  ],
+  "beginnerNotes": "This profile is the 7.5W version of the Longer Ray2. It suits a first laser for engraving names, photos and logos on small wood, leather and paper items, with occasional thin cuts. Compare the other Ray2 version with the chips above if cutting matters to you.",
+  "proTips": "Run a test grid on scrap before each new material: low-power diodes are sensitive to speed and wood density. Keep cuts to thin basswood and cardstock, and use two passes rather than one very slow pass for cleaner edges.",
+  "primaryUse": "7.5W version of the enclosed Longer Ray2: low-cost engraving of small items at home",
+  "rating": {
+    "overall": 7.6,
+    "value": 8.7,
+    "easeOfUse": 8.5,
+    "capability": 6.7,
+    "buildQuality": 7.5
+  },
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "recommended"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 7.5W Ray2 is the cheapest way we know into a Class 1 enclosed laser from an established brand. For engraving names, photos and logos on small wood, leather and paper items, it covers the job with very little setup.",
+    "limitations": "Cutting is limited to thin stock, and the 130 × 110 mm bed caps the size of every project. It is a new product with no track record yet: buy from Longer's store for the 12-month warranty."
+  },
+  "similarModels": [
+    "atomstack-p1",
+    "creality-falcon-a1c-5w",
+    "longer-ray2-15w"
+  ],
+  "faq": [
+    {
+      "question": "What can the Longer Ray2 7.5W cut?",
+      "answer": "Longer rates it for 6 mm basswood in one pass. Cardstock, felt, thin leather and 3 mm plywood are within reach; dense hardwood is not, and Longer publishes no figures for acrylic. Every part must also fit inside the 130 × 110 mm bed."
+    },
+    {
+      "question": "Ray2 7.5W or 15W?",
+      "answer": "The 15W costs $80 more ($319.99 against $239.99 on Longer's US store, October 2026), cuts 10 mm basswood in one pass instead of 6 mm and has a finer 0.06 mm spot. The box, bed and speed are the same. Take the 7.5W if you mainly engrave, the 15W if you plan to cut."
+    },
+    {
+      "question": "Is the Ray2 safe to use indoors?",
+      "answer": "It is a Class 1 enclosed laser: the lid filters the beam, and Longer shows flame and tilt alarms, an emergency stop and a laser that stops when the lid opens. The smoke still needs somewhere to go: Longer does not list a filter, so plan for ventilation."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray2-7w-entry-price",
+      "title": "Enclosed for $239.99",
+      "body": "The Basic Set was $239.99 on Longer's US store in October 2026, one of the lowest prices we have seen for a Class 1 enclosed diode laser."
+    },
+    {
+      "id": "ray2-7w-ready",
+      "title": "Ready out of the box",
+      "body": "Longer ships the Ray2 preassembled, with the enclosure, alarms and emergency stop already in place: no frame to build or align."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "images": [
+    {
+      "src": "/machines/longer-ray2-7-5w/01.webp",
+      "alt": "Longer Ray2 7.5W enclosed laser engraver: Longer"
+    },
+    {
+      "src": "/machines/longer-ray2-7-5w/02.webp",
+      "alt": "Longer Ray2 with engraved wood, leather and lamp samples: Longer"
+    },
+    {
+      "src": "/machines/longer-ray2-7-5w/03.webp",
+      "alt": "Longer Ray2 Class 1 safety features: flame alarm, lid stop and emergency button: Longer"
+    },
+    {
+      "src": "/machines/longer-ray2-7-5w/04.webp",
+      "alt": "Projects engraved with the Longer Ray2 on brass, leather, denim and slate: Longer"
+    },
+    {
+      "src": "/machines/longer-ray2-7-5w/05.webp",
+      "alt": "Longer Ray2 used for gifts, pet tags and craft fair products: Longer"
+    }
+  ],
+  "modelLine": "longer-ray2",
+  "powerRating": "7.5W",
+  "releaseDate": "2026-10",
+  "tierEditorialOverride": true,
+  "enclosed": true
+}

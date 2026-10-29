@@ -1,0 +1,103 @@
+{
+  "tagline": "La Ray7 d’entrée : une diode fine de 7,5 W sur un cadre ouvert de 405 × 410 mm pour graver le détail à moins de 250 $",
+  "tldr": "La Ray7 7,5 W est la version la moins chère de la nouvelle graveuse à cadre ouvert de Longer : 229,99 $ sur la boutique Longer en octobre 2026. Elle garde le cadre de la Ray7, ses déplacements à 600 mm/s, le Wi-Fi et la surface de 405 × 410 mm, avec le point le plus fin de la gamme, 0,06 × 0,06 mm. C’est d’abord une graveuse : la découpe s’arrête au bois fin, au carton et au feutre, en plusieurs passes.",
+  "mainObjective": "Graver le détail sur bois, cuir et ardoise sur une grande surface, au prix le plus bas",
+  "primaryUse": "Module 7,5 W · Longer Ray7",
+  "beginnerNotes": "Cette fiche décrit la version 7,5 W de la Longer Ray7. Prenez-la si vous gravez surtout des cadeaux, des plaques et des photos et découpez rarement. Comparez les autres versions de la Ray7 avec les pastilles ci-dessus si la découpe de contreplaqué compte : le cadre, la surface et le logiciel restent les mêmes, seul le module laser change. C’est une machine récente, sans test indépendant pour l’instant.",
+  "proTips": "Gravez à forte puissance et vitesse modérée pour des photos foncées et régulières, et réservez la découpe au papier, au carton, au feutre et au tilleul de 2 à 3 mm en deux passes. Soignez la distance focale de 50 mm : sans la mise au point automatique en option, refaites la mise au point à chaque changement d’épaisseur.",
+  "bestFor": [
+    "Gravure de photos et de textes",
+    "Premier laser",
+    "Petit budget",
+    "Cadeaux personnalisés"
+  ],
+  "pros": [
+    "Faisceau le plus fin de la gamme Ray7, 0,06 × 0,06 mm selon Longer, adapté aux photos et aux petits textes",
+    "229,99 $ pour une surface de 405 × 410 mm avec Wi-Fi et déplacements à 600 mm/s (boutique Longer, octobre 2026)",
+    "Un module peu puissant se règle plus facilement sur le cuir, le papier et le carton sans les percer"
+  ],
+  "cons": [
+    "Découpe limitée aux matières fines : environ 2 à 3 mm de tilleul par passe selon notre estimation",
+    "Une photo de 10 × 10 cm prend environ 24 à 36 min selon notre estimation, le plus lent de la gamme",
+    "Pompe à air, mise au point automatique et caméra s’ajoutent aux 229,99 $"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Verre et céramique (avec précaution)",
+      "Acrylique foncé"
+    ],
+    "cut": [
+      "Tilleul d’environ 2 à 3 mm par passe (notre estimation)",
+      "Papier et carton",
+      "Feutre et cuir fin"
+    ],
+    "cannot": [
+      "Contreplaqué de plus de 3 mm environ en pratique",
+      "Acrylique transparent",
+      "Marquage du métal nu",
+      "Découpe de production"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 229,99 $ (prix barré 319,99 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray7 7,5 W apporte le nouveau cadre de Longer, le Wi-Fi et les déplacements à 600 mm/s pour un petit prix, et son point de 0,06 × 0,06 mm est le plus net de la gamme pour les portraits, les lettrages fins et les petits logos.",
+    "limitations": "Ce n’est pas une machine de découpe : au-delà du tilleul fin, du carton et du feutre, il faut multiplier les passes. Cadre ouvert : lunettes de protection et extraction de la fumée obligatoires. La Ray7 est récente, sa fiabilité dans la durée n’est pas encore documentée par des tests indépendants."
+  },
+  "faq": [
+    {
+      "question": "Que découpe la Ray7 7,5 W ?",
+      "answer": "Longer ne publie pas de chiffres de découpe pour cette version. Selon notre estimation, elle découpe le papier, le carton, le feutre, le cuir fin et environ 2 à 3 mm de tilleul par passe ; le contreplaqué de 3 mm demande au moins deux passes. Voyez-la comme une graveuse capable de découpes légères ponctuelles."
+    },
+    {
+      "question": "Ray7 7,5 W ou Ray7 15 W ?",
+      "answer": "La 15 W coûte 299,99 $ contre 229,99 $ pour la 7,5 W (boutique Longer, octobre 2026). Pour 70 $ de plus, elle double à peu près la capacité de découpe et accélère les remplissages ; gardez la 7,5 W seulement si vous gravez presque exclusivement et tenez au point le plus fin."
+    },
+    {
+      "question": "La Ray7 7,5 W est-elle un bon premier laser ?",
+      "answer": "Oui pour graver avec un petit budget : les courroies arrivent préinstallées, elle se connecte en Wi-Fi et fonctionne avec Longer Studio ou LightBurn. Comme tout laser à cadre ouvert, elle demande des lunettes de protection, de la ventilation et un support ininflammable."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Point de 0,06 × 0,06 mm",
+      "body": "Le plus petit point laser annoncé par Longer pour la Ray7, pour des portraits et des petits textes plus nets."
+    },
+    {
+      "title": "Grande surface à 229,99 $",
+      "body": "La même surface de 405 × 410 mm que les modules plus puissants, au prix le plus bas de la gamme Ray7 en octobre 2026."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser à cadre ouvert Longer Ray7 7.5W, montrée avec le rotatif en option : Longer"
+    },
+    {
+      "alt": "Cadre de la Longer Ray7 avec le module laser et le boîtier de commande : Longer"
+    },
+    {
+      "alt": "Surface de travail de 405 × 410 mm de la Longer Ray7 : Longer"
+    },
+    {
+      "alt": "Boîtier de commande de la Longer Ray7 avec arrêt d’urgence, ports USB et carte TF : Longer"
+    },
+    {
+      "alt": "Aperçu des fonctions de la Longer Ray7 : 36 000 mm/min, sécurités et les quatre modules laser : Longer"
+    }
+  ]
+}

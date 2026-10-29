@@ -1,0 +1,187 @@
+{
+  "id": "longer-ray7-15w",
+  "slug": "longer-ray7-15w",
+  "name": "Longer Ray7 15W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The value Ray7: a 15W diode that engraves sharply and cuts thin plywood, for under $300",
+  "tldr": "The Ray7 15W sits one step above the entry model at $299.99 on Longer's store (October 2026). It keeps a fine 0.06 × 0.08 mm spot for detail while cutting 3 mm basswood in a single pass by our estimate, on the same 405 × 410 mm open frame with Wi-Fi and 600 mm/s motion. For hobbyists who engrave most of the time and cut boxes or ornaments now and then, it is the best-balanced price in the range.",
+  "mainObjective": "Everyday engraving with light cutting of 3–5 mm wood, at a hobby budget",
+  "bestFor": [
+    "Hobby engraving",
+    "Ornaments & small boxes",
+    "Value for money",
+    "Leather & wood gifts"
+  ],
+  "priceRange": {
+    "min": 299.99,
+    "max": 299.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $299.99 (list price $399.99)"
+  },
+  "specs": {
+    "power": "15W diode",
+    "workArea": "405 × 410 mm",
+    "software": [
+      "Longer Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "microSD (TF)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~16–24 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~11–18 min"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.08 mm",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~60–150 mm/s",
+        "avgCutSpeed": "~2–3 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Glass & ceramic (with care)",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "Basswood 3 mm in one pass, ~5 mm with air (our estimate)",
+      "Plywood up to ~6 mm in several passes",
+      "Leather, felt & card"
+    ],
+    "cannot": [
+      "Thick plywood in production",
+      "Clear acrylic",
+      "Bare metal marking",
+      "CO₂-speed cutting"
+    ]
+  },
+  "pros": [
+    "Still a fine 0.06 × 0.08 mm spot according to Longer, close to the entry module for photos",
+    "Cuts 3 mm basswood in one pass and about 5 mm with air assist by our estimate",
+    "$299.99 in October 2026, only $70 more than the entry Ray7 for roughly twice the cutting capacity"
+  ],
+  "cons": [
+    "Plywood beyond about 6 mm needs several slow passes",
+    "No air pump in the box: clean cuts need the optional pump",
+    "Very new machine: no independent cutting tests published yet"
+  ],
+  "beginnerNotes": "This profile is the 15W version of the Longer Ray7. It suits buyers who engrave most of the time and cut ornaments, coasters and small boxes in 3 mm wood. Compare the other Ray7 versions with the chips above if you plan regular cuts above 6 mm. The frame, bed and software are the same across the range.",
+  "proTips": "Add the air pump before cutting: it keeps edges cleaner and lets you raise the speed. Run a test grid on each new plywood batch, as glue layers vary. For photos, slow the fill and lower the power slightly to keep the narrow spot sharp.",
+  "primaryUse": "15W module · Longer Ray7",
+  "rating": {
+    "overall": 7.7,
+    "value": 8.7,
+    "easeOfUse": 8.3,
+    "capability": 7.2,
+    "buildQuality": 7.4
+  },
+  "accessories": [
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "recommended"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "recommended"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 15W is the sweet spot of the Ray7 range on price: it keeps a fine spot for detailed engraving and cuts the 3 mm stock most hobby projects use, for a little under $300 with a full-size bed and Wi-Fi.",
+    "limitations": "Thicker plywood and dark acrylic need many passes; buyers who cut every week will outgrow it. Open frame: safety glasses and smoke extraction are required. No independent tests of the Ray7 yet, so speed and reliability figures rest on Longer's data and our estimates."
+  },
+  "similarModels": [
+    "longer-ray7-20w",
+    "longer-ray5-10w",
+    "atomstack-a40-pro-20w"
+  ],
+  "faq": [
+    {
+      "question": "How thick can the Ray7 15W cut?",
+      "answer": "Longer does not publish per-version cutting figures. By our estimate it cuts 3 mm basswood in one pass, about 5 mm with air assist, and 6 mm plywood in several passes. Dense hardwoods and MDF cut slower."
+    },
+    {
+      "question": "Ray7 15W or Ray7 20W?",
+      "answer": "The 20W costs $429.99 against $299.99 for the 15W (Longer store, October 2026). The $130 step buys faster cuts and better results on 5–8 mm wood; if you mostly engrave, the 15W keeps a finer spot and the savings can pay for the air pump."
+    },
+    {
+      "question": "Is an air pump needed on the Ray7 15W?",
+      "answer": "For engraving, no. For cutting, it is strongly recommended: it clears smoke from the cut, reduces scorching and allows higher speeds. Longer sells it as an option for this version."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray7-15w-balance",
+      "title": "Fine detail and 3 mm cuts",
+      "body": "A 0.06 × 0.08 mm spot for engraving and, by our estimate, one-pass cuts in 3 mm basswood."
+    },
+    {
+      "id": "ray7-15w-price-step",
+      "title": "$70 above the entry model",
+      "body": "At $299.99 in October 2026, the 15W adds real cutting ability for a small price step."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "image": "/machines/longer-ray7-15w/01.webp",
+  "images": [
+    {
+      "src": "/machines/longer-ray7-15w/01.webp",
+      "alt": "Longer Ray7 15W open-frame laser engraver, shown with the optional rotary: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-15w/02.webp",
+      "alt": "Longer Ray7 frame with the laser module and control box: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-15w/03.webp",
+      "alt": "Longer Ray7 405 × 410 mm working area: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-15w/04.webp",
+      "alt": "Longer Ray7 control box with emergency stop, USB and TF card ports: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-15w/05.webp",
+      "alt": "Longer Ray7 feature overview: 36,000 mm/min, safety features and the four laser modules: Longer"
+    }
+  ],
+  "powerRating": "15W",
+  "modelLine": "longer-ray7",
+  "enclosed": false,
+  "tierEditorialOverride": true,
+  "releaseDate": "2026-10"
+}

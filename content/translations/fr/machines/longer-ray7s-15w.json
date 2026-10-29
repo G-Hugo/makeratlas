@@ -1,0 +1,103 @@
+{
+  "tagline": "La Ray7S la plus rentable : une diode de 15 W en caisson classe 1 qui grave fin et découpe le bois de 3 mm",
+  "tldr": "La Ray7S 15 W coûte 369,99 $ en lot de base sur la boutique Longer (octobre 2026). Dans le même caisson classe 1 avec firmware Klipper et surface de 305 × 310 mm, sa diode de 0,06 × 0,08 mm reste assez fine pour les photos tout en découpant le tilleul de 3 mm en une passe selon notre estimation. Elle coûte plus de 600 $ de moins que la xTool S1 fermée la moins chère, avec une surface plus petite et sans test pour l’instant.",
+  "mainObjective": "Gravure en caisson fermé et découpe légère de bois de 3 à 5 mm pour un atelier à la maison",
+  "primaryUse": "Module 15 W · Longer Ray7S",
+  "beginnerNotes": "Cette fiche décrit la version 15 W de la Longer Ray7S. Elle convient à qui veut un laser fermé à la maison pour graver, avec des découpes ponctuelles dans du bois de 3 mm : décorations, sous-verres, petites boîtes. Comparez les autres versions de la Ray7S avec les pastilles ci-dessus si vous prévoyez de découper souvent du contreplaqué plus épais. Ajoutez la pompe à air en option si vous découpez.",
+  "proTips": "Installez la pompe à air en option avant les premières découpes ; dans un caisson fermé, elle aide aussi à protéger la lentille de la fumée. Faites sortir l’extraction par une fenêtre à chaque séance de découpe. Gardez le capot fermé pendant le travail : la classe 1 ne vaut que capot fermé.",
+  "bestFor": [
+    "Atelier fermé à la maison",
+    "Décorations et petites boîtes",
+    "Rapport qualité-prix",
+    "Pièces partagées"
+  ],
+  "pros": [
+    "Découpe le tilleul de 3 mm en une passe et environ 5 mm avec assistance d’air selon notre estimation, dans un caisson classe 1",
+    "Garde un point fin de 0,06 × 0,08 mm selon Longer, proche du module d’entrée pour la gravure",
+    "369,99 $ en octobre 2026, plus de 600 $ sous la xTool S1 fermée la moins chère"
+  ],
+  "cons": [
+    "Pompe à air non incluse à cette puissance : des découpes propres demandent la pompe en option",
+    "La surface de 305 × 310 mm limite les grandes plaques et les panneaux",
+    "Aucun test indépendant du caisson ni de l’extraction de la Ray7S pour l’instant"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Verre et céramique (avec précaution)",
+      "Acrylique foncé"
+    ],
+    "cut": [
+      "Tilleul de 3 mm en une passe, environ 5 mm avec air (notre estimation)",
+      "Contreplaqué jusqu’à 6 mm environ en plusieurs passes",
+      "Cuir, feutre et carton"
+    ],
+    "cannot": [
+      "Plaques de plus de 305 × 310 mm",
+      "Acrylique transparent",
+      "Marquage du métal nu",
+      "Production en bois épais"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 369,99 $ en lot de base (prix barré 499,99 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray7S 15 W équilibre prix et capacités : caisson classe 1, firmware Klipper et Wi-Fi, un point fin pour la gravure et assez de puissance pour les découpes de loisir en 3 mm, pour bien moins de 400 $.",
+    "limitations": "Le contreplaqué plus épais demande plusieurs passes et la surface de 305 × 310 mm reste modeste. La pompe à air est en supplément. L’étanchéité du caisson et l’extraction n’ont pas encore été testées par des testeurs indépendants."
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur découpe la Ray7S 15 W ?",
+      "answer": "Longer ne publie pas de chiffres par version. Selon notre estimation, elle découpe le tilleul de 3 mm en une passe, environ 5 mm avec assistance d’air, et le contreplaqué de 6 mm en plusieurs passes."
+    },
+    {
+      "question": "Ray7S 15 W ou Ray7S 20 W ?",
+      "answer": "La 20 W coûte 529,99 $ contre 369,99 $ pour le lot de base 15 W (boutique Longer, octobre 2026). Les 160 $ d’écart achètent des découpes plus rapides dans le bois de 5 à 8 mm ; pour graver avec des découpes légères, la 15 W suffit et laisse de quoi payer la pompe à air."
+    },
+    {
+      "question": "Ray7S 15 W ou Ray7 15 W ouverte ?",
+      "answer": "La Ray7 15 W ouverte coûte 299,99 $, soit 70 $ de moins, avec une surface plus grande de 405 × 410 mm. La Ray7S ajoute le caisson classe 1 et le firmware Klipper : l’écart vaut le coup si le laser partage une pièce avec la famille ou des animaux."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Découpes de 3 mm en caisson fermé",
+      "body": "Selon notre estimation, des découpes en une passe dans le tilleul de 3 mm, capot fermé et faisceau confiné."
+    },
+    {
+      "title": "Bien sous la xTool S1",
+      "body": "369,99 $ en octobre 2026, plus de 600 $ de moins que la xTool S1 fermée la moins chère, avec une surface plus petite."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée classe 1 Longer Ray7S 15W : Longer"
+    },
+    {
+      "alt": "Longer Ray7S vue de dessus, avec le portique laser au-dessus d’une plaque de contreplaqué gravée : Longer"
+    },
+    {
+      "alt": "Sécurités classe 1 de la Longer Ray7S : capot anti-lumière bleue, arrêt d’urgence, fins de course et lunettes : Longer"
+    },
+    {
+      "alt": "Firmware Klipper de la Longer Ray7S et comparaison de gravure avec compensation des vibrations : Longer"
+    },
+    {
+      "alt": "Graveuse laser fermée Longer Ray7S avec son capot orange : Longer"
+    }
+  ]
+}

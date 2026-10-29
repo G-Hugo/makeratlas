@@ -1,0 +1,170 @@
+{
+  "id": "omtech-q3-30w",
+  "slug": "omtech-q3-30w",
+  "name": "OMTech Q3 30W",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "image": "/machines/omtech-q3-30w/01.webp",
+  "tagline": "30W Q-switched fiber that works on the bench, split or handheld, for $1,799.99",
+  "tldr": "The Q3 30W is the entry version of OMTech's 3-in-1 fiber marker, listed on OMTech's store at the end of October 2026. The same machine works as a desktop column, as a split setup with the processing unit off the base, or as a handheld marker with a 3.2 kg quick-release head that keeps the 150 × 150 mm field. OMTech lists 3 mm deep engraving, a 0.06 mm minimum line width, 10,000 mm/s and a 170 mm processing height. At $1,799.99 (OMTech store, October 2026, regular price $3,599.99) it costs about $200 more than a fixed compact 30W fiber; deep engraving is slow, focus is manual and the laser is Class 4.",
+  "mainObjective": "Affordable metal marking on the bench and on parts too large for a column",
+  "bestFor": [
+    "Metal tags & nameplates",
+    "Tools & machine parts",
+    "Large or fixed workpieces",
+    "First fiber laser"
+  ],
+  "priceRange": {
+    "min": 1799.99,
+    "max": 1799.99,
+    "currency": "USD",
+    "note": "Official OMTech store, Oct 2026: $1,799.99 (regular price $3,599.99)"
+  },
+  "specs": {
+    "power": "30W fiber (Q-switch)",
+    "workArea": "150 × 150 mm",
+    "software": [
+      "OMTech Mark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "±0.002 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–10 min"
+      },
+      "cutExample": {
+        "description": "No cutting on this machine",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "10,000 mm/s",
+        "avgEngraveSpeed": "~500–1,500 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Steel & stainless steel",
+      "Aluminum",
+      "Brass",
+      "Titanium",
+      "Gold & silver",
+      "Some hard plastics and stone (after testing)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood and paper (OMTech warning)",
+      "PVC and PTFE",
+      "Color marking on stainless (needs a MOPA)",
+      "Fast deep engraving"
+    ]
+  },
+  "pros": [
+    "Desktop, split and quick-release handheld modes in one machine, for parts that do not fit under a column",
+    "$1,799.99 in October 2026: about $200 more than a fixed Gweike G2 30W, for a larger 150 × 150 mm field and the handheld head",
+    "170 mm processing height and 0–30° head tilt for tall or angled parts"
+  ],
+  "cons": [
+    "Deep engraving is slow: OMTech's own example took about 110 minutes, almost twice as long as on the more powerful version",
+    "Manual focus: recheck the height for every part of a different thickness",
+    "Class 4 open laser: goggles and a controlled area are required, unlike enclosed Class 1 machines"
+  ],
+  "beginnerNotes": "This profile is the 30W version of the OMTech Q3. It suits a first fiber laser for tags, nameplates, tools and jewelry, with the handheld head as a bonus for large parts. Compare the other Q3 version with the chips above if deep engraving or volume matters.",
+  "proTips": "For deep logos, run several fast passes rather than one slow pass and check depth between them. Use the split mode to keep the processing unit off a small bench, and keep the safety shield and goggles on for every job, handheld included.",
+  "primaryUse": "30W version of the OMTech Q3: affordable metal marking on the bench, split or handheld",
+  "rating": {
+    "overall": 7.9,
+    "value": 8.4,
+    "easeOfUse": 7.9,
+    "capability": 7.2,
+    "buildQuality": 8
+  },
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 30W Q3 is a sensible first fiber for marking metal tags, nameplates and tools, with a feature fixed desktop fibers do not have at this price: a handheld head for objects that cannot go under the column. The 150 × 150 mm field is also larger than on most compact 30W markers.",
+    "limitations": "Deep engraving takes a long time at 30W, and focus is manual, which slows mixed batches. As a Class 4 laser it needs goggles and a controlled area, and its Q-switched source cannot produce colors on stainless steel. No owner feedback exists yet."
+  },
+  "similarModels": [
+    "gweike-g2-30w",
+    "monport-gt-30w-fiber",
+    "omtech-q3-50w"
+  ],
+  "faq": [
+    {
+      "question": "What does 3-in-1 mean on the OMTech Q3 30W?",
+      "answer": "The machine works as a desktop marker on its column, as a split setup with the processing unit moved off the base (about 15 minutes to convert), or as a handheld marker with the 3.2 kg quick-release head pressed flat against the part. The marking field stays 150 × 150 mm in every mode."
+    },
+    {
+      "question": "Q3 30W or 50W?",
+      "answer": "Same modes, field, software and manual focus; the difference is speed. In OMTech's deep-engraving example, the 30W took about 110 minutes and the 50W about 60. The 50W costs $900 more ($2,699.99 against $1,799.99 on OMTech's store, October 2026). Take the 30W for shallow marks on tags and tools, the 50W if deep engraving or volume pays."
+    },
+    {
+      "question": "Can the Q3 30W mark wood or plastics?",
+      "answer": "OMTech designs it for metals: steel, aluminum, brass, titanium, gold and silver. Some hard plastics and stone may work after testing, but OMTech says not to process wood, paper, PVC or PTFE. For wood and leather, look at a diode or a dual laser."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "q3-30w-handheld",
+      "title": "Handheld head included",
+      "body": "The quick-release head comes off the column and keeps the 150 × 150 mm field, for marking cabinets, panels or parts that cannot be moved to the machine."
+    },
+    {
+      "id": "q3-30w-entry-price",
+      "title": "3-in-1 for $1,799.99",
+      "body": "At $1,799.99 on OMTech's store in October 2026, the Q3 30W costs little more than a fixed compact 30W fiber while adding the split and handheld modes."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "images": [
+    {
+      "src": "/machines/omtech-q3-30w/01.webp",
+      "alt": "OMTech Q3 30W fiber laser marker in desktop mode: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3-30w/02.webp",
+      "alt": "OMTech Q3 three work modes: desktop, split and handheld: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3-30w/03.webp",
+      "alt": "OMTech Q3 handheld head marking a large fixed workpiece: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3-30w/04.webp",
+      "alt": "OMTech Q3 in split mode with the processing unit beside the column: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3-30w/05.webp",
+      "alt": "OMTech Q3 power comparison: about 110 minutes at 30W against 60 minutes at 50W: OMTech"
+    }
+  ],
+  "modelLine": "omtech-q3",
+  "powerRating": "30W",
+  "catalogPrimary": true,
+  "releaseDate": "2026-10",
+  "tierEditorialOverride": true,
+  "enclosed": false
+}

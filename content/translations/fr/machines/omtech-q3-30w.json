@@ -1,0 +1,99 @@
+{
+  "tagline": "Fibre Q-switch de 30 W utilisable sur l’établi, en version séparée ou à la main, pour 1 799,99 $",
+  "tldr": "La Q3 30 W est la version d’entrée du marqueur fibre 3-en-1 d’OMTech, mis en vente sur la boutique OMTech fin octobre 2026. La même machine s’utilise sur sa colonne de bureau, en configuration séparée avec l’unité de traitement hors de la base, ou à la main avec une tête amovible de 3,2 kg qui conserve le champ de 150 × 150 mm. OMTech annonce une gravure jusqu’à 3 mm de profondeur, une largeur de trait minimale de 0,06 mm, 10 000 mm/s et 170 mm de hauteur de travail. À 1 799,99 $ (boutique OMTech, octobre 2026, prix normal 3 599,99 $), elle coûte environ 200 $ de plus qu’une fibre compacte fixe de 30 W ; la gravure profonde est lente, la mise au point manuelle et le laser de classe 4.",
+  "mainObjective": "Marquer le métal à prix raisonnable, sur l’établi comme sur des pièces trop grandes pour une colonne",
+  "primaryUse": "Version 30 W de l’OMTech Q3 : marquage du métal à prix raisonnable, sur l’établi, en version séparée ou à la main",
+  "beginnerNotes": "Cette fiche décrit la version 30 W de l’OMTech Q3. Elle convient comme premier laser fibre pour les médailles, les plaques, les outils et les bijoux, avec la tête à main en bonus pour les grandes pièces. Comparez avec l’autre version de la Q3 grâce aux pastilles ci-dessus si la gravure profonde ou le volume comptent.",
+  "proTips": "Pour les logos profonds, enchaînez plusieurs passes rapides plutôt qu’une passe lente, et contrôlez la profondeur entre elles. Utilisez le mode séparé pour libérer un petit établi, et gardez l’écran de protection et les lunettes pour chaque travail, y compris à la main.",
+  "bestFor": [
+    "Médailles et plaques en métal",
+    "Outils et pièces mécaniques",
+    "Pièces grandes ou fixes",
+    "Premier laser fibre"
+  ],
+  "pros": [
+    "Modes bureau, séparé et à main avec tête amovible dans une seule machine, pour les pièces qui ne passent pas sous une colonne",
+    "1 799,99 $ en octobre 2026 : environ 200 $ de plus qu’une Gweike G2 30 W fixe, pour un champ plus grand de 150 × 150 mm et la tête à main",
+    "170 mm de hauteur de travail et tête inclinable de 0 à 30° pour les pièces hautes ou en biais"
+  ],
+  "cons": [
+    "La gravure profonde est lente : l’exemple d’OMTech a pris environ 110 minutes, presque deux fois plus que sur la version la plus puissante",
+    "Mise au point manuelle : refaites le réglage de hauteur pour chaque pièce d’épaisseur différente",
+    "Laser ouvert de classe 4 : lunettes et zone contrôlée obligatoires, contrairement aux machines fermées de classe 1"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier et inox",
+      "Aluminium",
+      "Laiton",
+      "Titane",
+      "Or et argent",
+      "Certains plastiques durs et pierres (après essai)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Bois et papier (mise en garde d’OMTech)",
+      "PVC et PTFE",
+      "Marquage couleur sur l’inox (il faut une MOPA)",
+      "Gravure profonde rapide"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle OMTech, oct. 2026 : 1 799,99 $ (prix normal 3 599,99 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en inox"
+      },
+      "cutExample": {
+        "description": "Pas de découpe sur cette machine"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Q3 30 W est un premier laser fibre sensé pour marquer des médailles, des plaques et des outils, avec un atout que les fibres de bureau fixes n’ont pas à ce prix : une tête à main pour les objets qui ne passent pas sous la colonne. Son champ de 150 × 150 mm est aussi plus grand que sur la plupart des marqueurs compacts de 30 W.",
+    "limitations": "La gravure profonde prend beaucoup de temps à 30 W, et la mise au point manuelle ralentit les séries de pièces différentes. Laser de classe 4, elle exige des lunettes et une zone contrôlée, et sa source Q-switch ne produit pas de couleurs sur l’inox. Aucun retour de propriétaire n’existe encore."
+  },
+  "faq": [
+    {
+      "question": "Que veut dire 3-en-1 sur l’OMTech Q3 30 W ?",
+      "answer": "La machine sert de marqueur de bureau sur sa colonne, de configuration séparée avec l’unité de traitement posée à côté de la base (environ 15 minutes de conversion), ou de marqueur à main avec la tête amovible de 3,2 kg posée à plat contre la pièce. Le champ de marquage reste de 150 × 150 mm dans tous les modes."
+    },
+    {
+      "question": "Q3 30 W ou 50 W ?",
+      "answer": "Mêmes modes, même champ, même logiciel et même mise au point manuelle ; la différence, c’est la vitesse. Dans l’exemple de gravure profonde d’OMTech, la 30 W a mis environ 110 minutes et la 50 W environ 60. La 50 W coûte 900 $ de plus (2 699,99 $ contre 1 799,99 $ sur la boutique OMTech, octobre 2026). Prenez la 30 W pour des marquages peu profonds sur médailles et outils, la 50 W si la gravure profonde ou le volume rapportent."
+    },
+    {
+      "question": "La Q3 30 W peut-elle marquer le bois ou le plastique ?",
+      "answer": "OMTech la conçoit pour les métaux : acier, aluminium, laiton, titane, or et argent. Certains plastiques durs et pierres peuvent convenir après essai, mais OMTech déconseille le bois, le papier, le PVC et le PTFE. Pour le bois et le cuir, regardez plutôt une diode ou un double laser."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Tête à main incluse",
+      "body": "La tête amovible se détache de la colonne et conserve le champ de 150 × 150 mm, pour marquer des armoires, des panneaux ou des pièces qu’on ne peut pas apporter à la machine."
+    },
+    {
+      "title": "3-en-1 pour 1 799,99 $",
+      "body": "À 1 799,99 $ sur la boutique OMTech en octobre 2026, la Q3 30 W coûte à peine plus qu’une fibre compacte fixe de 30 W tout en ajoutant les modes séparé et à main."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Marqueur laser fibre OMTech Q3 30 W en mode bureau : OMTech"
+    },
+    {
+      "alt": "Les trois modes de l’OMTech Q3 : bureau, séparé et à main : OMTech"
+    },
+    {
+      "alt": "Tête à main de l’OMTech Q3 marquant une grande pièce fixe : OMTech"
+    },
+    {
+      "alt": "OMTech Q3 en mode séparé, unité de traitement posée à côté de la colonne : OMTech"
+    },
+    {
+      "alt": "Comparaison de puissance de l’OMTech Q3 : environ 110 minutes en 30 W contre 60 minutes en 50 W : OMTech"
+    }
+  ]
+}

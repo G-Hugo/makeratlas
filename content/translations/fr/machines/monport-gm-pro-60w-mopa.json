@@ -1,0 +1,101 @@
+{
+  "tagline": "MOPA JPT intégrée de 60 W avec autofocus : le marquage couleur et une vraie profondeur de gravure",
+  "tldr": "La GM Pro 60 W MOPA est la version la plus puissante de la fibre intégrée de Monport : une source MOPA JPT de 60 W avec 2 mJ d’énergie d’impulsion, une impulsion réglable de 2 à 500 ns, un autofocus à une touche et un champ de 175 × 175 mm. Elle couvre le marquage couleur et la gravure plus profonde (0,10 mm annoncé par passe) dans une seule machine compacte. 3 598 $ sur la boutique Monport en octobre 2026, environ 670 $ de moins que la GT 60 W MOPA séparée avec autofocus.",
+  "mainObjective": "Marquage couleur, gravure profonde et relief sur une MOPA monobloc compacte",
+  "primaryUse": "Fibre MOPA 60 W · Monport GM Pro MOPA",
+  "beginnerNotes": "Cette fiche décrit la version 60 W de la GM Pro MOPA, celle à choisir quand la couleur et la profondeur de gravure comptent toutes les deux. Comparez l’autre version via les pastilles.",
+  "proTips": "Pour les reliefs profonds, utilisez des impulsions longues et une forte puissance sur plusieurs passes, en relançant l’autofocus à mesure que la surface descend ; passez à des impulsions courtes pour la passe finale de nettoyage, qui éclaircit le fond.",
+  "bestFor": [
+    "Marquage couleur",
+    "Gravure profonde",
+    "Relief 3D",
+    "Petite production"
+  ],
+  "pros": [
+    "2 mJ d’énergie d’impulsion avec réglage MOPA complet : couleur et gravure profonde sur une seule machine",
+    "Environ 670 $ de moins que la GT 60 W MOPA séparée de Monport avec autofocus (4 270 $, boutique Monport, oct. 2026)",
+    "Champ de 175 × 175 mm, autofocus et relevage électrique sur 40 × 33 cm d’encombrement"
+  ],
+  "cons": [
+    "Seulement 98 $ de plus que la GM 60 W MOPA à mise au point manuelle : vérifiez la version dans le panier",
+    "Hauteur Z maximale de 400 mm, contre 550 mm pour la série GT séparée",
+    "Galvo ouvert et faisceau de classe 4 : un caisson ou une protection oculaire stricte est indispensable"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable (noir et couleur)",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Titane (couleur)",
+      "Or et argent",
+      "Plastiques",
+      "Pierre"
+    ],
+    "cut": [
+      "Tôle de métal fine (nombreuses passes)"
+    ],
+    "cannot": [
+      "Production en bois et en acrylique",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Pièces plus grandes que le champ de 175 × 175 mm sans repositionnement"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 3 598 $ la machine seule, 3 748 $ avec axe rotatif, 3 798 $ avec LightBurn Pro ; une GM 60 W MOPA à mise au point manuelle est vendue 3 500 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle différence entre la GM Pro 60 W MOPA et la GM 60 W MOPA ?",
+      "answer": "La version Pro a un autofocus à une touche et un relevage électrique ; la GM 60 W MOPA, proposée sur la même page à 3 500 $ en octobre 2026, se règle à la main. Pour 98 $ de plus, la version autofocus est la plus simple au quotidien."
+    },
+    {
+      "question": "GM Pro 60 W MOPA ou GPro Vision 60 W MOPA ?",
+      "answer": "Les deux utilisent une source MOPA de 60 W et un champ de 175 × 175 mm. La GPro Vision est une fibre séparée avec une caméra de positionnement 16 Mpx à 5 299 $ ; la GM Pro 60 W MOPA est une machine monobloc sans caméra à 3 598 $ (octobre 2026). Ne payez la caméra que si vous placez souvent des motifs sur des pièces finies irrégulières."
+    },
+    {
+      "question": "La GM Pro 60 W MOPA peut-elle découper du métal ?",
+      "answer": "De la tôle fine, en nombreuses passes. Avec 2 mJ d’énergie d’impulsion, c’est la version la plus solide de la gamme pour les découpes et les reliefs profonds, mais cela reste un laser de marquage avec un champ de 175 × 175 mm."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "La couleur et la profondeur sur une seule machine",
+      "body": "2 mJ d’énergie d’impulsion et une impulsion réglable de 2 à 500 ns : couleurs d’oxydation sur l’inox, noir sur l’aluminium et reliefs profonds sur le même châssis compact."
+    },
+    {
+      "title": "Une MOPA de 60 W sous les 3 600 $",
+      "body": "À 3 598 $ en octobre 2026, la GM Pro 60 W MOPA coûte environ 670 $ de moins que la GT 60 W MOPA séparée avec autofocus et environ 1 700 $ de moins que la GPro Vision 60 W MOPA."
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La GM Pro 60 W MOPA offre le meilleur rapport qualité-prix des MOPA de Monport : couleur, noir et gravure profonde avec autofocus, pour bien moins cher que les machines séparées.",
+    "limitations": "Pas de caméra, une hauteur Z de 400 mm qui limite les pièces hautes et un galvo ouvert qui impose un caisson ou une protection oculaire stricte. Les caractéristiques sont celles de Monport en attendant des tests indépendants."
+  },
+  "images": [
+    {
+      "alt": "Laser fibre intégré Monport GM Pro 60 W MOPA : Monport"
+    },
+    {
+      "alt": "Monport GM Pro MOPA, vue de côté de la colonne et du socle : Monport"
+    },
+    {
+      "alt": "Marquage couleur sur plaque de métal avec la Monport GM Pro MOPA : Monport"
+    },
+    {
+      "alt": "Usages de la Monport GM Pro MOPA : marquage couleur, gravure profonde et découpe de tôle fine : Monport"
+    },
+    {
+      "alt": "Éléments de la Monport GM Pro MOPA : galvo, lentille F-theta, axe Z et panneau de commande : Monport"
+    }
+  ]
+}

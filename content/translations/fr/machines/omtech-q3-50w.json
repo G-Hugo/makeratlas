@@ -1,0 +1,99 @@
+{
+  "tagline": "Fibre Q-switch de 50 W pour graver en profondeur plus vite, sur l’établi, en version séparée ou à la main, pour 2 699,99 $",
+  "tldr": "La Q3 50 W est la version rapide du marqueur fibre 3-en-1 d’OMTech, mis en vente sur la boutique OMTech fin octobre 2026. Elle garde les modes bureau, séparé et à main, le champ de 150 × 150 mm et les 170 mm de hauteur de travail, avec une source Q-switch de 50 W. OMTech annonce une gravure jusqu’à 3 mm de profondeur, une largeur de trait minimale de 0,06 mm et 10 000 mm/s, et son propre exemple de gravure profonde a pris environ 60 minutes, soit à peu près 45 % de temps en moins qu’avec la version d’entrée. À 2 699,99 $ (boutique OMTech, octobre 2026, prix normal 4 899,99 $), elle convient aux ateliers où le temps de gravure se paie ; la mise au point est manuelle et le laser de classe 4.",
+  "mainObjective": "Graver le métal en profondeur plus vite pour les séries, y compris sur des pièces grandes ou fixes",
+  "primaryUse": "Version 50 W de l’OMTech Q3 : gravure profonde du métal plus rapide, sur l’établi, en version séparée ou à la main",
+  "beginnerNotes": "Cette fiche décrit la version 50 W de l’OMTech Q3. Elle se justifie si vous gravez des logos profonds, des plaques de numéros de série ou des moules, ou si vous enchaînez des séries où le temps compte. Comparez avec la Q3 d’entrée grâce aux pastilles ci-dessus si vos marquages sont surtout peu profonds.",
+  "proTips": "Utilisez la puissance supplémentaire pour la profondeur, en plusieurs passes avec une passe de nettoyage à la fin, plutôt que de ralentir une seule passe à l’extrême. Pour les longs travaux à main, posez le capot de mise au point à plat sur la pièce et prévoyez des pauses : la tête pèse 3,2 kg.",
+  "bestFor": [
+    "Logos profonds et plaques de série",
+    "Séries de pièces en métal",
+    "Pièces grandes ou fixes",
+    "Ateliers de mécanique"
+  ],
+  "pros": [
+    "Environ 45 % de temps en moins que la version d’entrée sur l’exemple de gravure profonde d’OMTech (60 minutes contre 110)",
+    "Mêmes modes bureau, séparé et à main, avec le champ de 150 × 150 mm conservé sur la tête à main",
+    "2 699,99 $ en octobre 2026, proche d’une Gweike G2 50 W fixe (2 499 $), avec un champ plus grand et la tête à main"
+  ],
+  "cons": [
+    "900 $ de plus que la version d’entrée pour le même champ, la même mise au point et les mêmes fonctions : seul le gain de temps se paie",
+    "Source Q-switch : pas de marquage couleur sur l’inox, contrairement à une MOPA",
+    "Laser de classe 4 à mise au point manuelle et sans caméra : lunettes, zone contrôlée et réglages soignés à chaque travail"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier et inox (gravure profonde)",
+      "Aluminium",
+      "Laiton",
+      "Titane",
+      "Or et argent",
+      "Certains plastiques durs et pierres (après essai)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Bois et papier (mise en garde d’OMTech)",
+      "PVC et PTFE",
+      "Marquage couleur sur l’inox (il faut une MOPA)",
+      "Champs de plus de 150 × 150 mm d’un seul tenant"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle OMTech, oct. 2026 : 2 699,99 $ (prix normal 4 899,99 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque en inox"
+      },
+      "cutExample": {
+        "description": "Pas de découpe sur cette machine"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Q3 50 W s’adresse aux ateliers où le temps de gravure compte : l’exemple d’OMTech divise presque par deux le temps de la version d’entrée en gravure profonde. Le mode à main en fait un seul outil pour les pièces d’établi et pour les équipements qu’on ne peut pas déplacer, à un prix proche des fibres de bureau fixes de 50 W.",
+    "limitations": "La vitesse est le seul gain par rapport à la version moins chère : même champ, même mise au point manuelle, mêmes contraintes de classe 4. Elle ne produit pas de couleurs sur l’inox et, comme toute la gamme, n’a pas encore de retours de propriétaires."
+  },
+  "faq": [
+    {
+      "question": "L’OMTech Q3 50 W est-elle beaucoup plus rapide ?",
+      "answer": "Dans l’exemple illustré de gravure profonde d’OMTech, la 50 W a mis environ 60 minutes contre environ 110 pour la 30 W, soit à peu près 45 % de temps en moins. OMTech précise que le gain dépend du matériau, du motif et des réglages. Pour des marquages peu profonds sur des médailles, l’écart est bien plus faible."
+    },
+    {
+      "question": "Peut-on utiliser la Q3 50 W à la main sur de grandes pièces ?",
+      "answer": "Oui, quand la surface permet de poser le capot de mise au point à plat. La tête amovible reste reliée à l’unité principale et à l’ordinateur, pèse 3,2 kg et conserve un champ de 150 × 150 mm. Elle convient aux armoires à outils, aux panneaux, aux moules et aux machines qu’on ne peut pas déplacer."
+    },
+    {
+      "question": "Q3 50 W ou fibre MOPA ?",
+      "answer": "Prenez la Q3 50 W pour des marquages noirs, blancs et profonds sur le métal à moindre coût. Une MOPA ajoute une durée d’impulsion réglable pour les couleurs sur l’inox et un contrôle plus fin sur les plastiques : la Commarker B6 MOPA 30 W démarrait à 3 099 $ et l’OMTech Solis Duo 60W MOPA à 4 999,99 $ en octobre 2026."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Gravure profonde en deux fois moins de temps",
+      "body": "L’exemple de gravure profonde d’OMTech a pris environ 60 minutes sur la 50 W contre 110 sur la version d’entrée, un vrai gain pour les plaques de série et les logos répétés."
+    },
+    {
+      "title": "50 W dans une tête à main",
+      "body": "La tête amovible apporte la source de 50 W aux pièces qu’on ne peut pas déplacer, avec le même champ de 150 × 150 mm que sur l’établi."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Marqueur laser fibre OMTech Q3 50 W en mode bureau : OMTech"
+    },
+    {
+      "alt": "Gravure profonde, traits de 0,06 mm et marquage à 10 000 mm/s avec l’OMTech Q3 : OMTech"
+    },
+    {
+      "alt": "Caractéristiques clés de l’OMTech Q3 : 170 mm de hauteur, champ de 150 × 150 mm et inclinaison de 0 à 30° : OMTech"
+    },
+    {
+      "alt": "Tête à main de l’OMTech Q3 à côté de l’unité de traitement : OMTech"
+    },
+    {
+      "alt": "Comparaison de puissance de l’OMTech Q3 : environ 110 minutes en 30 W contre 60 minutes en 50 W : OMTech"
+    }
+  ]
+}

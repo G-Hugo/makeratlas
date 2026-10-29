@@ -1,0 +1,105 @@
+{
+  "tagline": "La Ray7 de découpe : une diode de 40 W pour le bois épais et l’acrylique foncé sur un cadre ouvert rapide",
+  "tldr": "La Ray7 40 W est le haut de la nouvelle gamme à cadre ouvert de Longer : 669,99 $ sur la boutique Longer en octobre 2026, 10 $ de moins que le lot de base de la Ray5 40 W. Elle découpe un carré de 10 × 10 cm dans du tilleul de 3 mm en 4 à 7 min environ selon notre estimation et passe 10 à 15 mm de tilleul en une passe avec assistance d’air, à 600 mm/s sur une surface de 405 × 400 mm. En contrepartie, son point est le plus large de la gamme, 0,10 × 0,15 mm, et la pompe à air est vendue à part.",
+  "mainObjective": "Découper vite du contreplaqué épais, des enseignes et de l’acrylique foncé sur un cadre ouvert, pour une petite activité",
+  "primaryUse": "Module 40 W · Longer Ray7",
+  "beginnerNotes": "Cette fiche décrit la version 40 W de la Longer Ray7. Prenez-la si la découpe de contreplaqué, d’enseignes et d’acrylique foncé est votre travail principal. Comparez les autres versions de la Ray7 avec les pastilles ci-dessus si vous gravez surtout : les petits modules ont des points plus fins et coûtent bien moins cher. Prévoyez la pompe à air et un extracteur de fumée avec celle-ci.",
+  "proTips": "Ne découpez jamais à 40 W sans assistance d’air : elle garde la lentille propre et les bords clairs. Sur le bois de 10 mm et plus, faites plusieurs passes rapides plutôt qu’une passe lente pour limiter la carbonisation. Descendez bien sous 50 % de puissance pour les photos et les petits textes, sinon le point large brouille le détail.",
+  "bestFor": [
+    "Découpe de bois épais",
+    "Séries pour petite activité",
+    "Grandes enseignes",
+    "Acrylique foncé"
+  ],
+  "pros": [
+    "Découpe 10 à 15 mm de tilleul en une passe avec assistance d’air selon notre estimation, les découpes les plus profondes de la gamme Ray7",
+    "La plus rapide de la gamme : environ 4 à 7 min pour un carré de tilleul de 3 mm et 8 à 12 min pour une photo de 10 × 10 cm selon notre estimation",
+    "669,99 $ en octobre 2026, un peu moins que le lot de base de la Ray5 40 W pour un cadre plus rapide et plus rigide"
+  ],
+  "cons": [
+    "Point le plus large de la gamme, 0,10 × 0,15 mm selon Longer : pas le meilleur choix pour les photos fines",
+    "Pompe à air en option, même sur cette version tournée vers la découpe",
+    "À 40 W, la quantité de fumée rend une extraction ou un caisson presque indispensable en intérieur"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Verre et céramique (avec précaution)",
+      "Acrylique foncé"
+    ],
+    "cut": [
+      "Tilleul de 10 à 15 mm en une passe avec air (notre estimation)",
+      "Contreplaqué de 6 à 8 mm",
+      "Acrylique foncé d’environ 5 à 8 mm",
+      "MDF d’environ 5 mm",
+      "Cuir et feutre"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Marquage du métal nu",
+      "Détail photo fin à pleine puissance",
+      "Production à la vitesse d’un CO₂"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 669,99 $ (prix barré 899,99 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray7 40 W met une vraie puissance de découpe diode sur le nouveau cadre de Longer : contreplaqué épais et acrylique foncé en moins de passes, gravure à 600 mm/s et surface de 405 × 400 mm, pour moins cher que la Ray5 40 W qu’elle remplace en prix.",
+    "limitations": "Le point large de 0,10 × 0,15 mm est un compromis pour la gravure fine, et le cadre ouvert demande à cette puissance des lunettes, une extraction efficace et une installation ininflammable. L’acrylique transparent et le métal nu restent hors de portée. La Ray7 est récente, sans test de découpe indépendant pour l’instant."
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur découpe la Ray7 40 W ?",
+      "answer": "Longer ne publie pas de chiffres en une passe pour la Ray7 à cadre ouvert ; pour la Ray7S fermée, qui reprend les mêmes puissances, la marque montre des découpes de 30 mm de tilleul et de 35 mm d’acrylique noir sans préciser le nombre de passes. Selon notre estimation, la Ray7 40 W découpe 10 à 15 mm de tilleul en une passe avec assistance d’air."
+    },
+    {
+      "question": "Ray7 40 W ou Ray5 40 W ?",
+      "answer": "Sur la boutique Longer en octobre 2026, la Ray7 40 W coûte 669,99 $ contre 679,99 $ pour le lot de base de la Ray5 40 W. La Ray7 est plus rapide (600 mm/s), avec une surface un peu plus grande et le Wi-Fi ; la Ray5 40 W a un écran tactile, une compression à 8 faisceaux et des tests indépendants derrière elle."
+    },
+    {
+      "question": "Ray7 40 W ou Ray7S 40 W ?",
+      "answer": "La Ray7S 40 W fermée coûte 849,99 $, soit 180 $ de plus, inclut la pompe à air et ajoute un caisson classe 1 et le firmware Klipper, mais sa surface descend à 305 × 300 mm. Prenez la Ray7 40 W ouverte pour les grandes plaques, la Ray7S si la sécurité et le confinement de la fumée passent en premier."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Les découpes les plus profondes de la Ray7",
+      "body": "Selon notre estimation, 10 à 15 mm de tilleul en une passe avec assistance d’air, et un carré de tilleul de 3 mm en 4 à 7 min environ."
+    },
+    {
+      "title": "Sous le prix de la Ray5 40 W",
+      "body": "669,99 $ en octobre 2026, contre 679,99 $ pour le lot de base de la Ray5 40 W, avec des déplacements plus rapides à 600 mm/s."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser à cadre ouvert Longer Ray7 40W, montrée avec le rotatif en option : Longer"
+    },
+    {
+      "alt": "Cadre de la Longer Ray7 avec le module laser et le boîtier de commande : Longer"
+    },
+    {
+      "alt": "Surface de travail de 405 × 410 mm de la Longer Ray7 : Longer"
+    },
+    {
+      "alt": "Boîtier de commande de la Longer Ray7 avec arrêt d’urgence, ports USB et carte TF : Longer"
+    },
+    {
+      "alt": "Aperçu des fonctions de la Longer Ray7 : 36 000 mm/min, sécurités et les quatre modules laser : Longer"
+    }
+  ]
+}

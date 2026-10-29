@@ -1,0 +1,191 @@
+{
+  "id": "longer-ray7s-40w",
+  "slug": "longer-ray7s-40w",
+  "name": "Longer Ray7S 40W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The cutting Ray7S: a 40W diode with air pump in a Class 1 cabinet, for thick wood and dark acrylic",
+  "tldr": "The Ray7S 40W is the top of Longer's new enclosed range: $849.99 for the Basic Set on Longer's store in October 2026, the only Ray7S version with the air pump in the box. Longer shows it cutting 30 mm basswood and 35 mm black acrylic, without stating the number of passes; by our estimate it cuts 10–15 mm basswood in one pass. Klipper firmware, 600 mm/s and a Class 1 cabinet come with a modest 305 × 300 mm bed, and it costs about $850 less than xTool's enclosed 40W.",
+  "mainObjective": "Cutting thick plywood and dark acrylic in a closed Class 1 cabinet at home",
+  "bestFor": [
+    "Thick wood cuts",
+    "Enclosed home workshop",
+    "Dark acrylic",
+    "Side business batches"
+  ],
+  "priceRange": {
+    "min": 849.99,
+    "max": 849.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $849.99 Basic Set with air pump (list price $1,129.99)"
+  },
+  "specs": {
+    "power": "40W diode",
+    "workArea": "305 × 300 mm",
+    "software": [
+      "Longer Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "microSD (TF)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "0.10 × 0.15 mm",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~120–300 mm/s",
+        "avgCutSpeed": "~6–12 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Glass & ceramic (with care)",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "Basswood 10–15 mm in one pass (our estimate)",
+      "Basswood up to 30 mm in several passes (Longer)",
+      "Black acrylic up to 35 mm in several passes (Longer)",
+      "Plywood 6–8 mm",
+      "Leather & felt"
+    ],
+    "cannot": [
+      "Sheets larger than 305 × 300 mm",
+      "Clear acrylic",
+      "Bare metal marking",
+      "CO₂-speed production"
+    ]
+  },
+  "pros": [
+    "Air pump included, unlike the smaller Ray7S versions, so it cuts cleanly out of the box",
+    "Longer shows 30 mm basswood and 35 mm black acrylic cuts; by our estimate 10–15 mm basswood goes in one pass",
+    "$849.99 in October 2026, about $850 less than xTool's enclosed S1 40W and $300 less than Acmer's P3 48W"
+  ],
+  "cons": [
+    "Smallest bed of the range at 305 × 300 mm, well below the S1 and P3 at this power",
+    "Widest spot of the range at 0.10 × 0.15 mm according to Longer: fine photos are softer",
+    "Longer does not state passes for its 30 mm and 35 mm claims, and no independent cut tests exist yet"
+  ],
+  "beginnerNotes": "This profile is the 40W version of the Longer Ray7S. Pick it if cutting thick plywood, boxes or dark acrylic is the main job and you want the beam contained in a Class 1 cabinet. Compare the other Ray7S versions with the chips above if you mostly engrave: smaller modules have finer spots and cost far less. Plan an outdoor exhaust route from day one.",
+  "proTips": "Duct the exhaust outside: at 40W a closed cabinet fills with smoke fast. Split thick cuts into several faster passes to limit charring and flare-ups, and keep the tinted lid clean. Lower the power well under half for photos to keep the wide spot from blurring detail.",
+  "primaryUse": "40W module · Longer Ray7S",
+  "rating": {
+    "overall": 8,
+    "value": 8,
+    "easeOfUse": 8.6,
+    "capability": 7.8,
+    "buildQuality": 7.8
+  },
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 40W Ray7S brings real cutting power into a Class 1 cabinet for well under $1,000, with the air pump included, Klipper firmware and 600 mm/s motion. Few enclosed 40W diodes cost this little.",
+    "limitations": "The 305 × 300 mm bed is small for signs and panels, the wide spot is a compromise for fine engraving, and Longer's 30 mm / 35 mm cut claims come without a pass count. It is a brand-new machine: exhaust capacity and cabinet durability have not been independently tested."
+  },
+  "similarModels": [
+    "xtool-s1-40w",
+    "acmer-p3-48w",
+    "longer-ray7-40w"
+  ],
+  "faq": [
+    {
+      "question": "Can the Ray7S 40W really cut 30 mm basswood?",
+      "answer": "Longer's product page shows 30 mm basswood and 35 mm black acrylic cuts, without saying how many passes they take; such depths always need several passes on a diode. By our estimate, the 40W cuts 10–15 mm basswood in one pass with its included air pump."
+    },
+    {
+      "question": "Ray7S 40W or xTool S1 40W?",
+      "answer": "The Ray7S 40W costs $849.99 against about $1,699 for the xTool S1 40W (October 2026). The S1 offers a 498 × 319 mm bed, a mature ecosystem and an IR option; the Ray7S halves the price with a smaller bed and no track record yet."
+    },
+    {
+      "question": "Ray7S 40W or open Ray7 40W?",
+      "answer": "The open Ray7 40W costs $669.99 and has a larger 405 × 400 mm bed, but no air pump in the box and no cabinet. The Ray7S 40W adds $180 for the Class 1 enclosure, Klipper firmware and the included pump."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray7s-40w-air-included",
+      "title": "Air pump in the box",
+      "body": "The only Ray7S version that ships with the air-assist pump, ready to cut thick stock."
+    },
+    {
+      "id": "ray7s-40w-claims",
+      "title": "30 mm basswood, 35 mm black acrylic",
+      "body": "The maximum cuts Longer shows for the Ray7S, in several passes; one-pass cuts reach about 10–15 mm basswood by our estimate."
+    },
+    {
+      "id": "ray7s-40w-price",
+      "title": "Half the price of the xTool S1 40W",
+      "body": "$849.99 in October 2026, against about $1,699 for xTool's enclosed 40W."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "image": "/machines/longer-ray7s-40w/01.webp",
+  "images": [
+    {
+      "src": "/machines/longer-ray7s-40w/01.webp",
+      "alt": "Longer Ray7S 40W enclosed Class 1 laser engraver: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-40w/02.webp",
+      "alt": "Longer Ray7S seen from above, with the laser gantry over an engraved plywood sheet: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-40w/03.webp",
+      "alt": "Longer Ray7S Class 1 safety features: blue-light protection lid, emergency stop, limit switches and goggles: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-40w/04.webp",
+      "alt": "Longer Ray7S Klipper firmware and an engraving comparison with vibration compensation: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-40w/05.webp",
+      "alt": "Longer Ray7S enclosed laser engraver with its orange lid: Longer"
+    }
+  ],
+  "powerRating": "40W",
+  "modelLine": "longer-ray7s",
+  "catalogPrimary": true,
+  "enclosed": true,
+  "tierEditorialOverride": true,
+  "releaseDate": "2026-10"
+}

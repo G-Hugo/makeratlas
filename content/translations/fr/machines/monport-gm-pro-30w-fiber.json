@@ -1,0 +1,101 @@
+{
+  "tagline": "Fibre intégrée de 30 W avec autofocus à une touche : le marqueur du quotidien à petit prix de Monport",
+  "tldr": "La GM Pro 30 W est un marqueur fibre intégré avec une source MAX de 30 W, un autofocus à une touche, un relevage électrique et un champ de 150 × 150 mm. Monport annonce 10 000 mm/s, une profondeur de marquage maximale de 0,08 mm et un M² inférieur à 1,5. À 1 999,99 $ sur la boutique Monport en octobre 2026, elle coûte environ 440 $ de moins que la GT 30 W séparée. Pas de marquage couleur : la source a une impulsion fixe.",
+  "mainObjective": "Marquage courant de plaques, d’outils et de gobelets avec autofocus",
+  "primaryUse": "Fibre 30 W · Monport GM Pro",
+  "beginnerNotes": "Cette fiche décrit la version 30 W de la GM Pro, le choix par défaut pour le marquage courant du métal avec autofocus. Comparez les autres versions via les pastilles.",
+  "proTips": "Partez des préréglages matière de Monport, puis affinez la vitesse et la fréquence sur des carrés d’essai. Nettoyez souvent la lentille F-theta : les résidus des gobelets revêtus s’accumulent vite.",
+  "bestFor": [
+    "Plaques et bijoux",
+    "Outils et couteaux",
+    "Gobelets (axe rotatif)",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Autofocus et relevage électrique pour 1 999,99 $, environ 440 $ de moins que la GT 30 W séparée (boutique Monport, oct. 2026)",
+    "Faisceau serré (M² inférieur à 1,5) pour le petit texte, les numéros de série et les QR codes",
+    "Lunettes de protection, barres de positionnement et plaques d’aluminium d’essai fournies"
+  ],
+  "cons": [
+    "Source Q-switch MAX à impulsion fixe de 80 à 120 ns : pas de marquage couleur maîtrisé",
+    "Énergie d’impulsion de 0,78 mJ et profondeur annoncée de 0,08 mm : lente en gravure profonde",
+    "La version la plus lourde de la gamme, 17,1 kg, alors qu’elle est la moins puissante avec autofocus"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Titane",
+      "Or et argent",
+      "Plastiques durs",
+      "Pierre"
+    ],
+    "cut": [
+      "Tôle de métal fine (nombreuses passes)"
+    ],
+    "cannot": [
+      "Production en bois et en acrylique",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Pièces plus grandes que le champ de 150 × 150 mm sans repositionnement"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 1 999,99 $ la machine seule, 2 149,99 $ avec axe rotatif, 2 199,99 $ avec LightBurn Pro"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle profondeur de gravure pour la GM Pro 30 W ?",
+      "answer": "Monport annonce une profondeur de marquage maximale de 0,08 mm, avec une énergie d’impulsion de 0,78 mJ ; un relief plus profond s’obtient par passes répétées. Selon notre estimation, un logo rempli de 10 × 10 cm sur inox prend environ 4 à 11 minutes selon la densité de remplissage."
+    },
+    {
+      "question": "GM Pro 30 W ou GM Pro 50 W ?",
+      "answer": "La 30 W (1 999,99 $) couvre le marquage, les plaques et la gravure légère. La 50 W (2 498 $) partage le champ, le châssis et l’autofocus, mais apporte plus d’énergie par impulsion (1,1 mJ contre 0,78 mJ) et une profondeur annoncée plus grande (0,10 mm), ce qui raccourcit les logos profonds et la découpe de métal fin. Pour 500 $ de plus, la 50 W est le meilleur achat si la gravure profonde fait votre chiffre d’affaires."
+    },
+    {
+      "question": "La GM Pro 30 W a-t-elle besoin d’un caisson ?",
+      "answer": "C’est un galvo ouvert avec un faisceau invisible de classe 4. Monport fournit des lunettes de protection ; un caisson (Monport en vend un pour les fibres intégrées) est vivement conseillé si d’autres personnes ou des animaux partagent la pièce."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "L’autofocus sous les 2 000 $",
+      "body": "Autofocus à une touche et relevage électrique de l’axe Z à 1 999,99 $ en octobre 2026 : passer d’une plaque plate à un outil plus haut ne demande plus de refaire la mise au point à la main."
+    },
+    {
+      "title": "Un faisceau fin pour les détails",
+      "body": "Monport annonce un M² inférieur à 1,5 pour la 30 W, le plus serré des deux sources MAX de la gamme, ce qui favorise le petit texte et les QR codes denses plutôt que la profondeur brute."
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La GM Pro 30 W apporte à un petit atelier l’autofocus et un faisceau précis pour le prix d’une fibre manuelle de base : elle convient bien aux plaques, aux outils et aux gobelets personnalisés.",
+    "limitations": "Pas de marquage couleur, une profondeur modeste par passe et un champ de 150 × 150 mm. Les caractéristiques sont celles de Monport ; pas encore de test indépendant."
+  },
+  "images": [
+    {
+      "alt": "Laser fibre intégré Monport GM Pro 30 W : Monport"
+    },
+    {
+      "alt": "Monport GM Pro, vue de côté de la colonne et du socle : Monport"
+    },
+    {
+      "alt": "Éléments de la Monport GM Pro : galvo, lentille F-theta, axe Z et panneau de commande : Monport"
+    },
+    {
+      "alt": "Connectique arrière de la Monport GM Pro : USB, axe rotatif, pédale et signal de caisson : Monport"
+    },
+    {
+      "alt": "Contenu du carton de la Monport GM Pro 30 W : lunettes, barres de positionnement, plaques d’essai et câbles : Monport"
+    }
+  ]
+}

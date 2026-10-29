@@ -1,0 +1,179 @@
+{
+  "id": "monport-gm-pro-30w-mopa",
+  "slug": "monport-gm-pro-30w-mopa",
+  "name": "Monport GM Pro 30W MOPA",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "30W",
+  "modelLine": "monport-gm-pro-mopa",
+  "tagline": "Integrated 30W JPT MOPA with autofocus: colour marking at an entry price",
+  "tldr": "The GM Pro 30W MOPA pairs a 30W JPT MOPA source with Monport's integrated chassis, one-touch autofocus and a 175 × 175 mm field. Pulse width adjusts from 2 to 500 ns for colour on stainless steel and titanium; Monport lists M² below 1.4, the tightest beam of the GM Pro range, and 0.08 mm maximum depth. $2,978 on Monport's store in October 2026, close to ComMarker's B6 MOPA 30W.",
+  "mainObjective": "Colour marking and fine detail on jewelry, gifts and small metal parts",
+  "bestFor": [
+    "Colour marking",
+    "Jewelry",
+    "Anodized aluminum",
+    "Plastics"
+  ],
+  "priceRange": {
+    "min": 2978,
+    "max": 3178,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $2,978 machine only, $3,128 with rotary axis, $3,178 with LightBurn Pro"
+  },
+  "specs": {
+    "power": "30W MOPA fiber",
+    "workArea": "175 × 175 mm",
+    "software": [
+      "BslAppSimple",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–10 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~500–2 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel (black and colour)",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Titanium (colour)",
+      "Gold & silver",
+      "Plastics",
+      "Stone"
+    ],
+    "cut": [
+      "Thin metal sheet (many passes)"
+    ],
+    "cannot": [
+      "Wood and acrylic production work",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Parts larger than the 175 × 175 mm field without repositioning"
+    ]
+  },
+  "pros": [
+    "MOPA colour marking with autofocus for $2,978 (Monport store, Oct 2026)",
+    "Best beam figure in the GM Pro range (M² below 1.4) for fine text and photo-like marks",
+    "Larger 175 × 175 mm field than the standard GM Pro"
+  ],
+  "cons": [
+    "1 mJ pulse energy and 0.08 mm listed depth: deep engraving is slow",
+    "Costs about $1,000 more than the standard GM Pro at the same wattage, which is only worth it if you sell colour",
+    "Thin-sheet cutting is possible in theory but very slow at this power"
+  ],
+  "faq": [
+    {
+      "question": "Can the GM Pro 30W MOPA do colour marking?",
+      "answer": "Yes. Its JPT MOPA source adjusts pulse width from 2 to 500 ns and frequency from 1 to 4,000 kHz, which is what produces controlled oxide colours on stainless steel and titanium. Expect to build test grids for each alloy and finish."
+    },
+    {
+      "question": "GM Pro 30W MOPA or ComMarker B6 MOPA 30W?",
+      "answer": "Both are 30W MOPA fibers around $3,000. The GM Pro is a one-piece chassis with one-touch autofocus and a 175 × 175 mm field at $2,978 (October 2026); compare the B6's field options, software and bundles before choosing."
+    },
+    {
+      "question": "30W or 60W MOPA in the GM Pro line?",
+      "answer": "The 30W is enough for colour, black marking and plastics. The 60W ($3,598) doubles pulse energy to 2 mJ and lists 0.10 mm depth, which pays off for deep engraving, relief and thin-sheet cutting. For $620 more, pick the 60W if engraving is a regular job."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gm30mopa-colour",
+      "title": "Colour at the entry price",
+      "body": "A JPT MOPA source with full pulse control for $2,978 in October 2026, with autofocus and electric lift included."
+    },
+    {
+      "id": "gm30mopa-beam",
+      "title": "The finest beam of the range",
+      "body": "Monport lists M² below 1.4 for this tier, the lowest figure in the GM Pro line, an advantage for small lettering, fine hatch fills and grey-scale photo marks on metal."
+    }
+  ],
+  "beginnerNotes": "This profile is the 30W tier of the GM Pro MOPA, the least expensive way to get controlled colour marking in Monport's integrated range. Compare the other tier via the chips.",
+  "proTips": "For black marks on anodized or bare aluminum, use short pulses and high frequency; for colour on stainless steel, slow down and overlap lines heavily. Save each working recipe as a preset.",
+  "primaryUse": "30W MOPA fiber · Monport GM Pro MOPA",
+  "rating": {
+    "overall": 8,
+    "value": 8.2,
+    "easeOfUse": 8.1,
+    "capability": 7.6,
+    "buildQuality": 8.1
+  },
+  "similarModels": [
+    "commarker-b6-mopa-30w",
+    "monport-gt-60w-fiber",
+    "creality-falcon-t1-60w-mopa"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "releaseDate": "2025-10",
+  "image": "/machines/monport-gm-pro-30w-mopa/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-gm-pro-30w-mopa/01.webp",
+      "alt": "Monport GM Pro 30W MOPA integrated fiber laser: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-30w-mopa/02.webp",
+      "alt": "Monport GM Pro MOPA colour marking on a metal plate: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-30w-mopa/03.webp",
+      "alt": "Monport GM Pro MOPA components: galvo, F-theta lens, Z axis and control panel: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-30w-mopa/04.webp",
+      "alt": "Monport GM Pro 30W MOPA package contents: goggles, positioning bars, test sheets and cables: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-30w-mopa/05.webp",
+      "alt": "Monport GM Pro MOPA rear ports: USB, rotary, foot pedal and enclosure signal: Monport"
+    }
+  ],
+  "tierEditorialOverride": true,
+  "enclosed": false,
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The GM Pro 30W MOPA suits jewelry makers and gift shops that want colour and fine black marks on metal without split-MOPA prices, in a compact chassis with autofocus.",
+    "limitations": "Modest pulse energy limits deep work, colour has a learning curve, and the open galvo needs an enclosure or strict eye protection. Specs are Monport's; no independent review yet."
+  }
+}

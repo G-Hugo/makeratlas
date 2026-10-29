@@ -1,0 +1,149 @@
+{
+  "id": "omtech-q3",
+  "slug": "omtech-q3",
+  "name": "OMTech Q3",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "image": "/machines/omtech-q3/01.webp",
+  "tagline": "Q-switched fiber marker that works on the bench, split or handheld, in 30W and 50W versions",
+  "tldr": "The Q3, also called the HQ Series by OMTech, is a Q-switched fiber marker listed on OMTech's store at the end of October 2026. It runs in three ways: a desktop column, a split setup where the processing unit leaves the base (about 15 minutes to convert), and a handheld mode where a 3.2 kg quick-release head is pressed against large or fixed parts, keeping the 150 × 150 mm field. OMTech lists 3 mm deep engraving, a 0.06 mm minimum line width, 10,000 mm/s and a 170 mm processing height. Prices: $1,799.99 for the 30W and $2,699.99 for the 50W (OMTech store, October 2026). Focus is manual and the laser is Class 4. Open a version for exact specs and benchmarks.",
+  "mainObjective": "Metal marking on the bench and on parts too large to bring to the machine",
+  "bestFor": [
+    "Metal tags & nameplates",
+    "Tools & machine parts",
+    "Large or fixed workpieces",
+    "Small metal shops"
+  ],
+  "priceRange": {
+    "min": 1799.99,
+    "max": 2699.99,
+    "currency": "USD",
+    "note": "Official OMTech store, Oct 2026: 30W $1,799.99, 50W $2,699.99 (regular prices $3,599.99 and $4,899.99)"
+  },
+  "specs": {
+    "power": "30W / 50W fiber (Q-switch)",
+    "workArea": "150 × 150 mm",
+    "software": [
+      "OMTech Mark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "±0.002 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–10 min"
+      },
+      "cutExample": {
+        "description": "No cutting on this machine",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "10,000 mm/s",
+        "avgEngraveSpeed": "~500–2,000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Steel & stainless steel",
+      "Aluminum",
+      "Brass",
+      "Titanium",
+      "Gold & silver",
+      "Some hard plastics and stone (after testing)"
+    ],
+    "cut": [],
+    "cannot": [
+      "Wood and paper (OMTech warning)",
+      "PVC and PTFE",
+      "Color marking on stainless (needs a MOPA)",
+      "Fields larger than 150 × 150 mm in one go"
+    ]
+  },
+  "pros": [
+    "Three work modes in one machine, including a handheld head for parts that do not fit under a column",
+    "Larger 150 × 150 mm field than most compact desktop fibers, in every mode",
+    "170 mm processing height and 0–30° head tilt for tall or angled parts"
+  ],
+  "cons": [
+    "Manual focus and no camera: height and placement are set by hand for each part",
+    "Class 4 open laser: goggles and a controlled area are required",
+    "Q-switched source: no color marking on stainless steel"
+  ],
+  "beginnerNotes": "This overview covers the OMTech Q3 line. Take the 30W if a lower price matters more than speed, the 50W if you engrave deep logos or run repeat jobs where time counts. Both have the same modes, field and software; compare them with the chips above.",
+  "proTips": "Build a simple jig for the desktop mode and keep the handheld head for parts that cannot move: it is the same 150 × 150 mm field, held by hand. Recheck focus every time the part height changes, since there is no autofocus.",
+  "primaryUse": "Q-switched fiber marker line for metal marking on the bench, split or handheld",
+  "rating": {
+    "overall": 8,
+    "value": 8.3,
+    "easeOfUse": 7.9,
+    "capability": 7.4,
+    "buildQuality": 8
+  },
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The Q3 adds what fixed desktop fibers lack: a quick-release head that goes to the part. For shops marking tool cabinets, machine panels, molds or other objects that will not fit under a column, it replaces a separate handheld marker, and the 150 × 150 mm field stays the same in every mode.",
+    "limitations": "It is a Class 4 machine with manual focus, so it asks for more care than an enclosed fiber. The Q-switched source marks black, white and depth, not colors, and OMTech forbids wood and paper. The line is brand new, without owner feedback yet."
+  },
+  "similarModels": [
+    "gweike-g2-30w",
+    "monport-gt-30w-fiber",
+    "gweike-g6-split-30w"
+  ],
+  "faq": [
+    {
+      "question": "Which OMTech Q3 should I buy?",
+      "answer": "The 30W ($1,799.99) if a lower upfront cost matters most; the 50W ($2,699.99) if you engrave deep logos or run repeat jobs. In OMTech's own deep-engraving example, the 30W took about 110 minutes and the 50W about 60. Prices on OMTech's store in October 2026."
+    },
+    {
+      "question": "What does 3-in-1 mean on the OMTech Q3?",
+      "answer": "The same machine works as a desktop marker on its column, as a split setup with the processing unit moved off the base (about 15 minutes to convert), or as a handheld marker with the 3.2 kg quick-release head pressed flat against the part. The marking field stays 150 × 150 mm in every mode."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "images": [
+    {
+      "src": "/machines/omtech-q3/01.webp",
+      "alt": "OMTech Q3 fiber laser marker in desktop mode: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3/02.webp",
+      "alt": "OMTech Q3 three work modes: desktop, split and handheld: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3/03.webp",
+      "alt": "OMTech Q3 handheld head marking a large fixed workpiece: OMTech"
+    },
+    {
+      "src": "/machines/omtech-q3/04.webp",
+      "alt": "Metal cards, jewelry, tools and nameplates marked with the OMTech Q3: OMTech"
+    }
+  ],
+  "modelLine": "omtech-q3",
+  "catalogHidden": true,
+  "releaseDate": "2026-10",
+  "tierEditorialOverride": true,
+  "enclosed": false
+}

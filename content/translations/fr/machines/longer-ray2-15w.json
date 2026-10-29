@@ -1,0 +1,102 @@
+{
+  "tagline": "Diode de 15 W dans le petit caisson classe 1 de Longer : 10 mm de tilleul en une passe pour 319,99 $",
+  "tldr": "La Ray2 15 W place une diode de 15 W dans le caisson fermé de la Ray2, lancée par Longer le 21 octobre 2026 : caisson classe 1 livré monté, alarmes de flamme et de basculement, arrêt d’urgence et surface de travail de 130 × 110 mm. Longer l’annonce à 10 mm de tilleul en une passe, avec un point de 0,06 × 0,06 mm et une vitesse maximale de 12 000 mm/min. À 319,99 $ en pack de base (boutique Longer États-Unis, octobre 2026), c’est la version à prendre pour découper autant que graver ; le petit plateau et l’absence d’avis de propriétaires sont les principales réserves.",
+  "mainObjective": "Graver en caisson fermé et vraiment découper du bois fin, pour de petits projets à la maison",
+  "primaryUse": "Version 15 W de la Longer Ray2 fermée : gravure et découpe de bois fin pour de petits projets à la maison",
+  "beginnerNotes": "Cette fiche décrit la version 15 W de la Longer Ray2. Préférez-la à la version d’entrée si vous voulez découper du bois fin pour des décorations, des puzzles ou de petites boîtes, et pas seulement graver. Comparez les deux versions de la Ray2 avec les pastilles ci-dessus : caisson, plateau et logiciel sont identiques.",
+  "proTips": "Longer met en avant l’assistance d’air pour des découpes plus propres : utilisez-la sur le tilleul pour limiter le noircissement des bords. À partir de 6 mm d’épaisseur, vérifiez que la pièce et sa chute tiennent dans le plateau de 130 × 110 mm avant de lancer, et gardez le capot fermé jusqu’à ce que la fumée soit évacuée.",
+  "bestFor": [
+    "Petits projets de gravure et découpe",
+    "Décorations et porte-clés",
+    "Familles avec enfants à proximité",
+    "Usage en appartement"
+  ],
+  "pros": [
+    "10 mm de tilleul en une passe (donnée Longer), assez pour des décorations, des puzzles et de petites boîtes",
+    "Point plus fin de 0,06 × 0,06 mm : petits textes et photos restent nets",
+    "Caisson classe 1, alarmes et arrêt d’urgence pour 319,99 $, livrée montée"
+  ],
+  "cons": [
+    "Le plateau reste à 130 × 110 mm : plus de puissance ne veut pas dire des projets plus grands",
+    "Pas de caméra pour le placement ni de filtre à fumée annoncé : positionnement et ventilation restent à votre charge",
+    "Toute neuve : ni avis de propriétaires ni test de découpe indépendant pour l’instant"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Papier et carton",
+      "Tissu",
+      "Inox (marquage de surface, selon Longer)"
+    ],
+    "cut": [
+      "Tilleul jusqu’à 10 mm en une passe (donnée Longer)",
+      "Contreplaqué jusqu’à ~6 mm",
+      "Cuir, feutre et papier"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Tout objet de plus de 130 × 110 mm",
+      "Découpe rapide de bois dur épais",
+      "Gravure profonde du métal nu"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 319,99 $ en pack de base"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray2 15 W transforme le petit caisson fermé de Longer en vraie machine de gravure et de découpe : 10 mm de tilleul en une passe, c’est plus que ce qu’annoncent la plupart des diodes fermées compactes à ce prix. Son point plus fin en fait aussi la meilleure graveuse des deux versions.",
+    "limitations": "Chaque projet doit toujours tenir dans 130 × 110 mm, ce qui exclut les panneaux et les planches à découper. Comme toute diode, elle ne découpe pas l’acrylique transparent, et le produit est trop récent pour avoir un historique de fiabilité."
+  },
+  "faq": [
+    {
+      "question": "Que découpe la Longer Ray2 15 W ?",
+      "answer": "Longer l’annonce à 10 mm de tilleul en une passe. Cela couvre les décorations, les puzzles, les petites boîtes et le contreplaqué de 3 à 6 mm ; le bois dur dense demande plusieurs passes, et l’acrylique transparent reste hors de portée, comme avec toute diode. Les pièces doivent tenir dans le plateau de 130 × 110 mm."
+    },
+    {
+      "question": "La 15 W vaut-elle 80 $ de plus que la Ray2 d’entrée ?",
+      "answer": "Si vous comptez découper, oui : elle passe de 6 mm à 10 mm de tilleul en une passe et découpe les matières fines nettement plus vite. Si vous ne gravez que de petits objets, la version moins chère fait le même travail sur le même plateau. Prix sur la boutique Longer États-Unis en octobre 2026 : 319,99 $ et 239,99 $."
+    },
+    {
+      "question": "La Ray2 15 W a-t-elle une caméra ?",
+      "answer": "Aucune caméra n’est annoncée. Le placement se fait avec l’aperçu du logiciel et un passage de cadrage. Le logiciel LaserBurn de Longer, LightBurn et LaserGRBL fonctionnent tous avec elle."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "10 mm de tilleul en une passe",
+      "body": "Longer annonce 10 mm de tilleul en une seule passe pour la Ray2 15 W, une profondeur de découpe rare parmi les diodes fermées compactes autour de 300 $."
+    },
+    {
+      "title": "Point plus fin de 0,06 mm",
+      "body": "Le module 15 W a un point de 0,06 × 0,06 mm selon Longer, plus étroit que celui de la version d’entrée, ce qui aide pour les petites lettres et les photos."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée Longer Ray2 15 W : Longer"
+    },
+    {
+      "alt": "Présentation de la Longer Ray2 avec les options 7,5 W et 15 W : Longer"
+    },
+    {
+      "alt": "Vitesse de gravure de 12 000 mm/min de la Longer Ray2 : Longer"
+    },
+    {
+      "alt": "Projets gravés avec la Longer Ray2 sur laiton, cuir, jean et ardoise : Longer"
+    },
+    {
+      "alt": "Longer Ray2 utilisée pour des cadeaux, des médailles pour animaux et des produits de marché artisanal : Longer"
+    }
+  ]
+}

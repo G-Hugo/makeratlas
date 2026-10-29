@@ -1,0 +1,183 @@
+{
+  "id": "longer-ray7s-15w",
+  "slug": "longer-ray7s-15w",
+  "name": "Longer Ray7S 15W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The value Ray7S: a 15W diode in a Class 1 cabinet that engraves finely and cuts 3 mm wood",
+  "tldr": "The Ray7S 15W costs $369.99 for the Basic Set on Longer's store (October 2026). Inside the same Class 1 cabinet with Klipper firmware and a 305 × 310 mm bed, its 0.06 × 0.08 mm diode stays fine enough for photos while cutting 3 mm basswood in one pass by our estimate. It undercuts the cheapest enclosed xTool S1 by more than $600, with a smaller bed and no reviews yet.",
+  "mainObjective": "Enclosed engraving with light cutting of 3–5 mm wood for a home workshop",
+  "bestFor": [
+    "Enclosed home workshop",
+    "Ornaments & small boxes",
+    "Value for money",
+    "Shared rooms"
+  ],
+  "priceRange": {
+    "min": 369.99,
+    "max": 369.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $369.99 Basic Set (list price $499.99)"
+  },
+  "specs": {
+    "power": "15W diode",
+    "workArea": "305 × 310 mm",
+    "software": [
+      "Longer Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "microSD (TF)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~16–24 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~11–18 min"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.08 mm",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~60–150 mm/s",
+        "avgCutSpeed": "~2–3 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Glass & ceramic (with care)",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "Basswood 3 mm in one pass, ~5 mm with air (our estimate)",
+      "Plywood up to ~6 mm in several passes",
+      "Leather, felt & card"
+    ],
+    "cannot": [
+      "Sheets larger than 305 × 310 mm",
+      "Clear acrylic",
+      "Bare metal marking",
+      "Thick-stock production"
+    ]
+  },
+  "pros": [
+    "Cuts 3 mm basswood in one pass and about 5 mm with air assist by our estimate, inside a Class 1 cabinet",
+    "Keeps a fine 0.06 × 0.08 mm spot according to Longer, close to the entry module for engraving",
+    "$369.99 in October 2026, more than $600 below the cheapest enclosed xTool S1"
+  ],
+  "cons": [
+    "Air pump not included at this power: clean cuts need the optional pump",
+    "305 × 310 mm bed limits larger signs and panels",
+    "No independent tests of the Ray7S cabinet or exhaust yet"
+  ],
+  "beginnerNotes": "This profile is the 15W version of the Longer Ray7S. It suits home users who want a closed laser for engraving with occasional cuts in 3 mm wood: ornaments, coasters, small boxes. Compare the other Ray7S versions with the chips above if you plan to cut thicker plywood often. Add the optional air pump if you cut.",
+  "proTips": "Fit the optional air pump before the first cuts; inside a closed cabinet it also helps clear smoke from the lens. Duct the exhaust out of a window for any cutting session. Keep the lid closed while the laser runs: the Class 1 rating only holds with it shut.",
+  "primaryUse": "15W module · Longer Ray7S",
+  "rating": {
+    "overall": 7.8,
+    "value": 8.6,
+    "easeOfUse": 8.7,
+    "capability": 7.2,
+    "buildQuality": 7.8
+  },
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 15W Ray7S balances price and capability: a Class 1 cabinet, Klipper firmware and Wi-Fi, a fine spot for engraving and enough power for 3 mm hobby cuts, for well under $400.",
+    "limitations": "Thicker plywood needs several passes, and the 305 × 310 mm bed is modest. The air pump is extra. Cabinet sealing and extraction are untested by independent reviewers so far."
+  },
+  "similarModels": [
+    "creality-falcon-a1c-10w",
+    "longer-ray7s-20w",
+    "xtool-s1-10w"
+  ],
+  "faq": [
+    {
+      "question": "How thick can the Ray7S 15W cut?",
+      "answer": "Longer does not publish per-version figures. By our estimate it cuts 3 mm basswood in one pass, about 5 mm with air assist, and 6 mm plywood in several passes."
+    },
+    {
+      "question": "Ray7S 15W or Ray7S 20W?",
+      "answer": "The 20W costs $529.99 against $369.99 for the 15W Basic Set (Longer store, October 2026). The $160 step buys faster cuts in 5–8 mm wood; for engraving with light cuts, the 15W is enough and leaves budget for the air pump."
+    },
+    {
+      "question": "Ray7S 15W or open Ray7 15W?",
+      "answer": "The open Ray7 15W costs $299.99, $70 less, with a larger 405 × 410 mm bed. The Ray7S adds the Class 1 cabinet and Klipper firmware: worth it if the laser shares a room with family or pets."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray7s-15w-enclosed-cuts",
+      "title": "3 mm cuts in a closed cabinet",
+      "body": "By our estimate, one-pass cuts in 3 mm basswood with the lid closed and the beam contained."
+    },
+    {
+      "id": "ray7s-15w-price",
+      "title": "Far below the xTool S1",
+      "body": "$369.99 in October 2026, more than $600 less than the cheapest enclosed xTool S1, with a smaller bed."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "image": "/machines/longer-ray7s-15w/01.webp",
+  "images": [
+    {
+      "src": "/machines/longer-ray7s-15w/01.webp",
+      "alt": "Longer Ray7S 15W enclosed Class 1 laser engraver: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-15w/02.webp",
+      "alt": "Longer Ray7S seen from above, with the laser gantry over an engraved plywood sheet: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-15w/03.webp",
+      "alt": "Longer Ray7S Class 1 safety features: blue-light protection lid, emergency stop, limit switches and goggles: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-15w/04.webp",
+      "alt": "Longer Ray7S Klipper firmware and an engraving comparison with vibration compensation: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7s-15w/05.webp",
+      "alt": "Longer Ray7S enclosed laser engraver with its orange lid: Longer"
+    }
+  ],
+  "powerRating": "15W",
+  "modelLine": "longer-ray7s",
+  "enclosed": true,
+  "tierEditorialOverride": true,
+  "releaseDate": "2026-10"
+}

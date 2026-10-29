@@ -5,6 +5,33 @@
   "brand": "xTool",
   "category": "laser-engraver",
   "laserType": "diode",
+  "moduleSystem": {
+    "style": "interchangeable",
+    "headline": "Swappable laser modules on the same M2 cabinet",
+    "description": "The M2 is sold with a 10W, 20W or 40W blue diode module, and every module is also sold on its own: 20W at $599 and 40W at $899 (listed on xTool's store from October 21, 2026). A 3W 1064 nm infrared module ($499) adds metal and plastic marking, and the CMYK inkjet module handles colour printing. Modules swap on the same multi-function holder; xTool says they only fit the M2.",
+    "options": [
+      {
+        "power": "10W",
+        "laserKind": "diode",
+        "label": "10W diode (stock module)"
+      },
+      {
+        "power": "20W",
+        "laserKind": "diode",
+        "label": "20W diode module"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode module (October 2026)"
+      },
+      {
+        "power": "3W",
+        "laserKind": "infrared",
+        "label": "3W IR module (accessory)"
+      }
+    ]
+  },
   "tagline": "Entry enclosed laser with CMYK color printing: xTool's 2026 mass-market craft machine",
   "tldr": "Launched May 2026, the M2 packs laser engraving, cutting, and integrated inkjet color printing into one enclosed desktop at $599. Built for everyday crafters and Etsy sellers who want color + laser without a pro CO₂ budget: not a metal-marking or production cutter.",
   "mainObjective": "Affordable enclosed laser + color print for home crafters and small shops",
@@ -16,13 +43,13 @@
   ],
   "priceRange": {
     "min": 499,
-    "max": 1229,
+    "max": 1849,
     "currency": "USD",
-    "note": "Official xTool store, Oct 2026: $499 to $1,229 depending on bundle"
+    "note": "Official xTool store, Oct 2026: 10W from $499, 20W from $899, 40W from $1,299 machine only, up to $1,849 for the 40W All-in-One bundle; the 40W 455nm diode module alone is $899 (listed from Oct 21, 2026)"
   },
   "specs": {
     "power": "10W diode",
-    "workArea": "300 × 300 mm (approx.)",
+    "workArea": "426 × 320 mm (16.8 × 12.6 in)",
     "software": [
       "xTool Creative Space"
     ],
@@ -73,11 +100,26 @@
   "pros": [
     "10W on xTool M2 Color Craft Laser: engraving-first: photo fills and leather at moderate speeds",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software on the profile: trial your workflow on scrap before production"
+    "Upgrade path on the same cabinet: xTool sells 20W ($599) and, since late October 2026, 40W ($899) diode modules; xTool rates the 40W for 15 mm basswood and 11 mm black acrylic"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
-    "Confirm optical wattage on the listing before you buy"
+    "Confirm optical wattage on the listing before you buy",
+    "The 40W module costs $899 on its own, so upgrading a 10W M2 ends up about $100 dearer than buying the 40W configuration ($1,299) from the start"
+  ],
+  "faq": [
+    {
+      "question": "Can the xTool M2 be upgraded to 40W?",
+      "answer": "Yes. Since October 21, 2026 xTool sells a 40W 455nm diode module for the M2 at $899. It mounts on the same multi-function holder as the stock 10W head; xTool says its modules only fit the M2. The 20W module ($599) and the 3W 1064 nm infrared module ($499) use the same holder."
+    },
+    {
+      "question": "What does the 40W module change on the M2?",
+      "answer": "Mostly cutting. xTool's M2 FAQ rates the 40W for 15 mm basswood plywood and 11 mm black acrylic, against 8 mm and 3 mm for the 10W, and recommends 10 mm/s instead of 4 mm/s on 3 mm black acrylic. The processing area shrinks slightly with this module, to 426 × 312 mm instead of 426 × 320 mm, and the spot is wider (0.08 × 0.1 mm)."
+    },
+    {
+      "question": "Buy the 40W M2 directly or upgrade a 10W later?",
+      "answer": "If you already know you will cut thick wood or acrylic, the 40W configuration ($1,299 machine only in October 2026) costs less than a 10W M2 ($499) plus the $899 module. The module makes sense for owners who started with the 10W and now need more cutting depth."
+    }
   ],
   "beginnerNotes": "This profile covers xTool M2 Color Craft Laser. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
   "proTips": "Budget for ink cartridges and laser-safe materials rated for both processes. Test color + laser alignment on scraps before client work.",
@@ -95,7 +137,7 @@
     "wecreat-vision"
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-29",
   "image": "/machines/xtool-m2/01.webp",
   "images": [
     {

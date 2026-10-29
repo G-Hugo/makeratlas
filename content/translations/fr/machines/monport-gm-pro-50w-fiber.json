@@ -1,0 +1,101 @@
+{
+  "tagline": "Fibre intégrée de 50 W avec autofocus : la gravure profonde du métal à petit prix",
+  "tldr": "La GM Pro 50 W loge une source MAX de 50 W dans le châssis fibre intégré de Monport, avec un autofocus à une touche, un relevage électrique et un champ de 150 × 150 mm. Monport annonce 1,1 mJ d’énergie d’impulsion et une profondeur de marquage maximale de 0,10 mm, de quoi graver des logos profonds, des reliefs 3D en plusieurs passes et découper de la tôle fine. 2 498 $ sur la boutique Monport en octobre 2026, environ 700 $ de moins que la GT 50 W séparée (3 199 $).",
+  "mainObjective": "Gravure profonde du métal et marquage plus rapide sur une fibre d’établi compacte",
+  "primaryUse": "Fibre 50 W · Monport GM Pro",
+  "beginnerNotes": "Cette fiche décrit la version 50 W de la GM Pro, celle à choisir quand la profondeur de gravure compte. Comparez les autres versions via les pastilles.",
+  "proTips": "Pour les reliefs profonds, alternez l’angle des hachures entre les passes et relancez l’autofocus toutes les quelques passes à mesure que la surface descend. Laissez tourner l’extraction des fumées : la gravure profonde produit bien plus de poussière métallique que le marquage.",
+  "bestFor": [
+    "Gravure profonde",
+    "Relief 3D",
+    "Couteaux et pièces d’armes",
+    "Marquage en série"
+  ],
+  "pros": [
+    "Énergie d’impulsion de 1,1 mJ et profondeur annoncée de 0,10 mm : nettement plus rapide sur les logos profonds et les reliefs",
+    "Environ 700 $ de moins que la GT 50 W séparée de Monport (3 199 $), autofocus et relevage électrique conservés (boutique Monport, oct. 2026)",
+    "La version la plus légère de la gamme, 15,6 kg, facile à déplacer d’un établi à l’autre"
+  ],
+  "cons": [
+    "Même champ de 150 × 150 mm que la version moins chère : la puissance en plus achète de la profondeur, pas de la surface",
+    "Source MAX à impulsion fixe : pas de marquage couleur maîtrisé",
+    "Le tableau comparatif de Monport semble mal étiqueter les valeurs d’impulsion et de fréquence de cette version : vérifiez-les auprès du support"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Titane",
+      "Or et argent",
+      "Plastiques durs",
+      "Pierre"
+    ],
+    "cut": [
+      "Tôle de métal fine (nombreuses passes)"
+    ],
+    "cannot": [
+      "Production en bois et en acrylique",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Pièces plus grandes que le champ de 150 × 150 mm sans repositionnement"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 2 498 $ la machine seule, 2 648 $ avec axe rotatif, 2 698 $ avec LightBurn Pro"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Qu’apporte la GM Pro 50 W par rapport à la 30 W ?",
+      "answer": "De l’énergie par impulsion (1,1 mJ contre 0,78 mJ) et une profondeur de marquage annoncée plus grande (0,10 mm contre 0,08 mm), pour 498 $ de plus en octobre 2026. Le champ, l’autofocus, le châssis et le logiciel sont les mêmes : la 50 W se justifie quand la gravure profonde, le relief ou la découpe de métal fin reviennent souvent."
+    },
+    {
+      "question": "GM Pro 50 W ou Gweike G2 50 W ?",
+      "answer": "Ce sont deux fibres intégrées de 50 W autour de 2 500 $. La GM Pro 50 W apporte l’autofocus à une touche et le support américain de Monport ; comparez les options de champ, le logiciel (la GM Pro fonctionne avec BslAppSimple et LightBurn) et les offres du moment avant de choisir."
+    },
+    {
+      "question": "La GM Pro 50 W peut-elle découper du métal ?",
+      "answer": "De la tôle fine seulement, en nombreuses passes : Monport cite la découpe de tôle fine parmi ses usages, mais cela reste un laser de marquage avec un champ de 150 × 150 mm, pas une machine de découpe de plaques."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "De la profondeur pour le prix",
+      "body": "1,1 mJ d’énergie d’impulsion et 0,10 mm de profondeur annoncée à 2 498 $ : logos profonds, pièces de couteaux et d’armes et reliefs 3D deviennent accessibles sans payer le prix d’une fibre séparée."
+    },
+    {
+      "title": "Compacte et légère",
+      "body": "15,6 kg sur un socle de 40 × 33 cm, avec autofocus et relevage électrique : une machine qui se transporte sur un stand de marché ou vers un second établi sans chariot."
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La GM Pro 50 W est le meilleur rapport qualité-prix de la gamme : une gravure plus profonde et des travaux plus courts pour un supplément modeste, dans un châssis compact qui garde l’autofocus.",
+    "limitations": "Le champ reste à 150 × 150 mm, il n’y a pas de marquage couleur et le galvo ouvert impose un caisson ou une protection oculaire stricte. Les caractéristiques sont celles de Monport en attendant des tests indépendants."
+  },
+  "images": [
+    {
+      "alt": "Laser fibre intégré Monport GM Pro 50 W : Monport"
+    },
+    {
+      "alt": "Laser fibre intégré Monport GM Pro, vue de trois quarts : Monport"
+    },
+    {
+      "alt": "Éléments de la Monport GM Pro : galvo, lentille F-theta, axe Z et panneau de commande : Monport"
+    },
+    {
+      "alt": "Usages de la Monport GM Pro : gravure profonde, relief 3D et découpe de tôle fine : Monport"
+    },
+    {
+      "alt": "Monport GM Pro marquant une pièce sur un établi : Monport"
+    }
+  ]
+}

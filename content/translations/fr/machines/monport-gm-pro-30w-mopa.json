@@ -1,0 +1,101 @@
+{
+  "tagline": "MOPA JPT intégrée de 30 W avec autofocus : le marquage couleur à prix d’entrée",
+  "tldr": "La GM Pro 30 W MOPA associe une source MOPA JPT de 30 W au châssis intégré de Monport, avec un autofocus à une touche et un champ de 175 × 175 mm. La durée d’impulsion se règle de 2 à 500 ns pour la couleur sur l’acier inoxydable et le titane ; Monport annonce un M² inférieur à 1,4, le faisceau le plus serré de la gamme GM Pro, et une profondeur maximale de 0,08 mm. 2 978 $ sur la boutique Monport en octobre 2026, proche de la B6 MOPA 30 W de ComMarker.",
+  "mainObjective": "Marquage couleur et détails fins sur bijoux, cadeaux et petites pièces en métal",
+  "primaryUse": "Fibre MOPA 30 W · Monport GM Pro MOPA",
+  "beginnerNotes": "Cette fiche décrit la version 30 W de la GM Pro MOPA, l’accès le moins cher au marquage couleur maîtrisé dans la gamme intégrée de Monport. Comparez l’autre version via les pastilles.",
+  "proTips": "Pour un noir sur aluminium anodisé ou brut, utilisez des impulsions courtes et une fréquence élevée ; pour la couleur sur inox, ralentissez et faites fortement chevaucher les lignes. Enregistrez chaque réglage qui marche comme préréglage.",
+  "bestFor": [
+    "Marquage couleur",
+    "Bijoux",
+    "Aluminium anodisé",
+    "Plastiques"
+  ],
+  "pros": [
+    "Marquage couleur MOPA avec autofocus pour 2 978 $ (boutique Monport, oct. 2026)",
+    "Le meilleur chiffre de faisceau de la gamme GM Pro (M² inférieur à 1,4) pour le texte fin et les marquages façon photo",
+    "Champ de 175 × 175 mm, plus grand que celui de la GM Pro standard"
+  ],
+  "cons": [
+    "Énergie d’impulsion de 1 mJ et profondeur annoncée de 0,08 mm : la gravure profonde est lente",
+    "Environ 1 000 $ de plus que la GM Pro standard à puissance égale, ce qui ne se justifie que si vous vendez de la couleur",
+    "La découpe de tôle fine est possible en théorie, mais très lente à cette puissance"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable (noir et couleur)",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Titane (couleur)",
+      "Or et argent",
+      "Plastiques",
+      "Pierre"
+    ],
+    "cut": [
+      "Tôle de métal fine (nombreuses passes)"
+    ],
+    "cannot": [
+      "Production en bois et en acrylique",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Pièces plus grandes que le champ de 175 × 175 mm sans repositionnement"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : 2 978 $ la machine seule, 3 128 $ avec axe rotatif, 3 178 $ avec LightBurn Pro"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "La GM Pro 30 W MOPA fait-elle du marquage couleur ?",
+      "answer": "Oui. Sa source MOPA JPT règle la durée d’impulsion de 2 à 500 ns et la fréquence de 1 à 4 000 kHz, ce qui produit des couleurs d’oxydation maîtrisées sur l’acier inoxydable et le titane. Prévoyez des grilles d’essai pour chaque alliage et chaque finition."
+    },
+    {
+      "question": "GM Pro 30 W MOPA ou ComMarker B6 MOPA 30 W ?",
+      "answer": "Ce sont deux fibres MOPA de 30 W autour de 3 000 $. La GM Pro est un châssis monobloc avec autofocus à une touche et un champ de 175 × 175 mm, à 2 978 $ (octobre 2026) ; comparez les options de champ, le logiciel et les offres de la B6 avant de choisir."
+    },
+    {
+      "question": "MOPA 30 W ou 60 W dans la gamme GM Pro ?",
+      "answer": "La 30 W suffit pour la couleur, le noir et les plastiques. La 60 W (3 598 $) double l’énergie par impulsion à 2 mJ et annonce 0,10 mm de profondeur, ce qui paie pour la gravure profonde, le relief et la découpe de tôle fine. Pour 620 $ de plus, prenez la 60 W si la gravure est un travail régulier."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "La couleur au prix d’entrée",
+      "body": "Une source MOPA JPT avec réglage complet de l’impulsion pour 2 978 $ en octobre 2026, autofocus et relevage électrique compris."
+    },
+    {
+      "title": "Le faisceau le plus fin de la gamme",
+      "body": "Monport annonce un M² inférieur à 1,4 pour cette version, le chiffre le plus bas de la gamme GM Pro : un avantage pour les petites lettres, les remplissages fins et les photos en niveaux de gris sur métal."
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La GM Pro 30 W MOPA convient aux créateurs de bijoux et aux boutiques de cadeaux qui veulent de la couleur et des noirs fins sur le métal sans payer le prix d’une MOPA séparée, dans un châssis compact avec autofocus.",
+    "limitations": "L’énergie d’impulsion modeste limite le travail en profondeur, la couleur demande un apprentissage et le galvo ouvert impose un caisson ou une protection oculaire stricte. Caractéristiques de Monport ; pas encore de test indépendant."
+  },
+  "images": [
+    {
+      "alt": "Laser fibre intégré Monport GM Pro 30 W MOPA : Monport"
+    },
+    {
+      "alt": "Marquage couleur sur plaque de métal avec la Monport GM Pro MOPA : Monport"
+    },
+    {
+      "alt": "Éléments de la Monport GM Pro MOPA : galvo, lentille F-theta, axe Z et panneau de commande : Monport"
+    },
+    {
+      "alt": "Contenu du carton de la Monport GM Pro 30 W MOPA : lunettes, barres de positionnement, plaques d’essai et câbles : Monport"
+    },
+    {
+      "alt": "Connectique arrière de la Monport GM Pro MOPA : USB, axe rotatif, pédale et signal de caisson : Monport"
+    }
+  ]
+}

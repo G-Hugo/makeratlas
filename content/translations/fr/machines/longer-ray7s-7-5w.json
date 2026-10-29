@@ -1,0 +1,103 @@
+{
+  "tagline": "La Ray7S la moins chère : une graveuse fermée classe 1 avec une diode fine de 7,5 W pour moins de 300 $",
+  "tldr": "La Ray7S 7,5 W est la version d’entrée de la nouvelle graveuse fermée de Longer : 279,99 $ en lot de base sur la boutique Longer en octobre 2026. Elle place une diode de 0,06 × 0,06 mm dans un caisson classe 1 avec firmware Klipper, déplacements à 600 mm/s, Wi-Fi et une surface de 305 × 310 mm. C’est deux fois la surface des petites graveuses fermées à ce prix, mais la découpe reste limitée au bois fin et au carton.",
+  "mainObjective": "Graver le détail en sécurité à la maison ou dans une pièce partagée, avec un petit budget",
+  "primaryUse": "Module 7,5 W · Longer Ray7S",
+  "beginnerNotes": "Cette fiche décrit la version 7,5 W de la Longer Ray7S. Prenez-la si vous voulez un laser fermé classe 1 pour graver des cadeaux, des étiquettes et des photos à la maison, avec très peu de découpe. Comparez les autres versions de la Ray7S avec les pastilles ci-dessus si la découpe compte : le caisson, la surface et le firmware Klipper sont les mêmes, seul le module change. Aucun test indépendant n’est encore disponible.",
+  "proTips": "Même avec un caisson classe 1, faites sortir l’extraction à l’extérieur ou utilisez un filtre : la fumée doit bien aller quelque part. Limitez la découpe au papier, au carton, au feutre et au tilleul de 2 à 3 mm en deux passes. La compensation des vibrations de Klipper aide surtout sur les remplissages photo rapides : testez des vitesses plus élevées que sur une diode plus ancienne.",
+  "bestFor": [
+    "Gravure fermée à la maison",
+    "Pièces partagées et familles",
+    "Gravure de photos et de textes",
+    "Petit budget"
+  ],
+  "pros": [
+    "Caisson classe 1 pour 279,99 $ (octobre 2026), avec une surface de 305 × 310 mm bien plus grande que celle des mini graveuses fermées",
+    "Point le plus fin de la gamme, 0,06 × 0,06 mm selon Longer, aidé par la compensation des vibrations de Klipper pour des détails nets",
+    "La faible puissance permet de graver papier, carton et cuir fin sans les percer"
+  ],
+  "cons": [
+    "La découpe plafonne autour de 2 à 3 mm de tilleul par passe selon notre estimation",
+    "Lente sur les grandes photos : environ 24 à 36 min pour 10 × 10 cm selon notre estimation",
+    "Pas de pompe à air incluse à ce prix ; elle est en option"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Verre et céramique (avec précaution)",
+      "Acrylique foncé"
+    ],
+    "cut": [
+      "Tilleul d’environ 2 à 3 mm par passe (notre estimation)",
+      "Papier et carton",
+      "Feutre et cuir fin"
+    ],
+    "cannot": [
+      "Contreplaqué de plus de 3 mm environ en pratique",
+      "Acrylique transparent",
+      "Marquage du métal nu",
+      "Plaques de plus de 305 × 310 mm"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 279,99 $ en lot de base (prix barré 399,99 $)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray7S 7,5 W est l’une des façons les moins chères d’avoir une diode fermée classe 1 avec une surface utile de 305 × 310 mm, le Wi-Fi et le firmware Klipper. Son point fin convient aux portraits, aux petits textes et aux cadeaux détaillés.",
+    "limitations": "C’est une graveuse : au-delà du tilleul fin et du carton, les découpes demandent de nombreuses passes. La surface est plus petite que les 405 × 410 mm de la Ray7 ouverte. La Ray7S est récente : l’étanchéité du caisson, l’extraction et la fiabilité dans la durée n’ont pas encore été testées de façon indépendante."
+  },
+  "faq": [
+    {
+      "question": "Faut-il des lunettes de protection avec la Ray7S 7,5 W ?",
+      "answer": "Longer vend la Ray7S comme un laser classe 1 : capot fermé, le caisson bloque le faisceau et vous pouvez suivre le travail sans lunettes. Gardez-les pour toute intervention capot ouvert, comme un alignement."
+    },
+    {
+      "question": "Ray7S 7,5 W ou Ray7S 15 W ?",
+      "answer": "La 15 W coûte 369,99 $ contre 279,99 $ pour le lot de base 7,5 W (boutique Longer, octobre 2026). Les 90 $ d’écart doublent à peu près la capacité de découpe ; restez sur la 7,5 W si vous gravez presque exclusivement."
+    },
+    {
+      "question": "Que découpe la Ray7S 7,5 W ?",
+      "answer": "Longer ne publie pas de chiffres de découpe par version. Selon notre estimation, elle découpe le papier, le carton, le feutre, le cuir fin et environ 2 à 3 mm de tilleul par passe ; le contreplaqué de 3 mm demande au moins deux passes."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Classe 1 sous 300 $",
+      "body": "Un caisson fermé classe 1 avec une surface de 305 × 310 mm pour 279,99 $ en octobre 2026."
+    },
+    {
+      "title": "Point de 0,06 × 0,06 mm",
+      "body": "Le point laser le plus fin annoncé par Longer pour la Ray7S, pour des portraits et des petits lettrages plus nets."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée classe 1 Longer Ray7S 7.5W : Longer"
+    },
+    {
+      "alt": "Longer Ray7S vue de dessus, avec le portique laser au-dessus d’une plaque de contreplaqué gravée : Longer"
+    },
+    {
+      "alt": "Sécurités classe 1 de la Longer Ray7S : capot anti-lumière bleue, arrêt d’urgence, fins de course et lunettes : Longer"
+    },
+    {
+      "alt": "Firmware Klipper de la Longer Ray7S et comparaison de gravure avec compensation des vibrations : Longer"
+    },
+    {
+      "alt": "Graveuse laser fermée Longer Ray7S avec son capot orange : Longer"
+    }
+  ]
+}

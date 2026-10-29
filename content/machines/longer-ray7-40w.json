@@ -1,0 +1,190 @@
+{
+  "id": "longer-ray7-40w",
+  "slug": "longer-ray7-40w",
+  "name": "Longer Ray7 40W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The cutting Ray7: a 40W diode for thick wood and dark acrylic on a fast open frame",
+  "tldr": "The Ray7 40W is the top of Longer's new open-frame range: $669.99 on Longer's store in October 2026, $10 less than the Ray5 40W basic set. It cuts a 10 × 10 cm square in 3 mm basswood in about 4–7 min by our estimate and handles 10–15 mm basswood in one pass with air assist, at 600 mm/s on a 405 × 400 mm bed. The trade-off is the widest spot of the range, 0.10 × 0.15 mm, and an air pump sold separately.",
+  "mainObjective": "Fast cutting of thick plywood, signs and dark acrylic on an open frame for a side business",
+  "bestFor": [
+    "Thick wood cuts",
+    "Side business batches",
+    "Large signs",
+    "Dark acrylic"
+  ],
+  "priceRange": {
+    "min": 669.99,
+    "max": 669.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $669.99 (list price $899.99)"
+  },
+  "specs": {
+    "power": "40W diode",
+    "workArea": "405 × 400 mm",
+    "software": [
+      "Longer Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "microSD (TF)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–12 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~4–7 min"
+      },
+      "technical": {
+        "spotSize": "0.10 × 0.15 mm",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~120–300 mm/s",
+        "avgCutSpeed": "~6–12 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Glass & ceramic (with care)",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "Basswood 10–15 mm in one pass with air (our estimate)",
+      "Plywood 6–8 mm",
+      "Dark acrylic ~5–8 mm",
+      "MDF ~5 mm",
+      "Leather & felt"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal marking",
+      "Fine photo detail at full power",
+      "CO₂-speed production"
+    ]
+  },
+  "pros": [
+    "Cuts 10–15 mm basswood in one pass with air assist by our estimate, the deepest cuts of the Ray7 range",
+    "Fastest of the range: about 4–7 min for a 3 mm basswood square and 8–12 min for a 10 × 10 cm photo by our estimate",
+    "$669.99 in October 2026, slightly under the Ray5 40W basic set for a faster, stiffer frame"
+  ],
+  "cons": [
+    "Widest spot of the range at 0.10 × 0.15 mm according to Longer: not the best choice for fine photos",
+    "Air pump is optional even on this cutting-focused version",
+    "Smoke volume at 40W makes extraction or an enclosure close to mandatory indoors"
+  ],
+  "beginnerNotes": "This profile is the 40W version of the Longer Ray7. Pick it if cutting plywood, signs and dark acrylic is the main job. Compare the other Ray7 versions with the chips above if you mostly engrave: the smaller modules have finer spots and cost much less. Budget for the air pump and a fume extractor with this one.",
+  "proTips": "Never cut at 40W without air assist: it keeps the lens clean and the edges light. Use several fast passes rather than one slow pass on 10 mm and thicker stock to limit charring. Drop the power well below 50% for photos and small text, where the wide spot otherwise blurs detail.",
+  "primaryUse": "40W module · Longer Ray7",
+  "rating": {
+    "overall": 7.9,
+    "value": 7.9,
+    "easeOfUse": 8.3,
+    "capability": 8,
+    "buildQuality": 7.4
+  },
+  "accessories": [
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "recommended"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "recommended"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 40W Ray7 puts serious diode cutting power on Longer's new frame: thick plywood and dark acrylic in fewer passes, 600 mm/s engraving and a 405 × 400 mm bed, for less than the Ray5 40W it succeeds in price.",
+    "limitations": "The wide 0.10 × 0.15 mm spot is a compromise for fine engraving, and the open frame needs glasses, strong extraction and a fire-safe setup at this power. Clear acrylic and bare metal remain out of reach. The Ray7 is new, with no independent cutting tests yet."
+  },
+  "similarModels": [
+    "longer-ray5-40w",
+    "atomstack-a40-pro-40w",
+    "longer-laser-b1-40w"
+  ],
+  "faq": [
+    {
+      "question": "How thick can the Ray7 40W cut?",
+      "answer": "Longer does not publish one-pass figures for the open-frame Ray7; for the enclosed Ray7S, which uses the same power levels, it shows cuts of 30 mm basswood and 35 mm black acrylic without stating the number of passes. By our estimate, the Ray7 40W cuts 10–15 mm basswood in one pass with air assist."
+    },
+    {
+      "question": "Ray7 40W or Ray5 40W?",
+      "answer": "On Longer's store in October 2026 the Ray7 40W costs $669.99 against $679.99 for the Ray5 40W basic set. The Ray7 is faster (600 mm/s) with a slightly larger bed and Wi-Fi; the Ray5 40W has a touchscreen, 8-beam compression and independent reviews behind it."
+    },
+    {
+      "question": "Ray7 40W or Ray7S 40W?",
+      "answer": "The enclosed Ray7S 40W costs $849.99, $180 more, includes the air pump and adds a Class 1 cabinet and Klipper firmware, but its bed shrinks to 305 × 300 mm. Take the open Ray7 40W for larger sheets, the Ray7S if safety and smoke containment come first."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray7-40w-cutting",
+      "title": "Deepest cuts of the Ray7",
+      "body": "By our estimate, 10–15 mm basswood in one pass with air assist and a 3 mm basswood square in about 4–7 min."
+    },
+    {
+      "id": "ray7-40w-price",
+      "title": "Under the Ray5 40W price",
+      "body": "$669.99 in October 2026, against $679.99 for the Ray5 40W basic set, with faster 600 mm/s motion."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "image": "/machines/longer-ray7-40w/01.webp",
+  "images": [
+    {
+      "src": "/machines/longer-ray7-40w/01.webp",
+      "alt": "Longer Ray7 40W open-frame laser engraver, shown with the optional rotary: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-40w/02.webp",
+      "alt": "Longer Ray7 frame with the laser module and control box: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-40w/03.webp",
+      "alt": "Longer Ray7 405 × 410 mm working area: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-40w/04.webp",
+      "alt": "Longer Ray7 control box with emergency stop, USB and TF card ports: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-40w/05.webp",
+      "alt": "Longer Ray7 feature overview: 36,000 mm/min, safety features and the four laser modules: Longer"
+    }
+  ],
+  "powerRating": "40W",
+  "modelLine": "longer-ray7",
+  "catalogPrimary": true,
+  "enclosed": false,
+  "tierEditorialOverride": true,
+  "releaseDate": "2026-10"
+}

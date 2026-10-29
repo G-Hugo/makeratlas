@@ -1,0 +1,179 @@
+{
+  "id": "monport-gm-pro-50w-fiber",
+  "slug": "monport-gm-pro-50w-fiber",
+  "name": "Monport GM Pro 50W Fiber",
+  "brand": "Monport",
+  "category": "laser-engraver",
+  "laserType": "fiber",
+  "powerRating": "50W",
+  "modelLine": "monport-gm-pro",
+  "tagline": "Integrated 50W fiber with autofocus: deeper metal engraving at a low price",
+  "tldr": "The GM Pro 50W puts a 50W MAX source in Monport's integrated fiber chassis, with one-touch autofocus, electric lift and a 150 × 150 mm field. Monport lists 1.1 mJ of pulse energy and 0.10 mm maximum marking depth, enough for deep logos, 3D relief in several passes and thin-sheet cut-outs. $2,498 on Monport's store in October 2026, about $700 less than the split GT 50W ($3,199).",
+  "mainObjective": "Deep metal engraving and faster marking on a compact bench fiber",
+  "bestFor": [
+    "Deep engraving",
+    "3D relief",
+    "Knives & firearms parts",
+    "Batch marking"
+  ],
+  "priceRange": {
+    "min": 2498,
+    "max": 2698,
+    "currency": "USD",
+    "note": "Official Monport store, Oct 2026: $2,498 machine only, $2,648 with rotary axis, $2,698 with LightBurn Pro"
+  },
+  "specs": {
+    "power": "50W fiber",
+    "workArea": "150 × 150 mm",
+    "software": [
+      "BslAppSimple",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.01 mm",
+      "engraveExample": {
+        "description": "Filled logo on stainless steel plate",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–8 min"
+      },
+      "cutExample": {
+        "description": "Not a sheet cutter: thin metal only, in many passes",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "10 000 mm/s",
+        "avgEngraveSpeed": "~500–2 000 mm/s",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel",
+      "Aluminum (bare and anodized)",
+      "Brass & copper",
+      "Titanium",
+      "Gold & silver",
+      "Hard plastics",
+      "Stone"
+    ],
+    "cut": [
+      "Thin metal sheet (many passes)"
+    ],
+    "cannot": [
+      "Wood and acrylic production work",
+      "Clear glass or acrylic marking (needs UV or CO₂)",
+      "Parts larger than the 150 × 150 mm field without repositioning"
+    ]
+  },
+  "pros": [
+    "1.1 mJ pulse energy and 0.10 mm listed depth: noticeably faster on deep logos and relief",
+    "About $700 less than Monport's split GT 50W ($3,199), with autofocus and electric lift kept (Monport store, Oct 2026)",
+    "Lightest tier of the line at 15.6 kg, easy to move between benches"
+  ],
+  "cons": [
+    "Same 150 × 150 mm field as the cheaper tier: the extra power buys depth, not area",
+    "Fixed-pulse MAX source: no controlled colour marking",
+    "Monport's comparison table appears to mislabel this tier's pulse and frequency figures, so check them with support"
+  ],
+  "faq": [
+    {
+      "question": "What does the GM Pro 50W add over the 30W?",
+      "answer": "Pulse energy (1.1 mJ vs 0.78 mJ) and listed marking depth (0.10 mm vs 0.08 mm), for $498 more in October 2026. Field, autofocus, chassis and software are the same, so the 50W makes sense when deep engraving, relief or thin-metal cut-outs are a regular job."
+    },
+    {
+      "question": "GM Pro 50W or Gweike G2 50W?",
+      "answer": "Both are integrated 50W fibers at about $2,500. The GM Pro 50W brings one-touch autofocus and Monport's US support; compare field options, software (the GM Pro runs BslAppSimple and LightBurn) and current bundles before choosing."
+    },
+    {
+      "question": "Can the GM Pro 50W cut metal?",
+      "answer": "Thin sheet only, in many passes: Monport shows thin-sheet cutting among its uses, but it remains a marking laser with a 150 × 150 mm field, not a sheet cutter."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "gm50pro-depth",
+      "title": "Depth for the money",
+      "body": "1.1 mJ of pulse energy and a 0.10 mm listed depth at $2,498: deep logos, gun and knife parts and 3D relief come within reach without split-fiber prices."
+    },
+    {
+      "id": "gm50pro-light",
+      "title": "Compact and light",
+      "body": "15.6 kg on a 40 × 33 cm base, with autofocus and electric lift: a machine that moves to a market stall or a second bench without a cart."
+    }
+  ],
+  "beginnerNotes": "This profile is the 50W tier of the GM Pro, the one to pick when engraving depth matters. Compare the other tiers via the chips.",
+  "proTips": "For deep relief, alternate hatch angles between passes and refocus every few passes with the autofocus as the surface goes down. Keep fume extraction running: deep engraving produces far more metal dust than marking.",
+  "primaryUse": "50W fiber · Monport GM Pro",
+  "rating": {
+    "overall": 8.2,
+    "value": 8.6,
+    "easeOfUse": 8.3,
+    "capability": 7.7,
+    "buildQuality": 8.1
+  },
+  "similarModels": [
+    "gweike-g2-50w",
+    "monport-gt-50w-fiber",
+    "monport-gpro-vision-50w"
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "releaseDate": "2025-10",
+  "image": "/machines/monport-gm-pro-50w-fiber/01.webp",
+  "images": [
+    {
+      "src": "/machines/monport-gm-pro-50w-fiber/01.webp",
+      "alt": "Monport GM Pro 50W integrated fiber laser: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-50w-fiber/02.webp",
+      "alt": "Monport GM Pro integrated fiber laser, three-quarter view: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-50w-fiber/03.webp",
+      "alt": "Monport GM Pro components: galvo, F-theta lens, Z axis and control panel: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-50w-fiber/04.webp",
+      "alt": "Monport GM Pro uses: deep engraving, 3D relief and thin-sheet cutting: Monport"
+    },
+    {
+      "src": "/machines/monport-gm-pro-50w-fiber/05.webp",
+      "alt": "Monport GM Pro marking a part on a workshop bench: Monport"
+    }
+  ],
+  "tierEditorialOverride": true,
+  "enclosed": false,
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "enclosure",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-chuck",
+      "availability": "optional"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The GM Pro 50W is the value pick of the line: deeper engraving and shorter jobs for a modest premium, in a compact chassis that keeps autofocus.",
+    "limitations": "The field stays at 150 × 150 mm, there is no colour marking, and the open galvo needs an enclosure or strict eye protection. Specs are Monport's until independent tests arrive."
+  }
+}

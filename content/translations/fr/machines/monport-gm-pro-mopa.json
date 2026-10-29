@@ -1,0 +1,97 @@
+{
+  "tagline": "Fibre MOPA JPT compacte tout-en-un avec autofocus, en 30 W et 60 W",
+  "tldr": "La GM Pro MOPA est la fibre intégrée de Monport équipée d’une source MOPA JPT : l’impulsion se règle de 2 à 500 ns et la fréquence de 1 à 4 000 kHz, ce qui ouvre le marquage couleur sur l’acier inoxydable et le titane et des noirs plus nets sur l’aluminium. Autofocus à une touche, relevage électrique et champ de 175 × 175 mm sur les deux versions : 30 W (2 978 $) et 60 W (3 598 $) en octobre 2026. Ouvrez une version pour les caractéristiques exactes.",
+  "mainObjective": "Marquage couleur et gravure fine du métal avec une fibre monobloc compacte",
+  "primaryUse": "Laser fibre MOPA intégré pour le marquage couleur et la gravure du métal.",
+  "beginnerNotes": "Cette vue d’ensemble couvre la gamme GM Pro MOPA. Prenez la 30 W pour la couleur et le marquage fin avec un budget limité, la 60 W quand la profondeur et la vitesse comptent aussi. Pour un marquage simple sans couleur, la GM Pro standard coûte moins cher.",
+  "proTips": "Faites des grilles d’essai couleur sur votre propre alliage avant de chiffrer un travail en couleur, et notez la vitesse, la fréquence et la durée d’impulsion : les couleurs varient avec l’état de surface.",
+  "bestFor": [
+    "Marquage couleur",
+    "Bijoux et cadeaux",
+    "Aluminium anodisé",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Sources MOPA JPT à impulsion réglable de 2 à 500 ns : couleur sur l’acier inoxydable et le titane, noir sur l’aluminium",
+    "Autofocus, relevage électrique et champ de 175 × 175 mm sur les deux versions",
+    "Plusieurs centaines de dollars de moins que les MOPA séparées de Monport à puissance égale"
+  ],
+  "cons": [
+    "Galvo ouvert avec faisceau de classe 4 : un caisson ou une protection oculaire stricte est indispensable",
+    "Le marquage couleur demande des grilles d’essai et de la patience : le résultat dépend de l’alliage et de la surface",
+    "Hauteur Z maximale de 400 mm, moins que la série GT séparée de Monport"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable (noir et couleur)",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Titane (couleur)",
+      "Or et argent",
+      "Plastiques",
+      "Pierre"
+    ],
+    "cut": [
+      "Tôle de métal fine (nombreuses passes)"
+    ],
+    "cannot": [
+      "Production en bois et en acrylique",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Pièces plus grandes que le champ de 175 × 175 mm sans repositionnement"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : MOPA 30 W à 2 978 $, MOPA 60 W à 3 598 $ ; l’offre avec LightBurn Pro ajoute 200 $, celle avec axe rotatif 150 $. Une GM 60 W MOPA à mise au point manuelle est proposée à 3 500 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle version de la GM Pro MOPA choisir ?",
+      "answer": "La 30 W (2 978 $) gère bien le marquage couleur, le noir sur l’aluminium et les plastiques. La 60 W (3 598 $) double l’énergie par impulsion (2 mJ contre 1 mJ), ce qui compte pour la gravure profonde, le relief et la découpe de tôle fine. Les deux partagent le champ, le châssis et l’autofocus."
+    },
+    {
+      "question": "Comment se situe la GM Pro MOPA face à la GT 60 W MOPA de Monport ?",
+      "answer": "La GT est une fibre séparée avec une armoire de source à part, une hauteur Z de 550 mm et une version autofocus vendue 4 270 $. La GM Pro 60 W MOPA garde l’autofocus et le même champ de 175 × 175 mm dans un châssis monobloc pour 3 598 $ (octobre 2026)."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Le marquage couleur dans un châssis compact",
+      "body": "Une durée d’impulsion réglable de 2 à 500 ns et une fréquence jusqu’à 4 000 kHz donnent des couleurs d’oxydation maîtrisées sur l’acier inoxydable et le titane, avec une machine qui tient sur 40 × 33 cm."
+    },
+    {
+      "title": "Un champ plus grand que la GM Pro",
+      "body": "Les deux versions MOPA ont un champ de 175 × 175 mm, contre 150 × 150 mm pour la GM Pro standard, avec le même autofocus et le même relevage électrique."
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La GM Pro MOPA apporte le marquage couleur MOPA et l’autofocus à une fibre monobloc bien moins chère que les MOPA séparées : un bon choix pour les bijoux, les cadeaux et l’aluminium anodisé.",
+    "limitations": "Le galvo ouvert impose un caisson ou une protection oculaire stricte, la couleur demande un apprentissage, et les caractéristiques sont celles de Monport en attendant des tests indépendants."
+  },
+  "images": [
+    {
+      "alt": "Laser fibre intégré Monport GM Pro MOPA : Monport"
+    },
+    {
+      "alt": "Marquage couleur sur plaque de métal avec la Monport GM Pro MOPA : Monport"
+    },
+    {
+      "alt": "Éléments de la Monport GM Pro MOPA : galvo, lentille F-theta, axe Z et panneau de commande : Monport"
+    },
+    {
+      "alt": "Connectique arrière de la Monport GM Pro MOPA : USB, axe rotatif, pédale et signal de caisson : Monport"
+    },
+    {
+      "alt": "Monport GM Pro MOPA sur un bureau avec ordinateur et caractéristiques principales : Monport"
+    }
+  ]
+}

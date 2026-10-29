@@ -1,0 +1,210 @@
+{
+  "id": "omtech-solis-duo-60w-mopa",
+  "slug": "omtech-solis-duo-60w-mopa",
+  "name": "OMTech Solis Duo 60W MOPA",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "hybrid",
+  "image": "/machines/omtech-solis-duo-60w-mopa/01.webp",
+  "tagline": "Enclosed 60W MOPA fiber + 40W diode with autofocus and a 48MP camera, on preorder at $4,999.99",
+  "tldr": "The Solis Duo 60W MOPA is the new top version of OMTech's enclosed dual-laser line, listed in October 2026 and on preorder, with shipping announced for November 16, 2026. It pairs a 60W MOPA fiber (2–500 ns pulse width, 100+ colors on compatible metals, up to 0.5 mm deep on aluminum) with a 40W diode that cuts basswood up to 22 mm, in a Class 1 cabinet with autofocus, a 48MP camera and a touchscreen. OMTech lists 250 × 250 mm and 150 × 150 mm processing areas, 10,000 mm/s and 0.002 mm accuracy. Preorder price: $4,999.99, or $5,249.99 with a 250 × 900 mm conveyor (OMTech store, October 2026). No machine has been delivered and no independent test exists yet.",
+  "mainObjective": "Color metal marking and wood or leather work from one enclosed desktop machine",
+  "bestFor": [
+    "Metal & non-metal products",
+    "Color metal cards & tags",
+    "Etsy and gift shops",
+    "Small-batch personalization"
+  ],
+  "priceRange": {
+    "min": 4999.99,
+    "max": 5249.99,
+    "currency": "USD",
+    "note": "Official OMTech store, Oct 2026: preorder $4,999.99 machine, $5,249.99 with 250 × 900 mm conveyor (regular prices $7,399.99 and $7,699.99), shipping announced for November 16, 2026"
+  },
+  "specs": {
+    "power": "60W MOPA fiber + 40W diode",
+    "workArea": "250 × 250 mm / 150 × 150 mm",
+    "dimensions": "320 × 500 × 600 mm",
+    "weight": "26.5 kg",
+    "software": [
+      "OMTech Mark",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "0.002 mm",
+      "engraveExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "cutExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "10,000 mm/s",
+        "avgEngraveSpeed": "—",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Stainless steel (color marking with MOPA)",
+      "Aluminum (up to 0.5 mm deep, per OMTech)",
+      "Brass",
+      "Wood & leather (diode)",
+      "Opaque acrylic, paper & rubber (diode)"
+    ],
+    "cut": [
+      "Basswood up to 22 mm (diode, OMTech rating)",
+      "Leather & paper (diode)",
+      "Felt & rubber sheet (diode)"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Objects larger than the 250 mm area without the conveyor",
+      "CO₂-speed sheet cutting",
+      "PVC and vinyl (chlorine fumes)"
+    ]
+  },
+  "pros": [
+    "60W MOPA with 2–500 ns pulse width: 100+ colors on compatible metals and up to 0.5 mm deep on aluminum, per OMTech",
+    "40W diode in the same cabinet cuts up to 22 mm basswood, and both lasers stay aligned: no refocusing when switching",
+    "Class 1 enclosure, autofocus, 48MP camera and a 250 × 250 mm area, larger than the xTool F2 Ultra's 220 × 220 mm"
+  ],
+  "cons": [
+    "Preorder only: shipping announced for November 16, 2026, with no deliveries or independent tests yet",
+    "Camera placement works only in OMTech's software, not in LightBurn",
+    "The fiber source is covered for one year, against two years for the rest of the machine"
+  ],
+  "beginnerNotes": "The 60W MOPA version is not shipping yet: OMTech announces November 16, 2026. If you need a dual laser now, the xTool F2 Ultra pairs the same 60W MOPA and 40W diode and is already delivered. Take the Solis Duo 60W MOPA if color marking on metal is part of your products; for simple black marks, a Q-switched fiber costs far less.",
+  "proTips": "Keep separate settings libraries for the MOPA and the diode, and record pulse width with each color recipe: results change with the metal, finish and focus. Use OMTech Mark when you need camera placement, and LightBurn for the rest of your workflow if you already own a license.",
+  "primaryUse": "Enclosed dual-laser desktop machine for color metal marking plus wood, leather and paper work",
+  "rating": {
+    "overall": 8.2,
+    "value": 7.4,
+    "easeOfUse": 8.5,
+    "capability": 8.4,
+    "buildQuality": 8.4
+  },
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "included"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "On paper, the Solis Duo 60W MOPA matches xTool's F2 Ultra source for source, with a larger 250 × 250 mm area and a slightly lower preorder price. For a shop selling color metal cards and tags alongside leather patches and wood gifts, one enclosed machine with autofocus and a camera replaces two.",
+    "limitations": "It is a preorder: nothing has shipped, and OMTech's dual-laser line has a shorter track record than xTool's. Camera placement is tied to OMTech's software, the fiber source warranty is one year, and at about $5,000 it only makes sense if metal color marking earns money."
+  },
+  "similarModels": [
+    "xtool-f2-ultra",
+    "creality-falcon-t1-60w-mopa",
+    "commarker-b6-mopa-30w"
+  ],
+  "faq": [
+    {
+      "question": "When does the Solis Duo 60W MOPA ship?",
+      "answer": "In October 2026, OMTech's store showed both packages on preorder with \"Ships Nov. 16\": $4,999.99 for the machine and $5,249.99 with the 250 × 900 mm conveyor (regular prices $7,399.99 and $7,699.99). Until machines reach buyers, dates and specs may still change."
+    },
+    {
+      "question": "Solis Duo 60W MOPA or xTool F2 Ultra?",
+      "answer": "Both pair a 60W MOPA fiber with a 40W diode in an enclosed cabinet. The Solis Duo lists a larger 250 × 250 mm area and costs $4,999.99 on preorder, against $5,299 for the dual-laser F2 Ultra on xTool's store in October 2026. The F2 Ultra has two 48MP cameras instead of one, and it is already shipping with owner feedback; the Solis Duo is not."
+    },
+    {
+      "question": "Which working area does the Solis Duo use?",
+      "answer": "OMTech lists two processing areas, 250 × 250 mm and 150 × 150 mm, and says the standard field lens gives 250 × 250 mm. It does not state which laser or lens the 150 × 150 mm figure applies to, so ask OMTech if your parts depend on it. The physical bed is 350 × 280 mm, and the optional conveyor takes parts up to 250 × 900 mm."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "solis-duo-mopa-color",
+      "title": "MOPA color marking",
+      "body": "The 60W MOPA source adjusts pulse width from 2 to 500 ns, which OMTech says gives 100+ color effects on compatible metals and up to 0.5 mm deep engraving on aluminum."
+    },
+    {
+      "id": "solis-duo-no-refocus",
+      "title": "Two lasers, one focus",
+      "body": "Autofocus sets the height once, and the MOPA and diode stay aligned, so you can mark a steel tag and then engrave a leather patch without refocusing."
+    },
+    {
+      "id": "solis-duo-conveyor",
+      "title": "Conveyor up to 900 mm",
+      "body": "An optional 250 × 900 mm conveyor, sold in a $5,249.99 bundle or separately, extends the enclosed machine to long panels and batches of tags."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "images": [
+    {
+      "src": "/machines/omtech-solis-duo-60w-mopa/01.webp",
+      "alt": "OMTech Solis Duo 60W MOPA enclosed dual laser engraver: OMTech"
+    },
+    {
+      "src": "/machines/omtech-solis-duo-60w-mopa/02.webp",
+      "alt": "Inside the OMTech Solis Duo: 60W MOPA fiber and 40W diode heads: OMTech"
+    },
+    {
+      "src": "/machines/omtech-solis-duo-60w-mopa/03.webp",
+      "alt": "Color marking samples made with the OMTech Solis Duo 60W MOPA: OMTech"
+    },
+    {
+      "src": "/machines/omtech-solis-duo-60w-mopa/04.webp",
+      "alt": "OMTech Solis Duo Class 1 enclosure with touchscreen and ventilation: OMTech"
+    },
+    {
+      "src": "/machines/omtech-solis-duo-60w-mopa/05.webp",
+      "alt": "OMTech Solis Duo with the optional 250 × 900 mm conveyor: OMTech"
+    }
+  ],
+  "powerRating": "60W",
+  "moduleSystem": {
+    "style": "dual-laser",
+    "headline": "Dual laser in one cabinet (MOPA fiber + diode)",
+    "description": "The Solis Duo 60W MOPA carries a 60W MOPA fiber source for metal marking and color, and a 40W diode for wood, leather and other organic materials. Both are built in and stay aligned; you choose one source per job, they are not swappable modules.",
+    "options": [
+      {
+        "power": "60W",
+        "laserKind": "fiber",
+        "label": "60W MOPA fiber"
+      },
+      {
+        "power": "40W",
+        "laserKind": "diode",
+        "label": "40W diode"
+      }
+    ]
+  },
+  "laserCapabilities": [
+    "fiber",
+    "diode"
+  ],
+  "capabilityTags": [
+    "fiber",
+    "diode"
+  ],
+  "releaseDate": "2026-10",
+  "tierEditorialOverride": true,
+  "enclosed": true,
+  "announced": {
+    "expected": "2026-11"
+  }
+}

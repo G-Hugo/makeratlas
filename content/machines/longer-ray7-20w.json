@@ -1,0 +1,188 @@
+{
+  "id": "longer-ray7-20w",
+  "slug": "longer-ray7-20w",
+  "name": "Longer Ray7 20W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The all-round Ray7: a 20W diode for engraving and regular cuts in 5–8 mm wood",
+  "tldr": "The Ray7 20W is the mixed-use version of Longer's new open frame: $429.99 on Longer's store in October 2026, $70 more than the older Ray5 20W basic set ($359.99 on sale in late October). The 0.08 × 0.10 mm spot is wider than on the smaller modules, but it cuts 3 mm basswood in about 8–13 min for a 10 × 10 cm square by our estimate, and handles 5–8 mm wood with air assist. The 600 mm/s motion is three times the Ray5 20W's top speed.",
+  "mainObjective": "Mixed engraving and regular cutting of plywood, signs and boxes for a hobby or side business",
+  "bestFor": [
+    "Mixed engrave & cut",
+    "Hobby side business",
+    "Signs & boxes",
+    "Plywood projects"
+  ],
+  "priceRange": {
+    "min": 429.99,
+    "max": 429.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $429.99 (list price $569.99)"
+  },
+  "specs": {
+    "power": "20W diode",
+    "workArea": "405 × 405 mm",
+    "software": [
+      "Longer Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "microSD (TF)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~12–18 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~8–13 min"
+      },
+      "technical": {
+        "spotSize": "0.08 × 0.10 mm",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~80–200 mm/s",
+        "avgCutSpeed": "~3–5 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Glass & ceramic (with care)",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "Basswood 6–8 mm in one pass with air (our estimate)",
+      "Plywood 3–5 mm",
+      "Dark acrylic ~3 mm",
+      "Leather, felt & card"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal marking",
+      "Thick-stock production",
+      "CO₂-speed cutting"
+    ]
+  },
+  "pros": [
+    "Cuts 6–8 mm basswood in one pass with air assist by our estimate, enough for most box and sign projects",
+    "600 mm/s top speed, three times the 200 mm/s of the Ray5 20W, for faster fills on large engravings",
+    "$240 less than the Ray7 40W for buyers whose cuts stay under about 8 mm"
+  ],
+  "cons": [
+    "Wider 0.08 × 0.10 mm spot than the smaller Ray7 modules: fine photos lose a little sharpness",
+    "Working area shrinks slightly to 405 × 405 mm with this module, per Longer",
+    "$130 more than the 15W for buyers who mainly engrave"
+  ],
+  "beginnerNotes": "This profile is the 20W version of the Longer Ray7. It is the one to pick if you engrave and cut in roughly equal measure: boxes, coasters, signs, puzzles in 3–6 mm plywood. Compare the other Ray7 versions with the chips above if you mostly engrave or cut thick stock every day. Plan for the optional air pump from the start.",
+  "proTips": "Pair it with the optional air pump and a honeycomb bed: that combination matters more for cut quality than the extra watts. Use lower power for photos to limit the spread of the wider spot. For production quotes, time a real job on your own material rather than relying on the 36,000 mm/min headline speed.",
+  "primaryUse": "20W module · Longer Ray7",
+  "rating": {
+    "overall": 7.8,
+    "value": 8.2,
+    "easeOfUse": 8.3,
+    "capability": 7.6,
+    "buildQuality": 7.4
+  },
+  "accessories": [
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "recommended"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "recommended"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 20W Ray7 is the versatile choice: it engraves cleanly at speed and cuts the 3–6 mm plywood behind most hobby and Etsy-style products, on a 405 × 405 mm bed with Wi-Fi and a stiffer dual-shaft X-axis than the Ray5.",
+    "limitations": "Open frame: safety glasses, extraction and a fire-safe surface are needed. Thick stock and dark acrylic in volume call for the 40W or a CO₂ machine. The Ray7 is new and not yet independently reviewed; speed figures come from Longer and our estimates."
+  },
+  "similarModels": [
+    "longer-ray5-20w",
+    "ortur-laser-master-3-20w",
+    "longer-ray7-40w"
+  ],
+  "faq": [
+    {
+      "question": "How thick can the Ray7 20W cut?",
+      "answer": "Longer does not publish per-version cutting figures for the Ray7. By our estimate, with air assist it cuts 6–8 mm basswood and 3–5 mm plywood in one pass, and around 10 mm basswood in several passes. Hardwoods and MDF need more passes."
+    },
+    {
+      "question": "Ray7 20W or Ray5 20W?",
+      "answer": "The Ray7 20W costs $429.99 against $359.99 for the Ray5 20W basic set (Longer store sale prices, late October 2026). For $70 more you get 600 mm/s motion instead of 200 mm/s, a dual-shaft X-axis with metal rollers and Wi-Fi. The Ray5 keeps a touchscreen and an established track record."
+    },
+    {
+      "question": "Ray7 20W or Ray7 40W?",
+      "answer": "The 40W costs $669.99, $240 more (October 2026). It roughly halves cut times and opens up 10 mm and thicker wood. Take the 20W if cutting is regular but not the main job."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray7-20w-mixed",
+      "title": "Engraving and regular cuts",
+      "body": "By our estimate, 6–8 mm basswood in one pass with air assist and a 10 × 10 cm cut in 3 mm basswood in about 8–13 min."
+    },
+    {
+      "id": "ray7-20w-speed",
+      "title": "600 mm/s motion",
+      "body": "Three times the top speed of the Ray5 20W, for faster fills on large engravings."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "image": "/machines/longer-ray7-20w/01.webp",
+  "images": [
+    {
+      "src": "/machines/longer-ray7-20w/01.webp",
+      "alt": "Longer Ray7 20W open-frame laser engraver, shown with the optional rotary: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-20w/02.webp",
+      "alt": "Longer Ray7 frame with the laser module and control box: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-20w/03.webp",
+      "alt": "Longer Ray7 405 × 410 mm working area: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-20w/04.webp",
+      "alt": "Longer Ray7 control box with emergency stop, USB and TF card ports: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-20w/05.webp",
+      "alt": "Longer Ray7 feature overview: 36,000 mm/min, safety features and the four laser modules: Longer"
+    }
+  ],
+  "powerRating": "20W",
+  "modelLine": "longer-ray7",
+  "enclosed": false,
+  "tierEditorialOverride": true,
+  "releaseDate": "2026-10"
+}

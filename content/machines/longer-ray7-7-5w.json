@@ -1,0 +1,187 @@
+{
+  "id": "longer-ray7-7-5w",
+  "slug": "longer-ray7-7-5w",
+  "name": "Longer Ray7 7.5W",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The entry Ray7: a fine 7.5W diode on a 405 × 410 mm open frame for detailed engraving under $250",
+  "tldr": "The Ray7 7.5W is the cheapest version of Longer's new open-frame engraver: $229.99 on Longer's store in October 2026. It keeps the Ray7 frame, 600 mm/s motion, Wi-Fi and 405 × 410 mm bed, with the finest spot of the range at 0.06 × 0.06 mm. It is an engraver first: cutting stops at thin wood, card and felt, and takes several passes.",
+  "mainObjective": "Detailed engraving on wood, leather and slate on a full-size bed at the lowest price",
+  "bestFor": [
+    "Photo & text engraving",
+    "First laser",
+    "Tight budget",
+    "Personalized gifts"
+  ],
+  "priceRange": {
+    "min": 229.99,
+    "max": 229.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: $229.99 (list price $319.99)"
+  },
+  "specs": {
+    "power": "7.5W diode",
+    "workArea": "405 × 410 mm",
+    "software": [
+      "Longer Studio",
+      "LightBurn"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "microSD (TF)"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~24–36 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–30 min (2 passes)"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.06 mm",
+        "maxSpeed": "600 mm/s",
+        "avgEngraveSpeed": "~40–100 mm/s",
+        "avgCutSpeed": "~1–2 mm/s (3 mm, 2 passes)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Slate & stone",
+      "Coated or painted metal",
+      "Glass & ceramic (with care)",
+      "Dark acrylic"
+    ],
+    "cut": [
+      "Basswood ~2–3 mm per pass (our estimate)",
+      "Paper & card",
+      "Felt & thin leather"
+    ],
+    "cannot": [
+      "Plywood thicker than ~3 mm in practice",
+      "Clear acrylic",
+      "Bare metal marking",
+      "Production cutting"
+    ]
+  },
+  "pros": [
+    "Finest beam of the Ray7 range at 0.06 × 0.06 mm according to Longer, well suited to photos and small text",
+    "$229.99 for a 405 × 410 mm bed with Wi-Fi and 600 mm/s motion (Longer store, October 2026)",
+    "Low-power module is easier to tune on leather, paper and card without burning through"
+  ],
+  "cons": [
+    "Cutting is limited to thin material: about 2–3 mm basswood per pass by our estimate",
+    "Photo fills take roughly 24–36 min for 10 × 10 cm by our estimate, the slowest of the range",
+    "Air pump, autofocus and camera are all extras on top of the $229.99 price"
+  ],
+  "beginnerNotes": "This profile is the 7.5W version of the Longer Ray7. Take it if you mostly engrave gifts, signs and photos and rarely cut. Compare the other Ray7 versions with the chips above if cutting plywood matters: the frame, bed and software stay the same, only the laser module changes. It is a new machine with no independent reviews yet.",
+  "proTips": "Work at high power and moderate speed for dark, even photo engraving, and save cutting for paper, card, felt and 2–3 mm basswood in two passes. Use the 50 mm focal distance carefully: without the optional autofocus, refocus each time the material thickness changes.",
+  "primaryUse": "7.5W module · Longer Ray7",
+  "rating": {
+    "overall": 7.5,
+    "value": 8.6,
+    "easeOfUse": 8.3,
+    "capability": 6.8,
+    "buildQuality": 7.4
+  },
+  "accessories": [
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "camera",
+      "availability": "optional"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "recommended"
+    },
+    {
+      "id": "safety-glasses",
+      "availability": "recommended"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The 7.5W Ray7 brings Longer's new frame, Wi-Fi and 600 mm/s motion to a budget price, and its 0.06 × 0.06 mm spot is the sharpest in the range for portraits, fine lettering and small logos.",
+    "limitations": "It is not a cutter: anything beyond thin basswood, card and felt needs many passes. Open frame: wear safety glasses and extract the smoke. The Ray7 is new, so long-term reliability is not yet documented by independent reviews."
+  },
+  "similarModels": [
+    "longer-ray7-15w",
+    "longer-ray5-10w",
+    "creality-falcon-a1c-5w"
+  ],
+  "faq": [
+    {
+      "question": "What can the Ray7 7.5W cut?",
+      "answer": "Longer does not publish cutting figures for this version. By our estimate it cuts paper, card, felt, thin leather and about 2–3 mm basswood per pass; 3 mm plywood takes two passes or more. Treat it as an engraver with occasional light cuts."
+    },
+    {
+      "question": "Ray7 7.5W or Ray7 15W?",
+      "answer": "The 15W costs $299.99 against $229.99 for the 7.5W (Longer store, October 2026). For $70 more it roughly doubles cutting capacity and speeds up fills; keep the 7.5W only if you engrave almost exclusively and value the finest spot."
+    },
+    {
+      "question": "Is the Ray7 7.5W a good first laser?",
+      "answer": "Yes for engraving on a budget: belts come pre-installed, it connects over Wi-Fi and works with Longer Studio or LightBurn. As an open-frame laser it needs safety glasses, ventilation and a fire-safe surface."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "ray7-7-5w-fine-spot",
+      "title": "0.06 × 0.06 mm spot",
+      "body": "The smallest laser spot Longer lists for the Ray7, for sharper portraits and small text."
+    },
+    {
+      "id": "ray7-7-5w-price",
+      "title": "Full-size bed at $229.99",
+      "body": "The same 405 × 410 mm working area as the bigger modules for the lowest Ray7 price in October 2026."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "image": "/machines/longer-ray7-7-5w/01.webp",
+  "images": [
+    {
+      "src": "/machines/longer-ray7-7-5w/01.webp",
+      "alt": "Longer Ray7 7.5W open-frame laser engraver, shown with the optional rotary: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-7-5w/02.webp",
+      "alt": "Longer Ray7 frame with the laser module and control box: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-7-5w/03.webp",
+      "alt": "Longer Ray7 405 × 410 mm working area: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-7-5w/04.webp",
+      "alt": "Longer Ray7 control box with emergency stop, USB and TF card ports: Longer"
+    },
+    {
+      "src": "/machines/longer-ray7-7-5w/05.webp",
+      "alt": "Longer Ray7 feature overview: 36,000 mm/min, safety features and the four laser modules: Longer"
+    }
+  ],
+  "powerRating": "7.5W",
+  "modelLine": "longer-ray7",
+  "enclosed": false,
+  "tierEditorialOverride": true,
+  "releaseDate": "2026-10"
+}

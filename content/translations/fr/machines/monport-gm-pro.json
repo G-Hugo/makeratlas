@@ -1,0 +1,101 @@
+{
+  "tagline": "Fibre compacte tout-en-un avec autofocus : GM Pro 30 W et 50 W, plus une GM 20 W à mise au point manuelle",
+  "tldr": "La GM Pro est le marqueur fibre intégré (monobloc) de Monport : source, galvo et colonne partagent un socle de 40 × 33 cm, avec un autofocus à une touche et un relevage électrique de l’axe Z. Monport la vend avec une source MAX de 30 W (1 999,99 $) ou de 50 W (2 498 $) sur un champ de 150 × 150 mm, et propose sur la même page une GM 20 W à mise au point manuelle avec un champ de 110 × 110 mm (1 410 $). Ouvrez une version pour les caractéristiques exactes.",
+  "mainObjective": "Marquage du métal et gravure légère à petit prix, avec une fibre monobloc compacte",
+  "primaryUse": "Laser fibre intégré pour le marquage du métal et la gravure légère.",
+  "beginnerNotes": "Cette vue d’ensemble couvre la gamme GM Pro. Prenez la GM 20 W pour de petites plaques avec un budget serré, la 30 W pour le marquage courant avec autofocus, et la 50 W quand la gravure profonde compte. Pour le marquage couleur, regardez plutôt la GM Pro MOPA.",
+  "proTips": "Calez les pièces avec les barres de positionnement avant de marquer et faites des grilles d’essai sur des chutes du même alliage. Prévoyez un caisson et une extraction des fumées avant l’arrivée de la machine.",
+  "bestFor": [
+    "Marquage du métal",
+    "Plaques et bijoux",
+    "Gobelets et outils",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Conception monobloc avec autofocus et relevage électrique sur les versions Pro, plus rapide à installer qu’une fibre séparée",
+    "Nettement moins chère que la série GT séparée de Monport à puissance comparable",
+    "Compatible LightBurn et BslAppSimple sous Windows et macOS"
+  ],
+  "cons": [
+    "Galvo ouvert avec faisceau de classe 4 : un caisson ou une protection oculaire stricte est indispensable",
+    "Sources Q-switch à impulsion fixe : pas de marquage couleur maîtrisé (voir la GM Pro MOPA)",
+    "Champ de 150 × 150 mm au maximum et hauteur Z limitée à 400 mm"
+  ],
+  "materials": {
+    "engrave": [
+      "Acier inoxydable",
+      "Aluminium (brut et anodisé)",
+      "Laiton et cuivre",
+      "Titane",
+      "Or et argent",
+      "Plastiques durs",
+      "Pierre"
+    ],
+    "cut": [
+      "Tôle de métal fine (nombreuses passes)"
+    ],
+    "cannot": [
+      "Production en bois et en acrylique",
+      "Marquage du verre ou de l’acrylique transparents (il faut un UV ou un CO₂)",
+      "Pièces plus grandes que le champ de 150 × 150 mm sans repositionnement"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Monport, oct. 2026 : GM 20 W à mise au point manuelle à 1 410 $, GM Pro 30 W à 1 999,99 $, GM Pro 50 W à 2 498 $ ; l’offre avec LightBurn Pro ajoute 200 $, celle avec axe rotatif 150 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Logo rempli sur plaque d’acier inoxydable"
+      },
+      "cutExample": {
+        "description": "Pas une machine de découpe de plaques : métal fin seulement, en nombreuses passes"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle différence entre la GM Pro et la GM Pro MOPA ?",
+      "answer": "Les deux partagent le même châssis monobloc, l’autofocus et le relevage électrique. La GM Pro utilise des sources Q-switch MAX à impulsion fixe sur un champ de 150 × 150 mm ; la GM Pro MOPA utilise des sources MOPA JPT à impulsion réglable de 2 à 500 ns et un champ de 175 × 175 mm, ce qui permet un marquage couleur maîtrisé sur l’acier inoxydable et le titane. Les versions MOPA coûtent environ 1 000 $ de plus en 30 W."
+    },
+    {
+      "question": "La GM 20 W est-elle une GM Pro ?",
+      "answer": "Pas tout à fait. Monport la présente sur la page de la GM Pro, mais comme un modèle à mise au point manuelle avec un champ plus petit de 110 × 110 mm, et ses caractéristiques n’apparaissent pas dans le tableau comparatif des GM Pro. C’est l’entrée la moins chère de la série, à 1 410 $ (octobre 2026)."
+    },
+    {
+      "question": "GM Pro ou GT : fibre intégrée ou séparée ?",
+      "answer": "La GM Pro garde tout sur un seul socle, prend moins de place sur l’établi et coûte plusieurs centaines de dollars de moins. La série GT de Monport sépare la tête galvo de l’armoire de la source, monte à 550 mm de hauteur Z au lieu de 400 mm et propose des champs plus grands sur ses versions les plus puissantes."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Un seul socle, autofocus compris",
+      "body": "Source, galvo et colonne de levage tiennent sur un socle de 40 × 33 cm, et les versions Pro font la mise au point d’une touche sur le panneau de commande : plus de réglet de focale à ajuster entre des pièces de hauteurs différentes."
+    },
+    {
+      "title": "Le prix d’entrée d’une fibre Monport",
+      "body": "À partir de 1 410 $ pour la GM 20 W manuelle et de 1 999,99 $ pour la GM Pro 30 W en octobre 2026, la gamme GM Pro est l’entrée la moins chère dans les fibres de Monport."
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La GM Pro réunit autofocus et relevage électrique dans une fibre monobloc compacte, à des prix inférieurs aux machines séparées de Monport : une première fibre raisonnable pour les plaques, les outils et les gobelets.",
+    "limitations": "Pas de marquage couleur maîtrisé, un champ limité à 150 × 150 mm et un galvo ouvert qui impose un caisson ou une protection oculaire stricte. Pas encore de test indépendant de la gamme : les caractéristiques sont celles de Monport."
+  },
+  "images": [
+    {
+      "alt": "Laser fibre intégré Monport GM Pro : Monport"
+    },
+    {
+      "alt": "Monport GM Pro, vue de côté de la colonne et du socle : Monport"
+    },
+    {
+      "alt": "Éléments de la Monport GM Pro : galvo, lentille F-theta, axe Z et panneau de commande : Monport"
+    },
+    {
+      "alt": "Connectique arrière de la Monport GM Pro : USB, axe rotatif, pédale et signal de caisson : Monport"
+    },
+    {
+      "alt": "Monport GM Pro sur un bureau avec ordinateur et caractéristiques principales : Monport"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "tagline": "Fibre MOPA de 60 W et diode de 40 W sous capot, avec autofocus et caméra de 48 Mpx, en précommande à 4 999,99 $",
+  "tldr": "La Solis Duo 60W MOPA est la nouvelle version haut de gamme de la gamme double laser fermée d’OMTech, mise en ligne en octobre 2026 et en précommande, avec une expédition annoncée pour le 16 novembre 2026. Elle associe une fibre MOPA de 60 W (durée d’impulsion de 2 à 500 ns, plus de 100 couleurs sur les métaux compatibles, jusqu’à 0,5 mm de profondeur sur l’aluminium) à une diode de 40 W qui découpe le tilleul jusqu’à 22 mm, dans un caisson classe 1 avec autofocus, caméra de 48 Mpx et écran tactile. OMTech annonce des zones de travail de 250 × 250 mm et 150 × 150 mm, 10 000 mm/s et une précision de 0,002 mm. Prix en précommande : 4 999,99 $, ou 5 249,99 $ avec un convoyeur de 250 × 900 mm (boutique OMTech, octobre 2026). Aucune machine n’a encore été livrée et aucun test indépendant n’existe.",
+  "mainObjective": "Marquer le métal en couleur et travailler le bois ou le cuir avec une seule machine fermée de bureau",
+  "primaryUse": "Double laser fermé de bureau pour le marquage couleur du métal et le travail du bois, du cuir et du papier",
+  "beginnerNotes": "La version 60W MOPA n’est pas encore expédiée : OMTech annonce le 16 novembre 2026. Si vous avez besoin d’un double laser tout de suite, la xTool F2 Ultra associe la même fibre MOPA de 60 W et la même diode de 40 W, et elle est déjà livrée. Prenez la Solis Duo 60W MOPA si le marquage couleur du métal fait partie de vos produits ; pour de simples marquages noirs, une fibre Q-switch coûte bien moins cher.",
+  "proTips": "Gardez des bibliothèques de réglages séparées pour la fibre MOPA et la diode, et notez la durée d’impulsion avec chaque recette de couleur : le résultat change selon le métal, sa finition et la mise au point. Utilisez OMTech Mark quand vous avez besoin du placement par caméra, et LightBurn pour le reste si vous avez déjà une licence.",
+  "bestFor": [
+    "Produits en métal et autres matériaux",
+    "Cartes et médailles en métal coloré",
+    "Boutiques Etsy et de cadeaux",
+    "Personnalisation en petites séries"
+  ],
+  "pros": [
+    "Fibre MOPA de 60 W avec impulsions de 2 à 500 ns : plus de 100 couleurs sur les métaux compatibles et jusqu’à 0,5 mm de profondeur sur l’aluminium, selon OMTech",
+    "La diode de 40 W intégrée découpe jusqu’à 22 mm de tilleul, et les deux lasers restent alignés : aucune remise au point en changeant de source",
+    "Caisson classe 1, autofocus, caméra de 48 Mpx et zone de 250 × 250 mm, plus grande que les 220 × 220 mm de la xTool F2 Ultra"
+  ],
+  "cons": [
+    "En précommande seulement : expédition annoncée pour le 16 novembre 2026, sans livraison ni test indépendant pour l’instant",
+    "Le placement par caméra ne fonctionne qu’avec le logiciel d’OMTech, pas avec LightBurn",
+    "La source fibre est garantie un an, contre deux ans pour le reste de la machine"
+  ],
+  "materials": {
+    "engrave": [
+      "Inox (marquage couleur avec la MOPA)",
+      "Aluminium (jusqu’à 0,5 mm de profondeur, selon OMTech)",
+      "Laiton",
+      "Bois et cuir (diode)",
+      "Acrylique opaque, papier et caoutchouc (diode)"
+    ],
+    "cut": [
+      "Tilleul jusqu’à 22 mm (diode, donnée OMTech)",
+      "Cuir et papier (diode)",
+      "Feutre et caoutchouc en feuille (diode)"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Objets plus grands que la zone de 250 mm sans le convoyeur",
+      "Découpe de plaques à la vitesse d’un CO₂",
+      "PVC et vinyle (fumées chlorées)"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle OMTech, oct. 2026 : précommande à 4 999,99 $ pour la machine, 5 249,99 $ avec le convoyeur de 250 × 900 mm (prix normaux 7 399,99 $ et 7 699,99 $), expédition annoncée pour le 16 novembre 2026"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Pas encore mesuré"
+      },
+      "cutExample": {
+        "description": "Pas encore mesuré"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "Sur le papier, la Solis Duo 60W MOPA égale la xTool F2 Ultra source pour source, avec une zone plus grande de 250 × 250 mm et un prix de précommande un peu plus bas. Pour une boutique qui vend des cartes et des médailles en métal coloré à côté d’écussons en cuir et de cadeaux en bois, une seule machine fermée avec autofocus et caméra en remplace deux.",
+    "limitations": "C’est une précommande : rien n’a été expédié, et la gamme double laser d’OMTech a moins d’historique que celle d’xTool. Le placement par caméra dépend du logiciel d’OMTech, la source fibre n’est garantie qu’un an, et autour de 5 000 $ la machine ne se justifie que si le marquage couleur du métal rapporte de l’argent."
+  },
+  "faq": [
+    {
+      "question": "Quand la Solis Duo 60W MOPA est-elle expédiée ?",
+      "answer": "En octobre 2026, la boutique OMTech affichait les deux offres en précommande avec la mention « Ships Nov. 16 » : 4 999,99 $ pour la machine et 5 249,99 $ avec le convoyeur de 250 × 900 mm (prix normaux 7 399,99 $ et 7 699,99 $). Tant que les machines ne sont pas livrées, les dates et les caractéristiques peuvent encore changer."
+    },
+    {
+      "question": "Solis Duo 60W MOPA ou xTool F2 Ultra ?",
+      "answer": "Les deux associent une fibre MOPA de 60 W et une diode de 40 W dans un caisson fermé. La Solis Duo annonce une zone plus grande de 250 × 250 mm et coûte 4 999,99 $ en précommande, contre 5 299 $ pour la F2 Ultra double laser sur la boutique xTool en octobre 2026. La F2 Ultra a deux caméras de 48 Mpx au lieu d’une, et elle est déjà livrée avec des retours de propriétaires ; la Solis Duo, non."
+    },
+    {
+      "question": "Quelle zone de travail utilise la Solis Duo ?",
+      "answer": "OMTech annonce deux zones de travail, 250 × 250 mm et 150 × 150 mm, et indique que la lentille standard donne 250 × 250 mm. La marque ne précise pas à quel laser ou à quelle lentille correspond le chiffre de 150 × 150 mm : demandez-le à OMTech si vos pièces en dépendent. Le plateau mesure 350 × 280 mm, et le convoyeur en option accepte des pièces jusqu’à 250 × 900 mm."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "title": "Marquage couleur MOPA",
+      "body": "La source MOPA de 60 W règle la durée d’impulsion de 2 à 500 ns, ce qui donne selon OMTech plus de 100 effets de couleur sur les métaux compatibles et jusqu’à 0,5 mm de gravure sur l’aluminium."
+    },
+    {
+      "title": "Deux lasers, une seule mise au point",
+      "body": "L’autofocus règle la hauteur une fois, et la MOPA et la diode restent alignées : vous marquez une médaille en acier puis gravez un écusson en cuir sans refaire la mise au point."
+    },
+    {
+      "title": "Convoyeur jusqu’à 900 mm",
+      "body": "Un convoyeur de 250 × 900 mm en option, vendu en pack à 5 249,99 $ ou séparément, ouvre la machine fermée aux longs panneaux et aux séries de médailles."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse double laser fermée OMTech Solis Duo 60W MOPA : OMTech"
+    },
+    {
+      "alt": "Intérieur de l’OMTech Solis Duo : têtes fibre MOPA de 60 W et diode de 40 W : OMTech"
+    },
+    {
+      "alt": "Échantillons de marquage couleur réalisés avec l’OMTech Solis Duo 60W MOPA : OMTech"
+    },
+    {
+      "alt": "Caisson classe 1 de l’OMTech Solis Duo avec écran tactile et ventilation : OMTech"
+    },
+    {
+      "alt": "OMTech Solis Duo avec le convoyeur de 250 × 900 mm en option : OMTech"
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Double laser dans un seul caisson (fibre MOPA + diode)",
+    "description": "La Solis Duo 60W MOPA embarque une source fibre MOPA de 60 W pour le marquage du métal et la couleur, et une diode de 40 W pour le bois, le cuir et les autres matériaux organiques. Les deux sont intégrées et restent alignées ; vous choisissez une source par travail, ce ne sont pas des modules interchangeables.",
+    "options": [
+      {
+        "label": "Fibre MOPA 60 W"
+      },
+      {
+        "label": "Diode 40 W"
+      }
+    ]
+  }
+}

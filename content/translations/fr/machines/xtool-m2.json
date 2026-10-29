@@ -6,19 +6,20 @@
   "beginnerNotes": "Cette fiche décrit xTool M2 Color Craft Laser. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
   "proTips": "Prévoyez le budget des cartouches d'encre et de matériaux compatibles avec les deux procédés. Testez l'alignement couleur + laser sur des chutes avant tout travail client.",
   "bestFor": [
-    "Home crafters",
-    "Color gifts & cards",
-    "Etsy Petite activité",
-    "First enclosed laser"
+    "Loisirs créatifs à la maison",
+    "Cadeaux et cartes en couleur",
+    "Petite activité sur Etsy",
+    "Premier laser fermé"
   ],
   "pros": [
     "10W sur xTool M2 Color Craft Laser : priorité gravure : remplissages photo et cuir",
     "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
-    "Surface utile 300 × 300 mm (approx.) : validez vos formats de pièces avant achat"
+    "Évolutive sur le même caisson : xTool vend des modules diode de 20 W (599 $) et, depuis fin octobre 2026, de 40 W (899 $) ; xTool annonce pour le 40 W la découpe de 15 mm de contreplaqué de tilleul et de 11 mm d’acrylique noir"
   ],
   "cons": [
     "Vise les découpes fines (environ 3 mm de tilleul) : pas la production épaisse",
-    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée"
+    "Pas le SKU pour une boutique qui découpe du 3 mm+ toute la journée",
+    "Le module 40 W coûte 899 $ seul : faire évoluer une M2 10 W revient environ 100 $ plus cher que d’acheter d’emblée la version 40 W (1 299 $)"
   ],
   "materials": {
     "engrave": [
@@ -41,7 +42,7 @@
     ]
   },
   "priceRange": {
-    "note": "Boutique officielle xTool, oct. 2026 : de 499 $ à 1 229 $ selon le pack"
+    "note": "Boutique officielle xTool, oct. 2026 : 10 W dès 499 $, 20 W dès 899 $, 40 W dès 1 299 $ la machine seule, jusqu’à 1 849 $ pour le pack All-in-One 40 W ; le module diode 40 W 455 nm seul coûte 899 $ (en vente depuis le 21 oct. 2026)"
   },
   "specs": {
     "performance": {
@@ -70,5 +71,37 @@
   "editorialDepth": {
     "advantages": "xTool M2 Color Craft Laser 10W convient aux makers qui vendent surtout des marques, photos et cadeaux, pas des panneaux découpés chaque jour. Format fermé plus rassurant à la maison.",
     "limitations": "À éviter si vous quotez déjà de la découpe 3 mm+ en série. Pas pour l’acrylique coulé ni le métal nu sans spray."
+  },
+  "faq": [
+    {
+      "question": "La xTool M2 peut-elle passer à 40 W ?",
+      "answer": "Oui. Depuis le 21 octobre 2026, xTool vend pour la M2 un module diode 40 W 455 nm à 899 $. Il se monte sur le même support multifonction que la tête 10 W d’origine ; xTool précise que ses modules ne vont que sur la M2. Le module 20 W (599 $) et le module infrarouge 1064 nm de 3 W (499 $) utilisent le même support."
+    },
+    {
+      "question": "Que change le module 40 W sur la M2 ?",
+      "answer": "Surtout la découpe. La FAQ de xTool annonce pour le 40 W jusqu’à 15 mm de contreplaqué de tilleul et 11 mm d’acrylique noir, contre 8 mm et 3 mm pour le 10 W, et conseille 10 mm/s au lieu de 4 mm/s sur de l’acrylique noir de 3 mm. La zone de travail se réduit un peu avec ce module, à 426 × 312 mm au lieu de 426 × 320 mm, et le point est plus large (0,08 × 0,1 mm)."
+    },
+    {
+      "question": "Acheter directement la M2 40 W ou faire évoluer une 10 W plus tard ?",
+      "answer": "Si vous savez déjà que vous découperez du bois ou de l’acrylique épais, la version 40 W (1 299 $ la machine seule en octobre 2026) coûte moins cher qu’une M2 10 W (499 $) plus le module à 899 $. Le module se justifie pour ceux qui ont commencé avec la 10 W et ont besoin de découper plus épais."
+    }
+  ],
+  "moduleSystem": {
+    "headline": "Modules laser interchangeables sur le même caisson M2",
+    "description": "La M2 se vend avec un module diode bleue de 10, 20 ou 40 W, et chaque module existe aussi seul : 20 W à 599 $ et 40 W à 899 $ (sur la boutique xTool depuis le 21 octobre 2026). Un module infrarouge 1064 nm de 3 W (499 $) ajoute le marquage du métal et des plastiques, et le module jet d’encre CMJN se charge de l’impression couleur. Les modules s’échangent sur le même support multifonction ; xTool précise qu’ils ne vont que sur la M2.",
+    "options": [
+      {
+        "label": "Diode 10 W (module d’origine)"
+      },
+      {
+        "label": "Module diode 20 W"
+      },
+      {
+        "label": "Module diode 40 W (octobre 2026)"
+      },
+      {
+        "label": "Module IR 3 W (accessoire)"
+      }
+    ]
   }
 }

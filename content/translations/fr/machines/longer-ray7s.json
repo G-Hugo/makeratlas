@@ -1,0 +1,90 @@
+{
+  "tagline": "Diode fermée classe 1 avec firmware Klipper, vendue en versions 7,5 W, 15 W, 20 W et 40 W",
+  "tldr": "La Longer Ray7S, lancée en octobre 2026, est une diode fermée classe 1 sous firmware Klipper avec compensation des vibrations, déplacements à 600 mm/s, Wi-Fi et une surface d’environ 305 × 305 mm. Longer vend quatre puissances : 7,5 W dès 279,99 $, 15 W à 369,99 $, 20 W à 529,99 $ et 40 W à 849,99 $, la seule avec la pompe à air incluse (lots de base, boutique Longer, octobre 2026). Ouvrez une version pour les caractéristiques exactes et les benchmarks.",
+  "mainObjective": "Graver et découper en caisson fermé à la maison, avec une puissance pour chaque budget",
+  "primaryUse": "Gamme de diodes fermées classe 1 sous Klipper pour graver et découper à la maison",
+  "beginnerNotes": "Cette vue d’ensemble couvre toute la gamme Longer Ray7S. Prenez la 7,5 W ou la 15 W si vous gravez surtout, la 20 W pour un usage mixte gravure et découpe, et la 40 W si les découpes épaisses sont le travail principal. Les quatre partagent le même caisson classe 1, le firmware Klipper et le logiciel.",
+  "proTips": "Faites sortir l’extraction à l’extérieur, même avec le caisson classe 1. Ajoutez la pompe à air sur toute version sous 40 W si vous comptez découper. Lancez une grille de test matière avant une série.",
+  "bestFor": [
+    "Atelier fermé à la maison",
+    "Pièces partagées et familles",
+    "Gravure et découpe légère",
+    "Classe 1 à petit prix"
+  ],
+  "pros": [
+    "Caisson classe 1 dès 279,99 $, avec une surface plus grande que celle des mini graveuses fermées à ce prix",
+    "Firmware Klipper avec compensation des vibrations et déplacements à 600 mm/s sur toutes les versions",
+    "Quatre puissances dans le même caisson, de la graveuse fine à la découpeuse 40 W avec pompe à air incluse"
+  ],
+  "cons": [
+    "Surface d’environ 305 × 305 mm, petite face à la xTool S1 ou à l’Acmer P3",
+    "Pompe à air incluse seulement avec la 40 W",
+    "Sortie en octobre 2026 : pas encore de test indépendant"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Verre et céramique (avec précaution)",
+      "Acrylique foncé"
+    ],
+    "cut": [
+      "Tilleul jusqu’à 30 mm en plusieurs passes (40 W, Longer)",
+      "Acrylique noir jusqu’à 35 mm en plusieurs passes (40 W, Longer)",
+      "Contreplaqué",
+      "Cuir, feutre et carton"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Marquage du métal nu",
+      "Production à la vitesse d’un CO₂",
+      "Plaques de plus de 305 × 305 mm environ"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 7,5 W 279,99 $, 15 W 369,99 $, 20 W 529,99 $, 40 W 849,99 $ (lots de base)"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray7S est la réponse économique de Longer aux graveuses fermées comme la xTool S1 : caisson classe 1, firmware Klipper et déplacements à 600 mm/s pour une fraction du prix. Le vrai choix est celui du module : graveuse fine en 7,5 W ou 15 W, polyvalente en 20 W, ou découpeuse 40 W avec pompe à air incluse.",
+    "limitations": "Toutes les versions restent des diodes avec une surface d’environ 305 × 305 mm : pas d’acrylique transparent, pas de grands panneaux. La pompe à air est en supplément sous 40 W. Lancée en octobre 2026, la Ray7S n’a pas encore de test indépendant de son caisson, de son extraction ni de sa fiabilité."
+  },
+  "faq": [
+    {
+      "question": "Quelle Longer Ray7S choisir ?",
+      "answer": "La 7,5 W (279,99 $) ou la 15 W (369,99 $) si vous gravez surtout ; la 20 W (529,99 $) pour des découpes régulières dans le contreplaqué de 3 à 6 mm ; la 40 W (849,99 $) si les découpes épaisses sont le travail principal, et c’est la seule avec la pompe à air incluse. Prix des lots de base sur la boutique Longer en octobre 2026."
+    },
+    {
+      "question": "La Ray7S est-elle vraiment classe 1 ?",
+      "answer": "Longer la vend comme un laser classe 1 : capot fermé, le caisson confine le faisceau et aucune lunette n’est nécessaire pour suivre un travail. Cette classe ne vaut que capot fermé."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser fermée classe 1 Longer Ray7S : Longer"
+    },
+    {
+      "alt": "Longer Ray7S vue de dessus, avec le portique laser au-dessus d’une plaque de contreplaqué gravée : Longer"
+    },
+    {
+      "alt": "Sécurités classe 1 de la Longer Ray7S : capot anti-lumière bleue, arrêt d’urgence, fins de course et lunettes : Longer"
+    },
+    {
+      "alt": "Firmware Klipper de la Longer Ray7S et comparaison de gravure avec compensation des vibrations : Longer"
+    },
+    {
+      "alt": "Graveuse laser fermée Longer Ray7S avec son capot orange : Longer"
+    }
+  ]
+}

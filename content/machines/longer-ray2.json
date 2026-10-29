@@ -1,0 +1,146 @@
+{
+  "id": "longer-ray2",
+  "slug": "longer-ray2",
+  "name": "Longer Ray2",
+  "brand": "Longer",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "image": "/machines/longer-ray2/01.webp",
+  "tagline": "Longer's compact Class 1 enclosed diode, sold in 7.5W and 15W versions from $239.99",
+  "tldr": "The Ray2 is Longer's small enclosed laser, launched on October 21, 2026: a preassembled Class 1 box with an amber lid, flame and tilt alarms, an emergency stop and a 130 × 110 mm working area. Longer sells it with a 7.5W diode ($239.99) or a 15W diode ($319.99) in the Basic Set (Longer US store, October 2026). Both share the same box, bed and 12,000 mm/min top speed; the 15W adds a finer spot and cuts 10 mm basswood in one pass instead of 6 mm. Open a version for exact specs and benchmarks.",
+  "mainObjective": "A low-cost enclosed laser for small gifts, tags and coasters at home",
+  "bestFor": [
+    "First laser at home",
+    "Small gifts & tags",
+    "Families with kids nearby",
+    "Tight budgets"
+  ],
+  "priceRange": {
+    "min": 239.99,
+    "max": 319.99,
+    "currency": "USD",
+    "note": "Official Longer store, Oct 2026: 7.5W Basic Set $239.99, 15W Basic Set $319.99"
+  },
+  "specs": {
+    "power": "7.5W / 15W diode (enclosed)",
+    "workArea": "130 × 110 mm",
+    "software": [
+      "LaserBurn",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~9–17 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~3–8 min"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.06 – 0.08 × 0.08 mm",
+        "maxSpeed": "200 mm/s",
+        "avgEngraveSpeed": "~60–180 mm/s",
+        "avgCutSpeed": "~3–8 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Paper & cardstock",
+      "Fabric",
+      "Stainless steel (surface mark, per Longer)"
+    ],
+    "cut": [
+      "Basswood up to 10 mm in one pass (15W)",
+      "Thin plywood",
+      "Leather, felt & paper"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Anything larger than 130 × 110 mm",
+      "Bare metal engraving in depth",
+      "Thick hardwood"
+    ]
+  },
+  "pros": [
+    "Class 1 enclosure with flame and tilt alarms and an emergency stop, from $239.99",
+    "Arrives preassembled: no frame to build or square",
+    "Works with LightBurn and LaserGRBL as well as Longer's own LaserBurn"
+  ],
+  "cons": [
+    "130 × 110 mm bed: coasters, tags and small plaques only",
+    "No camera, and Longer does not list a smoke filter",
+    "Too new for owner reviews or independent tests"
+  ],
+  "beginnerNotes": "This overview covers the whole Longer Ray2 line. Take the 7.5W if you mostly engrave small wood, leather and paper items, the 15W if you also want to cut thin wood. Both versions share the same enclosed box, bed and software; compare them with the chips above.",
+  "proTips": "Measure your typical blanks before buying: the 130 × 110 mm bed rules out most cutting boards and signs. Plan for ventilation even with the lid closed, since the box contains the beam, not the smoke.",
+  "primaryUse": "Compact enclosed diode laser line for small engraving and light cutting at home",
+  "rating": {
+    "overall": 7.7,
+    "value": 8.6,
+    "easeOfUse": 8.5,
+    "capability": 6.9,
+    "buildQuality": 7.5
+  },
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "exhaust-vent",
+      "availability": "recommended"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The Ray2 brings a Class 1 enclosure down to the price of an open-frame starter laser. For a first machine at home, with children or pets around, the closed box, alarms and preassembled design remove most of the setup and safety worries.",
+    "limitations": "The trade-off is size: 130 × 110 mm limits it to small objects, and both versions are low-power diodes that cannot cut clear acrylic or thick wood. The line is brand new, so there are no owner reports on reliability yet."
+  },
+  "similarModels": [
+    "atomstack-p1",
+    "creality-falcon-a1c",
+    "longer-nano-6w"
+  ],
+  "faq": [
+    {
+      "question": "Which Longer Ray2 should I buy?",
+      "answer": "The 7.5W ($239.99) if you mostly engrave small items; the 15W ($319.99) if you also want to cut basswood or plywood up to about 10 mm. The $80 gap buys cutting depth and a finer spot, not a larger bed. Prices are Basic Sets on Longer's US store in October 2026."
+    },
+    {
+      "question": "How big can my projects be on the Ray2?",
+      "answer": "Longer lists a 130 × 110 mm working area for both versions. That covers coasters, keychains, tags, small plaques and wallets, but not cutting boards, large signs or A4 sheets."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-10-29",
+  "images": [
+    {
+      "src": "/machines/longer-ray2/01.webp",
+      "alt": "Longer Ray2 enclosed laser engraver: Longer"
+    },
+    {
+      "src": "/machines/longer-ray2/02.webp",
+      "alt": "Longer Ray2 with engraved wood, leather and lamp samples: Longer"
+    },
+    {
+      "src": "/machines/longer-ray2/03.webp",
+      "alt": "Longer Ray2 feature overview with the 7.5W and 15W options: Longer"
+    },
+    {
+      "src": "/machines/longer-ray2/04.webp",
+      "alt": "Longer Ray2 Class 1 safety features: flame alarm, lid stop and emergency button: Longer"
+    }
+  ],
+  "modelLine": "longer-ray2",
+  "catalogHidden": true,
+  "releaseDate": "2026-10",
+  "tierEditorialOverride": true,
+  "enclosed": true
+}

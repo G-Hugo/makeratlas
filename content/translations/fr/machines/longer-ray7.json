@@ -1,0 +1,90 @@
+{
+  "tagline": "Diode à cadre ouvert à 600 mm/s avec une surface de 405 × 410 mm, vendue en versions 7,5 W, 15 W, 20 W et 40 W",
+  "tldr": "La Longer Ray7, lancée en octobre 2026, est une diode à cadre ouvert avec une carte de commande améliorée, des déplacements à 600 mm/s, un axe X à double guide avec galets métalliques, le Wi-Fi et une surface d’environ 405 × 405 mm. Longer vend quatre puissances : 7,5 W à 229,99 $, 15 W à 299,99 $, 20 W à 429,99 $ et 40 W à 669,99 $ (boutique Longer, octobre 2026). Pompe à air, mise au point automatique et caméra sont en option. Ouvrez une version pour les caractéristiques exactes et les benchmarks.",
+  "mainObjective": "Graver et découper vite sur une grande surface à cadre ouvert, avec une puissance pour chaque budget",
+  "primaryUse": "Gamme de diodes à cadre ouvert pour la gravure et la découpe de loisir sur une surface d’environ 405 mm",
+  "beginnerNotes": "Cette vue d’ensemble couvre toute la gamme Longer Ray7. Prenez la 7,5 W ou la 15 W si vous gravez surtout, la 20 W pour un usage mixte gravure et découpe, et la 40 W si les découpes épaisses sont le travail principal. Les quatre partagent le même cadre, la même carte de commande et le même logiciel.",
+  "proTips": "Prévoyez la pompe à air si vous découpez, et un plateau en nid d’abeille pour des dessous plus propres. Portez des lunettes de protection adaptées et extrayez la fumée. Lancez une grille de test matière avant une série.",
+  "bestFor": [
+    "Gravure de loisir",
+    "Gravure et découpe",
+    "Grande surface à petit prix",
+    "Petite activité"
+  ],
+  "pros": [
+    "Déplacements à 600 mm/s et axe X à double guide plus rigide que sur la Ray5",
+    "Surface d’environ 405 × 410 mm dès 229,99 $",
+    "Quatre puissances sur le même cadre, de la graveuse fine à la découpeuse 40 W"
+  ],
+  "cons": [
+    "Cadre ouvert : lunettes, extraction et support ininflammable obligatoires",
+    "Pompe à air, mise au point automatique et caméra sont toutes en option",
+    "Sortie en octobre 2026 : pas encore de test indépendant"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Ardoise et pierre",
+      "Métal revêtu ou peint",
+      "Verre et céramique (avec précaution)",
+      "Acrylique foncé"
+    ],
+    "cut": [
+      "Tilleul de 2 à 15 mm par passe selon la puissance (notre estimation)",
+      "Contreplaqué",
+      "Acrylique foncé",
+      "Cuir, feutre et carton"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Marquage du métal nu",
+      "Production à la vitesse d’un CO₂",
+      "Utilisation sans lunettes de protection"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Longer, oct. 2026 : 7,5 W 229,99 $, 15 W 299,99 $, 20 W 429,99 $, 40 W 669,99 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "editorialDepth": {
+    "advantages": "La Ray7 succède à la Ray5 comme principal laser à cadre ouvert de Longer : trois fois la vitesse maximale de la Ray5 20 W, un axe X plus rigide et le Wi-Fi, à prix comparables. Le choix du module décide de l’usage : gravure fine en 7,5 W ou 15 W, travail mixte en 20 W, découpes épaisses en 40 W.",
+    "limitations": "Cadre ouvert à toutes les puissances : lunettes, extraction et sécurité incendie sont à votre charge. Pompe à air, mise au point automatique et caméra coûtent en plus. Lancée en octobre 2026, la Ray7 n’a pas encore de test indépendant."
+  },
+  "faq": [
+    {
+      "question": "Quelle Longer Ray7 choisir ?",
+      "answer": "La 7,5 W (229,99 $) ou la 15 W (299,99 $) si vous gravez surtout ; la 20 W (429,99 $) pour des découpes régulières dans le contreplaqué de 3 à 6 mm ; la 40 W (669,99 $) si les découpes épaisses sont le travail principal. Prix de la boutique Longer en octobre 2026."
+    },
+    {
+      "question": "Ray7 ou Ray5 ?",
+      "answer": "La Ray7 se déplace plus vite (600 mm/s contre 200 mm/s pour la Ray5 20 W), a un axe X à double guide plus rigide et le Wi-Fi, à prix comparables. La Ray5 garde un écran tactile et des années de retours de propriétaires."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser à cadre ouvert Longer Ray7, montrée avec le rotatif en option : Longer"
+    },
+    {
+      "alt": "Cadre de la Longer Ray7 avec le module laser et le boîtier de commande : Longer"
+    },
+    {
+      "alt": "Surface de travail de 405 × 410 mm de la Longer Ray7 : Longer"
+    },
+    {
+      "alt": "Boîtier de commande de la Longer Ray7 avec arrêt d’urgence, ports USB et carte TF : Longer"
+    },
+    {
+      "alt": "Aperçu des fonctions de la Longer Ray7 : 36 000 mm/min, sécurités et les quatre modules laser : Longer"
+    }
+  ]
+}
