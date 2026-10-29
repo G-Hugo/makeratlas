@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BEST_OF_GUIDES } from "@/lib/best-of-guides";
 import { notFound } from "next/navigation";
 import { LocaleLink } from "@/components/layout/LocaleLink";
 import { MachineImage } from "@/components/machines/MachineImage";
@@ -225,6 +226,17 @@ export default async function BestOfCategoryPage({ params }: PageProps) {
           {b.compareTopCta}
         </LocaleLink>
       </div>
+
+      {(BEST_OF_GUIDES[category.slug]?.[locale] ?? []).length > 0 && (
+        <section className="mt-12 space-y-6">
+          {BEST_OF_GUIDES[category.slug]![locale].map((section) => (
+            <div key={section.heading}>
+              <h2 className="text-xl font-semibold text-stone-900 dark:text-stone-100">{section.heading}</h2>
+              <p className="mt-2 leading-relaxed text-stone-700 dark:text-stone-300">{section.body}</p>
+            </div>
+          ))}
+        </section>
+      )}
 
       <div className="mt-12">
         <SeoFaqSection

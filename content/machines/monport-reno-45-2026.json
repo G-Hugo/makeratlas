@@ -7,7 +7,7 @@
   "laserType": "co2",
   "powerRating": "45W",
   "tagline": "Desktop 45W CO₂ with a 400 × 300 mm bed and built-in water cooling",
-  "tldr": "Monport's new-generation Reno 45, listed on 20 September 2026, keeps the 400 × 300 mm bed and 45W glass tube but moves the water cooling inside (3 L tank) and adds a 470 × 7 mm front pass-through, 100 mm of Z travel and magnetic assisted focus. Basic $1,149.99 (500 mm/s, USB), Pro $1,499.99 (600 mm/s, Wi-Fi, offline panel, compatible with the 1W IR module), Vision $1,649.99 (8 MP camera). All three were on pre-order in October 2026: Pro and Vision shipping late October, Basic late November. It replaces the earlier Reno 45 Pro Vision.",
+  "tldr": "Monport's new-generation Reno 45, listed on 20 September 2026, keeps the 400 × 300 mm bed and 45W glass tube but moves the water cooling inside (3 L tank) and adds a 470 × 7 mm front pass-through, 100 mm of Z travel and magnetic assisted focus. Basic $1,149.99 (500 mm/s, USB), Pro $1,499.99 (600 mm/s, Wi-Fi, offline panel, compatible with the 1W IR module), Vision $1,649.99 (8 MP camera). On 29 October 2026 Monport's store sold the Pro from stock, still showed the Vision as shipping late October and had pushed the Basic to mid-December. It replaces the earlier Reno 45 Pro Vision.",
   "mainObjective": "An affordable first CO₂ for acrylic, wood and leather on a desk",
   "bestFor": [
     "Upgrading from diode",
@@ -19,7 +19,7 @@
     "min": 1149.99,
     "max": 1649.99,
     "currency": "USD",
-    "note": "Official Monport store, Oct 2026: Basic $1,149.99, Pro $1,499.99, Vision $1,649.99, all on pre-order; the LightBurn bundle adds $99.99 (Basic) or $199.99 (Pro, Vision)"
+    "note": "Official Monport store, Oct 2026: Basic $1,149.99 (pre-order, ships mid-December), Pro $1,499.99 (in stock), Vision $1,649.99 (ships late October); the LightBurn bundle adds $99.99 (Basic) or $199.99 (Pro, Vision)"
   },
   "specs": {
     "power": "45W CO₂",
@@ -85,7 +85,7 @@
     "470 × 7 mm front pass-through and 100 mm of Z travel for long strips and taller objects"
   ],
   "cons": [
-    "Pre-order only in October 2026: Pro and Vision ship late October, Basic late November",
+    "Only the Pro was in stock at the end of October 2026; the Basic is a pre-order shipping mid-December",
     "Tube rated 3,000 h below 40% power but 900 h above 70%, with a 6-month tube warranty",
     "400 × 300 mm bed: half the area of the Reno 65, which costs $450 to $1,100 more depending on version"
   ],
@@ -96,7 +96,7 @@
     },
     {
       "question": "Is the new Reno 45 available now?",
-      "answer": "Not yet. In October 2026 every version was a pre-order on Monport's US store: Pro and Vision with an estimated late-October ship date, Basic late November. Monport's own product page points buyers who need a machine right away to other models."
+      "answer": "Partly. On 29 October 2026 Monport's US store listed the Pro without a pre-order date (sold from stock), the Vision with an estimated late-October ship date and the Basic with an estimated mid-December ship date, later than the late November first announced."
     },
     {
       "question": "Basic, Pro or Vision?",
@@ -112,7 +112,7 @@
     {
       "id": "reno45-2026-price",
       "title": "A camera CO₂ under $1,700",
-      "body": "The Vision version pairs an 8 MP full-bed camera with the 45W tube for $1,649.99 on Monport's store (October 2026, pre-order)."
+      "body": "The Vision version pairs an 8 MP full-bed camera with the 45W tube for $1,649.99 on Monport's store (October 2026, shipping late October)."
     }
   ],
   "beginnerNotes": "This profile covers the 2026 generation of the Reno 45, not the earlier Reno 45 Pro Vision. It suits a first CO₂ for gifts, signs and craft-fair products. Choose the Pro or Vision if you want Wi-Fi and the IR option; the Basic is USB-only.",
@@ -165,7 +165,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-29",
   "releaseDate": "2026-09",
   "image": "/machines/monport-reno-45-2026/01.webp",
   "images": [
@@ -193,9 +193,6 @@
   "tierEditorialOverride": true,
   "editorialDepth": {
     "advantages": "The 2026 Reno 45 removes the old model's most awkward setup step, the external water tank, and lowers the price sharply. With a pass-through, 100 mm of Z travel and an optional IR module on the Pro and Vision, it covers most of what a home business needs from a first CO₂.",
-    "limitations": "It is a pre-order with no independent review of this generation yet. The bed is modest, focus is assisted rather than automatic, the glass tube is a consumable with a 6-month warranty, and smoke must be vented outside."
-  },
-  "announced": {
-    "expected": "2026-10"
+    "limitations": "Deliveries have only just started and there is no independent review of this generation yet. The bed is modest, focus is assisted rather than automatic, the glass tube is a consumable with a 6-month warranty, and smoke must be vented outside."
   }
 }

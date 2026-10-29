@@ -65,9 +65,15 @@ function DuelHeroCard({
         <MachineImage machine={machine} className="aspect-[4/3] w-full" sizes="(max-width: 640px) 50vw, 420px" />
       </LocaleLink>
       <div className="flex flex-1 flex-col gap-1 p-4">
-        <p className={`text-2xl font-bold leading-none ${ratingColor(machine.rating.overall)}`}>
-          {machine.rating.overall.toFixed(1)}
-        </p>
+        {machine.announced ? (
+          <p className="text-sm font-semibold leading-none text-stone-500 dark:text-stone-400">
+            {dict.machine.notRatedYet}
+          </p>
+        ) : (
+          <p className={`text-2xl font-bold leading-none ${ratingColor(machine.rating.overall)}`}>
+            {machine.rating.overall.toFixed(1)}
+          </p>
+        )}
         <LocaleLink
           href={`/lasers/${machine.slug}`}
           locale={locale}

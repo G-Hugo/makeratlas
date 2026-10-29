@@ -62,6 +62,10 @@ export const COMPARE_DUELS: ReadonlyArray<readonly [string, string]> = [
   ["creality-falcon-a1c-10w", "xtool-m2"],
   ["omtech-polar-2-70w", "xtool-p2s"],
   ["sculpfun-e1-pro-21w", "xtool-s1-20w"],
+  // From Search Console queries (late Oct 2026)
+  ["xtool-x1", "xtool-p3"],
+  ["xtool-x1", "xtool-p2s"],
+  ["xtool-f1", "xtool-f2-ultra"],
 ];
 
 export function duelParam(slugs: readonly [string, string]): string {

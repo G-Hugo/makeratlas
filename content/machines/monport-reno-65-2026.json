@@ -96,7 +96,7 @@
     },
     {
       "question": "Is the new Reno 65 available now?",
-      "answer": "Partly. On Monport's US store in October 2026 the Pro carried an estimated early-October ship date and the Basic late November, which makes them pre-orders; the Vision was shown in stock with one unit left. Check the ship date shown next to each version before ordering."
+      "answer": "Partly. On Monport's US store in October 2026 the Pro carried an estimated early-October ship date and the Basic mid-December (it slipped from late November), which makes them pre-orders; the Vision was shown in stock with one unit left. Check the ship date shown next to each version before ordering."
     },
     {
       "question": "How thick can the Reno 65 cut?",
@@ -170,7 +170,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-29",
   "releaseDate": "2026-09",
   "image": "/machines/monport-reno-65-2026/01.webp",
   "images": [

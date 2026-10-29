@@ -1,6 +1,6 @@
 {
   "tagline": "En précommande : fibre de 400 W pour découper le métal et laser CO₂ de 80 W, dans une seule machine fermée de 711 × 411 mm",
-  "tldr": "La Gweike MCore associe un laser fibre de 400 W, annoncé pour découper jusqu’à 5 mm d’inox, d’acier au carbone, de laiton et d’aluminium, à un laser CO₂ de 80 W pour le bois et l’acrylique jusqu’à 20 mm, dans une seule machine fermée de 711 × 411 mm avec caméra de 16 Mpx. Gweike annonce 1 200 mm/s et une précision de mouvement de 0,01 mm. Précommande : en octobre 2026, la boutique Gweike l’affichait en rupture à 6 999 $, avec une expédition depuis la Chine par bateau en novembre, et aucun test en conditions réelles ni retour de propriétaire n’existait encore. Tous les chiffres de cette fiche sont ceux du fabricant.",
+  "tldr": "La Gweike MCore associe un laser fibre de 400 W, annoncé pour découper jusqu’à 5 mm d’inox, d’acier au carbone, de laiton et d’aluminium, à un laser CO₂ de 80 W pour le bois et l’acrylique jusqu’à 20 mm, dans une seule machine fermée de 711 × 411 mm avec caméra de 16 Mpx. Gweike annonce 1 200 mm/s et une précision de mouvement de 0,01 mm. Précommande : fin octobre 2026, la boutique Gweike la proposait de nouveau à 6 999 $, avec une expédition depuis la Chine par bateau en novembre, et aucun test en conditions réelles ni retour de propriétaire n’existait encore. Tous les chiffres de cette fiche sont ceux du fabricant.",
   "mainObjective": "Découper de la tôle fine et graver ou découper le bois et l’acrylique avec une seule machine dans un petit atelier",
   "primaryUse": "Laser hybride fibre de découpe et CO₂ pour les petits ateliers qui travaillent le métal et les matériaux organiques",
   "beginnerNotes": "La MCore n’est pas une machine de débutant : c’est un laser fibre de découpe du métal et un laser CO₂ dans un même caisson, avec les risques qui vont avec. Attendez les premiers retours de propriétaires avant de payer, prévoyez une évacuation des fumées vers l’extérieur et vérifiez la date d’expédition auprès de Gweike avant de commander.",
@@ -43,7 +43,7 @@
     ]
   },
   "priceRange": {
-    "note": "Boutique officielle Gweike, oct. 2026 : 6 999 $ en précommande (prix barré 9 999 $), en rupture, expédition depuis la Chine par bateau en novembre ; le prix Kickstarter de lancement était de 4 999 $"
+    "note": "Boutique officielle Gweike, oct. 2026 : 6 999 $ en précommande (prix barré 9 999 $), de nouveau commandable le 29 octobre après une rupture, expédition depuis la Chine par bateau en novembre ; le prix Kickstarter de lancement était de 4 999 $"
   },
   "specs": {
     "performance": {
@@ -58,7 +58,7 @@
   "faq": [
     {
       "question": "Peut-on acheter la MCore maintenant, et quand sera-t-elle expédiée ?",
-      "answer": "Seulement en précommande. En octobre 2026, la boutique Gweike affichait la MCore en rupture à 6 999 $ (prix barré 9 999 $), avec la mention « Shipment from China by sea in Nov. » (expédition depuis la Chine par bateau en novembre). La campagne Kickstarter a démarré le 26 mai 2026 avec des livraisons prévues à partir d’août, mais nous n’avons trouvé aucun retour de propriétaire confirmé. Vérifiez la date d’expédition auprès de Gweike avant de payer."
+      "answer": "Seulement en précommande. Le 29 octobre 2026, la boutique Gweike proposait de nouveau la MCore à 6 999 $ (prix barré 9 999 $), après une rupture, avec la mention « Shipment from China by sea in Nov. » (expédition depuis la Chine par bateau en novembre). La campagne Kickstarter a démarré le 26 mai 2026 avec des livraisons prévues à partir d’août, mais nous n’avons trouvé aucun retour de propriétaire confirmé. Vérifiez la date d’expédition auprès de Gweike avant de payer."
     },
     {
       "question": "Que peut-elle vraiment découper ?",

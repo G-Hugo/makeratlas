@@ -66,6 +66,10 @@ export const BRAND_COMPARE_DUELS: readonly BrandDuelDefinition[] = [
     brands: ["xtool", "omtech"],
     featuredMachines: ["xtool-p2s", "omtech-polar-2-70w"],
   },
+  {
+    brands: ["acmer", "xtool"],
+    featuredMachines: ["acmer-p3-48w", "xtool-s1-40w"],
+  },
 ];
 
 export function brandDuelParam(slugs: readonly [string, string]): string {

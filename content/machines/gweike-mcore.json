@@ -6,7 +6,7 @@
   "category": "laser-engraver",
   "laserType": "hybrid",
   "tagline": "Pre-order: 400W fiber for cutting metal plus an 80W CO₂ laser, in one enclosed 711 × 411 mm machine",
-  "tldr": "The Gweike MCore combines a 400W fiber laser, rated to cut up to 5 mm of stainless steel, carbon steel, brass and aluminum, with an 80W CO₂ laser for wood and acrylic up to 20 mm, in one enclosed 711 × 411 mm machine with a 16 MP camera. Gweike gives 1,200 mm/s and 0.01 mm motion accuracy. Pre-order: in October 2026 Gweike's store listed it as sold out at $6,999, with shipment from China by sea in November, and no hands-on review or owner report existed yet. Every figure here is a manufacturer claim.",
+  "tldr": "The Gweike MCore combines a 400W fiber laser, rated to cut up to 5 mm of stainless steel, carbon steel, brass and aluminum, with an 80W CO₂ laser for wood and acrylic up to 20 mm, in one enclosed 711 × 411 mm machine with a 16 MP camera. Gweike gives 1,200 mm/s and 0.01 mm motion accuracy. Pre-order: at the end of October 2026 Gweike's store took orders again at $6,999, with shipment from China by sea in November, and no hands-on review or owner report existed yet. Every figure here is a manufacturer claim.",
   "mainObjective": "Cut thin sheet metal and engrave or cut wood and acrylic with one machine in a small workshop",
   "bestFor": [
     "Thin sheet metal parts",
@@ -18,7 +18,7 @@
     "min": 6999,
     "max": 6999,
     "currency": "USD",
-    "note": "Official Gweike store, Oct 2026: $6,999 pre-order (list price $9,999), sold out, shipment from China by sea in November; Kickstarter early-bird price was $4,999"
+    "note": "Official Gweike store, Oct 2026: $6,999 pre-order (list price $9,999), orderable again on 29 October after being sold out, shipment from China by sea in November; Kickstarter early-bird price was $4,999"
   },
   "specs": {
     "power": "400W fiber + 80W CO₂",
@@ -100,7 +100,7 @@
   "faq": [
     {
       "question": "Can I buy the MCore now, and when will it ship?",
-      "answer": "Only as a pre-order. In October 2026, Gweike's store listed the MCore as sold out at $6,999 (list price $9,999) with the note \"Shipment from China by sea in Nov.\" The Kickstarter campaign started on May 26, 2026, with deliveries planned from August, but we found no confirmed owner report. Check the shipping window with Gweike before paying."
+      "answer": "Only as a pre-order. On 29 October 2026, Gweike's store took orders for the MCore again at $6,999 (list price $9,999), after a sold-out period, with the note \"Shipment from China by sea in Nov.\" The Kickstarter campaign started on May 26, 2026, with deliveries planned from August, but we found no confirmed owner report. Check the shipping window with Gweike before paying."
     },
     {
       "question": "What can it really cut?",
@@ -134,7 +134,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-29",
   "image": "/machines/gweike-mcore/01.webp",
   "images": [
     {

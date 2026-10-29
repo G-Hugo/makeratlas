@@ -81,12 +81,15 @@ function score(machine: Machine, locale: Locale): string {
 export function duelMetaDescription(a: Machine, b: Machine, locale: Locale): string {
   const [na, nb] = duelNames(a, b);
   const [sa, sb] = [score(a, locale), score(b, locale)];
+  const scored = !a.announced && !b.announced;
   if (locale === "fr") {
+    const scores = scored ? `Nous les notons ${sa} et ${sb}/10. ` : "";
     return clip(
-      `${na} ou ${nb} ? Nous les notons ${sa} et ${sb}/10. ${na} : ${duelFacts(a, locale)}. ${nb} : ${duelFacts(b, locale)}. Vitesse, matériaux et verdict.`,
+      `${na} ou ${nb} ? ${scores}${na} : ${duelFacts(a, locale)}. ${nb} : ${duelFacts(b, locale)}. Vitesse, matériaux et verdict.`,
     );
   }
+  const scores = scored ? `We score them ${sa} and ${sb}/10. ` : "";
   return clip(
-    `${na} or ${nb}? We score them ${sa} and ${sb}/10. ${na}: ${duelFacts(a, locale)}. ${nb}: ${duelFacts(b, locale)}. Speed, materials and verdict.`,
+    `${na} or ${nb}? ${scores}${na}: ${duelFacts(a, locale)}. ${nb}: ${duelFacts(b, locale)}. Speed, materials and verdict.`,
   );
 }

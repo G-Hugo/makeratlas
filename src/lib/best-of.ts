@@ -42,6 +42,7 @@ function canMarkMetal(machine: Machine): boolean {
 }
 
 function isEnclosedLaser(machine: Machine): boolean {
+  if (machine.enclosed !== undefined) return machine.enclosed;
   const blob = [machine.tagline, machine.tldr, machine.primaryUse, ...machine.pros, ...machine.bestFor]
     .join(" ")
     .toLowerCase();

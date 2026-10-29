@@ -155,8 +155,9 @@ export function buildMachineCompareSections(
         machines,
         `score-${key}`,
         label,
-        machines.map((m) => ({ text: m.rating[key].toFixed(1) })),
-        numericValues(machines, (m) => m.rating[key]),
+        // Announced machines are not scored yet.
+        machines.map((m) => ({ text: m.announced ? "—" : m.rating[key].toFixed(1) })),
+        numericValues(machines, (m) => (m.announced ? null : m.rating[key])),
         "higher",
       ),
     ),

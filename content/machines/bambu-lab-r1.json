@@ -18,7 +18,7 @@
     "min": 2499,
     "max": 3499,
     "currency": "USD",
-    "note": "Pre-order price, Bambu Lab store (Oct 2026): $2,499 / €2,499 for the R1 alone; US bundles reported at $3,289 with riser base and conveyor and $3,499 with rotary as well. Not delivered yet; prices may change."
+    "note": "Pre-order price, Bambu Lab store (Oct 2026): $2,499 / €2,499 for the R1 alone, which the EU store estimated on 29 October would ship around November 9, 2026; EU bundles €3,329 with riser base and conveyor and €3,559 with rotary as well (sold out); US bundles reported at $3,289 and $3,499. Not delivered yet; prices may change."
   },
   "specs": {
     "power": "55W CO₂",
@@ -99,7 +99,7 @@
   "faq": [
     {
       "question": "When will the Bambu Lab R1 ship, and how much does it cost?",
-      "answer": "Pre-orders opened on September 22, 2026 at $2,499 in the US and €2,499 in Europe. Bambu Lab first announced shipping in October 2026; in October its stores showed estimated shipping dates in November 2026. Until machines are delivered, specs, prices and dates may still change."
+      "answer": "Pre-orders opened on September 22, 2026 at $2,499 in the US and €2,499 in Europe. Bambu Lab first announced shipping in October 2026; in October its stores showed estimated shipping dates in November 2026 (around November 9 on the EU store on October 29). Until machines are delivered, specs, prices and dates may still change."
     },
     {
       "question": "What can the R1 cut?",
@@ -129,7 +129,7 @@
     }
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-29",
   "image": "/machines/bambu-lab-r1/01.webp",
   "images": [
     {

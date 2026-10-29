@@ -1,10 +1,10 @@
 {
-  "tagline": "Plateforme hybride annoncée : CO₂ de 55 W sur portique et diode galvo de 20 W, avec sources UV, MOPA et fibre en option",
-  "tldr": "La X1 est une plateforme xTool dévoilée fin août 2026 et pas encore livrée. Toutes les X1 partent d’une tête CO₂ de 55 W sur portique ; un module galvo à diode de 20 W, porté par le portique, ajoute une gravure rapide et est indispensable pour les sources en option UV de 5 W, MOPA de 60 W et fibre de 30 W. xTool annonce une surface de travail maximale de 615 × 320 mm, jusqu’à 6 000 mm/s en mode galvo et un passage traversant pour des projets jusqu’à 3 m. Un acompte remboursable de 100 $ est ouvert ; xTool indique que les prix seront dévoilés le 28 octobre et que les expéditions commencent le 29 octobre 2026. D’ici là, le prix est inconnu, et caractéristiques et dates peuvent changer.",
+  "tagline": "Plateforme hybride : CO₂ de 55 W sur portique et diode galvo de 20 W, extensible aux sources UV, MOPA et fibre",
+  "tldr": "La X1 est la plateforme hybride d’xTool, dévoilée en août 2026 et en vente depuis le 28 octobre 2026. Toutes les X1 ont une tête CO₂ de 55 W sur portique (600 mm/s, découpe jusqu’à 18 mm de tilleul et 20 mm d’acrylique). La version CO₂ + Diode Galvo ajoute un module galvo à diode de 20 W, porté par le portique, qui grave jusqu’à 6 000 mm/s et qui est indispensable pour les sources en option UV de 5 W, MOPA de 60 W et fibre de 30 W. La surface de travail fait 615 × 320 mm, et un convoyeur en option accepte des pièces jusqu’à 3 m de long. Les prix de lancement partent de 3 399 $ (Single CO₂) et 3 999 $ (CO₂ + Diode Galvo), jusqu’à 8 679 $ pour le pack MOPA. xTool annonce une première vague expédiée sous 7 jours ouvrés ; aucun client ne l’a encore reçue et aucun test indépendant n’existe.",
   "mainObjective": "Une seule machine fermée pour la découpe CO₂ et la gravure galvo, extensible plus tard au verre et au métal",
   "primaryUse": "Plateforme fermée CO₂ et galvo pour la découpe, la gravure rapide et, en option, le verre ou le métal",
-  "beginnerNotes": "La X1 est annoncée, pas encore expédiée. Si vous n’avez besoin que de découpe CO₂, une machine déjà en vente comme la xTool P2S est une valeur connue. La X1 a du sens si vous comptez ajouter plus tard le verre ou le métal et voulez une seule machine pour tout.",
-  "proTips": "Si vous versez l’acompte, attendez la grille de prix du 28 octobre avant de choisir une configuration. Prenez la version CO₂ + diode galvo si vous pensez ajouter l’UV, la MOPA ou la fibre : le module galvo est indispensable pour elles. Comparez le coût de la base plus une source supplémentaire avec une F2 Ultra ou une F2 Ultra UV dédiée.",
+  "beginnerNotes": "La X1 vient d’être mise en vente et les livraisons n’ont pas commencé. Si vous n’avez besoin que de découpe CO₂, la xTool P2S (à partir de 2 999 $) est une valeur connue, pour moins cher. La X1 a du sens si vous comptez ajouter plus tard le verre ou le métal et voulez une seule machine pour tout.",
+  "proTips": "Prenez la version CO₂ + Diode Galvo (3 999 $ au lancement) si vous pensez ajouter l’UV, la MOPA ou la fibre : le module galvo est indispensable pour elles et coûte 809 $ seul si vous partez de la Single CO₂. Les offres de lancement courent jusqu’au 6 décembre 2026. Comparez la X1 avec une source supplémentaire à une P2S plus une F2 Ultra ou une F2 Ultra UV dédiée.",
   "bestFor": [
     "Petite entreprise",
     "Ateliers multi-matériaux",
@@ -12,14 +12,14 @@
     "Verre et métal plus tard"
   ],
   "pros": [
-    "CO₂ de 55 W pour la découpe et diode galvo de 20 W pour la gravure rapide dans un même boîtier",
+    "Le CO₂ de 55 W découpe jusqu’à 18 mm de tilleul et 20 mm d’acrylique, et la diode galvo de 20 W grave jusqu’à 6 000 mm/s dans le même boîtier",
     "Sources en option UV de 5 W, MOPA de 60 W et fibre de 30 W sur la même machine, au lieu d’acheter plusieurs lasers galvo",
-    "Surface de travail maximale de 615 × 320 mm, trois caméras, base AutoLift et passage traversant jusqu’à 3 m"
+    "Surface de travail de 615 × 320 mm, trois caméras avec télémètre LiDAR, base AutoLift et sécurité laser de classe 1"
   ],
   "cons": [
-    "Pas encore livrée, et prix inconnu jusqu’au 28 octobre 2026",
-    "L’UV, la MOPA et la fibre demandent le module galvo à diode plus chaque source : le système complet coûtera bien plus que la base",
-    "La surface utile dépend de la source : xTool annonce 414 × 226 mm pour le relief sur métal ; aucune épaisseur de découpe CO₂ publiée"
+    "Tout juste lancée : aucune livraison client ni test indépendant pour l’instant, et le stock de la première vague est limité",
+    "L’UV, la MOPA et la fibre demandent le module galvo à diode plus chaque source : de 5 799 à 6 679 $ pour CO₂ + galvo + une source, contre 3 399 $ pour la Single CO₂",
+    "Grande et lourde (1 000 × 580 × 420 mm, 60 kg) ; la surface diminue pour certains procédés (415 × 225 mm pour le relief sur métal) et le passage de 3 m demande le convoyeur en option"
   ],
   "materials": {
     "engrave": [
@@ -30,8 +30,8 @@
       "Métal nu, couleur et relief (MOPA ou fibre en option)"
     ],
     "cut": [
-      "Bois",
-      "Acrylique transparent",
+      "Bois, jusqu’à 18 mm de tilleul",
+      "Acrylique transparent, jusqu’à 20 mm",
       "Cuir, papier et tissu",
       "Métal fin (fibre ou MOPA en option, aucune épaisseur publiée)"
     ],
@@ -42,7 +42,7 @@
     ]
   },
   "priceRange": {
-    "note": "Prix pas encore annoncé (oct. 2026) ; estimation d’après la P2S CO₂ de 55 W d’xTool (2 999 $) et sa gamme galvo F2 Ultra (à partir de 4 299 $). xTool prend un acompte remboursable de 100 $ et annonce les configurations et les prix pour le 28 octobre 2026."
+    "note": "Boutique officielle xTool, oct. 2026 : prix de lancement 3 399 $ en Single CO₂, 3 999 $ en CO₂ + Diode Galvo, 5 799 $ avec la fibre de 30 W, 6 499 $ avec l’UV de 5 W, 6 679 $ avec la MOPA de 60 W ; packs jusqu’à 8 679 $ (prix normaux supérieurs de 300 à 500 $). Offres de lancement jusqu’au 6 décembre 2026."
   },
   "specs": {
     "performance": {
@@ -56,8 +56,8 @@
   },
   "faq": [
     {
-      "question": "Quand la xTool X1 sera-t-elle livrée, et combien coûtera-t-elle ?",
-      "answer": "xTool n’a pas encore publié de prix. Un acompte remboursable de 100 $ est ouvert du 12 au 28 octobre 2026 ; xTool indique que les configurations et les prix seront dévoilés à l’ouverture du paiement final, le 28 octobre, et que les expéditions commencent le 29 octobre avec un stock de lancement limité. Jusqu’à la livraison, prix, caractéristiques et dates peuvent changer."
+      "question": "Quand la xTool X1 est-elle expédiée, et combien coûte-t-elle ?",
+      "answer": "xTool a ouvert les commandes le 28 octobre 2026 et annonce une première vague expédiée sous 7 jours ouvrés, sur un stock de lancement limité ; les commandes suivantes partiront à l’arrivée de nouveaux stocks. Prix de lancement : 3 399 $ pour la Single CO₂, 3 999 $ pour la CO₂ + Diode Galvo, 5 799 $ avec la fibre de 30 W, 6 499 $ avec l’UV de 5 W et 6 679 $ avec la MOPA de 60 W, hors packs d’accessoires (jusqu’à 8 679 $). Achetées séparément, les sources coûtent 809 $ (diode galvo de 20 W), 1 799 $ (fibre), 2 699 $ (UV) et 2 879 $ (MOPA) au lancement."
     },
     {
       "question": "Quelles sources laser la X1 accepte-t-elle ?",
@@ -65,12 +65,12 @@
     },
     {
       "question": "X1 ou F2 Ultra ?",
-      "answer": "xTool présente la X1 comme la machine polyvalente des grands projets, avec une gravure galvo jusqu’à 6 000 mm/s sur 615 × 320 mm. La gamme F2 Ultra est plus rapide (jusqu’à 15 000 mm/s), plus compacte et déjà en vente. Choisissez selon la taille de vos pièces et votre besoin de découpe CO₂."
+      "answer": "xTool présente la X1 comme la machine polyvalente des grands projets, avec une gravure galvo jusqu’à 6 000 mm/s sur 615 × 320 mm et la découpe CO₂. La gamme F2 Ultra est plus rapide (jusqu’à 15 000 mm/s), plus compacte et transportable, mais ne découpe pas le bois ou l’acrylique épais. Choisissez selon la taille de vos pièces et votre besoin de découpe CO₂."
     }
   ],
   "moduleSystem": {
     "headline": "CO₂ sur portique et tête galvo à sources interchangeables",
-    "description": "La X1 associe une tête CO₂ de 55 W pour la découpe et une tête galvo portée par le portique. La tête galvo intègre une diode de 20 W et accepte en option une source UV de 5 W, MOPA de 60 W ou fibre de 30 W.",
+    "description": "La X1 associe une tête CO₂ de 55 W pour la découpe et une tête galvo portée par le portique. La tête galvo intègre une diode de 20 W (fournie avec la version CO₂ + Diode Galvo, 809 $ en ajout) et accepte en option une source UV de 5 W, MOPA de 60 W ou fibre de 30 W.",
     "options": [
       {
         "label": "CO₂ 55 W"
@@ -107,8 +107,8 @@
     }
   ],
   "editorialDepth": {
-    "advantages": "La X1 cherche à remplacer deux ou trois machines par une seule : un CO₂ de 55 W pour découper, une diode galvo qui grave bien plus vite qu’une tête sur portique, et des sources UV, MOPA et fibre en option pour le verre et le métal. La surface de travail est grande pour du galvo, et les caméras, la base AutoLift et le passage traversant annoncent une machine pensée pour la production en petite entreprise.",
-    "limitations": "On ne sait encore rien du prix, et aucun test indépendant n’existe. Chaque source supplémentaire s’ajoutera au coût du module galvo, et la surface utile diminue pour certains procédés. xTool n’a publié ni épaisseurs de découpe CO₂, ni taille de spot, ni dimensions de la machine : la comparaison avec la P2S et la F2 Ultra reste théorique jusqu’à la livraison."
+    "advantages": "La X1 cherche à remplacer deux ou trois machines par une seule : un CO₂ de 55 W qui découpe jusqu’à 18 mm de tilleul, une diode galvo qui grave bien plus vite qu’une tête sur portique, et des sources UV, MOPA et fibre en option pour le verre et le métal. La surface de travail est grande pour du galvo, et les trois caméras, la base AutoLift et le convoyeur en option annoncent une machine pensée pour la production en petite entreprise.",
+    "limitations": "Aucun test indépendant n’existe encore, et les expéditions commencent à peine. Chaque source supplémentaire ajoute de 1 800 à 2 680 $ au prix de la version CO₂ + Diode Galvo, et la surface utile diminue pour certains procédés (415 × 225 mm pour le relief sur métal). Avec 60 kg et 1 m de large, la X1 demande un établi solide ou le meuble roulant d’xTool. xTool publie désormais capacité de découpe, tailles de spot et dimensions, mais les vitesses réelles restent à mesurer."
   },
   "standoutFeatures": [
     {
@@ -121,7 +121,7 @@
     },
     {
       "title": "Projets jusqu’à 3 m",
-      "body": "Un passage traversant laisse circuler des pièces longues, jusqu’à 3 m selon xTool, à travers la machine."
+      "body": "Avec le convoyeur intelligent en option et deux rails, xTool annonce des pièces jusqu’à 3 m de long."
     }
   ]
 }

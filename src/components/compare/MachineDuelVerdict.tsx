@@ -74,7 +74,9 @@ export function MachineDuelVerdict({ machines, locale, dict }: MachineDuelVerdic
       </div>
 
       <p className="mt-4 text-sm font-medium text-stone-800 dark:text-stone-200">
-        {overallWinner
+        {a.announced || b.announced
+          ? dict.machine.notRatedYetBody
+          : overallWinner
           ? interpolate(c.verdictOverall, {
               name: overallWinner.name,
               a: overallWinner.rating.overall.toFixed(1),
