@@ -26,6 +26,7 @@ export type Dictionary = {
     brands: string;
     guides: string;
     compare: string;
+    deals: string;
     about: string;
     localeLabel: string;
   };

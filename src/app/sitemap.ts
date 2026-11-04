@@ -56,6 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       { path: "/compare", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 } },
       { path: "/compare/brands", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.78 } },
       { path: "/best", rest: { lastModified: new Date(), changeFrequency: "weekly", priority: 0.88 } },
+      { path: "/deals", rest: { lastModified: new Date(), changeFrequency: "weekly", priority: 0.85 } },
       { path: "/finder", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 } },
       { path: "/materials", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 } },
       { path: "/about", rest: { lastModified: new Date(), changeFrequency: "monthly", priority: 0.5 } },

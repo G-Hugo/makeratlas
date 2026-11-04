@@ -17,6 +17,7 @@ export const fr: Dictionary = {
     brands: "Marques",
     guides: "Guides",
     compare: "Comparer",
+    deals: "Promos Black Friday",
     about: "À propos",
     localeLabel: "Langue",
   },

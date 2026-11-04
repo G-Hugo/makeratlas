@@ -17,6 +17,7 @@ export const en: Dictionary = {
     brands: "Brands",
     guides: "Guides",
     compare: "Compare",
+    deals: "Black Friday deals",
     about: "About",
     localeLabel: "Language",
   },

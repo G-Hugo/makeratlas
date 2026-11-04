@@ -100,6 +100,7 @@ export function Footer({ locale, dict }: ChromeProps) {
     { href: "/brands", label: dict.nav.brands },
     { href: "/guides", label: dict.nav.guides },
     { href: "/compare", label: dict.nav.compare },
+    { href: "/deals", label: dict.nav.deals },
   ];
   const trustLinks = [
     { href: "/about", label: dict.footer.about },
