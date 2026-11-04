@@ -1,12 +1,29 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { defaultLocale, isLocale, locales } from "@/i18n/config";
+import { defaultLocale, isLocale, locales, type Locale } from "@/i18n/config";
 import { SITE_URL } from "@/lib/site-url";
 
-function negotiateLocale(request: NextRequest): (typeof locales)[number] {
+/** Set by the language switcher: a visitor's own choice beats the browser's. */
+const LOCALE_COOKIE = "locale";
+
+/** French when it is the browser's preferred language, English for everyone else. */
+function negotiateLocale(request: NextRequest): Locale {
+  const saved = request.cookies.get(LOCALE_COOKIE)?.value;
+  if (saved && isLocale(saved)) return saved;
+
   const header = request.headers.get("accept-language") ?? "";
-  if (header.toLowerCase().includes("fr")) return "fr";
-  return defaultLocale;
+  let best = "";
+  let bestQ = 0;
+  for (const part of header.split(",")) {
+    const [tag, ...params] = part.trim().toLowerCase().split(";");
+    const qParam = params.map((x) => x.trim()).find((x) => x.startsWith("q="));
+    const q = qParam ? Number(qParam.slice(2)) : 1;
+    if (tag && tag !== "*" && q > bestQ) {
+      best = tag;
+      bestQ = q;
+    }
+  }
+  return best.split("-")[0] === "fr" ? "fr" : defaultLocale;
 }
 
 export function proxy(request: NextRequest) {

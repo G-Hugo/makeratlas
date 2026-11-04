@@ -40,6 +40,10 @@ export function LocaleSwitcher({ locale, labels }: LocaleSwitcherProps) {
             aria-label={labels[loc]}
             aria-current={active ? "true" : undefined}
             title={labels[loc]}
+            onClick={() => {
+              // Read by the proxy on later visits to URLs without a language.
+              document.cookie = `locale=${loc}; path=/; max-age=31536000; samesite=lax`;
+            }}
           >
             <span className="sm:hidden">{loc.toUpperCase()}</span>
             <span className="hidden sm:inline">{labels[loc]}</span>
