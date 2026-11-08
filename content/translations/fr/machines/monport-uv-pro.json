@@ -1,6 +1,6 @@
 {
   "tagline": "Galvo UV pour la gravure 3D dans le cristal et le verre : 6 W ou 10 W, refroidisseur inclus",
-  "tldr": "L’UV Pro de Monport, mis en ligne en septembre 2026, est un galvo UV 355 nm conçu pour la gravure 3D à l’intérieur du cristal et du verre, avec une lentille 3D de 70 × 70 mm, un axe Z électrique et un refroidisseur à eau séparé fournis. Deux sources : 6 W (3 190 $, 10 000 mm/s, en stock) et 10 W (4 990 $, 15 000 mm/s, expédition début novembre 2026). Ouvrez une version pour les caractéristiques exactes.",
+  "tldr": "L’UV Pro de Monport, mis en ligne en septembre 2026, est un galvo UV 355 nm conçu pour la gravure 3D à l’intérieur du cristal et du verre, avec une lentille 3D de 70 × 70 mm, un axe Z électrique et un refroidisseur à eau séparé fournis. Deux sources : 6 W (3 190 $, 10 000 mm/s, en stock) et 10 W (4 990 $, 15 000 mm/s, en stock depuis novembre 2026). Ouvrez une version pour les caractéristiques exactes.",
   "mainObjective": "Gravure 3D dans le cristal et marquage UV propre sur le verre et les plastiques",
   "primaryUse": "Galvo UV pour la gravure 3D dans le cristal et le marquage fin du verre et des plastiques.",
   "beginnerNotes": "Cette vue d’ensemble couvre toute la gamme UV Pro. Prenez la 6 W pour débuter avec les cristaux photo 3D et le marquage fin ; prenez la 10 W pour des volumes de production.",
@@ -42,7 +42,7 @@
     ]
   },
   "priceRange": {
-    "note": "Boutique officielle Monport, oct. 2026 : 6 W à 3 190 $, 10 W à 4 990 $ (expédition début novembre), refroidisseur à eau inclus ; l’offre avec LightBurn ajoute 200 $"
+    "note": "Boutique officielle Monport, oct. 2026 : 6 W à 3 190 $, 10 W à 4 990 $ (en stock depuis novembre), refroidisseur à eau inclus ; l’offre avec LightBurn ajoute 200 $"
   },
   "specs": {
     "performance": {
@@ -61,7 +61,7 @@
     },
     {
       "question": "Quelle version de l’UV Pro choisir ?",
-      "answer": "La 6 W (3 190 $) pour les cadeaux et les petites séries ; la 10 W (4 990 $, expédition début novembre 2026) quand les cristaux 3D ou le marquage UV sont une production quotidienne, puisqu’elle balaie à 15 000 mm/s au lieu de 10 000 mm/s."
+      "answer": "La 6 W (3 190 $) pour les cadeaux et les petites séries ; la 10 W (4 990 $, en stock depuis novembre 2026) quand les cristaux 3D ou le marquage UV sont une production quotidienne, puisqu’elle balaie à 15 000 mm/s au lieu de 10 000 mm/s."
     }
   ],
   "standoutFeatures": [

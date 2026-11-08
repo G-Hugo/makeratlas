@@ -1,6 +1,6 @@
 {
   "tagline": "Galvo UV pour la gravure 3D dans le cristal : 10 W, 15 000 mm/s et refroidisseur à eau inclus",
-  "tldr": "L’UV Pro 10 W est la version rapide du galvo UV de gravure 3D à cœur de Monport, mis en ligne en septembre 2026 : 355 nm, 15 000 mm/s, 30 à 200 kHz, la même lentille 3D de 70 × 70 mm (Monport annonce une zone de travail de 150 × 150 mm), un axe Z électrique et un refroidisseur à eau fournis. 4 990 $ sur la boutique Monport en octobre 2026, en précommande avec une expédition début novembre. Mise au point manuelle, pas de caméra ; pas encore de test indépendant.",
+  "tldr": "L’UV Pro 10 W est la version rapide du galvo UV de gravure 3D à cœur de Monport, mis en ligne en septembre 2026 : 355 nm, 15 000 mm/s, 30 à 200 kHz, la même lentille 3D de 70 × 70 mm (Monport annonce une zone de travail de 150 × 150 mm), un axe Z électrique et un refroidisseur à eau fournis. 4 990 $ sur la boutique Monport, en stock depuis novembre 2026. Mise au point manuelle, pas de caméra ; pas encore de test indépendant.",
   "mainObjective": "Gravure 3D de cristaux en volume et marquage UV fin",
   "primaryUse": "UV 10 W · Monport UV Pro",
   "beginnerNotes": "Cette fiche décrit la version 10 W de l’UV Pro. Prenez-la si les cristaux 3D ou le marquage UV sont une production quotidienne ; pour des cadeaux occasionnels, comparez la version d’entrée avec les puces.",
@@ -17,7 +17,7 @@
     "Marquage à froid à 355 nm sur le verre, les plastiques et les pièces sensibles à la chaleur"
   ],
   "cons": [
-    "En précommande : expédition début novembre 2026",
+    "Expédiée seulement depuis novembre 2026 : pas encore de retour sur la durée",
     "Mise au point manuelle, pas de caméra, et un faisceau UV de classe 4 à l’air libre",
     "Environ 1 800 $ de plus que la version d’entrée pour le même champ et le même équipement"
   ],
@@ -42,7 +42,7 @@
     ]
   },
   "priceRange": {
-    "note": "Boutique officielle Monport, oct. 2026 : 4 990 $ avec le refroidisseur offert, 5 190 $ avec LightBurn en plus, précommande avec expédition début novembre"
+    "note": "Boutique officielle Monport, nov. 2026 : 4 990 $ avec le refroidisseur offert, 5 190 $ avec LightBurn en plus, en stock"
   },
   "specs": {
     "performance": {
@@ -57,7 +57,7 @@
   "faq": [
     {
       "question": "L’UV Pro 10 W est-elle disponible ?",
-      "answer": "Pas encore : en octobre 2026, Monport l’affichait à 4 990 $ (5 190 $ avec LightBurn) avec une expédition début novembre. La version 6 W était disponible tout de suite."
+      "answer": "Oui : après une précommande en octobre, Monport l’affiche en stock en novembre 2026 à 4 990 $ (5 190 $ avec LightBurn), le refroidisseur étant expédié à part."
     },
     {
       "question": "Qu’apporte la 10 W par rapport à la 6 W ?",
@@ -97,6 +97,6 @@
   ],
   "editorialDepth": {
     "advantages": "La version 10 W se justifie pour les ateliers dont le chiffre d’affaires dépend du volume de cristaux 3D ou de marquage UV : un balayage plus rapide et un ensemble complet avec refroidisseur et lentille 3D.",
-    "limitations": "C’est une précommande jusqu’en novembre 2026, à mise au point manuelle et sans caméra, qui exige une protection oculaire stricte autour du faisceau UV ouvert. SapphireMark ne fonctionne que sous Windows et il n’existe pas encore de test indépendant."
+    "limitations": "Elle n’est expédiée que depuis novembre 2026, à mise au point manuelle et sans caméra, qui exige une protection oculaire stricte autour du faisceau UV ouvert. SapphireMark ne fonctionne que sous Windows et il n’existe pas encore de test indépendant."
   }
 }

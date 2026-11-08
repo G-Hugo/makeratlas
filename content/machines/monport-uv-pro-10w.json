@@ -5,7 +5,7 @@
   "category": "laser-engraver",
   "laserType": "uv",
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-11-08",
   "releaseDate": "2026-09",
   "modelLine": "monport-uv-pro",
   "image": "/machines/monport-uv-pro-10w/01.webp",
@@ -51,7 +51,7 @@
   "name": "Monport UV Pro 10W",
   "powerRating": "10W",
   "tagline": "UV galvo for 3D crystal engraving: 10W, 15,000 mm/s and water chiller included",
-  "tldr": "The UV Pro 10W is the faster tier of Monport's 3D inner-engraving UV galvo, listed in September 2026: 355 nm, 15,000 mm/s, 30–200 kHz, the same 70 × 70 mm 3D lens (Monport lists a 150 × 150 mm processing area), an electric Z lift and a water chiller in the package. $4,990 on Monport's store in October 2026, on pre-order with shipping in early November. Manual focus, no camera; no independent review yet.",
+  "tldr": "The UV Pro 10W is the faster tier of Monport's 3D inner-engraving UV galvo, listed in September 2026: 355 nm, 15,000 mm/s, 30–200 kHz, the same 70 × 70 mm 3D lens (Monport lists a 150 × 150 mm processing area), an electric Z lift and a water chiller in the package. $4,990 on Monport's store, in stock since November 2026. Manual focus, no camera; no independent review yet.",
   "mainObjective": "Higher-volume 3D crystal engraving and fine UV marking",
   "bestFor": [
     "3D crystal gifts",
@@ -63,7 +63,7 @@
     "min": 4990,
     "max": 5190,
     "currency": "USD",
-    "note": "Official Monport store, Oct 2026: $4,990 with the free water chiller, $5,190 with LightBurn added, pre-order shipping in early November"
+    "note": "Official Monport store, Nov 2026: $4,990 with the free water chiller, $5,190 with LightBurn added, in stock"
   },
   "specs": {
     "power": "10W UV",
@@ -103,14 +103,14 @@
     "355 nm cold marking on glass, plastics and heat-sensitive parts"
   ],
   "cons": [
-    "Pre-order: shipping in early November 2026",
+    "Only shipping since November 2026: no long-term feedback yet",
     "Manual focus, no camera, and an open Class 4 UV beam",
     "About $1,800 more than the entry tier for the same field and features"
   ],
   "faq": [
     {
       "question": "Is the UV Pro 10W available now?",
-      "answer": "Not yet: in October 2026 Monport listed it at $4,990 ($5,190 with LightBurn) with shipping in early November. The 6W tier was available immediately."
+      "answer": "Yes: after a pre-order in October, Monport lists it in stock in November 2026 at $4,990 ($5,190 with LightBurn), with the water chiller shipped separately."
     },
     {
       "question": "What does the 10W add over the 6W?",
@@ -172,9 +172,6 @@
   ],
   "editorialDepth": {
     "advantages": "The 10W tier makes sense for shops whose revenue depends on 3D crystals or UV marking volume: faster scanning and a complete package with chiller and 3D lens.",
-    "limitations": "It is a pre-order until November 2026, has manual focus and no camera, and needs strict eye protection around the open UV beam. SapphireMark is Windows-only and no independent review exists yet."
-  },
-  "announced": {
-    "expected": "2026-11"
+    "limitations": "It has only been shipping since November 2026, has manual focus and no camera, and needs strict eye protection around the open UV beam. SapphireMark is Windows-only and no independent review exists yet."
   }
 }

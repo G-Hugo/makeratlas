@@ -51,7 +51,7 @@
   "name": "Monport UV Pro",
   "catalogHidden": true,
   "tagline": "UV galvo for 3D engraving inside crystal and glass: 6W or 10W, chiller included",
-  "tldr": "Monport's UV Pro, listed in September 2026, is a 355 nm UV galvo built for 3D engraving inside crystal and glass, with a 70 × 70 mm 3D lens, an electric Z lift and a separate water chiller in the package. Two sources: 6W ($3,190, 10,000 mm/s, in stock) and 10W ($4,990, 15,000 mm/s, shipping in early November 2026). Open a tier for exact specs.",
+  "tldr": "Monport's UV Pro, listed in September 2026, is a 355 nm UV galvo built for 3D engraving inside crystal and glass, with a 70 × 70 mm 3D lens, an electric Z lift and a separate water chiller in the package. Two sources: 6W ($3,190, 10,000 mm/s, in stock) and 10W ($4,990, 15,000 mm/s, in stock since November 2026). Open a tier for exact specs.",
   "mainObjective": "3D crystal engraving and clean UV marking on glass and plastics",
   "bestFor": [
     "3D crystal gifts",
@@ -63,7 +63,7 @@
     "min": 3190,
     "max": 5190,
     "currency": "USD",
-    "note": "Official Monport store, Oct 2026: 6W $3,190, 10W $4,990 (shipping early November), water chiller included; the LightBurn bundle adds $200"
+    "note": "Official Monport store, Oct 2026: 6W $3,190, 10W $4,990 (in stock since November), water chiller included; the LightBurn bundle adds $200"
   },
   "specs": {
     "power": "6W / 10W UV",
@@ -113,7 +113,7 @@
     },
     {
       "question": "Which UV Pro tier should I choose?",
-      "answer": "The 6W ($3,190) for gifts and small runs; the 10W ($4,990, shipping early November 2026) when 3D crystals or UV marking are a daily production job, since it scans at 15,000 mm/s instead of 10,000 mm/s."
+      "answer": "The 6W ($3,190) for gifts and small runs; the 10W ($4,990, in stock since November 2026) when 3D crystals or UV marking are a daily production job, since it scans at 15,000 mm/s instead of 10,000 mm/s."
     }
   ],
   "standoutFeatures": [
