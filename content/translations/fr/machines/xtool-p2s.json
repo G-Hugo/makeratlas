@@ -3,8 +3,8 @@
   "tldr": "La P2S affine la P2 originale avec meilleur logiciel et autofocus. Même classe CO₂ 55 W pour production acrylique et bois. Toujours le CO₂ fermé principal xTool sous le flagship P3 : choisissez P3 pour 80 W et automatisation ; P2S si 55 W et budget conviennent.",
   "mainObjective": "CO₂ fermé de nouvelle génération pour les petites entreprises qui découpent l'acrylique et le bois",
   "primaryUse": "CO₂ fermé haut de gamme pour la découpe en production de l'acrylique et du bois dans les petites entreprises.",
-  "beginnerNotes": "Cette fiche décrit xTool P2S. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Associez-le au convoyeur xTool pour les séries. LightBurn ouvre l'imbrication avancée pour les ateliers d'enseignes.",
+  "beginnerNotes": "Prévoyez la place d’abord : la P2S mesure 1000 × 639 × 268 mm et pèse environ 45 kg. Il lui faut une table solide et une sortie d’air vers une fenêtre. Commencez par les réglages tout prêts du contreplaqué et de l’acrylique de 3 mm dans xTool Creative Space avant de passer aux fortes épaisseurs.",
+  "proTips": "Pour les longues enseignes, les fentes traversantes acceptent des planches jusqu’à 3 000 mm ; avec le rehausseur, des pièces jusqu’à 215 mm de haut entrent dans la machine. Le convoyeur (qui demande le rehausseur) gère les séries, et LightBurn ajoute l’imbrication pour les ateliers d’enseignes.",
   "bestFor": [
     "Small business",
     "Acrylic production",
@@ -14,7 +14,7 @@
   "pros": [
     "Très bon sur acrylique et bois vs diodes au même budget",
     "Cabine intégrée : meilleur confinement du faisceau et des fumées qu’un châssis ouvert",
-    "Logiciels listés sur la fiche : testez votre flux (LightBurn ou app constructeur) sur chutes"
+    "AutoPassthrough fait passer des planches jusqu’à 3 000 mm de long, et une double caméra de 16 Mpx montre tout le plateau avant de lancer"
   ],
   "cons": [
     "CO₂ : évacuation extérieure ou filtration sérieuse : à prévoir avant déballage"
@@ -69,5 +69,27 @@
   ],
   "priceRange": {
     "note": "Boutique officielle xTool, oct. 2026 : de 2 999 $ à 5 069 $ selon le pack"
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle est la puissance de la xTool P2S ?",
+      "answer": "55 W, avec un tube CO₂ en verre. xTool annonce des découpes en une passe de 20 mm d’acrylique et 18 mm de bois ; pour des bords propres au quotidien, notre fiche compte sur environ 15 mm d’acrylique et 18 mm de bois."
+    },
+    {
+      "question": "Quelle est la surface de travail de la xTool P2S ?",
+      "answer": "600 × 308 mm de course du laser, sur un plateau de 680 × 360 mm pour poser les pièces. AutoPassthrough traite des planches jusqu’à 3 000 mm de long. Hauteur de pièce : 64 mm avec le plateau, 71 mm sans, 215 mm avec le rehausseur."
+    },
+    {
+      "question": "Quelles sont les dimensions et le poids de la xTool P2S ?",
+      "answer": "1000 × 639 × 268 mm et environ 45 kg d’après les fiches des revendeurs ; le carton mesure 1122 × 727 × 346 mm. Prévoyez deux personnes pour la porter, et de la place derrière pour le tuyau d’évacuation."
+    },
+    {
+      "question": "Combien coûte la xTool P2S ?",
+      "answer": "Sur la boutique xTool américaine en novembre 2026 : 2 999 $ seule, 4 169 $ en pack Versatile et 5 069 $ en pack All-in-one. Des machines reconditionnées apparaissent vers 2 200 $, mais souvent en rupture."
+    },
+    {
+      "question": "xTool P2S, P3 ou X1 ?",
+      "answer": "La P2S est la référence 55 W de xTool, à 2 999 $. La P3 passe à 80 W avec plus d’automatisation, pour plus du double du prix. La X1 (annoncée, dès 3 399 $) garde un CO₂ de 55 W et ajoute des sources galvo interchangeables (diode, UV, MOPA, fibre) : voyez notre comparatif P2S contre X1."
+    }
+  ]
 }

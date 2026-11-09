@@ -18,6 +18,7 @@ import {
 } from "@/lib/compare-duels";
 import { interpolate, laserTypeLabelLocalized } from "@/lib/i18n-helpers";
 import { serializeCompareIds } from "@/lib/machine-compare";
+import { getDuelNote } from "@/lib/duel-notes";
 import { buildDuelFaq } from "@/lib/seo-faq";
 import { buildPageMetadata, type AppPath } from "@/lib/seo";
 import { ratingColor } from "@/lib/utils";
@@ -110,6 +111,9 @@ export default async function CompareDuelPage({ params }: PageProps) {
   const c = dict.compare;
   const [a, b] = duel.machines;
   const title = `${a.name} vs ${b.name}`;
+  const note = getDuelNote(duelSlug);
+  const seeAlso = note?.seeAlso ? resolveDuel(note.seeAlso, locale) : undefined;
+  const faqItems = [...(note?.faq?.[locale] ?? []), ...buildDuelFaq([a, b], locale, dict)];
 
   const related = getAllResolvedDuels(locale)
     .filter(
@@ -144,6 +148,23 @@ export default async function CompareDuelPage({ params }: PageProps) {
       <p className="mt-3 max-w-2xl text-stone-600 dark:text-stone-300">
         {interpolate(c.duelIntro, { a: a.name, b: b.name })}
       </p>
+      {note?.take[locale].map((paragraph) => (
+        <p key={paragraph.slice(0, 40)} className="mt-3 max-w-3xl text-stone-600 dark:text-stone-300">
+          {paragraph}
+        </p>
+      ))}
+      {seeAlso && (
+        <p className="mt-3 max-w-3xl text-stone-600 dark:text-stone-300">
+          {c.duelSeeAlso}{" "}
+          <LocaleLink
+            href={`/compare/${seeAlso.param}`}
+            locale={locale}
+            className="font-medium text-amber-700 underline underline-offset-2 hover:text-amber-800 dark:text-amber-400"
+          >
+            {seeAlso.machines[0].name} vs {seeAlso.machines[1].name}
+          </LocaleLink>
+        </p>
+      )}
 
       <div className="relative mt-8 grid gap-4 sm:grid-cols-2 sm:gap-6">
         <DuelHeroCard machine={a} locale={locale} dict={dict} />
@@ -175,7 +196,7 @@ export default async function CompareDuelPage({ params }: PageProps) {
       </div>
 
       <div className="mt-12">
-        <SeoFaqSection title={c.faqTitle} items={buildDuelFaq([a, b], locale, dict)} />
+        <SeoFaqSection title={c.faqTitle} items={faqItems} />
       </div>
 
       {related.length > 0 && (

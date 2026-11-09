@@ -366,6 +366,7 @@ export type Dictionary = {
     duelIntro: string;
     duelOpenComparator: string;
     duelRelatedTitle: string;
+    duelSeeAlso: string;
     popularTitle: string;
     verdictTitle: string;
     verdictWinsOn: string;

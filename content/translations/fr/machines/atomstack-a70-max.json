@@ -3,8 +3,8 @@
   "tldr": "L’AtomStack A70 Max apporte 70–77 W de diode comprimée sur un châssis 850×800 mm avec mise au point auto, écran tactile et promesse de 25 mm de bois en une passe. Montée en gamme populaire 2024–2025 pour ceux qui dépassent l’A40 Pro : toujours structure ouverte, pas fermée.",
   "mainObjective": "Puissance diode maximale chez Atomstack pour les grands panneaux et les découpes profondes dans le bois",
   "primaryUse": "Diode grand format haute puissance pour la découpe de bois et d'acrylique en production, et la gravure détaillée.",
-  "beginnerNotes": "Cette fiche décrit AtomStack A70 Max. Lisez le résumé (TL;DR) et les benchmarks avant d’acheter, puis comparez des modèles proches via la page Comparer.",
-  "proTips": "Faites d'abord des essais sur chutes. Basez vos devis sur les temps de référence de cette fiche, pas sur les annonces commerciales.",
+  "beginnerNotes": "Le châssis occupe environ 1056 × 1168 mm sur la table, plus que la surface de travail ne le laisse croire : mesurez votre établi d’abord. Machine ouverte : portez les lunettes fournies, prévoyez une évacuation, et faites vos premiers essais de gravure en mode 35 W.",
+  "proTips": "Découpez en mode 70 W ; gravez les photos en mode 35 W, dont le point est plus fin (0,08 × 0,12 mm contre 0,12 × 0,18 mm). Les découpes en une passe annoncées par Atomstack sont des cas idéaux : faites vos devis d’après vos propres essais sur chutes.",
   "bestFor": [
     "Large signs",
     "Deep wood cuts",
@@ -13,8 +13,8 @@
   ],
   "pros": [
     "Meilleure marge de découpe de la gamme : ~28 mm tilleul en benchmark",
-    "70W : tête la plus orientée découpe de AtomStack A70 Max",
-    "Châssis ouvert : prévoyez lunettes, extraction et règles d’atelier dès le premier jour"
+    "Un bouton fait passer la même tête de 70 W pour découper à 35 W pour une gravure plus fine : aucun module à changer",
+    "Grand plateau de 850 × 800 mm avec mise au point automatique en une touche, écran tactile et assistance d’air intégrée"
   ],
   "cons": [
     "Gravure photo très fine : ralentir vs un module 10W dédié gravure",
@@ -72,5 +72,27 @@
   "editorialDepth": {
     "advantages": "AtomStack A70 Max 70W vise les semaines mixtes gravure + découpe bois : moins de passes sur tilleul et acrylique foncé que les SKUs faibles de la même gamme.",
     "limitations": "Mauvais choix si vous ne gravez jamais et vouliez le prix le plus bas. Gravure photo ultra-fine : parfois mieux sur un module gravure-first. Châssis ouvert : sécurité et fumées à votre charge."
-  }
+  },
+  "faq": [
+    {
+      "question": "Quelle taille fait l’AtomStack A70 Max ?",
+      "answer": "850 × 800 mm de surface de travail dans un châssis d’environ 1056 × 1168 × 230 mm, d’après la fiche technique d’Atomstack. Atomstack la vend aussi avec un caisson (pack à 2 329 $ en novembre 2026)."
+    },
+    {
+      "question": "L’A70 Max fait-elle 70 W ou 35 W ?",
+      "answer": "Les deux, avec une seule tête qu’un bouton fait basculer : 70 W (70 à 77 W annoncés) pour découper, 35 W (35 à 39 W) avec un point plus fin pour la gravure détaillée."
+    },
+    {
+      "question": "Quelle épaisseur l’A70 Max peut-elle découper ?",
+      "answer": "Atomstack annonce environ 25 mm de bois en une passe et 26 mm d’acrylique foncé. Ce sont des cas idéaux ; notre banc d’essai découpe du bois de 3 à 6 mm à 10–20 mm/s. L’acrylique transparent reste hors de portée, comme pour toute diode bleue."
+    },
+    {
+      "question": "Combien coûte l’A70 Max ?",
+      "answer": "Sur la boutique Atomstack américaine en novembre 2026 : 1 519 $ la machine seule pendant les soldes de fin d’année (1 639 $ d’habitude avec le pack Basic), 1 839 $ en pack Pro et 2 329 $ en pack avec caisson."
+    },
+    {
+      "question": "A70 Max ou Sculpfun S70 Max ?",
+      "answer": "Même classe de diode 70 W et un plateau proche (830 × 800 mm sur la Sculpfun). L’A70 Max ajoute le mode gravure 35 W, la mise au point automatique et un écran tactile ; comparez les prix du moment, les deux marques font souvent des promotions."
+    }
+  ]
 }

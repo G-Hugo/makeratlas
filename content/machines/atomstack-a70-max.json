@@ -76,15 +76,15 @@
   },
   "pros": [
     "Strongest cut headroom in the line: about 28 mm basswood-class stock in benchmarks",
-    "70W: the most cut-focused head in the AtomStack A70 Max line",
-    "Open-frame: plan laser glasses, exhaust, and workspace rules from day one"
+    "One button switches the same head between 70W for cutting and 35W for finer engraving: no module to swap",
+    "Large 850 × 800 mm bed with one-key auto-focus, touchscreen controller and built-in air assist"
   ],
   "cons": [
     "Clear cast acrylic and thick production cutting still favor CO₂, not diode power alone",
     "Confirm optical wattage on the listing before you buy"
   ],
-  "beginnerNotes": "This profile covers AtomStack A70 Max. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Run scrap tests first. Use this profile’s reference times for quotes, not marketing claims.",
+  "beginnerNotes": "The frame takes about 1056 × 1168 mm of table, more than the work area suggests: measure your bench first. Open frame: wear the supplied glasses, add exhaust, and run your first engraving tests in 35W mode.",
+  "proTips": "Cut in 70W mode; engrave photos in 35W mode, which has the smaller spot (0.08 × 0.12 mm against 0.12 × 0.18 mm). Atomstack's thickest one-pass cuts are best-case figures: quote customers from your own scrap tests.",
   "primaryUse": "Large-format high-power diode for production-style wood and acrylic cutting plus detailed engraving.",
   "rating": {
     "overall": 7.9,
@@ -99,7 +99,7 @@
     "atomstack-x30-pro"
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-11-09",
   "image": "/machines/atomstack-a70-max/01.webp",
   "images": [
     {
@@ -128,5 +128,27 @@
     "limitations": "Wrong pick if you never engrave and only wanted the lowest price. Ultra-fine photo work can look better on an engraving-first SKU. Open-frame: safety and smoke are on you."
   },
   "tierEditorialOverride": true,
-  "enclosed": false
+  "enclosed": false,
+  "faq": [
+    {
+      "question": "How big is the AtomStack A70 Max?",
+      "answer": "850 × 800 mm of work area in a frame of about 1056 × 1168 × 230 mm, per Atomstack's spec sheet. Atomstack also sells it with an enclosure ($2,329 bundle in November 2026)."
+    },
+    {
+      "question": "Is the A70 Max 70W or 35W?",
+      "answer": "Both, from one head switched with a button: 70W (rated 70–77W) for cutting, 35W (35–39W) with a smaller spot for detailed engraving."
+    },
+    {
+      "question": "How thick can the A70 Max cut?",
+      "answer": "Atomstack claims about 25 mm of wood in one pass and 26 mm of dark acrylic. Treat those as best-case figures; our benchmark cuts 3–6 mm wood at 10–20 mm/s. Clear acrylic stays out of reach, as with any blue diode."
+    },
+    {
+      "question": "How much does the A70 Max cost?",
+      "answer": "On Atomstack's US store in November 2026: $1,519 machine only during the holiday sale (usually $1,639 with the Basic Bundle), $1,839 for the Pro Bundle and $2,329 for the Enclosure Bundle."
+    },
+    {
+      "question": "A70 Max or Sculpfun S70 Max?",
+      "answer": "Same 70W diode class and a similar bed (830 × 800 mm on the Sculpfun). The A70 Max adds the 35W engraving mode, auto-focus and a touchscreen; compare current prices, as both brands run frequent promotions."
+    }
+  ]
 }

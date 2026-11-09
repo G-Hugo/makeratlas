@@ -76,14 +76,14 @@
   "pros": [
     "Strong on acrylic and wood versus diodes on the same budget tier",
     "Integrated cabinet helps contain the beam and everyday smoke versus open-frame diodes",
-    "Software listed on the profile: test your workflow (LightBurn or maker app) on scrap first"
+    "AutoPassthrough feeds boards up to 3,000 mm (118 in) long, and a 16 MP dual camera previews the whole bed before you start"
   ],
   "cons": [
     "Ventilation to the outside is mandatory for regular cutting, not an optional upgrade",
     "Tube life and replacement cost are part of the true ownership budget"
   ],
-  "beginnerNotes": "This profile covers xTool P2S. Read the TL;DR and benchmarks before buying, then compare nearby models on the Compare page.",
-  "proTips": "Pair with xTool conveyor for batch work. LightBurn unlocks advanced nesting for sign shops.",
+  "beginnerNotes": "Plan the space first: the P2S measures 1000 × 639 × 268 mm and weighs about 45 kg, so it needs a sturdy table and an exhaust path to a window. Start with the 3 mm plywood and acrylic presets in xTool Creative Space before moving to thick stock.",
+  "proTips": "For long signs, the passthrough slots take boards up to 3,000 mm long; with the riser base, pieces up to 215 mm tall fit inside. The conveyor feeder (it needs the riser base) handles batches, and LightBurn adds nesting for sign shops.",
   "primaryUse": "Premium enclosed CO₂ for production cutting of acrylic and wood in small businesses.",
   "rating": {
     "overall": 8.4,
@@ -102,7 +102,7 @@
     "monport-55w-co2"
   ],
   "status": "published",
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-11-09",
   "images": [
     {
       "src": "/machines/xtool-p2s/01.webp",
@@ -117,5 +117,27 @@
   "releaseDate": "2024-06",
   "catalogPrimary": true,
   "tierEditorialOverride": true,
-  "enclosed": true
+  "enclosed": true,
+  "faq": [
+    {
+      "question": "What wattage is the xTool P2S?",
+      "answer": "55W, from a CO₂ glass tube. xTool states one-pass cuts of 20 mm acrylic and 18 mm wood; for clean edges in daily work, our profile counts on about 15 mm acrylic and 18 mm wood."
+    },
+    {
+      "question": "What is the xTool P2S working area?",
+      "answer": "600 × 308 mm (23.6 × 12 in) of laser travel, on a bed of 680 × 360 mm for placing material. AutoPassthrough processes boards up to 3,000 mm (118 in) long. Material height: 64 mm with the tray, 71 mm without it, 215 mm with the riser base."
+    },
+    {
+      "question": "How big and heavy is the xTool P2S?",
+      "answer": "1000 × 639 × 268 mm (39.4 × 25.1 × 10.6 in) and about 45 kg according to retailer spec sheets; the box measures 1122 × 727 × 346 mm. Plan two people to lift it, and room behind it for the exhaust hose."
+    },
+    {
+      "question": "How much does the xTool P2S cost?",
+      "answer": "On xTool's US store in November 2026: $2,999 standalone, $4,169 for the Versatile Bundle and $5,069 for the All-in-one Bundle. Refurbished units appear at about $2,200 but are often out of stock."
+    },
+    {
+      "question": "xTool P2S, P3 or X1?",
+      "answer": "The P2S is xTool's 55W reference at $2,999. The P3 moves to 80W with more automation, for more than twice the price. The X1 (announced, from $3,399) keeps a 55W CO₂ and adds swappable galvo sources (diode, UV, MOPA, fiber): see our P2S vs X1 comparison."
+    }
+  ]
 }

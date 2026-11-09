@@ -386,6 +386,7 @@ export const fr: Dictionary = {
       "Comparaison spec par spec du {a} et du {b} : notes, prix, performances de découpe, logiciels et points forts réels de chaque machine.",
     duelOpenComparator: "Personnaliser ce comparatif",
     duelRelatedTitle: "Autres comparatifs",
+    duelSeeAlso: "Vous cherchiez un autre duel ?",
     popularTitle: "Comparaisons populaires",
     verdictTitle: "Notre verdict",
     verdictWinsOn: "{name} l'emporte sur",

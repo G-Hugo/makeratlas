@@ -66,6 +66,9 @@ export const COMPARE_DUELS: ReadonlyArray<readonly [string, string]> = [
   ["xtool-x1", "xtool-p3"],
   ["xtool-x1", "xtool-p2s"],
   ["xtool-f1", "xtool-f2-ultra"],
+  // Pairs visitors built themselves in the comparator (Search Console, Nov 2026)
+  ["sculpfun-g20", "commarker-b4-20w"],
+  ["xtool-f2-ultra-uv", "creality-falcon-t1-5w-uv"],
 ];
 
 export function duelParam(slugs: readonly [string, string]): string {

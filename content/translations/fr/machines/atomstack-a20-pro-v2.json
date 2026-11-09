@@ -3,8 +3,8 @@
   "tldr": "L’AtomStack A20 Pro V2 remplace l’ancienne A20 Pro avec des optiques mises à jour et des options de pack. Atomstack milieu de gamme entre P1 et A40 : bons détails, pas la classe de puissance la plus élevée.",
   "mainObjective": "Atomstack 20 W de génération actuelle pour la gravure fine et la découpe modérée",
   "primaryUse": "Module 20W · AtomStack A20 Pro V2",
-  "beginnerNotes": "Ce profil décrit le SKU 20W de AtomStack A20 Pro V2. Lisez le résumé (TL;DR) et les benchmarks ci-dessus, puis comparez les autres puissances via les pastilles avant d’acheter.",
-  "proTips": "Basez vos devis sur les mesures de cette fiche. Testez sur des chutes avant la production.",
+  "beginnerNotes": "La mise au point est manuelle sur la V2 : réglez la hauteur avec la cale avant chaque travail. Machine ouverte : portez les lunettes fournies et évacuez la fumée. Gravez une grille d’essai sur une chute avant la première pièce d’un client.",
+  "proTips": "La détection de flamme ne marche qu’avec le chariot d’axe Z2 : il vaut la peine de l’ajouter pour les découpes sans surveillance. Pour le métal nu, le module infrarouge de 1,8 W en option se monte sur le même châssis.",
   "bestFor": [
     "Gravure + découpe",
     "Petite activité",
@@ -75,6 +75,10 @@
     {
       "question": "A20 Pro V2 ou A40 Pro V2 : laquelle choisir ?",
       "answer": "L'A20 Pro V2 convient à un travail centré sur la gravure avec des découpes fines occasionnelles. L'A40 Pro V2 bascule entre 24 W et 48 W, vise des découpes bien plus épaisses en une passe et coûtait 769 $ machine seule en octobre 2026, environ 400 $ de plus. Si vous gravez surtout des cadeaux et des panneaux, la 20 W est le meilleur usage de votre budget."
+    },
+    {
+      "question": "A20 Pro V2 ou A20 Pro d’origine ?",
+      "answer": "L’A20 Pro d’origine n’est plus vendue neuve ; la V2 l’a remplacée chez Atomstack. Ce sont deux diodes de 20 W au point fin. La V2 ajoute l’alarme de basculement, la détection de flamme (avec le chariot Z2) et la reprise après un arrêt. N’achetez l’ancienne que d’occasion, à un prix nettement plus bas."
     }
   ],
   "standoutFeatures": [
