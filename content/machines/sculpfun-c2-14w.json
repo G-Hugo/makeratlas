@@ -1,0 +1,193 @@
+{
+  "id": "sculpfun-c2-14w",
+  "slug": "sculpfun-c2-14w",
+  "name": "Sculpfun C2 14W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "A 1.6 kg open-frame diode with a 300 × 300 mm bed that cuts 8 mm basswood, for $239",
+  "tldr": "The C2 14W is the stronger version of Sculpfun's new compact engraver, listed on Sculpfun's store in October 2026 at $239. It weighs 1.6 kg, works on a 300 × 300 mm area and moves at up to 20,000 mm/min. Sculpfun gives a 0.06 × 0.06 mm spot and single-pass cuts in 8 mm basswood and 5 mm black acrylic. Focus is set with a built-in lever, and the frame has X and Y limit switches. It is an open frame without an enclosure or air pump in the box, and no independent test exists yet.",
+  "mainObjective": "Engraving and light cutting of wood and dark acrylic on a small desk, at a starter budget",
+  "bestFor": [
+    "First laser on a budget",
+    "Small desks",
+    "Ornaments & small boxes",
+    "Wood & leather gifts"
+  ],
+  "priceRange": {
+    "min": 239,
+    "max": 239,
+    "currency": "USD",
+    "note": "Official Sculpfun store, Nov 2026: $239 for the C2 14W, same price with US, EU, UK or AU plug; the C2 7W is $179"
+  },
+  "specs": {
+    "power": "14W diode",
+    "workArea": "300 × 300 mm",
+    "dimensions": "456 × 442 × 143 mm",
+    "weight": "1.6 kg",
+    "software": [
+      "Sculpfun Space",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~16–24 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~11–18 min"
+      },
+      "technical": {
+        "spotSize": "0.06 × 0.06 mm",
+        "maxSpeed": "333 mm/s (20,000 mm/min)",
+        "avgEngraveSpeed": "~60–150 mm/s",
+        "avgCutSpeed": "~2–3 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Card & felt",
+      "Dark acrylic & black plastic",
+      "Anodized aluminum & coated metal",
+      "Ceramic & dark stone"
+    ],
+    "cut": [
+      "Basswood up to 8 mm in one pass (Sculpfun rating)",
+      "Black acrylic up to 5 mm in one pass (Sculpfun rating)",
+      "Cardboard, felt & non-woven fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal cutting",
+      "Anything larger than 300 × 300 mm",
+      "CO₂-speed cutting"
+    ]
+  },
+  "pros": [
+    "Single-pass cuts in 8 mm basswood and 5 mm black acrylic according to Sculpfun, for $239",
+    "300 × 300 mm area in a 1.6 kg frame that stores easily, four times the area of the earlier Sculpfun C1",
+    "Lever focus and X/Y limit switches: quick to set up and to home"
+  ],
+  "cons": [
+    "Open frame: no enclosure, so safety glasses and smoke extraction are up to you",
+    "Air assist, honeycomb panel and rotary roller are all optional extras",
+    "Very new machine: cutting figures are Sculpfun's own, with no independent test yet"
+  ],
+  "beginnerNotes": "This profile is the 14W version of the Sculpfun C2. Take it over the 7W if you plan to cut wood or dark acrylic: Sculpfun rates it for 8 mm basswood against 5 mm, for $60 more. The frame, area and software are the same on both versions. Sculpfun Space, the free software, runs on Windows; the Mac version is announced but not out yet, so Mac users should plan on LightBurn.",
+  "proTips": "Add the optional air assist before cutting: it clears smoke from the cut and reduces scorching. Put a honeycomb panel or a sacrificial board under the work, as the frame has no bed. Run a test grid on each new plywood batch, since glue layers vary.",
+  "primaryUse": "14W module · Sculpfun C2",
+  "rating": {
+    "overall": 7.7,
+    "value": 8.7,
+    "easeOfUse": 8,
+    "capability": 7.2,
+    "buildQuality": 7
+  },
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The C2 14W puts real cutting ability in a frame that weighs 1.6 kg and costs $239. The 300 × 300 mm area covers coasters, ornaments, signs and small boxes, and the lever focus and limit switches remove two common beginner mistakes: a wrong focus height and a head that hits the frame.",
+    "limitations": "It is an open frame with no enclosure, no air pump and no bed in the box, so the real cost rises once you add air assist and a honeycomb panel. The cutting thicknesses are Sculpfun's ratings, without stated speeds, and the machine is too new for independent tests."
+  },
+  "similarModels": [
+    "sculpfun-c2-7w",
+    "longer-ray7-15w",
+    "sculpfun-s10-10w"
+  ],
+  "faq": [
+    {
+      "question": "How thick can the Sculpfun C2 14W cut?",
+      "answer": "Sculpfun rates the 14W module for 8 mm basswood and 5 mm black acrylic in a single pass. It does not publish the speed used, and no independent test confirms these figures yet. Plywood, which has glue layers, cuts slower than basswood."
+    },
+    {
+      "question": "C2 14W or C2 7W?",
+      "answer": "The 14W costs $239 against $179 for the 7W (Sculpfun store, November 2026). The 14W is rated for 8 mm basswood and 5 mm black acrylic, the 7W for 5 mm and 3 mm. The 7W has a finer spot, 0.04 mm against 0.06 mm, so it suits buyers who only engrave."
+    },
+    {
+      "question": "Can the C2 14W engrave metal?",
+      "answer": "It marks anodized aluminum and coated metal, and Sculpfun lists 304 stainless steel among the engraving materials. For regular marking on bare metal, Sculpfun sells a 1.2W infrared module for the C2 separately."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "c2-14w-cutting",
+      "title": "8 mm basswood in one pass",
+      "body": "Sculpfun rates the 14W module for single-pass cuts in 8 mm basswood and 5 mm black acrylic."
+    },
+    {
+      "id": "c2-14w-compact",
+      "title": "300 × 300 mm at 1.6 kg",
+      "body": "The frame measures 456 × 442 × 143 mm and weighs 1.6 kg, with four times the working area of the earlier Sculpfun C1."
+    },
+    {
+      "id": "c2-14w-focus",
+      "title": "Lever focus",
+      "body": "Lower the built-in lever, slide the module until it touches the material, and the focus is set."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-11-15",
+  "image": "/machines/sculpfun-c2-14w/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-c2-14w/01.webp",
+      "alt": "Sculpfun C2 14W open-frame laser engraver: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-c2-14w/02.webp",
+      "alt": "Sculpfun C2 300 × 300 mm working area: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-c2-14w/03.webp",
+      "alt": "Sculpfun C2 14W module cutting 8 mm basswood and 5 mm black acrylic: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-c2-14w/04.webp",
+      "alt": "Sculpfun C2 14W 0.06 mm laser spot: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-c2-14w/05.webp",
+      "alt": "Sculpfun C2 laser modules: 7W, 14W and the optional 1.2W infrared: Sculpfun"
+    }
+  ],
+  "powerRating": "14W",
+  "modelLine": "sculpfun-c2",
+  "enclosed": false,
+  "tierEditorialOverride": true,
+  "releaseDate": "2026-10"
+}

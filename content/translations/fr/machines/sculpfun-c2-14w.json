@@ -1,0 +1,107 @@
+{
+  "tagline": "Une diode à châssis ouvert de 1,6 kg, avec une surface de 300 × 300 mm, qui découpe 8 mm de tilleul, pour 239 $",
+  "tldr": "La C2 14 W est la version la plus puissante de la nouvelle graveuse compacte de Sculpfun, mise en vente sur la boutique Sculpfun en octobre 2026 à 239 $. Elle pèse 1,6 kg, travaille sur une surface de 300 × 300 mm et se déplace jusqu’à 20 000 mm/min. Sculpfun annonce un point de 0,06 × 0,06 mm et des découpes en une passe dans 8 mm de tilleul et 5 mm d’acrylique noir. La mise au point se fait avec un levier intégré, et le châssis a des fins de course en X et en Y. C’est un châssis ouvert, sans caisson ni pompe à air dans la boîte, et aucun test indépendant n’existe encore.",
+  "mainObjective": "Graver et découper un peu de bois et d’acrylique foncé sur un petit bureau, avec un budget de départ",
+  "primaryUse": "Module 14 W · Sculpfun C2",
+  "beginnerNotes": "Cette fiche décrit la version 14 W de la Sculpfun C2. Prenez-la plutôt que la 7 W si vous comptez découper du bois ou de l’acrylique foncé : Sculpfun l’annonce pour 8 mm de tilleul contre 5 mm, pour 60 $ de plus. Le châssis, la surface et le logiciel sont les mêmes sur les deux versions. Sculpfun Space, le logiciel gratuit, fonctionne sous Windows ; la version Mac est annoncée mais pas encore sortie, donc sur Mac il faut prévoir LightBurn.",
+  "proTips": "Ajoutez l’assistance d’air en option avant de découper : elle chasse la fumée du trait et limite les traces de brûlure. Posez un panneau nid d’abeille ou une planche martyre sous la pièce, car le châssis n’a pas de plateau. Faites une grille d’essai à chaque nouveau lot de contreplaqué, les couches de colle varient.",
+  "bestFor": [
+    "Premier laser à petit budget",
+    "Petits bureaux",
+    "Décorations et petites boîtes",
+    "Cadeaux en bois et en cuir"
+  ],
+  "pros": [
+    "Découpe en une passe 8 mm de tilleul et 5 mm d’acrylique noir selon Sculpfun, pour 239 $",
+    "Surface de 300 × 300 mm dans un châssis de 1,6 kg facile à ranger, soit quatre fois la surface de l’ancienne Sculpfun C1",
+    "Mise au point par levier et fins de course en X et en Y : rapide à régler et à remettre à l’origine"
+  ],
+  "cons": [
+    "Châssis ouvert : pas de caisson, les lunettes de protection et l’extraction des fumées sont à votre charge",
+    "L’assistance d’air, le panneau nid d’abeille et le rouleau rotatif sont tous en option",
+    "Machine très récente : les épaisseurs de découpe viennent de Sculpfun, sans test indépendant pour l’instant"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois et contreplaqué",
+      "Cuir",
+      "Carton et feutre",
+      "Acrylique foncé et plastique noir",
+      "Aluminium anodisé et métal revêtu",
+      "Céramique et pierre foncée"
+    ],
+    "cut": [
+      "Tilleul jusqu’à 8 mm en une passe (donnée Sculpfun)",
+      "Acrylique noir jusqu’à 5 mm en une passe (donnée Sculpfun)",
+      "Carton, feutre et tissu non tissé"
+    ],
+    "cannot": [
+      "Acrylique transparent",
+      "Découpe du métal nu",
+      "Tout objet de plus de 300 × 300 mm",
+      "Découpe à la vitesse d’un laser CO₂"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle Sculpfun, nov. 2026 : 239 $ pour la C2 14 W, même prix en prise US, UE, UK ou AU ; la C2 7 W est à 179 $"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Photo remplie ou logo sur contreplaqué de bouleau"
+      },
+      "cutExample": {
+        "description": "Découpe carrée simple dans du tilleul 3 mm"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quelle épaisseur la Sculpfun C2 14 W peut-elle découper ?",
+      "answer": "Sculpfun annonce le module 14 W pour 8 mm de tilleul et 5 mm d’acrylique noir en une seule passe. La marque ne publie pas la vitesse utilisée, et aucun test indépendant ne confirme encore ces chiffres. Le contreplaqué, avec ses couches de colle, se découpe plus lentement que le tilleul."
+    },
+    {
+      "question": "C2 14 W ou C2 7 W ?",
+      "answer": "La 14 W coûte 239 $ contre 179 $ pour la 7 W (boutique Sculpfun, novembre 2026). La 14 W est annoncée pour 8 mm de tilleul et 5 mm d’acrylique noir, la 7 W pour 5 mm et 3 mm. La 7 W a un point plus fin, 0,04 mm contre 0,06 mm : elle convient à ceux qui ne font que graver."
+    },
+    {
+      "question": "La C2 14 W peut-elle graver le métal ?",
+      "answer": "Elle marque l’aluminium anodisé et le métal revêtu, et Sculpfun cite l’inox 304 parmi les matériaux à graver. Pour marquer régulièrement du métal nu, Sculpfun vend à part un module infrarouge de 1,2 W pour la C2."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Graveuse laser à châssis ouvert Sculpfun C2 14 W : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun C2, surface de travail de 300 × 300 mm : Sculpfun"
+    },
+    {
+      "alt": "Module 14 W de la Sculpfun C2 découpant 8 mm de tilleul et 5 mm d’acrylique noir : Sculpfun"
+    },
+    {
+      "alt": "Sculpfun C2 14 W, point laser de 0,06 mm : Sculpfun"
+    },
+    {
+      "alt": "Modules laser de la Sculpfun C2 : 7 W, 14 W et infrarouge 1,2 W en option : Sculpfun"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La C2 14 W apporte une vraie capacité de découpe dans un châssis qui pèse 1,6 kg et coûte 239 $. La surface de 300 × 300 mm suffit pour des dessous de verre, des décorations, des panneaux et de petites boîtes, et le levier de mise au point comme les fins de course évitent deux erreurs courantes quand on débute : une mauvaise hauteur de mise au point et une tête qui tape dans le châssis.",
+    "limitations": "C’est un châssis ouvert, sans caisson, sans pompe à air et sans plateau dans la boîte : le coût réel monte dès qu’on ajoute l’assistance d’air et un panneau nid d’abeille. Les épaisseurs de découpe sont des données de Sculpfun, sans vitesse précisée, et la machine est trop récente pour avoir été testée de façon indépendante."
+  },
+  "standoutFeatures": [
+    {
+      "title": "8 mm de tilleul en une passe",
+      "body": "Sculpfun annonce le module 14 W pour des découpes en une passe dans 8 mm de tilleul et 5 mm d’acrylique noir."
+    },
+    {
+      "title": "300 × 300 mm pour 1,6 kg",
+      "body": "Le châssis mesure 456 × 442 × 143 mm et pèse 1,6 kg, avec quatre fois la surface de travail de l’ancienne Sculpfun C1."
+    },
+    {
+      "title": "Mise au point par levier",
+      "body": "On abaisse le levier intégré, on fait descendre le module jusqu’à ce qu’il touche le matériau, et la mise au point est faite."
+    }
+  ]
+}

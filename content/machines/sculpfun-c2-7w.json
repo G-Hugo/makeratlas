@@ -1,0 +1,193 @@
+{
+  "id": "sculpfun-c2-7w",
+  "slug": "sculpfun-c2-7w",
+  "name": "Sculpfun C2 7W",
+  "brand": "Sculpfun",
+  "category": "laser-engraver",
+  "laserType": "diode",
+  "tagline": "The entry C2: a 1.6 kg open-frame engraver with a 0.04 mm spot and a 300 × 300 mm bed, for $179",
+  "tldr": "The C2 7W is the cheapest version of Sculpfun's new compact engraver, listed on Sculpfun's store in October 2026 at $179. It weighs 1.6 kg, works on a 300 × 300 mm area and moves at up to 20,000 mm/min. Sculpfun gives a 0.04 × 0.04 mm spot, finer than the 14W version, and single-pass cuts in 5 mm basswood and 3 mm black acrylic. Focus is set with a built-in lever, and the frame has X and Y limit switches. It is an engraver first, on an open frame without an enclosure, and no independent test exists yet.",
+  "mainObjective": "Detailed engraving of wood, leather and card on a small desk, at the lowest budget",
+  "bestFor": [
+    "First laser on a budget",
+    "Detailed engraving",
+    "Small desks",
+    "Leather & wood gifts"
+  ],
+  "priceRange": {
+    "min": 179,
+    "max": 179,
+    "currency": "USD",
+    "note": "Official Sculpfun store, Nov 2026: $179 for the C2 7W, same price with US, EU, UK or AU plug; the C2 14W is $239"
+  },
+  "specs": {
+    "power": "7W diode",
+    "workArea": "300 × 300 mm",
+    "dimensions": "456 × 442 × 143 mm",
+    "weight": "1.6 kg",
+    "software": [
+      "Sculpfun Space",
+      "LightBurn",
+      "LaserGRBL"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Filled photo or logo on birch plywood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~24–36 min"
+      },
+      "cutExample": {
+        "description": "Simple square cut-out from 3 mm basswood",
+        "size": "10 × 10 cm (4 × 4 in)",
+        "time": "~18–30 min"
+      },
+      "technical": {
+        "spotSize": "0.04 × 0.04 mm",
+        "maxSpeed": "333 mm/s (20,000 mm/min)",
+        "avgEngraveSpeed": "~40–100 mm/s",
+        "avgCutSpeed": "~1–2 mm/s (3 mm)"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood & plywood",
+      "Leather",
+      "Card & felt",
+      "Dark acrylic & black plastic",
+      "Anodized aluminum & coated metal",
+      "Ceramic & dark stone"
+    ],
+    "cut": [
+      "Basswood up to 5 mm in one pass (Sculpfun rating)",
+      "Black acrylic up to 3 mm in one pass (Sculpfun rating)",
+      "Cardboard, felt & non-woven fabric"
+    ],
+    "cannot": [
+      "Clear acrylic",
+      "Bare metal cutting",
+      "Anything larger than 300 × 300 mm",
+      "Regular thick cutting"
+    ]
+  },
+  "pros": [
+    "0.04 × 0.04 mm spot according to Sculpfun, the finest of the two C2 versions, for small text and photos",
+    "$179 for a 300 × 300 mm area, in a 1.6 kg frame that stores easily",
+    "Lever focus and X/Y limit switches: quick to set up and to home"
+  ],
+  "cons": [
+    "Cutting is limited: Sculpfun rates it for 5 mm basswood and 3 mm black acrylic, and thicker wood needs the 14W",
+    "Open frame: no enclosure, so safety glasses and smoke extraction are up to you",
+    "Very new machine: figures are Sculpfun's own, with no independent test yet"
+  ],
+  "beginnerNotes": "This profile is the 7W version of the Sculpfun C2. Take it if you mostly engrave gifts, signs and photos and cut thin wood only now and then. If cutting matters, the 14W costs $60 more and is rated for 8 mm basswood. The frame, area and software are the same on both versions. Sculpfun Space, the free software, runs on Windows; the Mac version is announced but not out yet, so Mac users should plan on LightBurn.",
+  "proTips": "For photos, slow the fill and lower the power slightly to make the most of the narrow spot. Put a sacrificial board or a honeycomb panel under the work, as the frame has no bed. For cuts, two faster passes often leave cleaner edges than one very slow pass.",
+  "primaryUse": "7W module · Sculpfun C2",
+  "rating": {
+    "overall": 7.6,
+    "value": 8.8,
+    "easeOfUse": 8,
+    "capability": 6.8,
+    "buildQuality": 7
+  },
+  "accessories": [
+    {
+      "id": "safety-glasses",
+      "availability": "included"
+    },
+    {
+      "id": "air-assist",
+      "availability": "optional"
+    },
+    {
+      "id": "honeycomb-bed",
+      "availability": "recommended"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional"
+    },
+    {
+      "id": "fume-extractor",
+      "availability": "recommended"
+    },
+    {
+      "id": "lightburn",
+      "availability": "optional"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "The C2 7W is one of the cheapest ways to get a 300 × 300 mm working area: $179 for a 1.6 kg frame with a 0.04 mm spot, lever focus and limit switches. For engraving coasters, leather tags, signs and photos, the fine spot matters more than raw power.",
+    "limitations": "Seven watts keep cutting to thin wood and thin dark acrylic. It is an open frame with no enclosure, no air pump and no bed in the box. The figures are Sculpfun's ratings, and the machine is too new for independent tests."
+  },
+  "similarModels": [
+    "sculpfun-c2-14w",
+    "longer-ray7-7-5w",
+    "acmer-k1-7w"
+  ],
+  "faq": [
+    {
+      "question": "Can the Sculpfun C2 7W cut wood?",
+      "answer": "Thin wood, yes. Sculpfun rates the 7W module for 5 mm basswood and 3 mm black acrylic in a single pass, without publishing the speed used, and no independent test confirms these figures yet. For regular cutting, the 14W version is the better choice."
+    },
+    {
+      "question": "C2 7W or C2 14W?",
+      "answer": "The 7W costs $179 against $239 for the 14W (Sculpfun store, November 2026). The 7W has the finer spot, 0.04 mm against 0.06 mm, and suits engraving. The 14W is rated for 8 mm basswood and 5 mm black acrylic, against 5 mm and 3 mm for the 7W."
+    },
+    {
+      "question": "Which software works with the C2 7W?",
+      "answer": "Sculpfun Space, the brand's free software for Windows, plus LightBurn and LaserGRBL. Sculpfun says the Mac version of Sculpfun Space is coming; until then, Mac users need LightBurn, which is paid."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "c2-7w-spot",
+      "title": "0.04 mm spot",
+      "body": "Sculpfun gives the 7W module a 0.04 × 0.04 mm spot, finer than the 0.06 mm of the 14W, for small text and detailed patterns."
+    },
+    {
+      "id": "c2-7w-compact",
+      "title": "300 × 300 mm at 1.6 kg",
+      "body": "The frame measures 456 × 442 × 143 mm and weighs 1.6 kg, with four times the working area of the earlier Sculpfun C1."
+    },
+    {
+      "id": "c2-7w-focus",
+      "title": "Lever focus",
+      "body": "Lower the built-in lever, slide the module until it touches the material, and the focus is set."
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-11-15",
+  "image": "/machines/sculpfun-c2-7w/01.webp",
+  "images": [
+    {
+      "src": "/machines/sculpfun-c2-7w/01.webp",
+      "alt": "Sculpfun C2 7W open-frame laser engraver: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-c2-7w/02.webp",
+      "alt": "Sculpfun C2 300 × 300 mm working area: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-c2-7w/03.webp",
+      "alt": "Sculpfun C2 7W module cutting 5 mm basswood and 3 mm black acrylic: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-c2-7w/04.webp",
+      "alt": "Sculpfun C2 7W 0.04 mm laser spot: Sculpfun"
+    },
+    {
+      "src": "/machines/sculpfun-c2-7w/05.webp",
+      "alt": "Sculpfun C2 hanging on a pegboard, 1.6 kg: Sculpfun"
+    }
+  ],
+  "powerRating": "7W",
+  "modelLine": "sculpfun-c2",
+  "enclosed": false,
+  "tierEditorialOverride": true,
+  "releaseDate": "2026-10"
+}

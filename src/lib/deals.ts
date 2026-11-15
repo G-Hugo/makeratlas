@@ -8,7 +8,7 @@ import type { FaqItem } from "@/components/seo/SeoFaqSection";
  * the sale season. The saving shown on the page is measured against it, never
  * against the store's own crossed-out "was" price, which is often inflated.
  */
-export const DEALS_CHECKED_ON = "2026-11-08";
+export const DEALS_CHECKED_ON = "2026-11-15";
 
 export interface Deal {
   slug: string;
@@ -24,6 +24,41 @@ export interface Deal {
 }
 
 export const DEALS: Deal[] = [
+  {
+    slug: "creality-falcon-t1",
+    price: 1999,
+    usualPrice: 2499,
+    storeWasPrice: 2499,
+    store: "Creality Falcon",
+    storeUrl: "https://www.crealityfalcon.com/products/creality-falcon-t1-5-in-1-laser-engraver",
+    configuration: { en: "20W diode, complete machine", fr: "Diode 20 W, machine complète" },
+  },
+  {
+    slug: "omtech-90w-co2",
+    price: 2399.99,
+    usualPrice: 2999.99,
+    store: "OMTech",
+    storeUrl: "https://omtechlaser.com/products/co2-laser-engraver-cutter-usb-8r57-ul",
+    configuration: { en: "MF2028-80 manual focus with the Essentials Kit, the cheapest option", fr: "MF2028-80 à mise au point manuelle avec le kit Essentials, l’option la moins chère" },
+  },
+  {
+    slug: "algolaser-diy-kit-mk3-8w",
+    price: 219,
+    usualPrice: 259,
+    storeWasPrice: 299,
+    store: "AlgoLaser",
+    storeUrl: "https://algolaser.com/products/algolaser-diy-kit-mk3-diode-laser-engraver",
+    configuration: { en: "8W, machine only", fr: "8 W, machine seule" },
+  },
+  {
+    slug: "creality-falcon-a1c-10w",
+    price: 313,
+    usualPrice: 369,
+    storeWasPrice: 369,
+    store: "Creality Falcon",
+    storeUrl: "https://www.crealityfalcon.com/products/creality-falcon-a1c-laser-engraver",
+    configuration: { en: "10W, machine only, without AI camera", fr: "10 W, machine seule, sans caméra IA" },
+  },
   {
     slug: "xtool-f1-ultra",
     price: 2549,
@@ -60,12 +95,13 @@ export const DEALS: Deal[] = [
     configuration: { en: "48W Basic Pack", fr: "Pack Basic 48 W" },
   },
   {
-    slug: "omtech-90w-co2",
-    price: 2699.99,
-    usualPrice: 2999.99,
-    store: "OMTech",
-    storeUrl: "https://omtechlaser.com/products/co2-laser-engraver-cutter-usb-8r57-ul",
-    configuration: { en: "MF2028-80 manual focus, standard package", fr: "MF2028-80 à mise au point manuelle, version standard" },
+    slug: "creality-falcon-a1c-5w",
+    price: 242,
+    usualPrice: 269,
+    storeWasPrice: 269,
+    store: "Creality Falcon",
+    storeUrl: "https://www.crealityfalcon.com/products/creality-falcon-a1c-laser-engraver",
+    configuration: { en: "5W, machine only, without AI camera", fr: "5 W, machine seule, sans caméra IA" },
   },
   {
     slug: "monport-gt-50w-fiber",
@@ -86,47 +122,13 @@ export const DEALS: Deal[] = [
     configuration: { en: "36W Basic Pack", fr: "Pack Basic 36 W" },
   },
   {
-    slug: "creality-falcon-10w",
-    price: 189.9,
-    usualPrice: 205,
-    storeWasPrice: 379,
-    store: "Creality Falcon",
-    storeUrl: "https://www.crealityfalcon.com/products/10w-cr-laser-falcon-laser-engraver-and-cutter-for-sale",
-    configuration: { en: "Machine only", fr: "Machine seule" },
-  },
-  {
-    slug: "atomstack-a70-max",
-    price: 1519,
-    usualPrice: 1639,
-    storeWasPrice: 2099.99,
-    store: "Atomstack",
-    storeUrl: "https://www.atomstack.com/products/atomstack-a70-max",
-    configuration: { en: "Machine only (US plug)", fr: "Machine seule (prise US)" },
-  },
-  {
-    slug: "monport-gt-100w-fiber",
-    price: 6179,
-    usualPrice: 6600,
-    storeWasPrice: 9399.99,
+    slug: "monport-reno-65-2026",
+    price: 2064.99,
+    usualPrice: 2249.99,
+    storeWasPrice: 3199.99,
     store: "Monport",
-    storeUrl: "https://monportlaser.com/products/gt-100w-mopa-laser-machine-color-marking-deep-engraving",
-    configuration: { en: "Machine only", fr: "Machine seule" },
-  },
-  {
-    slug: "sculpfun-s70-max-70w",
-    price: 1599,
-    usualPrice: 1699,
-    store: "Sculpfun",
-    storeUrl: "https://www.sculpfun.com/products/sculpfun-s70-max-70w-laser-engraver-and-cutting-machine",
-    configuration: { en: "Machine only", fr: "Machine seule" },
-  },
-  {
-    slug: "sculpfun-e1-pro-21w",
-    price: 799,
-    usualPrice: 849,
-    store: "Sculpfun",
-    storeUrl: "https://www.sculpfun.com/products/sculpfun-e1-pro-enclosed-dual-laser-engraving-machine",
-    configuration: { en: "Single 21W diode", fr: "Diode 21 W seule" },
+    storeUrl: "https://monportlaser.com/products/reno65-pro",
+    configuration: { en: "Reno 65 Pro without camera, machine only", fr: "Reno 65 Pro sans caméra, machine seule" },
   },
 ];
 
@@ -142,6 +144,7 @@ export const INFLATED_WAS_PRICES: InflatedWasPrice[] = [
   { slug: "monport-ga-100w-fiber", storeWasPrice: 12199.99, octoberPrice: 5000, price: 4979 },
   { slug: "acmer-p3-48w", storeWasPrice: 2299, octoberPrice: 1149, price: 1199 },
   { slug: "acmer-p2-33w", storeWasPrice: 1599, octoberPrice: 609, price: 589 },
+  { slug: "two-trees-ts2-20w", storeWasPrice: 1134, octoberPrice: 499, price: 499 },
 ];
 
 export interface DealsCopy {
