@@ -1,0 +1,188 @@
+{
+  "id": "omtech-polar-s-55w",
+  "slug": "omtech-polar-s-55w",
+  "name": "OMTech Polar S 55W",
+  "brand": "OMTech",
+  "category": "laser-engraver",
+  "laserType": "co2",
+  "tagline": "Desktop CO₂ with a 600 × 305 mm bed, 55W tube, built-in water cooling and a pass-through",
+  "tldr": "The Polar S is OMTech's new compact desktop CO₂: a 55W tube cooled by an internal 4.3 L water loop, a 600 × 305 mm bed, a 16 MP camera, auto-focus and a front-to-back pass-through, at $2,399.99 with LightBurn. It sits below the Polar 2 70W and goes straight at the Bambu Lab R1 and xTool P2S. Shipping is announced for December 3, 2026; no independent review yet.",
+  "mainObjective": "Desktop CO₂ cutting and engraving of wood and acrylic, without an external chiller, at a lower price than the Polar 2",
+  "bestFor": [
+    "Upgrading from diode",
+    "Acrylic signs",
+    "Wood crafts",
+    "Small business"
+  ],
+  "priceRange": {
+    "min": 2399.99,
+    "max": 2529.99,
+    "currency": "USD",
+    "note": "Official OMTech store, Nov 2026: $2,399.99 with LightBurn, $2,529.99 with LightBurn and rotary axis; pre-order, shipping announced for December 3, 2026"
+  },
+  "specs": {
+    "power": "55W CO₂ glass tube",
+    "workArea": "600 × 305 mm (23.6 × 12 in)",
+    "dimensions": "—",
+    "software": [
+      "LightBurn"
+    ],
+    "connectivity": [
+      "USB"
+    ],
+    "performance": {
+      "precision": "—",
+      "engraveExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "cutExample": {
+        "description": "Not measured yet",
+        "size": "—",
+        "time": "—"
+      },
+      "technical": {
+        "spotSize": "—",
+        "maxSpeed": "1,000 mm/s",
+        "avgEngraveSpeed": "—",
+        "avgCutSpeed": "—"
+      }
+    }
+  },
+  "materials": {
+    "engrave": [
+      "Wood",
+      "Acrylic",
+      "Leather",
+      "Glass",
+      "Stone & slate",
+      "Anodized aluminum"
+    ],
+    "cut": [
+      "Acrylic up to 15 mm (OMTech figure)",
+      "Wood up to 15 mm (OMTech figure)",
+      "Leather",
+      "Fabric & felt"
+    ],
+    "cannot": [
+      "Bare metal",
+      "Use without venting smoke outside"
+    ]
+  },
+  "pros": [
+    "Internal 4.3 L closed water loop: no separate chiller or bucket to plumb",
+    "Front-to-back pass-through for boards longer than the bed",
+    "16 MP camera, auto-focus and LightBurn included at $2,399.99",
+    "Flame detection, emergency stop and two work platforms (honeycomb and blade) in the box"
+  ],
+  "cons": [
+    "Not shipping before December 3, 2026: specs are OMTech's, with no independent test yet",
+    "Smaller bed than the Polar 2 70W (710 × 360 mm)",
+    "Glass tube: a wear part to replace after a few thousand hours"
+  ],
+  "beginnerNotes": "The Polar S is the entry point to OMTech's water-cooled desktop CO₂ range. Compare it with the Bambu Lab R1 (same 55W class and bed size) and the Polar 2 70W if you need a bigger bed and more cutting power.",
+  "proTips": "Check the coolant level before long cutting runs, even with the internal loop. Duct the exhaust outside. Use the blade platform for cutting acrylic and the honeycomb for engraving and thin sheets.",
+  "primaryUse": "55W glass tube · OMTech Polar S",
+  "rating": {
+    "overall": 8.1,
+    "value": 8.4,
+    "easeOfUse": 8,
+    "capability": 8.1,
+    "buildQuality": 8
+  },
+  "similarModels": [
+    "bambu-lab-r1",
+    "xtool-p2s",
+    "omtech-polar-2-70w"
+  ],
+  "faq": [
+    {
+      "question": "When does the OMTech Polar S ship?",
+      "answer": "OMTech lists the Polar S 55W as a pre-order shipping on December 3, 2026, at $2,399.99 with LightBurn or $2,529.99 with the rotary axis as well."
+    },
+    {
+      "question": "Does the Polar S need a water chiller?",
+      "answer": "Not a separate one: OMTech lists a 4.3 L closed-loop water cooling system inside the machine. Keep the coolant topped up and the room temperature reasonable."
+    },
+    {
+      "question": "Polar S or Polar 2 70W?",
+      "answer": "The Polar 2 70W has a larger 710 × 360 mm bed and a stronger tube for $3,699.99. The Polar S costs $1,300 less, keeps the internal water cooling and the 16 MP camera, and adds a front-to-back pass-through on a 600 × 305 mm bed."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "polar-s-internal-cooling",
+      "title": "Water cooling built in",
+      "body": "An internal 4.3 L closed loop replaces the external chiller or bucket most glass-tube CO₂ machines need."
+    },
+    {
+      "id": "polar-s-pass-through",
+      "title": "Front-to-back pass-through",
+      "body": "Boards longer than the 600 × 305 mm bed slide through the machine, which the Polar 2 cannot do."
+    }
+  ],
+  "accessories": [
+    {
+      "id": "enclosure",
+      "availability": "included"
+    },
+    {
+      "id": "camera",
+      "availability": "included",
+      "note": "16 MP camera"
+    },
+    {
+      "id": "rotary-roller",
+      "availability": "optional",
+      "note": "$130 more in the rotary package"
+    },
+    {
+      "id": "lightburn",
+      "availability": "included",
+      "note": "LightBurn in both OMTech packages"
+    }
+  ],
+  "status": "published",
+  "lastUpdated": "2026-11-22",
+  "image": "/machines/omtech-polar-s-55w/01.webp",
+  "images": [
+    {
+      "src": "/machines/omtech-polar-s-55w/01.webp",
+      "alt": "OMTech Polar S desktop CO₂ laser with the lid open: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-s-55w/02.webp",
+      "alt": "OMTech Polar S front view: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-s-55w/03.webp",
+      "alt": "OMTech Polar S 600 × 305 mm work area: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-s-55w/04.webp",
+      "alt": "OMTech Polar S front-to-back pass-through: OMTech"
+    },
+    {
+      "src": "/machines/omtech-polar-s-55w/05.webp",
+      "alt": "OMTech Polar S internal 4.3 L cooling loop: OMTech"
+    }
+  ],
+  "powerRating": "55W",
+  "releaseDate": "2026-11",
+  "announced": {
+    "expected": "2026-12"
+  },
+  "laserCapabilities": [
+    "co2"
+  ],
+  "capabilityTags": [
+    "co2"
+  ],
+  "enclosed": true,
+  "tierEditorialOverride": true,
+  "editorialDepth": {
+    "advantages": "The Polar S brings the Polar 2's internal water cooling and 16 MP camera down to $2,399.99, adds a pass-through the Polar 2 lacks and includes LightBurn. On paper it competes directly with the Bambu Lab R1, with the advantage of standard LightBurn software.",
+    "limitations": "Nothing is delivered yet: all figures are OMTech's. The bed is smaller than the Polar 2's, the glass tube will need replacing one day, and smoke must be vented outside."
+  }
+}

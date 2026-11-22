@@ -1,0 +1,105 @@
+{
+  "tagline": "CO₂ de bureau avec surface de 600 × 305 mm, tube 55 W, refroidissement à eau intégré et trappe traversante",
+  "tldr": "La Polar S est le nouveau CO₂ de bureau compact d’OMTech : un tube de 55 W refroidi par un circuit d’eau interne de 4,3 L, une surface de 600 × 305 mm, une caméra 16 Mpx, une mise au point automatique et une trappe traversante de l’avant vers l’arrière, à 2 399,99 $ avec LightBurn. Elle se place sous la Polar 2 70 W et vise directement la Bambu Lab R1 et la xTool P2S. Expédition annoncée pour le 3 décembre 2026 ; pas encore de test indépendant.",
+  "mainObjective": "Découper et graver bois et acrylique au CO₂ sur un bureau, sans refroidisseur externe, pour moins cher que la Polar 2",
+  "primaryUse": "Tube verre 55 W · OMTech Polar S",
+  "beginnerNotes": "La Polar S est la porte d’entrée de la gamme OMTech de CO₂ de bureau refroidis à l’eau. Comparez-la à la Bambu Lab R1 (même classe de 55 W, même taille de plateau) et à la Polar 2 70 W si vous avez besoin d’un plateau plus grand et de plus de puissance de découpe.",
+  "proTips": "Vérifiez le niveau de liquide avant les longues découpes, même avec le circuit intégré. Évacuez les fumées vers l’extérieur. Utilisez le plateau à lames pour découper l’acrylique et le nid d’abeille pour la gravure et les plaques fines.",
+  "bestFor": [
+    "Passer de la diode au CO₂",
+    "Enseignes en acrylique",
+    "Objets en bois",
+    "Petite entreprise"
+  ],
+  "pros": [
+    "Circuit d’eau fermé interne de 4,3 L : pas de refroidisseur séparé ni de seau à raccorder",
+    "Trappe traversante de l’avant vers l’arrière pour les planches plus longues que le plateau",
+    "Caméra 16 Mpx, mise au point automatique et LightBurn inclus pour 2 399,99 $",
+    "Détection de flamme, arrêt d’urgence et deux plateaux (nid d’abeille et lames) fournis"
+  ],
+  "cons": [
+    "Pas d’expédition avant le 3 décembre 2026 : les caractéristiques sont celles d’OMTech, sans test indépendant",
+    "Plateau plus petit que celui de la Polar 2 70 W (710 × 360 mm)",
+    "Tube en verre : une pièce d’usure à remplacer après quelques milliers d’heures"
+  ],
+  "materials": {
+    "engrave": [
+      "Bois",
+      "Acrylique",
+      "Cuir",
+      "Verre",
+      "Pierre et ardoise",
+      "Aluminium anodisé"
+    ],
+    "cut": [
+      "Acrylique jusqu’à 15 mm (chiffre OMTech)",
+      "Bois jusqu’à 15 mm (chiffre OMTech)",
+      "Cuir",
+      "Tissu et feutre"
+    ],
+    "cannot": [
+      "Métal nu",
+      "Usage sans évacuation des fumées vers l’extérieur"
+    ]
+  },
+  "priceRange": {
+    "note": "Boutique officielle OMTech, nov. 2026 : 2 399,99 $ avec LightBurn, 2 529,99 $ avec LightBurn et module rotatif ; précommande, expédition annoncée pour le 3 décembre 2026"
+  },
+  "specs": {
+    "performance": {
+      "engraveExample": {
+        "description": "Pas encore mesuré"
+      },
+      "cutExample": {
+        "description": "Pas encore mesuré"
+      }
+    }
+  },
+  "faq": [
+    {
+      "question": "Quand l’OMTech Polar S sera-t-elle expédiée ?",
+      "answer": "OMTech vend la Polar S 55 W en précommande, avec une expédition annoncée pour le 3 décembre 2026, à 2 399,99 $ avec LightBurn ou 2 529,99 $ avec le module rotatif en plus."
+    },
+    {
+      "question": "La Polar S a-t-elle besoin d’un refroidisseur ?",
+      "answer": "Pas d’un appareil séparé : OMTech annonce un circuit d’eau fermé de 4,3 L à l’intérieur de la machine. Il faut maintenir le niveau de liquide et une température de pièce raisonnable."
+    },
+    {
+      "question": "Polar S ou Polar 2 70 W ?",
+      "answer": "La Polar 2 70 W a un plateau plus grand (710 × 360 mm) et un tube plus puissant pour 3 699,99 $. La Polar S coûte 1 300 $ de moins, garde le refroidissement à eau intégré et la caméra 16 Mpx, et ajoute une trappe traversante de l’avant vers l’arrière, sur un plateau de 600 × 305 mm."
+    }
+  ],
+  "standoutFeatures": [
+    {
+      "id": "polar-s-internal-cooling",
+      "title": "Le refroidissement à eau intégré",
+      "body": "Un circuit fermé interne de 4,3 L remplace le refroidisseur externe ou le seau qu’exigent la plupart des CO₂ à tube en verre."
+    },
+    {
+      "id": "polar-s-pass-through",
+      "title": "Une trappe traversante de l’avant vers l’arrière",
+      "body": "Les planches plus longues que le plateau de 600 × 305 mm traversent la machine, ce que la Polar 2 ne permet pas."
+    }
+  ],
+  "images": [
+    {
+      "alt": "Laser CO₂ de bureau OMTech Polar S capot ouvert : OMTech"
+    },
+    {
+      "alt": "OMTech Polar S vue de face : OMTech"
+    },
+    {
+      "alt": "OMTech Polar S, surface de travail de 600 × 305 mm : OMTech"
+    },
+    {
+      "alt": "OMTech Polar S, trappe traversante de l’avant vers l’arrière : OMTech"
+    },
+    {
+      "alt": "OMTech Polar S, circuit de refroidissement interne de 4,3 L : OMTech"
+    }
+  ],
+  "editorialDepth": {
+    "advantages": "La Polar S apporte le refroidissement à eau intégré et la caméra 16 Mpx de la Polar 2 à 2 399,99 $, ajoute la trappe traversante qui manque à la Polar 2 et inclut LightBurn. Sur le papier, elle concurrence directement la Bambu Lab R1, avec l’avantage du logiciel LightBurn, très répandu.",
+    "limitations": "Rien n’est encore livré : tous les chiffres sont ceux d’OMTech. Le plateau est plus petit que celui de la Polar 2, le tube en verre devra être remplacé un jour et les fumées doivent sortir à l’extérieur."
+  }
+}

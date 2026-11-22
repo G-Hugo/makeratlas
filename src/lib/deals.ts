@@ -8,7 +8,7 @@ import type { FaqItem } from "@/components/seo/SeoFaqSection";
  * the sale season. The saving shown on the page is measured against it, never
  * against the store's own crossed-out "was" price, which is often inflated.
  */
-export const DEALS_CHECKED_ON = "2026-11-15";
+export const DEALS_CHECKED_ON = "2026-11-22";
 
 export interface Deal {
   slug: string;
@@ -24,6 +24,24 @@ export interface Deal {
 }
 
 export const DEALS: Deal[] = [
+  {
+    slug: "creality-falcon-a1-pro-20w",
+    price: 835,
+    usualPrice: 1099,
+    storeWasPrice: 1099,
+    store: "Creality Falcon",
+    storeUrl: "https://www.crealityfalcon.com/products/falcon-a1-pro-20w-dual-laser-engraver",
+    configuration: { en: "20W, machine only", fr: "20 W, machine seule" },
+  },
+  {
+    slug: "creality-falcon-a1-10w",
+    price: 439,
+    usualPrice: 549,
+    storeWasPrice: 599,
+    store: "Creality Falcon",
+    storeUrl: "https://www.crealityfalcon.com/products/falcon-a1-10w-enclosed-laser-engraver-and-cutter",
+    configuration: { en: "10W, machine only", fr: "10 W, machine seule" },
+  },
   {
     slug: "creality-falcon-t1",
     price: 1999,
@@ -42,15 +60,6 @@ export const DEALS: Deal[] = [
     configuration: { en: "MF2028-80 manual focus with the Essentials Kit, the cheapest option", fr: "MF2028-80 à mise au point manuelle avec le kit Essentials, l’option la moins chère" },
   },
   {
-    slug: "algolaser-diy-kit-mk3-8w",
-    price: 219,
-    usualPrice: 259,
-    storeWasPrice: 299,
-    store: "AlgoLaser",
-    storeUrl: "https://algolaser.com/products/algolaser-diy-kit-mk3-diode-laser-engraver",
-    configuration: { en: "8W, machine only", fr: "8 W, machine seule" },
-  },
-  {
     slug: "creality-falcon-a1c-10w",
     price: 313,
     usualPrice: 369,
@@ -67,15 +76,6 @@ export const DEALS: Deal[] = [
     store: "xTool",
     storeUrl: "https://www.xtool.com/products/xtool-f1-ultra-20w-fiber-diode-dual-laser-engraver",
     configuration: { en: "Standalone machine", fr: "Machine seule" },
-  },
-  {
-    slug: "xtool-s1-40w",
-    price: 1448,
-    usualPrice: 1699,
-    storeWasPrice: 2199,
-    store: "xTool",
-    storeUrl: "https://www.xtool.com/products/xtool-s1-laser-cutter",
-    configuration: { en: "40W Basic Bundle", fr: "Pack Basic 40 W" },
   },
   {
     slug: "longer-nano-duo-ai",
@@ -142,7 +142,7 @@ export interface InflatedWasPrice {
 
 export const INFLATED_WAS_PRICES: InflatedWasPrice[] = [
   { slug: "monport-ga-100w-fiber", storeWasPrice: 12199.99, octoberPrice: 5000, price: 4979 },
-  { slug: "acmer-p3-48w", storeWasPrice: 2299, octoberPrice: 1149, price: 1199 },
+  { slug: "acmer-p3-48w", storeWasPrice: 2299, octoberPrice: 1149, price: 1099 },
   { slug: "acmer-p2-33w", storeWasPrice: 1599, octoberPrice: 609, price: 589 },
   { slug: "two-trees-ts2-20w", storeWasPrice: 1134, octoberPrice: 499, price: 499 },
 ];
